@@ -179,16 +179,18 @@ app.get('/api/syllabus', checkSubscription, async (req, res) => {
 
 // --- Custom MCQ Quiz Generator Route (Gated, Strict No-Repeat Guard) ---
 app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
-    const { userId, topicIds, count } = req.body;
-    if (!userId || !topicIds || !Array.isArray(topicIds) || topicIds.length === 0) {
-        return res.status(400).json({ error: "User ID and at least one Topic ID are required." });
+    const { userId, topicIds, minuteTopicId, count, language } = req.body;
+    const lang = language || req.headers['x-user-language'] || 'EN';
+
+    if (!userId || ((!topicIds || !Array.isArray(topicIds) || topicIds.length === 0) && !minuteTopicId)) {
+        return res.status(400).json({ error: "User ID and at least one Topic ID or Minute Topic ID are required." });
     }
 
     const questionCount = parseInt(count) || 10;
 
     try {
-        console.log(`[Quiz Engine] Compiling ${questionCount} questions for topics:`, topicIds);
-        const questions = await db.generateQuiz(userId, topicIds, questionCount);
+        console.log(`[Quiz Engine] Compiling ${questionCount} questions. Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${lang}`);
+        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId);
 
         res.status(200).json({
             user_id: userId,
@@ -394,9 +396,13 @@ function convertHtmlToTextWithListNumbering(html) {
 
 // --- Admin Route: Upload and Ingest docx ---
 app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (req, res) => {
-    const topicId = req.body.topicId;
-    if (!topicId) {
-        return res.status(400).json({ error: "Topic ID is required." });
+    const topicId = req.body.topicId ? parseInt(req.body.topicId) : null;
+    const minuteTopicId = req.body.minuteTopicId ? parseInt(req.body.minuteTopicId) : null;
+    const examId = req.body.examId ? parseInt(req.body.examId) : null;
+    const language = req.body.language || 'EN';
+
+    if (!topicId && !minuteTopicId && !examId) {
+        return res.status(400).json({ error: "Topic ID, Minute Topic ID, or Exam ID is required." });
     }
 
     if (!req.file) {
@@ -453,22 +459,52 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
             return res.status(400).json({ error: "Could not parse any questions. Please ensure you followed the triggers format (Q., A), B), C), D), Correct:, Explanation:)." });
         }
 
-        // Bulk insert parsed questions into SQLite database
-        let successCount = 0;
-        for (const q of parsedQuestions) {
-            await db.run(`
-                INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-            `, [topicId, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation]);
-            successCount++;
+        if (examId) {
+            // Bulk insert into pyq_questions
+            let successCount = 0;
+            // Get current max sequence_order for this exam and language
+            const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM pyq_questions WHERE exam_id = ? AND language = ?", [examId, language]);
+            let currentSeq = seqResult && seqResult.maxSeq ? seqResult.maxSeq : 0;
+
+            for (const q of parsedQuestions) {
+                currentSeq++;
+                await db.run(`
+                    INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                `, [examId, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, language, currentSeq]);
+                successCount++;
+            }
+            console.log(`[Admin Ingest] Ingested ${successCount} PYQ questions for Exam ID ${examId}`);
+            return res.status(200).json({
+                message: `Ingestion successful! Loaded ${successCount} PYQs into exam database.`,
+                inserted_count: successCount
+            });
+        } else {
+            // Bulk insert into standard questions
+            let successCount = 0;
+            let resolvedTopicId = topicId;
+            if (minuteTopicId && !resolvedTopicId) {
+                const mt = await db.get("SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?", [minuteTopicId]);
+                if (mt) resolvedTopicId = mt.topic_id;
+            }
+
+            if (!resolvedTopicId) {
+                return res.status(400).json({ error: "Could not resolve Topic ID for the minute topic." });
+            }
+
+            for (const q of parsedQuestions) {
+                await db.run(`
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                `, [resolvedTopicId, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, minuteTopicId, language]);
+                successCount++;
+            }
+            console.log(`[Admin Ingest] Ingested ${successCount} questions for Topic ${resolvedTopicId} (Subtopic: ${minuteTopicId || 'None'})`);
+            return res.status(200).json({
+                message: `Ingestion successful! Loaded ${successCount} questions into topic database.`,
+                inserted_count: successCount
+            });
         }
-
-        console.log(`[Admin Ingest] Ingested ${successCount} questions for Topic ID ${topicId}`);
-
-        return res.status(200).json({
-            message: `Ingestion successful! Loaded ${successCount} questions into topic database.`,
-            inserted_count: successCount
-        });
 
     } catch (err) {
         res.status(500).json({ error: "Failed to parse and ingest document: " + err.message });
@@ -498,6 +534,133 @@ app.post('/api/admin/clear-topic-questions', async (req, res) => {
         return res.status(200).json({ message: "Successfully cleared all questions for this topic." });
     } catch (err) {
         return res.status(500).json({ error: "Failed to clear questions: " + err.message });
+    }
+});
+
+// --- PYQs (Previous Years Questions) Routes ---
+app.get('/api/pyqs', checkSubscription, async (req, res) => {
+    try {
+        const exams = await db.getPyqExams();
+        res.status(200).json({ exams });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch PYQ list: " + err.message });
+    }
+});
+
+app.get('/api/pyq/questions', checkSubscription, async (req, res) => {
+    const examId = parseInt(req.query.exam_id);
+    const lang = req.query.language || 'EN';
+    if (!examId) {
+        return res.status(400).json({ error: "Exam ID is required." });
+    }
+    try {
+        const questions = await db.getPyqQuestions(examId, lang);
+        res.status(200).json({ questions });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch PYQ questions: " + err.message });
+    }
+});
+
+app.post('/api/admin/create-pyq-exam', async (req, res) => {
+    const { name, year } = req.body;
+    if (!name || !year) {
+        return res.status(400).json({ error: "Exam Name and Year are required." });
+    }
+    try {
+        await db.createPyqExam(name, parseInt(year));
+        res.status(200).json({ message: "PYQ Exam created successfully." });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to create PYQ exam: " + err.message });
+    }
+});
+
+app.post('/api/admin/clear-pyq-questions', async (req, res) => {
+    const { examId } = req.body;
+    if (!examId) {
+        return res.status(400).json({ error: "Exam ID is required." });
+    }
+    try {
+        await db.run("DELETE FROM pyq_questions WHERE exam_id = ?", [examId]);
+        res.status(200).json({ message: "Successfully cleared all questions for this exam." });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to clear exam questions: " + err.message });
+    }
+});
+
+// --- Support / Help Desk Routes ---
+app.post('/api/support/query', checkSubscription, async (req, res) => {
+    const { userId, queryText } = req.body;
+    if (!userId || !queryText) {
+        return res.status(400).json({ error: "User ID and Query text are required." });
+    }
+    try {
+        const timestamp = Date.now();
+        await db.saveSupportQuery(userId, queryText, timestamp);
+        res.status(200).json({ message: "Your query has been submitted to experts successfully. We will resolve it soon!" });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to submit query: " + err.message });
+    }
+});
+
+app.get('/api/admin/queries', async (req, res) => {
+    try {
+        const queries = await db.getSupportQueries();
+        res.status(200).json({ queries });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch user queries: " + err.message });
+    }
+});
+
+app.post('/api/admin/clear-query', async (req, res) => {
+    const { queryId } = req.body;
+    if (!queryId) {
+        return res.status(400).json({ error: "Query ID is required." });
+    }
+    try {
+        await db.clearSupportQuery(queryId);
+        res.status(200).json({ message: "Support query cleared/resolved." });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to clear support query: " + err.message });
+    }
+});
+
+// --- Minute Topics (Subtopics) Routes ---
+app.get('/api/minute-topics', checkSubscription, async (req, res) => {
+    const topicId = parseInt(req.query.topic_id);
+    if (!topicId) {
+        return res.status(400).json({ error: "Topic ID is required." });
+    }
+    try {
+        const minuteTopics = await db.getMinuteTopicsByTopic(topicId);
+        res.status(200).json({ minuteTopics });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch minute topics: " + err.message });
+    }
+});
+
+app.post('/api/admin/create-minute-topic', async (req, res) => {
+    const { topicId, name } = req.body;
+    if (!topicId || !name) {
+        return res.status(400).json({ error: "Topic ID and Subtopic name are required." });
+    }
+    try {
+        await db.createMinuteTopic(topicId, name);
+        res.status(200).json({ message: "Subtopic created successfully." });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to create subtopic: " + err.message });
+    }
+});
+
+app.post('/api/admin/clear-minute-questions', async (req, res) => {
+    const { minuteTopicId } = req.body;
+    if (!minuteTopicId) {
+        return res.status(400).json({ error: "Subtopic ID is required." });
+    }
+    try {
+        await db.clearMinuteTopicQuestions(minuteTopicId);
+        res.status(200).json({ message: "Successfully cleared all questions for this subtopic." });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to clear subtopic questions: " + err.message });
     }
 });
 

@@ -121,8 +121,99 @@ async function initDatabase() {
                 FOREIGN KEY (topic_id) REFERENCES topics(topic_id) ON DELETE CASCADE
             );
         `);
+        // 7. Minute Topics Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS minute_topics (
+                minute_topic_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                topic_id INTEGER NOT NULL,
+                minute_topic_name TEXT NOT NULL,
+                FOREIGN KEY (topic_id) REFERENCES topics(topic_id) ON DELETE CASCADE
+            );
+        `);
+
+        // 8. PYQ Exams Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS pyq_exams (
+                exam_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                exam_name TEXT NOT NULL,
+                exam_year INTEGER NOT NULL
+            );
+        `);
+
+        // 9. PYQ Questions Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS pyq_questions (
+                pyq_question_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                exam_id INTEGER NOT NULL,
+                question_text TEXT NOT NULL,
+                option_a TEXT NOT NULL,
+                option_b TEXT NOT NULL,
+                option_c TEXT NOT NULL,
+                option_d TEXT NOT NULL,
+                correct_option TEXT CHECK(correct_option IN ('A', 'B', 'C', 'D')) NOT NULL,
+                detailed_explanation TEXT NOT NULL,
+                language TEXT DEFAULT 'EN' CHECK(language IN ('EN', 'HI')),
+                sequence_order INTEGER NOT NULL,
+                FOREIGN KEY (exam_id) REFERENCES pyq_exams(exam_id) ON DELETE CASCADE
+            );
+        `);
+
+        // 10. Support Queries Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS support_queries (
+                query_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id INTEGER NOT NULL,
+                query_text TEXT NOT NULL,
+                timestamp INTEGER NOT NULL,
+                FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+            );
+        `);
+
+        // Migrations: Add language and minute_topic_id columns to questions if not present
+        try {
+            await run("ALTER TABLE questions ADD COLUMN minute_topic_id INTEGER DEFAULT NULL;");
+        } catch (e) {
+            // Ignore if column already exists
+        }
+        try {
+            await run("ALTER TABLE questions ADD COLUMN language TEXT DEFAULT 'EN';");
+        } catch (e) {
+            // Ignore if column already exists
+        }
 
         console.log("All SQLite tables verified successfully.");
+
+        // Seed default PYQ Exams if none exist
+        const pyqExamsCount = await get("SELECT COUNT(*) as count FROM pyq_exams");
+        if (pyqExamsCount.count === 0) {
+            const defaultExams = [
+                { name: "RPSC RAS Prelims 2023", year: 2023 },
+                { name: "RPSC RAS Prelims 2021", year: 2021 },
+                { name: "RPSC RAS Prelims 2018", year: 2018 },
+                { name: "RPSC RAS Prelims 2016", year: 2016 },
+                { name: "RPSC RAS Prelims 2015", year: 2015 },
+                { name: "RPSC RAS Prelims 2013", year: 2013 },
+                { name: "RPSC RAS Prelims 2012", year: 2012 },
+                { name: "RPSC RAS Prelims 2010", year: 2010 },
+                { name: "RPSC RAS Prelims 2008", year: 2008 },
+                { name: "RPSC RAS Prelims 2007", year: 2007 }
+            ];
+            for (const exam of defaultExams) {
+                await run("INSERT INTO pyq_exams (exam_name, exam_year) VALUES (?, ?)", [exam.name, exam.year]);
+            }
+            console.log("Seeded 10 default PYQ Exams.");
+            
+            // Seed a sample question for RAS Pre 2023
+            await run(`
+                INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order)
+                VALUES (1, 'Which of the following sites has yielded the earliest evidence of agriculture in the Indian subcontinent?', 'Mehrgarh', 'Lahuradewa', 'Koldihwa', 'Bagor', 'A', 'Mehrgarh is a Neolithic site located on the Bolan pass on the Kachi plain of Balochistan, Pakistan. It provides the earliest evidence of farming and herding in South Asia.', 'EN', 1)
+            `);
+            // Seed a sample question in Hindi
+            await run(`
+                INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order)
+                VALUES (1, 'भारतीय उपमहाद्वीप में कृषि के प्राचीनतम साक्ष्य किस स्थल से प्राप्त हुए हैं?', 'मेहरगढ़', 'लहुरादेव', 'कोल्डिहवा', 'बागोर', 'A', 'मेहरगढ़ पाकिस्तान के बलूचिस्तान में कच्ची मैदान पर बोलन दर्रे के पास स्थित एक नवपाषाण कालीन स्थल है। यह दक्षिण एशिया में खेती और पशुपालन के सबसे पुराने साक्ष्य प्रदान करता है।', 'HI', 1)
+            `);
+        }
 
         // Check if database needs seeding or migration
         const topicCount = await get("SELECT COUNT(*) as count FROM topics");
@@ -472,36 +563,62 @@ module.exports = {
         return subjects;
     },
 
-    // Strict No-Repeat Quiz Generator
-    generateQuiz: async (userId, topicIds, limit = 10) => {
-        // Enforce Strict No-Repeat Guard
-        // Query questions matching the selected topicIds that have NOT been attempted by this user
-        const placeholders = topicIds.map(() => '?').join(',');
-        
-        // Find questions from chosen topics that are NOT in user_quiz_history for this user
-        let questions = await all(`
-            SELECT q.*, t.topic_name FROM questions q
-            JOIN topics t ON q.topic_id = t.topic_id
-            WHERE q.topic_id IN (${placeholders})
-              AND q.question_id NOT IN (
-                  SELECT question_id FROM user_quiz_history WHERE user_id = ?
-              )
-            ORDER BY RANDOM()
-            LIMIT ?
-        `, [...topicIds, userId, limit]);
-
-        // Guard: If the available question bank for this specific slice is exhausted,
-        // we fallback to recycling previously attempted questions to prevent empty quiz.
-        if (questions.length < limit) {
-            console.log(`[Quiz Engine] Question pool exhausted for user ${userId}. Recycling attempted questions.`);
-            const extraLimit = limit - questions.length;
-            const recycledQuestions = await all(`
+    // Strict No-Repeat Quiz Generator (with Language Filter & Minute Topic support)
+    generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null) => {
+        // Enforce Strict No-Repeat Guard and language filter
+        let questions = [];
+        if (minuteTopicId) {
+            questions = await all(`
+                SELECT q.*, t.topic_name FROM questions q
+                JOIN topics t ON q.topic_id = t.topic_id
+                WHERE q.minute_topic_id = ?
+                  AND q.language = ?
+                  AND q.question_id NOT IN (
+                      SELECT question_id FROM user_quiz_history WHERE user_id = ?
+                  )
+                ORDER BY RANDOM()
+                LIMIT ?
+            `, [minuteTopicId, language, userId, limit]);
+        } else {
+            const placeholders = topicIds.map(() => '?').join(',');
+            questions = await all(`
                 SELECT q.*, t.topic_name FROM questions q
                 JOIN topics t ON q.topic_id = t.topic_id
                 WHERE q.topic_id IN (${placeholders})
+                  AND q.language = ?
+                  AND q.question_id NOT IN (
+                      SELECT question_id FROM user_quiz_history WHERE user_id = ?
+                  )
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [...topicIds, extraLimit]);
+            `, [...topicIds, language, userId, limit]);
+        }
+
+        // Guard: Recycle previously attempted questions if the pool is exhausted
+        if (questions.length < limit) {
+            console.log(`[Quiz Engine] Question pool exhausted for user ${userId} (${language}). Recycling.`);
+            const extraLimit = limit - questions.length;
+            let recycledQuestions = [];
+            if (minuteTopicId) {
+                recycledQuestions = await all(`
+                    SELECT q.*, t.topic_name FROM questions q
+                    JOIN topics t ON q.topic_id = t.topic_id
+                    WHERE q.minute_topic_id = ?
+                      AND q.language = ?
+                    ORDER BY RANDOM()
+                    LIMIT ?
+                `, [minuteTopicId, language, extraLimit]);
+            } else {
+                const placeholders = topicIds.map(() => '?').join(',');
+                recycledQuestions = await all(`
+                    SELECT q.*, t.topic_name FROM questions q
+                    JOIN topics t ON q.topic_id = t.topic_id
+                    WHERE q.topic_id IN (${placeholders})
+                      AND q.language = ?
+                    ORDER BY RANDOM()
+                    LIMIT ?
+                `, [...topicIds, language, extraLimit]);
+            }
 
             // Combine and ensure unique questions
             const loadedIds = new Set(questions.map(q => q.question_id));
@@ -540,7 +657,22 @@ module.exports = {
             questionsCount: questionsCount.count,
             topicsStats
         };
-    }
+    },
+
+    // Support Queries Operations
+    saveSupportQuery: (userId, text, timestamp) => run("INSERT INTO support_queries (user_id, query_text, timestamp) VALUES (?, ?, ?)", [userId, text, timestamp]),
+    getSupportQueries: () => all("SELECT sq.*, u.mobile_number FROM support_queries sq JOIN users u ON sq.user_id = u.user_id ORDER BY sq.timestamp DESC"),
+    clearSupportQuery: (queryId) => run("DELETE FROM support_queries WHERE query_id = ?", [queryId]),
+
+    // Minute Topics Operations
+    getMinuteTopicsByTopic: (topicId) => all("SELECT * FROM minute_topics WHERE topic_id = ?", [topicId]),
+    createMinuteTopic: (topicId, name) => run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (?, ?)", [topicId, name]),
+    clearMinuteTopicQuestions: (minuteTopicId) => run("DELETE FROM questions WHERE minute_topic_id = ?", [minuteTopicId]),
+
+    // PYQs Operations
+    getPyqExams: () => all("SELECT * FROM pyq_exams ORDER BY exam_year DESC"),
+    getPyqQuestions: (examId, language = 'EN') => all("SELECT * FROM pyq_questions WHERE exam_id = ? AND language = ? ORDER BY sequence_order ASC", [examId, language]),
+    createPyqExam: (name, year) => run("INSERT INTO pyq_exams (exam_name, exam_year) VALUES (?, ?)", [name, year])
 };
 
 // Initialize DB immediately
