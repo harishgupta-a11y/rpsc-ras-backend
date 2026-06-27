@@ -16,6 +16,9 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
+// Serve simulator static dashboard
+app.use('/simulator', express.static(path.join(__dirname, 'simulator')));
+
 // Root test endpoints
 app.get('/', (req, res) => {
     res.status(200).json({ status: "online", message: "RPSC RAS Backend API is running." });

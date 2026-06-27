@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPSC RAS Pre & Mains Preparation Portal - Interactive Simulator</title>
+  <!-- Google Fonts Outfit & Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="workspace-wrapper">
+    
+    <!-- 1. Simulator Shell (Representing the Mobile Screen) -->
+    <div class="device-bezel">
+      <div class="device-notch"></div>
+      <div class="device-screen" id="app-screen">
+        
+        <!-- Header Bar -->
+        <header class="app-header" style="gap: 8px;">
+          <div class="status-indicator" id="sub-badge">🔒 Locked</div>
+          <div class="app-brand" style="display: flex; align-items: center; gap: 6px;">
+            <img src="logo.jpg" alt="Logo" style="width: 24px; height: 24px; border-radius: 50%; border: 1px solid var(--color-primary); object-fit: cover;">
+            <span>RPSC RAS Prep</span>
+          </div>
+          <div style="display: flex; gap: 4px; align-items: center;">
+            <button class="logout-btn" id="admin-mode-btn" style="background: hsla(199, 89%, 48%, 0.15); border: 1px solid var(--color-primary); color: white;" onclick="toggleAdminMode(true)">Admin</button>
+            <button class="logout-btn" id="logout-trigger" style="display: none;">Exit</button>
+          </div>
+        </header>
+
+        <!-- Dynamic Screen Container -->
+        <main class="screen-content" id="screen-container">
+          
+          <!-- Screen 1: OTP Login & Paywall Gateway (Default) -->
+          <section class="app-screen-view active" id="view-paywall">
+            <div class="paywall-header">
+              <img src="logo.jpg" alt="RPSC RAS Prep Logo" class="app-logo" style="width: 80px; height: 80px; border-radius: 50%; margin: 0 auto 12px auto; display: block; border: 2px solid var(--color-primary); box-shadow: 0 0 10px var(--color-primary-glow); object-fit: cover;">
+              <h1>RPSC RAS Portal</h1>
+              <p>Passwordless Mobile OTP Login & Study Hub Access</p>
+            </div>
+
+            <!-- Login Box -->
+            <div class="glass-card login-card" id="login-box">
+              <h3>Secure Identity Verification</h3>
+              <div class="input-group">
+                <label for="user-mobile">Mobile Number</label>
+                <input type="tel" id="user-mobile" placeholder="e.g. 9876543210" maxlength="10">
+              </div>
+              <button class="btn btn-primary" id="btn-request-otp">Request Verification Code</button>
+            </div>
+
+            <!-- OTP Box -->
+            <div class="glass-card login-card hidden" id="otp-box">
+              <h3>Enter 4-Digit OTP Code</h3>
+              <p class="sms-info">A verification SMS has been simulated. Check the AI pipeline log on the right.</p>
+              <div class="input-group">
+                <label for="user-otp">Enter OTP</label>
+                <input type="text" id="user-otp" placeholder="Enter 1234" maxlength="4">
+              </div>
+              <button class="btn btn-primary" id="btn-verify-otp">Verify & Sign In</button>
+              <a href="#" class="back-link" id="change-mobile-link">Change Mobile Number</a>
+            </div>
+
+            <!-- Plans Block -->
+            <div class="plans-block">
+              <h2>Select a Study Plan to Unlock</h2>
+              <p class="plans-sub">Strict gatekeeper checks active on all state transitions.</p>
+              
+              <div class="plan-card" id="plan-card-trial" onclick="selectPlan(1, 1)">
+                <div class="plan-main">
+                  <div class="plan-title">1 Day Pass (One-Time Only)</div>
+                  <div class="plan-price">₹1 INR</div>
+                </div>
+                <p class="plan-detail">Full access to all study materials, MCQs, PYQs, and Mains answers for 24 hours of trial preparation.</p>
+              </div>
+
+              <div class="plan-card" onclick="selectPlan(7, 7)">
+                <div class="plan-main">
+                  <div class="plan-title">7 Days Sprint</div>
+                  <div class="plan-price">₹7 INR</div>
+                </div>
+                <p class="plan-detail">Full access to all study materials, MCQs, PYQs, and Mains answers for a short-term 7-day revision sprint.</p>
+              </div>
+
+              <div class="plan-card" onclick="selectPlan(30, 30)">
+                <div class="plan-main">
+                  <div class="plan-title">30 Days Pro</div>
+                  <div class="plan-price">₹30 INR</div>
+                </div>
+                <p class="plan-detail">Full access to all study materials, MCQs, PYQs, and Mains answers for 30 days of daily syllabus coverage.</p>
+              </div>
+
+              <div class="plan-card recommended-plan" style="border-color: #A855F7; box-shadow: 0 0 12px rgba(168, 85, 247, 0.15);" onclick="selectPlan(80, 90)">
+                <span class="badge-recommended" style="background: #A855F7;">Best Value</span>
+                <div class="plan-main">
+                  <div class="plan-title">90 Days (3 Months)</div>
+                  <div class="plan-price">₹80 INR</div>
+                </div>
+                <p class="plan-detail">Full access to all study materials, MCQs, PYQs, and Mains answers for a complete 3-month exam preparation cycle.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Screen 2: Tier Selection (Landing Portal) -->
+          <section class="app-screen-view" id="view-tier-select">
+            <div class="screen-header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--color-card-border); padding-bottom: 8px;">
+              <span class="user-meta" id="logged-mobile-display">Mobile: -</span>
+              <div style="display: flex; gap: 8px; align-items: center;">
+                <button class="path-tab-btn" id="sim-lang-toggle" onclick="toggleSimulatorLanguage()" style="padding: 4px 8px; font-size: 11px; margin: 0; background: rgba(56, 189, 248, 0.15); border: 1px solid var(--color-primary); color: var(--color-primary); border-radius: var(--radius-xs); cursor: pointer; transition: all 0.2s;">हिन्दी</button>
+                <button class="path-tab-btn" id="sim-help-btn" onclick="openStudentHelpModal()" style="padding: 4px 8px; font-size: 11px; margin: 0; background: rgba(16, 185, 129, 0.15); border: 1px solid var(--color-success); color: var(--color-success); border-radius: var(--radius-xs); cursor: pointer; transition: all 0.2s;">Help</button>
+              </div>
+            </div>
+            <h2 id="sim-portal-title" style="margin-top: 14px; margin-bottom: 16px; font-size: 15px; font-weight: bold; color: white;">Select Exam Portal</h2>
+            
+            <div class="tier-grid">
+              <button class="tier-card pre-portal" id="tier-pre-btn">
+                <span class="tier-badge">MCQ Track</span>
+                <h3>RAS Pre Portal</h3>
+                <p>Complete, Subject, Topic & Subtopic mock practice tests with detailed solutions, along with Past Years Questions (PYQ) study sets.</p>
+              </button>
+
+              <button class="tier-card mains-portal" id="tier-mains-btn">
+                <span class="tier-badge">Written Track</span>
+                <h3>RAS Mains Portal</h3>
+                <p>General Studies I-IV descriptive syllabus coverage, expert model answers study guides, and Past Years Questions (PYQ) revision.</p>
+              </button>
+            </div>
+          </section>
+
+          <!-- Screen 3: Test Configurator -->
+          <section class="app-screen-view" id="view-test-config">
+            <div class="screen-header flex-header">
+              <button class="back-nav-btn" onclick="navigateToScreen('view-tier-select')">◀ Back</button>
+              <h2 id="config-tier-title">Test Configurator</h2>
+            </div>
+
+            <!-- Path Selection Tabs -->
+            <div style="display: flex; background: rgba(30, 41, 59, 0.7); padding: 4px; border-radius: var(--radius-sm); margin-bottom: 16px; border: 1px solid var(--color-card-border);">
+              <button class="path-tab-btn active" id="path-complete-btn" onclick="switchTestingPath('COMPLETE')" style="flex: 1; background: none; border: none; color: var(--color-text-muted); font-size: 11px; font-weight: 600; padding: 8px 0; border-radius: var(--radius-xs); cursor: pointer; transition: all 0.2s;">Complete Test</button>
+              <button class="path-tab-btn" id="path-subject-btn" onclick="switchTestingPath('SUBJECT')" style="flex: 1; background: none; border: none; color: var(--color-text-muted); font-size: 11px; font-weight: 600; padding: 8px 0; border-radius: var(--radius-xs); cursor: pointer; transition: all 0.2s;">Subject Test</button>
+              <button class="path-tab-btn" id="path-topic-btn" onclick="switchTestingPath('TOPIC')" style="flex: 1; background: none; border: none; color: var(--color-text-muted); font-size: 11px; font-weight: 600; padding: 8px 0; border-radius: var(--radius-xs); cursor: pointer; transition: all 0.2s;">Topic Test</button>
+              <button class="path-tab-btn" id="path-subtopic-btn" onclick="switchTestingPath('SUBTOPIC')" style="flex: 1; background: none; border: none; color: var(--color-text-muted); font-size: 11px; font-weight: 600; padding: 8px 0; border-radius: var(--radius-xs); cursor: pointer; transition: all 0.2s;">Sub-topic Quiz</button>
+              <button class="path-tab-btn" id="path-pyq-btn" onclick="switchTestingPath('PYQ')" style="flex: 1; background: none; border: none; color: var(--color-text-muted); font-size: 11px; font-weight: 600; padding: 8px 0; border-radius: var(--radius-xs); cursor: pointer; transition: all 0.2s;">PYQs</button>
+            </div>
+
+            <!-- Content Area for Paths -->
+            <div class="glass-card path-container-card" style="padding: 16px; margin-bottom: 16px; border: 1px solid var(--color-card-border);">
+              <!-- Path 1: Complete Syllabus -->
+              <div class="path-view active" id="path-view-complete">
+                <h3 style="font-size: 14px; margin-bottom: 4px; color: white;">Full Mock Test</h3>
+                <p style="font-size: 11px; color: var(--color-text-muted); line-height: 1.4;">Compiles a comprehensive mock test pulling randomized questions from all subjects and topics in the active tier.</p>
+              </div>
+
+              <!-- Path 2: Subject-wise Checklist -->
+              <div class="path-view hidden" id="path-view-subject">
+                <h3 style="font-size: 14px; margin-bottom: 4px; color: white;">Select Subjects</h3>
+                <p style="font-size: 11px; color: var(--color-text-muted); margin-bottom: 12px; line-height: 1.4;">Choose one or more subjects to compile a practice test.</p>
+                <div class="checklist-container" id="subject-checkbox-list" style="max-height: 180px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+
+              <!-- Path 3: Topic-wise Tree Hierarchy -->
+              <div class="path-view hidden" id="path-view-topic">
+                <h3 style="font-size: 14px; margin-bottom: 4px; color: white;">Select Topics</h3>
+                <p style="font-size: 11px; color: var(--color-text-muted); margin-bottom: 12px; line-height: 1.4;">Select specific topics across units for targeted practice.</p>
+                <div class="tree-container" id="topic-tree-list" style="max-height: 180px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+
+              <!-- Path 4: Sub-topic Selector -->
+              <div class="path-view hidden" id="path-view-subtopic">
+                <h3 style="font-size: 14px; margin-bottom: 4px; color: white;">Select Sub-topic</h3>
+                <p style="font-size: 11px; color: var(--color-text-muted); margin-bottom: 12px; line-height: 1.4;">Choose a parent topic, then select the sub-topic for mock revision.</p>
+                
+                <div class="input-group" style="margin-bottom: 10px;">
+                  <label for="config-subtopic-parent-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">1. Select Parent Topic</label>
+                  <select id="config-subtopic-parent-select" onchange="onConfigParentTopicChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                    <!-- Populated dynamically -->
+                  </select>
+                </div>
+                
+                <div class="input-group" style="margin-bottom: 10px;">
+                  <label for="config-subtopic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">2. Select Sub-topic</label>
+                  <select id="config-subtopic-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                    <option value="">-- Select Sub-topic --</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Path 5: PYQs -->
+              <div class="path-view hidden" id="path-view-pyq">
+                <h3 style="font-size: 14px; margin-bottom: 4px; color: white;">Previous Years Papers (PYQs)</h3>
+                <p style="font-size: 11px; color: var(--color-text-muted); margin-bottom: 12px; line-height: 1.4;">Practice questions from past RPSC exams.</p>
+                <div class="input-group" style="margin-bottom: 10px;">
+                  <label for="config-pyq-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Past Exam</label>
+                  <select id="config-pyq-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                    <!-- Populated dynamically -->
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Question count input (slider & text box) -->
+            <div class="glass-card question-count-card" style="padding: 16px; margin-bottom: 16px; border: 1px solid var(--color-card-border);">
+              <div class="slider-group" style="margin-bottom: 0;">
+                <label for="question-slider" style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 8px;">
+                  <span style="font-size: 12px; color: white;">Question Volume:</span>
+                  <span style="display: flex; align-items: center; gap: 4px;">
+                    <input type="number" id="question-volume-box" min="5" max="200" step="5" value="10" onchange="syncSliderVal(this.value)" style="width: 55px; background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px 6px; border-radius: var(--radius-sm); text-align: center; outline: none; font-size: 12px;">
+                    <span style="font-size: 12px; color: var(--color-text-muted);">Qs</span>
+                  </span>
+                </label>
+                <input type="range" id="question-slider" min="5" max="200" step="5" value="10" oninput="syncVolumeBox(this.value)" style="width: 100%;">
+              </div>
+            </div>
+
+            <!-- Action Button -->
+            <button class="btn btn-accent" id="btn-start-test" onclick="startPracticeTest()">Start Practice Test</button>
+          </section>
+
+          <!-- Screen 7: Admin Dashboard -->
+          <section class="app-screen-view" id="view-admin-portal">
+            <div class="screen-header flex-header">
+              <button class="back-nav-btn" onclick="toggleAdminMode(false)">◀ App Home</button>
+              <h2>Admin Dashboard</h2>
+            </div>
+
+            <div class="glass-card stats-summary-card" style="padding: 14px; margin-bottom: 12px; border: 1px solid var(--color-card-border);">
+              <h3 style="font-size: 13px; margin-bottom: 8px; color: white;">Database Summary</h3>
+              <div class="stats-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+                <div style="background: rgba(255,255,255,0.03); padding: 10px; border-radius: var(--radius-sm); text-align: center; border: 1px solid rgba(255,255,255,0.05);">
+                  <h4 style="font-size: 20px; margin: 0; color: var(--color-primary);" id="admin-stats-users">0</h4>
+                  <p style="margin: 2px 0 0 0; font-size: 10px; color: var(--color-text-muted);">Registered Users</p>
+                </div>
+                <div style="background: rgba(255,255,255,0.03); padding: 10px; border-radius: var(--radius-sm); text-align: center; border: 1px solid rgba(255,255,255,0.05);">
+                  <h4 style="font-size: 20px; margin: 0; color: var(--color-accent);" id="admin-stats-questions">0</h4>
+                  <p style="margin: 2px 0 0 0; font-size: 10px; color: var(--color-text-muted);">Total MCQs</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 1. Pre Topic MCQ Ingestion Manager -->
+            <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 1px solid var(--color-card-border);">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: var(--color-primary);">1. Pre Topic MCQ Ingestion</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px;">Upload MCQs for standard RAS Pre Syllabus topics.</p>
+              
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-pre-topic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Pre Topic</label>
+                <select id="admin-pre-topic-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <!-- Populated dynamically with PRE topics -->
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-pre-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language Medium</label>
+                <select id="admin-pre-lang-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="EN">English Medium</option>
+                  <option value="HI">Hindi Medium (हिन्दी)</option>
+                </select>
+              </div>
+
+              <div style="display: flex; gap: 6px; align-items: center; margin-top: 10px;">
+                <button onclick="downloadPreTopicTemplate()" style="background:rgba(255,255,255,0.05); color:white; border:1px solid rgba(255,255,255,0.1); padding:6px 10px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold; flex: 1;">Get Template</button>
+                <label style="background:var(--color-primary-glow); border:1px solid var(--color-primary); color:white; padding:6px 10px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; display:inline-block; margin:0; flex: 1.2; text-align: center; font-weight: bold;">
+                  Upload DOCX
+                  <input type="file" accept=".docx" onchange="uploadPreTopicQuestions(this)" style="display:none;">
+                </label>
+                <button onclick="clearPreTopicQuestions()" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:6px 10px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold;">Clear Qs</button>
+              </div>
+            </div>
+
+            <!-- 2. Sub-topic MCQ Ingestion Manager -->
+            <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 1px solid var(--color-card-border); border-color: #0EA5E9;">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: #0EA5E9;">2. Sub-topic MCQ Ingestion</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px;">Add sub-topics and upload MCQs for granular revision.</p>
+              
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-subtopic-parent-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">1. Select Parent Topic (Pre/Mains)</label>
+                <select id="admin-subtopic-parent-select" onchange="onAdminParentTopicChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <!-- Populated dynamically with PRE topics -->
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-subtopic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">2. Select Sub-topic</label>
+                <select id="admin-subtopic-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="">-- Select Sub-topic --</option>
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-subtopic-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language Medium</label>
+                <select id="admin-subtopic-lang-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="EN">English Medium</option>
+                  <option value="HI">Hindi Medium (हिन्दी)</option>
+                </select>
+              </div>
+
+              <div style="display: flex; gap: 6px; align-items: center; margin-top: 10px;">
+                <label style="background:rgba(14, 165, 233, 0.2); border:1px solid #0EA5E9; color:white; padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; display:inline-block; margin:0; flex: 1.2; text-align: center; font-weight: bold;">
+                  Upload DOCX to Sub-topic
+                  <input type="file" accept=".docx" onchange="uploadSubtopicQuestions(this)" style="display:none;">
+                </label>
+                <button onclick="clearSubtopicQuestions()" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold;">Clear Qs</button>
+                <button onclick="deleteSubtopicEntry()" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold;">Delete Sub-topic</button>
+              </div>
+
+              <!-- Create New Sub-topic Entry -->
+              <div style="margin-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+                <h4 style="font-size: 10px; color: white; margin-bottom: 6px;">Create New Sub-topic Entry</h4>
+                <div style="display: flex; gap: 6px;">
+                  <input type="text" id="admin-new-subtopic-name" placeholder="e.g. Kalibangan Site" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); flex: 1; font-size: 11px; outline: none;">
+                  <button onclick="createSubtopicEntry()" style="background: var(--color-primary-glow); border: 1px solid var(--color-primary); color: white; padding: 6px 10px; border-radius: var(--radius-sm); cursor: pointer; font-size: 10px; font-weight: bold;">Create</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Prelims Past Year Exam Ingestion (MCQs) -->
+            <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 1px solid var(--color-card-border);">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: white;">3. Prelims Past Year Exam Ingestion (MCQs)</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px;">Upload sequenced Prelims past exam papers (MCQ format).</p>
+              
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-pyq-pre-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Prelims Exam</label>
+                <select id="admin-pyq-pre-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <!-- Dynamically populated -->
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-pyq-pre-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language Medium</label>
+                <select id="admin-pyq-pre-lang-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="EN">English Medium</option>
+                  <option value="HI">Hindi Medium (हिन्दी)</option>
+                </select>
+              </div>
+
+              <div style="display: flex; gap: 6px; align-items: center; margin-top: 10px;">
+                <label style="background:var(--color-primary-glow); border:1px solid var(--color-primary); color:white; padding:6px 12px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; display:inline-block; margin:0; flex: 1.5; text-align: center; font-weight: bold;">
+                  Upload Past Paper File
+                  <input type="file" accept=".docx" onchange="uploadPrePyqQuestions(this)" style="display:none;">
+                </label>
+                <button onclick="clearPrePyqQuestions()" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:6px 12px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold;">Clear Qs</button>
+              </div>
+
+              <!-- Create New Prelims Exam Entry -->
+              <div style="margin-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+                <h4 style="font-size: 10px; color: white; margin-bottom: 6px;">Create New Prelims Exam</h4>
+                <input type="text" id="admin-new-pre-exam-name" placeholder="e.g. RPSC RAS Prelims 2024" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; font-size: 11px; outline: none; margin-bottom: 8px;">
+                <input type="number" id="admin-new-pre-exam-year" placeholder="e.g. 2024" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; font-size: 11px; outline: none; margin-bottom: 8px;">
+                <button class="btn btn-primary" onclick="createPrePyqExamEntry()" style="font-size: 10px; padding: 6px 12px; width: 100%;">Add Prelims Exam</button>
+              </div>
+            </div>
+
+            <!-- 4. Mains Past Year Exam Ingestion (Descriptive) -->
+            <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 1px solid var(--color-card-border); border-color: #A855F7;">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: #A855F7;">4. Mains Past Year Exam Ingestion (Descriptive)</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px;">Upload sequenced Mains past exam papers (Descriptive Q&A format).</p>
+              
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-pyq-mains-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Mains Exam</label>
+                <select id="admin-pyq-mains-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <!-- Dynamically populated -->
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-pyq-mains-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language Medium</label>
+                <select id="admin-pyq-mains-lang-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="EN">English Medium</option>
+                  <option value="HI">Hindi Medium (हिन्दी)</option>
+                </select>
+              </div>
+
+              <div style="display: flex; gap: 6px; align-items: center; margin-top: 10px;">
+                <label style="background:var(--color-primary-glow); border:1px solid var(--color-primary); color:white; padding:6px 12px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; display:inline-block; margin:0; flex: 1.5; text-align: center; font-weight: bold;">
+                  Upload Past Paper File
+                  <input type="file" accept=".docx" onchange="uploadMainsPyqQuestions(this)" style="display:none;">
+                </label>
+                <button onclick="clearMainsPyqQuestions()" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:6px 12px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold;">Clear Qs</button>
+              </div>
+
+              <!-- Create New Mains Exam Entry -->
+              <div style="margin-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+                <h4 style="font-size: 10px; color: white; margin-bottom: 6px;">Create New Mains Exam</h4>
+                <input type="text" id="admin-new-mains-exam-name" placeholder="e.g. RPSC RAS Mains 2024" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; font-size: 11px; outline: none; margin-bottom: 8px;">
+                <input type="number" id="admin-new-mains-exam-year" placeholder="e.g. 2024" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; font-size: 11px; outline: none; margin-bottom: 8px;">
+                <button class="btn btn-primary" onclick="createMainsPyqExamEntry()" style="font-size: 10px; padding: 6px 12px; width: 100%;">Add Mains Exam</button>
+              </div>
+            </div>
+            <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 1px solid var(--color-card-border); border-color: #C084FC;">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: #C084FC;">5. RAS Mains Topics Ingestion</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px;">Ingest descriptive questions for standard Mains topics.</p>
+              
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-mains-topic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Mains Topic</label>
+                <select id="admin-mains-topic-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <!-- Populated dynamically with MAINS topics -->
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-mains-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language Medium</label>
+                <select id="admin-mains-lang-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="EN">English Medium</option>
+                  <option value="HI">Hindi Medium (हिन्दी)</option>
+                </select>
+              </div>
+
+              <div style="display: flex; gap: 6px; align-items: center; margin-top: 10px;">
+                <button onclick="downloadMainsTopicTemplate()" style="background:rgba(255,255,255,0.05); color:white; border:1px solid rgba(255,255,255,0.1); padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold; flex: 1.2;">Get Template</button>
+                <label style="background:rgba(192, 132, 252, 0.2); border:1px solid #C084FC; color:white; padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; display:inline-block; margin:0; flex: 1.5; text-align: center; font-weight: bold;">
+                  Upload Mains File
+                  <input type="file" accept=".docx" onchange="uploadMainsTopicQuestions(this)" style="display:none;">
+                </label>
+                <button onclick="clearMainsTopicQuestions()" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold;">Clear Qs</button>
+              </div>
+            </div>
+
+            <!-- 6. RAS Mains Sub-topics Ingestion Manager -->
+            <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 1px solid var(--color-card-border); border-color: #E9D5FF;">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: #E9D5FF;">6. RAS Mains Sub-topics Ingestion</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px;">Add sub-topics and upload descriptive Q&As for Mains.</p>
+              
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-mains-subtopic-parent-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">1. Select Parent Mains Topic</label>
+                <select id="admin-mains-subtopic-parent-select" onchange="onAdminMainsSubtopicParentChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <!-- Populated dynamically with MAINS topics -->
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-mains-subtopic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">2. Select Mains Sub-topic</label>
+                <select id="admin-mains-subtopic-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="">-- Select Sub-topic --</option>
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="admin-mains-subtopic-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language Medium</label>
+                <select id="admin-mains-subtopic-lang-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="EN">English Medium</option>
+                  <option value="HI">Hindi Medium (हिन्दी)</option>
+                </select>
+              </div>
+
+              <div style="display: flex; gap: 6px; align-items: center; margin-top: 10px;">
+                <button onclick="downloadMainsSubtopicTemplate()" style="background:rgba(255,255,255,0.05); color:white; border:1px solid rgba(255,255,255,0.1); padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold; flex: 1.2;">Get Template</button>
+                <label style="background:rgba(233, 213, 255, 0.2); border:1px solid #E9D5FF; color:white; padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; display:inline-block; margin:0; flex: 1.5; text-align: center; font-weight: bold;">
+                  Upload Mains File
+                  <input type="file" accept=".docx" onchange="uploadMainsSubtopicQuestions(this)" style="display:none;">
+                </label>
+                <button onclick="clearMainsSubtopicQuestions()" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold;">Clear Qs</button>
+                <button onclick="deleteMainsSubtopicEntry()" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:6px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight: bold;">Delete Sub-topic</button>
+              </div>
+
+              <!-- Create New Mains Sub-topic Entry -->
+              <div style="margin-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+                <h4 style="font-size: 10px; color: white; margin-bottom: 6px;">Create New Mains Sub-topic</h4>
+                <div style="display: flex; gap: 6px;">
+                  <input type="text" id="admin-new-mains-subtopic-name" placeholder="e.g. Mains Subtopic Name" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); flex: 1; font-size: 11px; outline: none;">
+                  <button onclick="createMainsSubtopicEntry()" style="background: var(--color-primary-glow); border: 1px solid var(--color-primary); color: white; padding: 6px 10px; border-radius: var(--radius-sm); cursor: pointer; font-size: 10px; font-weight: bold;">Create</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="glass-card log-card" style="padding: 14px; margin-bottom: 12px; border: 1px solid var(--color-card-border);">
+              <h3 style="font-size: 13px; margin-bottom: 6px; color: white;">Ingestion Output Logs</h3>
+              <div class="code-terminal" id="admin-logs" style="height: 70px; font-size: 10px; overflow-y: auto; background: #090d16; padding: 6px; border-radius: var(--radius-xs); border: 1px solid rgba(255,255,255,0.05); font-family: monospace;">
+                [Admin] System ready. Select a topic to download empty DOCX or upload questions.
+              </div>
+            </div>
+
+            <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 0; border: 1px solid var(--color-card-border); border-color: #10B981;">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: #10B981;">7. Uploaded Files History</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px;">View and download files you previously uploaded.</p>
+              <div id="uploaded-files-list" style="max-height: 120px; overflow-y: auto; background: #090d16; padding: 6px; border-radius: var(--radius-xs); border: 1px solid rgba(255,255,255,0.05); font-size: 10px; display: flex; flex-direction: column; gap: 6px;">
+                Loading files...
+              </div>
+            </div>
+          </section>
+
+          <!-- Screen 5: Quiz Assessment Engine -->
+          <section class="app-screen-view" id="view-quiz">
+            <!-- Timer Bar -->
+            <div class="quiz-timer-bar">
+              <span id="quiz-progress-text">Question 1 of 10</span>
+              <button id="quiz-btn-quit" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:4px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight:bold; outline:none;">Exit</button>
+              <span id="quiz-timer-clock" class="timer-glowing">⏱ 10:00</span>
+            </div>
+
+            <!-- Quiz Play Card -->
+            <div class="quiz-card-container" id="quiz-card-box">
+              <p class="quiz-question-text" id="quiz-q-text">Loading question...</p>
+              
+              <div class="options-container" id="quiz-options-box">
+                <!-- Dynamically loaded options A, B, C, D -->
+              </div>
+            </div>
+
+            <!-- Quiz Controls -->
+            <div class="quiz-controls-row">
+              <button class="quiz-btn" id="quiz-btn-prev">◀ Prev</button>
+              <button class="quiz-btn skip-btn" id="quiz-btn-skip">Skip</button>
+              <button class="quiz-btn next-btn" id="quiz-btn-next">Next ▶</button>
+              <button class="quiz-btn submit-btn hidden" id="quiz-btn-submit">Submit</button>
+            </div>
+          </section>
+
+          <!-- Screen 6: Scorecard & Solutions -->
+          <section class="app-screen-view" id="view-results">
+            <div class="screen-header">
+              <h2>Exam Assessment Results</h2>
+              <p id="results-subject-name">Subject Name</p>
+            </div>
+
+            <!-- RPSC Grading Card -->
+            <div class="glass-card result-scorecard">
+              <div class="score-display">
+                <h1 id="results-net-marks">+0.00</h1>
+                <p>Net Marks (RPSC Grading)</p>
+              </div>
+
+              <div class="stats-summary-grid">
+                <div class="stat-cell">
+                  <span class="stat-number" id="stats-total">10</span>
+                  <span class="stat-tag">Total</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-number score-correct" id="stats-correct">0</span>
+                  <span class="stat-tag">Correct</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-number score-incorrect" id="stats-incorrect">0</span>
+                  <span class="stat-tag">Wrong</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-number" id="stats-skipped">0</span>
+                  <span class="stat-tag">Skipped</span>
+                </div>
+              </div>
+
+              <div class="penalty-disclaimer">
+                <span>RPSC rules apply: +1.33 correct, -0.44 incorrect (1/3 deduction)</span>
+              </div>
+            </div>
+
+            <!-- Detailed Solutions Container -->
+            <div class="solutions-header">
+              <h3>Question Explanations & Key Keys</h3>
+            </div>
+            <div class="solutions-list" id="results-solutions-box">
+              <!-- Populated via JS -->
+            </div>
+
+            <button class="btn btn-primary margin-top" onclick="navigateToScreen('view-test-config')">Close Review</button>
+          </section>
+
+        </main>
+
+        <!-- Modal Overlay for Question Count Selection -->
+        <div id="quiz-count-modal" class="hidden" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(8px); display: flex; align-items: center; justify-content: center; z-index: 1000; animation: fadeIn 0.2s ease;">
+          <div class="glass-card" style="width: 85%; max-width: 320px; text-align: center; border: 2px solid var(--color-primary); box-shadow: 0 20px 40px rgba(0,0,0,0.6); padding: 24px; position: relative; margin-bottom: 0;">
+            <h3 style="font-family: var(--font-display); font-size: 18px; margin-bottom: 6px; color: white;">Select Quiz Size</h3>
+            <p style="font-size: 12px; margin-bottom: 18px; color: var(--color-text-muted);">How many questions would you like to attempt in this practice track?</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px;">
+              <button class="panel-btn" onclick="startPracticeWithCount(10)" style="padding: 10px 0;">10 Qs</button>
+              <button class="panel-btn" onclick="startPracticeWithCount(20)" style="padding: 10px 0;">20 Qs</button>
+              <button class="panel-btn" onclick="startPracticeWithCount(50)" style="padding: 10px 0;">50 Qs</button>
+              <button class="panel-btn" onclick="startPracticeWithCount(100)" style="padding: 10px 0;">100 Qs</button>
+              <button class="panel-btn" onclick="startPracticeWithCount(150)" style="padding: 10px 0;">150 Qs</button>
+              <button class="panel-btn" onclick="startPracticeWithCount(200)" style="padding: 10px 0;">200 Qs</button>
+            </div>
+            <button class="btn btn-primary" onclick="closeCountModal()" style="font-size: 12px; padding: 10px;">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Interactive Control Panel & Ingestion Logs -->
+    <div class="control-panel">
+      <div class="panel-header">
+        <h2>System Control Deck & Ingestion Pipeline</h2>
+        <p>Monitor background states, user queries, and expert document ingestion logs.</p>
+      </div>
+
+      <!-- Server Settings Card -->
+      <div class="control-card" style="border: 2px solid var(--color-primary); background: rgba(14, 165, 233, 0.05);">
+        <h3>0. API Backend Target Server</h3>
+        <p class="panel-info" style="margin-bottom: 8px;">Select where the Web Simulator and Admin Ingestion panel should send data uploads.</p>
+        <div style="display: flex; gap: 8px; margin-bottom: 8px; align-items: center;">
+          <select id="simulator-server-select" onchange="updateSimulatorServer(this.value)" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; flex: 1; outline: none; cursor: pointer;">
+            <option value="local">Local Development Server (http://localhost:5000/api)</option>
+            <option value="cloud">Production Cloud Server (https://rpsc-ras-backend.onrender.com/api)</option>
+            <option value="custom">Custom Server Address...</option>
+          </select>
+        </div>
+        <div id="simulator-custom-server-container" style="display: none; margin-bottom: 8px;">
+          <input type="text" id="simulator-custom-server-input" placeholder="e.g. http://192.168.1.15:5000/api" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; outline: none; margin-bottom: 6px;">
+          <button class="btn btn-primary" onclick="saveCustomSimulatorServer()" style="font-size: 11px; padding: 6px; width: 100%;">Save Address</button>
+        </div>
+        <p class="panel-info" style="margin-top: 6px; margin-bottom: 0;">Connected: <strong id="connected-server-text" style="color: #0EA5E9;">http://localhost:5000/api</strong></p>
+      </div>
+
+      <div class="control-card">
+        <h3>1. Authentication & Subscription Simulator</h3>
+        <div class="flex-row">
+          <button class="panel-btn" onclick="simulateActiveSub(false)">Reset Subscription (Expire)</button>
+          <button class="panel-btn active-state" onclick="simulateActiveSub(true)">Active Subscription</button>
+        </div>
+        <p class="panel-info">Current Expiry Status: <strong id="expiry-status-text">None (Logged Out)</strong></p>
+      </div>
+
+      <!-- Support Inbox Dashboard (Replacing Gemini settings) -->
+      <div class="control-card" style="border: 1px solid #10B981; background: rgba(16, 185, 129, 0.03);">
+        <h3>2. Help Desk: Student Support Queries</h3>
+        <p class="panel-info" style="margin-bottom: 8px;">Incoming difficulties or queries submitted by students from their mobile app.</p>
+        <div id="support-queries-list" style="max-height: 120px; overflow-y: auto; background: #090d16; border: 1px solid rgba(255,255,255,0.05); border-radius: var(--radius-xs); padding: 8px; font-size: 11px; display: flex; flex-direction: column; gap: 6px;">
+          <div style="color: var(--color-text-muted); text-align: center; padding: 12px 0;">No active queries found.</div>
+        </div>
+      </div>
+
+      <div class="control-card log-card">
+        <h3>3. System Activity Log</h3>
+        <p class="panel-info">Displays activity statements from the app and the admin upload pipeline.</p>
+        <div class="code-terminal" id="console-logs">
+          [System] Simulator initialized. Ready for user interaction.
+[System] OTP verification code is configured to '1234'.
+        </div>
+      </div>
+
+      <!-- 4. Document Ingestion Card -->
+      <div class="control-card" id="doc-ingest-card" style="border: 2px solid var(--color-primary); background: hsla(199, 89%, 48%, 0.03); margin-bottom: 20px;">
+        <h3>4. Custom Document Ingestion Engine</h3>
+        <p class="panel-info" style="margin-bottom: 12px; margin-top: 0;">Upload or paste your own MCQ lists to instantly update any selected topic.</p>
+        
+        <div class="input-group">
+          <label for="ingest-topic-select">Select Target Topic</label>
+          <select id="ingest-topic-select" onchange="onSidebarParentTopicChange()" style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; outline: none; margin-bottom: 10px;">
+            <option value="">Loading topics...</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="ingest-subtopic-select">Select Target Sub-topic (Optional)</label>
+          <select id="ingest-subtopic-select" style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; outline: none; margin-bottom: 10px;">
+            <option value="">-- No Sub-topic (Standard Topic) --</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="ingest-lang-select">Target Language Medium</label>
+          <select id="ingest-lang-select" style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; outline: none; margin-bottom: 10px;">
+            <option value="EN">English Medium</option>
+            <option value="HI">Hindi Medium (हिन्दी माध्यम)</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="ingest-raw-text">Paste Raw MCQ Questions Text</label>
+          <textarea id="ingest-raw-text" rows="5" placeholder="Paste your question list here... e.g. Q. What was... A) Option... B) ... C)... D) ... Correct: A" style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 10px; border-radius: var(--radius-sm); font-family: monospace; font-size: 11px; resize: vertical; outline: none; width: 100%;"></textarea>
+        </div>
+
+        <div class="flex-row" style="margin-bottom: 12px; gap: 8px;">
+          <button class="panel-btn" onclick="loadSampleQuestionsForIngestion()">Load Sample Questions</button>
+        </div>
+
+        <button class="btn btn-accent" id="btn-ingest-doc" onclick="triggerDocumentIngestion()">Ingest & Update Topic Database</button>
+      </div>
+
+      <!-- 5. Database Question Manager & Editor -->
+      <div class="control-card" id="db-question-manager-card" style="border: 2px solid var(--color-accent); background: rgba(244, 63, 94, 0.03); margin-bottom: 20px;">
+        <h3>5. Database Question Manager & Editor</h3>
+        <p class="panel-info">Select a topic or exam to load all loaded questions. You can view, edit, or delete them directly.</p>
+        
+        <div class="input-group">
+          <label for="manager-source-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Source Category</label>
+          <select id="manager-source-select" onchange="onManagerSourceChange()" style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; outline: none; margin-bottom: 10px;">
+            <option value="PRE_TOPICS">Prelims Syllabus Topics</option>
+            <option value="MAINS_TOPICS">Mains Syllabus Topics</option>
+            <option value="EXAMS">Past Years Exams (PYQs)</option>
+          </select>
+        </div>
+
+        <div class="input-group" id="manager-topic-group">
+          <label for="manager-topic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Target Topic/Exam</label>
+          <select id="manager-topic-select" onchange="loadManagerQuestions()" style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; outline: none; margin-bottom: 10px;">
+            <!-- Populated dynamically -->
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="manager-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language</label>
+          <select id="manager-lang-select" onchange="loadManagerQuestions()" style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; outline: none; margin-bottom: 10px;">
+            <option value="EN">English</option>
+            <option value="HI">Hindi (हिन्दी)</option>
+          </select>
+        </div>
+
+        <button class="btn btn-primary" onclick="loadManagerQuestions()" style="margin-bottom: 12px; font-size: 11px; width: 100%;">Load Questions</button>
+
+        <div id="manager-questions-list" style="max-height: 250px; overflow-y: auto; background: #090d16; border: 1px solid rgba(255,255,255,0.05); border-radius: var(--radius-xs); padding: 8px; font-size: 11px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="color: var(--color-text-muted); text-align: center; padding: 12px 0;">Select options and click Load Questions.</div>
+        </div>
+      </div>
+
+      <div class="control-card instruction-guide">
+        <h3>6. Setup & Deployment Guidelines</h3>
+        <p>To run the production Node.js server and connect the local client:</p>
+        <ol>
+          <li>Ensure you are in the project folder: <code>rpsc-ras-app</code></li>
+          <li>Set environment variables: <br><code>$env:TURSO_DATABASE_URL="your-url"</code> (PowerShell)</li>
+          <li>Start the backend node server: <br><code>node backend/server.js</code></li>
+        </ol>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Help Desk Modal for Student -->
+  <div class="modal-overlay hidden" id="student-help-modal" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(15, 23, 42, 0.8); z-index: 1000; display: flex; align-items: center; justify-content: center;">
+    <div class="glass-card" style="width: 90%; max-width: 400px; padding: 20px; border: 1px solid var(--color-card-border);">
+      <h3 style="margin-top: 0; margin-bottom: 8px; color: var(--color-primary);" id="student-help-title">❓ RPSC Help Desk</h3>
+      <p style="font-size: 11px; color: var(--color-text-muted); margin-bottom: 12px; line-height: 1.4;" id="student-help-desc">Submit your syllabus doubts or technical difficulties. Our experts will resolve it shortly.</p>
+      
+      <div class="input-group" style="margin-bottom: 16px;">
+        <label for="student-help-input" style="font-size: 10px; display: block; margin-bottom: 4px; color: var(--color-text-muted);">Your Query / Doubts</label>
+        <textarea id="student-help-input" rows="4" placeholder="Write your doubt here..." style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; resize: vertical; outline: none;"></textarea>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; gap: 8px;">
+        <button class="btn btn-outline" onclick="closeStudentHelpModal()" style="padding: 6px 12px; font-size: 11px; margin: 0;">Cancel</button>
+        <button class="btn btn-accent" onclick="submitStudentHelpQuery()" style="padding: 6px 12px; font-size: 11px; margin: 0;">Submit Query</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Simulator Logic Scripts -->
+  <script src="syllabus_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
