@@ -247,22 +247,31 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
         const placeholders = questionIds.map(() => '?').join(',');
         const dbQuestions = await db.all(`SELECT * FROM questions WHERE question_id IN (${placeholders})`, questionIds);
 
+        // Map database questions by ID for fast lookup in original order
+        const dbQuestionsMap = {};
+        for (const q of dbQuestions) {
+            dbQuestionsMap[q.question_id] = q;
+        }
+
         let correct = 0;
         let incorrect = 0;
         let skipped = 0;
         const details = [];
         const timestamp = Date.now();
 
-        for (const q of dbQuestions) {
-            const userChoice = answers[q.question_id];
+        for (const qId of questionIds) {
+            const q = dbQuestionsMap[qId];
+            if (!q) continue;
+
+            const userChoice = answers[qId];
             
             // Log attempt to history table
-            await db.saveQuizAttempt(userId, q.question_id, timestamp);
+            await db.saveQuizAttempt(userId, qId, timestamp);
 
             if (!userChoice) {
                 skipped++;
                 details.push({
-                    question_id: q.question_id,
+                    question_id: qId,
                     question_text: q.question_text,
                     user_answer: null,
                     correct_answer: q.correct_option,
@@ -273,7 +282,7 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             } else if (userChoice.toUpperCase() === q.correct_option.toUpperCase()) {
                 correct++;
                 details.push({
-                    question_id: q.question_id,
+                    question_id: qId,
                     question_text: q.question_text,
                     user_answer: userChoice,
                     correct_answer: q.correct_option,
@@ -284,7 +293,7 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             } else {
                 incorrect++;
                 details.push({
-                    question_id: q.question_id,
+                    question_id: qId,
                     question_text: q.question_text,
                     user_answer: userChoice,
                     correct_answer: q.correct_option,
@@ -563,25 +572,35 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
     const topicIdsStr = req.query.topic_ids;
     const minuteTopicId = req.query.minute_topic_id ? parseInt(req.query.minute_topic_id) : null;
     const language = req.query.language || 'EN';
+    const limitVal = req.query.limit ? parseInt(req.query.limit) : (req.query.count ? parseInt(req.query.count) : null);
 
-    if (!topicIdsStr) {
-        return res.status(400).json({ error: "Topic IDs are required." });
+    if (!topicIdsStr && !minuteTopicId) {
+        return res.status(400).json({ error: "Topic IDs or Minute Topic ID is required." });
     }
 
-    const topicIds = topicIdsStr.split(',').map(Number);
+    const topicIds = topicIdsStr ? topicIdsStr.split(',').map(Number) : [];
 
     try {
         let questions;
         if (minuteTopicId) {
-            questions = await db.all(`
+            let sql = `
                 SELECT mq.*, t.topic_name 
                 FROM mains_questions mq
                 JOIN topics t ON mq.topic_id = t.topic_id
                 WHERE mq.minute_topic_id = ? AND mq.language = ?
                 ORDER BY mq.sequence_order ASC
-            `, [minuteTopicId, language]);
+            `;
+            const params = [minuteTopicId, language];
+            if (limitVal) {
+                sql += ` LIMIT ?`;
+                params.push(limitVal);
+            }
+            questions = await db.all(sql, params);
         } else {
             questions = await db.getMainsQuestions(topicIds, language);
+            if (limitVal) {
+                questions = questions.slice(0, limitVal);
+            }
         }
         res.status(200).json({ questions });
     } catch (err) {

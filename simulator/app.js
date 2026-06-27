@@ -744,9 +744,9 @@ async function startPracticeTest() {
     url = `${API_BASE}/pyq/questions?exam_id=${examId}&language=${appState.language || 'EN'}`;
   } else if (isMains) {
     if (minuteTopicId) {
-      url = `${API_BASE}/mains/questions?minute_topic_id=${minuteTopicId}&language=${appState.language || 'EN'}`;
+      url = `${API_BASE}/mains/questions?minute_topic_id=${minuteTopicId}&language=${appState.language || 'EN'}&limit=${count}`;
     } else {
-      url = `${API_BASE}/mains/questions?topic_ids=${finalTopicIds.join(',')}&language=${appState.language || 'EN'}`;
+      url = `${API_BASE}/mains/questions?topic_ids=${finalTopicIds.join(',')}&language=${appState.language || 'EN'}&limit=${count}`;
     }
   } else {
     if (minuteTopicId) {
