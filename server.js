@@ -549,7 +549,7 @@ app.get('/api/syllabus', checkSubscription, async (req, res) => {
     const tier = req.query.tier || 'PRE';
     try {
         const syllabus = await db.getFullSyllabus(tier);
-        res.status(200).json({ syllabus });
+        res.status(200).json({ syllabus, subjects: syllabus });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch syllabus: " + err.message });
     }
