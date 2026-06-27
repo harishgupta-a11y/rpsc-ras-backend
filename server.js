@@ -544,6 +544,17 @@ app.post('/api/admin/upload-mains-questions', upload.single('questionsFile'), as
     }
 });
 
+// --- GET unified syllabus hierarchy (Gated) ---
+app.get('/api/syllabus', checkSubscription, async (req, res) => {
+    const tier = req.query.tier || 'PRE';
+    try {
+        const syllabus = await db.getFullSyllabus(tier);
+        res.status(200).json({ syllabus });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch syllabus: " + err.message });
+    }
+});
+
 // --- GET Mains Questions sequential portal (Gated) ---
 app.get('/api/mains/questions', checkSubscription, async (req, res) => {
     const topicIdsStr = req.query.topic_ids;
