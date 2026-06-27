@@ -169,7 +169,20 @@ async function initDatabase() {
             );
         `);
 
-        // Migrations: Add language and minute_topic_id columns to questions if not present
+        // 11. Mains Questions Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS mains_questions (
+                mains_question_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                topic_id INTEGER NOT NULL,
+                question_text TEXT NOT NULL,
+                model_answer TEXT NOT NULL,
+                language TEXT DEFAULT 'EN' CHECK(language IN ('EN', 'HI')),
+                sequence_order INTEGER NOT NULL,
+                FOREIGN KEY (topic_id) REFERENCES topics(topic_id) ON DELETE CASCADE
+            );
+        `);
+
+        // Migrations: Add columns if not present
         try {
             await run("ALTER TABLE questions ADD COLUMN minute_topic_id INTEGER DEFAULT NULL;");
         } catch (e) {
@@ -180,39 +193,55 @@ async function initDatabase() {
         } catch (e) {
             // Ignore if column already exists
         }
+        try {
+            await run("ALTER TABLE users ADD COLUMN has_used_trial INTEGER DEFAULT 0;");
+        } catch (e) {
+            // Ignore if column already exists
+        }
+        try {
+            await run("ALTER TABLE mains_questions ADD COLUMN minute_topic_id INTEGER DEFAULT NULL;");
+        } catch (e) {
+            // Ignore if column already exists
+        }
+        try {
+            await run("ALTER TABLE mains_questions ADD COLUMN exam_id INTEGER DEFAULT NULL;");
+        } catch (e) {
+            // Ignore if column already exists
+        }
+        try {
+            await run("ALTER TABLE pyq_exams ADD COLUMN tier_type TEXT CHECK(tier_type IN ('PRE', 'MAINS')) NOT NULL DEFAULT 'PRE';");
+        } catch (e) {
+            // Ignore if column already exists
+        }
 
         console.log("All SQLite tables verified successfully.");
 
-        // Seed default PYQ Exams if none exist
+        // Seed default PYQ Exams if none exist or if we need to update to 22 exams
         const pyqExamsCount = await get("SELECT COUNT(*) as count FROM pyq_exams");
-        if (pyqExamsCount.count === 0) {
-            const defaultExams = [
-                { name: "RPSC RAS Prelims 2023", year: 2023 },
-                { name: "RPSC RAS Prelims 2021", year: 2021 },
-                { name: "RPSC RAS Prelims 2018", year: 2018 },
-                { name: "RPSC RAS Prelims 2016", year: 2016 },
-                { name: "RPSC RAS Prelims 2015", year: 2015 },
-                { name: "RPSC RAS Prelims 2013", year: 2013 },
-                { name: "RPSC RAS Prelims 2012", year: 2012 },
-                { name: "RPSC RAS Prelims 2010", year: 2010 },
-                { name: "RPSC RAS Prelims 2008", year: 2008 },
-                { name: "RPSC RAS Prelims 2007", year: 2007 }
-            ];
-            for (const exam of defaultExams) {
-                await run("INSERT INTO pyq_exams (exam_name, exam_year) VALUES (?, ?)", [exam.name, exam.year]);
+        if (pyqExamsCount.count < 22) {
+            await run("DELETE FROM pyq_questions;");
+            await run("DELETE FROM pyq_exams;");
+            try {
+                await run("DELETE FROM sqlite_sequence WHERE name IN ('pyq_exams', 'pyq_questions');");
+            } catch (seqErr) {}
+
+            const preYears = [2023, 2021, 2018, 2016, 2013, 2012, 2010, 2008, 2007, 2003, 2000];
+            for (const year of preYears) {
+                await run("INSERT INTO pyq_exams (exam_name, exam_year, tier_type) VALUES (?, ?, 'PRE')", [`RPSC RAS Prelims ${year}`, year]);
             }
-            console.log("Seeded 10 default PYQ Exams.");
-            
-            // Seed a sample question for RAS Pre 2023
-            await run(`
-                INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order)
-                VALUES (1, 'Which of the following sites has yielded the earliest evidence of agriculture in the Indian subcontinent?', 'Mehrgarh', 'Lahuradewa', 'Koldihwa', 'Bagor', 'A', 'Mehrgarh is a Neolithic site located on the Bolan pass on the Kachi plain of Balochistan, Pakistan. It provides the earliest evidence of farming and herding in South Asia.', 'EN', 1)
-            `);
-            // Seed a sample question in Hindi
-            await run(`
-                INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order)
-                VALUES (1, 'भारतीय उपमहाद्वीप में कृषि के प्राचीनतम साक्ष्य किस स्थल से प्राप्त हुए हैं?', 'मेहरगढ़', 'लहुरादेव', 'कोल्डिहवा', 'बागोर', 'A', 'मेहरगढ़ पाकिस्तान के बलूचिस्तान में कच्ची मैदान पर बोलन दर्रे के पास स्थित एक नवपाषाण कालीन स्थल है। यह दक्षिण एशिया में खेती और पशुपालन के सबसे पुराने साक्ष्य प्रदान करता है।', 'HI', 1)
-            `);
+
+            const mainsYears = [2023, 2021, 2018, 2016, 2013, 2012, 2010, 2008, 2007, 2003, 2000];
+            for (const year of mainsYears) {
+                await run("INSERT INTO pyq_exams (exam_name, exam_year, tier_type) VALUES (?, ?, 'MAINS')", [`RPSC RAS Mains ${year}`, year]);
+            }
+            console.log("Seeded 22 default PYQ Exams (11 Pre and 11 Mains).");
+        }
+
+        // Seed default test user 9876543210 with active subscription
+        const testUser = await get("SELECT * FROM users WHERE mobile_number = '9876543210'");
+        if (!testUser) {
+            await run("INSERT INTO users (mobile_number, expiry_timestamp) VALUES ('9876543210', ?)", [Date.now() + 365 * 24 * 60 * 60 * 1000]);
+            console.log("Seeded default test user 9876543210 with active subscription.");
         }
 
         // Check if database needs seeding or migration
@@ -232,6 +261,7 @@ async function initDatabase() {
             }
             await seedSyllabusAndSampleQuestions();
         }
+        await seedPlaceholderQuestionsIfNeeded();
     } catch (err) {
         console.error("Database initialization error:", err.message);
     }
@@ -434,11 +464,23 @@ async function seedSyllabusAndSampleQuestions() {
 
         console.log("Mains syllabus structured successfully.");
 
+        // --- SEED SAMPLE SUB-TOPICS (MINUTE TOPICS) ---
+        const mtCount = await get("SELECT COUNT(*) as count FROM minute_topics WHERE topic_id = 1");
+        if (mtCount.count === 0) {
+            await run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (1, 'Kalibangan Site')");
+            await run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (1, 'Ahar Culture')");
+            await run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (1, 'Bairat Excavations')");
+            await run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (1, 'Bagor Mesolithic Site')");
+            await run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (1, 'Ganeshwar Copper Age')");
+            console.log("Seeded 5 default sub-topics for Topic 1.");
+        }
+
         // --- SEED SAMPLE QUESTIONS ---
         // Seed some Pre questions for Topic 1: Pre-historic sites (Kalibangan, Ahar, Bairat)
         const samplePreQuestions = [
             {
                 topic_id: 1,
+                minute_topic_id: 1, // Kalibangan Site
                 question_text: "Which of the following Harappan archaeological sites in India has yielded the earliest evidence of a ploughed field?",
                 option_a: "Banawali",
                 option_b: "Kalibangan",
@@ -449,6 +491,7 @@ async function seedSyllabusAndSampleQuestions() {
             },
             {
                 topic_id: 1,
+                minute_topic_id: 1, // Kalibangan Site
                 question_text: "The Kalibangan archaeological site is situated along the banks of which river in Rajasthan?",
                 option_a: "Luni River",
                 option_b: "Chambal River",
@@ -459,6 +502,7 @@ async function seedSyllabusAndSampleQuestions() {
             },
             {
                 topic_id: 1,
+                minute_topic_id: 2, // Ahar Culture
                 question_text: "At which of the following pre-historic sites of Rajasthan, was a copper tool warehouse (Tamravati) discovered?",
                 option_a: "Ahar",
                 option_b: "Bairat",
@@ -521,15 +565,303 @@ async function seedSyllabusAndSampleQuestions() {
 
         for (const q of samplePreQuestions) {
             await run(`
-                INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-            `, [q.topic_id, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation]);
+                INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            `, [q.topic_id, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, q.minute_topic_id || null]);
         }
 
         console.log("Sample question bank seeded successfully.");
 
+        // Seed sample Mains questions if none exist
+        const mainsQCount = await get("SELECT COUNT(*) as count FROM mains_questions");
+        if (mainsQCount.count === 0) {
+            const defaultMainsQs = [
+                {
+                    topic_id: 101,
+                    question_text: "Discuss the political and cultural achievements of Bappa Rawal in the history of Mewar.",
+                    model_answer: "Bappa Rawal (ruled c. 734-753 AD) is considered the real founder of Mewar dynasty. 1. Military achievements: He defeated the Arab invaders who were expanding into Western India. 2. Territorial consolidation: He captured the Chittor fort from Mori rulers. 3. Cultural contribution: He built the Eklingji Temple (deity of the Guhils) near Udaipur. He issued gold coins which established Mewar's economic autonomy.",
+                    language: "EN",
+                    sequence_order: 1
+                },
+                {
+                    topic_id: 101,
+                    question_text: "मेवाड़ के इतिहास में बप्पा रावल की राजनीतिक और सांस्कृतिक उपलब्धियों की चर्चा कीजिए।",
+                    model_answer: "बप्पा रावल (शासन लगभग 734-753 ई.) को मेवाड़ राजवंश का वास्तविक संस्थापक माना जाता है। 1. सैन्य उपलब्धियाँ: उन्होंने पश्चिमी भारत में बढ़ रहे अरब आक्रमणकारियों को पराजित किया। 2. क्षेत्रीय एकीकरण: उन्होंने मोरी शासकों से चित्तौड़गढ़ किला जीता। 3. सांस्कृतिक योगदान: उन्होंने उदयपुर के निकट एकलिंगजी मंदिर का निर्माण कराया। उन्होंने सोने के सिक्के जारी किए जो मेवाड़ की आर्थिक स्वायत्तता को दर्शाते हैं।",
+                    language: "HI",
+                    sequence_order: 1
+                },
+                {
+                    topic_id: 110,
+                    question_text: "Examine the relevance of the Gandhian concept of Trusteeship in modern public administration.",
+                    model_answer: "The Trusteeship model posits that wealthy individuals and public officials are mere trustees of societal resources. In public administration, it translates to: 1. Ethical stewardship of public funds. 2. Selfless service without personal gain. 3. Promoting social justice and equal opportunities for the vulnerable.",
+                    language: "EN",
+                    sequence_order: 1
+                },
+                {
+                    topic_id: 110,
+                    question_text: "आधुनिक लोक प्रशासन में गांधीवादी 'न्यासधारिता' (ट्रस्टीशिप) की अवधारणा की प्रासंगिकता का परीक्षण कीजिए।",
+                    model_answer: "न्यासधारिता मॉडल का मानना है कि धनी व्यक्ति और सार्वजनिक अधिकारी समाज के संसाधनों के केवल ट्रस्टी (संरक्षक) हैं। लोक प्रशासन में, इसका अर्थ है: 1. सार्वजनिक धन का नैतिक प्रबंधन। 2. व्यक्तिगत लाभ के बिना निःस्वार्थ सेवा। 3. समाज के कमजोर वर्गों के लिए सामाजिक न्याय और समान अवसरों को बढ़ावा देना।",
+                    language: "HI",
+                    sequence_order: 1
+                }
+            ];
+            for (const q of defaultMainsQs) {
+                await run(`
+                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order)
+                    VALUES (?, ?, ?, ?, ?)
+                `, [q.topic_id, q.question_text, q.model_answer, q.language, q.sequence_order]);
+            }
+            console.log("Seeded default Mains descriptive Q&As.");
+        }
+
     } catch (err) {
         console.error("Error seeding database:", err.message);
+    }
+}
+
+async function seedPlaceholderQuestionsIfNeeded() {
+    try {
+        console.log("Starting comprehensive database check and random question seeding...");
+
+        // 1. Seed Pre syllabus topics with at least 3 EN and 3 HI questions
+        const allPreTopics = await all("SELECT topic_id, topic_name FROM topics WHERE topic_id < 100");
+        let preTopicsSeeded = 0;
+        for (const topic of allPreTopics) {
+            // Check English
+            const enCount = await get("SELECT COUNT(*) as count FROM questions WHERE topic_id = ? AND language = 'EN' AND minute_topic_id IS NULL", [topic.topic_id]);
+            const neededEn = 3 - enCount.count;
+            for (let k = 0; k < neededEn; k++) {
+                const suffix = neededEn > 1 ? ` (Sample ${k + 1})` : "";
+                await run(`
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'EN')
+                `, [
+                    topic.topic_id,
+                    `Practice MCQ Question${suffix} for: ${topic.topic_name}`,
+                    `Option A regarding ${topic.topic_name}`,
+                    `Option B regarding ${topic.topic_name}`,
+                    `Option C regarding ${topic.topic_name}`,
+                    `Option D regarding ${topic.topic_name}`,
+                    'A',
+                    `This is the detailed explanation for ${topic.topic_name}.`
+                ]);
+                preTopicsSeeded++;
+            }
+            // Check Hindi
+            const hiCount = await get("SELECT COUNT(*) as count FROM questions WHERE topic_id = ? AND language = 'HI' AND minute_topic_id IS NULL", [topic.topic_id]);
+            const neededHi = 3 - hiCount.count;
+            for (let k = 0; k < neededHi; k++) {
+                const suffix = neededHi > 1 ? ` (नमूना ${k + 1})` : "";
+                await run(`
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'HI')
+                `, [
+                    topic.topic_id,
+                    `${topic.topic_name} के लिए अभ्यास प्रश्न${suffix}`,
+                    `विकल्प A: ${topic.topic_name} का विवरण`,
+                    `विकल्प B: ${topic.topic_name} का विवरण`,
+                    `विकल्प C: ${topic.topic_name} का विवरण`,
+                    `विकल्प D: ${topic.topic_name} का विवरण`,
+                    'A',
+                    `यह ${topic.topic_name} के लिए विस्तृत व्याख्या और आदर्श उत्तर है।`
+                ]);
+                preTopicsSeeded++;
+            }
+        }
+        if (preTopicsSeeded > 0) {
+            console.log(`Seeded ${preTopicsSeeded} placeholder questions for Pre syllabus topics.`);
+        }
+
+        // 2. Seed all minute topics (sub-topics) with at least 1 EN and 1 HI question
+        const allMinuteTopics = await all("SELECT minute_topic_id, topic_id, minute_topic_name FROM minute_topics");
+        let minuteTopicsSeeded = 0;
+        for (const mt of allMinuteTopics) {
+            const isMains = mt.topic_id >= 100;
+            if (isMains) {
+                // Check English
+                const enCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE minute_topic_id = ? AND language = 'EN'", [mt.minute_topic_id]);
+                if (enCount.count === 0) {
+                    await run(`
+                        INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id)
+                        VALUES (?, ?, ?, 'EN', 1, ?)
+                    `, [
+                        mt.topic_id,
+                        `Explain the key components and administrative relevance of the sub-topic: ${mt.minute_topic_name}`,
+                        `This is the suggested model answer for sub-topic ${mt.minute_topic_name}. It details all structural aspects and critical points required by RPSC Mains standards to score high marks.`,
+                        mt.minute_topic_id
+                    ]);
+                    minuteTopicsSeeded++;
+                }
+                // Check Hindi
+                const hiCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE minute_topic_id = ? AND language = 'HI'", [mt.minute_topic_id]);
+                if (hiCount.count === 0) {
+                    await run(`
+                        INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id)
+                        VALUES (?, ?, ?, 'HI', 1, ?)
+                    `, [
+                        mt.topic_id,
+                        `सब-टॉपिक: ${mt.minute_topic_name} के प्रमुख घटकों और प्रशासनिक प्रासंगिकता की व्याख्या कीजिए।`,
+                        `यह सब-टॉपिक ${mt.minute_topic_name} के लिए सुझाया गया मॉडल उत्तर है। इसमें आरपीएससी मुख्य परीक्षा के मानकों के अनुसार उच्च अंक प्राप्त करने के लिए सभी संरचनात्मक पहलुओं और महत्वपूर्ण बिंदुओं का विवरण दिया गया है।`,
+                        mt.minute_topic_id
+                    ]);
+                    minuteTopicsSeeded++;
+                }
+            } else {
+                // Check English
+                const enCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = ? AND language = 'EN'", [mt.minute_topic_id]);
+                if (enCount.count === 0) {
+                    await run(`
+                        INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'EN')
+                    `, [
+                        mt.topic_id,
+                        `Practice MCQ Question for Sub-topic: ${mt.minute_topic_name}`,
+                        `Option A for ${mt.minute_topic_name}`,
+                        `Option B for ${mt.minute_topic_name}`,
+                        `Option C for ${mt.minute_topic_name}`,
+                        `Option D for ${mt.minute_topic_name}`,
+                        'A',
+                        `This is the detailed explanation for sub-topic ${mt.minute_topic_name}.`,
+                        mt.minute_topic_id
+                    ]);
+                    minuteTopicsSeeded++;
+                }
+                // Check Hindi
+                const hiCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = ? AND language = 'HI'", [mt.minute_topic_id]);
+                if (hiCount.count === 0) {
+                    await run(`
+                        INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'HI')
+                    `, [
+                        mt.topic_id,
+                        `सब-टॉपिक: ${mt.minute_topic_name} के लिए अभ्यास प्रश्न`,
+                        `विकल्प A: ${mt.minute_topic_name} का विवरण`,
+                        `विकल्प B: ${mt.minute_topic_name} का विवरण`,
+                        `विकल्प C: ${mt.minute_topic_name} का विवरण`,
+                        `विकल्प D: ${mt.minute_topic_name} का विवरण`,
+                        'A',
+                        `यह सब-टॉपिक ${mt.minute_topic_name} के लिए विस्तृत व्याख्या है।`,
+                        mt.minute_topic_id
+                    ]);
+                    minuteTopicsSeeded++;
+                }
+            }
+        }
+        if (minuteTopicsSeeded > 0) {
+            console.log(`Seeded ${minuteTopicsSeeded} placeholder questions for sub-topics.`);
+        }
+
+        // 3. Seed all PYQ exams with at least 1 EN and 1 HI question
+        const allPyqExams = await all("SELECT exam_id, exam_name, exam_year, tier_type FROM pyq_exams");
+        let pyqSeeded = 0;
+        for (const exam of allPyqExams) {
+            if (exam.tier_type === 'MAINS') {
+                // Check English
+                const enCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE exam_id = ? AND language = 'EN'", [exam.exam_id]);
+                if (enCount.count === 0) {
+                    await run(`
+                        INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, exam_id)
+                        VALUES (101, ?, ?, 'EN', 1, ?)
+                    `, [
+                        `Descriptive Past Year Question from ${exam.exam_name} (${exam.exam_year})`,
+                        `This is the suggested model answer for the past year question from ${exam.exam_name}.`,
+                        exam.exam_id
+                    ]);
+                    pyqSeeded++;
+                }
+                // Check Hindi
+                const hiCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE exam_id = ? AND language = 'HI'", [exam.exam_id]);
+                if (hiCount.count === 0) {
+                    await run(`
+                        INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, exam_id)
+                        VALUES (101, ?, ?, 'HI', 1, ?)
+                    `, [
+                        `${exam.exam_name} (${exam.exam_year}) से वर्णनात्मक विगत वर्ष का प्रश्न`,
+                        `यह ${exam.exam_name} विगत वर्ष की परीक्षा के प्रश्न के लिए सुझाया गया मॉडल उत्तर है।`,
+                        exam.exam_id
+                    ]);
+                    pyqSeeded++;
+                }
+            } else {
+                // Check English
+                const enCount = await get("SELECT COUNT(*) as count FROM pyq_questions WHERE exam_id = ? AND language = 'EN'", [exam.exam_id]);
+                if (enCount.count === 0) {
+                    await run(`
+                        INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'EN', 1)
+                    `, [
+                        exam.exam_id,
+                        `Past Year Question for ${exam.exam_name} (${exam.exam_year})`,
+                        `Option A from official answer key`,
+                        `Option B from official answer key`,
+                        `Option C from official answer key`,
+                        `Option D from official answer key`,
+                        'A',
+                        `This is the detailed explanation for ${exam.exam_name} past paper question.`
+                    ]);
+                    pyqSeeded++;
+                }
+                // Check Hindi
+                const hiCount = await get("SELECT COUNT(*) as count FROM pyq_questions WHERE exam_id = ? AND language = 'HI'", [exam.exam_id]);
+                if (hiCount.count === 0) {
+                    await run(`
+                        INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'HI', 1)
+                    `, [
+                        exam.exam_id,
+                        `${exam.exam_name} (${exam.exam_year}) के लिए विगत वर्ष का प्रश्न`,
+                        `विकल्प A: आधिकारिक उत्तर कुंजी के अनुसार`,
+                        `विकल्प B: आधिकारिक उत्तर कुंजी के अनुसार`,
+                        `विकल्प C: आधिकारिक उत्तर कुंजी के अनुसार`,
+                        `विकल्प D: आधिकारिक उत्तर कुंजी के अनुसार`,
+                        'A',
+                        `यह ${exam.exam_name} विगत वर्ष की परीक्षा के प्रश्न का विस्तृत स्पष्टीकरण है।`
+                    ]);
+                    pyqSeeded++;
+                }
+            }
+        }
+        if (pyqSeeded > 0) {
+            console.log(`Seeded ${pyqSeeded} placeholder questions for PYQ exams.`);
+        }
+
+        // 4. Seed all Mains topics with at least 1 EN and 1 HI descriptive question
+        const allMainsTopics = await all("SELECT topic_id, topic_name FROM topics WHERE topic_id >= 100");
+        let mainsSeeded = 0;
+        for (const topic of allMainsTopics) {
+            // Check English
+            const enCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE topic_id = ? AND language = 'EN' AND exam_id IS NULL AND minute_topic_id IS NULL", [topic.topic_id]);
+            if (enCount.count === 0) {
+                await run(`
+                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order)
+                    VALUES (?, ?, ?, 'EN', 1)
+                `, [
+                    topic.topic_id,
+                    `Explain the key components and administrative relevance of: ${topic.topic_name}`,
+                    `This is the suggested model answer for ${topic.topic_name}. It details all structural aspects and critical points required by RPSC Mains standards to score high marks.`
+                ]);
+                mainsSeeded++;
+            }
+            // Check Hindi
+            const hiCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE topic_id = ? AND language = 'HI' AND exam_id IS NULL AND minute_topic_id IS NULL", [topic.topic_id]);
+            if (hiCount.count === 0) {
+                await run(`
+                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order)
+                    VALUES (?, ?, ?, 'HI', 1)
+                `, [
+                    topic.topic_id,
+                    `${topic.topic_name} के प्रमुख घटकों और प्रशासनिक प्रासंगिकता की व्याख्या कीजिए।`,
+                    `यह ${topic.topic_name} के लिए सुझाया गया मॉडल उत्तर है। इसमें आरपीएससी मुख्य परीक्षा के मानकों के अनुसार उच्च अंक प्राप्त करने के लिए सभी संरचनात्मक पहलुओं और महत्वपूर्ण बिंदुओं का विवरण दिया गया है।`
+                ]);
+                mainsSeeded++;
+            }
+        }
+        if (mainsSeeded > 0) {
+            console.log(`Seeded ${mainsSeeded} placeholder questions for Mains topics.`);
+        }
+
+    } catch (e) {
+        console.error("Error in seeding placeholder questions:", e.message);
     }
 }
 
@@ -544,6 +876,7 @@ module.exports = {
     getUserByMobile: (mobile) => get("SELECT * FROM users WHERE mobile_number = ?", [mobile]),
     createUser: (mobile) => run("INSERT INTO users (mobile_number) VALUES (?)", [mobile]),
     updateUserSubscription: (mobile, expiry) => run("UPDATE users SET expiry_timestamp = ? WHERE mobile_number = ?", [expiry, mobile]),
+    setUserTrialUsed: (mobile) => run("UPDATE users SET has_used_trial = 1 WHERE mobile_number = ?", [mobile]),
     
     // Syllabus Operations
     getSubjects: (tier) => all("SELECT * FROM subjects WHERE tier_type = ?", [tier]),
@@ -644,17 +977,20 @@ module.exports = {
     getAdminStats: async () => {
         const usersCount = await get("SELECT COUNT(*) as count FROM users");
         const questionsCount = await get("SELECT COUNT(*) as count FROM questions");
+        const mainsQuestionsCount = await get("SELECT COUNT(*) as count FROM mains_questions");
         const topicsStats = await all(`
-            SELECT t.topic_id, t.topic_name, s.subject_name, COUNT(q.question_id) as q_count 
+            SELECT t.topic_id, t.topic_name, s.subject_name, 
+            (SELECT COUNT(*) FROM questions WHERE topic_id = t.topic_id) as q_count,
+            (SELECT COUNT(*) FROM mains_questions WHERE topic_id = t.topic_id) as mq_count
             FROM topics t
             JOIN units u ON t.unit_id = u.unit_id
             JOIN subjects s ON u.subject_id = s.subject_id
-            LEFT JOIN questions q ON q.topic_id = t.topic_id
             GROUP BY t.topic_id
         `);
         return {
             usersCount: usersCount.count,
             questionsCount: questionsCount.count,
+            mainsQuestionsCount: mainsQuestionsCount.count,
             topicsStats
         };
     },
@@ -664,15 +1000,40 @@ module.exports = {
     getSupportQueries: () => all("SELECT sq.*, u.mobile_number FROM support_queries sq JOIN users u ON sq.user_id = u.user_id ORDER BY sq.timestamp DESC"),
     clearSupportQuery: (queryId) => run("DELETE FROM support_queries WHERE query_id = ?", [queryId]),
 
-    // Minute Topics Operations
-    getMinuteTopicsByTopic: (topicId) => all("SELECT * FROM minute_topics WHERE topic_id = ?", [topicId]),
+    getMinuteTopicsByTopic: (topicId) => all(`
+        SELECT mt.*, 
+               (SELECT COUNT(*) FROM questions q WHERE q.minute_topic_id = mt.minute_topic_id) as q_count,
+               (SELECT COUNT(*) FROM mains_questions mq WHERE mq.minute_topic_id = mt.minute_topic_id) as mq_count
+        FROM minute_topics mt
+        WHERE mt.topic_id = ?
+    `, [topicId]),
     createMinuteTopic: (topicId, name) => run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (?, ?)", [topicId, name]),
-    clearMinuteTopicQuestions: (minuteTopicId) => run("DELETE FROM questions WHERE minute_topic_id = ?", [minuteTopicId]),
+    clearMinuteTopicQuestions: async (minuteTopicId) => {
+        await run("DELETE FROM questions WHERE minute_topic_id = ?", [minuteTopicId]);
+        await run("DELETE FROM mains_questions WHERE minute_topic_id = ?", [minuteTopicId]);
+    },
 
     // PYQs Operations
     getPyqExams: () => all("SELECT * FROM pyq_exams ORDER BY exam_year DESC"),
     getPyqQuestions: (examId, language = 'EN') => all("SELECT * FROM pyq_questions WHERE exam_id = ? AND language = ? ORDER BY sequence_order ASC", [examId, language]),
-    createPyqExam: (name, year) => run("INSERT INTO pyq_exams (exam_name, exam_year) VALUES (?, ?)", [name, year])
+    createPyqExam: (name, year, tier) => run("INSERT INTO pyq_exams (exam_name, exam_year, tier_type) VALUES (?, ?, ?)", [name, year, tier]),
+
+    // Mains Questions Operations
+    getMainsQuestions: (topicIds, language = 'EN') => {
+        const placeholders = topicIds.map(() => '?').join(',');
+        return all(`
+            SELECT mq.*, t.topic_name 
+            FROM mains_questions mq
+            JOIN topics t ON mq.topic_id = t.topic_id
+            WHERE mq.topic_id IN (${placeholders}) AND mq.language = ?
+            ORDER BY mq.sequence_order ASC
+        `, [...topicIds, language]);
+    },
+    createMainsQuestion: (topicId, questionText, modelAnswer, language, sequenceOrder) => run(`
+        INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order)
+        VALUES (?, ?, ?, ?, ?)
+    `, [topicId, questionText, modelAnswer, language, sequenceOrder]),
+    clearMainsQuestions: (topicId) => run("DELETE FROM mains_questions WHERE topic_id = ?", [topicId])
 };
 
 // Initialize DB immediately

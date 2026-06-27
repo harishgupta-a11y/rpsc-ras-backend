@@ -199,7 +199,7 @@ async function generateMCQBatch(subject, topic, count = 10) {
         const prompt = `You are an RPSC examination controller. Output a structured JSON array containing exactly ${count} multiple choice questions (MCQs) for RAS Pre Exam on the following topic.
 Subject: ${subject}
 Topic: ${topic}
-Each question must follow the RPSC pattern: 4 options (A, B, C, D), strict +2 correct / -0.33 negative marking context. Provide a detailed, highly factual explanation of the correct answer.
+Each question must follow the RPSC pattern: 4 options (A, B, C, D), strict +1.33 marks for correct and -0.44 marks (1/3 negative marking) context. Provide a detailed, highly factual explanation of the correct answer.
 
 Output format must strictly conform to this JSON Schema:
 [
