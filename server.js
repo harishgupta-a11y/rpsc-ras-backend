@@ -273,6 +273,10 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
                 details.push({
                     question_id: qId,
                     question_text: q.question_text,
+                    option_a: q.option_a,
+                    option_b: q.option_b,
+                    option_c: q.option_c,
+                    option_d: q.option_d,
                     user_answer: null,
                     correct_answer: q.correct_option,
                     is_correct: false,
@@ -284,6 +288,10 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
                 details.push({
                     question_id: qId,
                     question_text: q.question_text,
+                    option_a: q.option_a,
+                    option_b: q.option_b,
+                    option_c: q.option_c,
+                    option_d: q.option_d,
                     user_answer: userChoice,
                     correct_answer: q.correct_option,
                     is_correct: true,
@@ -295,6 +303,10 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
                 details.push({
                     question_id: qId,
                     question_text: q.question_text,
+                    option_a: q.option_a,
+                    option_b: q.option_b,
+                    option_c: q.option_c,
+                    option_d: q.option_d,
                     user_answer: userChoice,
                     correct_answer: q.correct_option,
                     is_correct: false,
@@ -870,6 +882,41 @@ app.post('/api/admin/clear-topic-questions', async (req, res) => {
     } catch (err) {
         return res.status(500).json({ error: "Failed to clear questions: " + err.message });
     }
+});
+
+// --- Settings (Screenshot Protection Control) Routes ---
+const settingsFilePath = path.join(__dirname, 'settings.json');
+
+function getSettings() {
+    try {
+        if (fs.existsSync(settingsFilePath)) {
+            const data = fs.readFileSync(settingsFilePath, 'utf8');
+            return JSON.parse(data);
+        }
+    } catch (e) {
+        console.error("Error reading settings.json:", e.message);
+    }
+    return { allowScreenshots: false };
+}
+
+function saveSettings(settings) {
+    try {
+        fs.writeFileSync(settingsFilePath, JSON.stringify(settings, null, 2), 'utf8');
+    } catch (e) {
+        console.error("Error writing settings.json:", e.message);
+    }
+}
+
+app.get('/api/settings', async (req, res) => {
+    res.status(200).json(getSettings());
+});
+
+app.post('/api/admin/toggle-screenshots', async (req, res) => {
+    const currentSettings = getSettings();
+    currentSettings.allowScreenshots = !currentSettings.allowScreenshots;
+    saveSettings(currentSettings);
+    console.log(`[Admin] Toggled allowScreenshots to ${currentSettings.allowScreenshots}`);
+    res.status(200).json(currentSettings);
 });
 
 // --- PYQs (Previous Years Questions) Routes ---
