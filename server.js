@@ -234,7 +234,18 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
     }
 
     try {
-        const questionIds = Object.keys(answers).map(Number);
+        let questionIds = [];
+        let answersMap = {};
+        if (Array.isArray(answers)) {
+            questionIds = answers.map(a => Number(a.questionId));
+            answers.forEach(a => {
+                answersMap[a.questionId] = a.choice;
+            });
+        } else {
+            questionIds = Object.keys(answers).map(Number);
+            answersMap = answers;
+        }
+
         if (questionIds.length === 0) {
             return res.status(200).json({
                 total: 0,
@@ -266,7 +277,7 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             const q = dbQuestionsMap[qId];
             if (!q) continue;
 
-            const userChoice = answers[qId];
+            const userChoice = answersMap[qId];
             
             // Log attempt to history table
             await db.saveQuizAttempt(userId, qId, timestamp);
@@ -775,20 +786,20 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
         }
 
         // Parse questions using strict regex triggers (Pre MCQ)
-        // Split by "Q. " or "Q." at the start of a block
-        const blocks = rawText.split(/(?=Q\.)/);
+        // Split by English Q. or Hindi प्र. / प्रश्न at the start of a block
+        const blocks = rawText.split(/(?=(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?))/i);
         const parsedQuestions = [];
 
         for (const block of blocks) {
             if (!block.trim() || !block.includes("A)")) continue;
 
-            const qMatch = block.match(/Q\.([\s\S]*?)(?=(?<=^|\s)(?<!\()A\))/i);
-            const aMatch = block.match(/(?<=^|\s)(?<!\()A\)([\s\S]*?)(?=(?<=^|\s)(?<!\()B\))/i);
-            const bMatch = block.match(/(?<=^|\s)(?<!\()B\)([\s\S]*?)(?=(?<=^|\s)(?<!\()C\))/i);
-            const cMatch = block.match(/(?<=^|\s)(?<!\()C\)([\s\S]*?)(?=(?<=^|\s)(?<!\()D\))/i);
-            const dMatch = block.match(/(?<=^|\s)(?<!\()D\)([\s\S]*?)(?=(?<=^|[\r\n]|\s)(?:Correct|Answer):?)/i);
-            const correctMatch = block.match(/(?<=^|[\r\n]|\s)(?:Correct|Answer)[\s:]+([A-D])(?!\w)/i);
-            const expMatch = block.match(/(?<=^|[\r\n])(?:Explanation|Exp)[\s:]+([\s\S]*?)$/i);
+            const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?<=^|\s)(?<!\()A\))/);
+            const aMatch = block.match(/(?<=^|\s)(?<!\()A\)([\s\S]*?)(?=(?<=^|\s)(?<!\()B\))/);
+            const bMatch = block.match(/(?<=^|\s)(?<!\()B\)([\s\S]*?)(?=(?<=^|\s)(?<!\()C\))/);
+            const cMatch = block.match(/(?<=^|\s)(?<!\()C\)([\s\S]*?)(?=(?<=^|\s)(?<!\()D\))/);
+            const dMatch = block.match(/(?<=^|\s)(?<!\()D\)([\s\S]*?)(?=(?<=^|[\r\n]|\s)(?:Correct|Answer|correct|answer|उत्तर|सही उत्तर):?)/i);
+            const correctMatch = block.match(/(?<=^|[\r\n]|\s)(?:Correct|Answer|correct|answer|उत्तर|सही उत्तर)[\s:]+([A-D])(?!\w)/i);
+            const expMatch = block.match(/(?<=^|[\r\n])(?:Explanation|Exp|explanation|exp|व्याख्या|स्पष्टीकरण)[\s:]+([\s\S]*?)$/i);
 
             if (qMatch && aMatch && bMatch && correctMatch) {
                 parsedQuestions.push({
