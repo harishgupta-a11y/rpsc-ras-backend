@@ -2609,6 +2609,31 @@ async function toggleScreenshots() {
   }
 }
 
+async function deleteAllQuestions() {
+  if (!confirm("Are you absolutely sure you want to delete ALL questions, Mains Q&As, PYQs, and quiz history from the database? This cannot be undone!")) {
+    return;
+  }
+  
+  logAdmin("Deleting all questions from database...");
+  try {
+    const res = await fetch(getApiBase() + '/admin/clear-all-questions', {
+      method: 'POST'
+    });
+    if (res.ok) {
+      const data = await res.json();
+      logAdmin(`[Success] ${data.message}`);
+      alert(data.message);
+      // Refresh stats
+      loadAdminPortal();
+    } else {
+      const err = await res.json();
+      alert("Error: " + err.error);
+    }
+  } catch (e) {
+    alert("Failed to clear database: " + e.message);
+  }
+}
+
 function updateScreenshotUI(allowScreenshots) {
   const btn = document.getElementById('toggle-screenshots-btn');
   const statusTxt = document.getElementById('screenshot-status-text');

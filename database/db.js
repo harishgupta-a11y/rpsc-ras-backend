@@ -267,7 +267,11 @@ async function initDatabase() {
             }
             await seedSyllabusAndSampleQuestions();
         }
-        await seedPlaceholderQuestionsIfNeeded();
+        const flagPath = path.join(__dirname, 'placeholder_seeded.flag');
+        if (!fs.existsSync(flagPath)) {
+            await seedPlaceholderQuestionsIfNeeded();
+            fs.writeFileSync(flagPath, 'true', 'utf8');
+        }
     } catch (err) {
         console.error("Database initialization error:", err.message);
     }
@@ -1039,7 +1043,23 @@ module.exports = {
         INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order)
         VALUES (?, ?, ?, ?, ?)
     `, [topicId, questionText, modelAnswer, language, sequenceOrder]),
-    clearMainsQuestions: (topicId) => run("DELETE FROM mains_questions WHERE topic_id = ?", [topicId])
+    clearMainsQuestions: (topicId) => run("DELETE FROM mains_questions WHERE topic_id = ?", [topicId]),
+    clearAllQuestions: async () => {
+        await run("DELETE FROM user_quiz_history;");
+        await run("DELETE FROM questions;");
+        await run("DELETE FROM mains_questions;");
+        await run("DELETE FROM pyq_questions;");
+        try {
+            await run("DELETE FROM sqlite_sequence WHERE name IN ('questions', 'mains_questions', 'pyq_questions');");
+        } catch (seqErr) {
+            // Ignore if sqlite_sequence doesn't exist
+        }
+        // Write the flag to prevent re-seeding placeholders on next server reboot
+        const flagPath = path.join(__dirname, 'placeholder_seeded.flag');
+        if (!fs.existsSync(flagPath)) {
+            fs.writeFileSync(flagPath, 'true', 'utf8');
+        }
+    }
 };
 
 // Initialize DB immediately

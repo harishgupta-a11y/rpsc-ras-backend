@@ -864,6 +864,16 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
     }
 });
 
+app.post('/api/admin/clear-all-questions', async (req, res) => {
+    try {
+        await db.clearAllQuestions();
+        console.log("[Admin] Successfully cleared all questions, Mains Q&As, and user quiz history.");
+        res.status(200).json({ message: "All questions and history deleted successfully from the database." });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to delete database questions: " + err.message });
+    }
+});
+
 // --- Admin Route: Dashboard Statistics ---
 app.get('/api/admin/stats', async (req, res) => {
     try {
