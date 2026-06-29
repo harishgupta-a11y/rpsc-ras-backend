@@ -1838,6 +1838,15 @@ function downloadPreTopicTemplate() {
   window.open(`${API_BASE}/admin/download-template?subject_id=${subjectId}&topic_id=${topicId}&language=${language}`);
 }
 
+function downloadSampleTemplate(type, language) {
+  logAdmin(`Downloading sample ${type} template in ${language}...`);
+  if (type === 'PRE') {
+    window.open(`${API_BASE}/admin/download-template?language=${language}`);
+  } else {
+    window.open(`${API_BASE}/admin/download-mains-template?language=${language}`);
+  }
+}
+
 async function uploadPreTopicQuestions(input) {
   const file = input.files[0];
   const select = document.getElementById('admin-pre-topic-select');

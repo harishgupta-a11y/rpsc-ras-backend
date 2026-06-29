@@ -350,13 +350,9 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
 
 // --- Admin Route: Download empty docx templates ---
 app.get('/api/admin/download-template', async (req, res) => {
-    const subjectId = req.query.subject_id;
-    const topicId = req.query.topic_id;
+    const subjectId = req.query.subject_id || '999';
+    const topicId = req.query.topic_id || '999';
     const language = req.query.language || 'EN';
-
-    if (!subjectId || !topicId) {
-        return res.status(400).send("Subject ID and Topic ID are required.");
-    }
 
     try {
         const isHi = language === 'HI';
@@ -424,13 +420,9 @@ app.get('/api/admin/download-template', async (req, res) => {
 
 // --- Admin Route: Download empty Mains docx templates ---
 app.get('/api/admin/download-mains-template', async (req, res) => {
-    const subjectId = req.query.subject_id;
-    const topicId = req.query.topic_id;
+    const subjectId = req.query.subject_id || '999';
+    const topicId = req.query.topic_id || '999';
     const language = req.query.language || 'EN';
-
-    if (!subjectId || !topicId) {
-        return res.status(400).send("Subject ID and Topic ID are required.");
-    }
 
     try {
         const isHi = language === 'HI';
