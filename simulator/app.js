@@ -1595,6 +1595,15 @@ async function populateIngestTopics() {
   const mainsParentSelect = document.getElementById('admin-mains-subtopic-parent-select');
   
   if (!preSelect || !parentSelect || !mainsSelect || !ingestTopicSelect) return;
+
+  const prevPreVal = preSelect.value;
+  const prevParentVal = parentSelect.value;
+  const prevIngestVal = ingestTopicSelect.value;
+  const prevMainsVal = mainsSelect.value;
+  const prevMainsParentVal = mainsParentSelect ? mainsParentSelect.value : null;
+
+  const prevSubtopicSelectVal = document.getElementById('admin-subtopic-select')?.value;
+  const prevMainsSubtopicSelectVal = document.getElementById('admin-mains-subtopic-select')?.value;
   
   try {
     const mobileHeader = "9876543210";
@@ -1684,10 +1693,27 @@ async function populateIngestTopics() {
       }
     });
 
+    // Restore previous selections
+    if (prevPreVal) preSelect.value = prevPreVal;
+    if (prevParentVal) parentSelect.value = prevParentVal;
+    if (prevIngestVal) ingestTopicSelect.value = prevIngestVal;
+    if (prevMainsVal) mainsSelect.value = prevMainsVal;
+    if (prevMainsParentVal && mainsParentSelect) mainsParentSelect.value = prevMainsParentVal;
+
     // Trigger parent topic change to populate subtopics list on load
-    onAdminParentTopicChange();
+    await onAdminParentTopicChange();
+    if (prevSubtopicSelectVal) {
+      const subtopicSelect = document.getElementById('admin-subtopic-select');
+      if (subtopicSelect) subtopicSelect.value = prevSubtopicSelectVal;
+    }
+
     onSidebarParentTopicChange();
-    onAdminMainsSubtopicParentChange();
+
+    await onAdminMainsSubtopicParentChange();
+    if (prevMainsSubtopicSelectVal) {
+      const mainsSubtopicSelect = document.getElementById('admin-mains-subtopic-select');
+      if (mainsSubtopicSelect) mainsSubtopicSelect.value = prevMainsSubtopicSelectVal;
+    }
 
   } catch (err) {
     console.error("Failed to populate ingest topics dropdowns:", err);
