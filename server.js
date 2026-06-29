@@ -778,8 +778,8 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
         }
 
         // Parse questions using strict regex triggers (Pre MCQ)
-        // Split by English Q. or Hindi प्र. / प्रश्न at the start of a block
-        const blocks = rawText.split(/(?=(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?))/i);
+        // Split by English Q. or Hindi प्र. / प्रश्न at the start of a block (case-sensitive to prevent splitting on lowercase 'q.' inside words like Tughlaq.)
+        const blocks = rawText.split(/(?=(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?))/);
         const parsedQuestions = [];
 
         for (const block of blocks) {
