@@ -294,7 +294,7 @@
 
               <div class="input-group" style="margin-bottom: 10px;">
                 <label for="admin-subtopic-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language Medium</label>
-                <select id="admin-subtopic-lang-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                <select id="admin-subtopic-lang-select" onchange="onAdminParentTopicChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
                   <option value="EN">English Medium</option>
                   <option value="HI">Hindi Medium (हिन्दी)</option>
                 </select>
@@ -442,7 +442,7 @@
 
               <div class="input-group" style="margin-bottom: 10px;">
                 <label for="admin-mains-subtopic-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language Medium</label>
-                <select id="admin-mains-subtopic-lang-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                <select id="admin-mains-subtopic-lang-select" onchange="onAdminMainsSubtopicParentChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
                   <option value="EN">English Medium</option>
                   <option value="HI">Hindi Medium (हिन्दी)</option>
                 </select>
@@ -607,6 +607,16 @@
         <p class="panel-info" style="margin-top: 6px; margin-bottom: 0;">Connected: <strong id="connected-server-text" style="color: #0EA5E9;">http://localhost:5000/api</strong></p>
       </div>
 
+      <!-- Security Settings Card -->
+      <div class="control-card" style="border: 1.5px solid #F59E0B; background: rgba(245, 158, 11, 0.03);">
+        <h3>0.1. App Security Controls</h3>
+        <p class="panel-info" style="margin-bottom: 8px;">Toggle screenshot and screen recording protection inside the mobile app.</p>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: rgba(0,0,0,0.25); border-radius: var(--radius-sm); border: 1px solid var(--color-card-border);">
+          <span style="font-size: 12px; font-weight: bold; color: white;">Allow App Screenshots</span>
+          <button id="toggle-screenshots-btn" onclick="toggleScreenshots()" class="btn" style="background: #EF4444; color: white; padding: 6px 14px; font-size: 11px; border-radius: 4px; border: none; font-weight: bold; cursor: pointer; min-width: 90px; text-align: center;">BLOCKED</button>
+        </div>
+      </div>
+
       <div class="control-card">
         <h3>1. Authentication & Subscription Simulator</h3>
         <div class="flex-row">
@@ -655,7 +665,7 @@
 
         <div class="input-group">
           <label for="ingest-lang-select">Target Language Medium</label>
-          <select id="ingest-lang-select" style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; outline: none; margin-bottom: 10px;">
+          <select id="ingest-lang-select" onchange="onSidebarParentTopicChange()" style="background-color: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 8px; border-radius: var(--radius-sm); font-size: 12px; width: 100%; outline: none; margin-bottom: 10px;">
             <option value="EN">English Medium</option>
             <option value="HI">Hindi Medium (हिन्दी माध्यम)</option>
           </select>

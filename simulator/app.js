@@ -1700,8 +1700,9 @@ async function onSidebarParentTopicChange() {
   const subtopicSelect = document.getElementById('ingest-subtopic-select');
   if (!parentId || !subtopicSelect) return;
 
+  const lang = document.getElementById('ingest-lang-select').value;
   try {
-    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${parentId}`, {
+    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${parentId}&language=${lang}`, {
       headers: { 'x-user-mobile': '9876543210' }
     });
     if (res.ok) {
@@ -1726,8 +1727,9 @@ async function onAdminParentTopicChange() {
   const subtopicSelect = document.getElementById('admin-subtopic-select');
   if (!parentId || !subtopicSelect) return;
 
+  const lang = document.getElementById('admin-subtopic-lang-select').value;
   try {
-    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${parentId}`, {
+    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${parentId}&language=${lang}`, {
       headers: { 'x-user-mobile': '9876543210' }
     });
     if (res.ok) {
@@ -1752,8 +1754,9 @@ async function onAdminMainsSubtopicParentChange() {
   const subtopicSelect = document.getElementById('admin-mains-subtopic-select');
   if (!parentId || !subtopicSelect) return;
 
+  const lang = document.getElementById('admin-mains-subtopic-lang-select').value;
   try {
-    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${parentId}`, {
+    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${parentId}&language=${lang}`, {
       headers: { 'x-user-mobile': '9876543210' }
     });
     if (res.ok) {
@@ -1775,6 +1778,7 @@ async function onAdminMainsSubtopicParentChange() {
 async function createSubtopicEntry() {
   const parentId = document.getElementById('admin-subtopic-parent-select').value;
   const name = document.getElementById('admin-new-subtopic-name').value.trim();
+  const lang = document.getElementById('admin-subtopic-lang-select').value;
   if (!parentId || !name) {
     alert("Please select a parent topic and enter a sub-topic name.");
     return;
@@ -1784,7 +1788,7 @@ async function createSubtopicEntry() {
     const res = await fetch(`${API_BASE}/admin/create-minute-topic`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ topicId: parentId, name: name })
+      body: JSON.stringify({ topicId: parentId, name: name, language: lang })
     });
     if (res.ok) {
       alert("Sub-topic entry added successfully!");
@@ -1799,6 +1803,7 @@ async function createSubtopicEntry() {
 async function createMainsSubtopicEntry() {
   const parentId = document.getElementById('admin-mains-subtopic-parent-select').value;
   const name = document.getElementById('admin-new-mains-subtopic-name').value.trim();
+  const lang = document.getElementById('admin-mains-subtopic-lang-select').value;
   if (!parentId || !name) {
     alert("Please select a parent topic and enter a sub-topic name.");
     return;
@@ -1808,7 +1813,7 @@ async function createMainsSubtopicEntry() {
     const res = await fetch(`${API_BASE}/admin/create-minute-topic`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ topicId: parentId, name: name })
+      body: JSON.stringify({ topicId: parentId, name: name, language: lang })
     });
     if (res.ok) {
       alert("Mains sub-topic entry added successfully!");
@@ -2560,11 +2565,60 @@ function saveCustomSimulatorServer() {
   window.location.reload();
 }
 
+async function initScreenshotSetting() {
+  try {
+    const res = await fetch(getApiBase() + '/settings');
+    if (res.ok) {
+      const data = await res.json();
+      updateScreenshotUI(data.allowScreenshots);
+    }
+  } catch (err) {
+    console.error("Failed to load screenshot settings:", err.message);
+  }
+}
+
+async function toggleScreenshots() {
+  try {
+    const btn = document.getElementById('toggle-screenshots-btn');
+    if (btn) btn.disabled = true;
+    
+    const res = await fetch(getApiBase() + '/admin/toggle-screenshots', {
+      method: 'POST'
+    });
+    if (res.ok) {
+      const data = await res.json();
+      updateScreenshotUI(data.allowScreenshots);
+    } else {
+      alert("Failed to toggle screenshot setting.");
+    }
+  } catch (err) {
+    console.error("Error toggling screenshot setting:", err.message);
+    alert("Connection error toggle setting.");
+  } finally {
+    const btn = document.getElementById('toggle-screenshots-btn');
+    if (btn) btn.disabled = false;
+  }
+}
+
+function updateScreenshotUI(allowScreenshots) {
+  const btn = document.getElementById('toggle-screenshots-btn');
+  if (!btn) return;
+  if (allowScreenshots) {
+    btn.textContent = 'ALLOWED';
+    btn.style.backgroundColor = '#10B981'; // Green
+  } else {
+    btn.textContent = 'BLOCKED';
+    btn.style.backgroundColor = '#EF4444'; // Red
+  }
+}
+
 // Call on startup
 document.addEventListener('DOMContentLoaded', () => {
   initSimulatorServerConfig();
+  initScreenshotSetting();
 });
 // Fallback in case DOMContentLoaded already fired
 if (document.readyState === 'complete' || document.readyState === 'interactive') {
   initSimulatorServerConfig();
+  initScreenshotSetting();
 }

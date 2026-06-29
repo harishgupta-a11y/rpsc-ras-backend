@@ -127,6 +127,7 @@ async function initDatabase() {
                 minute_topic_id INTEGER PRIMARY KEY AUTOINCREMENT,
                 topic_id INTEGER NOT NULL,
                 minute_topic_name TEXT NOT NULL,
+                language TEXT NOT NULL DEFAULT 'EN',
                 FOREIGN KEY (topic_id) REFERENCES topics(topic_id) ON DELETE CASCADE
             );
         `);
@@ -210,6 +211,11 @@ async function initDatabase() {
         }
         try {
             await run("ALTER TABLE pyq_exams ADD COLUMN tier_type TEXT CHECK(tier_type IN ('PRE', 'MAINS')) NOT NULL DEFAULT 'PRE';");
+        } catch (e) {
+            // Ignore if column already exists
+        }
+        try {
+            await run("ALTER TABLE minute_topics ADD COLUMN language TEXT NOT NULL DEFAULT 'EN';");
         } catch (e) {
             // Ignore if column already exists
         }
@@ -1000,14 +1006,14 @@ module.exports = {
     getSupportQueries: () => all("SELECT sq.*, u.mobile_number FROM support_queries sq JOIN users u ON sq.user_id = u.user_id ORDER BY sq.timestamp DESC"),
     clearSupportQuery: (queryId) => run("DELETE FROM support_queries WHERE query_id = ?", [queryId]),
 
-    getMinuteTopicsByTopic: (topicId) => all(`
+    getMinuteTopicsByTopic: (topicId, language = 'EN') => all(`
         SELECT mt.*, 
                (SELECT COUNT(*) FROM questions q WHERE q.minute_topic_id = mt.minute_topic_id) as q_count,
                (SELECT COUNT(*) FROM mains_questions mq WHERE mq.minute_topic_id = mt.minute_topic_id) as mq_count
         FROM minute_topics mt
-        WHERE mt.topic_id = ?
-    `, [topicId]),
-    createMinuteTopic: (topicId, name) => run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (?, ?)", [topicId, name]),
+        WHERE mt.topic_id = ? AND mt.language = ?
+    `, [topicId, language]),
+    createMinuteTopic: (topicId, name, language = 'EN') => run("INSERT INTO minute_topics (topic_id, minute_topic_name, language) VALUES (?, ?, ?)", [topicId, name, language]),
     clearMinuteTopicQuestions: async (minuteTopicId) => {
         await run("DELETE FROM questions WHERE minute_topic_id = ?", [minuteTopicId]);
         await run("DELETE FROM mains_questions WHERE minute_topic_id = ?", [minuteTopicId]);

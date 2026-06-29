@@ -1069,11 +1069,12 @@ app.get('/api/admin/uploaded-files/:filename', (req, res) => {
 // --- Minute Topics (Subtopics) Routes ---
 app.get('/api/minute-topics', checkSubscription, async (req, res) => {
     const topicId = parseInt(req.query.topic_id);
+    const language = req.query.language || 'EN';
     if (!topicId) {
         return res.status(400).json({ error: "Topic ID is required." });
     }
     try {
-        const minuteTopics = await db.getMinuteTopicsByTopic(topicId);
+        const minuteTopics = await db.getMinuteTopicsByTopic(topicId, language);
         res.status(200).json({ minuteTopics });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch minute topics: " + err.message });
@@ -1081,12 +1082,12 @@ app.get('/api/minute-topics', checkSubscription, async (req, res) => {
 });
 
 app.post('/api/admin/create-minute-topic', async (req, res) => {
-    const { topicId, name } = req.body;
+    const { topicId, name, language } = req.body;
     if (!topicId || !name) {
         return res.status(400).json({ error: "Topic ID and Subtopic name are required." });
     }
     try {
-        await db.createMinuteTopic(topicId, name);
+        await db.createMinuteTopic(topicId, name, language || 'EN');
         res.status(200).json({ message: "Subtopic created successfully." });
     } catch (err) {
         res.status(500).json({ error: "Failed to create subtopic: " + err.message });
