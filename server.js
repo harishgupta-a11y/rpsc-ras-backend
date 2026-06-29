@@ -113,8 +113,11 @@ app.post('/api/auth/otp-verify', async (req, res) => {
         let user = await db.getUserByMobile(mobileNumber);
         if (!user) {
             await db.createUser(mobileNumber);
+            // Grant free 24-hour trial subscription automatically on registration
+            const trialExpiry = Date.now() + 24 * 60 * 60 * 1000;
+            await db.updateUserSubscription(mobileNumber, trialExpiry);
             user = await db.getUserByMobile(mobileNumber);
-            console.log(`[Auth] Created new user: ${mobileNumber}`);
+            console.log(`[Auth] Created new user with 24h free trial: ${mobileNumber}`);
         }
 
         const now = Date.now();
@@ -516,15 +519,15 @@ app.post('/api/admin/upload-mains-questions', upload.single('questionsFile'), as
             return res.status(400).json({ error: "The uploaded document contains no text." });
         }
 
-        // Parse Mains Q&As
-        const blocks = rawText.split(/(?=Q\.)/);
+        // Parse Mains Q&As (Supports English Q. and Hindi प्र. / प्रश्न triggers)
+        const blocks = rawText.split(/(?=(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?))/i);
         const parsedQuestions = [];
 
         for (const block of blocks) {
-            if (!block.trim() || (!block.includes("Answer:") && !block.includes("Answer") && !block.includes("उत्तर:") && !block.includes("मॉडल उत्तर:"))) continue;
+            if (!block.trim() || (!block.includes("Answer:") && !block.includes("Answer") && !block.includes("उत्तर:") && !block.includes("मॉडल उत्तर:") && !block.includes("उत्तर") && !block.includes("मॉडल उत्तर"))) continue;
 
-            const qMatch = block.match(/Q\.([\s\S]*?)(?=(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:))/i);
-            const ansMatch = block.match(/(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:)[\s:]*([\s\S]*?)$/i);
+            const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर))/i);
+            const ansMatch = block.match(/(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)[\s:]*([\s\S]*?)$/i);
 
             if (qMatch && ansMatch) {
                 let answerText = ansMatch[1].trim();
