@@ -2611,13 +2611,21 @@ async function toggleScreenshots() {
 
 function updateScreenshotUI(allowScreenshots) {
   const btn = document.getElementById('toggle-screenshots-btn');
-  if (!btn) return;
+  const statusTxt = document.getElementById('screenshot-status-text');
+  if (!btn || !statusTxt) return;
+
   if (allowScreenshots) {
-    btn.textContent = 'ALLOWED';
-    btn.style.backgroundColor = '#10B981'; // Green
-  } else {
-    btn.textContent = 'BLOCKED';
+    statusTxt.textContent = 'ALLOWED (Screenshots Enabled)';
+    statusTxt.style.color = '#10B981'; // Green
+    btn.textContent = 'Block Screenshots (Enable Protection)';
     btn.style.backgroundColor = '#EF4444'; // Red
+    btn.style.color = 'white';
+  } else {
+    statusTxt.textContent = 'BLOCKED (Screenshots Disabled)';
+    statusTxt.style.color = '#EF4444'; // Red
+    btn.textContent = 'Allow Screenshots (Disable Protection)';
+    btn.style.backgroundColor = '#10B981'; // Green
+    btn.style.color = 'black';
   }
 }
 
