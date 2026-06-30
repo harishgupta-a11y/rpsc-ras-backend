@@ -1244,6 +1244,8 @@ app.post('/api/admin/delete-minute-topic', async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: "Failed to delete subtopic: " + err.message });
     }
+});
+
 // --- Admin: Create Topic Endpoint ---
 app.post('/api/admin/create-topic', async (req, res) => {
     const { subjectId, name } = req.body;
