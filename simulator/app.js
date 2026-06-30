@@ -1715,8 +1715,126 @@ async function populateIngestTopics() {
       if (mainsSubtopicSelect) mainsSubtopicSelect.value = prevMainsSubtopicSelectVal;
     }
 
+    // Populate Syllabus Manager parent dropdowns
+    const mngrParentSelect = document.getElementById('mngr-parent-topic-select');
+    const mngrDelParentSelect = document.getElementById('mngr-del-parent-select');
+    if (mngrParentSelect) {
+      const prevVal = mngrParentSelect.value;
+      mngrParentSelect.innerHTML = "";
+      preTopics.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t.id;
+        opt.innerText = t.name;
+        mngrParentSelect.appendChild(opt);
+      });
+      if (prevVal) mngrParentSelect.value = prevVal;
+    }
+    if (mngrDelParentSelect) {
+      const prevVal = mngrDelParentSelect.value;
+      mngrDelParentSelect.innerHTML = '<option value="">-- Select Parent Topic --</option>';
+      preTopics.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t.id;
+        opt.innerText = t.name;
+        mngrDelParentSelect.appendChild(opt);
+      });
+      if (prevVal) mngrDelParentSelect.value = prevVal;
+    }
+
   } catch (err) {
     console.error("Failed to populate ingest topics dropdowns:", err);
+  }
+}
+
+async function onMngrDelParentChange() {
+  const parentId = document.getElementById('mngr-del-parent-select').value;
+  const subtopicSelect = document.getElementById('mngr-del-subtopic-select');
+  if (!subtopicSelect) return;
+  if (!parentId) {
+    subtopicSelect.innerHTML = '<option value="">-- Select Subtopic --</option>';
+    return;
+  }
+  
+  try {
+    const res = await fetch(`${getApiBase()}/minute-topics?topic_id=${parentId}&language=EN`);
+    if (res.ok) {
+      const data = await res.json();
+      subtopicSelect.innerHTML = '<option value="">-- Select Subtopic --</option>';
+      data.minuteTopics.forEach(mt => {
+        const opt = document.createElement('option');
+        opt.value = mt.minute_topic_id;
+        opt.innerText = mt.minute_topic_name;
+        subtopicSelect.appendChild(opt);
+      });
+    }
+  } catch (e) {
+    console.error("Failed to fetch delete subtopics list:", e);
+  }
+}
+
+async function createSubtopic(lang) {
+  const topicId = document.getElementById('mngr-parent-topic-select').value;
+  const name = document.getElementById('mngr-subtopic-name-input').value.trim();
+  if (!topicId || !name) {
+    alert("Please select a topic and enter a subtopic name.");
+    return;
+  }
+  
+  logAdmin(`Creating subtopic '${name}' in ${lang}...`);
+  try {
+    const res = await fetch(`${getApiBase()}/admin/create-minute-topic`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ topicId, name, language: lang })
+    });
+    if (res.ok) {
+      const data = await res.json();
+      logAdmin(`[Success] ${data.message}`);
+      alert("Subtopic created successfully.");
+      document.getElementById('mngr-subtopic-name-input').value = "";
+      await loadAdminPortal();
+    } else {
+      const err = await res.json();
+      alert("Error: " + err.error);
+    }
+  } catch (e) {
+    alert("Failed: " + e.message);
+  }
+}
+
+async function deleteSubtopic() {
+  const minuteTopicId = document.getElementById('mngr-del-subtopic-select').value;
+  if (!minuteTopicId) {
+    alert("Please select a subtopic to delete.");
+    return;
+  }
+  
+  if (!confirm("Warning: Deleting this subtopic will permanently remove all of its questions from the database. This action cannot be undone. Are you sure?")) {
+    return;
+  }
+  
+  logAdmin(`Deleting subtopic ID ${minuteTopicId}...`);
+  try {
+    const res = await fetch(`${getApiBase()}/admin/delete-minute-topic`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ minuteTopicId })
+    });
+    if (res.ok) {
+      const data = await res.json();
+      logAdmin(`[Success] ${data.message}`);
+      alert("Subtopic deleted successfully.");
+      
+      document.getElementById('mngr-del-parent-select').value = "";
+      document.getElementById('mngr-del-subtopic-select').innerHTML = '<option value="">-- Select Subtopic --</option>';
+      
+      await loadAdminPortal();
+    } else {
+      const err = await res.json();
+      alert("Error: " + err.error);
+    }
+  } catch (e) {
+    alert("Failed: " + e.message);
   }
 }
 
