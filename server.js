@@ -1244,6 +1244,43 @@ app.post('/api/admin/delete-minute-topic', async (req, res) => {
     } catch (err) {
         res.status(500).json({ error: "Failed to delete subtopic: " + err.message });
     }
+// --- Admin: Create Topic Endpoint ---
+app.post('/api/admin/create-topic', async (req, res) => {
+    const { subjectId, name } = req.body;
+    if (!subjectId || !name) {
+        return res.status(400).json({ error: "Subject ID and Topic name are required." });
+    }
+    try {
+        const unit = await db.get("SELECT unit_id FROM units WHERE subject_id = ? LIMIT 1", [subjectId]);
+        if (!unit) {
+            return res.status(400).json({ error: "No syllabus unit found for this subject." });
+        }
+        await db.run("INSERT INTO topics (unit_id, topic_name) VALUES (?, ?)", [unit.unit_id, name]);
+        res.status(200).json({ message: `Parent topic '${name}' created successfully.` });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to create topic: " + err.message });
+    }
+});
+
+// --- Admin: Rename Topic/Subtopic Endpoint ---
+app.post('/api/admin/rename-item', async (req, res) => {
+    const { type, id, newName } = req.body;
+    if (!type || !id || !newName) {
+        return res.status(400).json({ error: "Type, ID, and new name are required." });
+    }
+    try {
+        if (type === 'topic') {
+            await db.run("UPDATE topics SET topic_name = ? WHERE topic_id = ?", [newName, id]);
+            res.status(200).json({ message: "Topic renamed successfully." });
+        } else if (type === 'subtopic') {
+            await db.run("UPDATE minute_topics SET minute_topic_name = ? WHERE minute_topic_id = ?", [newName, id]);
+            res.status(200).json({ message: "Subtopic renamed successfully." });
+        } else {
+            res.status(400).json({ error: "Invalid rename type. Must be 'topic' or 'subtopic'." });
+        }
+    } catch (err) {
+        res.status(500).json({ error: "Failed to rename: " + err.message });
+    }
 });
 
 // --- Admin Questions Manager Endpoints ---

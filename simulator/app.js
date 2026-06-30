@@ -1741,6 +1741,44 @@ async function populateIngestTopics() {
       if (prevVal) mngrDelParentSelect.value = prevVal;
     }
 
+    // Populate Subjects & Rename selectors
+    const mngrSubjectSelect = document.getElementById('mngr-subject-select');
+    const mngrRenameTopicSelect = document.getElementById('mngr-rename-topic-select');
+    
+    if (mngrSubjectSelect) {
+      const prevVal = mngrSubjectSelect.value;
+      mngrSubjectSelect.innerHTML = "";
+      
+      const uniqueSubjects = [];
+      const seenSubjectIds = new Set();
+      preTopics.forEach(t => {
+        if (!seenSubjectIds.has(t.subId)) {
+          seenSubjectIds.add(t.subId);
+          uniqueSubjects.push({ id: t.subId, name: t.subName });
+        }
+      });
+      
+      uniqueSubjects.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s.id;
+        opt.innerText = s.name;
+        mngrSubjectSelect.appendChild(opt);
+      });
+      if (prevVal) mngrSubjectSelect.value = prevVal;
+    }
+    
+    if (mngrRenameTopicSelect) {
+      const prevVal = mngrRenameTopicSelect.value;
+      mngrRenameTopicSelect.innerHTML = '<option value="">-- Select Parent Topic --</option>';
+      preTopics.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t.id;
+        opt.innerText = t.name;
+        mngrRenameTopicSelect.appendChild(opt);
+      });
+      if (prevVal) mngrRenameTopicSelect.value = prevVal;
+    }
+
   } catch (err) {
     console.error("Failed to populate ingest topics dropdowns:", err);
   }
@@ -1827,6 +1865,124 @@ async function deleteSubtopic() {
       
       document.getElementById('mngr-del-parent-select').value = "";
       document.getElementById('mngr-del-subtopic-select').innerHTML = '<option value="">-- Select Subtopic --</option>';
+      
+      await loadAdminPortal();
+    } else {
+      const err = await res.json();
+      alert("Error: " + err.error);
+    }
+  } catch (e) {
+    alert("Failed: " + e.message);
+  }
+}
+
+async function createParentTopic() {
+  const subjectId = document.getElementById('mngr-subject-select').value;
+  const name = document.getElementById('mngr-topic-name-input').value.trim();
+  if (!subjectId || !name) {
+    alert("Please select a subject and enter a topic name.");
+    return;
+  }
+  
+  logAdmin(`Creating parent topic '${name}' under subject ID ${subjectId}...`);
+  try {
+    const res = await fetch(`${getApiBase()}/admin/create-topic`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ subjectId, name })
+    });
+    if (res.ok) {
+      const data = await res.json();
+      logAdmin(`[Success] ${data.message}`);
+      alert("Parent topic created successfully.");
+      document.getElementById('mngr-topic-name-input').value = "";
+      await loadAdminPortal();
+    } else {
+      const err = await res.json();
+      alert("Error: " + err.error);
+    }
+  } catch (e) {
+    alert("Failed: " + e.message);
+  }
+}
+
+function onMngrRenameTypeChange() {
+  const type = document.getElementById('mngr-rename-type-select').value;
+  const subtopicRow = document.getElementById('mngr-rename-subtopic-row');
+  if (type === 'subtopic') {
+    subtopicRow.style.display = 'block';
+  } else {
+    subtopicRow.style.display = 'none';
+  }
+}
+
+async function onMngrRenameTopicChange() {
+  const parentId = document.getElementById('mngr-rename-topic-select').value;
+  const subtopicSelect = document.getElementById('mngr-rename-subtopic-select');
+  if (!subtopicSelect) return;
+  if (!parentId) {
+    subtopicSelect.innerHTML = '<option value="">-- Select Subtopic --</option>';
+    return;
+  }
+  
+  try {
+    const res = await fetch(`${getApiBase()}/minute-topics?topic_id=${parentId}&language=EN`);
+    if (res.ok) {
+      const data = await res.json();
+      subtopicSelect.innerHTML = '<option value="">-- Select Subtopic --</option>';
+      data.minuteTopics.forEach(mt => {
+        const opt = document.createElement('option');
+        opt.value = mt.minute_topic_id;
+        opt.innerText = mt.minute_topic_name;
+        subtopicSelect.appendChild(opt);
+      });
+    }
+  } catch (e) {
+    console.error("Failed to fetch subtopics list for rename:", e);
+  }
+}
+
+async function renameSyllabusItem() {
+  const type = document.getElementById('mngr-rename-type-select').value;
+  const topicId = document.getElementById('mngr-rename-topic-select').value;
+  const subtopicId = document.getElementById('mngr-rename-subtopic-select').value;
+  const newName = document.getElementById('mngr-rename-name-input').value.trim();
+  
+  if (!newName) {
+    alert("Please enter a new name.");
+    return;
+  }
+  
+  let targetId = null;
+  if (type === 'topic') {
+    if (!topicId) {
+      alert("Please select a topic to rename.");
+      return;
+    }
+    targetId = topicId;
+  } else {
+    if (!subtopicId) {
+      alert("Please select a subtopic to rename.");
+      return;
+    }
+    targetId = subtopicId;
+  }
+  
+  logAdmin(`Renaming ${type} ID ${targetId} to '${newName}'...`);
+  try {
+    const res = await fetch(`${getApiBase()}/admin/rename-item`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type, id: targetId, newName })
+    });
+    if (res.ok) {
+      const data = await res.json();
+      logAdmin(`[Success] ${data.message}`);
+      alert("Syllabus item renamed successfully.");
+      document.getElementById('mngr-rename-name-input').value = "";
+      
+      document.getElementById('mngr-rename-topic-select').value = "";
+      document.getElementById('mngr-rename-subtopic-select').innerHTML = '<option value="">-- Select Subtopic --</option>';
       
       await loadAdminPortal();
     } else {

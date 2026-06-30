@@ -676,10 +676,26 @@
 
       <!-- Syllabus & Sub-topic Manager Card -->
       <div class="control-card" style="border: 1.5px solid #A855F7; background: rgba(168, 85, 247, 0.03);">
-        <h3>Syllabus & Sub-topic Manager</h3>
-        <p class="panel-info" style="margin-bottom: 8px;">Create or Delete chapters and subtopics dynamically in the database.</p>
+        <h3>Syllabus & Chapter Manager</h3>
+        <p class="panel-info" style="margin-bottom: 8px;">Manage subjects, parent topics, and subtopics dynamically in the database.</p>
         
-        <!-- Add Subtopic Block -->
+        <!-- 1. Add Parent Topic -->
+        <div style="padding: 10px; background: rgba(0,0,0,0.2); border-radius: var(--radius-sm); border: 1px solid var(--color-card-border); margin-bottom: 10px;">
+          <h4 style="margin: 0 0 6px 0; font-size: 11px; color: #38BDF8;">➕ Add New Parent Topic</h4>
+          <div style="margin-bottom: 6px;">
+            <label style="font-size: 9px; color: var(--color-text-muted);">Select Subject Area</label>
+            <select id="mngr-subject-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px; border-radius: var(--radius-xs); font-size: 11px; width: 100%; margin-top: 2px;">
+              <!-- Populated dynamically -->
+            </select>
+          </div>
+          <div style="margin-bottom: 8px;">
+            <label style="font-size: 9px; color: var(--color-text-muted);">Topic Name (e.g. Guhil Dynasty)</label>
+            <input type="text" id="mngr-topic-name-input" placeholder="Enter topic name" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px 6px; border-radius: var(--radius-xs); font-size: 11px; width: 100%; margin-top: 2px;">
+          </div>
+          <button class="btn btn-primary" onclick="createParentTopic()" style="font-size: 10px; padding: 6px; width: 100%;">Create Parent Topic</button>
+        </div>
+
+        <!-- 2. Add Sub-topic -->
         <div style="padding: 10px; background: rgba(0,0,0,0.2); border-radius: var(--radius-sm); border: 1px solid var(--color-card-border); margin-bottom: 10px;">
           <h4 style="margin: 0 0 6px 0; font-size: 11px; color: #C084FC;">➕ Add New Sub-topic</h4>
           <div style="margin-bottom: 6px;">
@@ -698,7 +714,40 @@
           </div>
         </div>
 
-        <!-- Delete Subtopic Block -->
+        <!-- 3. Rename Topic / Sub-topic -->
+        <div style="padding: 10px; background: rgba(0,0,0,0.2); border-radius: var(--radius-sm); border: 1px solid var(--color-card-border); margin-bottom: 10px;">
+          <h4 style="margin: 0 0 6px 0; font-size: 11px; color: #F59E0B;">✏️ Rename Topic / Sub-topic</h4>
+          <div style="margin-bottom: 6px;">
+            <label style="font-size: 9px; color: var(--color-text-muted);">Select Type</label>
+            <select id="mngr-rename-type-select" onchange="onMngrRenameTypeChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px; border-radius: var(--radius-xs); font-size: 11px; width: 100%; margin-top: 2px;">
+              <option value="topic">Parent Topic</option>
+              <option value="subtopic">Sub-topic</option>
+            </select>
+          </div>
+          
+          <div id="mngr-rename-topic-row" style="margin-bottom: 6px;">
+            <label style="font-size: 9px; color: var(--color-text-muted);">Select Topic</label>
+            <select id="mngr-rename-topic-select" onchange="onMngrRenameTopicChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px; border-radius: var(--radius-xs); font-size: 11px; width: 100%; margin-top: 2px;">
+              <!-- Populated dynamically -->
+            </select>
+          </div>
+
+          <div id="mngr-rename-subtopic-row" style="margin-bottom: 6px; display: none;">
+            <label style="font-size: 9px; color: var(--color-text-muted);">Select Sub-topic</label>
+            <select id="mngr-rename-subtopic-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px; border-radius: var(--radius-xs); font-size: 11px; width: 100%; margin-top: 2px;">
+              <option value="">-- Select Subtopic --</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 8px;">
+            <label style="font-size: 9px; color: var(--color-text-muted);">New Name</label>
+            <input type="text" id="mngr-rename-name-input" placeholder="Enter new name" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px 6px; border-radius: var(--radius-xs); font-size: 11px; width: 100%; margin-top: 2px;">
+          </div>
+          
+          <button class="btn btn-accent" onclick="renameSyllabusItem()" style="font-size: 10px; padding: 6px; width: 100%; background: #F59E0B; color: black; border: none; font-weight: bold; cursor: pointer;">Rename Item</button>
+        </div>
+
+        <!-- 4. Delete Sub-topic -->
         <div style="padding: 10px; background: rgba(0,0,0,0.2); border-radius: var(--radius-sm); border: 1px solid var(--color-card-border);">
           <h4 style="margin: 0 0 6px 0; font-size: 11px; color: #EF4444;">🗑️ Delete Sub-topic</h4>
           <div style="margin-bottom: 6px;">
