@@ -596,7 +596,16 @@ function shuffle(array) {
 
 function getQuestionMarks(text) {
     const textLower = text.toLowerCase();
-    if (textLower.includes('10-marks') || textLower.includes('10 marks') || textLower.includes('10-अंक') || textLower.includes('10 अंक') || textLower.includes('100 शब्द') || textLower.includes('100 words')) {
+    if (
+        textLower.includes('10-marks') || 
+        textLower.includes('10 marks') || 
+        textLower.includes('10-अंक') || 
+        textLower.includes('10 अंक') || 
+        textLower.includes('150 शब्द') || 
+        textLower.includes('150 words') || 
+        textLower.includes('100 शब्द') || 
+        textLower.includes('100 words')
+    ) {
         return 10;
     }
     if (textLower.includes('5-marks') || textLower.includes('5 marks') || textLower.includes('5-अंक') || textLower.includes('5 अंक') || textLower.includes('50 शब्द') || textLower.includes('50 words')) {
