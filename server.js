@@ -715,6 +715,18 @@ app.post('/api/admin/clear-mains-questions', async (req, res) => {
 function convertHtmlToTextWithListNumbering(html) {
     let processedHtml = html;
     
+    // Convert inline images to safe placeholder strings [IMAGE:data:...]
+    processedHtml = processedHtml.replace(/<img\s+[^>]*src=["'](data:image\/[^"']+)["'][^>]*>/gi, '\n[IMAGE:$1]\n');
+
+    // Format tables to clean text markdown style
+    processedHtml = processedHtml
+        .replace(/<\/th>/gi, ' | ')
+        .replace(/<\/td>/gi, ' | ')
+        .replace(/<\/tr>/gi, '\n')
+        .replace(/<tr\b[^>]*>/gi, '| ')
+        .replace(/<\/thead>/gi, '\n')
+        .replace(/<\/table>/gi, '\n');
+
     // Find all <ol> groups and number the <li> items
     processedHtml = processedHtml.replace(/<ol\b[^>]*>([\s\S]*?)<\/ol>/gi, (match, olContent) => {
         let index = 1;
