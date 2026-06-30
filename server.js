@@ -800,25 +800,49 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
             return res.status(400).json({ error: "The uploaded document contains no text." });
         }
 
-        let isMainsExam = false;
+        let isMains = false;
+        
+        // 1. Resolve Topic ID if not provided but minuteTopicId is provided
+        let resolvedTopicId = topicId;
+        if (minuteTopicId && !resolvedTopicId) {
+            const mt = await db.get("SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?", [minuteTopicId]);
+            if (mt) resolvedTopicId = mt.topic_id;
+        }
+
+        // 2. Check if the target is a Mains Topic
+        if (resolvedTopicId) {
+            const topicRow = await db.get(`
+                SELECT s.tier FROM topics t
+                JOIN units u ON t.unit_id = u.unit_id
+                JOIN subjects s ON u.subject_id = s.subject_id
+                WHERE t.topic_id = ?
+            `, [resolvedTopicId]);
+            if (topicRow && topicRow.tier === 'MAINS') {
+                isMains = true;
+            }
+        }
+
+        // 3. Check if the target is a Mains PYQ Exam
         if (examId) {
             const exam = await db.get("SELECT tier_type FROM pyq_exams WHERE exam_id = ?", [examId]);
             if (!exam) {
                 return res.status(404).json({ error: "Exam not found." });
             }
-            isMainsExam = exam.tier_type === 'MAINS';
+            if (exam.tier_type === 'MAINS') {
+                isMains = true;
+            }
         }
 
-        if (isMainsExam) {
-            // Parse Mains Q&As
-            const blocks = rawText.split(/(?=Q\.)/);
+        if (isMains) {
+            // Parse Mains Q&As (Supports English Q. and Hindi प्र. / प्रश्न triggers)
+            const blocks = rawText.split(/(?=(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?))/i);
             const parsedQuestions = [];
 
             for (const block of blocks) {
-                if (!block.trim() || (!block.includes("Answer:") && !block.includes("Answer") && !block.includes("उत्तर:") && !block.includes("मॉडल उत्तर:"))) continue;
+                if (!block.trim() || (!block.includes("Answer:") && !block.includes("Answer") && !block.includes("उत्तर:") && !block.includes("मॉडल उत्तर:") && !block.includes("उत्तर") && !block.includes("मॉडल उत्तर"))) continue;
 
-                const qMatch = block.match(/Q\.([\s\S]*?)(?=(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:))/i);
-                const ansMatch = block.match(/(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:)[\s:]*([\s\S]*?)$/i);
+                const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर))/i);
+                const ansMatch = block.match(/(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)[\s:]*([\s\S]*?)$/i);
 
                 if (qMatch && ansMatch) {
                     let answerText = ansMatch[1].trim();
@@ -838,21 +862,21 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
 
             // Bulk insert into mains_questions
             let successCount = 0;
-            const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM mains_questions WHERE exam_id = ? AND language = ?", [examId, language]);
+            const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM mains_questions WHERE topic_id = ? AND language = ?", [resolvedTopicId || 101, language]);
             let currentSeq = seqResult && seqResult.maxSeq ? seqResult.maxSeq : 0;
 
             for (const q of parsedQuestions) {
                 currentSeq++;
                 await db.run(`
-                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, exam_id)
-                    VALUES (101, ?, ?, ?, ?, ?)
-                `, [q.question_text, q.model_answer, language, currentSeq, examId]);
+                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, exam_id, minute_topic_id)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                `, [resolvedTopicId || 101, q.question_text, q.model_answer, language, currentSeq, examId, minuteTopicId]);
                 successCount++;
             }
 
-            console.log(`[Admin Ingest] Ingested ${successCount} Mains PYQ questions for Exam ID ${examId}`);
+            console.log(`[Admin Ingest] Ingested ${successCount} Mains questions. Topic: ${resolvedTopicId || 101}, Subtopic: ${minuteTopicId || 'None'}, Exam: ${examId || 'None'}`);
             return res.status(200).json({
-                message: `Ingestion successful! Loaded ${successCount} descriptive Mains PYQ questions.`,
+                message: `Ingestion successful! Loaded ${successCount} descriptive Mains questions.`,
                 inserted_count: successCount,
                 saved_file_path: savedFilePath
             });
