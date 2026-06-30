@@ -183,6 +183,14 @@ async function initDatabase() {
             );
         `);
 
+        // 12. App Settings Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS app_settings (
+                key TEXT PRIMARY KEY,
+                value TEXT
+            );
+        `);
+
         // Migrations: Add columns if not present
         try {
             await run("ALTER TABLE questions ADD COLUMN minute_topic_id INTEGER DEFAULT NULL;");

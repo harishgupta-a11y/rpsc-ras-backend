@@ -970,9 +970,7 @@ app.post('/api/admin/clear-topic-questions', async (req, res) => {
 });
 
 // --- Settings (Screenshot Protection Control) Routes ---
-const settingsFilePath = path.join(__dirname, 'settings.json');
-
-function getSettings() {
+async function getSettingsFromDb() {
     const defaults = {
         allowScreenshots: false,
         maxCompleteCount: 200,
@@ -981,47 +979,56 @@ function getSettings() {
         maxSubtopicCount: 50
     };
     try {
-        if (fs.existsSync(settingsFilePath)) {
-            const data = fs.readFileSync(settingsFilePath, 'utf8');
-            return { ...defaults, ...JSON.parse(data) };
-        }
+        const rows = await db.all("SELECT * FROM app_settings");
+        const dbSettings = {};
+        rows.forEach(row => {
+            if (row.key === 'allowScreenshots') {
+                dbSettings[row.key] = row.value === 'true';
+            } else {
+                dbSettings[row.key] = parseInt(row.value) || defaults[row.key];
+            }
+        });
+        return { ...defaults, ...dbSettings };
     } catch (e) {
-        console.error("Error reading settings.json:", e.message);
+        console.error("Error reading app_settings from DB:", e.message);
+        return defaults;
     }
-    return defaults;
 }
 
-function saveSettings(settings) {
+async function saveSettingsToDb(settings) {
     try {
-        fs.writeFileSync(settingsFilePath, JSON.stringify(settings, null, 2), 'utf8');
+        for (const [key, val] of Object.entries(settings)) {
+            await db.run("INSERT OR REPLACE INTO app_settings (key, value) VALUES (?, ?)", [key, String(val)]);
+        }
     } catch (e) {
-        console.error("Error writing settings.json:", e.message);
+        console.error("Error saving app_settings to DB:", e.message);
     }
 }
 
 app.get('/api/settings', async (req, res) => {
-    res.status(200).json(getSettings());
+    const settings = await getSettingsFromDb();
+    res.status(200).json(settings);
 });
 
 app.post('/api/admin/toggle-screenshots', async (req, res) => {
-    const currentSettings = getSettings();
+    const currentSettings = await getSettingsFromDb();
     currentSettings.allowScreenshots = !currentSettings.allowScreenshots;
-    saveSettings(currentSettings);
+    await saveSettingsToDb(currentSettings);
     console.log(`[Admin] Toggled allowScreenshots to ${currentSettings.allowScreenshots}`);
     res.status(200).json(currentSettings);
 });
 
 app.post('/api/admin/update-limits', async (req, res) => {
     const { maxCompleteCount, maxSubjectCount, maxTopicCount, maxSubtopicCount } = req.body;
-    const currentSettings = getSettings();
+    const currentSettings = await getSettingsFromDb();
     
     if (maxCompleteCount !== undefined) currentSettings.maxCompleteCount = parseInt(maxCompleteCount) || 200;
     if (maxSubjectCount !== undefined) currentSettings.maxSubjectCount = parseInt(maxSubjectCount) || 150;
     if (maxTopicCount !== undefined) currentSettings.maxTopicCount = parseInt(maxTopicCount) || 100;
     if (maxSubtopicCount !== undefined) currentSettings.maxSubtopicCount = parseInt(maxSubtopicCount) || 50;
     
-    saveSettings(currentSettings);
-    console.log("[Admin] Updated practice test limit settings:", currentSettings);
+    await saveSettingsToDb(currentSettings);
+    console.log("[Admin] Updated practice test limit settings in DB:", currentSettings);
     res.status(200).json(currentSettings);
 });
 
