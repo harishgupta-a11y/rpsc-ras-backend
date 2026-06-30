@@ -275,11 +275,12 @@ async function initDatabase() {
             }
             await seedSyllabusAndSampleQuestions();
         }
-        const flagPath = path.join(__dirname, 'placeholder_seeded.flag');
-        if (!fs.existsSync(flagPath)) {
-            await seedPlaceholderQuestionsIfNeeded();
-            fs.writeFileSync(flagPath, 'true', 'utf8');
-        }
+        // Clean up any existing placeholder/fake questions safely on startup
+        await run("DELETE FROM questions WHERE question_text LIKE 'Practice MCQ Question for%'");
+        await run("DELETE FROM questions WHERE question_text LIKE 'सब-टॉपिक:%के लिए अभ्यास प्रश्न'");
+        await run("DELETE FROM mains_questions WHERE question_text LIKE 'Explain the key components%'");
+        await run("DELETE FROM mains_questions WHERE question_text LIKE 'सब-टॉपिक:%के प्रमुख घटकों%'");
+        console.log("Safely cleaned up database placeholder questions.");
     } catch (err) {
         console.error("Database initialization error:", err.message);
     }
