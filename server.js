@@ -586,6 +586,72 @@ app.get('/api/syllabus', checkSubscription, async (req, res) => {
 });
 
 // --- GET Mains Questions sequential portal (Gated) ---
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+function getQuestionMarks(text) {
+    const textLower = text.toLowerCase();
+    if (textLower.includes('10-marks') || textLower.includes('10 marks') || textLower.includes('10-अंक') || textLower.includes('10 अंक') || textLower.includes('100 शब्द') || textLower.includes('100 words')) {
+        return 10;
+    }
+    if (textLower.includes('5-marks') || textLower.includes('5 marks') || textLower.includes('5-अंक') || textLower.includes('5 अंक') || textLower.includes('50 शब्द') || textLower.includes('50 words')) {
+        return 5;
+    }
+    if (textLower.includes('2-marks') || textLower.includes('2 marks') || textLower.includes('2-अंक') || textLower.includes('2 अंक') || textLower.includes('15 शब्द') || textLower.includes('15 words')) {
+        return 2;
+    }
+    return 5; // Default fallback
+}
+
+function distributeMainsQuestions(allQs, limitVal) {
+    if (!limitVal || allQs.length <= limitVal) {
+        return shuffle([...allQs]);
+    }
+    
+    // Shuffle the entire pool first to ensure randomness within marks categories
+    const shuffledPool = shuffle([...allQs]);
+    
+    const group10 = [];
+    const group5 = [];
+    const group2 = [];
+    const others = [];
+    
+    for (const q of shuffledPool) {
+        const marks = getQuestionMarks(q.question_text);
+        if (marks === 10) group10.push(q);
+        else if (marks === 5) group5.push(q);
+        else if (marks === 2) group2.push(q);
+        else others.push(q);
+    }
+    
+    const selected = [];
+    const pools = [group5, group10, group2, others].filter(p => p.length > 0);
+    
+    if (pools.length > 0) {
+        let poolIdx = 0;
+        while (selected.length < limitVal) {
+            let addedAny = false;
+            for (let i = 0; i < pools.length; i++) {
+                const currentPool = pools[(poolIdx + i) % pools.length];
+                if (currentPool.length > 0) {
+                    selected.push(currentPool.shift());
+                    addedAny = true;
+                    if (selected.length >= limitVal) break;
+                }
+            }
+            if (!addedAny) break;
+            poolIdx++;
+        }
+    }
+    
+    return selected;
+}
+
 app.get('/api/mains/questions', checkSubscription, async (req, res) => {
     const topicIdsStr = req.query.topic_ids;
     const minuteTopicId = req.query.minute_topic_id ? parseInt(req.query.minute_topic_id) : null;
@@ -601,24 +667,18 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
     try {
         let questions;
         if (minuteTopicId) {
-            let sql = `
+            const sql = `
                 SELECT mq.*, t.topic_name 
                 FROM mains_questions mq
                 JOIN topics t ON mq.topic_id = t.topic_id
                 WHERE mq.minute_topic_id = ? AND mq.language = ?
-                ORDER BY mq.sequence_order ASC
             `;
             const params = [minuteTopicId, language];
-            if (limitVal) {
-                sql += ` LIMIT ?`;
-                params.push(limitVal);
-            }
-            questions = await db.all(sql, params);
+            const allQs = await db.all(sql, params);
+            questions = distributeMainsQuestions(allQs, limitVal);
         } else {
-            questions = await db.getMainsQuestions(topicIds, language);
-            if (limitVal) {
-                questions = questions.slice(0, limitVal);
-            }
+            const allQs = await db.getMainsQuestions(topicIds, language);
+            questions = distributeMainsQuestions(allQs, limitVal);
         }
         res.status(200).json({ questions });
     } catch (err) {
