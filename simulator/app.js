@@ -2606,9 +2606,50 @@ async function initScreenshotSetting() {
     if (res.ok) {
       const data = await res.json();
       updateScreenshotUI(data.allowScreenshots);
+      
+      // Update Practice Limit UI inputs
+      if (document.getElementById('limit-complete-input')) {
+        document.getElementById('limit-complete-input').value = data.maxCompleteCount || 200;
+        document.getElementById('limit-subject-input').value = data.maxSubjectCount || 150;
+        document.getElementById('limit-topic-input').value = data.maxTopicCount || 100;
+        document.getElementById('limit-subtopic-input').value = data.maxSubtopicCount || 50;
+      }
     }
   } catch (err) {
     console.error("Failed to load screenshot settings:", err.message);
+  }
+}
+
+async function savePracticeLimits() {
+  try {
+    const maxCompleteCount = document.getElementById('limit-complete-input').value;
+    const maxSubjectCount = document.getElementById('limit-subject-input').value;
+    const maxTopicCount = document.getElementById('limit-topic-input').value;
+    const maxSubtopicCount = document.getElementById('limit-subtopic-input').value;
+
+    logAdmin("Updating practice limit settings...");
+    const res = await fetch(getApiBase() + '/admin/update-limits', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        maxCompleteCount,
+        maxSubjectCount,
+        maxTopicCount,
+        maxSubtopicCount
+      })
+    });
+    
+    if (res.ok) {
+      const data = await res.json();
+      logAdmin(`[Success] Saved practice limits. Complete: ${data.maxCompleteCount}, Subject: ${data.maxSubjectCount}, Topic: ${data.maxTopicCount}, Subtopic: ${data.maxSubtopicCount}`);
+      alert("Practice limits updated successfully.");
+    } else {
+      alert("Failed to update practice limits.");
+    }
+  } catch (e) {
+    alert("Connection error: " + e.message);
   }
 }
 

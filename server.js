@@ -973,15 +973,22 @@ app.post('/api/admin/clear-topic-questions', async (req, res) => {
 const settingsFilePath = path.join(__dirname, 'settings.json');
 
 function getSettings() {
+    const defaults = {
+        allowScreenshots: false,
+        maxCompleteCount: 200,
+        maxSubjectCount: 150,
+        maxTopicCount: 100,
+        maxSubtopicCount: 50
+    };
     try {
         if (fs.existsSync(settingsFilePath)) {
             const data = fs.readFileSync(settingsFilePath, 'utf8');
-            return JSON.parse(data);
+            return { ...defaults, ...JSON.parse(data) };
         }
     } catch (e) {
         console.error("Error reading settings.json:", e.message);
     }
-    return { allowScreenshots: false };
+    return defaults;
 }
 
 function saveSettings(settings) {
@@ -1001,6 +1008,20 @@ app.post('/api/admin/toggle-screenshots', async (req, res) => {
     currentSettings.allowScreenshots = !currentSettings.allowScreenshots;
     saveSettings(currentSettings);
     console.log(`[Admin] Toggled allowScreenshots to ${currentSettings.allowScreenshots}`);
+    res.status(200).json(currentSettings);
+});
+
+app.post('/api/admin/update-limits', async (req, res) => {
+    const { maxCompleteCount, maxSubjectCount, maxTopicCount, maxSubtopicCount } = req.body;
+    const currentSettings = getSettings();
+    
+    if (maxCompleteCount !== undefined) currentSettings.maxCompleteCount = parseInt(maxCompleteCount) || 200;
+    if (maxSubjectCount !== undefined) currentSettings.maxSubjectCount = parseInt(maxSubjectCount) || 150;
+    if (maxTopicCount !== undefined) currentSettings.maxTopicCount = parseInt(maxTopicCount) || 100;
+    if (maxSubtopicCount !== undefined) currentSettings.maxSubtopicCount = parseInt(maxSubtopicCount) || 50;
+    
+    saveSettings(currentSettings);
+    console.log("[Admin] Updated practice test limit settings:", currentSettings);
     res.status(200).json(currentSettings);
 });
 
