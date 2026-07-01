@@ -115,7 +115,7 @@ app.post('/api/auth/otp-verify', async (req, res) => {
             await db.createUser(mobileNumber);
             // Grant free 24-hour trial subscription automatically on registration
             const trialExpiry = Date.now() + 24 * 60 * 60 * 1000;
-            await db.updateUserSubscription(mobileNumber, trialExpiry);
+            await db.updateUserSubscription(mobileNumber, trialExpiry, '24-Hour Free Trial');
             user = await db.getUserByMobile(mobileNumber);
             console.log(`[Auth] Created new user with 24h free trial: ${mobileNumber}`);
         }
@@ -130,6 +130,7 @@ app.post('/api/auth/otp-verify', async (req, res) => {
                 mobile_number: user.mobile_number,
                 subscription_status: !!isSubscribed,
                 expiry_timestamp: user.expiry_timestamp,
+                active_plan: user.active_plan || '24-Hour Free Trial',
                 has_used_trial: user.has_used_trial === 1
             }
         });
@@ -175,13 +176,19 @@ app.post('/api/subscription/purchase', async (req, res) => {
         }
 
         const expiryTime = Date.now() + durationDays * 24 * 60 * 60 * 1000;
-        await db.updateUserSubscription(mobileNumber, expiryTime);
+        let planName = '24-Hour Free Trial';
+        if (planId === 7) planName = '7-Day Weekly Premium';
+        else if (planId === 30) planName = '30-Day Monthly Premium';
+        else if (planId === 90) planName = '90-Day Quarterly Premium';
+
+        await db.updateUserSubscription(mobileNumber, expiryTime, planName);
 
         console.log(`[Billing] Plan purchased: ${durationDays} Days (₹${cost} INR) for user: ${mobileNumber}`);
 
         return res.status(200).json({
             message: `Plan activated successfully for ${durationDays} days.`,
             expiry_timestamp: expiryTime,
+            active_plan: planName,
             cost: cost,
             has_used_trial: planId === 1 ? true : (user.has_used_trial === 1)
         });
@@ -812,12 +819,12 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
         // 2. Check if the target is a Mains Topic
         if (resolvedTopicId) {
             const topicRow = await db.get(`
-                SELECT s.tier FROM topics t
+                SELECT s.tier_type FROM topics t
                 JOIN units u ON t.unit_id = u.unit_id
                 JOIN subjects s ON u.subject_id = s.subject_id
                 WHERE t.topic_id = ?
             `, [resolvedTopicId]);
-            if (topicRow && topicRow.tier === 'MAINS') {
+            if (topicRow && topicRow.tier_type === 'MAINS') {
                 isMains = true;
             }
         }
