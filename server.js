@@ -734,6 +734,11 @@ function convertHtmlToTextWithListNumbering(html) {
         .replace(/<\/thead>/gi, '\n')
         .replace(/<\/table>/gi, '\n');
 
+    // Convert strong/bold tags to markdown **bold**
+    processedHtml = processedHtml
+        .replace(/<strong\b[^>]*>([\s\S]*?)<\/strong>/gi, '**$1**')
+        .replace(/<b\b[^>]*>([\s\S]*?)<\/b>/gi, '**$1**');
+
     // Find all <ol> groups and number the <li> items
     processedHtml = processedHtml.replace(/<ol\b[^>]*>([\s\S]*?)<\/ol>/gi, (match, olContent) => {
         let index = 1;
