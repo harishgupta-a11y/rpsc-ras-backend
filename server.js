@@ -536,8 +536,8 @@ app.post('/api/admin/upload-mains-questions', upload.single('questionsFile'), as
         for (const block of blocks) {
             if (!block.trim() || (!block.includes("Answer:") && !block.includes("Answer") && !block.includes("उत्तर:") && !block.includes("मॉडल उत्तर:") && !block.includes("उत्तर") && !block.includes("मॉडल उत्तर"))) continue;
 
-            const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर))/i);
-            const ansMatch = block.match(/(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)[\s:]*([\s\S]*?)$/i);
+            const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?:\*?\*?(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)\*?\*?))/i);
+            const ansMatch = block.match(/(?:\*?\*?(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)\*?\*?)[\s*:]*([\s\S]*?)$/i);
 
             if (qMatch && ansMatch) {
                 let answerText = ansMatch[1].trim();
@@ -853,8 +853,8 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
             for (const block of blocks) {
                 if (!block.trim() || (!block.includes("Answer:") && !block.includes("Answer") && !block.includes("उत्तर:") && !block.includes("मॉडल उत्तर:") && !block.includes("उत्तर") && !block.includes("मॉडल उत्तर"))) continue;
 
-                const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर))/i);
-                const ansMatch = block.match(/(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)[\s:]*([\s\S]*?)$/i);
+                const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?:\*?\*?(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)\*?\*?))/i);
+                const ansMatch = block.match(/(?:\*?\*?(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)\*?\*?)[\s*:]*([\s\S]*?)$/i);
 
                 if (qMatch && ansMatch) {
                     let answerText = ansMatch[1].trim();
@@ -906,9 +906,9 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
             const aMatch = block.match(/(?<=^|\s)(?<!\()A\)([\s\S]*?)(?=(?<=^|\s)(?<!\()B\))/);
             const bMatch = block.match(/(?<=^|\s)(?<!\()B\)([\s\S]*?)(?=(?<=^|\s)(?<!\()C\))/);
             const cMatch = block.match(/(?<=^|\s)(?<!\()C\)([\s\S]*?)(?=(?<=^|\s)(?<!\()D\))/);
-            const dMatch = block.match(/(?<=^|\s)(?<!\()D\)([\s\S]*?)(?=(?<=^|[\r\n]|\s)(?:[Cc]orrect|[Aa]nswer|उत्तर|सही उत्तर):?)/);
-            const correctMatch = block.match(/(?<=^|[\r\n]|\s)(?:[Cc]orrect|[Aa]nswer|उत्तर|सही उत्तर)[\s:]+([A-D])(?!\w)/);
-            const expMatch = block.match(/(?<=^|[\r\n])(?:[Ee]xplanation|[Ee]xp|व्याख्या|स्पष्टीकरण)[\s:]+([\s\S]*?)$/);
+            const dMatch = block.match(/(?<=^|\s)(?<!\()D\)([\s\S]*?)(?=(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Cc]orrect|[Aa]nswer|उत्तर|सही उत्तर)\*?\*?):?)/);
+            const correctMatch = block.match(/(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Cc]orrect|[Aa]nswer|उत्तर|सही उत्तर)\*?\*?)[\s*:]+\s*([A-D])(?!\w)/i);
+            const expMatch = block.match(/(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Ee]xplanation|[Ee]xp|व्याख्या|स्पष्टीकरण)\*?\*?)[\s*:]+\s*([\s\S]*?)$/i);
 
             if (qMatch && aMatch && bMatch && correctMatch) {
                 parsedQuestions.push({
