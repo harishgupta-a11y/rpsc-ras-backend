@@ -545,8 +545,8 @@ app.post('/api/admin/upload-mains-questions', upload.single('questionsFile'), as
                     answerText = answerText.substring(0, answerText.length - 3).trim();
                 }
                 parsedQuestions.push({
-                    question_text: qMatch[1].trim(),
-                    model_answer: answerText
+                    question_text: cleanFieldText(qMatch[1]),
+                    model_answer: cleanFieldText(answerText)
                 });
             }
         }
@@ -770,6 +770,20 @@ function convertHtmlToTextWithListNumbering(html) {
     return text;
 }
 
+function cleanFieldText(text) {
+    if (!text) return "";
+    let clean = text.trim();
+    // Remove trailing double asterisks if they were captured from the next bold trigger
+    if (clean.endsWith('**')) {
+        clean = clean.slice(0, -2).trim();
+    }
+    // Also remove leading double asterisks if they are unbalanced
+    if (clean.startsWith('**') && !clean.endsWith('**') && (clean.match(/\*\*/g) || []).length === 1) {
+        clean = clean.slice(2).trim();
+    }
+    return clean;
+}
+
 // --- Admin Route: Upload and Ingest docx ---
 app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (req, res) => {
     const topicId = req.body.topicId ? parseInt(req.body.topicId) : null;
@@ -862,8 +876,8 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
                         answerText = answerText.substring(0, answerText.length - 3).trim();
                     }
                     parsedQuestions.push({
-                        question_text: qMatch[1].trim(),
-                        model_answer: answerText
+                        question_text: cleanFieldText(qMatch[1]),
+                        model_answer: cleanFieldText(answerText)
                     });
                 }
             }
@@ -912,13 +926,13 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
 
             if (qMatch && aMatch && bMatch && correctMatch) {
                 parsedQuestions.push({
-                    question_text: qMatch[1].trim(),
-                    option_a: aMatch[1].trim(),
-                    option_b: bMatch[1].trim(),
-                    option_c: cMatch ? cMatch[1].trim() : "None of the above",
-                    option_d: dMatch ? dMatch[1].trim() : "All of the above",
+                    question_text: cleanFieldText(qMatch[1]),
+                    option_a: cleanFieldText(aMatch[1]),
+                    option_b: cleanFieldText(bMatch[1]),
+                    option_c: cMatch ? cleanFieldText(cMatch[1]) : "None of the above",
+                    option_d: dMatch ? cleanFieldText(dMatch[1]) : "All of the above",
                     correct_option: correctMatch[1].trim().toUpperCase(),
-                    detailed_explanation: expMatch ? expMatch[1].trim() : "Ingested from uploaded docx."
+                    detailed_explanation: expMatch ? cleanFieldText(expMatch[1]) : "Ingested from uploaded docx."
                 });
             }
         }
