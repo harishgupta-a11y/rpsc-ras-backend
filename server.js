@@ -920,11 +920,11 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
         for (const block of blocks) {
             if (!block.trim() || !block.includes("A)")) continue;
 
-            const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?<=^|\s)(?<!\()A\))/);
-            const aMatch = block.match(/(?<=^|\s)(?<!\()A\)([\s\S]*?)(?=(?<=^|\s)(?<!\()B\))/);
-            const bMatch = block.match(/(?<=^|\s)(?<!\()B\)([\s\S]*?)(?=(?<=^|\s)(?<!\()C\))/);
-            const cMatch = block.match(/(?<=^|\s)(?<!\()C\)([\s\S]*?)(?=(?<=^|\s)(?<!\()D\))/);
-            const dMatch = block.match(/(?<=^|\s)(?<!\()D\)([\s\S]*?)(?=(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Cc]orrect|[Aa]nswer|उत्तर|सही उत्तर)\*?\*?):?)/);
+            const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?<=^|[\r\n])[ \t]*(?<!\()A\))/);
+            const aMatch = block.match(/(?<=^|[\r\n])[ \t]*(?<!\()A\)([\s\S]*?)(?=(?<=^|[\r\n])[ \t]*(?<!\()B\))/);
+            const bMatch = block.match(/(?<=^|[\r\n])[ \t]*(?<!\()B\)([\s\S]*?)(?=(?<=^|[\r\n])[ \t]*(?<!\()C\))/);
+            const cMatch = block.match(/(?<=^|[\r\n])[ \t]*(?<!\()C\)([\s\S]*?)(?=(?<=^|[\r\n])[ \t]*(?<!\()D\))/);
+            const dMatch = block.match(/(?<=^|[\r\n])[ \t]*(?<!\()D\)([\s\S]*?)(?=(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Cc]orrect|[Aa]nswer|उत्तर|सही उत्तर)\*?\*?):?)/);
             const correctMatch = block.match(/(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Cc]orrect|[Aa]nswer|उत्तर|सही उत्तर)\*?\*?)[\s*:]+\s*([A-D])(?!\w)/i);
             const expMatch = block.match(/(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Ee]xplanation|[Ee]xp|व्याख्या|स्पष्टीकरण)\*?\*?)[\s*:]+\s*([\s\S]*?)$/i);
 
