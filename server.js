@@ -729,6 +729,15 @@ function convertHtmlToTextWithListNumbering(html) {
     // Convert inline images to safe placeholder strings [IMAGE:data:...]
     processedHtml = processedHtml.replace(/<img\s+[^>]*src=["'](data:image\/[^"']+)["'][^>]*>/gi, '\n[IMAGE:$1]\n');
 
+    // Strip paragraphs inside table cells to prevent cells from splitting onto newlines
+    processedHtml = processedHtml.replace(/<(td|th)\b[^>]*>([\s\S]*?)<\/\1>/gi, (match, tag, cellContent) => {
+        let cleanCell = cellContent
+            .replace(/<p\b[^>]*>/gi, '')
+            .replace(/<\/p>/gi, ' ')
+            .replace(/<br\s*\/?>/gi, ' ');
+        return `<${tag}>${cleanCell}</${tag}>`;
+    });
+
     // Format tables to clean text markdown style
     processedHtml = processedHtml
         .replace(/<\/th>/gi, ' | ')
