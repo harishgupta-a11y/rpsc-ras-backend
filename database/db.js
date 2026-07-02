@@ -62,9 +62,17 @@ async function initDatabase() {
             CREATE TABLE IF NOT EXISTS users (
                 user_id INTEGER PRIMARY KEY AUTOINCREMENT,
                 mobile_number TEXT UNIQUE NOT NULL,
-                expiry_timestamp INTEGER DEFAULT NULL
+                expiry_timestamp INTEGER DEFAULT NULL,
+                active_plan TEXT DEFAULT '24-Hour Free Trial'
             );
         `);
+
+        // Migration: Alter table if active_plan doesn't exist
+        try {
+            await run("ALTER TABLE users ADD COLUMN active_plan TEXT DEFAULT '24-Hour Free Trial';");
+        } catch (e) {
+            // Column already exists
+        }
 
         // 2. User Quiz History Table
         await run(`
@@ -275,6 +283,45 @@ async function initDatabase() {
             }
             await seedSyllabusAndSampleQuestions();
         }
+
+        // Seed Sub-topics for Ancient Indian History in Pre (Topic 11, 12, 13) and Mains (Topic 102)
+        const subtopicSeeds = [
+            // Pre Topic 11
+            { topic_id: 11, name: 'Indus Valley Civilisation (IVC)' },
+            { topic_id: 11, name: 'Early Vedic Period & Political Assemblies' },
+            { topic_id: 11, name: 'Later Vedic Period & Literature' },
+            // Pre Topic 12
+            { topic_id: 12, name: 'Buddhism Teachings & Councils' },
+            { topic_id: 12, name: 'Jainism Philosophy & Art' },
+            { topic_id: 12, name: 'Six Systems of Indian Philosophy (Shad-Darshana)' },
+            // Pre Topic 13
+            { topic_id: 13, name: 'Mauryan Empire & Ashokan Edicts' },
+            { topic_id: 13, name: 'Post-Mauryan Period (Kushans & Satavahanas)' },
+            { topic_id: 13, name: 'Gupta Golden Age (Art, Literature & Science)' },
+            { topic_id: 13, name: 'Harshavardhana Dynasty' },
+            { topic_id: 13, name: 'Southern Dynasties (Cholas, Pallavas, Chalukyas & Rashtrakutas)' },
+            // Mains Topic 102
+            { topic_id: 102, name: 'Indus Valley Civilisation (IVC)' },
+            { topic_id: 102, name: 'Early Vedic Period & Political Assemblies' },
+            { topic_id: 102, name: 'Later Vedic Period & Literature' },
+            { topic_id: 102, name: 'Buddhism Teachings & Councils' },
+            { topic_id: 102, name: 'Jainism Philosophy & Art' },
+            { topic_id: 102, name: 'Six Systems of Indian Philosophy (Shad-Darshana)' },
+            { topic_id: 102, name: 'Mauryan Empire & Ashokan Edicts' },
+            { topic_id: 102, name: 'Post-Mauryan Period (Kushans & Satavahanas)' },
+            { topic_id: 102, name: 'Gupta Golden Age (Art, Literature & Science)' },
+            { topic_id: 102, name: 'Harshavardhana Dynasty' },
+            { topic_id: 102, name: 'Southern Dynasties (Cholas, Pallavas, Chalukyas & Rashtrakutas)' }
+        ];
+
+        for (const s of subtopicSeeds) {
+            const exists = await get("SELECT * FROM minute_topics WHERE topic_id = ? AND minute_topic_name = ?", [s.topic_id, s.name]);
+            if (!exists) {
+                await run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (?, ?)", [s.topic_id, s.name]);
+            }
+        }
+        console.log("Seeded Ancient Indian History sub-topics for Pre and Mains.");
+
         // Clean up any existing placeholder/fake questions safely on startup
         await run("DELETE FROM questions WHERE question_text LIKE 'Practice MCQ Question for%'");
         await run("DELETE FROM questions WHERE question_text LIKE 'सब-टॉपिक:%के लिए अभ्यास प्रश्न'");
@@ -894,7 +941,7 @@ module.exports = {
     // Core Auth Operations
     getUserByMobile: (mobile) => get("SELECT * FROM users WHERE mobile_number = ?", [mobile]),
     createUser: (mobile) => run("INSERT INTO users (mobile_number) VALUES (?)", [mobile]),
-    updateUserSubscription: (mobile, expiry) => run("UPDATE users SET expiry_timestamp = ? WHERE mobile_number = ?", [expiry, mobile]),
+    updateUserSubscription: (mobile, expiry, planName = '24-Hour Free Trial') => run("UPDATE users SET expiry_timestamp = ?, active_plan = ? WHERE mobile_number = ?", [expiry, planName, mobile]),
     setUserTrialUsed: (mobile) => run("UPDATE users SET has_used_trial = 1 WHERE mobile_number = ?", [mobile]),
     
     // Syllabus Operations
