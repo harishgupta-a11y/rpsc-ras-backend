@@ -1125,13 +1125,36 @@ async function loadUploadedFilesHistory() {
             <span style="color:white; font-weight:bold;">${f.originalName}</span>
             <span style="font-size:9px; color:var(--color-text-muted); display:block;">Uploaded: ${f.uploadedAt}</span>
           </div>
-          <a href="${API_BASE}/admin/uploaded-files/${f.filename}" download style="background:var(--color-primary-glow); border:1px solid var(--color-primary); color:white; padding:2px 6px; border-radius:var(--radius-xs); text-decoration:none; font-size:9px; font-weight:bold;">Download</a>
+          <div style="display:flex; gap:6px; align-items:center;">
+            <a href="${API_BASE}/admin/uploaded-files/${f.filename}" download style="background:var(--color-primary-glow); border:1px solid var(--color-primary); color:white; padding:2px 6px; border-radius:var(--radius-xs); text-decoration:none; font-size:9px; font-weight:bold;">Download</a>
+            <button onclick="deleteUploadedFile('${f.filename}')" style="background:rgba(239,68,68,0.15); border:1px solid #EF4444; color:#EF4444; padding:2px 6px; border-radius:var(--radius-xs); cursor:pointer; font-size:9px; font-weight:bold;">Delete</button>
+          </div>
         `;
         container.appendChild(item);
       });
     }
   } catch (err) {
     console.error("Failed to load uploaded files history:", err);
+  }
+}
+
+async function deleteUploadedFile(filename) {
+  if (!confirm("Are you sure you want to delete this file from the server disk?")) return;
+  try {
+    const res = await fetch(`${API_BASE}/admin/delete-file`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ filename })
+    });
+    if (res.ok) {
+      alert("File deleted successfully.");
+      loadUploadedFilesHistory();
+    } else {
+      const err = await res.json();
+      alert("Error: " + err.error);
+    }
+  } catch (err) {
+    alert("Delete failed: " + err.message);
   }
 }
 
