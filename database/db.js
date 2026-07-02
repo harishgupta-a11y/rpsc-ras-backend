@@ -286,41 +286,70 @@ async function initDatabase() {
 
         // Seed Sub-topics for Ancient Indian History in Pre (Topic 11, 12, 13) and Mains (Topic 102)
         const subtopicSeeds = [
-            // Pre Topic 11
-            { topic_id: 11, name: 'Indus Valley Civilisation (IVC)' },
-            { topic_id: 11, name: 'Early Vedic Period & Political Assemblies' },
-            { topic_id: 11, name: 'Later Vedic Period & Literature' },
-            // Pre Topic 12
-            { topic_id: 12, name: 'Buddhism Teachings & Councils' },
-            { topic_id: 12, name: 'Jainism Philosophy & Art' },
-            { topic_id: 12, name: 'Six Systems of Indian Philosophy (Shad-Darshana)' },
-            // Pre Topic 13
-            { topic_id: 13, name: 'Mauryan Empire & Ashokan Edicts' },
-            { topic_id: 13, name: 'Post-Mauryan Period (Kushans & Satavahanas)' },
-            { topic_id: 13, name: 'Gupta Golden Age (Art, Literature & Science)' },
-            { topic_id: 13, name: 'Harshavardhana Dynasty' },
-            { topic_id: 13, name: 'Southern Dynasties (Cholas, Pallavas, Chalukyas & Rashtrakutas)' },
-            // Mains Topic 102
-            { topic_id: 102, name: 'Indus Valley Civilisation (IVC)' },
-            { topic_id: 102, name: 'Early Vedic Period & Political Assemblies' },
-            { topic_id: 102, name: 'Later Vedic Period & Literature' },
-            { topic_id: 102, name: 'Buddhism Teachings & Councils' },
-            { topic_id: 102, name: 'Jainism Philosophy & Art' },
-            { topic_id: 102, name: 'Six Systems of Indian Philosophy (Shad-Darshana)' },
-            { topic_id: 102, name: 'Mauryan Empire & Ashokan Edicts' },
-            { topic_id: 102, name: 'Post-Mauryan Period (Kushans & Satavahanas)' },
-            { topic_id: 102, name: 'Gupta Golden Age (Art, Literature & Science)' },
-            { topic_id: 102, name: 'Harshavardhana Dynasty' },
-            { topic_id: 102, name: 'Southern Dynasties (Cholas, Pallavas, Chalukyas & Rashtrakutas)' }
+            // Pre Topic 11 (EN)
+            { topic_id: 11, name: 'Indus Valley Civilisation (IVC)', lang: 'EN' },
+            { topic_id: 11, name: 'Early Vedic Period & Political Assemblies', lang: 'EN' },
+            { topic_id: 11, name: 'Later Vedic Period & Literature', lang: 'EN' },
+            // Pre Topic 11 (HI)
+            { topic_id: 11, name: 'सिंधु घाटी सभ्यता (IVC)', lang: 'HI' },
+            { topic_id: 11, name: 'ऋग्वैदिक काल और राजनीतिक सभाएं', lang: 'HI' },
+            { topic_id: 11, name: 'उत्तर वैदिक काल और साहित्य', lang: 'HI' },
+
+            // Pre Topic 12 (EN)
+            { topic_id: 12, name: 'Buddhism Teachings & Councils', lang: 'EN' },
+            { topic_id: 12, name: 'Jainism Philosophy & Art', lang: 'EN' },
+            { topic_id: 12, name: 'Six Systems of Indian Philosophy (Shad-Darshana)', lang: 'EN' },
+            // Pre Topic 12 (HI)
+            { topic_id: 12, name: 'बौद्ध धर्म: शिक्षाएं और संगीतियां', lang: 'HI' },
+            { topic_id: 12, name: 'जैन धर्म: दर्शन और कला', lang: 'HI' },
+            { topic_id: 12, name: 'भारतीय दर्शन की छह प्रणालियां (षड्दर्शन)', lang: 'HI' },
+
+            // Pre Topic 13 (EN)
+            { topic_id: 13, name: 'Mauryan Empire & Ashokan Edicts', lang: 'EN' },
+            { topic_id: 13, name: 'Post-Mauryan Period (Kushans & Satavahanas)', lang: 'EN' },
+            { topic_id: 13, name: 'Gupta Golden Age (Art, Literature & Science)', lang: 'EN' },
+            { topic_id: 13, name: 'Harshavardhana Dynasty', lang: 'EN' },
+            { topic_id: 13, name: 'Southern Dynasties (Cholas, Pallavas, Chalukyas & Rashtrakutas)', lang: 'EN' },
+            // Pre Topic 13 (HI)
+            { topic_id: 13, name: 'मौर्य साम्राज्य और अशोक के शिलालेख', lang: 'HI' },
+            { topic_id: 13, name: 'मौर्योत्तर काल (कुषाण और सातवाहन)', lang: 'HI' },
+            { topic_id: 13, name: 'गुप्त स्वर्ण युग (कला, साहित्य और विज्ञान)', lang: 'HI' },
+            { topic_id: 13, name: 'हर्षवर्धन राजवंश और प्रशासन', lang: 'HI' },
+            { topic_id: 13, name: 'दक्षिण भारतीय राजवंश (चोल, पल्लव, चालुक्य और राष्ट्रकूट)', lang: 'HI' },
+
+            // Mains Topic 102 (EN)
+            { topic_id: 102, name: 'Indus Valley Civilisation (IVC)', lang: 'EN' },
+            { topic_id: 102, name: 'Early Vedic Period & Political Assemblies', lang: 'EN' },
+            { topic_id: 102, name: 'Later Vedic Period & Literature', lang: 'EN' },
+            { topic_id: 102, name: 'Buddhism Teachings & Councils', lang: 'EN' },
+            { topic_id: 102, name: 'Jainism Philosophy & Art', lang: 'EN' },
+            { topic_id: 102, name: 'Six Systems of Indian Philosophy (Shad-Darshana)', lang: 'EN' },
+            { topic_id: 102, name: 'Mauryan Empire & Ashokan Edicts', lang: 'EN' },
+            { topic_id: 102, name: 'Post-Mauryan Period (Kushans & Satavahanas)', lang: 'EN' },
+            { topic_id: 102, name: 'Gupta Golden Age (Art, Literature & Science)', lang: 'EN' },
+            { topic_id: 102, name: 'Harshavardhana Dynasty', lang: 'EN' },
+            { topic_id: 102, name: 'Southern Dynasties (Cholas, Pallavas, Chalukyas & Rashtrakutas)', lang: 'EN' },
+            // Mains Topic 102 (HI)
+            { topic_id: 102, name: 'सिंधु घाटी सभ्यता (IVC)', lang: 'HI' },
+            { topic_id: 102, name: 'ऋग्वैदिक काल और राजनीतिक सभाएं', lang: 'HI' },
+            { topic_id: 102, name: 'उत्तर वैदिक काल और साहित्य', lang: 'HI' },
+            { topic_id: 102, name: 'बौद्ध धर्म: शिक्षाएं और संगीतियां', lang: 'HI' },
+            { topic_id: 102, name: 'जैन धर्म: दर्शन और कला', lang: 'HI' },
+            { topic_id: 102, name: 'भारतीय दर्शन की छह प्रणालियां (षड्दर्शन)', lang: 'HI' },
+            { topic_id: 102, name: 'मौर्य साम्राज्य और अशोक के शिलालेख', lang: 'HI' },
+            { topic_id: 102, name: 'मौर्योत्तर काल (कुषाण और सातवाहन)', lang: 'HI' },
+            { topic_id: 102, name: 'गुप्त स्वर्ण युग (कला, साहित्य और विज्ञान)', lang: 'HI' },
+            { topic_id: 102, name: 'हर्षवर्धन राजवंश और प्रशासन', lang: 'HI' },
+            { topic_id: 102, name: 'दक्षिण भारतीय राजवंश (चोल, पल्लव, चालुक्य और राष्ट्रकूट)', lang: 'HI' }
         ];
 
         for (const s of subtopicSeeds) {
-            const exists = await get("SELECT * FROM minute_topics WHERE topic_id = ? AND minute_topic_name = ?", [s.topic_id, s.name]);
+            const exists = await get("SELECT * FROM minute_topics WHERE topic_id = ? AND minute_topic_name = ? AND language = ?", [s.topic_id, s.name, s.lang]);
             if (!exists) {
-                await run("INSERT INTO minute_topics (topic_id, minute_topic_name) VALUES (?, ?)", [s.topic_id, s.name]);
+                await run("INSERT INTO minute_topics (topic_id, minute_topic_name, language) VALUES (?, ?, ?)", [s.topic_id, s.name, s.lang]);
             }
         }
-        console.log("Seeded Ancient Indian History sub-topics for Pre and Mains.");
+        console.log("Seeded Ancient Indian History sub-topics for Pre and Mains (both EN and HI).");
 
         // Clean up any existing placeholder/fake questions safely on startup
         await run("DELETE FROM questions WHERE question_text LIKE 'Practice MCQ Question for%'");
