@@ -1093,6 +1093,7 @@ async function loadAdminPortal() {
       loadPyqExamsDropdown();
       await populateIngestTopics();
       loadUploadedFilesHistory();
+      onManagerSourceChange();
     }
   } catch (err) {
     logAdmin(`[Error] Stats fetch failed: ${err.message}`);
