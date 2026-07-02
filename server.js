@@ -727,7 +727,11 @@ function convertHtmlToTextWithListNumbering(html) {
     let processedHtml = html;
     
     // Convert inline images to safe placeholder strings [IMAGE:data:...]
-    processedHtml = processedHtml.replace(/<img\s+[^>]*src=["'](data:image\/[^"']+)["'][^>]*>/gi, '\n[IMAGE:$1]\n');
+    // Convert inline images to safe placeholder strings [IMAGE:data:...] without newlines
+    processedHtml = processedHtml.replace(/<img\s+[^>]*src=["'](data:image\/[^"']+)["'][^>]*>/gi, (match, src) => {
+        const cleanSrc = src.replace(/[\r\n\s]+/g, ''); // strip all whitespaces/newlines from base64 string
+        return `\n[IMAGE:${cleanSrc}]\n`;
+    });
 
     // Strip paragraphs inside table cells to prevent cells from splitting onto newlines
     processedHtml = processedHtml.replace(/<(td|th)\b[^>]*>([\s\S]*?)<\/\1>/gi, (match, tag, cellContent) => {
@@ -738,14 +742,28 @@ function convertHtmlToTextWithListNumbering(html) {
         return `<${tag}>${cleanCell}</${tag}>`;
     });
 
-    // Format tables to clean text markdown style
-    processedHtml = processedHtml
-        .replace(/<\/th>/gi, ' | ')
-        .replace(/<\/td>/gi, ' | ')
-        .replace(/<\/tr>/gi, '\n')
-        .replace(/<tr\b[^>]*>/gi, '| ')
-        .replace(/<\/thead>/gi, '\n')
-        .replace(/<\/table>/gi, '\n');
+    // Format tables to clean text markdown style using pretty arrows (guarantees readability on older app builds)
+    processedHtml = processedHtml.replace(/<table\b[^>]*>([\s\S]*?)<\/table>/gi, (match, tableContent) => {
+        let tableText = "\n";
+        const rows = tableContent.split(/<\/tr>/gi);
+        for (const row of rows) {
+            if (!row.trim()) continue;
+            const cells = row.match(/<(td|th)\b[^>]*>([\s\S]*?)<\/\1>/gi);
+            if (cells) {
+                const cellTexts = cells.map(cell => {
+                    return cell.replace(/<[^>]+>/g, '').trim().replace(/\s+/g, ' ');
+                });
+                if (cellTexts.length > 0) {
+                    if (cellTexts.length === 2) {
+                        tableText += `• ${cellTexts[0]}   ──►   ${cellTexts[1]}\n`;
+                    } else {
+                        tableText += `• ${cellTexts.join('   |   ')}\n`;
+                    }
+                }
+            }
+        }
+        return tableText + "\n";
+    });
 
     // Convert strong/bold tags to markdown **bold**
     processedHtml = processedHtml
@@ -1248,6 +1266,25 @@ app.get('/api/admin/uploaded-files/:filename', (req, res) => {
         res.download(filePath);
     } else {
         res.status(404).send("File not found.");
+    }
+});
+
+app.post('/api/admin/delete-file', async (req, res) => {
+    const { filename } = req.body;
+    if (!filename) {
+        return res.status(400).json({ error: "Filename is required." });
+    }
+    const safeFilename = path.basename(filename);
+    const filePath = path.join(__dirname, 'uploaded_files', safeFilename);
+    try {
+        if (fs.existsSync(filePath)) {
+            fs.unlinkSync(filePath);
+            return res.status(200).json({ message: "File deleted successfully from disk." });
+        } else {
+            return res.status(404).json({ error: "File not found on disk." });
+        }
+    } catch (err) {
+        return res.status(500).json({ error: "Failed to delete file: " + err.message });
     }
 });
 
