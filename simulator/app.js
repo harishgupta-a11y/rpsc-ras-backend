@@ -2483,6 +2483,7 @@ let managerQuestionsData = [];
 async function onManagerSourceChange() {
   const source = document.getElementById('manager-source-select').value;
   const select = document.getElementById('manager-topic-select');
+  const language = document.getElementById('manager-lang-select') ? document.getElementById('manager-lang-select').value : 'EN';
   if (!select) return;
   select.innerHTML = "Loading...";
 
@@ -2500,6 +2501,25 @@ async function onManagerSourceChange() {
           opt.innerText = `[${exam.tier_type}] ${exam.exam_name} (${exam.exam_year})`;
           select.appendChild(opt);
         });
+      }
+    } else if (source === 'PRE_SUBTOPICS' || source === 'MAINS_SUBTOPICS') {
+      const res = await fetch(`${API_BASE}/admin/all-minute-topics?language=${language}`);
+      if (res.ok) {
+        const data = await res.json();
+        select.innerHTML = "";
+        const targetTier = source === 'PRE_SUBTOPICS' ? 'PRE' : 'MAINS';
+        data.minuteTopics.forEach(mt => {
+          const isMainsTopic = mt.topic_id >= 100;
+          if ((targetTier === 'MAINS' && isMainsTopic) || (targetTier === 'PRE' && !isMainsTopic)) {
+            const opt = document.createElement('option');
+            opt.value = mt.minute_topic_id;
+            opt.innerText = `[Subtopic] ${mt.topic_name.substring(0, 20)}... -> ${mt.minute_topic_name}`;
+            select.appendChild(opt);
+          }
+        });
+        if (select.children.length === 0) {
+          select.innerHTML = "<option value=''>No subtopics found for this language</option>";
+        }
       }
     } else {
       const tier = source === 'PRE_TOPICS' ? 'PRE' : 'MAINS';

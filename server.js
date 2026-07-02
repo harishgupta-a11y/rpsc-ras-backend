@@ -1388,6 +1388,20 @@ app.post('/api/admin/rename-item', async (req, res) => {
 });
 
 // --- Admin Questions Manager Endpoints ---
+app.get('/api/admin/all-minute-topics', async (req, res) => {
+    const language = req.query.language || 'EN';
+    try {
+        const minuteTopics = await db.all(`
+            SELECT mt.*, t.topic_name FROM minute_topics mt 
+            JOIN topics t ON mt.topic_id = t.topic_id 
+            WHERE mt.language = ?
+        `, [language]);
+        res.status(200).json({ minuteTopics });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch all sub-topics: " + err.message });
+    }
+});
+
 app.get('/api/admin/questions', async (req, res) => {
     const { source, targetId, language } = req.query;
     if (!source || !targetId || !language) {
@@ -1399,8 +1413,12 @@ app.get('/api/admin/questions', async (req, res) => {
         let questions = [];
         if (source === 'PRE_TOPICS') {
             questions = await db.all("SELECT * FROM questions WHERE topic_id = ? AND language = ? ORDER BY question_id DESC", [tid, language]);
+        } else if (source === 'PRE_SUBTOPICS') {
+            questions = await db.all("SELECT * FROM questions WHERE minute_topic_id = ? AND language = ? ORDER BY question_id DESC", [tid, language]);
         } else if (source === 'MAINS_TOPICS') {
             questions = await db.all("SELECT * FROM mains_questions WHERE topic_id = ? AND language = ? AND exam_id IS NULL ORDER BY mains_question_id DESC", [tid, language]);
+        } else if (source === 'MAINS_SUBTOPICS') {
+            questions = await db.all("SELECT * FROM mains_questions WHERE minute_topic_id = ? AND language = ? AND exam_id IS NULL ORDER BY mains_question_id DESC", [tid, language]);
         } else if (source === 'EXAMS') {
             const exam = await db.get("SELECT tier_type FROM pyq_exams WHERE exam_id = ?", [tid]);
             if (!exam) {
