@@ -742,10 +742,11 @@ function convertHtmlToTextWithListNumbering(html) {
         return `<${tag}>${cleanCell}</${tag}>`;
     });
 
-    // Format tables to clean text markdown style using pretty arrows (guarantees readability on older app builds)
+    // Format tables to clean text markdown style (pipes and dashes) for mobile grid rendering
     processedHtml = processedHtml.replace(/<table\b[^>]*>([\s\S]*?)<\/table>/gi, (match, tableContent) => {
         let tableText = "\n";
         const rows = tableContent.split(/<\/tr>/gi);
+        let headerParsed = false;
         for (const row of rows) {
             if (!row.trim()) continue;
             const cells = row.match(/<(td|th)\b[^>]*>([\s\S]*?)<\/\1>/gi);
@@ -754,10 +755,11 @@ function convertHtmlToTextWithListNumbering(html) {
                     return cell.replace(/<[^>]+>/g, '').trim().replace(/\s+/g, ' ');
                 });
                 if (cellTexts.length > 0) {
-                    if (cellTexts.length === 2) {
-                        tableText += `• ${cellTexts[0]}   ──►   ${cellTexts[1]}\n`;
-                    } else {
-                        tableText += `• ${cellTexts.join('   |   ')}\n`;
+                    tableText += `| ${cellTexts.join(' | ')} |\n`;
+                    if (!headerParsed) {
+                        const dividers = cellTexts.map(() => '---');
+                        tableText += `| ${dividers.join(' | ')} |\n`;
+                        headerParsed = true;
                     }
                 }
             }
