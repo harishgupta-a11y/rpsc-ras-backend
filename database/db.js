@@ -236,6 +236,14 @@ async function initDatabase() {
             // Ignore if column already exists
         }
 
+        // Migration: Rename philosophy sub-topic under Ancient Indian History to Sects & Reform Movements
+        try {
+            await run("UPDATE minute_topics SET minute_topic_name = 'Ancient Religious Sects & Reform Movements' WHERE minute_topic_name = 'Six Systems of Indian Philosophy (Shad-Darshana)'");
+            await run("UPDATE minute_topics SET minute_topic_name = 'प्राचीन धार्मिक संप्रदाय और सुधार आंदोलन' WHERE minute_topic_name = 'भारतीय दर्शन की छह प्रणालियां (षड्दर्शन)'");
+        } catch (e) {
+            console.error("Failed to migrate philosophy sub-topic name:", e);
+        }
+
         console.log("All SQLite tables verified successfully.");
 
         // Seed default PYQ Exams if none exist or if we need to update to 22 exams
@@ -298,11 +306,11 @@ async function initDatabase() {
             // Pre Topic 12 (EN)
             { topic_id: 12, name: 'Buddhism Teachings & Councils', lang: 'EN' },
             { topic_id: 12, name: 'Jainism Philosophy & Art', lang: 'EN' },
-            { topic_id: 12, name: 'Six Systems of Indian Philosophy (Shad-Darshana)', lang: 'EN' },
+            { topic_id: 12, name: 'Ancient Religious Sects & Reform Movements', lang: 'EN' },
             // Pre Topic 12 (HI)
             { topic_id: 12, name: 'बौद्ध धर्म: शिक्षाएं और संगीतियां', lang: 'HI' },
             { topic_id: 12, name: 'जैन धर्म: दर्शन और कला', lang: 'HI' },
-            { topic_id: 12, name: 'भारतीय दर्शन की छह प्रणालियां (षड्दर्शन)', lang: 'HI' },
+            { topic_id: 12, name: 'प्राचीन धार्मिक संप्रदाय और सुधार आंदोलन', lang: 'HI' },
 
             // Pre Topic 13 (EN)
             { topic_id: 13, name: 'Mauryan Empire & Ashokan Edicts', lang: 'EN' },
@@ -323,7 +331,7 @@ async function initDatabase() {
             { topic_id: 102, name: 'Later Vedic Period & Literature', lang: 'EN' },
             { topic_id: 102, name: 'Buddhism Teachings & Councils', lang: 'EN' },
             { topic_id: 102, name: 'Jainism Philosophy & Art', lang: 'EN' },
-            { topic_id: 102, name: 'Six Systems of Indian Philosophy (Shad-Darshana)', lang: 'EN' },
+            { topic_id: 102, name: 'Ancient Religious Sects & Reform Movements', lang: 'EN' },
             { topic_id: 102, name: 'Mauryan Empire & Ashokan Edicts', lang: 'EN' },
             { topic_id: 102, name: 'Post-Mauryan Period (Kushans & Satavahanas)', lang: 'EN' },
             { topic_id: 102, name: 'Gupta Golden Age (Art, Literature & Science)', lang: 'EN' },
@@ -335,7 +343,7 @@ async function initDatabase() {
             { topic_id: 102, name: 'उत्तर वैदिक काल और साहित्य', lang: 'HI' },
             { topic_id: 102, name: 'बौद्ध धर्म: शिक्षाएं और संगीतियां', lang: 'HI' },
             { topic_id: 102, name: 'जैन धर्म: दर्शन और कला', lang: 'HI' },
-            { topic_id: 102, name: 'भारतीय दर्शन की छह प्रणालियां (षड्दर्शन)', lang: 'HI' },
+            { topic_id: 102, name: 'प्राचीन धार्मिक संप्रदाय और सुधार आंदोलन', lang: 'HI' },
             { topic_id: 102, name: 'मौर्य साम्राज्य और अशोक के शिलालेख', lang: 'HI' },
             { topic_id: 102, name: 'मौर्योत्तर काल (कुषाण और सातवाहन)', lang: 'HI' },
             { topic_id: 102, name: 'गुप्त स्वर्ण युग (कला, साहित्य और विज्ञान)', lang: 'HI' },
