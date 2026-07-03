@@ -242,7 +242,14 @@ async function initDatabase() {
         } catch (e) {
             console.error("Failed to clear old sub-topics:", e);
         }
-
+        // Migration: Update parent topics 11, 12, 13 to match new syllabus text
+        try {
+            await run("UPDATE topics SET topic_name = 'Cultural Foundations of India - Indus & Vedic Age; Religious ideas of 6th Century BC (Ajivakas, Buddhism & Jainism)' WHERE topic_id = 11");
+            await run("UPDATE topics SET topic_name = 'Achievements of prominent rulers of major dynasties: Maurya, Kushan, Satavahan, Gupta, Chalukya, Pallava and Chola' WHERE topic_id = 12");
+            await run("UPDATE topics SET topic_name = 'Art, Architecture, Scientific Development & Indian Knowledge/Value System in Ancient India' WHERE topic_id = 13");
+        } catch (e) {
+            console.error("Failed to migrate parent topic names:", e);
+        }
         console.log("All SQLite tables verified successfully.");
 
         // Seed default PYQ Exams if none exist or if we need to update to 22 exams
@@ -394,9 +401,9 @@ async function seedSyllabusAndSampleQuestions() {
                 "Religious sects, saints, folk deities (Panch Peer) & fairs/festivals of Rajasthan"
             ],
             2: [
-                "Ancient India: Indus Valley & Vedic Civilizations, Rigvedic polity and assemblies (Sabha & Samiti)",
-                "Ancient India: Buddhism, Jainism, six systems of philosophy & religious reform movements",
-                "Ancient & Medieval India: Achievements of Mauryas, Guptas, Harshavardhana, Cholas, Pallavas & Rashtrakutas",
+                "Cultural Foundations of India - Indus & Vedic Age; Religious ideas of 6th Century BC (Ajivakas, Buddhism & Jainism)",
+                "Achievements of prominent rulers of major dynasties: Maurya, Kushan, Satavahan, Gupta, Chalukya, Pallava and Chola",
+                "Art, Architecture, Scientific Development & Indian Knowledge/Value System in Ancient India",
                 "Medieval India: Delhi Sultanate and Mughal Empire - administration, art, architecture & literature",
                 "Medieval India: Bhakti movement, Sufism and cultural synthesis",
                 "Modern India: Socio-religious reform movements in 19th & 20th centuries",
