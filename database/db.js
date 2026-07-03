@@ -431,6 +431,313 @@ async function initDatabase() {
         await run("DELETE FROM mains_questions WHERE question_text LIKE 'Explain the key components%'");
         await run("DELETE FROM mains_questions WHERE question_text LIKE 'सब-टॉपिक:%के प्रमुख घटकों%'");
         console.log("Safely cleaned up database placeholder questions.");
+
+// 2.5 Seed custom high-quality questions for Ancient Indian History (IVC: Town Planning & Seals)
+        const mtPreEn = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 11 AND minute_topic_name = 'Indus Valley Civilisation (IVC): Town Planning & Seals' AND language = 'EN'");
+        const mtPreHi = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 11 AND minute_topic_name = 'सिंधु घाटी सभ्यता: नगर नियोजन और मुहरें' AND language = 'HI'");
+        const mtMainsEn = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 102 AND minute_topic_name = 'Indus Valley Civilisation (IVC): Town Planning & Seals' AND language = 'EN'");
+        const mtMainsHi = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 102 AND minute_topic_name = 'सिंधु घाटी सभ्यता: नगर नियोजन और मुहरें' AND language = 'HI'");
+
+        const id_122 = mtPreEn ? mtPreEn.minute_topic_id : 122;
+        const id_130 = mtPreHi ? mtPreHi.minute_topic_id : 130;
+        const id_174 = mtMainsEn ? mtMainsEn.minute_topic_id : 174;
+        const id_200 = mtMainsHi ? mtMainsHi.minute_topic_id : 200;
+
+        const ivcPreCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = ?", [id_122]);
+        if (ivcPreCount.count === 0) {
+            console.log("Seeding custom high-quality questions for IVC...");
+            const customPreQuestions = [
+                {
+                    lang: 'EN',
+                    subtopic_id: 122,
+                    text: `Q. Which of the following is correct regarding the use of burnt bricks in the Harappan civilization?
+A) They were used only in the citadel area and not in the lower town.
+B) Egypt and Mesopotamia used baked bricks to a much larger extent than Harappa.
+C) The use of burnt bricks was a distinctive feature of Harappan cities compared to Egypt, where dried mud bricks were mainly used.
+D) Burnt bricks were only used for constructing drains and public baths.`,
+                    option_a: 'They were used only in the citadel area and not in the lower town.',
+                    option_b: 'Egypt and Mesopotamia used baked bricks to a much larger extent than Harappa.',
+                    option_c: 'The use of burnt bricks was a distinctive feature of Harappan cities compared to Egypt, where dried mud bricks were mainly used.',
+                    option_d: 'Burnt bricks were only used for constructing drains and public baths.',
+                    correct: 'C',
+                    explanation: 'While contemporary Egypt primarily used dried mud bricks, Harappan cities utilized burnt bricks on a massive scale for both public and private structures.'
+                },
+                {
+                    lang: 'HI',
+                    subtopic_id: 130,
+                    text: `Q. हड़प्पा सभ्यता में पकी हुई ईंटों (burnt bricks) के उपयोग के संबंध में निम्नलिखित में से कौन सा कथन सही है?
+A) इनका उपयोग केवल दुर्ग (citadel) क्षेत्र में किया जाता था न कि निचले शहर में।
+B) मिस्र और मेसोपोटामिया में हड़प्पा की तुलना में पकी हुई ईंटों का बहुत बड़े पैमाने पर उपयोग किया जाता था।
+C) पकी हुई ईंटों का उपयोग मिस्र की तुलना में हड़प्पा के शहरों की एक विशिष्ट विशेषता थी, जहाँ मुख्य रूप से सूखी मिट्टी की ईंटों का उपयोग किया जाता था।
+D) पकी हुई ईंटों का उपयोग केवल नालियों और सार्वजनिक स्नानागारों के निर्माण के लिए किया जाता था।`,
+                    option_a: 'इनका उपयोग केवल दुर्ग (citadel) क्षेत्र में किया जाता था न कि निचले शहर में।',
+                    option_b: 'मिस्र और मेसोपोटामिया में हड़प्पा की तुलना में पकी हुई ईंटों का बहुत बड़े पैमाने पर उपयोग किया जाता था।',
+                    option_c: 'पकी हुई ईंटों का उपयोग मिस्र की तुलना में हड़प्पा के शहरों की एक विशिष्ट विशेषता थी, जहाँ मुख्य रूप से सूखी मिट्टी की ईंटों का उपयोग किया जाता था।',
+                    option_d: 'पकी हुई ईंटों का उपयोग केवल नालियों और सार्वजनिक स्नानागारों के निर्माण के लिए किया जाता था।',
+                    correct: 'C',
+                    explanation: 'जबकि समकालीन मिस्र में मुख्य रूप से धूप में सुखाई गई मिट्टी की ईंटों का उपयोग किया जाता था, हड़प्पा के शहरों ने सार्वजनिक और निजी दोनों संरचनाओं के लिए बड़े पैमाने पर पकी हुई ईंटों का उपयोग किया।'
+                },
+                {
+                    lang: 'EN',
+                    subtopic_id: 122,
+                    text: `Q. Match List-I (Harappan Site) with List-II (Key Architectural/Town Planning Feature) and select the correct answer:
+List-I:
+a) Kalibangan
+b) Dholavira
+c) Harappa
+d) Mohenjodaro
+
+List-II:
+1) Great Bath and Citadel
+2) Row of six granaries
+3) Ploughed field and fire altars
+4) Divided into three distinct parts
+
+A) a-3, b-4, c-2, d-1
+B) a-1, b-2, c-3, d-4
+C) a-3, b-1, c-2, d-4
+D) a-4, b-3, c-1, d-2`,
+                    option_a: 'a-3, b-4, c-2, d-1',
+                    option_b: 'a-1, b-2, c-3, d-4',
+                    option_c: 'a-3, b-1, c-2, d-4',
+                    option_d: 'a-4, b-3, c-1, d-2',
+                    correct: 'A',
+                    explanation: 'Kalibangan is famous for a ploughed field and fire altars; Dholavira is unique for being divided into three parts; Harappa contains rows of six granaries; Mohenjodaro houses the famous Great Bath.'
+                },
+                {
+                    lang: 'HI',
+                    subtopic_id: 130,
+                    text: `Q. सूची-I (हड़प्पा स्थल) को सूची-II (प्रमुख वास्तुकला/नगर नियोजन विशेषता) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:
+सूची-I:
+a) कालीबंगा
+b) धोलावीरा
+c) हड़प्पा
+d) मोहनजोदड़ो
+
+सूची-II:
+1) विशाल स्नानागार और दुर्ग
+2) छह अन्नागारों की पंक्ति
+3) जुता हुआ खेत और अग्निकुंड
+4) तीन अलग-अलग भागों में विभाजित
+
+A) a-3, b-4, c-2, d-1
+B) a-1, b-2, c-3, d-4
+C) a-3, b-1, c-2, d-4
+D) a-4, b-3, c-1, d-2`,
+                    option_a: 'a-3, b-4, c-2, d-1',
+                    option_b: 'a-1, b-2, c-3, d-4',
+                    option_c: 'a-3, b-1, c-2, d-4',
+                    option_d: 'a-4, b-3, c-1, d-2',
+                    correct: 'A',
+                    explanation: 'कालीबंगा जुते हुए खेत और अग्निकुंडों के लिए प्रसिद्ध है; धोलावीरा तीन भागों में विभाजित होने के लिए विशिष्ट है; हड़प्पा में छह अन्नागारों की पंक्तियाँ हैं; मोहनजोदड़ो में प्रसिद्ध विशाल स्नानागार स्थित है।'
+                },
+                {
+                    lang: 'EN',
+                    subtopic_id: 122,
+                    text: `Q. Consider the following statements regarding the drainage system of Harappan cities:
+1. Every small or big house had its own courtyard and bathroom.
+2. The street drains were equipped with manholes and covered with bricks or stone slabs.
+3. Channelling wastewater directly into open fields without a pipe network was the standard practice.
+
+Which of the statements given above is/are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3`,
+                    option_a: '1 and 2 only',
+                    option_b: '2 and 3 only',
+                    option_c: '1 and 3 only',
+                    option_d: '1, 2 and 3',
+                    correct: 'A',
+                    explanation: 'Statements 1 and 2 are correct. Statement 3 is incorrect because the Harappans had a highly advanced drainage network where house drains connected directly to main street sewers, not open fields.'
+                },
+                {
+                    lang: 'HI',
+                    subtopic_id: 130,
+                    text: `Q. हड़प्पा के शहरों की जल निकासी प्रणाली (drainage system) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:
+1. प्रत्येक छोटे या बड़े घर का अपना आंगन और स्नानघर होता था।
+2. सड़कों की नालियां मैनहोल (सफाई द्वारों) से सुसज्जित थीं और ईंटों या पत्थर की पट्टियों से ढकी हुई थीं।
+3. बिना पाइप नेटवर्क के सीधे खुले खेतों में अपशिष्ट जल को बहाना मानक अभ्यास था।
+
+उपर्युक्त कथनों में से कौन सा/से सही है/हैं?
+A) केवल 1 और 2
+B) केवल 2 और 3
+C) केवल 1 और 3
+D) 1, 2 और 3`,
+                    option_a: 'केवल 1 और 2',
+                    option_b: 'केवल 2 और 3',
+                    option_c: 'केवल 1 और 3',
+                    option_d: '1, 2 और 3',
+                    correct: 'A',
+                    explanation: 'कथन 1 और 2 सही हैं। कथन 3 गलत है क्योंकि हड़प्पा वासियों के पास एक अत्यधिक उन्नत जल निकासी नेटवर्क था जहाँ घरों की नालियाँ सीधे मुख्य सड़क के गटर से जुड़ी थीं, न कि खुले खेतों से।'
+                },
+                {
+                    lang: 'EN',
+                    subtopic_id: 122,
+                    text: `Q. Consider the following statements:
+Assertion (A): The political organization of Harappa was likely dominated by a class of merchants rather than priests.
+Reason (R): In sharp contrast to Mesopotamia, no temples or religious structures of a monumental scale (except the Great Bath) have been found at Harappan sites.
+
+Choose the correct option:
+A) Both A and R are true and R is the correct explanation of A
+B) Both A and R are true but R is not the correct explanation of A
+C) A is true but R is false
+D) A is false but R is true`,
+                    option_a: 'Both A and R are true and R is the correct explanation of A',
+                    option_b: 'Both A and R are true but R is not the correct explanation of A',
+                    option_c: 'A is true but R is false',
+                    option_d: 'A is false but R is true',
+                    correct: 'A',
+                    explanation: 'Because no temples or monumental structures representing direct rule of priests are found in Harappa (unlike Mesopotamia), historians conclude that Harappa was likely ruled by a class of merchants focused on commerce.'
+                },
+                {
+                    lang: 'HI',
+                    subtopic_id: 130,
+                    text: `Q. निम्नलिखित कथनों पर विचार कीजिए:
+अभिकथन (A): हड़प्पा के राजनीतिक संगठन पर पुजारियों के बजाय व्यापारियों के एक वर्ग का प्रभुत्व होने की संभावना थी।
+कारण (R): मेसोपोटामिया के विपरीत, हड़प्पा स्थलों पर विशाल स्तर पर कोई मंदिर या धार्मिक संरचनाएं (विशाल स्नानागार को छोड़कर) नहीं मिली हैं।
+
+सही विकल्प का चयन कीजिए:
+A) A और R दोनों सही हैं और R, A की सही व्याख्या करता है
+B) A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है
+C) A सही है लेकिन R गलत है
+D) A गलत है लेकिन R सही है`,
+                    option_a: 'A और R दोनों सही हैं और R, A की सही व्याख्या करता है',
+                    option_b: 'A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है',
+                    option_c: 'A सही है लेकिन R गलत है',
+                    option_d: 'A गलत है लेकिन R सही है',
+                    correct: 'A',
+                    explanation: 'कथन (A) और कारण (R) दोनों सही हैं और कारण, अभिकथन की सही व्याख्या करता है।'
+                },
+                {
+                    lang: 'EN',
+                    subtopic_id: 122,
+                    text: `Q. Consider the following statements regarding the famous "Pasupati Seal" discovered at Mohenjo-daro:
+1. The deity has three heads and horns, sitting in the posture of a yogi.
+2. The deity is surrounded by a tiger, an elephant, a rhinoceros, and a buffalo.
+3. Two deer are depicted sitting at the feet of the deity.
+
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3`,
+                    option_a: '1 and 2 only',
+                    option_b: '2 and 3 only',
+                    option_c: '1 and 3 only',
+                    option_d: '1, 2 and 3',
+                    correct: 'D',
+                    explanation: 'All three statements are correct. The seal depicts a horned yogic figure surrounded by four animals facing four directions (elephant, tiger, rhino, buffalo) and two deer at the feet.'
+                },
+                {
+                    lang: 'HI',
+                    subtopic_id: 130,
+                    text: `Q. मोहनजोदड़ो से प्राप्त प्रसिद्ध "पशुपति मुहर" के संबंध में निम्नलिखित कथनों पर विचार कीजिए:
+1. देवता के तीन सिर और सींग हैं, जो एक योगी की मुद्रा में बैठे हैं।
+2. देवता एक बाघ, एक हाथी, एक गैंडे और एक भैंसे से घिरे हुए हैं।
+3. देवता के चरणों में दो हिरण बैठे हुए दर्शाए गए हैं।
+
+उपर्युक्त कथनों में से कौन से सही हैं?
+A) केवल 1 और 2
+B) केवल 2 और 3
+C) केवल 1 और 3
+D) 1, 2 और 3`,
+                    option_a: 'केवल 1 और 2',
+                    option_b: 'केवल 2 और 3',
+                    option_c: 'केवल 1 और 3',
+                    option_d: '1, 2 और 3',
+                    correct: 'D',
+                    explanation: 'तीनों कथन सही हैं। मुहर में एक सींग वाले योगी की आकृति को दर्शाया गया है जो चार दिशाओं का सामना करने वाले चार जानवरों (हाथी, बाघ, गैंडा, भैंसा) से घिरे हैं और चरणों में दो हिरण हैं।'
+                }
+            ];
+
+            for (const q of customPreQuestions) {
+                const targetId = q.lang === 'EN' ? id_122 : id_130;
+                await run(`
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                    VALUES (11, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                `, [q.text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct, q.explanation, targetId, q.lang]);
+            }
+
+            const customMainsQuestions = [
+                {
+                    lang: 'EN',
+                    subtopic_id: 174,
+                    text: `Q. Critically examine the layout and social stratification reflected in the town planning of Harappan cities. [5 Marks, 50 Words]`,
+                    model_answer: `**Introduction**: Harappan town planning shows a clear, planned layout reflecting socio-political organization.
+**Body (Social Stratification)**:
+* **The Citadel (Upper Town)**: Located on a raised platform to the west; contained public buildings, granaries, and was occupied by the ruling class.
+* **The Lower Town**: Located to the east; contained grid-patterned houses inhabited by commoners.
+**Conclusion**: This dual-division indicates administrative hierarchy and class stratification.`
+                },
+                {
+                    lang: 'HI',
+                    subtopic_id: 200,
+                    text: `Q. हड़प्पा के शहरों के नगर नियोजन में परिलक्षित लेआउट और सामाजिक स्तरीकरण का आलोचनात्मक परीक्षण कीजिए। [5 अंक, 50 शब्द]`,
+                    model_answer: `**परिचय**: हड़प्पा नगर नियोजन सामाजिक-राजनीतिक संगठन को दर्शाने वाला एक स्पष्ट, नियोजित लेआउट दिखाता है।
+**मुख्य भाग (सामाजिक स्तरीकरण)**:
+* **दुर्ग (उच्च शहर)**: पश्चिम में एक ऊंचे मंच पर स्थित था; इसमें सार्वजनिक इमारतें, अन्नागार थे, और यह शासक वर्ग के अधीन था।
+* **निचला शहर**: पूर्व में स्थित था; इसमें ग्रिड-पैटर्न वाले घर थे जिसमें आम लोग निवास करते थे।
+**निष्कर्ष**: यह दोहरा विभाजन प्रशासनिक पदानुक्रम और वर्ग स्तरीकरण को दर्शाता है।`
+                },
+                {
+                    lang: 'EN',
+                    subtopic_id: 174,
+                    text: `Q. Discuss the metallurgical technology and artistic features of Harappan seals and bronze sculptures. [10 Marks, 150 Words]`,
+                    model_answer: `**Introduction**: The Harappan civilization (Bronze Age) demonstrated advanced metallurgical skills and unique artistic traditions.
+
+**Body**:
+* **Metallurgical Advancements**:
+  * Utilized the **"Lost-Wax"** (cire perdue) technique for casting bronze (e.g., the 4-inch *Dancing Girl* and bull figurines).
+  * Imported tin from Afghanistan and copper from Khetri mines (Rajasthan).
+* **Artistic Features of Seals**:
+  * Carved primarily from soft **steatite** in square formats (2x2).
+  * Feature realistic animal engravings (unicorn, humped bull, rhinoceros) and pictographic script.
+  * Served commercial and administrative functions.
+
+| Medium | Key Art Piece | Technique / Style |
+|---|---|---|
+| Bronze | Dancing Girl | Lost-Wax Casting |
+| Steatite | Pasupati Seal | Intaglio Carving |
+| Terracotta | Mother Goddess | Pinching Technique |
+
+**Conclusion**: Harappan metallurgy and seal-carving reflect a highly organized urban craft economy.`
+                },
+                {
+                    lang: 'HI',
+                    subtopic_id: 200,
+                    text: `Q. हड़प्पा की मुहरों और कांस्य मूर्तियों की धातुशोधन तकनीक और कलात्मक विशेषताओं की चर्चा कीजिए। [10 अंक, 150 शब्द]`,
+                    model_answer: `**परिचय**: हड़प्पा सभ्यता (कांस्य युग) ने उन्नत धातु कौशल और अद्वितीय कलात्मक परंपराओं का प्रदर्शन किया।
+
+**मुख्य भाग**:
+* **धातुशोधन प्रगति**:
+  * कांस्य ढलाई के लिए **"लुप्त मोम"** (Lost-Wax) तकनीक का उपयोग किया (जैसे, 4 इंच की *नर्तकी की मूर्ति* और बैल की मूर्तियां)।
+  * अफगानिस्तान से टिन और खेतड़ी खानों (राजस्थान) से तांबे का आयात किया।
+* **मुहरों की कलात्मक विशेषताएं**:
+  * मुख्य रूप से चौकोर प्रारूप (2x2) में नरम **स्टीटाइट** से नक्काशीदार।
+  * यथार्थवादी पशु नक्काशी (एक सींग वाला बैल, कूबड़ वाला बैल, गैंडा) और चित्रात्मक लिपि शामिल हैं।
+  * व्यावसायिक और प्रशासनिक कार्यों के लिए उपयोग किया जाता था।
+
+| माध्यम | प्रमुख कलाकृति | तकनीक / शैली |
+|---|---|---|
+| कांस्य | नर्तकी की मूर्ति | लुप्त मोम ढलाई |
+| स्टीटाइट | पशुपति मुहर | अन्तर्गर्त नक्काशी |
+| टेराकोटा | मातृदेवी की मूर्ति | पिंचिंग तकनीक |
+
+**निष्कर्ष**: हड़प्पा का धातु कर्म और मुहर-नक्काशी एक अत्यधिक संगठित शहरी शिल्प अर्थव्यवस्था को दर्शाती है।`
+                }
+            ];
+
+            for (const q of customMainsQuestions) {
+                const targetId = q.lang === 'EN' ? id_174 : id_200;
+                await run(`
+                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id)
+                    VALUES (102, ?, ?, ?, 1, ?)
+                `, [q.text, q.model_answer, q.lang, targetId]);
+            }
+            console.log("Custom high-quality questions for IVC seeded successfully.");
+        }
+
     } catch (err) {
         console.error("Database initialization error:", err.message);
     }
@@ -920,311 +1227,7 @@ async function seedPlaceholderQuestionsIfNeeded() {
             console.log(`Seeded ${minuteTopicsSeeded} placeholder questions for sub-topics.`);
         }
 
-        // 2.5 Seed custom high-quality questions for Ancient Indian History (IVC: Town Planning & Seals)
-        const mtPreEn = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 11 AND minute_topic_name = 'Indus Valley Civilisation (IVC): Town Planning & Seals' AND language = 'EN'");
-        const mtPreHi = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 11 AND minute_topic_name = 'सिंधु घाटी सभ्यता: नगर नियोजन और मुहरें' AND language = 'HI'");
-        const mtMainsEn = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 102 AND minute_topic_name = 'Indus Valley Civilisation (IVC): Town Planning & Seals' AND language = 'EN'");
-        const mtMainsHi = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 102 AND minute_topic_name = 'सिंधु घाटी सभ्यता: नगर नियोजन और मुहरें' AND language = 'HI'");
-
-        const id_122 = mtPreEn ? mtPreEn.minute_topic_id : 122;
-        const id_130 = mtPreHi ? mtPreHi.minute_topic_id : 130;
-        const id_174 = mtMainsEn ? mtMainsEn.minute_topic_id : 174;
-        const id_200 = mtMainsHi ? mtMainsHi.minute_topic_id : 200;
-
-        const ivcPreCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = ?", [id_122]);
-        if (ivcPreCount.count === 0) {
-            console.log("Seeding custom high-quality questions for IVC...");
-            const customPreQuestions = [
-                {
-                    lang: 'EN',
-                    subtopic_id: 122,
-                    text: `Q. Which of the following is correct regarding the use of burnt bricks in the Harappan civilization?
-A) They were used only in the citadel area and not in the lower town.
-B) Egypt and Mesopotamia used baked bricks to a much larger extent than Harappa.
-C) The use of burnt bricks was a distinctive feature of Harappan cities compared to Egypt, where dried mud bricks were mainly used.
-D) Burnt bricks were only used for constructing drains and public baths.`,
-                    option_a: 'They were used only in the citadel area and not in the lower town.',
-                    option_b: 'Egypt and Mesopotamia used baked bricks to a much larger extent than Harappa.',
-                    option_c: 'The use of burnt bricks was a distinctive feature of Harappan cities compared to Egypt, where dried mud bricks were mainly used.',
-                    option_d: 'Burnt bricks were only used for constructing drains and public baths.',
-                    correct: 'C',
-                    explanation: 'While contemporary Egypt primarily used dried mud bricks, Harappan cities utilized burnt bricks on a massive scale for both public and private structures.'
-                },
-                {
-                    lang: 'HI',
-                    subtopic_id: 130,
-                    text: `Q. हड़प्पा सभ्यता में पकी हुई ईंटों (burnt bricks) के उपयोग के संबंध में निम्नलिखित में से कौन सा कथन सही है?
-A) इनका उपयोग केवल दुर्ग (citadel) क्षेत्र में किया जाता था न कि निचले शहर में।
-B) मिस्र और मेसोपोटामिया में हड़प्पा की तुलना में पकी हुई ईंटों का बहुत बड़े पैमाने पर उपयोग किया जाता था।
-C) पकी हुई ईंटों का उपयोग मिस्र की तुलना में हड़प्पा के शहरों की एक विशिष्ट विशेषता थी, जहाँ मुख्य रूप से सूखी मिट्टी की ईंटों का उपयोग किया जाता था।
-D) पकी हुई ईंटों का उपयोग केवल नालियों और सार्वजनिक स्नानागारों के निर्माण के लिए किया जाता था।`,
-                    option_a: 'इनका उपयोग केवल दुर्ग (citadel) क्षेत्र में किया जाता था न कि निचले शहर में।',
-                    option_b: 'मिस्र और मेसोपोटामिया में हड़प्पा की तुलना में पकी हुई ईंटों का बहुत बड़े पैमाने पर उपयोग किया जाता था।',
-                    option_c: 'पकी हुई ईंटों का उपयोग मिस्र की तुलना में हड़प्पा के शहरों की एक विशिष्ट विशेषता थी, जहाँ मुख्य रूप से सूखी मिट्टी की ईंटों का उपयोग किया जाता था।',
-                    option_d: 'पकी हुई ईंटों का उपयोग केवल नालियों और सार्वजनिक स्नानागारों के निर्माण के लिए किया जाता था।',
-                    correct: 'C',
-                    explanation: 'जबकि समकालीन मिस्र में मुख्य रूप से धूप में सुखाई गई मिट्टी की ईंटों का उपयोग किया जाता था, हड़प्पा के शहरों ने सार्वजनिक और निजी दोनों संरचनाओं के लिए बड़े पैमाने पर पकी हुई ईंटों का उपयोग किया।'
-                },
-                {
-                    lang: 'EN',
-                    subtopic_id: 122,
-                    text: `Q. Match List-I (Harappan Site) with List-II (Key Architectural/Town Planning Feature) and select the correct answer:
-List-I:
-a) Kalibangan
-b) Dholavira
-c) Harappa
-d) Mohenjodaro
-
-List-II:
-1) Great Bath and Citadel
-2) Row of six granaries
-3) Ploughed field and fire altars
-4) Divided into three distinct parts
-
-A) a-3, b-4, c-2, d-1
-B) a-1, b-2, c-3, d-4
-C) a-3, b-1, c-2, d-4
-D) a-4, b-3, c-1, d-2`,
-                    option_a: 'a-3, b-4, c-2, d-1',
-                    option_b: 'a-1, b-2, c-3, d-4',
-                    option_c: 'a-3, b-1, c-2, d-4',
-                    option_d: 'a-4, b-3, c-1, d-2',
-                    correct: 'A',
-                    explanation: 'Kalibangan is famous for a ploughed field and fire altars; Dholavira is unique for being divided into three parts; Harappa contains rows of six granaries; Mohenjodaro houses the famous Great Bath.'
-                },
-                {
-                    lang: 'HI',
-                    subtopic_id: 130,
-                    text: `Q. सूची-I (हड़प्पा स्थल) को सूची-II (प्रमुख वास्तुकला/नगर नियोजन विशेषता) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:
-सूची-I:
-a) कालीबंगा
-b) धोलावीरा
-c) हड़प्पा
-d) मोहनजोदड़ो
-
-सूची-II:
-1) विशाल स्नानागार और दुर्ग
-2) छह अन्नागारों की पंक्ति
-3) जुता हुआ खेत और अग्निकुंड
-4) तीन अलग-अलग भागों में विभाजित
-
-A) a-3, b-4, c-2, d-1
-B) a-1, b-2, c-3, d-4
-C) a-3, b-1, c-2, d-4
-D) a-4, b-3, c-1, d-2`,
-                    option_a: 'a-3, b-4, c-2, d-1',
-                    option_b: 'a-1, b-2, c-3, d-4',
-                    option_c: 'a-3, b-1, c-2, d-4',
-                    option_d: 'a-4, b-3, c-1, d-2',
-                    correct: 'A',
-                    explanation: 'कालीबंगा जुते हुए खेत और अग्निकुंडों के लिए प्रसिद्ध है; धोलावीरा तीन भागों में विभाजित होने के लिए विशिष्ट है; हड़प्पा में छह अन्नागारों की पंक्तियाँ हैं; मोहनजोदड़ो में प्रसिद्ध विशाल स्नानागार स्थित है।'
-                },
-                {
-                    lang: 'EN',
-                    subtopic_id: 122,
-                    text: `Q. Consider the following statements regarding the drainage system of Harappan cities:
-1. Every small or big house had its own courtyard and bathroom.
-2. The street drains were equipped with manholes and covered with bricks or stone slabs.
-3. Channelling wastewater directly into open fields without a pipe network was the standard practice.
-
-Which of the statements given above is/are correct?
-A) 1 and 2 only
-B) 2 and 3 only
-C) 1 and 3 only
-D) 1, 2 and 3`,
-                    option_a: '1 and 2 only',
-                    option_b: '2 and 3 only',
-                    option_c: '1 and 3 only',
-                    option_d: '1, 2 and 3',
-                    correct: 'A',
-                    explanation: 'Statements 1 and 2 are correct. Statement 3 is incorrect because the Harappans had a highly advanced drainage network where house drains connected directly to main street sewers, not open fields.'
-                },
-                {
-                    lang: 'HI',
-                    subtopic_id: 130,
-                    text: `Q. हड़प्पा के शहरों की जल निकासी प्रणाली (drainage system) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:
-1. प्रत्येक छोटे या बड़े घर का अपना आंगन और स्नानघर होता था।
-2. सड़कों की नालियां मैनहोल (सफाई द्वारों) से सुसज्जित थीं और ईंटों या पत्थर की पट्टियों से ढकी हुई थीं।
-3. बिना पाइप नेटवर्क के सीधे खुले खेतों में अपशिष्ट जल को बहाना मानक अभ्यास था।
-
-उपर्युक्त कथनों में से कौन सा/से सही है/हैं?
-A) केवल 1 और 2
-B) केवल 2 और 3
-C) केवल 1 और 3
-D) 1, 2 और 3`,
-                    option_a: 'केवल 1 और 2',
-                    option_b: 'केवल 2 और 3',
-                    option_c: 'केवल 1 और 3',
-                    option_d: '1, 2 और 3',
-                    correct: 'A',
-                    explanation: 'कथन 1 और 2 सही हैं। कथन 3 गलत है क्योंकि हड़प्पा वासियों के पास एक अत्यधिक उन्नत जल निकासी नेटवर्क था जहाँ घरों की नालियाँ सीधे मुख्य सड़क के गटर से जुड़ी थीं, न कि खुले खेतों से।'
-                },
-                {
-                    lang: 'EN',
-                    subtopic_id: 122,
-                    text: `Q. Consider the following statements:
-Assertion (A): The political organization of Harappa was likely dominated by a class of merchants rather than priests.
-Reason (R): In sharp contrast to Mesopotamia, no temples or religious structures of a monumental scale (except the Great Bath) have been found at Harappan sites.
-
-Choose the correct option:
-A) Both A and R are true and R is the correct explanation of A
-B) Both A and R are true but R is not the correct explanation of A
-C) A is true but R is false
-D) A is false but R is true`,
-                    option_a: 'Both A and R are true and R is the correct explanation of A',
-                    option_b: 'Both A and R are true but R is not the correct explanation of A',
-                    option_c: 'A is true but R is false',
-                    option_d: 'A is false but R is true',
-                    correct: 'A',
-                    explanation: 'Because no temples or monumental structures representing direct rule of priests are found in Harappa (unlike Mesopotamia), historians conclude that Harappa was likely ruled by a class of merchants focused on commerce.'
-                },
-                {
-                    lang: 'HI',
-                    subtopic_id: 130,
-                    text: `Q. निम्नलिखित कथनों पर विचार कीजिए:
-अभिकथन (A): हड़प्पा के राजनीतिक संगठन पर पुजारियों के बजाय व्यापारियों के एक वर्ग का प्रभुत्व होने की संभावना थी।
-कारण (R): मेसोपोटामिया के विपरीत, हड़प्पा स्थलों पर विशाल स्तर पर कोई मंदिर या धार्मिक संरचनाएं (विशाल स्नानागार को छोड़कर) नहीं मिली हैं।
-
-सही विकल्प का चयन कीजिए:
-A) A और R दोनों सही हैं और R, A की सही व्याख्या करता है
-B) A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है
-C) A सही है लेकिन R गलत है
-D) A गलत है लेकिन R सही है`,
-                    option_a: 'A और R दोनों सही हैं और R, A की सही व्याख्या करता है',
-                    option_b: 'A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है',
-                    option_c: 'A सही है लेकिन R गलत है',
-                    option_d: 'A गलत है लेकिन R सही है',
-                    correct: 'A',
-                    explanation: 'कथन (A) और कारण (R) दोनों सही हैं और कारण, अभिकथन की सही व्याख्या करता है।'
-                },
-                {
-                    lang: 'EN',
-                    subtopic_id: 122,
-                    text: `Q. Consider the following statements regarding the famous "Pasupati Seal" discovered at Mohenjo-daro:
-1. The deity has three heads and horns, sitting in the posture of a yogi.
-2. The deity is surrounded by a tiger, an elephant, a rhinoceros, and a buffalo.
-3. Two deer are depicted sitting at the feet of the deity.
-
-Which of the statements given above are correct?
-A) 1 and 2 only
-B) 2 and 3 only
-C) 1 and 3 only
-D) 1, 2 and 3`,
-                    option_a: '1 and 2 only',
-                    option_b: '2 and 3 only',
-                    option_c: '1 and 3 only',
-                    option_d: '1, 2 and 3',
-                    correct: 'D',
-                    explanation: 'All three statements are correct. The seal depicts a horned yogic figure surrounded by four animals facing four directions (elephant, tiger, rhino, buffalo) and two deer at the feet.'
-                },
-                {
-                    lang: 'HI',
-                    subtopic_id: 130,
-                    text: `Q. मोहनजोदड़ो से प्राप्त प्रसिद्ध "पशुपति मुहर" के संबंध में निम्नलिखित कथनों पर विचार कीजिए:
-1. देवता के तीन सिर और सींग हैं, जो एक योगी की मुद्रा में बैठे हैं।
-2. देवता एक बाघ, एक हाथी, एक गैंडे और एक भैंसे से घिरे हुए हैं।
-3. देवता के चरणों में दो हिरण बैठे हुए दर्शाए गए हैं।
-
-उपर्युक्त कथनों में से कौन से सही हैं?
-A) केवल 1 और 2
-B) केवल 2 और 3
-C) केवल 1 और 3
-D) 1, 2 और 3`,
-                    option_a: 'केवल 1 और 2',
-                    option_b: 'केवल 2 और 3',
-                    option_c: 'केवल 1 और 3',
-                    option_d: '1, 2 और 3',
-                    correct: 'D',
-                    explanation: 'तीनों कथन सही हैं। मुहर में एक सींग वाले योगी की आकृति को दर्शाया गया है जो चार दिशाओं का सामना करने वाले चार जानवरों (हाथी, बाघ, गैंडा, भैंसा) से घिरे हैं और चरणों में दो हिरण हैं।'
-                }
-            ];
-
-            for (const q of customPreQuestions) {
-                const targetId = q.lang === 'EN' ? id_122 : id_130;
-                await run(`
-                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
-                    VALUES (11, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                `, [q.text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct, q.explanation, targetId, q.lang]);
-            }
-
-            const customMainsQuestions = [
-                {
-                    lang: 'EN',
-                    subtopic_id: 174,
-                    text: `Q. Critically examine the layout and social stratification reflected in the town planning of Harappan cities. [5 Marks, 50 Words]`,
-                    model_answer: `**Introduction**: Harappan town planning shows a clear, planned layout reflecting socio-political organization.
-**Body (Social Stratification)**:
-* **The Citadel (Upper Town)**: Located on a raised platform to the west; contained public buildings, granaries, and was occupied by the ruling class.
-* **The Lower Town**: Located to the east; contained grid-patterned houses inhabited by commoners.
-**Conclusion**: This dual-division indicates administrative hierarchy and class stratification.`
-                },
-                {
-                    lang: 'HI',
-                    subtopic_id: 200,
-                    text: `Q. हड़प्पा के शहरों के नगर नियोजन में परिलक्षित लेआउट और सामाजिक स्तरीकरण का आलोचनात्मक परीक्षण कीजिए। [5 अंक, 50 शब्द]`,
-                    model_answer: `**परिचय**: हड़प्पा नगर नियोजन सामाजिक-राजनीतिक संगठन को दर्शाने वाला एक स्पष्ट, नियोजित लेआउट दिखाता है।
-**मुख्य भाग (सामाजिक स्तरीकरण)**:
-* **दुर्ग (उच्च शहर)**: पश्चिम में एक ऊंचे मंच पर स्थित था; इसमें सार्वजनिक इमारतें, अन्नागार थे, और यह शासक वर्ग के अधीन था।
-* **निचला शहर**: पूर्व में स्थित था; इसमें ग्रिड-पैटर्न वाले घर थे जिसमें आम लोग निवास करते थे।
-**निष्कर्ष**: यह दोहरा विभाजन प्रशासनिक पदानुक्रम और वर्ग स्तरीकरण को दर्शाता है।`
-                },
-                {
-                    lang: 'EN',
-                    subtopic_id: 174,
-                    text: `Q. Discuss the metallurgical technology and artistic features of Harappan seals and bronze sculptures. [10 Marks, 150 Words]`,
-                    model_answer: `**Introduction**: The Harappan civilization (Bronze Age) demonstrated advanced metallurgical skills and unique artistic traditions.
-
-**Body**:
-* **Metallurgical Advancements**:
-  * Utilized the **"Lost-Wax"** (cire perdue) technique for casting bronze (e.g., the 4-inch *Dancing Girl* and bull figurines).
-  * Imported tin from Afghanistan and copper from Khetri mines (Rajasthan).
-* **Artistic Features of Seals**:
-  * Carved primarily from soft **steatite** in square formats (2x2).
-  * Feature realistic animal engravings (unicorn, humped bull, rhinoceros) and pictographic script.
-  * Served commercial and administrative functions.
-
-| Medium | Key Art Piece | Technique / Style |
-|---|---|---|
-| Bronze | Dancing Girl | Lost-Wax Casting |
-| Steatite | Pasupati Seal | Intaglio Carving |
-| Terracotta | Mother Goddess | Pinching Technique |
-
-**Conclusion**: Harappan metallurgy and seal-carving reflect a highly organized urban craft economy.`
-                },
-                {
-                    lang: 'HI',
-                    subtopic_id: 200,
-                    text: `Q. हड़प्पा की मुहरों और कांस्य मूर्तियों की धातुशोधन तकनीक और कलात्मक विशेषताओं की चर्चा कीजिए। [10 अंक, 150 शब्द]`,
-                    model_answer: `**परिचय**: हड़प्पा सभ्यता (कांस्य युग) ने उन्नत धातु कौशल और अद्वितीय कलात्मक परंपराओं का प्रदर्शन किया।
-
-**मुख्य भाग**:
-* **धातुशोधन प्रगति**:
-  * कांस्य ढलाई के लिए **"लुप्त मोम"** (Lost-Wax) तकनीक का उपयोग किया (जैसे, 4 इंच की *नर्तकी की मूर्ति* और बैल की मूर्तियां)।
-  * अफगानिस्तान से टिन और खेतड़ी खानों (राजस्थान) से तांबे का आयात किया।
-* **मुहरों की कलात्मक विशेषताएं**:
-  * मुख्य रूप से चौकोर प्रारूप (2x2) में नरम **स्टीटाइट** से नक्काशीदार।
-  * यथार्थवादी पशु नक्काशी (एक सींग वाला बैल, कूबड़ वाला बैल, गैंडा) और चित्रात्मक लिपि शामिल हैं।
-  * व्यावसायिक और प्रशासनिक कार्यों के लिए उपयोग किया जाता था।
-
-| माध्यम | प्रमुख कलाकृति | तकनीक / शैली |
-|---|---|---|
-| कांस्य | नर्तकी की मूर्ति | लुप्त मोम ढलाई |
-| स्टीटाइट | पशुपति मुहर | अन्तर्गर्त नक्काशी |
-| टेराकोटा | मातृदेवी की मूर्ति | पिंचिंग तकनीक |
-
-**निष्कर्ष**: हड़प्पा का धातु कर्म और मुहर-नक्काशी एक अत्यधिक संगठित शहरी शिल्प अर्थव्यवस्था को दर्शाती है।`
-                }
-            ];
-
-            for (const q of customMainsQuestions) {
-                const targetId = q.lang === 'EN' ? id_174 : id_200;
-                await run(`
-                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id)
-                    VALUES (102, ?, ?, ?, 1, ?)
-                `, [q.text, q.model_answer, q.lang, targetId]);
-            }
-            console.log("Custom high-quality questions for IVC seeded successfully.");
-        }
+        
 
         // 3. Seed all PYQ exams with at least 1 EN and 1 HI question
         const allPyqExams = await all("SELECT exam_id, exam_name, exam_year, tier_type FROM pyq_exams");
