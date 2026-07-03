@@ -921,7 +921,17 @@ async function seedPlaceholderQuestionsIfNeeded() {
         }
 
         // 2.5 Seed custom high-quality questions for Ancient Indian History (IVC: Town Planning & Seals)
-        const ivcPreCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = 122");
+        const mtPreEn = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 11 AND minute_topic_name = 'Indus Valley Civilisation (IVC): Town Planning & Seals' AND language = 'EN'");
+        const mtPreHi = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 11 AND minute_topic_name = 'सिंधु घाटी सभ्यता: नगर नियोजन और मुहरें' AND language = 'HI'");
+        const mtMainsEn = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 102 AND minute_topic_name = 'Indus Valley Civilisation (IVC): Town Planning & Seals' AND language = 'EN'");
+        const mtMainsHi = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 102 AND minute_topic_name = 'सिंधु घाटी सभ्यता: नगर नियोजन और मुहरें' AND language = 'HI'");
+
+        const id_122 = mtPreEn ? mtPreEn.minute_topic_id : 122;
+        const id_130 = mtPreHi ? mtPreHi.minute_topic_id : 130;
+        const id_174 = mtMainsEn ? mtMainsEn.minute_topic_id : 174;
+        const id_200 = mtMainsHi ? mtMainsHi.minute_topic_id : 200;
+
+        const ivcPreCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = ?", [id_122]);
         if (ivcPreCount.count === 0) {
             console.log("Seeding custom high-quality questions for IVC...");
             const customPreQuestions = [
@@ -1130,10 +1140,11 @@ D) 1, 2 और 3`,
             ];
 
             for (const q of customPreQuestions) {
+                const targetId = q.lang === 'EN' ? id_122 : id_130;
                 await run(`
                     INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
                     VALUES (11, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                `, [q.text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct, q.explanation, q.subtopic_id, q.lang]);
+                `, [q.text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct, q.explanation, targetId, q.lang]);
             }
 
             const customMainsQuestions = [
@@ -1206,10 +1217,11 @@ D) 1, 2 और 3`,
             ];
 
             for (const q of customMainsQuestions) {
+                const targetId = q.lang === 'EN' ? id_174 : id_200;
                 await run(`
                     INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id)
                     VALUES (102, ?, ?, ?, 1, ?)
-                `, [q.text, q.model_answer, q.lang, q.subtopic_id]);
+                `, [q.text, q.model_answer, q.lang, targetId]);
             }
             console.log("Custom high-quality questions for IVC seeded successfully.");
         }
