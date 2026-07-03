@@ -143,6 +143,30 @@ app.post('/api/auth/otp-verify', async (req, res) => {
     }
 });
 
+// --- GET user subscription status ---
+app.get('/api/user/status', async (req, res) => {
+    const mobile = req.query.mobileNumber;
+    if (!mobile) {
+        return res.status(400).json({ error: "Mobile number is required." });
+    }
+    try {
+        const user = await db.getUserByMobile(mobile);
+        if (!user) {
+            return res.status(404).json({ error: "User not found." });
+        }
+        const now = Date.now();
+        const isSubscribed = user.expiry_timestamp && user.expiry_timestamp > now;
+        res.status(200).json({
+            isSubscribed: !!isSubscribed,
+            expiry_timestamp: user.expiry_timestamp,
+            active_plan: user.active_plan,
+            has_used_trial: user.has_used_trial === 1
+        });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch user status: " + err.message });
+    }
+});
+
 // --- Subscription Gateway Routes ---
 app.post('/api/subscription/purchase', async (req, res) => {
     const { mobileNumber, planId } = req.body; // PlanId: 1 (1 Day), 7 (7 Days), 30 (30 Days), 90 (90 Days)
