@@ -738,6 +738,304 @@ D) 1, 2 और 3`,
             console.log("Custom high-quality questions for IVC seeded successfully.");
         }
 
+        // 2.6 Seed custom high-quality questions for IVC (Sites, Discoveries & Trade)
+        const mtPre2En = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 11 AND minute_topic_name = 'Indus Valley Civilisation (IVC): Sites, Discoveries & Trade' AND language = 'EN'");
+        const mtPre2Hi = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 11 AND minute_topic_name = 'सिंधु घाटी सभ्यता: स्थल, खोजें और व्यापार' AND language = 'HI'");
+        const mtMains2En = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 102 AND minute_topic_name = 'Indus Valley Civilisation (IVC): Sites, Discoveries & Trade' AND language = 'EN'");
+        const mtMains2Hi = await get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 102 AND minute_topic_name = 'सिंधु घाटी सभ्यता: स्थल, खोजें और व्यापार' AND language = 'HI'");
+
+        if (mtPre2En && mtPre2Hi && mtMains2En && mtMains2Hi) {
+            const ivc2PreCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = ?", [mtPre2En.minute_topic_id]);
+            if (ivc2PreCount.count === 0) {
+                console.log("Seeding custom high-quality questions for IVC Sites & Trade...");
+                const customPreQuestions2 = [
+                    {
+                        lang: 'EN',
+                        subtopic_id: mtPre2En.minute_topic_id,
+                        text: `Q. Which of the following Harappan sites has yielded evidence of a dockyard, indicating overseas trade?
+A) Kalibangan
+B) Lothal
+C) Rakhigarhi
+D) Banawali`,
+                        option_a: 'Kalibangan',
+                        option_b: 'Lothal',
+                        option_c: 'Rakhigarhi',
+                        option_d: 'Banawali',
+                        correct: 'B',
+                        explanation: 'Lothal, located in Gujarat, had a massive brick basin which has been identified by archaeologists as a tidal dockyard connected to the Gulf of Khambhat.'
+                    },
+                    {
+                        lang: 'HI',
+                        subtopic_id: mtPre2Hi.minute_topic_id,
+                        text: `Q. निम्नलिखित में से किस हड़प्पा स्थल से गोदीवाड़ा (dockyard) के प्रमाण मिले हैं, जो विदेशी व्यापार का संकेत देते हैं?
+A) कालीबंगा
+B) लोथल
+C) राखीगढ़ी
+D) बनावली`,
+                        option_a: 'कालीबंगा',
+                        option_b: 'लोथल',
+                        option_c: 'राखीगढ़ी',
+                        option_d: 'बनावली',
+                        correct: 'B',
+                        explanation: 'गुजरात में स्थित लोथल में ईंटों का एक बड़ा बेसिन था जिसे पुरातत्वविदों द्वारा खंभात की खाड़ी से जुड़े एक गोदीवाड़ा के रूप में पहचाना गया है।'
+                    },
+                    {
+                        lang: 'EN',
+                        subtopic_id: mtPre2En.minute_topic_id,
+                        text: `Q. Consider the following statements regarding Harappan trade relations:
+1. The Harappans maintained close commercial links with Mesopotamia, which is attested by cuneiform inscriptions referring to Meluhha.
+2. The primary export items of Harappa were lapis lazuli and silver.
+3. Lothal and Sutkagen-dor served as important ports/outposts facilitating maritime trade.
+
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3`,
+                        option_a: '1 and 2 only',
+                        option_b: '2 and 3 only',
+                        option_c: '1 and 3 only',
+                        option_d: '1, 2 and 3',
+                        correct: 'C',
+                        explanation: 'Statements 1 and 3 are correct. Statement 2 is incorrect because lapis lazuli was imported (from Badakhshan) rather than exported, and silver was not a primary export of the Harappan civilization.'
+                    },
+                    {
+                        lang: 'HI',
+                        subtopic_id: mtPre2Hi.minute_topic_id,
+                        text: `Q. हड़प्पा के व्यापारिक संबंधों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:
+1. हड़प्पा वासियों ने मेसोपोटामिया के साथ निकट व्यावसायिक संबंध बनाए रखे, जिसकी पुष्टि मेलुहा का संदर्भ देने वाले कीलाक्षर (cuneiform) शिलालेखों से होती है।
+2. हड़प्पा के प्राथमिक निर्यात सामान लापीस लाजुली (लाजवर्त) और चांदी थे।
+3. लोथल और सुत्कागेन-डोर ने समुद्री व्यापार को सुविधाजनक बनाने वाले महत्वपूर्ण बंदरगाहों/चौकियों के रूप में कार्य किया।
+
+उपर्युक्त कथनों में से कौन से सही हैं?
+A) केवल 1 और 2
+B) केवल 2 और 3
+C) केवल 1 और 3
+D) 1, 2 और 3`,
+                        option_a: 'केवल 1 और 2',
+                        option_b: 'केवल 2 और 3',
+                        option_c: 'केवल 1 और 3',
+                        option_d: '1, 2 और 3',
+                        correct: 'C',
+                        explanation: 'कथन 1 और 3 सही हैं। कथन 2 गलत है क्योंकि लाजवर्त आयात किया जाता था (बदख्शां से) न कि निर्यात, और चांदी हड़प्पा सभ्यता का प्राथमिक निर्यात नहीं थी।'
+                    },
+                    {
+                        lang: 'EN',
+                        subtopic_id: mtPre2En.minute_topic_id,
+                        text: `Q. Consider the following statements:
+Assertion (A): The Harappans utilized a highly standardized system of weights and measures.
+Reason (R): Harappan weight sets were cubical and followed a strictly binary system in lower denominations, transitioning to decimal multiples at higher values.
+
+Choose the correct option:
+A) Both A and R are true and R is the correct explanation of A
+B) Both A and R are true but R is not the correct explanation of A
+C) A is true but R is false
+D) A is false but R is true`,
+                        option_a: 'Both A and R are true and R is the correct explanation of A',
+                        option_b: 'Both A and R are true but R is not the correct explanation of A',
+                        option_c: 'A is true but R is false',
+                        option_d: 'A is false but R is true',
+                        correct: 'A',
+                        explanation: 'Both statements are true. The standardization of trade across vast territories was made possible precisely because of this unified binary-decimal chert weight system.'
+                    },
+                    {
+                        lang: 'HI',
+                        subtopic_id: mtPre2Hi.minute_topic_id,
+                        text: `Q. निम्नलिखित कथनों पर विचार कीजिए:
+अभिकथन (A): हड़प्पा वासियों ने बाट और माप की एक अत्यधिक मानकीकृत प्रणाली का उपयोग किया।
+कारण (R): हड़प्पा के बाटों के सेट घनाकार थे और निचले मूल्यों में सख्ती से द्विआधारी (binary) प्रणाली का पालन करते थे, जो उच्च मूल्यों पर दशमलव गुणकों में परिवर्तित हो जाते थे।
+
+सही विकल्प का चयन कीजिए:
+A) A और R दोनों सही हैं और R, A की सही व्याख्या करता है
+B) A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है
+C) A सही है लेकिन R गलत है
+D) A गलत है लेकिन R सही है`,
+                        option_a: 'A और R दोनों सही हैं और R, A की सही व्याख्या करता है',
+                        option_b: 'A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है',
+                        option_c: 'A सही है लेकिन R गलत है',
+                        option_d: 'A गलत है लेकिन R सही है',
+                        correct: 'A',
+                        explanation: 'अभिकथन और कारण दोनों सही हैं और कारण अभिकथन की सही व्याख्या करता है।'
+                    },
+                    {
+                        lang: 'EN',
+                        subtopic_id: mtPre2En.minute_topic_id,
+                        text: `Q. Match List-I (Harappan Site) with List-II (River) and select the correct answer:
+List-I:
+a) Harappa
+b) Mohenjodaro
+c) Kalibangan
+d) Banawali
+
+List-II:
+1) Ghaggar
+2) Sarasvati (Dry Bed)
+3) Ravi
+4) Indus
+
+A) a-3, b-4, c-1, d-2
+B) a-1, b-2, c-3, d-4
+C) a-3, b-1, c-4, d-2
+D) a-4, b-3, c-1, d-2`,
+                        option_a: 'a-3, b-4, c-1, d-2',
+                        option_b: 'a-1, b-2, c-3, d-4',
+                        option_c: 'a-3, b-1, c-4, d-2',
+                        option_d: 'a-4, b-3, c-1, d-2',
+                        correct: 'A',
+                        explanation: 'Harappa is on the Ravi; Mohenjodaro is on the Indus; Kalibangan is on the Ghaggar; Banawali is on the ancient dry bed of the Sarasvati.'
+                    },
+                    {
+                        lang: 'HI',
+                        subtopic_id: mtPre2Hi.minute_topic_id,
+                        text: `Q. सूची-I (हड़प्पा स्थल) को सूची-II (नदी) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:
+सूची-I:
+a) हड़प्पा
+b) मोहनजोदड़ो
+c) कालीबंगा
+d) बनावली
+
+सूची-II:
+1) घग्गर
+2) सरस्वती (सूखा मार्ग)
+3) रावी
+4) सिंधु
+
+A) a-3, b-4, c-1, d-2
+B) a-1, b-2, c-3, d-4
+C) a-3, b-1, c-4, d-2
+D) a-4, b-3, c-1, d-2`,
+                        option_a: 'a-3, b-4, c-1, d-2',
+                        option_b: 'a-1, b-2, c-3, d-4',
+                        option_c: 'a-3, b-1, c-4, d-2',
+                        option_d: 'a-4, b-3, c-1, d-2',
+                        correct: 'A',
+                        explanation: 'हड़प्पा रावी नदी के तट पर है; मोहनजोदड़ो सिंधु नदी के तट पर है; कालीबंगा घग्गर नदी के तट पर है; बनावली सरस्वती नदी के प्राचीन सूखे मार्ग पर है।'
+                    },
+                    {
+                        lang: 'EN',
+                        subtopic_id: mtPre2En.minute_topic_id,
+                        text: `Q. Consider the following statements regarding the Harappan script and writing system:
+1. The script is pictographic and remains undeciphered to this day.
+2. The writing style is boustrophedon, written from right to left in one line and left to right in the next.
+3. Most inscriptions are long narratives carved on temple walls.
+
+Which of the statements given above is/are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3`,
+                        option_a: '1 and 2 only',
+                        option_b: '2 and 3 only',
+                        option_c: '1 and 3 only',
+                        option_d: '1, 2 and 3',
+                        correct: 'A',
+                        explanation: 'Statements 1 and 2 are correct. Statement 3 is incorrect because Harappan writing is found primarily on small seals and copper tablets, not temple walls.'
+                    },
+                    {
+                        lang: 'HI',
+                        subtopic_id: mtPre2Hi.minute_topic_id,
+                        text: `Q. हड़प्पा लिपि और लेखन प्रणाली के संबंध में निम्नलिखित कथनों पर विचार कीजिए:
+1. लिपि चित्रात्मक (pictographic) है और आज तक इसे पढ़ा नहीं जा सका है।
+2. लेखन शैली 'बाउस्ट्रोफेडन' (boustrophedon) है, जिसे एक पंक्ति में दाएं से बाएं और अगली पंक्ति में बाएं से दाएं लिखा जाता है।
+3. अधिकांश शिलालेख मंदिरों की दीवारों पर उकेरे गए लंबे आख्यान हैं।
+
+उपर्युक्त कथनों में से कौन सा/से सही है/हैं?
+A) केवल 1 और 2
+B) केवल 2 और 3
+C) केवल 1 और 3
+D) 1, 2 और 3`,
+                        option_a: 'केवल 1 और 2',
+                        option_b: 'केवल 2 और 3',
+                        option_c: 'केवल 1 और 3',
+                        option_d: '1, 2 और 3',
+                        correct: 'A',
+                        explanation: 'कथन 1 और 2 सही हैं। कथन 3 गलत है क्योंकि हड़प्पा की लिखावट मुख्य रूप से छोटी मुहरों और तांबे की पट्टियों पर मिली है, न कि मंदिरों की दीवारों पर।'
+                    }
+                ];
+
+                for (const q of customPreQuestions2) {
+                    await run(`
+                        INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                        VALUES (11, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    `, [q.text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct, q.explanation, q.subtopic_id, q.lang]);
+                }
+
+                const customMainsQuestions2 = [
+                    {
+                        lang: 'EN',
+                        subtopic_id: mtMains2En.minute_topic_id,
+                        text: `Q. Analyze the trade relations of the Harappan civilization with Mesopotamia. [5 Marks, 50 Words]`,
+                        model_answer: `**Introduction**: Harappans engaged in long-distance trade with Mesopotamia through land and gulf routes.
+**Body**:
+* **Evidence**: Cuneiform texts refer to trade with 'Meluhha' (Indus region), exporting ivory, carnelian, and gold.
+* **Ports**: Intermediate stations like Dilmun (Bahrain) and Makan served as vital trade outposts.
+**Conclusion**: Trade was commercial and structured, enriching the urban Harappan economy.`
+                    },
+                    {
+                        lang: 'HI',
+                        subtopic_id: mtMains2Hi.minute_topic_id,
+                        text: `Q. मेसोपोटामिया के साथ हड़प्पा सभ्यता के व्यापारिक संबंधों का विश्लेषण कीजिए। [5 अंक, 50 शब्द]`,
+                        model_answer: `**परिचय**: हड़प्पावासियों ने भूमि और खाड़ी मार्गों के माध्यम से मेसोपोटामिया के साथ लंबी दूरी के व्यापार में भाग लिया।
+**मुख्य भाग**:
+* **साक्ष्य**: कीलाक्षर ग्रंथ 'मेलुहा' (सिंधु क्षेत्र) के साथ व्यापार का संदर्भ देते हैं, जहाँ से हाथी दांत, कार्नेलियन और सोने का निर्यात किया जाता था।
+* **बंदरगाह**: दिलमुन (बहरीन) और माकन जैसे मध्यवर्ती स्टेशन महत्वपूर्ण व्यापारिक चौकियों के रूप में कार्य करते थे।
+**निष्कर्ष**: यह व्यापार व्यावसायिक और संरचित था, जिसने हड़प्पा की शहरी अर्थव्यवस्था को समृद्ध बनाया।`
+                    },
+                    {
+                        lang: 'EN',
+                        subtopic_id: mtMains2En.minute_topic_id,
+                        text: `Q. Discuss the archaeological significance and discoveries of major Harappan sites located in India. [10 Marks, 150 Words]`,
+                        model_answer: `**Introduction**: Post-partition, extensive excavations in India revealed critical dimensions of Harappan urban planning and regional diversity.
+
+**Body**:
+* **Lothal (Gujarat)**:
+  * Features a tidal dockyard, proving advanced maritime trade capabilities.
+  * Yielded bead-maker workshops, double-burials, and terracotta ship models.
+* **Kalibangan (Rajasthan)**:
+  * Discovered a pre-Harappan ploughed field, showing early agrarian patterns.
+  * Fire altars suggest ritualistic fire-worship.
+* **Dholavira (Kutch, Gujarat)**:
+  * Showcases a unique three-tier city layout (Citadel, Middle Town, Lower Town).
+  * Contains an unparalleled water-harvesting system with sophisticated stone reservoirs.
+* **Rakhigarhi (Haryana)**:
+  * Now recognized as the largest Harappan site, providing crucial DNA data on ancient populations.
+
+**Conclusion**: Discoveries in India expand our understanding of regional variation, water management, and maritime achievements of the Harappans.`
+                    },
+                    {
+                        lang: 'HI',
+                        subtopic_id: mtMains2Hi.minute_topic_id,
+                        text: `Q. भारत में स्थित प्रमुख हड़प्पा स्थलों के पुरातात्विक महत्व और खोजों की चर्चा कीजिए। [10 अंक, 150 शब्द]`,
+                        model_answer: `**परिचय**: विभाजन के बाद, भारत में व्यापक उत्खनन ने हड़प्पा के नगर नियोजन और क्षेत्रीय विविधता के महत्वपूर्ण आयामों को प्रकट किया।
+
+**मुख्य भाग**:
+* **लोथल (गुजरात)**:
+  * एक गोदीवाड़ा (dockyard) की खोज, जो उन्नत समुद्री व्यापारिक क्षमताओं को सिद्ध करता है।
+  * मनके बनाने की कार्यशाला और युगल समाधान के साक्ष्य मिले हैं।
+* **कालीबंगा (राजस्थान)**:
+  * एक पूर्व-हड़प्पा जुता हुआ खेत मिला है, जो प्रारंभिक कृषि पद्धतियों को दर्शाता है।
+  * अग्निकुंडों के साक्ष्य अग्नि पूजा का संकेत देते हैं।
+* **धोलावीरा (कच्छ, गुजरात)**:
+  * तीन स्तरों वाले शहर का अभिनव लेआउट (दुर्ग, मध्य नगर और निचला नगर)।
+  * परिष्कृत जलाशयों के साथ एक अद्वितीय जल संरक्षण और प्रबंधन प्रणाली।
+* **राखीगढ़ी (हरियाणा)**:
+  * वर्तमान में सबसे बड़ा हड़प्पा स्थल, जो प्राचीन आबादी के विषय में महत्वपूर्ण साक्ष्य प्रदान करता है।
+
+**निष्कर्ष**: भारत में हुई ये खोजें हड़प्पा सभ्यता के क्षेत्रीय अंतरों, जल प्रबंधन और समुद्री कौशल के संबंध में हमारी समझ को विस्तृत करती हैं।`
+                    }
+                ];
+
+                for (const q of customMainsQuestions2) {
+                    await run(`
+                        INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id)
+                        VALUES (102, ?, ?, ?, 1, ?)
+                    `, [q.text, q.model_answer, q.lang, q.subtopic_id]);
+                }
+                console.log("Custom high-quality questions for IVC Sites & Trade seeded successfully.");
+            }
+        }
+
+
     } catch (err) {
         console.error("Database initialization error:", err.message);
     }
