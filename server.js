@@ -204,9 +204,10 @@ app.post('/api/subscription/purchase', async (req, res) => {
 // --- Syllabus Info (Gated) ---
 app.get('/api/syllabus', checkSubscription, async (req, res) => {
     const examTier = req.query.tier || 'PRE'; // PRE or MAINS
+    const language = req.query.language || req.headers['x-user-language'] || 'EN';
     try {
-        const syllabus = await db.getFullSyllabus(examTier);
-        res.status(200).json({ subjects: syllabus });
+        const syllabus = await db.getFullSyllabus(examTier, language);
+        res.status(200).json({ syllabus, subjects: syllabus });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch syllabus: " + err.message });
     }
@@ -585,16 +586,7 @@ app.post('/api/admin/upload-mains-questions', upload.single('questionsFile'), as
     }
 });
 
-// --- GET unified syllabus hierarchy (Gated) ---
-app.get('/api/syllabus', checkSubscription, async (req, res) => {
-    const tier = req.query.tier || 'PRE';
-    try {
-        const syllabus = await db.getFullSyllabus(tier);
-        res.status(200).json({ syllabus, subjects: syllabus });
-    } catch (err) {
-        res.status(500).json({ error: "Failed to fetch syllabus: " + err.message });
-    }
-});
+
 
 // --- GET Mains Questions sequential portal (Gated) ---
 function shuffle(array) {
