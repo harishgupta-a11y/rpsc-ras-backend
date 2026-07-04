@@ -42,10 +42,12 @@ async function checkSubscription(req, res, next) {
     if (mobileHeader === '9876543210') {
         try {
             let adminUser = await db.getUserByMobile('9876543210');
-            if (!adminUser) {
-                await db.createUser('9876543210');
-                const farFuture = Date.now() + 365 * 24 * 60 * 60 * 1000; // 1 Year subscription
-                await db.updateUserSubscription('9876543210', farFuture);
+            const farFuture = Date.now() + 365 * 24 * 60 * 60 * 1000; // 1 Year subscription
+            if (!adminUser || adminUser.active_plan === '24-Hour Free Trial') {
+                if (!adminUser) {
+                    await db.createUser('9876543210');
+                }
+                await db.updateUserSubscription('9876543210', farFuture, 'Admin Premium Plan');
                 adminUser = await db.getUserByMobile('9876543210');
             }
             req.user = adminUser;
@@ -1087,7 +1089,8 @@ async function getSettingsFromDb() {
         maxCompleteCount: 200,
         maxSubjectCount: 150,
         maxTopicCount: 100,
-        maxSubtopicCount: 50
+        maxSubtopicCount: 50,
+        welcomePopupImageUrl: ''
     };
     try {
         const rows = await db.all("SELECT * FROM app_settings");
@@ -1095,6 +1098,8 @@ async function getSettingsFromDb() {
         rows.forEach(row => {
             if (row.key === 'allowScreenshots') {
                 dbSettings[row.key] = row.value === 'true';
+            } else if (row.key === 'welcomePopupImageUrl') {
+                dbSettings[row.key] = row.value || '';
             } else {
                 dbSettings[row.key] = parseInt(row.value) || defaults[row.key];
             }
@@ -1140,6 +1145,15 @@ app.post('/api/admin/update-limits', async (req, res) => {
     
     await saveSettingsToDb(currentSettings);
     console.log("[Admin] Updated practice test limit settings in DB:", currentSettings);
+    res.status(200).json(currentSettings);
+});
+
+app.post('/api/admin/update-popup-image', async (req, res) => {
+    const { welcomePopupImageUrl } = req.body;
+    const currentSettings = await getSettingsFromDb();
+    currentSettings.welcomePopupImageUrl = welcomePopupImageUrl || '';
+    await saveSettingsToDb(currentSettings);
+    console.log("[Admin] Updated welcomePopupImageUrl in DB:", currentSettings.welcomePopupImageUrl);
     res.status(200).json(currentSettings);
 });
 
