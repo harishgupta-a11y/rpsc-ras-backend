@@ -226,7 +226,7 @@ app.post('/api/subscription/purchase', async (req, res) => {
 });
 
 // --- Syllabus Info (Gated) ---
-app.get('/api/syllabus', checkSubscription, async (req, res) => {
+app.get('/api/syllabus', async (req, res) => {
     const examTier = req.query.tier || 'PRE'; // PRE or MAINS
     const language = req.query.language || req.headers['x-user-language'] || 'EN';
     try {
