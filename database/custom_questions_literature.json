@@ -1,0 +1,446 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the 'Dingal' and 'Pingal' styles of Rajasthani literature:\n1. Dingal is a bardic style of Western Rajasthan, characterized by its aggressive tone and written in the Charan tradition.\n2. Pingal is a style of Eastern Rajasthan, heavily influenced by Brajbhasha, and written in the Bhat tradition.\nWhich of the statements given above is/are correct?\nA) 1 only\nB) 2 only\nC) Both 1 and 2\nD) Neither 1 nor 2",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Both statements are correct. Dingal is the primary bardic and martial literary style of Western Rajasthan (Marwar) associated with the Charan community. Pingal is the Eastern style influenced by Brajbhasha associated with the Bhat community."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजस्थानी साहित्य की 'डिंगल' और 'पिंगल' शैलियों के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. डिंगल पश्चिमी राजस्थान की एक चारण शैली है, जो अपने आक्रामक लहजे के लिए जानी जाती है।\n2. पिंगल पूर्वी राजस्थान की शैली है, जो ब्रजभाषा से प्रभावित है और भाट परंपरा में लिखी गई है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?\nA) केवल 1\nB) केवल 2\nC) 1 और 2 दोनों\nD) न तो 1 और न ही 2",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "दोनों कथन सही हैं। डिंगल पश्चिमी राजस्थान (मारवाड़) की चारण समुदाय से जुड़ी वीर रस की शैली है। पिंगल पूर्वी राजस्थान की शैली है जो ब्रजभाषा से प्रभावित है और यह मुख्य रूप से भाट समुदाय की परंपरा में लिखी गई है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match the following Rajasthani literary works with their respective authors:\nLiterary Work | Author\nI. Vansh Bhaskar | a. Padmanabh\nII. Kanha-de Prabandh | b. Suryamal Misran\nIII. Vir Satsai | c. Kanhaiyalal Sethia\nIV. Leeltans | d. Bankidas\nSelect the correct option:\nA) I-b, II-a, III-b, IV-c\nB) I-a, II-b, III-c, IV-d\nC) I-b, II-d, III-a, IV-c\nD) I-c, II-a, III-d, IV-b",
+      "option_a": "I-b, II-a, III-b, IV-c",
+      "option_b": "I-a, II-b, III-c, IV-d",
+      "option_c": "I-b, II-d, III-a, IV-c",
+      "option_d": "I-c, II-a, III-d, IV-b",
+      "correct": "A",
+      "explanation": "Vansh Bhaskar and Vir Satsai are both authored by the legendary state poet Suryamal Misran of Bundi. Kanha-de Prabandh, describing the siege of Jalore, was composed by Padmanabh. Leeltans is a famous modern work by Kanhaiyalal Sethia."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित राजस्थानी साहित्यिक कृतियों को उनके संबंधित लेखकों से सुमेलित करें:\nसाहित्यिक कृति | लेखक\nI. वंश भास्कर | a. पद्मनाभ\nII. कान्हड़दे प्रबंध | b. सूर्यमल्ल मिश्रण\nIII. वीर सतसई | c. कन्हैयालाल सेठिया\nIV. लीलटांस | d. बांकीदास\nसही विकल्प का चयन करें:\nA) I-b, II-a, III-b, IV-c\nB) I-a, II-b, III-c, IV-d\nC) I-b, II-d, III-a, IV-c\nD) I-c, II-a, III-d, IV-b",
+      "option_a": "I-b, II-a, III-b, IV-c",
+      "option_b": "I-a, II-b, III-c, IV-d",
+      "option_c": "I-b, II-d, III-a, IV-c",
+      "option_d": "I-c, II-a, III-d, IV-b",
+      "correct": "A",
+      "explanation": "वंश भास्कर और वीर सतसई दोनों बूंदी के प्रसिद्ध राज्य कवि सूर्यमल्ल मिश्रण द्वारा रचित हैं। कान्हड़दे प्रबंध, जो जालौर के घेराबंदी का वर्णन करता है, पद्मनाभ द्वारा रचित था। लीलटांस कन्हैयालाल सेठिया की एक प्रसिद्ध आधुनिक रचना है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Kuvalayamala', which provides the earliest historical reference to 'Marubhasha' (the ancient form of Marwari), was written by which Jain scholar in 778 AD?\nA) Udyotan Suri\nB) Haribhadra Suri\nC) Jineshwar Suri\nD) Hemachandra Suri",
+      "option_a": "Udyotan Suri",
+      "option_b": "Haribhadra Suri",
+      "option_c": "Jineshwar Suri",
+      "option_d": "Hemachandra Suri",
+      "correct": "A",
+      "explanation": "Kuvalayamala is a famous Prakrit text composed by Udyotan Suri in 778 AD at Jalore. In this work, the author mentions 18 regional languages of India, including 'Marubhasha'."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 778 ईस्वी में किस जैन विद्वान ने 'कुवलयमाला' की रचना की थी, जिसमें 'मरुभाषा' (मारवाड़ी का प्राचीन रूप) का सबसे पहला ऐतिहासिक संदर्भ मिलता है?\nA) उद्योतन सूरी\nB) हरिभद्र सूरी\nC) जिनेश्वर सूरी\nD) हेमचंद्र सूरी",
+      "option_a": "उद्योतन सूरी",
+      "option_b": "हरिभद्र सूरी",
+      "option_c": "जिनेश्वर सूरी",
+      "option_d": "हेमचंद्र सूरी",
+      "correct": "A",
+      "explanation": "कुवलयमाला उद्योतन सूरी द्वारा 778 ईस्वी में जालौर में रचित एक प्रसिद्ध प्राकृत ग्रंथ है। इस ग्रंथ में लेखक ने भारत की 18 क्षेत्रीय भाषाओं का उल्लेख किया है, जिसमें 'मरुभाषा' भी शामिल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the classification of Rajasthani dialects by George Abraham Grierson:\n1. He classified Rajasthani dialects into five distinct subgroups.\n2. He identified Marwari as the most widely spoken dialect of Western Rajasthan.\n3. He placed Malvi and Nimadi under the Southern Rajasthani group.\nWhich of the statements given above are correct?\nA) 1 and 2 only\nB) 2 and 3 only\nC) 1 and 3 only\nD) 1, 2, and 3",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2, and 3",
+      "correct": "D",
+      "explanation": "All statements are correct. George Abraham Grierson classified Rajasthani into five sub-groups: Western Rajasthani, Central-Eastern, North-Eastern, Southern, and South-Western."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जॉर्ज अब्राहम ग्रियर्सन द्वारा राजस्थानी बोलियों के वर्गीकरण के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. उन्होंने राजस्थानी बोलियों को पांच अलग-अलग समूहों में वर्गीकृत किया।\n2. उन्होंने मारवाड़ी को पश्चिमी राजस्थान की सबसे व्यापक रूप से बोली जाने वाली बोली के रूप में पहचाना।\n3. उन्होंने मालवी और निमाड़ी को दक्षिणी राजस्थानी समूह के अंतर्गत रखा।\nउपरोक्त कथनों में से कौन से सही हैं?\nA) केवल 1 और 2\nB) केवल 2 और 3\nC) केवल 1 और 3\nD) 1, 2 और 3",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "सभी कथन सही हैं। जॉर्ज अब्राहम ग्रियर्सन ने राजस्थानी को पांच उप-समूहों में वर्गीकृत किया: पश्चिमी राजस्थानी, मध्य-पूर्वी, उत्तर-पूर्वी, दक्षिणी और दक्षिण-पश्चिमी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following modern Rajasthani poems, famous for its patriotic and regional pride, was composed by Kanhaiyalal Sethia and compares the land of Rajasthan to heaven?\nA) Dharti Dhoran Ri\nB) Pathal aur Pithal\nC) Minjhar\nD) Leeltans",
+      "option_a": "Dharti Dhoran Ri",
+      "option_b": "Pathal aur Pithal",
+      "option_c": "Minjhar",
+      "option_d": "Leeltans",
+      "correct": "A",
+      "explanation": "'Dharti Dhoran Ri' is the iconic poem by Kanhaiyalal Sethia celebrating the landscape, history, and cultural pride of Rajasthan."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सी आधुनिक राजस्थानी कविता, जो अपनी देशभक्ति और क्षेत्रीय गौरव के लिए प्रसिद्ध है, कन्हैयालाल सेठिया द्वारा रचित है और राजस्थान की भूमि की तुलना स्वर्ग से करती है?\nA) धरती धोरां री\nB) पीथल और पाथल\nC) मिंझर\nD) लीलटांस",
+      "option_a": "धरती धोरां री",
+      "option_b": "पीथल और पाथल",
+      "option_c": "मिंझर",
+      "option_d": "लीलटांस",
+      "correct": "A",
+      "explanation": "'धरती धोरां री' कन्हैयालाल सेठिया की प्रसिद्ध कविता है जो राजस्थान के परिदृश्य, इतिहास और सांस्कृतिक गौरव का जश्न मनाती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the context of Rajasthani dialects, 'Ahirwati' (also known as Raathi) is primarily spoken in which of the following regions?\nA) Kotputli-Behror and Alwar districts\nB) Jodhpur and Barmer districts\nC) Kota and Baran districts\nD) Dungarpur and Banswara districts",
+      "option_a": "Kotputli-Behror and Alwar districts",
+      "option_b": "Jodhpur and Barmer districts",
+      "option_c": "Kota and Baran districts",
+      "option_d": "Dungarpur and Banswara districts",
+      "correct": "A",
+      "explanation": "Ahirwati is spoken in the Ahirwal region encompassing Behror, Kotputli, Mundawar, and parts of Alwar and Haryana borders. It represents a transition between Rajasthani and Haryanvi."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजस्थानी बोलियों के संदर्भ में, 'अहीरवाटी' (जिसे राठी भी कहा जाता है) मुख्य रूप से निम्नलिखित में से किस क्षेत्र में बोली जाती है?\nA) कोटपुतली-बहरोड़ और अलवर जिले\nB) जोधपुर और बाड़मेर जिले\nC) कोटा और बारां जिले\nD) डूंगरपुर और बांसवाड़ा जिले",
+      "option_a": "कोटपुतली-बहरोड़ और अलवर जिले",
+      "option_b": "जोधपुर और बाड़मेर जिले",
+      "option_c": "कोटा और बारां जिले",
+      "option_d": "डूंगरपुर और बांसवाड़ा जिले",
+      "correct": "A",
+      "explanation": "अहीरवाटी उत्तर-पूर्वी राजस्थानी समूह की एक बोली है जो अहीरवाल क्षेत्र में बोली जाती है, जिसमें बहरोड़, कोटपुतली, मुंडावर और अलवर और हरियाणा सीमाओं के हिस्से शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. 'Veli Krishan Rukmani ri', considered one of the finest classical works in Dingal style, was composed by which of the following authors?\nA) Prithviraj Rathore\nB) Durasa Arha\nC) Bankidas\nD) Chand Bardai",
+      "option_a": "Prithviraj Rathore",
+      "option_b": "Durasa Arha",
+      "option_c": "Bankidas",
+      "option_d": "Chand Bardai",
+      "correct": "A",
+      "explanation": "Veli Krishan Rukmani ri was written by Prithviraj Rathore of Bikaner in Dingal style. Saint-poet Durasa Arha termed it the \"Fifth Veda and Nineteenth Purana\"."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. डिंगल शैली में सबसे बेहतरीन शास्त्रीय कृतियों में से एक मानी जाने वाली 'वेलि क्रिसन रुकमणी री' की रचना निम्नलिखित में से किस लेखक द्वारा की गई थी?\nA) पृथ्वीराज राठौड़\nB) दुरसा आढ़ा\nC) बांकीदास\nD) चन्द बरदाई",
+      "option_a": "पृथ्वीराज राठौड़",
+      "option_b": "दुरसा आढ़ा",
+      "option_c": "बांकीदास",
+      "option_d": "चन्द बरदाई",
+      "correct": "A",
+      "explanation": "वेलि क्रिसन रुकमणी री बीकानेर के पृथ्वीराज राठौड़ द्वारा डिंगल शैली में लिखी गई थी। प्रसिद्ध संत-कवि दुरसा आढ़ा ने इसे \"पांचवां वेद और उन्नीसवां पुराण\" कहा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding 'Nainsi ri Khyat':\n1. It was written by Muhnot Nainsi, the Diwan of Maharaja Jaswant Singh I.\n2. It is written in a highly structured, chronological format, detailing Rajput lineages.\n3. It is referred to as the first comprehensive gazetteer of Rajasthan.\nWhich of the statements given above are correct?\nA) 1 and 2 only\nB) 2 and 3 only\nC) 1 and 3 only\nD) 1, 2, and 3",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2, and 3",
+      "correct": "D",
+      "explanation": "All statements are correct. Muhnot Nainsi wrote Nainsi ri Khyat and Marwar ra Pargana ri Vigat. The latter is regarded as the first gazetteer of the region."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'नैणसी री ख्यात' के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. यह महाराजा जसवंत सिंह प्रथम के दीवान मुहणोत नैणसी द्वारा लिखी गई थी।\n2. यह राजपूत राजवंशों का विवरण देते हुए एक कालानुक्रमिक प्रारूप में लिखी गई है।\n3. इसे राजस्थान का पहला व्यापक गजेटियर कहा जाता है।\nउपरोक्त कथनों में से कौन से सही हैं?\nA) केवल 1 और 2\nB) केवल 2 और 3\nC) केवल 1 और 3\nD) 1, 2 और 3",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "सभी कथन सही हैं। मुहणोत नैणसी ने नैणसी री ख्यात और मारवाड़ रा परगना री विगत लिखी। मारवाड़ रा परगना री विगत को मारवाड़ परगनों के विस्तृत सांख्यिकीय डेटा के कारण क्षेत्र का पहला गजेटियर माना जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Dholamaru ra Duha', a famous romantic oral folk epic of Rajasthan, was compiled and expanded in written form in the 16th century by whom?\nA) Kavi Kallol\nB) Kushal Chandra\nC) Padmanabh\nD) Suryamal Misran",
+      "option_a": "Kavi Kallol",
+      "option_b": "Kushal Chandra",
+      "option_c": "Padmanabh",
+      "option_d": "Suryamal Misran",
+      "correct": "B",
+      "explanation": "The original verses of Dholamaru ra Duha were composed by Kavi Kallol in the 11th century. Later in the 16th century, Kushal Chandra added chaupais to expand this romantic classic."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजस्थान के एक प्रसिद्ध रोमांटिक मौखिक लोक महाकाव्य 'ढोलामारू रा दूहा' का 16वीं शताब्दी में लिखित रूप में संकलन और विस्तार किसके द्वारा किया गया था?\nA) कवि कल्लोल\nB) कुशल चंद्र\nC) पद्मनाभ\nD) सूर्यमल्ल मिश्रण",
+      "option_a": "कवि कल्लोल",
+      "option_b": "कुशल चंद्र",
+      "option_c": "पद्मनाभ",
+      "option_d": "सूर्यमल्ल मिश्रण",
+      "correct": "B",
+      "explanation": "ढोलामारू रा दूहा के मूल छंद 11वीं शताब्दी में कवि कल्लोल द्वारा रचित थे। बाद में 16वीं शताब्दी में, कुशल चंद्र ने राजकुमार ढोला और राजकुमारी मारू की प्रेम कहानी का वर्णन करने वाले इस रोमांटिक क्लासिक का विस्तार करने के लिए चौपाइयाँ जोड़ीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which dialect of Rajasthan did the famous saint Dadu Dayal and his disciples compose their devotional bhajans and literary works?\nA) Dhoondhari\nB) Marwari\nC) Mewati\nD) Haroti",
+      "option_a": "Dhoondhari",
+      "option_b": "Marwari",
+      "option_c": "Mewati",
+      "option_d": "Haroti",
+      "correct": "A",
+      "explanation": "Dadu Dayal and his disciples (Sundardas, Rajjab) composed their works in the Dhoondhari dialect (often mixed with Sadukkari) as they preached in the Jaipur region."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजस्थान की किस बोली में प्रसिद्ध संत दादू दयाल और उनके शिष्यों ने अपने भक्ति भजनों और साहित्यिक कृतियों की रचना की?\nA) ढूंढाड़ी\nB) मारवाड़ी\nC) मेवाती\nD) हाड़ौती",
+      "option_a": "ढूंढाड़ी",
+      "option_b": "मारवाड़ी",
+      "option_c": "मेवाती",
+      "option_d": "हाड़ौती",
+      "correct": "A",
+      "explanation": "दादू दयाल और उनके शिष्यों ने अपनी रचनाएं ढूंढाड़ी बोली (अक्सर सधुक्कड़ी मिश्रित) में की हैं, क्योंकि उन्होंने मुख्य रूप से जयपुर (ढूंढाड़) क्षेत्र में उपदेश दिए थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which dialect of Rajasthan, spoken primarily in the southern districts of Dungarpur and Banswara, is heavily influenced by Gujarati and is classified as 'Bhili' by Grierson?\nA) Wagdi\nB) Nimadi\nC) Malvi\nD) Mewari",
+      "option_a": "Wagdi",
+      "option_b": "Nimadi",
+      "option_c": "Malvi",
+      "option_d": "Mewari",
+      "correct": "A",
+      "explanation": "Wagdi is spoken in the Wagad region (Dungarpur and Banswara). Due to geographic contiguity, it shows a strong structural and phonetic influence of Gujarati."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा लोक नृत्य/बोली जो मुख्य रूप से डूंगरपुर और बांसवाड़ा के दक्षिणी जिलों में बोली जाती है, गुजराती से काफी प्रभावित है और ग्रियर्सन द्वारा इसे 'भीली' के रूप में वर्गीकृत किया गया है?\nA) वागड़ी\nB) निमाड़ी\nC) मालवी\nD) मेवाड़ी",
+      "option_a": "वागड़ी",
+      "option_b": "निमाड़ी",
+      "option_c": "मालवी",
+      "option_d": "मेवाड़ी",
+      "correct": "A",
+      "explanation": "वागड़ी वागड़ क्षेत्र (डूंगरपुर और बांसवाड़ा) में बोली जाती है। भौगोलिक निकटता के कारण, यह गुजराती भाषा का एक मजबूत संरचनात्मक और ध्वन्यात्मक प्रभाव दिखाती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following pairs of Rajasthani dialects and their sub-dialects:\n1. Marwari | Thali, Godwari, Mewari\n2. Dhoondhari | Torawati, Jaipuri, Katheira\n3. Mewati | Ahirwati, Raathi\nWhich of the pairs given above are correctly matched?\nA) 1 and 2 only\nB) 2 and 3 only\nC) 1 and 3 only\nD) 1, 2, and 3",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2, and 3",
+      "correct": "D",
+      "explanation": "All pairs are correctly matched. Marwari includes sub-dialects like Thali and Godwari. Dhoondhari includes Torawati and Katheira. Mewati includes Ahirwati."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजस्थान की बोलियों और उनकी उप-बोलियों के निम्नलिखित युग्मों पर विचार करें:\n1. मारवाड़ी | थली, गोडवाड़ी, मेवाड़ी\n2. ढूंढाड़ी | तोरावाटी, जयपुरी, काठेड़ा\n3. मेवाती | अहीरवाटी, राठी\nउपरोक्त युग्मों में से कौन से सही सुमेलित हैं?\nA) केवल 1 और 2\nB) केवल 2 और 3\nC) केवल 1 और 3\nD) 1, 2 और 3",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "सभी युग्म सही सुमेलित हैं। मारवाड़ी की थली (बीकानेर), गोडवाड़ी (पाली/सिरोही), और मेवाड़ी (उदयपुर) जैसी उप-बोलियां हैं। ढूंढाड़ी में तोरावाटी, काठेड़ा और चौरासी शामिल हैं। मेवाती उत्तर-पूर्वी सीमा की अहीरवाटी और राठी बोलियों से निकटता से संबंधित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which historical chronicle (Khyat) describes the administrative system and statistical history of the parganas of Marwar under Jaswant Singh I?\nA) Marwar ra Pargana ri Vigat\nB) Bankidas ri Khyat\nC) Dayaldas ri Khyat\nD) Jodhpur Rajya ri Khyat",
+      "option_a": "Marwar ra Pargana ri Vigat",
+      "option_b": "Bankidas ri Khyat",
+      "option_c": "Dayaldas ri Khyat",
+      "option_d": "Jodhpur Rajya ri Khyat",
+      "correct": "A",
+      "explanation": "Marwar ra Pargana ri Vigat, written by Muhnot Nainsi, provides a comprehensive account of Marwar's parganas, including land revenue data and crop patterns."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा ऐतिहासिक ग्रंथ (ख्यात) जसवंत सिंह प्रथम के अधीन मारवाड़ के परगनों की प्रशासनिक प्रणाली और सांख्यिकीय इतिहास का वर्णन करता है?\nA) मारवाड़ रा परगना री विगत\nB) बांकीदास री ख्यात\nC) दयालदास री ख्यात\nD) जोधपुर राज्य री ख्यात",
+      "option_a": "मारवाड़ रा परगना री विगत",
+      "option_b": "बांकीदास री ख्यात",
+      "option_c": "दयालदास री ख्यात",
+      "option_d": "जोधपुर राज्य री ख्यात",
+      "correct": "A",
+      "explanation": "मारवाड़ रा परगना री विगत, जिसे मुहणोत नैणसी ने लिखा है, मारवाड़ के परगनों का एक व्यापक विवरण प्रदान करता है, जिसमें भूमि राजस्व डेटा और फसल पैटर्न शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Vir Satsai', which contains 288 couplets dedicated to local heroes who fought against British hegemony, was written by which author?\nA) Suryamal Misran\nB) Bankidas\nC) Kaviraj Shyamaldas\nD) Durasa Arha",
+      "option_a": "Suryamal Misran",
+      "option_b": "Bankidas",
+      "option_c": "Kaviraj Shyamaldas",
+      "option_d": "Durasa Arha",
+      "correct": "A",
+      "explanation": "Vir Satsai was composed by Suryamal Misran in the wake of the 1857 Revolt to arouse patriotic consciousness."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'वीर सतसई', जिसमें ब्रिटिश आधिपत्य के खिलाफ लड़ने वाले स्थानीय नायकों को समर्पित 288 दोहे हैं, किस लेखक द्वारा लिखी गई थी?\nA) सूर्यमल्ल मिश्रण\nB) बांकीदास\nC) कविराज श्यामलदास\nD) दुरसा आढ़ा",
+      "option_a": "सूर्यमल्ल मिश्रण",
+      "option_b": "बांकीदास",
+      "option_c": "कविराज श्यामलदास",
+      "option_d": "दुरसा आढ़ा",
+      "correct": "A",
+      "explanation": "वीर सतसई की रचना सूर्यमल्ल मिश्रण ने 1857 के विद्रोह के बाद देशभक्ति की चेतना जगाने के लिए की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which dialect of Eastern Rajasthan is spoken in the Hadoti region (Kota, Bundi, Baran, and Jhalawar) and is considered a major sub-dialect of Dhoondhari?\nA) Haroti\nB) Mewati\nC) Malvi\nD) Mewari",
+      "option_a": "Haroti",
+      "option_b": "Mewati",
+      "option_c": "Malvi",
+      "option_d": "Mewari",
+      "correct": "A",
+      "explanation": "Haroti is spoken in the Hadoti region. It is structurally very close to Dhoondhari but has distinct phonetic features."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पूर्वी राजस्थान की कौन सी बोली हाड़ौती क्षेत्र (कोटा, बूंदी, बारां और झालावाड़) में बोली जाती है और इसे ढूंढाड़ी की एक प्रमुख उप-बोली माना जाता है?\nA) हाड़ौती\nB) मेवाती\nC) मालवी\nD) मेवाड़ी",
+      "option_a": "हाड़ौती",
+      "option_b": "मेवाती",
+      "option_c": "मालवी",
+      "option_d": "मेवाड़ी",
+      "correct": "A",
+      "explanation": "हाड़ौती मध्य-पूर्वी राजस्थानी समूह की एक बोली है जो हाड़ौती क्षेत्र में बोली जाती है। यह संरचनात्मक रूप से ढूंढाड़ी के बहुत करीब है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The epic historical chronicle 'Vir Vinod', which details the history of Mewar state, was commissioned by Maharana Sajjan Singh and written by whom?\nA) Kaviraj Shyamaldas\nB) Muhnot Nainsi\nC) Bankidas\nD) Dayaldas",
+      "option_a": "Kaviraj Shyamaldas",
+      "option_b": "Muhnot Nainsi",
+      "option_c": "Bankidas",
+      "option_d": "Dayaldas",
+      "correct": "A",
+      "explanation": "Kaviraj Shyamaldas wrote 'Vir Vinod' in the late 19th century, covering the detailed political and administrative history of Mewar."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मेवाड़ राज्य के इतिहास का विवरण देने वाला महाकाव्य ऐतिहासिक ग्रंथ 'वीर विनोद' महाराणा सज्जन सिंह द्वारा शुरू किया गया था और किसके द्वारा लिखा गया था?\nA) कविराज श्यामलदास\nB) मुहणोत नैणसी\nC) बांकीदास\nD) दयालदास",
+      "option_a": "कविराज श्यामलदास",
+      "option_b": "मुहणोत नैणसी",
+      "option_c": "बांकीदास",
+      "option_d": "दयालदास",
+      "correct": "A",
+      "explanation": "मेवाड़ के कविराज श्यामलदास ने 19वीं सदी के अंत में ऐतिहासिक ग्रंथ 'वीर विनोद' लिखा था, जिसमें मेवाड़ के विस्तृत राजनीतिक और प्रशासनिक इतिहास को शामिल किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Chetavani ra Chungatya', a collection of 13 historical Dingal couplets (Sorthas) that prevented Maharana Fateh Singh of Mewar from attending the Delhi Durbar in 1903, was written by:\nA) Kesari Singh Barhath\nB) Vijay Singh Pathik\nC) Gopal Singh Kharwa\nD) Arjun Lal Sethi",
+      "option_a": "Kesari Singh Barhath",
+      "option_b": "Vijay Singh Pathik",
+      "option_c": "Gopal Singh Kharwa",
+      "option_d": "Arjun Lal Sethi",
+      "correct": "A",
+      "explanation": "Kesari Singh Barhath composed 'Chetavani ra Chungatya' to appeal to the self-respect of Maharana Fateh Singh, preventing him from attending Lord Curzon's Delhi Durbar."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 13 ऐतिहासिक डिंगल दोहों (सोरठों) का संग्रह 'चेतावनी रा चूंगट्या', जिसने मेवाड़ के महाराणा फतेह सिंह को 1903 में दिल्ली दरबार में शामिल होने से रोक दिया था, किसके द्वारा लिखा गया था?\nA) केसरी सिंह बारहट\nB) विजय सिंह पथिक\nC) गोपाल सिंह खरवा\nD) अर्जुन लाल सेठी",
+      "option_a": "केसरी सिंह बारहट",
+      "option_b": "विजय सिंह पथिक",
+      "option_c": "गोपाल सिंह खरवा",
+      "option_d": "अर्जुन लाल सेठी",
+      "correct": "A",
+      "explanation": "केसरी सिंह बारहट ने महाराणा फतेह सिंह के आत्मसम्मान और सैन्य गौरव की अपील करने के लिए 'चेतावनी रा चूंगट्या' की रचना की, जिससे वे दिल्ली दरबार में शामिल नहीं हुए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Khangar Raso', a lesser-known martial historical work detailing the local battles of the Khangarot Rajputs, was composed by which of the following authors?\nA) Jodhraj\nB) Narpati Nalha\nC) Dalpati Vijay\nD) Sharangdhar",
+      "option_a": "Jodhraj",
+      "option_b": "Narpati Nalha",
+      "option_c": "Dalpati Vijay",
+      "option_d": "Sharangdhar",
+      "correct": "A",
+      "explanation": "Jodhraj, who composed Hamir Raso, also recorded the local military exploits of Rajput clans including the Khangarots."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. खंगारोत राजपूतों के स्थानीय युद्धों का विवरण देने वाला एक ऐतिहासिक ग्रंथ 'खंगार रासो' की रचना निम्नलिखित में से किस लेखक द्वारा की गई थी?\nA) जोधराज\nB) नरपति नाल्ह\nC) दलपति विजय\nD) शारंगधर",
+      "option_a": "जोधराज",
+      "option_b": "नरपति नाल्ह",
+      "option_c": "दलपति विजय",
+      "option_d": "शारंगधर",
+      "correct": "A",
+      "explanation": "जोधराज वह प्रसिद्ध कवि हैं जिन्होंने हमीर रासो की रचना की और उन्होंने पूर्वी राजस्थान में खंगारोतों सहित राजपूत राजवंशों के स्थानीय सैन्य कारनामों को भी दर्ज किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following dialects of Rajasthan shows a prominent linguistic transition between Dhoondhari and Mewati?\nA) Chaurasi\nB) Nagarachal\nC) Mewati\nD) Torawati",
+      "option_a": "Chaurasi",
+      "option_b": "Nagarachal",
+      "option_c": "Mewati",
+      "option_d": "Torawati",
+      "correct": "D",
+      "explanation": "Torawati is spoken in the northern parts of Jaipur and Sikar, representing a major transition between Dhoondhari and Mewati."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजस्थान की निम्नलिखित में से कौन सी बोली ढूंढाड़ी और मेवाती के बीच एक प्रमुख भाषाई संक्रमण दिखाती है?\nA) चौरासी\nB) नागरचाल\nC) मेवाती\nD) तोरावाटी",
+      "option_a": "चौरासी",
+      "option_b": "नागरचाल",
+      "option_c": "मेवाती",
+      "option_d": "तोरावाटी",
+      "correct": "D",
+      "explanation": "तोरावाटी जयपुर के उत्तरी भागों और सीकर में बोली जाती है, जो ढूंढाड़ी और मेवाती के बीच एक प्रमुख संक्रमण का प्रतिनिधित्व करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who is the author of 'Bisaldeo Raso', a notable early Rajasthani work written in the Pingal style representing the romantic-heroic genre?\nA) Narpati Nalha\nB) Chand Bardai\nC) Jodhraj\nD) Khalil",
+      "option_a": "Narpati Nalha",
+      "option_b": "Chand Bardai",
+      "option_c": "Jodhraj",
+      "option_d": "Khalil",
+      "correct": "A",
+      "explanation": "Bisaldeo Raso was written by Narpati Nalha in the 12th century, describing Vigraharaja IV (Bisaldeo) of Ajmer and Princess Rajmati."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पिंगल शैली में लिखित और प्रेम-वीर रस का प्रतिनिधित्व करने वाले एक प्रारंभिक राजस्थानी ग्रंथ 'बीसलदेव रासो' के लेखक कौन हैं?\nA) नरपति नाल्ह\nB) चन्द बरदाई\nC) जोधराज\nD) खलील",
+      "option_a": "नरपति नाल्ह",
+      "option_b": "चन्द बरदाई",
+      "option_c": "जोधराज",
+      "option_d": "खलील",
+      "correct": "A",
+      "explanation": "बीसलदेव रासो 12वीं शताब्दी में नरपति नाल्ह द्वारा लिखा गया था, जिसमें अजमेर के राजा विग्रहराज चतुर्थ (बीसलदेव) और राजकुमारी राजमती की प्रेम कहानी का वर्णन है।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Define 'Dingal' and 'Pingal' styles of Rajasthani literature and highlight their structural differences. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Introduction: Dingal and Pingal are the primary classical styles that form the backbone of Rajasthani literature, reflecting regional linguistic divisions.\n\nBody:\n* Dingal: Formulated in Western Rajasthan (Marwar) by the Charan community. It is written in a martial tone using Marwari.\n* Pingal: Developed in Eastern Rajasthan (Mewat/Dhundhar) by the Bhat community. It is heavily influenced by Brajbhasha and is softer and more lyrical.\n\nConclusion: Together, these styles preserved the historical struggles and romantic heritage of medieval Rajasthan."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजस्थानी साहित्य की 'डिंगल' और 'पिंगल' शैलियों को परिभाषित कीजिए तथा उनके संरचनात्मक अंतरों को रेखांकित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रस्तावना: डिंगल और पिंगल राजस्थानी साहित्य की रीढ़ बनाने वाली प्राथमिक शास्त्रीय शैलियाँ हैं, जो क्षेत्रीय भाषाई विभाजनों को दर्शाती हैं।\n\nमुख्य भाग:\n* डिंगल: पश्चिमी राजस्थान (मारवाड़) में चारण समुदाय द्वारा विकसित की गई। यह मारवाड़ी का उपयोग करते हुए एक युद्ध और वीर रस की शैली है।\n* पिंगल: पूर्वी राजस्थान (मेवात/ढूंढाड़) में भाट समुदाय द्वारा विकसित की गई। यह ब्रजभाषा से काफी प्रभावित है और अधिक मधुर व काव्यात्मक है।\n\nनिष्कर्ष: इन दोनों शैलियों ने मध्यकालीन राजस्थान के ऐतिहासिक संघर्षों और प्रेम विरासत को संरक्षित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Examine the historical significance of 'Nainsi ri Khyat' as a source of medieval history of Rajasthan. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Introduction: Written by Muhnot Nainsi (Diwan of Jodhpur), 'Nainsi ri Khyat' is a foundational historical chronicle of Rajasthan.\n\nBody: It provides detailed geographical, economic, and political records of Marwar and neighboring Rajput states. Nainsi used local revenue records to compile pargana statistics, showing crop yields and caste structures.\n\nConclusion: Thus, it serves as the earliest reliable administrative gazetteer, transforming oral histories into documented historical evidence."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजस्थान के मध्यकालीन इतिहास के स्रोत के रूप में 'नैणसी री ख्यात' के ऐतिहासिक महत्व का परीक्षण कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रस्तावना: जोधपुर के दीवान मुहणोत नैणसी द्वारा लिखित 'नैणसी री ख्यात' राजस्थान का एक आधारभूत ऐतिहासिक ग्रंथ है।\n\nमुख्य भाग: यह मारवाड़ और पड़ोसी राजपूत राज्यों के विस्तृत भौगोलिक, आर्थिक और राजनीतिक रिकॉर्ड प्रदान करता है। नैणसी ने परगना के आंकड़ों को संकलित करने के लिए स्थानीय राजस्व रिकॉर्ड का उपयोग किया, जिससे फसलों की पैदावार और जातिगत संरचनाएं प्रदर्शित होती हैं।\n\nनिष्कर्ष: इस प्रकार, यह क्षेत्र के सबसे पहले विश्वसनीय प्रशासनिक गजेटियर के रूप में कार्य करता है, जो मौखिक इतिहास को प्रलेखित साक्ष्य में बदलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the regional distribution of major dialects of Rajasthan, noting their geocultural influences. Present your answer using a clean markdown table. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Introduction: The linguistic landscape of Rajasthan is highly diverse, showing gradual phonetic transitions based on geographic borders and historical migrations.\n\nBody:\n\nThe distribution and geocultural influences of major dialects are structured below:\n\n| Dialect | Primary Region | Core Geocultural Influence |\n| :--- | :--- | :--- |\n| **Marwari** | Western Rajasthan (Jodhpur, Bikaner, Barmer) | Considered the standard literary base of Dingal. |\n| **Dhoondhari** | Central-Eastern (Jaipur, Tonk) | Transition dialect showing influence of standard Hindi. |\n| **Haroti** | South-Eastern (Kota, Bundi, Jhalawar) | Spoken in the Hadoti region; structurally close to Dhoondhari. |\n| **Mewati** | North-Eastern (Alwar, Bharatpur) | Transition dialect between Rajasthani and Brajbhasha/Haryanvi. |\n| **Wagdi** | Southern Hills (Dungarpur, Banswara) | Heavily influenced by Gujarati; classified as 'Bhili' by Grierson. |\n\nConclusion: This regional distribution demonstrates how geography, trade routes, and border interactions directly shaped the phonetic and grammatical structures of Rajasthan's dialects."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजस्थान की प्रमुख बोलियों के क्षेत्रीय वितरण की चर्चा कीजिए और उनके भौगोलिक-सांस्कृतिक प्रभावों को नोट कीजिए। एक साफ तालिका का उपयोग करें। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रस्तावना: राजस्थान का भाषाई परिदृश्य अत्यधिक विविध है, जो भौगोलिक सीमाओं और ऐतिहासिक प्रवासों के आधार पर क्रमिक भाषाई बदलाव दिखाता है।\n\nमुख्य भाग:\n\nप्रमुख बोलियों का वितरण और उनका भौगोलिक-सांस्कृतिक प्रभाव नीचे दिया गया है:\n\n| बोली | प्राथमिक क्षेत्र | मुख्य भौगोलिक-सांस्कृतिक प्रभाव |\n| :--- | :--- | :--- |\n| **मारवाड़ी** | पश्चिमी राजस्थान (जोधपुर, बीकानेर, बाड़मेर) | डिंगल का मानक साहित्यिक आधार माना जाता है। |\n| **ढूंढाड़ी** | मध्य-पूर्वी (जयपुर, टोंक) | मानक हिंदी का प्रभाव दिखाने वाली संक्रमणकालीन बोली। |\n| **हाड़ौती** | दक्षिण-पूर्वी (कोटा, बूंदी, झालावाड़) | हाड़ौती क्षेत्र में बोली जाती है; संरचनात्मक रूप से ढूंढाड़ी के करीब। |\n| **मेवाती** | उत्तर-पूर्वी (अलवर, भरतपुर) | राजस्थानी और ब्रजभाषा/हरियाणवी के बीच संक्रमणकालीन बोली। |\n| **वागड़ी** | दक्षिणी पहाड़ियाँ (डूंगरपुर, बांसवाड़ा) | गुजराती से काफी प्रभावित; ग्रियर्सन द्वारा 'भीली' के रूप में वर्गीकृत। |\n\nनिष्कर्ष: यह क्षेत्रीय वितरण प्रदर्शित करता है कि किस प्रकार भूगोल, व्यापार मार्गों और सीमावर्ती संपर्कों ने राजस्थान की बोलियों की ध्वन्यात्मक और व्याकरणिक संरचनाओं को सीधे प्रभावित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Critically analyze the socio-cultural and political themes in the Charani literature of medieval Rajasthan. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Introduction: Charani literature, composed by the Charan community in the Dingal style, served as the ideological backbone of medieval Rajput polity and society.\n\nBody:\n* Political Themes: It acted as a check on royal power. While poets praised rulers for defense and charity, they also criticized cowardice and administrative failures (e.g., Bankidas's critique of British alliance). It kept rulers accountable to Rajput code of honor.\n* Socio-Cultural Themes: It preserved genealogical records and institutionalized social values like chivalry, sacrifice, and protecting refugees. However, it also glorified sati and continuous warfare, reinforcing feudal inequalities.\n\nConclusion: Thus, Charani literature was not mere court flattery but a complex socio-political archive that maintained social order and historical memory."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मध्यकालीन राजस्थान के चारणी साहित्य में सामाजिक-सांस्कृतिक और राजनीतिक विषयों का समालोचनात्मक विश्लेषण कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रस्तावना: चारणी साहित्य, जिसकी रचना डिंगल शैली में चारण समुदाय द्वारा की गई थी, मध्यकालीन राजपूत शासन व्यवस्था और समाज के वैचारिक आधार के रूप में कार्य करता था।\n\nमुख्य भाग:\n* राजनीतिक विषय: इसने शाही सत्ता पर अंकुश लगाने का कार्य किया। जबकि कवियों ने रक्षा और दान के लिए शासकों की प्रशंसा की, उन्होंने कायरता और प्रशासनिक विफलताओं की आलोचना भी की (जैसे ब्रिटिश गठबंधन पर बांकीदास की आलोचना)। इसने शासकों को राजपूत मर्यादा के प्रति जवाबदेह बनाया।\n* सामाजिक-सांस्कृतिक विषय: इसने वंशावली के रिकॉर्ड को संरक्षित किया और वीरता, त्याग व शरणार्थियों की रक्षा जैसे सामाजिक मूल्यों को संस्थागत बनाया। हालांकि, इसने सती प्रथा और निरंतर युद्ध को भी गौरवान्वित किया, जिससे सामंती असमानताओं को बढ़ावा मिला।\n\nनिष्कर्ष: इस प्रकार, चारणी साहित्य केवल दरबारी चापलूसी नहीं था बल्कि एक जटिल सामाजिक-राजनीतिक अभिलेखागार था जिसने सामाजिक व्यवस्था और ऐतिहासिक स्मृति को बनाए रखा।"
+    }
+  ]
+}
