@@ -1,0 +1,274 @@
+{
+  "preQuestions": [
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "EN",
+      "text": "Q. Which of the following is correct regarding the use of burnt bricks in the Harappan civilization?\nA) They were used only in the citadel area and not in the lower town.\nB) Egypt and Mesopotamia used baked bricks to a much larger extent than Harappa.\nC) The use of burnt bricks was a distinctive feature of Harappan cities compared to Egypt, where dried mud bricks were mainly used.\nD) Burnt bricks were only used for constructing drains and public baths.",
+      "option_a": "They were used only in the citadel area and not in the lower town.",
+      "option_b": "Egypt and Mesopotamia used baked bricks to a much larger extent than Harappa.",
+      "option_c": "The use of burnt bricks was a distinctive feature of Harappan cities compared to Egypt, where dried mud bricks were mainly used.",
+      "option_d": "Burnt bricks were only used for constructing drains and public baths.",
+      "correct": "C",
+      "explanation": "While contemporary Egypt primarily used dried mud bricks, Harappan cities utilized burnt bricks on a massive scale for both public and private structures. This represents a highly standardized municipal regulation."
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "HI",
+      "text": "Q. हड़प्पा सभ्यता में पकी हुई ईंटों (burnt bricks) के उपयोग के संबंध में निम्नलिखित में से कौन सा कथन सही है?\nA) इनका उपयोग केवल दुर्ग (citadel) क्षेत्र में किया जाता था न कि निचले शहर में।\nB) मिस्र और मेसोपोटामिया में हड़प्पा की तुलना में पकी हुई ईंटों का बहुत बड़े पैमाने पर उपयोग किया जाता था।\nC) पकी हुई ईंटों का उपयोग मिस्र की तुलना में हड़प्पा के शहरों की एक विशिष्ट विशेषता थी, जहाँ मुख्य रूप से सूखी मिट्टी की ईंटों का उपयोग किया जाता था।\nD) पकी हुई ईंटों का उपयोग केवल नालियों और सार्वजनिक स्नानागारों के निर्माण के लिए किया जाता था।",
+      "option_a": "इनका उपयोग केवल दुर्ग (citadel) क्षेत्र में किया जाता था न कि निचले शहर में।",
+      "option_b": "मिस्र और मेसोपोटामिया में हड़प्पा की तुलना में पकी हुई ईंटों का बहुत बड़े पैमाने पर उपयोग किया जाता था।",
+      "option_c": "पकी हुई ईंटों का उपयोग मिस्र की तुलना में हड़प्पा के शहरों की एक विशिष्ट विशेषता थी, जहाँ मुख्य रूप से सूखी मिट्टी की ईंटों का उपयोग किया जाता था।",
+      "option_d": "पकी हुई ईंटों का उपयोग केवल नालियों और सार्वजनिक स्नानागारों के निर्माण के लिए किया जाता था।",
+      "correct": "C",
+      "explanation": "जबकि समकालीन मिस्र में मुख्य रूप से धूप में सुखाई गई मिट्टी की ईंटों का उपयोग किया जाता था, हड़प्पा के शहरों ने सार्वजनिक और निजी दोनों संरचनाओं के लिए बड़े पैमाने पर पकी हुई ईंटों का उपयोग किया। यह एक अत्यधिक मानकीकृत नगरपालिका विनियमन का प्रतिनिधित्व करता है।"
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "EN",
+      "text": "Q. Match List-I (Harappan Site) with List-II (Key Architectural/Town Planning Feature) and select the correct answer:\nList-I:\na) Kalibangan\nb) Dholavira\nc) Harappa\nd) Mohenjodaro\n\nList-II:\n1) Great Bath and Citadel\n2) Row of six granaries\n3) Ploughed field and fire altars\n4) Divided into three distinct parts\n\nSelect the correct option:\nA) a-3, b-4, c-2, d-1\nB) a-1, b-2, c-3, d-4\nC) a-3, b-1, c-2, d-4\nD) a-4, b-3, c-1, d-2",
+      "option_a": "a-3, b-4, c-2, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-3, b-1, c-2, d-4",
+      "option_d": "a-4, b-3, c-1, d-2",
+      "correct": "A",
+      "explanation": "Kalibangan is famous for a ploughed field and fire altars; Dholavira is unique for being divided into three parts; Harappa contains rows of six granaries; Mohenjodaro houses the Great Bath."
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "HI",
+      "text": "Q. सूची-I (हड़प्पा स्थल) को सूची-II (प्रमुख वास्तुकला/नगर नियोजन विशेषता) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) कालीबंगा\nb) धोलावीरा\nc) हड़प्पा\nd) मोहनजोदड़ो\n\nसूची-II:\n1) विशाल स्नानागार और दुर्ग\n2) छह अन्नागारों की पंक्ति\n3) जुता हुआ खेत और अग्निकुंड\n4) तीन अलग-अलग भागों में विभाजित\n\nसही विकल्प का चयन कीजिए:\nA) a-3, b-4, c-2, d-1\nB) a-1, b-2, c-3, d-4\nC) a-3, b-1, c-2, d-4\nD) a-4, b-3, c-1, d-2",
+      "option_a": "a-3, b-4, c-2, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-3, b-1, c-2, d-4",
+      "option_d": "a-4, b-3, c-1, d-2",
+      "correct": "A",
+      "explanation": "कालीबंगा जुते हुए खेत और अग्निकुंडों के लिए प्रसिद्ध है; धोलावीरा तीन भागों में विभाजित होने के लिए विशिष्ट है; हड़प्पा में छह अन्नागारों की पंक्तियाँ हैं; मोहनजोदड़ो में प्रसिद्ध विशाल स्नानागार स्थित है।"
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the drainage system of Harappan cities:\n1. Every house had its own courtyard and bathroom.\n2. The street drains were equipped with manholes and covered with bricks or stone slabs.\n3. Channelling wastewater directly into open fields without a pipe network was the standard practice.\nWhich of the statements given above is/are correct?\nA) 1 and 2 only\nB) 2 and 3 only\nC) 1 and 3 only\nD) 1, 2 and 3",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the Harappans had a highly advanced drainage network where house drains connected directly to main street sewers."
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "HI",
+      "text": "Q. हड़प्पा के शहरों की जल निकासी प्रणाली (drainage system) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. प्रत्येक घर का अपना आंगन और स्नानघर होता था।\n2. सड़कों की नालियां मैनहोल (सफाई द्वारों) से सुसज्जित थीं और ईंटों या पत्थर की पट्टियों से ढकी हुई थीं।\n3. बिना पाइप नेटवर्क के सीधे खुले खेतों में अपशिष्ट जल को बहाना मानक अभ्यास था।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?\nA) केवल 1 और 2\nB) केवल 2 और 3\nC) केवल 1 और 3\nD) 1, 2 और 3",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 और 2 सही हैं। कथन 3 गलत है क्योंकि हड़प्पा वासियों के पास एक अत्यधिक उन्नत जल निकासी नेटवर्क था जहाँ घरों की नालियाँ सीधे मुख्य सड़क के गटर से जुड़ी थीं।"
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "EN",
+      "text": "Q. Consider the following statements:\nAssertion (A): The political organization of Harappa was likely dominated by a class of merchants rather than priests.\nReason (R): In sharp contrast to Mesopotamia, no temples or religious structures of a monumental scale have been found at Harappan sites.\nChoose the correct option:\nA) Both A and R are true and R is the correct explanation of A\nB) Both A and R are true but R is not the correct explanation of A\nC) A is true but R is false\nD) A is false but R is true",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is not the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Because no temples or monumental structures representing direct rule of priests are found in Harappa (unlike Mesopotamia), historians conclude that Harappa was likely ruled by a class of merchants focused on commerce."
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों पर विचार कीजिए:\nअभिकथन (A): हड़प्पा के राजनीतिक संगठन पर पुजारियों के बजाय व्यापारियों के एक वर्ग का प्रभुत्व होने की संभावना थी।\nकारण (R): मेसोपोटामिया के विपरीत, हड़प्पा स्थलों पर विशाल स्तर पर कोई मंदिर या धार्मिक संरचनाएं नहीं मिली हैं।\nसही विकल्प का चयन कीजिए:\nA) A और R दोनों सही हैं और R, A की सही व्याख्या करता है\nB) A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है\nC) A सही है लेकिन R गलत है\nD) A गलत है लेकिन R सही है",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "चूंकि हड़प्पा में पुजारियों के प्रत्यक्ष शासन का प्रतिनिधित्व करने वाला कोई मंदिर या विशाल संरचनाएं नहीं मिली हैं (मेसोपोटामिया के विपरीत), इतिहासकार निष्कर्ष निकालते हैं कि हड़प्पा पर संभवतः वाणिज्य पर केंद्रित व्यापारियों के वर्ग का शासन था।"
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the famous \"Pasupati Seal\" discovered at Mohenjo-daro:\n1. The deity has three heads and horns, sitting in the posture of a yogi.\n2. The deity is surrounded by a tiger, an elephant, a rhinoceros, and a buffalo.\n3. Two deer are depicted sitting at the feet of the deity.\nWhich of the statements given above are correct?\nA) 1 and 2 only\nB) 2 and 3 only\nC) 1 and 3 only\nD) 1, 2 and 3",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "All three statements are correct. The seal depicts a horned yogic figure surrounded by four animals facing four directions (elephant, tiger, rhino, buffalo) and two deer at the feet."
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "HI",
+      "text": "Q. मोहनजोदड़ो से प्राप्त प्रसिद्ध \"पशुपति मुहर\" के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. देवता के तीन सिर और सींग हैं, जो एक योगी की मुद्रा में बैठे हैं।\n2. देवता एक बाघ, एक हाथी, एक गैंडे और एक भैंसे से घिरे हुए हैं।\n3. देवता के चरणों में दो हिरण बैठे हुए दर्शाए गए हैं।\nउपर्युक्त कथनों में से कौन से सही हैं?\nA) केवल 1 और 2\nB) केवल 2 और 3\nC) केवल 1 और 3\nD) 1, 2 और 3",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "तीनों कथन सही हैं। मुहर में एक सींग वाले योगी की आकृति को दर्शाया गया है जो चार दिशाओं का सामना करने वाले चार जानवरों (हाथी, बाघ, गैंडा, भैंसा) से घिरे हैं और चरणों में दो हिरण हैं।"
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "EN",
+      "text": "Q. Which of the following Harappan sites has yielded evidence of a dockyard, indicating overseas trade?\nA) Kalibangan\nB) Lothal\nC) Rakhigarhi\nD) Banawali",
+      "option_a": "Kalibangan",
+      "option_b": "Lothal",
+      "option_c": "Rakhigarhi",
+      "option_d": "Banawali",
+      "correct": "B",
+      "explanation": "Lothal, located in Gujarat, had a massive brick basin which has been identified by archaeologists as a tidal dockyard connected to the Gulf of Khambhat via a tributary of Sabarmati."
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस हड़प्पा स्थल पर एक गोदी (dockyard) का साक्ष्य मिला है, जो विदेशी व्यापार का संकेत देता है?\nA) कालीबंगा\nB) लोथल\nC) राखीगढ़ी\nD) बनावली",
+      "option_a": "कालीबंगा",
+      "option_b": "लोथल",
+      "option_c": "राखीगढ़ी",
+      "option_d": "बनावली",
+      "correct": "B",
+      "explanation": "गुजरात में स्थित लोथल में एक विशाल ईंटों का बेसिन था जिसे पुरातत्वविदों द्वारा साबरमती की एक सहायक नदी के माध्यम से खंभात की खाड़ी से जुड़े एक गोदी (डॉकयार्ड) के रूप में पहचाना गया है।"
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Harappan external trade:\n1. Direct trade relations existed between Harappa and Mesopotamia, with Dilmun serving as an intermediate trading station.\n2. In Mespotamian cylinder seals, Harappa is referred to as 'Meluhha'.\nWhich of the statements given above is/are correct?\nA) 1 only\nB) 2 only\nC) Both 1 and 2\nD) Neither 1 nor 2",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Both statements are correct. In cuneiform texts of Mesopotamia, Meluhha is the name given to the Indus region, while Dilmun (Bahrain) served as an intermediate station."
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "HI",
+      "text": "Q. हड़प्पा के बाहरी व्यापार के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. हड़प्पा और मेसोपोटामिया के बीच सीधे व्यापारिक संबंध मौजूद थे, जिसमें दिलमुन एक मध्यवर्ती व्यापारिक स्टेशन के रूप में कार्य करता था।\n2. मेसोपोटामिया की बेलनाकार मुहरों में हड़प्पा को 'मेलुहा' कहा गया है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?\nA) केवल 1\nB) केवल 2\nC) 1 और 2 दोनों\nD) न तो 1 और न ही 2",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "दोनों कथन सही हैं। मेसोपोटामिया के कीलाक्षर (cuneiform) लेखों में मेलुहा सिंधु क्षेत्र को दिया गया नाम है, जबकि दिलमुन (बहरीन) एक मध्यवर्ती स्टेशन के रूप में कार्य करता था।"
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "EN",
+      "text": "Q. Which of the following raw materials and their sources of import are correctly matched?\nRaw Material | Source\n1. Copper | Khetri mines (Rajasthan)\n2. Lapis Lazuli | Badakhshan (Afghanistan)\n3. Gold | Kolar (Karnataka)\nSelect the correct option:\nA) 1 and 2 only\nB) 2 and 3 only\nC) 1 and 3 only\nD) 1, 2 and 3",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "All pairs are correctly matched. The Harappans had wide sourcing networks: copper from Rajasthan, lapis lazuli from Shortughai/Badakhshan, and gold from Southern India."
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन से कच्चे माल और उनके आयात के स्रोत सही सुमेलित हैं?\nकच्चा माल | स्रोत\n1. तांबा | खेतड़ी खानें (राजस्थान)\n2. लापीस लाजुली | बदख्शां (अफगानिस्तान)\n3. सोना | कोलार (कर्नाटक)\nसही विकल्प का चयन करें:\nA) केवल 1 और 2\nB) केवल 2 और 3\nC) केवल 1 और 3\nD) 1, 2 और 3",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "सभी युग्म सही सुमेलित हैं। हड़प्पा वासियों के पास व्यापक स्रोत नेटवर्क थे: राजस्थान से तांबा, शोर्तुगई/बदख्शां से लापीस लाजुली और दक्षिणी भारत से सोना।"
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "EN",
+      "text": "Q. The unique water conservation system consisting of 16 giant rock-cut reservoirs was discovered at which Harappan site?\nA) Lothal\nB) Dholavira\nC) Banawali\nD) Rakhigarhi",
+      "option_a": "Lothal",
+      "option_b": "Dholavira",
+      "option_c": "Banawali",
+      "option_d": "Rakhigarhi",
+      "correct": "B",
+      "explanation": "Dholavira, located in Kutch, Gujarat, shows advanced water harvesting management with a network of massive rock-cut reservoirs to store seasonal run-off water."
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "HI",
+      "text": "Q. 16 विशाल चट्टानों को काटकर बनाए गए जलाशयों से युक्त अद्वितीय जल संरक्षण प्रणाली किस हड़प्पा स्थल पर खोजी गई थी?\nA) लोथल\nB) धोलावीरा\nC) बनावली\nD) राखीगढ़ी",
+      "option_a": "लोथल",
+      "option_b": "धोलावीरा",
+      "option_c": "बनावली",
+      "option_d": "राखीगढ़ी",
+      "correct": "B",
+      "explanation": "गुजरात के कच्छ में स्थित धोलावीरा में मौसमी वर्षा के पानी को संचित करने के लिए विशाल चट्टानों को काटकर बनाए गए जलाशयों के नेटवर्क के साथ उन्नत जल संचयन प्रबंधन दिखाई देता है।"
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "EN",
+      "text": "Q. In which of the following Harappan sites was a bead-making factory, along with furnaces, discovered?\nA) Chanhudaro\nB) Kalibangan\nC) Ropar\nD) Kot Diji",
+      "option_a": "Chanhudaro",
+      "option_b": "Kalibangan",
+      "option_c": "Ropar",
+      "option_d": "Kot Diji",
+      "correct": "A",
+      "explanation": "Chanhudaro, located in Sindh, was a major industrial center specializing in bead-making, shell-cutting, and seal-making."
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस हड़प्पा स्थल पर भट्टियों के साथ मनके बनाने का कारखाना (bead-making factory) खोजा गया था?\nA) चन्हुदड़ो\nB) कालीबंगा\nC) रोपड़\nD) कोट दीजी",
+      "option_a": "चन्हुदड़ो",
+      "option_b": "कालीबंगा",
+      "option_c": "रोपड़",
+      "option_d": "कोट दीजी",
+      "correct": "A",
+      "explanation": "सिंध में स्थित चन्हुदड़ो एक प्रमुख औद्योगिक केंद्र था जो मनके बनाने, शंख काटने और मुहर बनाने में विशेषज्ञता रखता था।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "EN",
+      "text": "Q. Critically examine the layout and social stratification reflected in the town planning of Harappan cities. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Introduction: Harappan town planning shows a clear, planned layout reflecting socio-political organization.\n\nBody:\n* **The Citadel (Upper Town)**: Located on a raised platform to the west; contained public buildings, granaries, and was occupied by the ruling class.\n* **The Lower Town**: Located to the east; contained grid-patterned houses inhabited by commoners.\n\nConclusion: This dual-division indicates administrative hierarchy and class stratification."
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "HI",
+      "text": "Q. हड़प्पा के शहरों के नगर नियोजन में परिलक्षित लेआउट और सामाजिक स्तरीकरण का आलोचनात्मक परीक्षण कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रस्तावना: हड़प्पा नगर नियोजन सामाजिक-राजनीतिक संगठन को दर्शाने वाला एक स्पष्ट, नियोजित लेआउट दिखाता है।\n\nमुख्य भाग:\n* **दुर्ग (उच्च शहर)**: पश्चिम में एक ऊंचे मंच पर स्थित था; इसमें सार्वजनिक इमारतें, अन्नागार थे, और यह शासक वर्ग के अधीन था।\n* **निचला शहर**: पूर्व में स्थित था; इसमें ग्रिड-पैटर्न वाले घर थे जिसमें आम लोग निवास करते थे।\n\nनिष्कर्ष: यह दोहरा विभाजन प्रशासनिक पदानुक्रम और वर्ग स्तरीकरण को दर्शाता है।"
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "EN",
+      "text": "Q. Describe the features of the sanitation and drainage architecture of Harappan cities. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Introduction: The drainage and sanitation system of the Harappan civilization is unique in the ancient world.\n\nBody: Every house had a bathroom connected directly to street sewers. Drains were constructed of burnt bricks, equipped with manholes for inspection, and covered with brick or stone slabs.\n\nConclusion: This system reflects high civic concern and advanced municipal authority."
+    },
+    {
+      "subtopic_key": "TOWN_PLANNING",
+      "lang": "HI",
+      "text": "Q. हड़प्पा के शहरों की स्वच्छता और जल निकासी वास्तुकला की विशेषताओं का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रस्तावना: हड़प्पा सभ्यता की जल निकासी और स्वच्छता प्रणाली प्राचीन दुनिया में अद्वितीय है।\n\nमुख्य भाग: प्रत्येक घर में एक स्नानघर होता था जो सीधे सड़क के गटर से जुड़ा था। नालियों का निर्माण पकी ईंटों से किया गया था, निरीक्षण के लिए मैनहोल थे, और वे ईंट या पत्थर की पट्टियों से ढकी थीं।\n\nनिष्कर्ष: यह प्रणाली उच्च नागरिक चिंता और उन्नत नगर निगम प्राधिकरण को दर्शाती है।"
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "EN",
+      "text": "Q. Discuss the metallurgical technology and artistic features of Harappan seals and bronze sculptures. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Introduction: The Harappan civilization (Bronze Age) demonstrated advanced metallurgical skills and unique artistic traditions.\n\nBody:\n* **Metallurgical Advancements**:\n  * Utilized the **\"Lost-Wax\"** (cire perdue) technique for casting bronze (e.g., the 4-inch *Dancing Girl* and bull figurines).\n  * Imported tin from Afghanistan and copper from Khetri mines (Rajasthan).\n* **Artistic Features of Seals**:\n  * Carved primarily from soft **steatite** in square formats (2x2).\n  * Feature realistic animal engravings (unicorn, humped bull, rhinoceros) and pictographic script.\n  * Served commercial and administrative functions.\n\n| Medium | Key Art Piece | Technique / Style |\n|---|---|---|\n| Bronze | Dancing Girl | Lost-Wax Casting |\n| Steatite | Pasupati Seal | Intaglio Carving |\n| Terracotta | Mother Goddess | Pinching Technique |\n\nConclusion: Harappan metallurgy and seal-carving reflect a highly organized urban craft economy."
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "HI",
+      "text": "Q. हड़प्पा की मुहरों और कांस्य मूर्तियों की धातुशोधन तकनीक और कलात्मक विशेषताओं की चर्चा कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रस्तावना: हड़प्पा सभ्यता (कांस्य युग) ने उन्नत धातु कौशल और अद्वितीय कलात्मक परंपराओं का प्रदर्शन किया।\n\nमुख्य भाग:\n* **धातुशोधन प्रगति**:\n  * कांस्य ढलाई के लिए **\"लुप्त मोम\"** (Lost-Wax) तकनीक का उपयोग किया (जैसे, 4 इंच की *नर्तकी की मूर्ति* और बैल की मूर्तियां)।\n  * अफगानिस्तान से टिन और खेतड़ी खानों (राजस्थान) से तांबे का आयात किया।\n* **मुहरों की कलात्मक विशेषताएं**:\n  * मुख्य रूप से चौकोर प्रारूप (2x2) में नरम **स्टीटाइट** से नक्काशीदार।\n  * यथार्थवादी पशु नक्काशी (एक सींग वाला बैल, कूबड़ वाला बैल, गैंडा) और चित्रात्मक लिपि शामिल हैं।\n  * व्यावसायिक और प्रशासनिक कार्यों के लिए उपयोग किया जाता था।\n\n| माध्यम | प्रमुख कलाकृति | तकनीक / शैली |\n|---|---|---|\n| कांस्य | नर्तकी की मूर्ति | लुप्त मोम ढलाई |\n| स्टीटाइट | पशुपति मुहर | अन्तर्गर्त नक्काशी |\n| टेराकोटा | मातृदेवी की मूर्ति | पिंचिंग तकनीक |\n\nनिष्कर्ष: हड़प्पा का धातु कर्म और मुहर-नक्काशी एक अत्यधिक संगठित शहरी शिल्प अर्थव्यवस्था को दर्शाती है।"
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "EN",
+      "text": "Q. Critically analyze the external and internal trade networks of the Harappans, detailing key trading partners and raw material sources. Present your answer using a clean table. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Introduction: The Harappan civilization possessed an extensive commercial network that linked urban production centers to distant resources.\n\nBody:\n* **Internal Trade Networks**: Exchanged agricultural surplus and regional minerals. Sourced copper from Khetri (Rajasthan), gold from Kolar (Karnataka), and conch shells from Kathiawar.\n* **External Trade Networks**: Maintained maritime and land routes with Mesopotamia, Persian Gulf (Dilmun/Magan), and Afghanistan.\n\n| Raw Material | Primary Source | Type of Trade |\n| :--- | :--- | :--- |\n| **Copper** | Khetri Mines (Rajasthan) | Internal / Regional |\n| **Lapis Lazuli** | Shortughai (Badakhshan, Afghanistan) | Overland / External |\n| **Gold** | Kolar (Karnataka) | Southern Internal |\n| **Steatite** | Rajasthan / Gujarat | Local Sourcing |\n\nConclusion: This trade integration supported their uniform weights and measures, securing the wealth of their municipal states."
+    },
+    {
+      "subtopic_key": "TRADE",
+      "lang": "HI",
+      "text": "Q. हड़प्पा वासियों के बाहरी और आंतरिक व्यापार नेटवर्क का समालोचनात्मक विश्लेषण कीजिए, प्रमुख व्यापारिक भागीदारों और कच्चे माल के स्रोतों का विवरण दीजिए। एक साफ तालिका का उपयोग करें। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रस्तावना: हड़प्पा सभ्यता के पास एक व्यापक वाणिज्यिक नेटवर्क था जिसने शहरी उत्पादन केंद्रों को दूरस्थ संसाधनों से जोड़ा था।\n\nमुख्य भाग:\n* **आंतरिक व्यापार नेटवर्क**: कृषि अधिशेष और क्षेत्रीय खनिजों का आदान-प्रदान किया। राजस्थान से तांबा, कर्नाटक से सोना और काठियावाड़ से शंख प्राप्त किए।\n* **बाहरी व्यापार नेटवर्क**: मेसोपोटामिया, फारस की खाड़ी (दिलमुन/मगान) और अफगानिस्तान के साथ समुद्री और भूमि मार्ग बनाए रखे।\n\n| कच्चा माल | प्राथमिक स्रोत | व्यापार का प्रकार |\n| :--- | :--- | :--- |\n| **तांबा** | खेतड़ी खानें (राजस्थान) | आंतरिक / क्षेत्रीय |\n| **लापीस लाजुली** | शोर्तुगई (बदख्शां, अफगानिस्तान) | भूमि मार्ग / बाहरी |\n| **सोना** | कोलार (कर्नाटक) | दक्षिणी आंतरिक |\n| **स्टीटाइट** | राजस्थान / गुजरात | स्थानीय स्रोत |\n\nनिष्कर्ष: इस व्यापार एकीकरण ने उनके समान वजन और माप का समर्थन किया, जिससे उनके नगरपालिका राज्यों की संपत्ति सुरक्षित हुई।"
+    }
+  ]
+}
