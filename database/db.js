@@ -1460,6 +1460,167 @@ D) 1, 2 और 3`,
             console.log("Custom high-quality Performing Arts questions seeded successfully.");
         }
 
+        // 2.8 Seed custom high-quality questions for Rajasthani Literature (Topic 9 & 101)
+        const literaturePreCount = await get("SELECT COUNT(*) as count FROM questions WHERE topic_id = 9");
+        if (literaturePreCount.count === 0) {
+            console.log("Seeding custom high-quality questions for Rajasthani Literature (Pre)...");
+            const customPreQuestions = [
+                {
+                    lang: 'EN',
+                    text: 'Q. Consider the following statements regarding the \\'Dingal\\' and \\'Pingal\\' literary styles of Rajasthan:\\n1. Dingal is primarily a bardic style of Western Rajasthan, characterized by its aggressive and martial tone.\\n2. Pingal is a style of Eastern Rajasthan, heavily influenced by Brajbhasha, and written in Bhat and Charani traditions.\\nWhich of the statements given above is/are correct?\\nA) 1 only\\nB) 2 only\\nC) Both 1 and 2\\nD) Neither 1 nor 2',
+                    option_a: '1 only',
+                    option_b: '2 only',
+                    option_c: 'Both 1 and 2',
+                    option_d: 'Neither 1 nor 2',
+                    correct: 'A',
+                    explanation: 'Statement 1 is correct. Dingal is the primary bardic and martial literary style of Western Rajasthan (Marwar) associated with the Charan community. Statement 2 is incorrect because Pingal is indeed a style of Eastern Rajasthan influenced by Brajbhasha, but it is primarily written in the Bhat community tradition, while Dingal is written in the Charan tradition.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. Rajasthan की \\'डिंगल\\' और \\’पिंगल\\' साहित्यिक शैलियों के संबंध में निम्नलिखित कथनों पर विचार करें:\\n1. डिंगल मुख्य रूप से पश्चिमी राजस्थान की चारण शैली है, जो अपने युद्ध और वीर रस के लिए जानी जाती है।\\n2. पिंगल पूर्वी राजस्थान की शैली है, जो ब्रजभाषा से प्रभावित है और मुख्य रूप से भाटों द्वारा लिखी गई थी।\\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?\\nA) केवल 1\\nB) केवल 2\\nC) 1 और 2 दोनों\\nD) न तो 1 और न ही 2',
+                    option_a: 'केवल 1',
+                    option_b: 'केवल 2',
+                    option_c: '1 और 2 दोनों',
+                    option_d: 'न तो 1 और न ही 2',
+                    correct: 'C',
+                    explanation: 'दोनों कथन सही हैं। डिंगल पश्चिमी राजस्थान (मारवाड़) की चारण समुदाय से जुड़ी वीर रस की शैली है। पिंगल पूर्वी राजस्थान की शैली है जो ब्रजभाषा से प्रभावित है और यह मुख्य रूप से भाट समुदाय की परंपरा में लिखी गई है।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Match the following Rajasthani literary works with their respective authors:\\nLiterary Work | Author\\nI. Vansh Bhaskar | a. Padmanabh\\nII. Kanha-de Prabandh | b. Suryamal Misran\\nIII. Vir Satsai | c. Kanhaiyalal Sethia\\nIV. Leeltans | d. Bankidas\\nSelect the correct option:\\nA) I-b, II-a, III-b, IV-c\\nB) I-a, II-b, III-c, IV-d\\nC) I-b, II-d, III-a, IV-c\\nD) I-c, II-a, III-d, IV-b',
+                    option_a: 'I-b, II-a, III-b, IV-c',
+                    option_b: 'I-a, II-b, III-c, IV-d',
+                    option_c: 'I-b, II-d, III-a, IV-c',
+                    option_d: 'I-c, II-a, III-d, IV-b',
+                    correct: 'A',
+                    explanation: 'Vansh Bhaskar and Vir Satsai are both authored by the legendary state poet Suryamal Misran of Bundi. Kanha-de Prabandh, which describes the siege of Jalore, was composed by Padmanabh. Leeltans is a famous modern work by Kanhaiyalal Sethia.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. निम्नलिखित राजस्थानी साहित्यिक कृतियों को उनके संबंधित लेखकों से सुमेलित करें:\\nसाहित्यिक कृति | लेखक\\nI. वंश भास्कर | a. पद्मनाभ\\nII. कान्हड़दे प्रबंध | b. सूर्यमल्ल मिश्रण\\nIII. वीर सतसई | c. कन्हैयालाल सेठिया\\nIV. लीलटांस | d. बांकीदास\\nसही विकल्प का चयन करें:\\nA) I-b, II-a, III-b, IV-c\\nB) I-a, II-b, III-c, IV-d\\nC) I-b, II-d, III-a, IV-c\\nD) I-c, II-a, III-d, IV-b',
+                    option_a: 'I-b, II-a, III-b, IV-c',
+                    option_b: 'I-a, II-b, III-c, IV-d',
+                    option_c: 'I-b, II-d, III-a, IV-c',
+                    option_d: 'I-c, II-a, III-d, IV-b',
+                    correct: 'A',
+                    explanation: 'वंश भास्कर और वीर सतसई दोनों बूंदी के प्रसिद्ध राज्य कवि सूर्यमल्ल मिश्रण द्वारा रचित हैं। कान्हड़दे प्रबंध, जो जालौर के घेराबंदी का वर्णन करता है, पद्मनाभ द्वारा रचित था। लीलटांस कन्हैयालाल सेठिया की एक प्रसिद्ध आधुनिक रचना है।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. The \\'Kuvalayamala\\', which provides the earliest historical reference to \\'Marubhasha\\' (the ancient form of Marwari), was written by which Jain scholar in 778 AD?\\nA) Udyotan Suri\\nB) Haribhadra Suri\\nC) Jineshwar Suri\\nD) Hemachandra Suri',
+                    option_a: 'Udyotan Suri',
+                    option_b: 'Haribhadra Suri',
+                    option_c: 'Jineshwar Suri',
+                    option_d: 'Hemachandra Suri',
+                    correct: 'A',
+                    explanation: 'Kuvalayamala is a famous Prakrit text composed by Udyotan Suri in 778 AD at Jalore. In this work, the author mentions 18 regional languages of India, including \\'Marubhasha\\\', describing the sweet and distinct character of the language spoken in Western Rajasthan.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. 778 ईस्वी में किस जैन विद्वान ने \\'कुवलयमाला\\' की रचना की थी, जिसमें \\'मरुभाषा\\' (मारवाड़ी का प्राचीन रूप) का सबसे पहला ऐतिहासिक संदर्भ मिलता है?\\nA) उद्योतन सूरी\\nB) हरिभद्र सूरी\\nC) जिनेश्वर सूरी\\nD) हेमचंद्र सूरी',
+                    option_a: 'उद्योतन सूरी',
+                    option_b: 'हरिभद्र सूरी',
+                    option_c: 'जिनेश्वर सूरी',
+                    option_d: 'हेमचंद्र सूरी',
+                    correct: 'A',
+                    explanation: 'कुवलयमाला उद्योतन सूरी द्वारा 778 ईस्वी में जालौर में रचित एक प्रसिद्ध प्राकृत ग्रंथ है। इस ग्रंथ में लेखक ने भारत की 18 क्षेत्रीय भाषाओं का उल्लेख किया है, जिसमें \\'मरुभाषा\\' भी शामिल है, जो पश्चिमी राजस्थान में बोली जाने वाली भाषा के मीठे चरित्र का वर्णन करती है।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Consider the following statements regarding the classification of Rajasthani dialects by George Abraham Grierson in the \\'Linguistic Survey of India\\\':\\n1. He classified Rajasthani dialects into five distinct subgroups.\\n2. He identified Marwari as the most widely spoken dialect of Western Rajasthan.\\n3. He placed Malvi and Nimadi under the Southern Rajasthani group.\\nWhich of the statements given above are correct?\\nA) 1 and 2 only\\nB) 2 and 3 only\\nC) 1 and 3 only\\nD) 1, 2, and 3',
+                    option_a: '1 and 2 only',
+                    option_b: '2 and 3 only',
+                    option_c: '1 and 3 only',
+                    option_d: '1, 2, and 3',
+                    correct: 'D',
+                    explanation: 'All statements are correct. George Abraham Grierson classified Rajasthani into five sub-groups: Western Rajasthani (Marwari, Mewari), Central-Eastern (Dhoondhari, Haroti), North-Eastern (Mewati, Ahirwati), Southern (Malvi, Nimadi), and South-Western. He highlighted Marwari as the standard dialect of the Western region.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. \\'भाषाई सर्वेक्षण\\' (Linguistic Survey of India) में जॉर्ज अब्राहम ग्रियर्सन द्वारा राजस्थानी बोलियों के वर्गीकरण के संबंध में निम्नलिखित कथनों पर विचार करें:\\n1. उन्होंने राजस्थानी बोलियों को पांच अलग-अलग समूहों में वर्गीकृत किया।\\n2. उन्होंने मारवाड़ी को पश्चिमी राजस्थान की सबसे व्यापक रूप से बोली जाने वाली बोली के रूप में पहचाना।\\n3. उन्होंने मालवी और निमाड़ी को दक्षिणी राजस्थानी समूह के अंतर्गत रखा।\\nउपरोक्त कथनों में से कौन से सही हैं?\\nA) केवल 1 और 2\\nB) केवल 2 और 3\\nC) केवल 1 और 3\\nD) 1, 2 और 3',
+                    option_a: 'केवल 1 और 2',
+                    option_b: 'केवल 2 और 3',
+                    option_c: 'केवल 1 और 3',
+                    option_d: '1, 2 और 3',
+                    correct: 'D',
+                    explanation: 'सभी कथन सही हैं। जॉर्ज अब्राहम ग्रियर्सन ने राजस्थानी को पांच उप-समूहों में वर्गीकृत किया: पश्चिमी राजस्थानी (मारवाड़ी, मेवाड़ी), मध्य-पूर्वी (ढूंढाड़ी, हाड़ौती), उत्तर-पूर्वी (मेवाती, अहीरवाटी), दक्षिणी (मालवी, निमाड़ी), और दक्षिण-पश्चिमी। उन्होंने मारवाड़ी को पश्चिमी क्षेत्र की मानक बोली के रूप में रेखांकित किया।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Which of the following modern Rajasthani poems, famous for its patriotic and regional pride, was composed by Kanhaiyalal Sethia and compares the land of Rajasthan to heaven?\\nA) Dharti Dhoran Ri\\nB) Pathal aur Pithal\\nC) Minjhar\\nD) Leeltans',
+                    option_a: 'Dharti Dhoran Ri',
+                    option_b: 'Pathal aur Pithal',
+                    option_c: 'Minjhar',
+                    option_d: 'Leeltans',
+                    correct: 'A',
+                    explanation: 'Dharti Dhoran Ri is the iconic poem by Kanhaiyalal Sethia celebrating the landscape, history, and cultural pride of Rajasthan.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. निम्नलिखित में से कौन सी आधुनिक राजस्थानी कविता, जो अपनी देशभक्ति और क्षेत्रीय गौरव के लिए प्रसिद्ध है, कन्हैयालाल सेठिया द्वारा रचित है और राजस्थान की भूमि की तुलना स्वर्ग से करती है?\\nA) धरती धोरां री\\nB) पीथल और पाथल\\nC) मिंझर\\nD) लीलटांस',
+                    option_a: 'धरती धोरां री',
+                    option_b: 'पीथल और पाथल',
+                    option_c: 'मिंझर',
+                    option_d: 'लीलटांस',
+                    correct: 'A',
+                    explanation: '\\'धरती धोरां री\\' कन्हैयालाल सेठिया की प्रसिद्ध कविता है जो राजस्थान के परिदृश्य, इतिहास और सांस्कृतिक गौरव का जश्न मनाती है।'
+                }
+            ];
+
+            for (const q of customPreQuestions) {
+                await run(`
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language)
+                    VALUES (9, ?, ?, ?, ?, ?, ?, ?, ?)
+                `, [q.text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct, q.explanation, q.lang]);
+            }
+            console.log("Seeded custom high-quality Pre questions for Literature.");
+        }
+
+        const literatureMainsCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE topic_id = 101 AND question_text LIKE '%literature%'");
+        if (literatureMainsCount.count === 0) {
+            console.log("Seeding custom high-quality questions for Rajasthani Literature (Mains)...");
+            const customMainsQuestions = [
+                {
+                    lang: 'EN',
+                    text: 'Q. Define \\'Dingal\\' and \\'Pingal\\' styles of Rajasthani literature and highlight their structural differences. [5 Marks, 50 Words]\\n\\nAnswer:',
+                    model_answer: 'Introduction: Dingal and Pingal are the primary classical styles that form the backbone of Rajasthani literature, reflecting regional linguistic divisions.\\n\\nBody:\\n* Dingal: Formulated in Western Rajasthan (Marwar) by the Charan community. It is written in a martial tone using Marwari.\\n* Pingal: Developed in Eastern Rajasthan (Mewat/Dhundhar) by the Bhat community. It is heavily influenced by Brajbhasha and is softer and more lyrical.\\n\\nConclusion: Together, these styles preserved the historical struggles and romantic heritage of medieval Rajasthan.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. राजस्थानी साहित्य की \\'डिंगल\\' और \\'पिंगल\\' शैलियों को परिभाषित कीजिए तथा उनके संरचनात्मक अंतरों को रेखांकित कीजिए। [5 अंक, 50 शब्द]\\n\\nउत्तर:',
+                    model_answer: 'प्रस्तावना: डिंगल और पिंगल राजस्थानी साहित्य की रीढ़ बनाने वाली प्राथमिक शास्त्रीय शैलियाँ हैं, जो क्षेत्रीय भाषाई विभाजनों को दर्शाती हैं।\\n\\nमुख्य भाग:\\n* डिंगल: पश्चिमी राजस्थान (मारवाड़) में चारण समुदाय द्वारा विकसित की गई। यह मारवाड़ी का उपयोग करते हुए एक युद्ध और वीर रस की शैली है।\\n* पिंगल: पूर्वी राजस्थान (मेवात/ढूंढाड़) में भाट समुदाय द्वारा विकसित की गई। यह ब्रजभाषा से काफी प्रभावित है और अधिक मधुर व काव्यात्मक है।\\n\\nनिष्कर्ष: इन दोनों शैलियों ने मध्यकालीन राजस्थान के ऐतिहासिक संघर्षों और प्रेम विरासत को संरक्षित किया।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Examine the historical significance of \\'Nainsi ri Khyat\\' as a source of medieval history of Rajasthan. [5 Marks, 50 Words]\\n\\nAnswer:',
+                    model_answer: 'Introduction: Written by Muhnot Nainsi (Diwan of Jodhpur), \\'Nainsi ri Khyat\\' is a foundational historical chronicle of Rajasthan.\\n\\nBody: It provides detailed geographical, economic, and political records of Marwar and neighboring Rajput states. Nainsi used local revenue records to compile pargana statistics, showing crop yields and caste structures.\\n\\nConclusion: Thus, it serves as the earliest reliable administrative gazetteer, transforming oral histories into documented historical evidence.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. राजस्थान के मध्यकालीन इतिहास के स्रोत के रूप में \\'नैणसी री ख्यात\\' के ऐतिहासिक महत्व का परीक्षण कीजिए। [5 अंक, 50 शब्द]\\n\\nउत्तर:',
+                    model_answer: 'प्रस्तावना: जोधपुर के दीवान मुहणोत नैणसी द्वारा लिखित \\'नैणसी री ख्यात\\' राजस्थान का एक आधारभूत ऐतिहासिक ग्रंथ है।\\n\\nमुख्य भाग: यह मारवाड़ और पड़ोसी राजपूत राज्यों के विस्तृत भौगोलिक, आर्थिक और राजनीतिक रिकॉर्ड प्रदान करता है। नैणसी ने परगना के आंकड़ों को संकलित करने के लिए स्थानीय राजस्व रिकॉर्ड का उपयोग किया, जिससे फसलों की पैदावार और जातिगत संरचनाएं प्रदर्शित होती हैं।\\n\\nनिष्कर्ष: इस प्रकार, यह क्षेत्र के सबसे पहले विश्वसनीय प्रशासनिक गजेटियर के रूप में कार्य करता है, जो मौखिक इतिहास को प्रलेखित साक्ष्य में बदलता है।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Discuss the regional distribution of major dialects of Rajasthan, noting their geocultural influences. Present your answer using a clean markdown table. [10 Marks, 150 Words]\\n\\nAnswer:',
+                    model_answer: 'Introduction: The linguistic landscape of Rajasthan is highly diverse, showing gradual phonetic transitions based on geographic borders and historical migrations.\\n\\nBody:\\n\\nThe distribution and geocultural influences of major dialects are structured below:\n\n| Dialect | Primary Region | Core Geocultural Influence |\\n| :--- | :--- | :--- |\\n| **Marwari** | Western Rajasthan (Jodhpur, Bikaner, Barmer) | Considered the standard literary base of Dingal. |\\n| **Dhoondhari** | Central-Eastern (Jaipur, Tonk) | Transition dialect showing influence of standard Hindi. |\\n| **Haroti** | South-Eastern (Kota, Bundi, Jhalawar) | Spoken in the Hadoti region; structurally close to Dhoondhari. |\\n| **Mewati** | North-Eastern (Alwar, Bharatpur) | Transition dialect between Rajasthani and Brajbhasha/Haryanvi. |\\n| **Wagdi** | Southern Hills (Dungarpur, Banswara) | Heavily influenced by Gujarati; classified as \\'Bhili\\' by Grierson. |\\n\\nConclusion: This regional distribution demonstrates how geography, trade routes, and border interactions directly shaped the phonetic and grammatical structures of Rajasthan\'s dialects.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. राजस्थान की प्रमुख बोलियों के क्षेत्रीय वितरण की चर्चा कीजिए और उनके भौगोलिक-सांस्कृतिक प्रभावों को नोट कीजिए। एक साफ तालिका का उपयोग करें। [10 अंक, 150 शब्द]\\n\\nउत्तर:',
+                    model_answer: 'प्रस्तावना: राजस्थान का भाषाई परिदृश्य अत्यधिक विविध है, जो भौगोलिक सीमाओं और ऐतिहासिक प्रवासों के आधार पर क्रमिक भाषाई बदलाव दिखाता है।\\n\\nमुख्य भाग:\\n\\nप्रमुख बोलियों का वितरण और उनका भौगोलिक-सांस्कृतिक प्रभाव नीचे दिया गया है:\n\n| बोली | प्राथमिक क्षेत्र | मुख्य भौगोलिक-सांस्कृतिक प्रभाव |\\n| :--- | :--- | :--- |\\n| **मारवाड़ी** | पश्चिमी राजस्थान (जोधपुर, बीकानेर, बाड़मेर) | डिंगल का मानक साहित्यिक आधार माना जाता है। |\\n| **ढूंढाड़ी** | मध्य-पूर्वी (जयपुर, टोंक) | | मानक हिंदी का प्रभाव दिखाने वाली संक्रमणकालीन बोली। |\\n| **हाड़ौती** | दक्षिण-पूर्वी (कोटा, बूंदी, झालावाड़) | हाड़ौती क्षेत्र में बोली जाती है; संरचनात्मक रूप से ढूंढाड़ी के करीब। |\\n| **मेवाती** | उत्तर-पूर्वी (अलवर, भरतपुर) | राजस्थानी और ब्रजभाषा/हरियाणवी के बीच संक्रमणकालीन बोली। |\\n| **वागड़ी** | दक्षिणी पहाड़ियाँ (डूंगरपुर, बांसवाड़ा) | गुजराती से काफी प्रभावित; ग्रियर्सन द्वारा \\'भीली\\' के रूप में वर्गीकृत। |\\n\\nनिष्कर्ष: यह क्षेत्रीय वितरण प्रदर्शित करता है कि किस प्रकार भूगोल, व्यापार मार्गों और सीमावर्ती संपर्कों ने राजस्थान की बोलियों की ध्वन्यात्मक और व्याकरणिक संरचनाओं को सीधे प्रभावित किया।'
+                }
+            ];
+
+            for (const q of customMainsQuestions) {
+                await run(`
+                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order)
+                    VALUES (101, ?, ?, ?, 1)
+                `, [q.text, q.model_answer, q.lang]);
+            }
+            console.log("Seeded custom high-quality Literature questions for Mains.");
+        }
+
 
     } catch (err) {
         console.error("Database initialization error:", err.message);
