@@ -1819,10 +1819,14 @@ module.exports = {
         const subjects = await all(`SELECT subject_id, tier_type, COALESCE(${nameCol}, subject_name) as subject_name FROM subjects WHERE tier_type = ?`, [tier]);
         for (const sub of subjects) {
             const units = await all(`SELECT unit_id, subject_id, COALESCE(${unitNameCol}, unit_name) as unit_name FROM units WHERE subject_id = ?`, [sub.subject_id]);
+            let flatTopics = [];
             for (const unit of units) {
-                unit.topics = await all(`SELECT topic_id, unit_id, COALESCE(${topicNameCol}, topic_name) as topic_name FROM topics WHERE unit_id = ?`, [unit.unit_id]);
+                const topics = await all(`SELECT topic_id, unit_id, COALESCE(${topicNameCol}, topic_name) as topic_name FROM topics WHERE unit_id = ?`, [unit.unit_id]);
+                unit.topics = topics;
+                flatTopics = flatTopics.concat(topics);
             }
             sub.units = units;
+            sub.topics = flatTopics; // Direct subject-to-topic mapping for mobile app compatibility
         }
         return subjects;
     },
