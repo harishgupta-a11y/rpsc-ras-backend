@@ -1185,6 +1185,281 @@ D) 1, 2 और 3`,
             }
         }
 
+        // 2.7 Seed custom high-quality questions for Performing Arts of Rajasthan (Folk Dances, Music & Dramas - Topic 8 & 101)
+        const performingArtsPreCount = await get("SELECT COUNT(*) as count FROM questions WHERE topic_id = 8");
+        if (performingArtsPreCount.count <= 6) {
+            console.log("Seeding custom high-quality questions for Performing Arts of Rajasthan (Pre)...");
+            await run("DELETE FROM questions WHERE topic_id = 8");
+            
+            const customPreQuestions = [
+                {
+                    lang: 'EN',
+                    text: 'Q. "Sawai" is a technical term associated with which folk dance of Rajasthan, representing a specific movement of the feet?\nA) Kalbelia\nB) Kathak\nC) Ghoomar\nD) Bhavai',
+                    option_a: 'Kalbelia',
+                    option_b: 'Kathak',
+                    option_c: 'Ghoomar',
+                    option_d: 'Bhavai',
+                    correct: 'C',
+                    explanation: 'In the Ghoomar dance, the performers move in a circular motion with intricate footwork. The specific fast movement or the distinct rhythmic steps taken by the dancers are locally known as \'Sawai\'. This dance was originally performed by the Bhil tribe to worship Goddess Saraswati and was later embraced by other Rajasthani communities.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. "सवाई" राजस्थान के किस लोक नृत्य से जुड़ा एक तकनीकी शब्द है, जो पैरों की एक विशिष्ट गति का प्रतिनिधित्व करता है?\nA) कालबेलिया\nB) कथक\nC) घूमर\nD) भवाई',
+                    option_a: 'कालबेलिया',
+                    option_b: 'कथक',
+                    option_c: 'घूमर',
+                    option_d: 'भवाई',
+                    correct: 'C',
+                    explanation: 'घूमर नृत्य में नर्तक जटिल फुटवर्क के साथ गोलाकार गति में चलते हैं। नर्तकियों द्वारा उठाए गए विशिष्ट तीव्र कदमों या लयबद्ध चरणों को स्थानीय रूप से \'सवाई\' कहा जाता है। यह नृत्य मूल रूप से भील जनजाति द्वारा देवी सरस्वती की पूजा के लिए किया जाता था और बाद में अन्य राजस्थानी समुदायों द्वारा अपनाया गया।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Consider the following statements regarding the \'Terah Tali\' dance:\n1. It is performed by women of the Kamad sect.\n2. It involves the use of 13 Manjeeras (cymbals).\n3. It is primarily performed during the fair of Baba Ramdevji.\n4. It originated from Padarla village in Pali.\nWhich of the statements given above are correct?\nA) 1 and 3 only\nB) 2 and 4 only\nC) 1, 2, and 3 only\nD) 1, 2, 3, and 4',
+                    option_a: '1 and 3 only',
+                    option_b: '2 and 4 only',
+                    option_c: '1, 2, and 3 only',
+                    option_d: '1, 2, 3, and 4',
+                    correct: 'D',
+                    explanation: 'All statements are correct. Terah Tali is a devotional dance performed by women of the Kamad community. They tie 13 Manjeeras (cymbals) to their body (mostly legs) and strike them with the ones in their hands in a rhythmic pattern while sitting. It is a key feature of the Ramdevra fair and originated in Padarla, Pali.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. \'तेरहताली\' नृत्य के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह कामड़ संप्रदाय की महिलाओं द्वारा किया जाता है।\n2. इसमें 13 मंजीरों का उपयोग शामिल है।\n3. यह मुख्य रूप से बाबा रामदेवजी के मेले के दौरान किया जाता है।\n4. इसकी उत्पत्ति पाली के पादरला गांव से हुई थी।\nउपरोक्त कथनों में से कौन से सही हैं?\nA) केवल 1 और 3\nB) केवल 2 और 4\nC) केवल 1, 2 और 3\nD) 1, 2, 3 और 4',
+                    option_a: 'केवल 1 और 3',
+                    option_b: 'केवल 2 और 4',
+                    option_c: 'केवल 1, 2 और 3',
+                    option_d: '1, 2, 3 और 4',
+                    correct: 'D',
+                    explanation: 'सभी कथन सही हैं। तेरहताली कामड़ समुदाय की महिलाओं द्वारा किया जाने वाला एक भक्ति नृत्य है। वे अपने शरीर (ज्यादातर पैरों) पर 13 मंजीरे बांधती हैं और बैठकर एक लयबद्ध पैटर्न में अपने हाथों में रखे मंजीरों से उन पर प्रहार करती हैं। यह रामदेवरा मेले की एक प्रमुख विशेषता है और इसकी उत्पत्ति पादरला, पाली में हुई थी।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Which of the following folk dances is unique because it is performed without any musical instrument?\nA) Valar\nB) Gair\nC) Rayan\nD) Kud',
+                    option_a: 'Valar',
+                    option_b: 'Gair',
+                    option_c: 'Rayan',
+                    option_d: 'Kud',
+                    correct: 'A',
+                    explanation: 'The Valar dance is a famous dance of the Garasia tribe, primarily performed in the Sirohi district. It is unique because it is performed without the accompaniment of any musical instrument. It involves slow, rhythmic movements by men and women in semi-circles.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. निम्नलिखित में से कौन सा लोक नृत्य अनोखा है क्योंकि यह बिना किसी वाद्य यंत्र के किया जाता है?\nA) वालर\nB) गैर\nC) रायण\nD) कूद',
+                    option_a: 'वालर',
+                    option_b: 'गैर',
+                    option_c: 'रायण',
+                    option_d: 'कूद',
+                    correct: 'A',
+                    explanation: 'वालर नृत्य गरासिया जनजाति का एक प्रसिद्ध नृत्य है, जो मुख्य रूप से सिरोही जिले में किया जाता है। यह अनोखा है क्योंकि यह बिना किसी वाद्य यंत्र के किया जाता है। इसमें पुरुषों और महिलाओं द्वारा अर्धवृत्त में धीमी, लयबद्ध गतियाँ शामिल होती हैं।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Match the following Regional Dances with their primary regions:\nDance | Region\nI. Bam Dance | a. Shekhawati\nII. Chang Dance | b. Alwar-Bharatpur\nIII. Dhol Dance | c. Jalore\nIV. Agni Dance | d. Bikaner (Katriyasar)\nSelect the correct option:\nA) I-b, II-a, III-c, IV-d\nB) I-a, II-b, III-d, IV-c\nC) I-b, II-a, III-d, IV-c\nD) I-c, II-d, III-a, IV-b',
+                    option_a: 'I-b, II-a, III-c, IV-d',
+                    option_b: 'I-a, II-b, III-d, IV-c',
+                    option_c: 'I-b, II-a, III-d, IV-c',
+                    option_d: 'I-c, II-d, III-a, IV-b',
+                    correct: 'A',
+                    explanation: 'Bam Dance (Bam Rasiya) is popular in the Alwar-Bharatpur region and involves a large drum (Bam). Chang dance is a male-dominated dance from the Shekhawati region performed during Holi. Dhol dance is a professional dance of the Jalore region performed by the Thakna style. Agni (Fire) dance is performed by the Jasnathi sect in Katriyasar, Bikaner.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. निम्नलिखित क्षेत्रीय नृत्यों को उनके प्राथमिक क्षेत्रों से सुमेलित कीजिए:\nनृत्य | क्षेत्र\nI. बम नृत्य | a. शेखावाटी\nII. चंग नृत्य | b. अलवर-भरतपुर\nIII. ढोल नृत्य | c. जालौर\nIV. अग्नि नृत्य | d. बीकानेर (कतरीयासर)\nसही विकल्प का चयन करें:\nA) I-b, II-a, III-c, IV-d\nB) I-a, II-b, III-d, IV-c\nC) I-b, II-a, III-d, IV-c\nD) I-c, II-d, III-a, IV-b',
+                    option_a: 'I-b, II-a, III-c, IV-d',
+                    option_b: 'I-a, II-b, III-d, IV-c',
+                    option_c: 'I-b, II-a, III-d, IV-c',
+                    option_d: 'I-c, II-d, III-a, IV-b',
+                    correct: 'A',
+                    explanation: 'बम नृत्य (बम रसिया) अलवर-भरतपुर क्षेत्र में लोकप्रिय है और इसमें एक बड़ा ड्रम (बम) शामिल है। चंग नृत्य होली के दौरान किया जाने वाला शेखावाटी क्षेत्र का पुरुष प्रधान नृत्य है। ढोल नृत्य जालौर क्षेत्र का एक व्यावसायिक नृत्य है जो थाकना शैली द्वारा किया जाता है। अग्नि नृत्य बीकानेर के कतरीयासर में जसनाथी संप्रदाय द्वारा किया जाता है।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. In which folk dance do performers balance seven to nine brass pitchers or earthen pots on their heads while dancing on the edge of a sword or crushed glass?\nA) Chari\nB) Bhavai\nC) Panihari\nD) Kalbelia',
+                    option_a: 'Chari',
+                    option_b: 'Bhavai',
+                    option_c: 'Panihari',
+                    option_d: 'Kalbelia',
+                    correct: 'B',
+                    explanation: 'Bhavai is a spectacular genre of folk dance known for its stunts. Performers, often from the Bhavai, Jat, Meena, or Kalbelia communities, balance multiple pots on their heads and perform difficult feats like dancing on glass, swords, or picking up a handkerchief from the ground with their mouth.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. किस लोक नृत्य में नर्तक अपने सिर पर सात से नौ पीतल के घड़े या मिट्टी के बर्तन संतुलित करते हुए तलवार की धार या कांच के टुकड़ों पर नृत्य करते हैं?\nA) चरी\nB) भवाई\nC) पणहारी\nD) कालबेलिया',
+                    option_a: 'चरी',
+                    option_b: 'भवाई',
+                    option_c: 'पणहारी',
+                    option_d: 'कालबेलिया',
+                    correct: 'B',
+                    explanation: 'भवाई लोक नृत्य की एक शानदार शैली है जो अपने स्टंट के लिए जानी जाती है। कलाकार, जो अक्सर भवाई, जाट, मीणा या कालबेलिया समुदायों से होते हैं, अपने सिर पर कई बर्तन संतुलित करते हैं और कांच, तलवारों पर नृत्य करने या अपने मुंह से जमीन से रुमाल उठाने जैसे कठिन कारनामे करते हैं।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. The \'Thakna\' style is associated with which musical instrument and dance form?\nA) Nagada - Gair Dance\nB) Dhol - Dhol Dance\nC) Chang - Gindar Dance\nD) Mandal - Gawri Dance',
+                    option_a: 'Nagada - Gair Dance',
+                    option_b: 'Dhol - Dhol Dance',
+                    option_c: 'Chang - Gindar Dance',
+                    option_d: 'Mandal - Gawri Dance',
+                    correct: 'B',
+                    explanation: 'The \'Thakna\' style refers to a specific rhythmic pattern played on the Dhol. This style is used to signal the beginning of the Dhol dance, which is famous in the Jalore region. It is traditionally performed by men of the Mali, Dholi, Sargara, and Bhil communities.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. \'थाकना\' शैली का संबंध किस वाद्य यंत्र और नृत्य रूप से है?\nA) नगाड़ा - गैर नृत्य\nB) ढोल - ढोल नृत्य\nC) चंग - गीदड़ नृत्य\nD) मांदल - गौरी नृत्य',
+                    option_a: 'नगाड़ा - गैर नृत्य',
+                    option_b: 'ढोल - ढोल नृत्य',
+                    option_c: 'चंग - गीदड़ नृत्य',
+                    option_d: 'मांदल - गौरी नृत्य',
+                    correct: 'B',
+                    explanation: '\'थाकना\' शैली ढोल पर बजाए जाने वाले एक विशिष्ट लयबद्ध पैटर्न को संदर्भित करती है। इस शैली का उपयोग ढोल नृत्य की शुरुआत का संकेत देने के लिए किया जाता है, जो जालौर क्षेत्र में प्रसिद्ध है। यह पारंपरिक रूप से माली, ढोली, सरगरा और भील समुदायों के पुरुषों द्वारा किया जाता है।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. \'Gulabo Sapera\' is a world-renowned exponent of which folk dance that was inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity?\nA) Ghoomar\nB) Kalbelia\nC) Chari\nD) Kathputli',
+                    option_a: 'Ghoomar',
+                    option_b: 'Kalbelia',
+                    option_c: 'Chari',
+                    option_d: 'Kathputli',
+                    correct: 'B',
+                    explanation: 'Gulabo Sapera is the most famous dancer of the Kalbelia dance form. The Kalbelia folk songs and dances of Rajasthan were declared part of the UNESCO Intangible Cultural Heritage of Humanity in 2010. It is characterized by black swirling skirts and serpentine movements.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. \'गुलाबो सपेरा\' किस राजस्थानी लोक नृत्य की विश्व प्रसिद्ध प्रतिपादक हैं जिसे यूनेस्को की अमूर्त सांस्कृतिक विरासत सूची में शामिल किया गया?\nA) घूमर\nB) कालबेलिया\nC) चरी\nD) कठपुतली',
+                    option_a: 'घूमर',
+                    option_b: 'कालबेलिया',
+                    option_c: 'चरी',
+                    option_d: 'कठपुतली',
+                    correct: 'B',
+                    explanation: 'गुलाबो सपेरा कालबेलिया नृत्य शैली की सबसे प्रसिद्ध नर्तकी हैं। राजस्थान के कालबेलिया लोक गीतों और नृत्यों को 2010 में यूनेस्को की अमूर्त सांस्कृतिक विरासत का हिस्सा घोषित किया गया था। इसकी विशेषता काले रंग के लहराते स्कर्ट और सांप जैसी गतियाँ हैं।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Which dance is performed by the men of the Shekhawati region during Holi, where some men dress as women and are called \'Gangaur\' or \'Mehri\'?\nA) Ginder (Gindar)\nB) Chang\nC) Kachhi Ghodi\nD) Dhap',
+                    option_a: 'Ginder (Gindar)',
+                    option_b: 'Chang',
+                    option_c: 'Kachhi Ghodi',
+                    option_d: 'Dhap',
+                    correct: 'A',
+                    explanation: 'The Ginder (or Gindar) dance is a regional dance of Shekhawati performed during Holi. It is a male-only dance where some men dress in female attire to represent Gangaur (Gauri). It shares similarities with the Gair dance of Mewar but is specific to the Shekhawati region.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. होली के दौरान शेखावाटी क्षेत्र के पुरुषों द्वारा कौन सा नृत्य किया जाता है, जहां कुछ पुरुष महिलाओं के कपड़े पहनते हैं और उन्हें \'गणगौर\' या \'मेहरी\' कहा जाता है?\nA) गीदड़ (गींदर)\nB) चंग\nC) कच्छी घोड़ी\nD) ढाप',
+                    option_a: 'गीदड़ (गींदर)',
+                    option_b: 'चंग',
+                    option_c: 'कच्छी घोड़ी',
+                    option_d: 'ढाप',
+                    correct: 'A',
+                    explanation: 'गीदड़ (या गींदर) नृत्य होली के दौरान किया जाने वाला शेखावाटी का एक क्षेत्रीय नृत्य है। यह केवल पुरुषों द्वारा किया जाने वाला नृत्य है जहां कुछ पुरुष गणगौर (गौरी) का प्रतिनिधित्व करने के लिए महिलाओं की पोशाक पहनते हैं। यह मेवाड़ के गैर नृत्य के साथ समानताएं साझा करता है लेकिन शेखावाटी क्षेत्र के लिए विशिष्ट है।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. The \'Kachhi Ghodi\' dance, performed in the Shekhawati and Kuchaman regions, is primarily a:\nA) Devotional dance\nB) Martial/Pattern-making dance\nC) Harvest dance\nD) Funeral dance',
+                    option_a: 'Devotional dance',
+                    option_b: 'Martial/Pattern-making dance',
+                    option_c: 'Harvest dance',
+                    option_d: 'Funeral dance',
+                    correct: 'B',
+                    explanation: 'Kachhi Ghodi is a professional folk dance where men wear a dummy horse costume. It is a martial-style dance that depicts stories of local bandits (like Bhanwariya) and involves mock fights with swords. The dancers move in a manner that creates patterns resembling the opening and closing of a flower bud.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. शेखावाटी और कुचामन क्षेत्रों में किया जाने वाला \'कच्छी घोड़ी\' नृत्य मुख्य रूप से एक है:\nA) भक्ति नृत्य\nB) युद्ध/पैटर्न बनाने वाला नृत्य\nC) फसल कटाई नृत्य\nD) अंत्येष्टि नृत्य',
+                    option_a: 'भक्ति नृत्य',
+                    option_b: 'युद्ध/पैटर्न बनाने वाला नृत्य',
+                    option_c: 'फसल कटाई नृत्य',
+                    option_d: 'अंत्येष्टि नृत्य',
+                    correct: 'B',
+                    explanation: 'कच्छी घोड़ी एक व्यावसायिक लोक नृत्य है जहाँ पुरुष नकली घोड़े की पोशाक पहनते हैं। यह एक युद्ध-शैली का नृत्य है जो स्थानीय डाकुओं (जैसे भंवरिया) की कहानियों को दर्शाता है और इसमें तलवारों के साथ नकली लड़ाई शामिल होती है। नर्तक इस तरह से चलते हैं जिससे फूल की कली के खुलने और बंद होने जैसे पैटर्न बनते हैं।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Which dance form is associated with the \'Jasnathi Siddha\' sect and involves the chanting of "Fateh-Fateh"?\nA) Terah Tali\nB) Agni (Fire) Dance\nC) Gair\nD) Chari',
+                    option_a: 'Terah Tali',
+                    option_b: 'Agni (Fire) Dance',
+                    option_c: 'Gair',
+                    option_d: 'Chari',
+                    correct: 'B',
+                    explanation: 'The Agni (Fire) dance is performed by the men of the Jasnathi sect, originating from Katriyasar, Bikaner. The dancers step onto a bed of burning coals (Dhuna) chanting "Fateh-Fateh" (Victory-Victory). It displays their deep faith and protection by their Guru.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. कौन सा नृत्य रूप \'जसनाथी सिद्ध\' संप्रदाय से जुड़ा है और इसमें "फतेह-फतेह" का जाप शामिल है?\nA) तेरहताली\nB) अग्नि नृत्य\nC) गैर\nD) चरी',
+                    option_a: 'तेरहताली',
+                    option_b: 'अग्नि नृत्य',
+                    option_c: 'गैर',
+                    option_d: 'चरी',
+                    correct: 'B',
+                    explanation: 'अग्नि नृत्य कतरीयासर, बीकानेर के जसनाथी संप्रदाय के पुरुषों द्वारा किया जाता है। नर्तक "फतेह-फतेह" (विजय-विजय) का जाप करते हुए जलते कोयले (धुणा) के बिस्तरों पर कदम रखते हैं। यह उनके गहरे विश्वास और गुरु द्वारा सुरक्षा को दर्शाता है।'
+                }
+            ];
+
+            for (const q of customPreQuestions) {
+                await run(`
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language)
+                    VALUES (8, ?, ?, ?, ?, ?, ?, ?, ?)
+                `, [q.text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct, q.explanation, q.lang]);
+            }
+            console.log("Seeded custom high-quality Pre questions for Performing Arts.");
+        }
+
+        const performingArtsMainsCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE topic_id = 101 AND exam_id IS NULL");
+        if (performingArtsMainsCount.count <= 2) {
+            console.log("Seeding custom high-quality questions for Performing Arts of Rajasthan (Mains)...");
+            await run("DELETE FROM mains_questions WHERE topic_id = 101 AND exam_id IS NULL");
+
+            const customMainsQuestions = [
+                {
+                    lang: 'EN',
+                    text: 'Q. Define \'Sawai\' in the context of Ghoomar dance and explain its structural significance. [5 Marks, 50 Words]\n\nAnswer:',
+                    model_answer: 'Introduction: \'Sawai\' is the defining technical footwork pattern of Ghoomar, the state dance of Rajasthan, symbolizing its classical grace.\n\nBody: It consists of a specific 8-step rhythmic movement (Ashta-taal) executed by dancers while spinning. It dictates the transition from slow posture shifts to high-speed circular motions.\n\nConclusion: Thus, Sawai elevates Ghoomar from a basic tribal routine to a highly structured, sophisticated folk art form.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. घूमर नृत्य के संदर्भ में \'सवाई\' को परिभाषित करें और इसके संरचनात्मक महत्व की व्याख्या करें। [5 अंक, 50 शब्द]\n\nउत्तर:',
+                    model_answer: 'प्रस्तावना: \'सवाई\' राजस्थान के राज्य नृत्य घूमर की परिभाषित तकनीकी पदचाल (फुटवर्क) शैली है, जो इसकी शास्त्रीय गरिमा का प्रतीक है।\n\nमुख्य भाग: इसमें नर्तकियों द्वारा घूमते समय की जाने वाली एक विशिष्ट 8-चरणीय लयबद्ध गति (अष्ट-ताल) शामिल है। यह धीमी मुद्रा से तीव्र गति वाली गोलाकार गतियों में संक्रमण को निर्धारित करती है।\n\nनिष्कर्ष: इस प्रकार, सवाई घूमर को एक बुनियादी आदिवासी दिनचर्या से एक अत्यधिक संरचित, परिष्कृत लोक कला रूप में उन्नत करती है।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Analyze the occupational transition of the Kalbelia dance form post the Wildlife Protection Act, 1972. [5 Marks, 50 Words]\n\nAnswer:',
+                    model_answer: 'Introduction: The Kalbelia dance of the traditional snake-charmer community represents a successful shift from nomadic survival to global intangible heritage.\n\nBody: The legal ban on catching snakes under the Wildlife Protection Act, 1972, forced the community to monetize their ritualistic, serpentine movements. They transformed street performances into professional stage arts.\n\nConclusion: This adaptive economic transition preserved their cultural identity, leading to its inclusion in the UNESCO Intangible Cultural Heritage list.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. वन्यजीव संरक्षण अधिनियम, 1972 के बाद कालबेलिया नृत्य शैली के व्यावसायिक संक्रमण का विश्लेषण करें। [5 अंक, 50 शब्द]\n\nउत्तर:',
+                    model_answer: 'प्रस्तावना: पारंपरिक सपेरा समुदाय का कालबेलिया नृत्य खानाबदोश अस्तित्व से वैश्विक अमूर्त विरासत की ओर एक सफल बदलाव का प्रतिनिधित्व करता है।\n\nमुख्य भाग: वन्यजीव संरक्षण अधिनियम, 1972 के तहत सांपों को पकड़ने पर कानूनी प्रतिबंध ने समुदाय को अपनी अनुष्ठानिक, सर्पिलाकार गतियों को व्यावसायिक रूप देने के लिए मजबूर किया। उन्होंने सड़क पर होने वाले प्रदर्शनों को पेशेवर मंच कलाओं में बदल दिया।\n\nनिष्कर्ष: इस अनुकूलन आर्थिक संक्रमण ने उनकी सांस्कृतिक पहचान को बनाए रखा, जिससे इसे यूनेस्को की अमूर्त सांस्कृतिक विरासत सूची में शामिल किया गया।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. Examine the ritualistic and performance dynamics of the \'Agni\' (Fire) dance. [5 Marks, 50 Words]\n\nAnswer:',
+                    model_answer: 'Introduction: Agni dance is a specialized devotional performance native to Katriyasar (Bikaner), deeply intertwined with the socio-religious identity of the Jasnathi Siddha sect.\n\nBody: Performers enter a hypnotic state, walking over a bed of live charcoal (Dhuna) while chanting "Fateh-Fateh." The dance combines spiritual ecstasy with agrarian actions like crushing millet.\n\nConclusion: It serves as a powerful display of deep faith, psychological resilience, and divine protection.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. \'अग्नि\' नृत्य की अनुष्ठानिक और प्रदर्शन गतिशीलता का परीक्षण कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:',
+                    model_answer: 'प्रस्तावना: अग्नि नृत्य कतरीयासर (बीकानेर) का एक विशिष्ट भक्ति प्रदर्शन है, जो जसनाथी सिद्ध संप्रदाय की सामाजिक-धार्मिक पहचान से गहराई से जुड़ा हुआ है।\n\nमुख्य भाग: नर्तक एक सम्मोहक अवस्था में प्रवेश करते हैं, "फतेह-फतेह" का जाप करते हुए जलते कोयले (धुणा) के बिस्तरों पर चलते हैं। यह नृत्य आध्यात्मिक आनंद को बाजरा कुचलने जैसी कृषि क्रियाओं के साथ जोड़ता है।\n\nनिष्कर्ष: यह गहरे विश्वास, मनोवैज्ञानिक लचीलेपन और दैवीय सुरक्षा के एक शक्तिशाली प्रदर्शन के रूप में कार्य करता है।'
+                },
+                {
+                    lang: 'EN',
+                    text: 'Q. "The folk dances of Rajasthan are not merely sources of entertainment but are deep reflections of the state\'s socio-religious fabric and geographical realities." Critically examine this statement with suitable examples. [10 Marks, 150 Words]\n\nAnswer:',
+                    model_answer: 'Introduction: Rajasthan’s rich repository of folk dances is deeply intertwined with its harsh topography, tribal lineages, and devotional movements, transforming physical survival into expressive art.\n\nBody:\n* Geographical Realities: The acute water scarcity of the desert terrain directly shaped dances like Chari (Kishangarh) and Panihari, which celebrate the daily, arduous trek to fetch water. Similarly, open sand dunes of Bikaner provided the canvas for the sprawling Agni dance.\n* Socio-Religious Fabric: Dances serve as mediums of worship and social cohesion. The Terah Tali dance of the Kamad sect is an elaborate devotional offering to Baba Ramdevji, promoting subaltern spiritual equality. The Gawri dance-drama of the Bhils reinforces tribal ecology by honoring Lord Shiva and Mother Nature.\n* Tribal and Martial Identities: The martial heritage of the state is preserved through pattern-making dances like Kachhi Ghodi (Shekhawati) and the Hathi Mana sword dance of the Bhils.\n\nConclusion: Far from static entertainment, these dances act as living archives, preserving Rajasthan\'s historical memory, spiritual syncretism, and adaptive resilience.'
+                },
+                {
+                    lang: 'HI',
+                    text: 'Q. "राजस्थान के लोक नृत्य केवल मनोरंजन के साधन नहीं हैं बल्कि राज्य के सामाजिक-धार्मिक ताने-बाने और भौगोलिक वास्तविकताओं के गहरे प्रतिबिंब हैं।" उपयुक्त उदाहरणों के साथ इस कथन का समालोचनात्मक परीक्षण कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:',
+                    model_answer: 'प्रस्तावना: राजस्थान के लोक नृत्यों का समृद्ध भंडार इसकी कठिन स्थलाकृति, जनजातीय वंशों और भक्ति आंदोलनों के साथ गहराई से जुड़ा हुआ है, जो भौतिक अस्तित्व को कलात्मक रूप में परिवर्तित करता है।\n\nमुख्य भाग:\n* भौगोलिक वास्तविकताएं: रेगिस्तानी इलाके में पानी की भारी कमी ने सीधे तौर पर चरी (किशनगढ़) और पणहारी जैसे नृत्यों को आकार दिया, जो पानी लाने की कठिन दैनिक यात्रा का उत्सव मनाते हैं। इसी तरह, बीकानेर के खुले रेत के टीलों ने फैले हुए अग्नि नृत्य के लिए मंच प्रदान किया।\n* सामाजिक-धार्मिक ताना-बाना: नृत्य पूजा और सामाजिक एकजुटता के माध्यम के रूप में कार्य करते हैं। कामड़ संप्रदाय का तेरहताली नृत्य बाबा रामदेवजी को समर्पित एक भक्ति प्रस्तुति है, जो आध्यात्मिक समानता को बढ़ावा देता है। भीलों का गौरी नृत्य-नाटक भगवान शिव और प्रकृति मां का सम्मान करके जनजातीय पारिस्थितिकी को सुदृढ़ करता है।\n* जनजातीय और सैन्य पहचान: राज्य की सैन्य विरासत को शेखावाटी के कच्छी घोड़ी और भीलों के हाथीमना तलवार नृत्य जैसे नृत्यों के माध्यम से संरक्षित किया गया है।\n\nनिष्कर्ष: स्थिर मनोरंजन से दूर, ये नृत्य जीवित अभिलेखागार के रूप में कार्य करते हैं, जो राजस्थान की ऐतिहासिक स्मृति, आध्यात्मिक समन्वय और अनुकूलन क्षमता को संरक्षित करते हैं।'
+                }
+            ];
+
+            for (const q of customMainsQuestions) {
+                await run(`
+                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order)
+                    VALUES (101, ?, ?, ?, 1)
+                `, [q.text, q.model_answer, q.lang]);
+            }
+            console.log("Custom high-quality Performing Arts questions seeded successfully.");
+        }
+
 
     } catch (err) {
         console.error("Database initialization error:", err.message);
