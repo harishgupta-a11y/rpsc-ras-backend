@@ -1,0 +1,204 @@
+{
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the architectural significance of the Mandagapattu Inscription of Mahendravarman I. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Mandagapattu inscription is a landmark in South Indian temple architecture.\n- **Innovation:** It proclaims King Mahendravarman I built a temple for Brahma, Vishnu, and Shiva without using brick, timber, metal, or mortar (anistaka, adruma, aloha, asila).\n- **Historical Shift:** This marked the transition from perishable wooden structures to durable rock-cut cave temples in Tamil Nadu, earning him the title 'Vichitrachitta' (curious-minded)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महेंद्रवर्मन प्रथम के मंडगपट्टू शिलालेख के स्थापत्यीय महत्व पर प्रकाश डालिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "मंडगपट्टू शिलालेख दक्षिण भारतीय मंदिर वास्तुकला में एक ऐतिहासिक मील का पत्थर है।\n- **नवाचार:** यह घोषित करता है कि राजा महेंद्रवर्मन प्रथम ने ईंट, लकड़ी, धातु या गारे के बिना ब्रह्मा, विष्णु और शिव के लिए एक मंदिर का निर्माण किया।\n- **ऐतिहासिक परिवर्तन:** इसने तमिलनाडु में नष्ट होने वाली लकड़ी की संरचनाओं से टिकाऊ चट्टान काटकर गुफा मंदिर बनाने की शैली के संक्रमण को चिह्नित किया, जिससे उन्हें 'विचित्रचित्त' की उपाधि मिली।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Briefly describe the features of the Mahendra style of Pallava architecture. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Mahendra style (600–630 CE) represents the first phase of Pallava rock-cut architecture.\n- **Key Features:** It is characterized by simple pillared halls (mandapas) carved out of solid rock, lacking elaborate ornamentation.\n- **Pillar Design:** The pillars are massive and square at the top and bottom (saduram), with an octagonal shaft in the middle. Dwarapalas (gatekeepers) guard the sanctuary."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव वास्तुकला की महेंद्र शैली की विशेषताओं का संक्षेप में वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "महेंद्र शैली (600-630 ईस्वी) पल्लव चट्टान-काट वास्तुकला के पहले चरण का प्रतिनिधित्व करती है।\n- **मुख्य विशेषताएँ:** इसकी विशेषता ठोस चट्टानों से काटकर बनाए गए सरल स्तंभों वाले हॉल (मंडप) हैं, जिनमें जटिल अलंकरण का अभाव है।\n- **स्तंभों का डिज़ाइन:** स्तंभ विशाल हैं और ऊपर तथा नीचे चौकोर (सदुरम) हैं, जिनके बीच में एक अष्टकोणीय शाफ्ट है। गर्भगृह की रक्षा द्वारपाल करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the political importance of Simhavishnu in the history of the Pallava dynasty. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Simhavishnu (r. 575–600 CE) was the real founder of the Great Pallava line of Kanchi.\n- **Territorial Expansion:** He defeated the Kalabhras, establishing firm Pallava authority in the Tondaimandalam region, and extended the empire up to the Kaveri River.\n- **Legacy:** He assumed the title 'Avanisimha' (Lion of the Earth) and patronized the Sanskrit poet Bharavi, author of Kiratarjuniya."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव राजवंश के इतिहास में सिंहविष्णु के राजनीतिक महत्व का विश्लेषण कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "सिंहविष्णु (शासनकाल 575-600 ईस्वी) कांची के महान पल्लव वंश के वास्तविक संस्थापक थे।\n- **क्षेत्रीय विस्तार:** उन्होंने कलभ्रों को पराजित किया, जिससे तोंडैमंडलम क्षेत्र में पल्लव सत्ता स्थापित हुई और साम्राज्य का विस्तार कावेरी नदी तक हुआ।\n- **विरासत:** उन्होंने 'अवनि सिंह' (पृथ्वी का शेर) की उपाधि धारण की और किरातार्जुनीयम् के लेखक, संस्कृत कवि भारवि को संरक्षण दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the main architectural features of the Shore Temple at Mahabalipuram. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Built by Narasimhavarman II (Rajasimha), the Shore Temple is one of the earliest structural temples in South India.\n- **Layout:** It is a complex of three shrines: two dedicated to Shiva (facing east and west) and one to Vishnu (Anantasayana).\n- **Design:** Features a pyramidal superstructure (Vimana) rising in tiers, characterized by slender basalt pillars and granite blocks, designed to withstand coastal erosion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम के शोर मंदिर (तटीय मंदिर) की मुख्य स्थापत्य विशेषताओं का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "नरसिंहवर्मन द्वितीय (राजसिंह) द्वारा निर्मित शोर मंदिर दक्षिण भारत के सबसे प्रारंभिक संरचनात्मक मंदिरों में से एक है।\n- **लेआउट:** यह तीन गर्भगृहों का एक परिसर है: दो शिव को समर्पित (पूर्व और पश्चिम की ओर) और एक विष्णु (अनंतशयन) को समर्पित।\n- **डिज़ाइन:** इसमें सीढ़ीदार पिरामिडनुमा अधिरचना (विमान) है, जिसमें पतले बेसाल्ट स्तंभ और ग्रेनाइट ब्लॉक हैं, जो तटीय क्षरण को झेलने के लिए डिज़ाइन किए गए हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the cultural significance of the Sanskrit play 'Mattavilasa Prahasana'. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Written by the Pallava King Mahendravarman I, 'Mattavilasa Prahasana' (The Farce of Drunken Sport) is a short Sanskrit farce.\n- **Socio-Religious Satire:** It satirizes the eccentricities and corruption within contemporary heterodox religious sects, particularly the Kapalikas and Pasupatas, as well as Buddhism.\n- **Historical Value:** It provides vivid insights into the socio-religious life, judicial administration, and cosmopolitan nature of Kanchipuram in the early 7th century."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. संस्कृत नाटक 'मत्तविलास प्रहसन' के सांस्कृतिक महत्व को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "पल्लव राजा महेंद्रवर्मन प्रथम द्वारा लिखित 'मत्तविलास प्रहसन' एक लघु संस्कृत प्रहसन (व्यंग्य) है।\n- **सामाजिक-धार्मिक व्यंग्य:** यह समकालीन विधर्मी धार्मिक संप्रदायों, विशेष रूप से कापालिकों, पाशुपतों और बौद्ध धर्म के भीतर की विकृतियों और भ्रष्टाचार पर व्यंग्य करता है।\n- **ऐतिहासिक मूल्य:** यह 7वीं शताब्दी की शुरुआत में कांचीपुरम के सामाजिक-धार्मिक जीवन, न्यायिक प्रशासन और महानगरीय प्रकृति की ज्वलंत जानकारी प्रदान करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the historical importance of the Battle of Vatapi? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Fought in 642 CE, the Battle of Vatapi was a major conflict between the Pallavas and Western Chalukyas.\n- **Outcome:** Pallava King Narasimhavarman I defeated the Chalukyan ruler Pulakeshin II and captured his capital, Vatapi (Badami).\n- **Significance:** This victory avenged the earlier defeats of Mahendravarman I, established Pallava hegemony over South India, and earned Narasimhavarman the title 'Vatapikonda' (Conqueror of Vatapi)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वातापी के युद्ध का ऐतिहासिक महत्व क्या है? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "642 ईस्वी में लड़ा गया वातापी का युद्ध पल्लवों और पश्चिमी चालुक्यों के बीच एक बड़ा संघर्ष था।\n- **परिणाम:** पल्लव राजा नरसिंहवर्मन प्रथम ने चालुक्य शासक पुलकेशिन द्वितीय को पराजित किया और उनकी राजधानी वातापी (बादामी) पर कब्जा कर लिया।\n- **महत्व:** इस विजय ने महेंद्रवर्मन प्रथम की पिछली हार का बदला लिया, दक्षिण भारत पर पल्लवों का प्रभुत्व स्थापित किया और नरसिंहवर्मन को 'वातापीकोंड' की उपाधि दिलाई।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Write a short note on the relief sculpture 'Descent of the Ganges' at Mahabalipuram. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Also known as 'Arjuna's Penance', this massive open-air rock relief (7th century) is carved on two adjacent boulders.\n- **Themes:** It depicts either Bhagiratha's penance to bring the Ganges down to Earth, or Arjuna acquiring the Pasupatastra from Shiva.\n- **Artistry:** It features over a hundred figures of gods, humans, and realistic animals (like the famous elephant family), showcasing the peak of Pallava naturalistic sculpting."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम में 'गंगावतरण' (Descent of the Ganges) राहत मूर्तिकला पर एक संक्षिप्त टिप्पणी लिखिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "इसे 'अर्जुन की तपस्या' भी कहा जाता है। यह विशाल खुली हवा में बनी रॉक रिलीफ (7वीं शताब्दी) दो आस-पास की चट्टानों पर उकेरी गई है।\n- **विषय:** यह या तो गंगा को पृथ्वी पर लाने के लिए भगीरथ की तपस्या को दर्शाता है, या शिव से पाशुपतास्त्र प्राप्त करने वाले अर्जुन को।\n- **कलात्मकता:** इसमें देवताओं, मनुष्यों और वास्तविक जानवरों (जैसे प्रसिद्ध हाथी परिवार) की सौ से अधिक आकृतियाँ हैं, जो पल्लव प्राकृतिक मूर्तिकला के चरमोत्कर्ष को दर्शाती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What are the key features of the Mamalla style of Pallava architecture? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Developed by Narasimhavarman I (630–668 CE), the Mamalla style represents the second phase of Pallava architecture.\n- **Architectural Shift:** It introduced monolithic shrines carved out of single boulders, known as Rathas (like the Pancha Rathas).\n- **Pillar Design:** Cave temples (mandapas) feature slender pillars supported by sitting lions at the base, with fluted columns and capital details like the cushion-shaped kumbha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव वास्तुकला की मामल्ल शैली की प्रमुख विशेषताएँ क्या हैं? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "नरसिंहवर्मन प्रथम (630-668 ईस्वी) द्वारा विकसित, मामल्ल शैली पल्लव वास्तुकला के दूसरे चरण का प्रतिनिधित्व करती है।\n- **वास्तुकला में बदलाव:** इसने एकल शिलाखंडों से तराशे गए एकाश्म मंदिरों की शुरुआत की, जिन्हें रथ (जैसे पंच रथ) कहा जाता है।\n- **स्तंभ डिजाइन:** गुफा मंदिरों (मंडपों) में आधार पर बैठे शेरों द्वारा समर्थित पतले स्तंभ हैं, जिनमें नालीदार स्तंभ और गद्दी के आकार के कुंभ जैसे शीर्ष विवरण शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the architectural uniqueness of the Kailasanatha Temple at Kanchipuram. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Built by Narasimhavarman II (Rajasimha) in the early 8th century, it is the peak of the Rajasimha style.\n- **Material & Vimana:** It is a fully structural temple built of sandstone, featuring a grand pyramidal Vimana rising in multiple tiers.\n- **Unique Features:** It has a unique pillared hall (mandapa) connected to the sanctum and is surrounded by a compound wall containing 58 miniature shrines decorated with sculptures of Shiva."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कांचीपुरम के कैलाशनाथ मंदिर की स्थापत्य कला की विशिष्टता पर प्रकाश डालिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "8वीं शताब्दी की शुरुआत में नरसिंहवर्मन द्वितीय (राजसिंह) द्वारा निर्मित, यह राजसिंह शैली का चरमोत्कर्ष है।\n- **सामग्री और विमान:** यह बलुआ पत्थर से बना एक पूरी तरह से संरचनात्मक मंदिर है, जिसमें कई स्तरों में उठने वाला एक भव्य पिरामिडनुमा विमान है।\n- **अद्वितीय विशेषताएँ:** इसमें गर्भगृह से जुड़ा एक अनोखा स्तंभों वाला हॉल (मंडप) है और यह एक परिसर की दीवार से घिरा हुआ है जिसमें शिव की मूर्तियों से सजे 58 लघु मंदिर हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the architectural style of the Vaikuntha Perumal Temple at Kanchipuram. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Constructed during the Nandivarman II style (late 8th century), this Vishnu temple is noted for its structural innovation.\n- **Vimana Design:** Features a multi-tiered Vimana containing three sanctums arranged vertically, housing Vishnu in standing, sitting, and reclining postures.\n- **Closter Galleries:** The temple is enclosed by a pillared cloister gallery whose walls depict historical relief sculptures tracing the origins and genealogy of the Pallava dynasty."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कांचीपुरम के वैकुंठ पेरुमल मंदिर की स्थापत्य शैली को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "नंदीवर्मन द्वितीय शैली (8वीं शताब्दी के उत्तरार्ध) के दौरान निर्मित, यह विष्णु मंदिर अपने संरचनात्मक नवाचार के लिए जाना जाता है।\n- **विमान डिजाइन:** इसमें एक बहु-स्तरीय विमान है जिसमें लंबवत रूप से व्यवस्थित तीन गर्भगृह हैं, जिनमें विष्णु क्रमशः खड़े, बैठे और लेटे हुए रूपों में विराजमान हैं।\n- **स्तंभ गैलरी:** मंदिर एक स्तंभों वाली गैलरी से घिरा हुआ है जिसकी दीवारों पर पल्लव वंश की उत्पत्ति और वंशावली को दर्शाने वाली ऐतिहासिक राहत मूर्तियां बनी हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. State the contributions of Rajasimha (Narasimhavarman II) to Pallava art and literature. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Rajasimha (r. 700–728 CE) enjoyed a peaceful reign that nurtured great artistic and literary achievements.\n- **Art:** He initiated the structural temple phase, constructing masterpieces like the Shore Temple at Mahabalipuram and the Kailasanatha Temple at Kanchi.\n- **Literature:** A patron of Sanskrit learning, his court was adorned by the famous rhetorician Dandin, the author of Kavyadarsa and Dasakumaracharita."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव कला और साहित्य में राजसिंह (नरसिंहवर्मन द्वितीय) के योगदान का उल्लेख कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "राजसिंह (शासनकाल 700-728 ईस्वी) का शासनकाल शांतिपूर्ण रहा जिसने महान कलात्मक और साहित्यिक उपलब्धियों को पोषित किया।\n- **कला:** उन्होंने संरचनात्मक मंदिर चरण की शुरुआत की, जिससे महाबलीपुरम के शोर मंदिर और कांची के कैलाशनाथ मंदिर जैसी उत्कृष्ट कृतियों का निर्माण हुआ।\n- **साहित्य:** संस्कृत शिक्षा के संरक्षक, उनके दरबार को प्रसिद्ध अलंकारशास्त्री दंडीन (काव्यादर्श और दशकुमारचरित के लेखक) ने सुहोभित किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Briefly explain the classification of Pallava temple architecture stages. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Pallava temple architecture is historically classified into four distinct chronological stages:\n- **Mahendra Group (600–630 CE):** Rock-cut pillared mandapas (e.g., Mandagapattu).\n- **Mamalla Group (630–668 CE):** Monolithic rathas and open reliefs (e.g., Pancha Rathas).\n- **Rajasimha Group (700–728 CE):** Structural stone temples (e.g., Kailasanatha, Shore Temple).\n- **Nandivarman Group (730–800 CE):** Smaller structural temples (e.g., Vaikuntha Perumal)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव मंदिर वास्तुकला के चरणों के वर्गीकरण को संक्षेप में स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "पल्लव मंदिर वास्तुकला को ऐतिहासिक रूप से चार अलग-अलग कालानुक्रमिक चरणों में वर्गीकृत किया गया है:\n- **महेंद्र समूह (600-630 ईस्वी):** चट्टानों को काटकर बनाए गए स्तंभों वाले मंडप (जैसे, मंडगपट्टू)।\n- **मामल्ल समूह (630-668 ईस्वी):** एकाश्म रथ और खुली राहत मूर्तियां (जैसे, पंच रथ)।\n- **राजसिंह समूह (700-728 ईस्वी):** संरचनात्मक पत्थर के मंदिर (जैसे, कैलाशनाथ, शोर मंदिर)।\n- **नंदीवर्मन समूह (730-800 ईस्वी):** अपेक्षाकृत छोटे संरचनात्मक मंदिर (जैसे, वैकुंठ पेरुमल)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the administrative divisions of the Pallava kingdom. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Pallava administrative system was well-organized to maintain central control:\n- **Rashtra/Mandalam:** The empire was divided into major provinces called Mandalam, governed by royal princes.\n- **Vishaya/Kottam:** Mandalam was subdivided into Vishayas or Kottams for local administration.\n- **Nadu and Ur:** The Kottams comprised districts (Nadu) and villages (Ur/Sabha), which retained significant local autonomy through local councils."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव साम्राज्य के प्रशासनिक विभाजनों पर प्रकाश डालिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "केंद्रीय नियंत्रण बनाए रखने के लिए पल्लव प्रशासनिक प्रणाली अच्छी तरह से संगठित थी:\n- **राष्ट्र/मंडलम:** साम्राज्य को मंडलम नामक प्रमुख प्रांतों में विभाजित किया गया था, जिनका प्रशासन शाही राजकुमारों द्वारा किया जाता था।\n- **विषय/कोट्टम:** स्थानीय प्रशासन के लिए मंडलम को आगे विषयों या कोट्टमों में उपविभाजित किया गया था।\n- **नाडु और ऊर:** कोट्टमों में जिले (नाडु) और गाँव (ऊर/सभा) शामिल थे, जिन्होंने स्थानीय परिषदों के माध्यम से महत्वपूर्ण स्थानीय स्वायत्तता बनाए रखी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Trace the evolutionary trajectory of Pallava temple architecture from rock-cut cave temples to structural stone temples, discussing the key stages and features of each. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Pallava temple architecture represents a brilliant epoch in South Indian art, acting as the foundation for the Dravidian style. The evolution progressed through four distinct stages:\n\n### Evolution of Pallava Architecture\n\n| Stage / Style | Period (CE) & Key Ruler | Core Architectural Features | Exemplary Monuments |\n| :--- | :--- | :--- | :--- |\n| **Mahendra Style** | 600–630 CE (Mahendravarman I) | Rock-cut cave temples (mandapas); simple heavy square pillars (saduram) with octagonal shafts; minimal ornamentation. | Mandagapattu, Trichy, Pallavaram cave temples |\n| **Mamalla Style** | 630–668 CE (Narasimhavarman I) | Monolithic Rathas carved from single boulders; introduction of fluted pillars with sitting lions at the base. | Pancha Rathas (Mahabalipuram), Varaha Cave |\n| **Rajasimha Style** | 700–728 CE (Narasimhavarman II) | Transition to structural stone temples using granite blocks; prominent towering Vimanas; rearing lion (yali) pillars. | Kailasanatha Temple (Kanchi), Shore Temple |\n| **Nandivarman Style** | 730–800 CE (Nandivarman II) | Decline in scale; smaller structural shrines; emphasis on intricate wall reliefs showcasing historical geneologies. | Vaikuntha Perumal Temple, Muktesvara Temple |\n\nThis evolution showcases a transition from excavation (cutting into rock) to structural construction, refining Dravidian elements like Vimanas, Gopurams, and decorative pillars that influenced Chola and Vijayanagara art."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चट्टानों को काटकर बनाए गए गुफा मंदिरों से लेकर संरचनात्मक पत्थर के मंदिरों तक पल्लव मंदिर वास्तुकला के विकास के प्रक्षेपवक्र का पता लगाइए, और प्रत्येक के प्रमुख चरणों तथा विशेषताओं पर चर्चा कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "पल्लव मंदिर वास्तुकला दक्षिण भारतीय कला में एक शानदार युग का प्रतिनिधित्व करती है, जो द्रविड़ शैली की नींव के रूप में कार्य करती है। यह विकास चार चरणों में आगे बढ़ा:\n\n### पल्लव वास्तुकला का विकास\n\n| चरण / शैली | अवधि (ईस्वी) और मुख्य शासक | मुख्य स्थापत्य विशेषताएँ | अनुकरणीय स्मारक |\n| :--- | :--- | :--- | :--- |\n| **महेंद्र शैली** | 600–630 (महेंद्रवर्मन प्रथम) | चट्टान काटकर बने गुफा मंदिर (मंडप); अष्टकोणीय शाफ्ट वाले चौकोर स्तंभ; न्यूनतम अलंकरण। | मंडगपट्टू, त्रिची, पल्लवरम गुफाएं |\n| **मामल्ल शैली** | 630–668 (नरसिंहवर्मन प्रथम) | एकल शिलाखंडों से तराशे गए एकाश्म रथ; आधार पर बैठे शेरों वाले नालीदार स्तंभों की शुरुआत। | पंच रथ (महाबलीपुरम), वराह गुफा |\n| **राजसिंह शैली** | 700–728 (नरसिंहवर्मन द्वितीय) | ग्रेनाइट ब्लॉकों का उपयोग करके संरचनात्मक मंदिरों का निर्माण; ऊंचे विमान; छलांग लगाते शेर (याली) स्तंभ। | कैलाशनाथ मंदिर (कांची), शोर मंदिर |\n| **नंदीवर्मन शैली** | 730–800 (नंदीवर्मन द्वितीय) | स्मारकों के पैमाने में कमी; अपेक्षाकृत छोटे संरचनात्मक मंदिर; वंशावली दर्शाने वाली बारीक नक्काशी। | वैकुंठ पेरुमल मंदिर, मुक्तेश्वर मंदिर |\n\nयह विकास उत्खनन (कैटिंग इनटू रॉक) से संरचनात्मक निर्माण की ओर संक्रमण को दर्शाता है, जिसने विमान, गोपुरम और सजावटी स्तंभों जैसे द्रविड़ तत्वों को परिष्कृत किया जिसने चोल और विजयनगर कला को प्रभावित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the political and cultural achievements of Narasimhavarman I 'Mamalla'. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Narasimhavarman I (r. 630–668 CE), also known as Mamalla ('the Great Wrestler'), was the greatest ruler of the Pallava dynasty. His achievements spanned military triumphs and unparalleled artistic patronage:\n\n### Political and Military Achievements:\n* **Defeat of Pulakeshin II (642 CE):** He avenged his father Mahendravarman I's defeat by capturing the Chalukyan capital, Vatapi, killing Pulakeshin II, and assuming the title 'Vatapikonda'.\n* **Naval Expeditions to Ceylon:** He launched two successful naval expeditions to Ceylon to restore his ally, Prince Manavarman, to the throne, demonstrating Pallava naval strength.\n* **Empire Consolidation:** He extended the Pallava borders, establishing hegemony over the Deccan and Tamil regions.\n\n### Cultural and Artistic Achievements:\n* **Founding of Mahabalipuram:** He established Mamallapuram (Mahabalipuram) as a flourishing port city and center for art.\n* **Monolithic Architecture:** He pioneered the Mamalla style of architecture, carving the famous Pancha Rathas and the open-air relief 'Descent of the Ganges'.\n* **Literary Patronage:** His reign witnessed visits by the Chinese traveler Xuanzang, who praised the religious tolerance and prosperity of Kanchipuram.\n\nThus, Narasimhavarman I elevated the Pallavas to the zenith of military power and artistic excellence."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नरसिंहवर्मन प्रथम 'मामल्ल' की राजनीतिक और सांस्कृतिक उपलब्धियों का मूल्यांकन कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "नरसिंहवर्मन प्रथम (शासनकाल 630-668 ईस्वी), जिन्हें मामल्ल ('महान पहलवान') भी कहा जाता है, पल्लव वंश के सबसे महान शासक थे। उनकी उपलब्धियों में सैन्य विजय और बेजोड़ कलात्मक संरक्षण शामिल थे:\n\n### राजनीतिक और सैन्य उपलब्धियाँ:\n* **पुलकेशिन द्वितीय की पराजय (642 ईस्वी):** उन्होंने चालुक्य राजधानी वातापी पर कब्जा करके, पुलकेशिन द्वितीय को मारकर और 'वातापीकोंड' की उपाधि धारण करके अपने पिता महेंद्रवर्मन प्रथम की हार का बदला लिया।\n* **सिंहल (श्रीलंका) के लिए नौसैनिक अभियान:** उन्होंने अपने सहयोगी राजकुमार मानमवर्मन को सिंहासन पर बहाल करने के लिए श्रीलंका में दो सफल नौसैनिक अभियान भेजे, जो पल्लव नौसैनिक ताकत को दर्शाता है।\n* **साम्राज्य सुदृढ़ीकरण:** उन्होंने पल्लव सीमाओं का विस्तार किया, जिससे दक्कन और तमिल क्षेत्रों पर वर्चस्व स्थापित हुआ।\n\n### सांस्कृतिक और कलात्मक उपलब्धियाँ:\n* **महाबलीपुरम की स्थापना:** उन्होंने मामल्लापुरम (महाबलीपुरम) को एक समृद्ध बंदरगाह शहर और कला के केंद्र के रूप में स्थापित किया।\n* **एकाश्म वास्तुकला:** उन्होंने वास्तुकला की मामल्ल शैली का मार्ग प्रशस्त किया, जिसमें प्रसिद्ध पंच रथ और खुली हवा में राहत मूर्तिकला 'गंगावतरण' का निर्माण शामिल था।\n* **साहित्यिक संरक्षण:** उनके शासनकाल में चीनी यात्री ह्वेनसांग ने दौरा किया, जिसने कांचीपुरम की धार्मिक सहिष्णुता और समृद्धि की प्रशंसा की।\n\nइस प्रकार, नरसिंहवर्मन प्रथम ने पल्लवों को सैन्य शक्ति और कलात्मक उत्कृष्टता के चरम पर पहुंचाया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the architectural composition and thematic representation of the Pancha Rathas at Mahabalipuram. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Pancha Rathas (Five Chariots) at Mahabalipuram, built during the reign of Narasimhavarman I, are monolithic structural models carved out of single granite boulders. Named after the Pandavas and Draupadi, they represent diverse models of early Dravidian temple designs.\n\n### Description of the Pancha Rathas\n\n| Ratha Name | Architectural Shape / Model | Artistic & Iconographic Features |\n| :--- | :--- | :--- |\n| **Draupadi Ratha** | Simple, square hut-like structure (Kutagara) | Smallest Ratha; dedicated to Goddess Durga; features a thatched roof style and fine relief carvings. |\n| **Arjuna Ratha** | Two-tiered pyramidal Vimana (Dvitala) | Decorated with beautiful carvings of gods, couples, and dwarfs; shares a platform with Draupadi Ratha. |\n| **Bhima Ratha** | Oblong, barrel-vaulted roof (Sala style) | Rectangular design with a wagon-vaulted roof; supported by pillars featuring seated lions. |\n| **Dharmaraja Ratha** | Three-tiered square Vimana (Tritala) | Largest and most complete Ratha; contains inscriptions of Narasimhavarman I's titles and sculptures of Harihara, Brahma, and Shiva. |\n| **Nakula-Sahadeva Ratha** | Apsidal, elephant-back shape (Gajaprishta) | South-facing shrine featuring a semicircular back; accompanied by a monolithic sculpture of a standing elephant. |\n\nThese monolithic structures served as architectural prototypes and templates rather than active places of worship, showcasing the versatility of early Pallava stone carving."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम के पंच रथों की स्थापत्य संरचना और विषयगत निरूपण को स्पष्ट कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "नरसिंहवर्मन प्रथम के शासनकाल के दौरान निर्मित महाबलीपुरम के पंच रथ (पांच रथ), एकल ग्रेनाइट शिलाखंडों से तराशे गए एकाश्म संरचनात्मक मॉडल हैं। पांडवों और द्रौपदी के नाम पर रखे गए ये रथ प्रारंभिक द्रविड़ मंदिर डिजाइनों के विविध मॉडलों का प्रतिनिधित्व करते हैं।\n\n### पंच रथों का विवरण\n\n| रथ का नाम | स्थापत्य आकार / मॉडल | कलात्मक और प्रतिमाशास्त्रीय विशेषताएँ |\n| :--- | :--- | :--- |\n| **द्रौपदी रथ** | सरल, वर्गाकार झोपड़ी जैसी संरचना (कुटागार) | सबसे छोटा रथ; देवी दुर्गा को समर्पित; इसमें फूस की छत की शैली और बारीक नक्काशी है। |\n| **अर्जुन रथ** | दो मंजिला पिरामिडनुमा विमान (द्वितल) | देवताओं, दंपतियों और बौनों की सुंदर नक्काशी से सजाया गया है; द्रौपदी रथ के साथ एक मंच साझा करता है। |\n| **भीम रथ** | आयताकार, बैरल-गुंबददार छत (शाला शैली) | वैगन-गुंबददार छत के साथ आयताकार डिजाइन; बैठे शेरों वाले स्तंभों द्वारा समर्थित। |\n| **धर्मराज रथ** | तीन मंजिला वर्गाकार विमान (त्रितल) | सबसे बड़ा और सबसे पूर्ण रथ; इसमें नरसिंहवर्मन प्रथम की उपाधियों के शिलालेख और हरीहर, ब्रह्मा तथा शिव की मूर्तियां हैं। |\n| **नकुल-सहदेव रथ** | अर्धवृत्ताकार, हाथी की पीठ का आकार (गजपृष्ठ) | अर्धवृत्ताकार पीठ वाला दक्षिण-मुखी गर्भगृह; इसके पास खड़े हाथी की एक एकाश्म मूर्ति है। |\n\nये एकाश्म संरचनाएं सक्रिय पूजा स्थलों के बजाय स्थापत्य प्रोटोटाइप और टेम्पलेट के रूप में कार्य करती थीं, जो पल्लव पत्थर नक्काशी की बहुमुखी प्रतिभा को प्रदर्शित करती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Examine the features of the rock-cut cave temples of the Mahendra style and their geographical distribution. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Mahendra style (600–630 CE) introduced the concept of permanent, rock-cut architecture (Layana-Krita) to the Tamil region under King Mahendravarman I. It broke away from using perishable materials like wood and clay.\n\n### Key Features of Mahendra Style Cave Temples:\n1. **Plan:** Consists of a pillared verandah (ardha-mandapa) leading to a small, simple cell (garbhagriha) excavated at the rear.\n2. **Pillars:** Massive, heavy pillars without capital embellishments. The pillars are divided into square sections (saduram) at the top and bottom, with an octagonal section (kattu) in the middle.\n3. **Sculpture:** Simple relief sculptures, primarily consisting of dvarapalas (gatekeepers) flanking the shrine.\n4. **Inscriptions:** Often contains the royal titles (Birudas) of Mahendravarman I, such as *Vichitrachitta*, *Chitrakarapuli*, and *Mattavilasa*.\n\n### Important Geographical Sites:\n* **Mandagapattu:** Located in Viluppuram district, containing the earliest rock-cut shrine dedicated to the Trimurti.\n* **Mahendravadi:** Features the Murugan and Vishnu rock-cut shrines.\n* **Pallavaram:** Near Chennai, containing a cave temple with multiple shrines.\n* **Trichy (Rockfort):** Houses the Lalitankura Pallavesvara Griha, famous for the Gangadhara relief.\n\nThis style established the structural vocabulary of pillars and spaces that evolved into complex Dravidian temples."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महेंद्र शैली के चट्टानों को काटकर बनाए गए गुफा मंदिरों की विशेषताओं और उनके भौगोलिक वितरण का परीक्षण कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "महेंद्र शैली (600-630 ईस्वी) ने राजा महेंद्रवर्मन प्रथम के तहत तमिल क्षेत्र में स्थायी, चट्टान काटकर बनाई जाने वाली वास्तुकला (लयन-कृत) की अवधारणा पेश की। इसने लकड़ी और मिट्टी जैसी नष्ट होने वाली सामग्रियों के उपयोग से मुक्ति दिलाई।\n\n### महेंद्र शैली के गुफा मंदिरों की मुख्य विशेषताएँ:\n1. **योजना:** इसमें एक स्तंभों वाला बरामदा (अर्ध-मंडप) होता है जो पीछे की ओर खोदे गए एक छोटे, सरल कक्ष (गर्भगृह) की ओर जाता है।\n2. **स्तंभ:** बिना किसी सजावटी शीर्ष के विशाल, भारी स्तंभ। स्तंभों को ऊपर और नीचे चौकोर भागों (सदुरम) में और बीच में एक अष्टकोणीय भाग (कट्टू) में विभाजित किया गया है।\n3. **मूर्तिकला:** सरल राहत मूर्तियां, जिनमें मुख्य रूप से गर्भगृह के दोनों ओर खड़े द्वारपाल शामिल हैं।\n4. **शिलालेख:** इनमें अक्सर महेंद्रवर्मन प्रथम की शाही उपाधियाँ (बिरुद) जैसे *विचित्रचित्त*, *चित्रकारपुली*, और *मत्तविलास* शामिल होती हैं।\n\n### महत्वपूर्ण भौगोलिक स्थल:\n* **मंडगपट्टू:** विलुप्पुरम जिले में स्थित, जिसमें त्रिमूर्ति को समर्पित सबसे पहला चट्टान-काट मंदिर है।\n* **महेंद्रवाड़ी:** इसमें मुरुगन और विष्णु के चट्टान काटकर बनाए गए मंदिर हैं।\n* **पल्लवरम:** चेन्नई के पास, जिसमें बहु-गर्भगृह वाला एक गुफा मंदिर है।\n* **त्रिची (रॉकफोर्ट):** इसमें ललितांकुर पल्लवेश्वर गृह है, जो गंगाधर राहत मूर्ति के लिए प्रसिद्ध है।\n\nइस शैली ने स्तंभों और रिक्त स्थानों की संरचनात्मक शब्दावली स्थापित की जो आगे चलकर जटिल द्रविड़ मंदिरों में विकसित हुई।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare the architectural designs and stylistic contributions of the Kailasanatha Temple at Kanchipuram and the Shore Temple at Mahabalipuram. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Kailasanatha Temple (Kanchipuram) and the Shore Temple (Mahabalipuram), both built during the reign of Narasimhavarman II (Rajasimha) in the early 8th century, represent the peak of Pallava structural temple architecture.\n\n### Comparative Analysis of Kailasanatha and Shore Temples\n\n| Feature | Kailasanatha Temple (Kanchipuram) | Shore Temple (Mahabalipuram) |\n| :--- | :--- | :--- |\n| **Material** | Primarily soft sandstone, with granite foundations. | Hard dressed granite blocks, built to resist sea wind. |\n| **Layout** | Single integrated complex; a sanctum, detached mandapa (later joined), surrounded by 58 small sub-shrines. | Three shrines: two Shaiva (east & west-facing) and one central Vishnu shrine (Anantasayana). |\n| **Vimana Design** | Broad, multi-tiered pyramidal Vimana with low height ratio. | Slender, towering, and narrow pyramidal Vimana rising sharply. |\n| **Sculptural Theme** | Exclusively Shaiva iconography (Somaskanda, Ravana shaking Kailasa) and early dynastic murals. | Shrines for Shiva and Vishnu; prominent relief of Vishnu and rearing yali pillars. |\n\nWhile Kailasanatha is the largest and most ornate inland structural temple, the Shore Temple is a masterclass in coastal structural design. Together, they transitioned Dravidian art away from rock excavation to freestanding masonry construction."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कांचीपुरम के कैलाशनाथ मंदिर और महाबलीपुरम के शोर मंदिर (तटीय मंदिर) के स्थापत्य डिजाइनों और शैलीगत योगदानों की तुलना कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "कांचीपुरम का कैलाशनाथ मंदिर और महाबलीपुरम का शोर मंदिर, दोनों 8वीं शताब्दी की शुरुआत में नरसिंहवर्मन द्वितीय (राजसिंह) के शासनकाल के दौरान निर्मित हुए थे, जो पल्लव संरचनात्मक मंदिर वास्तुकला के चरमोत्कर्ष का प्रतिनिधित्व करते हैं।\n\n### कैलाशनाथ और शोर मंदिर का तुलनात्मक विश्लेषण\n\n| विशेषता | कैलाशनाथ मंदिर (कांचीपुरम) | शोर मंदिर (महाबलीपुरम) |\n| :--- | :--- | :--- |\n| **सामग्री** | मुख्य रूप से नरम बलुआ पत्थर, जिसमें ग्रेनाइट की नींव है। | समुद्री हवा का विरोध करने के लिए कठोर तराशे गए ग्रेनाइट ब्लॉक। |\n| **लेआउट** | एकल एकीकृत परिसर; एक गर्भगृह, अलग मंडप (बाद में जोड़ा गया), 58 छोटे उप-मंदिरों से घिरा हुआ। | तीन गर्भगृह: दो शैव (पूर्व और पश्चिम-मुखी) और एक केंद्रीय विष्णु गर्भगृह (अनंतशयन)। |\n| **विमान डिजाइन** | कम ऊंचाई अनुपात वाला चौड़ा, बहु-स्तरीय पिरामिडनुमा विमान। | तेजी से ऊपर की ओर उठता हुआ पतला, ऊंचा और संकरा पिरामिडनुमा विमान। |\n| **मूर्तिकला विषय** | विशेष रूप से शैव प्रतिमाएं (सोमास्कंद, कैलाश हिलाता हुआ रावण) और शुरुआती शाही भित्ति चित्र। | शिव और विष्णु के मंदिर; विष्णु की प्रमुख राहत मूर्ति और उछलते हुए याली (शेर) स्तंभ। |\n\nजबकि कैलाशनाथ सबसे बड़ा और सबसे अलंकृत अंतर्देशीय संरचनात्मक मंदिर है, शोर मंदिर तटीय संरचनात्मक डिजाइन का एक उत्कृष्ट उदाहरण है। इन दोनों ने मिलकर द्रविड़ कला को चट्टानों की खुदाई से हटाकर मुक्त-खड़े चिनाई निर्माण में परिवर्तित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the socio-political and religious conditions of the Pallava kingdom as reflected in their art and literature. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Pallava era (6th to 9th centuries CE) witnessed a vibrant synthesis of administration, literature, and religious revivalism, which is clearly depicted in their artistic monuments and literary texts:\n\n### Socio-Political Conditions:\n* **Deification of Royalty:** Kings assumed high-sounding titles (*Birudas*) like *Vichitrachitta* and *Rajasimha*, which were inscribed on temple walls. Statues of rulers (like Simhavishnu and Mahendravarman I) inside temples legitimized royal authority through divine association.\n* **Administrative Hierarchy:** Inscriptions on the Vaikuntha Perumal Temple illustrate the local administrative systems, highlighting the role of corporate bodies like the *Sabha* (brahmin assemblies) and *Ur* (general assemblies).\n\n### Religious and Literary Developments:\n* **The Bhakti Movement:** This period marked the rise of the Bhakti movement led by Nayannars (Shaiva saints like Appar and Sundarar) and Alvars (Vaishnava saints). Temple reliefs reflected this change, depicting Puranic myths.\n* **Decline of Heterodoxy:** Literature like Mahendravarman I's *Mattavilasa Prahasana* shows a decline in Buddhism and Jainism, satirizing Kapalikas and Buddhists, while Brahmanical Hinduism gained state patronage.\n* **Sanskrit Scholarship:** Court poets like Dandin and Bharavi reflected a high degree of Sanskrit learning, alongside the growth of Tamil devotional hymns.\n\nThus, Pallava art served as an ideological tool to project imperial power and validate the socio-religious shift toward temple-centered Brahmanical Hinduism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव साम्राज्य की सामाजिक-राजनीतिक और धार्मिक स्थितियों की चर्चा कीजिए जैसा कि उनकी कला और साहित्य में परिलक्षित होता है। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "पल्लव युग (6वीं से 9वीं शताब्दी ईस्वी) ने प्रशासन, साहित्य और धार्मिक पुनरुत्थान के एक जीवंत संश्लेषण का अनुभव किया, जो उनके कलात्मक स्मारकों और साहित्यिक ग्रंथों में स्पष्ट रूप से दिखाई देता है:\n\n### सामाजिक-राजनीतिक स्थितियाँ:\n* **शाही दिव्यता (Deification of Royalty):** राजाओं ने *विचित्रचित्त* और *राजसिंह* जैसी उपाधियाँ (*बिरुद*) धारण कीं, जिन्हें मंदिर की दीवारों पर उकेरा गया। मंदिरों के भीतर शासकों (जैसे सिंहविष्णु और महेंद्रवर्मन प्रथम) की मूर्तियां दैवीय संबंध के माध्यम से शाही अधिकार को वैध बनाती थीं।\n* **प्रशासनिक पदानुक्रम:** वैकुंठ पेरुमल मंदिर के शिलालेख स्थानीय प्रशासनिक प्रणालियों को दर्शाते हैं, जिसमें *सभा* (ब्राह्मण सभाएं) और *ऊर* (सामान्य सभाएं) जैसी संस्थाओं की भूमिका पर प्रकाश उठाया गया है।\n\n### धार्मिक और साहित्यिक विकास:\n* **भक्ति आंदोलन:** इस काल में नयनारों (शैव संतों जैसे अप्पर और सुंदरर) और आलवारों (वैष्णव संतों) के नेतृत्व में भक्ति आंदोलन का उदय हुआ। मंदिर की राहत मूर्तियों में इन पौराणिक आख्यानों को दर्शाया गया।\n* **विधर्मी संप्रदायों का पतन:** महेंद्रवर्मन प्रथम के *मत्तविलास प्रहसन* जैसे साहित्य बौद्ध और जैन धर्म के पतन को दर्शाते हैं, जबकि ब्राह्मणवादी हिंदू धर्म को राजकीय संरक्षण प्राप्त हुआ।\n* **संस्कृत विद्वता:** दंडीन और भारवि जैसे दरबारी कवियों ने संस्कृत शिक्षा के उच्च स्तर को प्रदर्शित किया, जिसके साथ तमिल भक्ति भजनों का भी विकास हुआ।\n\nइस प्रकार, पल्लव कला ने शाही शक्ति को प्रदर्शित करने और मंदिर-केंद्रित ब्राह्मणवादी हिंदू धर्म की ओर सामाजिक-धार्मिक बदलाव को मान्य करने के लिए एक वैचारिक उपकरण के रूप में कार्य किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Assess the role of the Pallavas in expansion of maritime trade and cultural contacts with Southeast Asia. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Pallavas of Kanchi played a pioneering role in trans-oceanic navigation, establishing robust commercial and cultural links with Southeast Asian kingdoms.\n\n### Key Aspects of Pallava Maritime Influence:\n* **The Port of Mahabalipuram:** Mamallapuram served as a premier international port, facilitating active trade with Sri Lanka, China, and Southeast Asian regions like Funan (Cambodia) and Srivijaya (Sumatra).\n* **Export of Art and Architecture:** The architectural style of Pallava temples, especially the monolithic Rathas and pyramidal Vimanas, directly influenced the temple architecture of Southeast Asia, seen in the Prambanan (Java) and Angkor Wat (Cambodia) complexes.\n* **Spread of Script and Language:** The Pallava Grantha script served as the parent script for many Southeast Asian writing systems, including Khmer, Thai, Javanese, and Mon scripts. Sanskrit was adopted as the language of court inscriptions in these regions.\n* **Religious Diffusion:** Merchants and priests carried Shaivism, Vaishnavism, and Buddhism across the Bay of Bengal, leading to the adoption of Indian royal concepts (like *Devaraja*) by Southeast Asian rulers.\n\nTherefore, the Pallavas laid the foundation for the cultural 'Indianization' of Southeast Asia, primarily through peaceful trade and cultural diplomacy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. दक्षिण-पूर्व एशिया के साथ समुद्री व्यापार और सांस्कृतिक संपर्कों के विस्तार में पल्लवों की भूमिका का आकलन कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "कांची के पल्लवों ने ट्रांस-ओशनिक नौवहन में एक अग्रणी भूमिका निभाई, जिससे दक्षिण-पूर्व एशियाई साम्राज्यों के साथ मजबूत वाणिज्यिक और सांस्कृतिक संबंध स्थापित हुए।\n\n### पल्लव समुद्री प्रभाव के प्रमुख पहलू:\n* **महाबलीपुरम का बंदरगाह:** मामल्लापुरम ने एक प्रमुख अंतर्राष्ट्रीय बंदरगाह के रूप में कार्य किया, जिसने श्रीलंका, चीन और फुनान (कंबोडिया) तथा श्रीविजय (सुमात्रा) जैसे दक्षिण-पूर्व एशियाई क्षेत्रों के साथ सक्रिय व्यापार को सुगम बनाया।\n* **कला और वास्तुकला का निर्यात:** पल्लव मंदिरों की स्थापत्य शैली, विशेष रूप से एकाश्म रथों और पिरामिडनुमा विमानों ने दक्षिण-पूर्व एशिया के मंदिर वास्तुकला को सीधे प्रभावित किया, जैसा कि प्रम्बानन (जावा) और अंकोरवाट (कंबोडिया) परिसरों में देखा जा सकता है।\n* **लिपि और भाषा का प्रसार:** पल्लव ग्रंथ लिपि ने खमेर, थाई, जावानीस और मोन लिपियों सहित कई दक्षिण-पूर्व एशियाई लेखन प्रणालियों के लिए मातृ लिपि के रूप में कार्य किया। इन क्षेत्रों में अदालती शिलालेखों की भाषा के रूप में संस्कृत को अपनाया गया था।\n* **धार्मिक प्रसार:** व्यापारियों और पुजारियों ने बंगाल की खाड़ी के पार शैव, वैष्णव और बौद्ध धर्म का प्रसार किया, जिससे दक्षिण-पूर्व एशियाई शासकों द्वारा भारतीय शाही अवधारणाओं (जैसे *देवराज*) को अपनाया गया।\n\nइसलिए, पल्लवों ने मुख्य रूप से शांतिपूर्ण व्यापार और सांस्कृतिक कूटनीति के माध्यम से दक्षिण-पूर्व एशिया के सांस्कृतिक 'भारतीयकरण' की नींव रखी।"
+    }
+  ]
+}

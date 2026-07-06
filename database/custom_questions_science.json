@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Which ancient Indian text contains the earliest discussion of binary arithmetic and a method resembling Pascal's Triangle (known as Meru Prastara)?",
+      "option_a": "Aryabhatiya of Aryabhata",
+      "option_b": "Chhandasutra of Pingala",
+      "option_c": "Brahmasphutasiddhanta of Brahmagupta",
+      "option_d": "Ganita Sara Samgraha of Mahaviracharya",
+      "correct": "B",
+      "explanation": "Correct option: B. The Chhandasutra, authored by the Sanskrit grammarian Pingala (c. 3rd-2nd century BCE), contains the earliest known description of a binary numeral system and the Meru Prastara (staircase of Mount Meru), which is equivalent to Pascal's Triangle."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस प्राचीन भारतीय ग्रंथ में द्विआधारी अंकगणित (बाइनरी अरिथमेटिक) और पास्कल के त्रिकोण (जिसे मेरु प्रस्तार कहा जाता है) के समान पद्धति का सबसे पहला विवरण मिलता है?",
+      "option_a": "आर्यभट का आर्यभटीय",
+      "option_b": "पिंगल का छंदःसूत्र",
+      "option_c": "ब्रह्मगुप्त का ब्रह्मस्फुटसिद्धान्त",
+      "option_d": "महावीराचार्य का गणितसारसंग्रह",
+      "correct": "B",
+      "explanation": "Correct option: B. संस्कृत व्याकरणविद् पिंगल (लगभग तीसरी-दूसरी शताब्दी ईसा पूर्व) द्वारा रचित छंदःसूत्र में द्विआधारी संख्या प्रणाली और मेरु प्रस्तार (जो पास्कल के त्रिकोण के समतुल्य है) का सबसे पहला ज्ञात विवरण मिलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The mathematical concept widely known in the West as the Pythagorean Theorem was first explicitly stated in which ancient Indian text?",
+      "option_a": "Baudhayana Shulba Sutra",
+      "option_b": "Apastamba Shulba Sutra",
+      "option_c": "Siddhanta Shiromani",
+      "option_d": "Lilavati",
+      "correct": "A",
+      "explanation": "Correct option: A. The Baudhayana Shulba Sutra (c. 800 BCE) contains the earliest geometric statement of the theorem: the diagonal of a rectangle produces by itself both areas which the two sides produce separately."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गणितीय अवधारणा जिसे पश्चिम में पाइथागोरस प्रमेय के रूप में जाना जाता है, का सबसे पहले स्पष्ट उल्लेख किस प्राचीन भारतीय ग्रंथ में मिलता है?",
+      "option_a": "बौधायन शुल्बसूत्र",
+      "option_b": "आपस्तम्ब शुल्बसूत्र",
+      "option_c": "सिद्धांत शिरोमणि",
+      "option_d": "लीलावती",
+      "correct": "A",
+      "explanation": "Correct option: A. बौधायन शुल्बसूत्र (लगभग 800 ईसा पूर्व) में इस प्रमेय का सबसे पहला ज्यामितीय विवरण मिलता है: एक आयत का विकर्ण अपने आप में दोनों क्षेत्रों (वर्गों) का निर्माण करता है जो दोनों भुजाएँ अलग-अलग बनाती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In his work Aryabhatiya, Aryabhata provided an approximation of the mathematical constant Pi (π) as 3.1416. Which of the following statements best describes his approach?",
+      "option_a": "He declared it to be an absolute, exact value.",
+      "option_b": "He explicitly characterized it as an 'asanna' or approximate value.",
+      "option_c": "He derived it using the binary system from Pingala's texts.",
+      "option_d": "He calculated it using foreign Greek coordinates.",
+      "correct": "B",
+      "explanation": "Correct option: B. Aryabhata used the word 'asanna' (approaching/approximate) to describe his value of Pi (62832/20000 = 3.1416), demonstrating an early understanding that Pi is an irrational number."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अपनी कृति आर्यभटीय में, आर्यभट ने गणितीय स्थिरांक पाई (π) का मान 3.1416 के रूप में दिया था। निम्नलिखित में से कौन सा कथन उनके दृष्टिकोण का सबसे अच्छा वर्णन करता है?",
+      "option_a": "उन्होंने इसे एक पूर्ण, सटीक मान घोषित किया।",
+      "option_b": "उन्होंने स्पष्ट रूप से इसे 'आसन्न' या अनुमानित मान के रूप में वर्णित किया।",
+      "option_c": "उन्होंने इसे पिंगल के ग्रंथों से द्विआधारी प्रणाली का उपयोग करके प्राप्त किया था।",
+      "option_d": "उन्होंने विदेशी यूनानी निर्देशांकों का उपयोग करके इसकी गणना की थी।",
+      "correct": "B",
+      "explanation": "Correct option: B. आर्यभट ने पाई के अपने मान (62832/20000 = 3.1416) का वर्णन करने के लिए 'आसन्न' (यानी निकटतम/अनुमानित) शब्द का उपयोग किया, जो यह दर्शाता है कि उन्हें प्रारंभिक रूप से यह आभास था कि पाई एक अपरिमेय संख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who among the following ancient Indian mathematicians gave the general formula for the area of a cyclic quadrilateral as $\\sqrt{(s-a)(s-b)(s-c)(s-d)}$?",
+      "option_a": "Bhaskara I",
+      "option_b": "Varahamihira",
+      "option_c": "Brahmagupta",
+      "option_d": "Sridhara",
+      "correct": "C",
+      "explanation": "Correct option: C. Brahmagupta (598-668 CE), in his treatise Brahmasphutasiddhanta, formulated the famous equation for the area of a cyclic quadrilateral, which is a generalization of Heron's formula."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस प्राचीन भारतीय गणितज्ञ ने चक्रीय चतुर्भुज के क्षेत्रफल का सामान्य सूत्र $\\sqrt{(s-a)(s-b)(s-c)(s-d)}$ दिया था?",
+      "option_a": "भास्कर प्रथम",
+      "option_b": "वराहमिहिर",
+      "option_c": "ब्रह्मगुप्त",
+      "option_d": "श्रीधर",
+      "correct": "C",
+      "explanation": "Correct option: C. ब्रह्मगुप्त (598-668 ईस्वी) ने अपने ग्रंथ 'ब्रह्मस्फुटसिद्धान्त' में चक्रीय चतुर्भुज के क्षेत्रफल के लिए प्रसिद्ध सूत्र दिया, जो हेरॉन के सूत्र का एक सामान्यीकरण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Chakravala' method (cyclic method), a highly advanced algorithm for solving indeterminate quadratic equations (such as Pell's equation), was refined and perfected by which mathematician?",
+      "option_a": "Aryabhata",
+      "option_b": "Bhaskara II",
+      "option_c": "Mahaviracharya",
+      "option_d": "Apastamba",
+      "correct": "B",
+      "explanation": "Correct option: B. The Chakravala method was first introduced by Jayadeva but was fully refined and popularised by Bhaskara II (also known as Bhaskaracharya) in his algebraic work Bijaganita."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अनिर्धारित द्विघात समीकरणों (जैसे पेल का समीकरण) को हल करने के लिए एक अत्यधिक उन्नत एल्गोरिदम 'चक्रवाल विधि' (सर्कुलर विधि) को किस गणितज्ञ द्वारा परिष्कृत और पूर्ण किया गया था?",
+      "option_a": "आर्यभट",
+      "option_b": "भास्कर द्वितीय",
+      "option_c": "महावीराचार्य",
+      "option_d": "आपस्तम्ब",
+      "correct": "B",
+      "explanation": "Correct option: B. चक्रवाल विधि की शुरुआत सबसे पहले जयदेव ने की थी, लेकिन भास्कर द्वितीय (जिन्हें भास्कराचार्य भी कहा जाता है) ने अपने बीजगणितीय ग्रंथ 'बीजगणित' में इसे पूरी तरह से परिष्कृत और लोकप्रिय बनाया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Jain mathematician authored 'Ganita Sara Samgraha', the first textbook dedicated solely to mathematics that was independent of astronomical calculations?",
+      "option_a": "Mahaviracharya",
+      "option_b": "Pingala",
+      "option_c": "Nemichandra",
+      "option_d": "Yativrishabha",
+      "correct": "A",
+      "explanation": "Correct option: A. Mahaviracharya (9th century CE) was a Jain mathematician who wrote the Ganita Sara Samgraha, which systematically organized mathematical concepts like arithmetic, fractions, and geometry separately from astronomy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस जैन गणितज्ञ ने 'गणितसारसंग्रह' की रचना की थी, जो विशुद्ध रूप से गणित को समर्पित पहला पाठ्यग्रंथ था और जो खगोलीय गणनाओं से स्वतंत्र था?",
+      "option_a": "महावीराचार्य",
+      "option_b": "पिंगल",
+      "option_c": "नेमिचन्द्र",
+      "option_d": "यतिवृषभ",
+      "correct": "A",
+      "explanation": "Correct option: A. महावीराचार्य (9वीं शताब्दी ईस्वी) एक जैन गणितज्ञ थे जिन्होंने 'गणितसारसंग्रह' लिखा था, जिसमें अंकगणित, भिन्न और ज्यामिति जैसी अवधारणाओं को खगोल विज्ञान से अलग व्यवस्थित किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the astronomical compendium Panchasiddhantika by Varahamihira, which two Siddhantas represent a distinct Western (Hellenistic) influence?",
+      "option_a": "Surya and Paitamaha Siddhantas",
+      "option_b": "Vasistha and Surya Siddhantas",
+      "option_c": "Romaka and Paulisa Siddhantas",
+      "option_d": "Paitamaha and Vasistha Siddhantas",
+      "correct": "C",
+      "explanation": "Correct option: C. The Romaka Siddhanta (Roman/Greek) and the Paulisa Siddhanta (Alexandrian, named after Paul of Alexandria) clearly reflect Hellenistic astronomical terms and calculations integrated into Indian sciences."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वराहमिहिर द्वारा रचित खगोलीय ग्रंथ 'पंचसिद्धांतिका' में कौन से दो सिद्धांत स्पष्ट रूप से पश्चिमी (यूनानी) प्रभाव का प्रतिनिधित्व करते हैं?",
+      "option_a": "सूर्य और पैतामह सिद्धांत",
+      "option_b": "वसिष्ठ और सूर्य सिद्धांत",
+      "option_c": "रोमक और पौलिश सिद्धांत",
+      "option_d": "पैतामह और वसिष्ठ सिद्धांत",
+      "correct": "C",
+      "explanation": "Correct option: C. रोमक सिद्धांत (रोमन/यूनानी) और पौलिश सिद्धांत (सिकंदरिया के पॉल के नाम पर आधारित) स्पष्ट रूप से भारतीय खगोल विज्ञान में एकीकृत यूनानी खगोलीय शब्दावली और गणनाओं को दर्शाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which ancient Indian text contains the most detailed early account of plastic surgery, specifically rhinoplasty (reconstruction of the nose using a flap of cheek skin)?",
+      "option_a": "Charaka Samhita",
+      "option_b": "Sushruta Samhita",
+      "option_c": "Bhel Samhita",
+      "option_d": "Ashtanga Sangraha",
+      "correct": "B",
+      "explanation": "Correct option: B. The Sushruta Samhita, authored by Sushruta (c. 6th century BCE), contains detailed descriptions of surgical procedures including rhinoplasty, cataract extraction, and wound management."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस प्राचीन भारतीय ग्रंथ में प्लास्टिक सर्जरी, विशेष रूप से राइनोप्लास्टी (गाल की त्वचा के फ्लैप का उपयोग करके नाक का पुनर्निर्माण) का सबसे विस्तृत प्रारंभिक विवरण मिलता है?",
+      "option_a": "चरक संहिता",
+      "option_b": "सुश्रुत संहिता",
+      "option_c": "भेल संहिता",
+      "option_d": "अष्टांग संग्रह",
+      "correct": "B",
+      "explanation": "Correct option: B. सुश्रुत (लगभग 6ठी शताब्दी ईसा पूर्व) द्वारा रचित सुश्रुत संहिता में राइनोप्लास्टी, मोतियाबिंद हटाने और घाव प्रबंधन सहित शल्य चिकित्सा प्रक्रियाओं के विस्तृत विवरण शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which ancient Indian scholar is considered a pioneer in alchemy and wrote 'Rasaratnakara', which focuses on the purification and medicinal properties of mercury?",
+      "option_a": "Nagarjuna",
+      "option_b": "Kanada",
+      "option_c": "Vagbhata",
+      "option_d": "Madhavacharya",
+      "correct": "A",
+      "explanation": "Correct option: A. Nagarjuna (c. 7th-8th century CE, associated with Rasashastra/alchemy) wrote the Rasaratnakara, which deals with metal extraction, transmutation, and the purification of mercury (rasa) for therapeutic use."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस प्राचीन भारतीय विद्वान को कीमिया (रसायन विज्ञान/धातुकर्म) का अग्रदूत माना जाता है और उन्होंने 'रसरत्नाकर' लिखा था, जो पारे (पारद) के शुद्धिकरण और औषधीय गुणों पर केंद्रित है?",
+      "option_a": "नागार्जुन",
+      "option_b": "कणाद",
+      "option_c": "वाग्भट",
+      "option_d": "माधवाचार्य",
+      "correct": "A",
+      "explanation": "Correct option: A. नागार्जुन (लगभग 7वीं-8वीं शताब्दी ईस्वी, रसशास्त्र से जुड़े) ने 'रसरत्नाकर' लिखा था, जो धातु निष्कर्षण, रूपांतरण और चिकित्सीय उपयोग के लिए पारे (रस) के शुद्धिकरण से संबंधित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following is considered the earliest astronomical text of India, laying down mathematical rules for calendars and positioning of the Sun and Moon for Vedic rituals?",
+      "option_a": "Siddhanta Darpana",
+      "option_b": "Vedanga Jyotisha",
+      "option_c": "Surya Siddhanta",
+      "option_d": "Khandakhadyaka",
+      "correct": "B",
+      "explanation": "Correct option: B. The Vedanga Jyotisha, traditionally attributed to Sage Lagadha (c. 1400–1200 BCE), is the earliest systematic Indian treatise on astronomy and calendar calculations."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किसे भारत का सबसे प्रारंभिक खगोलीय ग्रंथ माना जाता है, जिसमें वैदिक अनुष्ठानों के लिए कैलेंडर और सूर्य तथा चंद्रमा की स्थिति निर्धारित करने के गणितीय नियम दिए गए हैं?",
+      "option_a": "सिद्धांत दर्पण",
+      "option_b": "वेदांग ज्योतिष",
+      "option_c": "सूर्य सिद्धांत",
+      "option_d": "खण्डखाद्यक",
+      "correct": "B",
+      "explanation": "Correct option: B. वेदांग ज्योतिष, जिसे पारंपरिक रूप से ऋषि लगध (लगभग 1400-1200 ईसा पूर्व) का माना जाता है, खगोल विज्ञान और कैलेंडर गणना पर सबसे प्रारंभिक व्यवस्थित भारतीय ग्रंथ है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Madhava-Leibniz series for Pi (π) and infinite series expansion for trigonometric functions were developed in the 14th century by Madhava, who belonged to which regional school of learning?",
+      "option_a": "Kashmir School of Shaivism",
+      "option_b": "Mithila School of Mathematics",
+      "option_c": "Kerala School of Astronomy and Mathematics",
+      "option_d": "Ujjain School of Mathematical Astronomy",
+      "correct": "C",
+      "explanation": "Correct option: C. Madhava of Sangamagrama founded the Kerala School of Astronomy and Mathematics, where infinite series for pi, sine, and cosine were developed centuries before European calculus."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पाई (π) के लिए माधव-लीबनिज श्रृंखला और त्रिकोणमितीय कार्यों के लिए अनंत श्रृंखला विस्तार का विकास 14वीं शताब्दी में माधव द्वारा किया गया था, वह किस क्षेत्रीय ज्ञान पीठ (स्कूल) से संबंधित थे?",
+      "option_a": "केसर शैव संप्रदाय पीठ",
+      "option_b": "मिथिला गणित पीठ",
+      "option_c": "केरल खगोल विज्ञान और गणित पीठ",
+      "option_d": "उज्जैन गणितीय खगोल विज्ञान पीठ",
+      "correct": "C",
+      "explanation": "Correct option: C. संगमग्राम के माधव ने केरल खगोल विज्ञान और गणित पीठ की स्थापना की थी, जहाँ यूरोपीय कैलकुलस से सदियों पहले पाई, साइन और कोसाइन के लिए अनंत श्रृंखलाएँ विकसित की गई थीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. 'Hastyayurveda', a comprehensive ancient text dedicated to the medical treatment, anatomy, and surgical care of elephants, was composed by which sage?",
+      "option_a": "Palakapya",
+      "option_b": "Shalihotra",
+      "option_c": "Atreya",
+      "option_d": "Charaka",
+      "correct": "A",
+      "explanation": "Correct option: A. Sage Palakapya composed the Hastyayurveda (also known as Gaja Ayurveda), which details the diseases, anatomy, and lifestyle management of elephants."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हाथियों के चिकित्सा उपचार, शारीरिक रचना (अंग रचना) और शल्य चिकित्सा देखभाल को समर्पित एक व्यापक प्राचीन ग्रंथ 'हस्त्यायुर्वेद' की रचना किस ऋषि ने की थी?",
+      "option_a": "पालकाप्य",
+      "option_b": "शालिहोत्र",
+      "option_c": "आत्रेय",
+      "option_d": "चरक",
+      "correct": "A",
+      "explanation": "Correct option: A. ऋषि पालकाप्य ने हस्त्यायुर्वेद (जिसे गज आयुर्वेद भी कहा जाता है) की रचना की थी, जिसमें हाथियों के रोगों, शरीर रचना और उनके जीवन शैली प्रबंधन का विस्तृत विवरण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who is traditionally recognized as the founder of veterinary science in India, having authored the Shalihotra Samhita on equine medicine and care?",
+      "option_a": "Palakapya",
+      "option_b": "Shalihotra",
+      "option_c": "Vagbhata",
+      "option_d": "Jivaka",
+      "correct": "B",
+      "explanation": "Correct option: B. Shalihotra is revered as the father of veterinary medicine in India. His work, the Shalihotra Samhita (or Haya-Ayurveda), is the earliest text dedicated to horses."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत में पशु चिकित्सा विज्ञान के संस्थापक के रूप में पारंपरिक रूप से किसे मान्यता प्राप्त है, जिन्होंने घोड़ों की चिकित्सा और देखभाल पर 'शालिहोत्र संहिता' लिखी थी?",
+      "option_a": "पालकाप्य",
+      "option_b": "शालिहोत्र",
+      "option_c": "वाग्भट",
+      "option_d": "जीवक",
+      "correct": "B",
+      "explanation": "Correct option: B. शालिहोत्र को भारत में पशु चिकित्सा का जनक माना जाता है। उनकी रचना, शालिहोत्र संहिता (या हय-आयुर्वेद), घोड़ों को समर्पित सबसे पुराना ज्ञात ग्रंथ है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which classical Ayurvedic text is known for synthesizing the clinical methods of the Charaka Samhita and the surgical principles of the Sushruta Samhita into a single unified work?",
+      "option_a": "Ashtanga Hridaya of Vagbhata",
+      "option_b": "Madhava Nidana",
+      "option_c": "Bhel Samhita",
+      "option_d": "Kashyapa Samhita",
+      "correct": "A",
+      "explanation": "Correct option: A. Vagbhata's Ashtanga Hridaya (c. 6th-7th century CE) synthesized internal medicine (from Charaka) and surgery (from Sushruta) in a beautifully written poetic format."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा शास्त्रीय आयुर्वेदिक ग्रंथ चरक संहिता के नैदानिक तरीकों और सुश्रुत संहिता के शल्य चिकित्सा सिद्धांतों को एक एकीकृत कार्य में संश्लेषित करने के लिए जाना जाता है?",
+      "option_a": "वाग्भट का अष्टांग हृदय",
+      "option_b": "माधव निदान",
+      "option_c": "भेल संहिता",
+      "option_d": "काश्यप संहिता",
+      "correct": "A",
+      "explanation": "Correct option: A. वाग्भट के अष्टांग हृदय (लगभग 6ठी-7वीं शताब्दी ईस्वी) ने आंतरिक चिकित्सा (चरक से) और शल्य चिकित्सा (सुश्रुत से) को एक काव्यात्मक प्रारूप में संश्लेषित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Madhava Nidana, a highly specialized treatise composed in the 7th-8th century CE, introduced a distinct shift in Indian medicine by focusing primarily on which aspect?",
+      "option_a": "Surgical procedures",
+      "option_b": "Pediatric medicine",
+      "option_c": "Nidana (Diagnostics and Pathology)",
+      "option_d": "Toxicology and poison antidotes",
+      "correct": "C",
+      "explanation": "Correct option: C. Madhavacarya's Madhava Nidana was the first Ayurvedic text to deal exclusively with pathology and diagnostics (Roga-vinishcaya), separating it from general therapeutics."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 7वीं-8वीं शताब्दी ईस्वी में रचित एक अत्यधिक विशिष्ट ग्रंथ 'माधव निदान' ने मुख्य रूप से किस पहलू पर ध्यान केंद्रित करके भारतीय चिकित्सा में एक नया दृष्टिकोण पेश किया था?",
+      "option_a": "शल्य चिकित्सा प्रक्रियाएं",
+      "option_b": "बाल रोग चिकित्सा (पीडियाट्रिक्स)",
+      "option_c": "निदान (रोग निदान और विकृति विज्ञान / पैथोलॉजी)",
+      "option_d": "विष विज्ञान और विष नाशक",
+      "correct": "C",
+      "explanation": "Correct option: C. माधवाचार्य का 'माधव निदान' पहला आयुर्वेदिक ग्रंथ था जो विशेष रूप से रोग निदान और विकृति विज्ञान (रोग-विनिश्चय) से संबंधित था, जिसने इसे सामान्य उपचार से अलग किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the 7th-century Indian mathematician who wrote a commentary on Aryabhatiya and formulated a remarkably accurate rational approximation formula for the sine function?",
+      "option_a": "Bhaskara I",
+      "option_b": "Brahmagupta",
+      "option_c": "Varahamihira",
+      "option_d": "Sridhara",
+      "correct": "A",
+      "explanation": "Correct option: A. Bhaskara I (c. 600-680 CE) wrote a commentary on Aryabhatiya and gave the famous algebraic formula for calculating the sine of an acute angle without tables."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 7वीं शताब्दी के वे भारतीय गणितज्ञ कौन थे जिन्होंने आर्यभटीय पर एक भाष्य लिखा था और ज्या (साइन) फ़ंक्शन के लिए एक अत्यंत सटीक तर्कसंगत अनुमान सूत्र तैयार किया था?",
+      "option_a": "भास्कर प्रथम",
+      "option_b": "ब्रह्मगुप्त",
+      "option_c": "वराहमिहिर",
+      "option_d": "श्रीधर",
+      "correct": "A",
+      "explanation": "Correct option: A. भास्कर प्रथम (लगभग 600-680 ईस्वी) ने आर्यभटीय पर एक प्रसिद्ध भाष्य लिखा और बिना किसी तालिका के एक न्यून कोण के ज्या (साइन) की गणना करने के लिए प्रसिद्ध बीजगणितीय सूत्र दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The geometric constructions of altars described in the Shulba Sutras are primarily related to which Vedic school of literature?",
+      "option_a": "Upanishads",
+      "option_b": "Kalpa Sutras (specifically Shrauta Sutras)",
+      "option_c": "Grihya Sutras",
+      "option_d": "Aranyakas",
+      "correct": "B",
+      "explanation": "Correct option: B. The Shulba Sutras are manuals containing geometric rules for constructing fire altars, which form a sub-part of the Shrauta Sutras, a division of the Kalpa Vedanga."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. शुल्बसूत्रों में वर्णित वेदियों का ज्यामितीय निर्माण मुख्य रूप से किस वैदिक साहित्य शाखा से संबंधित है?",
+      "option_a": "उपनिषद",
+      "option_b": "कल्प सूत्र (विशेष रूप से श्रौत सूत्र)",
+      "option_c": "गृह्य सूत्र",
+      "option_d": "आरण्यक",
+      "correct": "B",
+      "explanation": "Correct option: B. शुल्बसूत्र वे ग्रंथ हैं जिनमें यज्ञ वेदियों के निर्माण के लिए ज्यामितीय नियम हैं, जो कल्प वेदांग के एक विभाग श्रौत सूत्रों का एक उप-भाग हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which ancient Indian astronomer was the first to propose that the apparent daily rotation of the heavens is actually caused by the rotation of the Earth on its own axis?",
+      "option_a": "Varahamihira",
+      "option_b": "Brahmagupta",
+      "option_c": "Aryabhata",
+      "option_d": "Lalla",
+      "correct": "C",
+      "explanation": "Correct option: C. Aryabhata (476 CE) was a revolutionary astronomer who proposed that the Earth rotates on its axis, which causes the stars to appear to move westward."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस प्राचीन भारतीय खगोलशास्त्री ने सबसे पहले यह प्रस्ताव दिया था कि आकाश का स्पष्ट दैनिक घूर्णन वास्तव में पृथ्वी के अपनी धुरी पर घूमने के कारण होता है?",
+      "option_a": "वराहमिहिर",
+      "option_b": "ब्रह्मगुप्त",
+      "option_c": "आर्यभट",
+      "option_d": "लल्ल",
+      "correct": "C",
+      "explanation": "Correct option: C. आर्यभट (476 ईस्वी) एक क्रांतिकारी खगोलशास्त्री थे जिन्होंने प्रस्ताव दिया था कि पृथ्वी अपनी धुरी पर घूमती है, जिसके कारण तारे पश्चिम की ओर बढ़ते हुए दिखाई देते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The astronomical treatise 'Shishyadhivriddhida Tantra', which corrected several planetary parameters of Aryabhata, was authored by which scholar?",
+      "option_a": "Lalla",
+      "option_b": "Bhaskara II",
+      "option_c": "Sridhara",
+      "option_d": "Nilakantha Somayaji",
+      "correct": "A",
+      "explanation": "Correct option: A. Lalla (8th century CE) authored the Shishyadhivriddhida Tantra, a major astronomical textbook that followed Aryabhata's school but introduced corrections to planetary orbits."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. खगोलीय ग्रंथ 'शिष्यधीवृद्धिदतन्त्र', जिसने आर्यभट के कई ग्रहों के मापदंडों को संशोधित किया, किस विद्वान द्वारा लिखा गया था?",
+      "option_a": "लल्ल",
+      "option_b": "भास्कर द्वितीय",
+      "option_c": "श्रीधर",
+      "option_d": "नीलकंठ सोमयाजी",
+      "correct": "A",
+      "explanation": "Correct option: A. लल्ल (8वीं शताब्दी ईस्वी) ने 'शिष्यधीवृद्धिदतन्त्र' लिखा था, जो एक प्रमुख खगोलीय पाठ्यपुस्तक थी, जिसने आर्यभट के सिद्धांत का अनुसरण किया लेकिन ग्रहों की कक्षाओं में सुधार किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. 'Patiganita', an ancient text dedicated to arithmetic and mensuration, which systematically explains fractions, zero, and series summation, was written by whom?",
+      "option_a": "Sridharacharya",
+      "option_b": "Mahaviracharya",
+      "option_c": "Bhaskara I",
+      "option_d": "Brahmagupta",
+      "correct": "A",
+      "explanation": "Correct option: A. Sridharacharya (c. 8th-9th century CE) authored the Patiganita and Trishatika, which are key works on arithmetic, providing practical mathematical rules."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'पाटीगणित', अंकगणित और क्षेत्रमिति को समर्पित एक प्राचीन ग्रंथ, जो व्यवस्थित रूप से भिन्न, शून्य और श्रेणियों के योग की व्याख्या करता है, किसके द्वारा लिखा गया था?",
+      "option_a": "श्रीधराचार्य",
+      "option_b": "महावीराचार्य",
+      "option_c": "भास्कर प्रथम",
+      "option_d": "ब्रह्मगुप्त",
+      "correct": "A",
+      "explanation": "Correct option: A. श्रीधराचार्य (लगभग 8वीं-9वीं शताब्दी ईस्वी) ने 'पाटीगणित' और 'त्रिशतिका' की रचना की थी, जो अंकगणित पर महत्वपूर्ण रचनाएँ हैं और व्यावहारिक गणितीय नियम प्रदान करती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which ancient mathematician was the first to formalize rules for negative numbers and zero as mathematical entities in his calculations?",
+      "option_a": "Aryabhata",
+      "option_b": "Brahmagupta",
+      "option_c": "Pingala",
+      "option_d": "Baudhayana",
+      "correct": "B",
+      "explanation": "Correct option: B. Brahmagupta (598 CE), in his Brahmasphutasiddhanta, dedicated chapters to define mathematical operations involving zero, negative numbers (debt), and positive numbers (fortune)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस प्राचीन गणितज्ञ ने अपनी गणनाओं में ऋणात्मक संख्याओं और शून्य को स्वतंत्र गणितीय इकाई के रूप में संचालित करने के नियमों को सबसे पहले औपचारिक रूप दिया था?",
+      "option_a": "आर्यभट",
+      "option_b": "ब्रह्मगुप्त",
+      "option_c": "पिंगल",
+      "option_d": "बौधायन",
+      "correct": "B",
+      "explanation": "Correct option: B. ब्रह्मगुप्त (598 ईस्वी) ने अपने ब्रह्मस्फुटसिद्धान्त में शून्य, ऋणात्मक संख्याओं (ऋण) और धनात्मक संख्याओं (धन) से जुड़े गणितीय संचालन को परिभाषित करने के लिए अध्याय समर्पित किए थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to the Sushruta Samhita, surgical instruments are classified into two broad categories. What are these two categories?",
+      "option_a": "Sutra and Shastra",
+      "option_b": "Yantra and Shastra",
+      "option_c": "Agada and Kaya",
+      "option_d": "Shalya and Shalakya",
+      "correct": "B",
+      "explanation": "Correct option: B. Sushruta classified surgical tools into Yantras (blunt instruments like forceps, speculums) and Shastras (sharp instruments like knives, scalpels, needles)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सुश्रुत संहिता के अनुसार, शल्य चिकित्सा उपकरणों को दो व्यापक श्रेणियों में वर्गीकृत किया गया है। ये दो श्रेणियां कौन सी हैं?",
+      "option_a": "सूत्र और शास्त्र",
+      "option_b": "यंत्र और शस्त्र",
+      "option_c": "अगद और काय",
+      "option_d": "शल्य और शालाक्य",
+      "correct": "B",
+      "explanation": "Correct option: B. सुश्रुत ने शल्य चिकित्सा उपकरणों को यंत्रों (कुंद उपकरण जैसे चिमटी, स्पेकुलम) और शस्त्रों (तेज धार वाले उपकरण जैसे चाकू, स्केलपेल, सुई) में वर्गीकृत किया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Charaka Samhita' is divided into how many Sthanas (sections) to organize its medicinal and physiological teachings?",
+      "option_a": "Six",
+      "option_b": "Eight",
+      "option_c": "Ten",
+      "option_d": "Twelve",
+      "correct": "B",
+      "explanation": "Correct option: B. The Charaka Samhita is divided into eight Sthanas (Sutra, Nidana, Vimana, Sharira, Indriya, Chikitsa, Kalpa, and Siddhi Sthanas) comprising 120 chapters in total."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अपने चिकित्सीय और शारीरिक सिद्धांतों को व्यवस्थित करने के लिए 'चरक संहिता' को कितने स्थानों (खंडों) में विभाजित किया गया है?",
+      "option_a": "छह",
+      "option_b": "आठ",
+      "option_c": "दस",
+      "option_d": "बारह",
+      "correct": "B",
+      "explanation": "Correct option: B. चरक संहिता को आठ स्थानों (सूत्र, निदान, विमान, शारीर, इंद्रिय, चिकित्सा, कल्प और सिद्धि स्थान) में विभाजित किया गया है, जिसमें कुल 120 अध्याय हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which 15th-century astronomer of the Kerala School wrote the 'Tantrasangraha' and proposed a semi-heliocentric model where planets orbit the Sun, which in turn orbits the Earth?",
+      "option_a": "Madhava of Sangamagrama",
+      "option_b": "Nilakantha Somayaji",
+      "option_c": "Parameshvara",
+      "option_d": "Jyesthadeva",
+      "correct": "B",
+      "explanation": "Correct option: B. Nilakantha Somayaji (1444–1544 CE) composed the Tantrasangraha, wherein he formulated a semi-heliocentric planetary model, long before Tycho Brahe proposed a similar model in Europe."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. केरल पीठ के किस 15वीं शताब्दी के खगोलशास्त्री ने 'तन्त्रसंग्रह' लिखा था और एक अर्ध-सूर्यकेन्द्री (semi-heliocentric) मॉडल का प्रस्ताव रखा था, जहाँ ग्रह सूर्य की परिक्रमा करते हैं, और सूर्य पृथ्वी की परिक्रमा करता है?",
+      "option_a": "संगमग्राम के माधव",
+      "option_b": "नीलकंठ सोमयाजी",
+      "option_c": "परमेश्वर",
+      "option_d": "ज्येष्ठदेव",
+      "correct": "B",
+      "explanation": "Correct option: B. नीलकंठ सोमयाजी (1444-1544 ईस्वी) ने तन्त्रसंग्रह की रचना की थी, जिसमें उन्होंने एक अर्ध-सूर्यकेन्द्री ग्रह मॉडल तैयार किया था, जो टाइको ब्राहे द्वारा यूरोप में समान मॉडल प्रस्तावित करने से बहुत पहले था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The mathematical work 'Lilavati', which contains arithmetic problems presented in poetic dialogue, was named after the daughter of its author. Who wrote this work?",
+      "option_a": "Bhaskara I",
+      "option_b": "Aryabhata",
+      "option_c": "Bhaskara II",
+      "option_d": "Brahmagupta",
+      "correct": "C",
+      "explanation": "Correct option: C. Lilavati is the arithmetic section of the treatise Siddhanta Shiromani, written by Bhaskara II (Bhaskaracharya) in 1150 CE, addressed to his daughter Lilavati."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गणितीय कृति 'लीलावती', जिसमें काव्यात्मक संवाद में अंकगणितीय समस्याएं प्रस्तुत की गई हैं, का नाम इसके लेखक की पुत्री के नाम पर रखा गया था। यह कृति किसने लिखी थी?",
+      "option_a": "भास्कर प्रथम",
+      "option_b": "आर्यभट",
+      "option_c": "भास्कर द्वितीय",
+      "option_d": "ब्रह्मगुप्त",
+      "correct": "C",
+      "explanation": "Correct option: C. लीलावती 1150 ईस्वी में भास्कर द्वितीय (भास्कराचार्य) द्वारा लिखे गए ग्रंथ सिद्धांत शिरोमणि का अंकगणित खंड है, जो उनकी बेटी लीलावती को संबोधित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Aryabhata calculated the value of Pi (π) to four decimal places as 3.1416.\nReason (R): He devised a rule stating that adding 4 to 100, multiplying by 8, and adding 62,000 gives the approximate circumference of a circle of diameter 20,000.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Aryabhata calculated Pi to four decimal places (3.1416), which is factually true.\nReason Analysis: His mathematical formula states: ((100 + 4) * 8 + 62000) / 20000 = 62832 / 20000 = 3.1416. Since this is the exact mathematical step he took to find the value of Pi, R is true and is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): आर्यभट ने पाई (π) के मान की गणना चार दशमलव स्थानों (3.1416) तक की थी।\nकारण (R): उन्होंने एक नियम तैयार किया कि 100 में 4 जोड़ना, 8 से गुणा करना और 62,000 जोड़ना 20,000 व्यास वाले वृत्त की अनुमानित परिधि देता है।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "Assertion Analysis: आर्यभट ने चार दशमलव स्थानों (3.1416) तक पाई के मान की गणना की थी, जो ऐतिहासिक रूप से सत्य है।\nReason Analysis: उनका सूत्र कहता है: ((100 + 4) * 8 + 62000) / 20000 = 62832 / 20000 = 3.1416. चूंकि यह वही सटीक गणितीय कदम है जिसके माध्यम से उन्होंने पाई का मान निकाला था, इसलिए R सत्य है और A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Shulba Sutras are considered the oldest Indian texts containing foundational principles of geometry.\nReason (R): The design and construction of complex Vedic sacrificial fire altars (Vedi) required highly precise geometric shapes of equivalent areas.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Shulba Sutras are indeed the oldest Indian manuals containing geometric propositions, making A true.\nReason Analysis: These texts were compiled precisely to guide the engineering of fire altars (such as converting a square altar to a circular one of the same area). Thus, R is true and explains why these texts emerged."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): शुल्बसूत्रों को ज्यामिति के मूलभूत सिद्धांतों वाले सबसे पुराने भारतीय ग्रंथ माना जाता है।\nकारण (R): जटिल वैदिक यज्ञ वेदियों के डिजाइन और निर्माण के लिए समान क्षेत्रफल वाले अत्यधिक सटीक ज्यामितीय आकारों की आवश्यकता होती थी।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "Assertion Analysis: शुल्बसूत्र वास्तव में ज्यामितीय प्रमेयों वाले सबसे पुराने भारतीय ग्रंथ हैं, जिससे A सत्य है।\nReason Analysis: इन ग्रंथों का संकलन यज्ञ वेदियों के निर्माण (जैसे वर्ग के समान क्षेत्रफल वाले वृत्त का निर्माण) को निर्देशित करने के लिए किया गया था। अतः, R सत्य है और A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Sushruta is globally recognized as the pioneer of rhinoplasty and plastic surgery in antiquity.\nReason (R): The Sushruta Samhita contains detailed descriptions of reconstructive surgery of the nose using skin flaps from the cheek.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Sushruta is recognized as the pioneer of plastic surgery, making A true.\nReason Analysis: The Sushruta Samhita outlines the step-by-step procedure of rhinoplasty, proving that the assertion is true because of the detailed descriptions in his text. Hence, R explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): सुश्रुत को विश्व स्तर पर प्राचीन काल में राइनोप्लास्टी और प्लास्टिक सर्जरी के अग्रणी के रूप में मान्यता प्राप्त है।\nकारण (R): सुश्रुत संहिता में गाल के त्वचा के फ्लैप का उपयोग करके नाक के पुनर्निर्माण (प्लास्टिक सर्जरी) का विस्तृत विवरण है।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "Assertion Analysis: सुश्रुत को प्लास्टिक सर्जरी के अग्रणी के रूप में मान्यता प्राप्त है, जिससे A सत्य है।\nReason Analysis: सुश्रुत संहिता में राइनोप्लास्टी की चरण-दर-चरण प्रक्रिया का विवरण है, जो यह साबित करता है कि यह अभिकथन उनके ग्रंथ में विस्तृत विवरणों के कारण सत्य है। अतः, R, A की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The astronomer Brahmagupta explicitly rejected Aryabhata's hypothesis that the Earth rotates on its own axis.\nReason (R): Brahmagupta did not believe in any gravitational attraction and held that objects only stay on Earth due to atmospheric pressure.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Brahmagupta rejected Aryabhata's theory of Earth's rotation, making A true.\nReason Analysis: Brahmagupta actually believed in gravity, stating that it is the nature of the earth to attract things, just as it is the nature of water to flow. Thus, R is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): खगोलशास्त्री ब्रह्मगुप्त ने आर्यभट के इस सिद्धांत को स्पष्ट रूप से खारिज कर दिया कि पृथ्वी अपनी धुरी पर घूमती है।\nकारण (R): ब्रह्मगुप्त किसी भी गुरुत्वाकर्षण आकर्षण में विश्वास नहीं करते थे और उनका मानना था कि वस्तुएं केवल वायुमंडलीय दबाव के कारण पृथ्वी पर टिकी रहती हैं।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "C",
+      "explanation": "Assertion Analysis: ब्रह्मगुप्त ने पृथ्वी के घूर्णन के आर्यभट के सिद्धांत को खारिज कर दिया था, जिससे A सत्य है।\nReason Analysis: ब्रह्मगुप्त वास्तव में गुरुत्वाकर्षण में विश्वास करते थे और उन्होंने कहा था कि चीजों को आकर्षित करना पृथ्वी का स्वभाव है, ठीक वैसे ही जैसे पानी का बहना। अतः R असत्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Nagarjuna is regarded as the pioneer of 'Rasashastra' (Indian alchemy/pharmaceutical chemistry).\nReason (R): In his treatise 'Rasaratnakara', Nagarjuna detailed techniques for transmutation of base metals into gold and the purification of mercury.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Nagarjuna is considered the pioneer of Rasashastra, making A true.\nReason Analysis: His work Rasaratnakara contains chemistry, metallurgy, and mercury processing details, which explains why he earned this title. Thus, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): नागार्जुन को 'रसशास्त्र' (भारतीय कीमिया/भेषज रसायन) का प्रणेता माना जाता है।\nकारण (R): अपने ग्रंथ 'रसरत्नाकर' में, नागार्जुन ने आधार धातुओं को सोने में बदलने और पारे के शुद्धिकरण की तकनीकों का विवरण दिया था।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "Assertion Analysis: नागार्जुन को रसशास्त्र का प्रणेता माना जाता है, जिससे A सत्य है।\nReason Analysis: उनकी कृति 'रसरत्नाकर' में रसायन विज्ञान, धातुकर्म और पारे के प्रसंस्करण का विवरण है, जो यह स्पष्ट करता है कि उन्हें यह उपाधि क्यों मिली। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Bhaskara II's work contains early conceptual roots of differential calculus.\nReason (R): In Siddhanta Shiromani, Bhaskara II calculated the instantaneous motion (Tatkalika-gati) of planets by using tiny differences in planetary positions.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Bhaskara II formulated calculus-like concepts centuries before Newton and Leibniz, making A true.\nReason Analysis: He defined Tatkalika-gati using infinitesimally small increments to calculate planetary speeds, which is the exact basis for differential calculus. Thus, R explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): भास्कर द्वितीय के काम में अवकलन गणित (डिफरेंशियल कैलकुलस) की शुरुआती वैचारिक जड़ें शामिल हैं।\nकारण (R): सिद्धांत शिरोमणि में, भास्कर द्वितीय ने ग्रहों की स्थिति में सूक्ष्म अंतर का उपयोग करके ग्रहों की तात्कालिक गति (तात्कालिक-गति) की गणना की थी।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "Assertion Analysis: भास्कर द्वितीय ने न्यूटन और लीबनिज से सदियों पहले कैलकुलस जैसी अवधारणाएं तैयार की थीं, जिससे A सत्य है।\nReason Analysis: उन्होंने ग्रहों की गति की गणना के लिए सूक्ष्म अंतरों का उपयोग करके तात्कालिक-गति को परिभाषित किया, जो अवकलन गणित का सटीक आधार है। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The 'Brihat Samhita' of Varahamihira is a crucial encyclopedic source for studying ancient Indian architecture and geology.\nReason (R): Varahamihira lived in the court of Chandragupta II Vikramaditya and served as the chief physician of the royal family.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Varahamihira's Brihat Samhita details temple architecture, water divining, and geology, making A true.\nReason Analysis: Varahamihira was an astronomer and polymath, not the chief physician (Dhanvantari is mythologically associated with medicine, and Charaka/Sushruta were the historical medical giants). Thus, R is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): वराहमिहिर की 'बृहत्संहिता' प्राचीन भारतीय वास्तुकला और भूविज्ञान के अध्ययन के लिए एक महत्वपूर्ण विश्वकोशीय स्रोत है।\nकारण (R): वराहमिहिर चंद्रगुप्त द्वितीय विक्रमादित्य के दरबार में रहते थे और शाही परिवार के मुख्य चिकित्सक के रूप में कार्य करते थे।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "C",
+      "explanation": "Assertion Analysis: वराहमिहिर की बृहत्संहिता में मंदिर वास्तुकला, जल-अन्वेषण और भूविज्ञान का विवरण है, जिससे A सत्य है।\nReason Analysis: वराहमिहिर एक खगोलशास्त्री और बहुश्रुत थे, न कि मुख्य चिकित्सक (शाही चिकित्सक जीवक या धन्वंतरि माने जाते हैं)। अतः R असत्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Pingala's 'Chhandasutra' is considered a precursor to modern digital computational math.\nReason (R): In his treatise, Pingala developed a mathematical system to classify poetic meters using combinations of long (guru) and short (laghu) syllables.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Pingala's Chhandasutra is mathematically seen as a precursor to binary calculation systems, making A true.\nReason Analysis: Pingala represented meters as combinations of guru and laghu, which corresponds to 1s and 0s in binary code, directly explaining the assertion. Hence, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): पिंगल के 'छंदःसूत्र' को आधुनिक डिजिटल कंप्यूटर गणित का अग्रदूत माना जाता है।\nकारण (R): अपने ग्रंथ में, पिंगल ने गुरु और लघु अक्षरों के संयोजनों का उपयोग करके काव्य छंदों को वर्गीकृत करने के लिए एक गणितीय प्रणाली विकसित की थी।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: पिंगल का छंदःसूत्र बाइनरी गणना प्रणालियों के अग्रदूत के रूप में माना जाता है, जिससे A सत्य है।\nReason Analysis: पिंगल ने छंदों को गुरु और लघु के संयोजन के रूप में प्रस्तुत किया, जो बाइनरी कोड में 1 और 0 के अनुरूप है। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient Scholar) with List-II (Key Discovery/Treatise) and select the correct answer:\n\nList-I:\na) Aryabhata\nb) Sushruta\nc) Brahmagupta\nd) Palakapya\n\nList-II:\n1) Formula for area of cyclic quadrilateral\n2) Heliocentric rotation of Earth on axis\n3) Systematic treatise on veterinary care of elephants\n4) First comprehensive clinical descriptions of rhinoplasty",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Aryabhata (a) matches the Earth's rotation [2]. Sushruta (b) matches rhinoplasty [4]. Brahmagupta (c) matches cyclic quadrilateral area [1]. Palakapya (d) matches the care of elephants [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन विद्वान) को सूची-II (प्रमुख खोज/ग्रंथ) से सुमेलित कीजिए और सही उत्तर चुनिए:\n\nसूची-I:\na) आर्यभट\nb) सुश्रुत\nc) ब्रह्मगुप्त\nd) पालकाप्य\n\nसूची-II:\n1) चक्रीय चतुर्भुज के क्षेत्रफल का सूत्र\n2) अपनी धुरी पर पृथ्वी का सूर्यकेन्द्री घूर्णन\n3) हाथियों की चिकित्सा देखभाल पर व्यवस्थित ग्रंथ\n4) राइनोप्लास्टी का पहला व्यापक नैदानिक विवरण",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. आर्यभट (a) का मिलान पृथ्वी के घूर्णन [2] से होता है। सुश्रुत (b) का राइनोप्लास्टी [4] से होता है। ब्रह्मगुप्त (c) का चक्रीय चतुर्भुज क्षेत्रफल [1] से होता है। पालकाप्य (d) का हाथियों की चिकित्सा [3] से होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Concepts/Discoveries) with List-II (Associated Thinkers) and select the correct answer:\n\nList-I:\na) Value of Root 2 in geometry\nb) Binary System classification\nc) Force of attraction by Earth (gravity)\nd) Infinite Series of Pi\n\nList-II:\n1) Pingala\n2) Baudhayana\n3) Madhava of Sangamagrama\n4) Brahmagupta",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-2, b-3, c-4, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Baudhayana (2) calculated the value of root 2. Pingala (1) classified binary meters. Brahmagupta (4) described the earth's attractive force (gravity). Madhava of Sangamagrama (3) calculated the infinite series of Pi."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अवधारणाएं/खोजें) को सूची-II (संबद्ध विचारक) से सुमेलित कीजिए और सही उत्तर चुनिए:\n\nसूची-I:\na) ज्यामिति में √2 का मान\nb) द्विआधारी प्रणाली (बाइनरी सिस्टम) वर्गीकरण\nc) पृथ्वी द्वारा आकर्षण बल (गुरुत्वाकर्षण)\nd) पाई की अनंत श्रृंखला (इनफिनिट सीरीज)\n\nसूची-II:\n1) पिंगल\n2) बौधायन\n3) संगमग्राम के माधव\n4) ब्रह्मगुप्त",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-2, b-3, c-4, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. बौधायन (2) ने √2 के मान की गणना की थी। पिंगल (1) ने द्विआधारी छंदों का वर्गीकरण किया। ब्रह्मगुप्त (4) ने पृथ्वी के आकर्षण बल (गुरुत्वाकर्षण) का वर्णन किया। संगमग्राम के माधव (3) ने पाई की अनंत श्रृंखला विकसित की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient Works) with List-II (Primary Subject Matter) and select the correct answer:\n\nList-I:\na) Rasaratnakara\nb) Lilavati\nc) Panchasiddhantika\nd) Ashtanga Hridaya\n\nList-II:\n1) Synthesis of Ayurvedic medicine and surgery\n2) Compendium of mathematical astronomy\n3) Alchemy and purification of metals\n4) System of arithmetic and geometry problems",
+      "option_a": "a-3, b-4, c-2, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-3, b-2, c-4, d-1",
+      "option_d": "a-4, b-3, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Rasaratnakara (a) deals with alchemy [3]. Lilavati (b) deals with arithmetic [4]. Panchasiddhantika (c) is a compendium of astronomy [2]. Ashtanga Hridaya (d) synthesizes Ayurvedic medicine and surgery [1]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन कृतियां) को सूची-II (प्राथमिक विषय वस्तु) से सुमेलित कीजिए और सही उत्तर चुनिए:\n\nसूची-I:\na) रसरत्नाकर\nb) लीलावती\nc) पंचसिद्धांतिका\nd) अष्टांग हृदय\n\nसूची-II:\n1) आयुर्वेदिक चिकित्सा और शल्य चिकित्सा का संश्लेषण\n2) गणितीय खगोल विज्ञान का संग्रह\n3) कीमिया और धातुओं का शुद्धिकरण\n4) अंकगणित और ज्यामिति समस्याओं की प्रणाली",
+      "option_a": "a-3, b-4, c-2, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-3, b-2, c-4, d-1",
+      "option_d": "a-4, b-3, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. रसरत्नाकर (a) कीमिया [3] से संबंधित है। लीलावती (b) अंकगणित [4] से संबंधित है। पंचसिद्धांतिका (c) खगोल विज्ञान संग्रह [2] है। अष्टांग हृदय (d) चिकित्सा और शल्य चिकित्सा का संश्लेषण [1] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ayurvedic Branch) with List-II (Modern Medical Equivalent) and select the correct answer:\n\nList-I:\na) Kaya-chikitsa\nb) Shalya-tantra\nc) Agada-tantra\nd) Kaumara-bhritya\n\nList-II:\n1) Pediatrics and obstetrics\n2) Toxicology and poisons\n3) Surgery and anatomy\n4) General internal medicine",
+      "option_a": "a-4, b-3, c-2, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-4, b-2, c-3, d-1",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Kaya-chikitsa (a) is internal medicine [4]. Shalya-tantra (b) is surgery [3]. Agada-tantra (c) is toxicology [2]. Kaumara-bhritya (d) is pediatrics [1]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (आयुर्वेदिक शाखा) को सूची-II (आधुनिक चिकित्सा समकक्ष) से सुमेलित कीजिए और सही उत्तर चुनिए:\n\nसूची-I:\na) काय-चिकित्सा\nb) शल्य-तंत्र\nc) अगद-तंत्र\nd) कौमार-भृत्य\n\nसूची-II:\n1) बाल रोग और प्रसूति विज्ञान\n2) विष विज्ञान और विष\n3) शल्य चिकित्सा और शरीर रचना\n4) सामान्य आंतरिक चिकित्सा",
+      "option_a": "a-4, b-3, c-2, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-4, b-2, c-3, d-1",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. काय-चिकित्सा (a) आंतरिक चिकित्सा [4] है। शल्य-तंत्र (b) शल्य चिकित्सा [3] है। अगद-तंत्र (c) विष विज्ञान [2] है। कौमार-भृत्य (d) बाल रोग [1] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Mathematical Work) with List-II (Key Author) and select the correct answer:\n\nList-I:\na) Ganita Sara Samgraha\nb) Patiganita\nc) Bijaganita\nd) Shulba Sutra\n\nList-II:\n1) Sridharacharya\n2) Mahaviracharya\n3) Baudhayana\n4) Bhaskara II",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Mahaviracharya (2) wrote Ganita Sara Samgraha. Sridharacharya (1) wrote Patiganita. Bhaskara II (4) wrote Bijaganita. Baudhayana (3) wrote the oldest Shulba Sutra."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (गणितीय कार्य) को सूची-II (प्रमुख लेखक) से सुमेलित कीजिए और सही उत्तर चुनिए:\n\nसूची-I:\na) गणितसारसंग्रह\nb) पाटीगणित\nc) बीजगणित\nd) शुल्बसूत्र\n\nसूची-II:\n1) श्रीधराचार्य\n2) महावीराचार्य\n3) बौधायन\n4) भास्कर द्वितीय",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. महावीराचार्य (2) ने गणितसारसंग्रह लिखा था। श्रीधराचार्य (1) ने पाटीगणित लिखा था। भास्कर द्वितीय (4) ने बीजगणित लिखा था। बौधायन (3) ने सबसे पुराना शुल्बसूत्र लिखा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient Astronomical System) with List-II (Origin or Feature) and select the correct answer:\n\nList-I:\na) Surya Siddhanta\nb) Romaka Siddhanta\nc) Paulisa Siddhanta\nd) Paitamaha Siddhanta\n\nList-II:\n1) Based on Rome/Byzantine astronomy elements\n2) Traditional Indian calculation system compiled in early centuries CE\n3) Derived from the oldest Puranic and Vedic astronomical texts\n4) Showcases elements from Alexandria (Greece)",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Surya Siddhanta (a) is the traditional Indian system [2]. Romaka Siddhanta (b) is based on Rome/Byzantine [1]. Paulisa Siddhanta (c) shows Alexandrian Greek elements [4]. Paitamaha Siddhanta (d) represents the oldest Vedic-Puranic astronomy [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन खगोलीय सिद्धांत) को सूची-II (उत्पत्ति या विशेषता) से सुमेलित कीजिए और सही उत्तर चुनिए:\n\nसूची-I:\na) सूर्य सिद्धांत\nb) रोमक सिद्धांत\nc) पौलिश सिद्धांत\nd) पैतामह सिद्धांत\n\nसूची-II:\n1) रोम/बाइज़ेंटाइन खगोल विज्ञान के तत्वों पर आधारित\n2) प्रारंभिक शताब्दियों में संकलित पारंपरिक भारतीय गणना प्रणाली\n3) सबसे पुराने पौराणिक और वैदिक खगोलीय ग्रंथों से लिया गया\n4) सिकंदरिया (यूनान) के तत्वों को दर्शाता है",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. सूर्य सिद्धांत (a) पारंपरिक भारतीय प्रणाली [2] है। रोमक सिद्धांत (b) रोम/बाइज़ेंटाइन पर आधारित [1] है। पौलिश सिद्धांत (c) सिकंदरियाई तत्वों [4] को दर्शाता है। पैतामह सिद्धांत (d) वैदिक-पौराणिक खगोल विज्ञान [3] का प्रतिनिधित्व करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ayurvedic Pioneer) with List-II (Famous Contribution) and select the correct answer:\n\nList-I:\na) Charaka\nb) Sushruta\nc) Vagbhata\nd) Shalihotra\n\nList-II:\n1) Codified general Ayurvedic therapeutics (*Kaya-chikitsa*)\n2) Devised earliest rhinoplasty methods (*Shalya-tantra*)\n3) Authored *Ashtanga Sangraha*\n4) Pioneered horse care and anatomy (*Haya-Ayurveda*)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Charaka (a) matches internal therapeutics [1]. Sushruta (b) matches rhinoplasty [2]. Vagbhata (c) matches Ashtanga Sangraha [3]. Shalihotra (d) matches horse care [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (आयुर्वेदिक प्रणेता) को सूची-II (प्रसिद्ध योगदान) से सुमेलित कीजिए और सही उत्तर चुनिए:\n\nसूची-I:\na) चरक\nb) सुश्रुत\nc) वाग्भट\nd) शालिहोत्र\n\nसूची-II:\n1) सामान्य आयुर्वेदिक चिकित्सा पद्धतियों (काय-चिकित्सा) को संहिताबद्ध किया\n2) प्रारंभिक राइनोप्लास्टी विधियों (शल्य-तंत्र) को तैयार किया\n3) 'अष्टांग संग्रह' की रचना की\n4) अश्व चिकित्सा और शरीर रचना (हय-आयुर्वेद) के प्रणेता बने",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. चरक (a) का चिकित्सा पद्धतियों [1] से मिलान होता है। सुश्रुत (b) का राइनोप्लास्टी [2] से होता है। वाग्भट (c) का अष्टांग संग्रह [3] से होता है। शालिहोत्र (d) का अश्व चिकित्सा [4] से होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Astronomical Instrument) with List-II (Description/Function) and select the correct answer:\n\nList-I:\na) Shanku Yantra\nb) Ghati Yantra\nc) Kartari Yantra\nd) Dhanur Yantra\n\nList-II:\n1) Vertical gnomon to measure time using shadows\n2) Outflow water clock container to measure time\n3) Semicircular instrument to track celestial latitude\n4) Scissors-like instrument for angular calculations",
+      "option_a": "a-1, b-2, c-4, d-3",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-4, d-2",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Shanku (a) is a vertical gnomon [1]. Ghati (b) is the water clock [2]. Kartari (c) is scissors-like [4]. Dhanur (d) is semicircular/bow-like [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (खगोलीय उपकरण) को सूची-II (विवरण/कार्य) से सुमेलित कीजिए और सही उत्तर चुनिए:\n\nसूची-I:\na) शंकु यंत्र\nb) घटी यंत्र\nc) कर्तरि यंत्र\nd) धनुर् यंत्र\n\nसूची-II:\n1) छाया का उपयोग करके समय मापने वाला लंबवत शंकु\n2) समय मापने के लिए जल घड़ी का पात्र\n3) खगोलीय अक्षांश को मापने वाला अर्धवृत्ताकार उपकरण\n4) कोणीय गणनाओं के लिए कैंची जैसा दिखने वाला उपकरण",
+      "option_a": "a-1, b-2, c-4, d-3",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-4, d-2",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. शंकु (a) लंबवत शंकु [1] है। घटी (b) जल घड़ी [2] है। कर्तरि (c) कैंची जैसा उपकरण [4] है। धनुर् (d) अर्धवृत्ताकार उपकरण [3] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Baudhayana Shulbasutra:\n1. It contains the earliest explicit geometric statement of what is today known as the Pythagorean Theorem.\n2. It provides a method to calculate the square root of 2, accurate to five decimal places.\n3. It was primarily designed as a handbook for structural engineering of residential stone houses.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: The text contains the earliest version of the Pythagorean theorem. Statement 2 is correct: It gives $\\sqrt{2} \\approx 1 + 1/3 + 1/(3\\cdot4) - 1/(3\\cdot4\\cdot34) \\approx 1.414215$, accurate to 5 decimals. Statement 3 is incorrect: It was a manual for building ritual clay fire altars, not stone residential houses."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौधायन शुल्बसूत्र के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसमें ज्यामिति का सबसे पहला स्पष्ट विवरण है जिसे आज पाइथागोरस प्रमेय के रूप में जाना जाता है।\n2. यह 2 के वर्गमूल की गणना करने के लिए एक विधि प्रदान करता है, जो पांच दशमलव स्थानों तक सटीक है।\n3. इसे मुख्य रूप से आवासीय पत्थरों के घरों के संरचनात्मक इंजीनियरिंग के लिए एक पुस्तिका के रूप में तैयार किया गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: ग्रंथ में पाइथागोरस प्रमेय का सबसे पुराना विवरण है। कथन 2 सही है: यह $\\sqrt{2} \\approx 1.414215$ का अत्यंत सटीक मान प्रदान करता है। कथन 3 गलत है: यह यज्ञ वेदियों के ज्यामितीय निर्माण के लिए एक नियमावली थी, न कि पत्थर के घरों के लिए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the 'Sushruta Samhita':\n1. It describes over 120 surgical instruments including scalpels, forceps, needles, and speculums.\n2. It belongs primarily to the Kaya-chikitsa (general medicine) school of Ayurveda.\n3. It details anatomical dissection and methods of preserving cadavers for study.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: It details 121 surgical instruments (yantras and shastras). Statement 2 is incorrect: It belongs to the Shalya-tantra (surgery) school, not Kaya-chikitsa. Statement 3 is correct: It describes a detailed process of preserving dead bodies in flowing water for skin dissection and anatomical study."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'सुश्रुत संहिता' के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसमें स्केलपेल, चिमटी, सुई और स्पेकुलम सहित 120 से अधिक शल्य चिकित्सा उपकरणों का वर्णन है।\n2. यह मुख्य रूप से आयुर्वेद के काय-चिकित्सा (सामान्य चिकित्सा) संप्रदाय से संबंधित है।\n3. इसमें शारीरिक विच्छेदन (डिसेक्शन) और अध्ययन के लिए शवों को सुरक्षित रखने के तरीकों का विवरण है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: इसमें 121 उपकरणों (यंत्र और शस्त्र) का विवरण है। कथन 2 गलत है: यह शल्य-तंत्र (सर्जरी) संप्रदाय से है, काय-चिकित्सा से नहीं। कथन 3 सही है: इसमें शारीरिक विच्छेदन अध्ययन के लिए बहते पानी में शवों को सुरक्षित रखने की विस्तृत विधि का वर्णन है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the contributions of Brahmagupta:\n1. He formulated rules for algebraic computations involving negative numbers and zero.\n2. He authored 'Khandakhadyaka', which was a practical astronomical treatise.\n3. He explicitly argued that objects fall because the Earth exerts an attractive force (gravity) on them.\n\nWhich of the statements given above are correct?",
+      "option_a": "1, 2 and 3",
+      "option_b": "1 and 2 only",
+      "option_c": "1 and 3 only",
+      "option_d": "2 and 3 only",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: He formalized algebraic rules for zero and negative numbers. Statement 2 is correct: Khandakhadyaka is one of his key astronomical manuals. Statement 3 is correct: He stated that gravity is an inherent property of Earth (gurutvakarshan-like concept)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ब्रह्मगुप्त के योगदान के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने ऋणात्मक संख्याओं और शून्य से संबंधित बीजगणितीय गणनाओं के नियम तैयार किए।\n2. उन्होंने 'खण्डखाद्यक' की रचना की, जो एक व्यावहारिक खगोलीय ग्रंथ था।\n3. उन्होंने स्पष्ट रूप से तर्क दिया कि वस्तुएं गिरती हैं क्योंकि पृथ्वी उन पर एक आकर्षक बल (गुरुत्व) लगाती है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "1, 2 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 1 और 3",
+      "option_d": "केवल 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: उन्होंने शून्य और ऋण संख्याओं के नियम प्रतिपादित किए। कथन 2 सही है: खण्डखाद्यक उनका एक व्यावहारिक खगोलीय ग्रंथ है। कथन 3 सही है: उन्होंने कहा कि चीजों को आकर्षित करना पृथ्वी का अंतर्निहित स्वभाव है (गुरुत्वाकर्षण जैसी अवधारणा)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the 'Panchasiddhantika' of Varahamihira:\n1. It is a compilation of five pre-existing astronomical treatises: Surya, Romaka, Paulisa, Vasistha, and Paitamaha.\n2. It asserts that the Earth rotates on its own axis daily.\n3. The Romaka and Paulisa Siddhantas show clear evidence of Roman-Greek astronomical influence.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: These are the five Siddhantas compiled. Statement 2 is incorrect: Varahamihira did not support the rotation of the Earth; that was proposed by Aryabhata. Statement 3 is correct: These two systems show clear Hellenistic astronomical elements."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वराहमिहिर की 'पंचसिद्धांतिका' के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह पांच पूर्व-मौजूदा खगोलीय ग्रंथों: सूर्य, रोमक, पौलिश, वसिष्ठ और पैतामह का संकलन है।\n2. यह दावा करता है कि पृथ्वी प्रतिदिन अपनी धुरी पर घूमती है।\n3. रोमक और पौलिश सिद्धांत रोमन-यूनानी खगोलीय प्रभाव के स्पष्ट प्रमाण दिखाते हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: ये पांच सिद्धांत संकलित किए गए हैं। कथन 2 गलत है: वराहमिहिर ने पृथ्वी के घूर्णन का समर्थन नहीं किया, यह सिद्धांत आर्यभट द्वारा दिया गया था। कथन 3 सही है: इन दो सिद्धांतों में स्पष्ट यूनानी प्रभाव दिखाई देता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Madhava of Sangamagrama:\n1. He is considered the founder of the Kerala School of Astronomy and Mathematics.\n2. He discovered infinite series approximations for Pi (π), sine, and cosine.\n3. He lived and worked in Ujjain during the Gupta Empire.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: He founded the Kerala School. Statement 2 is correct: He developed the infinite series expansions. Statement 3 is incorrect: He lived in Kerala in the 14th-15th century CE, not in Ujjain during the Gupta Empire (which ended in the 6th century)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. संगमग्राम के माधव के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्हें केरल खगोल विज्ञान और गणित पीठ (स्कूल) का संस्थापक माना जाता है।\n2. उन्होंने पाई (π), ज्या (साइन) और कोसाइन के लिए अनंत श्रृंखला अनुमानों की खोज की थी।\n3. वह गुप्त साम्राज्य के दौरान उज्जैन में रहते थे और कार्य करते थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: उन्होंने केरल स्कूल की स्थापना की। कथन 2 सही है: उन्होंने त्रिकोणमितीय कार्यों के लिए अनंत श्रृंखलाएं विकसित कीं। कथन 3 गलत है: वह 14वीं-15वीं शताब्दी ईस्वी में केरल में रहते थे, न कि गुप्त काल में उज्जैन में।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the 'Charaka Samhita':\n1. It is primarily a text on Kaya-chikitsa (internal medicine) and therapeutics.\n2. It explains the biological humors or Tridosha: Vata, Pitta, and Kapha.\n3. It absolutely rejects the Panchabhuta (five elements) theory of matter.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: It is a core text on internal medicine. Statement 2 is correct: The tridosha theory is central to its physiological system. Statement 3 is incorrect: Ayurveda and the Charaka Samhita are built upon the Panchabhuta theory of five elements constituting the body."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'चरक संहिता' के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह मुख्य रूप से काय-चिकित्सा (आंतरिक चिकित्सा) और चिकित्सा विज्ञान पर एक ग्रंथ है।\n2. यह जैविक दोषों या त्रिदोष (वात, पित्त और कफ) की व्याख्या करता है।\n3. यह पदार्थ के पंचभूत (पांच तत्व) सिद्धांत को पूरी तरह से खारिज करता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: यह आंतरिक चिकित्सा का मुख्य ग्रंथ है। कथन 2 सही है: इसके शारीरिक तंत्र में त्रिदोष सिद्धांत केंद्रीय है। कथन 3 गलत है: आयुर्वेद और चरक संहिता शरीर का निर्माण करने वाले पंचभूतों के सिद्धांत पर ही आधारित हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Bhaskara II (Bhaskaracharya):\n1. His magnum opus 'Siddhanta Shiromani' is divided into Lilavati, Bijaganita, Grahaganitha, and Goladhyaya.\n2. He formulated the Chakravala method to solve indeterminate quadratic equations.\n3. He proved that division of any finite number by zero yields zero.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Siddhanta Shiromani has these four parts. Statement 2 is correct: He perfected the Chakravala (cyclic) method. Statement 3 is incorrect: He stated that division by zero yields 'Khahara' (an infinite quantity, not zero)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भास्कर द्वितीय (भास्कराचार्य) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उनकी महान कृति 'सिद्धांत शिरोमणि' लीलावती, बीजगणित, ग्रहगणित और गोलाध्याय में विभाजित है।\n2. उन्होंने अनिर्धारित द्विघात समीकरणों को हल करने के लिए चक्रवाल विधि तैयार की थी।\n3. उन्होंने साबित किया कि किसी भी सीमित संख्या को शून्य से विभाजित करने पर शून्य प्राप्त होता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: सिद्धांत शिरोमणि के ये चार भाग हैं। कथन 2 सही है: उन्होंने चक्रवाल (चक्रीय) विधि को पूर्ण किया। कथन 3 गलत है: उन्होंने उल्लेख किया था कि शून्य से विभाजित करने पर 'खहर' (अनंत राशि, न कि शून्य) प्राप्त होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding ancient veterinary sciences in India:\n1. 'Shalihotra Samhita' is considered the earliest foundational text on horse care and medicine.\n2. 'Hastyayurveda' by Sage Palakapya deals specifically with elephant diseases and surgical treatment.\n3. Ancient Indian veterinary medicine was completely cut off from the humoral (Tridosha) principles of Ayurveda.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Shalihotra is the founder of equine veterinary science. Statement 2 is correct: Hastyayurveda is dedicated to elephants. Statement 3 is incorrect: Veterinary texts were deeply rooted in Ayurvedic humoral principles, classifying animal diseases using Vata, Pitta, and Kapha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत में प्राचीन पशु चिकित्सा विज्ञान के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. 'शालिहोत्र संहिता' को घोड़ों की देखभाल और चिकित्सा पर सबसे प्रारंभिक मूलभूत ग्रंथ माना जाता है।\n2. ऋषि पालकाप्य द्वारा रचित 'हस्त्यायुर्वेद' विशेष रूप से हाथियों के रोगों और शल्य चिकित्सा उपचार से संबंधित है।\n3. प्राचीन भारतीय पशु चिकित्सा विज्ञान आयुर्वेद के त्रिदोष सिद्धांतों से पूरी तरह से अलग था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: शालिहोत्र घोड़ों के चिकित्सा विज्ञान के जनक हैं। कथन 2 सही है: हस्त्यायुर्वेद हाथियों के लिए समर्पित है। कथन 3 गलत है: पशु चिकित्सा ग्रंथ भी आयुर्वेद के त्रिदोष सिद्धांतों पर आधारित थे और वे पशु रोगों को वात, पित्त और कफ के आधार पर वर्गीकृत करते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Nagarjuna and 'Rasashastra':\n1. Nagarjuna's 'Rasaratnakara' is a foundational text describing the metallurgical purification of mercury.\n2. 'Rasashastra' refers to the therapeutic usage of processed mercury, metals, and minerals.\n3. The development of 'Rasashastra' occurred primarily during the early Rigvedic period.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Rasaratnakara deals with mercury processing. Statement 2 is correct: Rasashastra is the medical branch focused on minerals/mercury. Statement 3 is incorrect: Rasashastra developed much later, during the Gupta and post-Gupta/early medieval periods, not in the early Rigvedic period (which was pre-metallurgy of mercury)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागार्जुन और 'रसशास्त्र' के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. नागार्जुन की 'रसरत्नाकर' पारे के धातुकर्म शुद्धिकरण का वर्णन करने वाला एक मूलभूत ग्रंथ है।\n2. 'रसशास्त्र' का तात्पर्य प्रसंस्कृत पारे, धातुओं और खनिजों के चिकित्सीय उपयोग से है।\n3. 'रसशास्त्र' का विकास मुख्य रूप से प्रारंभिक ऋग्वैदिक काल के दौरान हुआ था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: रसरत्नाकर पारे के प्रसंस्करण से संबंधित है। कथन 2 सही है: रसशास्त्र खनिजों और पारे के औषधीय उपयोग की शाखा है। कथन 3 गलत है: रसशास्त्र का विकास बहुत बाद में, गुप्त और गुप्तोत्तर/प्रारंभिक मध्ययुगीन काल में हुआ था, न कि ऋग्वैदिक काल में।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the contributions of Baudhayana to the field of mathematics in ancient India. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Baudhayana (c. 800 BCE) was a Vedic mathematician-priest who composed the Baudhayana Shulba Sutra, the oldest of the Shulba Sutras.\n\nKey Contributions:\n- Baudhayana Theorem: Formulated the earliest statement of the Pythagorean theorem regarding diagonals of rectangles.\n- Square Root of 2: Calculated the value of $\\sqrt{2}$ with high precision as 1.414215.\n- Geometric Construction: Devised rules to construct fire altars of various shapes (falcon, tortoise) of equivalent areas.\n\nHis work laid the foundation for Indian geometry and mathematical astronomy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारत में गणित के क्षेत्र में बौधायन के योगदानों की चर्चा कीजिए। [5 Marks, 50 Words]\n\nउत्तर:",
+      "model_answer": "बौधायन (लगभग 800 ईसा पूर्व) एक वैदिक गणितज्ञ-पुरोहित थे जिन्होंने सबसे प्राचीन 'बौधायन शुल्बसूत्र' की रचना की थी।\n\nप्रमुख योगदान:\n- बौधायन प्रमेय: आयतों के विकर्णों के संबंध में पाइथागोरस प्रमेय का सबसे पहला ज्यामितीय कथन दिया।\n- √2 का मान: √2 के मान की अत्यधिक सटीक गणना (1.414215) की।\n- ज्यामितीय निर्माण: समान क्षेत्रफल वाली विभिन्न आकृतियों (जैसे श्येनचिति/बाज, कूर्माकार/कछुआ) की यज्ञ वेदियों के निर्माण के नियम दिए।\n\nउनके कार्यों ने भारतीय रेखागणित और खगोलीय गणित की नींव रखी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the development of surgical and medical sciences in ancient India, highlighting the contributions of Sushruta and Charaka. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Ancient Indian medical science reached its peak during the classical period, primarily through Ayurveda, which was systematized by Charaka and Sushruta.\n\n| Pioneer | Key Text | Primary Specialization | Major Contributions |\n| :--- | :--- | :--- | :--- |\n| **Charaka** (c. 3rd-2nd Century BCE) | *Charaka Samhita* | Kaya-chikitsa (Internal Medicine) | - Formulated the *Tridosha* theory (Vata, Pitta, Kapha) of body humors.<br>- Elaborated on digestion, metabolism, immunology, and diagnosis.<br>- Prescribed a strict ethical code of conduct for medical practitioners. |\n| **Sushruta** (c. 6th Century BCE) | *Sushruta Samhita* | Shalya-tantra (Surgery) | - Pioneer of rhinoplasty (plastic surgery), cataract surgery, and lithotomy.<br>- Classified 121 surgical instruments (*Yantras* and *Shastras*).<br>- Detailed methods for dead body preservation and anatomical dissection. |\n\nSignificance of their contributions:\n- **Holistic Health**: Focus on prevention, diet, and lifestyle alongside therapeutics.\n- **Scientific Method**: Emphasis on direct observation, physical dissection, and clinical trials rather than purely speculative theories.\n- **Global Influence**: These texts were translated into Arabic (as *Sharaka* and *Susrud*) and Persian, significantly influencing Islamic and European medieval medicine."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सुश्रुत और चरक के योगदानों को रेखांकित करते हुए, प्राचीन भारत में शल्य चिकित्सा और चिकित्सा विज्ञान के विकास का मूल्यांकन कीजिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारतीय चिकित्सा विज्ञान शास्त्रीय काल के दौरान अपने चरमोत्कर्ष पर पहुँचा, मुख्य रूप से आयुर्वेद के माध्यम से, जिसे चरक और सुश्रुत द्वारा व्यवस्थित किया गया था।\n\n| प्रणेता | मुख्य ग्रंथ | प्राथमिक विशेषज्ञता | प्रमुख योगदान |\n| :--- | :--- | :--- | :--- |\n| **चरक** (लगभग 3री-2री शताब्दी ई.पू.) | *चरक संहिता* | काय-चिकित्सा (आंतरिक चिकित्सा) | - शरीर के त्रिदोष सिद्धांत (वात, पित्त, कफ) का प्रतिपादन किया।<br>- पाचन, चयापचय (मेटाबॉलिज्म), रोग प्रतिरोधक क्षमता और निदान का विवरण दिया।<br>- चिकित्सा पेशेवरों के लिए एक सख्त नैतिक आचार संहिता निर्धारित की। |\n| **सुश्रुत** (लगभग 6ठी शताब्दी ई.पू.) | *सुश्रुत संहिता* | शल्य-तंत्र (सर्जरी) | - राइनोप्लास्टी (प्लास्टिक सर्जरी), मोतियाबिंद और लिथोटॉमी के प्रणेता बने।<br>- 121 शल्य चिकित्सा उपकरणों (यंत्रों और शस्त्रों) का वर्गीकरण किया।<br>- मृत शरीर के संरक्षण और शारीरिक विच्छेदन (डिसेक्शन) की विधि बताई। |\n\nउनके योगदान का महत्व:\n- **समग्र स्वास्थ्य**: चिकित्सा के साथ-साथ रोकथाम, आहार और जीवन शैली पर ध्यान केंद्रित किया।\n- **वैज्ञानिक दृष्टिकोण**: केवल काल्पनिक सिद्धांतों के बजाय प्रत्यक्ष अवलोकन, शारीरिक विच्छेदन और नैदानिक परीक्षणों पर बल दिया।\n- **वैश्विक प्रभाव**: इन ग्रंथों का अरबी और फारसी में अनुवाद किया गया, जिससे मध्ययुगीन इस्लामी और यूरोपीय चिकित्सा गहराई से प्रभावित हुई।"
+    }
+  ]
+}

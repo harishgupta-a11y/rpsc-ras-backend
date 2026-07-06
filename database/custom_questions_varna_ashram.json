@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. In which Mandala of the Rigveda is the Purusha Sukta, which contains the first reference to the four Varnas, located?",
+      "option_a": "First Mandala",
+      "option_b": "Third Mandala",
+      "option_c": "Ninth Mandala",
+      "option_d": "Tenth Mandala",
+      "correct": "D",
+      "explanation": "Correct option: D. The Purusha Sukta, which explains the origin of the four varnas (Brahmana, Rajanya, Vaishya, and Shudra) from the body of the cosmic primeval giant (Purusha), is located in the 10th Mandala of the Rigveda."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऋग्वेद के किस मण्डल में पुरुष सूक्त स्थित है, जिसमें चारों वर्णों का पहला संदर्भ मिलता है?",
+      "option_a": "प्रथम मण्डल",
+      "option_b": "तृतीय मण्डल",
+      "option_c": "नवम मण्डल",
+      "option_d": "दशम मण्डल",
+      "correct": "D",
+      "explanation": "सही विकल्प: D। पुरुष सूक्त, जो ब्रह्मांडीय आदिम विशाल पुरुष के शरीर से चार वर्णों (ब्राह्मण, राजन्य, वैश्य और शूद्र) की उत्पत्ति की व्याख्या करता है, ऋग्वेद के 10वें मण्डल में स्थित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Upanishad is the first to explicitly mention all the four Ashramas (life stages)?",
+      "option_a": "Chhandogya Upanishad",
+      "option_b": "Jabala Upanishad",
+      "option_c": "Brihadaranyaka Upanishad",
+      "option_d": "Mundaka Upanishad",
+      "correct": "B",
+      "explanation": "Correct option: B. The Jabala Upanishad is the first text to explicitly mention all four ashramas (Brahmacharya, Grihastha, Vanaprastha, and Sannyasa) in sequence."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा उपनिषद स्पष्ट रूप से सभी चार आश्रमों (जीवन के चरणों) का उल्लेख करने वाला पहला उपनिषद है?",
+      "option_a": "छान्दोग्य उपनिषद",
+      "option_b": "जाबाल उपनिषद",
+      "option_c": "बृहदारण्यक उपनिषद",
+      "option_d": "मुण्डक उपनिषद",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। जाबाल उपनिषद पहला ग्रंथ है जिसमें स्पष्ट रूप से चारों आश्रमों (ब्रह्मचर्य, गृहस्थ, वानप्रस्थ और संन्यास) का क्रमबद्ध उल्लेख मिलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Vedic tradition, who among the following are referred to as 'Dvija' (twice-born)?",
+      "option_a": "Brahmana, Kshatriya, and Vaishya only",
+      "option_b": "Brahmana and Kshatriya only",
+      "option_c": "Brahmana only",
+      "option_d": "All the four varnas including Shudras",
+      "correct": "A",
+      "explanation": "Correct option: A. The term 'Dvija' (twice-born) refers to the top three varnas (Brahmana, Kshatriya, and Vaishya) because they were eligible for the Upanayana ceremony, which was considered a second, spiritual birth."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वैदिक परंपरा में, निम्नलिखित में से किसे 'द्विज' (दो बार जन्मा) कहा जाता है?",
+      "option_a": "केवल ब्राह्मण, क्षत्रिय और वैश्य",
+      "option_b": "केवल ब्राह्मण और क्षत्रिय",
+      "option_c": "केवल ब्राह्मण",
+      "option_d": "शूद्रों सहित सभी चारों वर्ण",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। 'द्विज' (दो बार जन्मा) शब्द शीर्ष तीन वर्णों (ब्राह्मण, क्षत्रिय और वैश्य) को संदर्भित करता है क्योंकि वे उपनयन संस्कार के पात्र थे, जिसे दूसरा, आध्यात्मिक जन्म माना जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Upanishad mentions the first three Ashramas (Brahmacharya, Grihastha, and Vanaprastha) for the first time, omitting Sannyasa?",
+      "option_a": "Katha Upanishad",
+      "option_b": "Aitareya Upanishad",
+      "option_c": "Chhandogya Upanishad",
+      "option_d": "Taittiriya Upanishad",
+      "correct": "C",
+      "explanation": "Correct option: C. The Chhandogya Upanishad refers to the three stages of life (three branches of duty) representing Brahmacharya, Grihastha, and Vanaprastha, before the fourth stage (Sannyasa) was formally established as the final stage."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा उपनिषद संन्यास को छोड़कर पहली बार तीन आश्रमों (ब्रह्मचर्य, गृहस्थ और वानप्रस्थ) का उल्लेख करता है?",
+      "option_a": "कठ उपनिषद",
+      "option_b": "ऐतरेय उपनिषद",
+      "option_c": "छान्दोग्य उपनिषद",
+      "option_d": "तैत्तिरीय उपनिषद",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। छान्दोग्य उपनिषद में जीवन के तीन चरणों (कर्तव्य की तीन शाखाओं) का संदर्भ मिलता है जो ब्रह्मचर्य, गृहस्थ और वानप्रस्थ का प्रतिनिधित्व करते हैं, इससे पहले कि चौथे चरण (संन्यास) को औपचारिक रूप से अंतिम चरण के रूप में स्थापित किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the householder stage (Grihastha), which of the following is NOT one of the 'Pancha Mahayajnas' (five great daily sacrifices) prescribed for a Dvija?",
+      "option_a": "Deva Yajna",
+      "option_b": "Pitru Yajna",
+      "option_c": "Raja Yajna",
+      "option_d": "Bhuta Yajna",
+      "correct": "C",
+      "explanation": "Correct option: C. The five great daily sacrifices (Pancha Mahayajnas) are Brahma Yajna (to sages/Vedas), Deva Yajna (to gods), Pitru Yajna (to ancestors), Manushya/Nri Yajna (to guests/humanity), and Bhuta Yajna (to all living creatures). Raja Yajna is not one of them."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गृहस्थ आश्रम में, निम्नलिखित में से कौन सा एक द्विज के लिए निर्धारित 'पंच महायज्ञों' (पांच दैनिक महान यज्ञों) में से एक नहीं है?",
+      "option_a": "देव यज्ञ",
+      "option_b": "पितृ यज्ञ",
+      "option_c": "राज यज्ञ",
+      "option_d": "भूत यज्ञ",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। पांच दैनिक महान यज्ञ (पंच महायज्ञ) हैं: ब्रह्म यज्ञ (ऋषियों/वेदों के प्रति), देव यज्ञ (देवताओं के प्रति), पितृ यज्ञ (पितरों के प्रति), मनुष्य/नृ यज्ञ (अतिथियों/मानवता के प्रति), और भूत यज्ञ (सभी जीवों के प्रति)। राज यज्ञ इनमें से एक नहीं है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Purusharthas (life goals) are primary focus areas during the Grihastha Ashrama?",
+      "option_a": "Dharma and Moksha",
+      "option_b": "Artha and Kama",
+      "option_c": "Dharma and Kama only",
+      "option_d": "Moksha only",
+      "correct": "B",
+      "explanation": "Correct option: B. While Dharma forms the foundation of all stages, the Grihastha ashrama is specifically dedicated to the pursuit of Artha (wealth/material prosperity) and Kama (pleasure/desire) in a righteous manner to sustain society."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गृहस्थ आश्रम के दौरान मुख्य रूप से निम्नलिखित में से कौन से पुरुषार्थ (जीवन के लक्ष्य) प्राथमिक ध्यान क्षेत्र हैं?",
+      "option_a": "धर्म और मोक्ष",
+      "option_b": "अर्थ और काम",
+      "option_c": "केवल धर्म और काम",
+      "option_d": "केवल मोक्ष",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। यद्यपि धर्म सभी चरणों का आधार है, लेकिन गृहस्थ आश्रम विशेष रूप से समाज को बनाए रखने के लिए धार्मिक तरीके से अर्थ (धन/भौतिक समृद्धि) और काम (सुख/इच्छा) की प्राप्ति के लिए समर्पित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under the Vedic concept of 'Three Debts' (Rinas), how does a person clear the 'Pitru Rina' (debt to ancestors)?",
+      "option_a": "By performing sacrifices to the gods",
+      "option_b": "By studying the Vedas under a Guru",
+      "option_c": "By marrying and begetting children",
+      "option_d": "By donating wealth to the Brahmanas",
+      "correct": "C",
+      "explanation": "Correct option: C. Pitru Rina (debt to ancestors) is cleared by marrying, establishing a family, and having children, thereby ensuring the continuation of the lineage and performing ancestral rites."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'तीन ऋण' (ऋणों) की वैदिक अवधारणा के तहत, एक व्यक्ति 'पितृ ऋण' (पूर्वजों के प्रति ऋण) से कैसे मुक्त होता है?",
+      "option_a": "देवताओं के लिए यज्ञ करके",
+      "option_b": "गुरु के सानिध्य में वेदों का अध्ययन करके",
+      "option_c": "विवाह करके और संतानोत्पत्ति करके",
+      "option_d": "ब्राह्मणों को दान देकर",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। पितृ ऋण (पूर्वजों के प्रति ऋण) विवाह करके, परिवार स्थापित करके और बच्चे पैदा करके चुकाया जाता है, जिससे वंश की निरंतरता सुनिश्चित होती है और पैतृक अनुष्ठान संपन्न होते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The transition from the Rigvedic to the Later Vedic period saw what change in the Varna system?",
+      "option_a": "Shift from birth-based divisions to career-based divisions",
+      "option_b": "Complete abolition of the division of labor",
+      "option_c": "Shift from flexible, merit-based divisions to rigid, hereditary divisions",
+      "option_d": "Inclusion of Shudras in the Upanayana sanskara",
+      "correct": "C",
+      "explanation": "Correct option: C. The Rigvedic varna system was flexible and based on occupation/temperament (karma/guna). During the Later Vedic period, it became rigid and hereditary (based on birth/jati)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऋग्वैदिक काल से उत्तर वैदिक काल में संक्रमण के दौरान वर्ण व्यवस्था में क्या परिवर्तन देखा गया?",
+      "option_a": "जन्म-आधारित विभाजनों से पेशा-आधारित विभाजनों में बदलाव",
+      "option_b": "श्रम विभाजन का पूर्ण उन्मूलन",
+      "option_c": "लचीले, योग्यता-आधारित विभाजनों से कठोर, वंशानुगत विभाजनों में बदलाव",
+      "option_d": "उपनयन संस्कार में शूद्रों का समावेश",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। ऋग्वैदिक वर्ण व्यवस्था लचीली थी और व्यवसाय/स्वभाव (कर्म/गुण) पर आधारित थी। उत्तर वैदिक काल के दौरान, यह कठोर और वंशानुगत (जन्म/जाति आधारित) हो गई।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to the Upanishadic and Sutra traditions, which ashrama is considered the 'support' or 'mother' of all other ashramas because it provides food and sustenance to them?",
+      "option_a": "Brahmacharya",
+      "option_b": "Grihastha",
+      "option_c": "Vanaprastha",
+      "option_d": "Sannyasa",
+      "correct": "B",
+      "explanation": "Correct option: B. The Grihastha (householder) ashrama is lauded in ancient texts as the support of all other ashramas because the householder feeds, protects, and supports students, forest dwellers, and ascetics."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उपनिषदिक और सूत्र परंपराओं के अनुसार, किस आश्रम को अन्य सभी आश्रमों का 'आधार' या 'माता' माना जाता है क्योंकि यह उन्हें भोजन और भरण-पोषण प्रदान करता है?",
+      "option_a": "ब्रह्मचर्य",
+      "option_b": "गृहस्थ",
+      "option_c": "वानप्रस्थ",
+      "option_d": "संन्यास",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। प्राचीन ग्रंथों में गृहस्थ आश्रम की प्रशंसा अन्य सभी आश्रमों के आधार के रूप में की गई है क्योंकि गृहस्थ ही छात्रों, वनवासियों और संन्यासियों को भोजन, सुरक्षा और सहायता प्रदान करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. How is 'Deva Rina' (debt to the gods) traditionally repaid in the Vedic system?",
+      "option_a": "By studying scriptures and Vedas",
+      "option_b": "By performing sacrifices (Yajnas) and offering oblations",
+      "option_c": "By raising a righteous family",
+      "option_d": "By giving alms to ascetics",
+      "correct": "B",
+      "explanation": "Correct option: B. Deva Rina (debt to the gods) is repaid by performing regular sacrifices, rituals, and offering oblations (Havana/Yajna) to the deities."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वैदिक प्रणाली में पारंपरिक रूप से 'देव ऋण' (देवताओं के प्रति ऋण) कैसे चुकाया जाता है?",
+      "option_a": "शास्त्रों और वेदों का अध्ययन करके",
+      "option_b": "यज्ञ करके और आहुति देकर",
+      "option_c": "एक धार्मिक परिवार का पालन-पोषण करके",
+      "option_d": "संन्यासियों को भिक्षा देकर",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। देवताओं के प्रति नियमित यज्ञ, अनुष्ठान करने और देवताओं को आहुति (हवन/यज्ञ) देने से देव ऋण चुकाया जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the literal meaning of the word 'Ashrama' in ancient Indian philosophy?",
+      "option_a": "A place of worship only",
+      "option_b": "A stage of life or a place for exertion/effort",
+      "option_c": "The renunciation of all worldly possessions",
+      "option_d": "A system of social categorization based on birth",
+      "correct": "B",
+      "explanation": "Correct option: B. The word 'Ashrama' is derived from the Sanskrit root 'shram' which means to exert oneself or make an effort. It represents a stage of life where one performs specific spiritual and social duties (exertion)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय दर्शन में 'आश्रम' शब्द का शाब्दिक अर्थ क्या है?",
+      "option_a": "केवल पूजा का स्थान",
+      "option_b": "जीवन का एक चरण या परिश्रम/प्रयास करने का स्थान",
+      "option_c": "सभी सांसारिक संपत्तियों का त्याग",
+      "option_d": "जन्म के आधार पर सामाजिक वर्गीकरण की प्रणाली",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। 'आश्रम' शब्द संस्कृत के मूल शब्द 'श्रम' से बना है जिसका अर्थ है परिश्रम करना या प्रयास करना। यह जीवन के एक ऐसे चरण का प्रतिनिधित्व करता है जहाँ व्यक्ति विशिष्ट आध्यात्मिक और सामाजिक कर्तव्यों (परिश्रम) का पालन करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under the Varna system, which of the following terms describes a marriage where a man of a higher Varna marries a woman of a lower Varna?",
+      "option_a": "Anuloma Marriage",
+      "option_b": "Pratiloma Marriage",
+      "option_c": "Niyoga Marriage",
+      "option_d": "Gandharva Marriage",
+      "correct": "A",
+      "explanation": "Correct option: A. Anuloma (hypergamy) refers to a marriage between a man of a higher varna and a woman of a lower varna, which was socially tolerated and permitted in Dharmashastras."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वर्ण व्यवस्था के अंतर्गत, निम्नलिखित में से कौन सा शब्द उस विवाह का वर्णन करता है जिसमें उच्च वर्ण का पुरुष निम्न वर्ण की महिला से विवाह करता है?",
+      "option_a": "अनुलोम विवाह",
+      "option_b": "प्रतिलोम विवाह",
+      "option_c": "नियोग विवाह",
+      "option_d": "गंधर्व विवाह",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। अनुलोम विवाह से तात्पर्य उच्च वर्ण के पुरुष और निम्न वर्ण की महिला के बीच विवाह से है, जिसे समाज में स्वीकार किया जाता था और धर्मशास्त्रों में अनुमति दी गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under the Varna system, what term describes a marriage where a woman of a higher Varna marries a man of a lower Varna?",
+      "option_a": "Anuloma Marriage",
+      "option_b": "Pratiloma Marriage",
+      "option_c": "Niyoga Marriage",
+      "option_d": "Asura Marriage",
+      "correct": "B",
+      "explanation": "Correct option: B. Pratiloma (hypogamy) is a marriage where a woman of a higher varna marries a man of a lower varna. This was strongly disapproved of by ancient lawgivers."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वर्ण व्यवस्था के अंतर्गत, उस विवाह को क्या कहा जाता है जिसमें उच्च वर्ण की महिला निम्न वर्ण के पुरुष से विवाह करती है?",
+      "option_a": "अनुलोम विवाह",
+      "option_b": "प्रतिलोम विवाह",
+      "option_c": "नियोग विवाह",
+      "option_d": "असुर विवाह",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। प्रतिलोम विवाह वह विवाह है जहाँ उच्च वर्ण की महिला निम्न वर्ण के पुरुष से विवाह करती है। प्राचीन कानूनविदों द्वारा इसकी कड़ी निंदा की गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to the Dharmasastras, the duty of 'Apad-dharma' refers to which of the following?",
+      "option_a": "Regular rituals performed during eclipses",
+      "option_b": "Conduct and occupations permitted for varnas during times of distress or crisis",
+      "option_c": "The code of conduct for kings during times of war",
+      "option_d": "Special duties reserved exclusively for Shudras",
+      "correct": "B",
+      "explanation": "Correct option: B. Apad-dharma refers to the relaxed code of conduct and temporary occupations allowed for different varnas during times of extreme distress or emergency, when they could not sustain themselves through their normal prescribed duties."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. धर्मशास्त्रों के अनुसार, 'आपद्धर्म' (Apad-dharma) का कर्तव्य निम्नलिखित में से किसे संदर्भित करता है?",
+      "option_a": "ग्रहण के दौरान किए जाने वाले नियमित अनुष्ठान",
+      "option_b": "संकट या आपातकाल के समय वर्णों के लिए अनुमत आचरण और व्यवसाय",
+      "option_c": "युद्ध के समय राजाओं के लिए आचार संहिता",
+      "option_d": "विशेष रूप से शूद्रों के लिए आरक्षित विशेष कर्तव्य",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। आपद्धर्म से तात्पर्य संकट या आपातकाल के समय विभिन्न वर्णों के लिए अनुमत शिथिल आचार संहिता और अस्थायी व्यवसायों से है, जब वे अपने सामान्य निर्धारित कर्तव्यों के माध्यम से अपना भरण-पोषण नहीं कर सकते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Vedic framework, 'Rishi Rina' (debt to sages) is cleared through which of the following activities?",
+      "option_a": "Performing animal sacrifice",
+      "option_b": "Offering water to ancestors",
+      "option_c": "Studying the Vedas and observing celibacy (Brahmacharya)",
+      "option_d": "Renouncing the world and living in the forest",
+      "correct": "C",
+      "explanation": "Correct option: C. Rishi Rina (debt to sages/teachers) is cleared through Swadhyaya (self-study of the Vedas), preserving and transmitting knowledge, and observing celibacy during student life."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वैदिक ढांचे में, 'ऋषि ऋण' (ऋषियों के प्रति ऋण) को निम्नलिखित में से किस गतिविधि के माध्यम से चुकाया जाता है?",
+      "option_a": "पशु बलि देकर",
+      "option_b": "पितरों को तर्पण (जल) देकर",
+      "option_c": "वेदों का अध्ययन करके और ब्रह्मचर्य का पालन करके",
+      "option_d": "संसार का त्याग करके वन में रहकर",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। छात्र जीवन के दौरान स्वाध्याय (वेदों का अध्ययन), ज्ञान का संरक्षण और प्रसार करने तथा ब्रह्मचर्य का पालन करने से ऋषि ऋण चुकाया जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which ceremony marks the official entry of a child into the Brahmacharya Ashrama?",
+      "option_a": "Upanayana Sanskara",
+      "option_b": "Namakarana Sanskara",
+      "option_c": "Samavartana Sanskara",
+      "option_d": "Vivaha Sanskara",
+      "correct": "A",
+      "explanation": "Correct option: A. The Upanayana Sanskara (sacred thread ceremony) marks the initiation of a student into formal education and entry into the Brahmacharya Ashrama."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा संस्कार ब्रह्मचर्य आश्रम में प्रवेश का प्रतीक माना जाता है?",
+      "option_a": "उपनयन संस्कार",
+      "option_b": "नामकरण संस्कार",
+      "option_c": "समावर्तन संस्कार",
+      "option_d": "विवाह संस्कार",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। उपनयन संस्कार (जनेऊ संस्कार) औपचारिक शिक्षा की शुरुआत और ब्रह्मचर्य आश्रम में प्रवेश का प्रतीक माना जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which ritual marks the completion of the Brahmacharya Ashrama and return to the household life?",
+      "option_a": "Upanayana Sanskara",
+      "option_b": "Samavartana Sanskara",
+      "option_c": "Keshanta Sanskara",
+      "option_d": "Antyesti Sanskara",
+      "correct": "B",
+      "explanation": "Correct option: B. The Samavartana Sanskara is the graduation ceremony performed at the end of the student life (Brahmacharya), marking the student's return home to enter the Grihastha stage."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा अनुष्ठान ब्रह्मचर्य आश्रम की समाप्ति और गृहस्थ जीवन में वापसी का प्रतीक है?",
+      "option_a": "उपनयन संस्कार",
+      "option_b": "समावर्तन संस्कार",
+      "option_c": "केशान्त संस्कार",
+      "option_d": "अन्त्येष्टि संस्कार",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। समावर्तन संस्कार छात्र जीवन (ब्रह्मचर्य) के अंत में आयोजित स्नातक समारोह है, जो गृहस्थ जीवन में प्रवेश करने के लिए छात्र की घर वापसी का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The division of Varnas in the Bhagavad Gita is stated to be based on which of the following?",
+      "option_a": "Birth and family lineage (Jati)",
+      "option_b": "Guna (qualities/attributes) and Karma (actions)",
+      "option_c": "Wealth and political status",
+      "option_d": "The choice of the ruling king",
+      "correct": "B",
+      "explanation": "Correct option: B. In the Bhagavad Gita (Chapter 4, Verse 13), Lord Krishna states: 'Chatur-varnyam maya srishtam guna-karma-vibhagashah', meaning the four-fold order was created based on qualities (Guna) and actions (Karma), not birth."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भगवद्गीता में वर्णों का विभाजन निम्नलिखित में से किस पर आधारित बताया गया है?",
+      "option_a": "जन्म और पारिवारिक वंश (जाति)",
+      "option_b": "गुण (गुण/विशेषताएं) और कर्म (कार्य)",
+      "option_c": "धन और राजनीतिक स्थिति",
+      "option_d": "सत्तारूढ़ राजा की पसंद",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। भगवद्गीता (अध्याय 4, श्लोक 13) में श्री कृष्ण कहते हैं: 'चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः', अर्थात चारों वर्णों की रचना गुणों (गुण) और कर्मों (कर्म) के आधार पर की गई है, न कि जन्म के आधार पर।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to Manusmriti, what is the primary duty of the Shudra Varna?",
+      "option_a": "Studying scriptures and performing Yajnas",
+      "option_b": "Ruling the kingdom and defending against invasions",
+      "option_c": "Trading, cattle rearing, and agriculture",
+      "option_d": "Serving the other three twice-born Varnas without malice",
+      "correct": "D",
+      "explanation": "Correct option: D. According to Dharmashastras like Manusmriti, the primary duty of the Shudra varna is to serve the three twice-born (Dvija) varnas—Brahmana, Kshatriya, and Vaishya—obediently and without malice."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मनुस्मृति के अनुसार, शूद्र वर्ण का प्राथमिक कर्तव्य क्या है?",
+      "option_a": "शास्त्रों का अध्ययन करना और यज्ञ करना",
+      "option_b": "राज्य पर शासन करना और आक्रमणों से रक्षा करना",
+      "option_c": "व्यापार, मवेशी पालन और कृषि",
+      "option_d": "बिना किसी द्वेष के अन्य तीन द्विज वर्णों की सेवा करना",
+      "correct": "D",
+      "explanation": "सही विकल्प: D। मनुस्मृति जैसे धर्मशास्त्रों के अनुसार, शूद्र वर्ण का प्राथमिक कर्तव्य अन्य तीन द्विज वर्णों—ब्राह्मण, क्षत्रिय और वैश्य—की निष्ठापूर्वक और बिना किसी द्वेष के सेवा करना है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What criteria does Manu prescribe for a householder to transition into the Vanaprastha Ashrama?",
+      "option_a": "Reaching exactly 60 years of age",
+      "option_b": "When their skin wrinkles, hair turns grey, and they see grandchildren",
+      "option_c": "When they lose all their wealth and property",
+      "option_d": "When the king commands them to retire to the forest",
+      "correct": "B",
+      "explanation": "Correct option: B. According to Manusmriti, when a householder perceives his skin becoming wrinkled, his hair turning grey, and beholds the child of his child, he should retire to the forest (Vanaprastha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मनु ने एक गृहस्थ को वानप्रस्थ आश्रम में संक्रमण के लिए क्या मानदंड निर्धारित किए हैं?",
+      "option_a": "ठीक 60 वर्ष की आयु प्राप्त करना",
+      "option_b": "जब उनकी त्वचा पर झुर्रियां पड़ जाएं, बाल सफेद हो जाएं और वे पोते-पोतियों को देख लें",
+      "option_c": "जब वे अपनी सारी संपत्ति और धन खो देते हैं",
+      "option_d": "जब राजा उन्हें जंगल में सेवानिवृत्त होने का आदेश देता है",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। मनुस्मृति के अनुसार, जब कोई गृहस्थ अपनी त्वचा को झुर्रीदार होते देखता है, बाल सफेद होते देखता है, और अपनी संतान की संतान को देख लेता है, तो उसे वन (वानप्रस्थ) में चले जाना चाहिए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the context of Varna-ashrama-dharma, which of the following is associated with 'Pancha-Mahayajna' called 'Bhuta Yajna'?",
+      "option_a": "Offering food to ancestors",
+      "option_b": "Offering food and water to animals, insects, and other living creatures",
+      "option_c": "Offering oblation to Agni",
+      "option_d": "Welcoming and feeding guests",
+      "correct": "B",
+      "explanation": "Correct option: B. Bhuta Yajna (sacrifice to living beings) involves offering food and water to animals, birds, insects, and spirits to acknowledge our interdependence with nature."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वर्णाश्रम-धर्म के संदर्भ में, निम्नलिखित में से कौन सा 'पंच-महायज्ञ' के अंतर्गत 'भूत यज्ञ' से जुड़ा है?",
+      "option_a": "पितरों को भोजन अर्पित करना",
+      "option_b": "जानवरों, कीड़ों और अन्य जीवों को भोजन और पानी देना",
+      "option_c": "अग्नि में आहुति देना",
+      "option_d": "अतिथियों का स्वागत करना और उन्हें भोजन कराना",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। भूत यज्ञ (जीवों के प्रति यज्ञ) में प्रकृति के साथ हमारी परस्पर निर्भरता को स्वीकार करने के लिए जानवरों, पक्षियों, कीड़ों और आत्माओं को भोजन और पानी देना शामिल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The concept of 'Yati' or 'Sannyasi' in the Upanishads is primarily characterized by the pursuit of which Purushartha?",
+      "option_a": "Dharma",
+      "option_b": "Artha",
+      "option_c": "Kama",
+      "option_d": "Moksha",
+      "correct": "D",
+      "explanation": "Correct option: D. The Sannyasa ashrama is completely dedicated to the pursuit of Moksha (spiritual liberation from the cycle of rebirth) through renunciation of material desires."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उपनिषदों में 'यति' या 'संन्यासी' की अवधारणा मुख्य रूप से किस पुरुषार्थ की प्राप्ति से जुड़ी है?",
+      "option_a": "धर्म",
+      "option_b": "अर्थ",
+      "option_c": "काम",
+      "option_d": "मोक्ष",
+      "correct": "D",
+      "explanation": "सही विकल्प: D। संन्यास आश्रम भौतिक इच्छाओं के त्याग के माध्यम से मोक्ष (पुनर्जन्म के चक्र से आध्यात्मिक मुक्ति) की खोज के लिए पूरी तरह समर्पित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Vedic texts mentions the division of people into four classes based on their colors (Varna) for the first time?",
+      "option_a": "Yajurveda Samhita",
+      "option_b": "Rigveda Samhita",
+      "option_c": "Atharvaveda Samhita",
+      "option_d": "Shatapatha Brahmana",
+      "correct": "B",
+      "explanation": "Correct option: B. The Rigveda Samhita (in its 10th Mandala, Purusha Sukta) contains the earliest reference to the division of society into four varnas based on cosmic creation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस वैदिक ग्रंथ में पहली बार वर्ण (रंग/वर्ग) के आधार पर लोगों को चार श्रेणियों में विभाजित करने का उल्लेख मिलता है?",
+      "option_a": "यजुर्वेद संहिता",
+      "option_b": "ऋग्वेद संहिता",
+      "option_c": "अथर्ववेद संहिता",
+      "option_d": "शतपथ ब्राह्मण",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। ऋग्वेद संहिता (इसके 10वें मण्डल के पुरुष सूक्त में) ब्रह्मांडीय रचना के आधार पर समाज को चार वर्णों में विभाजित करने का सबसे पहला संदर्भ मिलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What was the social implication of 'Upanayana' ceremony in terms of Ashram entry?",
+      "option_a": "It marked the beginning of Sannyasa",
+      "option_b": "It marked the transition from childhood to Brahmacharya",
+      "option_c": "It was compulsory for women to enter Grihastha ashrama",
+      "option_d": "It allowed Shudras to read the Vedas",
+      "correct": "B",
+      "explanation": "Correct option: B. The Upanayana ceremony was the sacred thread initiation that marked the end of childhood and the official beginning of formal Vedic study in the Brahmacharya ashrama."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आश्रम प्रवेश के संदर्भ में 'उपनयन' संस्कार का सामाजिक प्रभाव क्या था?",
+      "option_a": "यह संन्यास की शुरुआत का प्रतीक था",
+      "option_b": "यह बचपन से ब्रह्मचर्य में संक्रमण का प्रतीक था",
+      "option_c": "महिलाओं के लिए गृहस्थ आश्रम में प्रवेश करना अनिवार्य था",
+      "option_d": "ने शूद्रों को वेदों को पढ़ने की अनुमति दी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। उपनयन संस्कार जनेऊ दीक्षा थी जो बचपन के अंत और ब्रह्मचर्य आश्रम में औपचारिक वैदिक अध्ययन की आधिकारिक शुरुआत का प्रतीक थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following daily sacrifices (Mahayajna) in Grihastha ashrama represents showing respect and hospitality to human guests?",
+      "option_a": "Deva Yajna",
+      "option_b": "Manushya Yajna",
+      "option_c": "Pitru Yajna",
+      "option_d": "Brahma Yajna",
+      "correct": "B",
+      "explanation": "Correct option: B. Manushya Yajna (also called Nri Yajna) is the daily duty of hosting, feeding, and respecting guests, travellers, and the needy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गृहस्थ आश्रम में निम्नलिखित में से कौन सा दैनिक यज्ञ (महायज्ञ) मानव अतिथियों के प्रति सम्मान और आतिथ्य दिखाने का प्रतिनिधित्व करता है?",
+      "option_a": "देव यज्ञ",
+      "option_b": "मनुष्य यज्ञ",
+      "option_c": "पितृ यज्ञ",
+      "option_d": "ब्रह्म यज्ञ",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। मनुष्य यज्ञ (जिसे नृ यज्ञ भी कहा जाता है) मेहमानों, यात्रियों और जरूरतमंदों की मेजबानी करने, उन्हें भोजन कराने और उनका सम्मान करने का दैनिक कर्तव्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. [Assertion & Reason]\nAssertion (A): The Grihastha Ashrama is considered the pillar of the entire Ashrama system.\nReason (R): The householder provides livelihood, food, and security to the members of all the other three Ashramas.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true because Grihastha is praised in Dharmashastras as the pillar/foundation of the ashrama system.\nReason Analysis: The reason is true and correctly explains the assertion because Brahmacharis, Vanaprasthis, and Sannyasis do not earn or cook, and rely entirely on the charity and food provided by Grihasthis."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. [कथन और कारण]\nकथन (A): गृहस्थ आश्रम को संपूर्ण आश्रम व्यवस्था का स्तंभ माना जाता है।\nकारण (R): गृहस्थ अन्य तीनों आश्रमों के सदस्यों को आजीविका, भोजन और सुरक्षा प्रदान करता है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: कथन सही है क्योंकि धर्मशास्त्रों में गृहस्थ की सराहना आश्रम प्रणाली के स्तंभ/आधार के रूप में की गई है।\nReason Analysis: कारण सही है और कथन की सही व्याख्या करता है क्योंकि ब्रह्मचारी, वानप्रस्थी और संन्यासी कमाते या खाना नहीं बनाते हैं, और पूरी तरह से गृहस्थों द्वारा दिए जाने वाले दान और भोजन पर निर्भर रहते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. [Assertion & Reason]\nAssertion (A): The Upanayana ceremony was denied to the Shudras in the Later Vedic and Post-Vedic periods.\nReason (R): The Shudras were considered ineligible to study the Vedas and perform Vedic Yajnas.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; from the Later Vedic period onwards, Shudras were excluded from the Upanayana ceremony.\nReason Analysis: The reason is true and explains the assertion because Upanayana was the initiation ceremony for Vedic study and performance of Vedic rituals, from which Shudras were barred."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. [कथन और कारण]\nकथन (A): उत्तर वैदिक और उत्तर-वैदिक काल में शूद्रों को उपनयन संस्कार से वंचित कर दिया गया था।\nकारण (R): शूद्रों को वेदों का अध्ययन करने और वैदिक यज्ञों को करने के लिए अपात्र माना जाता था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: कथन सही है; उत्तर वैदिक काल के बाद से शूद्रों को उपनयन संस्कार से बाहर कर दिया गया था।\nReason Analysis: कारण सही है और कथन की व्याख्या करता है क्योंकि उपनयन वैदिक अध्ययन और वैदिक अनुष्ठानों के प्रदर्शन के लिए दीक्षा समारोह था, जिससे शूद्रों को वंचित कर दिया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. [Assertion & Reason]\nAssertion (A): The Jati system is completely identical in definition and flexibility to the original Vedic Varna system.\nReason (R): The Varna system was originally based on personal qualities (guna) and aptitude (karma), whereas the Jati system became strictly birth-based and rigid.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "D",
+      "explanation": "Assertion Analysis: The assertion is false because Jati (caste) and Varna are not identical; Varna is a broad four-fold classification, while Jati represents thousands of localized, rigid endogamous birth groups.\nReason Analysis: The reason is true as the original Vedic Varna system was occupational and flexible, while the Jati system is rigid and hereditary."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. [कथन और कारण]\nकथन (A): जाति व्यवस्था मूल वैदिक वर्ण व्यवस्था के परिभाषा और लचीलेपन में पूरी तरह से समान है।\nकारण (R): वर्ण व्यवस्था मूल रूप से व्यक्तिगत गुणों (गुण) और योग्यता (कर्म) पर आधारित थी, जबकि जाति व्यवस्था पूरी तरह से जन्म-आधारित और कठोर हो गई।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "D",
+      "explanation": "Assertion Analysis: कथन गलत है क्योंकि जाति और वर्ण समान नहीं हैं; वर्ण एक व्यापक चार-स्तरीय वर्गीकरण है, जबकि जाति हजारों स्थानीय, कठोर जन्म-आधारित समूहों का प्रतिनिधित्व करती है।\nReason Analysis: कारण सही है क्योंकि मूल वैदिक वर्ण व्यवस्था व्यावसायिक और लचीली थी, जबकि जाति व्यवस्था कठोर और वंशानुगत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. [Assertion & Reason]\nAssertion (A): Sannyasa was the final ashrama that aimed at the complete renunciation of material ties.\nReason (R): The Chhandogya Upanishad is the earliest text to mention three ashramas.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: The assertion is true because Sannyasa is the fourth stage focused on renouncing all material bonds to seek Moksha.\nReason Analysis: The reason is also true as Chhandogya Upanishad is the oldest Upanishad to mention three ashramas, but it does not explain why Sannyasa aimed at renunciation of material ties."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. [कथन और कारण]\nकथन (A): संन्यास अंतिम आश्रम था जिसका उद्देश्य भौतिक संबंधों का पूर्ण त्याग था।\nकारण (R): छान्दोग्य उपनिषद तीन आश्रमों का उल्लेख करने वाला सबसे प्राचीन ग्रंथ है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "B",
+      "explanation": "Assertion Analysis: कथन सही है क्योंकि संन्यास चौथा चरण है जो मोक्ष प्राप्त करने के लिए सभी भौतिक बंधनों को त्यागने पर केंद्रित है।\nReason Analysis: कारण भी सही है क्योंकि छान्दोग्य उपनिषद तीन आश्रमों का उल्लेख करने वाला सबसे पुराना उपनिषद है, लेकिन यह यह स्पष्ट नहीं करता है कि संन्यास का उद्देश्य भौतिक संबंधों का त्याग क्यों था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. [Assertion & Reason]\nAssertion (A): A twice-born (Dvija) individual was expected to perform the Pancha Mahayajnas daily during the Brahmacharya Ashrama.\nReason (R): The Pancha Mahayajnas were designed to repay the various cosmic and social debts incurred by living as a householder in society.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "D",
+      "explanation": "Assertion Analysis: The assertion is false because the Pancha Mahayajnas are prescribed for the Grihastha (householder) ashrama, not the Brahmacharya (student) ashrama.\nReason Analysis: The reason is true because these sacrifices were designed to clear debts (Rinas) and balance the ecological/social impacts of a householder's life."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. [कथन और कारण]\nकथन (A): एक द्विज (दो बार जन्मे) व्यक्ति से ब्रह्मचर्य आश्रम के दौरान प्रतिदिन पंच महायज्ञ करने की अपेक्षा की जाती थी।\nकारण (R): पंच महायज्ञों की रूपरेखा समाज में एक गृहस्थ के रूप में रहने से उत्पन्न विभिन्न ब्रह्मांडीय और सामाजिक ऋणों को चुकाने के लिए की गई थी।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "D",
+      "explanation": "Assertion Analysis: कथन गलत है क्योंकि पंच महायज्ञों का विधान गृहस्थ आश्रम के लिए है, न कि ब्रह्मचर्य (छात्र) आश्रम के लिए।\nReason Analysis: कारण सही है क्योंकि ये यज्ञ ऋणों को चुकाने और गृहस्थ के जीवन के पारिस्थितिक/सामाजिक प्रभावों को संतुलित करने के लिए डिज़ाइन किए गए थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. [Assertion & Reason]\nAssertion (A): The concept of Varna-samkara led to the proliferation of numerous mixed castes (Jatis) in the post-Vedic period.\nReason (R): Varna-samkara occurred due to inter-marriage between different Varnas, categorized as Anuloma and Pratiloma.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true because Varna-samkara (mixing of varnas) is described in Dharmashastras as the source of new mixed castes (Jatis).\nReason Analysis: The reason is true and explains the assertion because it specifies how these marriages (Anuloma and Pratiloma) between different varnas led to offspring categorized under new mixed castes."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. [कथन और कारण]\nकथन (A): वर्ण-संकर की अवधारणा के कारण उत्तर-वैदिक काल में कई मिश्रित जातियों का उदय हुआ।\nकारण (R): वर्ण-संकर विभिन्न वर्णों के बीच अंतर्विवाह के कारण हुआ, जिन्हें अनुलोम और प्रतिलोम के रूप में वर्गीकृत किया गया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: कथन सही है क्योंकि धर्मशास्त्रों में वर्ण-संकर (वर्णों के मिश्रण) को नई मिश्रित जातियों (जातियों) के स्रोत के रूप में वर्णित किया गया है।\nReason Analysis: कारण सही है और कथन की व्याख्या करता है क्योंकि यह स्पष्ट करता है कि कैसे विभिन्न वर्णों के बीच इन विवाहों (अनुलोम और प्रतिलोम) के कारण उत्पन्न संतानों को नई मिश्रित जातियों के तहत वर्गीकृत किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. [Assertion & Reason]\nAssertion (A): In the Later Vedic period, women's participation in formal Upanayana and Vedic studies declined drastically.\nReason (R): The Grihastha ashrama became the sole sphere of activity for women, and marriage was increasingly treated as their equivalent of Upanayana.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; women's right to Upanayana and Vedic study was gradually withdrawn in the Later Vedic and Sutra periods.\nReason Analysis: The reason is true and correctly explains the assertion because their role was confined to Grihastha, and Vivaha (marriage) came to be formally equated with Upanayana for women."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. [कथन और कारण]\nकथन (A): उत्तर वैदिक काल में, औपचारिक उपनयन और वैदिक अध्ययनों में महिलाओं की भागीदारी में भारी गिरावट आई।\nकारण (R): गृहस्थ आश्रम महिलाओं की गतिविधि का एकमात्र क्षेत्र बन गया, और विवाह को तेजी से उनके उपनयन के समकक्ष माना जाने लगा।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: कथन सही है; उत्तर वैदिक और सूत्र काल में महिलाओं के उपनयन और वैदिक अध्ययन के अधिकार को धीरे-धीरे वापस ले लिया गया था।\nReason Analysis: कारण सही है और कथन की सही व्याख्या करता है क्योंकि उनकी भूमिका गृहस्थ तक ही सीमित थी, और विवाह (विवाह) को औपचारिक रूप से महिलाओं के लिए उपनयन के समकक्ष माना जाने लगा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. [Assertion & Reason]\nAssertion (A): The pursuit of Moksha is the primary objective of the Brahmacharya Ashrama.\nReason (R): Brahmacharya is dedicated to acquiring knowledge, developing moral discipline, and studying the Vedas.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "D",
+      "explanation": "Assertion Analysis: The assertion is false because the primary objective of Brahmacharya is Dharma (righteous duty and moral education), whereas Moksha is the goal of Sannyasa.\nReason Analysis: The reason is true because Brahmacharya is indeed dedicated to learning, moral discipline, and study under a guru."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. [कथन और कारण]\nकथन (A): मोक्ष की प्राप्ति ब्रह्मचर्य आश्रम का प्राथमिक उद्देश्य है।\nकारण (R): ब्रह्मचर्य ज्ञान प्राप्त करने, नैतिक अनुशासन विकसित करने और वेदों का अध्ययन करने के लिए समर्पित है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "D",
+      "explanation": "Assertion Analysis: कथन गलत है क्योंकि ब्रह्मचर्य का प्राथमिक उद्देश्य धर्म (नैतिक शिक्षा और कर्तव्य) है, जबकि मोक्ष संन्यास का लक्ष्य है।\nReason Analysis: कारण सही है क्योंकि ब्रह्मचर्य वास्तव में गुरु के सानिध्य में सीखने, नैतिक अनुशासन और अध्ययन के लिए समर्पित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ashrama) with List-II (Associated Primary Objective/Purushartha or Feature) and select the correct answer:\nList-I:\na) Brahmacharya\nb) Grihastha\nc) Vanaprastha\nd) Sannyasa\n\nList-II:\n1) Absolute Renunciation and Moksha\n2) Study of Vedas and Dharma\n3) Gradual detachment and reflection\n4) Pursuing Artha and Kama within Dharma\n5) Non-injury (Ahimsa) as the sole vow",
+      "option_a": "a-2, b-4, c-3, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-4, b-2, c-3, d-5",
+      "correct": "A",
+      "explanation": "Correct option: A. Brahmacharya matches the study of Vedas and Dharma [2]. Grihastha matches Artha and Kama [4]. Vanaprastha matches gradual detachment [3]. Sannyasa matches absolute renunciation and Moksha [1]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (आश्रम) को सूची-II (संबद्ध प्राथमिक उद्देश्य/पुरुषार्थ या विशेषता) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) ब्रह्मचर्य\nb) गृहस्थ\nc) वानप्रस्थ\nd) संन्यास\n\nसूची-II:\n1) पूर्ण संन्यास और मोक्ष\n2) वेदों का अध्ययन और धर्म\n3) क्रमिक अनासक्ति और चिंतन\n4) धर्म के भीतर अर्थ और काम की प्राप्ति\n5) अहिंसा को एकमात्र व्रत के रूप में अपनाना",
+      "option_a": "a-2, b-4, c-3, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-4, b-2, c-3, d-5",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। ब्रह्मचर्य वेदों के अध्ययन और धर्म [2] से मेल खाता है। गृहस्थ धर्म के भीतर अर्थ और काम [4] पर केंद्रित है। वानप्रस्थ क्रमिक अनासक्ति [3] का प्रतिनिधित्व करता है। संन्यास पूर्ण संन्यास और मोक्ष [1] का प्रतिनिधित्व करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Types of Rina/Debts) with List-II (Method of Repayment) and select the correct answer:\nList-I:\na) Deva Rina\nb) Rishi Rina\nc) Pitru Rina\nd) Manushya Rina\n\nList-II:\n1) Marriage and begetting children\n2) Vedic study (Swadhyaya) and celibacy\n3) Yajnas and offering oblations\n4) Hospitality towards guests and charity\n5) Feeding wild animals and birds",
+      "option_a": "a-3, b-2, c-1, d-4",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-1, c-2, d-5",
+      "option_d": "a-2, b-3, c-4, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Deva Rina matches Yajnas [3]. Rishi Rina matches Vedic study [2]. Pitru Rina matches marriage/children [1]. Manushya Rina matches hospitality [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (ऋण के प्रकार) को सूची-II (ऋण चुकाने की विधि) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) देव ऋण\nb) ऋषि ऋण\nc) पितृ ऋण\nd) मनुष्य ऋण\n\nसूची-II:\n1) विवाह और संतानोत्पत्ति\n2) वैदिक अध्ययन (स्वाध्याय) और ब्रह्मचर्य\n3) यज्ञ करना और आहुति देना\n4) अतिथियों के प्रति आतिथ्य और दान\n5) जंगली जानवरों और पक्षियों को भोजन कराना",
+      "option_a": "a-3, b-2, c-1, d-4",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-1, c-2, d-5",
+      "option_d": "a-2, b-3, c-4, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। देव ऋण यज्ञों [3] द्वारा चुकाया जाता है। ऋषि ऋण वैदिक अध्ययन [2] द्वारा चुकाया जाता है। पितृ ऋण संतानोत्पत्ति [1] द्वारा चुकाया जाता है। मनुष्य ऋण आतिथ्य [4] द्वारा चुकाया जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Pancha Mahayajna) with List-II (Target of the Sacrifice) and select the correct answer:\nList-I:\na) Brahma Yajna\nb) Deva Yajna\nc) Pitru Yajna\nd) Bhuta Yajna\n\nList-II:\n1) Offerings to sages and scriptures\n2) Offerings to cosmic deities\n3) Tarpana (water/food) to deceased ancestors\n4) Food offered to animals and birds\n5) Hospitality to uninvited human guests",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Brahma Yajna matches sages [1]. Deva Yajna matches deities [2]. Pitru Yajna matches ancestors [3]. Bhuta Yajna matches animals [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पंच महायज्ञ) को सूची-II (यज्ञ के लक्ष्य) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) ब्रह्म यज्ञ\nb) देव यज्ञ\nc) पितृ यज्ञ\nd) भूत यज्ञ\n\nसूची-II:\n1) ऋषियों और शास्त्रों के प्रति आहुति\n2) ब्रह्मांडीय देवताओं के प्रति आहुति\n3) मृत पूर्वजों को तर्पण (जल/भोजन)\n4) जानवरों और पक्षियों को दिया जाने वाला भोजन\n5) बिन बुलाए मानव अतिथियों का आतिथ्य",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। ब्रह्म यज्ञ ऋषियों [1] के लिए है। देव यज्ञ देवताओं [2] के लिए है। पितृ यज्ञ पितरों [3] के लिए है। भूत यज्ञ जानवरों और पक्षियों [4] के लिए है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Varna Origin according to Purusha Sukta) with List-II (Part of Cosmic Purusha's Body) and select the correct answer:\nList-I:\na) Brahmana\nb) Rajanya (Kshatriya)\nc) Vaishya\nd) Shudra\n\nList-II:\n1) Mouth\n2) Arms\n3) Thighs\n4) Feet\n5) Head",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-5, b-2, c-3, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Brahmana matches mouth [1]. Rajanya matches arms [2]. Vaishya matches thighs [3]. Shudra matches feet [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पुरुष सूक्त के अनुसार वर्ण की उत्पत्ति) को सूची-II (ब्रह्मांडीय पुरुष के शरीर के भाग) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) ब्राह्मण\nb) राजन्य (क्षत्रिय)\nc) वैश्य\nd) शूद्र\n\nसूची-II:\n1) मुख\n2) भुजाएं\n3) जांघें\n4) पैर\n5) सिर",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-5, b-2, c-3, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। ब्राह्मण का मुख [1] से, राजन्य/क्षत्रिय का भुजाओं [2] से, वैश्य का जांघों [3] से और शूद्र का पैरों [4] से उद्भव माना गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient text) with List-II (Key Concept or Description of Varna/Ashram) and select the correct answer:\nList-I:\na) Jabala Upanishad\nb) Chhandogya Upanishad\nc) Purusha Sukta of Rigveda\nd) Bhagavad Gita\n\nList-II:\n1) Earliest mention of four Ashramas\n2) Earliest mention of three Ashramas\n3) Earliest creation myth of four Varnas\n4) Guna-Karma division of Varnas\n5) Rigid hereditary Jati classification",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Jabala matches four Ashramas [1]. Chhandogya matches three Ashramas [2]. Purusha Sukta matches four Varnas [3]. Bhagavad Gita matches Guna-Karma division [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन ग्रंथ) को सूची-II (वर्ण/आश्रम की मुख्य अवधारणा या विवरण) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) जाबाल उपनिषद\nb) छान्दोग्य उपनिषद\nc) ऋग्वेद का पुरुष सूक्त\nd) भगवद्गीता\n\nसूची-II:\n1) चार आश्रमों का सबसे पहला उल्लेख\n2) तीन आश्रमों का सबसे पहला उल्लेख\n3) चार वर्णों का सबसे पहला उत्पत्ति मिथक\n4) वर्णों का गुण-कर्म विभाजन\n5) कठोर वंशानुगत जाति वर्गीकरण",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। जाबाल उपनिषद चार आश्रमों [1] का, छान्दोग्य उपनिषद तीन आश्रमों [2] का, पुरुष सूक्त चार वर्णों [3] का और भगवद्गीता गुण-कर्म विभाजन [4] का उल्लेख करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Varna) with List-II (Traditional Duty/Occupation in Dharmashastras) and select the correct answer:\nList-I:\na) Brahmana\nb) Kshatriya\nc) Vaishya\nd) Shudra\n\nList-II:\n1) Teaching, studying, and performing sacrifices\n2) Protection of people and administration of justice\n3) Agriculture, cattle rearing, and trade\n4) Service of the three twice-born classes\n5) Cleaning public spaces and streets",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Brahmana matches teaching/study [1]. Kshatriya matches protection [2]. Vaishya matches trade/agriculture [3]. Shudra matches service of the twice-born [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वर्ण) को सूची-II (धर्मशास्त्रों में पारंपरिक कर्तव्य/व्यवसाय) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) ब्राह्मण\nb) क्षत्रिय\nc) वैश्य\nd) शूद्र\n\nसूची-II:\n1) अध्यापन, अध्ययन और यज्ञ करना\n2) लोगों की रक्षा करना और न्याय प्रशासन\n3) कृषि, पशुपालन और व्यापार\n4) तीन द्विज वर्णों की सेवा करना\n5) सार्वजनिक स्थानों और गलियों की सफाई",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। ब्राह्मण का मिलान अध्यापन और अनुष्ठानों [1] से, क्षत्रिय का रक्षा [2] से, वैश्य का कृषि और व्यापार [3] से और शूद्र का द्विज वर्णों की सेवा [4] से होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Stage of life/Ashrama) with List-II (Key Ceremony/Ritual or Transition Symbol) and select the correct answer:\nList-I:\na) Brahmacharya\nb) Grihastha\nc) Vanaprastha\nd) Sannyasa\n\nList-II:\n1) Upanayana (Sacred Thread initiation)\n2) Vivaha (Marriage ceremony)\n3) Retiring to forest with sacrificial fire\n4) Parivrajaka (wandering ascetic without home)\n5) Mundana (shaving head as child)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Brahmacharya matches Upanayana [1]. Grihastha matches Vivaha [2]. Vanaprastha matches forest retirement [3]. Sannyasa matches wandering ascetic [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (जीवन का चरण/आश्रम) को सूची-II (मुख्य समारोह/अनुष्ठान या संक्रमण प्रतीक) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) ब्रह्मचर्य\nb) गृहस्थ\nc) वानप्रस्थ\nd) संन्यास\n\nसूची-II:\n1) उपनयन (जनेऊ संस्कार)\n2) विवाह (विवाह संस्कार)\n3) यज्ञीय अग्नि के साथ वन में सेवानिवृत्त होना\n4) परिव्राजक (बिना घर के घूमते संन्यासी)\n5) मुंडन (बच्चे के सिर के बाल मुंडवाना)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। ब्रह्मचर्य उपनयन [1] द्वारा शुरू होता है। गृहस्थ विवाह [2] के माध्यम से प्रवेश किया जाता है। वानप्रस्थ में वन में सेवानिवृत्त होना [3] शामिल है। संन्यास में परिव्राजक (घूमता हुआ संन्यासी) बनना [4] शामिल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Varna Marriage Combinations) with List-II (Resulting Mixed Caste / Description according to Dharmashastras) and select the correct answer:\nList-I:\na) Brahmana male + Vaishya female\nb) Kshatriya male + Shudra female\nc) Shudra male + Brahmana female\nd) Vaishya male + Kshatriya female\n\nList-II:\n1) Ambashtha (Anuloma)\n2) Ugra (Anuloma)\n3) Chandala (Pratiloma)\n4) Magadha (Pratiloma)\n5) Nishada (Anuloma)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Brahmana male and Vaishya female is Ambashtha [1]. Kshatriya male and Shudra female is Ugra [2]. Shudra male and Brahmana female is Chandala [3]. Vaishya male and Kshatriya female is Magadha [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वर्ण विवाह संयोजन) को सूची-II (परिणामी मिश्रित जाति/विवरण धर्मशास्त्रों के अनुसार) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) ब्राह्मण पुरुष + वैश्य महिला\nb) क्षत्रिय पुरुष + शूद्र महिला\nc) शूद्र पुरुष + ब्राह्मण महिला\nd) वैश्य पुरुष + क्षत्रिय महिला\n\nसूची-II:\n1) अम्बष्ठ (अनुलोम)\n2) उग्र (अनुलोम)\n3) चांडाल (प्रतिलोम)\n4) मागध (प्रतिलोम)\n5) निषाद (अनुलोम)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। ब्राह्मण पुरुष और वैश्य महिला की संतान अम्बष्ठ [1] है। क्षत्रिय पुरुष और शूद्र महिला की संतान उग्र [2] है। शूद्र पुरुष और ब्राह्मण महिला की संतान चांडाल [3] है। वैश्य पुरुष और क्षत्रिय महिला की संतान मागध [4] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Varna system in the Rigvedic period:\n1. The division of society was based primarily on birth and was highly rigid.\n2. The term 'Varna' was initially used in the sense of color (aspect of light/darkness or skin color of different groups).\n3. The Purusha Sukta, which outlines the four varnas, belongs to the oldest part of the Rigveda (Mandalas 2-7).\n\nWhich of the statements given above is/are correct?",
+      "option_a": "2 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is incorrect because Rigvedic social division was flexible and occupational, not rigid or birth-based. Statement 2 is correct as Varna initially meant color or light. Statement 3 is incorrect because the Purusha Sukta is in the 10th Mandala, which is a late addition to the Rigveda."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऋग्वैदिक काल में वर्ण व्यवस्था के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. समाज का विभाजन मुख्य रूप से जन्म पर आधारित था और अत्यधिक कठोर था।\n2. 'वर्ण' शब्द का प्रयोग प्रारंभ में रंग (प्रकाश/अंधकार या विभिन्न समूहों की त्वचा के रंग) के अर्थ में किया गया था।\n3. चारों वर्णों को रेखांकित करने वाला पुरुष सूक्त ऋग्वेद के सबसे प्राचीन भाग (मण्डल 2-7) से संबंधित है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 2",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 गलत है क्योंकि ऋग्वैदिक सामाजिक विभाजन लचीला और व्यावसायिक था, कठोर या जन्म आधारित नहीं था। कथन 2 सही है क्योंकि वर्ण का अर्थ शुरू में रंग या प्रकाश था। कथन 3 गलत है क्योंकि पुरुष सूक्त 10वें मण्डल में है, जो ऋग्वेद में बाद में जोड़ा गया भाग है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Ashrama system:\n1. The Ashrama system was designed to systematically guide an individual through the physical, mental, and spiritual developments of life.\n2. Every individual in ancient society, including women and Shudras, went through all four Ashramas.\n3. The stages of life correspond to the gradual realization of the four Purusharthas.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct as the system managed developmental stages. Statement 2 is incorrect because Shudras and women were generally excluded from Upanayana, meaning they could not formally enter the Brahmacharya ashrama or Sannyasa. Statement 3 is correct as the ashramas align with Dharma, Artha, Kama, and Moksha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आश्रम व्यवस्था के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. आश्रम व्यवस्था को जीवन के शारीरिक, मानसिक और आध्यात्मिक विकास के माध्यम से व्यक्ति का व्यवस्थित मार्गदर्शन करने के लिए तैयार किया गया था।\n2. प्राचीन समाज में प्रत्येक व्यक्ति, जिसमें महिलाएं और शूद्र भी शामिल थे, सभी चार आश्रमों से गुजरते थे।\n3. जीवन के चरण चार पुरुषार्थों की क्रमिक प्राप्ति के अनुरूप हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि यह व्यवस्था विकास के चरणों का प्रबंधन करती थी। कथन 2 गलत है क्योंकि शूद्रों और महिलाओं को आम तौर पर उपनयन से बाहर रखा गया था, जिसका अर्थ है कि वे औपचारिक रूप से ब्रह्मचर्य या संन्यास आश्रम में प्रवेश नहीं कर सकते थे। कथन 3 सही है क्योंकि आश्रम धर्म, अर्थ, काम और मोक्ष के संरेखण में हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Grihastha Ashrama:\n1. It is the only Ashrama where a person can pursue the Purusharthas of Artha and Kama.\n2. A householder is expected to perform the Pancha Mahayajnas daily to clear their societal and cosmic debts.\n3. Sannyasins and Brahmacharis are independent of the support of the Grihastha.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Artha and Kama are specifically assigned to the householder stage. Statement 2 is correct as the daily Pancha Mahayajnas are the duties of a householder. Statement 3 is incorrect because ascetics and students depend entirely on the alms and support of the householder."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गृहस्थ आश्रम के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह एकमात्र ऐसा आश्रम है जहाँ व्यक्ति अर्थ और काम के पुरुषार्थों का पीछा कर सकता है।\n2. एक गृहस्थ से अपने सामाजिक और ब्रह्मांडीय ऋणों को चुकाने के लिए प्रतिदिन पंच महायज्ञ करने की अपेक्षा की जाती है।\n3. संन्यासी और ब्रह्मचारी गृहस्थ के सहयोग से स्वतंत्र होते हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि अर्थ और काम विशेष रूप से गृहस्थ जीवन को सौंपे गए हैं। कथन 2 सही है क्योंकि दैनिक पंच महायज्ञ एक गृहस्थ के कर्तव्य हैं। कथन 3 गलत है क्योंकि संन्यासी और छात्र पूरी तरह से गृहस्थ की भिक्षा और सहायता पर निर्भर हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the concept of Dvija (twice-born):\n1. Initiation into the Dvija status is marked by the Upanayana ceremony.\n2. The Shudra Varna is included in the Dvija category along with the Brahmana, Kshatriya, and Vaishya.\n3. The second birth of a Dvija is considered spiritual, representing the beginning of learning and study of Vedas.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Upanayana marks the transition to Dvija. Statement 2 is incorrect because Shudras were excluded from Dvija status. Statement 3 is correct as the ceremony represents a spiritual rebirth dedicated to knowledge."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्विज (दो बार जन्मा) की अवधारणा के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. द्विज का दर्जा उपनयन संस्कार द्वारा चिह्नित होता है।\n2. शूद्र वर्ण को ब्राह्मण, क्षत्रिय और वैश्य के साथ द्विज श्रेणी में शामिल किया गया है।\n3. द्विज का दूसरा जन्म आध्यात्मिक माना जाता है, जो सीखने और वेदों के अध्ययन की शुरुआत का प्रतिनिधित्व करता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि उपनयन द्विज में संक्रमण का प्रतीक है। कथन 2 गलत है क्योंकि शूद्रों को द्विज के दर्जे से बाहर रखा गया था। कथन 3 सही है क्योंकि यह संस्कार ज्ञान को समर्पित आध्यात्मिक पुनर्जन्म का प्रतिनिधित्व करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Brahmacharya Ashrama:\n1. The student was required to live in the house of the Guru (Gurukula) under strict discipline.\n2. The study of the Vedas and other scriptures was the central intellectual task.\n3. Self-control and celibacy (Jitendriya) were optional virtues for the student.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as the Gurukula system was the standard for students. Statement 2 is correct because Vedic studies were the primary intellectual pursuit. Statement 3 is incorrect because celibacy and sensory control were compulsory vows, not optional virtues."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ब्रह्मचर्य आश्रम के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. छात्र को सख्त अनुशासन के तहत गुरु के घर (गुरुकुल) में रहना पड़ता था।\n2. वेदों और अन्य शास्त्रों का अध्ययन केंद्रीय बौद्धिक कार्य था।\n3. आत्म-नियंत्रण और ब्रह्मचर्य (जितेन्द्रिय) छात्र के लिए वैकल्पिक गुण थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि गुरुकुल प्रणाली छात्रों के लिए मानक थी। कथन 2 सही है क्योंकि वैदिक अध्ययन प्राथमिक बौद्धिक कार्य था। कथन 3 गलत है क्योंकि ब्रह्मचर्य और इंद्रिय नियंत्रण अनिवार्य व्रत थे, वैकल्पिक गुण नहीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Vanaprastha Ashrama:\n1. The householder completely severs all ties with his wife and family upon entering this stage.\n2. It represents a transition stage between the active social life of Grihastha and the total renunciation of Sannyasa.\n3. The individual lives in the forest, performing sacrifices, meditating, and eating simple forest foods.\n\nWhich of the statements given above are correct?",
+      "option_a": "2 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is incorrect because the householder could be accompanied by his wife to the forest in Vanaprastha. Statement 2 is correct as it is a transitional stage. Statement 3 is correct as the dweller lives a life of reflection and simple forest sustenance."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वानप्रस्थ आश्रम के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. गृहस्थ इस चरण में प्रवेश करने पर अपनी पत्नी और परिवार के साथ सभी संबंध पूरी तरह से तोड़ लेता है।\n2. यह गृहस्थ के सक्रिय सामाजिक जीवन और संन्यास के पूर्ण त्याग के बीच एक संक्रमणकालीन चरण का प्रतिनिधित्व करता है।\n3. व्यक्ति जंगल में रहता है, यज्ञ करता है, ध्यान लगाता है और साधारण वन भोजन खाता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 2 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 गलत है क्योंकि वानप्रस्थ में गृहस्थ के साथ उसकी पत्नी भी वन में जा सकती थी। कथन 2 सही है क्योंकि यह एक संक्रमणकालीन चरण है। कथन 3 सही है क्योंकि वनवासी चिंतन और सरल वन भोजन का जीवन जीता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Sannyasa Ashrama:\n1. A sannyasin is required to perform the daily Pancha Mahayajnas in the forest.\n2. The ritual of 'Viraja Homa' is performed during initiation to symbolize the death of the worldly self.\n3. A sannyasin must not have a permanent home and must wander to avoid attachments.\n\nWhich of the statements given above are correct?",
+      "option_a": "2 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is incorrect because a sannyasin renounces the sacrificial fire and ceases performing Yajnas. Statement 2 is correct as Viraja Homa signifies the renunciation of worldly desires. Statement 3 is correct as a sannyasin is a homeless wanderer (Parivrajaka)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. संन्यास आश्रम के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. एक संन्यासी को जंगल में प्रतिदिन पंच महायज्ञ करने की आवश्यकता होती है।\n2. सांसारिक अस्तित्व की मृत्यु के प्रतीक के रूप में दीक्षा के दौरान 'विरजा होम' का अनुष्ठान किया जाता है।\n3. एक संन्यासी का स्थायी घर नहीं होना चाहिए और मोह-माया से बचने के लिए उसे घूमते रहना चाहिए।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 2 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 गलत है क्योंकि संन्यासी यज्ञीय अग्नि का त्याग कर देता है और यज्ञ करना बंद कर देता है। कथन 2 सही है क्योंकि विरजा होम सांसारिक इच्छाओं के त्याग का प्रतीक है। कथन 3 सही है क्योंकि संन्यासी एक बेघर घुमक्कड़ (परिव्राजक) होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the duties of Varnas in Dharmashastras:\n1. The administration of the state and military defense was exclusively assigned to the Kshatriyas.\n2. The Vaishyas were prohibited from studying the Vedas and performing sacrifices.\n3. The Brahmanas were allowed to accept gifts (Pratigraha) as a legitimate source of livelihood.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Kshatriyas were the ruling/warrior class. Statement 2 is incorrect because Vaishyas are Dvijas and had the right to study Vedas and perform Yajnas. Statement 3 is correct because Brahmanas were permitted to receive gifts (Pratigraha) as their livelihood."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. धर्मशास्त्रों में वर्णों के कर्तव्यों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. राज्य का प्रशासन और सैन्य रक्षा विशेष रूप से क्षत्रियों को सौंपी गई थी।\n2. वैश्यों को वेदों का अध्ययन करने और यज्ञ करने से प्रतिबंधित किया गया था।\n3. ब्राह्मणों को आजीविका के वैध स्रोत के रूप में दान (प्रतिग्रह) स्वीकार करने की अनुमति थी।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि क्षत्रिय शासक/योद्धा वर्ग थे। कथन 2 गलत है क्योंकि वैश्य द्विज हैं और उन्हें वेदों का अध्ययन करने और यज्ञ करने का अधिकार था। कथन 3 सही है क्योंकि ब्राह्मणों को अपनी आजीविका के लिए दान (प्रतिग्रह) प्राप्त करने की अनुमति थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the concept of Purushartha:\n1. Dharma, Artha, Kama, and Moksha are collectively known as the Purusharthas.\n2. Moksha is to be pursued alongside Artha and Kama during the Grihastha Ashrama.\n3. Sannyasa is exclusively focused on the pursuit of Moksha.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as the four Purusharthas are life's goals. Statement 2 is incorrect because during Grihastha, the primary focus is on Artha and Kama (guided by Dharma), whereas Moksha is the primary pursuit of the final stage. Statement 3 is correct as Sannyasa is dedicated entirely to spiritual liberation (Moksha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थ की अवधारणा के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. धर्म, अर्थ, काम और मोक्ष को सामूहिक रूप से पुरुषार्थ के रूप में जाना जाता है।\n2. गृहस्थ आश्रम के दौरान अर्थ और काम के साथ-साथ मोक्ष का भी पीछा किया जाना चाहिए।\n3. संन्यास विशेष रूप से मोक्ष की प्राप्ति पर केंद्रित है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि चार पुरुषार्थ जीवन के लक्ष्य हैं। कथन 2 गलत है क्योंकि गृहस्थ के दौरान प्राथमिक ध्यान अर्थ और काम (धर्म द्वारा निर्देशित) पर होता है, जबकि मोक्ष अंतिम चरण का प्राथमिक लक्ष्य है। कथन 3 सही है क्योंकि संन्यास पूरी तरह से आध्यात्मिक मुक्ति (मोक्ष) के लिए समर्पित है।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the social and spiritual significance of the three debts (Rinas) in ancient Hindu philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The concept of Rinas (debts) refers to the cosmic, social, and spiritual obligations that every individual is born with, which must be repaid during life, primarily in the Grihastha Ashrama:\n\n* **Deva Rina (Debt to Gods):** Repaid by performing Yajnas (sacrifices) to maintain ecological and cosmic balance.\n* **Rishi Rina (Debt to Sages):** Repaid through Swadhyaya (self-study) and passing on Vedic wisdom.\n* **Pitru Rina (Debt to Ancestors):** Repaid by marrying and begetting children to continue the lineage.\n\nRepaying these debts ensures social stability, cultural continuity, and moral progress."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन हिंदू दर्शन में तीन ऋणों (ऋणों) के सामाजिक और आध्यात्मिक महत्व की व्याख्या कीजिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "ऋण की अवधारणा उन ब्रह्मांडीय, सामाजिक और आध्यात्मिक दायित्वों को संदर्भित करती है जिनके साथ प्रत्येक व्यक्ति पैदा होता है, जिन्हें मुख्य रूप से गृहस्थ आश्रम में चुकाया जाना चाहिए:\n\n* **देव ऋण:** पारिस्थितिक और ब्रह्मांडीय संतुलन बनाए रखने के लिए यज्ञों का संपादन करके चुकाया जाता है।\n* **ऋषि ऋण:** स्वाध्याय और वैदिक ज्ञान को अगली पीढ़ी तक प्रसारित करके चुकाया जाता है।\n* **पितृ ऋण:** वंश की निरंतरता के लिए विवाह और संतानोत्पत्ति करके चुकाया जाता है।\n\nइन ऋणों को चुकाने से सामाजिक स्थिरता, सांस्कृतिक निरंतरता और नैतिक प्रगति सुनिश्चित होती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the structural evolution of the Varna system from the Rigvedic period to the Later Vedic period, and examine how it influenced the emergence of the Jati system. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Varna system underwent a fundamental transformation from the early Vedic period to the Later Vedic period, evolving from a flexible division of labor into a rigid, birth-based caste structure.\n\n### Evolution of Social Stratification\n| Feature | Rigvedic Period | Later Vedic Period | Post-Vedic Jati System |\n| :--- | :--- | :--- | :--- |\n| **Basis of division** | Aptitude, personal qualities (Guna), and occupation (Karma). | Heredity (birth) began to dominate the social hierarchy. | Birth (Jati) became the absolute determinant of status. |\n| **Flexibility** | Highly mobile; members of the same family could follow different occupations. | Rigidity increased; classes became endogamous, restricting mobility. | Extremely rigid; strict rules on endogamy, dining, and contact. |\n| **Status of Shudras** | Not marginalized; Purusha Sukta describes they are organic part of cosmic body. | Denied Upanayana (sacred thread) and access to Vedic studies. | Placed at the bottom; emergence of untouchability (Avarna/Panchama). |\n| **Concept of Purity** | Absent; no notions of ritual pollution by touch or association. | Concept of ritual purity and impurity started to crystallize. | Fully developed ritual pollution, leading to social exclusion. |\n\nThis structural hardening, coupled with the concept of Varna-samkara (intermixture of varnas through Anuloma and Pratiloma marriages), led to the proliferation of thousands of localized, endogamous occupational subgroups known as Jatis, creating the complex caste hierarchy seen in historical India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऋग्वैदिक काल से उत्तर वैदिक काल तक वर्ण व्यवस्था के संरचनात्मक विकास की चर्चा कीजिए, और परीक्षण कीजिए कि इसने जाति व्यवस्था के उदय को कैसे प्रभावित किया। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "प्रारंभिक वैदिक काल से उत्तर वैदिक काल तक वर्ण व्यवस्था में एक मौलिक परिवर्तन आया, जो श्रम के लचीले विभाजन से एक कठोर, जन्म-आधारित सामाजिक संरचना में विकसित हुआ।\n\n### सामाजिक स्तरीकरण का विकास\n| विशेषता | ऋग्वैदिक काल | उत्तर वैदिक काल | उत्तर-वैदिक जाति व्यवस्था |\n| :--- | :--- | :--- | :--- |\n| **विभाजन का आधार** | योग्यता, व्यक्तिगत गुण (गुण) और व्यवसाय (कर्म)। | सामाजिक पदानुक्रम में वंशानुगतता (जन्म) हावी होने लगी। | जन्म (जाति) सामाजिक स्थिति का पूर्ण निर्धारक बन गया। |\n| **लचीलापन** | अत्यधिक गतिशील; एक ही परिवार के सदस्य अलग-अलग व्यवसाय अपना सकते थे। | कठोरता बढ़ी; वर्ग अंतर्विवाही होने लगे, गतिशीलता प्रतिबंधित हुई। | अत्यधिक कठोर; अंतर्विवाह, खान-पान और संपर्क पर सख्त नियम। |\n| **शूद्रों की स्थिति** | हाशिये पर नहीं थे; पुरुष सूक्त उन्हें ब्रह्मांडीय शरीर का जैविक अंग बताता है। | उपनयन और वैदिक अध्ययन के अधिकार से वंचित किया गया। | पदानुक्रम में सबसे नीचे; अस्पृश्यता (अवर्ण/पंचम) का उदय हुआ। |\n| **पवित्रता की अवधारणा** | अनुपस्थित; स्पर्श या सहयोग से धार्मिक अपवित्रता की कोई धारणा नहीं थी। | धार्मिक शुद्धता और अशुद्धता की अवधारणा स्पष्ट होने लगी। | सामाजिक बहिष्कार को बढ़ावा देने वाली अपवित्रता की पूर्ण विकसित अवधारणा। |\n\nइस संरचनात्मक कठोरता ने, विभिन्न वर्णों के बीच अनुलोम और प्रतिलोम विवाहों के माध्यम से होने वाले वर्ण-संकर के साथ मिलकर, हजारों स्थानीय, अंतर्विवाही व्यावसायिक उपसमूहों (जातियों) को जन्म दिया, जिससे ऐतिहासिक भारत में देखी जाने वाली जटिल जाति पदानुक्रम का निर्माण हुआ।"
+    }
+  ]
+}

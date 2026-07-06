@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Who was the composer of the famous Prayag Prasasti (Allahabad Pillar Inscription) which serves as the primary source for the achievements of Samudragupta?",
+      "option_a": "Virasena",
+      "option_b": "Harishena",
+      "option_c": "Ravikirti",
+      "option_d": "Kalidasa",
+      "correct": "B",
+      "explanation": "Correct option: B. Harishena was the court poet and minister (Sandhivigrahika) of Samudragupta who composed the Allahabad Pillar Inscription (Prayag Prasasti) in Sanskrit."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रसिद्ध प्रयाग प्रशस्ति (इलाहाबाद स्तंभ अभिलेख) के रचयिता कौन थे, जो समुद्रगुप्त की उपलब्धियों का प्राथमिक स्रोत है?",
+      "option_a": "वीरसेन",
+      "option_b": "हरिषेण",
+      "option_c": "रविकीर्ति",
+      "option_d": "कालिदास",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। हरिषेण समुद्रगुप्त के दरबारी कवि और मंत्री (सन्धिविग्रहिक) थे, जिन्होंने संस्कृत में इलाहाबाद स्तंभ अभिलेख (प्रयाग प्रशस्ति) की रचना की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Allahabad Pillar Inscription of Samudragupta is written in which specific language and script?",
+      "option_a": "Prakrit language in Brahmi script",
+      "option_b": "Sanskrit language in Gupta Brahmi script",
+      "option_c": "Sanskrit language in Kharosthi script",
+      "option_d": "Prakrit language in Gupta Brahmi script",
+      "correct": "B",
+      "explanation": "Correct option: B. The Prayag Prasasti is composed in classical Sanskrit using the Gupta Brahmi script."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त का इलाहाबाद स्तंभ अभिलेख किस विशिष्ट भाषा और लिपि में लिखा गया है?",
+      "option_a": "ब्राह्मी लिपि में प्राकृत भाषा",
+      "option_b": "गुप्त ब्राह्मी लिपि में संस्कृत भाषा",
+      "option_c": "खरोष्ठी लिपि में संस्कृत भाषा",
+      "option_d": "गुप्त ब्राह्मी लिपि में प्राकृत भाषा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। प्रयाग प्रशस्ति की रचना गुप्त ब्राह्मी लिपि का उपयोग करते हुए शास्त्रीय संस्कृत में की गई है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which literary style, characterized by a mixture of prose and poetry, was used by Harishena to compose the Prayag Prasasti?",
+      "option_a": "Champu Kavya",
+      "option_b": "Muktaka Kavya",
+      "option_c": "Mahakavya",
+      "option_d": "Gadyakavya",
+      "correct": "A",
+      "explanation": "Correct option: A. The Prayag Prasasti is written in the 'Champu' style, which is a classical Sanskrit literary style combining both prose (gadya) and verse (padya)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गद्य और पद्य के मिश्रण वाली किस साहित्यिक शैली का उपयोग हरिषेण ने प्रयाग प्रशस्ति की रचना के लिए किया था?",
+      "option_a": "चम्पू काव्य",
+      "option_b": "मुक्तक काव्य",
+      "option_c": "महाकाव्य",
+      "option_d": "गद्यकाव्य",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। प्रयाग प्रशस्ति 'चम्पू' शैली में लिखी गई है, जो गद्य और पद्य दोनों को मिलाने वाली एक शास्त्रीय संस्कृत साहित्यिक शैली है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. How many lines are engraved on the Allahabad Pillar containing the Prayag Prasasti of Samudragupta?",
+      "option_a": "27 lines",
+      "option_b": "33 lines",
+      "option_c": "38 lines",
+      "option_d": "42 lines",
+      "correct": "B",
+      "explanation": "Correct option: B. The Allahabad Pillar Inscription of Samudragupta consists of exactly 33 lines of text."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त की प्रयाग प्रशस्ति वाले इलाहाबाद स्तंभ पर कुल कितनी पंक्तियाँ उत्कीर्ण हैं?",
+      "option_a": "27 पंक्तियाँ",
+      "option_b": "33 पंक्तियाँ",
+      "option_c": "38 पंक्तियाँ",
+      "option_d": "42 पंक्तियाँ",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। समुद्रगुप्त के इलाहाबाद स्तंभ अभिलेख में पाठ की कुल 33 पंक्तियाँ शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What does the term 'Lichchhavi-dauhitra' used for Samudragupta in the Allahabad Prasasti and Gupta coins signify?",
+      "option_a": "The ruler of the Lichchhavi state",
+      "option_b": "The son of a Lichchhavi princess",
+      "option_c": "The conqueror of the Lichchhavis",
+      "option_d": "The adopted son of the Lichchhavi clan",
+      "correct": "B",
+      "explanation": "Correct option: B. 'Lichchhavi-dauhitra' means the grandson (daughter's son) of the Lichchhavis, indicating that Samudragupta's mother Kumaradevi was a Lichchhavi princess."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रयाग प्रशस्ति और गुप्त सिक्कों में समुद्रगुप्त के लिए प्रयुक्त 'लिच्छवि-दौहित्र' शब्द का क्या अर्थ है?",
+      "option_a": "लिच्छवि राज्य का शासक",
+      "option_b": "लिच्छवि राजकुमारी का पुत्र",
+      "option_c": "लिच्छवियों का विजेता",
+      "option_d": "लिच्छवि वंश का दत्तक पुत्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। 'लिच्छवि-दौहित्र' का अर्थ है लिच्छवियों का नाती (पुत्री का पुत्र), जो दर्शाता है कि समुद्रगुप्त की माता कुमारदेवी एक लिच्छवि राजकुमारी थीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What was the name of the military campaign policy adopted by Samudragupta towards the rulers of Dakshinapatha (Southern India)?",
+      "option_a": "Prasabhoddharana",
+      "option_b": "Grahana-Moksha-Anugraha",
+      "option_c": "Paricharakikrita",
+      "option_d": "Sarvakaradana",
+      "correct": "B",
+      "explanation": "Correct option: B. For Dakshinapatha, Samudragupta followed 'Grahana-Moksha-Anugraha' which meant capturing the enemy (Grahana), liberating them (Moksha), and reinstating them as feudatories out of favor (Anugraha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. दक्षिणापथ (दक्षिण भारत) के शासकों के प्रति समुद्रगुप्त द्वारा अपनाई गई सैन्य अभियान नीति का क्या नाम था?",
+      "option_a": "प्रसभोद्धरण",
+      "option_b": "ग्रहण-मोक्ष-अनुग्रह",
+      "option_c": "परिचारकीकृत",
+      "option_d": "सर्वकरदान",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। दक्षिणापथ के लिए, समुद्रगुप्त ने 'ग्रहण-मोक्ष-अनुग्रह' नीति का पालन किया, जिसका अर्थ था शत्रु को बंदी बनाना (ग्रहण), उन्हें मुक्त करना (मोक्ष), और कृपापूर्वक उनके राज्यों को वापस सौंप देना (अनुग्रह)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which policy did Samudragupta implement against the kings of Aryavarta (Northern India) as detailed in the Allahabad Pillar Inscription?",
+      "option_a": "Grahana-Moksha-Anugraha",
+      "option_b": "Prasabhoddharana",
+      "option_c": "Paricharakikrita",
+      "option_d": "Kanyopayana",
+      "correct": "B",
+      "explanation": "Correct option: B. Towards Aryavarta, Samudragupta followed the policy of 'Prasabhoddharana', which meant violent extermination and direct annexation of the conquered kingdoms into the Gupta Empire."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. इलाहाबाद स्तंभ अभिलेख के विवरण के अनुसार समुद्रगुप्त ने आर्यावर्त (उत्तर भारत) के राजाओं के विरुद्ध कौन सी नीति लागू की थी?",
+      "option_a": "ग्रहण-मोक्ष-अनुग्रह",
+      "option_b": "प्रसभोद्धरण",
+      "option_c": "परिचारकीकृत",
+      "option_d": "कन्योपायन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। आर्यावर्त के प्रति समुद्रगुप्त ने 'प्रसभोद्धरण' नीति का पालन किया, जिसका अर्थ था हिंसक उन्मूलन और विजित राज्यों का गुप्त साम्राज्य में प्रत्यक्ष विलय।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which contemporary ruler of Anuradhapura (Sri Lanka) sent an embassy with gifts to Samudragupta, seeking permission to build a Buddhist monastery at Bodh Gaya?",
+      "option_a": "Meghavarman",
+      "option_b": "Dhatusena",
+      "option_c": "Mahasena",
+      "option_d": "Muttasiva",
+      "correct": "A",
+      "explanation": "Correct option: A. King Meghavarman (also known as Chi-mi-kia-po-mo in Chinese sources) of Sri Lanka sent an embassy to Samudragupta requesting permission to construct a monastery at Bodh Gaya."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अनुराधापुर (श्रीलंका) के किस समकालीन शासक ने बोधगया में एक बौद्ध मठ बनाने की अनुमति मांगने के लिए उपहारों के साथ समुद्रगुप्त के पास एक दूत भेजा था?",
+      "option_a": "मेघवर्मन",
+      "option_b": "धातुसेन",
+      "option_c": "महासेन",
+      "option_d": "मुट्टसिव",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। श्रीलंका के राजा मेघवर्मन (चीनी स्रोतों में ची-मी-किया-पो-मो) ने बोधगया में एक मठ के निर्माण की अनुमति प्राप्त करने हेतु समुद्रगुप्त के पास एक दूत भेजा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What was the official royal seal and emblem of the Gupta Dynasty under Samudragupta, as mentioned in the Allahabad Pillar Inscription?",
+      "option_a": "Varaha (Boar)",
+      "option_b": "Garuda (Mythical Eagle)",
+      "option_c": "Vrishabha (Bull)",
+      "option_d": "Simha (Lion)",
+      "correct": "B",
+      "explanation": "Correct option: B. The official royal seal and emblem of the Gupta dynasty, extensively used by Samudragupta, was the Garuda (Garutmadanka)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. इलाहाबाद स्तंभ अभिलेख के अनुसार समुद्रगुप्त के अधीन गुप्त वंश की आधिकारिक शाही मुहर और प्रतीक क्या था?",
+      "option_a": "वराह",
+      "option_b": "गरुड़",
+      "option_c": "वृषभ",
+      "option_d": "सिंह",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। गुप्त वंश की आधिकारिक शाही मुहर और प्रतीक, जिसका समुद्रगुप्त द्वारा बड़े पैमाने पर उपयोग किया गया था, गरुड़ (गरुत्मदांक) था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. On which of his gold coin types is Samudragupta depicted seated on a high-backed couch playing a musical instrument?",
+      "option_a": "Archer Type",
+      "option_b": "Lyrist (Veena) Type",
+      "option_c": "Battle-axe Type",
+      "option_d": "Tiger-slayer Type",
+      "correct": "B",
+      "explanation": "Correct option: B. The Lyrist (Veena-vadan) type of gold coins depicts Samudragupta sitting on a couch and playing the lute (Veena), demonstrating his artistic skills."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अपने किस प्रकार के सोने के सिक्कों पर समुद्रगुप्त को ऊंचे सोफे पर बैठकर एक संगीत वाद्ययंत्र बजाते हुए दर्शाया गया है?",
+      "option_a": "धनुर्धारी प्रकार",
+      "option_b": "वीणा वादक प्रकार",
+      "option_c": "परशु प्रकार",
+      "option_d": "व्याघ्र-निहंता प्रकार",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। वीणा वादक प्रकार के सोने के सिक्कों पर समुद्रगुप्त को एक सोफे पर बैठकर वीणा बजाते हुए दिखाया गया है, जो उनके कलात्मक कौशल को प्रदर्शित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which specific epithet was bestowed upon Samudragupta in the Allahabad Prasasti to honor his intellectual and literary capabilities?",
+      "option_a": "Kaviraja",
+      "option_b": "Apratiratha",
+      "option_c": "Kritantaparashu",
+      "option_d": "Vikramaditya",
+      "correct": "A",
+      "explanation": "Correct option: A. Harishena refers to Samudragupta as 'Kaviraja' (King of Poets) due to his patronage of learning, interest in music, and creation of poetry."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त की बौद्धिक और साहित्यिक क्षमताओं के सम्मान में प्रयाग प्रशस्ति में उन्हें कौन सी विशिष्ट उपाधि प्रदान की गई थी?",
+      "option_a": "कविराज",
+      "option_b": "अप्रतिरथ",
+      "option_c": "कृतान्तपरशु",
+      "option_d": "विक्रमादित्य",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। हरिषेण ने समुद्रगुप्त की विद्या के प्रति रुचि, संगीत में रुचि और कविता रचना के कारण उन्हें 'कविराज' (कवियों का राजा) कहा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The title 'Sarvarajochchhetta' (uprooter of all kings) is uniquely applied to which of the following Gupta rulers?",
+      "option_a": "Chandragupta I",
+      "option_b": "Samudragupta",
+      "option_c": "Chandragupta II",
+      "option_d": "Kumaragupta I",
+      "correct": "B",
+      "explanation": "Correct option: B. The title 'Sarvarajochchhetta' (uprooter of all kings) is uniquely held by Samudragupta in Gupta epigraphs to describe his comprehensive conquests."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'सर्वराजोच्छेत्ता' (सभी राजाओं का उन्मूलन करने वाला) की उपाधि विशिष्ट रूप से निम्नलिखित में से किस गुप्त शासक पर लागू होती है?",
+      "option_a": "चन्द्रगुप्त प्रथम",
+      "option_b": "समुद्रगुप्त",
+      "option_c": "चन्द्रगुप्त द्वितीय",
+      "option_d": "कुमारगुप्त प्रथम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। 'सर्वराजोच्छेत्ता' (सभी राजाओं को उखाड़ फेंकने वाला) की उपाधि गुप्त अभिलेखों में विशिष्ट रूप से समुद्रगुप्त के लिए उपयोग की गई है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which type of gold coins issued by Samudragupta features a sacrificial horse standing before a yupa (sacrificial post)?",
+      "option_a": "Battle-axe Type",
+      "option_b": "Asvamedha Type",
+      "option_c": "Standard Type",
+      "option_d": "Kacha Type",
+      "correct": "B",
+      "explanation": "Correct option: B. The Asvamedha type of coins represents Samudragupta's performance of the Asvamedha sacrifice, showing a horse tied to a sacrificial pillar (yupa) on the obverse."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त द्वारा जारी किए गए किस प्रकार के सोने के सिक्कों में यूप (यज्ञ स्तंभ) के सामने एक यज्ञीय घोड़ा खड़ा दिखाई देता है?",
+      "option_a": "परशु प्रकार",
+      "option_b": "अश्वमेध प्रकार",
+      "option_c": "ध्वज प्रकार",
+      "option_d": "काच प्रकार",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। अश्वमेध प्रकार के सिक्के समुद्रगुप्त द्वारा अश्वमेध यज्ञ के संपादन को दर्शाते हैं, जिसमें अग्रभाग पर यज्ञ स्तंभ (यूप) से बंधा हुआ एक घोड़ा दिखाई देता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following ranks/offices did the poet Harishena NOT hold in the administrative hierarchy of Samudragupta?",
+      "option_a": "Sandhivigrahika",
+      "option_b": "Mahadandanayaka",
+      "option_c": "Kumaramatya",
+      "option_d": "Mahapratihara",
+      "correct": "D",
+      "explanation": "Correct option: D. Harishena held the positions of Sandhivigrahika (minister of peace and war), Kumaramatya (noble minister), and Mahadandanayaka (judicial officer), but did not hold the post of Mahapratihara."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कवि हरिषेण ने समुद्रगुप्त के प्रशासनिक पदानुक्रम में निम्नलिखित में से कौन सा पद/कार्यालय धारण नहीं किया था?",
+      "option_a": "सन्धिविग्रहिक",
+      "option_b": "महादंडनायक",
+      "option_c": "कुमारमात्य",
+      "option_d": "महाप्रतिहार",
+      "correct": "D",
+      "explanation": "सही विकल्प: D। हरिषेण ने सन्धिविग्रहिक (युद्ध और शांति का मंत्री), कुमारमात्य (उच्च श्रेणी का मंत्री) और महादंडनायक (मुख्य न्यायिक/सैन्य अधिकारी) के पद धारण किए थे, लेकिन उन्होंने महाप्रतिहार का पद धारण नहीं किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The sandstone pillar on which Samudragupta's Prayag Prasasti is carved was originally located at which ancient place?",
+      "option_a": "Pataliputra",
+      "option_b": "Kosambi",
+      "option_c": "Ujjain",
+      "option_d": "Sarnath",
+      "correct": "B",
+      "explanation": "Correct option: B. The Allahabad pillar containing the inscriptions of Ashoka and Samudragupta was originally erected at Kosambi and later shifted to Allahabad."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वह बलुआ पत्थर का स्तंभ जिस पर समुद्रगुप्त की प्रयाग प्रशस्ति उत्कीर्ण है, मूल रूप से किस प्राचीन स्थान पर स्थित था?",
+      "option_a": "पाटलिपुत्र",
+      "option_b": "कौशाम्बी",
+      "option_c": "उज्जैन",
+      "option_d": "सारनाथ",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। अशोक और समुद्रगुप्त के अभिलेखों वाला इलाहाबाद स्तंभ मूल रूप से कौशाम्बी में स्थापित किया गया था और बाद में इसे इलाहाबाद स्थानांतरित कर दिया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Mughal emperor's royal decree is also found inscribed on the same Ashokan pillar that contains Samudragupta's Prayag Prasasti?",
+      "option_a": "Akbar",
+      "option_b": "Jahangir",
+      "option_c": "Shah Jahan",
+      "option_d": "Aurangzeb",
+      "correct": "B",
+      "explanation": "Correct option: B. The Allahabad Pillar contains inscriptions of Ashoka, Samudragupta, and a later Persian inscription by Jahangir (written by Birbal)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस मुगल सम्राट का शाही फरमान भी उसी अशोक स्तंभ पर उत्कीर्ण है जिस पर समुद्रगुप्त की प्रयाग प्रशस्ति अंकित है?",
+      "option_a": "अकबर",
+      "option_b": "जहाँगीर",
+      "option_c": "शाहजहाँ",
+      "option_d": "औरंगजेब",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। इलाहाबाद स्तंभ पर अशोक, समुद्रगुप्त के अभिलेख और बाद में जहाँगीर का एक फारसी अभिलेख (बीरबल द्वारा लिखित) उत्कीर्ण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What was the nature of Samudragupta's policy towards the 'Atavika' (forest) kingdoms mentioned in the Prayag Prasasti?",
+      "option_a": "Complete annihilation",
+      "option_b": "Reinstating them as independent allies",
+      "option_c": "Making them servants (Paricharakikrita)",
+      "option_d": "Marrying their princesses",
+      "correct": "C",
+      "explanation": "Correct option: C. The Prayag Prasasti mentions that the Atavika Rajyas (forest kingdoms of central India) were made servants (Paricharakikrita) of Samudragupta."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रयाग प्रशस्ति में वर्णित 'आटविक' (वन) राज्यों के प्रति समुद्रगुप्त की नीति का क्या स्वरूप था?",
+      "option_a": "पूर्ण विनाश",
+      "option_b": "उन्हें स्वतंत्र सहयोगियों के रूप में बहाल करना",
+      "option_c": "उन्हें अपना सेवक बनाना (परिचारकीकृत)",
+      "option_d": "उनकी राजकुमारियों से विवाह करना",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। प्रयाग प्रशस्ति में उल्लेख है कि आटविक राज्यों (मध्य भारत के वन राज्यों) को समुद्रगुप्त का सेवक (परिचारकीकृत) बना दिया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Pratyanta' (border) states submitted to Samudragupta's authority by paying all taxes and obeying orders. What is this policy termed in the inscription?",
+      "option_a": "Prasabhoddharana",
+      "option_b": "Grahana-Moksha-Anugraha",
+      "option_c": "Sarva-kara-dana-ajna-karana-pranama-agamana",
+      "option_d": "Atmanivedana-Kanyopayana",
+      "correct": "C",
+      "explanation": "Correct option: C. The border states submitted through 'Sarva-kara-dana-ajna-karana-pranama-agamana', meaning paying all taxes, obeying orders, bowing down, and attending court."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'प्रत्यन्त' (सीमावर्ती) राज्यों ने सभी करों का भुगतान करके और आदेशों का पालन करके समुद्रगुप्त की सत्ता स्वीकार की। अभिलेख में इस नीति को क्या कहा गया है?",
+      "option_a": "प्रसभोद्धरण",
+      "option_b": "ग्रहण-मोक्ष-अनुग्रह",
+      "option_c": "सर्व-कर-दान-आज्ञा-करण-प्रणाम-आगमन",
+      "option_d": "आत्मनिवेदन-कन्योपायन",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। सीमावर्ती राज्यों ने 'सर्व-कर-दान-आज्ञा-करण-प्रणाम-आगमन' नीति के माध्यम से अधीनता स्वीकार की, जिसका अर्थ कर चुकाना, आज्ञा मानना, प्रणाम करना और दरबार में आना था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which foreign dynasty is referred to as 'Devaputra-Shahi-Shahanushahi' in the Allahabad Pillar Inscription of Samudragupta?",
+      "option_a": "Scythians (Shakas)",
+      "option_b": "Kushanas",
+      "option_c": "Hunas",
+      "option_d": "Murundas",
+      "correct": "B",
+      "explanation": "Correct option: B. The title 'Devaputra-Shahi-Shahanushahi' refers to the Kushana rulers who offered submission to Samudragupta."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त के इलाहाबाद स्तंभ अभिलेख में किस विदेशी राजवंश को 'देवपुत्र-शाहि-शाहानुशाहि' कहा गया है?",
+      "option_a": "शकास (शक)",
+      "option_b": "कुषाण",
+      "option_c": "हूण",
+      "option_d": "मुरुण्ड",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। 'देवपुत्र-शाहि-शाहानुशाहि' की उपाधि कुषाण शासकों को संदर्भित करती है जिन्होंने समुद्रगुप्त के समक्ष समर्पण किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which type of gold coin bears the legend 'Kritantaparashu' (the battle-axe of death) on the obverse?",
+      "option_a": "Battle-axe Type",
+      "option_b": "Tiger-slayer Type",
+      "option_c": "Archer Type",
+      "option_d": "Sceptre Type",
+      "correct": "A",
+      "explanation": "Correct option: A. The Battle-axe type of coins features Samudragupta holding a battle-axe with the legend 'Kritantaparashu' (representing him as the axe of the god of death)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सोने के किस प्रकार के सिक्के के अग्रभाग पर 'कृतान्तपरशु' (मृत्यु का परशु) लेख अंकित है?",
+      "option_a": "परशु प्रकार",
+      "option_b": "व्याघ्र-निहंता प्रकार",
+      "option_c": "धनुर्धारी प्रकार",
+      "option_d": "ध्वज प्रकार",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। परशु प्रकार के सिक्कों पर समुद्रगुप्त को परशु (कुल्हाड़ी) धारण किए हुए दिखाया गया है, जिस पर 'कृतान्तपरशु' लेख अंकित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. A series of gold coins issued during the early Gupta period bear the name 'Kacha'. Who do historians commonly identify Kacha with?",
+      "option_a": "Chandragupta II",
+      "option_b": "Samudragupta",
+      "option_c": "Ghatotkacha",
+      "option_d": "Ramagupta",
+      "correct": "B",
+      "explanation": "Correct option: B. Most historians identify 'Kacha' as a brother of Samudragupta who contested the throne, or as Samudragupta's own initial/alternative name prior to consecration."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रारंभिक गुप्त काल के दौरान जारी सोने के सिक्कों की एक श्रृंखला पर 'काच' नाम अंकित है। इतिहासकार आमतौर पर काच की पहचान किससे करते हैं?",
+      "option_a": "चन्द्रगुप्त द्वितीय",
+      "option_b": "समुद्रगुप्त",
+      "option_c": "घटोत्कच",
+      "option_d": "रामगुप्त",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। अधिकांश इतिहासकार 'काच' की पहचान समुद्रगुप्त के एक भाई के रूप में करते हैं जिसने सिंहासन के लिए संघर्ष किया था, या राज्याभिषेक से पहले स्वयं समुद्रगुप्त के प्रारंभिक/वैकल्पिक नाम के रूप में करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who is mentioned as the executor (writer/engraver) of the Allahabad Prasasti in its concluding lines?",
+      "option_a": "Tilabhattaka",
+      "option_b": "Veerasena",
+      "option_c": "Amrakardava",
+      "option_d": "Saba",
+      "correct": "A",
+      "explanation": "Correct option: A. The engraving and execution of the Allahabad Prasasti composed by Harishena was done by Tilabhattaka, who was a Mahadandanayaka."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. इलाहाबाद प्रशस्ति के समापन पंक्तियों में इसके निष्पादक (लेखक/उत्कीर्णक) के रूप में किसका उल्लेख किया गया है?",
+      "option_a": "तिलभट्टक",
+      "option_b": "वीरसेन",
+      "option_c": "आम्रकार्दव",
+      "option_d": "साब",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। हरिषेण द्वारा रचित इलाहाबाद प्रशस्ति का उत्कीर्णन और निष्पादन तिलभट्टक द्वारा किया गया था, जो एक महादंडनायक थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Allahabad Pillar Inscription, to which deity is Samudragupta NOT compared in terms of his virtues and qualities?",
+      "option_a": "Dhanada (Kubera)",
+      "option_b": "Varuna",
+      "option_c": "Indra",
+      "option_d": "Shiva",
+      "correct": "D",
+      "explanation": "Correct option: D. The inscription compares Samudragupta to Dhanada (Kubera) in charity, Varuna in justice, Indra in power, and Antaka (Yama) in wrath, but not to Shiva."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. इलाहाबाद स्तंभ अभिलेख में, समुद्रगुप्त के गुणों और विशेषताओं की तुलना किस देवता से नहीं की गई है?",
+      "option_a": "धनद (कुबेर)",
+      "option_b": "वरुण",
+      "option_c": "इंद्र",
+      "option_d": "शिव",
+      "correct": "D",
+      "explanation": "सही विकल्प: D। अभिलेख में समुद्रगुप्त की तुलना दान में धनद (कुबेर), न्याय में वरुण, शक्ति में इंद्र और क्रोध में अंतक (यम) से की गई है, लेकिन शिव से नहीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the mother of Samudragupta, who is prominently mentioned in the genealogical section of the Prayag Prasasti?",
+      "option_a": "Dattadevi",
+      "option_b": "Kumaradevi",
+      "option_c": "Kuberanaga",
+      "option_d": "Dhruvadevi",
+      "correct": "B",
+      "explanation": "Correct option: B. Kumaradevi, the Lichchhavi princess who married Chandragupta I, was the mother of Samudragupta, as recorded in the Prayag Prasasti."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त की माता कौन थीं, जिनका प्रयाग प्रशस्ति के वंशावली भाग में प्रमुखता से उल्लेख किया गया है?",
+      "option_a": "दत्तदेवी",
+      "option_b": "कुमारदेवी",
+      "option_c": "कुबेरनागा",
+      "option_d": "ध्रुवदेवी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। चंद्रगुप्त प्रथम से विवाह करने वाली लिच्छवि राजकुमारी कुमारदेवी समुद्रगुप्त की माता थीं, जैसा कि प्रयाग प्रशस्ति में दर्ज है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Buddhist scholar and philosopher is traditionally believed to have been appointed as a minister by Samudragupta?",
+      "option_a": "Asanga",
+      "option_b": "Vasubandhu",
+      "option_c": "Dignaga",
+      "option_d": "Nagarjuna",
+      "correct": "B",
+      "explanation": "Correct option: B. The famous Buddhist philosopher Vasubandhu is traditionally said to have been patronized and appointed as a minister by Samudragupta."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पारंपरिक रूप से किस बौद्ध विद्वान और दार्शनिक के बारे में माना जाता है कि उन्हें समुद्रगुप्त द्वारा मंत्री नियुक्त किया गया था?",
+      "option_a": "असंग",
+      "option_b": "वसुबंधु",
+      "option_c": "दिङ्नाग",
+      "option_d": "नागार्जुन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। पारंपरिक रूप से कहा जाता है कि प्रसिद्ध बौद्ध दार्शनिक वसुबंधु को समुद्रगुप्त द्वारा संरक्षण दिया गया था और उन्हें अपना मंत्री नियुक्त किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Samudragupta did not directly annex the southern kingdoms of Dakshinapatha after defeating them.\nReason (R): The vast distance and lack of communication facilities made it difficult to exercise direct administrative control over Southern India from Pataliputra.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Samudragupta followed the policy of Grahana-Moksha-Anugraha, releasing and reinstating the Dakshinapatha kings without direct annexation, which is true. Reason Analysis: Direct administration of the far south was logistically impossible from Pataliputra due to geographic distance, which is historically true and explains the policy of suzerainty rather than annexation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में चिह्नित किया गया है:\n\nअभिकथन (A): समुद्रगुप्त ने दक्षिणापथ के दक्षिणी राज्यों को हराने के बाद उनका सीधे अपने साम्राज्य में विलय नहीं किया।\nकारण (R): अत्यधिक दूरी और संचार सुविधाओं की कमी के कारण पाटलिपुत्र से दक्षिण भारत पर प्रत्यक्ष प्रशासनिक नियंत्रण रखना कठिन था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: समुद्रगुप्त ने प्रत्यक्ष विलय के बिना दक्षिणापथ के राजाओं को मुक्त करने और बहाल करने की 'ग्रहण-मोक्ष-अनुग्रह' नीति का पालन किया, जो सत्य है। कारण विश्लेषण: भौगोलिक दूरी के कारण पाटलिपुत्र से सुदूर दक्षिण का प्रत्यक्ष प्रशासन व्यावहारिक रूप से असंभव था, जो ऐतिहासिक रूप से सत्य है और विलय के बजाय आधिपत्य की नीति की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Samudragupta issued coins depicting him playing the lute (Veena).\nReason (R): He performed the Asvamedha sacrifice to assert his imperial authority.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: Samudragupta issued Lyrist-type coins showing him playing the Veena, which is true. Reason Analysis: He performed the Asvamedha sacrifice to declare his paramount sovereignty, which is also true. However, performing the Asvamedha sacrifice does not explain his musical interest depicted on the Lyrist coins."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में चिह्नित किया गया है:\n\nअभिकथन (A): समुद्रगुप्त ने वीणा बजाते हुए खुद को चित्रित करने वाले सिक्के जारी किए।\nकारण (R): उन्होंने अपनी साम्राज्यवादी सत्ता स्थापित करने के लिए अश्वमेध यज्ञ का संपादन किया।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: समुद्रगुप्त ने वीणा वादक प्रकार के सिक्के जारी किए जो उन्हें वीणा बजाते हुए दिखाते हैं, जो सत्य है। कारण विश्लेषण: उन्होंने अपनी सर्वोच्च संप्रभुता घोषित करने के लिए अश्वमेध यज्ञ का संपादन किया, यह भी सच है। हालाँकि, अश्वमेध यज्ञ का प्रदर्शन उनके वीणा वादक सिक्कों पर चित्रित संगीत रुचि की व्याख्या नहीं करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Prayag Prasasti of Samudragupta was originally engraved by the order of Ashoka at Kosambi.\nReason (R): Samudragupta selected the existing Ashokan pillar to utilize the symbolic authority of the Mauryan Emperor.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The sandstone pillar indeed contains the early Ashokan edicts and was originally set up at Kosambi, which is true. Reason Analysis: By choosing the same pillar to carve his conquests, Samudragupta deliberately associated himself with the historic imperial authority of Ashoka, making R a valid explanation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में चिह्नित किया गया है:\n\nअभिकथन (A): समुद्रगुप्त की प्रयाग प्रशस्ति मूल रूप से कौशाम्बी में अशोक के आदेश से उत्कीर्ण स्तंभ पर अंकित है।\nकारण (R): समुद्रगुप्त ने मौर्य सम्राट की प्रतीकात्मक सत्ता का उपयोग करने के लिए पहले से मौजूद अशोक स्तंभ को चुना।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: बलुआ पत्थर के स्तंभ पर वास्तव में प्रारंभिक अशोक के शिलालेख हैं और यह मूल रूप से कौशाम्बी में स्थापित किया गया था, जो सत्य है। कारण विश्लेषण: अपनी विजय गाथा को उसी स्तंभ पर उत्कीर्ण करवाकर, समुद्रगुप्त ने जानबूझकर खुद को अशोक की ऐतिहासिक साम्राज्यवादी सत्ता से जोड़ा, जिससे R एक मान्य व्याख्या बन जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Samudragupta is called 'Lichchhavi-dauhitra' in the Gupta inscriptions.\nReason (R): He conquered the territory of Vaishali from the Lichchhavis after a violent war.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Samudragupta is indeed referred to as 'Lichchhavi-dauhitra' in several inscriptions and on coins, which is true. Reason Analysis: The Lichchhavis were not conquered; rather, Samudragupta's father, Chandragupta I, married the Lichchhavi princess Kumaradevi, establishing a marital and political alliance. Hence, R is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में चिह्नित किया गया है:\n\nअभिकथन (A): गुप्त अभिलेखों में समुद्रगुप्त को 'लिच्छवि-दौहित्र' कहा गया है।\nकारण (R): उन्होंने एक हिंसक युद्ध के बाद लिच्छवियों से वैशाली के क्षेत्र को जीत लिया था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: समुद्रगुप्त को वास्तव में कई अभिलेखों और सिक्कों में 'लिच्छवि-दौहित्र' कहा गया है, जो सत्य है। कारण विश्लेषण: लिच्छवियों को जीता नहीं गया था; बल्कि समुद्रगुप्त के पिता चंद्रगुप्त प्रथम ने लिच्छवि राजकुमारी कुमारदेवी से विवाह किया था, जिससे एक वैवाहिक और राजनीतिक गठबंधन स्थापित हुआ था। अतः R गलत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The coinage of Samudragupta shows a marked decline in artistic execution and metal purity compared to Kushana coins.\nReason (R): The Gupta Empire faced extreme fiscal strain due to continuous warfare in the south.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "Both A and R are false",
+      "correct": "D",
+      "explanation": "Assertion Analysis: The coinage of Samudragupta is highly celebrated for its artistic quality and high gold purity, showing no decline compared to the Kushanas. Thus, A is false. Reason Analysis: There is no historical evidence of extreme fiscal strain during Samudragupta's reign; instead, the conquests enriched the empire. Thus, R is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में चिह्नित किया गया है:\n\nअभिकथन (A): कुषाण सिक्कों की तुलना में समुद्रगुप्त के सिक्कों में कलात्मक निष्पादन और धातु की शुद्धता में भारी गिरावट दिखाई देती है।\nकारण (R): दक्षिण में निरंतर युद्धों के कारण गुप्त साम्राज्य को अत्यधिक वित्तीय तनाव का सामना करना पड़ा था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A और R दोनों गलत हैं",
+      "correct": "D",
+      "explanation": "अभिकथन विश्लेषण: समुद्रगुप्त के सिक्के अपनी कलात्मक गुणवत्ता और उच्च स्वर्ण शुद्धता के लिए अत्यधिक प्रसिद्ध हैं, जो कुषाणों की तुलना में गिरावट नहीं दर्शाते हैं। अतः A गलत है। कारण विश्लेषण: समुद्रगुप्त के शासनकाल के दौरान अत्यधिक राजकोषीय तनाव का कोई ऐतिहासिक प्रमाण नहीं है; इसके विपरीत विजित धन से साम्राज्य समृद्ध हुआ। अतः R गलत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Samudragupta performed the Asvamedha sacrifice to restore the prestige of Vedic institutions.\nReason (R): The performance of the Asvamedha sacrifice was meant to assert his status as a chakravartin (universal monarch).\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Samudragupta revived the Vedic Asvamedha sacrifice which had fallen into abeyance, thereby restoring Vedic rites, which is true. Reason Analysis: The sacrifice was the ultimate ritual declaration of imperial supremacy over conquered territories, verifying his chakravartin status. This explains the motivation behind the sacrifice."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में चिह्नित किया गया है:\n\nअभिकथन (A): समुद्रगुप्त ने वैदिक संस्थाओं की प्रतिष्ठा को पुनर्स्थापित करने के लिए अश्वमेध यज्ञ किया।\nकारण (R): अश्वमेध यज्ञ का संपादन एक चक्रवर्ती (सार्वभौमिक सम्राट) के रूप में उनकी स्थिति को स्थापित करने के लिए था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: समुद्रगुप्त ने वैदिक अश्वमेध यज्ञ को पुनर्जीवित किया जो लंबे समय से अप्रचलित था, जिससे वैदिक अनुष्ठानों की पुनर्स्थापना हुई, यह सत्य है। कारण विश्लेषण: यह यज्ञ विजित प्रदेशों पर साम्राज्यवादी सर्वोच्चता की अंतिम अनुष्ठानिक घोषणा थी, जो उनकी चक्रवर्ती स्थिति की पुष्टि करती है। यह यज्ञ के पीछे की प्रेरणा की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Allahabad Prasasti does not mention the performance of the Asvamedha sacrifice by Samudragupta.\nReason (R): The Asvamedha sacrifice was performed by Samudragupta late in his reign, after the inscription was already carved.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Prayag Prasasti lists all of Samudragupta's conquests but is silent about the Asvamedha sacrifice, which is true. Reason Analysis: The sacrifice was performed towards the end of his military career as a culmination of his victories, long after Harishena composed the prasasti, which explains the omission."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में चिह्नित किया गया है:\n\nअभिकथन (A): प्रयाग प्रशस्ति में समुद्रगुप्त द्वारा अश्वमेध यज्ञ किए जाने का उल्लेख नहीं है।\nकारण (R): समुद्रगुप्त द्वारा अश्वमेध यज्ञ अपने शासनकाल के अंतिम दिनों में किया गया था, जब यह अभिलेख पहले ही उत्कीर्ण हो चुका था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: प्रयाग प्रशस्ति समुद्रगुप्त की सभी विजयों को सूचीबद्ध करती है लेकिन अश्वमेध यज्ञ के बारे में मौन है, जो सत्य है। कारण विश्लेषण: यह यज्ञ उनकी विजयों की पराकाष्ठा के रूप में उनके सैन्य जीवन के अंत में किया गया था, जिसके बाद हरिषेण की प्रशस्ति पहले ही लिखी जा चुकी थी, जो इस चूक की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Foreign powers like the Shakas and Kushanas offered personal service and requested charters sealed with the Garuda emblem from Samudragupta.\nReason (R): Samudragupta completely annihilated the Shaka and Kushana dynasties and directly annexed their territories into the Gupta Empire.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: The Allahabad Prasasti states that the Devaputra-Shahi-Shahanushahi (Kushanas) and Shakas submitted through Kanyopayana and Garutmadanka-svavishaya-bhukti-shasana-yachana, which is true. Reason Analysis: Samudragupta did not annex them directly; they remained semi-independent border vassals. It was Chandragupta II who finally destroyed the Western Shakas. Thus, R is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में चिह्नित किया गया है:\n\nअभिकथन (A): शकों और कुषाणों जैसी विदेशी शक्तियों ने समुद्रगुप्त की व्यक्तिगत सेवा करने की पेशकश की और गरुड़ प्रतीक वाली शाही सनदों की याचना की।\nकारण (R): समुद्रगुप्त ने शक और कुषाण राजवंशों को पूरी तरह से नष्ट कर दिया और उनके क्षेत्रों को सीधे गुप्त साम्राज्य में मिला लिया।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: प्रयाग प्रशस्ति में कहा गया है कि देवपुत्र-शाहि-शाहानुशाहि (कुषाण) और शकों ने कन्योपायन और गरुत्मदांक-स्वविषय-भुक्ति-शासन-याचना के माध्यम से अधीनता स्वीकार की, जो सत्य है। कारण विश्लेषण: समुद्रगुप्त ने सीधे उनका विलय नहीं किया; वे अर्ध-स्वतंत्र सीमावर्ती जागीरदार बने रहे। यह चंद्रगुप्त द्वितीय थे जिन्होंने अंततः पश्चिमी शकों को नष्ट कर दिया। अतः R गलत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match the conqueror's policy listed in List-I with the target region/state listed in List-II:\nList-I:\na) Prasabhoddharana\nb) Grahana-Moksha-Anugraha\nc) Paricharakikrita\nd) Sarva-kara-dana-ajna-karana\n\nList-II:\n1) Dakshinapatha (Southern Kingdoms)\n2) Aryavarta (Northern Kingdoms)\n3) Pratyanta (Border States)\n4) Atavika (Forest States)\n5) Simhala (Ceylon)",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Prasabhoddharana (violent extermination) applies to Aryavarta (2); Grahana-Moksha-Anugraha (capture, release, reinstate) applies to Dakshinapatha (1); Paricharakikrita (enslavement) applies to Atavika kingdoms (4); Sarva-kara-dana-ajna-karana applies to Pratyanta states (3)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I में दी गई विजेता की नीति को सूची-II में दिए गए लक्षित क्षेत्र/राज्य के साथ सुमेलित कीजिए:\nसूची-I:\na) प्रसभोद्धरण\nb) ग्रहण-मोक्ष-अनुग्रह\nc) परिचारकीकृत\nd) सर्व-कर-दान-आज्ञा-करण\n\nसूची-II:\n1) दक्षिणापथ (दक्षिणी राज्य)\n2) आर्यावर्त (उत्तरी राज्य)\n3) प्रत्यन्त (सीमावर्ती राज्य)\n4) आटविक (वन राज्य)\n5) सिंहल (श्रीलंका)",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। प्रसभोद्धरण (बलपूर्वक उन्मूलन) आर्यावर्त (2) पर लागू होता है; ग्रहण-मोक्ष-अनुग्रह (बंदी बनाना, मुक्त करना, अनुग्रह करना) दक्षिणापथ (1) पर लागू होता है; परिचारकीकृत (सेवक बनाना) आटविक राज्यों (4) पर लागू होता है; सर्व-कर-दान-आज्ञा-करण सीमावर्ती राज्यों (3) पर लागू होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match the titles/epithets of Samudragupta in List-I with their literal meanings in List-II:\nList-I:\na) Kaviraja\nb) Apratiratha\nc) Kritantaparashu\nd) Sarvarajochchhetta\n\nList-II:\n1) Having no rival warrior on the battlefield\n2) The battle-axe of the god of death\n3) King of poets\n4) Uprooter of all kings\n5) Possessor of double strength",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-2, c-1, d-4",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Kaviraja matches 'King of poets' (3); Apratiratha matches 'Having no rival warrior' (1); Kritantaparashu matches 'The battle-axe of the god of death' (2); Sarvarajochchhetta matches 'Uprooter of all kings' (4)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I में समुद्रगुप्त की उपाधियों को सूची-II में उनके शाब्दिक अर्थों से सुमेलित कीजिए:\nसूची-I:\na) कविराज\nb) अप्रतिरथ\nc) कृतान्तपरशु\nd) सर्वराजोच्छेत्ता\n\nसूची-II:\n1) युद्ध के मैदान में कोई प्रतिद्वंद्वी योद्धा न होना\n2) मृत्यु के देवता का परशु (कुल्हाड़ी)\n3) कवियों का राजा\n4) सभी राजाओं का समूल नाश करने वाला\n5) दोगुनी शक्ति का स्वामी",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-2, c-1, d-4",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कविराज का मिलान 'कवियों का राजा' (3) से होता है; अप्रतिरथ का मिलान 'युद्ध के मैदान में कोई प्रतिद्वंद्वी योद्धा न होना' (1) से होता है; कृतान्तपरशु का मिलान 'मृत्यु के देवता का परशु' (2) से होता है; सर्वराजोच्छेत्ता का मिलान 'सभी राजाओं का समूल नाश करने वाला' (4) से होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match the Dakshinapatha rulers defeated by Samudragupta in List-I with their respective kingdoms in List-II:\nList-I:\na) Mahendra\nb) Vyaghraraja\nc) Hastivarman\nd) Vishnugopa\n\nList-II:\n1) Mahakantara\n2) Kosala\n3) Kanchi\n4) Vengi\n5) Pishtapura",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Mahendra was the ruler of Kosala (2); Vyaghraraja was the ruler of Mahakantara (1); Hastivarman was the ruler of Vengi (4); Vishnugopa was the ruler of Kanchi (3)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I में समुद्रगुप्त द्वारा पराजित दक्षिणापथ के शासकों को सूची-II में उनके संबंधित साम्राज्यों से सुमेलित कीजिए:\nसूची-I:\na) महेंद्र\nb) व्याघ्रराज\nc) हस्तिवर्मन\nd) विष्णुगोप\n\nसूची-II:\n1) महाकांतार\n2) कोसल\n3) कांची\n4) वेंगी\n5) पिष्टपुर",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। महेंद्र कोसल के शासक थे (2); व्याघ्रराज महाकांतार के शासक थे (1); हस्तिवर्मन वेंगी के शासक थे (4); विष्णुगोप कांची के शासक थे (3)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match the gold coin types of Samudragupta in List-I with their specific obverse descriptions in List-II:\nList-I:\na) Lyrist Type\nb) Battle-axe Type\nc) Asvamedha Type\nd) Tiger-slayer Type\n\nList-II:\n1) King standing, trampling a tiger with his left foot\n2) King seated on a couch playing the Veena\n3) King holding a battle-axe with a boy attendant\n4) Sacrificial horse standing before a yupa\n5) King and Queen standing face to face",
+      "option_a": "a-2, b-3, c-4, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-3, d-1",
+      "option_d": "a-3, b-2, c-4, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Lyrist Type features the king playing the Veena (2); Battle-axe Type shows the king with a battle-axe and boy attendant (3); Asvamedha Type has the horse before the yupa (4); Tiger-slayer Type shows the king trampling a tiger (1)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I में समुद्रगुप्त के सोने के सिक्कों के प्रकारों को सूची-II में उनके विशिष्ट अग्रभाग के विवरण से सुमेलित कीजिए:\nसूची-I:\na) वीणा वादक प्रकार\nb) परशु प्रकार\nc) अश्वमेध प्रकार\nd) व्याघ्र-निहंता प्रकार\n\nसूची-II:\n1) राजा खड़ा है, अपने बाएं पैर से बाघ को कुचल रहा है\n2) राजा सोफे पर बैठकर वीणा बजा रहा है\n3) राजा एक बालक सेवक के साथ परशु धारण किए हुए है\n4) यज्ञ स्तंभ (यूप) के सामने खड़ा यज्ञ का घोड़ा\n5) राजा और रानी आमने-सामने खड़े हैं",
+      "option_a": "a-2, b-3, c-4, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-3, d-1",
+      "option_d": "a-3, b-2, c-4, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। वीणा वादक प्रकार में राजा को वीणा बजाते हुए दिखाया गया है (2); परशु प्रकार में राजा को एक बालक सेवक के साथ परशु पकड़े दिखाया गया है (3); अश्वमेध प्रकार में यूप के सामने घोड़ा है (4); व्याघ्र-निहंता प्रकार में राजा को बाघ को कुचलते दिखाया गया है (1)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match the officials mentioned in the context of the Allahabad Pillar Inscription in List-I with their roles/titles in List-II:\nList-I:\na) Harishena\nb) Tilabhattaka\nc) Kumaramatya\nd) Sandhivigrahika\n\nList-II:\n1) Officer of high administrative rank\n2) Minister of Peace and War\n3) Engraver of the inscription\n4) Composer of the Prasasti text\n5) Chief treasury officer",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-3, b-4, c-2, d-1",
+      "option_c": "a-4, b-1, c-3, d-2",
+      "option_d": "a-2, b-3, c-4, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Harishena composed the text (4); Tilabhattaka engraved the inscription (3); Kumaramatya is a high-ranking minister (1); Sandhivigrahika is the minister of peace and war (2)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I में इलाहाबाद स्तंभ अभिलेख के संदर्भ में उल्लिखित अधिकारियों को सूची-II में उनकी भूमिकाओं/उपाधियों से सुमेलित कीजिए:\nसूची-I:\na) हरिषेण\nb) तिलभट्टक\nc) कुमारमात्य\nd) सन्धिविग्रहिक\n\nसूची-II:\n1) उच्च प्रशासनिक रैंक का अधिकारी\n2) शांति और युद्ध का मंत्री\n3) अभिलेख का उत्कीर्णक (लेखक)\n4) प्रशस्ति पाठ का रचयिता\n5) मुख्य कोषाधिकारी",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-3, b-4, c-2, d-1",
+      "option_c": "a-4, b-1, c-3, d-2",
+      "option_d": "a-2, b-3, c-4, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। हरिषेण ने पाठ की रचना की (4); तिलभट्टक ने अभिलेख का उत्कीर्णन किया (3); कुमारमात्य एक उच्च पदस्थ प्रशासनिक अधिकारी है (1); सन्धिविग्रहिक शांति और युद्ध का मंत्री है (2)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match the border states (Pratyanta states) mentioned in the Allahabad Prasasti in List-I with their modern regions in List-II:\nList-I:\na) Samatata\nb) Kamarupa\nc) Nepala\nd) Davaka\n\nList-II:\n1) Assam region\n2) Bengal (Delta region)\n3) Nepal valley\n4) Nowgong district of Assam\n5) Punjab plains",
+      "option_a": "a-2, b-1, c-3, d-4",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Samatata corresponds to the Bengal delta (2); Kamarupa represents the Assam valley (1); Nepala corresponds to modern Nepal (3); Davaka corresponds to Nowgong in Assam (4)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I में इलाहाबाद प्रशस्ति में उल्लिखित सीमावर्ती राज्यों (प्रत्यन्त राज्यों) को सूची-II में उनके आधुनिक क्षेत्रों के साथ सुमेलित कीजिए:\nसूची-I:\na) समतट\nb) कामरूप\nc) नेपाल\nd) डवाक\n\nसूची-II:\n1) असम क्षेत्र\n2) बंगाल (डेल्टा क्षेत्र)\n3) नेपाल घाटी\n4) असम का नौगांव जिला\n5) पंजाब के मैदान",
+      "option_a": "a-2, b-1, c-3, d-4",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-4, d-1",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। समतट बंगाल डेल्टा (2) से मेल खाता है; कामरूप असम घाटी (1) का प्रतिनिधित्व करता है; नेपाल आधुनिक नेपाल (3) से मेल खाता है; डवाक असम के नौगांव (4) से मेल खाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match the rulers of Aryavarta defeated by Samudragupta in List-I with their names in List-II:\nList-I:\na) Achyuta\nb) Nagasena\nc) Ganapatinaga\nd) Rudradeva\n\nList-II:\n1) Ruler of Ahichchhatra\n2) Ruler of Padmavati\n3) Ruler of Mathura\n4) Vakataka Ruler Rudrasena I\n5) Ruler of Malwa",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Achyuta was the ruler of Ahichchhatra (1); Nagasena was the ruler of Padmavati (2); Ganapatinaga was the ruler of Mathura (3); Rudradeva is identified as Rudrasena I of the Vakataka dynasty (4)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I में समुद्रगुप्त द्वारा पराजित आर्यावर्त के शासकों को सूची-II में उनके नामों/स्थानों से सुमेलित कीजिए:\nसूची-I:\na) अच्युत\nb) नागसेन\nc) गणपतिनाग\nd) रुद्रदेव\n\nसूची-II:\n1) अहिच्छत्र के शासक\n2) पद्मावती के शासक\n3) मथुरा के शासक\n4) वाकाटक शासक रुद्रसेन प्रथम\n5) मालवा के शासक",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। अच्युत अहिच्छत्र के शासक थे (1); नागसेन पद्मावती के शासक थे (2); गणपतिनाग मथुरा के शासक थे (3); रुद्रदेव की पहचान वाकाटक वंश के रुद्रसेन प्रथम (4) से की जाती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match the Sanskrit technical terms of Samudragupta's foreign policy in List-I with their definitions in List-II:\nList-I:\na) Atmanivedana\nb) Kanyopayana\nb) Garutmadanka\nd) Shasana-yachana\n\nList-II:\n1) Offering personal service to the emperor\n2) Presenting daughters in marriage\n3) Using the imperial Garuda seal on charters\n4) Requesting royal charters for administration\n5) Surrendering royal treasures",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-4, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Atmanivedana means offering personal service (1); Kanyopayana means presenting daughters in marriage (2); Garutmadanka refers to the royal Garuda seal (3); Shasana-yachana is requesting royal charters for governance (4)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I में समुद्रगुप्त की विदेश नीति के संस्कृत तकनीकी शब्दों को सूची-II में उनकी परिभाषाओं से सुमेलित कीजिए:\nसूची-I:\na) आत्मनिवेदन\nb) कन्योपायन\nc) गरुत्मदांक\nd) शासन-याचना\n\nसूची-II:\n1) सम्राट को व्यक्तिगत सेवा देना\n2) विवाह में पुत्रियों को भेंट करना\n3) सनदों पर शाही गरुड़ मुहर का उपयोग करना\n4) प्रशासन के लिए शाही सनदों की याचना करना\n5) शाही खजाने को सौंपना",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-4, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। आत्मनिवेदन का अर्थ है व्यक्तिगत सेवा प्रदान करना (1); कन्योपायन का अर्थ है विवाह में बेटियों को भेंट करना (2); गरुत्मदांक का अर्थ गरुड़ मुहर के प्रयोग से है (3); शासन-याचना का अर्थ शासन के लिए शाही पट्टों या सनदों की याचना करना है (4)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Prayag Prasasti of Samudragupta:\n1. It is composed in pure Sanskrit prose only.\n2. It contains details about both northern and southern campaigns of Samudragupta.\n3. The inscription mentions the name of Samudragupta's wife Dattadevi.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "2 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "C",
+      "explanation": "Statement 1 is incorrect because it is in Champu style (both prose and verse), not prose only. Statement 2 is correct as it detailed the campaigns of both Aryavarta and Dakshinapatha. Statement 3 is correct because Samudragupta's chief queen Dattadevi is mentioned in the inscription."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त की प्रयाग प्रशस्ति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह केवल शुद्ध संस्कृत गद्य में रचित है।\n2. इसमें समुद्रगुप्त के उत्तरी और दक्षिणी दोनों अभियानों का विवरण है।\n3. अभिलेख में समुद्रगुप्त की पत्नी दत्तदेवी के नाम का उल्लेख है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 2",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "C",
+      "explanation": "कथन 1 गलत है क्योंकि यह चम्पू शैली (गद्य और पद्य दोनों) में है, न कि केवल गद्य में। कथन 2 सही है क्योंकि इसमें आर्यावर्त और दक्षिणापथ दोनों के अभियानों का विवरण है। कथन 3 सही है क्योंकि अभिलेख में समुद्रगुप्त की मुख्य रानी दत्तदेवी का उल्लेख है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the gold coins of Samudragupta:\n1. The Kacha type of gold coins bears the title 'Sarvarajochchhetta'.\n2. The Asvamedha type coins bear the legend 'Asvamedha-parakrama'.\n3. The standard weight of the gold dinaras issued by Samudragupta was around 115 to 120 grains.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because Kacha type coins have the legend 'Sarvarajochchhetta' on the reverse. Statement 2 is correct as Asvamedha coins bear 'Asvamedha-parakrama'. Statement 3 is correct as the gold coins followed the Kushana standard of 115-120 grains."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त के सोने के सिक्कों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. काच प्रकार के सोने के सिक्कों पर 'सर्वराजोच्छेत्ता' की उपाधि अंकित है।\n2. अश्वमेध प्रकार के सिक्कों पर 'अश्वमेध-पराक्रम' लेख अंकित है।\n3. समुद्रगुप्त द्वारा जारी सोने के दीनारों का मानक वजन लगभग 115 से 120 ग्रेन था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि काच प्रकार के सिक्कों के पीछे 'सर्वराजोच्छेत्ता' लेख है। कथन 2 सही है क्योंकि अश्वमेध सिक्कों पर 'अश्वमेध-पराक्रम' अंकित है। कथन 3 सही है क्योंकि सोने के सिक्के कुषाण मानक 115-120 ग्रेन के अनुरूप थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the Southern Campaign of Samudragupta, consider the following statements:\n1. He defeated Vishnugopa of Kanchi, who was a Pallava ruler.\n2. He chose to annex the territory of Kanchi directly into the Gupta empire.\n3. The southern kings paid tribute and accepted Samudragupta's suzerainty.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct as Vishnugopa of Kanchi belonged to the Pallava dynasty. Statement 2 is incorrect because the southern kingdoms were not annexed under the Grahana-Moksha-Anugraha policy. Statement 3 is correct as these kings accepted suzerainty and paid regular tribute."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त के दक्षिणी अभियान के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने कांची के विष्णुगोप को हराया, जो एक पल्लव शासक थे।\n2. उन्होंने कांची के क्षेत्र को सीधे गुप्त साम्राज्य में मिलाने का फैसला किया।\n3. दक्षिणी राजाओं ने कर दिया और समुद्रगुप्त की संप्रभुता स्वीकार की।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "Clean 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि कांची के विष्णुगोप पल्लव वंश के थे। कथन 2 गलत है क्योंकि ग्रहण-मोक्ष-अनुग्रह नीति के तहत दक्षिणी राज्यों का विलय नहीं किया गया था। कथन 3 सही है क्योंकि इन राजाओं ने संप्रभुता स्वीकार की और नियमित कर दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Allahabad Prasasti:\n1. It mentions the name of Chandragupta I and his title 'Maharajadhiraja'.\n2. It credits Samudragupta with building the city of Prayagraj.\n3. It was written in the classical Gupta Brahmi script.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as the inscription traces genealogy mentioning Chandragupta I as Maharajadhiraja. Statement 2 is incorrect because the inscription mentions no such city-building activity by Samudragupta. Statement 3 is correct as the script used is Gupta Brahmi."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. इलाहाबाद प्रशस्ति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसमें चंद्रगुप्त प्रथम के नाम और उनकी उपाधि 'महाराजाधिराज' का उल्लेख है।\n2. यह समुद्रगुप्त को प्रयागराज शहर के निर्माण का श्रेय देता है।\n3. यह शास्त्रीय गुप्त ब्राह्मी लिपि में लिखा गया था।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि अभिलेख वंशावली को रेखांकित करता है जिसमें चंद्रगुप्त प्रथम को महाराजाधिराज बताया गया है। कथन 2 गलत है क्योंकि अभिलेख में समुद्रगुप्त द्वारा ऐसे किसी शहर के निर्माण का उल्लेख नहीं है। कथन 3 सही है क्योंकि प्रयुक्त लिपि गुप्त ब्राह्मी है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Samudragupta's relationships with neighboring powers:\n1. The kingdom of Nepal (Nepala) was treated as a border state (Pratyanta) which submitted to him.\n2. The rulers of Simhala (Ceylon) paid tribute and requested permission to establish a monastery.\n3. The Devaputra-Shahi-Shahanushahi was completely annexed into the core Gupta territory.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Nepal was a Pratyanta state. Statement 2 is correct as Ceylon submitted gifts and requested permission for a monastery at Bodh Gaya. Statement 3 is incorrect because the Devaputra-Shahi-Shahanushahi (Kushanas) only submitted and were not directly annexed."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पड़ोसी शक्तियों के साथ समुद्रगुप्त के संबंधों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. नेपाल साम्राज्य को एक सीमावर्ती राज्य (प्रत्यन्त) माना जाता था जिसने उनके सामने समर्पण किया था।\n2. सिंहल (श्रीलंका) के शासकों ने कर दिया और एक मठ स्थापित करने की अनुमति मांगी।\n3. देवपुत्र-शाहि-शाहानुशाहि को मुख्य गुप्त क्षेत्र में पूरी तरह से मिला लिया गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि नेपाल एक प्रत्यन्त राज्य था। कथन 2 सही है क्योंकि सिंहल ने उपहार भेजे और बोधगया में एक मठ के लिए अनुमति मांगी। कथन 3 गलत है क्योंकि देवपुत्र-शाहि-शाहानुशाहि (कुषाणों) ने केवल अधीनता स्वीकार की थी, उन्हें सीधे मिलाया नहीं गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the military officials mentioned in the Prayag Prasasti, consider the following statements:\n1. The term 'Mahadandanayaka' refers to the chief of intelligence services.\n2. The term 'Sandhivigrahika' represents the minister of peace and war.\n3. Both offices could be held simultaneously by a single individual.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because 'Mahadandanayaka' refers to a high judicial/military commander, not chief of intelligence. Statement 2 is correct as 'Sandhivigrahika' refers to the minister of peace and war. Statement 3 is correct as Harishena held both posts simultaneously."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रयाग प्रशस्ति में वर्णित सैन्य अधिकारियों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. 'महादंडनायक' शब्द का तात्पर्य खुफिया सेवाओं के प्रमुख से है।\n2. 'सन्धिविग्रहिक' शब्द शांति और युद्ध के मंत्री का प्रतिनिधित्व करता है।\n3. दोनों पद एक ही व्यक्ति द्वारा एक साथ धारण किए जा सकते थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि 'महादंडनायक' का तात्पर्य उच्च न्यायिक/सैन्य कमांडर से है, न कि खुफिया सेवाओं के प्रमुख से। कथन 2 सही है क्योंकि 'सन्धिविग्रहिक' शांति और युद्ध के मंत्री को दर्शाता है। कथन 3 सही है क्योंकि हरिषेण ने एक साथ दोनों पद धारण किए थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the lineage of Samudragupta as described in his inscriptions:\n1. Ghatotkacha is mentioned as the great-grandfather of Samudragupta.\n2. Chandragupta I is mentioned as his immediate father.\n3. The dynasty is traceably linked to the Lichchhavi clan through his mother.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because Ghatotkacha was the grandfather, and Gupta was the great-grandfather. Statement 2 is correct as Chandragupta I was his father. Statement 3 is correct as his mother Kumaradevi belonged to the Lichchhavi clan."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त के शिलालेखों में वर्णित उनकी वंशावली के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. घटोत्कच को समुद्रगुप्त के परदादा के रूप में उल्लेखित किया गया है।\n2. चंद्रगुप्त प्रथम को उनके निकटतम पिता के रूप में उल्लेखित किया गया है।\n3. उनकी माता के माध्यम से राजवंश का संबंध लिच्छवि वंश से स्पष्ट रूप से जुड़ा हुआ है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि घटोत्कच दादा थे, और श्रीगुप्त परदादा थे। कथन 2 सही है क्योंकि चंद्रगुप्त प्रथम उनके पिता थे। कथन 3 सही है क्योंकि उनकी माता कुमारदेवी लिच्छवि वंश की थीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the geographical extent of Samudragupta's empire:\n1. The core territory under direct administration was confined to Northern India (Aryavarta).\n2. The forest kingdoms (Atavika) of Central India were annexed directly and divided into provinces.\n3. The Deccan and Southern kingdoms accepted vassal status and paid tribute.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct as direct administration was limited to Northern India. Statement 2 is incorrect because the forest kingdoms (Atavika) were made vassals/servants, not directly annexed. Statement 3 is correct as the Deccan and South accepted vassalage."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त के साम्राज्य के भौगोलिक विस्तार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. प्रत्यक्ष प्रशासन के अधीन मुख्य क्षेत्र केवल उत्तर भारत (आर्यावर्त) तक सीमित था।\n2. मध्य भारत के वन राज्यों (आटविक) का सीधे विलय कर लिया गया और उन्हें प्रांतों में विभाजित कर दिया गया।\n3. दक्कन और दक्षिणी राज्यों ने जागीरदार का दर्जा स्वीकार किया और कर का भुगतान किया।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि प्रत्यक्ष प्रशासन केवल उत्तर भारत तक सीमित था। कथन 2 गलत है क्योंकि वन राज्यों (आटविक) को सेवक/जागीरदार बनाया गया था, सीधे विलय नहीं किया गया था। कथन 3 सही है क्योंकि दक्कन और दक्षिण ने जागीरदार का दर्जा स्वीकार किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the historical importance of the Prayag Prasasti:\n1. It contains no mention of any other ruler besides Samudragupta.\n2. It provides a detailed chronological sequence of Samudragupta's military campaigns.\n3. It was composed while Samudragupta was still actively ruling the empire.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because the pillar contains inscriptions of Ashoka and Jahangir, and the text mentions Gupta ancestors. Statement 2 is correct as it lists campaigns systematically. Statement 3 is correct as it was composed during Samudragupta's reign by his court poet Harishena."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रयाग प्रशस्ति के ऐतिहासिक महत्व के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसमें समुद्रगुप्त के अलावा किसी अन्य शासक का कोई उल्लेख नहीं है।\n2. यह समुद्रगुप्त के सैन्य अभियानों का एक विस्तृत कालानुक्रमिक क्रम प्रदान करता है।\n3. इसकी रचना तब की गई थी जब समुद्रगुप्त अभी भी सक्रिय रूप से साम्राज्य पर शासन कर रहे थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि स्तंभ पर अशोक और जहाँगीर के अभिलेख हैं, और पाठ में गुप्त पूर्वजों का उल्लेख है। कथन 2 सही है क्योंकि यह अभियानों को व्यवस्थित रूप से सूचीबद्ध करता है। कथन 3 सही है क्योंकि इसकी रचना समुद्रगुप्त के शासनकाल के दौरान उनके दरबारी कवि हरिषेण द्वारा की गई थी।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the policy of 'Grahana-Moksha-Anugraha' adopted by Samudragupta during his southern campaign. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Samudragupta adopted the diplomatic policy of 'Grahana-Moksha-Anugraha' towards the twelve rulers of Dakshinapatha (Southern India).\n- **Grahana**: Capturing or defeating the enemy kings.\n- **Moksha**: Liberating and releasing them from captivity.\n- **Anugraha**: Reinstating them as feudatories under Gupta suzerainty.\n\nThis pragmatic policy avoided direct annexation, ensuring regular tribute and allegiance without administrative strain over distant territories."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त द्वारा अपने दक्षिणी अभियान के दौरान अपनाई गई 'ग्रहण-मोक्ष-अनुग्रह' की नीति को स्पष्ट कीजिए। [5 Marks, 50 Words]\n\nउत्तर:",
+      "model_answer": "समुद्रगुप्त ने दक्षिणापथ (दक्षिण भारत) के बारह शासकों के प्रति 'ग्रहण-मोक्ष-अनुग्रह' की कूटनीतिक नीति अपनाई थी।\n- **ग्रहण**: शत्रु राजाओं को बंदी बनाना या पराजित करना।\n- **मोक्ष**: उन्हें मुक्त करना और कैद से रिहा करना।\n- **अनुग्रह**: गुप्त साम्राज्य के अधीन उन्हें उनके राज्यों में सामंत के रूप में बहाल करना।\n\nइस व्यावहारिक नीति ने प्रत्यक्ष विलय से बचते हुए सुदूर क्षेत्रों पर प्रशासनिक बोझ डाले बिना नियमित कर और निष्ठा सुनिश्चित की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the historical significance of the Prayag Prasasti (Allahabad Pillar Inscription) as a source for reconstructing the achievements and administration of Samudragupta. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Prayag Prasasti, composed by court poet Harishena in classical Sanskrit (Champu style) and engraved on an Asokan pillar, is the primary epigraphic source for Samudragupta's reign.\n\n### Historical Significance:\n1. **Genealogical Record**: Traces the early Gupta lineage, mentioning Sri Gupta, Ghatotkacha, Chandragupta I, and Kumaradevi, establishing his legitimacy as 'Lichchhavi-dauhitra'.\n2. **Detailed Conquests**: Systematically records his military policies and victories across different regions:\n\n| Region | Defeated Kings | Policy Adopted |\n| :--- | :--- | :--- |\n| **Aryavarta (North)** | 9 Kings (e.g., Rudradeva, Nagasena) | *Prasabhoddharana* (Violent Extermination/Annexation) |\n| **Dakshinapatha (South)** | 12 Kings (e.g., Vishnugopa) | *Grahana-Moksha-Anugraha* (Vassalage/Restoration) |\n| **Atavika (Forest)** | Central Indian Tribes | *Paricharakikrita* (Subjugation to Servitude) |\n| **Pratyanta (Border)** | Samatata, Nepala, Kamarupa | Tribute, Obeisance, and Court Attendance |\n| **Foreign Powers** | Shakas, Kushanas, Ceylon | Personal Service and Charters with Garuda Seal |\n\n3. **Administrative Hierarchy**: Highlights key bureaucratic offices such as *Sandhivigrahika*, *Kumaramatya*, and *Mahadandanayaka*.\n4. **Personal Character**: Depicts Samudragupta not just as a conqueror, but as 'Kaviraja' (king of poets) and a musician skilled in playing the Veena."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त की उपलब्धियों और प्रशासन के पुनर्निर्माण के स्रोत के रूप में प्रयाग प्रशस्ति (इलाहाबाद स्तंभ अभिलेख) के ऐतिहासिक महत्व का मूल्यांकन कीजिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "दरबारी कवि हरिषेण द्वारा शास्त्रीय संस्कृत (चम्पू शैली) में रचित और अशोक स्तंभ पर उत्कीर्ण प्रयाग प्रशस्ति, समुद्रगुप्त के शासनकाल का प्राथमिक अभिलेखीय स्रोत है।\n\n### ऐतिहासिक महत्व:\n1. **वंशावली विवरण**: यह श्रीगुप्त, घटोत्कच, चंद्रगुप्त प्रथम और कुमारदेवी का उल्लेख करते हुए प्रारंभिक गुप्त वंशावली को रेखांकित करता है, जिससे उनकी 'लिच्छवि-दौहित्र' के रूप में वैधता स्थापित होती है।\n2. **सैन्य विजयों का वर्गीकरण**: यह विभिन्न क्षेत्रों में उनकी सैन्य नीतियों और विजयों को व्यवस्थित रूप से दर्ज करता है:\n\n| क्षेत्र | पराजित राजा | अपनाई गई नीति |\n| :--- | :--- | :--- |\n| **आर्यावर्त (उत्तर)** | 9 राजा (जैसे रुद्रदेव, नागसेन) | *प्रसभोद्धरण* (बलपूर्वक उन्मूलन/प्रत्यक्ष विलय) |\n| **दक्षिणापथ (दक्षिण)** | 12 राजा (जैसे विष्णुगोप) | *ग्रहण-मोक्ष-अनुग्रह* (अधीनता स्वीकार कराना/बहाली) |\n| **आटविक (वन)** | मध्य भारतीय जनजातियाँ | *परिचारकीकृत* (सेवक बनाना/दास्ता) |\n| **प्रत्यन्त (सीमावर्ती)** | समतट, नेपाल, कामरूप | कर भुगतान, आज्ञापालन और दरबार में उपस्थिति |\n| **विदेशी शक्तियां** | शक, कुषाण, सिंहल | व्यक्तिगत सेवा और गरुड़ मुहर युक्त सनदों की याचना |\n\n3. **प्रशासनिक पदानुक्रम**: यह *सन्धिविग्रहिक*, *कुमारमात्य* और *महादंडनायक* जैसे प्रमुख नौकरशाही पदों पर प्रकाश डालता है।\n4. **व्यक्तिगत चरित्र**: यह समुद्रगुप्त को न केवल एक विजेता के रूप में, बल्कि 'कविराज' और वीणा बजाने में कुशल संगीतकार के रूप में भी चित्रित करता है।"
+    }
+  ]
+}

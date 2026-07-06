@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Vedic concepts is considered the cosmic and moral precursor to the Purushartha of Dharma?",
+      "option_a": "Rta",
+      "option_b": "Satya",
+      "option_c": "Tapas",
+      "option_d": "Yajna",
+      "correct": "A",
+      "explanation": "Correct option: A. The Rigvedic concept of Rta (cosmic, moral, and physical order of the universe) is the historical and conceptual precursor to Dharma, which represents righteousness, duty, and moral order in human life."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस वैदिक अवधारणा को धर्म के पुरुषार्थ का ब्रह्मांडीय और नैतिक अग्रदूत माना जाता है?",
+      "option_a": "ऋत (Rta)",
+      "option_b": "सत्य (Satya)",
+      "option_c": "तपस (Tapas)",
+      "option_d": "यज्ञ (Yajna)",
+      "correct": "A",
+      "explanation": "Correct option: A. ऋग्वैदिक अवधारणा ऋत (ब्रह्मांड की ब्रह्मांडीय, नैतिक और भौतिक व्यवस्था) धर्म का ऐतिहासिक और वैचारिक अग्रदूत है, जो मानव जीवन में धार्मिकता, कर्तव्य और नैतिक व्यवस्था का प्रतिनिधित्व करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Purushartha framework, which three values are collectively designated as the 'Trivarga'?",
+      "option_a": "Dharma, Artha, and Moksha",
+      "option_b": "Dharma, Artha, and Kama",
+      "option_c": "Artha, Kama, and Moksha",
+      "option_d": "Dharma, Kama, and Moksha",
+      "correct": "B",
+      "explanation": "Correct option: B. The first three Purusharthas—Dharma (morality), Artha (material prosperity), and Kama (sensory pleasure)—are collectively called 'Trivarga' (the triad of worldly life), whereas Moksha is the transcendent goal."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थ रूपरेखा में, किन तीन मूल्यों को सामूहिक रूप से 'त्रिवर्ग' के रूप में नामित किया गया है?",
+      "option_a": "धर्म, अर्थ और मोक्ष",
+      "option_b": "धर्म, अर्थ और काम",
+      "option_c": "अर्थ, काम और मोक्ष",
+      "option_d": "धर्म, काम और मोक्ष",
+      "correct": "B",
+      "explanation": "Correct option: B. पहले तीन पुरुषार्थों—धर्म (नैतिकता), अर्थ (भौतिक समृद्धि), और काम (इंद्रिय सुख) को सामूहिक रूप से 'त्रिवर्ग' (लौकिक जीवन का त्रय) कहा जाता है, जबकि मोक्ष सर्वोपरि आध्यात्मिक लक्ष्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to the classical Indian text 'Arthashastra' by Kautilya, what is the relationship between Dharma, Artha, and Kama?",
+      "option_a": "Dharma is the root of all human actions, and Artha is secondary.",
+      "option_b": "Artha is the fundamental basis because Dharma and Kama depend on it.",
+      "option_c": "Kama is the ultimate pursuit, and Dharma and Artha are mere instruments.",
+      "option_d": "All three are completely independent and have no mutual relation.",
+      "correct": "B",
+      "explanation": "Correct option: B. Kautilya's Arthashastra argues that Artha (material well-being) is the most fundamental of the trivarga because both Dharma (moral duty) and Kama (artistic/sensual desires) depend directly on material resources for their realization."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौटिल्य द्वारा रचित शास्त्रीय भारतीय ग्रंथ 'अर्थशास्त्र' के अनुसार धर्म, अर्थ और काम के बीच क्या संबंध है?",
+      "option_a": "धर्म सभी मानवीय कार्यों का मूल है, और अर्थ गौण है।",
+      "option_b": "अर्थ मूलभूत आधार है क्योंकि धर्म और काम इसी पर निर्भर करते हैं।",
+      "option_c": "काम अंतिम खोज है, और धर्म तथा अर्थ केवल साधन हैं।",
+      "option_d": "तीनों पूरी तरह से स्वतंत्र हैं और इनका कोई पारस्परिक संबंध नहीं है।",
+      "correct": "B",
+      "explanation": "Correct option: B. कौटिल्य के अर्थशास्त्र का तर्क है कि त्रिवर्ग में अर्थ (भौतिक कल्याण) सबसे मौलिक है क्योंकि धर्म (नैतिक कर्तव्य) और काम (कलात्मक/इंद्रिय सुख) दोनों अपनी प्राप्ति के लिए सीधे भौतिक संसाधनों पर निर्भर करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which school of Indian philosophy completely rejects Moksha and Dharma, recognizing only Artha and Kama as valid Purusharthas?",
+      "option_a": "Charvaka",
+      "option_b": "Nyaya",
+      "option_c": "Mimamsa",
+      "option_d": "Visistadvaita",
+      "correct": "A",
+      "explanation": "Correct option: A. The materialist Charvaka (Lokayata) school rejects the metaphysical concepts of dharma (as moral/cosmic law) and moksha (liberation), asserting that only Artha (wealth) and Kama (sensual pleasure) are true human goals."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारतीय दर्शन का कौन सा संप्रदाय मोक्ष और धर्म को पूरी तरह से खारिज करता है, और केवल अर्थ तथा काम को ही वैध पुरुषार्थ के रूप में मान्यता देता है?",
+      "option_a": "चार्वाक",
+      "option_b": "न्याय",
+      "option_c": "मीमांसा",
+      "option_d": "विशिष्टाद्वैत",
+      "correct": "A",
+      "explanation": "Correct option: A. भौतिकवादी चार्वाक (लोकायत) संप्रदाय धर्म (नैतिक/ब्रह्मांडीय नियम के रूप में) और मोक्ष (मुक्ति) की आध्यात्मिक अवधारणाओं को खारिज करता है, और यह दावा करता है कि केवल अर्थ (धन) और काम (इंद्रिय सुख) ही वास्तविक मानवीय लक्ष्य हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In classical Sanskrit literature, which term is used synonymously with Moksha to denote ultimate spiritual liberation from the cycle of rebirth?",
+      "option_a": "Abhyudaya",
+      "option_b": "Apavarga",
+      "option_c": "Sadachara",
+      "option_d": "Pravritti",
+      "correct": "B",
+      "explanation": "Correct option: B. Apavarga, meaning release or liberation from the cycle of transmigration, is used synonymously with Moksha, particularly in systems like Nyaya and Vaisheshika philosophy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. शास्त्रीय संस्कृत साहित्य में, पुनर्जन्म के चक्र से अंतिम आध्यात्मिक मुक्ति को दर्शाने के लिए मोक्ष के समानार्थी के रूप में किस शब्द का उपयोग किया जाता है?",
+      "option_a": "अभ्युदय",
+      "option_b": "अपवर्ग",
+      "option_c": "सदाचार",
+      "option_d": "प्रवृत्ति",
+      "correct": "B",
+      "explanation": "Correct option: B. अपवर्ग, जिसका अर्थ है संसार-चक्र से मुक्ति, मोक्ष के समानार्थी के रूप में उपयोग किया जाता है, विशेष रूप से न्याय और वैशेषिक दर्शन जैसी प्रणालियों में।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the four Purusharthas acts as the regulatory and moral framework (Adhara) within which Artha and Kama must be pursued?",
+      "option_a": "Kama",
+      "option_b": "Moksha",
+      "option_c": "Dharma",
+      "option_d": "Artha",
+      "correct": "C",
+      "explanation": "Correct option: C. Dharma serves as the ethical foundation and regulatory guide (Adhara). Indian philosophy dictates that the pursuit of wealth (Artha) and pleasure (Kama) must remain within the boundaries of Dharma to prevent societal and moral decay."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चारों पुरुषार्थों में से कौन सा नियामक और नैतिक ढांचे (आधार) के रूप में कार्य करता है जिसके भीतर अर्थ और काम का अनुसरण किया जाना चाहिए?",
+      "option_a": "काम",
+      "option_b": "मोक्ष",
+      "option_c": "धर्म",
+      "option_d": "अर्थ",
+      "correct": "C",
+      "explanation": "Correct option: C. धर्म नैतिक आधार और नियामक मार्गदर्शक (आधार) के रूप में कार्य करता है। भारतीय दर्शन निर्देश देता है कि सामाजिक और नैतिक पतन को रोकने के लिए धन (अर्थ) और सुख (काम) की खोज धर्म की सीमाओं के भीतर होनी चाहिए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to the Manusmriti, what are the four sources of Dharma?",
+      "option_a": "Veda, Smriti, Sadachara, and Atmatusti",
+      "option_b": "Sruti, Purana, Upanishad, and Itihasa",
+      "option_c": "Artha, Kama, Dharma, and Moksha",
+      "option_d": "Varna, Ashrama, Sanskara, and Rna",
+      "correct": "A",
+      "explanation": "Correct option: A. Manusmriti (2.6) declares the four sources of Dharma to be: Vedas (Sruti), traditional texts (Smriti), the conduct of virtuous people (Sadachara/Sila), and inner self-satisfaction (Atmatusti)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मनुस्मृति के अनुसार धर्म के चार स्रोत कौन से हैं?",
+      "option_a": "वेद, स्मृति, सदाचार और आत्मतुष्टि",
+      "option_b": "श्रुति, पुराण, उपनिषद और इतिहास",
+      "option_c": "अर्थ, काम, धर्म और मोक्ष",
+      "option_d": "वर्ण, आश्रम, संस्कार और ऋण",
+      "correct": "A",
+      "explanation": "Correct option: A. मनुस्मृति (2.6) में धर्म के चार स्रोतों को घोषित किया गया है: वेद (श्रुति), पारंपरिक ग्रंथ (स्मृति), सदाचारी लोगों का आचरण (सदाचार) और अंतरात्मा की संतुष्टि (आत्मतुष्टि)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The pursuit of Moksha is primarily characterized by which philosophical path or orientation in life?",
+      "option_a": "Pravritti Marga",
+      "option_b": "Nivritti Marga",
+      "option_c": "Karma Marga only",
+      "option_d": "Bhakti Marga only",
+      "correct": "B",
+      "explanation": "Correct option: B. While the trivarga (Dharma, Artha, Kama) is associated with Pravritti Marga (active engagement in worldly life), Moksha is associated with Nivritti Marga (renunciation and withdrawal from worldly desires)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मोक्ष की खोज मुख्य रूप से जीवन में किस दार्शनिक मार्ग या अभिविन्यास की विशेषता है?",
+      "option_a": "प्रवृत्ति मार्ग",
+      "option_b": "निवृत्ति मार्ग",
+      "option_c": "केवल कर्म मार्ग",
+      "option_d": "केवल भक्ति मार्ग",
+      "correct": "B",
+      "explanation": "Correct option: B. जबकि त्रिवर्ग (धर्म, अर्थ, काम) प्रवृत्ति मार्ग (लौकिक जीवन में सक्रिय भागीदारी) से जुड़ा है, मोक्ष निवृत्ति मार्ग (सांसारिक इच्छाओं का त्याग और निवर्तन) से जुड़ा हुआ है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which category of Dharma refers to the universal, moral duties applicable to all human beings, irrespective of class, gender, or social status?",
+      "option_a": "Varnashrama Dharma",
+      "option_b": "Sadharana Dharma",
+      "option_c": "Svadharma",
+      "option_d": "Apatdharma",
+      "correct": "B",
+      "explanation": "Correct option: B. Sadharana Dharma refers to universal ethical principles (such as truthfulness, non-violence, purity, and compassion) that are applicable to every human being, unlike relative duties like Svadharma or Varnashrama Dharma."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. धर्म की कौन सी श्रेणी उन सार्वभौमिक, नैतिक कर्तव्यों को संदर्भित करती है जो वर्ग, लिंग या सामाजिक स्थिति के बिना सभी मनुष्यों पर लागू होते हैं?",
+      "option_a": "वर्णाश्रम धर्म",
+      "option_b": "साधारण धर्म",
+      "option_c": "स्वधर्म",
+      "option_d": "आपद्धर्म",
+      "correct": "B",
+      "explanation": "Correct option: B. साधारण धर्म उन सार्वभौमिक नैतिक सिद्धांतों (जैसे सत्य, अहिंसा, पवित्रता और करुणा) को संदर्भित करता है जो प्रत्येक मनुष्य पर लागू होते हैं, न कि स्वधर्म या वर्णाश्रम धर्म जैसे सापेक्ष कर्तव्यों की तरह।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Vedic scheme of life, which Ashrama (stage of life) is primarily dedicated to the balanced pursuit of Artha and Kama, regulated by Dharma?",
+      "option_a": "Brahmacharya",
+      "option_b": "Grihastha",
+      "option_c": "Vanaprastha",
+      "option_d": "Sannyasa",
+      "correct": "B",
+      "explanation": "Correct option: B. The Grihastha (householder) stage is the primary arena for pursuing Artha (wealth generation, social duties) and Kama (aesthetic, sexual, and emotional desires) under the guidance of Dharma."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जीवन की वैदिक योजना में, कौन सा आश्रम (जीवन का चरण) मुख्य रूप से धर्म द्वारा नियंत्रित अर्थ और काम की संतुलित खोज के लिए समर्पित है?",
+      "option_a": "ब्रह्मचर्य",
+      "option_b": "गृहस्थ",
+      "option_c": "वानप्रस्थ",
+      "option_d": "संन्यास",
+      "correct": "B",
+      "explanation": "Correct option: B. गृहस्थ आश्रम धर्म के मार्गदर्शन में अर्थ (धन अर्जन, सामाजिक कर्तव्य) और काम (सौंदर्यशास्त्र, यौन और भावनात्मक इच्छाओं) की खोज का मुख्य क्षेत्र है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which classical thinker emphasizes in his Kamasutra that Kama represents the harmonious integration of the senses, mind, and soul, and is not merely physical lust?",
+      "option_a": "Vatsyayana",
+      "option_b": "Bharata Muni",
+      "option_c": "Patanjali",
+      "option_d": "Bhadrabahu",
+      "correct": "A",
+      "explanation": "Correct option: A. Vatsyayana, in the Kamasutra, defines Kama as the enjoyment of appropriate objects by the five senses of hearing, feeling, seeing, tasting, and smelling, assisted by the mind together with the soul."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन से शास्त्रीय विचारक अपने कामसूत्र में इस बात पर जोर देते हैं कि काम इंद्रियों, मन और आत्मा के सामंजस्यपूर्ण एकीकरण का प्रतिनिधित्व करता है, न कि केवल शारीरिक वासना का?",
+      "option_a": "वात्स्यायन",
+      "option_b": "भरत मुनि",
+      "option_c": "पतंजलि",
+      "option_d": "भद्रबाहु",
+      "correct": "A",
+      "explanation": "Correct option: A. वात्स्यायन, कामसूत्र में, काम को मन और आत्मा की सहायता से श्रवण, स्पर्श, दृष्टि, स्वाद और गंध की पांच इंद्रियों द्वारा उपयुक्त विषयों के आनंद के रूप में परिभाषित करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under which circumstance is 'Apatdharma' (emergency dharma) permitted in Hindu scriptures?",
+      "option_a": "During normal daily activities",
+      "option_b": "During times of extreme distress or life-threatening crises",
+      "option_c": "When pursuing Moksha through meditation",
+      "option_d": "Only during religious sacrifices (Yajnas)",
+      "correct": "B",
+      "explanation": "Correct option: B. Apatdharma represents a modification of normal duty (Dharma) permitted during times of extreme crisis, distress, or danger to survival, allowing individuals to deviate from standard rules to preserve life."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हिंदू शास्त्रों में किस परिस्थिति में 'आपद्धर्म' (आपातकालीन धर्म) की अनुमति है?",
+      "option_a": "सामान्य दैनिक गतिविधियों के दौरान",
+      "option_b": "अत्यधिक संकट या जीवन के लिए खतरा पैदा करने वाले संकट के समय",
+      "option_c": "ध्यान के माध्यम से मोक्ष की खोज करते समय",
+      "option_d": "केवल धार्मिक यज्ञों के दौरान",
+      "correct": "B",
+      "explanation": "Correct option: B. आपद्धर्म अत्यधिक संकट, संकट या जीवित रहने के खतरे के समय सामान्य कर्तव्य (धर्म) में संशोधन का प्रतिनिधित्व करता है, जिससे व्यक्तियों को जीवन की रक्षा के लिए मानक नियमों से विचलित होने की अनुमति मिलती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Bhagavad Gita, the concept of performing one's own natural duties (Svadharma), even if imperfectly, is preferred over another's duty due to which primary reason?",
+      "option_a": "It leads to the acquisition of worldly wealth (Artha).",
+      "option_b": "Performing another's duty is fraught with spiritual danger.",
+      "option_c": "Svadharma guarantees sensory gratification (Kama).",
+      "option_d": "Svadharma allows a person to avoid all forms of action.",
+      "correct": "B",
+      "explanation": "Correct option: B. The Bhagavad Gita (3.35) states: 'Better is one's own duty (Svadharma) though devoid of merit, than another's duty well performed. Death in one's own duty is better; another's duty is fraught with fear/danger.'"
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भगवद गीता में, अपने स्वयं के प्राकृतिक कर्तव्यों (स्वधर्म) को अपूर्ण रूप से करने की अवधारणा को किस प्राथमिक कारण से दूसरे के कर्तव्य से बेहतर माना गया है?",
+      "option_a": "यह सांसारिक धन (अर्थ) की प्राप्ति की ओर ले जाता है।",
+      "option_b": "दूसरे के कर्तव्य का पालन करना आध्यात्मिक खतरे से भरा है।",
+      "option_c": "स्वधर्म इंद्रिय तृप्ति (काम) की गारंटी देता है।",
+      "option_d": "स्वधर्म व्यक्ति को सभी प्रकार के कार्यों से बचने की अनुमति देता है।",
+      "correct": "B",
+      "explanation": "Correct option: B. भगवद गीता (3.35) में कहा गया है: 'गुणरहित होने पर भी अपना कर्तव्य (स्वधर्म), अच्छी तरह से किए गए दूसरे के कर्तव्य से बेहतर है। अपने कर्तव्य में मृत्यु भी कल्याणकारक है; दूसरे का कर्तव्य भय/खतरे से भरा है।'"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following best describes the Purushartha of 'Artha' in its broadest sociological sense?",
+      "option_a": "Greed for gold and accumulation of personal treasure",
+      "option_b": "The means of livelihood, political economy, power, and material well-being",
+      "option_c": "Complete renunciation of all worldly possessions",
+      "option_d": "Ritualistic worship performed to gain heavenly pleasures",
+      "correct": "B",
+      "explanation": "Correct option: B. In its broadest sense, Artha refers to the material means of life, which includes livelihood, wealth, political power, administrative machinery, and overall economic security necessary for a stable society."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा अपने व्यापक समाजशास्त्रीय अर्थ में 'अर्थ' के पुरुषार्थ का सबसे अच्छा वर्णन करता है?",
+      "option_a": "सोने का लालच और व्यक्तिगत खजाने का संचय",
+      "option_b": "आजीविका के साधन, राजनीतिक अर्थव्यवस्था, शक्ति और भौतिक कल्याण",
+      "option_c": "सभी सांसारिक सुखों और संपत्तियों का पूर्ण त्याग",
+      "option_d": "स्वर्ग के सुख प्राप्त करने के लिए की जाने वाली अनुष्ठानिक पूजा",
+      "correct": "B",
+      "explanation": "Correct option: B. अपने व्यापक अर्थ में, अर्थ जीवन के भौतिक साधनों को संदर्भित करता है, जिसमें आजीविका, धन, राजनीतिक शक्ति, प्रशासनिक मशीनरी और एक स्थिर समाज के लिए आवश्यक समग्र आर्थिक सुरक्षा शामिल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which philosophical system of India argues that Moksha is the cessation of all painful experiences and is achieved through correct knowledge of the self and nature?",
+      "option_a": "Samkhya-Yoga",
+      "option_b": "Advaita Vedanta",
+      "option_c": "Lokayata",
+      "option_d": "Purva Mimamsa",
+      "correct": "A",
+      "explanation": "Correct option: A. Samkhya-Yoga posits that liberation (Kaivalya or Moksha) is the absolute cessation of the threefold suffering (tapatraya), achieved when the self (Purusha) realizes its absolute distinction from nature (Prakriti)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत की कौन सी दार्शनिक प्रणाली यह तर्क देती है कि मोक्ष सभी कष्टदायक अनुभवों की समाप्ति है और स्वयं तथा प्रकृति के सही ज्ञान के माध्यम से प्राप्त किया जाता है?",
+      "option_a": "सांख्य-योग",
+      "option_b": "अद्वैत वेदांत",
+      "option_c": "लोकायत",
+      "option_d": "पूर्व मीमांसा",
+      "correct": "A",
+      "explanation": "Correct option: A. सांख्य-योग का मानना है कि मुक्ति (कैवल्य या मोक्ष) त्रिविध दुखों (तापत्रय) की पूर्ण समाप्ति है, जो तब प्राप्त होती है जब पुरुष (आत्मा) प्रकृति से अपने पूर्ण भेद को महसूस करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The term 'Purushartha' literally translates to which of the following expressions?",
+      "option_a": "The law of cosmic order",
+      "option_b": "The objectives or aims of a human being",
+      "option_c": "The stages of human development",
+      "option_d": "The debts owed to ancestors",
+      "correct": "B",
+      "explanation": "Correct option: B. The word Purushartha is a compound of 'Purusha' (human being) and 'Artha' (object, goal, or purpose), translating to the goals or objectives of human life."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'पुरुषार्थ' शब्द का शाब्दिक अनुवाद निम्नलिखित में से किस अभिव्यक्ति में होता है?",
+      "option_a": "ब्रह्मांडीय व्यवस्था का नियम",
+      "option_b": "मनुष्य के उद्देश्य या लक्ष्य",
+      "option_c": "मानव विकास के चरण",
+      "option_d": "पितरों का ऋण",
+      "correct": "B",
+      "explanation": "Correct option: B. पुरुषार्थ शब्द 'पुरुष' (मनुष्य) और 'अर्थ' (विषय, लक्ष्य या उद्देश्य) का एक यौगिक है, जिसका अनुवाद मानव जीवन के लक्ष्य या उद्देश्य के रूप में होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the context of Dharma, what does the concept of 'Yugadharma' signify?",
+      "option_a": "Duties that are eternal and never change",
+      "option_b": "Duties that change according to the specific epoch or age of time",
+      "option_c": "Duties performed strictly for personal liberation",
+      "option_d": "Duties prescribed for children and infants only",
+      "correct": "B",
+      "explanation": "Correct option: B. Yugadharma refers to the moral code, duties, and social norms that change and adapt according to the specific epoch or era (Satya, Treta, Dvapara, and Kali Yuga)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. धर्म के संदर्भ में, 'युगधर्म' की अवधारणा क्या दर्शाता है?",
+      "option_a": "कर्तव्य जो शाश्वत हैं और कभी नहीं बदलते",
+      "option_b": "कर्तव्य जो समय के विशिष्ट युग या काल के अनुसार बदलते हैं",
+      "option_c": "कर्तव्य जो कड़ाई से व्यक्तिगत मुक्ति के लिए किए जाते हैं",
+      "option_d": "केवल बच्चों और शिशुओं के लिए निर्धारित कर्तव्य",
+      "correct": "B",
+      "explanation": "Correct option: B. युगधर्म नैतिक संहिता, कर्तव्यों और सामाजिक मानदंडों को संदर्भित करता है जो विशिष्ट युग या काल (सत्य, त्रेता, द्वापर और कलि युग) के अनुसार बदलते और अनुकूल होते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Indian school of philosophy identifies Moksha as the complete realization of the identity between the individual self (Jivatman) and the ultimate reality (Brahman)?",
+      "option_a": "Advaita Vedanta",
+      "option_b": "Visistadvaita",
+      "option_c": "Dvaita Vedanta",
+      "option_d": "Sankhya",
+      "correct": "A",
+      "explanation": "Correct option: A. Advaita Vedanta, propounded by Adi Shankara, defines Moksha as the realization of Jivanmukti—the absolute identity of the individual soul (Atman) and Brahman, which was previously obscured by ignorance (Avidya)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत का कौन सा दार्शनिक संप्रदाय मोक्ष को व्यक्तिगत आत्मा (जीवात्मा) और अंतिम वास्तविकता (ब्रह्म) के बीच पहचान की पूर्ण प्राप्ति के रूप में पहचानता है?",
+      "option_a": "अद्वैत वेदांत",
+      "option_b": "विशिष्टाद्वैत",
+      "option_c": "द्वैत वेदांत",
+      "option_d": "सांख्य",
+      "correct": "A",
+      "explanation": "Correct option: A. आदि शंकराचार्य द्वारा प्रतिपादित अद्वैत वेदांत मोक्ष को जीवनमुक्ति के रूप में परिभाषित करता है—व्यक्तिगत आत्मा (आत्मन) और ब्रह्म की पूर्ण एकता, जो पहले अज्ञानता (अविद्या) के कारण अस्पष्ट थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the concept of 'Purushartha Chatushtaya', when was the fourth Purushartha (Moksha) formally integrated with the initial triad (Trivarga)?",
+      "option_a": "Early Vedic Period",
+      "option_b": "Later Vedic / Upanishadic Period",
+      "option_c": "Medieval Bhakti Movement",
+      "option_d": "Modern Era",
+      "correct": "B",
+      "explanation": "Correct option: B. The initial system focused on the 'Trivarga' (Dharma, Artha, Kama). Moksha was formally introduced and integrated as the fourth and ultimate goal during the Upanishadic period when the focus shifted to liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'पुरुषार्थ चतुष्टय' की अवधारणा में, चौथे पुरुषार्थ (मोक्ष) को औपचारिक रूप से प्रारंभिक त्रय (त्रिवर्ग) के साथ कब एकीकृत किया गया था?",
+      "option_a": "ऋग्वैदिक काल",
+      "option_b": "उत्तर वैदिक / उपनिषद काल",
+      "option_c": "मध्यकालीन भक्ति आंदोलन",
+      "option_d": "आधुनिक काल",
+      "correct": "B",
+      "explanation": "Correct option: B. प्रारंभिक प्रणाली 'त्रिवर्ग' (धर्म, अर्थ, काम) पर केंद्रित थी। उपनिषद काल के दौरान मोक्ष को चौथे और अंतिम लक्ष्य के रूप में औपचारिक रूप से पेश और एकीकृत किया गया था जब ध्यान मुक्ति की ओर केंद्रित हुआ।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What does 'Pravritti' represent in the context of the Purusharthas?",
+      "option_a": "Renouncing all duties and living in a forest",
+      "option_b": "Active participation in worldly life and fulfilling social duties",
+      "option_c": "The silent contemplation of ultimate reality",
+      "option_d": "The state of deep, dreamless sleep",
+      "correct": "B",
+      "explanation": "Correct option: B. Pravritti represents active involvement in worldly life, social obligations, and the pursuit of Dharma, Artha, and Kama. It stands in contrast to Nivritti, which is withdrawal and renunciation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थों के संदर्भ में 'प्रवृत्ति' किसकी प्रतिनिधित्व करती है?",
+      "option_a": "सभी कर्तव्यों का त्याग करना और जंगल में रहना",
+      "option_b": "सांसारिक जीवन में सक्रिय भागीदारी और सामाजिक कर्तव्यों को पूरा करना",
+      "option_c": "अंतिम वास्तविकता का मौन चिंतन",
+      "option_d": "गहरी, स्वप्नहीन नींद की स्थिति",
+      "correct": "B",
+      "explanation": "Correct option: B. प्रवृत्ति सांसारिक जीवन, सामाजिक दायित्वों और धर्म, अर्थ तथा काम की खोज में सक्रिय भागीदारी का प्रतिनिधित्व करती है। यह निवृत्ति के विपरीत है, जो त्याग और विरक्ति है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to the Purushartha tradition, why is the Grihastha Ashrama considered the pillar of all other Ashramas?",
+      "option_a": "Because it is the only stage where one can attain Moksha directly.",
+      "option_b": "Because the householder generates wealth (Artha) that supports the other three stages.",
+      "option_c": "Because it requires no moral boundaries or adherence to Dharma.",
+      "option_d": "Because it is completely free from any social or ancestral debts.",
+      "correct": "B",
+      "explanation": "Correct option: B. Grihastha is considered the supporter of all other stages because the householder, through economic activities (Artha), provides sustenance, food, and protection to Brahmacharis, Vanaprasthis, and Sannyasis."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थ परंपरा के अनुसार, गृहस्थ आश्रम को अन्य सभी आश्रमों का स्तंभ क्यों माना जाता है?",
+      "option_a": "क्योंकि यह एकमात्र ऐसा चरण है जहाँ कोई सीधे मोक्ष प्राप्त कर सकता है।",
+      "option_b": "क्योंकि गृहस्थ धन (अर्थ) उत्पन्न करता है जो अन्य तीनों आश्रमों के लोगों का भरण-पोषण करता है।",
+      "option_c": "क्योंकि इसमें किसी नैतिक सीमा या धर्म के पालन की आवश्यकता नहीं होती है।",
+      "option_d": "क्योंकि यह किसी भी सामाजिक या पैतृक ऋण से पूरी तरह मुक्त है।",
+      "correct": "B",
+      "explanation": "Correct option: B. गृहस्थ को अन्य सभी चरणों का पोषक माना जाता है क्योंकि गृहस्थ, आर्थिक गतिविधियों (अर्थ) के माध्यम से, ब्रह्मचारियों, वानप्रस्थियों और संन्यासियों को भरण-पोषण, भोजन और सुरक्षा प्रदान करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the fundamental difference between 'Svadharma' and 'Sadharana Dharma'?",
+      "option_a": "Svadharma is universal, whereas Sadharana Dharma is specific to an individual's cast and stage of life.",
+      "option_b": "Svadharma is individual-centric based on one's nature/station, while Sadharana Dharma consists of universal moral values.",
+      "option_c": "Svadharma is pursued only in Sannyasa, while Sadharana Dharma is for Grihastha.",
+      "option_d": "There is no difference; both terms are completely synonymous.",
+      "correct": "B",
+      "explanation": "Correct option: B. Svadharma refers to the unique duty of an individual based on their temperament (Guna) and position in life (Karma), while Sadharana Dharma refers to general moral duties (truth, compassion, non-injury) binding on everyone."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'स्वधर्म' और 'साधारण धर्म' के बीच मौलिक अंतर क्या है?",
+      "option_a": "स्वधर्म सार्वभौमिक है, जबकि साधारण धर्म किसी व्यक्ति की जाति और जीवन के चरण के लिए विशिष्ट है।",
+      "option_b": "स्वधर्म व्यक्ति की प्रकृति/स्थिति के आधार पर व्यक्ति-केंद्रित है, जबकि साधारण धर्म में सार्वभौमिक नैतिक मूल्य शामिल हैं।",
+      "option_c": "स्वधर्म का पालन केवल संन्यास में किया जाता है, जबकि साधारण धर्म गृहस्थ के लिए है।",
+      "option_d": "कोई अंतर नहीं है; दोनों शब्द पूरी तरह से समानार्थी हैं।",
+      "correct": "B",
+      "explanation": "Correct option: B. स्वधर्म व्यक्ति के स्वभाव (गुण) और जीवन में स्थान (कर्म) के आधार पर उसके विशिष्ट कर्तव्य को संदर्भित करता है, जबकि साधारण धर्म सामान्य नैतिक कर्तव्यों (सत्य, करुणा, अहिंसा) को संदर्भित करता है जो सभी पर लागू होते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which text contains the famous dialogues on the choice between 'Sreyas' (the spiritually good/beneficial) and 'Preyas' (the pleasant/sensory pleasure) which relate directly to Moksha and Kama?",
+      "option_a": "Katha Upanishad",
+      "option_b": "Manusmriti",
+      "option_c": "Arthashastra",
+      "option_d": "Rigveda",
+      "correct": "A",
+      "explanation": "Correct option: A. The Katha Upanishad contains the discourse where Yama explains to Nachiketa the distinction between Sreyas (the path of spiritual good leading to Moksha) and Preyas (the path of worldly pleasure leading to Kama)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस ग्रंथ में 'श्रेयस' (आध्यात्मिक रूप से अच्छा/लाभकारी) और 'प्रेयस' (सुखद/इंद्रिय सुख) के बीच चयन पर प्रसिद्ध संवाद हैं जो सीधे मोक्ष और काम से संबंधित हैं?",
+      "option_a": "कठोपनिषद",
+      "option_b": "मनुस्मृति",
+      "option_c": "अर्थशास्त्र",
+      "option_d": "ऋग्वेद",
+      "correct": "A",
+      "explanation": "Correct option: A. कठोपनिषद में यम द्वारा नचिकेता को श्रेयस (मोक्ष की ओर ले जाने वाला आध्यात्मिक कल्याण का मार्ग) और प्रेयस (काम की ओर ले जाने वाला सांसारिक सुख का मार्ग) के बीच का अंतर समझाया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following concepts in the Purushartha framework best represents 'Abhyudaya'?",
+      "option_a": "Spiritual liberation in this life",
+      "option_b": "Material and social prosperity achieved through moral means",
+      "option_c": "Complete rejection of the Vedas",
+      "option_d": "The process of dying and transmigrating to another body",
+      "correct": "B",
+      "explanation": "Correct option: B. Abhyudaya represents material prosperity, social success, and physical well-being achieved through righteousness, corresponding to the proper pursuit of Artha and Kama under Dharma."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थ रूपरेखा में निम्नलिखित में से कौन सी अवधारणा 'अभ्युदय' का सबसे अच्छा प्रतिनिधित्व करती है?",
+      "option_a": "इस जीवन में आध्यात्मिक मुक्ति",
+      "option_b": "नैतिक साधनों के माध्यम से प्राप्त भौतिक और सामाजिक समृद्धि",
+      "option_c": "वेदों का पूर्ण खंडन",
+      "option_d": "मृत्यु और दूसरे शरीर में जाने की प्रक्रिया",
+      "correct": "B",
+      "explanation": "Correct option: B. अभ्युदय धार्मिकता के माध्यम से प्राप्त भौतिक समृद्धि, सामाजिक सफलता और शारीरिक कल्याण का प्रतिनिधित्व करता है, जो धर्म के तहत अर्थ और काम की उचित खोज से मेल खाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Purushartha scheme, 'Nishreyasa' stands for which of the following concepts?",
+      "option_a": "Physical health and longevity",
+      "option_b": "Ultimate spiritual beatitude or liberation (Moksha)",
+      "option_c": "The collection of political laws in a state",
+      "option_d": "Accumulation of immense wealth",
+      "correct": "B",
+      "explanation": "Correct option: B. Nishreyasa is the term used for the highest spiritual good, final beatitude, or liberation (Moksha), as contrasted with Abhyudaya (temporal prosperity)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थ योजना में, 'निःश्रेयस' निम्नलिखित में से किस अवधारणा के लिए है?",
+      "option_a": "शारीरिक स्वास्थ्य और दीर्घायु",
+      "option_b": "अंतिम आध्यात्मिक परम आनंद या मुक्ति (मोक्ष)",
+      "option_c": "किसी राज्य में राजनीतिक कानूनों का संग्रह",
+      "option_d": "अथाह संपत्ति का संचय",
+      "correct": "B",
+      "explanation": "Correct option: B. निःश्रेयस का उपयोग सर्वोच्च आध्यात्मिक कल्याण, अंतिम मुक्ति या मोक्ष के लिए किया जाता है, जो अभ्युदय (लौकिक समृद्धि) के विपरीत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Dharma is considered the foundational base (Adhara) of the Purushartha system.\nReason (R): Dharma regulates the pursuit of both Artha (wealth) and Kama (desire) to maintain moral order and social stability.",
+      "option_a": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "option_b": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "option_c": "(A) is true but (R) is false",
+      "option_d": "(A) is false but (R) is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because Dharma acts as the ethical basis of human life and supports the entire Purushartha framework.\nReason Analysis: Reason (R) is true because it explains that Dharma's role in regulating the acquisition of wealth (Artha) and satisfaction of desires (Kama) is the reason why it serves as the foundational base (Adhara)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): धर्म को पुरुषार्थ प्रणाली का मूलभूत आधार माना जाता है।\nकारण (R): नैतिक व्यवस्था और सामाजिक स्थिरता बनाए रखने के लिए धर्म अर्थ (धन) और काम (इच्छा) दोनों की खोज को नियंत्रित करता है।",
+      "option_a": "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
+      "option_b": "(A) और (R) दोनों सही हैं लेकिन (R), (A) की सही व्याख्या नहीं है",
+      "option_c": "(A) सही है लेकिन (R) गलत है",
+      "option_d": "(A) गलत है लेकिन (R) सही है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: अभिकथन (A) सही है क्योंकि धर्म मानव जीवन के नैतिक आधार के रूप में कार्य करता है और संपूर्ण पुरुषार्थ ढांचे का समर्थन करता है।\nReason Analysis: कारण (R) सही है क्योंकि यह स्पष्ट करता है कि धन (अर्थ) के अर्जन और इच्छाओं (काम) की संतुष्टि को नियंत्रित करने में धर्म की भूमिका ही इसके मूलभूत आधार होने का कारण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Charvaka school of philosophy rejects the Purusharthas of Dharma and Moksha.\nReason (R): The Charvakas accept only perception (Pratyaksha) as a valid source of knowledge and deny the existence of a soul or afterlife.",
+      "option_a": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "option_b": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "option_c": "(A) is true but (R) is false",
+      "option_d": "(A) is false but (R) is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because the materialist Charvakas accept only Artha and Kama as valid human goals.\nReason Analysis: Reason (R) is true and explains (A) because their epistemological stand of accepting only perception (Pratyaksha) leads them to deny metaphysical entities like the soul, afterlife, and karma, thereby rejecting Dharma and Moksha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): चार्वाक दर्शन संप्रदाय धर्म और मोक्ष के पुरुषार्थों को खारिज करता है।\nकारण (R): चार्वाक केवल प्रत्यक्ष (Pratyaksha) को ज्ञान का वैध स्रोत स्वीकार करते हैं और आत्मा या परलोक के अस्तित्व को नकारते हैं।",
+      "option_a": "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
+      "option_b": "(A) और (R) दोनों सही हैं लेकिन (R), (A) की सही व्याख्या नहीं है",
+      "option_c": "(A) सही है लेकिन (R) गलत है",
+      "option_d": "(A) गलत है लेकिन (R) सही है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: अभिकथन (A) सही है क्योंकि भौतिकवादी चार्वाक केवल अर्थ और काम को वैध मानवीय लक्ष्यों के रूप में स्वीकार करते हैं।\nReason Analysis: कारण (R) सही है और (A) की व्याख्या करता है क्योंकि केवल प्रत्यक्ष को स्वीकार करने का उनका ज्ञानमीमांसीय दृष्टिकोण उन्हें आत्मा, परलोक और कर्म जैसी आध्यात्मिक संस्थाओं को नकारने के लिए प्रेरित करता है, जिससे वे धर्म और मोक्ष को अस्वीकार करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Svadharma varies from person to person, depending on their Varna and Ashrama.\nReason (R): Sadharana Dharma requires every individual to practice truthfulness, non-violence, and self-control.",
+      "option_a": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "option_b": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "option_c": "(A) is true but (R) is false",
+      "option_d": "(A) is false but (R) is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: Assertion (A) is true as Svadharma is individual-specific duty based on social class and life stage.\nReason Analysis: Reason (R) is true because Sadharana Dharma consists of universal virtues. However, (R) is not the explanation of (A) because (R) describes a different aspect of Dharma (universal duties) rather than explaining why Svadharma is relative."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): स्वधर्म व्यक्ति के वर्ण और आश्रम के आधार पर अलग-अलग होता है।\nकारण (R): साधारण धर्म के लिए प्रत्येक व्यक्ति को सत्य, अहिंसा और आत्म-नियंत्रण का अभ्यास करना आवश्यक है।",
+      "option_a": "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
+      "option_b": "(A) और (R) दोनों सही हैं लेकिन (R), (A) की सही व्याख्या नहीं है",
+      "option_c": "(A) सही है लेकिन (R) गलत है",
+      "option_d": "(A) गलत है लेकिन (R) सही है",
+      "correct": "B",
+      "explanation": "Assertion Analysis: अभिकथन (A) सही है क्योंकि स्वधर्म सामाजिक वर्ग और जीवन के चरण के आधार पर विशिष्ट कर्तव्य है।\nReason Analysis: कारण (R) सही है क्योंकि साधारण धर्म में सार्वभौमिक गुण शामिल हैं। हालाँकि, (R), (A) की व्याख्या नहीं है क्योंकि (R) यह बताने के बजाय कि स्वधर्म सापेक्ष क्यों है, धर्म के एक अलग पहलू (सार्वभौमिक कर्तव्यों) का वर्णन करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Grihastha (householder) stage is considered the support of all other three Ashramas.\nReason (R): Only a householder can pursue the goals of Artha and Kama directly under the rules of Dharma, while producing resources that sustain the society.",
+      "option_a": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "option_b": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "option_c": "(A) is true but (R) is false",
+      "option_d": "(A) is false but (R) is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because ancient texts state that just as all living beings depend on air, all Ashramas depend on Grihastha.\nReason Analysis: Reason (R) is true and explains (A) because the householder's unique ability to generate wealth (Artha) and fulfill desires (Kama) according to Dharma allows them to produce the resources that sustain the other three non-producing stages (Brahmacharya, Vanaprastha, Sannyasa)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): गृहस्थ आश्रम को अन्य तीनों आश्रमों का आधार माना जाता है।\nकारण (R): केवल एक गृहस्थ ही धर्म के नियमों के तहत सीधे अर्थ और काम के लक्ष्यों का पीछा कर सकता है, साथ ही उन संसाधनों का उत्पादन भी कर सकता है जो समाज को बनाए रखते हैं।",
+      "option_a": "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
+      "option_b": "(A) और (R) दोनों सही हैं लेकिन (R), (A) की सही व्याख्या नहीं है",
+      "option_c": "(A) सही है लेकिन (R) गलत है",
+      "option_d": "(A) गलत है लेकिन (R) सही है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: अभिकथन (A) सही है क्योंकि प्राचीन ग्रंथों में कहा गया है कि जैसे सभी जीवित प्राणी वायु पर निर्भर हैं, वैसे ही सभी आश्रम गृहस्थ पर निर्भर हैं।\nReason Analysis: कारण (R) सही है और (A) की व्याख्या करता है क्योंकि धर्म के अनुसार धन (अर्थ) उत्पन्न करने और इच्छाओं (काम) को पूरा करने की गृहस्थ की अनूठी क्षमता उन्हें उन संसाधनों का उत्पादन करने की अनुमति देती है जो अन्य तीन गैर-उत्पादक आश्रमों (ब्रह्मचर्य, वानप्रस्थ, संन्यास) का भरण-पोषण करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Upanishads shifted the primary spiritual focus of the Vedic civilization from ritualistic action to the pursuit of Moksha.\nReason (R): The Upanishads declare that ritual sacrifices (Yajna) yield only temporary worldly gains and cannot grant permanent liberation from rebirth.",
+      "option_a": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "option_b": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "option_c": "(A) is true but (R) is false",
+      "option_d": "(A) is false but (R) is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true as Upanishads introduced Jnanakanda (knowledge path) aiming for Moksha instead of ritualistic Karmakanda.\nReason Analysis: Reason (R) is true and explains (A) because the realization that ritualistic actions produce only transient results (like heaven or wealth) led to the quest for eternal knowledge (Jnana) that brings complete liberation (Moksha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): उपनिषदों ने वैदिक सभ्यता के प्राथमिक आध्यात्मिक ध्यान को कर्मकांडीय क्रियाओं से मोक्ष की खोज की ओर स्थानांतरित कर दिया।\nकारण (R): उपनिषद घोषणा करते हैं कि कर्मकांडीय यज्ञ (Yajna) केवल अस्थायी सांसारिक लाभ देते हैं और पुनर्जन्म से स्थायी मुक्ति प्रदान नहीं कर सकते।",
+      "option_a": "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
+      "option_b": "(A) और (R) दोनों सही हैं लेकिन (R), (A) की सही व्याख्या नहीं है",
+      "option_c": "(A) सही है लेकिन (R) गलत है",
+      "option_d": "(A) गलत है लेकिन (R) सही है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: अभिकथन (A) सही है क्योंकि उपनिषदों ने कर्मकांडीय कर्मकांड के बजाय मोक्ष के उद्देश्य से ज्ञानकांड (ज्ञान मार्ग) की शुरुआत की थी।\nReason Analysis: कारण (R) सही है और (A) की व्याख्या करता है क्योंकि यह अहसास कि कर्मकांडीय क्रियाएं केवल क्षणभंगुर परिणाम (जैसे स्वर्ग या धन) पैदा करती हैं, शाश्वत ज्ञान (ज्ञान) की खोज की ओर ले गया जो पूर्ण मुक्ति (मोक्ष) लाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): According to the Purushartha framework, one must completely avoid the pursuit of Artha and Kama during all stages of life.\nReason (R): Artha and Kama are considered inferior to Dharma and Moksha because they deal with material and sensory aspects of existence.",
+      "option_a": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "option_b": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "option_c": "(A) is true but (R) is false",
+      "option_d": "(A) is false but (R) is true",
+      "correct": "D",
+      "explanation": "Assertion Analysis: Assertion (A) is false because the Purushartha system does not advocate complete avoidance of Artha and Kama; rather, it prescribes their balanced pursuit, especially in the householder (Grihastha) stage.\nReason Analysis: Reason (R) is true because classical texts place Dharma and Moksha at a higher spiritual pedestal than the worldly pursuits of Artha and Kama."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): पुरुषार्थ रूपरेखा के अनुसार, व्यक्ति को जीवन के सभी चरणों में अर्थ और काम की खोज से पूरी तरह बचना चाहिए।\nकारण (R): अर्थ और काम को धर्म और मोक्ष की तुलना में निम्न माना जाता है क्योंकि वे अस्तित्व के भौतिक और संवेदी पहलुओं से निपटते हैं।",
+      "option_a": "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
+      "option_b": "(A) और (R) दोनों सही हैं लेकिन (R), (A) की सही व्याख्या नहीं है",
+      "option_c": "(A) सही है लेकिन (R) गलत है",
+      "option_d": "(A) गलत है लेकिन (R) सही है",
+      "correct": "D",
+      "explanation": "Assertion Analysis: अभिकथन (A) गलत है क्योंकि पुरुषार्थ प्रणाली अर्थ और काम से पूरी तरह से बचने की वकालत नहीं करती है; बल्कि, यह उनके संतुलित अनुसरण का निर्देश देती है, विशेष रूप से गृहस्थ आश्रम में।\nReason Analysis: कारण (R) सही है क्योंकि शास्त्रीय ग्रंथ धर्म और मोक्ष को अर्थ और काम की लौकिक खोज की तुलना में उच्च आध्यात्मिक स्तर पर रखते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): In the Advaita Vedanta school, Moksha is achieved through performing Vedic sacrifices (Karma).\nReason (R): Performing rituals leads to temporary enjoyment in heaven (Swarga), which is not the same as eternal liberation (Moksha).",
+      "option_a": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "option_b": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "option_c": "(A) is true but (R) is false",
+      "option_d": "(A) is false but (R) is true",
+      "correct": "D",
+      "explanation": "Assertion Analysis: Assertion (A) is false because Advaita Vedanta holds that Moksha is achieved through Knowledge (Jnana) of Brahman/Atman, not through Vedic sacrifices (Karma).\nReason Analysis: Reason (R) is true because ritual sacrifices result in transient pleasures in heaven (Swarga), which is distinct from the permanent state of Moksha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): अद्वैत वेदांत संप्रदाय में, मोक्ष वैदिक यज्ञों (कर्म) को करने से प्राप्त होता है।\nकारण (R): अनुष्ठान करने से स्वर्ग (Swarga) में अस्थायी आनंद प्राप्त होता है, जो शाश्वत मुक्ति (मोक्ष) के समान नहीं है।",
+      "option_a": "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
+      "option_b": "(A) और (R) दोनों सही हैं लेकिन (R), (A) की सही व्याख्या नहीं है",
+      "option_c": "(A) सही है लेकिन (R) गलत है",
+      "option_d": "(A) गलत है लेकिन (R) सही है",
+      "correct": "D",
+      "explanation": "Assertion Analysis: अभिकथन (A) गलत है क्योंकि अद्वैत वेदांत का मानना है कि मोक्ष ब्रह्म/आत्मन के ज्ञान (ज्ञान) के माध्यम से प्राप्त होता है, न कि वैदिक यज्ञों (कर्म) के माध्यम से।\nReason Analysis: कारण (R) सही है क्योंकि कर्मकांडीय यज्ञों के परिणामस्वरूप स्वर्ग में क्षणिक सुख प्राप्त होता है, जो मोक्ष की स्थायी स्थिति से भिन्न है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Bhagavad Gita advocates for Nishkama Karma (desireless action) as a means to attain Moksha.\nReason (R): Performing actions without attachment to their fruits prevents the accumulation of binding karmic seeds.",
+      "option_a": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "option_b": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "option_c": "(A) is true but (R) is false",
+      "option_d": "(A) is false but (R) is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true as the Gita suggests Nishkama Karma as a primary path to liberation from the cycle of rebirth.\nReason Analysis: Reason (R) is true and explains (A) because it is the expectation and attachment to fruits of action that generates new karma. By abandoning attachment, actions do not bind the individual, leading directly to Moksha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): भगवद गीता मोक्ष प्राप्त करने के साधन के रूप में निष्काम कर्म (निष्काम भाव से किया जाने वाला कार्य) की वकालत करती है।\nकारण (R): अपने फलों के प्रति लगाव के बिना कार्य करने से कर्म के बंधनों का संचय रुक जाता है।",
+      "option_a": "(A) और (R) दोनों सही हैं और (R), (A) की सही व्याख्या है",
+      "option_b": "(A) और (R) दोनों सही हैं लेकिन (R), (A) की सही व्याख्या नहीं है",
+      "option_c": "(A) सही है लेकिन (R) गलत है",
+      "option_d": "(A) गलत है लेकिन (R) सही है",
+      "correct": "A",
+      "explanation": "Assertion Analysis: अभिकथन (A) सही है क्योंकि गीता पुनर्जन्म के चक्र से मुक्ति के लिए निष्काम कर्म को एक प्राथमिक मार्ग के रूप में सुझाती है।\nReason Analysis: कारण (R) सही है और (A) की व्याख्या करता है क्योंकि कर्म के फलों की अपेक्षा और आसक्ति ही नए कर्म उत्पन्न करती है। आसक्ति का त्याग करने से कर्म व्यक्ति को नहीं बांधते, जिससे सीधे मोक्ष की प्राप्ति होती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Concepts of Dharma) with List-II (Core Definition/Context) and select the correct answer:\nList-I:\na) Sadharana Dharma\nb) Svadharma\nc) Apatdharma\nd) Yugadharma\n\nList-II:\n1) Duties customized to individual's nature and life stage\n2) Moral conduct allowed during emergencies or extreme distress\n3) Universal ethics binding on all human beings\n4) Duties that vary across different temporal cosmic epochs\n5) Sacrificial rituals for rain\n6) Methods of direct perception",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-2, b-4, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Sadharana Dharma (a) matches universal ethics [3]. Svadharma (b) matches duties customized to individual nature [1]. Apatdharma (c) matches emergency moral conduct [2]. Yugadharma (d) matches duties varying across epochs [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (धर्म की अवधारणाएं) को सूची-II (मूल परिभाषा/संदर्भ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) साधारण धर्म\nb) स्वधर्म\nc) आपद्धर्म\nd) युगधर्म\n\nसूची-II:\n1) व्यक्ति के स्वभाव और जीवन के चरण के अनुसार कर्तव्य\n2) आपात स्थिति या अत्यधिक संकट के दौरान अनुमत नैतिक आचरण\n3) सभी मनुष्यों पर लागू होने वाली सार्वभौमिक नैतिकता\n4) विभिन्न लौकिक युगों के अनुसार बदलने वाले कर्तव्य\n5) वर्षा के लिए किए जाने वाले अनुष्ठान\n6) प्रत्यक्ष अनुभव की विधियाँ",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-2, b-4, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. साधारण धर्म (a) का मिलान सार्वभौमिक नैतिकता [3] से होता है। स्वधर्म (b) का मिलान व्यक्ति के स्वभाव के अनुसार कर्तव्य [1] से होता है। आपद्धर्म (c) का मिलान आपातकालीन नैतिक आचरण [2] से होता है। युगधर्म (d) का मिलान विभिन्न युगों के अनुसार बदलने वाले कर्तव्य [4] से होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Purushartha) with List-II (Dominant Classical Text) and select the correct answer:\nList-I:\na) Dharma\nb) Artha\nc) Kama\nd) Moksha\n\nList-II:\n1) Manusmriti\n2) Arthashastra of Kautilya\n3) Kamasutra of Vatsyayana\n4) Yoga Sutras of Patanjali\n5) Charvaka Darshana\n6) Natyashastra",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Dharma (a) is codified in Manusmriti [1]. Artha (b) is analyzed in Kautilya's Arthashastra [2]. Kama (c) is detailed in Vatsyayana's Kamasutra [3]. Moksha (d) is a focus in Patanjali's Yoga Sutras [4] representing spiritual liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पुरुषार्थ) को सूची-II (प्रमुख शास्त्रीय ग्रंथ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) धर्म\nb) अर्थ\nc) काम\nd) मोक्ष\n\nसूची-II:\n1) मनुस्मृति\n2) कौटिल्य का अर्थशास्त्र\n3) वात्स्यायन का कामसूत्र\n4) पतंजलि का योग सूत्र\n5) चार्वाक दर्शन\n6) नाट्यशास्त्र",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. धर्म (a) का मनुस्मृति [1] से मिलान होता है। अर्थ (b) का कौटिल्य के अर्थशास्त्र [2] से मिलान होता है। काम (c) का वात्स्यायन के कामसूत्र [3] से मिलान होता है। मोक्ष (d) का पतंजलि के योग सूत्र [4] से मिलान होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ashrama Stage) with List-II (Primary Associated Purushartha Emphasis) and select the correct answer:\nList-I:\na) Brahmacharya\nb) Grihastha\nc) Vanaprastha\nd) Sannyasa\n\nList-II:\n1) Foundations of Dharma through learning and self-discipline\n2) Direct fulfillment of Artha and Kama under moral rules\n3) Gradual detachment and reflection preparing for liberation\n4) Exclusive focus on Moksha through renunciation\n5) Acquisition of political power and royalty\n6) Performing military duties",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Brahmacharya (a) focuses on learning Dharma [1]. Grihastha (b) focuses on Artha and Kama [2]. Vanaprastha (c) focuses on detachment [3]. Sannyasa (d) focuses exclusively on Moksha [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (आश्रम चरण) को सूची-II (प्राथमिक संबद्ध पुरुषार्थ महत्व) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) ब्रह्मचर्य\nb) गृहस्थ\nc) वानप्रस्थ\nd) संन्यास\n\nसूची-II:\n1) शिक्षा और आत्म-अनुशासन के माध्यम से धर्म की नींव\n2) नैतिक नियमों के तहत अर्थ और काम की प्रत्यक्ष पूर्ति\n3) मुक्ति की तैयारी के लिए क्रमिक वैराग्य और चिंतन\n4) त्याग के माध्यम से विशेष रूप से मोक्ष पर ध्यान केंद्रित करना\n5) राजनीतिक सत्ता और राजत्व का अर्जन\n6) सैन्य कर्तव्यों का पालन करना",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. ब्रह्मचर्य (a) का धर्म की नींव सीखने [1] से मिलान होता है। गृहस्थ (b) का अर्थ और काम [2] से मिलान होता है। वानप्रस्थ (c) का क्रमिक वैराग्य [3] से मिलान होता है। संन्यास (d) का केवल मोक्ष [4] पर ध्यान केंद्रित करने से मिलान होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Philosophical System) with List-II (Definition of Moksha/Ultimate Goal) and select the correct answer:\nList-I:\na) Advaita Vedanta\nb) Samkhya\nc) Nyaya\nd) Buddhism\n\nList-II:\n1) Realization of absolute identity between Atman and Brahman\n2) Kaivalya through isolation of Purusha from Prakriti\n3) Apavarga as cessation of pain through logical analysis\n4) Nirvana as extinguishing of desires and the cycle of suffering\n5) Heaven and enjoyment of celestial nymphs\n6) Sceptical suspension of all judgments",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Advaita Vedanta (a) matches Atman-Brahman identity [1]. Samkhya (b) matches Kaivalya [2]. Nyaya (c) matches Apavarga [3]. Buddhism (d) matches Nirvana [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (दार्षनिक प्रणाली) को सूची-II (मोक्ष/अंतिम लक्ष्य की परिभाषा) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) अद्वैत वेदांत\nb) सांख्य\nc) न्याय\nd) बौद्ध धर्म\n\nसूची-II:\n1) आत्मन और ब्रह्म के बीच पूर्ण तादात्म्य की प्राप्ति\n2) प्रकृति से पुरुष के पृथक्करण के माध्यम से कैवल्य\n3) तार्किक विश्लेषण द्वारा दर्द की समाप्ति के रूप में अपवर्ग\n4) इच्छाओं और दुखों के चक्र के शमन के रूप में निर्वाण\n5) स्वर्ग और अप्सराओं का आनंद\n6) सभी निर्णयों का संदेहास्पद निलंबन",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. अद्वैत वेदांत (a) का मिलान आत्मन-ब्रह्म तादात्म्य [1] से होता है। सांख्य (b) का मिलान कैवल्य [2] से होता है। न्याय (c) का मिलान अपवर्ग [3] से होता है। बौद्ध धर्म (d) का मिलान निर्वाण [4] से होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Source of Dharma) with List-II (Sanskrit Terminology/Concept) and select the correct answer:\nList-I:\na) The Vedas\nb) Traditional law books\nc) Conduct of virtuous people\nd) Inner conscience / self-satisfaction\n\nList-II:\n1) Sruti\n2) Smriti\n3) Sadachara\n4) Atmatusti\n5) Nastika\n6) Mimamsa",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. The Vedas correspond to Sruti [1]. Traditional law books correspond to Smriti [2]. Conduct of virtuous people corresponds to Sadachara [3]. Inner conscience/self-satisfaction corresponds to Atmatusti [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (धर्म के स्रोत) को सूची-II (संस्कृत शब्दावली/अवधारणा) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) वेद\nb) पारंपरिक कानून पुस्तकें\nc) सदाचारी लोगों का आचरण\nd) अंतरात्मा / आत्म-संतुष्टि\n\nसूची-II:\n1) श्रुति\n2) स्मृति\n3) सदाचार\n4) आत्मतुष्टि\n5) नास्तिक\n6) मीमांसा",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. वेदों का मिलान श्रुति [1] से है। पारंपरिक कानून पुस्तकों का मिलान स्मृति [2] से है। सदाचारी लोगों के आचरण का मिलान सदाचार [3] से है। अंतरात्मा/आत्म-संतुष्टि का मिलान आत्मतुष्टि [4] से है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Dimension of Kama) with List-II (Explanatory Domain) and select the correct answer:\nList-I:\na) Biological drive\nb) Aesthetic appreciation\nc) Emotional love\nd) Higher spiritual desire\n\nList-II:\n1) Physical reproduction and sensory gratification\n2) Fine arts, poetry, and drama (Rasa)\n3) Affection, family bonding, and friendship\n4) Mumukshutva (desire for liberation)\n5) Accumulation of commercial capital\n6) Renouncing family ties",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Biological drive corresponds to physical reproduction [1]. Aesthetic appreciation corresponds to fine arts [2]. Emotional love corresponds to affection [3]. Higher spiritual desire corresponds to Mumukshutva [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (काम के आयाम) को सूची-II (व्याख्यात्मक क्षेत्र) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) जैविक प्रेरणा\nb) सौंदर्यबोध प्रशंसा\nc) भावनात्मक प्रेम\nd) उच्च आध्यात्मिक इच्छा\n\nसूची-II:\n1) शारीरिक पुनरुत्पादन और इंद्रिय तृप्ति\n2) ललित कलाएं, कविता और नाटक (रस)\n3) स्नेह, पारिवारिक संबंध और मित्रता\n4) मुमुक्षुत्व (मुक्ति की इच्छा)\n5) व्यावसायिक पूंजी का संचय\n6) पारिवारिक संबंधों का त्याग करना",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. जैविक प्रेरणा का मिलान शारीरिक पुनरुत्पादन [1] से होता है। सौंदर्यबोध प्रशंसा का ललित कलाओं [2] से मिलान होता है। भावनात्मक प्रेम का स्नेह [3] से मिलान होता है। उच्च आध्यात्मिक इच्छा का मुमुक्षुत्व [4] से मिलान होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Purushartha-related terminology) with List-II (Literal Meaning) and select the correct answer:\nList-I:\na) Purusha\nb) Artha\nc) Rna\nd) Mumukshu\n\nList-II:\n1) Human being or self\n2) Purpose, goal, or wealth\n3) Debt or obligation\n4) One who seeks liberation\n5) Celestial dancer\n6) Non-violence",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Purusha (a) matches human being [1]. Artha (b) matches purpose/wealth [2]. Rna (c) matches debt/obligation [3]. Mumukshu (d) matches seeker of liberation [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पुरुषार्थ-संबंधी शब्दावली) को सूची-II (शाब्दिक अर्थ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) पुरुष\nb) अर्थ\nc) ऋण\nd) मुमुक्षु\n\nसूची-II:\n1) मनुष्य या आत्मा\n2) उद्देश्य, लक्ष्य या धन\n3) ऋण या दायित्व\n4) वह जो मुक्ति चाहता है\n5) स्वर्गीय नर्तकी\n6) अहिंसा",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. पुरुष (a) का मिलान मनुष्य [1] से है। अर्थ (b) का उद्देश्य/धन [2] से है। ऋण (c) का ऋण/दायित्व [3] से है। मुमुक्षु (d) का मुक्ति के साधक [4] से है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Types of Rna / Debts) with List-II (Method of Repayment) and select the correct answer:\nList-I:\na) Deva Rna (Debt to Gods)\nb) Rishi Rna (Debt to Sages)\nc) Pitru Rna (Debt to Ancestors)\nd) Manushya Rna (Debt to Humanity)\n\nList-II:\n1) Performance of Yajnas and rituals\n2) Study and teaching of Vedas and scriptures\n3) Begetting children and continuing the lineage\n4) Offering hospitality, charity, and helping fellow humans\n5) Meditating in complete isolation in caves\n6) Earning maximum profit in trade",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Deva Rna (a) is repaid by performing Yajnas [1]. Rishi Rna (b) is repaid by studying and teaching scriptures [2]. Pitru Rna (c) is repaid by continuing the lineage [3]. Manushya Rna (d) is repaid through hospitality and charity [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (ऋण के प्रकार) को सूची-II (ऋण चुकाने की विधि) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) देव ऋण\nb) ऋषि ऋण\nc) पितृ ऋण\nd) मनुष्य ऋण\n\nसूची-II:\n1) यज्ञ और अनुष्ठानों का प्रदर्शन\n2) वेदों और शास्त्रों का अध्ययन और अध्यापन\n3) संतानोत्पत्ति और वंश को आगे बढ़ाना\n4) आतिथ्य, दान और साथी मनुष्यों की मदद करना\n5) गुफाओं में पूर्ण अलगाव में ध्यान लगाना\n6) व्यापार में अधिकतम लाभ कमाना",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. देव ऋण (a) को यज्ञ करने से चुकाया जाता है [1]। ऋषि ऋण (b) को शास्त्रों के अध्ययन-अध्यापन से चुकाया जाता है [2]। पितृ ऋण (c) को वंश आगे बढ़ाने से चुकाया जाता है [3]। मनुष्य ऋण (d) को आतिथ्य और परोपकार से चुकाया जाता है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Purushartha of Dharma:\n1. Dharma is purely rigid, ritualistic, and does not adapt to time, space, or circumstances.\n2. In the Purushartha scheme, Dharma regulates the acquisition of material wealth and the satisfaction of desire.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because Dharma is dynamic and adaptable, containing categories like Apatdharma (emergency duties) and Yugadharma (epochal duties). Statement 2 is correct because the Purushartha framework dictates that Artha (wealth) and Kama (desire) must always be regulated by Dharma to prevent moral and social instability."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. धर्म के पुरुषार्थ के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. धर्म पूरी तरह से कठोर, कर्मकांडीय है, और समय, स्थान या परिस्थितियों के अनुकूल नहीं बदलता है।\n2. पुरुषार्थ योजना में, धर्म भौतिक धन की प्राप्ति और इच्छा की संतुष्टि को नियंत्रित करता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि धर्म गतिशील और अनुकूलन योग्य है, जिसमें आपद्धर्म (आपातकालीन कर्तव्य) और युगधर्म (युगीन कर्तव्य) जैसी श्रेणियां शामिल हैं। कथन 2 सही है क्योंकि पुरुषार्थ रूपरेखा यह निर्देश देती है कि नैतिक और सामाजिक अस्थिरता को रोकने के लिए अर्थ (धन) और काम (इच्छा) को हमेशा धर्म द्वारा नियंत्रित किया जाना चाहिए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the relationship between Purusharthas and Ashramas:\n1. Brahmacharya focuses on laying the moral foundation of Dharma.\n2. Grihastha is the primary ashrama associated with the active pursuit of Artha and Kama.\n3. Sannyasa is characterized by the complete renunciation of all worldly goals to pursue Moksha.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2, and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because Brahmacharya is the student stage where one learns the scriptures and practices self-discipline. Statement 2 is correct because the householder (Grihastha) is responsible for generating wealth and raising a family. Statement 3 is correct because Sannyasa involves renouncing worldly life to focus entirely on spiritual liberation (Moksha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थों और आश्रमों के बीच संबंधों के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. ब्रह्मचर्य धर्म की नैतिक नींव रखने पर केंद्रित है।\n2. गृहस्थ अर्थ और काम की सक्रिय खोज से जुड़ा प्राथमिक आश्रम है।\n3. संन्यास मोक्ष को पाने के लिए सभी सांसारिक लक्ष्यों के पूर्ण त्याग की विशेषता रखता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2, और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि ब्रह्मचर्य छात्र जीवन का चरण है जहां व्यक्ति शास्त्रों को सीखता है और आत्म-अनुशासन का अभ्यास करता है। कथन 2 सही है क्योंकि गृहस्थ धन उत्पन्न करने और परिवार बढ़ाने के लिए जिम्मेदार है। कथन 3 सही है क्योंकि संन्यास में आध्यात्मिक मुक्ति (मोक्ष) पर पूरी तरह से ध्यान केंद्रित करने के लिए सांसारिक जीवन का त्याग करना शामिल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Charvaka view of Purusharthas:\n1. Charvakas reject the authority of the Vedas, thereby dismissing Dharma as a valid moral obligation.\n2. They advocate that Moksha is the ultimate spiritual release from physical suffering.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Charvakas are materialists who reject the Vedas, life after death, and karma, thus rejecting Dharma. Statement 2 is incorrect because Charvakas do not believe in Moksha (spiritual liberation); they believe death is the only end of suffering and reject any transcendent liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थों के चार्वाक दृष्टिकोण के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. चार्वाक वेदों के अधिकार को अस्वीकार करते हैं, जिससे वे धर्म को एक वैध नैतिक दायित्व के रूप में खारिज करते हैं।\n2. वे वकालत करते हैं कि मोक्ष शारीरिक कष्ट से अंतिम आध्यात्मिक मुक्ति है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि चार्वाक भौतिकवादी हैं जो वेदों, मृत्यु के बाद के जीवन और कर्म को अस्वीकार करते हैं, इस प्रकार धर्म को खारिज करते हैं। कथन 2 गलत है क्योंकि चार्वाक मोक्ष (आध्यात्मिक मुक्ति) में विश्वास नहीं करते हैं; उनका मानना है कि मृत्यु ही दुखों का एकमात्र अंत है और वे किसी भी परलौकिक मुक्ति को खारिज करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements about the concept of 'Artha' in Kautilya's Arthashastra:\n1. Kautilya defines Artha as the livelihood of men and the territory inhabited by them.\n2. He asserts that without Artha, a state cannot perform charitable works or maintain its army.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because Kautilya defines Artha broadly as the source of livelihood and the land populated by citizens. Statement 2 is correct because Kautilya highlights that state treasury and economic resources (Artha) are the pillars that make military defense and moral duties (Dharma) possible."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौटिल्य के अर्थशास्त्र में 'अर्थ' की अवधारणा के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. कौटिल्य अर्थ को मनुष्यों की आजीविका और उनके द्वारा आबाद क्षेत्र के रूप में परिभाषित करते हैं।\n2. उनका दावा है कि अर्थ के बिना, एक राज्य धर्मार्थ कार्य नहीं कर सकता है या अपनी सेना का रखरखाव नहीं कर सकता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि कौटिल्य अर्थ को व्यापक रूप से आजीविका के स्रोत और नागरिकों द्वारा आबाद भूमि के रूप में परिभाषित करते हैं। कथन 2 सही है क्योंकि कौटिल्य इस बात पर प्रकाश डालते हैं कि राज्य का खजाना और आर्थिक संसाधन (अर्थ) वे स्तंभ हैं जो सैन्य रक्षा और नैतिक कर्तव्यों (धर्म) को संभव बनाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Purushartha of 'Kama':\n1. In classical texts, Kama is defined exclusively as physical lust and sexual gratification.\n2. It encompasses the pursuit of aesthetics, fine arts, literature, and general emotional fulfillment.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because classical texts like Kamasutra define Kama much more broadly than physical lust, including emotional and aesthetic dimensions. Statement 2 is correct because it encompasses the enjoyment of fine arts, music, literature, friendship, and overall emotional and sensory pleasure."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'काम' के पुरुषार्थ के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. शास्त्रीय ग्रंथों में, काम को विशेष रूप से शारीरिक वासना और यौन तृप्ति के रूप में परिभाषित किया गया है।\n2. इसमें सौंदर्यशास्त्र, ललित कलाओं, साहित्य और सामान्य भावनात्मक संतुष्टि की खोज शामिल है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि कामसूत्र जैसे शास्त्रीय ग्रंथ काम को शारीरिक वासना की तुलना में बहुत अधिक व्यापक रूप से परिभाषित करते हैं, जिसमें भावनात्मक और सौंदर्य संबंधी आयाम शामिल हैं। कथन 2 सही है क्योंकि इसमें ललित कलाओं, संगीत, साहित्य, मित्रता और समग्र भावनात्मक व इंद्रिय सुख का आनंद शामिल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the concept of Moksha in different schools of Indian Philosophy:\n1. Advaita Vedanta believes that Moksha can be attained while living in this physical body (Jivanmukti).\n2. Dvaita Vedanta asserts that the individual soul remains eternally distinct from God even after attaining Moksha.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because Advaita Vedanta supports the concept of Jivanmukti (liberation while alive). Statement 2 is correct because Dvaita Vedanta (dualist school of Madhvacharya) maintains that the individual soul (Jiva) is eternally distinct from God (Ishvara/Brahman) even in the state of final liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारतीय दर्शन के विभिन्न संप्रदायों में मोक्ष की अवधारणा के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. अद्वैत वेदांत का मानना है कि मोक्ष को इस भौतिक शरीर में रहते हुए भी प्राप्त किया जा सकता है (जीवनमुक्ति)।\n2. द्वैत वेदांत का दावा है कि मोक्ष प्राप्त करने के बाद भी व्यक्तिगत आत्मा ईश्वर से हमेशा के लिए अलग रहती है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि अद्वैत वेदांत जीवनमुक्ति (जीवित रहते हुए मुक्ति) की अवधारणा का समर्थन करता है। कथन 2 सही है क्योंकि द्वैत वेदांत (माध्वाचार्य का द्वैतवादी संप्रदाय) का मानना है कि अंतिम मुक्ति की स्थिति में भी व्यक्तिगत आत्मा (जीव) ईश्वर (ईश्वर/ब्रह्म) से अनंत रूप से भिन्न रहती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the evolution of the Purushartha system:\n1. The early Rigvedic period did not have a formalized concept of Moksha; the focus was on worldly prosperity (Abhyudaya).\n2. The concept of Moksha emerged prominently with the philosophical inquiries of the Upanishads.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because early Vedic texts focus primarily on Rta, Yajna, and achieving happiness, longevity, and wealth in this world. Statement 2 is correct because the quest for absolute liberation from the cycle of birth and death (Moksha) is a hallmark of the Upanishadic era."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थ प्रणाली के विकास के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. प्रारंभिक ऋग्वैदिक काल में मोक्ष की कोई औपचारिक अवधारणा नहीं थी; ध्यान सांसारिक समृद्धि (अभ्युदय) पर था।\n2. उपनिषदों की दार्शनिक जांच के साथ मोक्ष की अवधारणा प्रमुखता से उभरी।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि प्रारंभिक वैदिक ग्रंथ मुख्य रूप से ऋत, यज्ञ और इस संसार में सुख, दीर्घायु और धन प्राप्त करने पर केंद्रित हैं। कथन 2 सही है क्योंकि जन्म और मृत्यु के चक्र से पूर्ण मुक्ति (मोक्ष) की खोज उपनिषद काल की विशेषता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the ethical concepts of Svadharma:\n1. Svadharma is static and identical for all individuals regardless of their personal tendencies (Guna).\n2. In the Bhagavad Gita, Krishna advises Arjuna to follow his Svadharma as a warrior (Kshatriya) even if it leads to conflict.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because Svadharma is highly individualized and dynamic, based on a person's inner qualities (Guna) and action capability (Karma). Statement 2 is correct because Krishna urges Arjuna to perform his specific duty as a Kshatriya warrior to uphold righteousness, rather than escaping the battlefield."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. स्वधर्म की नैतिक अवधारणाओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. स्वधर्म स्थिर है और सभी व्यक्तियों के लिए उनकी व्यक्तिगत प्रवृत्तियों (गुण) की परवाह किए बिना समान होता है।\n2. भगवद गीता में, कृष्ण अर्जुन को एक योद्धा (क्षत्रिय) के रूप में अपने स्वधर्म का पालन करने की सलाह देते हैं, भले ही इससे युद्ध हो।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि स्वधर्म व्यक्ति के आंतरिक गुणों (गुण) और कर्म क्षमता के आधार पर अत्यधिक व्यक्तिगत और गतिशील होता है। कथन 2 सही है क्योंकि कृष्ण अर्जुन को युद्ध के मैदान से भागने के बजाय धार्मिकता को बनाए रखने के लिए एक क्षत्रिय योद्धा के रूप में अपने विशिष्ट कर्तव्य का पालन करने का आग्रह करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the concepts of Abhyudaya and Nishreyasa:\n1. Abhyudaya refers to spiritual liberation and the realization of ultimate truth.\n2. Nishreyasa refers to the attainment of material prosperity, health, and social success.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "D",
+      "explanation": "Statement 1 is incorrect because Abhyudaya refers to worldly success and prosperity (Artha/Kama), not spiritual liberation. Statement 2 is incorrect because Nishreyasa refers to the highest spiritual good or liberation (Moksha), not material prosperity. Thus, both statements are swapped and incorrect."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अभ्युदय और निःश्रेयस की अवधारणाओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. अभ्युदय आध्यात्मिक मुक्ति और अंतिम सत्य की प्राप्ति को संदर्भित करता है।\n2. निःश्रेयस भौतिक समृद्धि, स्वास्थ्य और सामाजिक सफलता की प्राप्ति को संदर्भित करता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "D",
+      "explanation": "कथन 1 गलत है क्योंकि अभ्युदय सांसारिक सफलता और समृद्धि (अर्थ/काम) को संदर्भित करता है, न कि आध्यात्मिक मुक्ति को। कथन 2 गलत है क्योंकि निःश्रेयस सर्वोच्च आध्यात्मिक कल्याण या मुक्ति (मोक्ष) को संदर्भित करता है, न कि भौतिक समृद्धि को। इस प्रकार, दोनों कथन आपस में बदल दिए गए हैं और गलत हैं।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the concept and significance of the 'Trivarga' in the Purushartha system. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The concept of 'Trivarga' comprises the first three goals of human life: Dharma (righteousness/duty), Artha (wealth/livelihood), and Kama (pleasure/sensory fulfillment).\nIts significance lies in:\n- **Balanced Worldly Life:** It ensures that material success (Artha) and desires (Kama) are pursued ethically under the moral guidance of Dharma.\n- **Foundation for Moksha:** A well-regulated Trivarga stage purifies the mind, preparing an individual for final spiritual liberation (Moksha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थ व्यवस्था में 'त्रिवर्ग' की अवधारणा और महत्व को स्पष्ट कीजिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "'त्रिवर्ग' की अवधारणा में मानव जीवन के पहले तीन लक्ष्य शामिल हैं: धर्म (धार्मिकता/कर्तव्य), अर्थ (धन/आजीविका), और काम (सुख/इंद्रिय तृप्ति)।\nइसका महत्व इस प्रकार है:\n- **संतुलित सांसारिक जीवन:** यह सुनिश्चित करता है कि भौतिक सफलता (अर्थ) और इच्छाओं (काम) को धर्म के नैतिक मार्गदर्शन में नैतिक रूप से प्राप्त किया जाए।\n- **मोक्ष का आधार:** एक अच्छी तरह से विनियमित त्रिवर्ग चरण मन को शुद्ध करता है, जिससे व्यक्ति अंतिम आध्यात्मिक मुक्ति (मोक्ष) के लिए तैयार होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the inter-relationship between the Purusharthas and the Ashrama system, showing how they provide a holistic framework for human development. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Purushartha system (goals of life) and the Ashrama system (stages of life) are complementary institutions in classical Indian philosophy. Together, they provide a structured framework to channelize human energy towards holistic development, balancing worldly engagements (Pravritti) with spiritual retirement (Nivritti).\n\nThis integration is detailed in the table below:\n\n| Ashrama (Stage of Life) | Primary Purushartha Focus | Key Developmental Objective |\n| :--- | :--- | :--- |\n| **Brahmacharya** (Student) | Dharma | Acquiring knowledge, values, and self-discipline to build moral character. |\n| **Grihastha** (Householder) | Artha & Kama (regulated by Dharma) | Supporting society, earning livelihood, and satisfying desires ethically. |\n| **Vanaprastha** (Retired) | Dharma & Moksha | Gradual detachment from family ties, turning focus inward to spirituality. |\n| **Sannyasa** (Renunciant) | Moksha | Total renunciation of worldly desires to attain absolute liberation. |\n\nThrough this synthesis, the Ashrama system acts as the institutional arena, while the Purusharthas serve as the psychological and ethical drivers, ensuring that individuals fulfill their social duties while systematically advancing towards the ultimate spiritual goal of Moksha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुरुषार्थों और आश्रम व्यवस्था के बीच अंतःसंबंधों का विश्लेषण कीजिए, यह दिखाते हुए कि वे मानव विकास के लिए एक समग्र रूपरेखा कैसे प्रदान करते हैं। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "पुरुषार्थ प्रणाली (जीवन के लक्ष्य) और आश्रम प्रणाली (जीवन के चरण) शास्त्रीय भारतीय दर्शन में पूरक संस्थाएँ हैं। साथ मिलकर, वे आध्यात्मिक निवृत्ति (सांसारिक वैराग्य) के साथ सांसारिक व्यस्तताओं (प्रवृत्ति) को संतुलित करते हुए, समग्र विकास की ओर मानव ऊर्जा को प्रवाहित करने के लिए एक व्यवस्थित ढांचा प्रदान करते हैं।\n\nइस एकीकरण का विवरण नीचे दी गई तालिका में है:\n\n| आश्रम (जीवन का चरण) | प्राथमिक पुरुषार्थ ध्यान | प्रमुख विकासात्मक उद्देश्य |\n| :--- | :--- | :--- |\n| **ब्रह्मचर्य** (छात्र) | धर्म | नैतिक चरित्र के निर्माण के लिए ज्ञान, मूल्यों और आत्म-अनुशासन को प्राप्त करना। |\n| **गृहस्थ** (गृहस्वामी) | अर्थ और काम (धर्म द्वारा नियंत्रित) | समाज का समर्थन करना, आजीविका कमाना और नैतिक रूप से इच्छाओं को पूरा करना। |\n| **वानप्रस्थ** (सेवानिवृत्त) | धर्म और मोक्ष | पारिवारिक बंधनों से क्रमिक अलगाव, ध्यान को भीतर की ओर मोड़ना। |\n| **संन्यास** (परित्यागी) | मोक्ष | मोक्ष की प्राप्ति के लिए सांसारिक इच्छाओं का पूर्ण त्याग। |\n\nइस संश्लेषण के माध्यम से, आश्रम प्रणाली संस्थागत क्षेत्र के रूप में कार्य करती है, जबकि पुरुषार्थ मनोवैज्ञानिक और नैतिक मार्गदर्शक के रूप में कार्य करते हैं, जिससे यह सुनिश्चित होता है कि व्यक्ति मोक्ष के अंतिम आध्यात्मिक लक्ष्य की ओर व्यवस्थित रूप से बढ़ते हुए अपने सामाजिक कर्तव्यों को पूरा करे।"
+    }
+  ]
+}

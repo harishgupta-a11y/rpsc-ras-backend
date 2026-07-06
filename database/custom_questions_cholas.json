@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Who was the founder of the imperial Chola dynasty who captured Tanjore in the mid-9th century CE?",
+      "option_a": "Aditya I",
+      "option_b": "Vijayalaya",
+      "option_c": "Parantaka I",
+      "option_d": "Rajaraja I",
+      "correct": "B",
+      "explanation": "Correct option: B. Vijayalaya was the founder of the imperial Chola line, who captured Tanjore from the Muttarayar chieftains in around 850 CE and established a temple for goddess Nishumbhasudini."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नौवीं शताब्दी के मध्य में तंजौर पर अधिकार करने वाले साम्राज्यवादी चोल राजवंश का संस्थापक कौन था?",
+      "option_a": "आदित्य प्रथम",
+      "option_b": "विजयालय",
+      "option_c": "परांतक प्रथम",
+      "option_d": "राजराज प्रथम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. विजयालय साम्राज्यवादी चोल वंश का संस्थापक था, जिसने लगभग 850 ईस्वी में मुत्तरैयार सरदारों से तंजौर छीन लिया और वहां निशुंभसूदिनी देवी का मंदिर बनवाया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Chola ruler assumed the title of 'Maduraikonda' after defeating the Pandya king?",
+      "option_a": "Vijayalaya",
+      "option_b": "Aditya I",
+      "option_c": "Parantaka I",
+      "option_d": "Rajendra I",
+      "correct": "C",
+      "explanation": "Correct option: C. Parantaka I defeated the Pandya king Rajasimha II and captured Madurai, after which he assumed the victorious title 'Maduraikonda' (Conqueror of Madurai)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस चोल शासक ने पांड्य राजा को हराने के बाद 'मदुरैकोंडा' की उपाधि धारण की थी?",
+      "option_a": "विजयालय",
+      "option_b": "आदित्य प्रथम",
+      "option_c": "परांतक प्रथम",
+      "option_d": "राजेन्द्र प्रथम",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. परांतक प्रथम ने पांड्य राजा राजसिंह द्वितीय को पराजित किया और मदुरै पर अधिकार कर लिया, जिसके बाद उसने 'मदुरैकोंडा' (मदुरै का विजेता) की उपाधि धारण की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous Uttaramerur inscription, which provides highly detailed information about local self-government, belongs to the reign of which Chola ruler?",
+      "option_a": "Rajaraja I",
+      "option_b": "Parantaka I",
+      "option_c": "Rajendra I",
+      "option_d": "Kulottunga I",
+      "correct": "B",
+      "explanation": "Correct option: B. The twin Uttaramerur inscriptions dating back to 919 CE and 921 CE belong to the reign of Parantaka I and describe the assembly rules and electoral processes."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रसिद्ध उत्तरमेरुर शिलालेख, जो स्थानीय स्वशासन के बारे में अत्यधिक विस्तृत जानकारी प्रदान करता है, किस चोल शासक के शासनकाल से संबंधित है?",
+      "option_a": "राजराज प्रथम",
+      "option_b": "परांतक प्रथम",
+      "option_c": "राजेन्द्र प्रथम",
+      "option_d": "कुलोत्तुंग प्रथम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 919 ईस्वी और 921 ईस्वी के जुड़वां उत्तरमेरुर शिलालेख परांतक प्रथम के शासनकाल के हैं और यह सभा के नियमों व निर्वाचन प्रक्रियाओं का वर्णन करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Chola king completed the conquest of Sri Lanka (Ilamandalam) and captured their king Mahinda V?",
+      "option_a": "Rajaraja I",
+      "option_b": "Rajendra I",
+      "option_c": "Rajadhiraja I",
+      "option_d": "Kulottunga I",
+      "correct": "B",
+      "explanation": "Correct option: B. While Rajaraja I conquered northern Sri Lanka, it was his son Rajendra I who completed the conquest of the entire island, taking the Sinhalese king Mahinda V prisoner."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस चोल राजा ने श्रीलंका (इलामंडलम) की विजय को पूरा किया और उनके राजा महिंदा पंचम को बंदी बना लिया?",
+      "option_a": "राजराज प्रथम",
+      "option_b": "राजेन्द्र प्रथम",
+      "option_c": "राजाधिराज प्रथम",
+      "option_d": "कुलोत्तुंग प्रथम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. जबकि राजराज प्रथम ने केवल उत्तरी श्रीलंका को जीता था, उनके पुत्र राजेन्द्र प्रथम ने पूरे द्वीप की विजय पूरी की और सिंहली राजा महिंदा पंचम को बंदी बना लिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The grand Brihadisvara Temple at Tanjore, a masterpiece of Dravidian architecture, was constructed by which ruler?",
+      "option_a": "Rajendra I",
+      "option_b": "Rajaraja I",
+      "option_c": "Aditya I",
+      "option_d": "Gandaraditya",
+      "correct": "B",
+      "explanation": "Correct option: B. Rajaraja I built the magnificent Brihadisvara Temple (also called Rajarajesvaram) at Tanjore, completed around 1010 CE."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तंजौर का भव्य बृहदीश्वर मंदिर, जो द्रविड़ वास्तुकला की एक उत्कृष्ट कृति है, का निर्माण किस शासक द्वारा कराया गया था?",
+      "option_a": "राजेन्द्र प्रथम",
+      "option_b": "राजराज प्रथम",
+      "option_c": "आदित्य प्रथम",
+      "option_d": "गंडरादित्य",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. राजराज प्रथम ने तंजौर में भव्य बृहदीश्वर मंदिर (जिसे राजराजेश्वरम भी कहा जाता है) का निर्माण करवाया, जो लगभग 1010 ईस्वी में बनकर तैयार हुआ था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who founded the new capital city 'Gangaikondacholapuram' to commemorate his victorious expedition to the Ganga valley?",
+      "option_a": "Rajaraja I",
+      "option_b": "Rajendra I",
+      "option_c": "Rajadhiraja I",
+      "option_d": "Virarajendra",
+      "correct": "B",
+      "explanation": "Correct option: B. Rajendra I assumed the title 'Gangaikonda Chola' (The Chola who took the Ganges) and founded the new capital Gangaikondacholapuram after his northern military campaign."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गंगा घाटी में अपने विजयी अभियान की स्मृति में नई राजधानी 'गंगैकोंडचोलपुरम' की स्थापना किसने की थी?",
+      "option_a": "राजराज प्रथम",
+      "option_b": "राजेन्द्र प्रथम",
+      "option_c": "राजाधिराज प्रथम",
+      "option_d": "वीरराजेन्द्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. राजेन्द्र प्रथम ने अपने उत्तरी सैन्य अभियान के बाद 'गंगैकोंड चोल' की उपाधि धारण की और नई राजधानी गंगैकोंडचोलपुरम की स्थापना की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Chola king launched a large naval expedition against the Srivijaya Kingdom in Southeast Asia in 1025 CE?",
+      "option_a": "Rajaraja I",
+      "option_b": "Rajendra I",
+      "option_c": "Kulottunga I",
+      "option_d": "Rajadhiraja I",
+      "correct": "B",
+      "explanation": "Correct option: B. Rajendra I sent a massive naval expedition in 1025 CE against the Srivijaya kingdom (covering Sumatra, Malaya, etc.) ruled by Sangrama Vijayatunggavarman."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस चोल राजा ने 1025 ईस्वी में दक्षिण-पूर्व एशिया में श्रीविजय साम्राज्य के विरुद्ध एक बड़ा नौसैनिक अभियान शुरू किया था?",
+      "option_a": "राजराज प्रथम",
+      "option_b": "राजेन्द्र प्रथम",
+      "option_c": "कुलोत्तुंग प्रथम",
+      "option_d": "राजाधिराज प्रथम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. राजेन्द्र प्रथम ने 1025 ईस्वी में संग्राम विजयोत्तुंगवर्मन द्वारा शासित श्रीविजय साम्राज्य (सुमात्रा, मलाया आदि) के खिलाफ एक विशाल नौसैनिक बेड़ा भेजा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under the Chola agrarian administration, what did the term 'Vellanvagai' refer to?",
+      "option_a": "Land gifted to Brahmanas",
+      "option_b": "Land donated to Jaina institutions",
+      "option_c": "Land of non-Brahmana peasant proprietors",
+      "option_d": "Land meant for school maintenance",
+      "correct": "C",
+      "explanation": "Correct option: C. 'Vellanvagai' was the category of land belonging to non-Brahmana peasant proprietors who paid taxes to the Chola state."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल कृषि प्रशासन के तहत, 'वेल्लनवगाई' शब्द का क्या अर्थ था?",
+      "option_a": "ब्राह्मणों को दान में दी गई भूमि",
+      "option_b": "जैन संस्थानों को दान दी गई भूमि",
+      "option_c": "गैर-ब्राह्मण किसान स्वामियों की भूमि",
+      "option_d": "स्कूल के रखरखाव के लिए भूमि",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. 'वेल्लनवगाई' उस भूमि की श्रेणी थी जो गैर-ब्राह्मण किसान स्वामियों की थी और वे चोल राज्य को कर चुकाते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The land tax, which was the main source of revenue for the Chola state, was generally known as:",
+      "option_a": "Kadamai",
+      "option_b": "Alugana",
+      "option_c": "Vellan",
+      "option_d": "Variyam",
+      "correct": "A",
+      "explanation": "Correct option: A. Kadamai (or Irai) was the primary land revenue/tax paid to the state, usually assessed after systematic land surveys."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भू-राजस्व, जो चोल राज्य के राजस्व का मुख्य स्रोत था, को सामान्यतः किस नाम से जाना जाता था?",
+      "option_a": "कदामई",
+      "option_b": "अलुगना",
+      "option_c": "वेल्लन",
+      "option_d": "वारियम",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. कदामई (या इराई) राज्य को दिया जाने वाला प्राथमिक भू-राजस्व/कर था, जिसे आमतौर पर व्यवस्थित भूमि सर्वेक्षण के बाद निर्धारित किया जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Chola king was famously known by the title 'Sungamtavirtta Chola' (the Chola who abolished customs duties/tolls)?",
+      "option_a": "Rajaraja II",
+      "option_b": "Kulottunga I",
+      "option_c": "Rajendra II",
+      "option_d": "Athirajendra",
+      "correct": "B",
+      "explanation": "Correct option: B. Kulottunga I abolished internal tolls and transit duties (sungam) to facilitate smoother trade, earning the title 'Sungamtavirtta Chola'."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस चोल राजा को 'सुंगमतविर्त्त चोल' (चुंगी/टोल समाप्त करने वाला चोल) की उपाधि से जाना जाता था?",
+      "option_a": "राजराज द्वितीय",
+      "option_b": "कुलोत्तुंग प्रथम",
+      "option_c": "राजेन्द्र द्वितीय",
+      "option_d": "अधिराजेन्द्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. कुलोत्तुंग प्रथम ने व्यापार को सुगम बनाने के लिए आंतरिक चुंगी और पारगमन शुल्कों (सुंगम) को समाप्त कर दिया था, जिसके कारण उन्हें 'सुंगमतविर्त्त चोल' की उपाधि मिली।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Chola naval fleet was highly advanced. Which sea or bay was often referred to as the 'Chola Lake' at the height of their power?",
+      "option_a": "Arabian Sea",
+      "option_b": "Bay of Bengal",
+      "option_c": "South China Sea",
+      "option_d": "Indian Ocean",
+      "correct": "B",
+      "explanation": "Correct option: B. The Chola naval dominance over the Bay of Bengal, Sri Lanka, and Southeast Asian trade routes effectively turned the Bay of Bengal into a Chola Lake."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल नौसैनिक बेड़ा अत्यंत उन्नत था। उनकी शक्ति के चरमोत्कर्ष पर किस समुद्र या खाड़ी को अक्सर 'चोल झील' कहा जाता था?",
+      "option_a": "अरब सागर",
+      "option_b": "बंगाल की खाड़ी",
+      "option_c": "दक्षिण चीन सागर",
+      "option_d": "हिंद महासागर",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. बंगाल की खाड़ी, श्रीलंका और दक्षिण-पूर्व एशियाई व्यापारिक मार्गों पर चोल नौसैनिक प्रभुत्व ने बंगाल की खाड़ी को व्यावहारिक रूप से 'चोल झील' में बदल दिया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which general assembly in the Chola local administration was exclusively composed of Brahmana landholders of Brahmadeya villages?",
+      "option_a": "Ur",
+      "option_b": "Sabha",
+      "option_c": "Nagaram",
+      "option_d": "Nadu",
+      "correct": "B",
+      "explanation": "Correct option: B. The 'Sabha' (or Mahasabha) was the assembly of Brahmadeya villages, consisting exclusively of Brahmana landholders, unlike the 'Ur' which was for common villages."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल स्थानीय प्रशासन में कौन सी आम सभा विशेष रूप से ब्रह्मदेय गांवों के ब्राह्मण भूस्वामियों से बनी थी?",
+      "option_a": "उर",
+      "option_b": "सभा",
+      "option_c": "नगरम",
+      "option_d": "नाडु",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'सभा' (या महासभा) ब्रह्मदेय गाँवों की सभा थी, जिसमें विशेष रूप से ब्राह्मण भूस्वामी शामिल होते थे, जबकि 'उर' सामान्य गाँवों की सभा थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Chola administration, what was the term used for the local assembly of merchants and traders in commercial towns?",
+      "option_a": "Sabha",
+      "option_b": "Ur",
+      "option_c": "Nagaram",
+      "option_d": "Variyam",
+      "correct": "C",
+      "explanation": "Correct option: C. 'Nagaram' was the administrative assembly and council found in cities and trading towns, primarily consisting of merchants and traders."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल प्रशासन में, व्यापारिक शहरों में व्यापारियों और सौदागरों की स्थानीय सभा के लिए किस शब्द का प्रयोग किया जाता था?",
+      "option_a": "सभा",
+      "option_b": "उर",
+      "option_c": "नगरम",
+      "option_d": "वारियम",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. 'नगरम' शहरों और व्यापारिक केंद्रों में पाई जाने वाली प्रशासनिक सभा थी, जिसमें मुख्य रूप से व्यापारी और व्यावसायिक वर्ग शामिल थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which administrative unit in the Chola Empire was directly below the 'Valanadu' (group of districts)?",
+      "option_a": "Mandalam",
+      "option_b": "Nadu",
+      "option_c": "Kurram",
+      "option_d": "Taniyur",
+      "correct": "B",
+      "explanation": "Correct option: B. The Chola empire was divided into Mandalams (provinces), which were split into Valanadus (revenue districts), and further subdivided into Nadus (districts/talukas)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल साम्राज्य में कौन सी प्रशासनिक इकाई 'वलनाडु' (जिलों का समूह) के ठीक नीचे स्थित थी?",
+      "option_a": "मंडलम",
+      "option_b": "नाडु",
+      "option_c": "कुर्रम",
+      "option_d": "तनियुर",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. चोल साम्राज्य को मंडलम (प्रांतों) में विभाजित किया गया था, जिन्हें वलनाडु (राजस्व जिलों) में विभाजित किया गया था, और आगे नाडु (जिलों/ताल्लुकों) में उपविभाजित किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What was the primary purpose of the 'Kudavolai' system in Chola local self-government?",
+      "option_a": "Levying taxes on agricultural fields",
+      "option_b": "Selecting committee members by drawing lots",
+      "option_c": "Recruiting soldiers for the imperial navy",
+      "option_d": "Distributing royal charters to temples",
+      "correct": "B",
+      "explanation": "Correct option: B. 'Kudavolai' (pot-ticket system) was used to select members for various village committees (variyams) by drawing palm-leaf tickets from a pot."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल स्थानीय स्वशासन में 'कुदावोलाई' प्रणाली का प्राथमिक उद्देश्य क्या था?",
+      "option_a": "कृषि भूमि पर कर लगाना",
+      "option_b": "लॉटरी (पर्ची) के माध्यम से समिति के सदस्यों का चयन करना",
+      "option_c": "शाही नौसेना के लिए सैनिकों की भर्ती करना",
+      "option_d": "मंदिरों को शाही चार्टर वितरित करना",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'कुदावोलाई' (पॉट-टिकट प्रणाली) का उपयोग एक घड़े से ताड़ के पत्ते की पर्ची निकालकर विभिन्न ग्राम समितियों (वारियम) के सदस्यों का चयन करने के लिए किया जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Chola military units included a highly trusted personal bodyguard force of the king, who were sworn to defend him with their lives. They were known as:",
+      "option_a": "Velaikkarars",
+      "option_b": "Kaikkolars",
+      "option_c": "Sengundars",
+      "option_d": "Valanjiyar",
+      "correct": "A",
+      "explanation": "Correct option: A. The Velaikkarars were the elite royal bodyguards of the Chola kings who took a vow to defend the king at all costs and sacrifice their lives on his funeral pyre."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल सैन्य इकाइयों में राजा के अत्यधिक विश्वसनीय व्यक्तिगत अंगरक्षक शामिल थे, जो अपने प्राणों की बाजी लगाकर उसकी रक्षा करने की शपथ लेते थे। उन्हें क्या कहा जाता था?",
+      "option_a": "वेलैक्कारार",
+      "option_b": "कैकोलर",
+      "option_c": "सेंगुंदर",
+      "option_d": "वलंजियार",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. वेलैक्कारार चोल राजाओं के विशिष्ट अंगरक्षक थे, जिन्होंने हर कीमत पर राजा की रक्षा करने और उनकी चिता पर अपने प्राणों की आहुति देने की शपथ ली थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Chola queen, wife of Gandaraditya, was a celebrated patron of art and architecture and converted many brick temples into stone structures?",
+      "option_a": "Kundavai",
+      "option_b": "Sembiyan Mahadevi",
+      "option_c": "Lokamahadevi",
+      "option_d": "Vanavan Mahadevi",
+      "correct": "B",
+      "explanation": "Correct option: B. Queen Sembiyan Mahadevi (widow of Gandaraditya Chola) was a devout Shaivite who rebuilt older brick temples in fine granite stone and donated lavishly."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गंडरादित्य की पत्नी कौन सी चोल रानी कला और वास्तुकला की प्रसिद्ध संरक्षक थीं और उन्होंने कई ईंटों के मंदिरों को पत्थर की संरचनाओं में परिवर्तित किया था?",
+      "option_a": "कुन्दवई",
+      "option_b": "सेम्बियन महादेवी",
+      "option_c": "लोकमहादेवी",
+      "option_d": "वानवन महादेवी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. रानी सेम्बियन महादेवी (गंडरादित्य चोल की विधवा) एक समर्पित शैव भक्त थीं, जिन्होंने पुराने ईंटों के मंदिरों को उत्कृष्ट ग्रेनाइट पत्थर में पुनर्निर्मित कराया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the Chola king defeated by the Rashtrakuta forces led by Krishna III in the famous Battle of Takkolam (949 CE)?",
+      "option_a": "Aditya I",
+      "option_b": "Parantaka I",
+      "option_c": "Rajaraja I",
+      "option_d": "Rajendra I",
+      "correct": "B",
+      "explanation": "Correct option: B. In the Battle of Takkolam, the Chola crown prince Rajaditya (son of Parantaka I) was killed, and Parantaka I suffered a major defeat against Rashtrakuta Krishna III."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रसिद्ध तक्कोलम के युद्ध (949 ईस्वी) में कृष्ण तृतीय के नेतृत्व वाली राष्ट्रकूट सेना द्वारा पराजित होने वाला चोल राजा कौन था?",
+      "option_a": "आदित्य प्रथम",
+      "option_b": "परांतक प्रथम",
+      "option_c": "राजराज प्रथम",
+      "option_d": "राजेन्द्र प्रथम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. तक्कोलम के युद्ध में, चोल राजकुमार राजादित्य (परांतक प्रथम के पुत्र) मारे गए थे, और परांतक प्रथम को राष्ट्रकूट शासक कृष्ण तृतीय के खिलाफ एक बड़ी हार का सामना करना पड़ा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following ports on the Coromandel coast served as a primary naval base and trade port for the Cholas for overseas voyages?",
+      "option_a": "Muziris",
+      "option_b": "Nagapattinam",
+      "option_c": "Kalyan",
+      "option_d": "Tamralipti",
+      "correct": "B",
+      "explanation": "Correct option: B. Nagapattinam (along with Kaveripattinam) was the main port and naval base of the Cholas on the Coromandel coast, handling extensive trade with Southeast Asia."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कोरोमंडल तट पर निम्नलिखित में से कौन सा बंदरगाह विदेशों में जहाजों को भेजने के लिए चोलों के मुख्य नौसैनिक अड्डे और व्यापारिक बंदरगाह के रूप में कार्य करता था?",
+      "option_a": "मुज़िरिस",
+      "option_b": "नागापट्टिनम",
+      "option_c": "कल्याण",
+      "option_d": "ताम्रलिप्ति",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. कोरोमंडल तट पर नागापट्टिनम (कावेरीपट्टिनम के साथ) चोलों का मुख्य बंदरगाह और नौसैनिक अड्डा था, जहां से दक्षिण-पूर्व एशिया के साथ व्यापक व्यापार होता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under Chola local administration, which village committee was specifically responsible for looking after irrigation ponds and water reservoirs?",
+      "option_a": "Thotta-variyam",
+      "option_b": "Eri-variyam",
+      "option_c": "Pon-variyam",
+      "option_d": "Samvatsara-variyam",
+      "correct": "B",
+      "explanation": "Correct option: B. 'Eri-variyam' was the Tank Committee responsible for maintaining irrigation tanks, desilting, and managing water distribution."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल स्थानीय प्रशासन के तहत, कौन सी ग्राम समिति विशेष रूप से सिंचाई तालाबों और जल जलाशयों की देखभाल के लिए जिम्मेदार थी?",
+      "option_a": "थोट्टा-वारियम",
+      "option_b": "एरी-वारियम",
+      "option_c": "पोन-वारियम",
+      "option_d": "संवत्सर-वारियम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'एरी-वारियम' तालाब समिति थी जो सिंचाई तालाबों के रखरखाव, गाद निकालने और पानी के वितरण के प्रबंधन के लिए जिम्मेदार थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous Tamil poet Kamban, who composed the 'Kamba Ramayanam', lived during the reign of which Chola ruler?",
+      "option_a": "Rajaraja I",
+      "option_b": "Rajendra I",
+      "option_c": "Kulottunga III",
+      "option_d": "Parantaka I",
+      "correct": "C",
+      "explanation": "Correct option: C. Kamban, the author of the Ramavataram (famously known as Kamba Ramayanam), flourished in the Chola court during the reign of Kulottunga III."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'कम्ब रामायणम' की रचना करने वाले प्रसिद्ध तमिल कवि कम्बन किस चोल शासक के शासनकाल में रहते थे?",
+      "option_a": "राजराज प्रथम",
+      "option_b": "राजेन्द्र प्रथम",
+      "option_c": "कुलोत्तुंग तृतीय",
+      "option_d": "परांतक प्रथम",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. रामवतारम (जिसे कम्ब रामायणम के नाम से जाना जाता है) के लेखक कम्बन कुलोत्तुंग तृतीय के शासनकाल के दौरान चोल दरबार में फले-फूले थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What was the standard Chola gold coin, widely referred to in inscriptions as having high purity and used in commercial transactions?",
+      "option_a": "Dinar",
+      "option_b": "Kalanju",
+      "option_c": "Pagoda",
+      "option_d": "Dramma",
+      "correct": "B",
+      "explanation": "Correct option: B. The 'Kalanju' (or Kasu) was a standard gold coin of the Cholas used for high-value transactions, donations, and taxes."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मानक चोल स्वर्ण सिक्का कौन सा था, जिसे शिलालेखों में उच्च शुद्धता का बताया गया है और व्यापारिक लेनदेन में उपयोग किया जाता था?",
+      "option_a": "दीनार",
+      "option_b": "कलंजु",
+      "option_c": "पगोडा",
+      "option_d": "द्रम्म",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'कलंजु' (या कासु) चोलों का एक मानक स्वर्ण सिक्का था जिसका उपयोग उच्च मूल्य के लेनदेन, दान और करों के लिए किया जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Chola ruler gilded the roof of the famous Nataraja Temple at Chidambaram with gold, earning him the title 'Pon-veinda-perumal'?",
+      "option_a": "Aditya I",
+      "option_b": "Parantaka I",
+      "option_c": "Rajaraja I",
+      "option_d": "Rajendra I",
+      "correct": "B",
+      "explanation": "Correct option: B. Parantaka I gilded the golden hall (Kanaka Sabha) of the Nataraja Temple at Chidambaram with gold, earning great fame as a Shaivite patron."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस चोल शासक ने चिदंबरम में प्रसिद्ध नटराज मंदिर की छत को सोने से मढ़वाया था, जिससे उन्हें 'पोन-वेइंदा-पेरुमल' की उपाधि मिली?",
+      "option_a": "आदित्य प्रथम",
+      "option_b": "परांतक प्रथम",
+      "option_c": "राजराज प्रथम",
+      "option_d": "राजेन्द्र प्रथम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. परांतक प्रथम ने चिदंबरम में नटराज मंदिर के स्वर्ण सभा (कनक सभा) की छत को सोने से मढ़वाया था, जिससे उन्हें शैव संरक्षक के रूप में बड़ी प्रसिद्धि मिली।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under Chola land classifications, the tax-free land granted specifically to Hindu temples was known as:",
+      "option_a": "Brahmadeya",
+      "option_b": "Devadana",
+      "option_c": "Shalabhoga",
+      "option_d": "Pallichchhandam",
+      "correct": "B",
+      "explanation": "Correct option: B. 'Devadana' (or Tirunamattukkani) was the term used for land gifted tax-free to Hindu temples for their upkeep and rituals."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल भूमि वर्गीकरण के अंतर्गत, विशेष रूप से हिंदू मंदिरों को दी जाने वाली कर-मुक्त भूमि को क्या कहा जाता था?",
+      "option_a": "ब्रह्मदेय",
+      "option_b": "देवदान",
+      "option_c": "शालाभोग",
+      "option_d": "पल्लिच्चंदम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'देवदान' (या तिरुनामट्टुक्कनी) हिंदू मंदिरों के रखरखाव और अनुष्ठानों के लिए कर-मुक्त उपहार में दी गई भूमि को कहा जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The royal officer who wrote down the oral orders of the Chola king on palm leaves was called:",
+      "option_a": "Olai-nayagam",
+      "option_b": "Adigari",
+      "option_c": "Perundaram",
+      "option_d": "Sirutaram",
+      "correct": "A",
+      "explanation": "Correct option: A. The royal scribe/officer who drafted the king's orders onto palm leaves (ola) was known as the Olai-nayagam (or Tiruvaykkelvi)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ताड़ के पत्तों पर चोल राजा के मौखिक आदेशों को लिखने वाले शाही अधिकारी को क्या कहा जाता था?",
+      "option_a": "ओलै-नायगम",
+      "option_b": "अदिगारी",
+      "option_c": "पेरुंदरम",
+      "option_d": "सिरुतरम",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. ताड़ के पत्तों (ओलै) पर राजा के आदेशों का मसौदा तैयार करने वाले शाही लेखक/अधिकारी को ओलै-नायगम (या तिरुवायक्केलवी) कहा जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): The Chola assembly at Uttaramerur selected its committee members using the 'Kudavolai' system.\nReason (R): The Chola administration wanted to establish a modern democratic electoral system based on universal adult franchise.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Assertion (A) is true as the Kudavolai (pot-ticket) system was indeed used for selecting committee members. Reason Analysis: Reason (R) is false because Kudavolai was a selection by drawing lots among qualified candidates, not a modern democratic election with universal adult franchise."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): उत्तरमेरुर में चोल सभा ने 'कुदावोलाई' प्रणाली का उपयोग करके अपनी समिति के सदस्यों का चयन किया।\nकारण (R): चोल प्रशासन सार्वभौमिक वयस्क मताधिकार पर आधारित एक आधुनिक लोकतांत्रिक चुनावी प्रणाली स्थापित करना चाहता था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि समिति के सदस्यों के चयन के लिए वास्तव में कुदावोलाई (पर्ची) प्रणाली का उपयोग किया जाता था। कारण विश्लेषण: कारण (R) असत्य है क्योंकि कुदावोलाई योग्य उम्मीदवारों के बीच पर्ची निकालकर किया जाने वाला चयन था, न कि सार्वभौमिक वयस्क मताधिकार पर आधारित आधुनिक लोकतांत्रिक चुनाव।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): The Bay of Bengal was frequently referred to as the 'Chola Lake' during the eleventh century CE.\nReason (R): The Cholas possessed a highly advanced naval fleet that dominated the maritime trade routes and islands of the region.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true as the Bay of Bengal became a virtual Chola Lake during their peak. Reason Analysis: Reason (R) is true and correctly explains A, because their maritime supremacy and naval raids enabled absolute domination over this water body."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): ग्यारहवीं शताब्दी ईस्वी के दौरान बंगाल की खाड़ी को अक्सर 'चोल झील' कहा जाता था।\nकारण (R): चोलों के पास एक अत्यंत उन्नत नौसैनिक बेड़ा था जिसने इस क्षेत्र के समुद्री व्यापार मार्गों और द्वीपों पर अपना वर्चस्व स्थापित किया था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि बंगाल की खाड़ी उनके चरम काल में व्यावहारिक रूप से 'चोल झील' बन गई थी। कारण विश्लेषण: कारण (R) सत्य है और A की सही व्याख्या करता है, क्योंकि उनके समुद्री वर्चस्व और नौसैनिक हमलों ने इस जल क्षेत्र पर पूर्ण नियंत्रण स्थापित कर दिया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): The Chola king Rajendra I founded the city of Gangaikondacholapuram and constructed a grand Shiva temple there.\nReason (R): He wanted to commemorate his successful military expedition to the Ganga valley where his generals defeated local rulers.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true; Rajendra I built the city and temple. Reason Analysis: Reason (R) is true and directly explains the creation of the city to celebrate bringing the holy water of Ganga to his capital."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): चोल राजा राजेन्द्र प्रथम ने गंगैकोंडचोलपुरम शहर की स्थापना की और वहां एक भव्य शिव मंदिर का निर्माण कराया।\nकारण (R): वह गंगा घाटी में अपने सफल सैन्य अभियान की स्मृति को अक्षुण्ण रखना चाहते थे जहां उनके सेनापतियों ने स्थानीय राजाओं को हराया था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है; राजेन्द्र प्रथम ने इस शहर और मंदिर का निर्माण कराया था। कारण विश्लेषण: कारण (R) सत्य है और सीधे तौर पर शहर की स्थापना की व्याख्या करता है जो कि पवित्र गंगा जल को अपनी राजधानी लाने के उत्सव का प्रतीक था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): In Chola local self-government, candidates contesting for Sabha committees had to meet strict qualifications regarding land ownership, age, and moral character.\nReason (R): The Chola kings aimed to exclude the Brahmana landholders from participating in local administrative decisions.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Assertion (A) is true; qualifications were detailed and strict. Reason Analysis: Reason (R) is false because the Sabha was specifically meant for Brahmana landholders; the rules were designed to ensure competence and integrity among those eligible Brahmanas, not to exclude them."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): चोल स्थानीय स्वशासन में, सभा समितियों के लिए चुनाव लड़ने वाले उम्मीदवारों को भूमि स्वामित्व, आयु और नैतिक चरित्र के संबंध में सख्त योग्यताएं पूरी करनी होती थीं।\nकारण (R): चोल राजाओं का उद्देश्य स्थानीय प्रशासनिक निर्णयों में भाग लेने से ब्राह्मण भूस्वामियों को बाहर रखना था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है; योग्यताएं विस्तृत और सख्त थीं। कारण विश्लेषण: कारण (R) असत्य है क्योंकि सभा विशेष रूप से ब्राह्मण भूस्वामियों के लिए थी; ये नियम पात्र ब्राह्मणों में दक्षता और ईमानदारी सुनिश्चित करने के लिए बनाए गए थे, न कि उन्हें बाहर करने के लिए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Rajaraja I constructed the magnificent Brihadisvara Temple at Tanjore.\nReason (R): The Chola administration maintained a highly centralized bureaucratic apparatus supported by a powerful standing army.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: Assertion (A) is true as Rajaraja I built the Brihadisvara temple. Reason Analysis: Reason (R) is true because the Cholas did maintain a centralized administrative system and a standing army, but this administrative setup does not explain the construction of the temple."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): राजराज प्रथम ने तंजौर में भव्य बृहदीश्वर मंदिर का निर्माण कराया।\nकारण (R): चोल प्रशासन ने एक शक्तिशाली स्थायी सेना द्वारा समर्थित एक अत्यधिक केंद्रीकृत नौकरशाही तंत्र का रखरखाव किया।",
+      "option_a": "A और R दोनों सत्य हैं, and R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि राजराज प्रथम ने बृहदीश्वर मंदिर का निर्माण कराया था। कारण विश्लेषण: कारण (R) भी सत्य है क्योंकि चोलों ने एक केंद्रीकृत प्रशासनिक व्यवस्था और स्थायी सेना बनाए रखी थी, लेकिन यह प्रशासनिक ढांचा मंदिर निर्माण का कारण नहीं समझाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): The merchant guild known as 'Manigramam' was prominent in Chola overseas trade.\nReason (R): The Chola rulers sent trade and diplomatic embassies to China to expand their maritime commercial influence.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: Assertion (A) is true; Manigramam was a key merchant guild. Reason Analysis: Reason (R) is true as Chola kings sent diplomatic missions to China (e.g., Kulottunga I), but R does not explain the internal functioning or existence of the Manigramam guild."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): 'मणिग्रामम' के नाम से जाना जाने वाला व्यापारिक संघ चोलों के विदेशी व्यापार में प्रमुख था।\nकारण (R): चोल शासकों ने अपने समुद्री वाणिज्यिक प्रभाव का विस्तार करने के लिए चीन में व्यापारिक और राजनयिक मिशन भेजे थे।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है; मणिग्रामम एक प्रमुख व्यापारी संघ था। कारण विश्लेषण: कारण (R) सत्य है क्योंकि चोल राजाओं ने चीन में राजनयिक मिशन भेजे थे (जैसे कुलोत्तुंग प्रथम), लेकिन R मणिग्रामम संघ के अस्तित्व या आंतरिक कार्यप्रणाली की व्याख्या नहीं करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): The Cholas established a elaborate system of land surveys to assess tax obligations.\nReason (R): The state revenue system (Kadamai) was based on a fixed proportion of actual agricultural produce rather than arbitrary levies.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true; systematic surveys were conducted. Reason Analysis: Reason (R) is true and explains why surveys were essential—to calculate the exact yield and collect a fair proportion of the harvest as tax."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): चोलों ने कर दायित्वों का आकलन करने के लिए भूमि सर्वेक्षण की एक विस्तृत प्रणाली स्थापित की थी।\nकारण (R): राज्य की राजस्व प्रणाली (कदामई) मनमाने करों के बजाय वास्तविक कृषि उपज के एक निश्चित अनुपात पर आधारित थी।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है; व्यवस्थित सर्वेक्षण किए गए थे। कारण विश्लेषण: कारण (R) सत्य है और यह बताता है कि सर्वेक्षण क्यों आवश्यक थे—ताकि सटीक उपज की गणना की जा सके और कर के रूप में फसल का एक उचित हिस्सा एकत्र किया जा सके।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Rajendra I launched a major naval campaign against the Srivijaya Empire in 1025 CE.\nReason (R): Srivijaya had obstructed the Chola maritime trade routes passing through the Strait of Malacca towards China.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true; Rajendra I launched this campaign in 1025 CE. Reason Analysis: Reason (R) is true and explains A, as the main motive was to remove obstacles placed by Srivijaya on merchants trading with China."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): राजेन्द्र प्रथम ने 1025 ईस्वी में श्रीविजय साम्राज्य के खिलाफ एक बड़ा नौसैनिक अभियान शुरू किया था।\nकारण (R): श्रीविजय ने मलक्का जलडमरूमध्य से होकर चीन की ओर जाने वाले चोल समुद्री व्यापार मार्गों में बाधा उत्पन्न की थी।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है; राजेन्द्र प्रथम ने 1025 ईस्वी में यह अभियान शुरू किया था। कारण विश्लेषण: कारण (R) सत्य है और A की व्याख्या करता है, क्योंकि मुख्य उद्देश्य चीन के साथ व्यापार करने वाले व्यापारियों पर श्रीविजय द्वारा लगाई गई बाधाओं को हटाना था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Chola Land Categories) with List-II (Description) and select the correct answer:\nList-I:\na) Shalabhoga\nb) Devadana\nc) Pallichchhandam\nd) Vellanvagai\n\nList-II:\n1) Land maintained for a school\n2) Land gifted to temples\n3) Land donated to Jaina institutions\n4) Land of non-Brahmana peasant proprietors",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-4, b-3, c-2, d-1",
+      "option_d": "a-1, b-3, c-2, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Shalabhoga (a) matches school land [1]. Devadana (b) matches temple land [2]. Pallichchhandam (c) matches Jaina land [3]. Vellanvagai (d) matches peasant land [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (चोल भूमि श्रेणियां) को सूची-II (विवरण) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) शालाभोग\nb) देवदान\nc) पल्लिच्चंदम\nd) वेल्लनवगाई\n\nसूची-II:\n1) स्कूल के रखरखाव के लिए भूमि\n2) मंदिरों को दान दी गई भूमि\n3) जैन संस्थानों को दान की गई भूमि\n4) गैर-ब्राह्मण किसान स्वामियों की भूमि",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-4, b-3, c-2, d-1",
+      "option_d": "a-1, b-3, c-2, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. शालाभोग (a) स्कूल भूमि [1] से मेल खाता है। देवदान (b) मंदिर भूमि [2] से मेल खाता है। पल्लिच्चंदम (c) जैन भूमि [3] से मेल खाता है। वेल्लनवगाई (d) किसान भूमि [4] से मेल खाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Chola Village Committees) with List-II (Functional Department) and select the correct answer:\nList-I:\na) Eri-variyam\nb) Thotta-variyam\nc) Pon-variyam\nd) Samvatsara-variyam\n\nList-II:\n1) Tank Committee\n2) Garden Committee\n3) Gold and Currency Committee\n4) Annual Standing Committee",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "B",
+      "explanation": "Correct option: B. Eri-variyam (a) is the Tank Committee [1]. Thotta-variyam (b) is the Garden Committee [2]. Pon-variyam (c) is the Gold Committee [3]. Samvatsara-variyam (d) is the Annual Committee [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (चोल ग्राम समितियां) को सूची-II (कार्यात्मक विभाग) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) एरी-वारियम\nb) थोट्टा-वारियम\nc) पोन-वारियम\nd) संवत्सर-वारियम\n\nसूची-II:\n1) तालाब समिति\n2) उद्यान समिति\n3) स्वर्ण एवं मुद्रा समिति\n4) वार्षिक स्थायी समिति",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. एरी-वारियम (a) तालाब समिति [1] है। थोट्टा-वारियम (b) उद्यान समिति [2] है। पोन-वारियम (c) स्वर्ण समिति [3] है। संवत्सर-वारियम (d) वार्षिक समिति [4] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Chola Kings) with List-II (Specific Titles / Appellations) and select the correct answer:\nList-I:\na) Vijayalaya\nb) Rajaraja I\nc) Rajendra I\nd) Kulottunga I\n\nList-II:\n1) Parakesarivarman (Tanjore Founder)\n2) Mummudi-Chola\n3) Gangaikonda-Chola\n4) Sungamtavirtta-Chola",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Vijayalaya (a) took Parakesari title [1]. Rajaraja I (b) was Mummudi-Chola [2]. Rajendra I (c) was Gangaikonda-Chola [3]. Kulottunga I (d) was Sungamtavirtta-Chola [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (चोल राजा) को सूची-II (विशिष्ट उपाधियाँ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) विजयालय\nb) राजराज प्रथम\nc) राजेन्द्र प्रथम\nd) कुलोत्तुंग प्रथम\n\nसूची-II:\n1) परकेसरीवर्मन (तंजौर संस्थापक)\n2) मुम्मुडी-चोल\n3) गंगैकोंड-चोल\n4) सुंगमतविर्त्त-चोल",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. विजयालय (a) ने परकेसरी उपाधि [1] ली। राजराज प्रथम (b) मुम्मुडी-चोल [2] थे। राजेन्द्र प्रथम (c) गंगैकोंड-चोल [3] थे। कुलोत्तुंग प्रथम (d) सुंगमतविर्त्त-चोल [4] थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Chola Administrative Units) with List-II (Modern Equivalent / Meaning) and select the correct answer:\nList-I:\na) Mandalam\nb) Valanadu\nc) Nadu\nd) Kurram\n\nList-II:\n1) Province\n2) Group of Districts (Revenue Division)\n3) District (Group of Villages)\n4) Union of villages (Sub-district)",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "B",
+      "explanation": "Correct option: B. Mandalam (a) is a Province [1]. Valanadu (b) is a Revenue Division [2]. Nadu (c) is a District [3]. Kurram (d) is a Union of villages [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (चोल प्रशासनिक इकाइयां) को सूची-II (आधुनिक समकक्ष / अर्थ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) मंडलम\nb) वलनाडु\nc) नाडु\nd) कुर्रम\n\nसूची-II:\n1) प्रांत\n2) जिलों का समूह (राजस्व प्रभाग)\n3) जिला (गाँवों का समूह)\n4) गाँवों का संघ (उप-जिला)",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. मंडलम (a) प्रांत [1] है। वलनाडु (b) राजस्व प्रभाग [2] है। नाडु (c) जिला [3] है। कुर्रम (d) गाँवों का संघ [4] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Chola Temples) with List-II (Constructing Ruler) and select the correct answer:\nList-I:\na) Brihadisvara Temple, Tanjore\nb) Gangaikondacholapuram Temple\nc) Airavatesvara Temple, Darasuram\nd) Kampaharesvara Temple, Tribhuvanam\n\nList-II:\n1) Rajaraja I\n2) Rajendra I\n3) Rajaraja II\n4) Kulottunga III",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Brihadisvara (a) was built by Rajaraja I [1]. Gangaikondacholapuram (b) was built by Rajendra I [2]. Airavatesvara (c) was built by Rajaraja II [3]. Kampaharesvara (d) was built by Kulottunga III [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (चोल मंदिर) को सूची-II (निर्माण करने वाले शासक) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) बृहदीश्वर मंदिर, तंजौर\nb) गंगैकोंडचोलपुरम मंदिर\nc) ऐरावतेश्वर मंदिर, दारासुरम\nd) कम्पहरेश्वर मंदिर, त्रिभुवनम\n\nसूची-II:\n1) राजराज प्रथम\n2) राजेन्द्र प्रथम\n3) राजराज द्वितीय\n4) कुलोत्तुंग तृतीय",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. बृहदीश्वर (a) का निर्माण राजराज प्रथम [1] द्वारा कराया गया था। गंगैकोंडचोलपुरम (b) राजेन्द्र प्रथम [2] द्वारा। ऐरावतेश्वर (c) राजराज द्वितीय [3] द्वारा। कम्पहरेश्वर (d) कुलोत्तुंग तृतीय [4] द्वारा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Naval Campaign / Overseas Location) with List-II (Chola Conquest / Association) and select the correct answer:\nList-I:\na) Anuradhapura\nb) Kadaram (Kedah)\nc) Lakshadweep & Maldives\nd) Pegu (Myanmar Coast)\n\nList-II:\n1) Sacked by Rajaraja I (Northern Ceylon)\n2) Sacked by Rajendra I (Srivijaya Campaign)\n3) Conquered by Rajaraja I's fleet\n4) Naval raids by Rajendra I's forces",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "B",
+      "explanation": "Correct option: B. Anuradhapura (a) was sacked by Rajaraja I [1]. Kadaram (b) was sacked by Rajendra I [2]. Lakshadweep/Maldives (c) were conquered by Rajaraja I [3]. Pegu (d) was raided by Rajendra I [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (नौसैनिक अभियान / विदेशी स्थान) को सूची-II (चोल विजय / संबद्धता) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) अनुराधापुर\nb) कदारम (केदाह)\nc) लक्षद्वीप और मालदीव\nd) पेगू (म्यांमार तट)\n\nसूची-II:\n1) राजराज प्रथम द्वारा नष्ट किया गया (उत्तरी सीलोन)\n2) राजेन्द्र प्रथम द्वारा नष्ट किया गया (श्रीविजय अभियान)\n3) राजराज प्रथम के बेड़े द्वारा विजित\n4) राजेन्द्र प्रथम की सेना द्वारा नौसैनिक हमले",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. अनुराधापुर (a) राजराज प्रथम द्वारा नष्ट किया गया था [1]। कदारम (b) राजेन्द्र प्रथम द्वारा [2]। लक्षद्वीप/मालदीव (c) राजराज प्रथम द्वारा विजित हुए [3]। पेगू (d) राजेन्द्र प्रथम द्वारा आक्रांत हुआ [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Local Assemblies/Executive Groups) with List-II (Specific Nature / Composition) and select the correct answer:\nList-I:\na) Sabha\nb) Ur\nc) Nagaram\nd) Alunganam\n\nList-II:\n1) Assembly of Brahmana landowners\n2) General assembly of common villagers\n3) Assembly of merchants and traders\n4) Executive committee of the local assembly",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Sabha (a) corresponds to the Brahmana assembly [1]. Ur (b) corresponds to the common village assembly [2]. Nagaram (c) is the merchant assembly [3]. Alunganam (d) is the executive group [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (स्थानीय सभाएं/कार्यकारी समूह) को सूची-II (विशिष्ट प्रकृति / संरचना) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) सभा\nb) उर\nc) नगरम\nd) अलुंगनम\n\nसूची-II:\n1) ब्राह्मण भूस्वामियों की सभा\n2) आम ग्रामीणों की सामान्य सभा\n3) व्यापारियों और सौदागरों की सभा\n4) स्थानीय सभा की कार्यकारी समिति",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. सभा (a) ब्राह्मणों की सभा [1] से संबंधित है। उर (b) आम ग्रामीणों की सभा [2] से। नगरम (c) व्यापारिक सभा [3] से। अलुंगनम (d) कार्यकारी समूह [4] से।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Chola Inscriptions / Epigraphs) with List-II (Historical Information / Theme) and select the correct answer:\nList-I:\na) Uttaramerur Inscription\nb) Anaimangalam Plates\nc) Thiruvalangadu Plates\nd) Kanyakumari Inscription\n\nList-II:\n1) Detailed rules of village committee elections\n2) Gift of a village to Buddhist monastery (Leiden Grant)\n3) Describes Rajendra I's military and naval campaigns\n4) Traces Chola genealogy back to solar dynasty",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "B",
+      "explanation": "Correct option: B. Uttaramerur (a) describes village committee elections [1]. Anaimangalam (b) describes Buddhist monastery land gifts [2]. Thiruvalangadu (c) describes Rajendra I's campaigns [3]. Kanyakumari (d) traces Chola solar lineage [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (चोल शिलालेख) को सूची-II (ऐतिहासिक जानकारी / विषय) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) उत्तरमेरुर शिलालेख\nb) अनैमंगलम पट्टिकाएं\nc) तिरुवालंगाडु पट्टिकाएं\nd) कन्याकुमारी शिलालेख\n\nसूची-II:\n1) ग्राम समिति के चुनावों के विस्तृत नियम\n2) बौद्ध मठ को ग्राम दान (लीडेन ग्रांट)\n3) राजेन्द्र प्रथम के सैन्य और नौसैनिक अभियानों का वर्णन\n4) चोल वंशावली को सूर्यवंश से जोड़ना",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. उत्तरमेरुर (a) ग्राम समिति चुनावों का वर्णन करता है [1]। अनैमंगलम (b) बौद्ध मठ भूमि दान का [2]। तिरुवालंगाडु (c) राजेन्द्र प्रथम के अभियानों का [3]। कन्याकुमारी (d) चोल सूर्यवंश वंशावली का [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Chola administration:\n1. The Chola administration was highly decentralized, with the king having no standing army or personal bodyguards.\n2. The village assembly of 'Ur' consisted exclusively of those who were well-versed in Vedas and owned tax-free land.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "D",
+      "explanation": "Statement 1 is incorrect because the Cholas maintained a highly efficient, powerful standing army and royal bodyguards (Velaikkarars). Statement 2 is incorrect because the assembly of 'Ur' was a general assembly of common tax-paying villagers, whereas the assembly of Vedic-scholar landowners was the 'Sabha' (or Mahasabha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल प्रशासन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. चोल प्रशासन अत्यधिक विकेंद्रीकृत था, जिसमें राजा के पास कोई स्थायी सेना या व्यक्तिगत अंगरक्षक नहीं थे।\n2. 'उर' की ग्राम सभा में विशेष रूप से वही लोग शामिल थे जो वेदों के ज्ञाता थे और कर-मुक्त भूमि के स्वामी थे।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "D",
+      "explanation": "कथन 1 गलत है क्योंकि चोलों ने एक अत्यंत कुशल, शक्तिशाली स्थायी सेना और शाही अंगरक्षकों (वेलैक्कारार) का रखरखाव किया था। कथन 2 गलत है क्योंकि 'उर' की सभा सामान्य करदाता ग्रामीणों की सभा थी, जबकि वैदिक विद्वान भूस्वामियों की सभा 'सभा' (या महासभा) थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Chola expansion in Sri Lanka:\n1. Rajaraja I conquered northern Sri Lanka and established a new province, making Polonnaruwa its capital.\n2. Rajendra I completed the conquest of the entire island of Sri Lanka, taking the Sinhalese king Mahinda V prisoner.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct as Rajaraja I invaded Sri Lanka, destroyed Anuradhapura, and established Polonnaruwa (renamed Jananathamangalam) as the capital. Statement 2 is correct as his son Rajendra I completed the southern conquest and captured King Mahinda V."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. श्रीलंका में चोल विस्तार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. राजराज प्रथम ने उत्तरी श्रीलंका पर विजय प्राप्त की और पोलोनरुवा को इसकी राजधानी बनाकर एक नया प्रांत स्थापित किया।\n2. राजेन्द्र प्रथम ने श्रीलंका के पूरे द्वीप की विजय को पूरा किया और सिंहली राजा महिंदा पंचम को बंदी बना लिया।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि राजराज प्रथम ने श्रीलंका पर आक्रमण किया, अनुराधापुर को नष्ट किया और पोलोनरुवा (जिसका नाम बदलकर जननाथमंगलम रखा गया) को राजधानी बनाया। कथन 2 सही है क्योंकि उनके पुत्र राजेन्द्र प्रथम ने दक्षिणी विजय पूरी की और राजा महिंदा पंचम को बंदी बना लिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Kudavolai system of committee selection under the Cholas:\n1. Candidates who had served on any committee in the previous three years were eligible to contest immediately without any cooling-off period.\n2. Candidates who had failed to submit accounts of their previous committee service, along with their relatives, were strictly barred from contesting.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because anyone who had served on a committee in the previous three years was disqualified from immediate selection. Statement 2 is correct because the failure to submit account records barred both the individual and their close relatives from contesting."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोलों के तहत समिति चयन की कुदावोलाई प्रणाली के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. जिन उम्मीदवारों ने पिछले तीन वर्षों में किसी भी समिति में कार्य किया था, वे बिना किसी प्रतीक्षा अवधि के तुरंत चुनाव लड़ने के पात्र थे।\n2. जिन उम्मीदवारों ने अपनी पिछली समिति सेवा का विवरण प्रस्तुत नहीं किया था, वे और उनके रिश्तेदार चुनाव लड़ने से प्रतिबंधित थे।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि जिस किसी ने भी पिछले तीन वर्षों में किसी समिति में कार्य किया था, उसे तत्काल चयन के लिए अयोग्य घोषित कर दिया जाता था। कथन 2 सही है क्योंकि लेखा-जोखा प्रस्तुत न करने पर संबंधित व्यक्ति और उसके करीबी रिश्तेदारों को चुनाव लड़ने से रोक दिया जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Srivijaya campaign of Rajendra I:\n1. The campaign was directed against King Sangrama Vijayatunggavarman of the Shailendra dynasty.\n2. The Chola forces completely annexed the Srivijaya territories in Sumatra and Malaya, administering them as a Chola province.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as the campaign was indeed against Sangrama Vijayatunggavarman of Srivijaya. Statement 2 is incorrect because the Cholas did not annex Srivijaya; they only raided, extracted plunder and tribute, re-established trade routes, and left the region under local rule."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजेन्द्र प्रथम के श्रीविजय अभियान के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह अभियान शैलेंद्र राजवंश के राजा संग्राम विजयोत्तुंगवर्मन के विरुद्ध निर्देशित था।\n2. चोल सेना ने सुमात्रा और मलाया में श्रीविजय क्षेत्रों को पूरी तरह से मिला लिया और उन्हें चोल प्रांत के रूप में प्रशासित किया।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि यह अभियान वास्तव में श्रीविजय के संग्राम विजयोत्तुंगवर्मन के विरुद्ध था। कथन 2 गलत है क्योंकि चोलों ने श्रीविजय का विलय नहीं किया था; उन्होंने केवल छापे मारे, लूट व कर वसूला, व्यापार मार्ग पुनः स्थापित किए और क्षेत्र को स्थानीय शासन के अधीन छोड़ दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Chola patrons of art and architecture:\n1. Sembiyan Mahadevi was a Rashtrakuta princess who introduced Rashtrakuta elements into Chola temple design.\n2. She is widely credited with converting old brick-built temples into permanent, ornate stone structures.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because Sembiyan Mahadevi was a Chola queen (wife of Gandaraditya) of Mazhavarayar descent, not a Rashtrakuta princess. Statement 2 is correct as she led a massive temple renovation project converting brick shrines into stone."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल कला और वास्तुकला के संरक्षकों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. सेम्बियन महादेवी एक राष्ट्रकूट राजकुमारी थीं, जिन्होंने चोल मंदिर निर्माण में राष्ट्रकूट तत्वों की शुरुआत की थी।\n2. उन्हें पुराने ईंटों से बने मंदिरों को स्थायी, अलंकृत पत्थरों की संरचनाओं में बदलने का व्यापक श्रेय दिया जाता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि सेम्बियन महादेवी मझावरायार वंश की एक चोल रानी (गंडरादित्य की पत्नी) थीं, न कि राष्ट्रकूट राजकुमारी। कथन 2 सही है क्योंकि उन्होंने ईंटों के मंदिरों को पत्थर में बदलने के लिए एक विशाल जीर्णोद्धार परियोजना का नेतृत्व किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Chola administration and surveys:\n1. 'Valanadu' was an administrative division introduced by the Cholas that was larger than a 'Nadu' but smaller than a 'Mandalam'.\n2. The land survey under Rajaraja I was carried out using a standard unit of measurement called 'Sripada' (royal foot).\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because the Valanadu was a larger revenue division grouping several Nadus under a Mandalam. Statement 2 is correct as the standard foot of the king, Sripada, was utilized for conducting uniform land surveys."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल प्रशासन और सर्वेक्षणों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. 'वलनाडु' चोलों द्वारा शुरू किया गया एक प्रशासनिक प्रभाग था जो 'नाडु' से बड़ा लेकिन 'मंडलम' से छोटा था।\n2. राजराज प्रथम के तहत भूमि सर्वेक्षण 'श्रीपाद' (शाही पैर) नामक माप की एक मानक इकाई का उपयोग करके किया गया था।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि वलनाडु एक बड़ा राजस्व प्रभाग था जो एक मंडलम के तहत कई नाडु का समूह था। कथन 2 सही है क्योंकि समान भूमि सर्वेक्षण आयोजित करने के लिए राजा के मानक पैर, श्रीपाद का उपयोग किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Chola society and revenue:\n1. In Chola society, the landless agricultural labourers and outcastes were collectively referred to as 'Pulayas'.\n2. The Chola administration collected land revenue (Kadamai) exclusively in gold coins, strictly prohibiting payments in grain.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Pulayas (or Paraiyas) were the lowest social tier performing agricultural labour. Statement 2 is incorrect because the land revenue (Kadamai) was collected in both cash and kind (mostly paddy), with payment in kind being extremely common."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल समाज और राजस्व के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. चोल समाज में, भूमिहीन कृषि श्रमिकों और अछूतों को सामूहिक रूप से 'पुलैया' कहा जाता था।\n2. चोल प्रशासन केवल स्वर्ण सिक्कों में भू-राजस्व (कदामई) एकत्र करता था और अनाज में भुगतान सख्त वर्जित था।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि पुलैया (या परैया) कृषि श्रम करने वाला सबसे निचला सामाजिक वर्ग था। कथन 2 गलत है क्योंकि भू-राजस्व (कदामई) नकद और वस्तु (ज्यादातर धान) दोनों रूपों में एकत्र किया जाता था, और अनाज में भुगतान बहुत आम था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Chola navy:\n1. The Chola navy was equipped with specialized vessels using sails and rowers, capable of utilizing seasonal monsoon winds to cross the open sea.\n2. Chola warships carried a dedicated force of marine soldiers (known as Nattuppadai) to board and seize enemy vessels during naval battles.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as the Cholas possessed advanced maritime navigation techniques and utilized monsoonal patterns. Statement 2 is incorrect because the marine/navy soldiers were generally called 'Kapparpadai' (naval troops) or marine forces, while 'Nattuppadai' referred to local militia or territorial infantry forces."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल नौसेना के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. चोल नौसेना पाल और मल्लाहों का उपयोग करने वाले विशिष्ट जहाजों से सुसज्जित थी, जो खुले समुद्र को पार करने के लिए मौसमी मानसूनी हवाओं का उपयोग करने में सक्षम थे।\n2. नौसैनिक युद्धों के दौरान दुश्मन के जहाजों पर नियंत्रण करने के लिए चोल युद्धपोतों पर समुद्री सैनिकों का एक समर्पित बल (जिन्हें नाट्टुप्पडै कहा जाता था) तैनात रहता था।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि चोलों के पास उन्नत समुद्री नेविगेशन तकनीक थी और वे मानसूनी हवाओं का उपयोग करते थे। कथन 2 गलत है क्योंकि समुद्री/नौसेना के सैनिकों को आम तौर पर 'कप्पारपडै' (नौसेना सैनिक) कहा जाता था, जबकि 'नाट्टुप्पडै' का अर्थ स्थानीय मिलिशिया या प्रादेशिक पैदल सेना से था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Chola trade guilds:\n1. Major trade guilds like 'Nanadesi' and 'Ayyavole-500' operated only within the boundaries of South India and were banned from overseas activities.\n2. These powerful merchant guilds maintained their own private mercenary armies to protect their trade caravans from bandits.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because these guilds operated extensively in Southeast Asia, Sri Lanka, and China, actively engaging in maritime trade. Statement 2 is correct because the guilds maintained independent armed guards (such as Velaikkarar or Elaipadai) to protect their trade caravans."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल व्यापारिक संघों (गिल्ड) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. 'नानादेसी' और 'अय्यावोल-500' जैसे प्रमुख व्यापारिक संघ केवल दक्षिण भारत की सीमाओं के भीतर ही काम करते थे और उनकी विदेशी गतिविधियों पर प्रतिबंध था।\n2. इन शक्तिशाली व्यापारिक संघों ने डाकुओं से अपने व्यापारिक काफिलों की रक्षा के लिए अपनी निजी सैनिक टुकड़ियों का रखरखाव किया था।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि ये संघ दक्षिण-पूर्व एशिया, श्रीलंका और चीन में बड़े पैमाने पर काम करते थे और समुद्री व्यापार में सक्रिय थे। कथन 2 सही है क्योंकि इन संघों ने अपने व्यापारिक काफिलों की रक्षा के लिए स्वतंत्र सशस्त्र रक्षकों का रखरखाव किया था।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Outline the composition and qualifications of the 'Sabha' under the Chola local self-government system. [5 Marks, 50 Words]",
+      "model_answer": "The Sabha was the assembly of Brahmana-dominated Brahmadeya villages under Chola local government.\n\nKey aspects:\n- **Composition**: Comprised Brahmana landholders organized into executive committees called 'Variyams'.\n- **Qualifications**: Candidates required ownership of tax-paying land (~1.5 acres), residence on their own land, age between 35-70, and knowledge of the Vedas and Dharamshastras.\n- **Disqualifications**: Misconduct, failure to submit accounts, or previous committee service within three years barred entry.\n\nThus, it ensured elite-driven, decentralized, and merit-based local administration."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल स्थानीय स्वशासन प्रणाली के तहत 'सभा' की संरचना और योग्यताओं को रेखांकित कीजिए। [5 Marks, 50 Words]",
+      "model_answer": "सभा चोल स्थानीय प्रशासन के अंतर्गत ब्राह्मण-बहुल ब्रह्मदेय गाँवों की एक महत्वपूर्ण आम सभा थी।\n\nप्रमुख पहलू:\n- **संरचना**: इसमें ब्राह्मण भूस्वामी शामिल थे जो 'वारियम' नामक कार्यकारी समितियों में संगठित थे।\n- **योग्यताएं**: उम्मीदवारों के पास कर-योग्य भूमि (लगभग 1.5 एकड़), अपना घर, 35-70 वर्ष की आयु तथा वेदों और धर्मशास्त्रों का ज्ञान होना आवश्यक था।\n- **अयोग्यताएं**: दुराचार, पिछले लेखा-जोखा प्रस्तुत न करना, या पिछले तीन वर्षों में समिति का सदस्य रहना अयोग्यता का कारण था।\n\nइस प्रकार, इसने एक विकेंद्रीकृत और योग्यता-आधारित स्थानीय प्रशासन सुनिश्चित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the structure, achievements, and historical significance of the Chola Navy during the 10th and 11th centuries CE. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Chola Navy was the military arm of the Chola Empire that enabled South Asian hegemony, turning the Bay of Bengal into a 'Chola Lake'.\n\n### 1. Structural Highlights\n- **Vessels**: Employed various ship types like *Dharani* (warships), *Lola* (transports), and *Vajra* (fast attack boats).\n- **Organization**: Led by the king and *Kappartala* (Admirals), utilizing seasonal monsoon winds for open-sea navigation.\n\n### 2. Key Naval Achievements\n| Ruler | Target Area | Strategic Outcome |\n| :--- | :--- | :--- |\n| **Rajaraja I** | Maldives, Lakshadweep, Northern Sri Lanka | Controlled crucial Indian Ocean trade corridors; destroyed Anuradhapura. |\n| **Rajendra I** | Srivijaya Kingdom, Southern Sri Lanka, Bengal Coast | Defeated Sangrama Vijayatunggavarman; secured Strait of Malacca for China trade. |\n| **Virarajendra** | Kadaram (Kedah) | Suppressed rebellions and restored Chola-friendly vassals in Southeast Asia. |\n\n### 3. Historical Significance\n- **Commercial Boom**: Protected merchant guilds like *Ayyavole-500* and *Nanadesi*, linking South India directly to Canton (China).\n- **Cultural Export**: Facilitated the spread of temple architecture, Sanskrit literature, and Shaivism across Southeast Asia.\n\nConsequently, Chola naval supremacy laid the foundation for maritime trade, regional diplomacy, and cultural synthesis in the Indian Ocean."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 10वीं और 11वीं शताब्दी ईस्वी के दौरान चोल नौसेना की संरचना, उपलब्धियों और ऐतिहासिक महत्व का विश्लेषण कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "चोल नौसेना चोल साम्राज्य की वह सैन्य शाखा थी जिसने दक्षिण एशियाई प्रभुत्व स्थापित किया और बंगाल की खाड़ी को 'चोल झील' में बदल दिया।\n\n### 1. संरचनात्मक विशेषताएं\n- **जहाज**: युद्धपोत (*धरणी*), परिवहन पोत (*लोला*), और त्वरित आक्रमण नौकाओं (*वज्र*) का उपयोग किया जाता था।\n- **संगठन**: इसका नेतृत्व राजा और *कप्पारतकल* (नौसेनापति) करते थे, जो मानसूनी हवाओं की मदद से खुले समुद्र में नौसंचालन करते थे।\n\n### 2. प्रमुख नौसैनिक उपलब्धियां\n| शासक | लक्षित क्षेत्र | रणनीतिक परिणाम |\n| :--- | :--- | :--- |\n| **राजराज प्रथम** | मालदीव, लक्षद्वीप, उत्तरी श्रीलंका | हिंद महासागर व्यापार गलियारों पर नियंत्रण; अनुराधापुर का विनाश। |\n| **राजेन्द्र प्रथम** | श्रीविजय साम्राज्य, संपूर्ण श्रीलंका, बंगाल तट | संग्राम विजयोत्तुंगवर्मन को पराजित किया; चीन व्यापार के लिए मलक्का जलडमरूमध्य को सुरक्षित किया। |\n| **वीरराजेन्द्र** | कदारम (केदाह) | विद्रोहों का दमन किया और दक्षिण-पूर्व एशिया में चोल-समर्थक जागीरदारों को बहाल किया। |\n\n### 3. ऐतिहासिक महत्व\n- **वाणिज्यिक विकास**: इसने *अय्यावोल-500* और *नानादेसी* जैसे व्यापारी संघों की रक्षा की, जिससे दक्षिण भारत सीधे कैंटन (चीन) से जुड़ गया।\n- **सांस्कृतिक प्रसार**: दक्षिण-पूर्व एशिया में मंदिर वास्तुकला, संस्कृत साहित्य और शैव धर्म के प्रसार को सुगम बनाया।\n\nपरिणामतः, चोल नौसैनिक सर्वोच्चता ने हिंद महासागर में समुद्री व्यापार, क्षेत्रीय कूटनीति और सांस्कृतिक समन्वय की नींव रखी।"
+    }
+  ]
+}

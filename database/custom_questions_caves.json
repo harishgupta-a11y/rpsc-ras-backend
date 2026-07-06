@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Under the patronage of which dynasty was the monolithic Kailashnath Temple at Ellora (Cave 16) excavated?",
+      "option_a": "Rashtrakuta Dynasty",
+      "option_b": "Chalukya Dynasty",
+      "option_c": "Pallava Dynasty",
+      "option_d": "Satavahana Dynasty",
+      "correct": "A",
+      "explanation": "Correct option: A. The monolithic Kailashnath Temple at Ellora (Cave 16) was excavated under the patronage of the Rashtrakuta King Krishna I in the 8th century CE."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. एलोरा में एकाश्म कैलाशनाथ मंदिर (गुफा 16) का उत्खनन किस राजवंश के संरक्षण में किया गया था?",
+      "option_a": "राष्ट्रकूट राजवंश",
+      "option_b": "चालुक्य राजवंश",
+      "option_c": "पल्लव राजवंश",
+      "option_d": "सातवाहन राजवंश",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. एलोरा (गुफा 16) में एकाश्म कैलाशनाथ मंदिर का उत्खनन 8वीं शताब्दी ईस्वी में राष्ट्रकूट राजा कृष्ण प्रथम के संरक्षण में किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which cave at Ajanta contains the famous mural painting of the 'Dying Princess'?",
+      "option_a": "Cave 1",
+      "option_b": "Cave 9",
+      "option_c": "Cave 16",
+      "option_d": "Cave 17",
+      "correct": "C",
+      "explanation": "Correct option: C. Cave 16 at Ajanta is famous for its outstanding painting of the 'Dying Princess' (Sundari, wife of Nanda), praised for its emotional intensity."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अजंता की किस गुफा में 'मरणासन्न राजकुमारी' का प्रसिद्ध भित्तिचित्र स्थित है?",
+      "option_a": "गुफा 1",
+      "option_b": "गुफा 9",
+      "option_c": "गुफा 16",
+      "option_d": "गुफा 17",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. अजंता की गुफा 16 अपने भावुक और कलात्मक चित्रण 'मरणासन्न राजकुमारी' (नंद की पत्नी सुंदरी) के प्रसिद्ध भित्तिचित्र के लिए जानी जाती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the architectural layout of a Buddhist Stupa, what does the term 'Harmika' represent?",
+      "option_a": "The semi-circular hemispherical dome",
+      "option_b": "The square railing or balcony-like structure atop the dome",
+      "option_c": "The circumambulatory pathway surrounding the stupa",
+      "option_d": "The ornamental gateway decorated with narrative relief sculptures",
+      "correct": "B",
+      "explanation": "Correct option: B. The Harmika is a square, balcony-like railing placed at the summit of the hemispherical dome (Anda) of a stupa, representing the abode of the gods."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध स्तूप के स्थापत्य विन्यास में 'हर्मिका' शब्द किसे दर्शाता है?",
+      "option_a": "अर्धवृत्ताकार अर्धगोलाकार गुंबद को",
+      "option_b": "गुंबद के शीर्ष पर स्थित चौकोर रेलिंग या बालकनी जैसी संरचना को",
+      "option_c": "स्तूप के चारों ओर बने प्रदक्षिणा पथ को",
+      "option_d": "कथात्मक राहत नक्काशी से सजे अलंकृत प्रवेश द्वार को",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. हर्मिका स्तूप के अर्धगोलाकार गुंबद (अंड) के शीर्ष पर स्थित एक चौकोर, बालकनी जैसी रेलिंग होती है, जो देवताओं के निवास का प्रतीक मानी जाती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which ancient rock-cut cave site features the Vishvakarma Cave (Cave 10), popularly known as the 'Carpenter's Cave'?",
+      "option_a": "Ajanta Caves",
+      "option_b": "Ellora Caves",
+      "option_c": "Kanheri Caves",
+      "option_d": "Karle Caves",
+      "correct": "B",
+      "explanation": "Correct option: B. Cave 10 at Ellora is a famous Buddhist Chaitya hall known as the Vishvakarma Cave or 'Carpenter's Cave' due to the ribs carved in rock to mimic wooden beams."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस प्राचीन शैलकृत गुफा स्थल में विश्वकर्मा गुफा (गुफा 10) स्थित है, जिसे लोकप्रिय रूप से 'कारपेंटर्स केव' (बढ़ई की गुफा) कहा जाता है?",
+      "option_a": "अजंता गुफाएं",
+      "option_b": "एलोरा गुफाएं",
+      "option_c": "कान्हेरी गुफाएं",
+      "option_d": "कार्ला गुफाएं",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. एलोरा की गुफा 10 एक प्रसिद्ध बौद्ध चैत्य गृह है जिसे विश्वकर्मा गुफा या 'बढ़ई की गुफा' कहा जाता है, क्योंकि इसकी चट्टानी कड़ियों को लकड़ी की शहतीरों की नकल करते हुए उकेरा गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The paintings of which ancient cave site are closely contemporary to the Ajanta paintings and exhibit a highly secular theme featuring contemporary life and dance?",
+      "option_a": "Bagh Caves",
+      "option_b": "Sittanavasal Caves",
+      "option_c": "Badami Caves",
+      "option_d": "Barabar Caves",
+      "correct": "A",
+      "explanation": "Correct option: A. The Bagh Caves in Madhya Pradesh represent Buddhist art from the Gupta period. Their paintings are contemporary to Ajanta but are more secular and decorative in nature."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस प्राचीन गुफा स्थल के चित्र अजंता के चित्रों के समकालीन हैं और समकालीन जीवन तथा नृत्य को दर्शाने वाले अत्यधिक धर्मनिरपेक्ष विषयों को प्रदर्शित करते हैं?",
+      "option_a": "बाघ गुफाएं",
+      "option_b": "सित्तनवासन गुफाएं",
+      "option_c": "बादामी गुफाएं",
+      "option_d": "बराबर गुफाएं",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मध्य प्रदेश में स्थित बाघ गुफाएं गुप्त काल की बौद्ध कला का प्रतिनिधित्व करती हैं। इनके चित्र अजंता के समकालीन हैं लेकिन स्वभाव में अधिक धर्मनिरपेक्ष और सजावटी हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Lomas Rishi Cave, one of the earliest rock-cut caves in India, was patronized by which Mauryan Emperor and dedicated to which sect?",
+      "option_a": "Chandragupta Maurya for the Jains",
+      "option_b": "Ashoka for the Ajivikas",
+      "option_c": "Dasharatha Maurya for the Ajivikas",
+      "option_d": "Ashoka for the Buddhists",
+      "correct": "B",
+      "explanation": "Correct option: B. The Lomas Rishi Cave in the Barabar Hills was excavated during the reign of Mauryan Emperor Ashoka in the 3rd century BCE and dedicated to the Ajivika sect."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत की सबसे प्रारंभिक शैलकृत गुफाओं में से एक, लोमस ऋषि गुफा को किस मौर्य सम्राट द्वारा संरक्षण दिया गया था और यह किस संप्रदाय को समर्पित थी?",
+      "option_a": "जैनियों के लिए चंद्रगुप्त मौर्य द्वारा",
+      "option_b": "आजीविकों के लिए अशोक द्वारा",
+      "option_c": "आजीविकों के लिए दशरथ मौर्य द्वारा",
+      "option_d": "बौद्धों के लिए अशोक द्वारा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. बराबर पहाड़ियों में स्थित लोमस ऋषि गुफा का उत्खनन तीसरी शताब्दी ईसा पूर्व में मौर्य सम्राट अशोक के शासनकाल के दौरान किया गया था और इसे आजीविक संप्रदाय को समर्पित किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The spectacular depiction of 'Ravana Shaking Mount Kailash' is a masterwork sculpted in which cave at Ellora?",
+      "option_a": "Cave 10",
+      "option_b": "Cave 15",
+      "option_c": "Cave 16",
+      "option_d": "Cave 29",
+      "correct": "C",
+      "explanation": "Correct option: C. The dramatic sculpture of 'Ravana shaking Mount Kailash' is located in Cave 16 (Kailashnath Temple) at Ellora, illustrating Ravana's display of physical strength under Shiva's abode."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'रावण द्वारा कैलाश पर्वत को हिलाने' का शानदार चित्रण एलोरा की किस गुफा में उकेरा गया एक उत्कृष्ट शिल्प है?",
+      "option_a": "गुफा 10",
+      "option_b": "गुफा 15",
+      "option_c": "गुफा 16",
+      "option_d": "गुफा 29",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. 'रावण द्वारा कैलाश पर्वत को हिलाने' का प्रसिद्ध दृश्य एलोरा की गुफा 16 (कैलाशनाथ मंदिर) में स्थित है, जो शिव के निवास के नीचे रावण के शारीरिक बल के प्रदर्शन को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which historical site is famous for containing the earliest depiction of the Jataka tales in structural stone relief medallions?",
+      "option_a": "Sanchi Stupa I",
+      "option_b": "Bharhut Stupa",
+      "option_c": "Amaravati Stupa",
+      "option_d": "Nagarjunakonda Stupa",
+      "correct": "B",
+      "explanation": "Correct option: B. The Bharhut Stupa (Sunga period, 2nd century BCE) is famous for its early and descriptive medallions illustrating stories of the Buddha's previous births (Jatakas) with labels."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा ऐतिहासिक स्थल संरचनात्मक पत्थर की नक्काशीदार पदकों (medallions) में जातक कथाओं के सबसे शुरुआती चित्रण के लिए प्रसिद्ध है?",
+      "option_a": "सांची स्तूप I",
+      "option_b": "भरहुत स्तूप",
+      "option_c": "अमरावती स्तूप",
+      "option_d": "नागार्जुनकोंडा स्तूप",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. भरहुत स्तूप (शुंग काल, दूसरी शताब्दी ईसा पूर्व) बुद्ध के पिछले जन्मों की कहानियों (जातकों) को लिखित लेबलों के साथ प्रदर्शित करने वाले शुरुआती नक्काशीदार पदकों के लिए प्रसिद्ध है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The ancient rock-cut caves of Sittanavasal, located in Pudukkottai, Tamil Nadu, are associated with which religion?",
+      "option_a": "Buddhism",
+      "option_b": "Jainism",
+      "option_c": "Shaivism",
+      "option_d": "Vaishnavism",
+      "correct": "B",
+      "explanation": "Correct option: B. The Sittanavasal Caves are 7th-century rock-cut Jain cave temples famous for their frescoes depicting the Jain concepts of Samavasarana (heavenly pavilion) and nature."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पुदुक्कोट्टई, तमिलनाडु में स्थित सित्तनवासन की प्राचीन शैलकृत गुफाएं किस धर्म से संबंधित हैं?",
+      "option_a": "बौद्ध धर्म",
+      "option_b": "जैन धर्म",
+      "option_c": "शैव धर्म",
+      "option_d": "वैष्णव धर्म",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सित्तनवासन गुफाएं 7वीं शताब्दी की शैलकृत जैन गुफा मंदिर हैं, जो जैन दर्शन के समवसरण (दिव्य मंडप) और प्रकृति को दर्शाने वाले भित्तिचित्रों के लिए प्रसिद्ध हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the context of ancient Indian painting techniques, what medium was predominantly used to bind the pigments at Ajanta?",
+      "option_a": "Animal glue and vegetable gum mixed with plaster",
+      "option_b": "Pure egg tempera without any mineral colors",
+      "option_c": "Wet fresco lime-water wash applied to wet plaster",
+      "option_d": "Oil-based solvents extracted from local seeds",
+      "correct": "A",
+      "explanation": "Correct option: A. The Ajanta paintings used the tempera (or fresco-secco) technique where natural pigments were bound using animal glue and vegetable gum on dry plaster."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय चित्रकला तकनीकों के संदर्भ में, अजंता में रंगों को बांधने (bind) के लिए मुख्य रूप से किस माध्यम का उपयोग किया गया था?",
+      "option_a": "प्लास्टर के साथ मिश्रित पशु गोंद और वनस्पति गोंद",
+      "option_b": "बिना किसी खनिज रंगों के शुद्ध एग टेम्परा",
+      "option_c": "गीले प्लास्टर पर लगाया गया गीला फ्रेस्को चूने-पानी का लेप",
+      "option_d": "स्थानीय बीजों से निकाला गया तेल आधारित विलायक",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. अजंता के चित्रों में टेम्परा (या फ्रेस्को-सेक्को) तकनीक का उपयोग किया गया था, जिसमें प्राकृतिक रंगों को सूखे प्लास्टर पर पशु गोंद और वनस्पति गोंद का उपयोग करके बांधा जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which rock-cut cave complex in Western India houses the largest and most complete ancient Chaitya hall, noted for its fine acoustics and pillars with riding couple motifs?",
+      "option_a": "Bhaja Caves",
+      "option_b": "Bedse Caves",
+      "option_c": "Karle Caves",
+      "option_d": "Kanheri Caves",
+      "correct": "C",
+      "explanation": "Correct option: C. The Great Chaitya at Karle (built around 1st century BCE to 1st century CE) is the largest rock-cut Chaitya hall in India, showcasing high vaults and pillars with riders on elephants."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पश्चिमी भारत के किस शैलकृत गुफा परिसर में सबसे बड़ा और सबसे पूर्ण प्राचीन चैत्य गृह स्थित है, जो अपनी उत्कृष्ट ध्वनि व्यवस्था और सवार जोड़ों के रूपांकनों वाले स्तंभों के लिए प्रसिद्ध है?",
+      "option_a": "भाजा गुफाएं",
+      "option_b": "बेडसे गुफाएं",
+      "option_c": "कार्ला गुफाएं",
+      "option_d": "कान्हेरी गुफाएं",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. कार्ला का महान चैत्य (लगभग पहली शताब्दी ईसा पूर्व से पहली शताब्दी ईस्वी) भारत का सबसे बड़ा शैलकृत चैत्य गृह है, जिसमें ऊंचे मेहराब और हाथियों पर सवारों के रूपांकनों वाले स्तंभ शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The iconic painting of 'Bodhisattva Padmapani' holding a blue lotus is located in which cave of the Ajanta complex?",
+      "option_a": "Cave 1",
+      "option_b": "Cave 2",
+      "option_c": "Cave 16",
+      "option_d": "Cave 26",
+      "correct": "A",
+      "explanation": "Correct option: A. The legendary painting of Bodhisattva Padmapani (holding a lotus) is situated at the entrance of Cave 1 at Ajanta, dating back to the late 5th century CE Vakataka period."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीला कमल धारण किए हुए 'बोधिसत्व पद्मपाणि' का प्रतिष्ठित चित्र अजंता परिसर की किस गुफा में स्थित है?",
+      "option_a": "गुफा 1",
+      "option_b": "गुफा 2",
+      "option_c": "गुफा 16",
+      "option_d": "गुफा 26",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. नीला कमल धारण किए हुए बोधिसत्व पद्मपाणि का प्रसिद्ध चित्र अजंता की गुफा 1 के प्रवेश द्वार पर स्थित है, जो 5वीं शताब्दी ईस्वी के उत्तरार्ध के वाकाटक काल का है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which architectural part of the Sanchi Stupa I features the famous 'Shalabhanjika' (yakshi holding a mango tree branch) bracket figures?",
+      "option_a": "The Medhi (circular terrace)",
+      "option_b": "The Torana (gateways)",
+      "option_c": "The Yashti (spire)",
+      "option_d": "The Harmika",
+      "correct": "B",
+      "explanation": "Correct option: B. The East and South Toranas (gateways) of Sanchi Stupa I feature the famous Shalabhanjika bracket figures, symbolizing fertility and nature spirits."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सांची स्तूप I के किस स्थापत्य भाग में प्रसिद्ध 'शालभंजिका' (आम के पेड़ की शाखा पकड़े हुए यक्षी) की ब्रैकेट आकृतियां दिखाई देती हैं?",
+      "option_a": "मेधी (वृत्ताकार चबूतरा)",
+      "option_b": "तोरण (प्रवेश द्वार)",
+      "option_c": "यष्टि (दंड)",
+      "option_d": "हर्मिका",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सांची स्तूप I के पूर्वी और दक्षिणी तोरण (प्रवेश द्वार) में प्रसिद्ध शालभंजिका की ब्रैकेट आकृतियां हैं, जो उर्वरता और प्रकृति की देवी का प्रतीक हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The cave temples of Badami, displaying early Chalukya paintings, are mainly dedicated to which religious traditions?",
+      "option_a": "Buddhism only",
+      "option_b": "Jainism and Buddhism",
+      "option_c": "Vaishnavism, Shaivism, and Jainism",
+      "option_d": "Ajivika and Buddhist sects",
+      "correct": "C",
+      "explanation": "Correct option: C. The Badami cave temples in Karnataka, patronized by the Early Chalukyas in the 6th century CE, contain rock-cut shrines dedicated to Vaishnavism, Shaivism, and Jainism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रारंभिक चालुक्य चित्रों को प्रदर्शित करने वाले बादामी के गुफा मंदिर मुख्य रूप से किन धार्मिक परंपराओं को समर्पित हैं?",
+      "option_a": "केवल बौद्ध धर्म",
+      "option_b": "जैन धर्म और बौद्ध धर्म",
+      "option_c": "वैष्णव, शैव और जैन धर्म",
+      "option_d": "आजीविक और बौद्ध संप्रदाय",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. कर्नाटक में बादामी गुफा मंदिर, जिन्हें 6वीं शताब्दी ईस्वी में प्रारंभिक चालुक्यों द्वारा संरक्षण दिया गया था, वैष्णव, शैव और जैन धर्म को समर्पित शैलकृत मंदिर हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which stupa site is globally renowned for its unique relief sculptures made of green-white limestone (often called marble) depicting narrative scenes from the life of Buddha?",
+      "option_a": "Bharhut Stupa",
+      "option_b": "Amaravati Stupa",
+      "option_c": "Sanchi Stupa III",
+      "option_d": "Piprahwa Stupa",
+      "correct": "B",
+      "explanation": "Correct option: B. The Amaravati Stupa in Andhra Pradesh, developed under the Satavahanas and Ikshvakus, is famous for its narrative reliefs carved on white-greenish limestone."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा स्तूप स्थल हरे-सफेद चूना पत्थर (जिसे अक्सर संगमरमर कहा जाता है) से बनी अपनी अनूठी नक्काशी के लिए विश्व स्तर पर प्रसिद्ध है, जो बुद्ध के जीवन के कथात्मक दृश्यों को प्रदर्शित करता है?",
+      "option_a": "भरहुत स्तूप",
+      "option_b": "अमरावती स्तूप",
+      "option_c": "सांची स्तूप III",
+      "option_d": "पिपराहवा स्तूप",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. आंध्र प्रदेश में अमरावती स्तूप, जो सातवाहनों और इक्ष्वाकुओं के तहत विकसित हुआ था, सफेद-हरे रंग के चूना पत्थर पर उकेरे गए कथात्मक दृश्यों के लिए प्रसिद्ध है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Indra Sabha' (Cave 32) at Ellora represents which religious group of rock-cut temples?",
+      "option_a": "Buddhist Caves",
+      "option_b": "Hindu Caves",
+      "option_c": "Jain Caves",
+      "option_d": "Ajivika Caves",
+      "correct": "C",
+      "explanation": "Correct option: C. Cave 32 at Ellora, known as the Indra Sabha, is a double-storeyed Jain cave temple displaying fine carvings of Tirthankaras and Ambika."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. एलोरा में स्थित 'इंद्र सभा' (गुफा 32) शैलकृत मंदिरों के किस धार्मिक समूह का प्रतिनिधित्व करती है?",
+      "option_a": "बौद्ध गुफाएं",
+      "option_b": "हिंदू गुफाएं",
+      "option_c": "जैन गुफाएं",
+      "option_d": "आजीविक गुफाएं",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. एलोरा की गुफा 32, जिसे इंद्र सभा के रूप में जाना जाता है, एक दोमंजिला जैन गुफा मंदिर है जो तीर्थंकरों और देवी अंबिका की बारीक नक्काशी को प्रदर्शित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which state of India are the ancient Kanheri Caves, containing over 100 rock-cut Buddhist caves, located?",
+      "option_a": "Madhya Pradesh",
+      "option_b": "Maharashtra",
+      "option_c": "Gujarat",
+      "option_d": "Karnataka",
+      "correct": "B",
+      "explanation": "Correct option: B. The Kanheri Caves are located on the island of Salsette in Mumbai, Maharashtra. They represent a massive Buddhist monastery complex spanning from the 1st century BCE to the 10th century CE."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत के किस राज्य में 100 से अधिक शैलकृत बौद्ध गुफाओं वाली प्राचीन कान्हेरी गुफाएं स्थित हैं?",
+      "option_a": "मध्य प्रदेश",
+      "option_b": "महाराष्ट्र",
+      "option_c": "गुजरात",
+      "option_d": "कर्नाटक",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. कान्हेरी गुफाएं मुंबई, महाराष्ट्र के साल्सेट द्वीप पर स्थित हैं। वे पहली शताब्दी ईसा पूर्व से 10वीं शताब्दी ईस्वी तक फैले एक विशाल बौद्ध मठ परिसर का प्रतिनिधित्व करती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Dharmarajika Stupa', commissioned originally by Emperor Ashoka, is located at which historical site?",
+      "option_a": "Sarnath",
+      "option_b": "Sanchi",
+      "option_c": "Taxila",
+      "option_d": "Bharhut",
+      "correct": "C",
+      "explanation": "Correct option: C. The Dharmarajika Stupa, also known as the Great Stupa of Taxila, was built by Maurya Emperor Ashoka in the 3rd century BCE to house relics of the Buddha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मूल रूप से सम्राट अशोक द्वारा बनवाया गया 'धर्मराजिका स्तूप' किस ऐतिहासिक स्थल पर स्थित है?",
+      "option_a": "सारनाथ",
+      "option_b": "सांची",
+      "option_c": "तक्षशिला",
+      "option_d": "भरहुत",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. धर्मराजिका स्तूप, जिसे तक्षशिला का महान स्तूप भी कहा जाता है, बुद्ध के अवशेषों को रखने के लिए तीसरी शताब्दी ईसा पूर्व में मौर्य सम्राट अशोक द्वारा बनवाया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which cave at Ajanta contains the dramatic scene of the 'Mahaparinirvana' of Buddha with a massive reclining statue?",
+      "option_a": "Cave 1",
+      "option_b": "Cave 19",
+      "option_c": "Cave 26",
+      "option_d": "Cave 29",
+      "correct": "C",
+      "explanation": "Correct option: C. Cave 26 at Ajanta houses a colossal and deeply moving 7-meter-long sculpture of the reclining Buddha representing his Mahaparinirvana, accompanied by mourning figures."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अजंता की किस गुफा में बुद्ध के 'महापरिनिर्वाण' का एक विशाल लेटी हुई मूर्ति वाला नाटकीय दृश्य स्थित है?",
+      "option_a": "गुफा 1",
+      "option_b": "गुफा 19",
+      "option_c": "गुफा 26",
+      "option_d": "गुफा 29",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. अजंता की गुफा 26 में बुद्ध के महापरिनिर्वाण को दर्शाने वाली एक विशाल और अत्यंत संवेदनशील 7 मीटर लंबी लेटी हुई मूर्ति स्थित है, जिसके साथ शोक मनाती आकृतियां भी उकेरी गई हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Mauryan rock-cut cave in the Barabar Hills features a highly polished interior surface and a circular vaulted chamber resembling wooden huts?",
+      "option_a": "Sudama Cave",
+      "option_b": "Son Bhandar Cave",
+      "option_c": "Udayagiri Cave",
+      "option_d": "Bhaja Cave",
+      "correct": "A",
+      "explanation": "Correct option: A. The Sudama Cave in the Barabar Hills, dedicated by Ashoka, is known for its high Mauryan polish and its circular vaulted chamber that mimics contemporary wooden huts."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बराबर पहाड़ियों में स्थित कौन सी मौर्यकालीन शैलकृत गुफा अपनी अत्यधिक पॉलिश की हुई आंतरिक सतह और गोलाकार गुंबददार कक्ष के लिए प्रसिद्ध है जो लकड़ी की झोपड़ियों जैसा दिखता है?",
+      "option_a": "सुदामा गुफा",
+      "option_b": "सोन भंडार गुफा",
+      "option_c": "उदयगिरि गुफा",
+      "option_d": "भाजा गुफा",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. बराबर पहाड़ियों में स्थित सुदामा गुफा, जिसे अशोक द्वारा समर्पित किया गया था, अपनी विशिष्ट मौर्य पॉलिश और गोलाकार गुंबददार कक्ष के लिए जानी जाती है जो लकड़ी की झोपड़ियों की नकल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The paintings of Ajanta depict stories primarily drawn from which Buddhist canonical text?",
+      "option_a": "Lalitavistara Sutra",
+      "option_b": "Jataka Tales and Avadanas",
+      "option_c": "Milinda Panha",
+      "option_d": "Abhidhamma Pitaka",
+      "correct": "B",
+      "explanation": "Correct option: B. The mural paintings at Ajanta illustrate various Jataka tales (stories of the Buddha's previous births) and Avadanas (noble deeds of the Buddha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अजंता के चित्र मुख्य रूप से किस बौद्ध प्रामाणिक ग्रंथ से ली गई कहानियों को दर्शाते हैं?",
+      "option_a": "ललितविस्तर सूत्र",
+      "option_b": "जातक कथाएँ और अवदान",
+      "option_c": "मिलिंदपन्ह",
+      "option_d": "अभिधम्म पिटक",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. अजंता के भित्तिचित्र विभिन्न जातक कथाओं (बुद्ध के पिछले जन्मों की कहानियों) और अवदानों (बुद्ध के महान कार्यों) को चित्रित करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Rashtrakuta king is historically credited with the patronage of the initial excavation of the Dashavatara Cave (Cave 15) at Ellora?",
+      "option_a": "Dantidurga",
+      "option_b": "Krishna I",
+      "option_c": "Amoghavarsha I",
+      "option_d": "Govinda III",
+      "correct": "A",
+      "explanation": "Correct option: A. The Dashavatara Cave (Cave 15) at Ellora contains an inscription of the Rashtrakuta King Dantidurga, indicating its patronage and excavation under his reign."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. एलोरा में दशावतार गुफा (गुफा 15) के प्रारंभिक उत्खनन के संरक्षण का ऐतिहासिक श्रेय किस राष्ट्रकूट राजा को दिया जाता है?",
+      "option_a": "दंतिदुर्ग",
+      "option_b": "कृष्ण प्रथम",
+      "option_c": "अमोघवर्ष प्रथम",
+      "option_d": "गोविंद तृतीय",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. एलोरा की दशावतार गुफा (गुफा 15) में राष्ट्रकूट राजा दंतिदुर्ग का एक शिलालेख है, जो उनके शासनकाल में इसके संरक्षण और उत्खनन को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which architectural feature was added to the Sanchi Stupa during the Sunga dynasty's rule, replacing the original wooden version?",
+      "option_a": "The stone casing and the stone Vedika (railing)",
+      "option_b": "The brick core and plaster casing",
+      "option_c": "The four main stone Toranas (gateways)",
+      "option_d": "The iron Yashti and double circumambulatory path",
+      "correct": "A",
+      "explanation": "Correct option: A. During the Sunga period (2nd century BCE), the original brick stupa of Ashoka was encased in stone and the wooden railing (Vedika) was replaced with a stone railing."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. शुंग राजवंश के शासनकाल के दौरान सांची स्तूप में कौन सी स्थापत्य विशेषता जोड़ी गई थी, जिसने मूल लकड़ी के संस्करण को बदल दिया था?",
+      "option_a": "पत्थर का आवरण और पत्थर की वेदिका (रेलिंग)",
+      "option_b": "ईंट का कोर और प्लास्टर आवरण",
+      "option_c": "चार मुख्य पत्थर के तोरण (प्रवेश द्वार)",
+      "option_d": "लोहे की यष्टि और दोहरा प्रदक्षिणा पथ",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. शुंग काल (दूसरी शताब्दी ईसा पूर्व) के दौरान, अशोक के मूल ईंट के स्तूप को पत्थर से ढका गया था और लकड़ी की रेलिंग (वेदिका) को पत्थर की रेलिंग से बदल दिया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Cave 19 at Ajanta is historically significant as it represents which architectural type of structure?",
+      "option_a": "A Hinayana Vihara",
+      "option_b": "A Mahayana Chaitya Hall",
+      "option_c": "A monolithic rock-cut temple",
+      "option_d": "A secular residential assembly hall",
+      "correct": "B",
+      "explanation": "Correct option: B. Cave 19 at Ajanta is a classic example of a Mahayana Chaitya hall, dating to the late 5th century CE, featuring an elaborate facade and a standing Buddha carved on the stupa inside."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अजंता की गुफा 19 ऐतिहासिक रूप से महत्वपूर्ण है क्योंकि यह किस वास्तुकला प्रकार की संरचना का प्रतिनिधित्व करती है?",
+      "option_a": "एक हीनयान विहार",
+      "option_b": "एक महायान चैत्य गृह",
+      "option_c": "एक एकाश्म शैलकृत मंदिर",
+      "option_d": "एक धर्मनिरपेक्ष आवासीय सभा हॉल",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. अजंता की गुफा 19 एक महायान चैत्य गृह का उत्कृष्ट उदाहरण है, जो 5वीं शताब्दी ईस्वी के उत्तरार्ध का है। इसमें एक अलंकृत अग्रभाग और भीतर स्तूप पर उकेरी गई बुद्ध की खड़ी मूर्ति है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The rock-cut Udayagiri Caves in Madhya Pradesh, featuring the colossal relief of the Varaha (boar incarnation of Vishnu) saving the Earth goddess, belong to which historical period?",
+      "option_a": "Mauryan Period",
+      "option_b": "Gupta Period",
+      "option_c": "Satavahana Period",
+      "option_d": "Vakataka Period",
+      "correct": "B",
+      "explanation": "Correct option: B. The Udayagiri Caves in Madhya Pradesh are a group of rock-cut temples dating back to the Gupta period (early 5th century CE), containing the famous monumental sculpture of Varaha rescuing Bhudevi."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मध्य प्रदेश में शैलकृत उदयगिरि गुफाएं, जिनमें पृथ्वी देवी को बचाने वाले वराह (विष्णु का सूअर अवतार) की विशाल मूर्ति स्थित है, किस ऐतिहासिक काल से संबंधित हैं?",
+      "option_a": "मौर्य काल",
+      "option_b": "गुप्त काल",
+      "option_c": "सातवाहन काल",
+      "option_d": "वाकाटक काल",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. मध्य प्रदेश में स्थित उदयगिरि गुफाएं गुप्त काल (5वीं शताब्दी की शुरुआत) की शैलकृत गुफाएं हैं, जिसमें भूदेवी का उद्धार करते वराह की प्रसिद्ध विशाल मूर्ति शामिल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the following statements and select the correct option:\nAssertion (A): The monolithic Kailashnath Temple at Ellora stands out as a unique peak of Indian rock-cut architecture.\nReason (R): It was created through a top-down excavation method, carving a single massive hill of basalt rock from top to bottom.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; the Kailashnath Temple at Ellora (Cave 16) is a unparalleled masterpiece of rock-cut architecture. Reason Analysis: The reason is true; it is unique because, unlike traditional stone temples built from bottom up, it was carved out of a single rock from the top down. Since this top-down excavation explains why it is a unique engineering feat, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों का विश्लेषण करें और सही विकल्प का चयन करें:\nअभिकथन (A): एलोरा का एकाश्म कैलाशनाथ मंदिर भारतीय शैलकृत वास्तुकला के एक अद्वितीय शिखर के रूप में खड़ा है।\nकारण (R): इसका निर्माण शीर्ष-से-आधार (top-down) उत्खनन पद्धति के माध्यम से बेसाल्ट चट्टान की एक ही ख्याल पहाड़ी को ऊपर से नीचे की ओर तराश कर किया गया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सही है; एलोरा का कैलाशनाथ मंदिर (गुफा 16) शैलकृत वास्तुकला की एक बेजोड़ कृति है। कारण विश्लेषण: कारण सही है; यह अद्वितीय इसलिए है क्योंकि इसे ऊपर से नीचे की ओर एक ही चट्टान को तराश कर बनाया गया था। चूंकि यह उत्खनन विधि इसकी अद्वितीयता को समझाती है, इसलिए R, A की सही व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the following statements and select the correct option:\nAssertion (A): The paintings of Ajanta present a vibrant narrative of Buddhist canonical stories but contain no depictions of contemporary royal court life.\nReason (R): The Ajanta caves were executed primarily as monasteries (Viharas) and prayer halls (Chaityas) for Buddhist monks to dwell in contemplation.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "D",
+      "explanation": "Assertion Analysis: The assertion is false. While the paintings are Buddhist in theme, they contain extensive depictions of contemporary royal court life, royal processions, and domestic scenes. Reason Analysis: The reason is true; Ajanta was indeed executed as a sanctuary of Viharas and Chaityas for Buddhist monks."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों का विश्लेषण करें और सही विकल्प का चयन करें:\nअभिकथन (A): अजंता के चित्र बौद्ध प्रामाणिक कहानियों का एक जीवंत विवरण प्रस्तुत करते हैं लेकिन इनमें समकालीन शाही दरबारी जीवन का कोई चित्रण नहीं है।\nकारण (R): अजंता की गुफाओं का निर्माण मुख्य रूप से बौद्ध भिक्षुओं के चिंतन में रहने के लिए मठों (विहारों) और प्रार्थना कक्षों (चैत्यों) के रूप में किया गया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "D",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन गलत है। हालांकि चित्र बौद्ध विषय-वस्तु पर आधारित हैं, लेकिन उनमें समकालीन शाही दरबारी जीवन, शाही जुलूसों और घरेलू दृश्यों का व्यापक चित्रण है। कारण विश्लेषण: कारण सही है; अजंता का निर्माण वास्तव में बौद्ध भिक्षुओं के लिए विहारों और चैत्यों के रूप में किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the following statements and select the correct option:\nAssertion (A): The rock-cut caves of Ellora represent a harmonious coexistence of different religious systems of ancient India.\nReason (R): The site contains 34 caves excavated in chronological sequence dedicated to Buddhism, Hinduism, and Jainism.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; Ellora exhibits religious harmony with Buddhist, Hindu, and Jain monuments coexisting at one site. Reason Analysis: The reason is true; it contains 34 major caves representing these three faiths. R explains A because the spatial coexistence of caves of different faiths in a single complex is the direct physical evidence of religious harmony."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों का विश्लेषण करें और सही विकल्प का चयन करें:\nअभिकथन (A): एलोरा की शैलकृत गुफाएं प्राचीन भारत की विभिन्न धार्मिक प्रणालियों के सामंजस्यपूर्ण सह-अस्तित्व का प्रतिनिधित्व करती हैं।\nकारण (R): इस स्थल में बौद्ध, हिंदू और जैन धर्म को समर्पित कालानुक्रमिक अनुक्रम में खोदी गई 34 गुफाएं शामिल हैं।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सही है; एलोरा एक ही स्थल पर बौद्ध, हिंदू और जैन स्मारकों के सह-अस्तित्व के साथ धार्मिक सद्भाव प्रदर्शित करता है। कारण विश्लेषण: कारण सही है; इसमें इन तीनों धर्मों का प्रतिनिधित्व करने वाली 34 प्रमुख गुफाएं हैं। R, A की व्याख्या करता है क्योंकि एक ही परिसर में विभिन्न धर्मों की गुफाओं का भौगोलिक सह-अस्तित्व धार्मिक सहिष्णुता का प्रत्यक्ष प्रमाण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the following statements and select the correct option:\nAssertion (A): The Satavahana period witnessed the grand architectural transition of the Amaravati Stupa into a highly decorated stone structure.\nReason (R): Satavahana kings were devout Buddhists who actively initiated the excavation of the Ajanta and Ellora caves to suppress Vedic Brahmanism.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: The assertion is true; under the Satavahanas, the Amaravati Stupa was heavily embellished with limestone reliefs. Reason Analysis: The reason is false; Satavahana kings were primarily followers of Vedic Brahmanism (performing Ashvamedha sacrifices) though they patronized Buddhism. They did not suppress Brahmanism nor did they excavate Ajanta/Ellora to suppress it."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों का विश्लेषण करें और सही विकल्प का चयन करें:\nअभिकथन (A): सातवाहन काल में अमरावती स्तूप का एक अत्यधिक अलंकृत पत्थर की संरचना में भव्य स्थापत्य संक्रमण देखा गया।\nकारण (R): सातवाहन राजा कट्टर बौद्ध थे जिन्होंने वैदिक ब्राह्मणवाद को दबाने के लिए अजंता और एलोरा की गुफाओं के उत्खनन की सक्रिय रूप से शुरुआत की थी।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सही है; सातवाहनों के तहत, अमरावती स्तूप को चूना पत्थर की नक्काशी से अत्यधिक अलंकृत किया गया था। कारण विश्लेषण: कारण गलत है; सातवाहन राजा मुख्य रूप से वैदिक ब्राह्मणवाद के अनुयायी थे (अश्वमेध यज्ञ करते थे), हालांकि उन्होंने बौद्ध धर्म को भी उदारता से संरक्षण दिया। उन्होंने ब्राह्मणवाद को दबाया नहीं था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the following statements and select the correct option:\nAssertion (A): Unlike Ajanta, the cave paintings at Bagh in Madhya Pradesh display a more secular and worldly character.\nReason (R): The Bagh caves were constructed under the patronage of the Gupta and Vakataka dynasties to depict royal processions, contemporary music, and group dances.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "B",
+      "explanation": "Assertion Analysis: The assertion is true; Bagh cave paintings are indeed more secular, decorative, and worldly than Ajanta. Reason Analysis: The reason is true; these caves were patronized during the Gupta-Vakataka era. However, R is not the correct explanation of A because the secular character of the paintings is not merely because of who patronized them (as Gupta-Vakataka also patronized religious art), but due to the thematic shift towards local courtly lifestyle and festive performances."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों का विश्लेषण करें और सही विकल्प का चयन करें:\nअभिकथन (A): अजंता के विपरीत, मध्य प्रदेश में बाघ की गुफाओं के चित्र अधिक धर्मनिरपेक्ष और सांसारिक चरित्र प्रदर्शित करते हैं।\nकारण (R): बाघ गुफाओं का निर्माण गुप्त और वाकाटक राजवंशों के संरक्षण में शाही जुलूसों, समकालीन संगीत और समूह नृत्यों को चित्रित करने के लिए किया गया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सही है; बाघ गुफा के चित्र वास्तव में अजंता की तुलना में अधिक धर्मनिरपेक्ष, सजावटी और सांसारिक हैं। कारण विश्लेषण: कारण सही है; इन गुफाओं को गुप्त-वाकाटक युग के दौरान संरक्षण दिया गया था। हालांकि, R, A की सही व्याख्या नहीं है क्योंकि चित्रों का धर्मनिरपेक्ष चरित्र केवल राजवंश के कारण नहीं था (क्योंकि इन वंशों ने धार्मिक कला को भी संरक्षण दिया), बल्कि कलात्मक झुकाव स्थानीय उत्सवों और संगीत की ओर होने के कारण था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the following statements and select the correct option:\nAssertion (A): The Stupas built during the Ashokan period were primarily made of burnt bricks and mud mortar.\nReason (R): Stone was not utilized for any architectural or monumental purposes during the Mauryan period.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: The assertion is true; original Ashokan stupas, including Sanchi, were made of brick and mud, later encased in stone by Sungas. Reason Analysis: The reason is false; Mauryans extensively used stone for monolithic pillars, capitols, and rock-cut caves like Barabar."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों का विश्लेषण करें और सही विकल्प का चयन करें:\nअभिकथन (A): अशोक के काल में बने स्तूप मुख्य रूप से पकी हुई ईंटों और मिट्टी के गारे से बनाए गए थे।\nकारण (R): मौर्य काल के दौरान किसी भी स्थापत्य या स्मारकीय उद्देश्यों के लिए पत्थर का उपयोग नहीं किया गया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सही है; सांची सहित मूल अशोकन स्तूप ईंटों और गारे से बने थे, जिन्हें बाद में शुंगों द्वारा पत्थर से ढक दिया गया था। कारण विश्लेषण: कारण गलत है; मौर्यों ने एकाश्म स्तंभों, उनके शीर्षों और बराबर जैसी शैलकृत गुफाओं के लिए बड़े पैमाने पर पत्थर का उपयोग किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the following statements and select the correct option:\nAssertion (A): The paintings of Ajanta exhibit a sense of depth and three-dimensionality despite being two-dimensional surface renderings.\nReason (R): The artists at Ajanta utilized the technique of shading (chiyaroscuro/vartana) and outline variation to create the illusion of volume.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; the paintings have a distinct volumetric rendering. Reason Analysis: The reason is true; the usage of dark and light shading (vartana) along with flowing, varying contours created a three-dimensional illusion. Since the application of these specific techniques directly explains how they achieved the depth, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों का विश्लेषण करें और सही विकल्प का चयन करें:\nअभिकथन (A): अजंता के चित्र द्विआयामी सतह पर बने होने के बावजूद गहराई और त्रिआयामी होने का अहसास प्रदर्शित करते हैं।\nकारण (R): अजंता के कलाकारों ने उभार और गोलाई का भ्रम पैदा करने के लिए छायांकन (वर्तना) और रेखाओं के उतार-चढ़ाव की तकनीक का उपयोग किया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सही है; इन चित्रों में एक स्पष्ट त्रिआयामी प्रभाव दिखाई देता है। कारण विश्लेषण: कारण सही है; गहरे और हल्के रंगों के छायांकन (वर्तना) तथा प्रवाहमान रेखाओं के उतार-चढ़ाव ने त्रिआयामी भ्रम पैदा किया। चूंकि इन तकनीकों का उपयोग सीधे तौर पर यह समझाता है कि उन्होंने गहराई कैसे प्राप्त की, R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the following statements and select the correct option:\nAssertion (A): The caves of Ajanta were completely forgotten by the outer world until their accidental rediscovery in 1819.\nReason (R): They were carved in a horse-shoe shaped ravine of the Waghora River, which became heavily forested and isolated after the decline of royal patronage.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; Ajanta was lost to civilization until John Smith rediscovered it in 1819. Reason Analysis: The reason is true; their remote location in the deep gorge of the Waghora River, covered under thick jungle cover over centuries, explains why they remained hidden from the world. Hence, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों का विश्लेषण करें और सही विकल्प का चयन करें:\nअभिकथन (A): 1819 में उनकी आकस्मिक खोज होने तक अजंता की गुफाओं को बाहरी दुनिया पूरी तरह से भूल चुकी थी।\nकारण (R): वे वाघोरा नदी की घोड़े की नाल के आकार की घाटी में खोदी गई थीं, जो शाही संरक्षण के पतन के बाद घने जंगलों से घिरकर बिल्कुल अलग-थलग हो गई थीं।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सही है; 1819 में जॉन स्मिथ द्वारा फिर से खोजे जाने तक अजंता बाहरी दुनिया से ओझल था। कारण विश्लेषण: कारण सही है; वाघोरा नदी की गहरी घाटी में उनकी दूरस्थ स्थिति, जो सदियों से घने जंगलों से ढकी हुई थी, यह स्पष्ट करती है कि वे दुनिया से छिपे क्यों रहे। अतः R, A की सही व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient Site/Structure) with List-II (Associated State/Location) and select the correct answer:\nList-I:\na) Bharhut Stupa\nb) Kanheri Caves\nc) Sittanavasal Paintings\nd) Badami Caves\n\nList-II:\n1) Tamil Nadu\n2) Madhya Pradesh\n3) Karnataka\n4) Maharashtra\n5) Andhra Pradesh",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-1, b-4, c-2, d-3",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Bharhut Stupa is in Madhya Pradesh (2). Kanheri Caves are in Maharashtra (4). Sittanavasal Paintings are in Tamil Nadu (1). Badami Caves are in Karnataka (3)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन स्थल/संरचना) को सूची-II (संबद्ध राज्य/स्थान) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) भरहुत स्तूप\nb) कान्हेरी गुफाएं\nc) सित्तनवासन चित्रकला\nd) बादामी गुफाएं\n\nसूची-II:\n1) तमिलनाडु\n2) मध्य प्रदेश\n3) कर्नाटक\n4) महाराष्ट्र\n5) आंध्र प्रदेश",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-1, b-4, c-2, d-3",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. भरहुत स्तूप मध्य प्रदेश (2) में है। कान्हेरी गुफाएं महाराष्ट्र (4) में हैं। सित्तनवासन चित्रकला तमिलनाडु (1) में हैं। बादामी गुफाएं कर्नाटक (3) में हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ajanta Cave Number) with List-II (Key Painting/Sculpture Highlight) and select the correct answer:\nList-I:\na) Cave 1\nb) Cave 16\nc) Cave 17\nd) Cave 26\n\nList-II:\n1) Dying Princess\n2) Mahaparinirvana of Buddha\n3) Bodhisattva Padmapani\n4) Flying Apsara\n5) Great Miracle of Sravasti",
+      "option_a": "a-3, b-1, c-4, d-2",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-2, b-1, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Cave 1 houses Bodhisattva Padmapani (3). Cave 16 contains the Dying Princess (1). Cave 17 features the Flying Apsara (4). Cave 26 contains the colossal Mahaparinirvana of Buddha (2)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अजंता गुफा संख्या) को सूची-II (प्रमुख चित्र/मूर्ति आकर्षण) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) गुफा 1\nb) गुफा 16\nc) गुफा 17\nd) गुफा 26\n\nसूची-II:\n1) मरणासन्न राजकुमारी\n2) बुद्ध का महापरिनिर्वाण\n3) बोधिसत्व पद्मपाणि\n4) उड़ती हुई अप्सरा\n5) श्रावस्ती का महान चमत्कार",
+      "option_a": "a-3, b-1, c-4, d-2",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-2, b-1, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. गुफा 1 में बोधिसत्व पद्मपाणि (3) का चित्र है। गुफा 16 में मरणासन्न राजकुमारी (1) है। गुफा 17 में उड़ती हुई अप्सरा (4) है। गुफा 26 में बुद्ध का विशाल महापरिनिर्वाण (2) है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ellora Cave Number) with List-II (Religious Affiliation/Name) and select the correct answer:\nList-I:\na) Cave 10\nb) Cave 15\nc) Cave 16\nd) Cave 32\n\nList-II:\n1) Kailashnath Temple (Hindu)\n2) Vishvakarma Chaitya (Buddhist)\n3) Indra Sabha (Jain)\n4) Dashavatara Cave (Hindu)\n5) Dumarlena Cave (Hindu)",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-1, b-4, c-2, d-3",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Cave 10 is the Vishvakarma Cave (2). Cave 15 is the Dashavatara Cave (4). Cave 16 is the monolithic Kailashnath Temple (1). Cave 32 is the Indra Sabha (3)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (एलोरा गुफा संख्या) को सूची-II (धार्मिक संबद्धता/नाम) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) गुफा 10\nb) गुफा 15\nc) गुफा 16\nd) गुफा 32\n\nसूची-II:\n1) कैलाशनाथ मंदिर (हिंदू)\n2) विश्वकर्मा चैत्य (बौद्ध)\n3) इंद्र सभा (जैन)\n4) दशावतार गुफा (हिंदू)\n5) डुमरलेना गुफा (हिंदू)",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-1, b-4, c-2, d-3",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. गुफा 10 विश्वकर्मा गुफा (2) है। गुफा 15 दशावतार गुफा (4) है। गुफा 16 एकाश्म कैलाशनाथ मंदिर (1) है। गुफा 32 इंद्र सभा (3) है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Architectural Part of Stupa) with List-II (Symbolic Representation) and select the correct answer:\nList-I:\na) Anda\nb) Harmika\nc) Yashti\nd) Torana\n\nList-II:\n1) Cosmic Axis\n2) Hemispherical Dome (Universe)\n3) Gateway (Cardinal Directions)\n4) Abode of Gods (Sacred Railing)\n5) Umbrella of Sovereignty",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-4, b-2, c-1, d-3",
+      "option_c": "a-2, b-1, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Anda represents the universe/dome (2). Harmika represents the sacred abode of gods (4). Yashti represents the cosmic axis (1). Torana represents the gateway facing cardinal directions (3)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (स्तूप का स्थापत्य भाग) को सूची-II (प्रतीकात्मक प्रतिनिधित्व) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) अंड (Anda)\nb) हर्मिका (Harmika)\nc) यष्टि (Yashti)\nd) तोरण (Torana)\n\nसूची-II:\n1) ब्रह्मांडीय अक्ष (Cosmic Axis)\n2) अर्धगोलाकार गुंबद (ब्रह्मांड)\n3) प्रवेश द्वार (दिशाएं)\n4) देवताओं का निवास स्थान (पवित्र रेलिंग)\n5) संप्रभुता का छत्र",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-4, b-2, c-1, d-3",
+      "option_c": "a-2, b-1, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. अंड ब्रह्मांड/गुंबद को दर्शाता है (2)। हर्मिका देवताओं के निवास का प्रतिनिधित्व करती है (4)। यष्टि ब्रह्मांडीय अक्ष को दर्शाती है (1)। तोरण दिशाओं की ओर मुख किए हुए प्रवेश द्वार को दर्शाता है (3)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Rock-cut Caves) with List-II (Principal Dynasty/Patron) and select the correct answer:\nList-I:\na) Barabar Caves\nb) Udayagiri Caves (MP)\nc) Ellora Caves (Kailash Temple)\nd) Sittanavasal Caves\n\nList-II:\n1) Gupta Dynasty\n2) Mauryan Dynasty\n3) Pandya Dynasty\n4) Rashtrakuta Dynasty\n5) Chalukya Dynasty",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-4, d-3",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Barabar Caves are Mauryan (2). Udayagiri Caves in MP are Gupta (1). Kailash Temple at Ellora is Rashtrakuta (4). Sittanavasal Caves are Pandya (3)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (शैलकृत गुफाएं) को सूची-II (प्रमुख राजवंश/संरक्षक) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) बराबर गुफाएं\nb) उदयगिरि गुफाएं (मध्य प्रदेश)\nc) एलोरा गुफाएं (कैलाश मंदिर)\nd) सित्तनवासन गुफाएं\n\nसूची-II:\n1) गुप्त राजवंश\n2) मौर्य राजवंश\n3) पाण्ड्य राजवंश\n4) राष्ट्रकूट राजवंश\n5) चालुक्य राजवंश",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-4, d-3",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. बराबर गुफाएं मौर्य (2) काल की हैं। मध्य प्रदेश की उदयगिरि गुफाएं गुप्त (1) काल की हैं। एलोरा का कैलाश मंदिर राष्ट्रकूट (4) काल का है। सित्तनवासन गुफाएं पाण्ड्य (3) काल की हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient Painting Site) with List-II (Distinctive Feature/Theme) and select the correct answer:\nList-I:\na) Ajanta\nb) Bagh\nc) Badami\nd) Sittanavasal\n\nList-II:\n1) Secular themes with multi-colored group dance (Hallisaka)\n2) Earliest Brahminic paintings (Vaishnavite themes)\n3) Lotus pool with disciples gathering flowers (Jain theme)\n4) Jataka stories depicted in tempera style on plaster\n5) Royal court scenes under Pallava patronage",
+      "option_a": "a-4, b-1, c-2, d-3",
+      "option_b": "a-1, b-4, c-2, d-3",
+      "option_c": "a-4, b-2, c-1, d-3",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Ajanta features Jataka stories (4). Bagh features secular themes/dances (1). Badami features earliest Vaishnavite paintings (2). Sittanavasal features a lotus pool with Jain monks (3)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन चित्रकला स्थल) को सूची-II (विशिष्ट विशेषता/विषय) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) अजंता\nb) बाघ\nc) बादामी\nd) सित्तनवासन\n\nसूची-II:\n1) बहु-रंगीन समूह नृत्य (हल्लीसाका) के साथ धर्मनिरपेक्ष विषय\n2) सबसे पुराने ब्राह्मण चित्र (वैष्णव विषय)\n3) फूल इकट्ठा करते शिष्यों के साथ कमल का तालाब (जैन विषय)\n4) प्लास्टर पर टेम्परा शैली में चित्रित जातक कथाएं\n5) पल्लव संरक्षण के तहत शाही दरबार के दृश्य",
+      "option_a": "a-4, b-1, c-2, d-3",
+      "option_b": "a-1, b-4, c-2, d-3",
+      "option_c": "a-4, b-2, c-1, d-3",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. अजंता में जातक कथाएं (4) हैं। बाघ में धर्मनिरपेक्ष विषय/नृत्य (1) हैं। बादामी में सबसे पुराने वैष्णव चित्र (2) हैं। सित्तनवासन में जैन भिक्षुओं के साथ कमल का तालाब (3) है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Early Chaitya Site) with List-II (Key Architectural Feature) and select the correct answer:\nList-I:\na) Karle\nb) Bhaja\nc) Ajanta Cave 9\nd) Kanheri\n\nList-II:\n1) Simplest early wooden imitation architecture with slanting octagonal pillars\n2) Largest Chaitya hall with high rock-cut vaulted ceiling and elephant-rider pillars\n3) Plain Hinayana Chaitya with rectangular pillars and simple stupa dome\n4) Late Mahayana Chaitya with standing Avalokiteshvara figures at the entry\n5) Monolithic rock temple with a flat roof",
+      "option_a": "a-2, b-1, c-3, d-4",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-4, b-1, c-3, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Karle is the largest Chaitya (2). Bhaja is the early wooden imitation with slanting pillars (1). Ajanta Cave 9 is a plain Hinayana Chaitya (3). Kanheri has late Mahayana figures at entry (4)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्रारंभिक चैत्य स्थल) को सूची-II (प्रमुख स्थापत्य विशेषता) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) कार्ला\nb) भाजा\nc) अजंता गुफा 9\nd) कान्हेरी\n\nसूची-II:\n1) झुके हुए अष्टकोणीय स्तंभों वाली सरल प्रारंभिक लकड़ी की वास्तुकला की नकल\n2) ऊँची शैलकृत तिजोरीदार छत और हाथी-सवार स्तंभों वाला सबसे बड़ा चैत्य गृह\n3) आयताकार स्तंभों और साधारण स्तूप गुंबद वाला सादा हीनयान चैत्य\n4) प्रवेश द्वार पर खड़े अवलोकितेश्वर की आकृतियों वाला उत्तरकालीन महायान चैत्य\n5) सपाट छत वाला एकाश्म चट्टानी मंदिर",
+      "option_a": "a-2, b-1, c-3, d-4",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-4, b-1, c-3, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. कार्ला सबसे बड़ा चैत्य (2) है। भाजा झुके हुए स्तंभों वाली प्रारंभिक लकड़ी की नकल (1) है। अजंता गुफा 9 एक सादा हीनयान चैत्य (3) है। कान्हेरी में प्रवेश द्वार पर खड़े महायान आकृतियां (4) हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient Sculpture) with List-II (Location/Cave Context) and select the correct answer:\nList-I:\na) Ravana Shaking Kailash\nb) Mahaparinirvana of Buddha\nc) Varaha Rescuing Earth\nd) Shalabhanjika Bracket\n\nList-II:\n1) Ajanta Cave 26\n2) Ellora Cave 16\n3) Udayagiri Cave 5\n4) Sanchi Stupa Torana\n5) Bharhut Stupa Pillar",
+      "option_a": "a-2, b-1, c-3, d-4",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Ravana Shaking Kailash is in Ellora Cave 16 (2). Mahaparinirvana of Buddha is in Ajanta Cave 26 (1). Varaha rescuing Earth is in Udayagiri Cave 5 (3). Shalabhanjika is on the Sanchi Stupa Torana (4)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन मूर्ति) को सूची-II (स्थान/गुफा संदर्भ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) कैलाश हिलाता रावण\nb) बुद्ध का महापरिनिर्वाण\nc) पृथ्वी को बचाता वराह\nd) शालभंजिका ब्रैकेट\n\nसूची-II:\n1) अजंता गुफा 26\n2) एलोरा गुफा 16\n3) उदयगिरि गुफा 5\n4) सांची स्तूप तोरण\n5) भरहुत स्तूप स्तंभ",
+      "option_a": "a-2, b-1, c-3, d-4",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. कैलाश हिलाता रावण एलोरा गुफा 16 (2) में है। बुद्ध का महापरिनिर्वाण अजंता गुफा 26 (1) में है। पृथ्वी को बचाता वराह उदयगिरि गुफा 5 (3) में है। शालभंजिका सांची स्तूप तोरण (4) पर है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Ajanta Paintings:\n1. The paintings represent both Hinayana and Mahayana phases of Buddhism.\n2. The main technique used was true fresco (fresco-buono) where pigments were mixed with wet plaster.\n3. The outline of figures was first drawn in red ochre, then colors like lapis lazuli were added.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because Ajanta caves were executed in two distinct phases: Hinayana (caves 9, 10, 8, 12, 13) and Mahayana (others). Statement 2 is incorrect because the technique was fresco-secco (tempera) on dry plaster, not wet fresco (fresco-buono). Statement 3 is correct because the outline was indeed painted first with red ochre and then filled with mineral colors, including imported lapis lazuli."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अजंता के चित्रों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. ये चित्र बौद्ध धर्म के हीनयान और महायान दोनों चरणों का प्रतिनिधित्व करते हैं।\n2. उपयोग की जाने वाली मुख्य तकनीक ट्रू फ्रेस्को (fresco-buono) थी जहां रंगों को गीले प्लास्टर के साथ मिलाया जाता था।\n3. आकृतियों की रूपरेखा पहले लाल गेरू से खींची जाती थी, फिर लैपिस लाजुली जैसे रंग भरे जाते थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि अजंता गुफाओं का निर्माण दो चरणों में हुआ था: हीनयान (गुफा 9, 10, 8, 12, 13) और महायान (अन्य)। कथन 2 गलत है क्योंकि यह तकनीक सूखे प्लास्टर पर फ्रेस्को-सेक्को (टेम्परा) थी, न कि गीले प्लास्टर पर ट्रू फ्रेस्को। कथन 3 सही है क्योंकि रूपरेखा पहले लाल गेरू से खींची जाती थी और फिर खनिज रंगों से भरी जाती थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Sanchi Stupa-I:\n1. It was originally built with bricks by the Mauryan Emperor Ashoka.\n2. The stone Vedika (railing) and the stone casing were added during the Sunga period.\n3. The four beautifully carved Toranas (gateways) were constructed under the Satavahana dynasty.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct as Sanchi Stupa I was commissioned by Ashoka in the 3rd century BCE with a brick core. Statement 2 is incorrect because the stone casing and railing were added during the Sunga period, not Kushana. Statement 3 is correct because the highly decorative gateways (Toranas) were built during the Satavahana reign (1st century BCE)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सांची स्तूप-I के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसे मूल रूप से मौर्य सम्राट अशोक द्वारा ईंटों से बनवाया गया था।\n2. कुषाण काल ​​के दौरान पत्थर की वेदिका (रेलिंग) और पत्थर का आवरण जोड़ा गया था।\n3. चार खूबसूरती से तराशे गए तोरण (प्रवेश द्वार) सातवाहन राजवंश के तहत बनाए गए थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि सांची स्तूप I को तीसरी शताब्दी ईसा पूर्व में अशोक द्वारा ईंटों के कोर के साथ बनवाया गया था। कथन 2 गलत है क्योंकि पत्थर का आवरण और वेदिका शुंग काल में जोड़े गए थे, न कि कुषाण काल में। कथन 3 सही है क्योंकि सुंदर तोरणों का निर्माण सातवाहन शासन (पहली शताब्दी ईसा पूर्व) के दौरान किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Ellora Caves:\n1. The caves are systematically divided into Buddhist, Hindu, and Jain groups.\n2. The Buddhist caves are the youngest, excavated after the Jain caves.\n3. The monolithic Kailashnath Temple is located within the Hindu group of caves.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because Ellora caves 1-12 are Buddhist, 13-29 Hindu, and 30-34 Jain. Statement 2 is incorrect because the Buddhist caves are the oldest (approx 550-750 CE), while Jain caves are the youngest (9th-10th century CE). Statement 3 is correct because the Kailashnath Temple is Cave 16, which is part of the Hindu group."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. एलोरा की गुफाओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इन गुफाओं को बौद्ध, हिंदू और जैन समूहों में व्यवस्थित रूप से विभाजित किया गया है।\n2. बौद्ध गुफाएं सबसे नई हैं, जिनका उत्खनन जैन गुफाओं के बाद किया गया था।\n3. एकाश्म कैलाशनाथ मंदिर गुफाओं के हिंदू समूह के भीतर स्थित है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "Cleaned list",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि एलोरा में गुफा 1-12 बौद्ध, 13-29 हिंदू और 30-34 जैन हैं। कथन 2 गलत है क्योंकि बौद्ध गुफाएं सबसे पुरानी (लगभग 550-750 ईस्वी) हैं, जबकि जैन गुफाएं सबसे नई (9वीं-10वीं शताब्दी) हैं। कथन 3 सही है क्योंकि कैलाशनाथ मंदिर गुफा 16 में है, जो हिंदू समूह का हिस्सा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding ancient rock-cut architecture in India:\n1. The Sudama and Lomas Rishi caves are the earliest examples of rock-cut caves, located in Bihar.\n2. The Bhaja Caves represent early Hinayana Buddhist architecture without any Buddha statues.\n3. The Kanheri Caves contain no structural inscriptions or water harvesting systems due to their dry high altitude.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Sudama and Lomas Rishi caves in Barabar Hills (Bihar) date to the Mauryan period. Statement 2 is correct because Bhaja represents early Hinayana Buddhism where the Buddha is represented only symbolically (stupa, umbrella, feet) and not through statues. Statement 3 is incorrect because Kanheri is famous for its elaborate ancient water harvesting system with rock-cut cisterns and canals, as well as over 50 inscriptions."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत में प्राचीन शैलकृत वास्तुकला के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. सुदामा और लोमस ऋषि गुफाएं शैलकृत गुफाओं के सबसे शुरुआती उदाहरण हैं, जो बिहार में स्थित हैं।\n2. भाजा गुफाएं प्रारंभिक हीनयान बौद्ध वास्तुकला का प्रतिनिधित्व करती हैं, जिनमें बुद्ध की कोई मूर्ति नहीं है।\n3. शुष्क उच्च ऊंचाई के कारण कान्हेरी गुफाओं में कोई संरचनात्मक शिलालेख या जल संचयन प्रणाली नहीं है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि बराबर पहाड़ियों (बिहार) में सुदामा और लोमस ऋषि गुफाएं मौर्य काल की हैं। कथन 2 सही है क्योंकि भाजा प्रारंभिक हीनयान बौद्ध धर्म का प्रतिनिधित्व करता है जहां बुद्ध को केवल प्रतीकात्मक रूप में दर्शाया गया है। कथन 3 गलत है क्योंकि कान्हेरी शैलकृत हौजों और नहरों के साथ अपनी विस्तृत प्राचीन जल संचयन प्रणाली तथा 50 से अधिक शिलालेखों के लिए प्रसिद्ध है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding ancient Indian cave paintings:\n1. The paintings at Sittanavasal are associated with Jainism and feature themes like dancing girls and flora.\n2. The Badami cave paintings represent the earliest surviving Hindu wall paintings.\n3. The Bagh paintings are highly religious, focusing exclusively on the Theravada Buddhist doctrines.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Sittanavasal has Jain frescoes depicting dancers and nature. Statement 2 is correct because Badami (Cave 3) houses Chalukyan paintings representing Vaishnavite themes, the earliest recorded Brahmanical paintings. Statement 3 is incorrect because Bagh paintings are known for their secular, festive, and aesthetic character rather than rigid Theravada doctrine."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय गुफा चित्रों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. सित्तनवासन के चित्र जैन धर्म से जुड़े हैं और इनमें नृत्य करने वाली लड़कियों तथा वनस्पतियों जैसे विषय शामिल हैं।\n2. बादामी गुफा के चित्र सबसे पुराने जीवित हिंदू दीवार चित्रों का प्रतिनिधित्व करते हैं।\n3. बाघ के चित्र अत्यधिक धार्मिक हैं, जो विशेष रूप से थेरवाद बौद्ध सिद्धांतों पर केंद्रित हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि सित्तनवासन में नर्तकियों और प्रकृति को दर्शाने वाले जैन भित्तिचित्र हैं। कथन 2 सही है क्योंकि बादामी (गुफा 3) में वैष्णव विषयों को दर्शाने वाले चालुक्य चित्र हैं, जो सबसे पुराने दर्ज ब्राह्मण चित्र हैं। कथन 3 गलत है क्योंकि बाघ के चित्र कठोर थेरवाद सिद्धांत के बजाय अपने धर्मनिरपेक्ष और उत्सव के दृश्यों के लिए जाने जाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the structural features of ancient Buddhist Stupas:\n1. The Medhi is the elevated circular pathway meant for circumambulation.\n2. The Pradakshina Patha at Sanchi is enclosed by a stone railing called Vedika.\n3. The Torana at the South cardinal direction always represents the birth of the Buddha.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as the Medhi is a raised circular terrace used for circumambulation. Statement 2 is correct because the lower Pradakshina Patha is enclosed by the stone Vedika. Statement 3 is incorrect because, while Toranas depict various life scenes (birth, enlightenment, first sermon, mahaparinirvana) and Jatakas, there is no rigid rule that the South Torana 'always' represents the birth only."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन बौद्ध स्तूपों की संरचनात्मक विशेषताओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. मेधी वह ऊंचा गोलाकार पथ है जो परिक्रमा के लिए बनाया गया है।\n2. सांची में प्रदक्षिणा पथ एक पत्थर की रेलिंग से घिरा हुआ है जिसे वेदिका कहा जाता है।\n3. दक्षिण दिशा का तोरण हमेशा बुद्ध के जन्म का प्रतिनिधित्व करता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि मेधी एक ऊंचा गोलाकार चबूतरा है जिसका उपयोग परिक्रमा के लिए किया जाता है। कथन 2 सही है क्योंकि निचला प्रदक्षिणा पथ पत्थर की वेदिका से घिरा हुआ है। कथन 3 गलत है क्योंकि तोरणों पर जीवन के विभिन्न दृश्य (जन्म, ज्ञानोदय, प्रथम उपदेश, महापरिनिर्वाण) और जातक चित्रित हैं, ऐसा कोई नियम नहीं है कि दक्षिण तोरण 'हमेशा' केवल जन्म का ही प्रतिनिधित्व करे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Amaravati Stupa:\n1. It is notable for its relief sculptures carved in white-greenish limestone.\n2. Unlike Sanchi, it features highly crowded and dynamic figures in its relief medallions.\n3. The stupa was extensively patronized by the Kushana rulers of Northern India.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Amaravati is famous for white-greenish limestone reliefs. Statement 2 is correct because the Amaravati style is known for dynamic, energetic, and crowded figures compared to the static style of early Sanchi. Statement 3 is incorrect because the Amaravati stupa was patronized by the Satavahanas and Ikshvakus of Southern/Deccan India, not Kushanas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अमरावती स्तूप के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह सफेद-हरे चूना पत्थर में उकेरे गए नक्काशीदार पदकों के लिए उल्लेखनीय है।\n2. सांची के विपरीत, इसके राहत पदकों में अत्यधिक भीड़भाड़ वाली और गतिशील आकृतियाँ हैं।\n3. इस स्तूप को उत्तरी भारत के कुषाण शासकों द्वारा व्यापक रूप से संरक्षण दिया गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि अमरावती सफेद-हरे चूना पत्थर की नक्काशी के लिए प्रसिद्ध है। कथन 2 सही है क्योंकि अमरावती शैली शुरुआती सांची की स्थिर शैली की तुलना में गतिशील और भीड़भाड़ वाली आकृतियों के लिए जानी जाती है। कथन 3 गलत है क्योंकि अमरावती स्तूप को दक्षिण/दक्कन भारत के सातवाहनों और इक्ष्वाकुओं द्वारा संरक्षण दिया गया था, न कि कुषाणों द्वारा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the monolithic Kailashnath Temple at Ellora:\n1. It was commissioned by the Rashtrakuta King Dantidurga to celebrate his victory over Pallavas.\n2. It replicates a Dravidian style temple featuring a Nandi mandapa, a courtyard, and a main sanctuary.\n3. The entire complex was carved out of a single hill of basalt rock from top to bottom.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because the Kailashnath Temple was commissioned by King Krishna I, not Dantidurga. Statement 2 is correct because it follows the Dravidian architectural plan (like Virupaksha temple at Pattadakal) with a Nandi mandapa, gopura-like entrance, and main vimana. Statement 3 is correct because it is the world's largest monolithic top-down excavation in basalt rock."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. एलोरा के एकाश्म कैलाशनाथ मंदिर के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसे राष्ट्रकूट राजा दंतिदुर्ग ने पल्लवों पर अपनी जीत का जश्न मनाने के लिए बनवाया था।\n2. यह द्रविड़ शैली के मंदिर की नकल है जिसमें नंदी मंडप, एक प्रांगण और एक मुख्य गर्भगृह है।\n3. पूरा परिसर बेसाल्ट चट्टान की एक ही पहाड़ी को ऊपर से नीचे की ओर काटकर बनाया गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि कैलाशनाथ मंदिर का निर्माण राजा कृष्ण प्रथम द्वारा करवाया गया था, दंतिदुर्ग द्वारा नहीं। कथन 2 सही है क्योंकि यह द्रविड़ स्थापत्य योजना का अनुसरण करता है जिसमें नंदी मंडप, गोपुरम जैसा प्रवेश द्वार और मुख्य विमान शामिल है। कथन 3 सही है क्योंकि यह बेसाल्ट चट्टान में दुनिया का सबसे बड़ा एकाश्म शीर्ष-से-आधार उत्खनन है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the architectural differences between Viharas and Chaityas:\n1. Chaityas were prayer halls containing a stupa at one end, whereas Viharas were residential caves for monks.\n2. Viharas are typically characterized by a central courtyard surrounded by small cells.\n3. Both Chaityas and Viharas were exclusively excavated during the Mahayana phase of Buddhism.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Chaityas are halls of worship with a stupa at the apsidal end, while Viharas served as monasteries for monks to live. Statement 2 is correct because Viharas have a central hall or courtyard with small residential cells around it. Statement 3 is incorrect because both types were excavated in the Hinayana phase as well (e.g., Bhaja, Karle, Ajanta Caves 9 and 10 are Hinayana Chaityas)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. विहारों और चैत्यों के बीच स्थापत्य के अंतर के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. चैत्य प्रार्थना कक्ष थे जिनमें एक छोर पर स्तूप होता था, जबकि विहार भिक्षुओं के लिए आवासीय गुफाएं थे।\n2. विहारों की विशेषता आमतौर पर एक केंद्रीय प्रांगण होती है जो छोटे कमरों (cells) से घिरा होता है।\n3. चैत्य और विहार दोनों का विशेष रूप से बौद्ध धर्म के महायान चरण के दौरान ही उत्खनन किया गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "Cleaned list",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि चैत्य पूजा गृह हैं जिनमें एक छोर पर स्तूप होता है, जबकि विहार भिक्षुओं के रहने के मठ थे। कथन 2 सही है क्योंकि विहारों में एक केंद्रीय हॉल होता है जिसके चारों ओर छोटी कोठरियाँ होती हैं। कथन 3 गलत है क्योंकि दोनों प्रकार की गुफाओं का उत्खनन हीनयान चरण में भी किया गया था (जैसे भाजा, कार्ला, अजंता गुफा 9 और 10 हीनयान चैत्य हैं)।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the key architectural and decorative features of the rock-cut caves of Ajanta. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Ajanta Caves (29 rock-cut Buddhist caves in Maharashtra) feature two primary architectural layouts:\n- **Chaitya Grihas** (prayer halls, e.g., Caves 9, 10, 19, 26) with apsidal plans, ribbed vaulted ceilings, and stupas.\n- **Viharas** (monasteries, e.g., Caves 1, 2, 16) with central courtyards flanked by monks' cells.\n- **Decorative features**: Exquisite fresco-secco mural paintings depicting Jataka tales, featuring natural pigments and volumetric shading (e.g., Bodhisattva Padmapani and the Dying Princess)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अजंता की शैलकृत गुफाओं की प्रमुख स्थापत्य और सजावटी विशेषताओं पर प्रकाश डालिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "महाराष्ट्र में स्थित अजंता की गुफाओं (29 शैलकृत बौद्ध गुफाएं) में दो मुख्य स्थापत्य विन्यास हैं:\n- **चैत्य गृह** (प्रार्थना कक्ष, जैसे गुफा 9, 10, 19, 26) जो अर्धगोलाकार मेहराबदार छत और स्तूपों से युक्त हैं।\n- **विहार** (मठ, जैसे गुफा 1, 2, 16) जिनमें केंद्रीय प्रांगण और उसके चारों ओर भिक्षुओं के कमरे हैं।\n- **सजावटी विशेषताएं**: जातक कथाओं को दर्शाने वाले उत्कृष्ट फ्रेस्को-सेक्को भित्तिचित्र, जिनमें प्राकृतिक रंगों और त्रिआयामी प्रभाव (जैसे बोधिसत्व पद्मपाणि और मरणासन्न राजकुमारी) का उपयोग किया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare the architectural plan, patronage, and religious themes of the Ajanta Caves with those of the Ellora Caves. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Ajanta and Ellora caves represent the pinnacle of ancient Indian rock-cut architecture. However, they differ significantly in their architectural design, patronage, and religious affiliations as summarized below:\n\n| Aspect | Ajanta Caves | Ellora Caves |\n| :--- | :--- | :--- |\n| **Religious Themes** | Exclusively Buddhist (both Hinayana and Mahayana phases depicting Jataka tales). | Multi-religious: Buddhist (Caves 1-12), Hindu (Caves 13-29), and Jain (Caves 30-34). |\n| **Architectural Focus** | Concentrated on interior paintings (fresco-secco) and cave design (Chaityas and Viharas) in a horse-shoe ravine. | Focused on massive rock-cut sculpture and monolithic architecture (e.g., Kailashnath Temple) on a sloping hill. |\n| **Patronage** | Patronized by Satavahanas (early phase) and Vakatakas (especially Harishena in late phase). | Patronized by Rashtrakutas (e.g., Krishna I for Kailash Temple), Chalukyas, and Yadavas. |\n| **Chronology** | Dated from 2nd century BCE to 5th-6th century CE. | Dated later, from 6th century CE to 10th-11th century CE. |\n\nIn conclusion, while Ajanta is renowned for its delicate mural paintings and monastic solitude, Ellora is celebrated for its monumental sculpture, structural complexity, and religious pluralism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अजंता की गुफाओं की स्थापत्य योजना, संरक्षण और धार्मिक विषयों की एलोरा की गुफाओं से तुलना कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "अजंता और एलोरा की गुफाएं प्राचीन भारतीय शैलकृत वास्तुकला के शिखर का प्रतिनिधित्व करती हैं। हालाँकि, उनके स्थापत्य प्रारूप, संरक्षण और धार्मिक संबद्धताओं में महत्वपूर्ण अंतर है, जिसे नीचे संक्षेप में प्रस्तुत किया गया है:\n\n| पहलू | अजंता की गुफाएं | एलोरा की गुफाएं |\n| :--- | :--- | :--- |\n| **धार्मिक विषय** | विशेष रूप से बौद्ध (जातक कथाओं को दर्शाने वाले हीनयान और महायान दोनों चरण)। | बहु-धार्मिक: बौद्ध (गुफा 1-12), हिंदू (गुफा 13-29), और जैन (गुफा 30-34)। |\n| **स्थापत्य फोकस** | घोड़े की नाल के आकार की घाटी में आंतरिक चित्रों (फ्रेस्को-सेक्को) और गुफा प्रारूप (चैत्य और विहार) पर केंद्रित। | ढलान वाली पहाड़ी पर विशाल शैलकृत मूर्तियों और एकाश्म वास्तुकला (जैसे कैलाशनाथ मंदिर) पर केंद्रित। |\n| **संरक्षण** | सातवाहनों (प्रारंभिक चरण) और वाकाटकों (विशेष रूप से उत्तरार्ध चरण में हरिषेण) द्वारा संरक्षित। | राष्ट्रकूटों (जैसे कैलाश मंदिर के लिए कृष्ण प्रथम), चालुक्यों और यादवों द्वारा संरक्षित। |\n| **कालक्रम** | दूसरी शताब्दी ईसा पूर्व से 5वीं-6ठी शताब्दी ईस्वी तक। | छठी शताब्दी ईस्वी से 10वीं-11वीं शताब्दी ईस्वी तक (अजंता से बाद का काल)। |\n\nनिष्कर्षतः, जहाँ अजंता अपने नाजुक भित्तिचित्रों और एकांत बौद्ध मठ जीवन के लिए प्रसिद्ध है, वहीं एलोरा अपनी स्मारकीय मूर्तिकला, जटिल वास्तुकला और धार्मिक सद्भाव के लिए मनाया जाता है।"
+    }
+  ]
+}

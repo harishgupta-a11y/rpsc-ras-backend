@@ -1,0 +1,204 @@
+{
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the concept of Satkaryavada in Samkhya philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Satkaryavada is the Samkhya theory of causation, which posits that the effect pre-exists in the cause in a latent form before manifestation.\n\n* Key points:\n  * Nothing can be created out of nothing (Asad-akaranat).\n  * An effect requires a specific material cause (Upadana-grahana).\n  * The effect is identical in essence to its cause (Karana-bhavat).\n\nIn conclusion, it establishes that creation is merely the manifestation (Avirbhava) of the unmanifest (Tirobhava)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सांख्य दर्शन में सत्कार्यवाद की अवधारणा को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "सत्कार्यवाद सांख्य दर्शन का कारण-कार्य सिद्धांत है, जिसके अनुसार कार्य अपनी उत्पत्ति से पूर्व कारण में सूक्ष्म रूप से विद्यमान रहता है।\n\n* मुख्य बिंदु:\n  * असद-अकरणात्: शून्य से किसी वस्तु की उत्पत्ति नहीं हो सकती।\n  * उपादान-ग्रहणात्: किसी विशिष्ट कार्य के लिए विशिष्ट उपादान कारण की आवश्यकता होती है।\n  * कारण-भावात्: कार्य और कारण सार रूप में एक ही हैं।\n\nनिष्कर्षतः, यह सिद्धांत यह स्थापित करता है कि सृष्टि केवल अव्यक्त (तिरोभाव) का व्यक्त (आविर्भाव) होना है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Write a short note on the concept of 'Pramana' according to Nyaya Philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Nyaya philosophy, founded by Sage Gautama, is highly epistemological and accepts four valid sources of knowledge (Pramanas):\n\n* Pratyaksha (Perception): Direct cognition through sensory organs.\n* Anumana (Inference): Cognition based on prior knowledge and logical relation (Vyapti).\n* Upamana (Comparison): Knowledge gained through analogy.\n* Shabda (Verbal Testimony): Reliable statements of trustworthy persons.\n\nThus, Nyaya provides a rigorous logical framework to validate human knowledge."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. न्याय दर्शन के अनुसार 'प्रमाण' की अवधारणा पर एक संक्षिप्त टिप्पणी लिखिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "महर्षि गौतम द्वारा स्थापित न्याय दर्शन अत्यंत ज्ञानमीमांसीय है और ज्ञान प्राप्ति के चार वैध साधनों (प्रमाणों) को स्वीकार करता है:\n\n* प्रत्यक्ष: इंद्रियों और विषयों के सन्निकर्ष से प्राप्त प्रत्यक्ष ज्ञान।\n* अनुमान: पूर्व ज्ञान और तार्किक संबंध (व्याप्ति) पर आधारित ज्ञान।\n* उपमान: सादृश्य या समानता के माध्यम से प्राप्त ज्ञान।\n* शब्द: किसी विश्वसनीय व्यक्ति (आप्तपुरुष) के कथन।\n\nइस प्रकार, न्याय दर्शन मानवीय ज्ञान को मान्य करने के लिए एक कठोर तार्किक ढांचा प्रदान करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the concept of 'Apurva' in Mimamsa philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "In Purva Mimamsa philosophy, 'Apurva' is a metaphysical force that bridges a ritual action and its future results.\n\n* It is the unseen potency (Adrishta) generated immediately after performing Vedic sacrifices.\n* Since actions are temporary, Apurva remains in the soul to bear fruits (like heaven) in the future.\n\nThus, Apurva justifies the efficacy of Vedic rituals without requiring a personal creator God."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मीमांसा दर्शन में 'अपूर्व' की अवधारणा का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "पूर्व मीमांसा दर्शन में, 'अपूर्व' एक आध्यात्मिक कड़ी या अदृश्य शक्ति है जो किसी अनुष्ठान कर्म और उसके भविष्य के परिणामों को जोड़ती है।\n\n* यह वैदिक यज्ञों के संपादन के तुरंत बाद उत्पन्न होने वाली अदृश्य क्षमता (अदृष्ट) है।\n* चूंकि कर्म क्षणिक होते हैं, इसलिए अपूर्व भविष्य में फल देने के लिए आत्मा में संचित रहता है।\n\nइस प्रकार, अपूर्व व्यक्तिगत ईश्वर की आवश्यकता के बिना वैदिक कर्मकांडों की प्रभावकारिता को न्यायसंगत बनाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the Vaisheshika concept of 'Padartha' (Categories). [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "In Vaisheshika philosophy, 'Padartha' refers to the objects of knowledge that can be named and thought of.\n\n* Sage Kanada classified reality into six original categories: Dravya (Substance), Guna (Quality), Karma (Activity), Samanya (Generality), Vishesha (Particularity), and Samavaya (Inherence).\n* Later, Abhava (Non-existence) was added as the seventh category.\n\nThis classification forms the basis of Vaisheshika's pluralistic realism and atomic cosmology."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वैशेषिक दर्शन की 'पदार्थ' की अवधारणा को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "वैशेषिक दर्शन में, 'पदार्थ' से तात्पर्य ज्ञान के उन विषयों से है जिन्हें नाम दिया जा सकता है और जिनके बारे में सोचा जा सकता है।\n\n* महर्षि कणाद ने वास्तविकता को छह मूल श्रेणियों में वर्गीकृत किया: द्रव्य, गुण, कर्म, सामान्य, विशेष और समवाय।\n* बाद में, 'अभाव' को सातवें पदार्थ के रूप में जोड़ा गया।\n\nयह वर्गीकरण वैशेषिक के बहुलवादी यथार्थवाद और परमाणुवादी ब्रह्मांड विज्ञान का आधार बनता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the distinction between Prakriti and Purusha in Samkhya philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Samkhya is a dualistic philosophy asserting two ultimate reality principles:\n\n* Purusha: The pure, conscious, inactive, eternal, and pluralistic spiritual self.\n* Prakriti: The material, unconscious, active cause of the universe, composed of three Gunas (Sattva, Rajas, Tamas).\n\nLiberation (Kaivalya) is achieved when Purusha realizes its absolute distinction and isolation from Prakriti's manifestations."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सांख्य दर्शन में प्रकृति और पुरुष के बीच अंतर को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "सांख्य एक द्वैतवादी दर्शन है जो दो परम तत्वों को स्वीकार करता है:\n\n* पुरुष: शुद्ध, चेतन, अक्रिय, नित्य और बहुल आध्यात्मिक आत्म-तत्व।\n* प्रकृति: भौतिक, अचेतन, त्रिगुणात्मक (सत्त्व, रजस्, तमस्) और सृष्टि का सक्रिय कारण।\n\nजब पुरुष प्रकृति से अपने पूर्ण पृथकत्व (भेद-ज्ञान) को महसूस कर लेता है, तब मोक्ष (कैवल्य) की प्राप्ति होती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the concept of 'Asatkaryavada' in Nyaya-Vaisheshika philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Asatkaryavada (or Arambhavada) is the Nyaya-Vaisheshika theory of causation, opposing Samkhya's Satkaryavada.\n\n* It posits that the effect is a new creation (Arambha) and does not pre-exist in its material cause.\n* The effect (e.g., a clay pot) is non-existent (Asat) before its production.\n* It emphasizes the active agency of the causal factors.\n\nThus, causation is viewed as the production of something entirely new."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. न्याय-वैशेषिक दर्शन में 'असत्कार्यवाद' की अवधारणा को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "असत्कार्यवाद (या आरंभवाद) न्याय-वैशेषिक का कारण-कार्य सिद्धांत है, जो सांख्य के सत्कार्यवाद का खंडन करता है।\n\n* इसके अनुसार, कार्य एक नई उत्पत्ति (आरंभ) है और वह अपने उपादान कारण में पहले से मौजूद नहीं होता है।\n* कार्य (जैसे मिट्टी का घड़ा) अपनी उत्पत्ति से पहले असत् (विद्यमान नहीं) होता है।\n* यह कर्ता के सक्रिय प्रयास पर बल देता है।\n\nइस प्रकार, कारणता को किसी पूर्णतः नवीन वस्तु के सृजन के रूप में देखा जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the significance of 'Vyapti' in Nyaya Syllogism? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Vyapti is the logical ground of inference (Anumana) in Nyaya philosophy.\n\n* It is defined as the relation of invariable concomitance (Niyata Sahacharya) between the middle term (Hetu/reason) and the major term (Sadhya/inferable object), like smoke and fire.\n* Without Vyapti, no logical deduction or induction is valid.\n\nThus, Vyapti serves as the structural foundation of the five-membered Nyaya syllogism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. न्याय वाक्य (अनुमान) में 'व्याप्ति' का क्या महत्व है? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "व्याप्ति न्याय दर्शन में अनुमान का तार्किक आधार है।\n\n* इसे हेतु (धुआं) और साध्य (आग) के बीच अपरिवर्तनीय सहचर्य संबंध के रूप में परिभाषित किया गया है।\n* व्याप्ति के बिना कोई भी तार्किक अनुमान या निष्कर्ष मान्य नहीं होता है।\n\nइस प्रकार, व्याप्ति न्याय के पांच अवयवों वाले न्याय वाक्य (पंचावयव) के संरचनात्मक आधार के रूप में कार्य करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the Vaisheshika Atomism (Paramanuvada). [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Paramanuvada is the Vaisheshika theory of cosmology proposed by Sage Kanada.\n\n* It asserts that the physical universe is composed of four types of indivisible, eternal, and microscopic atoms (Paramanus): Earth, Water, Fire, and Air.\n* Creation occurs when atoms combine under the influence of 'Adrishta' (unseen moral force guided by God).\n\nThus, Vaisheshika offers a realistic, pluralistic explanation of the material world."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वैशेषिक परमाणुवाद की व्याख्या कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "परमाणुवाद महर्षि कणाद द्वारा प्रतिपादित वैशेषिक दर्शन का सृष्टि सिद्धांत है।\n\n* इसके अनुसार, भौतिक जगत चार प्रकार के अविभाज्य, नित्य और सूक्ष्म परमाणुओं: पृथ्वी, जल, तेज और वायु के संयोग से बना है।\n* सृष्टि का निर्माण 'अदृष्ट' (ईश्वर द्वारा निर्देशित अदृश्य नैतिक शक्ति) के प्रभाव में परमाणुओं के जुड़ने से होता है।\n\nइस प्रकार, यह भौतिक जगत की एक यथार्थवादी और परमाणुवादी व्याख्या प्रस्तुत करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the concept of 'Jivanmukti' vs 'Videhamukti' in Shankara's Advaita Vedanta. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Advaita Vedanta distinguishes between two stages of liberation:\n\n* Jivanmukti: Liberation while alive. The realized soul (Jnani) continues to live in the physical body due to remaining Prarabdha Karma but remains detached and blissful.\n* Videhamukti: Liberation after death. Upon the exhaustion of all Karmas, the soul completely merges into Brahman, shedding the body.\n\nBoth states represent the cessation of ignorance (Avidya) and realization of non-duality."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. शंकर के अद्वैत वेदांत में 'जीवन्मुक्ति' बनाम 'विदेहमुक्ति' की अवधारणा का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "अद्वैत वेदांत में मुक्ति की दो अवस्थाओं के बीच अंतर किया गया है:\n\n* जीवन्मुक्ति: जीवित रहते हुए मुक्ति। ज्ञानी पुरुष प्रारब्ध कर्म के शेष रहने के कारण शरीर में रहता है, परंतु वह अनासक्त और परमानंद में रहता है।\n* विदेहमुक्ति: मृत्यु के पश्चात मुक्ति। सभी कर्मों के क्षय होने पर, आत्मा भौतिक शरीर का त्याग कर ब्रह्म में पूर्णतः विलीन हो जाती है।\n\nये दोनों अवस्थाएं अविद्या की निवृत्ति और अद्वैत तत्व की प्राप्ति को दर्शाती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the role of 'Ishvara' (God) in Patanjali's Yoga Philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Unlike the non-theistic classical Samkhya, Yoga philosophy is theistic (Seshvara Samkhya) and includes Ishvara:\n\n* Ishvara is defined as a special Purusha (Purusha-vishesha) who is untouched by afflictions, actions, and fruits.\n* He is not the creator, but acts as a spiritual archetype and guide.\n* Devotion to God (Ishvara-pranidhana) is considered a direct path to Samadhi.\n\nThus, Ishvara serves a practical, spiritual purpose in Yoga."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पतंजलि के योग दर्शन में 'ईश्वर' की भूमिका की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "शास्त्रीय सांख्य के विपरीत, योग दर्शन ईश्वरवादी है (सेश्वर सांख्य) और इसमें ईश्वर को स्वीकार किया गया है:\n\n* ईश्वर को एक विशेष पुरुष (पुरुष-विशेष) के रूप में परिभाषित किया गया है जो क्लेशों, कर्मों और उनके फलों से अछूता है।\n* वह ब्रह्मांड का निर्माता नहीं है, बल्कि योग साधना के लिए एक आध्यात्मिक आदर्श है।\n* ईश्वर-प्रणिधान को समाधि प्राप्त करने का एक सीधा मार्ग माना गया है।\n\nइस प्रकार, योग में ईश्वर एक व्यावहारिक और आध्यात्मिक उद्देश्य की पूर्ति करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the Vaisheshika category of 'Samavaya' (Inherence). [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Samavaya is the sixth category (Padartha) in Vaisheshika philosophy, representing an inseparable relationship.\n\n* It is an eternal, internal relation between two entities where one cannot exist without the other.\n* Examples include the relation between a substance and its qualities (cloth and its color) or a whole and its parts.\n* It is distinct from Samyoga (conjunction), which is temporary and external.\n\nThus, Samavaya ensures structural unity."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वैशेषिक दर्शन के 'समवाय' (अयुतसिद्ध संबंध) पदार्थ को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "समवाय वैशेषिक दर्शन में छठा पदार्थ है, जो एक अविभाज्य (अयुतसिद्ध) संबंध को दर्शाता है।\n\n* यह दो ऐसी वस्तुओं के बीच का नित्य और आंतरिक संबंध है जहां एक के बिना दूसरे का अस्तित्व संभव नहीं है।\n* उदाहरण के लिए, द्रव्य और उसके गुण (कपड़ा और उसका रंग) या अवयवी और उसके अवयव का संबंध।\n* यह संयोग संबंध से भिन्न है, जो अस्थायी और बाह्य होता है।\n\nइस प्रकार, समवाय यौगिक वस्तुओं की संरचनात्मक एकता सुनिश्चित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the concept of 'Adhyasa' in Shankaracharya's Vedanta? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "In Advaita Vedanta, Adhyasa refers to superimposition, defined as the apparent presentation of a previously perceived attribute onto another object.\n\n* It is the cognitive error of projecting the qualities of the non-self (Anatman) onto the self (Atman), like mistaking a rope for a snake.\n* It is caused by Avidya (ignorance).\n\nHence, overcoming Adhyasa through right knowledge (Jnana) leads to liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. शंकराचार्य के वेदांत में 'अध्यास' की अवधारणा क्या है? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "अद्वैत वेदांत में, अध्यास से तात्पर्य अध्यारोप या भ्रम से है, जिसे किसी पूर्व-दृष्ट वस्तु के गुणों के किसी अन्य वस्तु पर दिखाई देने के रूप में परिभाषित किया गया है।\n\n* यह अनात्मा के गुणों को आत्मा पर और आत्मा के गुणों को अनात्मा पर आरोपित करने की संज्ञानात्मक भूल है, जैसे रस्सी में सर्प का भ्रम।\n* यह अज्ञान (अविद्या) के कारण होता है।\n\nअतः, सम्यक् ज्ञान (ज्ञान) द्वारा अध्यास पर विजय प्राप्त करने से मोक्ष की प्राप्ति होती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Define the concept of 'Sabda-Pramana' according to the Mimamsa school. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Mimamsa school places supreme reliance on Shabda (Verbal Testimony) as the primary source of valid knowledge.\n\n* It divides Shabda into Pauruseya (human testimony, liable to error) and Apauruseya (authorless testimony, which is infallible).\n* The Vedas are considered Apauruseya, eternal (Nitya), and self-revealed.\n\nTherefore, Vedic commands (Vidhi) are the ultimate authority on Dharma and duty."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मीमांसा दर्शन के अनुसार 'शब्द-प्रमाण' की अवधारणा को परिभाषित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "मीमांसा दर्शन वैध ज्ञान के प्राथमिक स्रोत के रूप में शब्द प्रमाण (शाब्द ज्ञान) पर सर्वोच्च भरोसा रखता है।\n\n* यह शब्द को पौरुषेय (मानव-निर्मित, जिसमें त्रुटि की संभावना होती है) और अपौरुषेय (मानव-अतिरेक, जो अचूक है) में विभाजित करता है।\n* वेदों को अपौरुषेय, नित्य और स्वतः-प्रमाणित माना गया है।\n\nइसलिए, धर्म और कर्तव्य के निर्धारण में वैदिक विधि-निषेध (आज्ञाएं) अंतिम प्राधिकारी हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Critically analyze the evolution of the universe from Prakriti in Samkhya Philosophy. Provide a structured flow of the evolutionary process. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Samkhya philosophy propounds a teleological theory of evolution (Parinamavada) from Prakriti to serve the dual purpose of the Purusha: experience (Bhoga) and liberation (Apavarga).\n\n* **The Evolutionary Process**:\n  * **Samyavastha**: Before evolution, Prakriti is in a state of equilibrium of the three Gunas (Sattva, Rajas, Tamas).\n  * **Sanyoga**: The proximity of Purusha disrupts this balance, initiating creation.\n  * **Evolutionary Chain**: Evolving first into Mahat (intellect), then Ahankara (ego). Ahankara splits into Sattvik (yielding mind, five sensory organs, and five motor organs) and Tamasik (yielding five subtle elements or Tanmatras, which further produce five gross elements or Mahabhutas).\n\n* **Evolutionary Schema (Table)**:\n\n| Stage | Source | Product | Dominant Guna |\n| :--- | :--- | :--- | :--- |\n| First Manifestation | Prakriti | Mahat (Intellect) | Sattva |\n| Second Manifestation | Mahat | Ahankara (Ego) | Rajas/Sattva |\n| Subjective Branch | Ahankara (Sattvik) | Manas & 10 Organs | Sattva |\n| Objective Branch | Ahankara (Tamasik) | 5 Tanmatras & 5 Mahabhutas | Tamas |\n\nIn conclusion, evolution is cyclic; during Pralaya, all evolutionary products dissolve back into the unmanifest Prakriti."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सांख्य दर्शन में प्रकृति से सृष्टि के विकास (उत्पत्ति) का आलोचनात्मक विश्लेषण कीजिए। विकासवादी प्रक्रिया का एक व्यवस्थित प्रवाह चार्ट/तालिका प्रदान कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "सांख्य दर्शन पुरुष के प्रयोजन (भोग और अपवर्ग) को सिद्ध करने के लिए प्रकृति से सृष्टि की उत्पत्ति का एक उद्देश्यपूर्ण विकासवाद (परिणामवाद) प्रतिपादित करता है।\n\n* **विकास की प्रक्रिया**:\n  * **साम्यावस्था**: विकास से पूर्व, प्रकृति अपने तीनों गुणों (सत्त्व, रजस्, तमस्) की साम्यावस्था में रहती है।\n  * **संयोग**: पुरुष के सन्निकर्ष से यह संतुलन भंग हो जाता है, जिससे सृष्टि का आरंभ होता है।\n  * **विकासवादी क्रम**: प्रकृति सबसे पहले महत् (बुद्धि) में बदलती है, फिर अहंकार में। अहंकार दो भागों में विभाजित होता है: सात्त्विक (मन, 5 ज्ञानेन्द्रियाँ और 5 कर्मेन्द्रियाँ) और तामसिक (5 तन्मात्राएँ, जिनसे आगे 5 महाभूत बनते हैं)।\n\n* **विकासक्रम सारणी**:\n\n| चरण | स्रोत | उत्पन्न तत्व | प्रधान गुण |\n| :--- | :--- | :--- | :--- |\n| प्रथम विकार | प्रकृति | महत् (बुद्धि) | सत्त्व |\n| द्वितीय विकार | महत् | अहंकार | रजस्/सत्त्व |\n| व्यष्टिगत शाखा | सात्त्विक अहंकार | मन एवं 10 इंद्रियां | सत्त्व |\n| समष्टिगत शाखा | तामसिक अहंकार | 5 तन्मात्रा एवं 5 महाभूत | तमस् |\n\nनिष्कर्षतः, सांख्य विकासक्रम चक्रीय है; प्रलयकाल में सभी तत्व पुनः प्रकृति में लीन (प्रतिसंचर) हो जाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the Astanga Yoga (Eight-fold path) of Patanjali. Describe the significance of each step in achieving Samadhi. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Patanjali's Yoga Sutra prescribes the Astanga Yoga, an eight-fold path designed to control the modifications of the mind (Chitta-vritti-nirodha) and attain liberation (Kaivalya).\n\n* **Eight Steps of Yoga (Table)**:\n\n| Step | Name | Description & Significance | Category |\n| :--- | :--- | :--- | :--- |\n| 1 | **Yama** | Five moral restraints (Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha) for social harmony. | Bahiranga (External) |\n| 2 | **Niyama** | Five personal observances (Shaucha, Santosha, Tapas, Svadhyaya, Ishvarapranidhana) for self-discipline. | Bahiranga (External) |\n| 3 | **Asana** | Steady and comfortable physical postures to prepare the body for meditation. | Bahiranga (External) |\n| 4 | **Pranayama** | Regulation of breath to control life energy (Prana) and calm the mind. | Bahiranga (External) |\n| 5 | **Pratyahara** | Withdrawal of sensory organs from external objects to internalize awareness. | Bahiranga (External) |\n| 6 | **Dharana** | Fixing the mind (Chitta) on a single object or point of concentration. | Antaranga (Internal) |\n| 7 | **Dhyana** | Uninterrupted flow of consciousness toward the object of meditation. | Antaranga (Internal) |\n| 8 | **Samadhi** | Complete absorption where the meditator and object of meditation become one. | Antaranga (Internal) |\n\nIn conclusion, the first five steps form the external discipline (Bahiranga Yoga), while the last three constitute the internal discipline (Antaranga Yoga), culminating in Asamprajnata Samadhi."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पतंजलि के अष्टांग योग (आठ चरणों वाला मार्ग) की व्याख्या कीजिए। समाधि प्राप्त करने में प्रत्येक चरण के महत्व का वर्णन कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "पतंजलि का योगसूत्र चित्त की वृत्तियों के निरोध (चित्तवृत्तिनिरोध) और मोक्ष (कैवल्य) की प्राप्ति के लिए अष्टांग योग का मार्ग सुझाता है।\n\n* **योग के आठ चरण (सारणी)**:\n\n| चरण | नाम | विवरण एवं महत्व | श्रेणी |\n| :--- | :--- | :--- | :--- |\n| 1 | **यम** | पांच नैतिक निषेध (अहिंसा, सत्य, अस्तेय, ब्रह्मचर्य, अपरिग्रह) सामाजिक अनुशासन के लिए। | बहिरंग साधन |\n| 2 | **नियम** | पांच व्यक्तिगत नियम (शौच, संतोष, तप, स्वाध्याय, ईश्वरप्रणिधान) आत्म-शुद्धि के लिए। | बहिरंग साधन |\n| 3 | **आसन** | ध्यान के लिए शरीर को स्थिर और आरामदायक स्थिति में रखना। | बहिरंग साधन |\n| 4 | **प्राणायाम** | श्वास की गति को नियंत्रित कर प्राण ऊर्जा को वश में करना। | बहिरंग साधन |\n| 5 | **प्रत्याहार** | इंद्रियों को बाह्य विषयों से हटाकर अंतर्मुखी करना। | बहिरंग साधन |\n| 6 | **धारणा** | चित्त को किसी एक निश्चित स्थान या वस्तु पर केंद्रित करना। | अंतरंग साधन |\n| 7 | **ध्यान** | एकाग्रता की निरंतरता और चेतना का अबाध प्रवाह। | अंतरंग साधन |\n| 8 | **समाधि** | वह अवस्था जहां ध्याता, ध्यान और ध्येय का भेद समाप्त हो जाता है। | अंतरंग साधन |\n\nनिष्कर्षतः, प्रथम पांच चरण बहिरंग साधना के अंतर्गत आते हैं, जबकि अंतिम तीन चरण अंतरंग साधना बनाते हैं, जो समाधि के माध्यम से मोक्ष की ओर ले जाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Elaborate on the Nyaya Theory of Inference (Anumana). Explain its structure, components, and kinds. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "In Nyaya Epistemology, Inference (Anumana) is defined as the knowledge which follows some other knowledge. It is based on Vyapti (universal relation between middle and major terms).\n\n* **Structure of Five-Membered Syllogism (Panchavayava)**:\n  1. **Pratijna (Proposition)**: The statement to be proved (e.g., The hill has fire).\n  2. **Hetu (Reason)**: The reason indicating the mark (e.g., Because it has smoke).\n  3. **Udaharana (Example)**: The universal relation supported by a concrete example (e.g., Wherever there is smoke, there is fire, as in a kitchen).\n  4. **Upanaya (Application)**: Applying the relation to the present case (e.g., This hill has smoke which is invariably associated with fire).\n  5. **Nigamana (Conclusion)**: The re-assertion of the proposition (e.g., Therefore, this hill has fire).\n\n* **Classification of Anumana (Table)**:\n\n| Basis of Classification | Types of Inference | Key Characteristics |\n| :--- | :--- | :--- |\n| **For Self vs Others** | 1. Svarthanumana <br> 2. Pararthanumana | 1. For one's own conviction. <br> 2. To convince others using five-membered syllogism. |\n| **Nature of Relation** | 1. Purvavat <br> 2. Sheshavat <br> 3. Samanyatodrishta | 1. Cause to effect. <br> 2. Effect to cause. <br> 3. Based on non-causal coexistence. |\n\nIn conclusion, the Nyaya syllogism combined both deductive logic and inductive verification, making it a comprehensive theory of inference."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. न्याय के अनुमान सिद्धांत (अनुमान प्रमाण) का विस्तार से वर्णन कीजिए। इसकी संरचना, अवयवों और भेदों को स्पष्ट कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "न्याय ज्ञानमीमांसा में, अनुमान को उस ज्ञान के रूप में परिभाषित किया गया है जो किसी अन्य ज्ञान का अनुसरण करता है। यह व्याप्ति (हेतु और साध्य के बीच सार्वभौमिक संबंध) पर आधारित है।\n\n* **पंचावयव वाक्य (अनुमान की संरचना)**:\n  1. **प्रतिज्ञा**: वह कथन जिसे सिद्ध करना है (उदा. पर्वत अग्निमान है)।\n  2. **हेतु**: अनुमान का कारण या लिंग (उदा. क्योंकि वहाँ धुआँ है)।\n  3. **उदाहरण**: दृष्टांत सहित सार्वभौमिक संबंध (उदा. जहाँ-जहाँ धुआँ होता है, वहाँ-वहाँ आग होती है, जैसे रसोईघर)।\n  4. **उपनय**: सार्वभौमिक नियम को वर्तमान विषय पर लागू करना (उदा. इस पर्वत पर भी धुआँ है जो आग से व्याप्त है)।\n  5. **निगमन**: निष्कर्ष की पुनः स्थापना (उदा. इसलिए यह पर्वत अग्निमान है)।\n\n* **अनुमान का वर्गीकरण (सारणी)**:\n\n| वर्गीकरण का आधार | अनुमान के प्रकार | मुख्य विशेषताएं |\n| :--- | :--- | :--- |\n| **स्वयं बनाम परार्थ** | 1. स्वार्थानुमान <br> 2. परार्थानुमान | 1. स्वयं के संशय निवारण के लिए। <br> 2. दूसरों को समझाने हेतु पंचावयव का उपयोग। |\n| **संबंध की प्रकृति** | 1. पूर्ववत् <br> 2. शेषवत् <br> 3. सामान्यतोदृष्ट | 1. कारण से कार्य का अनुमान। <br> 2. कार्य से कारण का अनुमान। <br> 3. सादृश्य पर आधारित। |\n\nनिष्कर्षतः, न्याय अनुमान प्रणाली में निगमन और आगमन दोनों तर्कों का सुंदर समन्वय है, जो इसे तर्कसंगत और यथार्थवादी बनाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare the metaphysical views of Advaita Vedanta (Shankara) and Vishishtadvaita Vedanta (Ramanuja). Use a comparison table to highlight key differences. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Vedanta philosophy is based on the Upanishads, Brahmasutra, and Bhagavad Gita (Prasthanatrayi). Post-eighth century, it split into various schools, primary among them being Shankara’s Advaita (Non-dualism) and Ramanuja’s Vishishtadvaita (Qualified Non-dualism).\n\n* **Key Differences (Table)**:\n\n| Feature | Advaita Vedanta (Shankara) | Vishishtadvaita Vedanta (Ramanuja) |\n| :--- | :--- | :--- |\n| **Nature of Brahman** | Nirguna Brahman (attributeless, pure consciousness). | Saguna Brahman (qualified by attributes like wisdom, power, love). |\n| **Status of World (Jagat)** | Vyavaharika Satya; ultimately an illusion (Maya/Mithya). | Real manifestation (Parinama) of Brahman; not an illusion. |\n| **Relation: Soul & Brahman** | Identity (Abedha). Soul is Brahman itself (Tat Tvam Asi). | Qualified non-duality. Soul is a part (Amsha) of Brahman. |\n| **Path to Liberation** | Jnana Marga (Path of Knowledge) is the sole means. | Bhakti Marga (Path of Devotion) and Prapatti (Surrender) are primary. |\n| **Nature of Liberation** | Jivanmukti (liberation in life) and merging into Brahman. | Videhamukti (after death) where soul resides with Brahman in Vaikuntha. |\n\nIn conclusion, while Shankara prioritizes absolute monism and intellectual transcendence, Ramanuja integrates personal devotion with qualified monistic metaphysics."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अद्वैत वेदांत (शंकराचार्य) और विशिष्टाद्वैत वेदांत (रामानुजाचार्य) के तत्वमीमांसीय विचारों की तुलना कीजिए। मुख्य अंतरों को स्पष्ट करने के लिए एक तुलनात्मक तालिका का उपयोग कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "वेदांत दर्शन उपनिषद, ब्रह्मसूत्र और भगवद्गीता (प्रस्थानत्रयी) पर आधारित है। आठवीं शताब्दी के बाद, यह विभिन्न संप्रदायों में विभाजित हो गया, जिनमें प्रमुख हैं शंकराचार्य का अद्वैत और रामानुजाचार्य का विशिष्टाद्वैत।\n\n* **तुलनात्मक विश्लेषण (सारणी)**:\n\n| विशेषता | अद्वैत वेदांत (शंकराचार्य) | विशिष्टाद्वैत वेदांत (रामानुजाचार्य) |\n| :--- | :--- | :--- |\n| **ब्रह्म का स्वरूप** | निर्गुण ब्रह्म (विशेषण रहित, शुद्ध चेतन)। | सगुण ब्रह्म (कल्याणकारी गुणों जैसे ज्ञान, शक्ति, करुणा से युक्त)। |\n| **जगत की स्थिति** | जगत व्यावहारिक सत्य है; परमार्थतः मिथ्या (माया) है। | जगत ब्रह्म का वास्तविक परिणाम (सत्-परिणाम) है; यह मिथ्या नहीं है। |\n| **जीव और ब्रह्म संबंध** | पूर्ण अभेद। जीव और ब्रह्म तत्वतः एक ही हैं। | विशिष्ट अभेद। जीव ब्रह्म का एक अंश (चित्-अचित्-ईश्वर) है। |\n| **मोक्ष का साधन** | ज्ञान मार्ग एकमात्र और मुख्य साधन है। | भक्ति मार्ग और प्रपत्ति (पूर्ण समर्पण) प्रमुख साधन हैं। |\n| **मुक्ति का स्वरूप** | जीवन्मुक्ति और ब्रह्म में लीन होना संभव है। | केवल विदेहमुक्ति संभव है, जिसमें जीव वैकुंठ में ईश्वर के सामीप्य में रहता है। |\n\nनिष्कर्षतः, जहां शंकर का दर्शन अद्वैतवादी तार्किक विवेक पर आधारित है, वहीं रामानुज का दर्शन व्यक्तिगत भक्ति को दार्शनिक गरिमा प्रदान करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Critically evaluate the Mimamsa theory of validity of knowledge (Pramanyavada). Distinguish between Svatah-Pramanyavada and Paratah-Pramanyavada. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Pramanyavada is the epistemological inquiry into the validity and justification of knowledge. The Mimamsa school advocates **Svatah-Pramanyavada** (Intrinsic Validity), while the Nyaya school advocates **Paratah-Pramanyavada** (Extrinsic Validity).\n\n* **Key Distinctions (Table)**:\n\n| Feature | Svatah-Pramanyavada (Mimamsa) | Paratah-Pramanyavada (Nyaya) |\n| :--- | :--- | :--- |\n| **Origin of Validity (Utpatti)** | Knowledge is born valid. The causes that produce knowledge also produce its validity. | Validity is produced by external conditions (Gunas or merits in the source). |\n| **Cognition of Validity (Jnapti)** | Validity is self-evident. When we know something, we simultaneously know it to be true. | Validity is known later through successful action or verification (Pravritti-samarthya). |\n| **Role of Error** | Error is due to external defects (Doshas) in conditions, making invalidity extrinsic (Paratah-Apramanya). | Both validity and invalidity are extrinsic (Paratah) and depend on external testing. |\n| **Philosophical Purpose** | Establishes the self-evident and infallible authority of the Vedas without external proof. | Safeguards logical scrutiny and empirical verification of all cognitions. |\n\nIn conclusion, Mimamsa's theory provides an epistemological shield for Vedic revelation, arguing that all cognition is prima facie true unless contradicted."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मीमांसा के ज्ञान की प्रमाणिकता के सिद्धांत (प्रामाण्यवाद) का आलोचनात्मक मूल्यांकन कीजिए। स्वतः-प्रामाण्यवाद और परतः-प्रामाण्यवाद के बीच अंतर स्पष्ट कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रामाण्यवाद ज्ञान की वैधता और प्रमाणिकता की जाँच से संबंधित ज्ञानमीमांसीय विमर्श है। मीमांसा दर्शन **स्वतः-प्रामाण्यवाद** का समर्थन करता है, जबकि न्याय दर्शन **परतः-प्रामाण्यवाद** का पक्षधर है।\n\n* **स्वतः-प्रामाण्यवाद और परतः-प्रामाण्यवाद में अंतर (सारणी)**:\n\n| विशेषता | स्वतः-प्रामाण्यवाद (मीमांसा) | परतः-प्रामाण्यवाद (न्याय) |\n| :--- | :--- | :--- |\n| **प्रामाण्य की उत्पत्ति** | ज्ञान उत्पन्न होते ही स्वतः प्रामाणिक होता है। जिन कारणों से ज्ञान उत्पन्न होता है, वे ही उसकी सत्यता भी तय करते हैं। | प्रामाण्यता बाहरी परिस्थितियों (दोषरहित गुणों) से उत्पन्न होती है, ज्ञान के सामान्य कारणों से नहीं। |\n| **प्रामाण्य की ज्ञप्ति (बोध)** | प्रामाण्य स्व-स्पष्ट है। जब हमें किसी विषय का ज्ञान होता है, तो हमें उसकी सत्यता का बोध भी स्वतः होता है। | ज्ञान की प्रामाण्यता का बोध बाद में सफल व्यावहारिक प्रवृत्ति या सत्यापन के माध्यम से होता है। |\n| **भ्रम/अप्रामाण्य का कारण** | भ्रम बाहरी दोषों के कारण होता है, अतः अप्रामाण्यता परतः (बाहरी) होती है। | प्रामाण्य और अप्रामाण्य दोनों ही परतः (बाहरी साधनों पर निर्भर) होते हैं। |\n| **दार्शनिक उद्देश्य** | बिना किसी बाहरी प्रमाण के वेदों की स्वतः-प्रमाणिकता और अचूकता को सिद्ध करना। | सभी प्रकार के ज्ञान के तार्किक परीक्षण और व्यावहारिक सत्यापन को सुनिश्चित करना। |\n\nनिष्कर्षतः, मीमांसा का स्वतः-प्रामाण्यवाद यह मानता है कि प्रत्येक ज्ञान स्वतः ही सत्य है जब तक कि उसका खंडन न हो जाए, जिससे वैदिक वचनों को निर्विवाद प्रामाणिकता प्राप्त होती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the Vaisheshika concept of creation and dissolution of the universe, highlighting the role of atoms (Paramanus) and Adrishta. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Vaisheshika system, founded by Sage Kanada, propounds a unique pluralistic cosmology where creation (Srishti) and dissolution (Pralaya) are cyclic events governed by atomic combinations under moral laws.\n\n* **Key Phases of the Cosmic Cycle**:\n  1. **Dissolution (Pralaya)**: At the end of a cosmic cycle, God (Maheshvara) wills to let weary souls rest. The unseen moral residues (Adrishta) of souls become dormant. Motion is initiated in the atoms, causing them to separate; compound objects dissolve back into eternal atoms.\n  2. **Creation (Srishti)**: To allow souls to experience their remaining Karmas, Maheshvara wills to create again. The dormant Adrishta becomes active. Atoms (Earth, Water, Fire, Air) receive a motion (Karma) inspired by Adrishta and combine to form dyads (Dvyanuka), triads (Tryanuka), and progressively larger elements.\n\n* **Structural Summary of the Process (Table)**:\n\n| Phase | Driving Force | Physical Process | Soul's State |\n| :--- | :--- | :--- | :--- |\n| **Dissolution (Pralaya)** | Will of Maheshvara | Disintegration of dyads into individual atoms (Paramanus). | Rest / Inactive Karmic potency (Adrishta). |\n| **Creation (Srishti)** | Activating of Adrishta | Combination of atoms: Paramunu -> Dvyanuka -> Tryanuka -> Gross matter. | Experience of fruits of past Karma (Bhoga). |\n\nIn conclusion, Vaisheshika cosmology is not purely mechanical; it is a moral order where atomic action is guided by the ethical requirements of individual souls."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. परमाणुओं और 'अदृष्ट' की भूमिका को रेखांकित करते हुए, वैशेषिक दर्शन के सृष्टि और प्रलय (ब्रह्मांड की उत्पत्ति एवं विनाश) के सिद्धांत की व्याख्या कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "कणाद द्वारा स्थापित वैशेषिक दर्शन एक अनूठा बहुलवादी ब्रह्मांड विज्ञान प्रस्तुत करता है, जहां सृष्टि और प्रलय नैतिक नियमों के अधीन परमाणुओं के संयोग और वियोग की चक्रीय घटनाएं हैं.\n\n* **ब्रह्मांडीय चक्र के मुख्य चरण**:\n  1. **प्रलय**: एक कल्प के अंत में, महेश्वर (ईश्वर) संसार के थक चुके जीवों को विश्राम देने की इच्छा करते हैं। जीवों के संचित कर्मों की शक्ति (अदृष्ट) सुप्त अवस्था में चली जाती है। परमाणुओं में वियोगात्मक गति उत्पन्न होती है, जिससे द्व्यणुक नष्ट हो जाते हैं और समस्त भौतिक जगत आदि परमाणुओं में विभाजित हो जाता है।\n  2. **सृष्टि**: जीवों को उनके शेष कर्मों का भोग कराने के लिए महेश्वर में पुनः सृष्टि की इच्छा जाग्रत होती है। सुप्त 'अदृष्ट' पुनः सक्रिय हो जाता है। अदृष्ट से प्रभावित होकर वायु, तेज, जल और पृथ्वी के परमाणुओं में कंपन आरंभ होती है। परमाणु मिलकर द्व्यणुक और त्र्यणुक बनाते हैं, जिससे क्रमशः स्थूल सृष्टि निर्मित होती है।\n\n* **प्रक्रिया का सारांश (सारणी)**:\n\n| चरण | प्रेरक बल | भौतिक प्रक्रिया | जीव की अवस्था |\n| :--- | :--- | :--- | :--- |\n| **प्रलय** | महेश्वर की इच्छा | यौगिकों का विघटन होकर स्वतंत्र परमाणु रूप में लौटना। | सुषुप्ति / निष्क्रिय कर्म संस्कार (अदृष्ट)। |\n| **सृष्टि** | अदृष्ट की सक्रियता | परमाणुओं का संयोग: परमाणु -> द्व्यणुक -> त्र्यणुक -> स्थूल द्रव्य। | कर्मों के फल का भोग (अनुभव)। |\n\nनिष्कर्षतः, इस प्रकार वैशेषिक का सृष्टि सिद्धांत केवल यांत्रिक नहीं है, बल्कि एक नैतिक व्यवस्था है जहां परमाणुओं की क्रिया जीवों के नैतिक उत्थान और कर्मफल से नियंत्रित होती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Elaborate on the concept of 'Pramanya' and the six pramanas accepted by the Bhatta Mimamsa and Advaita Vedanta schools. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Bhatta school of Purva Mimamsa and Advaita Vedanta are unique in accepting six valid sources of knowledge (Pramanas) to comprehend reality.\n\n* **The Six Pramanas (Table)**:\n\n| S.No. | Pramana | Definition / Mechanism | Example |\n| :--- | :--- | :--- | :--- |\n| 1 | **Pratyaksha** | Direct sensory perception. | Seeing a blue lotus. |\n| 2 | **Anumana** | Inference based on prior knowledge and Vyapti. | Inferring fire on a hill from smoke. |\n| 3 | **Shabda** | Verbal testimony of infallible authority. | Scriptural statements (Vedas). |\n| 4 | **Upamana** | Comparison based on similarity. | Recognizing a wild cow from description. |\n| 5 | **Arthapatti** | Postulation or presumption to explain an apparent contradiction. | If Devadatta is fat but does not eat by day, he must eat by night. |\n| 6 | **Anupalabdhi** | Non-apprehension; used to perceive the non-existence (Abhava) of something. | Cognizing the absence of a jar on the table because it is not seen. |\n\n* **Significance**:\n  * **Arthapatti** is crucial for resolving conflicting testimonies or observations.\n  * **Anupalabdhi** distinguishes these schools, as they argue non-existence is known directly through non-perception rather than inference.\n\nIn conclusion, these six pramanas establish a comprehensive framework for both empirical sciences and transcendental inquiries."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भट्ट मीमांसा और अद्वैत वेदांत द्वारा स्वीकार किए गए छह प्रमाणों की विस्तृत व्याख्या कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "पूर्व मीमांसा की भट्ट शाखा और अद्वैत वेदांत वास्तविकता को समझने के लिए छह प्रकार के वैध ज्ञान स्रोतों (प्रमाणों) को स्वीकार करते हैं।\n\n* **छह प्रमाणों का विवरण (सारणी)**:\n\n| क्र.सं. | प्रमाण | परिभाषा / प्रक्रिया | उदाहरण |\n| :--- | :--- | :--- | :--- |\n| 1 | **प्रत्यक्ष** | इंद्रियों और विषयों के सीधे संपर्क से प्राप्त ज्ञान। | नीलकमल को देखना। |\n| 2 | **अनुमान** | पूर्व ज्ञान और व्याप्ति पर आधारित निष्कर्ष। | धुएं को देखकर पर्वत पर आग का अनुमान। |\n| 3 | **शब्द** | विश्वसनीय वचनों या शास्त्रों (वेद) से प्राप्त ज्ञान। | शास्त्रों के उपदेश। |\n| 4 | **उपमान** | सादृश्य या समानता पर आधारित ज्ञान। | नीलगाय को सामान्य गाय के सदृश पहचानना। |\n| 5 | **अर्थापत्ति** | किसी प्रत्यक्ष विरोधाभास को सुलझाने के लिए की गई कल्पना। | देवदत्त दिन में नहीं खाता फिर भी मोटा है, अतः वह रात में खाता है। |\n| 6 | **अनुपलब्धि** | अनुपस्थिति का प्रत्यक्ष ज्ञान; अभाव (अस्तित्व न होना) को जानने का साधन। | मेज पर घड़े का न होना अनुपलब्धि से ज्ञात होना। |\n\n* **महत्व**:\n  * **अर्थापत्ति** परस्पर विरोधी तथ्यों के सामंजस्य के लिए आवश्यक है।\n  * **अनुपलब्धि** इन दर्शनों की विशिष्टता है, क्योंकि ये अभाव को किसी अन्य प्रमाण से नहीं बल्कि प्रत्यक्ष अनुपलब्धि से मानते हैं।\n\nनिष्कर्षतः, ये छह प्रमाण मिलकर व्यावहारिक जगत और पारमार्थिक सत्य दोनों की खोज के लिए एक अत्यंत व्यापक ज्ञानमीमांसीय आधारशिला प्रदान करते हैं।"
+    }
+  ]
+}

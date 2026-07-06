@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Upanishads provides the earliest clear reference to the four stages of life (Ashramas) — Brahmacharya, Grihastha, Vanaprastha, and Sannyasa?",
+      "option_a": "Jabala Upanishad",
+      "option_b": "Chandogya Upanishad",
+      "option_c": "Katha Upanishad",
+      "option_d": "Mundaka Upanishad",
+      "correct": "A",
+      "explanation": "Correct option: A. The Jabala Upanishad is the earliest text that explicitly mentions all the four ashramas of life, whereas the Chandogya Upanishad refers only to the first three."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस उपनिषद में जीवन के चार चरणों (आश्रमों) — ब्रह्मचर्य, गृहस्थ, वानप्रस्थ और संन्यास का सबसे पहला स्पष्ट उल्लेख मिलता है?",
+      "option_a": "जाबाल उपनिषद",
+      "option_b": "छान्दोग्य उपनिषद",
+      "option_c": "कठ उपनिषद",
+      "option_d": "मुण्डक उपनिषद",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. जाबाल उपनिषद पहला ऐसा ग्रंथ है जिसमें जीवन के चारों आश्रमों का स्पष्ट उल्लेख मिलता है, जबकि छान्दोग्य उपनिषद में केवल पहले तीन आश्रमों का ही संदर्भ दिया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. During the Later Vedic period, who among the following state officials was responsible for the collection of taxes and tribute (Bhaga)?",
+      "option_a": "Sutapala",
+      "option_b": "Bhagadugha",
+      "option_c": "Sangrihitri",
+      "option_d": "Akshavapa",
+      "correct": "B",
+      "explanation": "Correct option: B. The Bhagadugha was the official responsible for collecting the king's share of agricultural produce (Bhaga), whereas the Sangrihitri acted as the treasurer."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल के दौरान, निम्नलिखित राज्य अधिकारियों में से कौन करों और कर-संग्रह (भाग) के लिए जिम्मेदार था?",
+      "option_a": "सूतपाल",
+      "option_b": "भागदुघ",
+      "option_c": "संग्रहीत्री",
+      "option_d": "अक्षावाप",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. भागदुघ कृषि उपज में राजा के हिस्से (भाग) को एकत्र करने के लिए जिम्मेदार अधिकारी था, जबकि संग्रहीत्री कोषाध्यक्ष के रूप में कार्य करता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What did the term 'Upanayana' signify in the social system of the Later Vedic Period?",
+      "option_a": "The initiation ceremony for admitting a boy into formal education and the fold of the twice-born",
+      "option_b": "The ritual performed to mark the successful completion of Vedic studies",
+      "option_c": "The marriage ritual connecting two families of different gotras",
+      "option_d": "The post-funeral purification ritual performed by the eldest son",
+      "correct": "A",
+      "explanation": "Correct option: A. Upanayana was the sacred thread ceremony representing the second birth (dvija) for the upper three varnas, marking the initiation of education."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल की सामाजिक व्यवस्था में 'उपनयन' शब्द का क्या महत्व था?",
+      "option_a": "एक बालक को औपचारिक शिक्षा और द्विज (दुबारा जन्म लेने वाले) के दायरे में प्रवेश दिलाने का दीक्षा संस्कार",
+      "option_b": "वैदिक अध्ययन के सफल समापन को चिह्नित करने के लिए किया जाने वाला अनुष्ठान",
+      "option_c": "विभिन्न गोत्रों के दो परिवारों को जोड़ने वाला विवाह अनुष्ठान",
+      "option_d": "ज्येष्ठ पुत्र द्वारा किया जाने वाला अंत्येष्टि के बाद का शुद्धिकरण अनुष्ठान",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. उपनयन एक पवित्र यज्ञोपवीत संस्कार था जो उच्च तीन वर्णों के लिए दूसरे जन्म (द्विज) का प्रतिनिधित्व करता था और शिक्षा की शुरुआत का प्रतीक था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Later Vedic literature, which deity's importance significantly declined, shifting from a major Rigvedic atmospheric god to a minor guardian deity?",
+      "option_a": "Varuna",
+      "option_b": "Prajapati",
+      "option_c": "Rudra",
+      "option_d": "Vishnu",
+      "correct": "A",
+      "explanation": "Correct option: A. Varuna, who was the supreme guardian of cosmic order (Rita) in the Rigvedic period, lost his pre-eminence in the Later Vedic period, becoming a minor god of waters."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक साहित्य में, किस देवता का महत्व काफी कम हो गया, जो एक प्रमुख ऋग्वैदिक वायुमंडलीय देवता से घटकर एक गौण संरक्षक देवता बन गए?",
+      "option_a": "वरुण",
+      "option_b": "प्रजापति",
+      "option_c": "रुद्र",
+      "option_d": "विष्णु",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. वरुण, जो ऋग्वैदिक काल में ब्रह्मांडीय व्यवस्था (ऋत) के सर्वोच्च संरक्षक थे, उत्तर वैदिक काल में अपना सर्वोच्च स्थान खो बैठे और जल के एक गौण देवता बनकर रह गए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the four Vedas is considered the primary source and foundation of Indian music and melodies?",
+      "option_a": "Sama Veda",
+      "option_b": "Yajur Veda",
+      "option_c": "Atharva Veda",
+      "option_d": "Rig Veda",
+      "correct": "A",
+      "explanation": "Correct option: A. The Sama Veda consists of melodies (samans) set to the hymns of the Rig Veda, designed to be sung during sacrificial rituals."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चारों वेदों में से किसे भारतीय संगीत और धुनों का प्राथमिक स्रोत और आधार माना जाता है?",
+      "option_a": "सामवेद",
+      "option_b": "यजुर्वेद",
+      "option_c": "अथर्ववेद",
+      "option_d": "ऋग्वेद",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. सामवेद में ऋग्वेद के भजनों पर आधारित धुनें (सामन) शामिल हैं, जिन्हें यज्ञ अनुष्ठानों के दौरान गाए जाने के लिए तैयार किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Brahmana text details agricultural operations such as ploughing, sowing, reaping, and threshing, showcasing the expansion of agriculture in the Later Vedic period?",
+      "option_a": "Satapatha Brahmana",
+      "option_b": "Aitareya Brahmana",
+      "option_c": "Tattiriya Brahmana",
+      "option_d": "Gopatha Brahmana",
+      "correct": "A",
+      "explanation": "Correct option: A. The Satapatha Brahmana provides a detailed description of the various agricultural stages, reflecting the transition of the Vedic society into a settled agricultural economy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा ब्राह्मण ग्रंथ जुताई, बुआई, कटाई और मड़ाई जैसी कृषि गतिविधियों का विस्तृत विवरण देता है, जो उत्तर वैदिक काल में कृषि के विस्तार को दर्शाता है?",
+      "option_a": "शतपथ ब्राह्मण",
+      "option_b": "ऐतरेय ब्राह्मण",
+      "option_c": "तैत्तिरीय ब्राह्मण",
+      "option_d": "गोपथ ब्राह्मण",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. शतपथ ब्राह्मण कृषि के विभिन्न चरणों का विस्तृत विवरण प्रदान करता है, जो वैदिक समाज के एक स्थिर कृषि अर्थव्यवस्था में संक्रमण को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What metal was referred to as 'Shyama Ayas' or 'Krishna Ayas' in Later Vedic texts like the Atharva Veda?",
+      "option_a": "Iron",
+      "option_b": "Copper",
+      "option_c": "Bronze",
+      "option_d": "Gold",
+      "correct": "A",
+      "explanation": "Correct option: A. In Later Vedic literature, 'Loha Ayas' referred to copper/bronze while 'Shyama' or 'Krishna' (dark/black) Ayas referred specifically to iron."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अथर्ववेद जैसे उत्तर वैदिक ग्रंथों में किस धातु को 'श्याम अयस' या 'कृष्ण अयस' कहा गया है?",
+      "option_a": "लोहा",
+      "option_b": "तांबा",
+      "option_c": "कांसा",
+      "option_d": "सोना",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. उत्तर वैदिक साहित्य में, 'लोह अयस' तांबे/कांसे को संदर्भित करता था जबकि 'श्याम' या 'कृष्ण' (काला) अयस विशेष रूप से लोहे को संदर्भित करता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Later Vedic text contains the earliest and most detailed description of the Purushamedha (symbolic human sacrifice) ritual?",
+      "option_a": "Satapatha Brahmana",
+      "option_b": "Aitareya Upanishad",
+      "option_c": "Kathaka Samhita",
+      "option_d": "Panchavimsha Brahmana",
+      "correct": "A",
+      "explanation": "Correct option: A. The Satapatha Brahmana contains the most detailed description of the Purushamedha ritual, which was performed to acquire supreme cosmic power."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस उत्तर वैदिक ग्रंथ में पुरुषमेध (प्रतीकात्मक मानव यज्ञ) अनुष्ठान का सबसे पहला और विस्तृत विवरण मिलता है?",
+      "option_a": "शतपथ ब्राह्मण",
+      "option_b": "ऐतरेय उपनिषद",
+      "option_c": "काठक संहिता",
+      "option_d": "पंचविंश ब्राह्मण",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. शतपथ ब्राह्मण में पुरुषमेध अनुष्ठान का सबसे विस्तृत विवरण है, जो सर्वोच्च ब्रह्मांडीय शक्ति प्राप्त करने के लिए किया जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who were the 'Ratnins' mentioned in Later Vedic texts in the context of the Rajasuya sacrifice?",
+      "option_a": "The twelve high state functionaries and courtiers whose approval and houses the king had to visit",
+      "option_b": "The foreign merchants who brought precious gems to the Vedic court",
+      "option_c": "The assembly of local village elders that chose the crown prince",
+      "option_d": "The class of priests who specialized in reciting Yajur Veda hymns",
+      "correct": "A",
+      "explanation": "Correct option: A. The Ratnins (literal meaning: jewel-bearers) were 12 key state officers/courtiers, and the king visited their homes during the Ratnahavishi ceremony of the Rajasuya sacrifice."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजसूय यज्ञ के संदर्भ में उत्तर वैदिक ग्रंथों में वर्णित 'रत्निन' कौन थे?",
+      "option_a": "राज्य के बारह उच्च अधिकारी और दरबारी जिनका समर्थन पाने के लिए राजा को उनके घरों पर जाना पड़ता था",
+      "option_b": "विदेशी व्यापारी जो वैदिक दरबार में बहुमूल्य रत्न लाते थे",
+      "option_c": "स्थानीय ग्राम बुजुर्गों की सभा जो युवराज का चुनाव करती थी",
+      "option_d": "पुजारियों का वर्ग जो यजुर्वेद के मंत्रों का पाठ करने में पारंगत था",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. रत्निन (शाब्दिक अर्थ: रत्न धारण करने वाले) 12 प्रमुख राज्य अधिकारी/दरबारी थे, और राजा राजसूय यज्ञ के रत्नहविषि अनुष्ठान के दौरान उनके घरों का दौरा करता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Later Vedic texts show the initial transition from communal land ownership to individual family-based agricultural holdings?",
+      "option_a": "Satapatha Brahmana and Taittiriya Samhita",
+      "option_b": "Rig Veda Samhita and Aitareya Aranyaka",
+      "option_c": "Mundaka Upanishad and Svetasvatara Upanishad",
+      "option_d": "Brihadaranyaka Upanishad and Gopatha Brahmana",
+      "correct": "A",
+      "explanation": "Correct option: A. The Satapatha Brahmana and Taittiriya Samhita describe individual plots of agricultural land being granted and inherited, showing a shift away from collective tribal ownership."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन से उत्तर वैदिक ग्रंथ सामुदायिक भूमि स्वामित्व से व्यक्तिगत परिवार-आधारित कृषि जोतों में प्रारंभिक संक्रमण को दर्शाते हैं?",
+      "option_a": "शतपथ ब्राह्मण और तैत्तिरीय संहिता",
+      "option_b": "ऋग्वेद संहिता और ऐतरेय आरण्यक",
+      "option_c": "मुण्डक उपनिषद और श्वेताश्वतर उपनिषद",
+      "option_d": "बृहदारण्यक उपनिषद और गोपथ ब्राह्मण",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. शतपथ ब्राह्मण और तैत्तिरीय संहिता में व्यक्तिगत कृषि भूखंडों को प्रदान करने और विरासत में दिए जाने का वर्णन है, जो सामूहिक आदिवासी स्वामित्व से बदलाव को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which Upanishad is the famous philosophical debate between Sage Yajnavalkya and the female scholar Gargi Vachaknavi recorded?",
+      "option_a": "Brihadaranyaka Upanishad",
+      "option_b": "Chandogya Upanishad",
+      "option_c": "Kena Upanishad",
+      "option_d": "Taittiriya Upanishad",
+      "correct": "A",
+      "explanation": "Correct option: A. The famous philosophical dialogue between Yajnavalkya and Gargi takes place at the court of King Janaka of Videha, recorded in the Brihadaranyaka Upanishad."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऋषि याज्ञवल्क्य और विदुषी गार्गी वाचक्नवी के बीच प्रसिद्ध दार्शनिक शास्त्रार्थ का विवरण किस उपनिषद में दर्ज है?",
+      "option_a": "बृहदारण्यक उपनिषद",
+      "option_b": "छान्दोग्य उपनिषद",
+      "option_c": "केनोपनिषद",
+      "option_d": "तैत्तिरीय उपनिषद",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. याज्ञवल्क्य और गार्गी के बीच प्रसिद्ध दार्शनिक संवाद विदेह के राजा जनक के दरबार में होता है, जो बृहदारण्यक उपनिषद में दर्ज है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. While 'Nishka' in the Rigvedic period was primarily a gold ornament, what did it represent in the Later Vedic period?",
+      "option_a": "A unit of value and currency precursor in transactions",
+      "option_b": "A high-ranking military commander",
+      "option_c": "A sacrificial wooden pillar",
+      "option_d": "A special type of barley wine",
+      "correct": "A",
+      "explanation": "Correct option: A. During the Later Vedic period, Nishka, Shatamana, and Krishnala emerged as units of value and precursors to coinage used in trade and priestly fees (dakshina)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऋग्वैदिक काल में 'निष्क' मुख्य रूप से एक सोने का आभूषण था, उत्तर वैदिक काल में यह किसे दर्शाता था?",
+      "option_a": "लेन-देन में मूल्य की एक इकाई और मुद्रा का प्रारंभिक रूप",
+      "option_b": "एक उच्च पदस्थ सैन्य कमांडर",
+      "option_c": "एक यज्ञीय लकड़ी का खंभा (यूप)",
+      "option_d": "एक विशेष प्रकार की जौ की मदिरा",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. उत्तर वैदिक काल के दौरान, निष्क, शतमान और कृष्णल मूल्य की इकाइयों और सिक्कों के प्रारंभिक रूपों के रूप में उभरे जिनका उपयोग व्यापार और दक्षिणा में किया जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Later Vedic text characterizes the Shudra as 'anyasya preshya' (to be at the beck and call of another) and 'yathakamavadhya' (to be expelled or slain at will)?",
+      "option_a": "Aitareya Brahmana",
+      "option_b": "Satapatha Brahmana",
+      "option_c": "Panchavimsha Brahmana",
+      "option_d": "Sama Veda Samhita",
+      "correct": "A",
+      "explanation": "Correct option: A. The Aitareya Brahmana defines the lower status of the Shudra in relation to the upper three varnas, describing them as servants who can be expelled or treated arbitrarily."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा उत्तर वैदिक ग्रंथ शूद्र को 'अन्यस्य प्रेष्य' (दूसरों की आज्ञा का पालन करने वाला) और 'यथाकामवध्य' (इच्छानुसार निकाला या मारा जाने वाला) के रूप में वर्णित करता है?",
+      "option_a": "ऐतरेय ब्राह्मण",
+      "option_b": "शतपथ ब्राह्मण",
+      "option_c": "पंचविंश ब्राह्मण",
+      "option_d": "सामवेद संहिता",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. ऐतरेय ब्राह्मण ऊपरी तीन वर्णों के संबंध में शूद्र की निम्न सामाजिक स्थिति को परिभाषित करता है और उसे एक ऐसे सेवक के रूप में वर्णित करता है जिसे कभी भी हटाया जा सकता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Later Vedic period, the concept of 'Gotra' shifted from representing a common cowshed to which of the following meanings?",
+      "option_a": "A lineage descended from a common mythical seer (Rishi)",
+      "option_b": "A guild of specialized iron craftsmen",
+      "option_c": "A administrative district governed by a minister",
+      "option_d": "A specific layout plan of a fortified village",
+      "correct": "A",
+      "explanation": "Correct option: A. Gotra originally meant a cowshed, but in the Later Vedic period it came to signify descent from a common ancestor, primarily one of the legendary Rishis, establishing exogamous marriage rules."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल में, 'गोत्र' की अवधारणा एक साझा गौशाला से बदलकर निम्नलिखित में से किस अर्थ में परिवर्तित हो गई?",
+      "option_a": "एक सामान्य काल्पनिक ऋषि से उत्पन्न वंशानुगत कुल",
+      "option_b": "विशेषज्ञ लौह शिल्पकारों का एक संघ",
+      "option_c": "एक मंत्री द्वारा शासित प्रशासनिक जिला",
+      "option_d": "एक किलेबंद गाँव का एक विशिष्ट खाका",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. गोत्र का मूल अर्थ गौशाला था, लेकिन उत्तर वैदिक काल में इसका अर्थ एक सामान्य पूर्वज (मुख्य रूप से सप्तऋषियों में से एक) से उत्पन्न वंश हो गया, जिसने गोत्र-बहिर्विवाह नियमों को स्थापित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the supervising priest responsible for overseeing the entire sacrificial ritual and correcting any mistakes in recitation in Later Vedic ceremonies?",
+      "option_a": "Brahma",
+      "option_b": "Hotri",
+      "option_c": "Adhvaryu",
+      "option_d": "Udgatri",
+      "correct": "A",
+      "explanation": "Correct option: A. The Brahma was the high priest who supervised the entire sacrificial ceremony, while the Hotri recited Rigvedic hymns, the Adhvaryu performed physical rituals, and the Udgatri chanted Samavedic hymns."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक समारोहों में संपूर्ण यज्ञीय अनुष्ठान की निगरानी करने और पाठ में किसी भी गलती को सुधारने के लिए जिम्मेदार पर्यवेक्षक पुरोहित कौन था?",
+      "option_a": "ब्रह्मा",
+      "option_b": "होता (होत्री)",
+      "option_c": "अध्वर्यु",
+      "option_d": "उद्गाता (उद्गात्री)",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. ब्रह्मा वह मुख्य पुरोहित था जो संपूर्ण यज्ञ अनुष्ठान की निगरानी करता था, जबकि होता ऋग्वैदिक मंत्रों का पाठ करता था, अध्वर्यु शारीरिक अनुष्ठान करता था, और उद्गाता सामवेद के मंत्र गाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. From which Upanishad is the famous Indian national motto 'Satyameva Jayate' taken?",
+      "option_a": "Mundaka Upanishad",
+      "option_b": "Katha Upanishad",
+      "option_c": "Mandukya Upanishad",
+      "option_d": "Ishavasya Upanishad",
+      "correct": "A",
+      "explanation": "Correct option: A. The phrase 'Satyameva Jayate' (Truth alone triumphs) is engraved at the base of the national emblem and is taken from the Mundaka Upanishad (III.1.6)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रसिद्ध भारतीय राष्ट्रीय आदर्श वाक्य 'सत्यमेव जयते' किस उपनिषद से लिया गया है?",
+      "option_a": "मुण्डक उपनिषद",
+      "option_b": "कठ उपनिषद",
+      "option_c": "माण्डूक्य उपनिषद",
+      "option_d": "ईशावास्योपनिषद",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. 'सत्यमेव जयते' (सत्य की ही विजय होती है) वाक्यांश राष्ट्रीय प्रतीक के आधार पर अंकित है और यह मुण्डक उपनिषद (III.1.6) से लिया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the administration of Later Vedic chiefdoms, which officer performed the duties of the royal treasurer?",
+      "option_a": "Sangrihitri",
+      "option_b": "Bhagadugha",
+      "option_c": "Palagala",
+      "option_d": "Akshavapa",
+      "correct": "A",
+      "explanation": "Correct option: A. The Sangrihitri was the custodian of the royal treasury (Sangrihita), distinct from the Bhagadugha who was the collector of shares/taxes."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक सरदारी (चीफडम) के प्रशासन में, किस अधिकारी ने शाही कोषाध्यक्ष के कर्तव्यों का पालन किया?",
+      "option_a": "संग्रहीत्री",
+      "option_b": "भागदुघ",
+      "option_c": "पालागल",
+      "option_d": "अक्षावाप",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. संग्रहीत्री शाही खजाने (संग्रहीत) का संरक्षक था, जो भागदुघ (जो करों/हिस्से का संग्राहक था) से अलग था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What was the purpose of the 'Vratyastoma' ritual described in the Later Vedic texts like the Panchavimsha Brahmana?",
+      "option_a": "To admit non-Aryans or fallen Aryans into the Brahmanical fold",
+      "option_b": "To coronate a new king after his predecessor's death",
+      "option_c": "To ensure rain during a prolonged drought",
+      "option_d": "To purify weapons before embarking on a military campaign",
+      "correct": "A",
+      "explanation": "Correct option: A. The Vratyastoma was a specific ritual performed to admit Vratyas (nomads, non-Aryans, or people outside the Vedic fold) into the Aryan society."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पंचविंश ब्राह्मण जैसे उत्तर वैदिक ग्रंथों में वर्णित 'व्रात्यस्तोम' अनुष्ठान का क्या उद्देश्य था?",
+      "option_a": "गैर-आर्यों या पतित आर्यों को ब्राह्मणवादी समाज में शामिल करना",
+      "option_b": "पूर्ववर्ती राजा की मृत्यु के बाद नए राजा का राज्याभिषेक करना",
+      "option_c": "लंबे समय तक सूखे के दौरान बारिश सुनिश्चित करना",
+      "option_d": "सैन्य अभियान शुरू करने से पहले हथियारों को शुद्ध करना",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. व्रात्यस्तोम एक विशिष्ट अनुष्ठान था जो व्रात्यों (खानाबदोशों, गैर-आर्यों या वैदिक दायरे से बाहर के लोगों) को आर्य समाज में शामिल करने के लिए किया जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the famous Later Vedic philosopher-king of Panchala, known for his philosophical discussions with Uddalaka Aruni?",
+      "option_a": "Pravahana Jaivali",
+      "option_b": "Janaka",
+      "option_c": "Ajatashatru",
+      "option_d": "Ashvapati Kaikeya",
+      "correct": "A",
+      "explanation": "Correct option: A. Pravahana Jaivali was the philosopher-king of Panchala who taught the doctrine of Panchagni-vidya (five fires) to Uddalaka Aruni and his son Shvetaketu."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पांचाल के प्रसिद्ध उत्तर वैदिक दार्शनिक-राजा कौन थे, जो उद्दालक आरुणि के साथ अपने दार्शनिक संवादों के लिए जाने जाते थे?",
+      "option_a": "प्रवाहण जैवलि",
+      "option_b": "जनक",
+      "option_c": "अजातशत्रु",
+      "option_d": "अश्वपति कैकेय",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. प्रवाहण जैवलि पांचाल के दार्शनिक-राजा थे जिन्होंने उद्दालक आरुणि और उनके पुत्र श्वेतकेतु को पंचाग्नि-विद्या (पांच अग्नि) का सिद्धांत सिखाया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What does the literal meaning of 'Aranyakas', a class of Later Vedic texts, signify about their context of study?",
+      "option_a": "Forest books to be studied and taught in secret wilderness retreats",
+      "option_b": "Hymns composed specifically for victory in forest battles",
+      "option_c": "Manuals describing the cultivation of forest herbs",
+      "option_d": "Laws governing the distribution of forest resources",
+      "correct": "A",
+      "explanation": "Correct option: A. Aranyakas literally means 'forest books' (from Aranya, forest). They contain mysticism and philosophy meant to be studied in solitude outside villages."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक ग्रंथों के एक वर्ग 'आरण्यक' का शाब्दिक अर्थ उनके अध्ययन के संदर्भ के बारे में क्या दर्शाता है?",
+      "option_a": "एकांत जंगल में पढ़े और पढ़ाए जाने वाले वन ग्रंथ",
+      "option_b": "विशेष रूप से वन युद्धों में विजय के लिए रचे गए भजन",
+      "option_c": "वन जड़ी-बूटियों की खेती का वर्णन करने वाली नियमावली",
+      "option_d": "वन संसाधनों के वितरण को नियंत्रित करने वाले कानून",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. आरण्यक का शाब्दिक अर्थ 'वन पुस्तकें' (अरण्य से उत्पन्न) है। इनमें रहस्यवाद और दर्शन शामिल हैं जिनका अध्ययन गांवों से बाहर एकांत में किया जाना तय था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The dialogue between Nachiketa and Yama (the God of Death) regarding the nature of soul and immortality is found in which Upanishad?",
+      "option_a": "Katha Upanishad",
+      "option_b": "Kena Upanishad",
+      "option_c": "Prashna Upanishad",
+      "option_d": "Mandukya Upanishad",
+      "correct": "A",
+      "explanation": "Correct option: A. The Katha Upanishad contains the famous story of Nachiketa, a young boy who questions Lord Yama about life after death and the true self."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आत्मा की प्रकृति और अमरत्व के संबंध में नचिकेता और यम (मृत्यु के देवता) के बीच संवाद किस उपनिषद में मिलता है?",
+      "option_a": "कठ उपनिषद",
+      "option_b": "केनोपनिषद",
+      "option_c": "प्रश्नोपनिषद",
+      "option_d": "माण्डूक्य उपनिषद",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. कठ उपनिषद में युवा नचिकेता की प्रसिद्ध कहानी है जो यमराज से मृत्यु के बाद के जीवन और सच्चे आत्म के बारे में प्रश्न पूछता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. During the transition to the Later Vedic period, which two major Rigvedic tribes merged to form the Kurus?",
+      "option_a": "Bharatas and Purus",
+      "option_b": "Yadus and Turvasas",
+      "option_c": "Anus and Druhyus",
+      "option_d": "Krivis and Turvasas",
+      "correct": "A",
+      "explanation": "Correct option: A. The Bharatas and the Purus, two major Rigvedic clans, allied and merged to form the Kuru tribe, establishing their capital at Asandivat in the upper Gangetic plain."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल में संक्रमण के दौरान, किन दो प्रमुख ऋग्वैदिक जनजातियों का विलय होकर कुरु साम्राज्य का उदय हुआ?",
+      "option_a": "भरत और पुरू",
+      "option_b": "यदु और तुर्वश",
+      "option_c": "अनु और द्रुह्यु",
+      "option_d": "क्रिवी और तुर्वश",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. भरत और पुरू, दो प्रमुख ऋग्वैदिक कुलों का आपस में विलय हो गया जिससे कुरु जनजाति का गठन हुआ, और उन्होंने ऊपरी गंगा के मैदान में असंदीवत को अपनी राजधानी बनाया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What did the term 'Pratiloma' marriage indicate in the social and legal texts of the Later Vedic and Sutra periods?",
+      "option_a": "A marriage between a lower varna man and a higher varna woman",
+      "option_b": "A marriage between a higher varna man and a lower varna woman",
+      "option_c": "A marriage within the same gotra and village",
+      "option_d": "A marriage forced upon a woman without family consent",
+      "correct": "A",
+      "explanation": "Correct option: A. Pratiloma (against the hair/grain) marriage was discouraged and occurred when a man of a lower caste married a woman of a higher caste, whereas Anuloma was the reverse."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक और सूत्र काल के सामाजिक और कानूनी ग्रंथों में 'प्रतिलोम' विवाह क्या दर्शाता था?",
+      "option_a": "एक निम्न वर्ण के पुरुष और एक उच्च वर्ण की महिला के बीच विवाह",
+      "option_b": "एक उच्च वर्ण के पुरुष और एक निम्न वर्ण की महिला के बीच विवाह",
+      "option_c": "एक ही गोत्र और गाँव के भीतर विवाह",
+      "option_d": "पारिवारिक सहमति के बिना महिला पर जबरन थोपा गया विवाह",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. प्रतिलोम विवाह को हतोत्साहित किया जाता था और यह तब होता था जब एक निम्न वर्ण का पुरुष उच्च वर्ण की महिला से विवाह करता था, जबकि अनुलोम इसका विपरीत था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which archaeological culture is most closely associated with the geographical distribution and time frame of the Later Vedic Period?",
+      "option_a": "Painted Grey Ware (PGW) Culture",
+      "option_b": "Northern Black Polished Ware (NBPW) Culture",
+      "option_c": "Ochre Coloured Pottery (OCP) Culture",
+      "option_d": "Black and Red Ware (BRW) Culture",
+      "correct": "A",
+      "explanation": "Correct option: A. The Painted Grey Ware (PGW) sites, distributed across the Indo-Gangetic divide and upper Ganga valley, correlate well with the material culture described in Later Vedic texts."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सी पुरातात्विक संस्कृति उत्तर वैदिक काल के भौगोलिक वितरण और समय-सीमा से सबसे निकटता से जुड़ी हुई है?",
+      "option_a": "चित्रित धूसर मृदभांड (PGW) संस्कृति",
+      "option_b": "उत्तरी काली चमकीली मृदभांड (NBPW) संस्कृति",
+      "option_c": "गेरूए रंग के मृदभांड (OCP) संस्कृति",
+      "option_d": "काले और लाल मृदभांड (BRW) संस्कृति",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. चित्रित धूसर मृदभांड (PGW) स्थल, जो भारत-गंगा विभाजन और ऊपरी गंगा घाटी में फैले हैं, उत्तर वैदिक ग्रंथों में वर्णित भौतिक संस्कृति से मेल खाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Upanishad contains the earliest systematic exposition of the doctrine of rebirth (transmigration of soul) and the law of Karma?",
+      "option_a": "Chandogya Upanishad",
+      "option_b": "Katha Upanishad",
+      "option_c": "Mundaka Upanishad",
+      "option_d": "Mandukya Upanishad",
+      "correct": "A",
+      "explanation": "Correct option: A. The Chandogya Upanishad (along with the Brihadaranyaka) contains the earliest detailed description of the paths taken by the soul after death (Devayana and Pitriyana) and the law of Karma."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस उपनिषद में पुनर्जन्म के सिद्धांत (आत्मा का देशांतरण) और कर्म के नियम का सबसे पहला व्यवस्थित प्रतिपादन मिलता है?",
+      "option_a": "छान्दोग्य उपनिषद",
+      "option_b": "कठ उपनिषद",
+      "option_c": "मुण्डक उपनिषद",
+      "option_d": "माण्डूक्य उपनिषद",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. छान्दोग्य उपनिषद (बृहदारण्यक के साथ) में मृत्यु के बाद आत्मा द्वारा अपनाए जाने वाले मार्गों (देवयान और पितृयान) तथा कर्म के नियम का सबसे पहला विस्तृत विवरण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The status and authority of the King (Rajan) grew significantly during the Later Vedic period.\nReason (R): Elaborate public sacrifices like Rajasuya and Ashvamedha were introduced to legitimize the king's supreme power and divine connection.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The status of the Rajan did grow from a tribal chief to an absolute king with territories. Reason Analysis: Ceremonies like Rajasuya and Ashvamedha were designed to project power and claim divine legitimacy. Since these sacrifices directly caused the elevation of the king's status, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): उत्तर वैदिक काल के दौरान राजा (राजन) की स्थिति और अधिकार में उल्लेखनीय वृद्धि हुई।\nकारण (R): राजा की सर्वोच्च शक्ति और दिव्य संबंध को वैध बनाने के लिए राजसूय और अश्वमेध जैसे विस्तृत सार्वजनिक यज्ञ शुरू किए गए थे।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: राजन की स्थिति एक कबीले के मुखिया से बदलकर प्रादेशिक क्षेत्रों वाले पूर्ण राजा की हो गई, जो सत्य है। कारण विश्लेषण: राजसूय और अश्वमेध जैसे अनुष्ठान शक्ति का प्रदर्शन करने और राजा को दैवीय वैधता देने के लिए थे। चूंकि इन यज्ञों ने सीधे राजा के पद की गरिमा बढ़ाई, इसलिए R, A की सही व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The democratic popular assemblies of Sabha and Samiti lost their power and lost representation of women in the Later Vedic period.\nReason (R): The rise of large territorial states and royal centralization reduced the reliance of kings on local tribal assemblies.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assemblies Sabha and Samiti saw a decline, and women were no longer permitted to attend Sabha. Reason Analysis: With territorial kingdoms (Janapadas) taking shape, authority became concentrated in the hands of the king and his nobles, which directly weakened tribal assemblies. R explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): उत्तर वैदिक काल में लोकतांत्रिक लोकप्रिय सभाओं जैसे सभा और समिति की शक्ति में गिरावट आई और महिलाओं का प्रतिनिधित्व समाप्त हो गया।\nकारण (R): विशाल क्षेत्रीय राज्यों के उदय और शाही केंद्रीकरण ने स्थानीय जनजातीय सभाओं पर राजाओं की निर्भरता को कम कर दिया।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: सभा और समिति जैसी लोकतांत्रिक संस्थाओं का प्रभाव क्षीण हो गया और महिलाओं को सभा में भाग लेने से रोक दिया गया, जो सत्य है। कारण विश्लेषण: जैसे-जैसे क्षेत्रीय राज्य (जनपद) बनने लगे, सत्ता राजा और उसके दरबारियों के हाथ में केंद्रित हो गई, जिससे कबीलाई लोकतांत्रिक संस्थाएं कमजोर हो गईं। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The overall social status of women declined in the Later Vedic period compared to the Rigvedic era.\nReason (R): Sage Yajnavalkya engaged in philosophical debates with Maitreyi and Gargi Vachaknavi at the court of King Janaka.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: The general status of women did decline, as seen in the loss of Upanayana rights and exclusion from political assemblies. Reason Analysis: The dialogue between Yajnavalkya, Maitreyi, and Gargi is true and shows that high-class intellectual women still participated in philosophy. However, this exception does not explain the general social decline of women; they are independent facts."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): ऋग्वैदिक काल की तुलना में उत्तर वैदिक काल में महिलाओं की समग्र सामाजिक स्थिति में गिरावट आई।\nकारण (R): राजा जनक के दरबार में ऋषि याज्ञवल्क्य ने मैत्रेयी और गार्गी वाचक्नवी के साथ दार्शनिक शास्त्रार्थ किया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: उत्तर वैदिक काल में महिलाओं के राजनीतिक व उपनयन अधिकारों में कमी आने से उनकी सामान्य स्थिति में गिरावट आई, यह सत्य है। कारण विश्लेषण: याज्ञवल्क्य का मैत्रेयी और गार्गी के साथ दार्शनिक संवाद बिल्कुल सत्य है। हालांकि, यह बौद्धिक अपवाद समाज में महिलाओं की सामान्य स्थिति में आई गिरावट का कारण या व्याख्या नहीं है; ये दोनों स्वतंत्र रूप से सत्य कथन हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): During the Later Vedic period, the Varna system became rigid, hereditary, and based on birth rather than occupation.\nReason (R): Later Vedic texts state that Shudras were granted the right to perform Yajnas and wear the sacred thread.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: The Varna system indeed became rigid and based on birth during this period. Reason Analysis: The statement is false because Later Vedic texts explicitly prohibited Shudras from performing Vedic sacrifices and from undergoing the Upanayana ceremony (sacred thread initiation)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): उत्तर वैदिक काल के दौरान, वर्ण व्यवस्था कठोर, वंशानुगत और पेशे के बजाय जन्म पर आधारित हो गई।\nकारण (R): उत्तर वैदिक ग्रंथों में कहा गया है कि शूद्रों को यज्ञ करने और जनेऊ (यज्ञोपवीत) धारण करने का अधिकार दिया गया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: इस अवधि के दौरान वर्ण व्यवस्था वास्तव में कठोर हो गई और जन्म पर आधारित हो गई, यह बिल्कुल सही है। कारण विश्लेषण: यह कारण गलत है क्योंकि उत्तर वैदिक ग्रंथों में स्पष्ट रूप से शूद्रों को वैदिक यज्ञ करने और उपनयन (जनेऊ धारण करने) संस्कार से वंचित किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The focus of Aryan culture shifted from the Sarasvati-Punjab region to the Ganga-Yamuna Doab during the Later Vedic period.\nReason (R): The introduction of iron technology allowed the clearing of dense forests in the wetter Gangetic plains, facilitating expansion.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The geographical focus of Vedic literature clearly moves eastwards into the Doab and Bihar. Reason Analysis: Iron axes and ploughshares (Shyama Ayas) enabled the clearing of the thick vegetation of the Gangetic valley, directly causing and facilitating this eastward expansion. Thus, R is the correct explanation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): उत्तर वैदिक काल के दौरान आर्य संस्कृति का केंद्र सरस्वती-पंजाब क्षेत्र से स्थानांतरित होकर गंगा-यमुना दोआब की ओर चला गया।\nकारण (R): लोहे की तकनीक के आगमन ने आर्द्र गंगा के मैदानों में घने जंगलों को साफ करना आसान बना दिया, जिससे भौगोलिक विस्तार को बढ़ावा मिला।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: वैदिक साहित्य का भौगोलिक केंद्र स्पष्ट रूप से पूर्व की ओर दोआब और बिहार की ओर बढ़ता है, जो सत्य है। कारण विश्लेषण: लोहे की कुल्हाड़ियों और हलों (श्याम अयस) ने गंगा घाटी की घनी वनस्पतियों को साफ करने में मदद की, जिससे यह पूर्वी विस्तार संभव हुआ। अतः R, A की सही व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Brahmins claimed supreme social superiority and spiritual authority in the Later Vedic period.\nReason (R): They possessed monopolistic knowledge of complex rituals and sacrifices necessary for the preservation of order and royal authority.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Brahmins established themselves at the top of the varna hierarchy. Reason Analysis: The complexity of Later Vedic sacrifices meant that only trained priests could execute them correctly, making the rulers dependent on them for legitimacy. Therefore, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): उत्तर वैदिक काल में ब्राह्मणों ने सर्वोच्च सामाजिक श्रेष्ठता और आध्यात्मिक अधिकार का दावा किया।\nकारण (R): उनके पास सामाजिक व्यवस्था और शाही अधिकार के संरक्षण के लिए आवश्यक जटिल अनुष्ठानों और यज्ञों का एकाधिकारवादी ज्ञान था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: ब्राह्मणों ने स्वयं को वर्ण सोपानक्रम में सबसे ऊपर स्थापित किया, जो सत्य है। कारण विश्लेषण: उत्तर वैदिक यज्ञों की जटिलता का अर्थ था कि केवल प्रशिक्षित पुरोहित ही उन्हें सही ढंग से संपन्न कर सकते थे, जिससे शासक वैधता के लिए उन पर निर्भर हो गए। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Upanishadic literature marked a departure from the ritualistic focus of the Brahmanas.\nReason (R): The Upanishads reacted against the excessive ritualism and animal sacrifices of the Later Vedic priesthood, emphasizing spiritual knowledge (Jnana) over ritual action (Karma).",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Upanishads focus on Atman and Brahman rather than sacrificial altars, representing a major transition in Vedic thought. Reason Analysis: The rise of Upanishadic thought was a direct intellectual reaction against the ritualistic excesses of the Brahmanas, prioritizing self-knowledge. Thus, R explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): उपनिषद साहित्य ने ब्राह्मणों के कर्मकांडीय ध्यान से विचलन को चिह्नित किया।\nकारण (R): उपनिषदों ने उत्तर वैदिक पुरोहित वर्ग के अत्यधिक कर्मकांड और पशु बलि के खिलाफ प्रतिक्रिया व्यक्त की, जिसमें कर्मकांडीय क्रिया (कर्म) पर आध्यात्मिक ज्ञान (ज्ञान) पर जोर दिया गया।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: उपनिषदों ने यज्ञ वेदियों के बजाय आत्मा और ब्रह्म पर ध्यान केंद्रित किया, जो वैदिक विचार में एक बड़े बदलाव का प्रतीक है, यह सत्य है। कारण विश्लेषण: उपनिषदिक विचार का उदय ब्राह्मणों के अत्यधिक कर्मकांडों के विरुद्ध एक सीधी बौद्धिक प्रतिक्रिया थी, जिसमें आत्म-ज्ञान को प्राथमिकता दी गई थी। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Atharva Veda was initially not included in the sacred category of 'Trayi' (the holy triad of Vedas).\nReason (R): The Atharva Veda contains a large number of spells, charms, and magical formulae associated with popular folk traditions rather than priestly sacrificial rituals.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The term 'Trayi' historically referred only to Rig, Yaju, and Sama Vedas. Reason Analysis: The Atharva Veda deals with folk magic, disease cures, and warding off evils, which set it apart from the sacrificial liturgies of the other three. Because of this secular/folk nature, it was excluded from the 'Trayi' classification. Hence, R is the correct explanation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): अथर्ववेद को शुरू में वेदों की पवित्र श्रेणी 'त्रयी' (तीन वेदों का समूह) में शामिल नहीं किया गया था।\nकारण (R): अथर्ववेद में पुरोहितीय यज्ञ अनुष्ठानों के बजाय लोकप्रिय लोक परंपराओं से जुड़े बड़ी संख्या में मंत्र, तंत्र और जादुई सूत्र शामिल हैं।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: 'त्रयी' शब्द ऐतिहासिक रूप से केवल ऋग्वेद, यजुर्वेद और सामवेद को संदर्भित करता था, यह सत्य है। कारण विश्लेषण: अथर्ववेद में लोक जादू, बीमारियों के इलाज और बुरी ताकतों से बचाव के उपाय हैं, जो इसे अन्य तीन वेदों के यज्ञ अनुष्ठानों से अलग करते हैं। इसी धर्मनिरपेक्ष/लोक प्रकृति के कारण इसे 'त्रयी' वर्गीकरण से बाहर रखा गया था। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Veda Samhita) with List-II (Associated Brahmana Text) and select the correct answer:\nList-I:\na) Rig Veda\nb) Sama Veda\nc) Yajur Veda\nd) Atharva Veda\n\nList-II:\n1) Panchavimsha Brahmana\n2) Gopatha Brahmana\n3) Aitareya Brahmana\n4) Satapatha Brahmana",
+      "option_a": "a-3, b-1, c-4, d-2",
+      "option_b": "a-3, b-4, c-1, d-2",
+      "option_c": "a-2, b-1, c-4, d-3",
+      "option_d": "a-1, b-3, c-2, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Rig Veda (a) is associated with the Aitareya Brahmana [3]. Sama Veda (b) is associated with the Panchavimsha Brahmana [1]. Yajur Veda (c) is associated with the Satapatha Brahmana [4]. Atharva Veda (d) is associated with the Gopatha Brahmana [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वेद संहिता) को सूची-II (संबद्ध ब्राह्मण ग्रंथ) के साथ सुमेलित करें और सही उत्तर का चयन करें:\nसूची-I:\na) ऋग्वेद\nb) सामवेद\nc) यजुर्वेद\nd) अथर्ववेद\n\nसूची-II:\n1) पंचविंश ब्राह्मण\n2) गोपथ ब्राह्मण\n3) ऐतरेय ब्राह्मण\n4) शतपथ ब्राह्मण",
+      "option_a": "a-3, b-1, c-4, d-2",
+      "option_b": "a-3, b-4, c-1, d-2",
+      "option_c": "a-2, b-1, c-4, d-3",
+      "option_d": "a-1, b-3, c-2, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. ऋग्वेद (a) ऐतरेय ब्राह्मण [3] से संबद्ध है। सामवेद (b) पंचविंश ब्राह्मण [1] से संबद्ध है। यजुर्वेद (c) शतपथ ब्राह्मण [4] से संबद्ध है। अथर्ववेद (d) गोपथ ब्राह्मण [2] से संबद्ध है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Later Vedic King) with List-II (Associated Kingdom) and select the correct answer:\nList-I:\na) Ajatashatru\nb) Ashvapati\nc) Janaka\nd) Divodasa\n\nList-II:\n1) Kaikeya\n2) Kashi\n3) Panchala\n4) Videha\n5) Kuru",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-2, b-4, c-1, d-3",
+      "option_c": "a-4, b-1, c-2, d-5",
+      "option_d": "a-1, b-2, c-4, d-5",
+      "correct": "A",
+      "explanation": "Correct option: A. Ajatashatru (a) was the philosopher-king of Kashi [2]. Ashvapati (b) ruled Kaikeya [1]. Janaka (c) was the ruler of Videha [4]. Divodasa (d) was associated with Panchala/Kashi [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (उत्तर वैदिक राजा) को सूची-II (संबद्ध राज्य) के साथ सुमेलित करें और सही उत्तर का चयन करें:\nसूची-I:\na) अजातशत्रु\nb) अश्वपति\nc) जनक\nd) दिवोदास\n\nसूची-II:\n1) कैकेय\n2) काशी\n3) पांचाल\n4) विदेह\n5) कुरु",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-2, b-4, c-1, d-3",
+      "option_c": "a-4, b-1, c-2, d-5",
+      "option_d": "a-1, b-2, c-4, d-5",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. अजातशत्रु (a) काशी के दार्शनिक राजा थे [2]। अश्वपति (b) कैकेय के शासक थे [1]। जनक (c) विदेह के राजा थे [4]। दिवोदास (d) पांचाल/काशी क्षेत्र से जुड़े थे [3]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Vedic Sacrifice) with List-II (Primary Purpose/Feature) and select the correct answer:\nList-I:\na) Rajasuya\nb) Ashvamedha\nc) Vajapeya\nd) Agnistoma\n\nList-II:\n1) Chariot race to rejuvenate the king's physical and political strength\n2) Horse sacrifice to assert imperial territorial sovereignty\n3) Consecration ceremony to bestow royal authority on the king\n4) Five-day Soma sacrifice dedicated to Agni with animal offerings",
+      "option_a": "a-3, b-2, c-1, d-4",
+      "option_b": "a-2, b-3, c-1, d-4",
+      "option_c": "a-3, b-1, c-2, d-4",
+      "option_d": "a-1, b-2, c-3, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Rajasuya (a) is the royal consecration ceremony [3]. Ashvamedha (b) is the horse sacrifice for territorial claims [2]. Vajapeya (c) features a chariot race [1]. Agnistoma (d) is a five-day Soma sacrifice [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वैदिक यज्ञ) को सूची-II (प्राथमिक उद्देश्य/विशेषता) के साथ सुमेलित करें और सही उत्तर का चयन करें:\nसूची-I:\na) राजसूय\nb) अश्वमेध\nc) वाजपेय\nd) अग्निष्टोम\n\nसूची-II:\n1) राजा की शारीरिक और राजनीतिक शक्ति को फिर से जीवंत करने के लिए रथ दौड़\n2) साम्राज्यवादी क्षेत्रीय संप्रभुता का दावा करने के लिए अश्व की बलि\n3) राजा को शाही अधिकार प्रदान करने का राज्याभिषेक समारोह\n4) पशु बलि के साथ अग्नि को समर्पित पांच दिवसीय सोम यज्ञ",
+      "option_a": "a-3, b-2, c-1, d-4",
+      "option_b": "a-2, b-3, c-1, d-4",
+      "option_c": "a-3, b-1, c-2, d-4",
+      "option_d": "a-1, b-2, c-3, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. राजसूय (a) राज्याभिषेक का शाही समारोह है [3]। अश्वमेध (b) क्षेत्रीय संप्रभुता के लिए किया जाने वाला अश्व यज्ञ है [2]। वाजपेय (c) में रथ दौड़ का आयोजन होता है [1]। अग्निष्टोम (d) अग्नि को समर्पित पांच दिवसीय सोम यज्ञ है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Later Vedic Official) with List-II (Role/Department) and select the correct answer:\nList-I:\na) Bhagadugha\nb) Sangrihitri\nc) Akshavapa\nd) Suta\n\nList-II:\n1) Superintendent of gambling and dice\n2) Royal treasurer\n3) Collector of royal taxes and share\n4) Charioteer and court chronicler",
+      "option_a": "a-3, b-2, c-1, d-4",
+      "option_b": "a-2, b-3, c-1, d-4",
+      "option_c": "a-3, b-1, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Bhagadugha (a) matches tax collector [3]. Sangrihitri (b) matches treasurer [2]. Akshavapa (c) matches superintendent of gambling/dice [1]. Suta (d) matches charioteer/chronicler [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (उत्तर वैदिक अधिकारी) को सूची-II (भूमिका/विभाग) के साथ सुमेलित करें और सही उत्तर का चयन करें:\nसूची-I:\na) भागदुघ\nb) संग्रहीत्री\nc) अक्षावाप\nd) सूत\n\nसूची-II:\n1) जुए और पासे का अधीक्षक\n2) शाही कोषाध्यक्ष\n3) शाही करों और राजा के हिस्से का संग्राहक\n4) सारथी और दरबारी इतिहासकार",
+      "option_a": "a-3, b-2, c-1, d-4",
+      "option_b": "a-2, b-3, c-1, d-4",
+      "option_c": "a-3, b-1, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. भागदुघ (a) कर संग्राहक [3] से मेल खाता है। संग्रहीत्री (b) कोषाध्यक्ष [2] से मेल खाता है। अक्षावाप (c) जुए/पासे के अधीक्षक [1] से मेल खाता है। सूत (d) सारथी/इतिहासकार [4] से मेल खाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Later Vedic Term) with List-II (Historical Meaning) and select the correct answer:\nList-I:\na) Vrihi\nb) Godhuma\nc) Syamaka\nd) Yava\n\nList-II:\n1) Millet\n2) Barley\n3) Rice\n4) Wheat",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-3, b-1, c-4, d-2",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Vrihi (a) refers to rice [3]. Godhuma (b) refers to wheat [4]. Syamaka (c) refers to millet [1]. Yava (d) refers to barley [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (उत्तर वैदिक शब्द) को सूची-II (ऐतिहासिक अर्थ) के साथ सुमेलित करें और सही उत्तर का चयन करें:\nसूची-I:\na) व्रीहि\nb) गोधूम\nc) श्यामाक\nd) यव\n\nसूची-II:\n1) बाजरा/मोटा अनाज\n2) जौ\n3) चावल\n4) गेहूं",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-3, b-1, c-4, d-2",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. व्रीहि (a) चावल [3] को संदर्भित करता है। गोधूम (b) गेहूं [4] को संदर्भित करता है। श्यामाक (c) बाजरा [1] को संदर्भित करता है। यव (d) जौ [2] को संदर्भित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Upanishad) with List-II (Key Doctrine/Concept) and select the correct answer:\nList-I:\na) Chandogya Upanishad\nb) Katha Upanishad\nc) Mundaka Upanishad\nd) Brihadaranyaka Upanishad\n\nList-II:\n1) Dialogues of Yajnavalkya on Atman and Neti-Neti\n2) Tat Tvam Asi (That Thou Art) mahavakya\n3) Spiritual quest of Nachiketa and Yama\n4) Metaphor of two birds on a single tree\n5) Detailed instructions on building fire altars",
+      "option_a": "a-2, b-3, c-4, d-1",
+      "option_b": "a-2, b-4, c-3, d-1",
+      "option_c": "a-1, b-3, c-4, d-2",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Chandogya (a) contains 'Tat Tvam Asi' [2]. Katha (b) details Nachiketa-Yama dialogue [3]. Mundaka (c) features the metaphor of two birds [4]. Brihadaranyaka (d) explains Neti-Neti [1]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (उपनिषद) को सूची-II (मुख्य सिद्धांत/अवधारणा) के साथ सुमेलित करें और सही उत्तर का चयन करें:\nसूची-I:\na) छान्दोग्य उपनिषद\nb) कठ उपनिषद\nc) मुण्डक उपनिषद\nd) बृहदारण्यक उपनिषद\n\nसूची-II:\n1) आत्मन और नेति-नेति पर याज्ञवल्क्य के संवाद\n2) तत्वमसि महावाक्य\n3) नचिकेता और यम की आध्यात्मिक खोज\n4) एक ही पेड़ पर बैठे दो पक्षियों का रूपक\n5) अग्नि वेदियाँ बनाने के विस्तृत निर्देश",
+      "option_a": "a-2, b-3, c-4, d-1",
+      "option_b": "a-2, b-4, c-3, d-1",
+      "option_c": "a-1, b-3, c-4, d-2",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. छान्दोग्य (a) में 'तत्वमसि' महावाक्य है [2]। कठ (b) नचिकेता-यम संवाद का विवरण देता है [3]। मुण्डक (c) में एक पेड़ पर दो पक्षियों का रूपक है [4]। बृहदारण्यक (d) में नेति-नेति का दार्शनिक विचार है [1]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Vedic Text Category) with List-II (Primary Content/Character) and select the correct answer:\nList-I:\na) Samhita\nb) Brahmana\nc) Aranyaka\nd) Upanishad\n\nList-II:\n1) Philosophical speculations on the universe and self\n2) Mystical and symbolic explanations of rituals for forest-dwellers\n3) Explanations and ritualistic applications of hymns in prose\n4) Collections of hymns, prayers, and sacrificial formulas",
+      "option_a": "a-4, b-3, c-2, d-1",
+      "option_b": "a-4, b-2, c-3, d-1",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-1, b-3, c-2, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Samhita (a) is the collection of hymns [4]. Brahmana (b) contains prose explanations of rituals [3]. Aranyaka (c) has forest-dwellers' mysticism [2]. Upanishad (d) has philosophical speculation [1]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वैदिक ग्रंथ श्रेणी) को सूची-II (प्राथमिक सामग्री/चरित्र) के साथ सुमेलित करें और सही उत्तर का चयन करें:\nसूची-I:\na) संहिता\nb) ब्राह्मण\nc) आरण्यक\nd) उपनिषद\n\nसूची-II:\n1) ब्रह्मांड और आत्मा पर दार्शनिक चिंतन\n2) वनवासियों के लिए अनुष्ठानों की रहस्यमयी और प्रतीकात्मक व्याख्या\n3) गद्य में भजनों की व्याख्या और कर्मकांडीय अनुप्रयोग\n4) भजनों, प्रार्थनाओं और यज्ञीय सूत्रों का संग्रह",
+      "option_a": "a-4, b-3, c-2, d-1",
+      "option_b": "a-4, b-2, c-3, d-1",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-1, b-3, c-2, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. संहिता (a) भजनों का संग्रह है [4]। ब्राह्मण (b) अनुष्ठानों की गद्य व्याख्या है [3]। आरण्यक (c) वनवासियों के लिए रहस्यवाद है [2]। उपनिषद (d) दार्शनिक चिंतन प्रदान करता है [1]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Veda) with List-II (Associated Upaveda) and select the correct answer:\nList-I:\na) Rig Veda\nb) Sama Veda\nc) Yajur Veda\nd) Atharva Veda\n\nList-II:\n1) Gandharva Veda (Music/Dance)\n2) Shilpa Veda / Arthashastra (Arts/Crafts)\n3) Ayurveda (Medicine)\n4) Dhanur Veda (Archery/Warfare)",
+      "option_a": "a-3, b-1, c-4, d-2",
+      "option_b": "a-3, b-4, c-1, d-2",
+      "option_c": "a-1, b-3, c-4, d-2",
+      "option_d": "a-2, b-1, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Rig Veda (a) matches Ayurveda [3]. Sama Veda (b) matches Gandharva Veda [1]. Yajur Veda (c) matches Dhanur Veda [4]. Atharva Veda (d) matches Shilpa Veda / Arthashastra [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वेद) को सूची-II (संबद्ध उपवेद) के साथ सुमेलित करें और सही उत्तर का चयन करें:\nसूची-I:\na) ऋग्वेद\nb) सामवेद\nc) यजुर्वेद\nd) अथर्ववेद\n\nसूची-II:\n1) गंधर्ववेद (संगीत/नृत्य)\n2) शिल्पवेद / अर्थशास्त्र (कला/शिल्प)\n3) आयुर्वेद (चिकित्सा)\n4) धनुर्वेद (तीरंदाजी/युद्ध कला)",
+      "option_a": "a-3, b-1, c-4, d-2",
+      "option_b": "a-3, b-4, c-1, d-2",
+      "option_c": "a-1, b-3, c-4, d-2",
+      "option_d": "a-2, b-1, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. ऋग्वेद (a) आयुर्वेद [3] से मेल खाता है। सामवेद (b) गंधर्ववेद [1] से मेल खाता है। यजुर्वेद (c) धनुर्वेद [4] से मेल खाता है। अथर्ववेद (d) शिल्पवेद [2] से मेल खाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the Later Vedic economy, consider the following statements:\n1. Barley (Yava) was replaced by Rice (Vrihi) and Wheat (Godhuma) as the chief staple crops in the Gangetic plains.\n2. The Atharva Veda mentions a plough drawn by six, eight, or even twenty-four oxen, indicating deep ploughing.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct: While barley was dominant in the Rigvedic period, wheat and rice became major staples in the Later Vedic era. Statement 2 is correct: Later Vedic texts describe heavy wooden ploughs pulled by teams of multiple oxen (up to 24) to till the hard soil of the Gangetic valley."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक अर्थव्यवस्था के संदर्भ में, निम्नलिखित कथनों पर विचार करें:\n1. गंगा के मैदानों में मुख्य खाद्य फसलों के रूप में जौ (यव) का स्थान चावल (व्रीहि) और गेहूं (गोधूम) ने ले लिया।\n2. अथर्ववेद में मुख्य रूप से छह, आठ या चौबीस बैलों द्वारा खींचे जाने वाले हल का उल्लेख है, जो गहरी जुताई को दर्शाता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है: ऋग्वैदिक काल में जहाँ जौ मुख्य फसल थी, वहीं उत्तर वैदिक काल में चावल और गेहूँ मुख्य खाद्यान्न बन गए। कथन 2 सही है: उत्तर वैदिक ग्रंथों में भारी लकड़ी के हलों का वर्णन है जिन्हें गंगा घाटी की सख्त मिट्टी खोदने के लिए 24 तक बैलों के समूहों द्वारा खींचा जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the social hierarchy in the Later Vedic Period:\n1. The Rathakaras (chariot-makers) enjoyed a high status and were permitted to undergo the Upanayana (sacred thread) ceremony.\n2. Women of the upper three varnas retained their right to wear the sacred thread and perform domestic Vedic sacrifices.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Rathakaras were a highly respected professional group who retained the right to perform Upanayana due to their administrative and military importance. Statement 2 is incorrect: Women during this period generally lost their right to the Upanayana ceremony and could no longer perform independent sacrifices."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल में सामाजिक सोपानक्रम के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. रथकारों (रथ बनाने वालों) को उच्च स्थान प्राप्त था और उन्हें उपनयन (जनेऊ) संस्कार करने की अनुमति थी।\n2. उच्च तीन वर्णों की महिलाओं ने पवित्र यज्ञोपवीत धारण करने और स्वतंत्र रूप से घरेलू वैदिक यज्ञ करने का अपना अधिकार बनाए रखा।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: रथकार एक अत्यधिक सम्मानित पेशेवर समूह थे, जिन्हें अपनी सैन्य और प्रशासनिक उपयोगिता के कारण उपनयन संस्कार का अधिकार प्राप्त था। कथन 2 गलत है: इस काल में सामान्यतः महिलाओं ने उपनयन का अधिकार खो दिया और वे अब स्वतंत्र यज्ञ नहीं कर सकती थीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the division of Yajur Veda Samhita:\n1. The Shukla Yajur Veda (White) contains only the mantras or hymns, separated from the prose explanations.\n2. The Krishna Yajur Veda (Black) contains both the mantras and the explanatory prose commentaries compiled together.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct: The Shukla Yajur Veda is clean/pure because it contains only the formulas (yajuses) without commentary. Statement 2 is correct: The Krishna Yajur Veda has both the verse formulas and prose descriptions mixed together, making it complex."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. यजुर्वेद संहिता के विभाजन के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. शुक्ल यजुर्वेद (सफेद) में केवल मंत्र या भजन शामिल हैं, जिन्हें गद्य व्याख्याओं से अलग रखा गया है।\n2. कृष्ण यजुर्वेद (काला) में मंत्र और व्याख्यात्मक गद्य टीकाएं दोनों एक साथ संकलित हैं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है: शुक्ल यजुर्वेद को शुद्ध माना जाता है क्योंकि इसमें गद्य व्याख्या के बिना केवल मंत्र (यजुष) हैं। कथन 2 सही है: कृष्ण यजुर्वेद में मंत्र और गद्यात्मक व्याख्याएँ आपस में मिश्रित हैं, जिससे यह जटिल दिखाई देती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the religious developments in the Later Vedic period, consider the following statements:\n1. Prajapati (the Creator) became the supreme deity, eclipsing the Rigvedic Indra and Agni.\n2. Rudra (the god of beasts and storms) and Vishnu (the preserver) gained significant prominence during this period.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct: Prajapati rose to the top of the pantheon as the creator god. Statement 2 is correct: Rudra (later associated with Shiva) and Vishnu became prominent, laying the foundation for Puranic Hinduism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल में धार्मिक विकास के संदर्भ में, निम्नलिखित कथनों पर विचार करें:\n1. प्रजापति (सृष्टिकर्ता) सर्वोच्च देवता बन गए, जिन्होंने ऋग्वैदिक इंद्र और अग्नि के महत्व को कम कर दिया।\n2. इस काल के दौरान रुद्र (पशुओं और आंधी के देवता) और विष्णु (संरक्षक) ने काफी महत्व हासिल किया।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है: सृजन के देवता के रूप में प्रजापति उत्तर वैदिक देवमण्डल में सर्वोच्च स्थान पर पहुँच गए। कथन 2 सही है: रुद्र (जो बाद में शिव से जुड़े) और विष्णु का महत्व बढ़ गया, जिसने पौराणिक हिंदू धर्म की नींव रखी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the performance of sacrifices in the Later Vedic period:\n1. The domestic rituals (Grihya) were performed by the householder himself without the mandatory help of professional priests.\n2. The grand public sacrifices (Shrauta) required a host of specialized priests representing different Vedas.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct: Small daily sacrifices (like Pancha Mahayajna) were done by the Grihastha (householder) himself. Statement 2 is correct: Shrauta rituals like Soma sacrifices needed specialized priests like Hotri, Adhvaryu, Udgatri, and Brahma to perform separate tasks."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल में यज्ञों के संपादन के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. घरेलू अनुष्ठान (गृह्य) गृहस्थ द्वारा स्वयं पेशेवर पुरोहितों की अनिवार्य सहायता के बिना किए जाते थे।\n2. बड़े सार्वजनिक यज्ञों (श्रौत) के लिए विभिन्न वेदों का प्रतिनिधित्व करने वाले कई विशिष्ट पुरोहितों की आवश्यकता होती थी।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है: छोटे दैनिक यज्ञ (जैसे पंच महायज्ञ) गृहस्थ द्वारा स्वयं किए जाते थे। कथन 2 सही है: श्रौत अनुष्ठानों जैसे सोम यज्ञों के लिए होता, अध्वर्यु, उद्गाता और ब्रह्मा जैसे कई विशेष पुरोहितों की आवश्यकता होती थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding geographical expansion in the Later Vedic period:\n1. The Satapatha Brahmana describes the story of Videgha Mathava clearing the forests up to the Sadadanira (Gandak) river.\n2. Southern regions like Vidarbha and Andhra are extensively mentioned in the earliest Rig Veda Samhita.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: The story of Videgha Mathava and his priest Gautama Rahugana carrying sacrificial fire eastwards symbolizes the expansion of Vedic culture to the Gandak river. Statement 2 is incorrect: Southern regions like Andhra and Vidarbha are only mentioned in Later Vedic texts like Aitareya Brahmana, not in the early Rig Veda."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल में भौगोलिक विस्तार के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. शतपथ ब्राह्मण में विदेघ माथव द्वारा सदानीरा (गंडक) नदी तक के जंगलों को साफ करने की कहानी का वर्णन है।\n2. विदर्भ और आंध्र जैसे दक्षिणी क्षेत्रों का प्रारंभिक ऋग्वेद संहिता में विस्तार से उल्लेख मिलता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: विदेघ माथव और उनके पुरोहित गौतम राहूगण द्वारा यज्ञीय अग्नि को पूर्व की ओर ले जाने की कथा गंडक नदी तक वैदिक संस्कृति के विस्तार का प्रतीक है। कथन 2 गलत है: आंध्र और विदर्भ जैसे सुदूर दक्षिणी क्षेत्रों का उल्लेख उत्तर वैदिक ग्रंथों (जैसे ऐतरेय ब्राह्मण) में मिलता है, न कि प्रारंभिक ऋग्वेद में।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the development of the Varna system in the Later Vedic Period, consider the following statements:\n1. The concept of untouchability had fully developed and was codified in the Samhita texts of the Later Vedic Period.\n2. The concept of exclusion of certain groups like Chandalas from the sacred rituals started appearing in Later Vedic literature.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect: While social exclusion and discrimination began, full-fledged untouchability emerged in the subsequent Dharmasutra/Buddhist period, not during the Samhita phase. Statement 2 is correct: Chandalas and other groups are mentioned as outcasts and excluded from sacrifices in texts like the Yajur Veda and Upanishads."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल में वर्ण व्यवस्था के विकास के संदर्भ में, निम्नलिखित कथनों पर विचार करें:\n1. अस्पृश्यता (छुआछूत) की अवधारणा पूरी तरह से विकसित हो चुकी थी और इसे उत्तर वैदिक काल के संहिता ग्रंथों में संहिताबद्ध किया गया था।\n2. चांडालों जैसे कुछ समूहों को पवित्र अनुष्ठानों से बाहर रखने की अवधारणा उत्तर वैदिक साहित्य में दिखाई देने लगी थी।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है: यद्यपि सामाजिक भेदभाव शुरू हो गया था, लेकिन पूर्ण अस्पृश्यता बाद के धर्मसूत्र/बौद्ध काल में विकसित हुई। कथन 2 सही है: यजुर्वेद और उपनिषदों जैसे ग्रंथों में चांडालों और कुछ अन्य समूहों को यज्ञों से बाहर रखने और बहिष्कृत करने का उल्लेख मिलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Ashrama system in the Later Vedic period:\n1. The system of four Ashramas was designed to manage a person's life stages and duties systematically.\n2. The fourth stage, Sannyasa, was universally practiced by all sections of the society, including Shudras and women.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: The Ashrama system systematically divided a life span of 100 years into four distinct stages of 25 years each. Statement 2 is incorrect: The Ashrama system and particularly Sannyasa was restricted only to the twice-born (Dvija) males; Shudras and women were excluded from it."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल में आश्रम व्यवस्था के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. चार आश्रमों की प्रणाली मनुष्य के जीवन चरणों और कर्तव्यों को व्यवस्थित रूप से प्रबंधित करने के लिए बनाई गई थी।\n2. चौथे चरण, संन्यास का पालन शूद्रों और महिलाओं सहित समाज के सभी वर्गों द्वारा सार्वभौमिक रूप से किया जाता था।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: आश्रम व्यवस्था ने 100 वर्ष के जीवन काल को 25-25 वर्ष के चार चरणों में विभाजित किया। कथन 2 गलत है: आश्रम व्यवस्था और विशेष रूप से संन्यास केवल द्विजों (ब्राह्मण, क्षत्रिय, वैश्य) के पुरुषों के लिए था; शूद्रों और महिलाओं को इससे बाहर रखा गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the power dynamics in the Later Vedic period, consider the following statements:\n1. The Upanishadic thought was heavily patronized by Kshatriya kings who challenged the ritualistic monopoly of Brahmins.\n2. The Aitareya Brahmana states that the Kshatriya is the source of protection, but is ultimately subordinate to the Brahmin.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct: Many Upanishadic debates were initiated by Kshatriya kings (like Janaka, Pravahana Jaivali) as a challenge to Brahminical ritual supremacy. Statement 2 is correct: Aitareya Brahmana defines the inter-relations of the varnas, asserting Kshatriya authority in politics but maintaining ritual subordination to the priesthood."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक काल में शक्ति संतुलन (पावर डायनेमिक्स) के संदर्भ में, निम्नलिखित कथनों पर विचार करें:\n1. उपनिषदिक विचारों को क्षत्रिय राजाओं द्वारा भारी संरक्षण दिया गया, जिन्होंने ब्राह्मणों के कर्मकांडीय एकाधिकार को चुनौती दी।\n2. ऐतरेय ब्राह्मण में कहा गया है कि क्षत्रिय रक्षा का स्रोत है, लेकिन वह अंततः ब्राह्मण के अधीन है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है: कई उपनिषदिक शास्त्रार्थ क्षत्रिय राजाओं (जैसे जनक, प्रवाहण जैवलि) द्वारा शुरू किए गए थे जो ब्राह्मणों की यज्ञीय सर्वोच्चता को चुनौती देते थे। कथन 2 सही है: ऐतरेय ब्राह्मण वर्णों के पारस्परिक संबंधों को परिभाषित करता है, जो राजनीति में क्षत्रिय की रक्षात्मक शक्ति को स्वीकार करते हुए भी उसे अनुष्ठानिक रूप से पुरोहित के अधीन रखता है।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Outline the significance of Upanishads in the Later Vedic literary tradition. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Upanishads, marking the end of the Vedic corpus (Vedanta), shifted the focus from external rituals to internal spiritual inquiry. They introduced key philosophical concepts like Atman (individual soul) and Brahman (universal soul). By criticizing expensive animal sacrifices and ritualism, they emphasized Jnana (spiritual knowledge) and laid the foundation for classical Indian philosophy, deeply influencing later systems like Vedanta."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर वैदिक साहित्यिक परंपरा में उपनिषदों के महत्व को रेखांकित कीजिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "वैदिक साहित्य के अंतिम भाग (वेदांत) के रूप में उपनिषदों ने ध्यान बाहरी कर्मकांडों से हटाकर आंतरिक आध्यात्मिक खोज पर केंद्रित किया। इन्होंने आत्मन (व्यक्तिगत आत्मा) और ब्रह्म (ब्रह्मांडीय आत्मा) जैसी प्रमुख दार्शनिक अवधारणाओं की शुरुआत की। पशु बलि और कर्मकांड की आलोचना करते हुए इन्होंने ज्ञान मार्ग पर बल दिया और वेदांत दर्शन की नींव रखी जिसने भारतीय चिंतन को गहराई से प्रभावित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Trace the evolution of the Varna system from the Rigvedic period to the Later Vedic period, highlighting the key changes in social mobility and status. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Varna system underwent a structural transition from the Rigvedic to the Later Vedic period, evolving from a flexible, occupational classification to a rigid, hereditary social hierarchy.\n\n| Feature | Rigvedic Period | Later Vedic Period |\n| :--- | :--- | :--- |\n| **Basis of Varna** | Based on occupation and aptitude; flexible. | Based on birth; hereditary and highly rigid. |\n| **Social Mobility** | High mobility; individuals could change varna. | Negligible mobility; varna determined at birth. |\n| **Position of Shudras** | Not systematically excluded; part of the tribe. | Position degraded; excluded from Upanayana and Yajnas. |\n| **Concept of Dvija** | Absent or in formative stage. | Upper three varnas classified as Dvija (twice-born). |\n| **Gotra System** | Referred to common cowshed. | Dictated exogamous marriages based on lineage. |\n\nIn conclusion, the Later Vedic period solidified varna divisions, establishing Brahminical supremacy and restricting social mobility, which laid the foundation for the complex caste system in ancient India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऋग्वैदिक काल से उत्तर वैदिक काल में वर्ण व्यवस्था के विकास का पता लगाइए तथा सामाजिक गतिशीलता और स्थिति में आए प्रमुख परिवर्तनों को रेखांकित कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "ऋग्वैदिक काल से उत्तर वैदिक काल में वर्ण व्यवस्था का संरचनात्मक परिवर्तन हुआ, जो एक लचीले व व्यवसाय-आधारित वर्गीकरण से बदलकर एक कठोर व वंशानुगत सामाजिक सोपानक्रम बन गया।\n\n| विशेषता | ऋग्वैदिक काल | उत्तर वैदिक काल |\n| :--- | :--- | :--- |\n| **वर्ण का आधार** | व्यवसाय और योग्यता पर आधारित; लचीला। | जन्म पर आधारित; वंशानुगत और अत्यधिक कठोर। |\n| **सामाजिक गतिशीलता** | उच्च गतिशीलता; व्यक्ति वर्ण बदल सकते थे। | नगण्य गतिशीलता; जन्म से ही वर्ण का निर्धारण। |\n| **शूद्रों की स्थिति** | व्यवस्थागत बहिष्कार नहीं; कबीले का हिस्सा। | स्थिति में गिरावट; उपनयन और यज्ञों से बाहर। |\n| **द्विज की अवधारणा** | अनुपस्थित या प्रारंभिक चरण में। | उच्च तीन वर्णों को द्विज (दूसरा जन्म) कहा गया। |\n| **गोत्र व्यवस्था** | साझा गौशाला को संदर्भित करती थी। | वंश के आधार पर गोत्र-बहिर्विवाह तय किया। |\n\nनिष्कर्षतः, उत्तर वैदिक काल ने वर्ण विभाजनों को मजबूत किया, ब्राह्मणवादी सर्वोच्चता स्थापित की और सामाजिक गतिशीलता को प्रतिबंधित किया, जिसने प्राचीन भारत में जटिल जाति व्यवस्था की नींव रखी।"
+    }
+  ]
+}

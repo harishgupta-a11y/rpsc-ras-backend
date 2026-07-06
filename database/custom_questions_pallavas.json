@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. The famous Mandagapattu inscription, which declares the construction of a temple without the use of brick, mortar, timber, or metal, is associated with which Pallava ruler?",
+      "option_a": "Mahendravarman I",
+      "option_b": "Narasimhavarman I",
+      "option_c": "Narasimhavarman II",
+      "option_d": "Simhavishnu",
+      "correct": "A",
+      "explanation": "Correct option: A. The Mandagapattu inscription is attributed to Mahendravarman I, where he proudly declares himself 'Vichitrachitta' for creating a temple for Brahma, Ishvara, and Vishnu without traditional materials."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रसिद्ध मंडगपट्टू शिलालेख, जो ईंट, गारे, लकड़ी या धातु के उपयोग के बिना एक मंदिर के निर्माण की घोषणा करता है, किस पल्लव शासक से संबंधित है?",
+      "option_a": "महेंद्रवर्मन प्रथम",
+      "option_b": "नरसिंहवर्मन प्रथम",
+      "option_c": "नरसिंहवर्मन द्वितीय",
+      "option_d": "सिंहविष्णु",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। मंडगपट्टू शिलालेख महेंद्रवर्मन प्रथम का है, जिसमें उन्होंने पारंपरिक सामग्रियों के बिना ब्रह्मा, ईश्वर और विष्णु के लिए मंदिर बनाने के लिए खुद को 'विचित्रचित्त' घोषित किया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who is the author of the famous Sanskrit farce 'Mattavilasa Prahasana', which satirizes the contemporary Kapalika and Buddhist sects?",
+      "option_a": "Simhavishnu",
+      "option_b": "Mahendravarman I",
+      "option_c": "Narasimhavarman I",
+      "option_d": "Paramesvaravarman I",
+      "correct": "B",
+      "explanation": "Correct option: B. The Sanskrit farce Mattavilasa Prahasana was written by the Pallava king Mahendravarman I in the early 7th century."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समकालीन कापालिक और बौद्ध संप्रदायों पर व्यंग्य करने वाले प्रसिद्ध संस्कृत प्रहसन 'मत्तविलास प्रहसन' के लेखक कौन हैं?",
+      "option_a": "सिंहविष्णु",
+      "option_b": "महेंद्रवर्मन प्रथम",
+      "option_c": "नरसिंहवर्मन प्रथम",
+      "option_d": "परमेश्वरवर्मन प्रथम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। संस्कृत नाटक मत्तविलास प्रहसन की रचना 7वीं शताब्दी की शुरुआत में पल्लव राजा महेंद्रवर्मन प्रथम द्वारा की गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Pallava king assumed the title 'Vatapikonda' (Conqueror of Vatapi) after defeating the Western Chalukyan ruler Pulakeshin II?",
+      "option_a": "Nandivarman II",
+      "option_b": "Narasimhavarman I",
+      "option_c": "Mahendravarman I",
+      "option_d": "Narasimhavarman II",
+      "correct": "B",
+      "explanation": "Correct option: B. Narasimhavarman I defeated Pulakeshin II, destroyed the Chalukyan capital Vatapi, and adopted the title 'Vatapikonda'."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पश्चिमी चालुक्य शासक पुलकेशिन द्वितीय को हराने के बाद किस पल्लव राजा ने 'वातापीकोंड' (वातापी का विजेता) की उपाधि धारण की थी?",
+      "option_a": "नंदिवर्मन द्वितीय",
+      "option_b": "नरसिंहवर्मन प्रथम",
+      "option_c": "महेंद्रवर्मन प्रथम",
+      "option_d": "नरसिंहवर्मन द्वितीय",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। नरसिंहवर्मन प्रथम ने पुलकेशिन द्वितीय को पराजित किया, चालुक्य राजधानी वातापी को नष्ट कर दिया और 'वातापीकोंड' की उपाधि धारण की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Shore Temple at Mahabalipuram was constructed during the reign of which Pallava ruler?",
+      "option_a": "Narasimhavarman I",
+      "option_b": "Narasimhavarman II",
+      "option_c": "Paramesvaravarman II",
+      "option_d": "Nandivarman III",
+      "correct": "B",
+      "explanation": "Correct option: B. The Shore Temple, a magnificent early structural temple, was built under Narasimhavarman II (also known as Rajasimha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम में शोर मंदिर (तट मंदिर) का निर्माण किस पल्लव शासक के शासनकाल में हुआ था?",
+      "option_a": "नरसिंहवर्मन प्रथम",
+      "option_b": "नरसिंहवर्मन द्वितीय",
+      "option_c": "परमेश्वरवर्मन द्वितीय",
+      "option_d": "नंदिवर्मन तृतीय",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। शोर मंदिर, जो एक शानदार प्रारंभिक संरचनात्मक मंदिर है, का निर्माण नरसिंहवर्मन द्वितीय (जिन्हें राजसिंह भी कहा जाता है) के काल में हुआ था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Chinese traveler Xuanzang (Hieun Tsang) visited Kanchipuram, the Pallava capital, in 640 AD during the reign of which king?",
+      "option_a": "Mahendravarman I",
+      "option_b": "Narasimhavarman I",
+      "option_c": "Paramesvaravarman I",
+      "option_d": "Nandivarman II",
+      "correct": "B",
+      "explanation": "Correct option: B. Xuanzang visited Kanchipuram around 640 AD during the reign of Narasimhavarman I (Mamalla)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चीनी यात्री ह्वेनसांग (Xuanzang) ने 640 ईस्वी में किस राजा के शासनकाल के दौरान पल्लव राजधानी कांचीपुरम का दौरा किया था?",
+      "option_a": "महेंद्रवर्मन प्रथम",
+      "option_b": "नरसिंहवर्मन प्रथम",
+      "option_c": "परमेश्वरवर्मन प्रथम",
+      "option_d": "नंदिवर्मन द्वितीय",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। ह्वेनसांग ने लगभग 640 ईस्वी में नरसिंहवर्मन प्रथम (मामल्ल) के शासनकाल के दौरान कांचीपुरम का दौरा किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Pallava ruler constructed the famous Vaikuntha Perumal Temple at Kanchipuram, which features detailed historical relief sculptures depicting the dynasty's origin and history?",
+      "option_a": "Nandivarman II",
+      "option_b": "Narasimhavarman II",
+      "option_c": "Dantivarman",
+      "option_d": "Simhavishnu",
+      "correct": "A",
+      "explanation": "Correct option: A. The Vaikuntha Perumal Temple was built by Nandivarman II (Pallavamalla) and contains unique relief panels depicting the history of the Pallavas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस पल्लव शासक ने कांचीपुरम में प्रसिद्ध वैकुंठ पेरुमल मंदिर का निर्माण कराया था, जिसमें पल्लव वंश की उत्पत्ति और इतिहास को दर्शाने वाले विस्तृत ऐतिहासिक राहत चित्र शामिल हैं?",
+      "option_a": "नंदिवर्मन द्वितीय",
+      "option_b": "नरसिंहवर्मन द्वितीय",
+      "option_c": "दंतिवर्मन",
+      "option_d": "सिंहविष्णु",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। वैकुंठ पेरुमल मंदिर का निर्माण नंदिवर्मन द्वितीय (पल्लवमल्ल) द्वारा कराया गया था और इसमें पल्लवों के इतिहास को दर्शाने वाले अद्वितीय राहत फलक हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Narasimhavarman I sent a powerful naval expedition to which region to reinstate the exiled prince Manavarma?",
+      "option_a": "Java",
+      "option_b": "Sumatra",
+      "option_c": "Sri Lanka",
+      "option_d": "Malaya",
+      "correct": "C",
+      "explanation": "Correct option: C. Narasimhavarman I sent a successful naval expedition to Sri Lanka (Ceylon) to help his ally, the Sinhalese prince Manavarma, regain his throne."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नरसिंहवर्मन प्रथम ने निर्वासित राजकुमार मानवर्मा को पुनः गद्दी पर बिठाने के लिए किस क्षेत्र में एक शक्तिशाली नौसैनिक अभियान भेजा था?",
+      "option_a": "जावा",
+      "option_b": "सुमात्रा",
+      "option_c": "श्रीलंका",
+      "option_d": "मलया",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। नरसिंहवर्मन प्रथम ने अपने सहयोगी सिंहली राजकुमार मानवर्मा को सिंहासन वापस दिलाने में मदद करने के लिए श्रीलंका में एक सफल नौसैनिक अभियान भेजा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The renowned Sanskrit prose-writer and scholar Dandin, author of 'Kavyadarsa', adorned the court of which Pallava ruler?",
+      "option_a": "Simhavishnu",
+      "option_b": "Narasimhavarman II",
+      "option_c": "Mahendravarman I",
+      "option_d": "Nandivarman II",
+      "correct": "B",
+      "explanation": "Correct option: B. Dandin lived during the reign of Narasimhavarman II (Rajasimha) and was patronized by his court."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'काव्यादर्श' के लेखक और प्रसिद्ध संस्कृत गद्य-लेखक एवं विद्वान दण्डी ने किस पल्लव शासक के दरबार को सुशोभित किया था?",
+      "option_a": "सिंहविष्णु",
+      "option_b": "नरसिंहवर्मन द्वितीय",
+      "option_c": "महेंद्रवर्मन प्रथम",
+      "option_d": "नंदिवर्मन द्वितीय",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। दण्डी नरसिंहवर्मन द्वितीय (राजसिंह) के शासनकाल के दौरान रहते थे और उन्हें उनके दरबार का संरक्षण प्राप्त था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the last ruler of the imperial Pallava dynasty, who was defeated by Chola monarch Aditya I?",
+      "option_a": "Nandivarman III",
+      "option_b": "Nripatunga",
+      "option_c": "Aparajita",
+      "option_d": "Dantivarman",
+      "correct": "C",
+      "explanation": "Correct option: C. Aparajitavarman (or Aparajita) was the last Pallava king, defeated and killed by Aditya Chola I around 897 AD, ending Pallava sovereignty."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव साम्राज्य का अंतिम शासक कौन था, जिसे चोल सम्राट आदित्य प्रथम ने पराजित किया था?",
+      "option_a": "नंदिवर्मन तृतीय",
+      "option_b": "नृपतुंग",
+      "option_c": "अपराजित",
+      "option_d": "दंतिवर्मन",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। अपराजितवर्मन (या अपराजित) अंतिम पल्लव राजा थे, जिन्हें 897 ईस्वी के आसपास आदित्य चोल प्रथम ने पराजित कर मार डाला था, जिससे पल्लव संप्रभुता समाप्त हो गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Pallava king was known by the titles 'Vichitrachitta' (curious-minded) and 'Chitrakarapuli' (tiger among artists)?",
+      "option_a": "Mahendravarman I",
+      "option_b": "Narasimhavarman I",
+      "option_c": "Rajasimha",
+      "option_d": "Paramesvaravarman I",
+      "correct": "A",
+      "explanation": "Correct option: A. Mahendravarman I assumed several titles including Vichitrachitta, Chitrakarapuli, and Mattavilasa, reflecting his creative and artistic nature."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस पल्लव राजा को 'विचित्रचित्त' (विचित्र विचारों वाला) और 'चित्रकारपुली' (कलाकारों में शेर) जैसी उपाधियों से जाना जाता था?",
+      "option_a": "महेंद्रवर्मन प्रथम",
+      "option_b": "नरसिंहवर्मन प्रथम",
+      "option_c": "राजसिंह",
+      "option_d": "परमेश्वरवर्मन प्रथम",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। महेंद्रवर्मन प्रथम ने अपनी रचनात्मक और कलात्मक प्रकृति को दर्शाते हुए विचित्रचित्त, चित्रकारपुली और मत्तविलास सहित कई उपाधियाँ धारण की थीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The massive rock-cut relief at Mahabalipuram representing 'Descent of the Ganges' is also commonly identified as which of the following mythological scenes?",
+      "option_a": "Ravana Shaking Mount Kailash",
+      "option_b": "Arjuna's Penance",
+      "option_c": "Krishna Govardhana",
+      "option_d": "Gajendra Moksha",
+      "correct": "B",
+      "explanation": "Correct option: B. The rock relief depicting the Descent of the Ganges is also identified by art historians as Arjuna's Penance, showing his penance to obtain the Pasupata weapon."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम में 'गंगा अवतरण' को दर्शाने वाले विशाल शैलकृत राहत चित्र को आमतौर पर किस पौराणिक दृश्य के रूप में भी पहचाना जाता है?",
+      "option_a": "कैलाश पर्वत को हिलाता रावण",
+      "option_b": "अर्जुन की तपस्या",
+      "option_c": "कृष्ण गोवर्धन",
+      "option_d": "गजेंद्र मोक्ष",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। गंगा अवतरण को दर्शाने वाले शैल चित्र को कला इतिहासकारों द्वारा अर्जुन की तपस्या के रूप में भी पहचाना जाता है, जिसमें पाशुपत अस्त्र प्राप्त करने के लिए उनकी तपस्या को दर्शाया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which period did Simhavishnu, the founder of the Great Pallava line, establish his power at Kanchipuram by defeating the Kalabhras?",
+      "option_a": "Late 6th Century CE",
+      "option_b": "Early 5th Century CE",
+      "option_c": "Late 7th Century CE",
+      "option_d": "Early 8th Century CE",
+      "correct": "A",
+      "explanation": "Correct option: A. Simhavishnu established his rule around 575 CE (late 6th century), ushering in the age of the Great Pallavas of Kanchi."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महान पल्लव वंश के संस्थापक सिंहविष्णु ने किस काल में कलभ्रों को हराकर कांचीपुरम में अपनी सत्ता स्थापित की थी?",
+      "option_a": "छठी शताब्दी ईस्वी के उत्तरार्ध में",
+      "option_b": "पांचवीं शताब्दी ईस्वी के प्रारंभ में",
+      "option_c": "सातवीं शताब्दी ईस्वी के उत्तरार्ध में",
+      "option_d": "आठवीं शताब्दी ईस्वी के प्रारंभ में",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। सिंहविष्णु ने लगभग 575 ईस्वी (छठी शताब्दी के उत्तरार्ध) में अपना शासन स्थापित किया, जिससे कांची के महान पल्लवों के युग की शुरुआत हुई।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which temple at Kanchipuram is considered the earliest structural temple built entirely by the Pallavas and served as the prototype for the Kailashanatha temple at Ellora?",
+      "option_a": "Shore Temple",
+      "option_b": "Kailasanatha Temple",
+      "option_c": "Vaikuntha Perumal Temple",
+      "option_d": "Mukteshvara Temple",
+      "correct": "B",
+      "explanation": "Correct option: B. The Kailasanatha Temple at Kanchi, built by Rajasimha (Narasimhavarman II), is a masterpiece of Dravida style and influenced many later temples."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कांचीपुरम का कौन सा मंदिर पल्लवों द्वारा पूरी तरह से निर्मित सबसे पहला संरचनात्मक मंदिर माना जाता है और एलोरा के कैलाशनाथ मंदिर के लिए एक प्रोटोटाइप के रूप में कार्य करता था?",
+      "option_a": "शोर मंदिर",
+      "option_b": "कैलाशनाथ मंदिर",
+      "option_c": "वैकुंठ पेरुमल मंदिर",
+      "option_d": "मुक्तेश्वर मंदिर",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। कांची का कैलाशनाथ मंदिर, जिसका निर्माण राजसिंह (नरसिंहवर्मन द्वितीय) द्वारा कराया गया था, द्रविड़ शैली की एक उत्कृष्ट कृति है जिसने बाद के कई मंदिरों को प्रभावित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who is considered the first ruler of the Pallava dynasty to establish a vast empire extending south to the Kaveri River?",
+      "option_a": "Vishnugopa",
+      "option_b": "Simhavishnu",
+      "option_c": "Shivaskandavarman",
+      "option_d": "Nandivarman I",
+      "correct": "B",
+      "explanation": "Correct option: B. Simhavishnu defeated the Kalabhras, Cholas, and Pandyas, extending the Pallava territory up to the Kaveri river."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव वंश का पहला शासक किसे माना जाता है जिसने दक्षिण में कावेरी नदी तक फैले एक विशाल साम्राज्य की स्थापना की थी?",
+      "option_a": "विष्णुगोप",
+      "option_b": "सिंहविष्णु",
+      "option_c": "शिवस्कन्दवर्मन",
+      "option_d": "नंदिवर्मन प्रथम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। सिंहविष्णु ने कलभ्रों, चोलों और पांड्यों को पराजित किया, जिससे पल्लव साम्राज्य का विस्तार कावेरी नदी तक हो गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Kuram copper plates, which mention details about a grants to a Shiva temple and a military victory over Chalukya Vikramaditya I, belong to which ruler?",
+      "option_a": "Paramesvaravarman I",
+      "option_b": "Mahendravarman II",
+      "option_c": "Narasimhavarman I",
+      "option_d": "Nandivarman II",
+      "correct": "A",
+      "explanation": "Correct option: A. The Kuram copper plates belong to Paramesvaravarman I and record details of his victory over Western Chalukyan king Vikramaditya I."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुराम ताम्रपत्र, जिसमें एक शिव मंदिर को दिए गए दान और चालुक्य विक्रमादित्य प्रथम पर सैन्य विजय के बारे में विवरण मिलता है, किस शासक से संबंधित है?",
+      "option_a": "परमेश्वरवर्मन प्रथम",
+      "option_b": "महेंद्रवर्मन द्वितीय",
+      "option_c": "नरसिंहवर्मन प्रथम",
+      "option_d": "नंदिवर्मन द्वितीय",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कुराम ताम्रपत्र परमेश्वरवर्मन प्रथम के हैं और इसमें पश्चिमी चालुक्य राजा विक्रमादित्य प्रथम पर उनकी विजय के विवरण दर्ज हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which cave temple at Mahabalipuram contains the celebrated sculpture of Mahishasuramardini (Durga slaying the buffalo demon) and Vishnu reclining on Adisesha?",
+      "option_a": "Varaha Mandapa",
+      "option_b": "Mahishasuramardini Mandapa",
+      "option_c": "Panchapandava Mandapa",
+      "option_d": "Trimurti Cave",
+      "correct": "B",
+      "explanation": "Correct option: B. The Mahishasuramardini Mandapa houses two extraordinary relief panels: Durga fighting Mahishasura and Vishnu in Anantashayana pose."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम के किस गुफा मंदिर में महिषासुरमर्दिनी (भैंस रूपी राक्षस का वध करती दुर्गा) और आदिशेष पर लेटे विष्णु की प्रसिद्ध मूर्तियाँ हैं?",
+      "option_a": "वराह मंडप",
+      "option_b": "महिषासुरमर्दिनी मंडप",
+      "option_c": "पंचपांडव मंडप",
+      "option_d": "त्रिमूर्ति गुफा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। महिषासुरमर्दिनी मंडप में दो असाधारण राहत फलक हैं: महिषासुर से लड़ती हुई दुर्गा और अनंतशयन मुद्रा में विष्णु।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Among the monolithic Pancha Rathas at Mahabalipuram, which ratha is the smallest and is designed like a simple thatched hut?",
+      "option_a": "Bhima Ratha",
+      "option_b": "Dharmaraja Ratha",
+      "option_c": "Draupadi Ratha",
+      "option_d": "Sahadeva Ratha",
+      "correct": "C",
+      "explanation": "Correct option: C. The Draupadi Ratha is the smallest, dedicated to Goddess Durga, and is shaped like a simple mud-hut with a thatched roof."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम के एकाश्म पंच रथों में से कौन सा रथ सबसे छोटा है और एक साधारण फूस की झोपड़ी की तरह बनाया गया है?",
+      "option_a": "भीम रथ",
+      "option_b": "धर्मराज रथ",
+      "option_c": "द्रौपदी रथ",
+      "option_d": "सहदेव रथ",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। द्रौपदी रथ सबसे छोटा है, जो देवी दुर्गा को समर्पित है, और इसका आकार फूस की छत वाली एक साधारण मिट्टी की झोपड़ी जैसा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The introduction of slender, decorative pillars supported by vyalas (mythical lions) at the base is a characteristic feature of which Pallava architectural style?",
+      "option_a": "Mahendra Style",
+      "option_b": "Mamalla Style",
+      "option_c": "Rajasimha Style",
+      "option_d": "Nandivarman Style",
+      "correct": "B",
+      "explanation": "Correct option: B. The Mamalla style (under Narasimhavarman I) introduced pillars that are more slender with seated vyalas/lions at the base."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आधार पर व्याल (पौराणिक शेरों) द्वारा समर्थित पतले, सजावटी स्तंभों की शुरुआत किस पल्लव स्थापत्य शैली की एक विशेषता है?",
+      "option_a": "महेंद्र शैली",
+      "option_b": "मामल्ल शैली",
+      "option_c": "राजसिंह शैली",
+      "option_d": "नंदिवर्मन शैली",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। मामल्ल शैली (नरसिंहवर्मन प्रथम के तहत) ने उन स्तंभों की शुरुआत की जो आधार पर बैठे व्याल/शेरों के साथ अधिक पतले हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Pallava capital Kanchipuram was situated on the banks of which of the following rivers?",
+      "option_a": "Kaveri",
+      "option_b": "Vegavati",
+      "option_c": "Pennar",
+      "option_d": "Krishna",
+      "correct": "B",
+      "explanation": "Correct option: B. Historically, Kanchipuram was located on the banks of the Vegavati River, a tributary of the Palar River."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लवों की राजधानी कांचीपुरम निम्नलिखित में से किस नदी के तट पर स्थित थी?",
+      "option_a": "कावेरी",
+      "option_b": "वेगवती",
+      "option_c": "पेन्नार",
+      "option_d": "कृष्णा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। ऐतिहासिक रूप से, कांचीपुरम वेगवती नदी के तट पर स्थित था, जो पालार नदी की एक सहायक नदी है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which early Pallava ruler is mentioned in Samudragupta's Allahabad Pillar inscription (Prayag Prashasti) as having been defeated and then released by him?",
+      "option_a": "Vishnugopa",
+      "option_b": "Simhavarman",
+      "option_c": "Skandavarman",
+      "option_d": "Virakurcha",
+      "correct": "A",
+      "explanation": "Correct option: A. Vishnugopa of Kanchi is listed among the Dakshinapatha rulers defeated and liberated by Samudragupta."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समुद्रगुप्त के इलाहाबाद स्तंभ शिलालेख (प्रयाग प्रशस्ति) में किस प्रारंभिक पल्लव शासक का उल्लेख है जिसे उसने पराजित किया और फिर मुक्त कर दिया था?",
+      "option_a": "विष्णुगोप",
+      "option_b": "सिंहवर्मन",
+      "option_c": "स्कन्दवर्मन",
+      "option_d": "वीरकुर्च",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कांची के विष्णुगोप को समुद्रगुप्त द्वारा पराजित और मुक्त किए गए दक्षिणापथ के शासकों में सूचीबद्ध किया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The monolithic Rathas at Mahabalipuram are carved out of which type of geological stone?",
+      "option_a": "Granite",
+      "option_b": "Sandstone",
+      "option_c": "Schist",
+      "option_d": "Marble",
+      "correct": "A",
+      "explanation": "Correct option: A. The monolithic Rathas at Mahabalipuram are carved from single outcropping ridges of hard granite."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम के एकाश्म रथ किस प्रकार के भूवैज्ञानिक पत्थर को तराश कर बनाए गए हैं?",
+      "option_a": "ग्रेनाइट",
+      "option_b": "बलुआ पत्थर",
+      "option_c": "शिस्ट",
+      "option_d": "संगमरमर",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। महाबलीपुरम के एकाश्म रथ कठोर ग्रेनाइट के उभरे हुए टीलों से तराशे गए हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the Sanskrit scholar Bharavi, author of the epic Kiratarjuniya, associated with during the early phase of Great Pallavas?",
+      "option_a": "Simhavishnu",
+      "option_b": "Narasimhavarman II",
+      "option_c": "Nandivarman II",
+      "option_d": "Paramesvaravarman I",
+      "correct": "A",
+      "explanation": "Correct option: A. Bharavi, the author of the epic Kiratarjuniya, is believed to have visited and adorned the court of Simhavishnu."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाकाव्य किरातार्जुनीयम् के लेखक संस्कृत विद्वान भारवि, महान पल्लवों के प्रारंभिक चरण में किससे जुड़े थे?",
+      "option_a": "सिंहविष्णु",
+      "option_b": "नरसिंहवर्मन द्वितीय",
+      "option_c": "नंदिवर्मन द्वितीय",
+      "option_d": "परमेश्वरवर्मन प्रथम",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। माना जाता है कि महाकाव्य किरातार्जुनीयम् के लेखक भारवि ने सिंहविष्णु के दरबार का दौरा किया और उसे सुशोभित किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The battle of Manimangala (c. 642 AD) was a crucial confrontation fought between which two powers?",
+      "option_a": "Narasimhavarman I and Pulakeshin II",
+      "option_b": "Mahendravarman I and Pulakeshin II",
+      "option_c": "Simhavishnu and the Pandya king",
+      "option_d": "Rajasimha and the Western Chalukyas",
+      "correct": "A",
+      "explanation": "Correct option: A. The Battle of Manimangala was fought near Kanchi where Narasimhavarman I defeated the invading Chalukya force of Pulakeshin II."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मणिमंगला का युद्ध (लगभग 642 ईस्वी) किन दो शक्तियों के बीच लड़ा गया एक महत्वपूर्ण मुकाबला था?",
+      "option_a": "नरसिंहवर्मन प्रथम और पुलकेशिन द्वितीय",
+      "option_b": "महेंद्रवर्मन प्रथम और पुलकेशिन द्वितीय",
+      "option_c": "सिंहविष्णु और पांड्य राजा",
+      "option_d": "राजसिंह और पश्चिमी चालुक्य",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। मणिमंगला का युद्ध कांची के पास लड़ा गया था जहाँ नरसिंहवर्मन प्रथम ने पुलकेशिन द्वितीय की हमलावर चालुक्य सेना को पराजित किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under whose reign did the transition from rock-cut cave temples to free-standing structural stone temples fully manifest?",
+      "option_a": "Narasimhavarman II",
+      "option_b": "Mahendravarman I",
+      "option_c": "Narasimhavarman I",
+      "option_d": "Paramesvaravarman I",
+      "correct": "A",
+      "explanation": "Correct option: A. Under Narasimhavarman II (Rajasimha), the Pallavas transitioned completely to structural stone temples, building monuments like the Kailasanatha and Shore temples."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किसके शासनकाल में रॉक-कट गुफा मंदिरों से स्वतंत्र संरचनात्मक पत्थर के मंदिरों में संक्रमण पूरी तरह से प्रकट हुआ?",
+      "option_a": "नरसिंहवर्मन द्वितीय",
+      "option_b": "महेंद्रवर्मन प्रथम",
+      "option_c": "नरसिंहवर्मन प्रथम",
+      "option_d": "परमेश्वरवर्मन प्रथम",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। नरसिंहवर्मन द्वितीय (राजसिंह) के तहत, पल्लव पूरी तरह से संरचनात्मक पत्थर के मंदिरों में स्थानांतरित हो गए, कैलाशनाथ और शोर मंदिरों जैसे स्मारकों का निर्माण किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which temple at Kanchipuram is famous for its three-tier sanctum showing the Standing, Sitting, and Reclining forms of Lord Vishnu?",
+      "option_a": "Kailasanatha Temple",
+      "option_b": "Vaikuntha Perumal Temple",
+      "option_c": "Shore Temple",
+      "option_d": "Mukteshvara Temple",
+      "correct": "B",
+      "explanation": "Correct option: B. The Vaikuntha Perumal Temple built by Nandivarman II has a three-tiered garbha-griha showcasing Lord Vishnu in three postures: sitting, standing, and reclining."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कांचीपुरम का कौन सा मंदिर अपने तीन-स्तरीय गर्भगृह के लिए प्रसिद्ध है जो भगवान विष्णु के खड़े, बैठे और लेटे हुए रूपों को दर्शाता है?",
+      "option_a": "कैलाशनाथ मंदिर",
+      "option_b": "वैकुंठ पेरुमल मंदिर",
+      "option_c": "शोर मंदिर",
+      "option_d": "मुक्तेश्वर मंदिर",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। नंदिवर्मन द्वितीय द्वारा निर्मित वैकुंठ पेरुमल मंदिर में तीन स्तरीय गर्भगृह है जो भगवान विष्णु को तीन मुद्राओं में प्रदर्शित करता है: बैठे, खड़े और लेटे हुए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Determine the correctness of the following statements:\nAssertion (A): Pallava king Mahendravarman I is addressed as 'Vichitrachitta' in his inscriptions.\nReason (R): He broke away from traditional practices by creating rock-cut cave temples without using bricks, mortar, timber, or metal.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The title 'Vichitrachitta' means 'curious-minded' and was held by Mahendravarman I. Reason Analysis: He earned this title specifically for his innovation of rock-cut temples, as recorded in the Mandagapattu inscription. Thus, R explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों की सत्यता का निर्धारण कीजिए:\nकथन (A): पल्लव राजा महेंद्रवर्मन प्रथम को उनके शिलालेखों में 'विचित्रचित्त' कहा गया है।\nकारण (R): उन्होंने ईंट, गारे, लकड़ी या धातु का उपयोग किए बिना शैलकृत गुफा मंदिरों का निर्माण करके पारंपरिक प्रथाओं से हटकर कार्य किया।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "कथन विश्लेषण: 'विचित्रचित्त' उपाधि का अर्थ है 'विचित्र विचारों वाला' और यह महेंद्रवर्मन प्रथम द्वारा धारण की गई थी। कारण विश्लेषण: उन्होंने यह उपाधि विशेष रूप से रॉक-कट मंदिरों के अपने नवाचार के लिए अर्जित की थी, जैसा कि मंडगपट्टू शिलालेख में दर्ज है। अतः, R, A की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Determine the correctness of the following statements:\nAssertion (A): Narasimhavarman I adopted the grand title of 'Vatapikonda'.\nReason (R): He defeated the Western Chalukya ruler Pulakeshin II and subsequently captured and destroyed the Chalukyan capital city of Vatapi.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Narasimhavarman I is known as Vatapikonda. Reason Analysis: This title was taken directly after his successful military invasion of the Chalukya capital Vatapi in 642 AD. Thus, R is the correct causal explanation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों की सत्यता का निर्धारण कीजिए:\nकथन (A): नरसिंहवर्मन प्रथम ने 'वातापीकोंड' की भव्य उपाधि धारण की थी।\nकारण (R): उन्होंने पश्चिमी चालुक्य शासक पुलकेशिन द्वितीय को पराजित किया और बाद में चालुक्यों की राजधानी वातापी पर अधिकार कर उसे नष्ट कर दिया।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "कथन विश्लेषण: नरसिंहवर्मन प्रथम को वातापीकोंड के रूप में जाना जाता है। कारण विश्लेषण: यह उपाधि सीधे 642 ईस्वी में चालुक्य राजधानी वातापी पर उनके सफल सैन्य आक्रमण के बाद ली गई थी। अतः, R सही कारण व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Determine the correctness of the following statements:\nAssertion (A): The Shore Temple at Mahabalipuram was constructed as a structural temple using blocks of granite rather than being excavated directly out of a cliff face.\nReason (R): Under the Rajasimha style of Pallava architecture, the builders transitioned from monolithic rock carvings to masonry structural buildings.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Shore Temple is indeed a masonry structural temple. Reason Analysis: The Rajasimha style represents this precise transition to structural masonry. Thus, the transition in style (R) explains why the temple was built with blocks (A)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों की सत्यता का निर्धारण कीजिए:\nकथन (A): महाबलीपुरम के शोर मंदिर (तट मंदिर) का निर्माण एक चट्टान को काटकर बनाने के बजाय ग्रेनाइट के ब्लॉकों का उपयोग करके एक संरचनात्मक मंदिर के रूप में किया गया था।\nकारण (R): पल्लव वास्तुकला की राजसिंह शैली के तहत, निर्माताओं ने एकाश्म रॉक नक्काशी से चिनाई वाले संरचनात्मक भवनों में संक्रमण किया।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "कथन विश्लेषण: शोर मंदिर वास्तव में एक चिनाई वाला संरचनात्मक मंदिर है। कारण विश्लेषण: राजसिंह शैली संरचनात्मक चिनाई के लिए इस सटीक संक्रमण का प्रतिनिधित्व करती है। इस प्रकार, शैली में संक्रमण (R) बताता है कि मंदिर ब्लॉकों (A) के साथ क्यों बनाया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Determine the correctness of the following statements:\nAssertion (A): The Chinese traveler Xuanzang visited the city of Kanchipuram in the early 7th century CE.\nReason (R): Pallava ruler Narasimhavarman II (Rajasimha) sent a diplomatic mission/embassy to the Tang court in China.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "B",
+      "explanation": "Assertion Analysis: Xuanzang visited Kanchi in 640 CE during Narasimhavarman I's reign. Reason Analysis: Narasimhavarman II did send embassies to China, which is true. However, R does not explain why Xuanzang visited Kanchi decades earlier."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों की सत्यता का निर्धारण कीजिए:\nकथन (A): चीनी यात्री ह्वेनसांग ने 7वीं शताब्दी ईस्वी की शुरुआत में कांचीपुरम शहर का दौरा किया था।\nकारण (R): पल्लव शासक नरसिंहवर्मन द्वितीय (राजसिंह) ने चीन में तांग दरबार में एक राजनयिक मिशन/दूतावास भेजा था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "B",
+      "explanation": "कथन विश्लेषण: ह्वेनसांग ने 640 ईस्वी में नरसिंहवर्मन प्रथम के शासनकाल के दौरान कांची का दौरा किया था। कारण विश्लेषण: नरसिंहवर्मन द्वितीय ने वास्तव में चीन में दूतावास भेजे थे। हालाँकि, R यह स्पष्ट नहीं करता है कि ह्वेनसांग ने दशकों पहले कांची का दौरा क्यों किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Determine the correctness of the following statements:\nAssertion (A): The Draupadi Ratha at Mahabalipuram is constructed without any elaborate multi-tiered shikhara.\nReason (R): It is modeled after a simple, rural thatched clay-hut typical of folk shrines in ancient Tamil Nadu.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Draupadi Ratha is indeed a simple square structure with no elaborate shikhara. Reason Analysis: The reason it lacks a multi-tiered shikhara is that it deliberately mimics a simple thatched hut. Hence, R explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों की सत्यता का निर्धारण कीजिए:\nकथन (A): महाबलीपुरम का द्रौपदी रथ बिना किसी विस्तृत बहु-स्तरीय शिखर के बनाया गया है।\nकारण (R): इसे प्राचीन तमिलनाडु के लोक पूजालयों के विशिष्ट एक साधारण, ग्रामीण फूस की मिट्टी की झोपड़ी के मॉडल पर तैयार किया गया है।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "कथन विश्लेषण: द्रौपदी रथ वास्तव में बिना किसी विस्तृत शिखर के एक साधारण चौकोर संरचना है। कारण विश्लेषण: बहु-स्तरीय शिखर की अनुपस्थिति का कारण यह है कि यह जानबूझकर एक साधारण फूस की झोपड़ी की नकल करता है। अतः, R, A की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Determine the correctness of the following statements:\nAssertion (A): Simhavishnu is widely regarded as the first major historical king of the Pallavas of Kanchipuram.\nReason (R): He wrote the famous Sanskrit comedy 'Mattavilasa Prahasana' to criticize and mock contemporary Kapalika and Buddhist ascetics.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Simhavishnu is the real founder of the Great Pallava dynasty. Reason Analysis: The author of Mattavilasa Prahasana is Mahendravarman I, not Simhavishnu, making R false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों की सत्यता का निर्धारण कीजिए:\nकथन (A): सिंहविष्णु को व्यापक रूप से कांचीपुरम के पल्लवों का पहला प्रमुख ऐतिहासिक राजा माना जाता है।\nकारण (R): उन्होंने समकालीन कापालिक और बौद्ध संन्यासीयों की आलोचना और उपहास करने के लिए प्रसिद्ध संस्कृत प्रहसन 'मत्तविलास प्रहसन' लिखा था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "C",
+      "explanation": "कथन विश्लेषण: सिंहविष्णु महान पल्लव वंश के वास्तविक संस्थापक हैं। कारण विश्लेषण: मत्तविलास प्रहसन के लेखक महेंद्रवर्मन प्रथम हैं, न कि सिंहविष्णु, जिससे R असत्य हो जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Determine the correctness of the following statements:\nAssertion (A): The columns in Pallava cave temples shifted from heavy, plain square shapes to more slender forms with carved vyalas (mythical lions) at the base.\nReason (R): This stylistic evolution occurred under Narasimhavarman I (Mamalla) as a defining feature of the Mamalla style.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The shift in column style is a factual transition. Reason Analysis: This change was introduced during Narasimhavarman I's reign under the Mamalla style. Thus, R is the correct cause for the change described in A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों की सत्यता का निर्धारण कीजिए:\nकथन (A): पल्लव गुफा मंदिरों में स्तंभ भारी, सादे चौकोर आकारों से बदलकर आधार पर उकेरे गए व्याल (पौराणिक शेरों) के साथ अधिक पतले रूपों में स्थानांतरित हो गए।\nकारण (R): यह शैलीगत विकास नरसिंहवर्मन प्रथम (मामल्ल) के तहत मामल्ल शैली की एक परिभाषित विशेषता के रूप में हुआ था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "कथन विश्लेषण: स्तंभों की शैली में यह बदलाव एक वास्तविक संक्रमण है। कारण विश्लेषण: यह बदलाव नरसिंहवर्मन प्रथम के शासनकाल के दौरान मामल्ल शैली के तहत लाया गया था। अतः, R, A में वर्णित परिवर्तन का सही कारण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Determine the correctness of the following statements:\nAssertion (A): Nandivarman II was chosen as the king of the Pallavas by a popular council of citizens, scholars, and ministers.\nReason (R): The main line of the Pallava dynasty ended with the childless death of Paramesvaravarman II, requiring the selection of a king from a collateral branch.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Nandivarman II was elected to the throne. Reason Analysis: The death of Paramesvaravarman II without an heir left the throne vacant, which led the ministers and citizens to elect Nandivarman II. Therefore, R is the direct historical reason for A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित कथनों की सत्यता का निर्धारण कीजिए:\nकथन (A): नंदिवर्मन द्वितीय को नागरिकों, विद्वानों और मंत्रियों की एक लोकप्रिय परिषद द्वारा पल्लवों का राजा चुना गया था।\nकारण (R): पल्लव वंश की मुख्य शाखा परमेश्वरवर्मन द्वितीय की निःसंतान मृत्यु के साथ समाप्त हो गई थी, जिससे एक संपार्श्विक (कोलेटरल) शाखा से राजा का चयन करना आवश्यक हो गया था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "कथन विश्लेषण: नंदिवर्मन द्वितीय को सिंहासन के लिए चुना गया था। कारण विश्लेषण: उत्तराधिकारी के बिना परमेश्वरवर्मन द्वितीय की मृत्यु ने सिंहासन को खाली कर दिया, जिससे मंत्रियों और नागरिकों ने नंदिवर्मन द्वितीय को चुना। इसलिए, R, A का सीधा ऐतिहासिक कारण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Pallava Ruler) with List-II (Key Title or Association) and select the correct answer using the codes given below:\nList-I:\na) Mahendravarman I\nb) Narasimhavarman I\nc) Narasimhavarman II\nd) Nandivarman II\ne) Simhavishnu\n\nList-II:\n1) Mattavilasa\n2) Vatapikonda\n3) Rajasimha\n4) Pallavamalla\n5) Avanisimha",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-4, d-3, e-5",
+      "option_c": "a-5, b-3, c-2, d-1, e-4",
+      "option_d": "a-1, b-3, c-2, d-4, e-5",
+      "correct": "A",
+      "explanation": "Correct option: A. Mahendravarman I is matched with Mattavilasa [1]. Narasimhavarman I matches Vatapikonda [2]. Narasimhavarman II matches Rajasimha [3]. Nandivarman II matches Pallavamalla [4]. Simhavishnu matches Avanisimha [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पल्लव शासक) को सूची-II (प्रमुख उपाधि या संघ) से सुमेलित कीजिए और नीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:\nसूची-I:\na) महेंद्रवर्मन प्रथम\nb) नरसिंहवर्मन प्रथम\nc) नरसिंहवर्मन द्वितीय\nd) नंदिवर्मन द्वितीय\ne) सिंहविष्णु\n\nसूची-II:\n1) मत्तविलास\n2) वातापीकोंड\n3) राजसिंह\n4) पल्लवमल्ल\n5) अवनिसिंह",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-4, d-3, e-5",
+      "option_c": "a-5, b-3, c-2, d-1, e-4",
+      "option_d": "a-1, b-3, c-2, d-4, e-5",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। महेंद्रवर्मन प्रथम मत्तविलास [1] से मेल खाता है। नरसिंहवर्मन प्रथम वातापीकोंड [2] से मेल खाता है। नरसिंहवर्मन द्वितीय राजसिंह [3] से मेल खाता है। नंदिवर्मन द्वितीय पल्लवमल्ल [4] से मेल खाता है। सिंहविष्णु अवनिसिंह [5] से मेल खाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Pallava Monument) with List-II (Associated Ruler) and select the correct answer using the codes given below:\nList-I:\na) Mandagapattu Cave Temple\nb) Dharmaraja Ratha\nc) Vaikuntha Perumal Temple\nd) Ganesha Ratha\ne) Adivaraha Cave Temple\n\nList-II:\n1) Mahendravarman I\n2) Narasimhavarman I\n3) Nandivarman II\n4) Paramesvaravarman I\n5) Simhavishnu",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-4, d-3, e-5",
+      "option_c": "a-1, b-4, c-3, d-2, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Mandagapattu Cave was built by Mahendravarman I [1]. Dharmaraja Ratha belongs to Narasimhavarman I [2]. Vaikuntha Perumal Temple was built by Nandivarman II [3]. Ganesha Ratha contains an inscription of Paramesvaravarman I [4]. Adivaraha Cave houses portraits of Simhavishnu [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पल्लव स्मारक) को सूची-II (संबद्ध शासक) से सुमेलित कीजिए और नीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:\nसूची-I:\na) मंडगपट्टू गुफा मंदिर\nb) धर्मराज रथ\nc) वैकुंठ पेरुमल मंदिर\nd) गणेश रथ\ne) आदिवराह गुफा मंदिर\n\nसूची-II:\n1) महेंद्रवर्मन प्रथम\n2) नरसिंहवर्मन प्रथम\n3) नंदिवर्मन द्वितीय\n4) परमेश्वरवर्मन प्रथम\n5) सिंहविष्णु",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-4, d-3, e-5",
+      "option_c": "a-1, b-4, c-3, d-2, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। मंडगपट्टू गुफा का निर्माण महेंद्रवर्मन प्रथम [1] द्वारा कराया गया था। धर्मराज रथ नरसिंहवर्मन प्रथम [2] से संबंधित है। वैकुंठ पेरुमल मंदिर का निर्माण नंदिवर्मन द्वितीय [3] द्वारा कराया गया था। गणेश रथ में परमेश्वरवर्मन प्रथम [4] का शिलालेख है। आदिवराह गुफा में सिंहविष्णु [5] के चित्र हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Pallava Ruler) with List-II (Historical Event/Feature) and select the correct answer:\nList-I:\na) Narasimhavarman I\nb) Mahendravarman I\nc) Narasimhavarman II\nd) Nandivarman II\ne) Simhavishnu\n\nList-II:\n1) Victory at Battle of Manimangala\n2) Transition to Jainism to Shaivism\n3) Sent trade missions to Tang China\n4) Ascended via election by citizens\n5) Defeat of Kalabhras in the South",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-4, d-3, e-5",
+      "option_c": "a-3, b-4, c-1, d-2, e-5",
+      "option_d": "a-1, b-3, c-2, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Narasimhavarman I defeated Pulakeshin II at Manimangala [1]. Mahendravarman I was converted from Jainism to Shaivism by Appar [2]. Narasimhavarman II interacted with Tang China [3]. Nandivarman II was chosen by citizens/councils [4]. Simhavishnu defeated the Kalabhras [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पल्लव शासक) को सूची-II (ऐतिहासिक घटना/विशेषता) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) नरसिंहवर्मन प्रथम\nb) महेंद्रवर्मन प्रथम\nc) नरसिंहवर्मन द्वितीय\nd) नंदिवर्मन द्वितीय\ne) सिंहविष्णु\n\nसूची-II:\n1) मणिमंगला के युद्ध में विजय\n2) जैन धर्म से शैव धर्म में परिवर्तन\n3) तांग चीन में व्यापारिक मिशन भेजना\n4) नागरिकों द्वारा चुनाव के माध्यम से सिंहासन ग्रहण करना\n5) दक्षिण में कलभ्रों की पराजय",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-4, d-3, e-5",
+      "option_c": "a-3, b-4, c-1, d-2, e-5",
+      "option_d": "a-1, b-3, c-2, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। नरसिंहवर्मन प्रथम ने मणिमंगला में पुलकेशिन द्वितीय को पराजित किया [1]। महेंद्रवर्मन प्रथम को अप्पार द्वारा जैन धर्म से शैव धर्म में परिवर्तित किया गया [2]। नरसिंहवर्मन द्वितीय ने तांग चीन के साथ संबंध स्थापित किए [3]। नंदिवर्मन द्वितीय को नागरिकों/परिषदों द्वारा चुना गया था [4]। सिंहविष्णु ने कलभ्रों को पराजित किया [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ratha Temple) with List-II (Architectural Design/Feature) and select the correct answer:\nList-I:\na) Dharmaraja Ratha\nb) Draupadi Ratha\nc) Bhima Ratha\nd) Arjuna Ratha\ne) Sahadeva Ratha\n\nList-II:\n1) Pyramidal Vimana with octagonal Shikhara\n2) Simple square structure with hut-type roof\n3) Oblong, double-storeyed barrel-vaulted roof\n4) Placed on the same platform as Draupadi Ratha\n5) Apsidal plan resembling an elephant-back (Gajaprishta)",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-5, b-2, c-3, d-4, e-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Dharmaraja Ratha has an octagonal shikhara [1]. Draupadi Ratha is a hut-like shrine [2]. Bhima Ratha is oblong and barrel-vaulted [3]. Arjuna Ratha shares a base platform with Draupadi Ratha [4]. Sahadeva Ratha is apsidal (Gajaprishta) [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (रथ मंदिर) को सूची-II (स्थापत्य डिजाइन/विशेषता) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) धर्मराज रथ\nb) द्रौपदी रथ\nc) भीम रथ\nd) अर्जुन रथ\ne) सहदेव रथ\n\nसूची-II:\n1) अष्टकोणीय शिखर के साथ पिरामिडनुमा विमान\n2) झोपड़ी जैसी छत के साथ सरल चौकोर संरचना\n3) आयताकार, दो मंजिला अर्ध-बेलनाकार (बैरल-वाल्टेड) छत\n4) द्रौपदी रथ के साथ एक ही चबूतरे पर स्थित\n5) हाथी की पीठ (गजपृष्ठ) जैसा दिखने वाला चैत्य रूप",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-5, b-2, c-3, d-4, e-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। धर्मराज रथ में अष्टकोणीय शिखर [1] है। द्रौपदी रथ झोपड़ी के आकार का मंदिर [2] है। भीम रथ आयताकार और अर्ध-बेलनाकार [3] है। अर्जुन रथ द्रौपदी रथ के साथ एक ही आधार मंच साझा करता है [4]। सहदेव रथ गजपृष्ठाकार (अप्सिडल) [5] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Inscriptions/Sources) with List-II (Key Historical Data) and select the correct answer:\nList-I:\na) Mandagapattu Inscription\nb) Allahabad Pillar Inscription\nc) Aihole Inscription\nd) Kuram Copper Plates\ne) Kasakudi Plates\n\nList-II:\n1) Initial mention of cave temples without mortar\n2) Capture of Pallava Vishnugopa by Samudragupta\n3) Defeat of Mahendravarman I by Pulakeshin II\n4) Details of Paramesvaravarman I's battle exploits\n5) Detailed genealogy up to Nandivarman II",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-4, d-3, e-5",
+      "option_c": "a-3, b-4, c-2, d-1, e-5",
+      "option_d": "a-1, b-3, c-2, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Mandagapattu records the birth of rock-cut temples [1]. Allahabad pillar mentions Vishnugopa [2]. Aihole mentions Chalukyan victory over Mahendravarman I [3]. Kuram plates record Paramesvaravarman I's military deeds [4]. Kasakudi plates details Nandivarman II's genealogy [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (शिलालेख/स्रोत) को सूची-II (प्रमुख ऐतिहासिक डेटा) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) मंडगपट्टू शिलालेख\nb) इलाहाबाद स्तंभ शिलालेख\nc) ऐहोल शिलालेख\nd) कुराम ताम्रपत्र\ne) कासाकुडी ताम्रपत्र\n\nसूची-II:\n1) गारे के बिना गुफा मंदिरों का प्रारंभिक उल्लेख\n2) समुद्रगुप्त द्वारा पल्लव विष्णुगोप को बंदी बनाना\n3) पुलकेशिन द्वितीय द्वारा महेंद्रवर्मन प्रथम की पराजय\n4) परमेश्वरवर्मन प्रथम के युद्ध कारनामों का विवरण\n5) नंदिवर्मन द्वितीय तक की विस्तृत वंशावली",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-4, d-3, e-5",
+      "option_c": "a-3, b-4, c-2, d-1, e-5",
+      "option_d": "a-1, b-3, c-2, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। मंडगपट्टू में शैलकृत मंदिरों के जन्म का विवरण है [1]। इलाहाबाद स्तंभ में विष्णुगोप का उल्लेख है [2]। ऐहोल में महेंद्रवर्मन प्रथम पर चालुक्य विजय का उल्लेख है [3]। कुराम पत्र में परमेश्वरवर्मन प्रथम के सैन्य कार्यों का विवरण है [4]। कासाकुडी पत्र में नंदिवर्मन द्वितीय की वंशावली का विवरण है [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Literary Figures/Saints) with List-II (Context/Work) and select the correct answer:\nList-I:\na) Dandin\nb) Bharavi\nc) Xuanzang\nd) Appar\ne) Rajasimha\n\nList-II:\n1) Author of Kavyadarsa\n2) Author of Kiratarjuniya\n3) Account of Buddhist monasteries in Kanchi\n4) Conversion of Mahendravarman I to Shaivism\n5) Construction of Kailasanatha temple",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-4, b-2, c-1, d-3, e-5",
+      "correct": "A",
+      "explanation": "Correct option: A. Dandin authored Kavyadarsa [1]. Bharavi wrote Kiratarjuniya [2]. Xuanzang recorded Kanchi's monasteries [3]. Appar converted Mahendravarman I [4]. Rajasimha built Kailasanatha Temple [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (साहित्योन्मुख हस्तियां/संत) को सूची-II (संदर्भ/कार्य) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) दण्डी\nb) भारवि\nc) ह्वेनसांग\nd) अप्पार\ne) राजसिंह\n\nसूची-II:\n1) काव्यादर्श के लेखक\n2) किरातार्जुनीयम् के लेखक\n3) कांची में बौद्ध मठों का विवरण\n4) महेंद्रवर्मन प्रथम का शैव धर्म में परिवर्तन\n5) कैलाशनाथ मंदिर का निर्माण",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-4, b-2, c-1, d-3, e-5",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। दण्डी ने काव्यादर्श [1] की रचना की। भारवि ने किरातार्जुनीयम् [2] लिखा। ह्वेनसांग ने कांची के मठों का विवरण [3] दर्ज किया। अप्पार ने महेंद्रवर्मन प्रथम [4] को परिवर्तित किया। राजसिंह ने कैलाशनाथ मंदिर [5] का निर्माण कराया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Pallava Architecture Stage) with List-II (Key Architecture Monument) and select the correct answer:\nList-I:\na) Mahendra Style\nb) Mamalla Style\nc) Rajasimha Style\nd) Nandivarman Style\ne) Aparajita Style\n\nList-II:\n1) Mahendravadi Cave Temple\n2) Pancha Pandava Rathas\n3) Shore Temple at Mahabalipuram\n4) Vaikuntha Perumal Temple\n5) Virattanesvara Temple at Tiruttani",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-5, b-4, c-3, d-2, e-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Mahendra style is represented by Mahendravadi Cave [1]. Mamalla style matches the Pancha Rathas [2]. Rajasimha style is represented by Shore Temple [3]. Nandivarman style matches Vaikuntha Perumal [4]. Aparajita style matches Virattanesvara Temple [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पल्लव स्थापत्य चरण) को सूची-II (प्रमुख स्थापत्य स्मारक) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) महेंद्र शैली\nb) मामल्ल शैली\nc) राजसिंह शैली\nd) नंदिवर्मन शैली\ne) अपराजित शैली\n\nसूची-II:\n1) महेंद्रवाड़ी गुफा मंदिर\n2) पंच पांडव रथ\n3) महाबलीपुरम में शोर मंदिर\n4) वैकुंठ पेरुमल मंदिर\n5) तिरुत्तनी में वीरट्टनेस्वर मंदिर",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-5, b-4, c-3, d-2, e-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। महेंद्र शैली महेंद्रवाड़ी गुफा [1] द्वारा दर्शायी जाती है। मामल्ल शैली पंच रथों [2] से मेल खाती है। राजसिंह शैली शोर मंदिर [3] द्वारा दर्शायी जाती है। नंदिवर्मन शैली वैकुंठ पेरुमल [4] से मेल खाती है। अपराजित शैली वीरट्टनेस्वर मंदिर [5] से मेल खाती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Region/City) with List-II (Description/Association) and select the correct answer:\nList-I:\na) Kanchipuram\nb) Mahabalipuram\nc) Tondaimandalam\nd) Vatapi\ne) Anuradhapura\n\nList-II:\n1) Administrative Capital of Pallavas\n2) Main port city of the Pallavas\n3) Core geographical territory of Pallavas\n4) Capital of Western Chalukyas\n5) Capital of Ceylon (Sri Lanka)",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-3, b-4, c-2, d-1, e-5",
+      "option_d": "a-1, b-3, c-2, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Kanchipuram was the primary capital [1]. Mahabalipuram was the main port city [2]. Tondaimandalam was the core homeland [3]. Vatapi was the Chalukya capital [4]. Anuradhapura was the Sinhalese capital [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (क्षेत्र/शहर) को सूची-II (विवरण/संघ) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) कांचीपुरम\nb) महाबलीपुरम\nc) तोंडैमंडलम\nd) वातापी\ne) अनुराधापुर\n\nसूची-II:\n1) पल्लवों की प्रशासनिक राजधानी\n2) पल्लवों का मुख्य बंदरगाह शहर\n3) पल्लवों का मुख्य भौगोलिक क्षेत्र\n4) पश्चिमी चालुक्यों की राजधानी\n5) सिंहल (श्रीलंका) की राजधानी",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-3, b-4, c-2, d-1, e-5",
+      "option_d": "a-1, b-3, c-2, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कांचीपुरम प्राथमिक राजधानी थी [1]। महाबलीपुरम मुख्य बंदरगाह शहर था [2]। तोंडैमंडलम मुख्य गृहभूमि थी [3]। वातापी चालुक्यों की राजधानी थी [4]। अनुराधापुर सिंहली राजधानी थी [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the religious leanings of Mahendravarman I:\n1. Mahendravarman I was initially a patron of Jainism but was later converted to Shaivism.\n2. The Shaivite saint Appar (Tirunavukkarasar) is credited with converting Mahendravarman I to Shaivism.\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because Mahendravarman I was a follower of Jainism early in his life. Statement 2 is correct because the Nayanar saint Appar successfully converted him to Shaivism, after which the king built many Shiva temples."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महेंद्रवर्मन प्रथम के धार्मिक झुकाव के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. महेंद्रवर्मन प्रथम शुरू में जैन धर्म के संरक्षक थे लेकिन बाद में वे शैव धर्म में परिवर्तित हो गए।\n2. शैव संत अप्पार (तिरुनावुक्करासर) को महेंद्रवर्मन प्रथम को शैव धर्म में परिवर्तित करने का श्रेय दिया जाता है।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि महेंद्रवर्मन प्रथम अपने जीवन के शुरुआती दिनों में जैन धर्म के अनुयायी थे। कथन 2 सही है क्योंकि नयनार संत अप्पार ने उन्हें सफलतापूर्वक शैव धर्म में परिवर्तित किया, जिसके बाद राजा ने कई शिव मंदिरों का निर्माण कराया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the military conquests of Narasimhavarman I:\n1. He defeated the Chalukyan king Pulakeshin II in several battles, including the Battle of Manimangala.\n2. Following his victory, he ransacked the Chalukyan capital Vatapi and assumed the title of Vatapikonda.\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because the battle of Manimangala was a key victory for Narasimhavarman I near Kanchi. Statement 2 is correct because he successfully captured Vatapi, leading to Pulakeshin II's death and the assumption of the title Vatapikonda."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नरसिंहवर्मन प्रथम की सैन्य विजयों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने मणिमंगला के युद्ध सहित कई लड़ाइयों में चालुक्य राजा पुलकेशिन द्वितीय को पराजित किया।\n2. अपनी विजय के बाद, उन्होंने चालुक्य राजधानी वातापी को लूटा और 'वातापीकोंड' की उपाधि धारण की।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि मणिमंगला का युद्ध कांची के पास नरसिंहवर्मन प्रथम के लिए एक महत्वपूर्ण विजय थी। कथन 2 सही है क्योंकि उन्होंने वातापी पर सफलतापूर्वक कब्जा कर लिया, जिससे पुलकेशिन द्वितीय की मृत्यु हो गई और उन्होंने वातापीकोंड की उपाधि धारण की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Shore Temple at Mahabalipuram:\n1. It is a structural temple built during the reign of Narasimhavarman II (Rajasimha).\n2. The temple complex houses three shrines, dedicated to both Lord Shiva and Lord Vishnu.\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because the Shore Temple is a classic structural temple built under Rajasimha. Statement 2 is correct because the temple contains two Shiva shrines facing east and west, and a smaller Vishnu shrine (Anantashayana Vishnu) in between."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम के शोर मंदिर (तट मंदिर) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह नरसिंहवर्मन द्वितीय (राजसिंह) के शासनकाल के दौरान निर्मित एक संरचनात्मक मंदिर है।\n2. मंदिर परिसर में तीन गर्भगृह हैं, जो भगवान शिव और भगवान विष्णु दोनों को समर्पित हैं।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि शोर मंदिर राजसिंह के अधीन निर्मित एक क्लासिक संरचनात्मक मंदिर है। कथन 2 सही है क्योंकि मंदिर में पूर्व और पश्चिम की ओर मुख किए हुए दो शिव मंदिर हैं, और उनके बीच एक छोटा विष्णु मंदिर (अनंतशयन विष्णु) है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding literary developments under the Pallavas:\n1. The Sanskrit poet Bharavi, who wrote Kiratarjuniya, was contemporary to Simhavishnu.\n2. The scholar Dandin, who wrote Kavyadarsa and Dasakumaracharita, served in the court of Rajasimha (Narasimhavarman II).\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because Bharavi was patronized by Simhavishnu in the late 6th century. Statement 2 is correct because Dandin was a court scholar and writer during Narasimhavarman II's reign in the early 8th century."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लवों के अधीन साहित्यिक विकास के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. संस्कृत कवि भारवि, जिन्होंने किरातार्जुनीयम् लिखा था, सिंहविष्णु के समकालीन थे।\n2. विद्वान दण्डी, जिन्होंने काव्यादर्श और दशकुमारचरित लिखा था, राजसिंह (नरसिंहवर्मन द्वितीय) के दरबार में थे।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि भारवि को छठी शताब्दी के उत्तरार्ध में सिंहविष्णु द्वारा संरक्षण दिया गया था। कथन 2 सही है क्योंकि दण्डी आठवीं शताब्दी की शुरुआत में नरसिंहवर्मन द्वितीय के शासनकाल के दौरान एक दरबारी विद्वान और लेखक थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Vaikuntha Perumal Temple at Kanchipuram:\n1. It was built by the Pallava ruler Nandivarman II in the mid-8th century CE.\n2. The temple is famous for its historical relief sculptures depicting the succession struggle and election of Nandivarman II.\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because Nandivarman II (Pallavamalla) constructed this temple. Statement 2 is correct because the inner walls of the prakara contain unique historical sculptures detailing the events leading to Nandivarman II's coronation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कांचीपुरम के वैकुंठ पेरुमल मंदिर के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसका निर्माण 8वीं शताब्दी ईस्वी के मध्य में पल्लव शासक नंदिवर्मन द्वितीय द्वारा कराया गया था।\n2. यह मंदिर नंदिवर्मन द्वितीय के उत्तराधिकार संघर्ष और चुनाव को दर्शाने वाले ऐतिहासिक राहत चित्रों के लिए प्रसिद्ध है।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि नंदिवर्मन द्वितीय (पल्लवमल्ल) ने इस मंदिर का निर्माण कराया था। कथन 2 सही है क्योंकि प्राकार की आंतरिक दीवारों पर अनोखे ऐतिहासिक चित्र हैं जो नंदिवर्मन द्वितीय के राज्याभिषेक तक की घटनाओं का विवरण देते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Pancha Rathas at Mahabalipuram:\n1. They are five monolithic monuments carved out of a single continuous granite ridge.\n2. The Dharmaraja Ratha is the largest, while the Draupadi Ratha is the smallest of these rathas.\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because the Pancha Rathas were carved out of a single sloping granite knoll. Statement 2 is correct because the multi-tiered Dharmaraja Ratha is the largest in size and height, whereas Draupadi Ratha is the smallest."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम के पंच रथों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. वे एक ही सतत ग्रेनाइट पहाड़ी को तराश कर बनाए गए पांच एकाश्म स्मारक हैं।\n2. धर्मराज रथ सबसे बड़ा है, जबकि द्रौपदी रथ इन रथों में सबसे छोटा है।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि पंच रथों को ग्रेनाइट की एक ही ढलानी पहाड़ी से तराशा गया था। कथन 2 सही है क्योंकि बहु-स्तरीय धर्मराज रथ आकार और ऊंचाई में सबसे बड़ा है, जबकि द्रौपदी रथ सबसे छोटा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements based on Xuanzang's description of Kanchi in 640 CE:\n1. Xuanzang observed that Kanchipuram had a substantial Buddhist presence with about 100 monasteries and 10,000 monks.\n2. He mentioned that Kanchipuram was the birthplace of the famous Buddhist logician Dharmapala.\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because Xuanzang explicitly recorded around 100 Sangharamas (monasteries) and 10,000 Theravada monks. Statement 2 is correct because he noted Kanchi as the home/birthplace of Dharmapala, the great rector of Nalanda."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 640 ईस्वी में ह्वेनसांग के कांची के विवरण के आधार पर निम्नलिखित कथनों पर विचार कीजिए:\n1. ह्वेनसांग ने देखा कि कांचीपुरम में लगभग 100 मठों और 10,000 भिक्षुओं के साथ एक ठोस बौद्ध उपस्थिति थी।\n2. उन्होंने उल्लेख किया कि कांचीपुरम प्रसिद्ध बौद्ध तर्कशास्त्री धर्मपाल की जन्मस्थली थी।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि ह्वेनसांग ने स्पष्ट रूप से लगभग 100 संघाराम (मठों) और 10,000 थेरवाद भिक्षुओं को दर्ज किया था। कथन 2 सही है क्योंकि उन्होंने कांची को नालंदा के महान कुलपति धर्मपाल का गृह/जन्मस्थान बताया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the languages used in Pallava inscriptions:\n1. The early Pallava inscriptions (4th to 6th centuries CE) were written in Prakrit and Sanskrit.\n2. The copper-plate charters from the 7th century onwards were bilingual, using Sanskrit for the introductory genealogy and Tamil for the land grant details.\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because early charters like Hirahadagalli plate are in Prakrit/Sanskrit. Statement 2 is correct because the later imperial copper plates (e.g., Kasakudi) consistently show a Sanskrit section followed by a Tamil section."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव शिलालेखों में प्रयुक्त भाषाओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. प्रारंभिक पल्लव शिलालेख (4वीं से 6ठी शताब्दी ईस्वी) प्राकृत और संस्कृत में लिखे गए थे।\n2. 7वीं शताब्दी के बाद के ताम्रपत्र द्विभाषी थे, जिसमें परिचयात्मक वंशावली के लिए संस्कृत और भूमि अनुदान विवरण के लिए तमिल का उपयोग किया गया था।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि हीराहदगल्ली प्लेट जैसे प्रारंभिक पत्र प्राकृत/संस्कृत में हैं। कथन 2 सही है क्योंकि बाद के साम्राज्यिक ताम्रपत्र (जैसे कासाकुडी) लगातार एक संस्कृत खंड के बाद एक तमिल खंड दिखाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the end of the Pallava rule:\n1. Aparajita Varman was the last sovereign Pallava king of Kanchi.\n2. The Chola ruler Aditya I defeated and killed Aparajita around 897 CE, annexed Tondaimandalam, and brought an end to the Pallava dynasty.\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because Aparajita was the final independent Pallava ruler. Statement 2 is correct because Aditya Chola I defeated him, absorbed the Pallava territories into the growing Chola Empire, ending the dynasty."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव शासन के अंत के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. अपराजित वर्मन कांची के अंतिम संप्रभु पल्लव राजा थे।\n2. चोल शासक आदित्य प्रथम ने लगभग 897 ईस्वी में अपराजित को पराजित कर मार डाला, तोंडैमंडलम पर अधिकार कर लिया और पल्लव वंश का अंत कर दिया।\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि अपराजित अंतिम स्वतंत्र पल्लव शासक थे। कथन 2 सही है क्योंकि आदित्य चोल प्रथम ने उन्हें पराजित किया, पल्लव क्षेत्रों को बढ़ते चोल साम्राज्य में मिला लिया और वंश का अंत कर दिया।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the key features of the Mahendra style of Pallava rock-cut architecture. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Mahendra style (600–625 CE) initiated rock-cut cave architecture in the Tamil region. Key features include:\n- Excavation of mandapas (pillared halls) from solid rock faces without bricks, mortar, timber, or metal.\n- Pillars are massive, simple, and square at the top and bottom with an octagonal shaft in the middle.\n- Dvarapalas (gatekeepers) are carved flanking the shrine entrance.\n- Examples: Mandagapattu, Mahendravadi, and Mamandur temples."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव शैलकृत (रॉक-कट) वास्तुकला की महेंद्र शैली की प्रमुख विशेषताओं की व्याख्या कीजिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "पल्लव वास्तुकला की महेंद्र शैली (600-625 ईस्वी) ने तमिल क्षेत्र में शैलकृत गुफा वास्तुकला की शुरुआत की। इसकी मुख्य विशेषताएं हैं:\n- ठोस चट्टानों को काटकर मंडपों (स्तंभों वाले हॉल) का निर्माण किया गया, जिसमें ईंट, गारे, लकड़ी या धातु का उपयोग नहीं किया गया।\n- खंभे भारी, सरल और ऊपर-नीचे चौकोर तथा मध्य में अष्टकोणीय आकार के हैं।\n- गर्भगृह के प्रवेश द्वार के दोनों ओर विशाल द्वारपालों की मूर्तियां उत्कीर्ण हैं।\n- उदाहरण: मंडगपट्टू, महेंद्रवाड़ी और मामंदूर गुफा मंदिर।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the contribution of Narasimhavarman I (Mamalla) to the development of Pallava architecture, highlighting the key monuments built during his reign. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Narasimhavarman I (Mamalla, r. 630–668 CE) marked the zenith of Pallava rock-cut architecture, transitioning from simple caves to exquisite monolithic structures. His contributions are centered at Mahabalipuram (Mamallapuram) and include:\n- **Monolithic Rathas (Pancha Rathas):** Five free-standing temple models carved from single granite boulders, showing diverse architectural styles (e.g., Dravida shikhara, apsidal).\n- **Open-air Rock Reliefs:** The famous 'Descent of the Ganges' (Arjuna’s Penance) relief showcasing intense mythological and naturalistic carvings.\n- **Slender Pillars:** Columns became more decorative, incorporating seated/standing lions (vyalas) at the base.\n\n| Monument Type | Key Example | Prominent Architectural Feature |\n| :--- | :--- | :--- |\n| Monolithic Ratha | Dharmaraja Ratha | Multi-tiered, octagonal shikhara; largest ratha |\n| Monolithic Ratha | Draupadi Ratha | Simple, hut-like design; dedicated to Durga |\n| Cave Temple | Mahishasuramardini Mandapa | Panel depicting Durga slaying Mahishasura |\n| Open Relief | Descent of the Ganges | Dual-boulder relief showing river Ganga's descent |\n\nThus, Mamalla's reign created a unique architectural idiom that paved the way for later structural Dravidian temples."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव वास्तुकला के विकास में नरसिंहवर्मन प्रथम (मामल्ल) के योगदान की चर्चा कीजिए तथा उनके शासनकाल में बने प्रमुख स्मारकों पर प्रकाश डालिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "नरसिंहवर्मन प्रथम (मामल्ल, शासनकाल 630-668 ईस्वी) ने पल्लव वास्तुकला के चरमोत्कर्ष को चिह्नित किया, जिसने साधारण गुफाओं से उत्कृष्ट एकाश्म (मोनोलिथिक) संरचनाओं में संक्रमण किया। महाबलीपुरम में उनका योगदान निम्नलिखित है:\n- **एकाश्म रथ (पंच रथ):** एकल ग्रेनाइट चट्टानों से तराशे गए पांच स्वतंत्र मंदिर, जो विभिन्न शैलियों (जैसे द्रविड़ शिखर, गजपृष्ठाकार) को दर्शाते हैं।\n- **खुले आकाश के नीचे शैल-राहत कला (रॉक रिलीफ):** 'गंगा अवतरण' (अर्जुन की तपस्या) भित्ति-शिल्प जो पौराणिक और प्राकृतिक दृश्यों को दर्शाता है।\n- **पतले स्तंभ:** स्तंभों पर आधार में बैठे/खड़े शेरों (व्याल) की आकृतियां उकेरी गईं।\n\n| स्मारक का प्रकार | प्रमुख उदाहरण | प्रमुख स्थापत्य विशेषता |\n| :--- | :--- | :--- |\n| एकाश्म रथ | धर्मराज रथ | बहु-स्तरीय, अष्टकोणीय शिखर; सबसे बड़ा रथ |\n| एकाश्म रथ | द्रौपदी रथ | साधारण झोपड़ी जैसी संरचना; दुर्गा को समर्पित |\n| गुफा मंदिर | महिषासुरमर्दिनी मंडप | महिषासुर का वध करती दुर्गा का फलक |\n| खुला भित्ति-चित्र | गंगा अवतरण | गंगा के पृथ्वी पर उतरने को दर्शाती विशाल शिला |\n\nइस प्रकार, मामल्ल के शासनकाल ने एक अद्वितीय स्थापत्य शैली का निर्माण किया जिसने बाद के द्रविड़ मंदिरों का मार्ग प्रशस्त किया।"
+    }
+  ]
+}

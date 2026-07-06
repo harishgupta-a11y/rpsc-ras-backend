@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. In the context of early Buddhist philosophy, which of the following best describes the core meaning of the doctrine of Pratityasamutpada?",
+      "option_a": "The existence of an eternal, unchanging supreme creator who governs the universe",
+      "option_b": "The concept that everything in the universe arises in dependence upon multiple causes and conditions",
+      "option_c": "The absolute non-existence of the material world, which is treated as a complete illusion",
+      "option_d": "The belief that actions do not produce any karmic consequences in future lives",
+      "correct": "B",
+      "explanation": "Correct option: B. Pratityasamutpada (Dependent Origination) is the central Buddhist doctrine stating that all phenomena arise in dependence upon multiple causes and conditions ('Idappaccayata'), meaning nothing has independent, inherent existence."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रारंभिक बौद्ध दर्शन के संदर्भ में, निम्नलिखित में से कौन सा विकल्प 'प्रतीत्यसमुत्पाद' के सिद्धांत के मूल अर्थ का सबसे अच्छा वर्णन करता है?",
+      "option_a": "एक शाश्वत, अपरिवर्तनीय सर्वोच्च सृष्टिकर्ता का अस्तित्व जो ब्रह्मांड पर शासन करता है",
+      "option_b": "यह अवधारणा कि ब्रह्मांड में सब कुछ अनेक कारणों और परिस्थितियों पर निर्भर होकर उत्पन्न होता है",
+      "option_c": "भौतिक जगत का पूर्णतः अस्तित्वहीन होना, जिसे एक पूर्ण भ्रम माना जाता है",
+      "option_d": "यह विश्वास कि कर्म भविष्य के जन्मों में कोई कर्मफल उत्पन्न नहीं करते हैं",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। प्रतीत्यसमुत्पाद (कारण-कार्य सिद्धांत) बौद्ध दर्शन का केंद्रीय सिद्धांत है जो बताता है कि सभी घटनाएं अनेक कारणों और परिस्थितियों पर निर्भर होकर उत्पन्न होती हैं ('इदप्पच्चयता'), जिसका अर्थ है कि किसी भी चीज़ का स्वतंत्र, अंतर्निहित अस्तित्व नहीं है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to the Buddhist doctrine of Anatta (Anatman), what constitutes the human personality or the conventional self?",
+      "option_a": "A permanent transmigrating soul that remains unchanged across births",
+      "option_b": "The manifestation of the universal supreme reality (Brahman) within an individual",
+      "option_c": "A temporary combination of five constantly changing aggregates (Skandhas)",
+      "option_d": "An illusion created solely by the physical body with no mental components",
+      "correct": "C",
+      "explanation": "Correct option: C. Buddhism rejects a permanent soul (Anatta) and posits that the individual is composed of five aggregates (Skandhas): Rupa (form), Vedana (sensation), Sanna (perception), Sankhara (mental formations), and Vinnana (consciousness)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म के 'अनात्म' (अनत्ता) सिद्धांत के अनुसार, मानव व्यक्तित्व या व्यावहारिक 'स्व' का निर्माण किससे होता है?",
+      "option_a": "एक स्थायी देशांतरण करने वाली आत्मा जो विभिन्न जन्मों में अपरिवर्तित रहती है",
+      "option_b": "किसी व्यक्ति के भीतर सार्वभौमिक सर्वोच्च वास्तविकता (ब्रह्म) की अभिव्यक्ति",
+      "option_c": "निरंतर बदलते रहने वाले पांच स्कंधों (समूहों) का एक अस्थायी संयोजन",
+      "option_d": "केवल भौतिक शरीर द्वारा निर्मित एक भ्रम जिसमें कोई मानसिक घटक नहीं होता",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। बौद्ध धर्म एक स्थायी आत्मा (अनात्म) को खारिज करता है और मानता है कि व्यक्ति पांच स्कंधों से बना है: रूप, वेदना, संज्ञा, संस्कार और विज्ञान।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Buddhist text, formatted as a dialogue between an Indo-Greek king and a Buddhist sage, discusses philosophical questions on soul, rebirth, and devotion?",
+      "option_a": "Lalitavistara Sutra",
+      "option_b": "Milinda Panha",
+      "option_c": "Mahavamsa",
+      "option_d": "Buddhacharita",
+      "correct": "B",
+      "explanation": "Correct option: B. The Milinda Panha (Questions of King Milinda) records a dialogue between the Indo-Greek King Menander I and the Buddhist sage Nagasena, addressing key Buddhist doctrines."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा बौद्ध ग्रंथ, जो एक हिंद-यवन (इण्डो-ग्रीक) राजा और एक बौद्ध भिक्षु के बीच संवाद के रूप में है, आत्मा, पुनर्जन्म और श्रद्धा पर दार्शनिक प्रश्नों की चर्चा करता है?",
+      "option_a": "ललितविस्तर सूत्र",
+      "option_b": "मिलिंदपञ्हो",
+      "option_c": "महावंश",
+      "option_d": "बुद्धचरित",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। मिलिंदपञ्हो (राजा मिलिंद के प्रश्न) हिंद-यवन राजा मिनेंडर प्रथम और बौद्ध भिक्षु नागसेन के बीच संवाद को दर्ज करता है, जिसमें प्रमुख बौद्ध सिद्धांतों को संबोधित किया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which division of the Tripitaka deals primarily with the scholastic analysis and systematization of Buddha's teachings and psychological principles?",
+      "option_a": "Vinaya Pitaka",
+      "option_b": "Sutta Pitaka",
+      "option_c": "Abhidhamma Pitaka",
+      "option_d": "Jataka Stories",
+      "correct": "C",
+      "explanation": "Correct option: C. The Abhidhamma Pitaka contains the philosophical, psychological, and scholastic analysis of the teachings found in the Sutta Pitaka."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. त्रिपिटक का कौन सा भाग मुख्य रूप से बुद्ध की शिक्षाओं और मनोवैज्ञानिक सिद्धांतों के शास्त्रीय विश्लेषण और व्यवस्थितकरण से संबंधित है?",
+      "option_a": "विनय पिटक",
+      "option_b": "सुत्त पिटक",
+      "option_c": "अभिधम्म पिटक",
+      "option_d": "जातक कथाएँ",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। अभिधम्म पिटक में सुत्त पिटक में पाई जाने वाली शिक्षाओं का दार्शनिक, मनोवैज्ञानिक और शास्त्रीय विश्लेषण शामिल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The second division of the Noble Eightfold Path, 'Shila' (ethical conduct), comprises which of the following components?",
+      "option_a": "Right View, Right Resolve, and Right Mindfulness",
+      "option_b": "Right Speech, Right Action, and Right Livelihood",
+      "option_c": "Right Effort, Right Mindfulness, and Right Concentration",
+      "option_d": "Right View, Right Effort, and Right Action",
+      "correct": "B",
+      "explanation": "Correct option: B. The Eightfold Path is grouped into three sections: Prajna (wisdom - Right View/Resolve), Shila (ethics - Right Speech/Action/Livelihood), and Samadhi (meditation - Right Effort/Mindfulness/Concentration)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अष्टांगिक मार्ग का दूसरा भाग, 'शील' (नैतिक आचरण), निम्नलिखित में से किन घटकों से मिलकर बना है?",
+      "option_a": "सम्यक दृष्टि, सम्यक संकल्प और सम्यक स्मृति",
+      "option_b": "सम्यक वाक, सम्यक कर्मांत और सम्यक आजीव",
+      "option_c": "सम्यक व्यायाम, सम्यक स्मृति और सम्यक समाधि",
+      "option_d": "सम्यक दृष्टि, सम्यक व्यायाम और सम्यक कर्मांत",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। अष्टांगिक मार्ग को तीन श्रेणियों में विभाजित किया गया है: प्रज्ञा (सम्यक दृष्टि, सम्यक संकल्प), शील (सम्यक वाक, सम्यक कर्मांत, सम्यक आजीव) और समाधि (सम्यक व्यायाम, सम्यक स्मृति, सम्यक समाधि)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who presided over the First Buddhist Council held at Rajgriha shortly after the Buddha's Mahaparinirvana?",
+      "option_a": "Moggaliputta Tissa",
+      "option_b": "Sabbakami",
+      "option_c": "Mahakassapa",
+      "option_d": "Vasumitra",
+      "correct": "C",
+      "explanation": "Correct option: C. The First Buddhist Council was held at Saptaparni cave in Rajgriha under the patronage of King Ajatashatru and was presided over by the elder monk Mahakassapa."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बुद्ध के महापरिनिर्वाण के तुरंत बाद राजगृह में आयोजित प्रथम बौद्ध संगीति की अध्यक्षता किसने की थी?",
+      "option_a": "मोग्गलिपुत्त तिस्स",
+      "option_b": "सब्बकामी",
+      "option_c": "महाकस्सप",
+      "option_d": "वसुमित्र",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। प्रथम बौद्ध संगीति का आयोजन राजगृह की सप्तपर्णी गुफा में राजा अजातशत्रु के संरक्षण में हुआ था और इसकी अध्यक्षता स्थविर महाकस्सप ने की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The school of Mahayana Buddhism known as Yogacara (or Vijnanavada) emphasizes which philosophical standpoint?",
+      "option_a": "The physical world exists exactly as perceived by external senses",
+      "option_b": "Only consciousness (vijnana) is real; external objects have no independent existence",
+      "option_c": "Both consciousness and material objects are completely non-existent",
+      "option_d": "Ultimate reality is a collection of permanent atomic substances",
+      "correct": "B",
+      "explanation": "Correct option: B. Yogacara or Vijnanavada, founded by Maitreyanatha and expanded by Asanga and Vasubandhu, is an idealistic school holding that only mind/consciousness ('vijnana-matra') is real."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म का स्कूल जिसे योगाचार (या विज्ञानवाद) कहा जाता है, किस दार्शनिक दृष्टिकोण पर जोर देता है?",
+      "option_a": "भौतिक जगत का अस्तित्व वैसा ही है जैसा बाहरी इंद्रियों द्वारा महसूस किया जाता है",
+      "option_b": "केवल चेतना (विज्ञान) ही वास्तविक है; बाहरी वस्तुओं का कोई स्वतंत्र अस्तित्व नहीं है",
+      "option_c": "चेतना और भौतिक वस्तुएं दोनों ही पूरी तरह से अस्तित्वहीन हैं",
+      "option_d": "परम वास्तविकता स्थायी परमाणविक पदार्थों का एक संग्रह है",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। योगाचार या विज्ञानवाद, जिसकी स्थापना मैत्रेयनाथ ने की थी और असंग तथा वसुबंधु ने इसका विस्तार किया, एक आदर्शवादी संप्रदाय है जो मानता है कि केवल चित्त/चेतना ('विज्ञानमात्र') ही वास्तविक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Buddhist metaphysics, what is the meaning of the concept of 'Kshanikavada'?",
+      "option_a": "Everything in reality lasts only for a single moment and is in a state of continuous flux",
+      "option_b": "Time is an illusion and change does not occur in the ultimate sense",
+      "option_c": "Only enlightened beings experience the passing of moments, while others live in eternity",
+      "option_d": "A soul can achieve liberation within a single moment of realization",
+      "correct": "A",
+      "explanation": "Correct option: A. Kshanikavada (Doctrine of Momentariness) states that all compounded entities are impermanent (Anicca) and undergo birth, decay, and destruction in successive moments."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध तत्वमीमांसा (metaphysics) में, 'क्षणिकवाद' की अवधारणा का क्या अर्थ है?",
+      "option_a": "वास्तविकता में सब कुछ केवल एक क्षण के लिए रहता है और निरंतर प्रवाह की स्थिति में है",
+      "option_b": "समय एक भ्रम है और परम अर्थ में कोई परिवर्तन नहीं होता है",
+      "option_c": "केवल प्रबुद्ध जीव ही क्षणों के बीतने का अनुभव करते हैं, जबकि अन्य अनंत काल में जीते हैं",
+      "option_d": "आत्मा साक्षात्कार के एक ही क्षण में मुक्ति प्राप्त कर सकती है",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। क्षणिकवाद का सिद्धांत यह मानता है कि सभी संस्कृत (compounded) वस्तुएं अनित्य हैं और क्रमिक क्षणों में उत्पन्न, परिवर्तित और नष्ट होती रहती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Buddhist terms refers to the ceremony of confessing transgressions committed by monks during the rainy season retreat (Vassavasa)?",
+      "option_a": "Upasampada",
+      "option_b": "Pavarana",
+      "option_c": "Kathina",
+      "option_d": "Uposatha",
+      "correct": "B",
+      "explanation": "Correct option: B. Pavarana is the Buddhist holy day marking the end of Vassavasa, where monks assemble to confess any offenses or rules breached during the retreat."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा बौद्ध शब्द वर्षा ऋतु के प्रवास (वस्सावास) के दौरान भिक्षुओं द्वारा किए गए नियमों के उल्लंघन की स्वीकारोक्ति समारोह को संदर्भित करता है?",
+      "option_a": "उपसंपदा",
+      "option_b": "पवारणा",
+      "option_c": "कठिन",
+      "option_d": "उपोसथ",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। पवारणा वह बौद्ध समारोह है जो वर्षावास की समाप्ति का प्रतीक है, जहाँ भिक्षु एकत्रित होकर प्रवास के दौरान हुए किसी भी नियम उल्लंघन या अपराध की स्वीकारोक्ति करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under whose patronage was the Second Buddhist Council held at Vaishali, approximately a century after the Buddha's death?",
+      "option_a": "Ajatashatru",
+      "option_b": "Kalasoka",
+      "option_c": "Ashoka",
+      "option_d": "Kanishka",
+      "correct": "B",
+      "explanation": "Correct option: B. The Second Buddhist Council was held at Vaishali under the patronage of King Kalasoka (Shishunaga dynasty) to resolve disputes over monastic rules."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बुद्ध की मृत्यु के लगभग एक शताब्दी बाद वैशाली में द्वितीय बौद्ध संगीति का आयोजन किसके संरक्षण में किया गया था?",
+      "option_a": "अजातशत्रु",
+      "option_b": "कालाशोक",
+      "option_c": "अशोक",
+      "option_d": "कनिष्क",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। द्वितीय बौद्ध संगीति का आयोजन वैशाली में शिशुनाग वंश के राजा कालाशोक के संरक्षण में विनय नियमों के विवादों को सुलझाने के लिए किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Madhyamaka school of Mahayana Buddhism, founded by Nagarjuna, is centered around which primary concept?",
+      "option_a": "Shunyata (emptiness of inherent existence in all things)",
+      "option_b": "The absolute existence of external objects as physical entities",
+      "option_c": "The meditation on bodily sensations to achieve supernatural powers",
+      "option_d": "The belief that salvation is only achieved through animal sacrifices",
+      "correct": "A",
+      "explanation": "Correct option: A. Nagarjuna's Madhyamaka (Middle Way) school emphasizes 'Shunyata' (Emptiness), meaning that all things lack an independent, intrinsic nature (svabhava) due to their dependent origination."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागार्जुन द्वारा स्थापित महायान बौद्ध धर्म का माध्यमक संप्रदाय किस प्राथमिक अवधारणा के इर्द-गिर्द केंद्रित है?",
+      "option_a": "शून्यता (सभी वस्तुओं में अंतर्निहित अस्तित्व का अभाव)",
+      "option_b": "भौतिक संस्थाओं के रूप में बाहरी वस्तुओं का पूर्ण अस्तित्व",
+      "option_c": "अलौकिक शक्तियां प्राप्त करने के लिए शारीरिक संवेदनाओं पर ध्यान",
+      "option_d": "यह विश्वास कि मुक्ति केवल पशु बलि के माध्यम से ही प्राप्त की जा सकती है",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। नागार्जुन का माध्यमक (मध्यम मार्ग) संप्रदाय 'शून्यता' पर जोर देता है, जिसका अर्थ है कि प्रतीत्यसमुत्पाद के कारण सभी वस्तुओं में एक स्वतंत्र, अंतर्निहित स्वभाव (स्वभाव) का अभाव है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In early Buddhism, what does the term 'Majjhima Patipada' refer to?",
+      "option_a": "The rigorous path of extreme physical mortification",
+      "option_b": "The path of absolute sensory indulgence and worldly pleasure",
+      "option_c": "The Middle Path that avoids the extremes of self-indulgence and self-mortification",
+      "option_d": "The ritualistic pathway described in the Vedic Brahmanas",
+      "correct": "C",
+      "explanation": "Correct option: C. Majjhima Patipada is the Middle Way taught by the Buddha, avoiding the two extremes of sensual indulgence (Kamasukhallikanuyoga) and self-mortification (Attakilamathanuyoga)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रारंभिक बौद्ध धर्म में, 'मज्झिम पटिपदा' (मध्यम प्रतिपदा) शब्द किसे संदर्भित करता है?",
+      "option_a": "अत्यधिक शारीरिक क्लेश और कठोर तपस्या का मार्ग",
+      "option_b": "पूर्ण संवेदी भोग और सांसारिक सुख का मार्ग",
+      "option_c": "मध्यम मार्ग जो अत्यधिक विलासिता और अत्यधिक कायक्लेश दोनों सीमाओं से बचता है",
+      "option_d": "वैदिक ब्राह्मण ग्रंथों में वर्णित कर्मकांडीय मार्ग",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। मज्झिम पटिपदा बुद्ध द्वारा सिखाया गया मध्यम मार्ग है, जो कामसुखल्लिकानुयोग (इंद्रिय भोग) और अत्तकिलमथानुयोग (कठोर तपस्या) के दो छोरों से बचता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Buddhist text belongs to the Khuddaka Nikaya and is historically significant as a collection of poems composed by elder Buddhist nuns?",
+      "option_a": "Therigatha",
+      "option_b": "Theragatha",
+      "option_c": "Dhammapada",
+      "option_d": "Sutta Nipata",
+      "correct": "A",
+      "explanation": "Correct option: A. The Therigatha (Verses of the Elder Nuns) is a collection of beautiful and philosophically profound poems written by early female disciples who attained enlightenment."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा बौद्ध ग्रंथ खुद्दक निकाय के अंतर्गत आता है और ऐतिहासिक रूप से ज्येष्ठ बौद्ध भिक्षुणियों द्वारा रचित कविताओं के संग्रह के रूप में महत्वपूर्ण है?",
+      "option_a": "थेरीगाथा",
+      "option_b": "थेरगाथा",
+      "option_c": "धम्मपद",
+      "option_d": "सुत्तनिपात",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। थेरीगाथा (ज्येष्ठ भिक्षुणियों की गाथाएं) ज्ञान प्राप्त करने वाली प्रारंभिक महिला शिष्याओं द्वारा रचित सुंदर और दार्शनिक रूप से गहन कविताओं का एक संग्रह है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Buddhist philosopher Dinnaga is widely recognized as the founder of which branch of Indian philosophy?",
+      "option_a": "Buddhist Logic and Epistemology (Pramana-vada)",
+      "option_b": "Tantric Vajrayana rituals",
+      "option_c": "Atomic theory of early Vaisheshika",
+      "option_d": "Theism in Mahayana Buddhism",
+      "correct": "A",
+      "explanation": "Correct option: A. Dinnaga (circa 5th century CE) is regarded as the father of Buddhist logic and epistemology, famous for formulating the theory of 'Apoha' (exclusion) and formalizing pramanas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध दार्शनिक दिङ्नाग को व्यापक रूप से भारतीय दर्शन की किस शाखा का संस्थापक माना जाता है?",
+      "option_a": "बौद्ध तर्कशास्त्र और ज्ञानमीमांसा (प्रमाणवाद)",
+      "option_b": "तांत्रिक वज्रयान कर्मकांड",
+      "option_c": "प्रारंभिक वैशेषिक का परमाणु सिद्धांत",
+      "option_d": "महायान बौद्ध धर्म में ईश्वरवाद",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। दिङ्नाग (लगभग 5वीं शताब्दी ईस्वी) को बौद्ध तर्क और ज्ञानमीमांसा का जनक माना जाता है, जो 'अपोह' (वर्गीकरण/अपवर्जन सिद्धांत) के सूत्रपात और प्रमाणों के वर्गीकरण के लिए प्रसिद्ध हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following represents the correct order of the Four Noble Truths (Arya Satyani) as taught by the Buddha?",
+      "option_a": "Dukkha (Suffering), Nirodha (Cessation), Samudaya (Cause), Marga (Path)",
+      "option_b": "Dukkha (Suffering), Samudaya (Cause), Nirodha (Cessation), Marga (Path)",
+      "option_c": "Samudaya (Cause), Dukkha (Suffering), Marga (Path), Nirodha (Cessation)",
+      "option_d": "Marga (Path), Nirodha (Cessation), Samudaya (Cause), Dukkha (Suffering)",
+      "correct": "B",
+      "explanation": "Correct option: B. The logical progression of the Four Noble Truths is: 1. Dukkha (suffering exists), 2. Samudaya (suffering has a cause), 3. Nirodha (suffering can end), 4. Marga (the path to end suffering)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन बुद्ध द्वारा सिखाए गए चार आर्य सत्यों (आर्य सत्यानी) के सही क्रम को दर्शाता है?",
+      "option_a": "दुःख, निरोध, समुदाय, मार्ग",
+      "option_b": "दुःख, समुदाय, निरोध, मार्ग",
+      "option_c": "समुदाय, दुःख, मार्ग, निरोध",
+      "option_d": "मार्ग, निरोध, समुदाय, दुःख",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। चार आर्य सत्यों का तार्किक क्रम है: १. दुःख (संसार में दुःख है), २. दुःख समुदाय (दुःख का कारण है), ३. दुःख निरोध (दुःख का अंत संभव है), ४. दुःख निरोध गामिनी प्रतिपदा/मार्ग (दुःख निवारण का मार्ग है)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the fundamental difference between the Hinayana (specifically Theravada) concept of 'Arhat' and the Mahayana concept of 'Bodhisattva'?",
+      "option_a": "An Arhat seeks personal liberation from suffering, whereas a Bodhisattva vows to delay final Nirvana to help all sentient beings attain liberation",
+      "option_b": "An Arhat is a celestial deity, whereas a Bodhisattva is a purely historical human teacher",
+      "option_c": "An Arhat rejects the practice of meditation, whereas a Bodhisattva relies entirely on physical asceticism",
+      "option_d": "An Arhat is worshiped through images, whereas a Bodhisattva prohibits any symbolic representation",
+      "correct": "A",
+      "explanation": "Correct option: A. The Arhat in Theravada achieves individual liberation (Nirvana), while the Mahayana Bodhisattva seeks supreme enlightenment (Bodhi) for the benefit of all beings and stays in samsara out of compassion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हीनयान (विशेष रूप से थेरवाद) के 'अर्हत्' की अवधारणा और महायान के 'बोधिसत्व' की अवधारणा के बीच मौलिक अंतर क्या है?",
+      "option_a": "अर्हत् दुःख से व्यक्तिगत मुक्ति चाहता है, जबकि बोधिसत्व सभी जीवों को मुक्ति प्राप्त करने में मदद करने के लिए अपने अंतिम निर्वाण में देरी करने की प्रतिज्ञा करता है",
+      "option_b": "अर्हत् एक स्वर्गीय देवता है, जबकि बोधिसत्व एक विशुद्ध रूप से ऐतिहासिक मानव शिक्षक है",
+      "option_c": "अर्हत् ध्यान के अभ्यास को अस्वीकार करता है, जबकि बोधिसत्व पूरी तरह से शारीरिक तपस्या पर निर्भर करता है",
+      "option_d": "अर्हत् की पूजा मूर्तियों के माध्यम से की जाती है, जबकि बोधिसत्व किसी भी प्रतीकात्मक प्रतिनिधित्व को प्रतिबंधित करता है",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। थेरवाद में अर्हत् व्यक्तिगत मुक्ति (निर्वाण) प्राप्त करता है, जबकि महायान में बोधिसत्व सभी जीवों के कल्याण के लिए परम ज्ञान (बोधि) प्राप्त करने का प्रयास करता है और करुणावश संसार में बना रहता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Hinayana schools argues that external objects are not directly perceived, but rather inferred through mental representations?",
+      "option_a": "Vaibhashika",
+      "option_b": "Sautrantika",
+      "option_c": "Madhyamaka",
+      "option_d": "Yogacara",
+      "correct": "B",
+      "explanation": "Correct option: B. The Sautrantika school holds the theory of 'Bahya-anumeya-vada' (external objects are inferable), unlike the Vaibhashika school which advocates 'Bahya-pratyaksha-vada' (external objects are directly perceived)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा हीनयान संप्रदाय तर्क देता है कि बाहरी वस्तुओं का प्रत्यक्ष अनुभव नहीं होता है, बल्कि मानसिक अभ्यावेदन के माध्यम से उनका अनुमान लगाया जाता है?",
+      "option_a": "वैभाषिक",
+      "option_b": "सौत्रान्तिक",
+      "option_c": "माध्यमक",
+      "option_d": "योगाचार",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। सौत्रान्तिक संप्रदाय 'बाह्यानुमेयवाद' (बाहरी वस्तुओं का अनुमान लगाया जा सकता है) के सिद्धांत को मानता है, जबकि वैभाषिक संप्रदाय 'बाह्यप्रत्यक्षवाद' (बाहरी वस्तुओं का सीधा प्रत्यक्ष होता है) का समर्थन करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under the presidency of Moggaliputta Tissa, the Third Buddhist Council was convened during the reign of Emperor Ashoka at which location?",
+      "option_a": "Kashmere",
+      "option_b": "Pataliputra",
+      "option_c": "Rajgriha",
+      "option_d": "Vaishali",
+      "correct": "B",
+      "explanation": "Correct option: B. The Third Buddhist Council was held at Pataliputra under the patronage of Emperor Ashoka to purge the Sangha of heretical factions and compile the Kathavatthu."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मोग्गलिपुत्त तिस्स की अध्यक्षता में, सम्राट अशोक के शासनकाल के दौरान तृतीय बौद्ध संगीति किस स्थान पर आयोजित की गई थी?",
+      "option_a": "कश्मीर",
+      "option_b": "पाटलिपुत्र",
+      "option_c": "राजगृह",
+      "option_d": "वैशाली",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। संघ को पाखंडी गुटों से मुक्त करने और कथावत्थु को संकलित करने के लिए सम्राट अशोक के संरक्षण में पाटलिपुत्र में तृतीय बौद्ध संगीति आयोजित की गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the meaning of the distinction between 'Sopadhishesha Nirvana' and 'Nirupadhishesha Nirvana' in Buddhist philosophy?",
+      "option_a": "Sopadhishesha is attained during life with residue of bodily aggregates, whereas Nirupadhishesha is final liberation at death with no residue",
+      "option_b": "Sopadhishesha is transient self-absorption, whereas Nirupadhishesha is a permanent state of planetary rebirth",
+      "option_c": "Sopadhishesha is attained through rituals, whereas Nirupadhishesha is attained through divine intervention",
+      "option_d": "Sopadhishesha is only for lay followers, whereas Nirupadhishesha is exclusively for monks",
+      "correct": "A",
+      "explanation": "Correct option: A. Sopadhishesha Nirvana (Nirvana with residue) refers to enlightenment achieved while still living in the physical body, while Nirupadhishesha Nirvana (Nirvana without residue/Parinirvana) is attained upon the death of an enlightened person."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध दर्शन में 'सोपादिशेष निर्वाण' और 'निरुपदिशेष निर्वाण' के बीच के अंतर का क्या अर्थ है?",
+      "option_a": "सोपादिशेष जीवन के दौरान शारीरिक स्कंधों के अवशेष के साथ प्राप्त होता है, जबकि निरुपदिशेष मृत्यु के समय बिना किसी अवशेष के अंतिम मुक्ति है",
+      "option_b": "सोपादिशेष क्षणिक समाधि है, जबकि निरुपदिशेष ग्रहीय पुनर्जन्म की एक स्थायी स्थिति है",
+      "option_c": "सोपादिशेष कर्मकांडों के माध्यम से प्राप्त होता है, जबकि निरुपदिशेष दैवीय हस्तक्षेप के माध्यम से प्राप्त होता है",
+      "option_d": "सोपादिशेष केवल गृहस्थ अनुयायियों के लिए है, जबकि निरुपदिशेष विशेष रूप से भिक्षुओं के लिए है",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। सोपादिशेष निर्वाण (अवशेष सहित निर्वाण) से तात्पर्य भौतिक शरीर में जीवित रहते हुए प्राप्त ज्ञान से है, जबकि निरुपदिशेष निर्वाण (अवशेष रहित निर्वाण/परिनिर्वाण) प्रबुद्ध व्यक्ति की मृत्यु पर प्राप्त होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Buddhist terms refers to the bi-monthly assembly of the monastic community where rules of the Patimokkha are recited?",
+      "option_a": "Upasampada",
+      "option_b": "Uposatha",
+      "option_c": "Vassa",
+      "option_d": "Pavarana",
+      "correct": "B",
+      "explanation": "Correct option: B. The Uposatha is a day of observance occurring on new and full moons, during which monastic members recite the Patimokkha code of conduct and lay practitioners observe extra precepts."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा बौद्ध शब्द भिक्षु समुदाय की पाक्षिक (bi-monthly) सभा को संदर्भित करता है जहाँ प्रातिमोक्ष (पातिमोक्ख) के नियमों का पाठ किया जाता है?",
+      "option_a": "उपसंपदा",
+      "option_b": "उपोसथ",
+      "option_c": "वस्स",
+      "option_d": "पवारणा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। उपोसथ अमावस्या और पूर्णिमा के दिनों में मनाया जाने वाला एक दिवस है, जिसके दौरान भिक्षु समुदाय आचार संहिता (प्रातिमोक्ष) का पाठ करता है और गृहस्थ अनुयायी अतिरिक्त नियमों का पालन करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What does the term 'Prajnaparamita' represent in Mahayana Buddhist literature?",
+      "option_a": "A set of rules for constructing stupas and temples",
+      "option_b": "A genre of Mahayana scriptures focusing on the perfection of transcendent wisdom and Shunyata",
+      "option_c": "A list of minor sins that can be committed by Buddhist monks",
+      "option_d": "The political doctrines of governance followed by Buddhist kings",
+      "correct": "B",
+      "explanation": "Correct option: B. Prajnaparamita refers to the 'Perfection of Wisdom' literature, which is central to Mahayana Buddhism and outlines the key concepts of emptiness (Shunyata) and Bodhisattva path."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध साहित्य में 'प्रज्ञापारमिता' शब्द किसका प्रतिनिधित्व करता है?",
+      "option_a": "स्तूपों और मंदिरों के निर्माण के नियमों का एक सेट",
+      "option_b": "पारलौकिक ज्ञान की पूर्णता और शून्यता पर केंद्रित महायान ग्रंथों की एक शैली",
+      "option_c": "बौद्ध भिक्षुओं द्वारा किए जाने वाले छोटे पापों की एक सूची",
+      "option_d": "बौद्ध राजाओं द्वारा अपनाए गए शासन के राजनीतिक सिद्धांत",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। प्रज्ञापारमिता का अर्थ 'ज्ञान की पूर्णता' साहित्य से है, जो महायान बौद्ध धर्म का मुख्य अंग है और शून्यता एवं बोधिसत्व के मार्ग की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the context of early Buddhist architecture, what is the primary distinction between a 'Chaitya' and a 'Vihara'?",
+      "option_a": "A Chaitya is a residential quarters for monks, while a Vihara is a treasury",
+      "option_b": "A Chaitya is a place of worship and assembly containing a stupa, while a Vihara is a residential monastery for monks",
+      "option_c": "A Chaitya is constructed entirely of wood, while a Vihara is carved out of rock",
+      "option_d": "A Chaitya is reserved only for kings, while a Vihara is for common people",
+      "correct": "B",
+      "explanation": "Correct option: B. In rock-cut and early Buddhist architecture, a Chaitya is a prayer hall or shrine with a stupa at one end, whereas a Vihara is a residential unit or monastery for the monks."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रारंभिक बौद्ध वास्तुकला के संदर्भ में, 'चैत्य' और 'विहार' के बीच प्राथमिक अंतर क्या है?",
+      "option_a": "चैत्य भिक्षुओं के रहने का स्थान है, जबकि विहार एक खजाना घर है",
+      "option_b": "चैत्य एक पूजा स्थल और सभा स्थल है जिसमें एक स्तूप होता है, जबकि विहार भिक्षुओं के रहने के लिए एक आवासीय मठ है",
+      "option_c": "चैत्य पूरी तरह से लकड़ी से बना होता है, जबकि विहार चट्टान को काटकर बनाया जाता है",
+      "option_d": "चैत्य केवल राजाओं के लिए आरक्षित है, जबकि विहार आम लोगों के लिए है",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। चट्टानों को काटकर बनाई गई और प्रारंभिक बौद्ध वास्तुकला में, चैत्य एक prayer hall या मंदिर है जिसके एक छोर पर स्तूप होता है, जबकि विहार भिक्षुओं के रहने का एक आवासीय मठ है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Sutta Pitaka is divided into how many Nikayas (major compilations of discourses)?",
+      "option_a": "Three",
+      "option_b": "Five",
+      "option_c": "Seven",
+      "option_d": "Nine",
+      "correct": "B",
+      "explanation": "Correct option: B. The Sutta Pitaka is divided into five Nikayas: Digha Nikaya, Majjhima Nikaya, Samyutta Nikaya, Anguttara Nikaya, and Khuddaka Nikaya."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सुत्त पिटक को कितने निकायों (प्रवचनों के प्रमुख संग्रहों) में विभाजित किया गया है?",
+      "option_a": "तीन",
+      "option_b": "पांच",
+      "option_c": "सात",
+      "option_d": "नौ",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। सुत्त पिटक को पांच निकायों में विभाजित किया गया है: दीघ निकाय, मज्झिम निकाय, संयुत्त निकाय, अंगुत्तर निकाय और खुद्दक निकाय।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Buddhist epistemology, what does the concept of 'Apoha' propounded by Dinnaga denote?",
+      "option_a": "Direct perception of universal forms present in external objects",
+      "option_b": "Defining a concept by excluding its opposites or what it is not",
+      "option_c": "The absolute union of individual consciousness with the universe",
+      "option_d": "Verbal testimony of divine revelations as absolute truth",
+      "correct": "B",
+      "explanation": "Correct option: B. Apoha (exclusion) is Dinnaga's theory stating that words and concepts do not refer to positive universals, but instead define things by denying their opposites (e.g., 'cow' means 'non-non-cow')."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध ज्ञानमीमांसा में, दिङ्नाग द्वारा प्रतिपादित 'अपोह' की अवधारणा क्या दर्शाती है?",
+      "option_a": "बाहरी वस्तुओं में मौजूद सार्वभौमिक रूपों की प्रत्यक्ष अनुभूति",
+      "option_b": "किसी अवधारणा को उसके विपरीत या जो वह नहीं है उसे बाहर करके परिभाषित करना",
+      "option_c": "ब्रह्मांड के साथ व्यक्तिगत चेतना का पूर्ण मिलन",
+      "option_d": "परम सत्य के रूप में दैवीय प्रकाशों की मौखिक गवाही",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। अपोह (अपवर्जन) दिङ्नाग का सिद्धांत है जो बताता है कि शब्द और अवधारणाएं सकारात्मक सार्वभौमिकों को संदर्भित नहीं करते हैं, बल्कि वे विपरीत तत्वों का निषेध करके किसी वस्तु को परिभाषित करते हैं (जैसे, 'गाय' का अर्थ 'गैर-गाय का निषेध' है)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Buddhist philosopher wrote the famous texts 'Abhidharmakosha' and later converted from Sarvastivada to Yogacara under the influence of his brother Asanga?",
+      "option_a": "Nagarjuna",
+      "option_b": "Vasubandhu",
+      "option_c": "Dharmakirti",
+      "option_d": "Chandrakirti",
+      "correct": "B",
+      "explanation": "Correct option: B. Vasubandhu wrote the monumental 'Abhidharmakosha' from the Vaibhashika/Sarvastivada perspective and was later converted to Yogacara by his brother Asanga."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस बौद्ध दार्शनिक ने प्रसिद्ध ग्रंथ 'अभिधर्मकोश' लिखा था और बाद में अपने भाई असंग के प्रभाव में सर्वास्तिवाद से योगाचार में परिवर्तित हो गए थे?",
+      "option_a": "नागार्जुन",
+      "option_b": "वसुबन्धु",
+      "option_c": "धर्मकीर्ति",
+      "option_d": "चन्द्रकीर्ति",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। वसुबन्धु ने वैभाषिक/सर्वास्तिवाद दृष्टिकोण से स्मारकीय ग्रंथ 'अभिधर्मकोश' लिखा और बाद में अपने भाई असंग द्वारा योगाचार (विज्ञानवाद) मत में दीक्षित किए गए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Pratityasamutpada is considered the central doctrine of early Buddhist philosophy.\nReason (R): It explains the causal link of suffering (Dukkha) through the twelve-linked chain of Dvadasa Nidana.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Pratityasamutpada (Dependent Origination) is indeed the central doctrine of early Buddhist philosophy as all other doctrines depend on it. Reason Analysis: It explains suffering through the twelve Nidanas (Avidya, Samskara, etc.), showing the direct cause-and-effect loop. Thus, R is the correct explanation of A because the causal explanation of suffering is the primary application of the dependent origination principle."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): प्रतीत्यसमुत्पाद को प्रारंभिक बौद्ध दर्शन का केंद्रीय सिद्धांत माना जाता है।\nकारण (R): यह द्वादश निदान की बारह-कड़ियों की श्रृंखला के माध्यम से दुःख के कारण संबंध की व्याख्या करता है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: प्रतीत्यसमुत्पाद (कारण-कार्य सिद्धांत) वास्तव में प्रारंभिक बौद्ध दर्शन का केंद्रीय सिद्धांत है। कारण विश्लेषण: यह द्वादश निदान (अविद्या, संस्कार आदि) के माध्यम से दुःख के चक्र की व्याख्या करता है। अतः R, A की सही व्याख्या है क्योंकि दुःख की कारण-कार्य व्याख्या ही प्रतीत्यसमुत्पाद का प्राथमिक अनुप्रयोग है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Mahasanghikas paved the way for the emergence and popularization of Mahayana Buddhism.\nReason (R): They deified the Buddha and advocated the concept of Lokottara (transcendental) nature of Buddha.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Mahasanghikas, who split during the Second Buddhist Council, developed the conceptual framework for Mahayana. Reason Analysis: Their deification of Buddha (treating him as transcendental or Lokottara) directly led to the Mahayana belief in Buddha's eternal and divine nature, thus R is the correct explanation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): महासांघिकों ने महायान बौद्ध धर्म के उद्भव और लोकप्रिय होने का मार्ग प्रशस्त किया।\nकारण (R): उन्होंने बुद्ध को देवत्व प्रदान किया और बुद्ध की लोकोत्तर (transcendental) प्रकृति की अवधारणा की वकालत की।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: महासांघिकों ने ही महायान बौद्ध धर्म के उदय की पृष्ठभूमि तैयार की थी। कारण विश्लेषण: उन्होंने बुद्ध को लोकोत्तर (अलौकिक) मानकर देवत्व प्रदान किया, जिसने महायान के भक्तिवादी स्वरूप को जन्म दिया। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Gautama Buddha rejected the authority of the Vedas and the efficacy of Vedic rituals.\nReason (R): He believed that salvation (Nirvana) could only be achieved through self-effort and moral conduct, rather than through rituals or divine grace.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Buddha rejected the authority of the Vedas (Nastika school). Reason Analysis: Buddha taught that self-effort (Attadipabhava) and moral purity (Shila) are the only paths to Nirvana, which logically explains why he rejected external rituals and priestly mediation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): गौतम बुद्ध ने वेदों की प्रामाणिकता और वैदिक कर्मकांडों की प्रभावकारिता को खारिज कर दिया।\nकारण (R): उनका मानना था कि मुक्ति (निर्वाण) केवल व्यक्तिगत प्रयास और नैतिक आचरण के माध्यम से प्राप्त की जा सकती है, न कि कर्मकांडों या दैवीय कृपा से।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: बुद्ध ने वेदों की प्रामाणिकता और अनुष्ठानों का विरोध किया था। कारण विश्लेषण: बुद्ध ने सिखाया कि आत्म-प्रयास और नैतिक आचरण ही निर्वाण का एकमात्र मार्ग है, जो स्पष्ट करता है कि उन्होंने बाहरी कर्मकांडों को निरर्थक क्यों माना। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Nagarjuna's Madhyamaka philosophy is also referred to as 'Sunyavada'.\nReason (R): Nagarjuna asserted that the world is completely non-existent and is a total void of absolute nothingness.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Nagarjuna's school is indeed called Sunyavada. Reason Analysis: The reason is false because 'Sunyata' in Madhyamaka does not mean absolute nothingness or nihilism; it means things are empty of independent, inherent existence (svabhava-sunya) because they are dependently originated."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): नागार्जुन के माध्यमक दर्शन को 'शून्यवाद' भी कहा जाता है।\nकारण (R): नागार्जुन ने दावा किया कि यह दुनिया पूरी तरह से अस्तित्वहीन है और पूर्ण शून्यता (absolute nothingness) का एक विशाल शून्य है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: नागार्जुन के दर्शन को शून्यवाद कहा जाता है, यह सत्य है। कारण विश्लेषण: कारण गलत है क्योंकि नागार्जुन की 'शून्यता' का अर्थ शून्यवाद (nihilism या पूर्ण अभाव) नहीं है, बल्कि इसका अर्थ है कि सभी वस्तुएं अपने अंतर्निहित स्वभाव से रहित (स्वभाव-शून्य) हैं क्योंकि वे प्रतीत्यसमुत्पाद पर आधारित हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Second Buddhist Council at Vaishali led to the first formal schism in the Buddhist Sangha.\nReason (R): The dispute arose over the ten relaxation practices (Dasa Vatthuni) observed by the Vajjian monks.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Second Council did cause the split into Sthaviravada and Mahasanghika. Reason Analysis: The dispute was over ten points of monastic discipline (Dasa Vatthuni) practiced by the Vajji monks, which was rejected by the orthodoxy. This dispute caused the division, making R the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): वैशाली में आयोजित द्वितीय बौद्ध संगीति के कारण बौद्ध संघ में पहला औपचारिक विभाजन हुआ।\nकारण (R): यह विवाद वज्जिपुत्तक भिक्षुओं द्वारा अपनाए गए दस शिथिल नियमों (दस वत्थुनि) को लेकर उत्पन्न हुआ था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: वैशाली की संगीति में संघ स्थविरवादी और महासांघिक में विभाजित हो गया था। कारण विश्लेषण: यह विवाद वज्जि भिक्षुओं के आचरण के दस शिथिल नियमों (जैसे दोपहर बाद भोजन करना, सोना दान में लेना आदि) को लेकर हुआ था। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The concept of 'Anatta' (non-self) in Buddhism denies the existence of a permanent, unchanging soul.\nReason (R): Buddhism posits that what we call the self is a dynamic compilation of five constantly changing aggregates (Skandhas).",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Anatta directly denies a permanent, independent soul (Atman). Reason Analysis: Buddhism replaces the static soul with five ever-changing Skandhas (form, feeling, perception, formations, consciousness), which explains why there is no permanent self. Thus, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): बौद्ध धर्म में 'अनात्म' (अनत्ता) की अवधारणा एक स्थायी, अपरिवर्तनीय आत्मा के अस्तित्व को खारिज करती है।\nकारण (R): बौद्ध धर्म का मानना है कि जिसे हम 'स्व' कहते हैं वह निरंतर बदलते रहने वाले पांच स्कंधों (समूहों) का एक गत्यात्मक संकलन है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अनात्म सिद्धांत किसी भी स्थायी आत्मा का खंडन करता है। कारण विश्लेषण: बौद्ध दर्शन के अनुसार, स्व पांच परिवर्तनशील स्कंधों का प्रवाह है, जिसके कारण किसी स्थायी आत्मा का अस्तित्व नहीं बचता। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Abhidhamma Pitaka was compiled during the First Buddhist Council under the presidency of Mahakassapa.\nReason (R): The First Buddhist Council was convened immediately after the Mahaparinirvana of the Buddha at Rajgriha.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "D",
+      "explanation": "Assertion Analysis: The assertion is false. Only the Sutta Pitaka (by Ananda) and Vinaya Pitaka (by Upali) were compiled at the First Council. The Abhidhamma Pitaka was compiled much later, traditionally at the Third Council. Reason Analysis: The reason is true; the First Council was indeed held at Rajgriha immediately after the Buddha's death."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): अभिधम्म पिटक का संकलन महाकस्सप की अध्यक्षता में प्रथम बौद्ध संगीति के दौरान किया गया था।\nकारण (R): प्रथम बौद्ध संगीति राजगृह में बुद्ध के महापरिनिर्वाण के तुरंत बाद बुलाई गई थी।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "D",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन गलत है क्योंकि प्रथम संगीति में केवल सुत्त पिटक और विनय पिटक का संकलन हुआ था। अभिधम्म पिटक का संकलन तृतीय बौद्ध संगीति में माना जाता है। कारण विश्लेषण: कारण सही है कि प्रथम संगीति राजगृह में बुद्ध की मृत्यु के तुरंत बाद हुई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Emperor Ashoka sent Buddhist missions to Sri Lanka and various Hellenistic kingdoms.\nReason (R): Ashoka converted to Mahayana Buddhism after the Kalinga War and patronized the worship of Bodhisattvas.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Ashoka did send missions to Sri Lanka (Mahinda and Sanghamitta) and Greek kingdoms, which is true. Reason Analysis: The reason is false because Ashoka adhered to early Buddhism (pre-sectarian/Theravada school) and not Mahayana, which developed much later. Bodhisattva worship was not part of Ashokan state policy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): सम्राट अशोक ने श्रीलंका और विभिन्न हेलेनिस्टिक (यूनानी) राज्यों में बौद्ध मिशन भेजे।\nकारण (R): अशोक ने कलिंग युद्ध के बाद महायान बौद्ध धर्म अपना लिया और बोधिसत्वों की पूजा को संरक्षण दिया।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अशोक ने श्रीलंका और यूनानी राज्यों में दूत भेजे थे, यह कथन सही है। कारण विश्लेषण: कारण गलत है क्योंकि अशोक ने प्रारंभिक बौद्ध धर्म (थेरवाद का प्रारंभिक रूप) अपनाया था न कि महायान, जो बहुत बाद में अस्तित्व में आया। बोधिसत्व पूजा अशोक के समय में नहीं थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Council) with List-II (President of the Council) and select the correct answer:\nList-I:\na) First Council\nb) Second Council\nc) Third Council\nd) Fourth Council\n\nList-II:\n1) Moggaliputta Tissa\n2) Vasumitra\n3) Mahakassapa\n4) Sabakami\n5) Upali",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-5, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. First Council (a) was presided by Mahakassapa [3]. Second Council (b) by Sabakami [4]. Third Council (c) by Moggaliputta Tissa [1]. Fourth Council (d) by Vasumitra [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध संगीति) को सूची-II (संगीति के अध्यक्ष) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) प्रथम संगीति\nb) द्वितीय संगीति\nc) तृतीय संगीति\nd) चतुर्थ संगीति\n\nसूची-II:\n1) मोग्गलिपुत्त तिस्स\n2) वसुमित्र\n3) महाकस्सप\n4) सब्बकामी\n5) उपालि",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-5, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। प्रथम संगीति (a) की अध्यक्षता महाकस्सप [3] ने की थी। द्वितीय संगीति (b) की सब्बकामी [4] ने। तृतीय संगीति (c) की मोग्गलिपुत्त तिस्स [1] ने और चतुर्थ संगीति (d) की वसुमित्र [2] ने की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Event in Buddha's Life) with List-II (Associated Symbol) and select the correct answer:\nList-I:\na) Birth\nb) Great Renunciation\nc) Enlightenment\nd) First Sermon\ne) Death\n\nList-II:\n1) Lotus and Bull\n2) Horse\n3) Bodhi Tree\n4) Wheel\n5) Stupa",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-5, b-2, c-3, d-4, e-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Birth (a) is symbolized by the Lotus and Bull [1]. Great Renunciation (b) by the Horse [2]. Enlightenment (c) by the Bodhi Tree [3]. First Sermon (d) by the Wheel (Dharmachakra) [4]. Death (e) by the Stupa [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बुद्ध के जीवन की घटना) को सूची-II (संबद्ध प्रतीक) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) जन्म\nb) महाभिनिष्क्रमण (गृहत्याग)\nc) निर्वाण (ज्ञान प्राप्ति)\nd) धर्मचक्रप्रवर्तन (प्रथम उपदेश)\ne) महापरिनिर्वाण (मृत्यु)\n\nसूची-II:\n1) कमल और सांड\n2) घोड़ा\n3) बोधि वृक्ष\n4) चक्र\n5) स्तूप",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-5, b-2, c-3, d-4, e-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। जन्म (a) का प्रतीक कमल और सांड [1] है। महाभिनिष्क्रमण (b) का प्रतीक घोड़ा [2] है। ज्ञान प्राप्ति (c) का बोधि वृक्ष [3] है। प्रथम उपदेश (d) का चक्र [4] है और मृत्यु (e) का प्रतीक स्तूप [5] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Eightfold Path Component) with List-II (Primary Philosophical Category) and select the correct answer:\nList-I:\na) Samyak Drishti (Right View)\nb) Samyak Vak (Right Speech)\nc) Samyak Vyayama (Right Effort)\nd) Samyak Samadhi (Right Concentration)\n\nList-II:\n1) Prajna (Wisdom)\n2) Shila (Ethical Conduct)\n3) Samadhi (Meditative Cultivation)\n4) Karuna (Compassion)\n5) Apoha (Exclusion)",
+      "option_a": "a-1, b-2, c-3, d-3",
+      "option_b": "a-1, b-2, c-2, d-3",
+      "option_c": "a-2, b-1, c-3, d-3",
+      "option_d": "a-1, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Right View (a) falls under Prajna [1]. Right Speech (b) falls under Shila [2]. Both Right Effort (c) and Right Concentration (d) fall under the Samadhi category [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अष्टांगिक मार्ग के अंग) को सूची-II (प्राथमिक दार्शनिक वर्ग) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) सम्यक दृष्टि\nb) सम्यक वाक\nc) सम्यक व्यायाम\nd) सम्यक समाधि\n\nसूची-II:\n1) प्रज्ञा (ज्ञान/बुद्धि)\n2) शील (नैतिक आचरण)\n3) समाधि (ध्यान अभ्यास)\n4) करुणा\n5) अपोह",
+      "option_a": "a-1, b-2, c-3, d-3",
+      "option_b": "a-1, b-2, c-2, d-3",
+      "option_c": "a-2, b-1, c-3, d-3",
+      "option_d": "a-1, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। सम्यक दृष्टि (a) प्रज्ञा [1] के अंतर्गत आती है। सम्यक वाक (b) शील [2] के अंतर्गत आता है। सम्यक व्यायाम (c) और सम्यक समाधि (d) दोनों समाधि [3] श्रेणी के अंतर्गत आते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Philosophical School) with List-II (Key Propounder/Figure) and select the correct answer:\nList-I:\na) Madhyamaka\nb) Yogacara\nc) Sautrantika\nd) Vaibhashika\n\nList-II:\n1) Nagarjuna\n2) Vasubandhu\n3) Kumaralata\n4) Dharmatrata\n5) Dinnaga",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-5, c-4, d-3",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Madhyamaka (a) was founded by Nagarjuna [1]. Yogacara (b) was propounded by Vasubandhu and Asanga [2]. Sautrantika (c) was founded by Kumaralata [3]. Vaibhashika (d) is associated with figures like Dharmatrata [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध दार्शनिक संप्रदाय) को सूची-II (प्रमुख प्रतिपादक/व्यक्तित्व) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) माध्यमक\nb) योगाचार\nc) सौत्रान्तिक\nd) वैभाषिक\n\nसूची-II:\n1) नागार्जुन\n2) वसुबन्धु\n3) कुमारलात\n4) धर्मत्रात\n5) दिङ्नाग",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-5, c-4, d-3",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। माध्यमक (a) की स्थापना नागार्जुन [1] ने की थी। योगाचार (b) के प्रमुख प्रतिपादक वसुबन्धु [2] थे। सौत्रान्तिक (c) के संस्थापक कुमारलात [3] थे और वैभाषिक (d) के प्रमुख विचारकों में धर्मत्रात [4] शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Text) with List-II (Key Content/Subject) and select the correct answer:\nList-I:\na) Vinaya Pitaka\nb) Sutta Pitaka\nc) Abhidhamma Pitaka\nd) Milinda Panha\n\nList-II:\n1) Rules and regulations for monastic life\n2) Main discourses and teachings of Buddha\n3) Philosophical and psychological analysis\n4) Dialogue on Buddhist tenets with a Greek king\n5) Detailed biography of Gautama Buddha",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Vinaya Pitaka (a) contains rules of discipline [1]. Sutta Pitaka (b) contains the actual discourses of Buddha [2]. Abhidhamma Pitaka (c) analyzes philosophy [3]. Milinda Panha (d) contains dialogues with Menander [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध ग्रंथ) को सूची-II (मुख्य विषय वस्तु) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) विनय पिटक\nb) सुत्त पिटक\nc) अभिधम्म पिटक\nd) मिलिंदपञ्हो\n\nसूची-II:\n1) भिक्षु जीवन के लिए नियम और कानून\n2) बुद्ध के मुख्य प्रवचन और शिक्षाएं\n3) दार्शनिक और मनोवैज्ञानिक विश्लेषण\n4) एक यवन राजा के साथ बौद्ध सिद्धांतों पर संवाद\n5) गौतम बुद्ध की विस्तृत जीवनी",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। विनय पिटक (a) में संघ के नियम हैं [1]। सुत्त पिटक (b) में बुद्ध के उपदेश हैं [2]। अभिधम्म पिटक (c) में दार्शनिक विश्लेषण है [3] और मिलिंदपञ्हो (d) में राजा मिनेंडर के साथ चर्चा है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Philosophical Term) with List-II (Core Conceptual Meaning) and select the correct answer:\nList-I:\na) Pratityasamutpada\nb) Kshanikavada\nc) Anatta\nd) Nirvana\n\nList-II:\n1) Interdependent origination of phenomena\n2) Momentary nature of all existence\n3) Absence of a permanent individual soul\n4) Cessation of suffering and rebirth\n5) Absolute existence of material atom",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Pratityasamutpada (a) is interdependent origination [1]. Kshanikavada (b) is momentariness [2]. Anatta (c) is non-self [3]. Nirvana (d) is cessation of suffering [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (दार्शनिक शब्द) को सूची-II (मूल वैचारिक अर्थ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) प्रतीत्यसमुत्पाद\nb) क्षणिकवाद\nc) अनात्म (अनत्ता)\nd) निर्वाण\n\nसूची-II:\n1) घटनाओं की परस्पर निर्भर उत्पत्ति\n2) संपूर्ण अस्तित्व की क्षणभंगुर प्रकृति\n3) एक स्थायी व्यक्तिगत आत्मा की अनुपस्थिति\n4) दुःख और पुनर्जन्म की समाप्ति\n5) भौतिक परमाणु का पूर्ण अस्तित्व",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। प्रतीत्यसमुत्पाद (a) परस्पर निर्भरता से जन्म का सिद्धांत है [1]। क्षणिकवाद (b) का अर्थ क्षणभंगुरता है [2]। अनात्म (c) स्थायी आत्मा की अनुपस्थिति है [3] और निर्वाण (d) दुःख की निवृत्ति है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Place in Buddha's Life) with List-II (Historical Significance) and select the correct answer:\nList-I:\na) Lumbini\nb) Bodh Gaya\nc) Sarnath\nd) Kushinagar\n\nList-II:\n1) Place of birth of Siddhartha Gautama\n2) Site of attainment of Supreme Enlightenment\n3) Location of the first sermon (Dharmachakra Pravartana)\n4) Place of attainment of Mahaparinirvana\n5) Location of the Second Buddhist Council",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Lumbini (a) is the birthplace [1]. Bodh Gaya (b) is where Buddha got enlightenment [2]. Sarnath (c) is the site of the first sermon [3]. Kushinagar (d) is the place of death/Mahaparinirvana [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बुद्ध के जीवन से जुड़े स्थान) को सूची-II (ऐतिहासिक महत्व) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) लुंबिनी\nb) बोधगया\nc) सारनाथ\nd) कुशीनगर\n\nसूची-II:\n1) सिद्धार्थ गौतम का जन्म स्थान\n2) परम ज्ञान प्राप्ति का स्थल\n3) प्रथम उपदेश (धर्मचक्रप्रवर्तन) का स्थान\n4) महापरिनिर्वाण प्राप्ति का स्थान\n5) द्वितीय बौद्ध संगीति का आयोजन स्थल",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। लुंबिनी (a) बुद्ध का जन्म स्थान है [1]। बोधगया (b) में ज्ञान प्राप्त हुआ था [2]। सारनाथ (c) में प्रथम उपदेश दिया गया था [3] और कुशीनगर (d) में महापरिनिर्वाण हुआ था [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Mahayana Bodhisattva) with List-II (Core Attribute/Symbol) and select the correct answer:\nList-I:\na) Avalokiteshvara\nb) Manjushri\nc) Vajrapani\nd) Maitreya\n\nList-II:\n1) Represents infinite compassion and holds a lotus\n2) Wields the sword of wisdom to destroy ignorance\n3) Bears the thunderbolt representing power and energy\n4) The future Buddha currently residing in Tushita heaven\n5) Deity representing commercial success and wealth",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Avalokiteshvara (a) is the Bodhisattva of compassion [1]. Manjushri (b) represents wisdom with a sword [2]. Vajrapani (c) represents power holding a thunderbolt [3]. Maitreya (d) is the future Buddha [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (महायान बोधिसत्व) को सूची-II (मूल विशेषता/प्रतीक) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) अवलोकितेश्वर\nb) मंजुश्री\nc) वज्रपाणि\nd) मैत्रेय\n\nसूची-II:\n1) अनंत करुणा का प्रतिनिधित्व करते हैं और हाथ में कमल धारण करते हैं\n2) अज्ञानता को नष्ट करने के लिए बुद्धि की तलवार धारण करते हैं\n3) शक्ति और ऊर्जा का प्रतिनिधित्व करने वाला वज्र धारण करते हैं\n4) भविष्य के बुद्ध जो वर्तमान में तुषित स्वर्ग में निवास कर रहे हैं\n5) वाणिज्यिक सफलता और धन का प्रतिनिधित्व करने वाले देवता",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। अवलोकितेश्वर (a) करुणा के बोधिसत्व हैं [1]। मंजुश्री (b) तलवार के साथ ज्ञान के प्रतीक हैं [2]। वज्रपाणि (c) वज्र धारण करने वाले शक्ति के प्रतीक हैं [3] और मैत्रेय (d) भविष्य के बुद्ध हैं [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Buddhist Sangha and monastic code of conduct:\n1. Women were admitted to the Sangha from the very beginning of the Buddha's ministry.\n2. The formal ceremony of higher ordination into the Sangha was called Upasampada.\n3. The confession of offenses by monks during the rainy season retreat was known as Pavarana.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because women were not admitted from the very beginning; the bhikkhuni Sangha was established later at Vaishali after persistent requests from Mahaprajapati Gautami and Ananda. Statement 2 is correct as Upasampada is the higher monastic ordination. Statement 3 is correct as Pavarana is the confession ceremony marking the end of the rainy season retreat."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध संघ और भिक्षु आचार संहिता के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. बुद्ध के उपदेश काल के आरंभ से ही महिलाओं को संघ में प्रवेश दिया गया था।\n2. संघ में उच्च दीक्षा के औपचारिक समारोह को 'उपसंपदा' कहा जाता था।\n3. वर्षा ऋतु के प्रवास के दौरान भिक्षुओं द्वारा अपनी गलतियों की स्वीकारोक्ति को 'पवारणा' के रूप में जाना जाता था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि महिलाओं को प्रारंभ से प्रवेश नहीं मिला था; संघ में प्रवेश काफी बाद में वैशाली में महाप्रजापति गौतमी और आनंद के विशेष अनुरोध पर दिया गया। कथन 2 सही है क्योंकि उपसंपदा संघ की उच्च दीक्षा का नाम है। कथन 3 सही है क्योंकि पवारणा वर्षावास के अंत में की जाने वाली स्वीकारोक्ति है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Buddhist doctrine of Pratityasamutpada:\n1. It is also known as the doctrine of twelve links (Dvadasa Nidana) that bind a soul to samsara.\n2. The twelve-linked chain begins with Avidya (Ignorance) and terminates with Jaramarana (Old age and death).\n3. The doctrine asserts that the universe has a first cause which was created by a supreme god.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Dvadasa Nidana explains the cycle of rebirth and suffering. Statement 2 is correct as the chain starts with Avidya (ignorance) and ends in decay and death (Jaramarana). Statement 3 is incorrect because Buddhism rejects a first cause or creator god, viewing existence as a beginningless, interdependent web."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म के प्रतीत्यसमुत्पाद सिद्धांत के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसे बारह कड़ियों (द्वादश निदान) के सिद्धांत के रूप में भी जाना जाता है जो मनुष्य को संसार से बांधती हैं।\n2. यह बारह कड़ियों की श्रृंखला अविद्या (अज्ञान) से शुरू होती है और जरामरण (बुढ़ापा और मृत्यु) पर समाप्त होती है।\n3. यह सिद्धांत दावा करता है कि ब्रह्मांड का एक पहला कारण (first cause) है जिसे एक सर्वोच्च ईश्वर द्वारा बनाया गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि द्वादश निदान मनुष्य के जन्म-मरण के चक्र को समझाता है। कथन 2 सही है क्योंकि श्रृंखला की शुरुआत अविद्या से और अंत जरामरण पर होता है। कथन 3 गलत है क्योंकि बौद्ध धर्म में किसी सृष्टिकर्ता या प्रथम कारण को स्वीकार नहीं किया गया है, बल्कि इसे अनादि और परस्पर निर्भर चक्र माना गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Hinayana and Mahayana Buddhism:\n1. Hinayana worships Buddha in the form of idols, whereas Mahayana treats him only as a historical human teacher.\n2. Hinayana scriptures are predominantly written in Pali, whereas Mahayana scriptures are mostly in Sanskrit.\n3. The primary spiritual ideal of Hinayana is the Arhat, whereas the ideal of Mahayana is the Bodhisattva.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because it is Mahayana that introduced image worship (idols) of Buddha as a deity, while Hinayana represents Buddha symbolically (e.g., foot prints, empty throne) and regards him as a human guide. Statement 2 is correct as Hinayana texts are in Pali and Mahayana in Sanskrit. Statement 3 is correct as the Arhat is the Hinayana ideal, while the Bodhisattva is the Mahayana ideal."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हीनयान और महायान बौद्ध धर्म के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. हीनयान बुद्ध की पूजा मूर्तियों के रूप में करता है, जबकि महायान उन्हें केवल एक ऐतिहासिक मानव शिक्षक मानता है।\n2. हीनयान ग्रंथ मुख्य रूप से पालि में लिखे गए हैं, जबकि महायान ग्रंथ ज्यादातर संस्कृत में हैं।\n3. हीनयान का प्राथमिक आध्यात्मिक आदर्श 'अर्हत्' है, जबकि महायान का आदर्श 'बोधिसत्व' है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि महायान में बुद्ध को देवता मानकर मूर्ति पूजा की शुरुआत की गई थी, जबकि हीनयान बुद्ध को प्रतीकों में दर्शाता है और उन्हें महान पथ-प्रदर्शक मानता है। कथन 2 सही है क्योंकि हीनयान साहित्य पालि में और महायान संस्कृत में है। कथन 3 सही है क्योंकि अर्हत् हीनयान का और बोधिसत्व महायान का परम लक्ष्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Buddhist Councils:\n1. The Third Buddhist Council was presided over by Moggaliputta Tissa and saw the compilation of the Kathavatthu.\n2. The Fourth Buddhist Council was held in Kashmir under Kanishka's patronage and saw the split of Buddhism into Hinayana and Mahayana.\n3. The Second Buddhist Council was held at Vaishali during the reign of Ajatashatru.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Moggaliputta Tissa presided over the Third Council and composed Kathavatthu to refute heresy. Statement 2 is correct as Kanishka patronized the Fourth Council where Hinayana and Mahayana split occurred. Statement 3 is incorrect because the Second Council was held during the reign of Kalasoka (Shishunaga dynasty), while Ajatashatru patronized the First Council."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध संगीति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. तृतीय बौद्ध संगीति की अध्यक्षता मोग्गलिपुत्त तिस्स ने की थी और इसमें 'कथावत्थु' का संकलन हुआ था।\n2. चतुर्थ बौद्ध संगीति कश्मीर में कनिष्क के संरक्षण में आयोजित हुई और इसमें बौद्ध धर्म हीनयान और महायान में विभाजित हो गया।\n3. द्वितीय बौद्ध संगीति अजातशत्रु के शासनकाल के दौरान वैशाली में आयोजित की गई थी।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि तृतीय संगीति में मोग्गलिपुत्त तिस्स ने अध्यक्षता की और कथावत्थु को जोड़ा। कथन 2 सही है क्योंकि कनिष्क के समय चतुर्थ संगीति हुई जिसमें विभाजन हुआ। कथन 3 गलत है क्योंकि द्वितीय संगीति कालाशोक के शासनकाल में हुई थी, जबकि अजातशत्रु ने प्रथम संगीति को संरक्षण दिया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the sub-sects and evolution of Buddhism:\n1. Theravada (Sthaviravada) is generally considered the oldest surviving branch of Buddhism.\n2. The Sarvastivada school asserted that all things (dharmas) exist in the past, present, and future.\n3. Vajrayana Buddhism, incorporating esoteric Tantric rituals, became highly prominent in Eastern India during the Pala dynasty.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct as Theravada is the direct descendant of Sthaviravada. Statement 2 is correct because the word Sarvastivada means 'the doctrine that all exists' (past, present, and future). Statement 3 is correct as the Palas patronized Vajrayana and universities like Vikramashila which became centers of Tantric Buddhism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म के उप-संप्रदायों और उसके विकास के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. थेरवाद (स्थविरवाद) को आम तौर पर बौद्ध धर्म की सबसे पुरानी जीवित शाखा माना जाता है।\n2. सर्वास्तिवाद संप्रदाय ने दावा किया कि सभी धर्मों (तत्वों) का अस्तित्व भूत, वर्तमान और भविष्य तीनों कालों में रहता है।\n3. तांत्रिक अनुष्ठानों को समाहित करने वाला वज्रयान बौद्ध धर्म पाल राजवंश के दौरान पूर्वी भारत में अत्यधिक प्रमुख हो गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि थेरवाद स्थविरवाद की परंपरा का प्रतिनिधित्व करता है। कथन 2 सही है क्योंकि सर्वास्तिवाद का अर्थ ही है 'सब कुछ अस्तित्व में है' (भूत, वर्तमान, भविष्य)। कथन 3 सही है क्योंकि पाल शासकों ने वज्रयान को संरक्षण दिया और विक्रमशिला जैसे विश्वविद्यालय इसके केंद्र बने।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding early Buddhist literature and sources:\n1. The Digha Nikaya is a collection of long discourses of the Buddha and contains the famous Mahaparinibbana Sutta.\n2. The Jataka tales, which narrate stories of the Buddha's previous lives, are part of the Vinaya Pitaka.\n3. The Dipavamsa and Mahavamsa are Pali chronicles that provide history of Buddhism in Sri Lanka.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct as the Digha Nikaya contains the Mahaparinibbana Sutta describing Buddha's last days. Statement 2 is incorrect because the Jatakas are part of the Khuddaka Nikaya, which belongs to the Sutta Pitaka, not the Vinaya Pitaka. Statement 3 is correct as these Sri Lankan chronicles describe the history and spread of Buddhism to Sri Lanka."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रारंभिक बौद्ध साहित्य और स्रोतों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. दीघ निकाय बुद्ध के लंबे प्रवचनों का एक संग्रह है और इसमें प्रसिद्ध महापरिनिब्बान सुत्त शामिल है।\n2. जातक कथाएँ, जो बुद्ध के पिछले जन्मों की कहानियों को बताती हैं, विनय पिटक का हिस्सा हैं।\n3. दीपवंश और महावंश पालि ग्रंथ हैं जो श्रीलंका में बौद्ध धर्म का इतिहास प्रदान करते हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि दीघ निकाय में महापरिनिब्बान सुत्त है। कथन 2 गलत है क्योंकि जातक कथाएँ सुत्त पिटक के खुद्दक निकाय का हिस्सा हैं, विनय पिटक का नहीं। कथन 3 सही है क्योंकि दीपवंश और महावंश श्रीलंका में बौद्ध धर्म के इतिहास पर प्रकाश डालते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Four Noble Truths (Arya Satyani) of Buddhism:\n1. The second truth, Dukkha Samudaya, attributes the origin of suffering primarily to Tanha (craving or desire).\n2. The fourth truth, Dukkha Nirodha Gamini Patipada, is the path leading to the cessation of suffering, which is the Noble Eightfold Path.\n3. The Buddha taught that suffering is absolute, eternal, and cannot be extinguished under any circumstances.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because suffering arises due to attachment and craving (Tanha). Statement 2 is correct because the fourth truth describes the Eightfold Path as the way to end suffering. Statement 3 is incorrect because the third truth (Dukkha Nirodha) states that suffering can be completely extinguished by eliminating craving."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म के चार आर्य सत्यों (आर्य सत्यानी) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. दूसरा सत्य, 'दुःख समुदाय', दुःख की उत्पत्ति का मुख्य कारण 'तन्हा' (तृष्णा या इच्छा) को मानता है।\n2. चौथा सत्य, 'दुःख निरोध गामिनी प्रतिपदा', दुःख की समाप्ति की ओर ले जाने वाला मार्ग है, जो अष्टांगिक मार्ग है।\n3. बुद्ध ने सिखाया कि दुःख पूर्ण और शाश्वत है और इसे किसी भी परिस्थिति में समाप्त नहीं किया जा सकता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि दुःख की उत्पत्ति तृष्णा (तन्हा) से होती है। कथन 2 सही है क्योंकि दुःख निवारण का मार्ग अष्टांगिक मार्ग ही है। कथन 3 गलत है क्योंकि तृतीय आर्य सत्य (दुःख निरोध) स्पष्ट करता है कि तृष्णा का विनाश करके दुःख का सर्वथा अंत किया जा सकता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the epistemology (sources of knowledge) of the Buddhist Pramana school:\n1. Buddhist logicians like Dinnaga and Dharmakirti formulated the system of Buddhist epistemology.\n2. The school accepts only two pramanas: Pratyaksha (perception) and Anumana (inference).\n3. It rejects Shabda Pramana (verbal testimony of scriptures) as an independent source of valid knowledge.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct as Dinnaga and Dharmakirti are the foundational scholars of Buddhist Pramanavada. Statement 2 is correct as they recognized only direct perception (Pratyaksha) and inference (Anumana) as valid means of knowledge. Statement 3 is correct as they rejected verbal testimony (Shabda) as an independent source, subsuming it under inference."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध प्रमाण संप्रदाय की ज्ञानमीमांसा (ज्ञान के स्रोत) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. दिङ्नाग और धर्मकीर्ति जैसे बौद्ध तर्कशास्त्रियों ने बौद्ध ज्ञानमीमांसा प्रणाली को सूत्रबद्ध किया था।\n2. यह संप्रदाय केवल दो प्रमाणों को स्वीकार करता है: प्रत्यक्ष और अनुमान।\n3. यह 'शब्द प्रमाण' (ग्रंथों की मौखिक गवाही) को ज्ञान के एक स्वतंत्र स्रोत के रूप में खारिज करता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि दिङ्नाग और धर्मकीर्ति बौद्ध प्रमाणशास्त्र के स्तंभ हैं। कथन 2 सही है क्योंकि इन्होंने केवल प्रत्यक्ष और अनुमान को वैध प्रमाण माना। कथन 3 सही है क्योंकि बौद्ध न्याय में शब्द प्रमाण को स्वतंत्र प्रमाण नहीं माना गया है, बल्कि उसे अनुमान के अंतर्गत ही शामिल किया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the social teachings of Gautama Buddha:\n1. Buddha explicitly rejected the divine origin of the varna (caste) system as described in the Purusha Sukta.\n2. In the Agganna Sutta of the Digha Nikaya, he explained that social classes arose due to historical, social, and moral evolution rather than divine creation.\n3. The Sangha admitted members of all castes, including Shudras and untouchables, treating everyone as equals upon ordination.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct as Buddha criticized the Brahminical claim of divine hierarchy. Statement 2 is correct as the Agganna Sutta contains an evolutionary theory of society and kingship. Statement 3 is correct as the Sangha was open to all castes and once a person entered the Sangha, their past caste identity was discarded, compared to rivers losing their identity in the ocean."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गौतम बुद्ध की सामाजिक शिक्षाओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. बुद्ध ने पुरुष सूक्त में वर्णित वर्ण (जाति) व्यवस्था की दैवीय उत्पत्ति को स्पष्ट रूप से खारिज कर दिया था।\n2. दीघ निकाय के 'अग्गञ्ञ सुत्त' में उन्होंने स्पष्ट किया कि सामाजिक वर्गों का उदय दैवीय रचना के बजाय ऐतिहासिक, सामाजिक और नैतिक विकास के कारण हुआ था।\n3. संघ में शूद्रों और अछूतों सहित सभी जातियों के सदस्यों को प्रवेश दिया गया था, और दीक्षा के बाद सभी के साथ समान व्यवहार किया जाता था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि बुद्ध ने ब्राह्मणवादी वर्ण सोपानक्रम का खंडन किया था। कथन 2 सही है क्योंकि अग्गञ्ञ सुत्त में समाज और राज्य की उत्पत्ति का विकासवादी सिद्धांत दिया गया है। कथन 3 सही है क्योंकि संघ के द्वार सभी जातियों के लिए खुले थे और संघ में प्रवेश के बाद पूर्व की जातिगत पहचान उसी प्रकार समाप्त हो जाती थी जैसे नदियां समुद्र में मिलकर विलीन हो जाती हैं।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the concept of Pratityasamutpada (Dependent Origination) in Buddhist philosophy and highlight its significance. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Pratityasamutpada is the core Buddhist doctrine of Dependent Origination, stating that all phenomena arise in dependence on causes and conditions. Represented by the twelve-linked chain (Dvadasa Nidana), it asserts that nothing has an independent, permanent self.\n\n**Significance:**\n* **Explains Suffering:** Shows how ignorance (Avidya) leads to suffering (Dukkha) and how its cessation leads to Nirvana.\n* **Philosophical Middle Path:** Rejects the extremes of eternalism (Sassatavada) and annihilationism (Ucchedavada)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध दर्शन में प्रतीत्यसमुत्पाद (कारण-कार्य सिद्धांत) की अवधारणा को स्पष्ट कीजिए और इसके महत्व पर प्रकाश डालिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "प्रतीत्यसमुत्पाद बौद्ध दर्शन का केंद्रीय सिद्धांत है, जो मानता है कि सभी घटनाएं कारणों और परिस्थितियों पर निर्भर होकर उत्पन्न होती हैं। द्वादश निदान (12 कड़ियों) द्वारा दर्शाया गया यह सिद्धांत स्पष्ट करता है कि किसी भी वस्तु का स्वतंत्र अस्तित्व नहीं है।\n\n**महत्व:**\n* **दुःख का कारण:** यह दर्शाता है कि अज्ञान (अविद्या) दुःख का कारण है और इसके निवारण से निर्वाण संभव है।\n* **दार्शनिक मध्यम मार्ग:** यह शाश्वतवाद और उच्छेदवाद (अस्तित्वहीनता) दोनों अतिवादी विचारों को खारिज करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare the philosophical differences between the Hinayana and Mahayana sects of Buddhism. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Buddhism split into Hinayana and Mahayana during the Fourth Buddhist Council, representing a transition from early orthodox monasticism to a popular devotional faith. The key philosophical differences between them are: \n\n| Feature | Hinayana (Theravada) | Mahayana |\n| :--- | :--- | :--- |\n| **Concept of Buddha** | Viewed as a historical human teacher and guide who attained Nirvana. | Deified as an eternal, transcendental supreme being (Lokottara). |\n| **Ultimate Goal** | Attainment of Arhatship (individual liberation from suffering). | Attainment of Bodhisattvahood (liberation of all sentient beings). |\n| **Method & Practice** | Monastic discipline, self-effort, and meditation. | Devotion, grace of Bodhisattvas, and compassion (Karuna). |\n| **Scriptural Language** | Pali (accessible to common folk of early era). | Sanskrit (scholarly and philosophical medium). |\n| **Core Philosophy** | Focus on impermanence (Anicca) and non-self (Anatta). | Elaborated Shunyata (emptiness) and Vijnanavada (mind-only). |\n\nIn conclusion, Hinayana maintains the conservative, self-reliant monastic path of early Buddhism, whereas Mahayana transformed Buddhism into a universal, ritual-friendly religion by introducing Bodhisattva deities and savior-oriented worship."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म के हीनयान और महायान संप्रदायों के बीच दार्शनिक अंतरों की तुलना कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "चतुर्थ बौद्ध संगीति के दौरान बौद्ध धर्म का विभाजन हीनयान और महायान में हो गया, जो रूढ़िवादी भिक्षु जीवन से भक्तिपरक धर्म में परिवर्तन को दर्शाता है। दोनों के बीच प्रमुख दार्शनिक अंतर निम्नलिखित हैं:\n\n| लक्षण | हीनयान (थेरवाद) | महायान |\n| :--- | :--- | :--- |\n| **बुद्ध की अवधारणा** | बुद्ध को एक ऐतिहासिक मानव और मार्गदर्शक के रूप में देखा जाता है। | बुद्ध को एक शाश्वत, अलौकिक और सर्वोच्च देवता (लोकोत्तर) माना जाता है। |\n| **परम लक्ष्य** | अर्हत् पद की प्राप्ति (दुःख से व्यक्तिगत मुक्ति)। | बोधिसत्व पद की प्राप्ति (सभी संवेदनशील जीवों की मुक्ति)। |\n| **साधना पद्धति** | भिक्षु अनुशासन, आत्म-प्रयास और ध्यान पर बल। | भक्ति, बोधिसत्वों की कृपा और करुणा पर बल। |\n| **ग्रंथों की भाषा** | पालि भाषा (प्रारंभिक दौर की लोकभाषा)। | संस्कृत भाषा (दार्शनिक और शास्त्रीय माध्यम)। |\n| **दार्शनिक आधार** | अनित्यता (अनिच्च) और अनात्म (अनत्ता) पर ध्यान। | शून्यता (माध्यमक) और विज्ञानवाद (योगाचार) पर विशेष बल। |\n\nनिष्कर्षतः, हीनयान प्रारंभिक बौद्ध धर्म के रूढ़िवादी और आत्मनिर्भर भिक्षु मार्ग को बनाए रखता है, जबकि महायान ने बोधिसत्व देवताओं और भक्ति पूजा को लाकर इसे एक सार्वभौमिक और उपासना-अनुकूल धर्म में बदल दिया।"
+    }
+  ]
+}

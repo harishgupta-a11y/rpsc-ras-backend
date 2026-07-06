@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Who among the following Buddhist monks presided over the First Buddhist Council held at Rajgriha immediately after the Mahaparinirvana of Gautama Buddha?",
+      "option_a": "Upali",
+      "option_b": "Mahakashyapa",
+      "option_c": "Ananda",
+      "option_d": "Moggaliputta Tissa",
+      "correct": "B",
+      "explanation": "Correct option: B. The First Buddhist Council, held at the Saptaparni cave in Rajgriha under the patronage of King Ajatashatru, was presided over by the senior monk Mahakashyapa to compile the Buddha's teachings."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गौतम बुद्ध के महापरिनिर्वाण के तुरंत बाद राजगृह में आयोजित प्रथम बौद्ध संगीति की अध्यक्षता निम्नलिखित में से किस बौद्ध भिक्षु ने की थी?",
+      "option_a": "उपालि",
+      "option_b": "महाकश्यप",
+      "option_c": "आनंद",
+      "option_d": "मोग्गलिपुत्त तिस्स",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. राजा अजातशत्रु के संरक्षण में राजगृह की सप्तपर्णी गुफा में आयोजित प्रथम बौद्ध संगीति की अध्यक्षता वरिष्ठ भिक्षु महाकश्यप द्वारा की गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. During which of the following Buddhist Councils did the first major schism occur, splitting the Buddhist Sangha into the Sthaviravadins (Theravadins) and the Mahasanghikas?",
+      "option_a": "First Buddhist Council",
+      "option_b": "Second Buddhist Council",
+      "option_c": "Third Buddhist Council",
+      "option_d": "Fourth Buddhist Council",
+      "correct": "B",
+      "explanation": "Correct option: B. The Second Buddhist Council held at Vaishali, approximately 100 years after the Buddha's Parinirvana under King Kalashoka, witnessed the first major schism due to disputes over monastic discipline (the ten practices)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस बौद्ध संगीति के दौरान पहला बड़ा विभाजन हुआ, जिसने बौद्ध संघ को स्थविरवादी (थेरवादी) और महासांघिक में विभाजित कर दिया?",
+      "option_a": "प्रथम बौद्ध संगीति",
+      "option_b": "द्वितीय बौद्ध संगीति",
+      "option_c": "तृतीय बौद्ध संगीति",
+      "option_d": "चतुर्थ बौद्ध संगीति",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. राजा कालाशोक के अधीन बुद्ध के परिनिर्वाण के लगभग 100 वर्ष बाद वैशाली में आयोजित द्वितीय बौद्ध संगीति में भिक्षु अनुशासन (दस नियम) से जुड़े विवादों के कारण पहला बड़ा विभाजन हुआ।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Maurya emperor patronized the Third Buddhist Council held at Pataliputra, which aimed to purify the Sangha from heretical sects?",
+      "option_a": "Chandragupta Maurya",
+      "option_b": "Bindusara",
+      "option_c": "Ashoka",
+      "option_d": "Dasharatha Maurya",
+      "correct": "C",
+      "explanation": "Correct option: C. Emperor Ashoka patronized the Third Buddhist Council in Pataliputra around 250 BCE, presided over by Moggaliputta Tissa, to resolve sectarian disputes and establish Buddhist orthodoxy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पाटलिपुत्र में आयोजित तृतीय बौद्ध संगीति को किस मौर्य सम्राट ने संरक्षण प्रदान किया था, जिसका उद्देश्य संघ को पाखंडी संप्रदायों से मुक्त करके शुद्ध करना था?",
+      "option_a": "चन्द्रगुप्त मौर्य",
+      "option_b": "बिन्दुसार",
+      "option_c": "अशोक",
+      "option_d": "दशरथ मौर्य",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सम्राट अशोक ने लगभग 250 ईसा पूर्व पाटलिपुत्र में तृतीय बौद्ध संगीति को संरक्षण दिया, जिसकी अध्यक्षता मोग्गलिपुत्त तिस्स ने की थी ताकि संप्रदायगत विवादों को सुलझाया जा सके और बौद्ध रूढ़िवादिता को स्थापित किया जा सके।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the president of the Fourth Buddhist Council held in Kashmir under the patronage of the Kushana King Kanishka?",
+      "option_a": "Vasumitra",
+      "option_b": "Ashvaghosa",
+      "option_c": "Nagarjuna",
+      "option_d": "Parsva",
+      "correct": "A",
+      "explanation": "Correct option: A. Vasumitra presided over the Fourth Buddhist Council held at Kundalavana in Kashmir, while the celebrated scholar Ashvaghosa served as the vice-president."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण राजा कनिष्क के संरक्षण में कश्मीर में आयोजित चौथी बौद्ध संगीति के अध्यक्ष कौन थे?",
+      "option_a": "वसुमित्र",
+      "option_b": "अश्वघोष",
+      "option_c": "नागार्जुन",
+      "option_d": "पार्श्व",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. कश्मीर के कुंडलवन में आयोजित चौथी बौद्ध संगीति की अध्यक्षता वसुमित्र ने की थी, जबकि प्रसिद्ध विद्वान अश्वघोष ने उपाध्यक्ष के रूप में कार्य किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which close disciple of Gautama Buddha recited the Sutta Pitaka (the collection of Buddha's sermons and discourses) during the First Buddhist Council?",
+      "option_a": "Upali",
+      "option_b": "Ananda",
+      "option_c": "Sariputta",
+      "option_d": "Moggallana",
+      "correct": "B",
+      "explanation": "Correct option: B. During the First Buddhist Council, Ananda, the Buddha's personal attendant, recited the Sutta Pitaka, while Upali recited the Vinaya Pitaka."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गौतम बुद्ध के किस निकटतम शिष्य ने प्रथम बौद्ध संगीति के दौरान सुत्त पिटक (बुद्ध के उपदेशों और प्रवचनों का संग्रह) का पाठ किया था?",
+      "option_a": "उपालि",
+      "option_b": "आनंद",
+      "option_c": "सारिपुत्र",
+      "option_d": "मोग्गल्लान",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. प्रथम बौद्ध संगीति के दौरान, बुद्ध के व्यक्तिगत सेवक आनंद ने सुत्त पिटक का पाठ किया था, जबकि उपालि ने विनय पिटक का पाठ किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who recited the Vinaya Pitaka, representing the rules of monastic discipline, at the First Buddhist Council?",
+      "option_a": "Ananda",
+      "option_b": "Mahakashyapa",
+      "option_c": "Upali",
+      "option_d": "Moggaliputta Tissa",
+      "correct": "C",
+      "explanation": "Correct option: C. Upali, who was renowned for his mastery of monastic rules, recited the Vinaya Pitaka at the First Buddhist Council at Rajgriha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रथम बौद्ध संगीति में भिक्षु अनुशासन के नियमों का प्रतिनिधित्व करने वाले विनय पिटक का पाठ किसने किया था?",
+      "option_a": "आनंद",
+      "option_b": "महाकश्यप",
+      "option_c": "उपालि",
+      "option_d": "मोग्गलिपुत्त तिस्स",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. भिक्षु नियमों में महारत के लिए प्रसिद्ध उपालि ने राजगृह में आयोजित प्रथम बौद्ध संगीति में विनय पिटक का पाठ किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which of the following Buddhist Councils was the third section of the Tripitaka, the Abhidhamma Pitaka (dealing with Buddhist philosophy), compiled and added?",
+      "option_a": "First Buddhist Council",
+      "option_b": "Second Buddhist Council",
+      "option_c": "Third Buddhist Council",
+      "option_d": "Fourth Buddhist Council",
+      "correct": "C",
+      "explanation": "Correct option: C. The Abhidhamma Pitaka, which analyzes Buddhist teachings philosophically, was compiled during the Third Buddhist Council held at Pataliputra under Ashoka's patronage."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस बौद्ध संगीति में त्रिपिटक के तीसरे भाग, अभिधम्म पिटक (जो बौद्ध दर्शन से संबंधित है) का संकलन किया गया और जोड़ा गया?",
+      "option_a": "प्रथम बौद्ध संगीति",
+      "option_b": "द्वितीय बौद्ध संगीति",
+      "option_c": "तृतीय बौद्ध संगीति",
+      "option_d": "चतुर्थ बौद्ध संगीति",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. बौद्ध उपदेशों का दार्शनिक विश्लेषण करने वाले अभिधम्म पिटक का संकलन अशोक के संरक्षण में पाटलिपुत्र में आयोजित तृतीय बौद्ध संगीति के दौरान किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Mahasanghika sect, which emerged during the Second Buddhist Council, was characterized by which of the following beliefs?",
+      "option_a": "Strict adherence to original Pali rules without modifications",
+      "option_b": "Deification of the Buddha and the concept of supramundane (Lokottara) Buddhas",
+      "option_c": "Total rejection of the concept of rebirth",
+      "option_d": "Opposition to the concept of Bodhisattvas",
+      "correct": "B",
+      "explanation": "Correct option: B. The Mahasanghikas proposed that the Buddha was a supramundane (Lokottara) figure and laid the ideological foundation for the deification of Buddha, which later evolved into Mahayana Buddhism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्वितीय बौद्ध संगीति के दौरान उत्पन्न हुए महासांघिक संप्रदाय की विशेषता निम्नलिखित में से कौन सी धारणा थी?",
+      "option_a": "बिना किसी बदलाव के मूल पालि नियमों का कड़ाई से पालन",
+      "option_b": "बुद्ध का देवत्वकरण और लोकोत्तर (अलौकिक) बुद्ध की अवधारणा",
+      "option_c": "पुनर्जन्म की अवधारणा का पूर्ण खंडन",
+      "option_d": "बोधिसत्व की अवधारणा का विरोध",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. महासांघिकों ने प्रस्ताव दिया कि बुद्ध एक लोकोत्तर (अलौकिक) व्यक्तित्व थे और उन्होंने बुद्ध के देवत्वकरण की वैचारिक नींव रखी, जो बाद में महायान बौद्ध धर्म में विकसित हुई।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which language was primarily adopted by Mahayana Buddhism for its scriptures and philosophical treatises, departing from the Pali language used by early Hinayana school?",
+      "option_a": "Ardhamagadhi Prakrit",
+      "option_b": "Sanskrit",
+      "option_c": "Sauraseni",
+      "option_d": "Apabhramsa",
+      "correct": "B",
+      "explanation": "Correct option: B. While Hinayana (and Theravada) preserved scriptures in Pali, Mahayana thinkers like Nagarjuna and Vasubandhu extensively used Sanskrit for their philosophical texts."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रारंभिक हीनयान मत द्वारा उपयोग की जाने वाली पालि भाषा से इतर, महायान बौद्ध धर्म ने अपने ग्रंथों और दार्शनिक ग्रंथों के लिए मुख्य रूप से किस भाषा को अपनाया?",
+      "option_a": "अर्धमागधी प्राकृत",
+      "option_b": "संस्कृत",
+      "option_c": "शौरसेनी",
+      "option_d": "अपभ्रंश",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. जहाँ हीनयान (और थेरवाद) ने पालि में ग्रंथों को सुरक्षित रखा, वहीं नागार्जुन और वसुबन्धु जैसे महायान विचारकों ने अपने दार्शनिक ग्रंथों के लिए बड़े पैमाने पर संस्कृत का उपयोग किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who is the celebrated founder of the Madhyamika (Shunyavada) school of Mahayana Buddhism, who proposed the theory of relativity of all phenomena?",
+      "option_a": "Asanga",
+      "option_b": "Vasubandhu",
+      "option_c": "Nagarjuna",
+      "option_d": "Dignaga",
+      "correct": "C",
+      "explanation": "Correct option: C. Nagarjuna (c. 150–250 CE) founded the Madhyamika school, emphasizing Shunyata (emptiness/dependent origination), arguing that all things lack an independent essence."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म के माध्यमिक (शून्यवाद) संप्रदाय के प्रसिद्ध संस्थापक कौन हैं, जिन्होंने सभी घटनाओं की सापेक्षता के सिद्धांत का प्रस्ताव दिया था?",
+      "option_a": "असंग",
+      "option_b": "वसुबन्धु",
+      "option_c": "नागार्जुन",
+      "option_d": "दिङ्नाग",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. नागार्जुन (लगभग 150–250 ईस्वी) ने माध्यमिक संप्रदाय की स्थापना की, जिन्होंने शून्यता (प्रतीत्यसमुत्पाद) पर बल दिया और तर्क दिया कि सभी चीजें स्वतंत्र अस्तित्व से रहित हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Yogacara (or Vijnanavada) school of Mahayana Buddhism, which asserts that only consciousness is real, was systematically founded by which brothers in the 4th-5th century CE?",
+      "option_a": "Nagarjuna and Aryadeva",
+      "option_b": "Asanga and Vasubandhu",
+      "option_c": "Buddhaghosa and Buddhadatta",
+      "option_d": "Dharmakirti and Santaraksita",
+      "correct": "B",
+      "explanation": "Correct option: B. The brothers Asanga and Vasubandhu from Gandhara founded and systematized the Yogacara (Vijnanavada) school, emphasizing that external objects are mere projections of mind/consciousness."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म का योगाचार (या विज्ञानवाद) संप्रदाय, जो यह दावा करता है कि केवल चेतना ही वास्तविक है, की व्यवस्थित स्थापना चौथी-पांचवीं शताब्दी ईस्वी में किन भाइयों द्वारा की गई थी?",
+      "option_a": "नागार्जुन और आर्यदेव",
+      "option_b": "असंग और वसुबन्धु",
+      "option_c": "बुद्धघोष और बुद्धदत्त",
+      "option_d": "धर्मकीर्ति और शांतरक्षित",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. गांधार के भ्राता द्वय असंग और वसुबन्धु ने योगाचार (विज्ञानवाद) संप्रदाय की स्थापना और इसे व्यवस्थित किया, जिसमें इस बात पर जोर दिया गया कि बाहरी वस्तुएं केवल मन/चेतना का प्रक्षेपण हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following is a primary characteristic of the Theravada school of Buddhism?",
+      "option_a": "Worship of Bodhisattvas as divine saviors",
+      "option_b": "Belief that the historical Buddha was a human teacher who attained Nirvana through self-effort",
+      "option_c": "Adoption of Tantric practices and mantras to gain enlightenment",
+      "option_d": "Rejection of the monastic lifestyle in favor of lay householder life",
+      "correct": "B",
+      "explanation": "Correct option: B. Theravada (Hinayana) views Gautama Buddha as a historical human teacher who reached Nirvana through his own effort, emphasizing individual monastic practice and self-reliance."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सी बौद्ध धर्म के थेरवाद संप्रदाय की प्राथमिक विशेषता है?",
+      "option_a": "दैवीय रक्षकों के रूप में बोधिसत्वों की पूजा",
+      "option_b": "यह विश्वास कि ऐतिहासिक बुद्ध एक मानव शिक्षक थे जिन्होंने आत्म-प्रयास से निर्वाण प्राप्त किया",
+      "option_c": "ज्ञान प्राप्ति के लिए तांत्रिक प्रथाओं और मंत्रों को अपनाना",
+      "option_d": "गृहस्थ जीवन के पक्ष में भिक्षु जीवन शैली को खारिज करना",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. थेरवाद (हीनयान) गौतम बुद्ध को एक ऐतिहासिक मानव शिक्षक मानता है जिन्होंने अपने स्वयं के प्रयास से निर्वाण प्राप्त किया, जो व्यक्तिगत भिक्षु साधना और आत्मनिर्भरता पर बल देता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Sarvastivada (a school of Hinayana) was distinguished by which core philosophical doctrine regarding temporal elements (dharmas)?",
+      "option_a": "Only the present moment exists, past and future are unreal",
+      "option_b": "All things exist in all three times: past, present, and future",
+      "option_c": "Nothing exists at all, everything is illusion",
+      "option_d": "Only consciousness exists, time is a mental construct",
+      "correct": "B",
+      "explanation": "Correct option: B. The name 'Sarvastivada' translates to 'the theory of all exists' (sarvam asti), holding that dharmas (fundamental elements of reality) exist in all three times: past, present, and future."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सर्वास्तिवाद (हीनयान का एक संप्रदाय) को काल तत्वों (धर्मों) के संबंध में किस मूल दार्शनिक सिद्धांत द्वारा अलग पहचान मिली थी?",
+      "option_a": "केवल वर्तमान क्षण का अस्तित्व है, अतीत और भविष्य अवास्तविक हैं",
+      "option_b": "सभी चीजें तीनों कालों (अतीत, वर्तमान और भविष्य) में अस्तित्व रखती हैं",
+      "option_c": "किसी भी चीज का अस्तित्व नहीं है, सब कुछ भ्रम है",
+      "option_d": "केवल चेतना का अस्तित्व है, काल केवल एक मानसिक संरचना है",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'सर्वास्तिवाद' नाम का अर्थ 'सब कुछ मौजूद है' (सर्वम् अस्ति) है, जिसके अनुसार धर्म (वास्तविकता के मूल तत्व) तीनों कालों—अतीत, वर्तमान और भविष्य में मौजूद हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following ancient Indian cities hosted the Second Buddhist Council under the patronage of King Kalashoka of the Shishunaga dynasty?",
+      "option_a": "Rajgriha",
+      "option_b": "Vaishali",
+      "option_c": "Pataliputra",
+      "option_d": "Kundalavana",
+      "correct": "B",
+      "explanation": "Correct option: B. The Second Buddhist Council was held at Vaishali in 383 BCE, 100 years after Buddha's death, to address disputes regarding relaxation of monastic rules."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस प्राचीन भारतीय शहर ने शिशुनाग वंश के राजा कालाशोक के संरक्षण में द्वितीय बौद्ध संगीति की मेजबानी की थी?",
+      "option_a": "राजगृह",
+      "option_b": "वैशाली",
+      "option_c": "पाटलिपुत्र",
+      "option_d": "कुण्डलवन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. द्वितीय बौद्ध संगीति 383 ईसा पूर्व में वैशाली में बुद्ध की मृत्यु के 100 वर्ष बाद आयोजित की गई थी, जिसमें भिक्षु नियमों में ढील से जुड़े विवादों को सुलझाया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Sautrantika school, which branched off from the Sarvastivadins, rejected the Abhidhamma commentaries and claimed authority solely based on which texts?",
+      "option_a": "Vinaya Pitaka",
+      "option_b": "Sutta Pitaka",
+      "option_c": "Jataka tales",
+      "option_d": "Mahayana Sutras",
+      "correct": "B",
+      "explanation": "Correct option: B. The Sautrantikas derived their name from 'Sutra' or 'Sutta' (specifically the Sutta Pitaka), relying entirely on the discourses of the Buddha rather than Abhidhamma treatises."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सौत्रान्तिक संप्रदाय, जो सर्वास्तिवादियों से अलग हुआ था, ने अभिधम्म व्याख्याओं को खारिज कर दिया और केवल किन ग्रंथों के आधार पर अधिकार का दावा किया?",
+      "option_a": "विनय पिटक",
+      "option_b": "सुत्त पिटक",
+      "option_c": "जातक कथाएँ",
+      "option_d": "महायान सूत्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सौत्रान्तिकों ने अपना नाम 'सूत्र' या 'सुत्त' (विशेष रूप से सुत्त पिटक) से प्राप्त किया, जो अभिधम्म ग्रंथों के बजाय पूरी तरह से बुद्ध के मूल उपदेशों पर निर्भर थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Mahayana Buddhism, what is the ultimate spiritual goal of a practitioner, contrasting with the Hinayana goal of attaining personal Arhatship?",
+      "option_a": "Attaining Nirvana and leaving the world immediately",
+      "option_b": "Becoming a Bodhisattva to help all sentient beings attain liberation",
+      "option_c": "Achieving absolute power and control over nature",
+      "option_d": "Ascending to the heaven of Indra",
+      "correct": "B",
+      "explanation": "Correct option: B. Mahayana emphasizes the Bodhisattva path, where the practitioner delays their own entry into final Nirvana out of compassion to help liberate all suffering beings, unlike Hinayana's focus on individual Arhatship."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म में, व्यक्तिगत अर्हत्त्व प्राप्त करने के हीनयान लक्ष्य के विपरीत, एक साधक का अंतिम आध्यात्मिक लक्ष्य क्या है?",
+      "option_a": "निर्वाण प्राप्त करना और तुरंत संसार छोड़ देना",
+      "option_b": "सभी संवेदनशील जीवों को मुक्ति दिलाने में मदद करने के लिए बोधिसत्व बनना",
+      "option_c": "प्रकृति पर पूर्ण शक्ति और नियंत्रण प्राप्त करना",
+      "option_d": "इंद्र के स्वर्ग में जाना",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. महायान बोधिसत्व मार्ग पर जोर देता है, जहाँ साधक करुणा के कारण सभी पीड़ित प्राणियों की मुक्ति में मदद करने के लिए अपने अंतिम निर्वाण प्रवेश में देरी करता है, जबकि हीनयान व्यक्तिगत अर्हत्त्व पर केंद्रित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who led the orthodox Sthaviravada faction at the Second Buddhist Council, opposing the liberal modifications proposed by the Mahasanghikas?",
+      "option_a": "Mahadeva",
+      "option_b": "Yasa",
+      "option_c": "Sabakami",
+      "option_d": "Moggaliputta Tissa",
+      "correct": "C",
+      "explanation": "Correct option: C. Sabakami (or Sarvakami) presided over the Second Buddhist Council and supported the orthodox Sthaviravadins against the innovations of the eastern monks."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्वितीय बौद्ध संगीति में रूढ़िवादी स्थविरवाद धड़े का नेतृत्व किसने किया था, जिन्होंने महासांघिकों द्वारा प्रस्तावित उदारवादी संशोधनों का विरोध किया था?",
+      "option_a": "महादेव",
+      "option_b": "यस",
+      "option_c": "सबकामी (सर्वकामी)",
+      "option_d": "मोग्गलिपुत्त तिस्स",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सबकामी (या सर्वकामी) ने द्वितीय बौद्ध संगीति की अध्यक्षता की और पूर्वी भिक्षुओं के नवाचारों के खिलाफ रूढ़िवादी स्थविरवादियों का समर्थन किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Vaibhasika school, a branch of Sarvastivada Buddhism, was based primarily on which famous compilation formulated during the Fourth Buddhist Council in Kashmir?",
+      "option_a": "Mahavibhasha Sastra",
+      "option_b": "Milinda Panha",
+      "option_c": "Lalitavistara",
+      "option_d": "Visuddhimagga",
+      "correct": "A",
+      "explanation": "Correct option: A. The Vaibhasika school derived its name and teachings from the Mahavibhasha Sastra, a massive compendium of Abhidharma commentary compiled during the Fourth Buddhist Council."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सर्वास्तिवाद बौद्ध धर्म की एक शाखा, वैभाषिक संप्रदाय, मुख्य रूप से कश्मीर में चौथी बौद्ध संगीति के दौरान तैयार किए गए किस प्रसिद्ध संकलन पर आधारित था?",
+      "option_a": "महाविभाषा शास्त्र",
+      "option_b": "मिलिन्दपञ्ह",
+      "option_c": "ललितविस्तर",
+      "option_d": "विसुद्धिमग्ग",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. वैभाषिक संप्रदाय ने अपना नाम और उपदेश महाविभाषा शास्त्र से प्राप्त किए, जो चौथी बौद्ध संगीति के दौरान संकलित अभिधर्म टीका का एक विशाल संग्रह है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which specific cave near Rajgriha was the First Buddhist Council convened shortly after Buddha's death?",
+      "option_a": "Barabar Caves",
+      "option_b": "Saptaparni Cave",
+      "option_c": "Indrasala Cave",
+      "option_d": "Lomas Rishi Cave",
+      "correct": "B",
+      "explanation": "Correct option: B. The First Buddhist Council was convened in the Saptaparni Cave (Sattapanni Guha) near Rajgriha (modern Rajgir in Bihar) under Ajatashatru's patronage."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बुद्ध की मृत्यु के तुरंत बाद राजगृह के पास किस विशिष्ट गुफा में प्रथम बौद्ध संगीति का आयोजन किया गया था?",
+      "option_a": "बराबर गुफाएँ",
+      "option_b": "सप्तपर्णी गुफा",
+      "option_c": "इंद्रशाल गुफा",
+      "option_d": "लोमश ऋषि गुफा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. प्रथम बौद्ध संगीति का आयोजन राजगृह (आधुनिक बिहार में राजगीर) के पास अजातशत्रु के संरक्षण में सप्तपर्णी गुफा में किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which famous text, refuting the heretical views of various non-Theravadin sects, was composed by Moggaliputta Tissa during the Third Buddhist Council?",
+      "option_a": "Kathavatthu",
+      "option_b": "Puggalapannatti",
+      "option_c": "Dhammasangani",
+      "option_d": "Milinda Panha",
+      "correct": "A",
+      "explanation": "Correct option: A. Moggaliputta Tissa composed the Kathavatthu ('Points of Controversy') during the Third Buddhist Council to systematically refute the unorthodox assertions of competing schools."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तृतीय बौद्ध संगीति के दौरान मोग्गलिपुत्त तिस्स ने विभिन्न गैर-थेरवादी संप्रदायों के विचारों का खंडन करने वाले किस प्रसिद्ध ग्रंथ की रचना की थी?",
+      "option_a": "कथावत्थु",
+      "option_b": "पुग्गलपञ्ञत्ति",
+      "option_c": "धम्मसंगणि",
+      "option_d": "मिलिन्दपञ्ह",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मोग्गलिपुत्त तिस्स ने प्रतिद्वंद्वी बौद्ध संप्रदायों के गैर-रूढ़िवादी दावों का व्यवस्थित रूप से खंडन करने के लिए तृतीय बौद्ध संगीति के दौरान कथावत्थु ('विवाद के बिंदु') की रचना की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which philosophical treatise, written by Nagarjuna, serves as the foundational text for the Madhyamika school of Buddhism?",
+      "option_a": "Mulamadhyamakakarika",
+      "option_b": "Yogacarabhumi Sastra",
+      "option_c": "Abhidharmakosa",
+      "option_d": "Bodhicaryavatara",
+      "correct": "A",
+      "explanation": "Correct option: A. The Mulamadhyamakakarika ('Fundamental Verses on the Middle Way') is Nagarjuna's masterwork that establishes the philosophy of emptiness (Shunyata)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागार्जुन द्वारा लिखित कौन सा दार्शनिक ग्रंथ बौद्ध धर्म के माध्यमिक संप्रदाय के आधारभूत ग्रंथ के रूप में कार्य करता है?",
+      "option_a": "मूलमाध्यमिककारिका",
+      "option_b": "योगाचारभूमि शास्त्र",
+      "option_c": "अभिधर्मकोश",
+      "option_d": "बोधिसत्त्वचर्यावतार",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मूलमाध्यमिककारिका ('मध्यम मार्ग पर मौलिक श्लोक') नागार्जुन की उत्कृष्ट कृति है जो शून्यता के दर्शन को स्थापित करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Lokottaravada sect, which held that the Buddha is transcendental and supramundane, was a sub-branch of which major early Buddhist school?",
+      "option_a": "Sthaviravada",
+      "option_b": "Sarvastivada",
+      "option_c": "Mahasanghika",
+      "option_d": "Sautrantika",
+      "correct": "C",
+      "explanation": "Correct option: C. The Lokottaravadins were a prominent sub-branch of the Mahasanghikas. They argued that the historical Gautama Buddha was a transformation body of a supramundane Buddha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. लोकोत्तरवाद संप्रदाय, जिसका यह मानना था कि बुद्ध अलौकिक और लोकातीत हैं, किस प्रमुख प्रारंभिक बौद्ध मत की एक उप-शाखा थी?",
+      "option_a": "स्थविरवाद",
+      "option_b": "सर्वास्तिवाद",
+      "option_c": "महासांघिक",
+      "option_d": "सौत्रान्तिक",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. लोकोत्तरवादी महासांघिकों की एक प्रमुख उप-शाखा थे। उन्होंने तर्क दिया कि ऐतिहासिक गौतम बुद्ध अलौकिक बुद्ध के केवल एक रूपांतरित शरीर थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following terms is often used synonymously with Hinayana Buddhism to represent the surviving orthodox branch of early Buddhism?",
+      "option_a": "Theravada",
+      "option_b": "Vajrayana",
+      "option_c": "Zen",
+      "option_d": "Pure Land",
+      "correct": "A",
+      "explanation": "Correct option: A. Theravada (the 'School of the Elders') is the only surviving school of the early Hinayana branches, which continues to be practiced widely in Sri Lanka and Southeast Asia."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रारंभिक बौद्ध धर्म की बची हुई रूढ़िवादी शाखा का प्रतिनिधित्व करने के लिए निम्नलिखित में से किस शब्द का उपयोग अक्सर हीनयान बौद्ध धर्म के पर्याय के रूप में किया जाता है?",
+      "option_a": "थेरवाद",
+      "option_b": "वज्रयान",
+      "option_c": "ज़ेन",
+      "option_d": "शुद्ध भूमि (प्योर लैंड)",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. थेरवाद ('स्थविरों का मत') प्रारंभिक हीनयान शाखाओं का एकमात्र जीवित संप्रदाय है, जिसका अभ्यास श्रीलंका और दक्षिण-पूर्वी एशिया में व्यापक रूप से जारी है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to the Trikaya (Three Bodies) doctrine of Mahayana Buddhism, what is the term for the absolute, cosmic body of the Buddha representing ultimate reality?",
+      "option_a": "Nirmanakaya",
+      "option_b": "Sambhogakaya",
+      "option_c": "Dharmakaya",
+      "option_d": "Rupakaya",
+      "correct": "C",
+      "explanation": "Correct option: C. The Trikaya doctrine consists of Dharmakaya (truth body/ultimate reality), Sambhogakaya (enjoyment/bliss body), and Nirmanakaya (transformation/historical body)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म के त्रिकाय (तीन शरीरों) के सिद्धांत के अनुसार, बुद्ध के परम सत्य का प्रतिनिधित्व करने वाले निरपेक्ष, ब्रह्मांडीय शरीर के लिए क्या शब्द है?",
+      "option_a": "निर्माणकाय",
+      "option_b": "संभोगकाय",
+      "option_c": "धर्मकाय",
+      "option_d": "रूपकाय",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. त्रिकाय सिद्धांत में धर्मकाय (सत्य शरीर/परम सत्य), संभोगकाय (आनंद शरीर), और निर्माणकाय (रूपांतरण/ऐतिहासिक शरीर) शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under which ruler's court did the famous Buddhist writer Ashvaghosa (author of Buddhacarita) flourish and participate in the Fourth Buddhist Council?",
+      "option_a": "Ashoka",
+      "option_b": "Kanishka",
+      "option_c": "Harsha",
+      "option_d": "Milinda",
+      "correct": "B",
+      "explanation": "Correct option: B. Ashvaghosa was patronized by Kushana King Kanishka in Purushapura and played a leading role as vice-president in the Fourth Buddhist Council in Kashmir."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस शासक के दरबार में प्रसिद्ध बौद्ध लेखक अश्वघोष (बुद्धचरित के लेखक) फले-फूले और चौथी बौद्ध संगीति में भाग लिया था?",
+      "option_a": "अशोक",
+      "option_b": "कनिष्क",
+      "option_c": "हर्ष",
+      "option_d": "मिलिन्द",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. अश्वघोष को पुरुषपुर में कुषाण राजा कनिष्क का संरक्षण प्राप्त था और उन्होंने कश्मीर में चौथी बौद्ध संगीति में उपाध्यक्ष के रूप में अग्रणी भूमिका निभाई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The First Buddhist Council was convened at Rajgriha under the royal patronage of King Ajatashatru.\nReason (R): Ajatashatru wanted to preserve and codify the teachings of Gautama Buddha immediately after the Mahaparinirvana to prevent disputes over monastic rules.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The statement that the First Buddhist Council was held at Rajgriha under Ajatashatru's patronage is historically true.\nReason Analysis: The reason is also true and explains the action. King Ajatashatru provided patronage to help the senior monks preserve and compile Buddha's teachings immediately after his death to prevent decay or distortion of the Dhamma."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): प्रथम बौद्ध संगीति का आयोजन अजातशत्रु के शाही संरक्षण में राजगृह में किया गया था।\nकारण (R): अजातशत्रु महापरिनिर्वाण के तुरंत बाद गौतम बुद्ध के उपदेशों को संरक्षित और संहिताबद्ध करना चाहते थे ताकि भिक्षु नियमों पर होने वाले विवादों को रोका जा सके।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: प्रथम बौद्ध संगीति अजातशत्रु के संरक्षण में राजगृह में आयोजित की गई थी, यह ऐतिहासिक रूप से सत्य है।\nकारण विश्लेषण: कारण भी सत्य है और अभिकथन की व्याख्या करता है। राजा अजातशत्रु ने वरिष्ठ भिक्षुओं को बुद्ध की मृत्यु के तुरंत बाद उनके उपदेशों को संकलित करने में मदद करने के लिए संरक्षण दिया ताकि धम्म के पतन या विकृति को रोका जा सके।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Second Buddhist Council at Vaishali resulted in a permanent split in the Buddhist Sangha into Sthaviravadins and Mahasanghikas.\nReason (R): Emperor Ashoka intervened in the Vaishali council and expelled the non-orthodox monks from the Sangha.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: The assertion is true; the Second Council led to the split between the conservative Sthaviravadins and the progressive Mahasanghikas.\nReason Analysis: The reason is false. Emperor Ashoka did not rule during the Second Council; he was the patron of the Third Buddhist Council in Pataliputra, and Kalashoka was the patron of the Second Council."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): वैशाली में आयोजित द्वितीय बौद्ध संगीति के परिणामस्वरूप बौद्ध संघ में स्थविरवादियों और महासांघिकों के रूप में स्थायी विभाजन हो गया।\nकारण (R): सम्राट अशोक ने वैशाली संगीति में हस्तक्षेप किया और गैर-रूढ़िवादी भिक्षुओं को संघ से निष्कासित कर दिया।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सत्य है; द्वितीय संगीति के कारण रूढ़िवादी स्थविरवादियों और प्रगतिशील महासांघिकों में विभाजन हुआ।\nकारण विश्लेषण: कारण असत्य है। सम्राट अशोक ने द्वितीय संगीति के समय शासन नहीं किया था; वह पाटलिपुत्र में तृतीय बौद्ध संगीति के संरक्षक थे, जबकि कालाशोक द्वितीय संगीति के संरक्षक थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Third Buddhist Council saw the inclusion of the Abhidhamma Pitaka into the Buddhist canon.\nReason (R): Moggaliputta Tissa wrote the Kathavatthu during the council to refute heretical doctrines and purify the orthodox Theravada tradition.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: The assertion is true; Abhidhamma Pitaka was compiled during the Third Council.\nReason Analysis: The reason is also true because Moggaliputta Tissa composed the Kathavatthu to refute false views. However, R is not the direct causal reason *why* the Abhidhamma Pitaka was included; it describes a parallel action of scriptural defense during the council."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): तृतीय बौद्ध संगीति में बौद्ध धर्मग्रंथों में अभिधम्म पिटक के समावेश को देखा गया।\nकारण (R): मोग्गलिपुत्त तिस्स ने पाखंडी सिद्धांतों का खंडन करने और रूढ़िवादी थेरवाद परंपरा को शुद्ध करने के लिए संगीति के दौरान कथावत्थु की रचना की थी।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सत्य है; तृतीय संगीति के दौरान अभिधम्म पिटक का संकलन किया गया था।\nकारण विश्लेषण: कारण भी सत्य है क्योंकि मोग्गलिपुत्त तिस्स ने गलत विचारों का खंडन करने के लिए कथावत्थु की रचना की थी। हालाँकि, R सीधे तौर पर यह स्पष्ट नहीं करता कि अभिधम्म पिटक को क्यों जोड़ा गया; यह केवल संगीति के दौरान किए गए एक समानांतर कार्य को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Fourth Buddhist Council held in Kashmir marked the formal rise and division of Buddhism into Hinayana and Mahayana sects.\nReason (R): Kanishka, the Kushana ruler, favored the Sanskrit-based Mahayana teachings and sought to compile standardized commentaries on Buddhist texts.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; the Fourth Council formalized the split between Hinayana and Mahayana.\nReason Analysis: The reason is true; Kanishka supported the council to organize the doctrines, which facilitated the growth of Mahayana Buddhism and commentaries like the Mahavibhasha Sastra in Sanskrit."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): कश्मीर में आयोजित चतुर्थ बौद्ध संगीति ने बौद्ध धर्म के औपचारिक उदय और हीनयान तथा महायान संप्रदायों में विभाजन को चिह्नित किया।\nकारण (R): कुषाण शासक कनिष्क ने संस्कृत-आधारित महायान उपदेशों का समर्थन किया और बौद्ध ग्रंथों पर मानकीकृत व्याख्याएं संकलित करना चाहा।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सत्य है; चतुर्थ संगीति ने हीनयान और महायान के बीच विभाजन को औपचारिक रूप दिया।\nकारण विश्लेषण: कारण सत्य है; कनिष्क ने सिद्धांतों को व्यवस्थित करने के लिए संगीति का समर्थन किया, जिसने महायान बौद्ध धर्म और संस्कृत में महाविभाषा शास्त्र जैसी व्याख्याओं के विकास को सुगम बनाया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Mahayana Buddhism introduced idol worship of Buddha and Bodhisattvas on a large scale.\nReason (R): Mahayana philosophy viewed the Buddha not just as a historical teacher but as an eternal, cosmic principle (Dharmakaya) who could manifest in bodily form to save devotees.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; Mahayana popularized image worship of the Buddha and Bodhisattvas.\nReason Analysis: The reason is true and explains the assertion. The deification of Buddha under the Trikaya doctrine led to the belief that the historical Buddha is a cosmic entity, making his worship and representation as an icon logical for seekers."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): महायान बौद्ध धर्म ने बड़े पैमाने पर बुद्ध और बोधिसत्वों की मूर्ति पूजा की शुरुआत की।\nकारण (R): महायान दर्शन ने बुद्ध को केवल एक ऐतिहासिक शिक्षक के रूप में नहीं, बल्कि एक शाश्वत, ब्रह्मांडीय सिद्धांत (धर्मकाय) के रूप में देखा जो भक्तों को बचाने के लिए शारीरिक रूप में प्रकट हो सकते थे।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सत्य है; महायान ने बुद्ध और बोधिसत्वों की मूर्ति पूजा को लोकप्रिय बनाया।\nकारण विश्लेषण: कारण सत्य है और अभिकथन की व्याख्या करता है। त्रिकाय सिद्धांत के तहत बुद्ध के देवत्वकरण के कारण यह माना जाने लगा कि बुद्ध एक ब्रह्मांडीय सत्ता हैं, जिससे भक्तों के लिए उनकी मूर्ति के रूप में पूजा करना तार्किक हो गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Hinayana Buddhism is termed as the 'Lesser Vehicle' by its critics because it prioritizes individual monastic salvation over collective liberation.\nReason (R): Hinayana Buddhism completely rejects the existence of any other Buddhas in the universe except Gautama Buddha.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: The assertion is true; early Buddhism (Hinayana) was labeled the 'Lesser Vehicle' by Mahayanists because its ideal (Arhat) achieves personal liberation.\nReason Analysis: The reason is false. Hinayana does not reject other Buddhas; it acknowledges past Buddhas (like Kassapa or Kanakamuni) and the future Buddha Maitreya, but focuses on the historical Gautama's path."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): हीनयान बौद्ध धर्म को इसके आलोचकों द्वारा 'निम्न यान' कहा जाता है क्योंकि यह सामूहिक मुक्ति की तुलना में व्यक्तिगत भिक्षु मुक्ति को प्राथमिकता देता है।\nकारण (R): हीनयान बौद्ध धर्म गौतम बुद्ध के अलावा ब्रह्मांड में किसी अन्य बुद्ध के अस्तित्व को पूरी तरह से खारिज करता है।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सत्य है; महायानियों द्वारा हीनयान को 'निम्न यान' कहा गया क्योंकि इसका आदर्श (अर्हत्) व्यक्तिगत मुक्ति प्राप्त करता है।\nकारण विश्लेषण: कारण असत्य है। हीनयान अन्य बुद्धों को खारिज नहीं करता है; यह अतीत के बुद्धों (जैसे कश्यप) और भविष्य के बुद्ध मैत्रेय को स्वीकार करता है, लेकिन ऐतिहासिक गौतम बुद्ध के मार्ग पर ध्यान केंद्रित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Nagarjuna's Madhyamika philosophy is often misunderstood as absolute nihilism.\nReason (R): Nagarjuna asserted that all dharmas (phenomena) are empty (shunya) of inherent, independent existence because they arise dependently (Pratityasamutpada).",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; critics and early western scholars often incorrectly categorized Madhyamika as nihilism (denying all reality).\nReason Analysis: The reason is true and explains the assertion. Because Nagarjuna used the word 'Shunya' (empty) to mean lack of independent essence (Svabhava) due to dependent origination, it was mistakenly equated with 'nothingness' or nihilism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): नागार्जुन के माध्यमिक दर्शन को अक्सर पूर्ण शून्यवाद या भौतिक अभाव (nihilism) के रूप में गलत समझा जाता है।\nकारण (R): नागार्जुन ने दावा किया कि सभी धर्म (घटनाएँ) अंतर्निहित, स्वतंत्र अस्तित्व से शून्य (शून्य) हैं क्योंकि वे प्रतीत्यसमुत्पाद (निर्भर उत्पत्ति) के कारण उत्पन्न होते हैं।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सत्य है; आलोचकों और शुरुआती पश्चिमी विद्वानों ने अक्सर माध्यमिक को पूर्ण शून्यवाद (सभी वास्तविकता का खंडन) के रूप में गलत समझा।\nकारण विश्लेषण: कारण सत्य है और अभिकथन की व्याख्या करता है। क्योंकि नागार्जुन ने 'शून्य' शब्द का उपयोग प्रतीत्यसमुत्पाद के कारण स्वतंत्र स्वभाव (स्वभाव) की कमी के अर्थ में किया था, इसे गलती से 'कुछ नहीं' या शून्यवाद के बराबर मान लिया गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Yogacara school of Buddhism denies the ultimate reality of the external material world.\nReason (R): The Yogacara philosophers argued that the external world is a projection of the repository consciousness (Alayavijnana).",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The assertion is true; Yogacara (Vijnanavada) holds that external things do not exist independent of mind.\nReason Analysis: The reason is true and provides the explanation. They taught that everything perceived is a projection of Alayavijnana (storehouse consciousness), making mind the only reality."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): बौद्ध धर्म का योगाचार संप्रदाय बाहरी भौतिक जगत की अंतिम वास्तविकता को खारिज करता है।\nकारण (R): योगाचार दार्शनिकों ने तर्क दिया कि बाहरी दुनिया आलयविज्ञान (भंडार चेतना) का एक प्रक्षेपण मात्र है।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन सत्य है; योगाचार (विज्ञानवाद) का मानना है कि बाहरी चीजें मन से स्वतंत्र अस्तित्व में नहीं हैं।\nकारण विश्लेषण: कारण सत्य है और अभिकथन की व्याख्या करता है। उन्होंने सिखाया कि जो कुछ भी देखा जाता है वह आलयविज्ञान (भंडार चेतना) का एक प्रक्षेपण है, जिससे मन ही एकमात्र वास्तविकता बन जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Council) with List-II (Royal Patron) and select the correct answer using the codes given below:\nList-I:\na) First Council\nb) Second Council\nc) Third Council\nd) Fourth Council\n\nList-II:\n1) Ashoka\n2) Ajatashatru\n3) Kanishka\n4) Kalashoka\n5) Chandragupta Maurya",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-4, c-2, d-3",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct match: A. The First Council (a) matches Ajatashatru [2]. The Second Council (b) matches Kalashoka [4]. The Third Council (c) matches Ashoka [1]. The Fourth Council (d) matches Kanishka [3]. Item 5 (Chandragupta Maurya) is a distractor."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध संगीति) को सूची-II (शाही संरक्षक) के साथ सुमेलित कीजिए और नीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:\nसूची-I:\na) प्रथम संगीति\nb) द्वितीय संगीति\nc) तृतीय संगीति\nd) चतुर्थ संगीति\n\nसूची-II:\n1) अशोक\n2) अजातशत्रु\n3) कनिष्क\n4) कालाशोक\n5) चन्द्रगुप्त मौर्य",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-4, c-2, d-3",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही मिलान: A. प्रथम संगीति (a) अजातशत्रु [2] से मेल खाती है। द्वितीय संगीति (b) कालाशोक [4] से मेल खाती है। तृतीय संगीति (c) अशोक [1] से मेल खाती है। चतुर्थ संगीति (d) कनिष्क [3] से मेल खाती है। विकल्प 5 (चन्द्रगुप्त मौर्य) केवल भ्रमित करने के लिए है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Council) with List-II (Venue Location) and select the correct answer:\nList-I:\na) First Council\nb) Second Council\nc) Third Council\nd) Fourth Council\n\nList-II:\n1) Pataliputra\n2) Saptaparni Cave\n3) Kundalavana\n4) Valabhi\n5) Vaishali",
+      "option_a": "a-2, b-5, c-1, d-3",
+      "option_b": "a-1, b-5, c-2, d-3",
+      "option_c": "a-2, b-1, c-5, d-3",
+      "option_d": "a-5, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct match: A. First Council (a) was held at Saptaparni Cave [2]. Second Council (b) at Vaishali [5]. Third Council (c) at Pataliputra [1]. Fourth Council (d) at Kundalavana [3]. Valabhi [4] is a distractor associated with Jain Councils."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध संगीति) को सूची-II (स्थान) के साथ सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) प्रथम संगीति\nb) द्वितीय संगीति\nc) तृतीय संगीति\nd) चतुर्थ संगीति\n\nसूची-II:\n1) पाटलिपुत्र\n2) सप्तपर्णी गुफा\n3) कुंडलवन\n4) वलभी\n5) वैशाली",
+      "option_a": "a-2, b-5, c-1, d-3",
+      "option_b": "a-1, b-5, c-2, d-3",
+      "option_c": "a-2, b-1, c-5, d-3",
+      "option_d": "a-5, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही मिलान: A. प्रथम संगीति (a) सप्तपर्णी गुफा [2] में आयोजित हुई थी। द्वितीय संगीति (b) वैशाली [5] में। तृतीय संगीति (c) पाटलिपुत्र [1] में। चतुर्थ संगीति (d) कुंडलवन [3] में। वलभी [4] जैन संगीतियों से संबंधित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Council) with List-II (Presidents) and select the correct answer:\nList-I:\na) First Council\nb) Second Council\nc) Third Council\nd) Fourth Council\n\nList-II:\n1) Moggaliputta Tissa\n2) Vasumitra\n3) Sabakami\n4) Mahakashyapa\n5) Asanga",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-3, b-4, c-1, d-2",
+      "option_c": "a-4, b-1, c-3, d-2",
+      "option_d": "a-1, b-3, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct match: A. First Council (a) matches Mahakashyapa [4]. Second Council (b) matches Sabakami [3]. Third Council (c) matches Moggaliputta Tissa [1]. Fourth Council (d) matches Vasumitra [2]. Asanga [5] is a distractor."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध संगीति) को सूची-II (अध्यक्ष) के साथ सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) प्रथम संगीति\nb) द्वितीय संगीति\nc) तृतीय संगीति\nd) चतुर्थ संगीति\n\nसूची-II:\n1) मोग्गलिपुत्त तिस्स\n2) वसुमित्र\n3) सबकामी\n4) महाकश्यप\n5) असंग",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-3, b-4, c-1, d-2",
+      "option_c": "a-4, b-1, c-3, d-2",
+      "option_d": "a-1, b-3, c-4, d-2",
+      "correct": "A",
+      "explanation": "सही मिलान: A. प्रथम संगीति (a) महाकश्यप [4] से मेल खाती है। द्वितीय संगीति (b) सबकामी [3] से मेल खाती है। तृतीय संगीति (c) मोग्गलिपुत्त तिस्स [1] से मेल खाती है। चतुर्थ संगीति (d) वसुमित्र [2] से मेल खाती है। असंग [5] भ्रामक विकल्प है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Philosophical School) with List-II (Key Proponent/Founder) and select the correct answer:\nList-I:\na) Madhyamika\nb) Yogacara\nc) Sautrantika\nd) Theravada\n\nList-II:\n1) Kumaralata\n2) Nagarjuna\n3) Asanga\n4) Mahakatyayana\n5) Dignaga",
+      "option_a": "a-2, b-3, c-1, d-4",
+      "option_b": "a-3, b-2, c-1, d-4",
+      "option_c": "a-2, b-1, c-3, d-4",
+      "option_d": "a-2, b-3, c-4, d-1",
+      "correct": "A",
+      "explanation": "Correct match: A. Madhyamika (a) was founded by Nagarjuna [2]. Yogacara (b) by Asanga [3]. Sautrantika (c) is associated with Kumaralata [1]. Theravada (d) traditionally traces to Mahakatyayana [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध दार्शनिक संप्रदाय) को सूची-II (प्रमुख प्रतिपादक/संस्थापक) के साथ सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) माध्यमिक\nb) योगाचार\nc) सौत्रान्तिक\nd) थेरवाद\n\nसूची-II:\n1) कुमारलात\n2) नागार्जुन\n3) असंग\n4) महाकात्यायन\n5) दिङ्नाग",
+      "option_a": "a-2, b-3, c-1, d-4",
+      "option_b": "a-3, b-2, c-1, d-4",
+      "option_c": "a-2, b-1, c-3, d-4",
+      "option_d": "a-2, b-3, c-4, d-1",
+      "correct": "A",
+      "explanation": "सही मिलान: A. माध्यमिक (a) के संस्थापक नागार्जुन [2] हैं। योगाचार (b) के असंग [3]। सौत्रान्तिक (c) कुमारलात [1] से संबंधित है। थेरवाद (d) पारंपरिक रूप से महाकात्यायन [4] से जुड़ा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Text) with List-II (Associated School/Sect) and select the correct answer:\nList-I:\na) Mulamadhyamakakarika\nb) Mahavibhasha Sastra\nc) Kathavatthu\nd) Visuddhimagga\n\nList-II:\n1) Vaibhasika\n2) Madhyamika\n3) Theravada\n4) Sthaviravada (Third Council)\n5) Lokottaravada",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-4, d-3",
+      "option_c": "a-2, b-1, c-3, d-4",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "Correct match: A. Mulamadhyamakakarika (a) matches Madhyamika [2]. Mahavibhasha Sastra (b) matches Vaibhasika [1]. Kathavatthu (c) matches Sthaviravada (compiled at the Third Council) [4]. Visuddhimagga (d) is a classic Theravada text by Buddhaghosa [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध ग्रंथ) को सूची-II (संबद्ध संप्रदाय/मत) के साथ सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) मूलमाध्यमिककारिका\nb) महाविभाषा शास्त्र\nc) कथावत्थु\nd) विसुद्धिमग्ग\n\nसूची-II:\n1) वैभाषिक\n2) माध्यमिक\n3) थेरवाद\n4) स्थविरवाद (तृतीय संगीति)\n5) लोकोत्तरवाद",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-4, d-3",
+      "option_c": "a-2, b-1, c-3, d-4",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "सही मिलान: A. मूलमाध्यमिककारिका (a) माध्यमिक [2] से मेल खाता है। महाविभाषा शास्त्र (b) वैभाषिक [1] से। कथावत्थु (c) स्थविरवाद (तृतीय संगीति में संकलित) [4] से। विसुद्धिमग्ग (d) बुद्धघोष द्वारा रचित प्रसिद्ध थेरवाद ग्रंथ [3] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist School) with List-II (Core Philosophical View) and select the correct answer:\nList-I:\na) Sarvastivada\nb) Madhyamika\nc) Yogacara\nd) Sautrantika\n\nList-II:\n1) Everything is empty of independent existence\n2) Only consciousness exists (Cittamatra)\n3) Elements exist in all past, present, and future\n4) Direct perception is limited; only Sutras are authoritative\n5) Physical matter is completely non-existent",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-3, b-2, c-1, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct match: A. Sarvastivada (a) holds that elements exist in past, present, and future [3]. Madhyamika (b) holds that everything is empty [1]. Yogacara (c) holds that only consciousness exists [2]. Sautrantika (d) relies strictly on Sutras [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध मत) को सूची-II (मूल दार्शनिक विचार) के साथ सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) सर्वास्तिवाद\nb) माध्यमिक\nc) योगाचार\nd) सौत्रान्तिक\n\nसूची-II:\n1) सभी चीजें स्वतंत्र अस्तित्व से शून्य हैं\n2) केवल चेतना का अस्तित्व है (चित्तमात्र)\n3) तत्व अतीत, वर्तमान और भविष्य तीनों कालों में विद्यमान हैं\n4) प्रत्यक्ष प्रत्यक्षीकरण सीमित है; केवल सूत्र ही प्रामाणिक हैं\n5) भौतिक पदार्थ पूरी तरह से अस्तित्वहीन है",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-3, b-2, c-1, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "सही मिलान: A. सर्वास्तिवाद (a) का मानना है कि तत्व तीनों कालों में मौजूद हैं [3]। माध्यमिक (b) का मानना है कि सब कुछ शून्य है [1]। योगाचार (c) का मानना है कि केवल चेतना का अस्तित्व है [2]। सौत्रान्तिक (d) केवल सूत्रों पर निर्भर करता है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Council) with List-II (Key Historical Outcome) and select the correct answer:\nList-I:\na) First Council\nb) Second Council\nc) Third Council\nd) Fourth Council\n\nList-II:\n1) Dispatch of Buddhist missionaries to foreign lands\n2) Final schism into Hinayana and Mahayana\n3) Split into Sthaviravadins and Mahasanghikas\n4) Codification of Sutta and Vinaya Pitakas\n5) Introduction of Tantric Vajrayana teachings",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-4, b-1, c-3, d-2",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "Correct match: A. The First Council (a) codified Sutta and Vinaya [4]. The Second Council (b) split the Sangha into Sthaviravadins and Mahasanghikas [3]. The Third Council (c) sent missionaries [1]. The Fourth Council (d) formalized the Hinayana/Mahayana division [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध संगीति) को सूची-II (प्रमुख ऐतिहासिक परिणाम) के साथ सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) प्रथम संगीति\nb) द्वितीय संगीति\nc) तृतीय संगीति\nd) चतुर्थ संगीति\n\nसूची-II:\n1) विदेशों में बौद्ध मिशनरियों को भेजना\n2) हीनयान और महायान में अंतिम विभाजन\n3) स्थविरवादियों और महासांघिकों में विभाजन\n4) सुत्त और विनय पिटक का संहिताकरण\n5) तांत्रिक वज्रयान शिक्षाओं की शुरुआत",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-4, b-1, c-3, d-2",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "सही मिलान: A. प्रथम संगीति (a) ने सुत्त और विनय पिटक का संहिताकरण किया [4]। द्वितीय संगीति (b) ने संघ को स्थविरवादी और महासांघिक में विभाजित किया [3]। तृतीय संगीति (c) ने मिशनरियों को भेजा [1]। चतुर्थ संगीति (d) ने हीनयान/महायान विभाजन को औपचारिक बनाया [2]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Scholar/Monk) with List-II (Key Description/Role) and select the correct answer:\nList-I:\na) Ashvaghosa\nb) Buddhaghosa\nc) Nagarjuna\nd) Vasumitra\n\nList-II:\n1) President of the Fourth Council and author of Mahavibhasha Sastra\n2) Vice-President of the Fourth Council and author of Buddhacarita\n3) Great commentator of the Theravada school and author of Visuddhimagga\n4) Formulator of the doctrine of Shunyata\n5) Missionary sent to Sri Lanka by Ashoka",
+      "option_a": "a-2, b-3, c-4, d-1",
+      "option_b": "a-1, b-3, c-4, d-2",
+      "option_c": "a-2, b-4, c-3, d-1",
+      "option_d": "a-3, b-2, c-4, d-1",
+      "correct": "A",
+      "explanation": "Correct match: A. Ashvaghosa (a) is the Vice-President of the 4th Council [2]. Buddhaghosa (b) is the commentator of Theravada [3]. Nagarjuna (c) formulated Shunyata [4]. Vasumitra (d) presided over the 4th Council [1]. Item 5 is a distractor."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बौद्ध विद्वान/भिक्षु) को सूची-II (प्रमुख विवरण/भूमिका) के साथ सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) अश्वघोष\nb) बुद्धघोष\nc) नागार्जुन\nd) वसुमित्र\n\nसूची-II:\n1) चतुर्थ संगीति के अध्यक्ष और महाविभाषा शास्त्र के लेखक\n2) चतुर्थ संगीति के उपाध्यक्ष और बुद्धचरित के लेखक\n3) थेरवाद संप्रदाय के महान टीकाकार और विसुद्धिमग्ग के लेखक\n4) शून्यता के सिद्धांत के सूत्रधार\n5) अशोक द्वारा श्रीलंका भेजे गए मिशनरी",
+      "option_a": "a-2, b-3, c-4, d-1",
+      "option_b": "a-1, b-3, c-4, d-2",
+      "option_c": "a-2, b-4, c-3, d-1",
+      "option_d": "a-3, b-2, c-4, d-1",
+      "correct": "A",
+      "explanation": "सही मिलान: A. अश्वघोष (a) चतुर्थ संगीति के उपाध्यक्ष थे [2]। बुद्धघोष (b) थेरवाद के टीकाकार थे [3]। नागार्जुन (c) ने शून्यता का प्रतिपादन किया [4]। वसुमित्र (d) चतुर्थ संगीति के अध्यक्ष थे [1]। विकल्प 5 भ्रामक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the First Buddhist Council:\n1. It was held in 483 BCE immediately after the Buddha's death at Rajgriha.\n2. It was presided over by the monk Sabakami.\n3. The teachings of the Buddha were divided into two Pitakas: Sutta Pitaka and Vinaya Pitaka.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct: The first council was indeed held around 483 BCE in Rajgriha.\nStatement 2 is incorrect: The first council was presided over by Mahakashyapa, whereas Sabakami presided over the second council.\nStatement 3 is correct: The council finalized and compiled the Sutta Pitaka and Vinaya Pitaka."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रथम बौद्ध संगीति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह बुद्ध की मृत्यु के तुरंत बाद 483 ईसा पूर्व में राजगृह में आयोजित की गई थी।\n2. इसकी अध्यक्षता भिक्षु सबकामी ने की थी।\n3. बुद्ध के उपदेशों को दो पिटकों में विभाजित किया गया था: सुत्त पिटक और विनय पिटक।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है: प्रथम संगीति वास्तव में लगभग 483 ईसा पूर्व राजगृह में आयोजित की गई थी।\nकथन 2 गलत है: प्रथम संगीति की अध्यक्षता महाकश्यप ने की थी, जबकि सबकामी ने द्वितीय संगीति की अध्यक्षता की थी।\nकथन 3 सही है: इस संगीति में सुत्त पिटक और विनय पिटक को अंतिम रूप देकर संकलित किया गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Second Buddhist Council:\n1. The dispute was centered on 'Ten Practices' (Dasa Vatthuni) like accepting gold and silver.\n2. The progressive group that favored relaxation of rules came to be known as the Mahasanghikas.\n3. The council failed to reach a consensus, causing the first formal division of the Sangha.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct: The Second Council at Vaishali arose from disputes over ten monastic rules, including receiving money.\nStatement 2 is correct: The monks who wanted flexibility formed the Mahasanghika group.\nStatement 3 is correct: The division between Sthaviravada and Mahasanghika became the first major split."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्वितीय बौद्ध संगीति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. विवाद सोने और चांदी को स्वीकार करने जैसे 'दस नियमों' (दस वत्थुनी) पर केंद्रित था।\n2. नियमों में ढील देने के पक्षधर प्रगतिशील समूह को महासांघिक के नाम से जाना गया।\n3. संगीति आम सहमति पर पहुंचने में विफल रही, जिससे संघ का पहला औपचारिक विभाजन हुआ।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है: वैशाली में द्वितीय संगीति धन प्राप्ति सहित दस भिक्षु नियमों पर विवाद के कारण हुई थी।\nकथन 2 सही है: जो भिक्षु लचीलापन चाहते थे उन्होंने महासांघिक समूह का गठन किया।\nकथन 3 सही है: स्थविरवाद और महासांघिक के बीच का विभाजन संघ का पहला बड़ा विभाजन बना।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Third Buddhist Council:\n1. It was held in Pataliputra under the patronage of King Kalashoka.\n2. The Abhidhamma Pitaka, containing the philosophical teachings of the Buddha, was compiled.\n3. The council sent Buddhist missionaries to various countries including Sri Lanka.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect: The Third Council was patronized by Emperor Ashoka of the Maurya dynasty, not Kalashoka (who patronized the Second Council).\nStatement 2 is correct: The Abhidhamma Pitaka was formulated during this council.\nStatement 3 is correct: Ashoka dispatched missionaries, including his son Mahinda to Sri Lanka, following the council."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तृतीय बौद्ध संगीति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह राजा कालाशोक के संरक्षण में पाटलिपुत्र में आयोजित की गई थी।\n2. बुद्ध की दार्शनिक शिक्षाओं से युक्त अभिधम्म पिटक का संकलन किया गया था।\n3. संगीति ने श्रीलंका सहित विभिन्न देशों में बौद्ध मिशनरियों को भेजा।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है: तृतीय संगीति का संरक्षण मौर्य साम्राज्य के सम्राट अशोक ने किया था, न कि कालाशोक ने (जिसने द्वितीय संगीति का संरक्षण किया था)।\nकथन 2 सही है: इस संगीति के दौरान अभिधम्म पिटक तैयार किया गया था।\nकथन 3 सही है: संगीति के बाद अशोक ने श्रीलंका में अपने पुत्र महिंदा सहित प्रचारकों को भेजा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Fourth Buddhist Council:\n1. It was held at Kundalavana in Kashmir during the reign of Kanishka.\n2. The council was conducted in the Sanskrit language instead of Pali.\n3. The massive Buddhist commentary 'Mahavibhasha Sastra' was prepared during this council.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct: The council was held in Kashmir under Kushana King Kanishka.\nStatement 2 is correct: This council marked the formal adoption of Sanskrit for Mahayana literature.\nStatement 3 is correct: The Mahavibhasha Sastra was written here on copper plates as an encyclopedic commentary."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चतुर्थ बौद्ध संगीति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह कनिष्क के शासनकाल के दौरान कश्मीर के कुंडलवन में आयोजित की गई थी।\n2. संगीति का संचालन पालि के स्थान पर संस्कृत भाषा में किया गया था।\n3. इस संगीति के दौरान विशाल बौद्ध ग्रंथ 'महाविभाषा शास्त्र' तैयार किया गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है: संगीति कुषाण राजा कनिष्क के शासन में कश्मीर में आयोजित की गई थी।\nकथन 2 सही है: यह संगीति महायान साहित्य के लिए संस्कृत को औपचारिक रूप से अपनाने का प्रतीक है।\nकथन 3 सही है: इस संगीति में तांबे की प्लेटों पर एक विश्वकोश व्याख्या के रूप में महाविभाषा शास्त्र लिखा गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to Hinayana Buddhism, consider the following statements:\n1. It does not believe in idol worship of Gautama Buddha.\n2. It stresses individual salvation through self-discipline and meditation.\n3. Its scriptures were written primarily in classical Sanskrit.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Hinayana represents Buddha symbolically (e.g., footprints or empty throne) and rejects image worship.\nStatement 2 is correct: It stresses the Arhat path of individual self-liberation.\nStatement 3 is incorrect: Hinayana scriptures (especially Theravada) are written in Pali, not classical Sanskrit."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हीनयान बौद्ध धर्म के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. यह गौतम बुद्ध की मूर्ति पूजा में विश्वास नहीं करता है।\n2. यह आत्म-अनुशासन और ध्यान के माध्यम से व्यक्तिगत मुक्ति पर बल देता है।\n3. इसके ग्रंथ मुख्य रूप से शास्त्रीय संस्कृत में लिखे गए थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: हीनयान बुद्ध का प्रतिनिधित्व प्रतीकात्मक रूप से (जैसे पदचिह्न) करता है और मूर्ति पूजा को खारिज करता है।\nकथन 2 सही है: यह व्यक्तिगत आत्म-मुक्ति के अर्हत् मार्ग पर जोर देता है।\nकथन 3 गलत है: हीनयान ग्रंथ (विशेष रूप से थेरवाद) पालि भाषा में लिखे गए हैं, न कि शास्त्रीय संस्कृत में।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to Mahayana Buddhism, consider the following statements:\n1. It deifies the Buddha and advocates the worship of Bodhisattvas.\n2. The concept of 'Bodhisattva' refers to a compassionate being who delays their own salvation to help others.\n3. It rejects the monastic order and holds that lay practitioners cannot attain liberation.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Mahayana worships Buddha as a deity along with savior Bodhisattvas.\nStatement 2 is correct: The Bodhisattva is defined by compassion, striving for universal liberation.\nStatement 3 is incorrect: Mahayana does not reject the monastic order, and it actually allows both lay practitioners and monks to attain enlightenment."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. यह बुद्ध को देवत्व प्रदान करता है और बोधिसत्वों की पूजा की वकालत करता है।\n2. 'बोधिसत्व' की अवधारणा एक ऐसे दयालु व्यक्ति को संदर्भित करती है जो दूसरों की मदद करने के लिए अपनी मुक्ति टाल देता है।\n3. यह भिक्षु संघ को खारिज करता है और मानता है कि गृहस्थ साधक मुक्ति प्राप्त नहीं कर सकते।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: महायान बुद्ध को रक्षक बोधिसत्वों के साथ एक देवता के रूप में पूजता है।\nकथन 2 सही है: बोधिसत्व को करुणा द्वारा परिभाषित किया गया है, जो सार्वभौमिक मुक्ति के लिए प्रयास करता है।\nकथन 3 गलत है: महायान भिक्षु संघ को खारिज नहीं करता है, और यह वास्तव में गृहस्थों तथा भिक्षुओं दोनों को ज्ञान प्राप्ति की अनुमति देता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements comparing Madhyamika and Yogacara schools of Mahayana Buddhism:\n1. Madhyamika proposes that all phenomena are empty (Shunya) of intrinsic nature.\n2. Yogacara teaches that while the external world is unreal, consciousness (Vijnana) is ultimately real.\n3. Nagarjuna founded Yogacara, while Asanga founded Madhyamika.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Madhyamika emphasizes emptiness (Shunyata) of all things.\nStatement 2 is correct: Yogacara is mind-only (Vijnanavada), validating consciousness as the sole reality.\nStatement 3 is incorrect: Nagarjuna founded Madhyamika (not Yogacara), and Asanga/Vasubandhu founded Yogacara (not Madhyamika)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म के माध्यमिक और योगाचार संप्रदायों की तुलना करते हुए निम्नलिखित कथनों पर विचार कीजिए:\n1. माध्यमिक का प्रस्ताव है कि सभी घटनाएँ अपने आंतरिक स्वभाव से शून्य (शून्य) हैं।\n2. योगाचार सिखाता है कि बाहरी दुनिया भले ही अवास्तविक हो, लेकिन चेतना (विज्ञान) अंतिम रूप से वास्तविक है।\n3. नागार्जुन ने योगाचार की स्थापना की थी, जबकि असंग ने माध्यमिक की स्थापना की थी।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: माध्यमिक सभी चीजों की शून्यता (शून्यता) पर जोर देता है।\nकथन 2 सही है: योगाचार केवल मन का दर्शन (विज्ञानवाद) है, जो चेतना को एकमात्र वास्तविकता के रूप में मान्यता देता है।\nकथन 3 गलत है: नागार्जुन ने माध्यमिक (योगाचार नहीं) की स्थापना की, और असंग/वसुबन्धु ने योगाचार (माध्यमिक नहीं) की स्थापना की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the Hinayana sub-sects, consider the following statements:\n1. Sarvastivadins believed that the past, present, and future exist simultaneously as real entities.\n2. Sautrantikas rejected the authority of the Abhidhamma Pitaka commentaries, relying only on Suttas.\n3. Both schools rejected the concept of karma and rebirth.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Sarvastivada holds that everything exists in all three times.\nStatement 2 is correct: Sautrantikas derive their name from Sutra, rejecting Abhidhamma commentaries.\nStatement 3 is incorrect: Both schools accepted the core Buddhist doctrines of karma and rebirth."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हीनयान उप-संप्रदायों के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. सर्वास्तिवादियों का मानना था कि अतीत, वर्तमान और भविष्य वास्तविक संस्थाओं के रूप में एक साथ मौजूद हैं।\n2. सौत्रान्तिकों ने अभिधम्म पिटक की व्याख्याओं के अधिकार को खारिज कर दिया, केवल सुत्तों पर भरोसा किया।\n3. दोनों संप्रदायों ने कर्म और पुनर्जन्म की अवधारणा को खारिज कर दिया।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: सर्वास्तिवाद का मानना है कि सब कुछ तीनों कालों में मौजूद है।\nकथन 2 सही है: सौत्रान्तिक अपना नाम सूत्र से प्राप्त करते हैं और अभिधम्म टीकाओं को खारिज करते हैं।\nकथन 3 गलत है: दोनों संप्रदायों ने कर्म और पुनर्जन्म के मूल बौद्ध सिद्धांतों को स्वीकार किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the geographical spread of Buddhist sects:\n1. Theravada (Hinayana) Buddhism spread primarily to Sri Lanka, Myanmar, and Thailand.\n2. Mahayana Buddhism spread to northern regions including China, Tibet, Korea, and Japan.\n3. Vajrayana Buddhism became the dominant form in Sri Lanka.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Southern Buddhism (Theravada) became dominant in Sri Lanka and Southeast Asia.\nStatement 2 is correct: Northern Buddhism (Mahayana) spread along the Silk Route to East Asia.\nStatement 3 is incorrect: Vajrayana (Tantric Buddhism) became dominant in Tibet, Mongolia, and parts of the Himalayas, not in Sri Lanka (which is Theravada)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध संप्रदायों के भौगोलिक प्रसार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. थेरवाद (हीनयान) बौद्ध धर्म का प्रसार मुख्य रूप से श्रीलंका, म्यांमार और थाईलैंड में हुआ।\n2. महायान बौद्ध धर्म का प्रसार चीन, तिब्बत, कोरिया और जापान सहित उत्तरी क्षेत्रों में हुआ।\n3. वज्रयान बौद्ध धर्म श्रीलंका में सबसे प्रमुख रूप बन गया।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: दक्षिणी बौद्ध धर्म (थेरवाद) श्रीलंका और दक्षिण-पूर्वी एशिया में प्रमुख हो गया।\nकथन 2 सही है: उत्तरी बौद्ध धर्म (महायान) रेशम मार्ग के सहारे पूर्वी एशिया में फैल गया।\nकथन 3 गलत है: वज्रयान (तांत्रिक बौद्ध धर्म) तिब्बत, मंगोलिया और हिमालय के हिस्सों में प्रमुख हुआ, न कि श्रीलंका में (जो थेरवाद है)।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Briefly explain the major decisions taken during the Second Buddhist Council held at Vaishali. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Second Buddhist Council (383 BCE) under King Kalashoka was convened to resolve disputes over monastic discipline (the 'Ten Points'). \n\n**Key Decisions & Outcomes:**\n* **Rules Upheld:** The assembly of elders rejected local relaxations (like accepting gold/silver) and upheld orthodox Vinaya rules.\n* **First Schism:** The disagreement led to the first major split in the Sangha into the conservative Sthaviravadins (Theravadins) and the liberal Mahasanghikas.\n\nThis division laid the initial foundation for the later evolution of Hinayana and Mahayana schools."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वैशाली में आयोजित द्वितीय बौद्ध संगीति के दौरान लिए गए प्रमुख निर्णयों को संक्षेप में स्पष्ट कीजिए। [5 Marks, 50 Words]\n\nउत्तर:",
+      "model_answer": "राजा कालाशोक के अधीन आयोजित द्वितीय बौद्ध संगीति (383 ईसा पूर्व) का आयोजन भिक्षु अनुशासन ('दस नियमों') पर विवादों को सुलझाने के लिए किया गया था।\n\n**प्रमुख निर्णय और परिणाम:**\n* **नियमों की पुष्टि:** स्थविरों की सभा ने स्थानीय ढीलों (जैसे सोना/चांदी स्वीकार करना) को खारिज कर दिया और रूढ़िवादी विनय नियमों को बनाए रखा।\n* **प्रथम विभाजन:** इस असहमति के कारण संघ में पहला बड़ा विभाजन हुआ, जिससे यह रूढ़िवादी स्थविरवादी (थेरवादी) और उदारवादी महासांघिक में विभाजित हो गया।\n\nइस विभाजन ने बाद में हीनयान और महायान संप्रदायों के विकास की प्रारंभिक नींव रखी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare and contrast the philosophical and practice differences between the Hinayana and Mahayana sects of Buddhism. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Following the Fourth Buddhist Council in Kashmir, Buddhism split formally into Hinayana and Mahayana. They differ significantly in their spiritual goals, views of the Buddha, and languages used.\n\n| Feature | Hinayana (Theravada) | Mahayana |\n| :--- | :--- | :--- |\n| **Concept of Buddha** | Viewed as a historical human teacher who attained Nirvana. | Deified as an eternal, cosmic force with three bodies (Trikaya). |\n| **Spiritual Goal** | Personal liberation (Arhatship) through self-effort. | Universal salvation; becoming a Bodhisattva to save all beings. |\n| **Practices** | Strict monastic discipline, meditation, rejection of idols. | Bhakti (devotion), image worship of Buddha/Bodhisattvas. |\n| **Language** | Pali (accessible to common people). | Sanskrit (scholarly and philosophical). |\n| **Geography** | Southern regions (Sri Lanka, Myanmar, Thailand). | Northern regions (China, Tibet, Korea, Japan). |\n\nIn conclusion, while Hinayana remains closer to the original, self-reliant teachings of the historical Buddha focusing on monasticism, Mahayana adapted to a broader lay audience by introducing devotional practices, universal compassion, and the worship of savior figures."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म के हीनयान और महायान संप्रदायों के बीच दार्शनिक और व्यावहारिक अंतरों की तुलना और विश्लेषण कीजिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "कश्मीर में चौथी बौद्ध संगीति के बाद, बौद्ध धर्म औपचारिक रूप से हीनयान और महायान में विभाजित हो गया। वे अपने आध्यात्मिक लक्ष्यों, बुद्ध के प्रति दृष्टिकोण और उपयोग की जाने वाली भाषाओं में महत्वपूर्ण रूप से भिन्न हैं।\n\n| विशेषता | हीनयान (थेरवाद) | महायान |\n| :--- | :--- | :--- |\n| **बुद्ध की अवधारणा** | इन्हें निर्वाण प्राप्त करने वाले एक ऐतिहासिक मानव शिक्षक के रूप में देखा गया। | तीन शरीरों (त्रिकाय) के साथ एक शाश्वत, ब्रह्मांडीय शक्ति के रूप में देवत्व प्रदान किया गया। |\n| **आध्यात्मिक लक्ष्य** | आत्म-प्रयास के माध्यम से व्यक्तिगत मुक्ति (अर्हत् पद) प्राप्त करना। | सार्वभौमिक मुक्ति; सभी जीवों को बचाने के लिए बोधिसत्व बनना। |\n| **धार्मिक व्यवहार** | सख्त भिक्षु अनुशासन, ध्यान, और मूर्ति पूजा का निषेध। | भक्ति, बुद्ध और बोधिसत्वों की मूर्ति पूजा। |\n| **भाषा** | पालि (आम लोगों के लिए सुलभ)। | संस्कृत (विद्वतापूर्ण और दार्शनिक)। |\n| **भौगोलिक प्रसार** | दक्षिणी क्षेत्र (श्रीलंका, म्यांमार, थाईलैंड)। | उत्तरी क्षेत्र (चीन, तिब्बत, कोरिया, जापान)। |\n\nनिष्कर्षतः, जहाँ हीनयान भिक्षु जीवन पर केंद्रित ऐतिहासिक बुद्ध के मूल, आत्मनिर्भर उपदेशों के अधिक निकट है, वहीं महायान ने भक्ति प्रथाओं, सार्वभौमिक करुणा और रक्षक आकृतियों की पूजा को शामिल करके व्यापक गृहस्थ समाज के अनुकूल खुद को ढाला।"
+    }
+  ]
+}

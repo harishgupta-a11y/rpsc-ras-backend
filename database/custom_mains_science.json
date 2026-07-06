@@ -1,0 +1,204 @@
+{
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the significance of the 'Sulba Sutras' in the history of Indian mathematics. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Sulba Sutras (c. 800-500 BCE) are Vedic manual texts vital to the history of geometry.\nKey contributions:\n• Geometric Altar Construction: Detailed rules for building complex sacrificial altars (Vedic Vedis) using specific geometric shapes.\n• Baudhayana's Theorem: Contained the earliest formulation of the Pythagorean theorem.\n• Irrational Numbers: Provided accurate approximations for the square root of 2.\nUltimately, they laid the foundation for systematic geometry and mathematics in ancient India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारतीय गणित के इतिहास में 'शुल्ब सूत्रों' के महत्व को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "शुल्ब सूत्र (लगभग 800-500 ईसा पूर्व) वैदिक ग्रंथ हैं जो ज्यामिति के इतिहास में अत्यंत महत्वपूर्ण हैं।\nमुख्य योगदान:\n• ज्यामितीय वेदी निर्माण: विशिष्ट ज्यामितीय आकृतियों का उपयोग करके जटिल यज्ञ वेदियों के निर्माण के विस्तृत नियम।\n• बौधायन प्रमेय: इसमें पाइथागोरस प्रमेय का सबसे प्रारंभिक निरूपण मिलता है।\n• अपरिमेय संख्याएँ: वर्गमूल 2 के सटीक मानों की गणना की गई।\nअंततः, इन्होंने प्राचीन भारत में व्यवस्थित ज्यामिति और गणित की आधारशिला रखी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the major mathematical contributions of Aryabhata I. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Aryabhata I (499 CE) was a pioneer of the classical age of Indian mathematics.\nKey achievements:\n• Value of Pi: Calculated the value of Pi (π) to four decimal places as 3.1416, calling it an approximation.\n• Place-Value and Zero: Standardized the decimal place-value system and conceptualized zero.\n• Trigonometry: Introduced the concept of sine (jya) and cosine (kojya) tables.\nThrough his work 'Aryabhatiya', he revolutionized algebra and trigonometry, influencing global mathematics."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आर्यभट्ट प्रथम के प्रमुख गणितीय योगदानों पर प्रकाश डालिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "आर्यभट्ट प्रथम (499 ईस्वी) भारतीय गणित के शास्त्रीय युग के पथप्रदर्शक थे।\nप्रमुख उपलब्धियाँ:\n• पाई (π) का मान: पाई का मान चार दशमलव स्थानों (3.1416) तक निकाला और इसे एक सन्निकट मान बताया।\n• स्थानीय मान और शून्य: दशमलव स्थानीय मान प्रणाली को मानकीकृत किया और शून्य की अवधारणा दी।\n• त्रिकोणमिति: ज्या (sine) और कोज्या (cosine) तालिकाओं की अवधारणा प्रस्तुत की।\nअपने ग्रंथ 'आर्यभटीय' के माध्यम से उन्होंने बीजगणित और त्रिकोणमिति में क्रांतिकारी बदलाव किए, जिसने वैश्विक गणित को प्रभावित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the rules formulated by Brahmagupta regarding arithmetic operations with zero. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Brahmagupta, in his 7th-century treatise 'Brahmasphutasiddhanta', formalized the mathematical properties of zero.\nKey rules established:\n• Addition/Subtraction: A number added to or subtracted from zero remains unchanged. Zero subtracted from zero is zero.\n• Multiplication: Any number multiplied by zero yields zero.\n• Negative Numbers: Defined negative numbers ('debts') and rules for their operations with zero.\nThough his division by zero (0/0 = 0) was flawed, his rules established zero as a distinct algebraic entity."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. शून्य के साथ अंकगणितीय संक्रियाओं के संबंध में ब्रह्मगुप्त द्वारा प्रतिपादित नियमों की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "ब्रह्मगुप्त ने अपने 7वीं शताब्दी के ग्रंथ 'ब्राह्मस्फुटसिद्धान्त' में शून्य के गणितीय गुणों को औपचारिक रूप दिया।\nस्थापित मुख्य नियम:\n• जोड़/घटाव: शून्य में किसी संख्या को जोड़ने या घटाने पर वह अपरिवर्तित रहती है। शून्य में से शून्य घटाने पर शून्य प्राप्त होता है।\n• गुणा: किसी भी संख्या को शून्य से गुणा करने पर परिणाम शून्य होता है।\n• ऋणात्मक संख्याएँ: ऋणात्मक संख्याओं ('ऋण') और शून्य के साथ उनकी संक्रियाओं के नियम परिभाषित किए।\nयद्यपि शून्य से उनका विभाजन (0/0 = 0) त्रुटिपूर्ण था, फिर भी उनके नियमों ने शून्य को एक अलग बीजगणितीय इकाई के रूप में स्थापित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Write a short note on Baudhayana's Theorem and its historical context. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Baudhayana's Theorem, recorded in the Baudhayana Sulba Sutra (c. 800 BCE), is the earliest version of the Pythagorean theorem.\nKey aspects:\n• Formulation: States that the diagonal of a rectangle produces an area equal to the sum of the areas produced by its sides.\n• Practical Use: Used to construct right-angled triangles for Vedic sacrificial altars.\n• Historical Context: Pre-dates Pythagoras by centuries, demonstrating the independent origin of geometry in India.\nThis theorem proves the advanced practical geometric knowledge of early Indian mathematicians."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौधायन प्रमेय और उसके ऐतिहासिक संदर्भ पर एक संक्षिप्त टिप्पणी लिखिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "बौधायन प्रमेय, जिसे बौधायन शुल्ब सूत्र (लगभग 800 ईसा पूर्व) में दर्ज किया गया है, पाइथागोरस प्रमेय का सबसे प्रारंभिक रूप है।\nमुख्य पहलू:\n• सूत्र: यह बताता है कि एक आयत का विकर्ण उतना ही क्षेत्रफल बनाता है जितना उसकी लंबाई और चौड़ाई मिलकर बनाती हैं।\n• व्यावहारिक उपयोग: इसका उपयोग वैदिक यज्ञ वेदियों के लिए समकोण त्रिभुज बनाने में किया जाता था।\n• ऐतिहासिक संदर्भ: यह पाइथागोरस से सदियों पुराना है, जो भारत में ज्यामिति की स्वतंत्र उत्पत्ति को दर्शाता है।\nयह प्रमेय प्रारंभिक भारतीय गणितज्ञों के उन्नत व्यावहारिक ज्यामितीय ज्ञान को सिद्ध करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the significance of Varahamihira's 'Panchasiddhantika' in Indian astronomy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Varahamihira (6th century CE) wrote the 'Panchasiddhantika', a crucial compendium of mathematical astronomy.\nKey features:\n• Synthesis of Five Siddhantas: Preserved the details of five older astronomical systems: Paulisa, Romaka, Vasistha, Saura, and Paitamaha.\n• Cross-Cultural Contact: Documented the influence of Greek and Roman astronomical concepts in India.\n• Advanced Calculations: Outlined methods for calculating planetary positions, solar eclipses, and time.\nIt remains the primary historical source for understanding the evolution of pre-classical Indian astronomy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारतीय खगोल विज्ञान में वराहमिहिर की 'पंचसिद्धांतिका' के महत्व का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "वराहमिहिर (6ठी शताब्दी ईस्वी) ने गणितीय खगोल विज्ञान के एक महत्वपूर्ण संग्रह 'पंचसिद्धांतिका' की रचना की।\nमुख्य विशेषताएं:\n• पांच सिद्धांतों का संश्लेषण: इसमें पांच प्राचीन खगोलीय प्रणालियों का विवरण सुरक्षित है: पौलिश, रोमक, वसिष्ठ, सौर और पितामह।\n• अंतर-सांस्कृतिक संपर्क: भारत में ग्रीक और रोमन खगोलीय अवधारणाओं के प्रभाव को प्रलेखित किया।\n• उन्नत गणनाएँ: ग्रहों की स्थिति, सूर्य ग्रहण और समय की गणना के तरीकों को रेखांकित किया।\nयह पूर्व-शास्त्रीय भारतीय खगोल विज्ञान के विकास को समझने के लिए प्राथमिक ऐतिहासिक स्रोत बना हुआ है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the astronomical discoveries of Aryabhata I. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Aryabhata I proposed revolutionary concepts in astronomy in his seminal work 'Aryabhatiya'.\nMajor discoveries:\n• Heliocentric Outlook: Suggested the Earth rotates on its own axis, explaining the apparent daily motion of stars.\n• Scientific Eclipse Theory: Explained that solar and lunar eclipses occur due to shadows cast by the Earth and Moon, discarding mythological demon theories.\n• Sidereal Year: Calculated the length of the year as 365.258 days, remarkably close to modern values.\nHis scientific approach transformed astronomy from mythology to a rigorous observational science."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आर्यभट्ट प्रथम की खगोलीय खोजों की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "आर्यभट्ट प्रथम ने अपने मौलिक ग्रंथ 'आर्यभटीय' में खगोल विज्ञान में क्रांतिकारी अवधारणाएं प्रस्तावित की थीं।\nप्रमुख खोजें:\n• पृथ्वी का घूर्णन: सुझाव दिया कि पृथ्वी अपनी धुरी पर घूमती है, जिससे तारों की दैनिक गति स्पष्ट होती है।\n• ग्रहण का वैज्ञानिक सिद्धांत: बताया कि सूर्य और चंद्र ग्रहण पृथ्वी और चंद्रमा की छाया के कारण होते हैं, राहु-केतु की पौराणिक अवधारणाओं को खारिज किया।\n• नाक्षत्र वर्ष: वर्ष की लंबाई 365.258 दिन आंकी, जो आधुनिक मानों के अत्यंत निकट है।\nउनके वैज्ञानिक दृष्टिकोण ने खगोल विज्ञान को पौराणिक कथाओं से बदलकर एक कठोर प्रेक्षण विज्ञान में बदल दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the contributions of the Sushruta Samhita to ancient surgery. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Compiled by Sushruta (c. 600 BCE), the 'Sushruta Samhita' is the foundational text of Indian surgery (Shalya Tantra).\nKey contributions:\n• Rhinoplasty: Described reconstruction of the nose, earning Sushruta the title 'Father of Plastic Surgery'.\n• Surgical Instruments: Detailed over 120 surgical tools and protocols for sterilization and anesthesia.\n• Procedures: Outlined complex procedures like cataract surgery (couching), lithotomy, and caesarian sections.\nThis text established ancient India's supremacy in surgery and anatomy centuries ahead of its time."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन शल्यचिकित्सा में सुश्रुत संहिता के योगदान का मूल्यांकन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "सुश्रुत (लगभग 600 ईसा पूर्व) द्वारा संकलित 'सुश्रुत संहिता' भारतीय शल्यचिकित्सा (शल्य तंत्र) का आधारभूत ग्रंथ है।\nमुख्य योगदान:\n• राइनोप्लास्टी: नाक के पुनर्निर्माण का वर्णन किया, जिससे सुश्रुत को 'प्लास्टिक सर्जरी का जनक' कहा गया।\n• शल्य उपकरण: 120 से अधिक उपकरणों तथा नसबंदी एवं संज्ञाहरण (एनेस्थीसिया) के प्रोटोकॉल का विवरण दिया।\n• जटिल प्रक्रियाएं: मोतियाबिंद सर्जरी, पथरी निकालना और सिजेरियन ऑपरेशन का वर्णन किया।\nइस ग्रंथ ने समय से सदियों पहले शल्यचिकित्सा और शरीर रचना विज्ञान में प्राचीन भारत की सर्वोच्चता स्थापित की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the core focus and medical concepts of the Charaka Samhita. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Charaka Samhita (c. 2nd Century CE) is the principal text of ancient Indian internal medicine (Kaya Chikitsa).\nKey concepts:\n• Tridosha Theory: Health depends on the balance of three bodily humors (Vata, Pitta, Kapha).\n• Prevention & Dietetics: Emphasized that diet, hygiene, and daily routine (Dinacharya) prevent disease.\n• Diagnosis: Detailed diagnostic methods involving pulse reading, sensory examination, and patient history.\nIt remains the bedrock of Ayurvedic philosophy, focusing on holistic health rather than just treating symptoms."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चरक संहिता के मूल विषय और चिकित्सा अवधारणाओं की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "चरक संहिता (लगभग दूसरी शताब्दी ईस्वी) प्राचीन भारतीय आंतरिक चिकित्सा (काय चिकित्सा) का प्रमुख ग्रंथ है।\nमुख्य अवधारणाएँ:\n• त्रिदोष सिद्धांत: स्वास्थ्य शरीर के तीन दोषों (वात, पित्त, कफ) के संतुलन पर निर्भर करता है।\n• निवारक और आहार विज्ञान: इस बात पर बल दिया कि आहार, स्वच्छता और दिनचर्या रोगों से बचाती है।\n• निदान: नाड़ी परीक्षण, शारीरिक परीक्षण और रोगी के इतिहास पर आधारित नैदानिक विधियों का वर्णन किया।\nयह आयुर्वेदिक दर्शन का आधार स्तंभ बना हुआ है, जो केवल लक्षणों के उपचार के बजाय समग्र स्वास्थ्य पर ध्यान केंद्रित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the historical importance of Vagbhata's 'Ashtanga Hridaya'? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Vagbhata (c. 7th century CE) compiled the 'Ashtanga Hridaya', synthesizing the ancient medical knowledge of India.\nKey features:\n• Synthesis: Integrated internal medicine (from Charaka) and surgical principles (from Sushruta) into a cohesive manual.\n• Eight Branches (Ashtanga): Covered internal medicine, surgery, pediatrics, toxicology, psychiatry, ENT, rejuvenation, and aphrodisiacs.\n• Popularity: Written in elegant Sanskrit poetry, making it highly accessible and widely used in South India.\nIt successfully standardized Ayurvedic education and practice during the post-Gupta era."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वाग्भट्ट के 'अष्टांग हृदय' का ऐतिहासिक महत्व क्या है? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "वाग्भट्ट (लगभग 7वीं शताब्दी ईस्वी) ने भारत के प्राचीन चिकित्सा ज्ञान का संश्लेषण करते हुए 'अष्टांग हृदय' का संकलन किया।\nमुख्य विशेषताएं:\n• संश्लेषण: आंतरिक चिकित्सा (चरक से) और शल्य चिकित्सा सिद्धांतों (सुश्रुत से) को एक सुसंगत नियमावली में एकीकृत किया।\n• आठ अंग (अष्टांग): कायचिकित्सा, शल्य, कौमारभृत्य (बाल रोग), अगद तंत्र (विष विज्ञान), भूतविद्या (मनोचिकित्सा), शालाक्य (ईएनटी), रसायन और वाजीकरण।\n• लोकप्रियता: इसे सुंदर संस्कृत पद्य में लिखा गया, जिससे यह दक्षिण भारत में अत्यधिक सुलभ और व्यापक रूप से लोकप्रिय हुआ।\nइसने गुप्तोत्तर काल के दौरान आयुर्वेदिक शिक्षा और अभ्यास का सफलतापूर्वक मानकीकरण किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the contributions of Madhava of Sangamagrama to mathematics. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Madhava (c. 1340-1425 CE) founded the Kerala School of Astronomy and Mathematics, pioneering calculus concepts.\nKey contributions:\n• Infinite Series: Discovered the power series expansions for sine, cosine, and arctangent (the Madhava-Leibniz series).\n• Value of Pi: Calculated Pi to 11 decimal places using an infinite series.\n• Calculus Foundations: Introduced early concepts of mathematical analysis and limits.\nHis pathbreaking work anticipated key discoveries of European calculus by nearly three centuries."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. माधव (संगमग्राम) के गणित में योगदान को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "संगमग्राम के माधव (लगभग 1340-1425 ईस्वी) ने केरल स्कूल ऑफ एस्ट्रोनॉमी एंड मैथमेटिक्स की स्थापना की और कलन (कैलकुलस) की अवधारणाओं का मार्ग प्रशस्त किया।\nप्रमुख योगदान:\n• अनंत श्रेणी: साइन, कोसाइन और आर्कटेंगेंट के लिए घात श्रेणी (पावर सीरीज़) विस्तार की खोज की (माधव-लाइबनिज़ श्रेणी)।\n• पाई (π) का मान: अनंत श्रेणी का उपयोग करके पाई का मान 11 दशमलव स्थानों तक निकाला।\n• कलन की नींव: गणितीय विश्लेषण और सीमाओं (लिमिट्स) की प्रारंभिक अवधारणाओं को प्रस्तुत किया।\nउनके इस पथप्रदर्शक कार्य ने यूरोपीय कलन की खोजों का लगभग तीन शताब्दी पहले ही पूर्वानुमान लगा लिया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the significance of Bhaskaracharya II's 'Lilavati'. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Bhaskaracharya II (12th century CE) wrote 'Lilavati', a masterpiece of arithmetic and geometry.\nSignificance:\n• Pedagogical Style: Written in poetic verses addressing his daughter, making mathematics engaging and accessible.\n• Key Concepts: Covered permutations, combinations, progressions, and indeterminate quadratic equations.\n• Practical Application: Included word problems relating to daily life, trade, and measurement.\nIt remained the standard textbook for mathematics across South Asia for centuries and was translated globally."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भास्कराचार्य द्वितीय की कृति 'लीलावती' के महत्व पर प्रकाश डालिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "भास्कराचार्य द्वितीय (12वीं शताब्दी ईस्वी) ने अंकगणित और ज्यामिति का उत्कृष्ट ग्रंथ 'लीलावती' लिखा था।\nमहत्व:\n• शैक्षणिक शैली: अपनी पुत्री को संबोधित करते हुए काव्यात्मक छंदों में लिखा गया, जिसने गणित को आकर्षक और सुलभ बनाया।\n• प्रमुख अवधारणाएँ: इसमें क्रमपरिवर्तन (परम्यूटेशन), संयोजन, श्रेढ़ी और अनिर्धारित द्विघात समीकरण शामिल थे।\n• व्यावहारिक अनुप्रयोग: इसमें दैनिक जीवन, व्यापार और माप से संबंधित व्यावहारिक समस्याओं को शामिल किया गया।\nयह सदियों तक दक्षिण एशिया में गणित की मानक पाठ्यपुस्तक बनी रही और इसका वैश्विक अनुवाद हुआ।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the role of Nagarjuna in the development of Rasashastra (metallic medicine). [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Nagarjuna (c. 8th-10th century CE) was a legendary alchemist who revolutionized Indian medicine through Rasashastra.\nKey contributions:\n• Mercury Processing: Standardized the purification (shodhana) and calcination (marana) of mercury for therapeutic use.\n• Metal-based Bhasmas: Developed methods to convert heavy metals (gold, silver, iron) into non-toxic bhasmas (oxides).\n• Medical Shift: Shifted Ayurveda's focus from purely herbal formulations to potent mineral-based drugs.\nHis works like 'Rasaratnakara' laid the foundation of inorganic chemistry and pharmacology in ancient India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. रसशास्त्र (धातु चिकित्सा) के विकास में नागार्जुन की भूमिका की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "नागार्जुन (लगभग 8वीं-10वीं शताब्दी ईस्वी) एक प्रसिद्ध कीमियागर थे जिन्होंने रसशास्त्र के माध्यम से भारतीय चिकित्सा में क्रांति ला दी।\nमुख्य योगदान:\n• पारे का प्रसंस्करण: चिकित्सीय उपयोग के लिए पारे के शुद्धिकरण (शोधन) और भस्म बनाने की प्रक्रिया का मानकीकरण किया।\n• धातु भस्म: भारी धातुओं (सोना, चांदी, लोहा) को गैर-विषैले भस्म (ऑक्साइड) में परिवर्तित करने की विधि विकसित की।\n• चिकित्सा में बदलाव: आयुर्वेद को केवल जड़ी-बूटियों से हटाकर खनिज आधारित औषधियों की ओर मोड़ा।\nउनकी रचनाओं जैसे 'रसरत्नाकर' ने प्राचीन भारत में अकार्बनिक रसायन विज्ञान और औषधि विज्ञान की नींव रखी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Briefly trace the origin and evolution of the concept of 'Shunya' (Zero) in ancient India. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The concept of 'Shunya' (zero) evolved in India from a philosophical idea of emptiness to a mathematical reality.\nKey phases:\n• Vedic & Philosophical Roots: Present in Upanishads and Pingala's Chandasutra (c. 3rd century BCE) as a placeholder.\n• Mathematical Symbolism: Formalized in the Bakhshali Manuscript (c. 3rd-4th century CE) with a dot symbol.\n• Algebraic Integration: Aryabhata used it in place-value, and Brahmagupta defined it as a number in arithmetic operations.\nThis breakthrough revolutionized global mathematics by enabling the modern decimal system."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारत में 'शून्य' की अवधारणा की उत्पत्ति और विकास का संक्षिप्त विवरण दीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "भारत में 'शून्य' की अवधारणा शून्यता के दार्शनिक विचार से विकसित होकर एक गणितीय वास्तविकता बनी।\nप्रमुख चरण:\n• वैदिक और दार्शनिक जड़ें: उपनिषदों और पिंगल के छंदसूत्र (लगभग तीसरी शताब्दी ईसा पूर्व) में एक संकेतक के रूप में मौजूद।\n• गणितीय प्रतीकवाद: बख्शली पांडुलिपि (लगभग तीसरी-चौथी शताब्दी ईस्वी) में एक बिंदु प्रतीक के रूप में औपचारिक रूप दिया गया।\n• बीजगणितीय एकीकरण: आर्यभट्ट ने स्थानीय मान में इसका उपयोग किया, और ब्रह्मगुप्त ने इसे अंकगणितीय संक्रियाओं में संख्या के रूप में परिभाषित किया।\nइस ऐतिहासिक खोज ने आधुनिक दशमलव प्रणाली को सक्षम बनाकर वैश्विक गणित में क्रांति ला दी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare and contrast the medical systems, philosophies, and surgical contributions of the 'Charaka Samhita' and the 'Sushruta Samhita'. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The 'Charaka Samhita' and 'Sushruta Samhita' are the twin pillars of Ayurveda (ancient Indian medicine).\nWhile both share common concepts like the Tridosha system, they differ fundamentally in focus, methodology, and application.\n\n| Feature / Dimension | Charaka Samhita | Sushruta Samhita |\n| :--- | :--- | :--- |\n| **Primary Focus** | Kaya Chikitsa (Internal Medicine) | Shalya Tantra (Surgery) |\n| **Philosophy** | Humoral balance, dietary regulations, lifestyle, and spiritual well-being. | Direct anatomical observation, dissection, and mechanical intervention. |\n| **Surgical Scope** | Minor procedures (e.g., incision of abscesses); relies heavily on herbs. | Over 300 procedures: plastic surgery (rhinoplasty), cataract extraction, lithotomy. |\n| **Instruments** | Minimal focus on tools; emphasizes complex herbal formulations. | Describes over 120 surgical instruments (Yantras and Shastras) shaped like animals/birds. |\n| **Anatomy** | Emphasized internal metabolic processes and digestion (Agni). | Detailed anatomical description via human body dissection techniques. |\n\nIn conclusion, while Charaka established the internal medicine and preventive health framework of Ayurveda, Sushruta elevated surgery to an advanced science, making ancient Indian medicine a holistic and comprehensive healthcare system."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'चरक संहिता' और 'सुश्रुत संहिता' की चिकित्सा प्रणालियों, दर्शन और शल्यचिकित्सीय योगदानों का तुलनात्मक विश्लेषण कीजिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "'चरक संहिता' और 'सुश्रुत संहिता' आयुर्वेद (प्राचीन भारतीय चिकित्सा) के दो मुख्य स्तंभ हैं।\nयद्यपि दोनों में त्रिदोष प्रणाली जैसी सामान्य अवधारणाएँ साझा हैं, फिर भी वे अपने दृष्टिकोण, कार्यप्रणाली और अनुप्रयोग में मौलिक रूप से भिन्न हैं।\n\n| विशेषता / आयाम | चरक संहिता | सुश्रुत संहिता |\n| :--- | :--- | :--- |\n| **मुख्य ध्यान** | काय चिकित्सा (आंतरिक चिकित्सा) | शल्य तंत्र (शल्य चिकित्सा/सर्जरी) |\n| **दर्शन** | शारीरिक दोषों का संतुलन, आहार नियम, जीवन शैली और आध्यात्मिक कल्याण। | प्रत्यक्ष शारीरिक अवलोकन, शव विच्छेदन और यांत्रिक हस्तक्षेप। |\n| **शल्य चिकित्सा का दायरा** | लघु प्रक्रियाएं (जैसे फोड़े का चीरा); जड़ी-बूटियों पर अधिक निर्भरता। | 300 से अधिक प्रक्रियाएं: राइनोप्लास्टी (प्लास्टिक सर्जरी), मोतियाबिंद, पथरी निकालना। |\n| **उपकरण** | उपकरणों पर कम ध्यान; जटिल हर्बल फॉर्मूलेशन पर जोर। | पशु-पक्षियों के आकार के 120 से अधिक शल्य चिकित्सा उपकरणों (यंत्र और शस्त्र) का विवरण। |\n| **शरीर रचना विज्ञान** | आंतरिक चयापचय प्रक्रियाओं और पाचन (अग्नि) पर जोर। | मानव शव विच्छेदन तकनीकों के माध्यम से विस्तृत शारीरिक रचना का विवरण। |\n\nनिष्कर्षतः, जहाँ चरक ने आंतरिक चिकित्सा और निवारक स्वास्थ्य का ढांचा स्थापित किया, वहीं सुश्रुत ने शल्य चिकित्सा को एक उन्नत विज्ञान के स्तर पर पहुँचाया, जिससे प्राचीन भारतीय चिकित्सा एक समग्र प्रणाली बनी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Trace the development of mathematical sciences in ancient India, focusing on the achievements of Aryabhata I, Brahmagupta, and Bhaskaracharya II. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Mathematics in ancient India transitioned from practical geometry (Vedic period) to advanced algebra and calculus during the classical age (5th-12th Century CE).\nThe evolution is marked by these key scholars:\n\n1. **Aryabhata I (5th c. CE)**:\n   • Introduced the concept of sine (jya) and approximated Pi (π) to 3.1416.\n   • Formulated methods for square and cube root extraction within a decimal system.\n2. **Brahmagupta (7th c. CE)**:\n   • Formulated rules for negative numbers and arithmetic operations involving zero in 'Brahmasphutasiddhanta'.\n   • Discovered the formula for the area of a cyclic quadrature: $A = \\sqrt{(s-a)(s-b)(s-c)(s-d)}$.\n3. **Bhaskaracharya II (12th c. CE)**:\n   • Authored 'Siddhanta Shiromani' (sections: Lilavati, Bijaganita, Grahaganita, Goladhyaya).\n   • Solved quadratic and indeterminate equations (Chakravala method) and anticipated differential calculus.\n\nTogether, these mathematicians established a base of arithmetic, algebra, and geometry that later traveled to Europe through Arab translations, reshaping global mathematics."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आर्यभट्ट प्रथम, ब्रह्मगुप्त और भास्कराचार्य द्वितीय की उपलब्धियों पर ध्यान केंद्रित करते हुए प्राचीन भारत में गणितीय विज्ञान के विकास को रेखांकित कीजिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारत में गणित शास्त्रीय युग (5वीं से 12वीं शताब्दी ईस्वी) के दौरान व्यावहारिक ज्यामिति (वैदिक काल) से उन्नत बीजगणित और कलन में परिवर्तित हुआ।\nइस विकास को इन प्रमुख विद्वानों द्वारा चिह्नित किया गया है:\n\n1. **आर्यभट्ट प्रथम (5वीं सदी ईस्वी)**:\n   • ज्या (sine) की अवधारणा प्रस्तुत की और पाई (π) का मान 3.1416 आंका।\n   • दशमलव प्रणाली के भीतर वर्गमूल और घनमूल निकालने की विधियाँ तैयार कीं।\n2. **ब्रह्मगुप्त (7वीं सदी ईस्वी)**:\n   • 'ब्राह्मस्फुटसिद्धान्त' में ऋणात्मक संख्याओं और शून्य से जुड़ी अंकगणितीय संक्रियाओं के नियम बनाए।\n   • चक्रीय चतुर्भुज के क्षेत्रफल का सूत्र दिया: $A = \\sqrt{(s-a)(s-b)(s-c)(s-d)}$।\n3. **भास्कराचार्य द्वितीय (12वीं सदी ईस्वी)**:\n   • 'सिद्धांत शिरोमणि' (भाग: लीलावती, बीजगणित, गृहगणित, गोलाध्याय) की रचना की।\n   • अनिर्धारित द्विघात समीकरणों को हल करने की 'चक्रवाल विधि' दी और अवकलन कलन (डिफरेंशियल कैलकुलस) का पूर्वानुमान लगाया।\n\nइन गणितज्ञों ने अंकगणित, बीजगणित और ज्यामिति का ऐसा आधार स्थापित किया जो बाद में अरबी अनुवादों के माध्यम से यूरोप पहुँचा और वैश्विक गणित को पुनर्परिभाषित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the development of astronomy in ancient India. Highlight the major 'Siddhantas' and the contributions of Aryabhata and Varahamihira. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Astronomy (Jyotisha Shastra) in ancient India evolved from Vedic cosmological speculation into a rigorous mathematical science.\nThis transition is visible in the five classical Siddhantas and the works of major scholars:\n\n| Astronomical System / Scholar | Key Contributions & Scientific Significance |\n| :--- | :--- |\n| **The Five Siddhantas** | Summarized in *Panchasiddhantika* (Paulisa, Romaka, Vasistha, Saura, Paitamaha); established models for planetary motion, solar/lunar eclipses, and time calculations. |\n| **Aryabhata I** | Proposed axial rotation of Earth causing day and night; scientifically explained eclipses as shadows; calculated the sidereal year (365.258 days). |\n| **Varahamihira** | Compiled mathematical astronomy; wrote *Brihat Samhita*, discussing planetary movements, eclipses, geology, and atmospheric sciences. |\n| **Brahmagupta** | Refined planetary longitude calculations and gravity observations, stating that objects fall because it is the Earth's nature to attract them. |\n\nRefined observations replaced mythological explanations of celestial events with mathematical computations and systematic observations."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारत में खगोल विज्ञान के विकास का मूल्यांकन कीजिए। प्रमुख 'सिद्धांतों' तथा आर्यभट्ट एवं वराहमिहिर के योगदान पर प्रकाश डालिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारत में खगोल विज्ञान (ज्योतिष शास्त्र) वैदिक ब्रह्मांडीय अनुमानों से विकसित होकर एक कठोर गणितीय विज्ञान बन गया।\nयह परिवर्तन पांच शास्त्रीय सिद्धांतों और प्रमुख विद्वानों के कार्यों में दिखाई देता है:\n\n| खगोलीय प्रणाली / विद्वान | प्रमुख योगदान और वैज्ञानिक महत्व |\n| :--- | :--- |\n| **पांच सिद्धांत** | *पंचसिद्धांतिका* में संकलित (पौलिश, रोमक, वसिष्ठ, सौर, पितामह); ग्रहों की गति, ग्रहण और समय गणना के मॉडल स्थापित किए। |\n| **आर्यभट्ट प्रथम** | पृथ्वी के अपनी धुरी पर घूमने का सिद्धांत दिया; ग्रहणों को वैज्ञानिक रूप से छाया के रूप में समझाया; नाक्षत्र वर्ष (365.258 दिन) की गणना की। |\n| **वराहमिहिर** | गणितीय खगोल विज्ञान को संकलित किया; *वृहद संहिता* लिखी, जिसमें ग्रहों की गति, ग्रहण, भूविज्ञान और मौसम विज्ञान पर चर्चा की। |\n| **ब्रह्मगुप्त** | ग्रहों के देशांतरों की गणना और गुरुत्वाकर्षण टिप्पणियों को परिष्कृत किया, कहा कि पृथ्वी का स्वभाव वस्तुओं को आकर्षित करना है। |\n\nइस प्रकार, प्राचीन भारतीय खगोल विज्ञान अत्यंत व्यावहारिक था, जिसने खगोलीय घटनाओं के पौराणिक स्पष्टीकरणों को गणितीय गणनाओं और व्यवस्थित अवलोकनों से बदल दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the contributions of the Kerala School of Astronomy and Mathematics, particularly Madhava of Sangamagrama, to infinite series and pre-calculus. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Kerala School of Astronomy and Mathematics (14th to 16th century CE), founded by Madhava of Sangamagrama, was a major center for mathematical innovation.\nIt anticipated key elements of European calculus centuries before Newton and Leibniz.\n\nKey developments include:\n• **Infinite Series (Madhava's Series)**: Madhava discovered the power series expansions for trigonometric functions, including the sine, cosine, and arctangent series. These are mathematically equivalent to the Taylor and Maclaurin series.\n• **Value of Pi (π)**: Madhava calculated Pi to 11 decimal places ($3.14159265359$) using an infinite series expansion, and later Kerala scholars extended it to 17 decimal places.\n• **Approximation and Calculus**: Scholars like Jyesthadeva (in *Yuktibhasa*, the world's first calculus textbook) detailed proofs for these series, utilizing concepts of limits, integration, and differentiation.\n• **Planetary Models**: Nilakantha Somayaji (in *Tantrasangraha*) proposed a heliocentric model where planets orbit the Sun, which in turn orbits the Earth.\n\nThus, the Kerala school was unique in establishing rigorous mathematical proofs and calculus foundations, bridging the classical Indian tradition with modern mathematics."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. केरल स्कूल ऑफ एस्ट्रोनॉमी एंड मैथमेटिक्स, विशेष रूप से संगमग्राम के माधव, के अनंत श्रेणियों और पूर्व-कलन (प्री-कैलकुलस) में योगदान की चर्चा कीजिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "संगमग्राम के माधव द्वारा स्थापित केरल स्कूल ऑफ एस्ट्रोनॉमी एंड मैथमेटिक्स (14वीं से 16वीं शताब्दी) गणितीय नवाचार का एक प्रमुख केंद्र था।\nइसने न्यूटन और लाइबनिज़ से सदियों पहले यूरोपीय कलन (कैलकुलस) के प्रमुख तत्वों का पूर्वानुमान लगाया था।\n\nप्रमुख विकासों में शामिल हैं:\n• **अनंत श्रेणी (माधव श्रेणी)**: माधव ने त्रिकोणमितीय कार्यों के लिए घात श्रेणी (पावर सीरीज़) विस्तार की खोज की, जिसमें साइन, कोसाइन और आर्कटेंगेंट श्रेणियां शामिल हैं। ये टेलर और मैकलॉरिन श्रेणियों के समकक्ष हैं।\n• **पाई (π) का मान**: माधव ने अनंत श्रेणी का उपयोग करके पाई का मान 11 दशमलव स्थानों ($3.14159265359$) तक शुद्ध निकाला, जिसे बाद के विद्वानों ने 17 स्थानों तक बढ़ाया।\n• **कलन की नींव**: ज्येष्ठदेव (विश्व की पहली कलन पाठ्यपुस्तक *युक्तिभाषा* में) ने सीमा (limit), समाकलन (integration) और अवकलन (differentiation) का उपयोग करके इन श्रेणियों के प्रमाण प्रस्तुत किए।\n• **खगोलीय मॉडल**: नीलकंठ सोमयाजी (*तन्त्रसंग्रह*) ने एक अर्ध-सूर्यकेंद्रित मॉडल प्रस्तावित किया जिसमें ग्रह सूर्य की परिक्रमा करते हैं और सूर्य पृथ्वी की।\n\nइस प्रकार, केरल स्कूल ने कठोर गणितीय प्रमाणों और कलन की नींव स्थापित की, जिसने शास्त्रीय भारतीय गणित को आधुनिक गणित से जोड़ा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Examine the ethical standards, educational methods, and clinical protocols described in ancient Indian medical treatises (Ayurveda). [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Ancient Indian medical treatises, primarily the 'Charaka Samhita' and 'Sushruta Samhita', laid down comprehensive guidelines for the medical profession.\nThese guidelines covered ethics, training, and clinical practices:\n\n*   **Medical Ethics**: The 'Charaka Oath' outlines strict ethical codes for physicians, emphasizing compassion, confidentiality, and treating patients without commercial greed. A physician is expected to dedicate themselves entirely to the well-being of the sick.\n*   **Educational Methods**: Medical training combined theoretical study with rigorous practical training. Sushruta pioneered anatomical training by using gourds, cucumbers, and dead animals for surgical practice before operating on humans.\n*   **Clinical Protocols**: Treatment followed a structured framework based on the *Chatushpada* (four pillars of therapy):\n    1. *Bhisak* (Physician): Highly skilled and knowledgeable.\n    2. *Dravya* (Medicine/Substance): Sourced properly and prepared correctly.\n    3. *Upasthata* (Nurse/Attendant): Compassionate and clean.\n    4. *Rogi* (Patient): Cooperative and expressive.\n\nBy formalizing these protocols, ancient Indian medicine established a highly organized, professional, and ethical healthcare delivery system."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय चिकित्सा ग्रंथों (आयुर्वेद) में वर्णित नैतिक मानकों, शैक्षणिक विधियों और नैदानिक प्रोटोकॉल का परीक्षण कीजिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारतीय चिकित्सा ग्रंथों, मुख्य रूप से 'चरक संहिता' और 'सुश्रुत संहिता' ने चिकित्सा पेशे के लिए व्यापक दिशा-निर्देश निर्धारित किए।\nये दिशा-निर्देश नैतिकता, प्रशिक्षण और नैदानिक प्रथाओं को कवर करते थे:\n\n*   **चिकित्सा नैतिकता**: 'चरक शपथ' चिकित्सकों के लिए करुणा, गोपनीयता और व्यावसायिक लालच के बिना मरीजों का इलाज करने पर जोर देती है। चिकित्सक से बीमारों के कल्याण के लिए पूर्णतः समर्पित होने की अपेक्षा की जाती है।\n*   **शैक्षणिक विधियाँ**: चिकित्सा प्रशिक्षण में सैद्धांतिक अध्ययन को व्यावहारिक प्रशिक्षण के साथ जोड़ा गया था। सुश्रुत ने मनुष्यों पर सर्जरी करने से पहले कद्दू, खीरे और मृत जानवरों पर शल्य चिकित्सा अभ्यास की शुरुआत की।\n*   **नैदानिक प्रोटोकॉल**: उपचार *चतुष्पाद* (चिकित्सा के चार स्तंभ) पर आधारित था:\n    1. *भिषक्* (चिकित्सक): अत्यधिक कुशल और ज्ञानी।\n    2. *द्रव्य* (औषधि): उचित रूप से प्राप्त और शुद्ध।\n    3. *उपस्थाता* (परिचारक/नर्स): स्वच्छ और सेवाभावी।\n    4. *रोगी* (मरीज): आज्ञाकारी और अपनी स्थिति बताने में सक्षम।\n\nइन प्रोटोकॉल को औपचारिक रूप देकर, प्राचीन भारतीय चिकित्सा ने एक अत्यधिक संगठित, पेशेवर और नैतिक स्वास्थ्य सेवा प्रणाली स्थापित की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the evolution of geometry in ancient India from the Sulba Sutras to the classical mathematical period. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Geometry in ancient India evolved from practical, ritual-based measurements during the Vedic era into a formalized, abstract branch of mathematics in the classical period.\nThis trajectory is structured as follows:\n\n• **Vedic Phase (c. 800 - 500 BCE)**: Found in the *Sulba Sutras* (Baudhayana, Apastamba, Katyayana). Geometry was practical, designed for construction of fire-altars (yajnasala). Key discoveries included the theorem of the diagonal (Pythagorean theorem), construction of squares equal in area to circles (squaring the circle), and approximations of irrational numbers like $\\sqrt{2}$.\n• **Classical Transition (c. 5th - 12th Century CE)**: Mathematicians shifted focus to planetary models, land measurements, and algebra.\n  • *Aryabhata I* calculated areas of triangles and circles and developed trigonometry (sine tables).\n  • *Brahmagupta* made major progress in cyclic quadrilaterals, providing the formula for their area and diagonals.\n  • *Bhaskara II* in *Lilavati* solved complex problems involving right-angled triangles, shadows, and height/distance measurements.\n\nThus, Indian geometry progressed from sacred, practical constructions to analytical coordinate and trigonometric geometry, influencing global mathematics."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. शुल्ब सूत्रों से लेकर शास्त्रीय गणितीय काल तक प्राचीन भारत में ज्यामिति के विकास का विश्लेषण कीजिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारत में ज्यामिति वैदिक काल के दौरान व्यावहारिक, अनुष्ठान-आधारित मापों से विकसित होकर शास्त्रीय काल में गणित की एक औपचारिक, अमूर्त शाखा बन गई।\nयह विकास इस प्रकार व्यवस्थित है:\n\n• **वैदिक चरण (लगभग 800 - 500 ईसा पूर्व)**: यह *शुल्ब सूत्रों* (बौधायन, आपस्तम्ब, कात्यायन) में पाया जाता है। ज्यामिति व्यावहारिक थी, जो यज्ञवेदी के निर्माण के लिए थी। इसमें विकर्ण का प्रमेय (पाइथागोरस प्रमेय), वृत्तों के बराबर वर्ग बनाना और वर्गमूल 2 जैसी अपरिमेय संख्याओं का सन्निकटन शामिल था।\n• **शास्त्रीय संक्रमण (लगभग 5वीं - 12वीं शताब्दी ईस्वी)**: गणितज्ञों ने अपना ध्यान खगोलीय मॉडल, भूमि माप और बीजगणित पर केंद्रित किया।\n  • *आर्यभट्ट प्रथम* ने त्रिभुज और वृत्त के क्षेत्रफल की गणना की और त्रिकोणमिति (ज्या सारणी) का विकास किया।\n  • *ब्रह्मगुप्त* ने चक्रीय चतुर्भुज के क्षेत्रफल और विकर्णों के निर्धारण में महत्वपूर्ण प्रगति की।\n  • *भास्कराचार्य द्वितीय* ने *लीलावती* में समकोण त्रिभुजों, छाया और ऊंचाई/दूरी से संबंधित जटिल ज्यामितीय समस्याओं को हल किया।\n\nइस प्रकार, भारतीय ज्यामिति पवित्र यज्ञवेदी निर्माण से विश्लेषणात्मक और त्रिकोणमितीय ज्यामिति की ओर बढ़ी, जिसने वैश्विक गणित को प्रभावित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Outline the global transmission and impact of ancient Indian mathematics, astronomy, and medicine to the Arab world and Europe. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Ancient Indian scientific developments significantly shaped global science through translation and trade routes, acting as a catalyst for the European Renaissance.\nThe transmission can be understood through the following channels:\n\n| Discipline | Transmission Channel & Key Translators | Global Impact |\n| :--- | :--- | :--- |\n| **Mathematics** | Al-Khwarizmi (9th c. Baghdad) adapted the Indian decimal place-value system and zero in his work *Kitab al-Jam' wat-Tafriq bi-Hisab al-Hind*. | Introduced the 'Arabic' (originally Hindu-Arabic) numerals to Europe, replacing Roman numerals. |\n| **Astronomy** | Brahmagupta's *Brahmasphutasiddhanta* was translated into Arabic as *Sindhind* by Al-Fazari (Baghdad Court). | Laid the foundation of Islamic astronomy and tables (Zij), which later entered medieval Europe. |\n| **Medicine** | Charaka and Sushruta Samhitas were translated into Arabic (as *Sharaka* and *Sasrada*) during the Abbasid Caliphate (Harun al-Rashid). | Influenced Islamic physicians like Ibn Sina (Avicenna) and Rhazes, shaping European medical education for centuries. |\n\nUltimately, this transmission bridged East and West, establishing Indian computational and medical concepts as the foundation of modern global science."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय गणित, खगोल विज्ञान और चिकित्सा के अरब जगत और यूरोप में वैश्विक प्रसार और प्रभाव को रेखांकित कीजिए। [10 Marks, 150 Words]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारतीय वैज्ञानिक विकासों ने अनुवाद और व्यापार मार्गों के माध्यम से वैश्विक विज्ञान को महत्वपूर्ण रूप से आकार दिया, जिससे यूरोपीय पुनर्जागरण को गति मिली।\nइस प्रसार को निम्नलिखित माध्यमों से समझा जा सकता है:\n\n| विषय | प्रसार का माध्यम और प्रमुख अनुवादक | वैश्विक प्रभाव |\n| :--- | :--- | :--- |\n| **गणित** | अल-ख्वारिज्मी (9वीं सदी, बगदाद) ने अपने ग्रंथ *किताब अल-जमा वत-तफ्रीक बि-हिसाब अल-हिंद* में भारतीय दशमलव स्थानीय मान और शून्य को अपनाया। | यूरोप में 'अरबी' (मूल रूप से हिंदू-अरबी) अंकों की शुरुआत हुई, जिसने रोमन अंकों का स्थान लिया। |\n| **खगोल विज्ञान** | ब्रह्मगुप्त के *ब्राह्मस्फुटसिद्धान्त* का अल-फजारी द्वारा अरबी में *सिंधिंद* के रूप में अनुवाद किया गया। | इस्लामी खगोल विज्ञान और तालिकाओं (जिज) की नींव रखी, जो बाद में मध्यकालीन यूरोप पहुँची। |\n| **चिकित्सा** | अब्बासी खिलाफत (हारून अल-रशीद) के दौरान चरक और सुश्रुत संहिताओं का अरबी में (*शरक* और *ससरद*) अनुवाद किया गया। | इब्न सीना (अविसेना) और राजी जैसे इस्लामी चिकित्सकों को प्रभावित किया, जिन्होंने यूरोपीय चिकित्सा शिक्षा को आकार दिया। |\n\nनिष्कर्षतः, इस प्रसार ने पूर्व और पश्चिम को जोड़ा, जिससे भारतीय गणनात्मक और चिकित्सा अवधारणाएँ आधुनिक वैश्विक विज्ञान का आधार बनीं।"
+    }
+  ]
+}

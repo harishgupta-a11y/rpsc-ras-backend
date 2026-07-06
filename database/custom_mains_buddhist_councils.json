@@ -1,0 +1,204 @@
+{
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the historical significance of the First Buddhist Council. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The First Buddhist Council was convened in 483 BC at Rajgriha (Sattaparni Cave) under the patronage of King Ajatashatru and presidency of Mahakassapa, shortly after Buddha's Mahaparinirvana.\n\n* **Preservation of Teachings:** The teachings of Buddha were compiled into two Pitakas: Sutta Pitaka (by Ananda) and Vinaya Pitaka (by Upali).\n* **Unity of Sangha:** It resolved disputes regarding monastic rules and ensured doctrine preservation.\n\nThus, it successfully established the first authoritative canon, safeguarding Buddhist teachings for future generations."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रथम बौद्ध संगीति के ऐतिहासिक महत्व की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रथम बौद्ध संगीति का आयोजन 483 ईसा पूर्व में बुद्ध के महापरिनिर्वाण के तुरंत बाद, राजा अजातशत्रु के संरक्षण और महाकस्सप की अध्यक्षता में राजगृह (सप्तपर्णी गुफा) में किया गया था।\n\n* **शिक्षाओं का संकलन:** बुद्ध के उपदेशों को दो पिटकों में संकलित किया गया: सुत्त पिटक (आनंद द्वारा) और विनय पिटक (उपाली द्वारा)।\n* **संघ की एकता:** इसने भिक्षुओं के नियमों से जुड़े विवादों को सुलझाया और सैद्धांतिक शुद्धता सुनिश्चित की।\n\nइस प्रकार, इसने आने वाली पीढ़ियों के लिए बौद्ध शिक्षाओं को सुरक्षित करते हुए पहला प्रामाणिक ग्रंथ स्थापित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the causes and consequences of the Second Buddhist Council. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Convened in 383 BC at Vaishali under the patronage of King Kalasoka and presidency of Sabakami, this council addressed rising laxity in monastic discipline.\n\n* **Cause:** Dispute over the 'Ten Points' (Dasa Vatthuni) involving relaxations in monastic rules (like accepting gold/silver) by Vaishali monks.\n* **Consequence:** The Sangha split into two major factions: Sthaviravadins (traditionalists) and Mahasanghikas (reformists/liberals).\n\nThis council marked the first formal schism, laying the foundation for future major sects like Hinayana and Mahayana."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्वितीय बौद्ध संगीति के कारणों और परिणामों को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "राजा कालाशोक के संरक्षण और सबकामी की अध्यक्षता में 383 ईसा पूर्व में वैशाली में आयोजित इस संगीति में भिक्षु अनुशासन में बढ़ती शिथिलता को संबोधित किया गया।\n\n* **कारण:** वैशाली के भिक्षुओं द्वारा विनय नियमों में दस ढील (दश वत्थुनी) की मांग, जैसे सोना-चांदी स्वीकार करना।\n* **परिणाम:** संघ दो गुटों में विभाजित हो गया: स्थविरवादी (रूढ़िवादी) और महासांघिक (उदारवादी)।\n\nयह संगीति बौद्ध धर्म के पहले औपचारिक विभाजन का प्रतीक बनी, जिसने हीनयान और महायान जैसे भावी संप्रदायों की नींव रखी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Outline the key outcomes of the Third Buddhist Council. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Held in 250 BC at Pataliputra under Emperor Ashoka's patronage and presided over by Moggaliputta Tissa, this council aimed to purify the Sangha from heretical sects.\n\n* **Canon Completion:** The Abhidhamma Pitaka was compiled, finalizing the Tipitaka. Moggaliputta Tissa authored 'Kathavatthu' refuting heretical views.\n* **Missionary Expansion:** Decisions were made to send Buddhist missions to other countries, including Sri Lanka.\n\nIn conclusion, the council institutionalized Theravada orthodoxy and transformed Buddhism into a global missionary religion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तृतीय बौद्ध संगीति के प्रमुख परिणामों को रेखांकित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "सम्राट अशोक के संरक्षण में 250 ईसा पूर्व में पाटलिपुत्र में आयोजित और मोग्गलिपुत्त तिस्स की अध्यक्षता में हुई इस संगीति का उद्देश्य संघ को पाखंडी संप्रदायों से मुक्त करना था।\n\n* **पिटक पूर्णता:** अभिधम्म पिटक का संकलन कर त्रिपिटक को अंतिम रूप दिया गया। मोग्गलिपुत्त तिस्स ने भ्रांतियों के खंडन हेतु 'कथावत्थु' लिखा।\n* **मिशनरी विस्तार:** श्रीलंका सहित अन्य देशों में बौद्ध धर्म प्रचारक मंडल भेजने का निर्णय लिया गया।\n\nनिष्कर्षतः, इस संगीति ने थेरवाद रूढ़िवादिता को संस्थागत रूप दिया और बौद्ध धर्म को वैश्विक स्तर पर विस्तारित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the historical significance of the Fourth Buddhist Council in Kashmir. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Fourth Buddhist Council was held in the 1st century AD at Kundalavana, Kashmir, under Kushan King Kanishka's patronage and Vasumitra's presidency (with Ashvaghosa as vice-president).\n\n* **Formal Division:** It formalized the split of Buddhism into Hinayana (orthodox) and Mahayana (liberal) sects.\n* **Sanskritization:** Discussions were recorded in Sanskrit rather than Pali. Extensive commentaries called 'Vibhashashastras' were compiled.\n\nConsequently, the council paved the way for Mahayana's expansion to Central and East Asia via the Silk Road."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कश्मीर में आयोजित चतुर्थ बौद्ध संगीति के ऐतिहासिक महत्व का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "चतुर्थ बौद्ध संगीति कुषाण राजा कनिष्ठ के संरक्षण और वसुमित्र की अध्यक्षता (अश्वघोष उपाध्यक्ष) में प्रथम शताब्दी ईस्वी में कुंडलवन, कश्मीर में आयोजित की गई थी।\n\n* **औपचारिक विभाजन:** बौद्ध धर्म आधिकारिक तौर पर दो संप्रदायों: हीनयान (रूढ़िवादी) और महायान (उदारवादी) में विभाजित हो गया।\n* **संस्कृतीकरण:** बौद्ध ग्रंथों के लिए पालि के स्थान पर संस्कृत का उपयोग शुरू हुआ। व्यापक टीका ग्रंथ 'विभाषाशास्त्र' संकलित किया गया।\n\nपरिणामस्वरूप, इस संगीति ने सिल्क मार्ग के माध्यम से मध्य और पूर्वी एशिया में महायान के विस्तार का मार्ग प्रशस्त किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the core philosophical differences between Hinayana and Mahayana regarding the status of Gautama Buddha. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Hinayana and Mahayana hold contrasting views regarding the nature of Gautama Buddha.\n\n* **Hinayana Perspective:** Views Buddha as a historical human teacher, guide, and an extraordinary reformer who attained Nirvana through self-effort. Idol worship is absent.\n* **Mahayana Perspective:** Deifies Buddha as a supreme deity, savior, and eternal cosmic force. He is worshipped in anthropomorphic forms (idols) through devotion (Blinking/Bhakti).\n\nThus, Hinayana emphasizes self-reliance based on Buddha's teachings, whereas Mahayana centers on divine grace and devotional worship of the Buddha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गौतम बुद्ध की स्थिति के संबंध में हीनयान और महायान के बीच मुख्य दार्शनिक अंतर स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "बुद्ध की प्रकृति को लेकर हीनयान और महायान में परस्पर विरोधी दृष्टिकोण हैं।\n\n* **हीनयान दृष्टिकोण:** बुद्ध को एक ऐतिहासिक मानव शिक्षक, मार्गदर्शक और असाधारण सुधारक मानता है जिन्होंने व्यक्तिगत प्रयास से निर्वाण प्राप्त किया। मूर्ति पूजा वर्जित है।\n* **महायान दृष्टिकोण:** बुद्ध को ईश्वर, रक्षक और शाश्वत लौकिक शक्ति के रूप में देखता है। भक्ति के माध्यम से उनकी मूर्ति रूप में पूजा की जाती है।\n\nसंक्षेप में, हीनयान बुद्ध की शिक्षाओं पर आधारित आत्मनिर्भरता पर बल देता है, जबकि महायान दिव्य कृपा और भक्ति पर केंद्रित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Write a short note on the concept of Bodhisattva in Mahayana Buddhism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Bodhisattva is the central ethical ideal of Mahayana Buddhism, representing universal compassion.\n\n* **Definition:** A highly evolved being who, despite attaining eligibility for Nirvana, voluntarily delays it to help all sentient beings end suffering.\n* **Key Figures:** Avalokiteshvara (compassion), Manjushri (wisdom), and Maitreya (future Buddha).\n* **Ethical Goal:** Replaces the self-liberation ideal (Arhat) with collective salvation.\n\nThis altruistic concept transformed Buddhism from an ascetic, self-oriented path to a compassionate, globally appealing salvation religion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म में बोधिसत्व की अवधारणा पर एक संक्षिप्त टिप्पणी लिखिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "बोधिसत्व महायान बौद्ध धर्म का केंद्रीय नैतिक आदर्श है, जो सार्वभौमिक करुणा का प्रतिनिधित्व करता है।\n\n* **परिभाषा:** एक ऐसा प्रबुद्ध जीव जो स्वयं निर्वाण प्राप्त करने के योग्य होने के बावजूद, सभी प्राणियों के दुखों को दूर करने के लिए स्वेच्छा से निर्वाण को टाल देता है।\n* **प्रमुख बोधिसत्व:** अवलोकितेश्वर (करुणा), मंजुश्री (ज्ञान), और मैत्रेय (भावी बुद्ध)।\n* **नैतिक लक्ष्य:** व्यक्तिगत मुक्ति (अर्हत) के स्थान पर सामूहिक मुक्ति का लक्ष्य।\n\nइस परोपकारी अवधारणा ने बौद्ध धर्म को एकांत तपस्वी मार्ग से बदलकर एक संवेदनशील, जन-कल्याणकारी धर्म बना दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is Theravada Buddhism? Mention its geographical distribution. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Theravada (meaning 'School of the Elders') is the oldest surviving orthodox sect of Hinayana Buddhism, adhering strictly to the original Pali Canon.\n\n* **Core Belief:** Emphasizes individual effort, monastic discipline, and the Arhat ideal of achieving personal Nirvana without divine intervention.\n* **Geographical Distribution:** Primarily dominant in Southern and Southeast Asia, including Sri Lanka, Myanmar, Thailand, Cambodia, and Laos.\n\nIt remains a highly monastic-centered tradition, preserving the earliest recorded words and teachings of Gautama Buddha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. थेरवाद बौद्ध धर्म क्या है? इसके भौगोलिक वितरण का उल्लेख कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "थेरवाद (अर्थात 'स्थविरों का मत') हीनयान बौद्ध धर्म का सबसे पुराना जीवित रूढ़िवादी संप्रदाय है, जो मूल पालि संहिताओं का कड़ाई से पालन करता है।\n\n* **मूल विश्वास:** यह व्यक्तिगत प्रयास, भिक्षु अनुशासन और दिव्य सहायता के बिना व्यक्तिगत निर्वाण प्राप्त करने के 'अर्हत' आदर्श पर बल देता है।\n* **भौगोलिक वितरण:** यह मुख्य रूप से दक्षिण और दक्षिण-पूर्व एशिया जैसे श्रीलंका, म्यांमार, थाईलैंड, कंबोडिया और लाओस में प्रभावी है।\n\nयह आज भी एक भिक्षु-केंद्रित परंपरा है, जिसने बुद्ध की सबसे प्रारंभिक शिक्षाओं को संरक्षित रखा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who were the Mahasanghikas and why are they historically significant? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Mahasanghikas ('Great Assembly') emerged during the Second Buddhist Council (383 BC) as a liberal, reformist breakaway group from the orthodox Sthaviravadins.\n\n* **Doctrinal Standpoint:** They favored flexible monastic rules, deified the Buddha, and introduced the concept of transcendental (lokottara) Buddha.\n* **Historical Significance:** They acted as precursors to Mahayana Buddhism by introducing early concepts of Bodhisattva and cosmic Buddhas.\n\nTheir split democratic approach broadened the social appeal of Buddhism, breaking rigid monastic exclusivity."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महासांघिक कौन थे और वे ऐतिहासिक रूप से क्यों महत्वपूर्ण हैं? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "महासांघिक (महान संघ) द्वितीय बौद्ध संगीति (383 ईसा पूर्व) के दौरान रूढ़िवादी स्थविरवादियों से अलग होकर एक उदारवादी और सुधारवादी समूह के रूप में उभरे।\n\n* **सैद्धांतिक दृष्टिकोण:** इन्होंने लचीले नियमों का समर्थन किया, बुद्ध को दिव्य माना और लोकोत्तर बुद्ध की अवधारणा पेश की।\n* **ऐतिहासिक महत्व:** इन्होंने बोधिसत्व और अलौकिक बुद्ध की प्रारंभिक अवधारणाएं देकर महायान संप्रदाय की आधारशिला रखी।\n\nइनके लोकतांत्रिक दृष्टिकोण ने बौद्ध धर्म के सामाजिक आधार को व्यापक बनाया और कठोर भिक्षु एकाधिकार को तोड़ा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Summarize the philosophical doctrine of the Sarvastivada sect. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Sarvastivada is an influential early Buddhist sect of the Hinayana branch, primarily popular in Northwest India.\n\n* **Core Philosophy:** The name literally translates to 'all exists' (sarvam asti). They assert that dharmas (fundamental elements of existence) exist eternally in all three dimensions of time: past, present, and future.\n* **Literature:** Their canonical works were composed in Sanskrit, and they produced the massive encyclopedic commentary, Mahavibhasha Shastra.\n\nThis realistic pluralism contrasted with the transient impermanence emphasized by other schools, deeply influencing Mahayana metaphysics."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सर्वास्तिवाद संप्रदाय के दार्शनिक सिद्धांत का संक्षेप में वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "सर्वास्तिवाद हीनयान शाखा का एक प्रभावशाली प्रारंभिक बौद्ध संप्रदाय था, जो मुख्य रूप से उत्तर-पश्चिम भारत में लोकप्रिय था।\n\n* **मूल दर्शन:** इसका शाब्दिक अर्थ है 'सब कुछ अस्तित्व में है' (सर्वम् अस्ति)। इनका मानना है कि धर्म (अस्तित्व के मूल तत्व) समय के तीनों आयामों: भूत, वर्तमान और भविष्य में शाश्वत रूप से विद्यमान रहते हैं।\n* **साहित्य:** इनके ग्रंथ संस्कृत में रचे गए, और इन्होंने विशाल टीका ग्रंथ 'महाविभाषा शास्त्र' का निर्माण किया।\n\nइस यथार्थवादी अनेकतावाद ने बौद्ध धर्म के क्षणभंगुरता के सामान्य सिद्धांत को एक नया आयाम दिया, जिसने आगे चलकर महायान तत्वमीमांसा को प्रभावित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the role of royal patronage in the success of the Buddhist Councils. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Royal patronage was indispensable in organizing, funding, and enforcing decisions of the Buddhist Councils.\n\n* **Political Authority:** Kings like Ajatashatru, Kalasoka, Ashoka, and Kanishka provided security and state authority to enforce monastic discipline.\n* **Resources & Infrastructure:** Royals financed the massive gatherings of thousands of monks and constructed venues (e.g., Viharas, caves).\n* **Global Diplomacy:** Ashoka used state machinery to dispatch diplomatic-religious missions abroad.\n\nWithout state backing, these councils could not have resolved internal divisions or systematically preserved scriptures on a global scale."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध संगीतियों की सफलता में राजकीय संरक्षण की भूमिका का विश्लेषण कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "बौद्ध संगीतियों के आयोजन, वित्तीय व्यवस्था और निर्णयों को लागू करने में राजकीय संरक्षण अपरिहार्य था।\n\n* **राजनीतिक शक्ति:** अजातशत्रु, कालाशोक, अशोक और कनिष्क जैसे राजाओं ने अनुशासन बनाए रखने के लिए प्रशासनिक सुरक्षा और अधिकार प्रदान किए।\n* **संसाधन और बुनियादी ढांचा:** राजाओं ने हजारों भिक्षुओं के सम्मेलन का खर्च उठाया और विहारों व गुफाओं का निर्माण कराया।\n* **वैश्विक कूटनीति:** सम्राट अशोक ने विदेशों में मिशनरी भेजने के लिए राजकीय मशीनरी का उपयोग किया।\n\nराजकीय सहायता के बिना, ये संगीतियां आंतरिक विवादों को सुलझाने और वैश्विक स्तर पर ग्रंथों को सुरक्षित रखने में असमर्थ होतीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Distinguish between the Madhyamika and Yogacara schools of Mahayana Buddhism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Madhyamika and Yogacara are the two main philosophical pillars of Mahayana Buddhism.\n\n* **Madhyamika (Shunyavada):** Founded by Nagarjuna, it asserts that all phenomena are empty (shunya) of inherent existence due to dependent origination (Pratityasamutpada). It advocates the middle path.\n* **Yogacara (Vijnanavada):** Founded by Maitreyanatha, Asanga, and Vasubandhu, it posits that only consciousness (vijnana) is real; the external world is a projection of the mind.\n\nThus, Madhyamika emphasizes emptiness as ultimate reality, whereas Yogacara focuses on mind-only idealism and yogic practice."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म के माध्यमिक और योगाचार संप्रदायों के बीच अंतर स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "माध्यमिक और योगाचार महायान बौद्ध धर्म के दो प्रमुख दार्शनिक स्तंभ हैं।\n\n* **माध्यमिक (शून्यवाद):** नागार्जुन द्वारा संस्थापित, यह मानता है कि सभी चीजें प्रतीतसमुत्पाद (निर्भर उत्पत्ति) के कारण स्वभाव से शून्य हैं। यह मध्यम मार्ग का समर्थन करता है।\n* **योगाचार (विज्ञानवाद):** असंग और वसुबंधु द्वारा स्थापित, यह मानता है कि केवल चेतना (विज्ञान) ही सत्य है; बाहरी दुनिया केवल मन का एक प्रक्षेपण है।\n\nसंक्षेप में, माध्यमिक शून्यता को परम सत्य मानता है, जबकि योगाचार चित्त-मात्र आदर्शवाद और योग साधना पर केंद्रित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Examine the reasons and impact of the linguistic shift from Pali to Sanskrit in Buddhism during the Fourth Council. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Fourth Buddhist Council in Kashmir marked a major linguistic transition from Pali (vernacular) to Sanskrit (classical language of elites).\n\n* **Reasons:** The rise of Mahayana Buddhism, patronage by Kushan rulers, and the need to debate and compete with Brahmanical philosophies on equal intellectual terms.\n* **Impact:** It led to the creation of extensive literature like the Mahavibhasha and works of Ashvaghosa, broadening the philosophical vocabulary of Buddhism.\n\nWhile this alienated common masses who spoke Prakrits, it elevated Buddhism to a sophisticated elite discourse across Asia."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चतुर्थ बौद्ध संगीति के दौरान बौद्ध धर्म में पालि से संस्कृत में हुए भाषाई संक्रमण के कारणों और प्रभाव का परीक्षण कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "कश्मीर की चतुर्थ बौद्ध संगीति ने पालि (लोकभाषा) से संस्कृत (अभिजात वर्ग की शास्त्रीय भाषा) की ओर एक बड़ा भाषाई संक्रमण प्रदर्शित किया।\n\n* **कारण:** महायान बौद्ध धर्म का उदय, कुषाण शासकों का संरक्षण और ब्राह्मणवादी दर्शन के साथ बौद्धिक स्तर पर प्रतिस्पर्धा करने की आवश्यकता।\n* **प्रभाव:** इसके कारण 'महाविभाषा' जैसी महान टीकाओं और अश्वघोष की रचनाओं का निर्माण हुआ, जिससे बौद्ध दार्शनिक शब्दावली समृद्ध हुई।\n\nयद्यपि इसने प्राकृत बोलने वाली आम जनता से थोड़ी दूरी बनाई, लेकिन इसने बौद्ध धर्म को पूरे एशिया में एक उच्च बौद्धिक विमर्श के रूप में स्थापित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Define the concept of 'Arhat' in the Hinayana (Theravada) tradition. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "In Hinayana Buddhism, an Arhat (literally 'Worthy One') is the highest spiritual goal for an individual.\n\n* **Definition:** A practitioner who has purified their mind, destroyed all mental defilements (kleshas), and attained Nirvana through self-reliance and following the Eightfold Path.\n* **Key Characteristics:** Unlike Bodhisattvas, an Arhat's main focus is personal liberation from the cycle of rebirth (Samsara). They do not reincarnate.\n\nThis ideal represents ultimate monastic dedication, emphasizing personal salvation and detachment over social saviorhood."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हीनयान (थेरवाद) परंपरा में 'अर्हत' की अवधारणा को परिभाषित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "हीनयान बौद्ध धर्म में, 'अर्हत' (शाब्दिक अर्थ: 'योग्य व्यक्ति') किसी व्यक्ति के लिए सर्वोच्च आध्यात्मिक लक्ष्य है।\n\n* **परिभाषा:** एक ऐसा साधक जिसने अपने मन को शुद्ध कर लिया है, सभी क्लेशों को नष्ट कर दिया है, और व्यक्तिगत रूप से अष्टांगिक मार्ग का पालन कर निर्वाण प्राप्त किया है।\n* **प्रमुख विशेषता:** बोधिसत्व के विपरीत, अर्हत का ध्यान संसार के चक्र से स्वयं की मुक्ति पर होता है। वे पुनः जन्म नहीं लेते।\n\nयह आदर्श व्यक्तिगत मोक्ष और वैराग्य पर बल देते हुए भिक्षु जीवन के परम समर्पण को प्रदर्शित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Provide a comparative analysis of the four major Buddhist Councils. Discuss their patronage, leadership, and contribution to the codification of Buddhist scriptures. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The four major Buddhist councils played a crucial role in consolidating Buddhist doctrines, resolving sectarian differences, and preserving the teachings of Gautama Buddha under royal patronage.\n\n### Comparison of the Four Buddhist Councils\n\n| Council | Patron & Period | Venue & President | Major Outcomes & Scriptural Codification |\n| :--- | :--- | :--- | :--- |\n| **1st Council** | Ajatashatru (483 BC) | Rajgriha; Mahakassapa | Compilation of Sutta Pitaka (by Ananda) and Vinaya Pitaka (by Upali) to preserve original teachings. |\n| **2nd Council** | Kalasoka (383 BC) | Vaishali; Sabakami | Dispute over the 'Ten Points' of discipline; led to the first major Sangha split (Sthaviravadins vs. Mahasanghikas). |\n| **3rd Council** | Ashoka (250 BC) | Pataliputra; Moggaliputta Tissa | Purged Sangha of heretics; compiled Abhidhamma Pitaka (completing Tipitaka); sent global missions. |\n| **4th Council** | Kanishka (1st Century AD) | Kashmir; Vasumitra (Ashvaghosa) | Formal split into Hinayana and Mahayana; compiled Mahavibhasha commentaries; transitioned from Pali to Sanskrit. |\n\nThese councils transitioned Buddhism from an oral, localized sect into a systematically codified, state-sponsored missionary religion, ensuring its survival and transmission across Asia."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चार प्रमुख बौद्ध संगीतियों का तुलनात्मक विश्लेषण प्रस्तुत कीजिए। उनके संरक्षण, नेतृत्व और बौद्ध ग्रंथों के संहिताकरण में उनके योगदान की चर्चा कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "चार प्रमुख बौद्ध संगीतियों ने बौद्ध सिद्धांतों को सुदृढ़ करने, संप्रदायगत मतभेदों को सुलझाने और राजकीय संरक्षण के तहत गौतम बुद्ध की शिक्षाओं को सुरक्षित रखने में महत्वपूर्ण भूमिका निभाई।\n\n### चारों बौद्ध संगीतियों की तुलना\n\n| संगीति | संरक्षक एवं काल | स्थान एवं अध्यक्ष | प्रमुख परिणाम और ग्रंथ संहिताकरण |\n| :--- | :--- | :--- | :--- |\n| **प्रथम संगीति** | अजातशत्रु (483 ई.पू.) | राजगृह; महाकस्सप | मूल शिक्षाओं को संकलित करने के लिए सुत्त पिटक (आनंद द्वारा) और विनय पिटक (उपाली द्वारा) का संकलन। |\n| **द्वितीय संगीति** | कालाशोक (383 ई.पू.) | वैशाली; सबकामी | अनुशासन के 'दस नियमों' पर विवाद; संघ में पहला बड़ा विभाजन (स्थविरवादी बनाम महासांघिक)। |\n| **तृतीय संगीति** | अशोक (250 ई.पू.) | पाटलिपुत्र; मोग्गलिपुत्त तिस्स | पाखंडियों को संघ से बाहर निकाला; अभिधम्म पिटक संकलित कर त्रिपिटक पूर्ण किया; वैश्विक मिशन भेजे। |\n| **चतुर्थ संगीति** | कनिष्क (प्रथम सदी ई.) | कश्मीर; वसुमित्र (अश्वघोष) | हीनयान और महायान में औपचारिक विभाजन; महाविभाषा टीकाओं का संकलन; पालि से संस्कृत में भाषाई संक्रमण। |\n\nइन संगीतियों ने बौद्ध धर्म को एक मौखिक, स्थानीय मत से व्यवस्थित रूप से संहिताबद्ध, राज्य-प्रायोजित मिशनरी धर्म में परिवर्तित किया, जिससे एशिया भर में इसका अस्तित्व और प्रसार सुनिश्चित हुआ।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Trace the historical evolution of sectarianism in Buddhism from the Second Council to the emergence of the Hinayana and Mahayana schools. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The unity of the Buddhist Sangha was not absolute; it evolved through debates, leading to clear sectarian divisions. The trajectory of this split is detailed below:\n\n1. **The Great Schism (Second Council, 383 BC):** The first division arose over monastic discipline (Vinaya). \n   * **Sthaviravadins (Theravadins):** Strictly adhered to the original rules of the elders.\n   * **Mahasanghikas:** Demanded flexibility to accommodate a larger group. They laid the ideological groundwork for Mahayana.\n2. **Proliferation of Early Sects (3rd Century BC):** The two main groups split into 18 schools, such as Sarvastivada, Dharmaguptaka, and Lokottaravada.\n3. **Polarization into Hinayana and Mahayana (Fourth Council, 1st Century AD):**\n   * **Hinayana (Lesser Vehicle):** Composed of Theravada and Sarvastivada. Kept the monastic, self-reliance model in Pali.\n   * **Mahayana (Greater Vehicle):** Evolved from Mahasanghika ideas. Deified Buddha, introduced Bodhisattvas, adopted Sanskrit, and welcomed the laity.\n\nThus, sectarianism transitioned Buddhism from a rigid monastic system to a diverse, inclusive religion containing both conservative and liberal streams."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्वितीय संगीति से लेकर हीनयान और महायान संप्रदायों के उदय तक बौद्ध धर्म में संप्रदायवाद के ऐतिहासिक विकास को रेखांकित कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "बौद्ध संघ की एकता पूर्णतः अक्षुण्ण नहीं रही; यह विभिन्न बौद्धिक बहसों के माध्यम से विकसित हुई, जिससे स्पष्ट विभाजन हुए। इस विभाजन का क्रम निम्नलिखित है:\n\n1. **प्रथम विभाजन (द्वितीय संगीति, 383 ई.पू.):** पहला विभाजन भिक्षु नियमों (विनय) को लेकर हुआ।\n   * **स्थविरवादी (थेरवादी):** मूल नियमों का कड़ाई से पालन करने वाले परंपरागत भिक्षु।\n   * **महासांघिक:** एक बड़े वर्ग को साथ लेने के लिए नियमों में लचीलेपन के समर्थक। इन्होंने ही महायान की वैचारिक पृष्ठभूमि तैयार की।\n2. **प्रारंभिक संप्रदायों का प्रसार (तीसरी शताब्दी ई.पू.):** ये दोनों समूह विभाजित होकर लगभग 18 संप्रदायों में बंट गए, जैसे सर्वास्तिवाद, धर्मगुप्तक और लोकोत्तरवाद।\n3. **हीनयान और महायान में अंतिम ध्रुवीकरण (चतुर्थ संगीति, प्रथम शताब्दी ई.):**\n   * **हीनयान (लघु चक्र):** इसमें थेरवाद और सर्वास्तिवाद शामिल थे। इसने पालि भाषा में व्यक्तिगत मोक्ष और भिक्षु मॉडल को अपनाया।\n   * **महायान (महान चक्र):** महासांघिक विचारों से विकसित हुआ। इसने बुद्ध को ईश्वर माना, बोधिसत्वों की शुरुआत की, संस्कृत भाषा अपनाई और गृहस्थों को जोड़ा।\n\nइस प्रकार, संप्रदायवाद ने बौद्ध धर्म को एक कठोर भिक्षु प्रणाली से विविध, समावेशी और लचीले वैश्विक धर्म में बदल दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare and contrast the Hinayana and Mahayana schools of Buddhism across philosophical, scriptural, and geographical dimensions. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Though originating from the same core teachings of Gautama Buddha, Hinayana and Mahayana developed distinct interpretations of the doctrine.\n\n### Comparison between Hinayana and Mahayana\n\n| Parameter | Hinayana (Theravada) | Mahayana |\n| :--- | :--- | :--- |\n| **Conception of Buddha** | Historical teacher and guide; attained Nirvana. | Divine savior; ultimate cosmic reality (Trikaya concept). |\n| **Spiritual Goal** | Personal liberation (Arhat ideal) through self-effort. | Universal salvation (Bodhisattva ideal) and compassion. |\n| **Scriptural Language** | Pali (the language of common masses/earliest texts). | Sanskrit (scholarly classical language). |\n| **Monasticism** | Highly monastic-centric; lay disciples have limited role. | Inclusive of laity; offers salvation to householders. |\n| **Geographical Spread** | Sri Lanka, Myanmar, Thailand, Cambodia, Laos (Southern). | Tibet, China, Japan, Korea, Mongolia, Vietnam (Northern). |\n| **Worship Method** | Symbols (Footprints, Wheel, Bodhi Tree) and meditation. | Image worship of Buddha and Bodhisattvas with rituals. |\n\nIn summary, Hinayana represents a conservative, monastic path focusing on self-liberation, while Mahayana represents a liberal, devotional path centered on universal salvation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. दार्शनिक, ग्रंथपरक और भौगोलिक आयामों के आधार पर बौद्ध धर्म के हीनयान और महायान संप्रदायों की तुलना कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "यद्यपि दोनों का उदय गौतम बुद्ध की मूल शिक्षाओं से ही हुआ है, परंतु हीनयान और महायान ने सिद्धांतों की भिन्न-भिन्न व्याख्याएं विकसित कीं।\n\n### हीनयान और महायान के मध्य तुलनात्मक अंतर\n\n| मापदंड | हीनयान (थेरवाद) | महायान |\n| :--- | :--- | :--- |\n| **बुद्ध की अवधारणा** | ऐतिहासिक शिक्षक और मार्गदर्शक, जिन्होंने निर्वाण प्राप्त किया। | दिव्य रक्षक, परम ब्रह्मांडीय सत्य (त्रिकाय अवधारणा)। |\n| **आध्यात्मिक लक्ष्य** | व्यक्तिगत प्रयास से व्यक्तिगत मुक्ति (अर्हत आदर्श)। | सार्वभौमिक मुक्ति (बोधिसत्व आदर्श) और करुणा। |\n| **ग्रंथों की भाषा** | पालि (आम जनता की भाषा/प्राचीनतम ग्रंथ)। | संस्कृत (विद्वानों की शास्त्रीय भाषा)। |\n| **भिक्षु जीवन** | अत्यधिक भिक्षु-केंद्रित, गृहस्थों की सीमित भूमिका। | उदार व समावेशी; गृहस्थों के लिए भी मोक्ष का मार्ग। |\n| **भौगोलिक प्रसार** | श्रीलंका, म्यांमार, थाईलैंड, कंबोडिया, लाओस (दक्षिणी क्षेत्र)। | तिब्बत, चीन, जापान, कोरिया, मंगोलिया, वियतनाम (उत्तरी क्षेत्र)। |\n| **पूजा पद्धति** | प्रतीकों (चरण चिह्न, चक्र, बोधि वृक्ष) और ध्यान पर बल। | बुद्ध और बोधिसत्वों की मूर्ति पूजा और कर्मकांड। |\n\nसंक्षेप में, हीनयान व्यक्तिगत मुक्ति पर केंद्रित एक रूढ़िवादी, भिक्षु-उन्मुख मार्ग है, जबकि महायान सामूहिक कल्याण पर केंद्रित एक उदारवादी, भक्ति-उन्मुख मार्ग है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the role of Emperor Ashoka and the Third Buddhist Council in defining Buddhist orthodoxy and state policy. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Emperor Ashoka's patronage and the Third Buddhist Council (250 BC) at Pataliputra marked a watershed moment in the history of Buddhism, shaping both its internal orthodoxy and its external state policies.\n\n### 1. Internal Orthodoxy (Purification of the Sangha)\n* **Expulsion of Heretics:** Led by Moggaliputta Tissa, the council expelled nearly 60,000 heretical or non-Buddhist ascetics who had infiltrated the Sangha for royal benefits.\n* **Establishment of Theravada Orthodoxy:** The compilation of the *Abhidhamma Pitaka* established Vibhajjavada (the school of analysis) as the true doctrine, rejecting alternative cosmological claims.\n\n### 2. Alignment with State Policy (Dhamma)\n* **Ashoka's Dhamma:** The teachings of the purified Sangha were translated into Ashoka's state policy of Dhamma (piety, non-violence, tolerance), inscribed on rock and pillar edicts.\n* **Global Missions:** Ashoka used state resources to dispatch Dhamma-Mahamattas (emissaries) to Sri Lanka, Hellenistic kingdoms, and South Asia, transforming a regional sect into a world religion.\n\nThus, Ashoka and the Third Council established a symbiotic relationship where a purified religious orthodoxy provided ethical legitimacy to imperial administration."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध रूढ़िवादिता और राज्य नीति को परिभाषित करने में सम्राट अशोक और तृतीय बौद्ध संगीति की भूमिका का मूल्यांकन कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "पाटलिपुत्र में सम्राट अशोक के संरक्षण और तृतीय बौद्ध संगीति (250 ई.पू.) के आयोजन ने बौद्ध धर्म के आंतरिक सिद्धांतों और उसकी बाहरी राज्य नीति दोनों को प्रभावित कर एक नया इतिहास रचा।\n\n### 1. आंतरिक रूढ़िवादिता (संघ का शुद्धिकरण)\n* **पाखंडियों का निष्कासन:** मोग्गलिपुत्त तिस्स के नेतृत्व में, संगीति ने लगभग 60,000 पाखंडियों को संघ से बाहर कर दिया, जो राजकीय लाभ के लिए संघ में शामिल हो गए थे।\n* **थेरवाद की स्थापना:** *अभिधम्म पिटक* के संकलन ने 'विभज्जवाद' (विश्लेषण का मत) को सच्चे बौद्ध सिद्धांत के रूप में स्थापित किया और अन्य भ्रामक मतों का खंडन किया।\n\n### 2. राज्य नीति (धम्म) के साथ समन्वय\n* **अशोक का धम्म:** शुद्ध संघ के नैतिक उपदेशों को अशोक ने अपनी राज्य नीति 'धम्म' (अहिंसा, सहिष्णुता, नैतिकता) में बदला, जिसे शिलालेखों और स्तंभों पर उत्कीर्ण कराया गया।\n* **वैश्विक मिशन:** अशोक ने अपने संसाधनों का उपयोग कर श्रीलंका, हेलेनिस्टिक साम्राज्यों और दक्षिण एशिया में धम्म-महामात्र भेजे, जिससे यह एक वैश्विक धर्म बना।\n\nइस प्रकार, अशोक और तृतीय संगीति ने एक ऐसा संबंध स्थापित किया जहां एक शुद्ध सिद्धांत ने साम्राज्य को नैतिक वैधता प्रदान की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the rise, doctrines, and historical significance of the Mahasanghika sect as the precursor to Mahayana Buddhism. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Mahasanghika ('Great Assembly') sect split from the Sthaviravadins during the Second Buddhist Council (383 BC). This split represented the first major democratic and reformist movement within the Sangha.\n\n### Core Doctrines of the Mahasanghikas\n* **Supramundane Buddha (Lokottaravada):** They claimed that the historical Buddha was not a mere mortal but a transcendental being who projected an earthly body to guide humanity.\n* **Bodhisattva Ideal:** They introduced early forms of the Bodhisattva concept, believing that Bodhisattvas enter womb-states voluntarily out of compassion.\n* **Nature of Mind:** They asserted that the original nature of the mind is pure and luminous (prakrti-prabhasvara-citta), but temporarily stained by defilements.\n* **Flexibility in Discipline:** They advocated for a democratic consensus, allowing modification of minor Vinaya rules according to time and place.\n\n### Historical Significance\nBy deifying the Buddha and emphasizing universal compassion over individual monastic isolation, the Mahasanghikas broke down the barriers between the clergy and the laity. Their philosophical doctrines directly evolved into the Prajnaparamita literature and the Madhyamika/Yogacara schools, making them the direct ancestors of Mahayana Buddhism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म के अग्रदूत के रूप में महासांघिक संप्रदाय के उदय, सिद्धांतों और ऐतिहासिक महत्व पर चर्चा कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "महासांघिक (महान संघ) संप्रदाय द्वितीय बौद्ध संगीति (383 ई.पू.) के दौरान स्थविरवादियों से अलग हो गया था। यह विभाजन बौद्ध संघ के भीतर पहला लोकतांत्रिक और सुधारवादी आंदोलन था।\n\n### महासांघिकों के मुख्य सिद्धांत\n* **लोकोत्तर बुद्ध की अवधारणा:** इनका मानना था कि ऐतिहासिक बुद्ध केवल एक नश्वर मनुष्य नहीं थे, बल्कि एक अलौकिक सत्ता थे जिन्होंने मानवता के कल्याण हेतु पृथ्वी पर रूप धारण किया था।\n* **बोधिसत्व आदर्श:** इन्होंने बोधिसत्व की प्रारंभिक अवधारणा प्रस्तुत की, जिसके अनुसार बोधिसत्व करुणावश स्वेच्छा से गर्भ में प्रवेश करते हैं।\n* **मन की प्रकृति:** इन्होंने माना कि मन की मूल प्रकृति शुद्ध और प्रकाशमान होती है, जो केवल बाहरी क्लेशों से अस्थाई रूप से मलिन हो जाती है।\n* **अनुशासन में लचीलापन:** इन्होंने समय और परिस्थिति के अनुसार छोटे विनय नियमों में बदलाव का समर्थन किया।\n\n### ऐतिहासिक महत्व\nबुद्ध को दिव्य मानकर और व्यक्तिगत भिक्षु जीवन के स्थान पर सामूहिक करुणा को प्राथमिकता देकर महासांघिकों ने भिक्षुओं और गृहस्थों के अंतर को कम किया। इनके यही सिद्धांत आगे चलकर प्रज्ञापारमिता साहित्य और माध्यमिक/योगाचार दर्शन के रूप में विकसित हुए, जिससे ये महायान के प्रत्यक्ष पूर्वज बने।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the Fourth Buddhist Council in Kashmir under King Kanishka. Discuss its background, scholarly achievements, and impact on Central and East Asia. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Fourth Buddhist Council, held in the 1st Century AD at Kundalavana, Kashmir under Kushan Emperor Kanishka, marked the institutionalization of Mahayana Buddhism and its transformation into an international faith.\n\n### 1. Historical Background\nDifferent sects of Buddhism had developed conflicting interpretations of the original teachings. Kanishka, advised by Parsva, called the council to compile authoritative commentaries and reconcile these disputes.\n\n### 2. Scholarly Achievements\n* **Vasumitra & Ashvaghosa:** Led by Vasumitra (President) and Ashvaghosa (Vice-President), the council gathered 500 scholars.\n* **The Mahavibhasha Shastra:** Compiled extensive Sanskrit commentaries on the Sarvastivada Abhidharma, inscribed on copper plates and sealed in stone chests.\n* **Sanskritization:** Formalized Sanskrit as the primary medium of Buddhist philosophical discourse.\n\n### 3. Impact on Central and East Asia\nBy patronizing Mahayana and standardizing its texts in Sanskrit, Kanishka facilitated the translation of scriptures into local languages. This enabled the transmission of Buddhism along the Silk Road to Central Asia, China, Korea, and Japan, establishing it as a dominant cultural force in East Asia."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजा कनिष्क के शासनकाल में कश्मीर में आयोजित चतुर्थ बौद्ध संगीति का विश्लेषण कीजिए। इसके पृष्ठभूमि, विद्वतापूर्ण उपलब्धियों और मध्य व पूर्वी एशिया पर इसके प्रभाव की चर्चा कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "कुषाण सम्राट कनिष्क के संरक्षण में प्रथम शताब्दी ईस्वी में कुंडलवन, कश्मीर में आयोजित चतुर्थ बौद्ध संगीति ने महायान बौद्ध धर्म के संस्थागत विकास और इसे एक अंतरराष्ट्रीय धर्म बनाने में ऐतिहासिक भूमिका निभाई।\n\n### 1. ऐतिहासिक पृष्ठभूमि\nबौद्ध धर्म के विभिन्न संप्रदायों में मूल शिक्षाओं को लेकर मतभेद बढ़ गए थे। कनिष्क ने पार्श्व की सलाह पर इन विवादों को सुलझाने और प्रामाणिक व्याख्याएं तैयार करने के लिए इस संगीति का आयोजन किया।\n\n### 2. विद्वतापूर्ण उपलब्धियां\n* **वसुमित्र और अश्वघोष:** वसुमित्र (अध्यक्ष) और अश्वघोष (उपाध्यक्ष) के नेतृत्व में इस संगीति में लगभग 500 विद्वान एकत्र हुए।\n* **महाविभाषा शास्त्र:** सर्वास्तिवाद अभिधम्म पर एक विशाल संस्कृत भाष्य (टीका) तैयार किया गया, जिसे ताम्रपत्रों पर लिखकर पत्थर की पेटियों में सुरक्षित रखा गया।\n* **संस्कृत का उपयोग:** बौद्ध दार्शनिक ग्रंथों के लिए संस्कृत को आधिकारिक भाषा घोषित किया गया।\n\n### 3. मध्य और पूर्वी एशिया पर प्रभाव\nमहायान को संरक्षण देकर और संस्कृत ग्रंथों का मानकीकरण करके, कनिष्क ने सिल्क मार्ग के माध्यम से बौद्ध धर्म को मध्य एशिया, चीन, कोरिया और जापान में प्रसारित करने में मदद की, जिससे यह पूर्वी एशिया की एक प्रमुख सांस्कृतिक शक्ति बन गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Contrast the Arhat ideal of Hinayana with the Bodhisattva ideal of Mahayana, and discuss how this shift transformed Buddhism. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The transition from the Arhat ideal to the Bodhisattva ideal represents the defining doctrinal and ethical shift in the evolution of Buddhism.\n\n### Comparison between Arhat and Bodhisattva Ideals\n\n| Feature | The Arhat Ideal (Hinayana) | The Bodhisattva Ideal (Mahayana) |\n| :--- | :--- | :--- |\n| **Core Objective** | Individual liberation; escaping the cycle of rebirth (Samsara) as soon as Nirvana is reached. | Collective salvation; postponing personal Nirvana until all other beings are saved. |\n| **Key Value** | Wisdom (Prajna) and strict adherence to monastic discipline. | Infinite Compassion (Karuna) and active engagement with the world. |\n| **Path** | Ascetic, self-reliant monastic path (limited to a few). | Devotional, altruistic path open to both monks and lay householders. |\n\n### Transformation of Buddhism\n* **Democratic Inclusivity:** The Bodhisattva ideal opened spiritual path to householders, dismantling the elite monastic monopoly of the Sangha.\n* **Devotional Appeal:** Bodhisattvas like Avalokiteshvara and Maitreya became deities who could grant grace, sparking popular devotion (Bhakti).\n* **Social Re-engagement:** It shifted Buddhism from a passive retirement from society to active, compassionate social service, ensuring its survival as a popular, mass religion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हीनयान के अर्हत आदर्श और महायान के बोधिसत्व आदर्श में अंतर स्पष्ट कीजिए, और चर्चा कीजिए कि इस बदलाव ने बौद्ध धर्म को किस प्रकार रूपांतरित किया। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "अर्हत आदर्श से बोधिसत्व आदर्श में संक्रमण बौद्ध धर्म के विकास में सबसे महत्वपूर्ण सैद्धांतिक और नैतिक बदलाव का प्रतिनिधित्व करता है।\n\n### अर्हत और बोधिसत्व आदर्श के मध्य तुलना\n\n| विशेषता | अर्हत आदर्श (हीनयान) | बोधिसत्व आदर्श (महायान) |\n| :--- | :--- | :--- |\n| **मुख्य उद्देश्य** | व्यक्तिगत मुक्ति; निर्वाण प्राप्त करते ही पुनर्जन्म के चक्र (संसार) से मुक्त होना। | सामूहिक मुक्ति; सभी जीवों के मुक्त होने तक अपने निर्वाण को टाल देना। |\n| **मुख्य मूल्य** | प्रज्ञा (ज्ञान) और भिक्षु नियमों का कठोरता से पालन करना। | अनंत करुणा और समाज व संसार के साथ सक्रिय जुड़ाव। |\n| **आध्यात्मिक मार्ग** | कठोर तपस्या, केवल भिक्षुओं तक सीमित रहने वाला मार्ग। | परोपकारी और भक्ति मार्ग, जो भिक्षुओं और गृहस्थों दोनों के लिए खुला है। |\n\n### बौद्ध धर्म का रूपांतरण\n* **लोकतांत्रिक समावेशिता:** बोधिसत्व आदर्श ने गृहस्थों के लिए आध्यात्मिक मार्ग खोल दिया, जिससे संघ के विशिष्ट वर्गीय भिक्षु एकाधिकार का अंत हुआ।\n* **भक्ति का आकर्षण:** अवलोकितेश्वर और मैत्रेय जैसे बोधिसत्व ऐसे देव बने जो कृपा प्रदान कर सकते थे, जिससे भक्ति परंपरा का जन्म हुआ।\n* **सामाजिक सहभागिता:** इसने बौद्ध धर्म को समाज से पलायन करने वाले मार्ग के स्थान पर समाज सेवा करने वाले मार्ग में बदल दिया, जिससे यह लोकप्रिय लोक धर्म बना।"
+    }
+  ]
+}

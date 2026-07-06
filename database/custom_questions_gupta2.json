@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. The famous Mehrauli Iron Pillar, currently located in the Qutb Minar complex in Delhi, is historically associated with which ruler and is primarily celebrated for which characteristic?",
+      "option_a": "Chandragupta I; detailed genealogical list of early Gupta kings",
+      "option_b": "Samudragupta; description of his military campaigns in Southern India",
+      "option_c": "Chandragupta II; high resistance to corrosion and advanced metallurgy",
+      "option_d": "Skandagupta; depiction of his victory over the Huna invaders",
+      "correct": "C",
+      "explanation": "Correct option: C. The Mehrauli Iron Pillar inscription refers to a king named 'Chandra', generally identified as Chandragupta II. It is globally famous for its advanced metallurgy and rust-resistant iron composition which has survived for over 1600 years without rusting."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. दिल्ली में कुतुब मीनार परिसर में स्थित प्रसिद्ध महरौली लौह स्तंभ ऐतिहासिक रूप से किस शासक से संबद्ध है और यह मुख्य रूप से किस विशेषता के लिए प्रसिद्ध है?",
+      "option_a": "चंद्रगुप्त प्रथम; प्रारंभिक गुप्त राजाओं की विस्तृत वंशावली सूची",
+      "option_b": "समुद्रगुप्त; दक्षिण भारत में उनके सैन्य अभियानों का विवरण",
+      "option_c": "चंद्रगुप्त द्वितीय; जंग के प्रति उच्च प्रतिरोध और उन्नत धातु विज्ञान",
+      "option_d": "स्कंदगुप्त; हूण आक्रमणकारियों पर उनकी विजय का चित्रण",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. महरौली लौह स्तंभ शिलालेख में 'चंद्र' नामक राजा का उल्लेख है, जिसे आमतौर पर चंद्रगुप्त द्वितीय के रूप में पहचाना जाता है। यह अपने उन्नत धातु विज्ञान और जंग-रोधी लौह संरचना के लिए विश्व स्तर पर प्रसिद्ध है, जो बिना जंग लगे 1600 से अधिक वर्षों से जीवित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Chandragupta II assumed the famous title of 'Sakari' (destroyer of the Sakas) and 'Vikramaditya' after defeating which of the following Western Kshatrapa rulers?",
+      "option_a": "Rudradaman I",
+      "option_b": "Rudrasimha III",
+      "option_c": "Chashtana",
+      "option_d": "Nahapana",
+      "correct": "B",
+      "explanation": "Correct option: B. Chandragupta II defeated the last Western Kshatrapa (Saka) ruler Rudrasimha III in the late 4th century CE, bringing an end to Saka rule in Western India and expanding Gupta control to the Arabian Sea ports."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय ने निम्नलिखित में से किस पश्चिमी क्षत्रप शासक को पराजित करने के बाद 'शकारि' (शकों का विनाशक) और 'विक्रमादित्य' की प्रसिद्ध उपाधि धारण की थी?",
+      "option_a": "रुद्रदामन प्रथम",
+      "option_b": "रुद्रसिंह तृतीय",
+      "option_c": "चष्टन",
+      "option_d": "नहपान",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. चंद्रगुप्त द्वितीय ने चौथी शताब्दी ईस्वी के अंत में अंतिम पश्चिमी क्षत्रप (शक) शासक रुद्रसिंह तृतीय को पराजित किया, जिससे पश्चिमी भारत में शक शासन का अंत हुआ और अरब सागर के बंदरगाहों तक गुप्त नियंत्रण का विस्तार हुआ।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Chinese Buddhist pilgrim Faxian (Fa-Hien) visited India during the reign of Chandragupta II. Which of the following is a notable feature of his travelogue, 'Fo-Guo-Ji'?",
+      "option_a": "He provides a highly detailed description of Chandragupta II's court and administrative officers by name.",
+      "option_b": "He does not mention the name of the reigning Gupta emperor even once in his entire book.",
+      "option_c": "He spent most of his time studying military tactics at the Gupta royal academy.",
+      "option_d": "He describes the prevalence of capital punishment and heavy taxes throughout the Middle Kingdom.",
+      "correct": "B",
+      "explanation": "Correct option: B. Faxian traveled in India for Buddhist manuscripts during the reign of Chandragupta II, but surprisingly, he never mentions the name of the king in his account, focusing instead on Buddhist monastic life and socio-religious conditions."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चीनी बौद्ध तीर्थयात्री फाहियान ने चंद्रगुप्त द्वितीय के शासनकाल के दौरान भारत का दौरा किया था। उनके यात्रा वृत्तांत 'फो-कुओ-की' की एक उल्लेखनीय विशेषता निम्नलिखित में से कौन सी है?",
+      "option_a": "वह चंद्रगुप्त द्वितीय के दरबार और प्रशासनिक अधिकारियों का नाम सहित अत्यधिक विस्तृत विवरण प्रदान करता है।",
+      "option_b": "वह अपनी पूरी पुस्तक में एक बार भी तत्कालीन गुप्त सम्राट के नाम का उल्लेख नहीं करता है।",
+      "option_c": "उसने अपना अधिकांश समय गुप्त शाही अकादमी में सैन्य रणनीतियों का अध्ययन करने में बिताया।",
+      "option_d": "वह मध्य देश में मृत्युदंड और भारी करों के प्रचलन का वर्णन करता है।",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. फाहियान ने चंद्रगुप्त द्वितीय के शासनकाल के दौरान बौद्ध पांडुलिपियों के लिए भारत की यात्रा की थी, लेकिन आश्चर्यजनक रूप से, उसने अपने विवरण में राजा के नाम का कभी उल्लेख नहीं किया, बल्कि बौद्ध मठवासी जीवन और सामाजिक-धार्मिक स्थितियों पर ध्यान केंद्रित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the first Gupta monarch to issue silver coins, known as 'Rupaka', designed in imitation of the Western Kshatrapa coinage?",
+      "option_a": "Sri Gupta",
+      "option_b": "Chandragupta I",
+      "option_c": "Samudragupta",
+      "option_d": "Chandragupta II",
+      "correct": "D",
+      "explanation": "Correct option: D. Chandragupta II was the first Gupta ruler to issue silver coins (Rupaka). These coins were minted to commemorate his victory over the Western Kshatrapas and were heavily modeled on their silver currency."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पश्चिमी क्षत्रप सिक्कों के अनुकरण पर तैयार किए गए चांदी के सिक्के, जिन्हें 'रूपक' कहा जाता है, जारी करने वाला पहला गुप्त सम्राट कौन था?",
+      "option_a": "श्री गुप्त",
+      "option_b": "चंद्रगुप्त प्रथम",
+      "option_c": "समुद्रगुप्त",
+      "option_d": "चंद्रगुप्त द्वितीय",
+      "correct": "D",
+      "explanation": "सही विकल्प: D. चंद्रगुप्त द्वितीय चांदी के सिक्के (रूपक) जारी करने वाला पहला गुप्त शासक था। ये सिक्के पश्चिमी क्षत्रपों पर उसकी विजय की स्मृति में ढाले गए थे और पूरी तरह से उनकी चांदी की मुद्रा पर आधारित थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Inscriptions like the Sanchi stone inscription and the Chamak copper plate refer to Chandragupta II by which of the following alternate names?",
+      "option_a": "Devagupta or Devaraja",
+      "option_b": "Amitraghata",
+      "option_c": "Kacha",
+      "option_d": "Vikramabahu",
+      "correct": "A",
+      "explanation": "Correct option: A. Inscriptions and copper plates of the Gupta period, including the Sanchi inscription and Vakataka records, mention 'Devagupta', 'Devaraja', or 'Devashri' as alternate names of Chandragupta II."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सांची पाषाण शिलालेख और चामक ताम्रपत्र जैसे अभिलेख चंद्रगुप्त द्वितीय को निम्नलिखित में से किस वैकल्पिक नाम से संदर्भित करते हैं?",
+      "option_a": "देवगुप्त या देवराज",
+      "option_b": "अमित्रघात",
+      "option_c": "काच",
+      "option_d": "विक्रमबाहु",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. सांची शिलालेख और वाकाटक अभिलेखों सहित गुप्त काल के शिलालेखों और ताम्रपत्रों में चंद्रगुप्त द्वितीय के वैकल्पिक नामों के रूप में 'देवगुप्त', 'देवराज' या 'Devashri' का उल्लेख मिलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Chandragupta II cemented a strategic marriage alliance by marrying his daughter, Prabhavatigupta, to Rudrasena II, the ruler of which prominent dynasty?",
+      "option_a": "The Kadamba Dynasty",
+      "option_b": "The Vakataka Dynasty",
+      "option_c": "The Licchavi Dynasty",
+      "option_d": "The Maukhari Dynasty",
+      "correct": "B",
+      "explanation": "Correct option: B. Chandragupta II married his daughter Prabhavatigupta to the Vakataka king Rudrasena II. This geopolitical alliance secured the northern Deccan and helped the Guptas defeat the Western Kshatrapas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय ने अपनी पुत्री प्रभावतीगुप्ता का विवाह किस प्रमुख राजवंश के शासक रुद्रसेन द्वितीय से करके एक रणनीतिक वैवाहिक गठबंधन को मजबूत किया था?",
+      "option_a": "कदंब राजवंश",
+      "option_b": "वाकाटक राजवंश",
+      "option_c": "लिच्छवि राजवंश",
+      "option_d": "मौखरि राजवंश",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. चंद्रगुप्त द्वितीय ने अपनी पुत्री प्रभावतीगुप्ता का विवाह वाकाटक राजा रुद्रसेन द्वितीय से किया था। इस भू-राजनीतिक गठबंधन ने उत्तरी दक्कन को सुरक्षित किया और गुप्तों को पश्चिमी क्षत्रपों को पराजित करने में मदद की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which city was established as the secondary capital of the Gupta Empire during the reign of Chandragupta II, serving as a major hub for trade with the Western world and cultural activities?",
+      "option_a": "Pataliputra",
+      "option_b": "Ujjain",
+      "option_c": "Varanasi",
+      "option_d": "Prayagraj",
+      "correct": "B",
+      "explanation": "Correct option: B. Ujjain was made the second capital of the Gupta Empire by Chandragupta II. It was a major commercial hub connected to western ports and became a center for art, science, and literature."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के शासनकाल के दौरान किस शहर को गुप्त साम्राज्य की द्वितीयक राजधानी के रूप में स्थापित किया गया था, जिसने पश्चिमी दुनिया के साथ व्यापार और सांस्कृतिक गतिविधियों के लिए एक प्रमुख केंद्र के रूप में कार्य किया?",
+      "option_a": "पाटलिपुत्र",
+      "option_b": "उज्जैन",
+      "option_c": "वाराणसी",
+      "option_d": "प्रयागराज",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. चंद्रगुप्त द्वितीय द्वारा उज्जैन को गुप्त साम्राज्य की दूसरी राजधानी बनाया गया था। यह पश्चिमी बंदरगाहों से जुड़ा एक प्रमुख व्यावसायिक केंद्र था और कला, विज्ञान तथा साहित्य का एक महान केंद्र बन गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Amarasimha, one of the Nine Gems (Navaratnas) in the court of Chandragupta II, is best known for composing the 'Amarakosha'. What type of literary work is the Amarakosha?",
+      "option_a": "A medical treatise on herbal pharmacology",
+      "option_b": "A dramatic play depicting court intrigues",
+      "option_c": "A Sanskrit lexicon/thesaurus organized in verse",
+      "option_d": "A mathematical manual on astronomy and geometry",
+      "correct": "C",
+      "explanation": "Correct option: C. The Amarakosha (also known as Namalinganushasana) is a celebrated Sanskrit thesaurus/lexicon written in verse by Amarasimha, categorized into three books (Kandas)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के दरबार के नवरत्नों में से एक, अमरसिंह को 'अमरकोश' की रचना के लिए जाना जाता है। अमरकोश किस प्रकार की साहित्यिक कृति है?",
+      "option_a": "जड़ी-बूटी औषध विज्ञान पर एक चिकित्सा ग्रंथ",
+      "option_b": "दरबारी साजिशों को दर्शाने वाला एक नाटक",
+      "option_c": "पद्य में व्यवस्थित एक संस्कृत कोश/शब्दकोश",
+      "option_d": "खगोल विज्ञान और ज्यामिति पर एक गणितीय पुस्तिका",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. अमरकोश (जिसे नामलिंगानुशासन भी कहा जाता है) अमरसिंह द्वारा पद्य में लिखा गया एक प्रसिद्ध संस्कृत कोश/शब्दकोश है, जिसे तीन भागों (कांडों) में वर्गीकृत किया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which play of Kalidasa, who was a prominent Navaratna of Chandragupta II, depicts the love story of King Agnimitra of the Shunga dynasty and an exiled servant girl?",
+      "option_a": "Abhijnanashakuntalam",
+      "option_b": "Vikramorvashiyam",
+      "option_c": "Malavikagnimitram",
+      "option_d": "Meghaduta",
+      "correct": "C",
+      "explanation": "Correct option: C. Malavikagnimitram is Kalidasa's first play, which details the love story of Agnimitra (Shunga king) and Malavika, a maid servant who is actually a princess in disguise."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के प्रमुख नवरत्न कालिदास का कौन सा नाटक शुंग वंश के राजा अग्निमित्र और एक निर्वासित सेविका की प्रेम कहानी को दर्शाता है?",
+      "option_a": "अभिज्ञानशाकुंतलम्",
+      "option_b": "विक्रमोर्वशीयम्",
+      "option_c": "मालविकाग्निमित्रम्",
+      "option_d": "मेघदूत",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. मालविकाग्निमित्रम् कालिदास का पहला नाटक है, जिसमें अग्निमित्र (शुंग राजा) और मालविका की प्रेम कहानी का विवरण है, जो वास्तव में छद्म रूप में एक राजकुमारी है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who among the Navaratnas (Nine Gems) in the court of Chandragupta II was a legendary physician specializing in Ayurveda and medical sciences?",
+      "option_a": "Kshapanaka",
+      "option_b": "Dhanvantari",
+      "option_c": "Vetalbhatta",
+      "option_d": "Vararuchi",
+      "correct": "B",
+      "explanation": "Correct option: B. Dhanvantari was a famous physician in Chandragupta II's court, representing the peak of Ayurvedic medical knowledge during the Golden Age of the Guptas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के दरबार के नवरत्नों में से कौन आयुर्वेद और चिकित्सा विज्ञान में विशेषज्ञता रखने वाले एक महान चिकित्सक थे?",
+      "option_a": "क्षपणक",
+      "option_b": "धन्वंतरि",
+      "option_c": "वेतालभट्ट",
+      "option_d": "वररुचि",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. धन्वंतरि चंद्रगुप्त द्वितीय के दरबार में एक प्रसिद्ध चिकित्सक थे, जो गुप्त काल के स्वर्ण युग के दौरान आयुर्वेदिक चिकित्सा ज्ञान के शिखर का प्रतिनिधित्व करते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The mathematical and astronomical treatise 'Panchasiddhantika', which summarizes five older astronomical systems, was written by which Navaratna of Chandragupta II?",
+      "option_a": "Aryabhata",
+      "option_b": "Varahamihira",
+      "option_c": "Brahmagupta",
+      "option_d": "Shanku",
+      "correct": "B",
+      "explanation": "Correct option: B. Varahamihira wrote the Panchasiddhantika, which outlines the principles of five ancient astronomical schools (Siddhantas): Paulisha, Romaka, Vasishtha, Surya, and Paitamaha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गणितीय और खगोलीय ग्रंथ 'पंचसिद्धांतिका', जो पांच पुरानी खगोलीय प्रणालियों का सारांश प्रस्तुत करता है, चंद्रगुप्त द्वितीय के किस नवरत्न द्वारा लिखा गया था?",
+      "option_a": "आर्यभट्ट",
+      "option_b": "वराहमिहिर",
+      "option_c": "ब्रह्मगुप्त",
+      "option_d": "शंकु",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. वराहमिहिर ने पंचसिद्धांतिका की रचना की, जो पांच प्राचीन खगोलीय संप्रदायों (सिद्धांतों) के सिद्धांतों को रेखांकित करती है: पौलिश, रोमक, वशिष्ठ, सूर्य और पैतामह।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous Sanskrit drama 'Mrichchhakatika' (The Little Clay Cart), depicting the love story of a noble Brahmana merchant Charudatta and a wealthy courtesan Vasantasena, was composed by which author during the Gupta era?",
+      "option_a": "Vishakhadatta",
+      "option_b": "Shudraka",
+      "option_c": "Bhasa",
+      "option_d": "Bharavi",
+      "correct": "B",
+      "explanation": "Correct option: B. Mrichchhakatika was written by Shudraka. It is a unique play of the Gupta period that offers realistic glimpses of contemporary urban society, crime, and social conditions rather than royal themes."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. एक कुलीन ब्राह्मण व्यापारी चारुदत्त और एक धनी गणिका वसंतसेना की प्रेम कहानी को चित्रित करने वाला प्रसिद्ध संस्कृत नाटक 'मृच्छकटिकम्' (मिट्टी का खिलौना गाड़ी) गुप्त काल के दौरान किस लेखक द्वारा रचा गया था?",
+      "option_a": "विशाखदत्त",
+      "option_b": "शूद्रक",
+      "option_c": "भास",
+      "option_d": "भारवि",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. मृच्छकटिकम् शूद्रक द्वारा लिखा गया था। यह गुप्त काल का एक अनूठा नाटक है जो शाही विषयों के बजाय तत्कालीन शहरी समाज, अपराध और समाज की वास्तविक परिस्थितियों की यथार्थवादी झलक प्रदान करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Sanskrit play by Vishakhadatta deals with the narrative of how Chandragupta II saved the queen Dhruvadevi and assassinated the Saka king as well as his own weak elder brother Ramagupta?",
+      "option_a": "Mudrarakshasa",
+      "option_b": "Devichandraguptam",
+      "option_c": "Mrichchhakatika",
+      "option_d": "Malavikagnimitram",
+      "correct": "B",
+      "explanation": "Correct option: B. Vishakhadatta's Devichandraguptam, preserved only in fragments within later works, provides the dramatic account of Chandragupta II disguising himself as a woman to slay the Saka king and save Dhruvadevi."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. विशाखदत्त का कौन सा संस्कृत नाटक इस कथा से संबंधित है कि कैसे चंद्रगुप्त द्वितीय ने रानी ध्रुवदेवी की रक्षा की और शक राजा के साथ-साथ अपने कमजोर बड़े भाई रामगुप्त की हत्या की?",
+      "option_a": "मुद्राराक्षस",
+      "option_b": "देवीचंद्रगुप्तम्",
+      "option_c": "मृच्छकटिकम्",
+      "option_d": "मालविकाग्निमित्रम्",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. विशाखदत्त का देवीचंद्रगुप्तम्, जो बाद की कृतियों में केवल अंशों के रूप में संरक्षित है, चंद्रगुप्त द्वितीय द्वारा शक राजा का वध करने और ध्रुवदेवी को बचाने के लिए एक महिला का रूप धारण करने का नाटकीय विवरण प्रदान करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Udayagiri cave inscription near Vidisha, which mentions that the cave was excavated by Virasena 'Saba', a minister of Chandragupta II, is dedicated to which deity?",
+      "option_a": "Lord Buddha",
+      "option_b": "Lord Mahavira",
+      "option_c": "Lord Shiva",
+      "option_d": "Lord Kartikeya",
+      "correct": "C",
+      "explanation": "Correct option: C. The Udayagiri Cave 5 has the famous Varaha sculpture, but Cave 7 contains the inscription of Virasena Saba (minister of Chandragupta II), declaring that he built the cave temple for Lord Shiva (Shambhu) out of devotion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. विदिशा के पास उदयगिरि गुफा शिलालेख, जिसमें उल्लेख है कि गुफा की खुदाई चंद्रगुप्त द्वितीय के मंत्री वीरसेन 'शाब' द्वारा की गई थी, किस देवता को समर्पित है?",
+      "option_a": "भगवान बुद्ध",
+      "option_b": "भगवान महावीर",
+      "option_c": "भगवान शिव",
+      "option_d": "भगवान कार्तिकेय",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. उदयगिरि गुफा 5 में प्रसिद्ध वराह मूर्ति है, लेकिन गुफा 7 में वीरसेन शाब (चंद्रगुप्त द्वितीय के मंत्री) का शिलालेख है, जिसमें घोषित किया गया है कि उन्होंने भक्ति भाव से भगवान शिव (शंभू) के लिए इस गुफा मंदिर का निर्माण कराया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Dashavatara Temple at Deogarh (Uttar Pradesh), built during the Gupta period, represents which architectural layout and is primarily dedicated to whom?",
+      "option_a": "Single-cell rock-cut structure; Lord Shiva",
+      "option_b": "Panchayatana style; Lord Vishnu",
+      "option_c": "Double-storied circular plan; Gautama Buddha",
+      "option_d": "Octagonal assembly hall style; Lord Kartikeya",
+      "correct": "B",
+      "explanation": "Correct option: B. The Dashavatara Temple at Deogarh is one of the earliest Hindu stone temples. It has a Panchayatana layout (main temple surrounded by four smaller shrines) and is dedicated to Vishnu, featuring the famous Sheshashayi Vishnu sculpture."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गुप्त काल के दौरान निर्मित देवगढ़ (उत्तर प्रदेश) का दशावतार मंदिर किस स्थापत्य विन्यास का प्रतिनिधित्व करता है और मुख्य रूप से किसे समर्पित है?",
+      "option_a": "एकल-कक्ष शैलकृत संरचना; भगवान शिव",
+      "option_b": "पंचायतन शैली; भगवान विष्णु",
+      "option_c": "दो मंजिला गोलाकार योजना; गौतम बुद्ध",
+      "option_d": "अष्टकोणीय सभा भवन शैली; भगवान कार्तिकेय",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. देवगढ़ का दशावतार मंदिर सबसे प्रारंभिक हिंदू पाषाण मंदिरों में से एक है। इसमें एक पंचायतन विन्यास (चार छोटे मंदिरों से घिरा मुख्य मंदिर) है और यह विष्णु को समर्पित है, जिसमें प्रसिद्ध शेषशायी विष्णु की मूर्ति है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Gupta-era temple in Kanpur district, Uttar Pradesh, is highly significant as one of the oldest surviving terracotta brick temples in India, featuring a high pyramidal spire (shikhara)?",
+      "option_a": "Bhitargaon Temple",
+      "option_b": "Nachna Kuthara Temple",
+      "option_c": "Tigawa Vishnu Temple",
+      "option_d": "Eran Vishnu Temple",
+      "correct": "A",
+      "explanation": "Correct option: A. The Bhitargaon Temple is constructed entirely of terracotta bricks and clay mortar. Dating to the 5th century CE, it is famous for its shikhara, decorative terracotta plaques, and corbelled arches."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उत्तर प्रदेश के कानपुर जिले में गुप्त काल का कौन सा मंदिर भारत में जीवित बचे सबसे पुराने टेराकोटा ईंट मंदिरों में से एक के रूप में अत्यधिक महत्वपूर्ण है, जिसमें एक ऊंचा पिरामिडनुमा शिखर है?",
+      "option_a": "भीतरगाँव मंदिर",
+      "option_b": "नचना कुठारा मंदिर",
+      "option_c": "तिगवा विष्णु मंदिर",
+      "option_d": "एरन विष्णु मंदिर",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. भीतरगाँव मंदिर पूरी तरह से टेराकोटा ईंटों और मिट्टी के गारे से निर्मित है। 5वीं शताब्दी ईस्वी का यह मंदिर अपने शिखर, सजावटी टेराकोटा पट्टियों और डाटदार मेहराबों (corbelled arches) के लिए प्रसिद्ध है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The colossal copper statue of Buddha discovered at Sultanganj (Bihar), dating to the Gupta-Pala transition period, is currently housed in which museum?",
+      "option_a": "National Museum, New Delhi",
+      "option_b": "Patna Museum, Bihar",
+      "option_c": "Birmingham Museum and Art Gallery, UK",
+      "option_d": "British Museum, London",
+      "correct": "C",
+      "explanation": "Correct option: C. The Sultanganj Buddha is a 7.5-foot tall copper statue displaying the Sarnath school's refinement. It was discovered during railway construction in 1862 and is now in the Birmingham Museum, UK."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सुल्तानगंज (बिहार) में खोजी गई बुद्ध की विशाल तांबे की मूर्ति, जो गुप्त-पाल संक्रमण काल की है, वर्तमान में किस संग्रहालय में रखी गई है?",
+      "option_a": "राष्ट्रीय संग्रहालय, नई दिल्ली",
+      "option_b": "पटना संग्रहालय, बिहार",
+      "option_c": "बर्मिंघम संग्रहालय और आर्ट गैलरी, यूके",
+      "option_d": "ब्रिटिश संग्रहालय, लंदन",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सुल्तानगंज बुद्ध 7.5 फीट ऊंची तांबे की मूर्ति है जो सारनाथ स्कूल के परिष्कार को प्रदर्शित करती है। इसकी खोज 1862 में रेलवे निर्माण के दौरान की गई थी और अब यह बर्मिंघम संग्रहालय, यूके में है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Although working slightly after Chandragupta II, the great scientist Aryabhata flourished during the Gupta Golden Age. Which of the following discoveries is correctly attributed to him?",
+      "option_a": "He proposed the heliocentric theory before Copernicus and explained the law of gravity.",
+      "option_b": "He calculated the value of Pi (π) to four decimal places and formulated the scientific cause of solar and lunar eclipses.",
+      "option_c": "He wrote the 'Sushruta Samhita' detailing rhinoplasty.",
+      "option_d": "He discovered the atmospheric composition and the presence of oxygen.",
+      "correct": "B",
+      "explanation": "Correct option: B. Aryabhata, in his work Aryabhatiya, calculated pi as 3.1416 and correctly explained that eclipses are caused by the shadows of the Earth and the Moon, rather than the demon Rahu."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. यद्यपि चंद्रगुप्त द्वितीय के कुछ समय बाद कार्य करते हुए, महान वैज्ञानिक आर्यभट्ट गुप्त स्वर्ण युग के दौरान फले-फूले। निम्नलिखित में से कौन सी खोज सही ढंग से उनके नाम दर्ज है?",
+      "option_a": "उन्होंने कोपरनिकस से पहले सूर्यकेंद्रित सिद्धांत का प्रस्ताव रखा और गुरुत्वाकर्षण के नियम की व्याख्या की।",
+      "option_b": "उन्होंने दशमलव के चार स्थानों तक पाई (π) के मान की गणना की और सूर्य व चंद्र ग्रहण के वैज्ञानिक कारण को प्रतिपादित किया।",
+      "option_c": "उन्होंने राइनोप्लास्टी (प्लास्टिक सर्जरी) का विवरण देते हुए 'सुश्रुत संहिता' लिखी।",
+      "option_d": "उन्होंने वायुमंडलीय संरचना और ऑक्सीजन की उपस्थिति की खोज की।",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. आर्यभट्ट ने अपनी कृति 'आर्यभटीय' में पाई का मान 3.1416 आकलित किया और सही ढंग से समझाया कि ग्रहण राहु राक्षस के बजाय पृथ्वी और चंद्रमा की छाया के कारण होते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The paintings of the Bagh Caves in Dhar district of Madhya Pradesh are culturally contemporary to the Ajanta paintings. What is the primary difference in their theme?",
+      "option_a": "Bagh paintings are strictly religious representing Hinayana Buddhism, while Ajanta is purely Vajrayana.",
+      "option_b": "Bagh paintings depict more secular and everyday aspects of life compared to the predominantly religious/Jataka themes of Ajanta.",
+      "option_c": "Bagh paintings were done on marble walls, whereas Ajanta was painted on mud plaster.",
+      "option_d": "Bagh paintings represent only Shaiva traditions, unlike Ajanta.",
+      "correct": "B",
+      "explanation": "Correct option: B. While Ajanta cave paintings are deeply religious and center around Buddhist Jataka tales, the Bagh cave paintings, although Buddhist in association, exhibit more secular themes, depicting dance, music, and contemporary social life."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मध्य प्रदेश के धार जिले में बाघ गुफाओं के चित्र सांस्कृतिक रूप से अजंता के चित्रों के समकालीन हैं। उनके विषय में प्राथमिक अंतर क्या है?",
+      "option_a": "बाघ के चित्र कड़ाई से धार्मिक हैं जो हीनयान बौद्ध धर्म का प्रतिनिधित्व करते हैं, जबकि अजंता विशुद्ध रूप से वज्रयान है।",
+      "option_b": "अजंता के मुख्य रूप से धार्मिक/जातक विषयों की तुलना में बाघ के चित्र जीवन के अधिक धर्मनिरपेक्ष और रोजमर्रा के पहलुओं को दर्शाते हैं।",
+      "option_c": "बाघ के चित्र संगमरमर की दीवारों पर बनाए गए थे, जबकि अजंता को मिट्टी के गारे पर चित्रित किया गया था।",
+      "option_d": "अजंता के विपरीत, बाघ के चित्र केवल शैव परंपराओं का प्रतिनिधित्व करते हैं।",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. जबकि अजंता गुफा के चित्र गहरे धार्मिक हैं और बौद्ध जातक कथाओं के इर्द-गिर्द केंद्रित हैं, बाघ गुफा के चित्र, बौद्ध संबद्धता के बावजूद, अधिक धर्मनिरपेक्ष विषयों को प्रदर्शित करते हैं, जिनमें नृत्य, संगीत और समकालीन सामाजिक जीवन को दर्शाया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the high-ranking minister (Sandhivigrahika/minister of war and peace) of Chandragupta II who was also a renowned Sanskrit poet and grammarian, responsible for the Udayagiri cave inscription?",
+      "option_a": "Harishena",
+      "option_b": "Virasena Saba",
+      "option_c": "Amrakardava",
+      "option_d": "Shikharaswamin",
+      "correct": "B",
+      "explanation": "Correct option: B. Virasena Saba was the foreign minister (Sandhivigrahika) of Chandragupta II. He was a poet and expert in grammar, logic, and literature, and got the Udayagiri cave excavated."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के उच्च पदस्थ मंत्री (संधिविग्रहिक/युद्ध और शांति मंत्री) कौन थे जो एक प्रसिद्ध संस्कृत कवि और व्याकरणविद् भी थे, और उदयगिरि गुफा शिलालेख के लिए जिम्मेदार थे?",
+      "option_a": "हरिषेण",
+      "option_b": "वीरसेन शाब",
+      "option_c": "आम्रकर्दव",
+      "option_d": "शिखरस्वामी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. वीरसेन शाब चंद्रगुप्त द्वितीय के विदेश मंत्री (संधिविग्रहिक) थे। वह एक कवि और व्याकरण, तर्क व साहित्य के विशेषज्ञ थे, और उन्होंने ही उदयगिरि गुफा का उत्खनन कराया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Sarnath School of Sculpture reached its zenith during the Gupta era. What is the key stylistic feature that distinguishes Sarnath Buddha sculptures from the Mathura School?",
+      "option_a": "Heavy use of red spotted sandstone and muscular body representation.",
+      "option_b": "Complete absence of halo (prabhamandala) behind the head.",
+      "option_c": "Use of plain, transparent drapery (sanghati) without fold lines and a highly decorated halo.",
+      "option_d": "Deep influence of Greek and Roman drapery folds (Gandhara style).",
+      "correct": "C",
+      "explanation": "Correct option: C. The Sarnath school is marked by transparent, foldless drapery covering the body, a serene meditative facial expression, and a highly ornate halo behind the head of the Buddha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गुप्त काल के दौरान सारनाथ मूर्तिकला शैली अपने चरम पर पहुंच गई थी। वह प्रमुख शैलीगत विशेषता क्या है जो सारनाथ बुद्ध की मूर्तियों को मथुरा शैली से अलग करती है?",
+      "option_a": "लाल धब्बेदार बलुआ पत्थर का भारी उपयोग और मांसपेशियों से युक्त शरीर का प्रतिनिधित्व।",
+      "option_b": "सिर के पीछे प्रभामंडल (आभामंडल) की पूर्ण अनुपस्थिति।",
+      "option_c": "बिना सिलवटों वाली सादी, पारदर्शी पोशाक (संघाती) का उपयोग और अत्यधिक अलंकृत प्रभामंडल।",
+      "option_d": "ग्रीक और रोमन पोशाक की सिलवटों (गांधार शैली) का गहरा प्रभाव।",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सारनाथ शैली की विशेषता पारदर्शी, बिना सिलवटों वाली पोशाक है जो शरीर को ढकती है, एक शांत ध्यानमग्न चेहरे की अभिव्यक्ति, और बुद्ध के सिर के पीछे एक अत्यधिक अलंकृत प्रभामंडल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Among the Navaratnas in the court of Chandragupta II, Vetalbhatta and Shanku were famous for which respective fields of expertise?",
+      "option_a": "Medicine and Sanskrit grammar",
+      "option_b": "Magical arts (Mantrashastra) and Architecture (Shilpashastra)",
+      "option_c": "Astronomy and Lexicography",
+      "option_d": "Erotic poetry and Dramaturgy",
+      "correct": "B",
+      "explanation": "Correct option: B. Vetalbhatta was known for his mastery over magical lore, ghosts (Vetal), and Mantrashastra, whereas Shanku was a celebrated architect and authority on Shilpashastra."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के दरबार के नवरत्नों में, वेतालभट्ट और शंकु क्रमशः विशेषज्ञता के किन क्षेत्रों के लिए प्रसिद्ध थे?",
+      "option_a": "चिकित्सा और संस्कृत व्याकरण",
+      "option_b": "जादुई कला (मंत्रशास्त्र) और वास्तुकला (शिल्पशास्त्र)",
+      "option_c": "खगोल विज्ञान और कोशरचना (कोश विज्ञान)",
+      "option_d": "शृंगारिक कविता और नाट्यशास्त्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. वेतालभट्ट जादू-टोने, भूतों (वेताल) और मंत्रशास्त्र पर अपने अधिकार के लिए जाने जाते थे, जबकि शंकु एक प्रसिद्ध वास्तुकार और शिल्पशास्त्र के विद्वान थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Talagunda pillar inscription of Kakusthavarman mentions that the Kadamba royal family of the Deccan established matrimonial relations with the Guptas. Which Gupta ruler's daughter/son is associated with this alliance?",
+      "option_a": "Chandragupta I",
+      "option_b": "Samudragupta",
+      "option_c": "Chandragupta II",
+      "option_d": "Kumaragupta I",
+      "correct": "C",
+      "explanation": "Correct option: C. The Talagunda inscription states that Kadamba ruler Kakusthavarman married his daughters into prominent royal families including the Guptas, which occurred during the reign of Chandragupta II."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. काकुस्थवर्मन के तालगुंड स्तंभ शिलालेख में उल्लेख है कि दक्कन के कदंब शाही परिवार ने गुप्तों के साथ वैवाहिक संबंध स्थापित किए थे। किस गुप्त शासक का पुत्र/पुत्री इस गठबंधन से जुड़ा है?",
+      "option_a": "चंद्रगुप्त प्रथम",
+      "option_b": "समुद्रगुप्त",
+      "option_c": "चंद्रगुप्त द्वितीय",
+      "option_d": "कुमारगुप्त प्रथम",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. तालगुंड शिलालेख में कहा गया है कि कदंब शासक काकुस्थवर्मन ने अपनी पुत्रियों का विवाह गुप्तों सहित प्रमुख शाही परिवारों में किया था, जो चंद्रगुप्त द्वितीय के शासनकाल के दौरान हुआ था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Amrakardava, a famous military commander under Chandragupta II who made generous donations to the Buddhist Mahavihara at Sanchi, belonged to which religious sect?",
+      "option_a": "Vaishnavism",
+      "option_b": "Shaivism",
+      "option_c": "Buddhism",
+      "option_d": "Jainism",
+      "correct": "C",
+      "explanation": "Correct option: C. Amrakardava, a general of Chandragupta II, was a devout Buddhist. His donations to the Sanchi Buddhist monastery are documented in the Sanchi stone inscription of Gupta Year 93."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के अधीन एक प्रसिद्ध सैन्य कमांडर आम्रकर्दव, जिन्होंने सांची में बौद्ध महाविहार को उदार दान दिया था, किस धार्मिक संप्रदाय से संबंधित थे?",
+      "option_a": "वैष्णव धर्म",
+      "option_b": "शैव धर्म",
+      "option_c": "बौद्ध धर्म",
+      "option_d": "जैन धर्म",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. चंद्रगुप्त द्वितीय के सेनापति आम्रकर्दव एक कट्टर बौद्ध थे। सांची बौद्ध मठ को उनके द्वारा दिए गए दान का उल्लेख गुप्त वर्ष 93 के सांची पाषाण शिलालेख में मिलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Vararuchi, another gem in the court of Chandragupta II, is traditionally associated with which Sanskrit literary and linguistic contribution?",
+      "option_a": "Prakrita-Prakasha, the earliest Prakrit grammar",
+      "option_b": "Sushruta Samhita revision",
+      "option_c": "Surya Siddhanta compilation",
+      "option_d": "Mudrarakshasa playwriting",
+      "correct": "A",
+      "explanation": "Correct option: A. Vararuchi is identified as the author of 'Prakrita-Prakasha', which is the first grammar of the Prakrit language, highlighting the linguistic diversity of the Gupta era."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के दरबार के एक अन्य नवरत्न वररुचि पारंपरिक रूप से किस संस्कृत साहित्यिक और भाषाई योगदान से जुड़े हैं?",
+      "option_a": "प्राकृत-प्रकाश, सबसे पहला प्राकृत व्याकरण",
+      "option_b": "सुश्रुत संहिता का संशोधन",
+      "option_c": "सूर्य सिद्धांत का संकलन",
+      "option_d": "मुद्राराक्षस नाटक लेखन",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. वररुचि की पहचान 'प्राकृत-प्रकाश' के लेखक के रूप में की जाती है, जो प्राकृत भाषा का पहला व्याकरण है, जो गुप्त काल की भाषाई विविधता पर प्रकाश डालता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Chandragupta II was the first Gupta ruler to issue silver coins in the western provinces of the empire.\nReason (R): He wanted to establish economic continuity for the local trade networks after annexing the Western Kshatrapa territories.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Chandragupta II was indeed the first to issue Gupta silver coins (Rupaka) in the west. Reason Analysis: These coins were issued exactly in imitation of Western Kshatrapa silver coins to facilitate a smooth economic transition for merchants in the newly annexed western regions. The reason directly explains the assertion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): चंद्रगुप्त द्वितीय साम्राज्य के पश्चिमी प्रांतों में चांदी के सिक्के जारी करने वाला पहला गुप्त शासक था।\nकारण (R): वह पश्चिमी क्षत्रप क्षेत्रों को मिलाने के बाद स्थानीय व्यापार नेटवर्क के लिए आर्थिक निरंतरता स्थापित करना चाहता था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: चंद्रगुप्त द्वितीय वास्तव में पश्चिम में गुप्त चांदी के सिक्के (रूपक) जारी करने वाला पहला शासक था। कारण विश्लेषण: नवनिर्मित पश्चिमी क्षेत्रों में व्यापारियों के लिए एक सुचारु आर्थिक संक्रमण की सुविधा प्रदान करने के लिए इन सिक्कों को पश्चिमी क्षत्रप के चांदी के सिक्कों के अनुकरण पर जारी किया गया था। अतः कारण सीधे अभिकथन की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Chandragupta II married his daughter Prabhavatigupta into the Vakataka royal family.\nReason (R): The Vakatakas occupied a strategic geographical position in the Deccan, which was crucial for his campaign against the Shakas.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The marriage of Prabhavatigupta with Rudrasena II is historically documented. Reason Analysis: The Vakataka kingdom ruled the northern Deccan. A hostile Vakataka state would have threatened the southern flank during the campaign against Western Shakas. Thus, the alliance was strategically designed for the Shaka campaign. The reason directly explains the assertion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): चंद्रगुप्त द्वितीय ने अपनी पुत्री प्रभावतीगुप्ता का विवाह वाकाटक शाही परिवार में किया था।\nकारण (R): वाकाटकों ने दक्कन में एक रणनीतिक भौगोलिक स्थिति पर अधिकार कर रखा था, जो शकों के खिलाफ उनके अभियान के लिए महत्वपूर्ण थी।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: प्रभावतीगुप्ता का रुद्रसेन द्वितीय के साथ विवाह ऐतिहासिक रूप से प्रलेखित है। कारण विश्लेषण: वाकाटक साम्राज्य उत्तरी दक्कन पर शासन करता था। एक शत्रुतापूर्ण वाकाटक राज्य पश्चिमी शकों के खिलाफ अभियान के दौरान दक्षिणी हिस्से को खतरे में डाल सकता था। इस प्रकार, गठबंधन रणनीतिक रूप से शक अभियान के लिए तैयार किया गया था। अतः कारण सीधे अभिकथन की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): The Chinese pilgrim Faxian provides no direct mention of the name of Emperor Chandragupta II in his travelogues.\nReason (R): Faxian's primary objective in India was not political or historical documentation, but collecting authentic Buddhist Vinaya texts.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Faxian's writings completely omit Chandragupta II's name. Reason Analysis: Faxian was a devout monk whose sole purpose was to acquire Buddhist Vinaya Pitaka manuscripts. Consequently, he focused on Buddhist institutions and did not pay attention to secular court details or the name of the king. Thus, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): चीनी तीर्थयात्री फाहियान ने अपने यात्रा वृत्तांतों में सम्राट चंद्रगुप्त द्वितीय के नाम का कोई प्रत्यक्ष उल्लेख नहीं किया है।\nकारण (R): भारत में फाहियान का प्राथमिक उद्देश्य राजनीतिक या ऐतिहासिक प्रलेखन नहीं था, बल्कि प्रामाणिक बौद्ध विनय ग्रंथों को एकत्र करना था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: फाहियान के लेखों में चंद्रगुप्त द्वितीय के नाम का पूर्णतः लोप है। कारण विश्लेषण: फाहियान एक समर्पित भिक्षु थे जिनका एकमात्र उद्देश्य बौद्ध विनय पिटक पांडुलिपियों को प्राप्त करना था। परिणामस्वरूप, उन्होंने बौद्ध संस्थानों पर ध्यान केंद्रित किया और धर्मनिरपेक्ष अदालती विवरणों या राजा के नाम पर ध्यान नहीं दिया। अतः R, A की सही व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): The Mehrauli Iron Pillar has remained completely rust-free despite exposure to the atmosphere for over 1600 years.\nReason (R): The iron utilized contains high phosphorus and low sulfur content, coupled with the formation of a protective crystalline iron hydrogen phosphate hydrate layer.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The iron pillar at Mehrauli is famous for its rust-free state. Reason Analysis: Metallurgical studies confirm that the high phosphorus, low sulfur, and slag particles created a passive protective layer called 'misawite' (iron hydrogen phosphate hydrate) on the surface, preventing rust. R correctly explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): 1600 से अधिक वर्षों तक वायुमंडल के संपर्क में रहने के बावजूद महरौली का लौह स्तंभ पूरी तरह से जंग-मुक्त रहा है।\nकारण (R): उपयोग किए गए लोहे में उच्च फास्फोरस और कम सल्फर सामग्री होती है, साथ ही सतह पर एक सुरक्षात्मक क्रिस्टलीय आयरन हाइड्रोजन फास्फेट हाइड्रेट परत का निर्माण होता है।",
+      "option_a": "A और R दोनों सही हैं, and R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: महरौली का लौह स्तंभ अपने जंग-मुक्त होने के लिए प्रसिद्ध है। कारण विश्लेषण: धातुकर्म अध्ययनों से पुष्टि होती है कि उच्च फास्फोरस, कम सल्फर और स्लैग कणों ने सतह पर 'मिसावाइट' (आयरन हाइड्रोजन फास्फेट हाइड्रेट) नामक एक निष्क्रिय सुरक्षात्मक परत बनाई, जो जंग को रोकती है। अतः R, A की सही व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Ujjain was declared the second capital of the Gupta Empire by Chandragupta II.\nReason (R): Pataliputra had been completely destroyed by Huna invaders during the early part of Chandragupta II's reign.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Chandragupta II did make Ujjain his second capital to manage trade and administration in Western India. Reason Analysis: Pataliputra was not destroyed by Hunas during his reign; the Huna invasions occurred much later, during the reigns of Kumaragupta I and Skandagupta. Thus, Reason is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): चंद्रगुप्त द्वितीय द्वारा उज्जैन को गुप्त साम्राज्य की दूसरी राजधानी घोषित किया गया था।\nकारण (R): चंद्रगुप्त द्वितीय के शासनकाल के प्रारंभिक भाग में हूण आक्रमणकारियों द्वारा पाटलिपुत्र को पूरी तरह से नष्ट कर दिया गया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: चंद्रगुप्त द्वितीय ने पश्चिमी भारत में व्यापार और प्रशासन की देखरेख के लिए उज्जैन को अपनी दूसरी राजधानी बनाया था। कारण विश्लेषण: उनके शासनकाल के दौरान पाटलिपुत्र हूणों द्वारा नष्ट नहीं किया गया था; हूण आक्रमण बहुत बाद में, कुमारगुप्त प्रथम और स्कंदगुप्त के शासनकाल के दौरान हुए थे। अतः कारण गलत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): The play Devichandraguptam is an important source for reconstructing the political succession drama after Samudragupta's death.\nReason (R): It was written by Kalidasa, who was the court poet and direct witness to the events of Chandragupta II's ascension.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Devichandraguptam provides key details about the transitional rule of Ramagupta and how Chandragupta II came to power. Reason Analysis: The play was written by Vishakhadatta, not Kalidasa. Therefore, the reason is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): समुद्रगुप्त की मृत्यु के बाद राजनीतिक उत्तराधिकार के घटनाक्रम को समझने के लिए देवीचंद्रगुप्तम् नाटक एक महत्वपूर्ण स्रोत है।\nकारण (R): यह कालिदास द्वारा लिखा गया था, जो दरबारी कवि थे और चंद्रगुप्त द्वितीय के राज्यारोहण की घटनाओं के प्रत्यक्ष गवाह थे।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: देवीचंद्रगुप्तम् रामगुप्त के संक्रमणकालीन शासन और चंद्रगुप्त द्वितीय के सत्ता में आने के बारे में महत्वपूर्ण विवरण प्रदान करता है। कारण विश्लेषण: यह नाटक विशाखदत्त द्वारा लिखा गया था, न कि कालिदास द्वारा। अतः कारण गलत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Sarnath style Buddha sculptures of the Gupta period represent a shift away from the realistic muscular details of the Gandhara school.\nReason (R): Gupta artists preferred spiritual and meditative quality, represented by transparent foldless draperies and a serene facial expression.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Sarnath sculpture moved away from Gandharan physical realism (muscles, heavy realistic folds). Reason Analysis: The spiritual ideal of the Guptas was expressed through calm, meditative countenances and simple transparent drapery that reveals the form without focusing on anatomical muscularity. R is the correct explanation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): गुप्त काल की सारनाथ शैली की बुद्ध मूर्तियां गांधार शैली के यथार्थवादी मांसपेशियों के विवरण से दूर एक बदलाव का प्रतिनिधित्व करती हैं।\nकारण (R): गुप्त कलाकारों ने आध्यात्मिक और ध्यानमग्न गुणवत्ता को प्राथमिकता दी, जिसे पारदर्शी सिलवट रहित वस्त्रों और एक शांत चेहरे की अभिव्यक्ति द्वारा दर्शाया गया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: सारनाथ मूर्तिकला गांधार के शारीरिक यथार्थवाद (मांसपेशियों, भारी सिलवटों) से दूर चली गई थी। कारण विश्लेषण: गुप्तों के आध्यात्मिक आदर्श को शांत, ध्यानमग्न चेहरों और साधारण पारदर्शी पोशाक के माध्यम से व्यक्त किया गया था जो शारीरिक मांसलता पर ध्यान केंद्रित किए बिना रूप को उजागर करता है। अतः R, A की सही व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Faxian did not write extensively about the military structures or the administrative expansion of the Gupta empire.\nReason (R): Faxian was primarily interested in collecting Buddhist texts and visiting places associated with the life of Gautama Buddha.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Faxian's account contains negligible details about the military or political expansion of the Guptas. Reason Analysis: His trip was purely pilgrimage and academic collection of scriptures. The reason correctly explains why his writings lack military/administrative details."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): फाहियान ने गुप्त साम्राज्य की सैन्य संरचनाओं या प्रशासनिक विस्तार के बारे में विस्तार से नहीं लिखा।\nकारण (R): फाहियान मुख्य रूप से बौद्ध ग्रंथों को एकत्र करने और गौतम बुद्ध के जीवन से जुड़े स्थानों का दौरा करने में रुचि रखता था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: फाहियान के विवरण में गुप्तों के सैन्य या राजनीतिक विस्तार के बारे में नगण्य विवरण हैं। कारण विश्लेषण: उनकी यात्रा विशुद्ध रूप से तीर्थयात्रा और शास्त्रों के अकादमिक संग्रह के लिए थी। अतः कारण सही ढंग से बताता है कि उनके लेखों में सैन्य/प्रशासनिक विवरणों की कमी क्यों है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Navaratna of Chandragupta II) with List-II (Specialized Subject/Role) and select the correct answer:\n\nList-I:\na) Kalidasa\nb) Amarasimha\nc) Dhanvantari\nd) Varahamihira\ne) Shanku\n\nList-II:\n1) Ayurveda and Medicine\n2) Lexicography and Grammar\n3) Astronomy and Astrology\n4) Architecture and Shilpashastra\n5) Sanskrit Drama and Poetry",
+      "option_a": "a-5, b-2, c-1, d-3, e-4",
+      "option_b": "a-5, b-1, c-2, d-3, e-4",
+      "option_c": "a-3, b-2, c-1, d-5, e-4",
+      "option_d": "a-5, b-2, c-1, d-4, e-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Kalidasa (a) matches Sanskrit Drama [5]. Amarasimha (b) matches Lexicography [2]. Dhanvantari (c) matches Ayurveda [1]. Varahamihira (d) matches Astronomy [3]. Shanku (e) matches Architecture [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (चंद्रगुप्त द्वितीय के नवरत्न) को सूची-II (विशेषीकृत विषय/भूमिका) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\n\nसूची-I:\na) कालिदास\nb) अमरसिंह\nc) धन्वंतरि\nd) वराहमिहिर\ne) शंकु\n\nसूची-II:\n1) आयुर्वेद और चिकित्सा\n2) कोशरचना और व्याकरण\n3) खगोल विज्ञान और ज्योतिष\n4) वास्तुकला और शिल्पशास्त्र\n5) संस्कृत नाटक और काव्य",
+      "option_a": "a-5, b-2, c-1, d-3, e-4",
+      "option_b": "a-5, b-1, c-2, d-3, e-4",
+      "option_c": "a-3, b-2, c-1, d-5, e-4",
+      "option_d": "a-5, b-2, c-1, d-4, e-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. कालिदास (a) संस्कृत नाटक [5] से सुमेलित हैं। अमरसिंह (b) कोशरचना [2] से सुमेलित हैं। धन्वंतरि (c) आयुर्वेद [1] से सुमेलित हैं। वराहमिहिर (d) खगोल विज्ञान [3] से सुमेलित हैं। शंकु (e) वास्तुकला [4] से सुमेलित हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Gupta Literary Work) with List-II (Author) and select the correct answer:\n\nList-I:\na) Devichandraguptam\nb) Mrichchhakatika\nc) Kumarasambhava\nd) Panchasiddhantika\ne) Prakrita-Prakasha\n\nList-II:\n1) Vararuchi\n2) Varahamihira\n3) Kalidasa\n4) Shudraka\n5) Vishakhadatta",
+      "option_a": "a-5, b-4, c-3, d-2, e-1",
+      "option_b": "a-4, b-5, c-3, d-2, e-1",
+      "option_c": "a-5, b-4, c-2, d-3, e-1",
+      "option_d": "a-5, b-4, c-3, d-1, e-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Devichandraguptam (a) was written by Vishakhadatta [5]. Mrichchhakatika (b) by Shudraka [4]. Kumarasambhava (c) by Kalidasa [3]. Panchasiddhantika (d) by Varahamihira [2]. Prakrita-Prakasha (e) by Vararuchi [1]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (गुप्तकालीन साहित्यिक कृति) को सूची-II (लेखक) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\n\nसूची-I:\na) देवीचंद्रगुप्तम्\nb) मृच्छकटिकम्\nc) कुमारसंभव\nd) पंचसिद्धांतिका\ne) प्राकृत-प्रकाश\n\nसूची-II:\n1) वररुचि\n2) वराहमिहिर\n3) कालिदास\n4) शूद्रक\n5) विशाखदत्त",
+      "option_a": "a-5, b-4, c-3, d-2, e-1",
+      "option_b": "a-4, b-5, c-3, d-2, e-1",
+      "option_c": "a-5, b-4, c-2, d-3, e-1",
+      "option_d": "a-5, b-4, c-3, d-1, e-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. देवीचंद्रगुप्तम् (a) विशाखदत्त [5] द्वारा लिखी गई थी। मृच्छकटिकम् (b) शूद्रक [4] द्वारा। कुमारसंभव (c) कालिदास [3] द्वारा। पंचसिद्धांतिका (d) वराहमिहिर [2] द्वारा। प्राकृत-प्रकाश (e) वररुचि [1] द्वारा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Gupta Art/Architectural Monument) with List-II (Location/State) and select the correct answer:\n\nList-I:\na) Dashavatara Temple\nb) Bhitargaon Brick Temple\nc) Bagh Caves\nd) Sultanganj Copper Buddha\ne) Udayagiri Varaha Panel\n\nList-II:\n1) Bihar\n2) Vidisha (Madhya Pradesh)\n3) Dhar (Madhya Pradesh)\n4) Kanpur (Uttar Pradesh)\n5) Deogarh (Uttar Pradesh)",
+      "option_a": "a-5, b-4, c-3, d-1, e-2",
+      "option_b": "a-4, b-5, c-3, d-1, e-2",
+      "option_c": "a-5, b-4, c-1, d-3, e-2",
+      "option_d": "a-5, b-4, c-3, d-2, e-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Dashavatara Temple is at Deogarh [5]. Bhitargaon Temple is in Kanpur [4]. Bagh Caves are in Dhar [3]. Sultanganj Buddha is from Bihar [1]. Udayagiri cave Varaha panel is in Vidisha [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (गुप्तकालीन कला/वास्तुकला स्मारक) को सूची-II (स्थान/राज्य) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\n\nसूची-I:\na) दशावतार मंदिर\nb) भीतरगाँव ईंट मंदिर\nc) बाघ गुफाएँ\nd) सुल्तानगंज तांबे के बुद्ध\ne) उदयगिरि वराह फलक\n\nसूची-II:\n1) बिहार\n2) विदिशा (मध्य प्रदेश)\n3) धार (मध्य प्रदेश)\n4) Kanpur (Uttar Pradesh)\n5) देवगढ़ (उत्तर प्रदेश)",
+      "option_a": "a-5, b-4, c-3, d-1, e-2",
+      "option_b": "a-4, b-5, c-3, d-1, e-2",
+      "option_c": "a-5, b-4, c-1, d-3, e-2",
+      "option_d": "a-5, b-4, c-3, d-2, e-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. दशावतार मंदिर देवगढ़ [5] में है। भीतरगाँव मंदिर कानपुर [4] में है। बाघ गुफाएँ धार [3] में हैं। सुल्तानगंज बुद्ध बिहार [1] से हैं। उदयगिरि गुफा वराह फलक विदिशा [2] में है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Work of Kalidasa) with List-II (Literary Form/Type) and select the correct answer:\n\nList-I:\na) Abhijnanashakuntalam\nb) Raghuvamsha\nc) Meghaduta\nd) Ritusamhara\ne) Vikramorvashiyam\n\nList-II:\n1) Lyric Drama of divine-human love\n2) Descriptive poem on seasons\n3) Lyric messenger poem (Khandakavya)\n4) Classical epic poem (Mahakavya)\n5) Masterpiece Sanskrit play of recognition",
+      "option_a": "a-5, b-4, c-3, d-2, e-1",
+      "option_b": "a-5, b-3, c-4, d-2, e-1",
+      "option_c": "a-4, b-5, c-3, d-2, e-1",
+      "option_d": "a-5, b-4, c-2, d-3, e-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Abhijnanashakuntalam is a masterpiece play of recognition [5]. Raghuvamsha is a Mahakavya [4]. Meghaduta is a messenger poem [3]. Ritusamhara is a descriptive seasonal poem [2]. Vikramorvashiyam is a drama of Urvashi and Pururavas [1]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (कालिदास की कृति) को सूची-II (साहित्यिक रूप/प्रकार) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\n\nसूची-I:\na) अभिज्ञानशाकुंतलम्\nb) रघुवंश\nc) मेघदूत\nd) ऋतुसंहार\ne) विक्रमोर्वशीयम्\n\nसूची-II:\n1) दिव्य-मानव प्रेम का नाट्य रूप\n2) ऋतुओं पर वर्णनात्मक कविता\n3) गीत दूत काव्य (खंडकाव्य)\n4) शास्त्रीय महाकाव्य (महाकाव्य)\n5) पहचान पर आधारित उत्कृष्ट संस्कृत नाटक",
+      "option_a": "a-5, b-4, c-3, d-2, e-1",
+      "option_b": "a-5, b-3, c-4, d-2, e-1",
+      "option_c": "a-4, b-5, c-3, d-2, e-1",
+      "option_d": "a-5, b-4, c-2, d-3, e-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. अभिज्ञानशाकुंतलम् पहचान पर आधारित एक उत्कृष्ट नाटक है [5]। रघुवंश एक महाकाव्य है [4]। मेघदूत एक दूत काव्य है [3]। ऋतुसंहार ऋतुओं का वर्णनात्मक काव्य है [2]। विक्रमोर्वशीयम् पुरूरवा और उर्वशी का दिव्य-मानव नाटक है [1]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Administrative Designation under Chandragupta II) with List-II (Department/Function) and select the correct answer:\n\nList-I:\na) Sandhivigrahika\nb) Kumaramatya\nc) Maha-dandanayaka\nd) Uparika\ne) Shaulkika\n\nList-II:\n1) Provincial Governor\n2) Collector of customs and tolls\n3) Chief Judicial/Military Officer\n4) Minister of War and Peace\n5) High-ranking civil services officer",
+      "option_a": "a-4, b-5, c-3, d-1, e-2",
+      "option_b": "a-4, b-3, c-5, d-1, e-2",
+      "option_c": "a-5, b-4, c-3, d-1, e-2",
+      "option_d": "a-4, b-5, c-1, d-3, e-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Sandhivigrahika (a) is the Minister of War and Peace [4]. Kumaramatya (b) represents high-ranking civil cadres [5]. Maha-dandanayaka (c) is Chief Judicial/Military Officer [3]. Uparika (d) is Provincial Governor [1]. Shaulkika (e) collected tolls and duties [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (चंद्रगुप्त द्वितीय के अधीन प्रशासनिक पद) को सूची-II (विभाग/कार्य) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\n\nसूची-I:\na) संधिविग्रहिक\nb) कुमारामात्य\nc) महादण्डनायक\nd) उपरिक\ne) शौल्किक\n\nसूची-II:\n1) प्रांतीय गवर्नर\n2) सीमा शुल्क और टोल का कलेक्टर\n3) मुख्य न्यायिक/सैन्य अधिकारी\n4) युद्ध और शांति मंत्री\n5) उच्च पदस्थ सिविल सेवा अधिकारी",
+      "option_a": "a-4, b-5, c-3, d-1, e-2",
+      "option_b": "a-4, b-3, c-5, d-1, e-2",
+      "option_c": "a-5, b-4, c-3, d-1, e-2",
+      "option_d": "a-4, b-5, c-1, d-3, e-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. संधिविग्रहिक (a) युद्ध और शांति मंत्री [4] थे। कुमारामात्य (b) उच्च सिविल सेवा अधिकारियों का प्रतिनिधित्व करते थे [5]। महादण्डनायक (c) मुख्य न्यायिक/सैन्य अधिकारी [3] थे। उपरिक (d) प्रांतीय गवर्नर [1] थे। शौल्किक (e) सीमा शुल्क और टोल एकत्र करते थे [2]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Inscription/Source) with List-II (Key Historical Detail) and select the correct answer:\n\nList-I:\na) Mehrauli Pillar Inscription\nb) Sanchi Stone Inscription\nc) Chamak Copper Plate\nd) Talagunda Pillar Inscription\ne) Mathura Pillar Inscription\n\nList-II:\n1) Refers to Kadamba-Gupta matrimonial alliances\n2) Refers to Chandragupta II as 'Devagupta'\n3) Record of donation to Buddhist assembly by Amrakardava\n4) Eulogy of king 'Chandra' and his conquest of Vahlikas\n5) First dated record of Gupta Era G.E. 61 during Chandragupta II",
+      "option_a": "a-4, b-3, c-2, d-1, e-5",
+      "option_b": "a-4, b-2, c-3, d-1, e-5",
+      "option_c": "a-3, b-4, c-2, d-1, e-5",
+      "option_d": "a-4, b-3, c-1, d-2, e-5",
+      "correct": "A",
+      "explanation": "Correct option: A. Mehrauli (a) mentions 'Chandra' defeating Vahlikas [4]. Sanchi (b) records Amrakardava's donation [3]. Chamak plate (c) mentions Devagupta [2]. Talagunda (d) mentions Kadamba alliance [1]. Mathura (e) is the first dated Gupta pillar record of Chandragupta II [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (शिलालेख/स्रोत) को सूची-II (प्रमुख ऐतिहासिक विवरण) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\n\nसूची-I:\na) महरौली स्तंभ शिलालेख\nb) सांची पाषाण शिलालेख\nc) चामक ताम्रपत्र\nd) तालगुंड स्तंभ शिलालेख\ne) मथुरा स्तंभ शिलालेख\n\nसूची-II:\n1) कदंब-गुप्त वैवाहिक संबंधों को संदर्भित करता है\n2) चंद्रगुप्त द्वितीय को 'देवगुप्त' के रूप में संदर्भित करता है\n3) आम्रकर्दव द्वारा बौद्ध सभा को दान का रिकॉर्ड\n4) राजा 'चंद्र' और वाह्लीकों पर उनकी विजय की प्रशंसा\n5) चंद्रगुप्त द्वितीय के दौरान गुप्त संवत G.E. 61 का पहला दिनांकित रिकॉर्ड",
+      "option_a": "a-4, b-3, c-2, d-1, e-5",
+      "option_b": "a-4, b-2, c-3, d-1, e-5",
+      "option_c": "a-3, b-4, c-2, d-1, e-5",
+      "option_d": "a-4, b-3, c-1, d-2, e-5",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. महरौली (a) में वाह्लीकों को हराने वाले राजा 'चंद्र' का उल्लेख है [4]। सांची (b) में आम्रकर्दव के दान का विवरण है [3]। चामक ताम्रपत्र (c) में देवगुप्त नाम का उल्लेख है [2]। तालगुंड (d) में कदंब गठबंधन का उल्लेख है [1]। मथुरा स्तंभ शिलालेख (e) चंद्रगुप्त द्वितीय के काल का पहला दिनांकित शिलालेख है [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Navaratna of Chandragupta II) with List-II (Field of Work) and select the correct answer:\n\nList-I:\na) Vetalbhatta\nb) Ghatakarpara\nc) Kshapanaka\nd) Vararuchi\n\nList-II:\n1) Astrological predictions (Jyotisha)\n2) Sanskrit grammar and Prakrit language study\n3) Magic arts and Mantrashastra\n4) Lyric poetry and envoy literature\n5) Metallurgical casting and smithery",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-3, b-1, c-4, d-2",
+      "option_c": "a-4, b-3, c-1, d-2",
+      "option_d": "a-3, b-4, c-2, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Vetalbhatta (a) is associated with magic/Mantrashastra [3]. Ghatakarpara (b) was a poet famous for Yamaka verses and envoy poetry [4]. Kshapanaka (c) was an astrologer [1]. Vararuchi (d) is associated with Prakrit/Sanskrit grammar [2]. Option 5 is a distractor."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (चंद्रगुप्त द्वितीय के नवरत्न) को सूची-II (कार्य क्षेत्र) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\n\nसूची-I:\na) वेतालभट्ट\nb) घटखर्पर\nc) क्षपणक\nd) वररुचि\n\nसूची-II:\n1) ज्योतिषीय भविष्यवाणियां (ज्योतिष)\n2) संस्कृत व्याकरण और प्राकृत भाषा का अध्ययन\n3) जादू कला और मंत्रशास्त्र\n4) शृंगारिक काव्य और दूत काव्य\n5) धातुकर्म ढलाई और लोहारी",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-3, b-1, c-4, d-2",
+      "option_c": "a-4, b-3, c-1, d-2",
+      "option_d": "a-3, b-4, c-2, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. वेतालभट्ट (a) जादू/मंत्रशास्त्र [3] से जुड़े हैं। घटखर्पर (b) यमक छंदों और दूत काव्यों के लिए प्रसिद्ध कवि थे [4]। क्षपणक (c) ज्योतिषी थे [1]। वररुचि (d) प्राकृत/संस्कृत व्याकरण से जुड़े हैं [2]। विकल्प 5 एक अनुपयुक्त विकल्प है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Sanskrit Work of Gupta Era) with List-II (Core Subject Matter) and select the correct answer:\n\nList-I:\na) Mrichchhakatika\nb) Brihat Samhita\nc) Mudrarakshasa\nd) Ritusamhara\n\nList-II:\n1) Description of changing seasons\n2) Political intrigue and Mauryan consolidation\n3) Social realism and romance in Ujjain\n4) Vast encyclopedic compendium of science and nature\n5) Surgical procedures and dissection techniques",
+      "option_a": "a-3, b-4, c-2, d-1",
+      "option_b": "a-4, b-3, c-2, d-1",
+      "option_c": "a-3, b-2, c-4, d-1",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Mrichchhakatika (a) represents urban romance and social realism [3]. Brihat Samhita (b) is an encyclopedic work on science, nature, and geography [4]. Mudrarakshasa (c) deals with political intrigue [2]. Ritusamhara (d) describes the seasons [1]. Option 5 is a distractor."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (गुप्तकालीन संस्कृत कृति) को सूची-II (मूल विषय वस्तु) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\n\nसूची-I:\na) मृच्छकटिकम्\nb) बृहत् संहिता\nc) मुद्राराक्षस\nd) ऋतुसंहार\n\nसूची-II:\n1) बदलती ऋतुओं का वर्णन\n2) राजनीतिक साजिश और मौर्य साम्राज्य का सुदृढ़ीकरण\n3) उज्जैन में सामाजिक यथार्थवाद और रोमांस\n4) विज्ञान और प्रकृति का विशाल विश्वकोशीय संग्रह\n5) शल्य चिकित्सा प्रक्रियाएं और विच्छेदन तकनीक",
+      "option_a": "a-3, b-4, c-2, d-1",
+      "option_b": "a-4, b-3, c-2, d-1",
+      "option_c": "a-3, b-2, c-4, d-1",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मृच्छकटिकम् (a) शहरी रोमांस और सामाजिक यथार्थवाद का प्रतिनिधित्व करता है [3]। बृहत् संहिता (b) विज्ञान, प्रकृति और भूगोल पर एक विश्वकोश है [4]। मुद्राराक्षस (c) राजनीतिक साजिशों से संबंधित है [2]। ऋतुसंहार (d) ऋतुओं का वर्णन करता है [1]। विकल्प 5 एक अनुपयुक्त विकल्प है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the conquest of the Western Kshatrapas by Chandragupta II:\n1. The conquest of the Sakas secured the Gupta empire's access to the western sea ports of Broach, Cambay, and Sopara.\n2. The annexation of the Shaka kingdom led directly to the discontinuation of local silver currency in the region.\n3. The conquest is commemorated in the Mehrauli iron pillar inscription which describes the destruction of the Sakas.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "1 and 2 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because the defeat of Rudrasimha III gave the Guptas direct access to the lucrative trade ports on the western coast. Statement 2 is incorrect because the Guptas did not discontinue but rather imitated the silver coinage to maintain local monetary systems. Statement 3 is incorrect because the Mehrauli inscription describes victories over Vahlikas and Eastern clans, not specifically the western Saka campaign."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय द्वारा पश्चिमी क्षत्रपों की विजय के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. शकों की विजय ने भड़ौच, कैम्बे और सोपारा के पश्चिमी समुद्री बंदरगाहों तक गुप्त साम्राज्य की पहुँच सुरक्षित कर दी।\n2. शक साम्राज्य के विलय के कारण क्षेत्र में स्थानीय चांदी की मुद्रा का प्रचलन सीधे तौर पर बंद हो गया।\n3. इस विजय को महरौली लौह स्तंभ शिलालेख में याद किया गया है जो शकों के विनाश का वर्णन करता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि रुद्रसिंह तृतीय की पराजय ने गुप्तों को पश्चिमी तट पर आकर्षक व्यापारिक बंदरगाहों तक सीधी पहुँच प्रदान की। कथन 2 गलत है क्योंकि गुप्तों ने स्थानीय मौद्रिक प्रणालियों को बनाए रखने के लिए चांदी के सिक्कों को बंद करने के बजाय उनका अनुकरण किया। कथन 3 गलत है क्योंकि महरौली शिलालेख वाह्लीकों और पूर्वी कुलों पर विजय का वर्णन करता है, विशेष रूप से पश्चिमी शक अभियान का नहीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the social and religious conditions described by the Chinese pilgrim Faxian:\n1. He noted that the people of the Middle Kingdom did not kill any living creature or drink intoxicating liquor, except the Chandalas.\n2. He described the judicial system as harsh, where the death penalty was frequently imposed for minor offences.\n3. He witnessed that Buddhism was in complete decline, and only Shaivism was practiced in northern India.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Faxian reported strict vegetarianism and avoidance of liquor among the general population, with only Chandalas (outcastes) hunting and eating meat. Statement 2 is incorrect because he states that capital punishment was not used, and offenders were mostly fined or had their right hands amputated for repeated rebellion. Statement 3 is incorrect because Buddhism was flourishing alongside Brahmanism during his visit."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चीनी तीर्थयात्री फाहियान द्वारा वर्णित सामाजिक और धार्मिक स्थितियों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उसने उल्लेख किया कि मध्य देश के लोग चंडालों को छोड़कर किसी भी जीवित प्राणी को नहीं मारते थे और न ही नशीली शराब पीते थे।\n2. उसने न्यायिक प्रणाली को कठोर बताया, जहां मामूली अपराधों के लिए अक्सर मृत्युदंड दिया जाता था।\n3. उसने देखा कि बौद्ध धर्म पूर्णतः पतन की ओर था और उत्तरी भारत में केवल शैव धर्म का ही पालन किया जाता था।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि फाहियान ने सामान्य आबादी में सख्त शाकाहार और शराब से परहेज की बात कही है, जिसमें केवल चंडाल (बहिष्कृत वर्ग) ही शिकार करते और मांस खाते थे। कथन 2 गलत है क्योंकि उसने बताया कि मृत्युदंड का उपयोग नहीं किया जाता था, और बार-बार विद्रोह करने पर दाहिना हाथ काट दिया जाता था। कथन 3 गलत है क्योंकि उसकी यात्रा के दौरान बौद्ध धर्म और ब्राह्मणवाद दोनों साथ-साथ फल-फूल रहे थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the Mehrauli Iron Pillar, consider the following statements:\n1. The inscription on the pillar is written in Sanskrit using the Brahmi script.\n2. The inscription posthumously describes the military exploits of a king named Chandra, identified as Chandragupta II.\n3. The pillar was originally erected at the Vishnupada hill, likely near modern Udayagiri/Vidisha, before being moved to Delhi.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because the inscription is indeed in classic Sanskrit written in northern Brahmi script of the Gupta period. Statement 2 is correct because the verses describe King Chandra's military victories and state that he has left the earth, implying it was posthumous. Statement 3 is correct because it mentions being set up at Vishnupadagiri, which scholars associate with the Udayagiri complex near Vidisha on the Tropic of Cancer."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महरौली लौह स्तंभ के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. स्तंभ पर उत्कीर्ण शिलालेख गुप्त कालीन ब्राह्मी लिपि का उपयोग करके संस्कृत में लिखा गया है।\n2. यह शिलालेख मरणोपरांत 'चंद्र' नामक राजा के सैन्य कारनामों का वर्णन करता है, जिसकी पहचान चंद्रगुप्त द्वितीय के रूप में की गई है।\n3. इस स्तंभ को मूल रूप से दिल्ली ले जाने से पहले विष्णुपद पहाड़ी (संभावित आधुनिक उदयगिरि/विदिशा के पास) पर स्थापित किया गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि शिलालेख वास्तव में गुप्त काल की उत्तरी ब्राह्मी लिपि में लिखी गई शास्त्रीय संस्कृत में है। कथन 2 सही है क्योंकि श्लोक राजा चंद्र की सैन्य विजयों का वर्णन करते हैं और कहते हैं कि वह पृथ्वी छोड़कर चले गए हैं, जिसका अर्थ है कि यह मरणोपरांत था। कथन 3 सही है क्योंकि इसमें विष्णुपदगिरि पर स्थापित होने का उल्लेख है, जिसे विद्वान कर्क रेखा पर विदिशा के पास उदयगिरि परिसर से जोड़ते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the literary masterpieces of Kalidasa:\n1. Abhijnanashakuntalam is based on an episode from the Mahabharata.\n2. Raghuvamsha is a Mahakavya that details the lineage of the solar dynasty of Dilipa, Raghu, Dasharatha, and Rama.\n3. Meghaduta is a prose work describing the geography of Central India through a message sent by a Yaksha.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Shakuntala's story is taken from the Adi Parva of the Mahabharata. Statement 2 is correct because Raghuvamsha details the stories of the Ikshvaku/solar dynasty kings. Statement 3 is incorrect because Meghaduta is a poetic lyric work (Khandakavya/Gitikavya) written in Mandakranta meter, not a prose work."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कालिदास की साहित्यिक कृतियों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. अभिज्ञानशाकुंतलम् महाभारत के एक प्रसंग पर आधारित है।\n2. रघुवंश एक महाकाव्य है जो दिलीप, रघु, दशरथ और राम के सूर्यवंश की वंशावली का विवरण देता है।\n3. मेघदूत एक गद्य कृति है जिसमें यक्ष द्वारा भेजे गए संदेश के माध्यम से मध्य भारत के भूगोल का वर्णन किया गया है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि शकुंतला की कहानी महाभारत के आदि पर्व से ली गई है। कथन 2 सही है क्योंकि रघुवंश में इक्ष्वाकु/सूर्यवंश के राजाओं की कहानियों का विवरण है। कथन 3 गलत है क्योंकि मेघदूत मन्दाक्रान्ता छंद में लिखी गई एक काव्यात्मक गीति काव्य (खंडकाव्य) रचना है, न कि कोई गद्य कृति।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the historical controversy surrounding Ramagupta and Chandragupta II, consider the following statements:\n1. The story of Ramagupta offering his queen Dhruvadevi to a Saka king is mentioned in Vishakhadatta's play Devichandraguptam.\n2. Copper coins of Ramagupta discovered in Eastern Malwa (Vidisha) support his existence as an actual historic ruler.\n3. The Sanjan plates of the Rashtrakuta king Amoghavarsha I also corroborate the story of Chandragupta II killing his brother to seize the queen and the throne.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because Devichandraguptam is the primary source of this narrative. Statement 2 is correct because the discovery of his copper coins in Malwa proved he was not just a literary character but a ruling king. Statement 3 is correct because the Sanjan plates of Amoghavarsha I criticize the Gupta king who killed his brother and took his queen, confirming the tradition persisted for centuries."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. रामगुप्त और चंद्रगुप्त द्वितीय से जुड़े ऐतिहासिक विवाद के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. रामगुप्त द्वारा अपनी रानी ध्रुवदेवी को एक शक राजा को सौंपने की कहानी विशाखदत्त के नाटक देवीचंद्रगुप्तम् में वर्णित है।\n2. पूर्वी मालवा (विदिशा) में खोजे गए रामगुप्त के तांबे के सिक्के एक वास्तविक ऐतिहासिक शासक के रूप में उनके अस्तित्व का समर्थन करते हैं।\n3. राष्ट्रकूट राजा अमोघवर्ष प्रथम के संजन ताम्रपत्र भी चंद्रगुप्त द्वितीय द्वारा रानी और सिंहासन पर कब्जा करने के लिए अपने भाई की हत्या करने की कहानी की पुष्टि करते हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि देवीचंद्रगुप्तम् इस कथा का प्राथमिक स्रोत है। कथन 2 सही है क्योंकि मालवा में तांबे के सिक्कों की खोज ने साबित कर दिया कि वह केवल एक साहित्यिक चरित्र नहीं बल्कि एक शासक राजा थे। कथन 3 सही है क्योंकि अमोघवर्ष प्रथम के संजन ताम्रपत्र में उस गुप्त राजा की आलोचना की गई है जिसने अपने भाई की हत्या कर दी और उसकी रानी को छीन लिया, जो पुष्टि करता है कि यह परंपरा सदियों तक बनी रही।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Varahamihira and his works:\n1. In his Panchasiddhantika, he summarizes five older astronomical systems, indicating strong Greek and Roman influence on Gupta astronomy.\n2. His work Brihat Samhita is a massive encyclopedia covering subjects like architecture, planetary movements, agriculture, and jewelry.\n3. He was the first to propose that the moon revolves around the earth, which in turn revolves around the sun.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because the Romaka and Paulisha Siddhantas discussed in his work demonstrate Hellenistic astronomical influences. Statement 2 is correct because Brihat Samhita is indeed an encyclopedic compendium of various scientific and natural topics. Statement 3 is correct because Varahamihira explicitly recorded this gravitational/orbital relationship in his astronomical works."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वराहमिहिर और उनकी कृतियों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. अपनी पंचसिद्धांतिका में, वह पांच पुरानी खगोलीय प्रणालियों का सारांश प्रस्तुत करते हैं, जो गुप्त खगोल विज्ञान पर ग्रीक और रोमन प्रभाव का संकेत देती हैं।\n2. उनकी कृति बृहत् संहिता एक विशाल विश्वकोश है जिसमें वास्तुकला, ग्रहों की गति, कृषि और आभूषण जैसे विषय शामिल हैं।\n3. वह पहले व्यक्ति थे जिन्होंने यह प्रस्ताव दिया था कि चंद्रमा पृथ्वी के चक्कर लगाता है, जो स्वयं सूर्य के चक्कर लगाती है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि उनके काम में चर्चा की गई रोमक और पौलिश सिद्धांत हेलेनिस्टिक खगोलीय प्रभावों को प्रदर्शित करते हैं। कथन 2 सही है क्योंकि बृहत् संहिता वास्तव में विभिन्न वैज्ञानिक और प्राकृतिक विषयों का एक विश्वकोशीय संग्रह है। कथन 3 सही है क्योंकि वराहमिहिर ने अपने खगोलीय कार्यों में इस कक्षीय संबंध को स्पष्ट रूप से दर्ज किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to Gupta temple architecture, consider the following statements:\n1. The early temples were characterized by flat roofs, low platforms, and square sanctum sanctorums (garbhagrihas).\n2. Gupta temples show the transition from rock-cut cave architecture to structural stone temples.\n3. The Tigawa Vishnu temple has a tall pyramidal shikhara, marking the culmination of the Nagara style during Chandragupta II's reign.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because the earliest Gupta temples (like Temple 17 at Sanchi) had flat roofs, low platforms, and square garbhagrihas. Statement 2 is correct because the period saw both rock-cut caves (Udayagiri) and structural stone temples (Deogarh). Statement 3 is incorrect because the Tigawa temple is flat-roofed and lacks a shikhara; shikharas developed later in the Gupta period (like Deogarh and Bhitargaon)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गुप्तकालीन मंदिर वास्तुकला के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. प्रारंभिक मंदिरों की विशेषता सपाट छतें, कम ऊंचे चबूतरे और चौकोर गर्भगृह थे।\n2. गुप्त मंदिर शैलकृत गुफा वास्तुकला से संरचनात्मक पत्थर के मंदिरों में संक्रमण को दर्शाते हैं।\n3. तिगवा के विष्णु मंदिर में एक ऊंचा पिरामिडनुमा शिखर है, जो चंद्रगुप्त द्वितीय के शासनकाल के दौरान नागर शैली के चरमोत्कर्ष को दर्शाता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि सबसे प्रारंभिक गुप्त मंदिरों (जैसे सांची के मंदिर 17) में सपाट छत, कम चबूतरे और चौकोर गर्भगृह थे। कथन 2 सही है क्योंकि इस अवधि में शैलकृत गुफाएं (उदयगिरि) और संरचनात्मक पत्थर के मंदिर (देवगढ़) दोनों देखे गए। कथन 3 गलत है क्योंकि तिगवा मंदिर सपाट छत वाला है और उसमें शिखर नहीं है; शिखर गुप्त काल में बाद में विकसित हुए (जैसे देवगढ़ और भीतरगाँव में)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Ajanta cave paintings executed during the Gupta-Vakataka era:\n1. The paintings were done using the fresco-secco technique, applying pigments on a dry plaster surface.\n2. The main themes of the paintings are secular, depicting royal hunting scenes and court politics of the Vakatakas.\n3. The famous painting of Bodhisattva Padmapani holding a blue lotus is located in Cave 1 at Ajanta.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because Ajanta paintings are true fresco-secco (painted on dry plaster). Statement 2 is incorrect because the primary themes are Buddhist Jataka stories and episodes from Buddha's life. Statement 3 is correct because Bodhisattva Padmapani and Vajrapani are painted on the back wall of Cave 1."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गुप्त-वाकाटक काल के दौरान निर्मित अजंता गुफा के चित्रों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. ये चित्र फ्रेस्को-सेको (fresco-secco) तकनीक का उपयोग करके बनाए गए थे, जिसमें सूखे प्लास्टर की सतह पर रंग लगाए जाते थे।\n2. चित्रों के मुख्य विषय धर्मनिरपेक्ष हैं, जिनमें शाही शिकार के दृश्यों और वाकाटकों की दरबारी राजनीति को दर्शाया गया है।\n3. नीले रंग का कमल धारण किए हुए बोधिसत्व पद्मपाणि का प्रसिद्ध चित्र अजंता की गुफा संख्या 1 में स्थित है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि अजंता के चित्र सच्चे फ्रेस्को-सेको (सूखे प्लास्टर पर चित्रित) हैं। कथन 2 गलत है क्योंकि इसके मुख्य विषय बौद्ध जातक कथाएँ और बुद्ध के जीवन के प्रसंग हैं। कथन 3 सही है क्योंकि बोधिसत्व पद्मपाणि और वज्रपाणि के चित्र गुफा 1 की पिछली दीवार पर चित्रित हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the inscriptional records of Chandragupta II:\n1. The Udayagiri cave inscription of G.E. 82 records the construction of a Vaishnava cave temple by a local chief named Sanakanika Maharaj.\n2. The Mathura pillar inscription of G.E. 61 records the establishment of Shaiva teachers (Lakulisha sect) and represents his earliest dated record.\n3. None of the inscriptions of Chandragupta II mention his military achievements.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Sanakanika Maharaja, a feudatory under Chandragupta II, recorded his excavation of Cave 3/4 in G.E. 82. Statement 2 is correct because the Mathura inscription of G.E. 61 mentions Uditacharya erecting lingas, representing the first dated inscription. Statement 3 is incorrect because the Mehrauli Iron Pillar inscription is a poetic eulogy describing his extensive military conquests."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के शिलालेखों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. गुप्त संवत 82 के उदयगिरि गुफा शिलालेख में सनकानीक महाराज नामक एक स्थानीय सामंत द्वारा वैष्णव गुफा मंदिर के निर्माण का उल्लेख है।\n2. गुप्त संवत 61 का मथुरा स्तंभ शिलालेख शैव शिक्षकों (लकुलीश संप्रदाय) की स्थापना को दर्ज करता है और यह उनका सबसे पहला दिनांकित रिकॉर्ड है।\n3. चंद्रगुप्त द्वितीय के किसी भी शिलालेख में उनकी सैन्य उपलब्धियों का उल्लेख नहीं है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि चंद्रगुप्त द्वितीय के अधीन एक सामंत सनकानीक महाराज ने गुप्त संवत 82 में गुफा 3/4 के उत्खनन को दर्ज किया था। कथन 2 सही है क्योंकि गुप्त संवत 61 के मथुरा शिलालेख में उदिताचार्य द्वारा शिवलिंग स्थापित करने का उल्लेख है, जो पहला दिनांकित शिलालेख है। कथन 3 गलत है क्योंकि महरौली लौह स्तंभ शिलालेख उनकी व्यापक सैन्य विजयों का वर्णन करने वाली एक काव्यात्मक प्रशस्ति है।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the cultural significance of the 'Navaratnas' (Nine Gems) in the court of Chandragupta II. [5 Marks, 50 Words]",
+      "model_answer": "The Navaratnas represented the peak of cultural and intellectual achievements of the Gupta Golden Age. They included geniuses like Kalidasa (literature/drama), Varahamihira (astronomy), Amarasimha (lexicography), and Dhanvantari (medicine). \n\nKey cultural impacts:\n- Literature: Reached classical heights through plays like Abhijnanashakuntalam.\n- Science: Advanced mathematics and astronomy via treatises like Panchasiddhantika.\n- Language: Standardized classical Sanskrit. \nThis royal patronage fostered an atmosphere of interdisciplinary excellence, making Ujjain and Pataliputra the cultural epicenters of ancient India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय के दरबार में 'नवरत्नों' के सांस्कृतिक महत्व का मूल्यांकन कीजिए। [5 अंक, 50 शब्द]",
+      "model_answer": "नवरत्न गुप्त स्वर्ण युग की सांस्कृतिक और बौद्धिक उपलब्धियों के शिखर का प्रतिनिधित्व करते थे। इनमें कालिदास (साहित्य/नाटक), वराहमिहिर (खगोल विज्ञान), अमरसिंह (कोश रचना) और धन्वंतरि (चिकित्सा) जैसे विद्वान शामिल थे।\n\nसांस्कृतिक प्रभाव:\n- साहित्य: अभिज्ञानशाकुंतलम् जैसे नाटकों के माध्यम से शास्त्रीय ऊंचाइयों को छुआ।\n- विज्ञान: पंचसिद्धांतिका जैसे ग्रंथों के माध्यम से खगोल विज्ञान का विकास हुआ।\n- भाषा: शास्त्रीय संस्कृत का मानकीकरण हुआ।\nइस शाही संरक्षण ने अंतर-विषयक उत्कृष्टता का माहौल तैयार किया, जिससे उज्जैन और पाटलिपुत्र भारत के सांस्कृतिक केंद्र बन गए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the evolution of temple architecture during the Gupta period under Chandragupta II and his successors. Highlight the key stylistic phases. [10 Marks, 150 Words]",
+      "model_answer": "Temple architecture during the Gupta era transitioned from simple, flat-roofed rock-cut structures to elaborate, free-standing structural stone temples, laying the foundation of the Nagara style. \n\nThis evolution progressed through distinct phases:\n\n| Phase | Key Stylistic Features | Classic Examples |\n| :--- | :--- | :--- |\n| **Early Phase** | Flat-roofed, square sanctum (garbhagriha), low platform, shallow pillared portico. | Temple No. 17 at Sanchi, Tigawa Vishnu Temple |\n| **Transitional Phase** | Introduction of covered circumambulatory path (pradakshina patha) around the garbhagriha. | Parvati Temple at Nachna Kuthara |\n| **Mature Phase** | Emergence of a pyramidal tower (shikhara) over the sanctum, Panchayatana layout, and elaborate carvings on doorjambs. | Dashavatara Temple at Deogarh, Bhitargaon Brick Temple |\n\n**Architectural Significance:**\n- **Iconography:** Elaborate representation of river goddesses Ganga and Yamuna on the doorframes, acting as purification symbols.\n- **Material Shift:** Move from perishable wood and clay to durable sandstone and terracotta bricks (Bhitargaon).\nThis period standardized North Indian temple geometry, blending theological concepts with structural aesthetics."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त द्वितीय और उनके उत्तराधिकारियों के अधीन गुप्त काल के दौरान मंदिर वास्तुकला के विकास का विश्लेषण कीजिए। इसके प्रमुख शैलीगत चरणों पर प्रकाश डालिए। [10 अंक, 150 शब्द]",
+      "model_answer": "गुप्त काल के दौरान मंदिर वास्तुकला सरल, सपाट छत वाली शैलकृत गुफाओं से विस्तृत, स्वतंत्र संरचनात्मक पत्थर के मंदिरों में परिवर्तित हो गई, जिसने नागर शैली की नींव रखी।\n\nयह विकास विभिन्न चरणों के माध्यम से आगे बढ़ा:\n\n| चरण | प्रमुख शैलीगत विशेषताएं | उत्कृष्ट उदाहरण |\n| :--- | :--- | :--- |\n| **प्रारंभिक चरण** | सपाट छत, चौकोर गर्भगृह, कम ऊंचाई का चबूतरा, छोटा स्तंभों वाला बरामदा। | सांची का मंदिर संख्या 17, तिगवा का विष्णु मंदिर |\n| **संक्रमणकालीन चरण** | गर्भगृह के चारों ओर ढके हुए प्रदक्षिणा पथ की शुरुआत। | नचना कुठारा का पार्वती मंदिर |\n| **परिपक्व चरण** | गर्भगृह के ऊपर पिरामिडनुमा शिखर का उदय, पंचायतन विन्यास और द्वार की चौखटों पर विस्तृत नक्काशी। | देवगढ़ का दशावतार मंदिर, भीतरगाँव का ईंट मंदिर |\n\n**वास्तुकला का महत्व:**\n- **प्रतिमा विज्ञान:** द्वार के चौखटों पर नदी देवियों गंगा और यमुना का विस्तृत चित्रण, जो शुद्धिकरण के प्रतीक थे।\n- **सामग्री में बदलाव:** नष्ट होने वाली लकड़ी और मिट्टी से टिकाऊ बलुआ पत्थर और टेराकोटा ईंटों की ओर संक्रमण।\nइस अवधि ने संरचनात्मक सौंदर्यशास्त्र के साथ धार्मिक अवधारणाओं को मिलाकर उत्तर भारतीय मंदिर ज्यामिति का मानकीकरण किया।"
+    }
+  ]
+}

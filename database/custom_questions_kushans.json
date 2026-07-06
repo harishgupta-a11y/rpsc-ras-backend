@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. The Kushanas belonged to which of the following nomadic tribes of Central Asia?",
+      "option_a": "Yuezhi",
+      "option_b": "Xiongnu",
+      "option_c": "Hephthalites",
+      "option_d": "Wusun",
+      "correct": "A",
+      "explanation": "Correct option: A. The Kushanas were a branch of the Yuezhi nomadic confederation who migrated from the steppes of Central Asia (modern Gansu, China) towards Bactria."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण मध्य एशिया की निम्नलिखित में से किस खानाबदोश जनजाति से संबंधित थे?",
+      "option_a": "यूची (Yuezhi)",
+      "option_b": "हूण (Xiongnu)",
+      "option_c": "श्वेत हूण (Hephthalites)",
+      "option_d": "वुसुन (Wusun)",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कुषाण यूची खानाबदोश परिसंघ की एक शाखा थे, जिन्होंने मध्य एशिया के घास के मैदानों (आधुनिक गांसु, चीन) से बैक्ट्रिया की ओर प्रवास किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the first ruler and founder of the Kushan dynasty in India who issued copper coins and consolidated the five principalities of the Yuezhi?",
+      "option_a": "Kujula Kadphises",
+      "option_b": "Vima Kadphises",
+      "option_c": "Kanishka I",
+      "option_d": "Huvishka",
+      "correct": "A",
+      "explanation": "Correct option: A. Kujula Kadphises (Kadphises I) was the founder of the Kushan dynasty who united the five tribes of Yuezhi and issued copper coins, taking the title 'Kuyula Kadphisis' or 'Dharmathida' (steadfast in law)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत में कुषाण वंश का प्रथम शासक और संस्थापक कौन था जिसने तांबे के सिक्के जारी किए और यूची के पांच कबीलों को एकीकृत किया?",
+      "option_a": "कुजुल कड़फिसेस",
+      "option_b": "विम कड़फिसेस",
+      "option_c": "कनिष्क प्रथम",
+      "option_d": "हुविष्क",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कुजुल कड़फिसेस (कड़फिसेस प्रथम) कुषाण वंश का संस्थापक था जिसने यूची के पांच कबीलों को एकजुट किया और तांबे के सिक्के जारी किए, तथा 'कुयुल कड़फिसिस' या 'धर्मथिदा' (धर्म में दृढ़) की उपाधि धारण की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Kushan emperor was the first to introduce gold coinage in India on a large scale and assumed the title of 'Maheswara'?",
+      "option_a": "Kujula Kadphises",
+      "option_b": "Vima Kadphises",
+      "option_c": "Vasudeva I",
+      "option_d": "Vima Takto",
+      "correct": "B",
+      "explanation": "Correct option: B. Vima Kadphises (Kadphises II) introduced gold coins in India on a large scale and was a devout Shaivite, adopting the title 'Maheswara' (devotee of Lord Shiva) on his coins."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत में बड़े पैमाने पर सोने के सिक्के जारी करने वाला पहला कुषाण सम्राट कौन था जिसने 'माहेश्वर' की उपाधि धारण की थी?",
+      "option_a": "कुजुल कड़फिसेस",
+      "option_b": "विम कड़फिसेस",
+      "option_c": "वासुदेव प्रथम",
+      "option_d": "विम तक्तो",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। विम कड़फिसेस (कड़फिसेस द्वितीय) ने भारत में बड़े पैमाने पर सोने के सिक्के चलाए। वह एक परम शैव भक्त था और उसने अपने सिक्कों पर 'माहेश्वर' (भगवान शिव का परम भक्त) की उपाधि अंकित करवाई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which year did Emperor Kanishka ascend the throne, marking the commencement of the Saka Era which is currently used by the Government of India?",
+      "option_a": "58 BC",
+      "option_b": "78 AD",
+      "option_c": "120 AD",
+      "option_d": "319 AD",
+      "correct": "B",
+      "explanation": "Correct option: B. Kanishka ascended the Kushan throne in 78 AD, and this year marks the beginning of the Saka Era, which was later adopted as the Indian National Calendar."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सम्राट कनिष्क ने किस वर्ष सिंहासन संभाला, जिससे शक संवत की शुरुआत हुई, जिसका उपयोग वर्तमान में भारत सरकार द्वारा किया जाता है?",
+      "option_a": "58 ईसा पूर्व",
+      "option_b": "78 ईस्वी",
+      "option_c": "120 ईस्वी",
+      "option_d": "319 ईस्वी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। कनिष्क ने 78 ईस्वी में कुषाण सिंहासन ग्रहण किया था और यह वर्ष शक संवत की शुरुआत का प्रतीक है, जिसे बाद में भारतीय राष्ट्रीय पंचांग के रूप में अपनाया गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following cities served as the primary capital of Kanishka's empire, from where he controlled his vast territories?",
+      "option_a": "Purushapura",
+      "option_b": "Mathura",
+      "option_c": "Pataliputra",
+      "option_d": "Taxila",
+      "correct": "A",
+      "explanation": "Correct option: A. Purushapura (modern Peshawar, Pakistan) served as the primary capital of Kanishka's empire. Mathura served as the second capital."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा शहर कनिष्क के साम्राज्य की प्राथमिक राजधानी था, जहाँ से उसने अपने विशाल क्षेत्रों को नियंत्रित किया था?",
+      "option_a": "पुरुषपुर",
+      "option_b": "मथुरा",
+      "option_c": "पाटलिपुत्र",
+      "option_d": "तक्षशिला",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। पुरुषपुर (आधुनिक पेशावर, पाकिस्तान) कनिष्क के साम्राज्य की प्राथमिक राजधानी थी। मथुरा दूसरी राजधानी के रूप में कार्य करती थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Fourth Buddhist Council under the patronage of Kanishka was held at which of the following venues?",
+      "option_a": "Kundalavana, Kashmir",
+      "option_b": "Rajgriha",
+      "option_c": "Vaishali",
+      "option_d": "Pataliputra",
+      "correct": "A",
+      "explanation": "Correct option: A. The Fourth Buddhist Council was held at Kundalavana in Kashmir (or Jalandhar according to some sources) under the patronage of Kanishka to resolve doctrinal disputes."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कनिष्क के संरक्षण में आयोजित चौथी बौद्ध संगीति निम्नलिखित में से किस स्थान पर आयोजित की गई थी?",
+      "option_a": "कुंडलवन, कश्मीर",
+      "option_b": "राजगृह",
+      "option_c": "वैशाली",
+      "option_d": "पाटलिपुत्र",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। चौथी बौद्ध संगीति कनिष्क के संरक्षण में कश्मीर के कुंडलवन में आयोजित की गई थी ताकि बौद्ध सिद्धांतों के मतभेदों को सुलझाया जा सके।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who presided over the Fourth Buddhist Council held during the reign of Kanishka?",
+      "option_a": "Vasumitra",
+      "option_b": "Moggaliputta Tissa",
+      "option_c": "Sabakami",
+      "option_d": "Mahakassapa",
+      "correct": "A",
+      "explanation": "Correct option: A. The Fourth Buddhist Council was presided over by Vasumitra, while the famous scholar Ashvaghosa acted as the vice-president."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कनिष्क के शासनकाल के दौरान आयोजित चौथी बौद्ध संगीति की अध्यक्षता किसने की थी?",
+      "option_a": "वसुमित्र",
+      "option_b": "मोग्गलिपुत्त तिस्स",
+      "option_c": "सब्बकामी",
+      "option_d": "महाकस्सप",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। चौथी बौद्ध संगीति की अध्यक्षता वसुमित्र ने की थी, जबकि प्रसिद्ध विद्वान अश्वघोष ने उपाध्यक्ष के रूप में कार्य किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the spiritual adviser and court poet of Kanishka who authored the epic Sanskrit biography of Buddha, the 'Buddhacharita'?",
+      "option_a": "Ashvaghosa",
+      "option_b": "Nagarjuna",
+      "option_c": "Vasumitra",
+      "option_d": "Charaka",
+      "correct": "A",
+      "explanation": "Correct option: A. Ashvaghosa was the court poet and spiritual adviser of Kanishka who wrote famous works like Buddhacharita, Saundersnanda, and Shariputraprakarana in Sanskrit."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कनिष्क के आध्यात्मिक सलाहकार और दरबारी कवि कौन थे जिन्होंने बुद्ध की संस्कृत में महाकाव्यात्मक जीवनी 'बुद्धचरित' लिखी थी?",
+      "option_a": "अश्वघोष",
+      "option_b": "नागार्जुन",
+      "option_c": "वसुमित्र",
+      "option_d": "चरक",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। अश्वघोष कनिष्क के दरबारी कवि और आध्यात्मिक सलाहकार थे, जिन्होंने संस्कृत में प्रसिद्ध कृतियाँ जैसे बुद्धचरित, सौन्दरानन्द और शारिपुत्रप्रकरण लिखी थीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Charaka, the renowned authority on Ayurveda and compiler of the 'Charaka Samhita', was the court physician of which Kushan king?",
+      "option_a": "Kanishka I",
+      "option_b": "Vima Kadphises",
+      "option_c": "Huvishka",
+      "option_d": "Vasudeva I",
+      "correct": "A",
+      "explanation": "Correct option: A. Charaka was the royal court physician of King Kanishka I. His work, the Charaka Samhita, is one of the foundational texts of Ayurveda."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आयुर्वेद के प्रसिद्ध विद्वान और 'चरक संहिता' के संकलनकर्ता चरक, किस कुषाण राजा के दरबारी चिकित्सक थे?",
+      "option_a": "कनिष्क प्रथम",
+      "option_b": "विम कड़फिसेस",
+      "option_c": "हुविष्क",
+      "option_d": "वासुदेव प्रथम",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। चरक राजा कनिष्क प्रथम के दरबारी चिकित्सक थे। उनकी कृति 'चरक संहिता' आयुर्वेद के मूलभूत ग्रंथों में से एक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Buddhist philosopher, often referred to as the 'Einstein of India' for propounding the Madhyamika philosophy, was patronized by Kanishka?",
+      "option_a": "Nagarjuna",
+      "option_b": "Asanga",
+      "option_c": "Vasubandhu",
+      "option_d": "Dharmakirti",
+      "correct": "A",
+      "explanation": "Correct option: A. Nagarjuna, the founder of the Madhyamika (Middle Way) school of Mahayana Buddhism and propounder of Shunyata (emptiness), was a contemporary of Kanishka."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस बौद्ध दार्शनिक को, जिन्हें माध्यमक दर्शन के प्रतिपादन के लिए अक्सर 'भारत का आइंस्टीन' कहा जाता है, कनिष्क का संरक्षण प्राप्त था?",
+      "option_a": "नागार्जुन",
+      "option_b": "असंग",
+      "option_c": "वसुबन्धु",
+      "option_d": "धर्मकीर्ति",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। नागार्जुन, जो महायान बौद्ध धर्म के माध्यमक संप्रदाय के संस्थापक और शून्यता के प्रतिपादक थे, कनिष्क के समकालीन थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following materials was predominantly used in the Gandhara School of Art to sculpt Buddha images during the Kushan period?",
+      "option_a": "Blue-grey schist stone",
+      "option_b": "Spotted red sandstone",
+      "option_c": "White marble",
+      "option_d": "Terracotta",
+      "correct": "A",
+      "explanation": "Correct option: A. The Gandhara School of Art, characterized by Greco-Roman influence, primarily used blue-grey schist stone (and later stucco) for sculpting Buddha images."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण काल ​​के दौरान बुद्ध की मूर्तियों को बनाने के लिए गांधार कला शैली में मुख्य रूप से किस सामग्री का उपयोग किया गया था?",
+      "option_a": "नीला-धूसर शिस्ट पत्थर (Grey Schist)",
+      "option_b": "चित्तीदार लाल बलुआ पत्थर (Red Sandstone)",
+      "option_c": "सफेद संगमरमर",
+      "option_d": "टेराकोटा (पकी मिट्टी)",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। गांधार कला शैली, जो ग्रीको-रोमन प्रभाव से युक्त थी, ने बुद्ध की मूर्तियों को तराशने के लिए मुख्य रूप से नीले-धूसर शिस्ट पत्थर (और बाद में गारे/स्टुको) का उपयोग किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Mathura School of Art during the Kushan era is distinguished by the use of which material for making sculptures?",
+      "option_a": "Spotted red sandstone",
+      "option_b": "Grey schist",
+      "option_c": "Granite",
+      "option_d": "Bronze",
+      "correct": "A",
+      "explanation": "Correct option: A. The Mathura School of Art, which developed indigenously during the Kushan period, exclusively used spotted red sandstone quarried from Sikri."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण काल ​​में मथुरा कला शैली की मूर्तियां बनाने के लिए किस सामग्री के उपयोग से इसकी पहचान की जाती है?",
+      "option_a": "चित्तीदार लाल बलुआ पत्थर",
+      "option_b": "धूसर शिस्ट पत्थर",
+      "option_c": "ग्रेनाइट",
+      "option_d": "कांस्य",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कुषाण काल में स्वदेशी रूप से विकसित मथुरा कला शैली में सीकरी से प्राप्त चित्तीदार लाल बलुआ पत्थर का विशिष्ट रूप से उपयोग किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which language and script was the famous Rabatak Inscription of Kanishka, discovered in Afghanistan, written?",
+      "option_a": "Bactrian language in Greek script",
+      "option_b": "Sanskrit language in Brahmi script",
+      "option_c": "Prakrit language in Kharosthi script",
+      "option_d": "Aramaic language in Kharosthi script",
+      "correct": "A",
+      "explanation": "Correct option: A. The Rabatak inscription, discovered in 1993 in Baghlan, Afghanistan, is written in the Bactrian language using the Greek script, providing valuable lineage details of Kanishka."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अफगानिस्तान में खोजा गया कनिष्क का प्रसिद्ध रबातक शिलालेख किस भाषा और लिपि में लिखा गया था?",
+      "option_a": "ग्रीक लिपि में बैक्ट्रियन भाषा",
+      "option_b": "ब्राह्मी लिपि में संस्कृत भाषा",
+      "option_c": "खरोष्ठी लिपि में प्राकृत भाषा",
+      "option_d": "खरोष्ठी लिपि में अरामी भाषा",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। 1993 में बागलान, अफगानिस्तान में खोजा गया रबातक शिलालेख ग्रीक लिपि का उपयोग करके बैक्ट्रियन भाषा में लिखा गया है, जो कनिष्क की वंशावली के बहुमूल्य विवरण प्रदान करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous headless statue of Kanishka, wearing a heavy tunic and boots, was discovered at which historical site?",
+      "option_a": "Mat near Mathura",
+      "option_b": "Purushapura",
+      "option_c": "Taxila",
+      "option_d": "Sarnath",
+      "correct": "A",
+      "explanation": "Correct option: A. The iconic life-sized headless stone statue of Kanishka, showing Central Asian attire (coat and boots), was discovered at Mat near Mathura (a Kushan royal sanctuary/Devakula)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारी चोगा और जूते पहने कनिष्क की प्रसिद्ध सिररहित मूर्ति किस ऐतिहासिक स्थल पर खोजी गई थी?",
+      "option_a": "मथुरा के पास माट (Mat)",
+      "option_b": "पुरुषपुर",
+      "option_c": "तक्षशिला",
+      "option_d": "सारनाथ",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कनिष्क की प्रसिद्ध आदमकद सिररहित पत्थर की मूर्ति, जिसमें मध्य एशियाई पहनावा (कोट और जूते) दिखाया गया है, मथुरा के पास माट नामक स्थान (एक कुषाण देवकुल) पर खोजी गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the Greek architect mentioned in the Kanishka Casket inscription as the supervisor of the construction of Kanishka's Great Stupa in Purushapura?",
+      "option_a": "Agesilas (Agisala)",
+      "option_b": "Apollodorus",
+      "option_c": "Democratus",
+      "option_d": "Megasthenes",
+      "correct": "A",
+      "explanation": "Correct option: A. The inscription on the Kanishka Relic Casket mentions 'Agesilas' or 'Agisala' as the supervising architect ('navakarmika') of Kanishka's monumental stupa at Purushapura."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कनिष्क धातु-मंजूषा (Kanishka Casket) शिलालेख में उल्लिखित यवन वास्तुकार कौन था जिसने पुरुषपुर में कनिष्क के महान स्तूप के निर्माण की देखरेख की थी?",
+      "option_a": "एजेसिलास (अगीसला)",
+      "option_b": "अपोलोडोरस",
+      "option_c": "डेमोक्रैटस",
+      "option_d": "मेगास्थनीज",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कनिष्क धातु-मंजूषा शिलालेख में 'एजेसिलास' या 'अगीसला' को पुरुषपुर में कनिष्क के विशाल स्तूप के नवकर्मिक (पर्यवेक्षक वास्तुकार) के रूप में वर्णित किया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Kushan title 'Devaputra' (Son of God/Heaven) was adopted by the Kushan rulers under the direct influence of which civilization?",
+      "option_a": "Chinese",
+      "option_b": "Roman",
+      "option_c": "Greek",
+      "option_d": "Persian",
+      "correct": "A",
+      "explanation": "Correct option: A. The title 'Devaputra' (equivalent to 'Son of Heaven' or 'Tianzi') was adopted by Kushan kings like Kanishka under the influence of the Chinese imperial system."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण शासकों द्वारा अपनाई गई उपाधि 'देवपुत्र' (ईश्वर/स्वर्ग का पुत्र) किस सभ्यता के सीधे प्रभाव में ली गई थी?",
+      "option_a": "चीनी",
+      "option_b": "रोमन",
+      "option_c": "यूनानी",
+      "option_d": "फारसी",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कनिष्क जैसे कुषाण राजाओं द्वारा अपनाई गई उपाधि 'देवपुत्र' (चीनी साम्राज्य की 'स्वर्ग का पुत्र' या 'तियानजी' के समकक्ष) चीनी राजनीतिक व्यवस्था के प्रभाव में ली गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The coins of Kanishka are notable for depicting a wide variety of deities. Which language was used for the legends on Kanishka's coins after he switched from Greek?",
+      "option_a": "Bactrian",
+      "option_b": "Sanskrit",
+      "option_c": "Prakrit",
+      "option_d": "Sogdian",
+      "correct": "A",
+      "explanation": "Correct option: A. Kanishka transitioned the coin legend language from Greek to Bactrian (an Iranian language written in Greek script) on his coins to appeal to his core territory."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कनिष्क के सिक्के विभिन्न प्रकार के देवी-देवताओं के चित्रण के लिए उल्लेखनीय हैं। ग्रीक से स्थानांतरित होने के बाद कनिष्क के सिक्कों पर लेखों के लिए किस भाषा का उपयोग किया गया था?",
+      "option_a": "बैक्ट्रियन",
+      "option_b": "संस्कृत",
+      "option_c": "प्राकृत",
+      "option_d": "सोग्डियन",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कनिष्क ने अपने सिक्कों पर लेख की भाषा ग्रीक से बदलकर बैक्ट्रियन (एक ईरानी भाषा जिसे ग्रीक लिपि में लिखा जाता था) कर दी थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the last major ruler of the imperial Kushan dynasty, whose name indicates the complete Indianization of the dynasty?",
+      "option_a": "Vasudeva I",
+      "option_b": "Huvishka",
+      "option_c": "Kanishka II",
+      "option_d": "Vashishka",
+      "correct": "A",
+      "explanation": "Correct option: A. Vasudeva I was the last great Kushan emperor. His name (honoring Hindu god Vasudeva/Krishna) and coins depicting Lord Shiva indicate the complete cultural Indianization of the Kushans."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. साम्राज्यवादी कुषाण वंश का अंतिम प्रमुख शासक कौन था, जिसके नाम से इस वंश के पूर्ण भारतीयकरण का संकेत मिलता है?",
+      "option_a": "वासुदेव प्रथम",
+      "option_b": "हुविष्क",
+      "option_c": "कनिष्क द्वितीय",
+      "option_d": "वशिष्क",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। वासुदेव प्रथम अंतिम महान कुषाण सम्राट था। उसका नाम (हिंदू देवता वासुदेव/कृष्ण के सम्मान में) और शिव का चित्रण करने वाले सिक्के कुषाणों के पूर्ण सांस्कृतिक भारतीयकरण को दर्शाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The deity named 'Oesho' depicted on the gold coins of Kushan rulers like Vima Kadphises and Kanishka represents which Indian god?",
+      "option_a": "Shiva",
+      "option_b": "Vishnu",
+      "option_c": "Kartikeya",
+      "option_d": "Indra",
+      "correct": "A",
+      "explanation": "Correct option: A. The deity 'Oesho' depicted with a trident, multiple arms, and a bull on Kushan coins is the Bactrian representation of Lord Shiva."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. विम कड़फिसेस और कनिष्क जैसे कुषाण शासकों के सोने के सिक्कों पर चित्रित 'ओइशो' (Oesho) नामक देवता किस भारतीय देवता का प्रतिनिधित्व करते हैं?",
+      "option_a": "शिव",
+      "option_b": "विष्णु",
+      "option_c": "कार्तिकेय",
+      "option_d": "इंद्र",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कुषाण सिक्कों पर त्रिशूल, अनेक भुजाओं और नंदी (बैल) के साथ चित्रित देवता 'ओइशो' भगवान शिव का बैक्ट्रियन प्रतिनिधित्व हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to Buddhist traditions, Kanishka attacked Pataliputra and took away which of the following treasures along with the scholar Ashvaghosa?",
+      "option_a": "The alms-bowl of the Buddha",
+      "option_b": "The original Vinaya Pitaka text",
+      "option_c": "The Bodhi Tree sapling",
+      "option_d": "A golden statue of Mahavira",
+      "correct": "A",
+      "explanation": "Correct option: A. Buddhist legends state that Kanishka invaded Pataliputra and demanded a war indemnity, choosing instead to take the sacred alms-bowl of the Buddha and the scholar Ashvaghosa."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध परंपराओं के अनुसार, कनिष्क ने पाटलिपुत्र पर आक्रमण किया और विद्वान अश्वघोष के साथ निम्नलिखित में से कौन सा खजाना अपने साथ ले गया?",
+      "option_a": "बुद्ध का भिक्षा-पात्र",
+      "option_b": "मूल विनय पिटक ग्रंथ",
+      "option_c": "बोधि वृक्ष का पौधा",
+      "option_d": "महावीर की स्वर्ण प्रतिमा",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। बौद्ध जनश्रुतियों के अनुसार, कनिष्क ने पाटलिपुत्र पर आक्रमण किया और हर्जाने के रूप में बुद्ध का पवित्र भिक्षा-पात्र और विद्वान अश्वघोष को अपने साथ ले गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Kushan Empire's immense prosperity was primarily derived from controlling which branch of the trade network?",
+      "option_a": "The Silk Route connecting China with the Roman Empire",
+      "option_b": "The spice trade routes of South India",
+      "option_c": "The incense route of the Arabian Peninsula",
+      "option_d": "The trans-Saharan gold trade",
+      "correct": "A",
+      "explanation": "Correct option: A. The Kushans controlled key segments of the Silk Route through Central Asia, collecting tolls and customs on luxury goods traded between China, Persia, and Rome."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण साम्राज्य की अत्यधिक समृद्धि मुख्य रूप से व्यापार नेटवर्क की किस शाखा को नियंत्रित करने से प्राप्त हुई थी?",
+      "option_a": "चीन को रोमन साम्राज्य से जोड़ने वाला रेशम मार्ग (Silk Route)",
+      "option_b": "दक्षिण भारत के मसाला व्यापार मार्ग",
+      "option_c": "अरब प्रायद्वीप का लोबान मार्ग (Incense Route)",
+      "option_d": "ट्रांस-सहारा स्वर्ण व्यापार",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कुषाणों ने मध्य एशिया से होकर गुजरने वाले रेशम मार्ग के प्रमुख हिस्सों को नियंत्रित किया, जिससे उन्होंने चीन, फारस और रोम के बीच होने वाले व्यापार पर भारी कर वसूला।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under whose reign did the first anthropomorphic (human form) representations of the Buddha appear on coins and in stone sculptures?",
+      "option_a": "Kanishka I",
+      "option_b": "Kujula Kadphises",
+      "option_c": "Vima Takto",
+      "option_d": "Gondophares",
+      "correct": "A",
+      "explanation": "Correct option: A. The reign of Kanishka I saw the transition from symbolic to human (anthropomorphic) representation of the Buddha, as seen on his famous gold coins labeled 'Boddo' (Buddha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किसके शासनकाल में सिक्कों और पत्थरों की मूर्तियों में बुद्ध का पहला मानव रूपी (मानवरूपीकरण) चित्रण दिखाई दिया?",
+      "option_a": "कनिष्क प्रथम",
+      "option_b": "कुजुल कड़फिसेस",
+      "option_c": "विम तक्तो",
+      "option_d": "गोंडोफर्नीस",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कनिष्क प्रथम के शासनकाल में बुद्ध का प्रतीकात्मक से मानव रूप में संक्रमण हुआ, जैसा कि उसके सिक्कों पर 'बोड्डो' (Boddo) नाम से अंकित स्वर्ण मुद्राओं में मिलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Kushan practice of setting up 'Devakulas' refers to the establishment of which of the following?",
+      "option_a": "Royal dynastic sanctuaries containing statues of deceased or living kings",
+      "option_b": "Monasteries dedicated to the Hinayana sect",
+      "option_c": "Brahmanical temples dedicated to Lord Shiva",
+      "option_d": "Guild halls for international merchants",
+      "correct": "A",
+      "explanation": "Correct option: A. 'Devakula' was a royal sanctuary where statues of Kushan rulers (like Kanishka and Vima Kadphises) were installed, representing the deification of kingship."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाणों द्वारा 'देवकुल' स्थापित करने की प्रथा निम्नलिखित में से किसकी स्थापना को संदर्भित करती है?",
+      "option_a": "शाही राजकीय देवस्थान जिसमें मृत या जीवित राजाओं की मूर्तियां रखी जाती थीं",
+      "option_b": "हीनयान संप्रदाय को समर्पित मठ",
+      "option_c": "भगवान शिव को समर्पित ब्राह्मणवादी मंदिर",
+      "option_d": "अंतरराष्ट्रीय व्यापारियों के लिए गिल्ड हॉल",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। 'देवकुल' एक शाही मंदिर होता था जहां कुषाण शासकों (जैसे कनिष्क और विम कड़फिसेस) की मूर्तियां स्थापित की जाती थीं, जो राजत्व के दैवीकरण को दर्शाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Kushan ruler Huvishka is historically notable for establishing a major Buddhist monastery and temple complex in which of these sacred Indian cities?",
+      "option_a": "Mathura",
+      "option_b": "Pataliputra",
+      "option_c": "Ujjain",
+      "option_d": "Sopara",
+      "correct": "A",
+      "explanation": "Correct option: A. King Huvishka established a major Buddhist monastery and temple complex in Mathura, which was a secondary capital and an artistic hub of the empire."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण शासक हुविष्क ऐतिहासिक रूप से किस पवित्र भारतीय शहर में एक प्रमुख बौद्ध मठ और मंदिर परिसर स्थापित करने के लिए प्रसिद्ध है?",
+      "option_a": "मथुरा",
+      "option_b": "पाटलिपुत्र",
+      "option_c": "उज्जैन",
+      "option_d": "सोपारा",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। राजा हुविष्क ने मथुरा में एक विशाल बौद्ध मठ और मंदिर परिसर की स्थापना की थी, जो साम्राज्य की दूसरी राजधानी और कला का प्रमुख केंद्र था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which massive Buddhist encyclopedic text, summarizing the discussions of the Fourth Council, was compiled under Vasumitra's leadership?",
+      "option_a": "Mahavibhasha Sastra",
+      "option_b": "Lalitavistara Sutra",
+      "option_c": "Abhidharmakosha",
+      "option_d": "Madhyamika Karika",
+      "correct": "A",
+      "explanation": "Correct option: A. The Mahavibhasha Sastra is a massive encyclopedic commentary on the Sarvastivada Abhidharma, compiled during the Fourth Buddhist Council under Kanishka's patronage."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वसुमित्र के नेतृत्व में चौथी बौद्ध संगीति की चर्चाओं के सारांश के रूप में किस विशाल बौद्ध विश्वकोश ग्रंथ का संकलन किया गया था?",
+      "option_a": "महाविभाषा शास्त्र",
+      "option_b": "ललितविस्तर सूत्र",
+      "option_c": "अभिधर्मकोश",
+      "option_d": "माध्यमिक कारिका",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। 'महाविभाषा शास्त्र' सर्वास्तिवाद अभिधम्म पर एक विशाल विश्वकोश टीका है, जिसका संकलन कनिष्क के संरक्षण में चौथी बौद्ध संगीति के दौरान किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Emperor Kanishka convened the Fourth Buddhist Council at Kundalavana in Kashmir.\nReason (R): He wanted to reconcile the doctrinal differences and sectarian disputes that existed among the various Buddhist schools of his time.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Kanishka did convene the Fourth Buddhist Council in Kashmir. Reason Analysis: The council was summoned precisely because Kanishka was confused by conflicting interpretations of Buddhism and wanted to systematize the teachings. Thus, R explains why he convened it, making R the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): सम्राट कनिष्क ने कश्मीर के कुंडलवन में चौथी बौद्ध संगीति का आयोजन किया।\nकारण (R): वह अपने समय के विभिन्न बौद्ध संप्रदायों के बीच दार्शनिक मतभेदों और सांप्रदायिक विवादों को सुलझाना चाहता था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: कनिष्क ने कश्मीर में चौथी बौद्ध संगीति बुलाई थी, यह सत्य है। कारण विश्लेषण: संगीति बुलाने का मुख्य कारण बौद्ध धर्म की परस्पर विरोधी व्याख्याओं को सुलझाना और उनका संकलन करना था। अतः R, A की सही व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The gold coins of the Kushan period were minted in large quantities with high purity levels matching Roman standards.\nReason (R): The Kushans had direct control over the rich gold mines of South India and Bengal.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: The Kushan gold coins (Dinaras) were indeed of high purity and modeled after Roman Aurei. Reason Analysis: The reason is false because the Kushans did not control South India; they obtained gold primarily through trade surplus with the Roman Empire, melting Roman gold coins, and Central Asian deposits."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): कुषाण काल ​​के सोने के सिक्के रोमन मानकों के अनुरूप उच्च शुद्धता के साथ बड़ी मात्रा में ढाले गए थे।\nकारण (R): कुषाणों का दक्षिण भारत और बंगाल की समृद्ध सोने की खानों पर सीधा नियंत्रण था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: कुषाणों ने रोमन शैली पर आधारित अत्यंत शुद्ध सोने के सिक्के (दीनार) चलाए थे। कारण विश्लेषण: कारण सर्वथा गलत है क्योंकि कुषाणों का साम्राज्य दक्षिण भारत तक विस्तृत नहीं था; वे सोने की प्राप्ति मुख्य रूप से रोमन साम्राज्य के साथ व्यापार अभिशेष और मध्य एशियाई स्रोतों से करते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Gandhara School of Art is also referred to as the Greco-Buddhist or Indo-Greek style of art.\nReason (R): It emerged from the cultural fusion of Greek artistic techniques (realism, drapery) with indigenous Indian Buddhist themes.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Gandhara art is widely known as Greco-Buddhist/Graeco-Roman style. Reason Analysis: The style physically combined Hellenistic/Greek sculpture techniques (musculature, curly hair, flowing drapery) with Buddhist concepts (Buddha as Apollo), which directly explains why it is called Greco-Buddhist."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): गांधार कला शैली को ग्रीको-बौद्ध (यूनानी-बौद्ध) या भारत-यूनानी कला शैली भी कहा जाता है।\nकारण (R): इसका उदय यूनानी कलात्मक तकनीकों (यथार्थवाद, घुंघराले बाल, सलवटें) और स्वदेशी भारतीय बौद्ध विषयों के सांस्कृतिक संलयन से हुआ था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: गांधार शैली को ग्रीको-बौद्ध कला कहा जाता है, यह सत्य है। कारण विश्लेषण: यूनानी कला रूपों (जैसे अपोलो की तरह बुद्ध का चित्रण) और बौद्ध विषय-वस्तु के मिश्रण के कारण ही इसे ग्रीको-बौद्ध शैली कहा जाता है। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Emperor Kanishka adopted the title of 'Devaputra' on his inscriptions and coins.\nReason (R): Kanishka patronized the great Ayurvedic physician Charaka in his royal court at Purushapura.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: Kanishka did adopt the title Devaputra. Reason Analysis: Charaka was indeed patronized by Kanishka. However, Charaka being in court has no logical link or explanation for why Kanishka adopted the divine title 'Devaputra' (which was for political legitimacy). Therefore, both are true but R is not the correct explanation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): सम्राट कनिष्क ने अपने अभिलेखों और सिक्कों पर 'देवपुत्र' की उपाधि धारण की थी।\nकारण (R): कनिष्क ने पुरुषपुर में अपने शाही दरबार में महान आयुर्वेदिक चिकित्सक चरक को संरक्षण दिया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: कनिष्क ने देवपुत्र की उपाधि धारण की थी, यह सत्य है। कारण विश्लेषण: चरक कनिष्क के दरबारी चिकित्सक थे, यह भी सत्य है। लेकिन चरक की दरबारी उपस्थिति से देवपुत्र की उपाधि धारण करने का कोई कारण-कार्य संबंध नहीं है। अतः दोनों कथन सही हैं, परंतु R, A की सही व्याख्या नहीं है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Kushans controlled the crucial overland trade routes connecting China and Rome.\nReason (R): This strategic control allowed them to levy heavy customs duties on passing merchants, accumulating immense treasury surplus.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Kushan territory bestrode the silk and spice routes. Reason Analysis: The primary economic benefit of controlling these routes was the taxation of high-value transit trade (silk, glass, spices), which directly explains their fiscal strength. Thus, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): कुषाणों ने चीन और रोम को जोड़ने वाले महत्वपूर्ण स्थलीय व्यापार मार्गों को नियंत्रित किया।\nकारण (R): इस रणनीतिक नियंत्रण ने उन्हें वहां से गुजरने वाले व्यापारियों पर भारी सीमा शुल्क लगाने की अनुमति दी, जिससे उनके खजाने में अपार वृद्धि हुई।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: कुषाणों ने रेशम मार्ग के प्रमुख मार्गों को नियंत्रित किया था। कारण विश्लेषण: इस नियंत्रण का मुख्य लाभ कर और शुल्क वसूलना था, जिससे साम्राज्य समृद्ध हुआ। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): Kanishka's coins feature deities from Greek, Iranian, and Indian religious traditions.\nReason (R): The Kushan Empire was highly cosmopolitan and diverse, requiring Kanishka to legitimize his rule across heterogeneous populations.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Kanishka's coinage displays Greek gods (Helios, Selene), Zoroastrian deities (Mithra, Verethragna), and Indian deities (Shiva, Buddha). Reason Analysis: Depicting these deities served as imperial propaganda to gain acceptance among diverse subjects (Bactrians, Persians, Indians, Greeks). Thus, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): कनिष्क के सिक्कों पर ग्रीक, ईरानी और भारतीय धार्मिक परंपराओं के देवी-देवता अंकित हैं।\nकारण (R): कुषाण साम्राज्य अत्यधिक महानगरीय (cosmopolitan) और विविधतापूर्ण था, जिससे कनिष्क को विभिन्न आबादी के बीच अपने शासन को वैध बनाने की आवश्यकता थी।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: कनिष्क के सिक्कों पर बहु-धार्मिक देवी-देवताओं का अंकन है। कारण विश्लेषण: साम्राज्य की सांस्कृतिक विविधता के कारण जनता में राजनीतिक स्वीकार्यता बढ़ाने हेतु कनिष्क ने इन देवताओं को सिक्कों पर स्थान दिया। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Mathura School of Art produced the earliest images of Brahmanical deities during the Kushan period.\nReason (R): Kanishka declared Shaivism as the sole state religion of the Kushan Empire.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: The Mathura school created the earliest images of Shiva, Vishnu, Kartikeya, and Kubera. Reason Analysis: The reason is false because the Kushans were eclectic and never declared Shaivism (or Buddhism) as the sole state religion, even though individual kings favored different faiths."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): मथुरा कला शैली ने कुषाण काल ​​के दौरान ब्राह्मणवादी देवी-देवताओं की सबसे प्रारंभिक मूर्तियों का निर्माण किया था।\nकारण (R): कनिष्क ने शैव धर्म को कुषाण साम्राज्य का एकमात्र राजकीय धर्म घोषित किया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: मथुरा शैली में हिंदू देवी-देवताओं जैसे शिव (लिंग और मानवरूप), विष्णु आदि की प्रारंभिक मूर्तियां बनीं। कारण विश्लेषण: कारण गलत है क्योंकि कुषाण सर्वधर्मसमभाव रखते थे और उन्होंने कभी किसी धर्म को एकमात्र राजकीय धर्म घोषित नहीं किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\nAssertion (A): The Rabatak inscription is of immense value for reconstructing the chronology of Kushan kings.\nReason (R): It clearly establishes the lineage of Kanishka, linking him to Kujula Kadphises, Vima Takto, and Vima Kadphises.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Rabatak inscription settled long-standing debates about the relationship between Kushan kings. Reason Analysis: It does this by listing Kanishka's ancestors (his great-grandfather Kujula, grandfather Vima Takto, and father Vima Kadphises), which directly explains why it is valuable for chronology. Thus, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): कुषाण राजाओं के कालक्रम के पुनर्निर्माण के लिए रबातक शिलालेख अत्यंत मूल्यवान है।\nकारण (R): यह स्पष्ट रूप से कनिष्क की वंशावली स्थापित करता है, उसे कुजुल कड़फिसेस, विम तक्तो और विम कड़फिसेस से जोड़ता है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: रबातक शिलालेख कुषाण कालक्रम की अनिश्चितताओं को समाप्त करता है। कारण विश्लेषण: यह शिलालेख कनिष्क के तीन पूर्वजों (कुजुल कड़फिसेस, विम तक्तो, विम कड़फिसेस) के नामों का स्पष्ट उल्लेख करता है, जो कालक्रम को समझने का सीधा स्रोत है। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Kushan-era Scholar) with List-II (Key Text/Contribution) and select the correct answer:\nList-I:\na) Ashvaghosa\nb) Vasumitra\nc) Charaka\nd) Nagarjuna\n\nList-II:\n1) Buddhacharita\n2) Mahavibhasha Sastra\n3) Compendium on Ayurveda\n4) Madhyamika Karika\n5) Devikulam",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Ashvaghosa wrote Buddhacharita [1]. Vasumitra compiled Mahavibhasha Sastra [2]. Charaka compiled Charaka Samhita on Ayurveda [3]. Nagarjuna wrote Madhyamika Karika [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (कुषाण कालीन विद्वान) को सूची-II (प्रमुख ग्रंथ/योगदान) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) अश्वघोष\nb) वसुमित्र\nc) चरक\nd) नागार्जुन\n\nसूची-II:\n1) बुद्धचरित\n2) महाविभाषा शास्त्र\n3) आयुर्वेद पर संकलन\n4) माध्यमिक कारिका\n5) देवकुलम्",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। अश्वघोष ने बुद्धचरित [1] लिखा। वसुमित्र ने महाविभाषा शास्त्र [2] का संकलन किया। चरक ने आयुर्वेद पर चरक संहिता [3] लिखी। नागार्जुन ने माध्यमिक कारिका [4] की रचना की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Kushan Ruler) with List-II (Key Attribute/Achievement) and select the correct answer:\nList-I:\na) Kujula Kadphises\nb) Vima Kadphises\nc) Kanishka I\nd) Vasudeva I\n\nList-II:\n1) Consolidated the five Yuezhi principalities\n2) Introduced extensive gold coinage in India\n3) Convened the Fourth Buddhist Council\n4) Worshipped primarily Shiva and Vaishnava deities\n5) Built the rock temple of Sopara",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Kujula Kadphises consolidated the five Yuezhi principalities [1]. Vima Kadphises introduced gold coinage [2]. Kanishka I convened the 4th Council [3]. Vasudeva I was heavily associated with Shaivism/Vaishnavism [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (कुषाण शासक) को सूची-II (प्रमुख विशेषता/उपलब्धि) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) कुजुल कड़फिसेस\nb) विम कड़फिसेस\nc) कनिष्क प्रथम\nd) वासुदेव प्रथम\n\nसूची-II:\n1) पांच यूची रियासतों को एकीकृत किया\n2) भारत में व्यापक स्वर्ण मुद्रा प्रणाली की शुरुआत की\n3) चतुर्थ बौद्ध संगीति का आयोजन किया\n4) मुख्य रूप से शिव और वैष्णव देवताओं की पूजा की\n5) सोपारा के शैलकृत मंदिर का निर्माण किया",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कुजुल कड़फिसेस ने पांच यूची कुलों को एकजुट किया [1]। विम कड़फिसेस ने सोने के सिक्के जारी किए [2]। कनिष्क प्रथम ने चौथी संगीति बुलाई [3]। वासुदेव प्रथम ने हिंदू धर्म (शिव/कृष्ण) को अपनाया [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Deity on Kushan Coins) with List-II (Origin/Associated Tradition) and select the correct answer:\nList-I:\na) Oesho\nb) Boddo\nc) Miro\nd) Mao\n\nList-II:\n1) Shiva (Indian)\n2) Buddha (Buddhist)\n3) Mithra (Zoroastrian Sun God)\n4) Mah (Zoroastrian Moon God)\n5) Zeus (Greek Storm God)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-5, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Oesho represents Shiva [1]. Boddo represents Buddha [2]. Miro is Mithra, the Sun deity [3]. Mao is the Moon deity [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (कुषाण सिक्कों पर अंकित देवता) को सूची-II (मूल/संबद्ध परंपरा) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) ओइशो (Oesho)\nb) बोड्डो (Boddo)\nc) मीरो (Miro)\nd) माओ (Mao)\n\nसूची-II:\n1) शिव (भारतीय)\n2) बुद्ध (बौद्ध)\n3) मिहिर/मित्र (पारसी सूर्य देवता)\n4) माह (पारसी चंद्र देवता)\n5) ज़्यूस (यूनानी तूफान देवता)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-5, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। ओइशो शिव [1] का, बोड्डो बुद्ध [2] का, मीरो सूर्य देवता [3] का और माओ चंद्र देवता [4] का प्रतिनिधित्व करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Artistic Style/Feature) with List-II (Primary Art School) and select the correct answer:\nList-I:\na) Curly hair, halo with simple borders, muscular body\nb) Shaved head, halo with elaborate carvings, heavy chest\nc) White marble sculptures with narrative panels\nd) Terracotta figurines for folk worship\n\nList-II:\n1) Gandhara School of Art\n2) Mathura School of Art\n3) Amaravati School of Art\n4) Ahichchhtra Folk Art\n5) Sarnath Gupta Art School",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Greek-style curls and simple halos represent Gandhara [1]. Indigenous features, shaved head, decorated halos represent Mathura [2]. White marble panels belong to Amaravati [3]. Terracottas represent folk styles like Ahichchhtra [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (कलात्मक शैली/विशेषता) को सूची-II (प्राथमिक कला स्कूल) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) घुंघराले बाल, सादे किनारों वाला प्रभामंडल, मस्कुलर शरीर\nb) मुंडित सिर, अलंकृत प्रभामंडल, भारी उभरा हुआ सीना\nc) कथानक पट्टियों के साथ सफेद संगमरमर की मूर्तियां\n d) लोक पूजा के लिए पकी मिट्टी (टेराकोटा) की मूर्तियां\n\nसूची-II:\n1) गांधार कला शैली\n2) मथुरा कला शैली\n3) अमरावती कला शैली\n4) अहिच्छत्र लोक कला\n5) सारनाथ गुप्त कला शैली",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। यथार्थवादी शारीरिक रचना गांधार शैली [1] की है। अलंकृत प्रभामंडल और स्वदेशी शैली मथुरा [2] की है। सफेद संगमरमर अमरावती [3] से संबंधित है। टेराकोटा लोक मूर्तियां अहिच्छत्र [4] से संबंधित हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Kushan-era Place Name) with List-II (Modern Region/Identity) and select the correct answer:\nList-I:\na) Purushapura\nb) Kundalavana\nc) Mat\nd) Barygaza\n\nList-II:\n1) Peshawar (Pakistan)\n2) Kashmir Valley\n3) Mathura Shrine Site\n4) Bharuch (Gujarat Port)\n5) Taxila (Punjab)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-5, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Purushapura matches Peshawar [1]. Kundalavana matches Kashmir [2]. Mat matches Mathura shrine site [3]. Barygaza matches Bharuch port [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (कुषाण काल ​​का स्थान नाम) को सूची-II (आधुनिक क्षेत्र/पहचान) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) पुरुषपुर\nb) कुंडलवन\nc) माट\nd) बेरीगाजा\n\nसूची-II:\n1) पेशावर (पाकिस्तान)\n2) कश्मीर घाटी\n3) मथुरा मंदिर स्थल\n4) भरूच (गुजरात बंदरगाह)\n5) तक्षशिला (पंजाब)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-5, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। पुरुषपुर का मिलान पेशावर [1] से है। कुंडलवन कश्मीर [2] है। माट मथुरा [3] है और बेरीगाजा भरूच बंदरगाह [4] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Kushan Administrative/Political Term) with List-II (Meaning/Function) and select the correct answer:\nList-I:\na) Devaputra\nb) Satrap (Kshatrapa)\nc) Dandanayaka\nd) Mahadandanayaka\n\nList-II:\n1) Royal title meaning 'Son of Heaven'\n2) Provincial Governor\n3) Military commander or judge\n4) Chief military commander/judicial officer\n5) Guild administration chief",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Devaputra means Son of Heaven [1]. Satrap refers to Provincial Governor [2]. Dandanayaka is a military/judicial officer [3]. Mahadandanayaka is the chief military/judicial officer [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (कुषाण प्रशासनिक/राजनीतिक पद) को सूची-II (अर्थ/कार्य) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) देवपुत्र\nb) क्षत्रप\nc) दंडनायक\nd) महादंडनायक\n\nसूची-II:\n1) शाही उपाधि जिसका अर्थ है 'स्वर्ग का पुत्र'\n2) प्रांतीय गवर्नर\n3) सैन्य कमांडर या न्यायाधीश\n4) मुख्य सैन्य कमांडर/न्यायिक अधिकारी\n5) गिल्ड प्रशासन का प्रमुख",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। देवपुत्र का अर्थ स्वर्ग का पुत्र [1] है। क्षत्रप प्रांतीय गवर्नर [2] होता था। दंडनायक सैन्य/न्यायिक अधिकारी [3] और महादंडनायक मुख्य सैन्य/न्यायिक अधिकारी [4] होता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Kushan-era Inscription) with List-II (Key Discovery/Context) and select the correct answer:\nList-I:\na) Rabatak Inscription\nb) Ara Inscription\nc) Sui Vihar Inscription\nd) Kanishka Casket Inscription\n\nList-II:\n1) Details Kanishka's genealogy and Bactrian sanctuary\n2) Mentions Kanishka II and year 41 of Kushan era\n3) Mentions construction of a Buddhist monastery in Sindh\n4) Mentions the name of architect Agesilas at Purushapura Stupa\n5) Mentions the tax collected from Hellenistic route",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-5, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Rabatak records genealogy [1]. Ara mentions Kanishka II [2]. Sui Vihar refers to Sindh monastery construction [3]. Kanishka casket mentions Agesilas [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (कुषाण काल ​​का शिलालेख) को सूची-II (प्रमुख खोज/संदर्भ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) रबातक शिलालेख\nb) आरा (Ara) शिलालेख\nc) सुई विहार शिलालेख\nd) कनिष्क मंजूषा शिलालेख\n\nसूची-II:\n1) कनिष्क की वंशावली और बैक्ट्रियन मंदिर का विवरण\n2) कनिष्क द्वितीय और कुषाण संवत के वर्ष 41 का उल्लेख\n3) सिंध में एक बौद्ध विहार के निर्माण का उल्लेख\n4) पुरुषपुर स्तूप के वास्तुकार एजेसिलास के नाम का उल्लेख\n5) हेलेनिस्टिक मार्ग से एकत्रित कर का उल्लेख",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-5, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। रबातक कनिष्क की वंशावली [1] दर्शाता है। आरा शिलालेख कनिष्क द्वितीय [2] से संबंधित है। सुई विहार सिंध में विहार निर्माण [3] से संबंधित है। कनिष्क मंजूषा में एजेसिलास [4] का उल्लेख है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Literary Work) with List-II (Primary Subject/Theme) and select the correct answer:\nList-I:\na) Buddhacharita\nb) Saundersnanda\nc) Shariputraprakarana\nd) Rasasutra\n\nList-II:\n1) Biography of Gautama Buddha\n2) Conversion story of Buddha's half-brother Nanda\n3) Nine-act Sanskrit play on Sariputra's conversion\n4) Early alchemical and chemical processes by Nagarjuna\n5) Rules of grammar by Kanishka's ministers",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Buddhacharita is Buddha's biography [1]. Saundersnanda is Nanda's conversion [2]. Shariputraprakarana is a play on Sariputra [3]. Rasasutra is Nagarjuna's work on alchemy [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (साहित्यिक कृति) को सूची-II (मुख्य विषय/विषय वस्तु) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) बुद्धचरित\nb) सौन्दरानन्द\nc) शारिपुत्रप्रकरण\nd) रससूत्र\n\nसूची-II:\n1) गौतम बुद्ध की जीवनी\n2) बुद्ध के सौतेले भाई नंद के धर्म परिवर्तन की कहानी\n3) सारिपुत्र के धर्म परिवर्तन पर नौ अंकों का संस्कृत नाटक\n4) नागार्जुन द्वारा प्रारंभिक कीमिया और रासायनिक प्रक्रियाएं\n5) कनिष्क के मंत्रियों द्वारा व्याकरण के नियम",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-1, b-2, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। बुद्धचरित बुद्ध की जीवनी [1] है। सौन्दरानन्द नंद की कथा [2] है। शारिपुत्रप्रकरण नाटक [3] है और रससूत्र नागार्जुन की कीमिया/रसायन रचना [4] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Kushan Ruler Kanishka I:\n1. He ascended the throne in 78 AD, initiating the Saka Era.\n2. He conquered Pataliputra and brought the philosopher Ashvaghosa to his court.\n3. He is known to have adopted only Buddhism and completely banned the representation of non-Buddhist deities on his coinage.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Kanishka's accession in 78 AD marks the beginning of the Saka Era. Statement 2 is correct as Kanishka invaded Pataliputra and patronized Ashvaghosa. Statement 3 is incorrect because Kanishka's coinage displays a wide array of Greek, Zoroastrian, and Hindu deities alongside Buddha, showing his eclectic religious policy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण शासक कनिष्क प्रथम के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. वह 78 ईस्वी में सिंहासन पर बैठा, जिससे शक संवत की शुरुआत हुई।\n2. उसने पाटलिपुत्र पर विजय प्राप्त की और दार्शनिक अश्वघोष को अपने दरबार में लाया।\n3. उसने केवल बौद्ध धर्म अपनाया और अपने सिक्कों पर गैर-बौद्ध देवताओं के चित्रण को पूरी तरह से प्रतिबंधित कर दिया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि कनिष्क का राज्यारोहण 78 ईस्वी में हुआ था जो शक संवत का प्रारंभ है। कथन 2 सही है क्योंकि उसने पाटलिपुत्र से अश्वघोष को प्राप्त किया था। कथन 3 गलत है क्योंकि कनिष्क के सिक्कों पर यूनानी, ईरानी और हिंदू देवी-देवताओं का अंकन प्रचुर मात्रा में मिलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Rabatak Inscription:\n1. It was discovered in Afghanistan and is written in the Bactrian language using Greek script.\n2. It establishes that Kujula Kadphises was Kanishka's father.\n3. It mentions that Kanishka spread his authority over major North Indian cities like Saketa, Kausambi, and Pataliputra.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as the Rabatak inscription is in Bactrian and Greek script. Statement 2 is incorrect because Kujula Kadphises was Kanishka's great-grandfather, not his father (Vima Kadphises was his father). Statement 3 is correct as the inscription lists eastern cities like Saketa, Kausambi, Sri-Campa, and Pataliputra under his control."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. रबातक शिलालेख के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह अफगानिस्तान में खोजा गया था और ग्रीक लिपि का उपयोग करके बैक्ट्रियन भाषा में लिखा गया है।\n2. यह स्थापित करता है कि कुजुल कड़फिसेस कनिष्क के पिता थे।\n3. इसमें उल्लेख है कि कनिष्क ने साकेत, कौशाम्बी और पाटलिपुत्र जैसे प्रमुख उत्तर भारतीय शहरों पर अपना अधिकार फैलाया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि यह बैक्ट्रियन भाषा और ग्रीक लिपि में है। कथन 2 गलत है क्योंकि कुजुल कड़फिसेस कनिष्क के परदादा थे, पिता नहीं (पिता विम कड़फिसेस थे)। कथन 3 सही है क्योंकि शिलालेख में साकेत, कौशाम्बी, चम्पा और पाटलिपुत्र पर नियंत्रण का उल्लेख है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Fourth Buddhist Council:\n1. It was held in Kundalavana, Kashmir, under the leadership of Vasumitra.\n2. The main goal of the council was to draft commentaries (Vibhashas) on the Buddhist canon.\n3. The council's deliberations led to the formal division of Buddhism into Hinayana and Mahayana sects.\n\nWhich of the statements given above are correct?",
+      "option_a": "1, 2 and 3",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1 and 3 only",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as the council was held in Kashmir under president Vasumitra. Statement 2 is correct as the council produced the Mahavibhasha Sastra. Statement 3 is correct as the split between Hinayana and Mahayana was formalized during this period due to the rise of Mahayana doctrines."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चतुर्थ बौद्ध संगीति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह वसुमित्र के नेतृत्व में कश्मीर के कुंडलवन में आयोजित की गई थी।\n2. संगीति का मुख्य उद्देश्य बौद्ध धर्मग्रंथों पर टीकाएँ (विभाषा) तैयार करना था।\n3. संगीति की चर्चाओं के परिणामस्वरूप बौद्ध धर्म औपचारिक रूप से हीनयान और महायान संप्रदायों में विभाजित हो गया।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "1, 2 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "केवल 1 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि कश्मीर में वसुमित्र की अध्यक्षता में यह संगीति हुई थी। कथन 2 सही है क्योंकि इसी में महाविभाषा शास्त्र नामक टीका तैयार की गई थी। कथन 3 सही है क्योंकि महायान के उदय के साथ हीनयान और महायान का विभाजन इस काल में स्पष्ट रूप से स्थापित हुआ।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements comparing the Gandhara and Mathura Schools of Art:\n1. The Gandhara school shows strong Greco-Roman influence, while the Mathura school developed indigenously.\n2. The Mathura school exclusively used blue-grey schist stone for its sculptures.\n3. The Gandhara school primarily focused on Buddhist themes, whereas the Mathura school sculpted Buddhist, Jain, and Brahmanical deities.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Gandhara art had foreign influence while Mathura was indigenous. Statement 2 is incorrect because the Mathura school used spotted red sandstone, whereas the Gandhara school used grey schist. Statement 3 is correct as Mathura art was multi-religious (sculpting Jinas, Shiva, Vishnu, Buddha) while Gandhara was heavily focused on Buddha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गांधार और मथुरा कला शैलियों की तुलना करते हुए निम्नलिखित कथनों पर विचार कीजिए:\n1. गांधार शैली में मजबूत ग्रीको-रोमन प्रभाव दिखता है, जबकि मथुरा शैली स्वदेशी रूप से विकसित हुई थी।\n2. मथुरा शैली ने अपनी मूर्तियों के लिए विशिष्ट रूप से नीले-धूसर शिस्ट पत्थर का उपयोग किया था।\n3. गांधार शैली मुख्य रूप से बौद्ध विषयों पर केंद्रित थी, जबकि मथुरा शैली में बौद्ध, जैन और ब्राह्मणवादी देवताओं की मूर्तियाँ बनाई गईं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 and 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि गांधार कला हेलेनिस्टिक प्रभाव से युक्त थी और मथुरा स्वदेशी थी। कथन 2 गलत है क्योंकि मथुरा में लाल बलुआ पत्थर का उपयोग हुआ था, जबकि धूसर शिस्ट का गांधार में हुआ था। कथन 3 सही है क्योंकि मथुरा में बुद्ध के साथ जैन तीर्थंकरों और हिंदू देवताओं की मूर्तियां भी बनीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the economic life under the Kushan Empire:\n1. The Kushans were the first dynasty in India to issue a large volume of gold coins called Dinaras.\n2. Foreign trade was carried out both by land (Silk Route) and sea (from ports like Bharuch).\n3. Trade with the Roman Empire was completely non-existent due to constant military conflicts between Kushans and Rome.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Kushans issued gold coins called Dinaras based on Roman weight standards. Statement 2 is correct as they utilized overland routes and ports like Barygaza. Statement 3 is incorrect because trade with Rome was highly lucrative and Roman gold flowed extensively into the Kushan Empire, with Kanishka sending embassies to Rome."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण साम्राज्य के तहत आर्थिक जीवन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. कुषाण भारत में 'दीनार' कहे जाने वाले सोने के सिक्कों को बड़ी मात्रा में जारी करने वाले पहले राजवंश थे।\n2. विदेशी व्यापार थल मार्ग (रेशम मार्ग) और जल मार्ग (भरूच जैसे बंदरगाहों से) दोनों से किया जाता था।\n3. कुषाणों और रोम के बीच निरंतर सैन्य संघर्षों के कारण रोमन साम्राज्य के साथ व्यापार पूरी तरह से अस्तित्वहीन था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि कुषाणों ने प्रचुर सोने के दीनार जारी किए। कथन 2 सही है क्योंकि थल और जल दोनों मार्गों से व्यापार होता था। कथन 3 गलत है क्योंकि रोम के साथ अत्यंत फलदायी व्यापार था और रोमन सिक्के पिघलाकर कुषाण सिक्के बनाए जाते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Kanishka's relationship with Central Asia and China:\n1. Kanishka fought a war with the Han Dynasty of China and was initially defeated by General Ban Chao.\n2. Later, Kanishka's forces defeated the Chinese forces under Ban Yang, securing control over Kashgar, Yarkand, and Khotan.\n3. The Chinese traveler Xuanzang mentions that Kanishka kept Chinese hostages at his court.\n\nWhich of the statements given above are correct?",
+      "option_a": "1, 2 and 3",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1 and 3 only",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Kanishka's forces clashed with Chinese general Ban Chao. Statement 2 is correct as Kanishka subsequently defeated the Chinese and took control of Kashgar, Yarkand, and Khotan. Statement 3 is correct as Xuanzang records that Chinese hostages were kept by Kanishka in Kashmir/Punjab."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मध्य एशिया और चीन के साथ कनिष्क के संबंधों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. कनिष्क ने चीन के हान राजवंश के साथ युद्ध लड़ा और शुरू में चीनी जनरल पान चाओ (Ban Chao) से पराजित हुआ।\n2. बाद में, कनिष्क की सेना ने पान यांग के अधीन चीनी सेना को हराया और काशगर, यारकंद और खोतान पर नियंत्रण सुरक्षित कर लिया।\n3. चीनी यात्री ह्वेनसांग उल्लेख करता है कि कनिष्क ने अपने दरबार में चीनी बंधकों (hostages) को रखा था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "1, 2 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "केवल 1 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि कनिष्क की सेना पान चाओ से पराजित हुई थी। कथन 2 सही है क्योंकि बाद में कुषाणों ने हान सेना को हराया और रेशम मार्ग के शहरों पर नियंत्रण पाया। कथन 3 सही है क्योंकि ह्वेनसांग ने दर्ज किया है कि चीनी बंधकों के रहने के लिए विहार बनवाए गए थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Kushan administrative system:\n1. The empire was divided into provinces ruled by military governors called Kshatrapas and Mahakshatrapas.\n2. The system of dual governorship, where two rulers ruled jointly, was practiced by the Kushans.\n3. The administration was highly centralized with no power delegated to local merchant guilds.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as the Kushans used the Kshatrapa system inherited from the Sakas. Statement 2 is correct as joint-rule (e.g. Kanishka and Huvishka in transition, or dual kingship) is recorded on inscriptions. Statement 3 is incorrect because merchant guilds (Shrenis) had significant autonomy and issued their own coins during the Kushan era."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण प्रशासनिक व्यवस्था के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. साम्राज्य को क्षत्रप और महाक्षत्रप कहे जाने वाले सैन्य प्रांतीय गवर्नरों द्वारा शासित प्रांतों में विभाजित किया गया था।\n2. दोहरे शासन की प्रणाली, जहाँ दो शासक संयुक्त रूप से शासन करते थे, कुषाणों द्वारा अभ्यास में लाई जाती थी।\n3. प्रशासन अत्यधिक केंद्रीकृत था और स्थानीय व्यापारी संघों (श्रेणियों) को कोई शक्ति नहीं दी गई थी।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि कुषाणों ने क्षत्रप प्रणाली लागू रखी। कथन 2 सही है क्योंकि संयुक्त राजत्व के प्रमाण कुषाण अभिलेखों में मिलते हैं। कथन 3 गलत है क्योंकि कुषाण काल में व्यापारी श्रेणियों को स्वायत्तता प्राप्त थी और वे अपने सिक्के भी जारी करती थीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the lineage of Kushan rulers as per historical records:\n1. Kujula Kadphises was succeeded directly by Kanishka I.\n2. Vima Takto was identified as the ruler between Kujula Kadphises and Vima Kadphises.\n3. Vasudeva I was the final imperial Kushan ruler in India.\n\nWhich of the statements given above are correct?",
+      "option_a": "2 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is incorrect because Vima Takto and Vima Kadphises ruled between Kujula Kadphises and Kanishka I. Statement 2 is correct as Vima Takto (the 'Soter Megas' of coins) was Kanishka's grandfather. Statement 3 is correct as Vasudeva I was the last great ruler after whom the empire fragmented."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऐतिहासिक अभिलेखों के अनुसार कुषाण शासकों की वंशावली के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. कुजुल कड़फिसेस के तुरंत बाद कनिष्क प्रथम उत्तराधिकारी बना।\n2. विम तक्तो की पहचान कुजुल कड़फिसेस और विम कड़फिसेस के बीच के शासक के रूप में की गई है।\n3. वासुदेव प्रथम भारत में अंतिम साम्राज्यवादी कुषाण शासक था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 2 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 गलत है क्योंकि कुजुल कड़फिसेस के बाद विम तक्तो और विम कड़फिसेस ने शासन किया था, कनिष्क ने नहीं। कथन 2 सही है क्योंकि रबातक अभिलेख में विम तक्तो का उल्लेख कुजुल और विम कड़फिसेस के बीच मिलता है। कथन 3 सही है क्योंकि वासुदेव प्रथम के बाद कुषाण साम्राज्य बिखर गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the city of Mathura under the Kushans:\n1. It served as the southern/second capital of Kanishka's empire.\n2. It was a major center for the production of red sandstone sculptures representing multiple religions.\n3. The royal sanctuary (Devakula) containing statues of the Kushan kings was established here at Mat.\n\nWhich of the statements given above are correct?",
+      "option_a": "1, 2 and 3",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1 and 3 only",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Mathura was the secondary capital. Statement 2 is correct as Mathura school used local red sandstone for Buddhist, Jain, and Brahmanical sculptures. Statement 3 is correct as the Mat mound yielded the headless statues of Kanishka and Vima Kadphises in a Devakula."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाणों के अधीन मथुरा शहर के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसने कनिष्क के साम्राज्य की दक्षिणी/दूसरी राजधानी के रूप में कार्य किया।\n2. यह बहु-धार्मिक मूर्तियों के निर्माण के लिए लाल बलुआ पत्थर के उपयोग वाला एक प्रमुख केंद्र था।\n3. कुषाण राजाओं की मूर्तियों वाला शाही देवस्थान (देवकुल) यहाँ माट नामक स्थान पर स्थापित किया गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "1, 2 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "केवल 1 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि मथुरा कुषाणों की दूसरी राजधानी थी। कथन 2 सही है क्योंकि यहाँ से लाल बलुआ पत्थर की बौद्ध, जैन व हिंदू मूर्तियां मिली हैं। कथन 3 सही है क्योंकि माट गाँव के टीले से शाही देवकुल प्राप्त हुआ है जिसमें कनिष्क की सिररहित मूर्ति मिली।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the historical significance of the Rabatak Inscription for the Kushan Dynasty. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Rabatak Inscription (discovered in Afghanistan, written in Bactrian using Greek script) is highly significant for resolving Kushan chronology:\n* **Genealogy:** It establishes Kanishka I's lineage from his great-grandfather Kujula Kadphises, grandfather Vima Takto, and father Vima Kadphises.\n* **Territorial Extent:** It lists eastern cities like Saketa, Kausambi, and Pataliputra under Kanishka's control, proving his eastern conquests.\n* **Deification:** Mentions the setup of a sanctuary ('Devakula') with royal statues."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कुषाण वंश के लिए रबातक शिलालेख के ऐतिहासिक महत्व को स्पष्ट कीजिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "रबातक शिलालेख (अफगानिस्तान में खोजा गया, ग्रीक लिपि में बैक्ट्रियन भाषा में लिखित) कुषाण इतिहास के पुनर्निर्माण में महत्वपूर्ण है:\n* **वंशावली:** यह कनिष्क प्रथम के वंश क्रम को उनके परदादा कुजुल कड़फिसेस, दादा विम तक्तो और पिता विम कड़फिसेस से जोड़ता है।\n* **साम्राज्य सीमा:** यह साकेत, कौशाम्बी और पाटलिपुत्र पर कनिष्क के नियंत्रण का उल्लेख करता है, जो उसके पूर्वी अभियानों को प्रमाणित करता है।\n* **दैवीकरण:** इसमें शाही मूर्तियों वाले देवकुल (मंदिर) की स्थापना का उल्लेख है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare the distinctive features of the Gandhara and Mathura Schools of Art that flourished during the Kushan period under Kanishka's patronage. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "During the Kushan period, royal patronage under Kanishka fostered two major art centers: the Gandhara School and the Mathura School. While Gandhara reflected foreign influences, Mathura was entirely indigenous. Their key differences are:\n\n| Feature | Gandhara School of Art | Mathura School of Art |\n| :--- | :--- | :--- |\n| **Influence** | Greco-Roman / Hellenistic influence (Greco-Buddhist). | Completely indigenous with roots in ancient Yaksha traditions. |\n| **Material** | Blue-grey schist stone (and later stucco/gesso). | Spotted red sandstone from Sikri/Mathura. |\n| **Religious Themes** | Almost exclusively Buddhist (scenes of Buddha's life). | Secular and multi-religious (Buddhist, Jain, and Brahmanical). |\n| **Buddha's Depiction** | Realistic, wavy hair, athletic musculature, drapery folds. | Spiritual, shaved head/ushnisha, heavier body, transparent robe. |\n| **Geographical Focus** | Northwestern frontier (Taxila, Peshawar, Bamiyan). | Mathura and surrounding region of North-Central India. |\n\nIn conclusion, the Gandhara school adapted Western classical techniques to depict Buddhist theology, whereas the Mathura school laid the iconographical foundation for early Indian religious art, establishing the prototypes for future Brahmanical, Buddhist, and Jain imagery."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कनिष्क के संरक्षण में कुषाण काल ​​के दौरान विकसित हुई गांधार और मथुरा कला शैलियों की विशिष्ट विशेषताओं की तुलना कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "कुषाण काल में कनिष्क के संरक्षण में दो प्रमुख कला केंद्रों का विकास हुआ: गांधार कला शैली और मथुरा कला शैली। जहाँ गांधार शैली पर विदेशी प्रभाव था, वहीं मथुरा शैली पूर्णतः स्वदेशी थी। दोनों के बीच प्रमुख अंतर निम्नलिखित हैं:\n\n| लक्षण | गांधार कला शैली | मथुरा कला शैली |\n| :--- | :--- | :--- |\n| **प्रभाव** | ग्रीको-रोमन / हेलेनिस्टिक प्रभाव (ग्रीको-बौद्ध)। | पूर्णतः स्वदेशी (प्राचीन यक्ष मूर्तिकला परंपरा पर आधारित)। |\n| **सामग्री** | नीले-धूसर रंग का शिस्ट पत्थर (और बाद में गारा/स्टुको)। | सीकरी से प्राप्त चित्तीदार लाल बलुआ पत्थर। |\n| **धार्मिक विषय** | लगभग विशेष रूप से बौद्ध धर्म (बुद्ध के जीवन की घटनाएं)। | बहु-धार्मिक (बौद्ध, जैन तीर्थंकर और हिंदू देवता)। |\n| **बुद्ध का रूप** | यथार्थवादी, घुंघराले बाल, मस्कुलर शरीर, सलवटों वाला चोगा। | आध्यात्मिक भाव, मुंडित सिर/उष्णीष, भारी सीना, पारदर्शी वस्त्र। |\n| **भौगोलिक केंद्र** | उत्तर-पश्चिमी सीमांत क्षेत्र (तक्षशिला, पेशावर)। | मथुरा और उत्तर-मध्य भारत का निकटवर्ती क्षेत्र। |\n\nनिष्कर्षतः, गांधार कला शैली ने बौद्ध धर्मशास्त्र को दर्शाने के लिए पश्चिमी शास्त्रीय तकनीकों का उपयोग किया, जबकि मथुरा कला शैली ने भविष्य के भारतीय ब्राह्मणवादी, बौद्ध और जैन मूर्तिशिल्प के लिए ठोस स्वदेशी प्रतिमाशास्त्रीय (iconographical) आधार तैयार किया।"
+    }
+  ]
+}

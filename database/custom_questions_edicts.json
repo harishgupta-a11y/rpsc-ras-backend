@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. In which year and by whom was the famous Bhabru Rock Edict of Ashoka discovered at Bairat (Rajasthan)?",
+      "option_a": "1837, by Captain Burt",
+      "option_b": "1871, by A.C.L. Carlleyle",
+      "option_c": "1840, by James Prinsep",
+      "option_d": "1915, by C. Beadon",
+      "correct": "A",
+      "explanation": "Correct option: A. The Bhabru Rock Inscription (also known as the Calcutta-Bairat Edict) was discovered by Captain Burt of the East India Company in the year 1837 at the hill of Bijak-ki-Pahari in Bairat (Viratnagar), Rajasthan."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बैराठ (राजस्थान) में अशोक के प्रसिद्ध भाब्रू शिलालेख की खोज किस वर्ष और किसके द्वारा की गई थी?",
+      "option_a": "1837, कैप्टन बर्ट द्वारा",
+      "option_b": "1871, ए.सी.एल. कार्लाइल द्वारा",
+      "option_c": "1840, जेम्स प्रिंसेप द्वारा",
+      "option_d": "1915, सी. बीडन द्वारा",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. भाब्रू शिलालेख (जिसे कलकत्ता-बैराठ शिलालेख भी कहा जाता है) की खोज 1837 में ईस्ट इंडिया कंपनी के कैप्टन बर्ट द्वारा बैराठ (विराटनगर), राजस्थान में बीजक की पहाड़ी पर की गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Bhabru Rock Edict is considered of paramount importance in Indian history because it provides conclusive evidence for which of the following?",
+      "option_a": "Ashoka's military alliance with Hellenistic kings",
+      "option_b": "Ashoka's conversion to and faith in Buddhism",
+      "option_c": "The exact boundaries of the Mauryan Empire in western India",
+      "option_d": "The administrative division of Rajasthan under Mauryan rule",
+      "correct": "B",
+      "explanation": "Correct option: B. The Bhabru Edict is the only inscription where Ashoka explicitly states his faith in the Buddhist 'Triratna' (Buddha, Dhamma, and Sangha), proving his personal adherence to Buddhism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भाब्रू शिलालेख भारतीय इतिहास में सर्वोपरि महत्व का माना जाता है क्योंकि यह निम्नलिखित में से किसका निर्णायक साक्ष्य प्रदान करता है?",
+      "option_a": "यूनानी राजाओं के साथ अशोक के सैन्य गठबंधन का",
+      "option_b": "बौद्ध धर्म के प्रति अशोक के रूपांतरण और आस्था का",
+      "option_c": "पश्चिमी भारत में मौर्य साम्राज्य की सटीक सीमाओं का",
+      "option_d": "मौर्य शासन के तहत राजस्थान के प्रशासनिक विभाजन का",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. भाब्रू शिलालेख एकमात्र ऐसा शिलालेख है जहां अशोक स्पष्ट रूप से बौद्ध 'त्रिरत्न' (बुद्ध, धम्म और संघ) के प्रति अपनी आस्था व्यक्त करते हैं, जो बौद्ध धर्म के प्रति उनके व्यक्तिगत जुड़ाव को प्रमाणित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which of the following scripts and languages was the Bhabru Rock Inscription written?",
+      "option_a": "Kharosthi script and Aramaic language",
+      "option_b": "Brahmi script and Prakrit language",
+      "option_c": "Brahmi script and Sanskrit language",
+      "option_d": "Devanagari script and Prakrit language",
+      "correct": "B",
+      "explanation": "Correct option: B. The Bhabru Rock Edict, like most of Ashoka's edicts in northern and central India, was written in the Brahmi script and the Prakrit (local vernacular) language."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस लिपि और भाषा में भाब्रू शिलालेख लिखा गया था?",
+      "option_a": "खरोष्ठी लिपि और अरामी भाषा",
+      "option_b": "ब्राह्मी लिपि और प्राकृत भाषा",
+      "option_c": "ब्राह्मी लिपि और संस्कृत भाषा",
+      "option_d": "देवनागरी लिपि और प्राकृत भाषा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. भाब्रू शिलालेख, उत्तरी और मध्य भारत में अशोक के अधिकांश शिलालेखों की तरह, ब्राह्मी लिपि और प्राकृत (स्थानीय बोलचाल की) भाषा में लिखा गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. At which specific museum or society is the original stone slab of the Bhabru Rock Edict preserved today?",
+      "option_a": "National Museum, New Delhi",
+      "option_b": "Albert Hall Museum, Jaipur",
+      "option_c": "Asiatic Society of Bengal (Indian Museum), Kolkata",
+      "option_d": "British Museum, London",
+      "correct": "C",
+      "explanation": "Correct option: C. In 1840, the Bhabru Rock Edict was carefully cut out and sent to the Asiatic Society of Bengal in Calcutta (now Kolkata) for preservation, which is why it is also known as the Calcutta-Bairat Edict."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आज किस विशिष्ट संग्रहालय या सोसाइटी में भाब्रू शिलालेख की मूल शिला को संरक्षित रखा गया है?",
+      "option_a": "राष्ट्रीय संग्रहालय, नई दिल्ली",
+      "option_b": "अल्बर्ट हॉल संग्रहालय, जयपुर",
+      "option_c": "एशियाटिक सोसाइटी ऑफ बंगाल (भारतीय संग्रहालय), कोलकाता",
+      "option_d": "ब्रिटिश संग्रहालय, लंदन",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. 1840 में, संरक्षण के लिए भाब्रू शिलालेख को काटकर कलकत्ता (अब कोलकाता) में एशियाटिक सोसाइटी ऑफ बंगाल में भेजा गया था, इसी कारण इसे कलकत्ता-बैराठ शिलालेख भी कहा जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What title did Ashoka use for himself in the Bhabru Rock Edict while addressing the Buddhist Sangha?",
+      "option_a": "Devanampriya Priyadasi Raja Magadha",
+      "option_b": "Dharmasoka Maharaja",
+      "option_c": "Chakravartin Priyadasi",
+      "option_d": "Raja Priyadasi Devaputra",
+      "correct": "A",
+      "explanation": "Correct option: A. In the Bhabru Edict, Ashoka begins by saluting the Sangha as 'Priyadasi Raja Magadha' (Priyadasi, King of Magadha) and wishing them good health and happiness, expressing his deep association with Buddhism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध संघ को संबोधित करते हुए अशोक ने भाब्रू शिलालेख में अपने लिए किस उपाधि का उपयोग किया था?",
+      "option_a": "देवानांपिय पियदसी राजा मागधे",
+      "option_b": "धर्मासोक महाराजा",
+      "option_c": "चक्रवर्तिन प्रियदसी",
+      "option_d": "राजा प्रियदसी देवपुत्र",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. भाब्रू शिलालेख में अशोक संघ का अभिवादन 'पियदसी राजा मागधे' (प्रियदर्शी, मगध का राजा) के रूप में करते हैं और उनके अच्छे स्वास्थ्य और सुख की कामना करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Bhabru Edict is unique among all Ashokan inscriptions because it recommends seven specific Buddhist texts for study. For whom was this recommendation meant?",
+      "option_a": "Only foreign emissaries and Greek ambassadors",
+      "option_b": "Both Buddhist monks/nuns and the lay devotees (Upasakas/Upasikas)",
+      "option_c": "Only the royal princes and the administrative officers (Rajukas)",
+      "option_d": "Only the Dhamma Mahamattas appointed in Western India",
+      "correct": "B",
+      "explanation": "Correct option: B. The Bhabru Edict explicitly recommends seven Buddhist texts to be studied and listened to constantly by both monks/nuns (Bhikhus/Bhikhunis) and laymen/laywomen (Upasakas/Upasikas) to ensure the longevity of the Dhamma."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भाब्रू शिलालेख अशोक के सभी शिलालेखों में अद्वितीय है क्योंकि यह अध्ययन के लिए सात विशिष्ट बौद्ध ग्रंथों की सिफारिश करता है। यह सिफारिश किसके लिए थी?",
+      "option_a": "केवल विदेशी दूतों और यूनानी राजदूतों के लिए",
+      "option_b": "बौद्ध भिक्षुओं/भिक्षुणियों और गृहस्थ उपासकों/उपासिकाओं दोनों के लिए",
+      "option_c": "केवल शाही राजकुमारों और प्रशासनिक अधिकारियों (राजुकों) के लिए",
+      "option_d": "केवल पश्चिमी भारत में नियुक्त धम्म महामात्रों के लिए",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. भाब्रू शिलालेख स्पष्ट रूप से भिक्षुओं/भिक्षुणियों और उपासक/उपासिकाओं दोनों द्वारा धम्म की निरंतरता सुनिश्चित करने के लिए सात बौद्ध ग्रंथों के नियमित अध्ययन और श्रवण की सिफारिश करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who discovered the second minor rock inscription of Ashoka at Bhim-ki-Dungri in Bairat in 1871-72?",
+      "option_a": "Alexander Cunningham",
+      "option_b": "A.C.L. Carlleyle",
+      "option_c": "D.R. Bhandarkar",
+      "option_d": "Dayaram Sahni",
+      "correct": "B",
+      "explanation": "Correct option: B. In 1871-72, A.C.L. Carlleyle, an assistant to Alexander Cunningham, discovered a second Ashokan inscription at the foot of Bhim-ki-Dungri hill in Bairat."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 1871-72 में बैराठ में भीम-की-डूंगरी पर अशोक के दूसरे लघु शिलालेख की खोज किसने की थी?",
+      "option_a": "अलेक्जेंडर कनिंघम",
+      "option_b": "ए.सी.एल. कार्लाइल",
+      "option_c": "डी.आर. भंडारकर",
+      "option_d": "दयाराम साहनी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 1871-72 में, अलेक्जेंडर कनिंघम के सहायक ए.सी.एल. कार्लाइल ने बैराठ में भीम-की-डूंगरी पहाड़ी की तलहटी में दूसरे अशोक शिलालेख की खोज की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Major Rock Edicts of Ashoka contains the details of the Kalinga War and mentions five Hellenic contemporary kings?",
+      "option_a": "Major Rock Edict XII",
+      "option_b": "Major Rock Edict XIII",
+      "option_c": "Major Rock Edict XIV",
+      "option_d": "Major Rock Edict X",
+      "correct": "B",
+      "explanation": "Correct option: B. Major Rock Edict XIII contains a description of Ashoka's victory over Kalinga, his remorse, and names five Greek kings to whom he sent Dhamma envoys: Antiochus, Ptolemy, Antigonus, Magas, and Alexander."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के निम्नलिखित में से किस मुख्य शिलालेख में कलिंग युद्ध का विवरण है और इसमें पांच समकालीन यूनानी राजाओं का उल्लेख है?",
+      "option_a": "मुख्य शिलालेख XII",
+      "option_b": "मुख्य शिलालेख XIII",
+      "option_c": "मुख्य शिलालेख XIV",
+      "option_d": "मुख्य शिलालेख X",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. मुख्य शिलालेख XIII में कलिंग विजय, अशोक के पश्चाताप का विवरण है और पांच यूनानी राजाओं का उल्लेख है जिन्हें उन्होंने धम्म दूत भेजे थे: अंतियोकस, टॉलेमी, एंटीगोनस, मगस और अलेक्जेंडर।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the first scholar to successfully decipher the Brahmi script of the Ashokan Edicts in 1837?",
+      "option_a": "William Jones",
+      "option_b": "James Prinsep",
+      "option_c": "Alexander Cunningham",
+      "option_d": "Georg Bühler",
+      "correct": "B",
+      "explanation": "Correct option: B. James Prinsep, an officer of the Calcutta Mint and secretary of the Asiatic Society of Bengal, successfully deciphered the ancient Brahmi script in 1837, unlocking Ashoka's inscriptions."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 1837 में अशोक के शिलालेखों की ब्राह्मी लिपि को सफलतापूर्वक पढ़ने वाले पहले विद्वान कौन थे?",
+      "option_a": "विलीयम जोन्स",
+      "option_b": "जेम्स प्रिंसेप",
+      "option_c": "अलेक्जेंडर कनिंघम",
+      "option_d": "जॉर्ज बूलर",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. कलकत्ता टकसाल के अधिकारी और एशियाटिक सोसाइटी ऑफ बंगाल के सचिव जेम्स प्रिंसेप ने 1837 में प्राचीन ब्राह्मी लिपि को सफलतापूर्वक पढ़ा, जिससे अशोक के शिलालेखों का रहस्योद्घाटन हुआ।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Minor Rock Edicts was the first to identify the ruler as 'Ashoka' by his personal name, rather than just 'Devanampriya'?",
+      "option_a": "Bhabru Edict",
+      "option_b": "Maski Minor Rock Edict",
+      "option_c": "Sopara Rock Inscription",
+      "option_d": "Rummindei Pillar Edict",
+      "correct": "B",
+      "explanation": "Correct option: B. The Maski Minor Rock Edict, discovered in 1915 by C. Beadon in Karnataka, was the first inscription that clearly associated the titles 'Devanampriya' and 'Priyadasi' with the name 'Ashoka'."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस लघु शिलालेख में सबसे पहले शासक की पहचान केवल 'देवानांपिय' के बजाय उसके व्यक्तिगत नाम 'अशोक' से की गई थी?",
+      "option_a": "भाब्रू शिलालेख",
+      "option_b": "मास्की लघु शिलालेख",
+      "option_c": "सोपारा शिलालेख",
+      "option_d": "रुम्मिन्देई स्तंभ शिलालेख",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 1915 में सी. बीडन द्वारा कर्नाटक में खोजे गए मास्की लघु शिलालेख में पहली बार 'देवानांपिय' और 'प्रियदर्शी' उपाधियों को 'अशोक' नाम के साथ जोड़ा गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The bilingual Greek and Aramaic rock inscription of Emperor Ashoka was discovered at which of the following places?",
+      "option_a": "Shahbazgarhi",
+      "option_b": "Kandahar (Shar-i-Kuna)",
+      "option_c": "Taxila",
+      "option_d": "Mansehra",
+      "correct": "B",
+      "explanation": "Correct option: B. A famous bilingual rock inscription written in Greek and Aramaic scripts was discovered at Shar-i-Kuna near Kandahar in southern Afghanistan, illustrating Mauryan administrative reach over Greek populations."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सम्राट अशोक का द्विभाषी यूनानी और अरामी शिलालेख निम्नलिखित में से किस स्थान पर खोजा गया था?",
+      "option_a": "शाहबाजगढ़ी",
+      "option_b": "कंधार (शार-ए-कुना)",
+      "option_c": "तक्षशिला",
+      "option_d": "मनसेहरा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. दक्षिणी अफगानिस्तान में कंधार के पास शार-ए-कुना में यूनानी और अरामी लिपियों में लिखित एक प्रसिद्ध द्विभाषी शिलालेख खोजा गया था, जो यूनानी आबादी पर मौर्य प्रशासनिक नियंत्रण को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which Major Rock Edict does Ashoka declare the prohibition of animal sacrifices for festive gatherings?",
+      "option_a": "Major Rock Edict I",
+      "option_b": "Major Rock Edict II",
+      "option_c": "Major Rock Edict III",
+      "option_d": "Major Rock Edict IV",
+      "correct": "A",
+      "explanation": "Correct option: A. In Major Rock Edict I, Ashoka bans animal sacrifice for religious rituals and prohibits festive assemblies (Samaja) that involved animal slaughter and excessive indulgences."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक ने किस मुख्य शिलालेख में उत्सव सभाओं के लिए पशु बलि पर प्रतिबंध लगाने की घोषणा की है?",
+      "option_a": "मुख्य शिलालेख I",
+      "option_b": "मुख्य शिलालेख II",
+      "option_c": "मुख्य शिलालेख III",
+      "option_d": "मुख्य शिलालेख IV",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मुख्य शिलालेख I में, अशोक ने धार्मिक अनुष्ठानों के लिए पशु बलि पर प्रतिबंध लगा दिया और पशु वध एवं अत्यधिक विलासिता से युक्त उत्सव सभाओं (समाज) को प्रतिबंधित कर दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Major Rock Edict of Ashoka mentions welfare measures such as medical treatment for humans and animals, planting herbs, and digging wells?",
+      "option_a": "Major Rock Edict II",
+      "option_b": "Major Rock Edict V",
+      "option_c": "Major Rock Edict VII",
+      "option_d": "Major Rock Edict IX",
+      "correct": "A",
+      "explanation": "Correct option: A. Major Rock Edict II describes Ashoka's welfare measures, including hospitals for both humans and animals, importing medicinal herbs, planting shade trees, and digging wells along highways."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के किस मुख्य शिलालेख में मनुष्यों और जानवरों के लिए चिकित्सा उपचार, जड़ी-बूटियाँ लगाने और कुएँ खोदने जैसे कल्याणकारी उपायों का उल्लेख है?",
+      "option_a": "मुख्य शिलालेख II",
+      "option_b": "मुख्य शिलालेख V",
+      "option_c": "मुख्य शिलालेख VII",
+      "option_d": "मुख्य शिलालेख IX",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मुख्य शिलालेख II में मनुष्यों और पशुओं के चिकित्सा उपचार, जड़ी-बूटियों के आयात, राजमार्गों पर छायादार पेड़ लगाने और कुएँ खोदने सहित कल्याणकारी उपायों का वर्णन है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Rummindei Pillar Inscription is historically significant primarily because it records which of the following events?",
+      "option_a": "Ashoka's conversion to Ajivika faith",
+      "option_b": "Ashoka's visit to the birthplace of Gautama Buddha and concession in land taxes",
+      "option_c": "The dispatch of Mauryan missions to South-East Asia",
+      "option_d": "The abdication of the Mauryan throne by Ashoka",
+      "correct": "B",
+      "explanation": "Correct option: B. The Rummindei Pillar Edict marks Ashoka's visit to Lumbini (birthplace of Buddha). He exempted the village from Bali (religious tax) and reduced Bhaga (land tax) to one-eighth."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. रुम्मिन्देई स्तंभ शिलालेख ऐतिहासिक रूप से मुख्य रूप से इसलिए महत्वपूर्ण है क्योंकि यह निम्नलिखित में से किस घटना को दर्ज करता है?",
+      "option_a": "अशोक का आजीविक संप्रदाय में रूपांतरण",
+      "option_b": "गौतम बुद्ध के जन्मस्थान पर अशोक की यात्रा और भूमि करों में छूट",
+      "option_c": "दक्षिण-पूर्वी एशिया में मौर्य मिशनों को भेजा जाना",
+      "option_d": "अशोक द्वारा मौर्य सिंहासन का परित्याग",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. रुम्मिन्देई स्तंभ शिलालेख लुंबिनी (बुद्ध के जन्मस्थान) में अशोक की यात्रा को चिह्नित करता है। उन्होंने गाँव को बलि (धार्मिक कर) से छूट दी और भाग (भूमि कर) को घटाकर आठवां हिस्सा (1/8) कर दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which of his edicts did Ashoka declare religious tolerance, stating that the sects of other people all deserve reverence for one reason or another?",
+      "option_a": "Major Rock Edict V",
+      "option_b": "Major Rock Edict X",
+      "option_c": "Major Rock Edict XII",
+      "option_d": "Major Rock Edict VII",
+      "correct": "C",
+      "explanation": "Correct option: C. Major Rock Edict XII contains Ashoka's famous declaration on religious tolerance, arguing for the promotion of the 'essence' (salavriddhi) of all sects and banning self-praise or criticism of other sects."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक ने अपने किस शिलालेख में धार्मिक सहिष्णुता की घोषणा करते हुए कहा कि अन्य लोगों के संप्रदाय भी किसी न किसी कारण से सम्मान के पात्र हैं?",
+      "option_a": "मुख्य शिलालेख V",
+      "option_b": "मुख्य शिलालेख X",
+      "option_c": "मुख्य शिलालेख XII",
+      "option_d": "मुख्य शिलालेख VII",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. मुख्य शिलालेख XII में धार्मिक सहिष्णुता पर अशोक की प्रसिद्ध घोषणा है, जिसमें सभी संप्रदायों के 'सार' (सारवृद्धि) को बढ़ावा देने और दूसरे संप्रदायों की निंदा न करने की वकालत की गई है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Ashokan Pillar Edicts contains the warning against schism (Sanghabheda) in the Buddhist Sangha?",
+      "option_a": "Sarnath Pillar Inscription",
+      "option_b": "Rummindei Pillar Inscription",
+      "option_c": "Lauriya-Araraj Pillar Inscription",
+      "option_d": "Barabar Cave Inscription",
+      "correct": "A",
+      "explanation": "Correct option: A. The Sarnath, Sanchi, and Kosam (Allahabad) Pillar inscriptions contain the Schism Edicts, warning monks and nuns that anyone who splits the Buddhist Sangha will be defrocked and forced to wear white robes."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस अशोक स्तंभ शिलालेख में बौद्ध संघ में विभाजन (संघभेद) के विरुद्ध चेतावनी दी गई है?",
+      "option_a": "सारनाथ स्तंभ शिलालेख",
+      "option_b": "रुम्मिन्देई स्तंभ शिलालेख",
+      "option_c": "लौरिया-अरराज स्तंभ शिलालेख",
+      "option_d": "बराबर गुफा शिलालेख",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. सारनाथ, सांची और कोसम (इलाहाबाद) स्तंभ शिलालेखों में संघभेद निषेध संबंधी घोषणाएं हैं, जो चेतावनी देती हैं कि जो कोई भी बौद्ध संघ में विभाजन करेगा, उसे श्वेत वस्त्र पहनाकर निष्कासित कर दिया जाएगा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which of the following rock inscriptions does Ashoka record the donation of caves in the Barabar Hills to the Ajivika sect?",
+      "option_a": "Sopara Rock Edict",
+      "option_b": "Barabar Hill Cave Inscription",
+      "option_c": "Jaugada Rock Edict",
+      "option_d": "Kalsi Rock Inscription",
+      "correct": "B",
+      "explanation": "Correct option: B. The Barabar Hill Cave Inscriptions, located in Bihar, record Ashoka's donation of Sudama and Lomas Rishi caves to the Ajivikas in his 12th and 19th regnal years, showcasing his secular patronage."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस शिलालेख में अशोक ने बराबर पहाड़ियों में आजीविक संप्रदाय को गुफाएं दान करने का उल्लेख किया है?",
+      "option_a": "सोपारा शिलालेख",
+      "option_b": "बराबर पहाड़ी गुफा शिलालेख",
+      "option_c": "जौगढ़ शिलालेख",
+      "option_d": "कालसी शिलालेख",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. बिहार में स्थित बराबर पहाड़ी गुफा शिलालेखों में अशोक द्वारा अपने शासनकाल के 12वें और 19वें वर्ष में आजीविकों को सुदामा और लोमस ऋषि गुफाएं दान में देने का उल्लेख है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which official post was created by Ashoka in his 13th regnal year specifically for the propagation of Dhamma and maintaining harmony among various sects, as described in Major Rock Edict V?",
+      "option_a": "Rajukas",
+      "option_b": "Dhamma Mahamattas",
+      "option_c": "Yuktas",
+      "option_d": "Pradesikas",
+      "correct": "B",
+      "explanation": "Correct option: B. Major Rock Edict V mentions that Ashoka appointed a new class of officials called Dhamma Mahamattas (Dharma Mahamatras) in his 13th regnal year to preach Dhamma and oversee welfare activities."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मुख्य शिलालेख V के अनुसार, अशोक ने अपने शासनकाल के 13वें वर्ष में धम्म के प्रचार और विभिन्न संप्रदायों के बीच सद्भाव बनाए रखने के लिए विशेष रूप से किस प्रशासनिक पद का सृजन किया था?",
+      "option_a": "राजुक",
+      "option_b": "धम्म महामात्त (धर्म महामात्र)",
+      "option_c": "युक्त",
+      "option_d": "प्रादेशिक",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. मुख्य शिलालेख V में उल्लेख है कि अशोक ने अपने शासनकाल के 13वें वर्ष में धम्म के प्रचार-प्रसार और लोक कल्याण की देखरेख के लिए 'धम्म महामात्त' नामक अधिकारियों की एक नई श्रेणी नियुक्त की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Major Rock Edict of Ashoka introduces the concept of replacing Bherighosa (sound of the war drum) with Dhammaghosa (sound of righteousness/Dhamma)?",
+      "option_a": "Major Rock Edict III",
+      "option_b": "Major Rock Edict IV",
+      "option_c": "Major Rock Edict V",
+      "option_d": "Major Rock Edict VI",
+      "correct": "B",
+      "explanation": "Correct option: B. Major Rock Edict IV states that because of the practice of Dhamma by the king, the sound of the war drum (Bherighosa) has been replaced by the call to righteousness (Dhammaghosa)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के किस मुख्य शिलालेख में भेरीघोष (युद्ध के नगाड़े की आवाज) को धम्मघोष (धर्म/नैतिकता की आवाज) में बदलने की अवधारणा प्रस्तुत की गई है?",
+      "option_a": "मुख्य शिलालेख III",
+      "option_b": "मुख्य शिलालेख IV",
+      "option_c": "मुख्य शिलालेख V",
+      "option_d": "मुख्य शिलालेख VI",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. मुख्य शिलालेख IV में कहा गया है कि राजा द्वारा धम्म के अभ्यास के कारण युद्ध के नगाड़े (भेरीघोष) की ध्वनि अब धर्म/नैतिकता की ध्वनि (धम्मघोष) में बदल गई है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Nigali Sagar (or Nigliva) Pillar Edict of Ashoka is associated with which of the following aspects of Buddhism?",
+      "option_a": "The birthplace of Gautama Buddha",
+      "option_b": "The enlargement of the stupa of the past Buddha Konakamana",
+      "option_c": "The site of the Third Buddhist Council",
+      "option_d": "The place where Buddha gave his first sermon",
+      "correct": "B",
+      "explanation": "Correct option: B. The Nigali Sagar Pillar Edict in Nepal records that Ashoka visited the site and doubled the size of the stupa of Konakamana Buddha, a legendary past Buddha, showing early Buddhist traditions."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक का निगाली सागर (या निगलीवा) स्तंभ शिलालेख बौद्ध धर्म के निम्नलिखित में से किस पहलू से संबंधित है?",
+      "option_a": "गौतम बुद्ध का जन्मस्थान",
+      "option_b": "पूर्व बुद्ध कनकमुनि (कोनागमन) के स्तूप का विस्तार",
+      "option_c": "तृतीय बौद्ध संगीति का स्थल",
+      "option_d": "वह स्थान जहाँ बुद्ध ने अपना पहला उपदेश दिया था",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. नेपाल में स्थित निगाली सागर स्तंभ शिलालेख दर्शाता है कि अशोक ने उस स्थल का दौरा किया और पूर्व बुद्ध कनकमुनि के स्तूप के आकार को दोगुना कर दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Ashokan Pillar Inscriptions is also known as the 'Queen's Edict' and mentions the charities of Ashoka's second queen Karuvaki?",
+      "option_a": "Meerut Pillar Edict",
+      "option_b": "Topra Pillar Edict",
+      "option_c": "Allahabad-Kosam Pillar Edict",
+      "option_d": "Sanchi Pillar Edict",
+      "correct": "C",
+      "explanation": "Correct option: C. The Allahabad (ancient Kosam) Pillar Inscription contains the Queen's Edict, which records the donations made by Ashoka's second queen Karuvaki, mother of prince Tivara."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस अशोक स्तंभ शिलालेख को 'रानी का अभिलेख' भी कहा जाता है और इसमें अशोक की दूसरी रानी कारुवाकी के दान-पुण्य का उल्लेख है?",
+      "option_a": "मेरठ स्तंभ शिलालेख",
+      "option_b": "टोपड़ा स्तंभ शिलालेख",
+      "option_c": "इलाहाबाद-कोसम स्तंभ शिलालेख",
+      "option_d": "सांची स्तंभ शिलालेख",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. इलाहाबाद (प्राचीन कोसम) स्तंभ शिलालेख में रानी का अभिलेख शामिल है, जिसमें राजकुमार तीवर की माता और अशोक की दूसरी रानी कारुवाकी द्वारा किए गए दानों का विवरण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Major Rock Edict III, which three administrative officers are directed to go on tours of inspection (Anusamyana) every five years to spread Dhamma?",
+      "option_a": "Rajukas, Yuktas, and Pradesikas",
+      "option_b": "Amatyas, Mahamattas, and Senapatis",
+      "option_c": "Sannidhata, Samaharta, and Akshapatalika",
+      "option_d": "Dhamma Mahamattas, Antamahmaattas, and Vachabhumi-kas",
+      "correct": "A",
+      "explanation": "Correct option: A. Major Rock Edict III mentions that the Rajukas (rural administrators), Yuktas (secretaries/accountants), and Pradesikas (district heads) must undertake tours of inspection every five years."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मुख्य शिलालेख III में, किन तीन प्रशासनिक अधिकारियों को धम्म के प्रचार के लिए हर पांच साल में निरीक्षण दौरे (अनुसयान) पर जाने का निर्देश दिया गया है?",
+      "option_a": "राजुक, युक्त और प्रादेशिक",
+      "option_b": "अमात्य, महामात्त और सेनापति",
+      "option_c": "सन्निधाता, समाहर्ता और अक्षपटलिक",
+      "option_d": "धम्म महामात्त, अंतमहामात्त और वचभूमिका",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मुख्य शिलालेख III में उल्लेख है कि राजुक (ग्रामीण प्रशासक), युक्त (सचिव/लेखाकार) और प्रादेशिक (जिला प्रमुख) को हर पांच साल में निरीक्षण दौरों पर जाना चाहिए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Major Rock Edict of Ashoka criticizes useless rituals and ceremonies performed during illnesses, weddings, and births, and instead advocates for the performance of 'Dhammamangala' (true ceremony)?",
+      "option_a": "Major Rock Edict VI",
+      "option_b": "Major Rock Edict VIII",
+      "option_c": "Major Rock Edict IX",
+      "option_d": "Major Rock Edict XI",
+      "correct": "C",
+      "explanation": "Correct option: C. Major Rock Edict IX contrasts ordinary ceremonies (which bear little fruit) with the ceremonies of Dhamma (Dhammamangala), which include proper courtesy to slaves, respect for teachers, and non-injury to animals."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक का कौन सा मुख्य शिलालेख बीमारी, विवाह और जन्म के समय किए जाने वाले निरर्थक कर्मकांडों की आलोचना करता है और इसके बजाय 'धम्ममंगल' (सच्चे अनुष्ठान) की वकालत करता है?",
+      "option_a": "मुख्य शिलालेख VI",
+      "option_b": "मुख्य शिलालेख VIII",
+      "option_c": "मुख्य शिलालेख IX",
+      "option_d": "मुख्य शिलालेख XI",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. मुख्य शिलालेख IX साधारण कर्मकांडों (जो अल्प फल देते हैं) की तुलना धम्ममंगल से करता है, जिसमें दासों के प्रति उचित व्यवहार, शिक्षकों का सम्मान और जीवों के प्रति अहिंसा शामिल है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Mauryan inscription was transported by Delhi Sultan Feroz Shah Tughlaq from Topra (Haryana) and Meerut (Uttar Pradesh) to Delhi?",
+      "option_a": "Two Major Rock Edicts of Ashoka",
+      "option_b": "Two Pillar Edicts of Ashoka",
+      "option_c": "Two Minor Rock Edicts of Ashoka",
+      "option_d": "Two Cave Inscriptions of Ashoka",
+      "correct": "B",
+      "explanation": "Correct option: B. Sultan Feroz Shah Tughlaq brought two Ashokan Pillar Edicts (one from Topra in Haryana and another from Meerut in Uttar Pradesh) to Delhi in the 14th century."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. दिल्ली सल्तनत के सुल्तान फिरोज शाह तुगलक द्वारा टोपड़ा (हरियाणा) और मेरठ (उत्तर प्रदेश) से किस मौर्यकालीन अभिलेख को दिल्ली लाया गया था?",
+      "option_a": "अशोक के दो मुख्य शिलालेख",
+      "option_b": "अशोक के दो स्तंभ अभिलेख",
+      "option_c": "अशोक के दो लघु शिलालेख",
+      "option_d": "अशोक के दो गुफा अभिलेख",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सुल्तान फिरोज शाह तुगलक ने 14वीं शताब्दी में अशोक के दो स्तंभ अभिलेखों (एक टोपड़ा, हरियाणा से और दूसरा मेरठ, उत्तर प्रदेश से) को लाकर दिल्ली में स्थापित करवाया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Major Rock Edict of Ashoka mentions his pilgrimage to Bodh Gaya (Sambodhi), marking the start of his 'Dhamma Yatras' (pious tours) in place of hunting tours?",
+      "option_a": "Major Rock Edict VI",
+      "option_b": "Major Rock Edict VIII",
+      "option_c": "Major Rock Edict X",
+      "option_d": "Major Rock Edict XII",
+      "correct": "B",
+      "explanation": "Correct option: B. Major Rock Edict VIII records that ten years after his coronation, Ashoka visited Sambodhi (Bodh Gaya), replacing the royal hunting excursions (Viharayatra) with Dhamma tours (Dhammayatra)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के किस मुख्य शिलालेख में उसकी बोधगया (संबोधि) की तीर्थयात्रा का उल्लेख है, जो शिकार यात्राओं के स्थान पर उसकी 'धम्म यात्राओं' की शुरुआत को दर्शाता है?",
+      "option_a": "मुख्य शिलालेख VI",
+      "option_b": "मुख्य शिलालेख VIII",
+      "option_c": "मुख्य शिलालेख X",
+      "option_d": "मुख्य शिलालेख XII",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. मुख्य शिलालेख VIII में उल्लेख है कि अपने राज्याभिषेक के दस वर्ष बाद अशोक ने संबोधि (बोधगया) की यात्रा की, और शाही शिकार यात्राओं (विहारयात्रा) के स्थान पर धम्म यात्राओं (धम्मयात्रा) की शुरुआत की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Bhabru Rock Edict is considered the most critical archaeological proof of Emperor Ashoka's conversion to Buddhism.\nReason (R): In the Bhabru Edict, Ashoka explicitly states his reverence and faith in the Buddhist Triratna: Buddha, Dhamma, and Sangha.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true as Bhabru is unique in documenting Ashoka's personal Buddhist faith, which is otherwise represented as a generalized ethical system (Dhamma) in other Major Rock Edicts.\nReason Analysis: Reason (R) is true and directly explains (A) because stating faith in the Triratna is the canonical way of declaring oneself a Buddhist follower, thereby acting as the direct proof of his conversion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): भाब्रू शिलालेख को सम्राट अशोक के बौद्ध धर्म में रूपांतरण का सबसे महत्वपूर्ण पुरातात्विक प्रमाण माना जाता है।\nकारण (R): भाब्रू शिलालेख में, अशोक स्पष्ट रूप से बौद्ध त्रिरत्न: बुद्ध, धम्म और संघ के प्रति अपनी श्रद्धा और विश्वास व्यक्त करते हैं।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि भाब्रू शिलालेख अशोक के व्यक्तिगत बौद्ध विश्वास को दर्ज करने में अद्वितीय है, जबकि अन्य मुख्य शिलालेखों में धम्म को एक सामान्य नैतिक व्यवस्था के रूप में प्रस्तुत किया गया है।\nकारण विश्लेषण: कारण (R) सत्य है और सीधे (A) की व्याख्या करता है क्योंकि त्रिरत्न में विश्वास व्यक्त करना खुद को बौद्ध घोषित करने का प्रामाणिक तरीका है, जो उसके रूपांतरण का सीधा प्रमाण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Rummindei Pillar Inscription is classified as an inscription of prime economic significance rather than just a religious one.\nReason (R): Ashoka reduced the agricultural land tax (Bhaga) of Lumbini village to one-eighth and abolished the religious tribute (Bali) during his pilgrimage.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because it is the only Ashokan inscription that explicitly mentions the tax structure and economic concessions of a specific region.\nReason Analysis: Reason (R) is true and directly explains (A) since the reduction of 'Bhaga' to 1/8th and the abolition of 'Bali' are fiscal/economic measures, making the pillar of economic importance."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): रुम्मिन्देई स्तंभ शिलालेख को केवल एक धार्मिक शिलालेख के बजाय प्रमुख आर्थिक महत्व के शिलालेख के रूप में वर्गीकृत किया गया है।\nकारण (R): अशोक ने अपनी तीर्थयात्रा के दौरान लुंबिनी गाँव के कृषि भूमि कर (भाग) को घटाकर आठवाँ हिस्सा (1/8) कर दिया और धार्मिक कर (बलि) को समाप्त कर दिया।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि यह एकमात्र अशोक शिलालेख है जो स्पष्ट रूप से किसी विशिष्ट क्षेत्र की कर संरचना और आर्थिक रियायतों का उल्लेख करता है।\nकारण विश्लेषण: कारण (R) सत्य है और सीधे (A) की व्याख्या करता है क्योंकि 'भाग' को 1/8 करना और 'बलि' को समाप्त करना वित्तीय/आर्थिक उपाय हैं, जिससे स्तंभ आर्थिक महत्व का बन जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Ashoka's Major Rock Edicts were mostly installed in frontier regions or along trade routes of the Mauryan Empire.\nReason (R): Ashoka wished to communicate his ethical policies and administrative code of conduct directly to a wide public audience.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true as Major Rock Edicts are situated at places like Shahbazgarhi, Mansehra, Kalsi, Sopara, Erragudi, Dhauli, and Jaugada, which were either trade junctions or frontier posts.\nReason Analysis: Reason (R) is true and explains the choice of these locations, as erecting edicts on highly frequented routes and border regions maximized public visibility."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): अशोक के मुख्य शिलालेख ज्यादातर सीमावर्ती क्षेत्रों में या मौर्य साम्राज्य के व्यापारिक मार्गों पर स्थापित किए गए थे।\nकारण (R): अशोक अपनी नैतिक नीतियों और प्रशासनिक आचार संहिता को सीधे व्यापक जनता तक पहुँचाना चाहते थे।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि मुख्य शिलालेख शाहबाजगढ़ी, मनसेहरा, कालसी, सोपारा, येरागुडी, धौली और जौगढ़ जैसे स्थानों पर स्थित हैं, जो या तो व्यापारिक चौराहे थे या सीमावर्ती चौकियां थीं।\nकारण विश्लेषण: कारण (R) सत्य है और इन स्थानों के चयन की व्याख्या करता है, क्योंकि अत्यधिक आवागमन वाले मार्गों और सीमावर्ती क्षेत्रों में शिलालेख स्थापित करने से जनता के बीच इनकी दृश्यता अधिकतम होती थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Bhabru Edict was shifted from Bairat (Jaipur) to the Asiatic Society museum in Calcutta by Captain Burt in 1840.\nReason (R): In 1837, James Prinsep had deciphered the Kharosthi script of Ashokan inscriptions, making the Asiatic Society eager to acquire the slab.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Assertion (A) is true. Captain Burt discovered the Bhabru Edict in 1837 and it was moved to Calcutta in 1840 for preservation.\nReason Analysis: Reason (R) is false because James Prinsep deciphered the Brahmi script (not Kharosthi) in 1837, and the general decipherment of Brahmi, not Kharosthi, was the major breakthrough for Indian epigraphy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): भाब्रू शिलालेख को 1840 में कैप्टन बर्ट द्वारा बैराठ (जयपुर) से कलकत्ता में एशियाटिक सोसाइटी संग्रहालय में स्थानांतरित कर दिया गया था।\nकारण (R): 1837 में, जेम्स प्रिंसेप ने अशोक के शिलालेखों की खरोष्ठी लिपि को पढ़ा था, जिससे एशियाटिक सोसाइटी इस शिलाखंड को प्राप्त करने के लिए उत्सुक हो गई थी।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है। कैप्टन बर्ट ने 1837 में भाब्रू शिलालेख की खोज की और इसे 1840 में संरक्षण के लिए कलकत्ता स्थानांतरित कर दिया गया था।\nकारण विश्लेषण: कारण (R) असत्य है क्योंकि जेम्स प्रिंसेप ने 1837 में ब्राह्मी लिपि (न कि खरोष्ठी लिपि) को पढ़ा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The bilingual Greek-Aramaic inscriptions were set up in Kandahar by the Mauryan state.\nReason (R): Ashoka wanted his Dhamma instructions to be understood by the Greek and Aramaic-speaking populations of the Northwestern frontier.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true as bilingual inscriptions (like the Kandahar rock inscription) have been discovered in modern Afghanistan.\nReason Analysis: Reason (R) is true and explains (A), since using the local languages (Greek and Aramaic) ensured the message of Dhamma was comprehensible to the non-Indo-Aryan speaking populations of the northwest frontier."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): मौर्य राज्य द्वारा कंधार में द्विभाषी यूनानी-अरामी शिलालेख स्थापित किए गए थे।\nकारण (R): अशोक चाहते थे कि उनके धम्म के निर्देशों को उत्तर-पश्चिमी सीमा की यूनानी और अरामी भाषी आबादी आसानी से समझ सके।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि आधुनिक अफगानिस्तान में द्विभाषी शिलालेख (जैसे कंधार शिलालेख) खोजे गए हैं।\nकारण विश्लेषण: कारण (R) सत्य है और (A) की व्याख्या करता है, क्योंकि स्थानीय भाषाओं (यूनानी और अरामी) का उपयोग करने से यह सुनिश्चित होता था कि धम्म का संदेश उत्तर-पश्चिमी सीमांत की गैर-इंडो-आर्यन भाषी आबादी को समझ में आए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): In Major Rock Edict XIII, Ashoka expresses intense grief and remorse over the casualties of the Kalinga War.\nReason (R): Ashoka immediately abandoned his imperial policy of expanding the Mauryan Empire's borders through military conquests.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true as Major Rock Edict XIII explicitly records Ashoka's deep sorrow at the death, capture, and suffering caused by the Kalinga campaign.\nReason Analysis: Reason (R) is true and explains the assertion, as his remorse directly motivated him to replace armed conquest (Digvijaya) with cultural/Dhamma conquest (Dhammavijaya) throughout the rest of his reign."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): मुख्य शिलालेख XIII में, अशोक कलिंग युद्ध में हताहतों की संख्या पर गहरा दुख और पश्चाताप व्यक्त करते हैं।\nकारण (R): अशोक ने सैन्य विजयों के माध्यम से मौर्य साम्राज्य की सीमाओं के विस्तार की अपनी साम्राज्यवादी नीति को तुरंत त्याग दिया।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि मुख्य शिलालेख XIII स्पष्ट रूप से कलिंग अभियान के कारण हुई मौतों, बंधक बनाए जाने और पीड़ा पर अशोक के गहरे दुख को दर्ज करता है।\nकारण विश्लेषण: कारण (R) सत्य है और अभिकथन की व्याख्या करता है, क्योंकि उनके पश्चाताप ने उन्हें अपने शासनकाल के शेष भाग में सशस्त्र विजय (दिग्विजय) को सांस्कृतिक/धम्म विजय (धम्मविजय) से बदलने के लिए प्रेरित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Bhabru Edict contains Ashoka's recommendation of seven Buddhist texts for the regular study of Buddhist followers.\nReason (R): Ashoka was concerned about the potential disintegration and schism within the Buddhist Sangha after his demise.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: Assertion (A) is true because the Bhabru Edict explicitly lists seven scriptures (like Vinayasamukase, Aliyavasani) for the study of monks and laypersons.\nReason Analysis: Reason (R) is true as Ashoka was indeed concerned about the unity of the Sangha (as seen in the Schism Edicts of Sarnath/Sanchi), but it is NOT the correct explanation for why he recommended these seven specific texts in Bhabru (which were meant to instruct followers on correct conduct and the true teachings, rather than just preventing schism)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): भाब्रू शिलालेख में बौद्ध अनुयायियों के नियमित अध्ययन के लिए अशोक द्वारा सात बौद्ध ग्रंथों की सिफारिश शामिल है।\nकारण (R): अशोक अपने निधन के बाद बौद्ध संघ के भीतर संभावित विघटन और विभाजन को लेकर चिंतित थे।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि भाब्रू शिलालेख में भिक्षुओं और गृहस्थों के अध्ययन के लिए स्पष्ट रूप से सात ग्रंथों की सूची दी गई है।\nकारण विश्लेषण: कारण (R) सत्य है क्योंकि अशोक वास्तव में संघ की एकता के बारे में चिंतित थे (जैसा कि सारनाथ/सांची के संघभेद शिलालेखों में देखा गया है), लेकिन यह इस बात की सही व्याख्या नहीं है कि उन्होंने भाब्रू में इन सात ग्रंथों की सिफारिश क्यों की (ये ग्रंथ अनुयायियों को सही आचरण और मूल शिक्षाओं के बारे में शिक्षित करने के लिए थे)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Greek version of Ashoka's Major Rock Edicts has been found at Kandahar.\nReason (R): The Mauryan Empire did not include the region of Arachosia, making it a foreign territory where edicts had to be in Greek.\n\nSelect the correct answer using the codes given below:",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Assertion (A) is true as Greek inscriptions of Ashoka have been found at Kandahar.\nReason Analysis: Reason (R) is false because Arachosia (Kandahar region) was an integral part of the Mauryan Empire, ceded to Chandragupta Maurya by Seleucus I Nicator, which is why Ashoka was able to erect administrative edicts there."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): अशोक के मुख्य शिलालेखों का यूनानी संस्करण कंधार में पाया गया है।\nकारण (R): मौर्य साम्राज्य में अराकोशिया क्षेत्र शामिल नहीं था, जिससे यह एक विदेशी क्षेत्र बन गया जहां शिलालेखों को यूनानी भाषा में होना आवश्यक था।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सत्य है, लेकिन R असत्य है",
+      "option_d": "A असत्य है, लेकिन R सत्य है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि कंधार में अशोक के यूनानी शिलालेख मिले हैं।\nकारण विश्लेषण: कारण (R) असत्य है क्योंकि अराकोशिया (कंधार क्षेत्र) मौर्य साम्राज्य का एक अभिन्न अंग था, जिसे सेल्यूकस निकेटर ने चंद्रगुप्त मौर्य को सौंपा था, यही कारण है कि अशोक वहाँ अपने प्रशासनिक शिलालेख स्थापित करने में सक्षम थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ashokan Rock Edict Site) with List-II (Modern State Location) and select the correct answer:\nList-I:\na) Kalsi\nb) Sopara\nc) Dhauli\nd) Jaugada\n\nList-II:\n1) Maharashtra\n2) Odisha (Ganjam District)\n3) Uttarakhand\n4) Odisha (Puri District)",
+      "option_a": "a-3, b-1, c-4, d-2",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-2, b-1, c-3, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Kalsi (a) matches Uttarakhand [3]. Sopara (b) matches Maharashtra [1]. Dhauli (c) matches Odisha (Puri District) [4]. Jaugada (d) matches Odisha (Ganjam District) [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अशोक शिलालेख स्थल) को सूची-II (आधुनिक राज्य/स्थान) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) कालसी\nb) सोपारा\nc) धौली\nd) जौगढ़\n\nसूची-II:\n1) महाराष्ट्र\n2) ओडिशा (गंजम जिला)\n3) उत्तराखंड\n4) ओडिशा (पुरी जिला)",
+      "option_a": "a-3, b-1, c-4, d-2",
+      "option_b": "a-1, b-3, c-2, d-4",
+      "option_c": "a-3, b-4, c-1, d-2",
+      "option_d": "a-2, b-1, c-3, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. कालसी (a) का सुमेल उत्तराखंड [3] से है। सोपारा (b) का सुमेल महाराष्ट्र [1] से है। धौली (c) का सुमेल ओडिशा (पुरी जिला) [4] से है। जौगढ़ (d) का सुमेल ओडिशा (गंजम जिला) [2] से है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Minor Rock Edict) with List-II (Specific Geographical Location) and select the correct answer:\nList-I:\na) Bhabru Inscription\nb) Maski Inscription\nc) Gujarra Inscription\nd) Sasaram Inscription\n\nList-II:\n1) Raichur, Karnataka\n2) Datia, Madhya Pradesh\n3) Rohtas, Bihar\n4) Bairat, Rajasthan",
+      "option_a": "a-4, b-1, c-2, d-3",
+      "option_b": "a-1, b-4, c-3, d-2",
+      "option_c": "a-4, b-2, c-1, d-3",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Bhabru Inscription (a) is located in Bairat, Rajasthan [4]. Maski (b) is in Raichur, Karnataka [1]. Gujarra (c) is in Datia, Madhya Pradesh [2]. Sasaram (d) is in Rohtas, Bihar [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (लघु शिलालेख) को सूची-II (विशिष्ट भौगोलिक स्थान) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) भाब्रू शिलालेख\nb) मास्की शिलालेख\nc) गुर्जरा शिलालेख\nd) सासाराम शिलालेख\n\nसूची-II:\n1) रायचूर, कर्नाटक\n2) दतिया, मध्य प्रदेश\n3) रोहतास, बिहार\n4) बैराठ, राजस्थान",
+      "option_a": "a-4, b-1, c-2, d-3",
+      "option_b": "a-1, b-4, c-3, d-2",
+      "option_c": "a-4, b-2, c-1, d-3",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. भाब्रू शिलालेख (a) बैराठ, राजस्थान [4] में स्थित है। मास्की (b) रायचूर, कर्नाटक [1] में है। गुर्जरा (c) दतिया, मध्य प्रदेश [2] में है। सासाराम (d) रोहतास, बिहार [3] में है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Pillar Edict/Capital) with List-II (Key Sculptural Feature) and select the correct answer:\nList-I:\na) Sarnath Pillar\nb) Rampurwa Pillar\nc) Sankisa Pillar\nd) Lauriya Nandangarh\n\nList-II:\n1) Single Elephant capital\n2) Single Lion capital with tall slender pillar\n3) Four Lions seated back-to-back\n4) Single Bull capital",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-4, b-3, c-2, d-1",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-2, b-4, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Sarnath (a) has four back-to-back lions [3]. Rampurwa (b) features a bull capital [4]. Sankisa (c) features an elephant capital [1]. Lauriya Nandangarh (d) features a single lion on a slender shaft [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (स्तंभ शिलालेख/शीर्ष) को सूची-II (मुख्य मूर्तिकला विशेषता) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) सारनाथ स्तंभ\nb) रामपुरवा स्तंभ\nc) संकिसा स्तंभ\nd) लौरिया नंदनगढ़\n\nसूची-II:\n1) एकल हाथी शीर्ष\n2) ऊंचे पतले स्तंभ पर एकल शेर शीर्ष\n3) पीठ-से-पीठ सटाकर बैठे चार शेर\n4) एकल वृषभ (सांड) शीर्ष",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-4, b-3, c-2, d-1",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-2, b-4, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. सारनाथ (a) में पीठ-से-पीठ सटाकर बैठे चार शेर हैं [3]। रामपुरवा (b) में वृषभ शीर्ष है [4]। संकिसा (c) में हाथी शीर्ष है [1]। लौरिया नंदनगढ़ (d) में पतले स्तंभ पर एकल सिंह शीर्ष है [2]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Major Rock Edict) with List-II (Core Message/Content) and select the correct answer:\nList-I:\na) Major Rock Edict I\nb) Major Rock Edict III\nc) Major Rock Edict XII\nd) Major Rock Edict XIII\n\nList-II:\n1) Five-yearly tours (Anusamyana) by administrative officials\n2) Religious tolerance and growth in the essence of all religions\n3) Ban on animal sacrifices and festive social gatherings\n4) Remorse over Kalinga War and victory of Dhamma",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-1, b-3, c-4, d-2",
+      "option_c": "a-3, b-2, c-1, d-4",
+      "option_d": "a-2, b-1, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Major Rock Edict I (a) bans animal sacrifice [3]. MRE III (b) mandates administrative tours [1]. MRE XII (c) advocates religious tolerance [2]. MRE XIII (d) describes Kalinga remorse and Dhamma victory [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (मुख्य शिलालेख) को सूची-II (मूल संदेश/सामग्री) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) मुख्य शिलालेख I\nb) मुख्य शिलालेख III\nc) मुख्य शिलालेख XII\nd) मुख्य शिलालेख XIII\n\nसूची-II:\n1) प्रशासनिक अधिकारियों द्वारा पांच-वर्षीय दौरे (अनुसयान)\n2) धार्मिक सहिष्णुता और सभी धर्मों के सार की वृद्धि\n3) पशु बलि और उत्सव सामाजिक सभाओं पर प्रतिबंध\n4) कलिंग युद्ध पर पश्चाताप और धम्म की विजय",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-1, b-3, c-4, d-2",
+      "option_c": "a-3, b-2, c-1, d-4",
+      "option_d": "a-2, b-1, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मुख्य शिलालेख I (a) पशु बलि पर प्रतिबंध लगाता है [3]। मुख्य शिलालेख III (b) प्रशासनिक दौरों का निर्देश देता है [1]। मुख्य शिलालेख XII (c) धार्मिक सहिष्णुता की वकालत करता है [2]। मुख्य शिलालेख XIII (d) कलिंग पश्चाताप और धम्म विजय का वर्णन करता है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ashokan Inscription/Pillar) with List-II (Discoverer/Decipherer) and select the correct answer:\nList-I:\na) Bhabru Rock Edict\nb) Delhi-Topra Pillar (in Delhi)\nc) Delhi-Meerut Pillar (discovery)\nd) Brahmi Script Decipherment\n\nList-II:\n1) Padre Tieffenthaler (1750)\n2) James Prinsep (1837)\n3) Captain Burt (1837)\n4) Captain Polier (1785)",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-2, b-3, c-4, d-1",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Bhabru Edict (a) was discovered by Captain Burt [3]. Delhi-Topra Pillar (b) was brought to modern attention by Captain Polier [4]. Delhi-Meerut Pillar (c) was discovered by Padre Tieffenthaler [1]. Brahmi Script (d) was deciphered by James Prinsep [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अशोक शिलालेख/स्तंभ) को सूची-II (खोजकर्ता/पठनकर्ता) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) भाब्रू शिलालेख\nb) दिल्ली-टोपड़ा स्तंभ (दिल्ली में)\nc) दिल्ली-मेरठ स्तंभ (खोज)\nd) ब्राह्मी लिपि का पठन\n\nसूची-II:\n1) पाद्रे टिफेंथेलर (1750)\n2) जेम्स प्रिंसेप (1837)\n3) कैप्टन बर्ट (1837)\n4) कैप्टन पोलियर (1785)",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-2, b-3, c-4, d-1",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-4, b-3, c-2, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. भाब्रू शिलालेख (a) की खोज कैप्टन बर्ट द्वारा की गई थी [3]। दिल्ली-टोपड़ा स्तंभ (b) को कैप्टन पोलियर द्वारा प्रकाश में लाया गया था [4]। दिल्ली-मेरठ स्तंभ (c) की खोज पाद्रे टिफेंथेलर द्वारा की गई थी [1]। ब्राह्मी लिपि (d) को जेम्स प्रिंसेप ने पढ़ा था [2]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Script Used) with List-II (Region of Ashokan Inscription) and select the correct answer:\nList-I:\na) Brahmi\nb) Kharosthi\nc) Aramaic\nd) Greek\n\nList-II:\n1) Taxila and Laghman (Kabul valley)\n2) Kandahar (Shar-i-Kuna bilingual)\n3) Shahbazgarhi and Mansehra (North-West Frontier)\n4) Gangetic Plains and Peninsular India",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-3, b-4, c-2, d-1",
+      "option_c": "a-4, b-1, c-3, d-2",
+      "option_d": "a-1, b-3, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Brahmi script (a) was used in Gangetic Plains/Peninsula [4]. Kharosthi (b) was used in Shahbazgarhi/Mansehra [3]. Aramaic (c) was used in Taxila/Laghman [1]. Greek (d) was used in Kandahar [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्रयुक्त लिपि) को सूची-II (अशोक शिलालेख का क्षेत्र) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) ब्राह्मी\nb) खरोष्ठी\nc) अरामी\nd) यूनानी\n\nसूची-II:\n1) तक्षशिला और लगमान (काबुल घाटी)\n2) कंधार (शार-ए-कुना द्विभाषी)\n3) शाहबाजगढ़ी और मनसेहरा (उत्तर-पश्चिमी सीमांत)\n4) गंगा का मैदान और प्रायद्वीपीय भारत",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-3, b-4, c-2, d-1",
+      "option_c": "a-4, b-1, c-3, d-2",
+      "option_d": "a-1, b-3, c-4, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. ब्राह्मी लिपि (a) का उपयोग गंगा के मैदानों/प्रायद्वीप में किया गया था [4]। खरोष्ठी (b) का उपयोग शाहबाजगढ़ी/मनसेहरा में किया गया था [3]। अरामी (c) का उपयोग तक्षशिला/लगमान में हुआ [1]। यूनानी (d) का उपयोग कंधार में हुआ [2]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Officer Mentioned in Edicts) with List-II (Primary Function/Duty) and select the correct answer:\nList-I:\na) Rajukas\nb) Yuktas\nc) Pradesikas\nd) Dhamma Mahamattas\n\nList-II:\n1) District-level administrators responsible for collection and tours\n2) Special cadres created for propagating moral code and sectarian harmony\n3) Rural administrators with judicial and land-surveying powers\n4) Subordinate secretarial staff managing accounts and registers",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-4, b-3, c-2, d-1",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-1, b-4, c-3, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Rajukas (a) were rural administrators with judicial powers [3]. Yuktas (b) were secretarial staff managing accounts [4]. Pradesikas (c) were district heads on tours [1]. Dhamma Mahamattas (d) propagated moral codes [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अभिलेखों में उल्लेखित अधिकारी) को सूची-II (प्राथमिक कार्य/कर्तव्य) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) राजुक\nb) युक्त\nc) प्रादेशिक\nd) धम्म महामात्त\n\nसूची-II:\n1) राजस्व संग्रह और दौरों के लिए जिम्मेदार जिला स्तरीय प्रशासक\n2) नैतिक संहिता और सांप्रदायिक सद्भाव के प्रचार के लिए बनाए गए विशेष कैडर\n3) न्यायिक और भूमि-सर्वेक्षण शक्तियों वाले ग्रामीण प्रशासक\n4) खातों और रजिस्टरों का प्रबंधन करने वाले अधीनस्थ सचिवीय कर्मचारी",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-4, b-3, c-2, d-1",
+      "option_c": "a-3, b-1, c-4, d-2",
+      "option_d": "a-1, b-4, c-3, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. राजुक (a) न्यायिक शक्तियों वाले ग्रामीण प्रशासक थे [3]। युक्त (b) खातों का प्रबंधन करने वाले सचिवीय कर्मचारी थे [4]। प्रादेशिक (c) दौरों पर रहने वाले जिला प्रमुख थे [1]। धम्म महामात्त (d) नैतिक संहिता का प्रचार करते थे [2]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Buddhist Text Recommended in Bhabru Edict) with List-II (Associated Core Theme) and select the correct answer:\nList-I:\na) Munigatha\nb) Upatisapasina\nc) Aliyavasani\nd) Anagatabhayani\n\nList-II:\n1) Questions of Upatissa (Sariputta) regarding correct practice\n2) The fears of the future that might threaten the Sangha\n3) Traditional virtues and noble lineages of a monk\n4) The sage's song depicting monastic ideal life",
+      "option_a": "a-4, b-1, c-3, d-2",
+      "option_b": "a-1, b-4, c-2, d-3",
+      "option_c": "a-4, b-3, c-1, d-2",
+      "option_d": "a-2, b-1, c-4, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Munigatha (a) represents the sage's song [4]. Upatisapasina (b) represents the questions of Upatissa (Sariputta) [1]. Aliyavasani (c) represents traditional noble lineages [3]. Anagatabhayani (d) represents future dangers/fears [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (भाब्रू शिलालेख में अनुशंसित बौद्ध ग्रंथ) को सूची-II (संबद्ध मूल विषय) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) मुनिगाथा\nb) उपतिसपसीन\nc) अलियवसानी\nd) अनागतभयानी\n\nसूची-II:\n1) सही आचरण के संबंध में उपतिस्स (सारिपुत्र) के प्रश्न\n2) भविष्य के भय जो संघ को संकट में डाल सकते हैं\n3) एक भिक्षु के पारंपरिक गुण और आर्य वंश\n4) भिक्षु जीवन के आदर्श को दर्शाने वाला मुनि का गीत",
+      "option_a": "a-4, b-1, c-3, d-2",
+      "option_b": "a-1, b-4, c-2, d-3",
+      "option_c": "a-4, b-3, c-1, d-2",
+      "option_d": "a-2, b-1, c-4, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मुनिगाथा (a) मुनि के गीत (साधु के आदर्श जीवन) का प्रतिनिधित्व करता है [4]। उपतिसपसीन (b) उपतिस्स (सारिपुत्र) के प्रश्नों का प्रतिनिधित्व करता है [1]। अलियवसानी (c) भिक्षुओं के आर्य वंश/आचरण से संबद्ध है [3]। अनागतभयानी (d) भविष्य के भयों/खतरों से संबद्ध है [2]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Bhabru Rock Edict of Ashoka:\n1. It was discovered by Captain Burt in 1837 at Bijak-ki-Pahari hill in Bairat.\n2. The edict is written in the Kharosthi script and Sanskrit language.\n3. It contains Ashoka's explicit declaration of faith in the Buddha, Dhamma, and Sangha.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because Captain Burt discovered this edict in 1837 on Bijak-ki-Pahari at Bairat.\nStatement 2 is incorrect because the edict is written in Brahmi script and Prakrit language, not Kharosthi or Sanskrit.\nStatement 3 is correct because the inscription contains the historic address by Ashoka declaring his faith in the Buddhist Triratna."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के भाब्रू शिलालेख के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसकी खोज 1837 में कैप्टन बर्ट द्वारा बैराठ की बीजक-की-पहाड़ी पर की गई थी.\n2. यह शिलालेख खरोष्ठी लिपि और संस्कृत भाषा में लिखा गया है.\n3. इसमें अशोक द्वारा बुद्ध, धम्म और संघ में विश्वास की स्पष्ट घोषणा की गई है.\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि कैप्टन बर्ट ने 1837 में बैराठ में बीजक-की-पहाड़ी पर इस शिलालेख की खोज की थी।\nकथन 2 गलत है क्योंकि यह शिलालेख ब्राह्मी लिपि और प्राकृत भाषा में लिखा गया है, न कि खरोष्ठी या संस्कृत में।\nकथन 3 सही है क्योंकि इसमें अशोक द्वारा बौद्ध त्रिरत्न के प्रति अपनी गहरी आस्था प्रकट करने का ऐतिहासिक संदेश अंकित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Major Rock Edict XIII of Ashoka:\n1. It provides a detailed account of the Kalinga war which took place in the 8th year of Ashoka's coronation.\n2. It names five contemporary Greek rulers to whom Ashoka sent Dhamma emissaries.\n3. It is completely absent from the sites of Dhauli and Jaugada in Odisha.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct as the Kalinga campaign occurred around 261 BCE (8th regnal year).\nStatement 2 is correct because it lists Antiochus, Ptolemy, Antigonus, Magas, and Alexander as contemporary Hellenistic rulers.\nStatement 3 is correct because in Odisha (Dhauli and Jaugada), Major Rock Edict XIII is replaced by Separate Rock Edicts I and II to avoid reminding the locals of Kalinga's devastation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के मुख्य शिलालेख XIII के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह कलिंग युद्ध का विस्तृत विवरण प्रदान करता है जो अशोक के राज्याभिषेक के 8वें वर्ष में हुआ था.\n2. यह पांच समकालीन यूनानी शासकों का नाम बताता है जिनके पास अशोक ने धम्म दूत भेजे थे.\n3. यह ओडिशा में धौली और जौगढ़ के स्थलों से पूरी तरह अनुपस्थित है.\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि कलिंग युद्ध अशोक के राज्याभिषेक के 8वें वर्ष में (लगभग 261 ईसा पूर्व) हुआ था।\nकथन 2 सही है क्योंकि इसमें अंतियोकस, टॉलेमी, एंटीगोनस, मगस और अलेक्जेंडर नामक यूनानी शासकों के नाम सूचीबद्ध हैं।\nकथन 3 सही है क्योंकि ओडिशा में धौली और जौगढ़ में कलिंग युद्ध के विनाशकारी विवरण वाले शिलालेख XIII के स्थान पर पृथक कलिंग शिलालेख (I और II) लगाए गए थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the scripts used in Ashokan inscriptions, consider the following statements:\n1. The Kharosthi script was written from right to left, similar to ancient Aramaic.\n2. The Brahmi script, written from left to right, is the ancestor of most modern Indian scripts.\n3. The Kharosthi script was exclusively used for inscriptions located in Southern India.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Kharosthi was written from right to left and was derived from Aramaic influence.\nStatement 2 is correct because Brahmi was written from left to right and serves as the precursor to Devanagari, Bengali, Tamil, etc.\nStatement 3 is incorrect because Kharosthi was used in the northwestern part of the empire (e.g., Shahbazgarhi and Mansehra), not Southern India, where Brahmi was used."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के शिलालेखों में प्रयुक्त लिपियों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. खरोष्ठी लिपि प्राचीन अरामी की तरह ही दाएं से बाएं लिखी जाती थी.\n2. बाएं से दाएं लिखी जाने वाली ब्राह्मी लिपि अधिकांश आधुनिक भारतीय लिपियों की जननी है.\n3. खरोष्ठी लिपि का उपयोग विशेष रूप से दक्षिण भारत में स्थित शिलालेखों के लिए किया गया था.\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि खरोष्ठी लिपि दाएं से बाएं लिखी जाती थी और इस पर अरामी लिपि का प्रभाव था।\nकथन 2 सही है क्योंकि ब्राह्मी लिपि बाएं से दाएं लिखी जाती थी और यह देवनागरी, बंगाली, तमिल आदि लिपियों की पूर्वज है।\nकथन 3 गलत है क्योंकि खरोष्ठी का उपयोग साम्राज्य के उत्तर-पश्चिमी हिस्से (जैसे शाहबाजगढ़ी और मनसेहरा) में किया गया था, न कि दक्षिण भारत में जहां ब्राह्मी का उपयोग किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Minor Rock Edicts (MREs) of Ashoka:\n1. The Maski and Gujarra inscriptions are the only two edicts that explicitly mention the name 'Ashoka' along with 'Devanampriya'.\n2. The Bhabru Edict is addressed directly to the Buddhist Sangha.\n3. The Minor Rock Edicts are generally considered to be older than the Major Rock Edicts.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because the personal name 'Ashoka' is found in four inscriptions: Maski, Gujarra, Nittur, and Udegolam.\nStatement 2 is correct because the Bhabru inscription uniquely addresses the Buddhist Sangha directly to express faith.\nStatement 3 is correct because epigraphers date Minor Rock Edicts to around the 10th-11th regnal year, which is earlier than the Major Rock Edicts (12th year onwards)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के लघु शिलालेखों (MREs) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. मास्की और गुर्जरा शिलालेख केवल दो ऐसे शिलालेख हैं जिनमें 'देवानांपिय' के साथ 'अशोक' नाम का स्पष्ट रूप से उल्लेख है.\n2. भाब्रू शिलालेख सीधे बौद्ध संघ को संबोधित है.\n3. लघु शिलालेखों को आम तौर पर मुख्य शिलालेखों की तुलना में पुराना माना जाता है.\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि शासक का व्यक्तिगत नाम 'अशोक' चार शिलालेखों में पाया जाता है: मास्की, गुर्जरा, निट्टूर और उदेगोलम।\nकथन 2 सही है क्योंकि भाब्रू शिलालेख विशिष्ट रूप से बौद्ध संघ को अपनी श्रद्धा व्यक्त करने के लिए सीधे संबोधित करता है।\nकथन 3 सही है क्योंकि पुरालेखविदों के अनुसार लघु शिलालेखों का समय लगभग 10वें-11वें शासन वर्ष का है, जो मुख्य शिलालेखों (12वें वर्ष के बाद) से पुराना है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Ashokan Pillar Inscriptions:\n1. The Topra and Meerut pillars were shifted to Delhi during the reign of Feroz Shah Tughlaq.\n2. The Rummindei Pillar Inscription is the shortest of all the pillar inscriptions.\n3. The Sarnath Lion Capital features four lions carved back-to-back, which is now the National Emblem of India.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct as Feroz Shah Tughlaq transported Topra and Meerut pillars to Delhi in the 14th century.\nStatement 2 is correct because the Rummindei Pillar inscription consists of only five lines, making it the shortest.\nStatement 3 is correct because the Sarnath Lion Capital, featuring four back-to-back lions, was adopted as India's National Emblem in 1950."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के स्तंभ शिलालेखों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. फिरोज शाह तुगलक के शासनकाल के दौरान टोपड़ा और मेरठ के स्तंभों को दिल्ली स्थानांतरित किया गया था.\n2. रुम्मिन्देई स्तंभ शिलालेख सभी स्तंभ शिलालेखों में सबसे छोटा है.\n3. सारनाथ सिंह शीर्ष में पीठ-से-पीठ सटाकर नकाशी किए गए चार शेर हैं, जो अब भारत का राष्ट्रीय प्रतीक है.\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि फिरोज शाह तुगलक ने 14वीं शताब्दी में टोपड़ा और मेरठ स्तंभों को दिल्ली स्थानांतरित करवाया था।\nकथन 2 सही है क्योंकि रुम्मिन्देई स्तंभ शिलालेख केवल पांच पंक्तियों का है, जो इसे सबसे छोटा स्तंभ अभिलेख बनाता है।\nकथन 3 सही है क्योंकि चार शेरों वाले सारनाथ सिंह शीर्ष को 1950 में भारत के राष्ट्रीय प्रतीक के रूप में अपनाया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the religious policy of Emperor Ashoka:\n1. In Major Rock Edict XII, Ashoka advocates for the growth in the essence (salavriddhi) of all religious sects.\n2. He donated caves in the Barabar Hills to the Ajivika sect, demonstrating non-sectarian state patronage.\n3. He banned all other religious sects in the empire after adopting Buddhism.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as MRE XII urges restraint in speech and mutual respect among different religious sects.\nStatement 2 is correct since he donated caves to Ajivikas despite them being rivals of Buddhists.\nStatement 3 is incorrect because Ashoka never banned other sects; instead, he promoted harmony and appointed Dhamma Mahamattas to look after all sects, including Brahmins and Ajivikas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सम्राट अशोक की धार्मिक नीति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. मुख्य शिलालेख XII में, अशोक सभी धार्मिक संप्रदायों के मूल तत्वों (सारवृद्धि) में वृद्धि की वकालत करते हैं.\n2. उन्होंने आजीविक संप्रदाय को बराबर पहाड़ियों में गुफाएं दान कीं, जो गैर-सांप्रदायिक राज्य संरक्षण को प्रदर्शित करता है.\n3. बौद्ध धर्म अपनाने के बाद उन्होंने साम्राज्य में अन्य सभी धार्मिक संप्रदायों को प्रतिबंधित कर दिया था.\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि मुख्य शिलालेख XII में विभिन्न धार्मिक संप्रदायों के बीच वाणी के संयम और पारस्परिक सम्मान का आग्रह किया गया है।\nकथन 2 सही है क्योंकि उन्होंने बौद्धों के प्रतिद्वंद्वी होने के बावजूद आजीविकों को गुफाएं दान की थीं।\nकथन 3 गलत है क्योंकि अशोक ने कभी अन्य संप्रदायों को प्रतिबंधित नहीं किया; बल्कि उन्होंने सद्भाव को बढ़ावा दिया और ब्राह्मणों व आजीविकों सहित सभी संप्रदायों की देखरेख के लिए धम्म महामात्त नियुक्त किए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the administrative machinery mentioned in Ashokan Edicts, consider the following statements:\n1. The Rajukas were judicial and administrative officers in rural areas who had power over reward and punishment.\n2. The Yuktas were subordinate officials primarily responsible for managing state revenues and writing registers.\n3. The Pradesikas were senior officers who conducted administrative tours of inspection every five years.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct as Pillar Edict IV mentions Rajukas being given independence in judicial administration and awards/punishments.\nStatement 2 is correct because Yuktas handled secretariat and accounting duties.\nStatement 3 is correct because Pradesikas were district-level administrators tasked with inspecting and propagating Dhamma every five years."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के शिलालेखों में उल्लेखित प्रशासनिक व्यवस्था के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. राजुक ग्रामीण क्षेत्रों में न्यायिक और प्रशासनिक अधिकारी थे जिन्हें पुरस्कार और दंड देने का अधिकार था.\n2. युक्त अधीनस्थ अधिकारी थे जो मुख्य रूप से राज्य के राजस्व के प्रबंधन और रजिस्टर लिखने के लिए जिम्मेदार थे.\n3. प्रादेशिक वरिष्ठ अधिकारी थे जो हर पांच साल में प्रशासनिक निरीक्षण दौरे करते थे.\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि चतुर्थ स्तंभ शिलालेख में उल्लेख है कि राजुकों को न्यायिक प्रशासन और दंड/पुरस्कार में स्वतंत्रता दी गई थी।\nकथन 2 सही है क्योंकि युक्त सचिवीय और लेखांकन कार्यों को संभालते थे।\nकथन 3 सही है क्योंकि प्रादेशिक जिला स्तर के अधिकारी थे जिन्हें प्रत्येक पांच वर्ष में निरीक्षण दौरे करने का कार्य सौंपा गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the geographical context of Bhabru Inscription and the Bairat site:\n1. Bairat (ancient Viratnagar) was the capital of the Matsya Janapada in ancient times.\n2. The Bhabru Edict was discovered on the hill of Bijak-ki-Pahari, which is also a major site for ancient Buddhist monasteries.\n3. The edict contains instructions addressed specifically to the citizens of Magadha, not the monastic order.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Bairat (Viratnagar) was historically the capital of Matsya Janapada.\nStatement 2 is correct because Bijak-ki-Pahari contains the ruins of a circular Buddhist temple (Chaitya) and a monastery along with the Edict.\nStatement 3 is incorrect because the Bhabru Edict is specifically addressed to the Priests/Buddhist Sangha ('Priyadasi raja Magadhe samgham abhivadetnam...')."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भाब्रू शिलालेख और बैराठ स्थल के भौगोलिक संदर्भ के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. प्राचीन काल में बैराठ (प्राचीन विराटनगर) मत्स्य जनपद की राजधानी था.\n2. भाब्रू शिलालेख की खोज बीजक-की-पहाड़ी पर की गई थी, जो प्राचीन बौद्ध मठों का भी एक प्रमुख स्थल है.\n3. इस शिलालेख में विशेष रूप से मगध के नागरिकों को संबोधित निर्देश शामिल हैं, न कि बौद्ध संघ को.\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि बैराठ (विराटनगर) ऐतिहासिक रूप से मत्स्य जनपद की राजधानी था।\nकथन 2 सही है क्योंकि बीजक-की-पहाड़ी में शिलालेख के साथ-साथ एक गोल बौद्ध मंदिर (चैत्य) और मठ के अवशेष मिले हैं।\nकथन 3 गलत है क्योंकि भाब्रू शिलालेख विशेष रूप से बौद्ध संघ को संबोधित है ('पियदसी राजा मागधे संघं अभिवादेतूं...'), न कि आम नागरिकों को।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements about the concept of 'Dhamma' as recorded in Ashoka's Major and Pillar Edicts:\n1. Dhamma was a highly sectarian theology that mandated daily rituals dedicated to Gautama Buddha.\n2. Pillar Edicts II and VII define the virtues of Dhamma as consisting of minimal sins (apasinave), maximum virtues (bahukayane), compassion (daya), liberality (dane), and truthfulness (sache).\n3. In Major Rock Edict XI, Ashoka defines the 'gift of Dhamma' (Dhammadana) as the highest form of charity.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because Dhamma was not a sectarian religion or ritualistic theology; it was a code of ethical conduct and social responsibility.\nStatement 2 is correct as Pillar Edict II and VII explicitly list these virtues as the core definition of Dhamma.\nStatement 3 is correct because MRE XI highlights that there is no gift comparable to the gift of Dhamma."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अशोक के मुख्य और स्तंभ शिलालेखों में दर्ज 'धम्म' की अवधारणा के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. धम्म एक अत्यधिक सांप्रदायिक धर्मशास्त्र था जिसने गौतम बुद्ध को समर्पित दैनिक अनुष्ठानों को अनिवार्य किया था.\n2. द्वितीय और सातवें स्तंभ शिलालेखों में धम्म के गुणों को अल्प पाप (अपासिनवे), बहु कल्याण (बहुकयाने), दया, दान और सत्यता के रूप में परिभाषित किया गया है.\n3. मुख्य शिलालेख XI में, अशोक ने 'धम्म के उपहार' (धम्मदान) को दान का सबसे उत्तम रूप बताया है.\n\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि धम्म कोई सांप्रदायिक धर्म या कर्मकांडीय धर्मशास्त्र नहीं था; यह नैतिक आचरण और सामाजिक उत्तरदायित्व की एक संहिता थी।\nकथन 2 सही है क्योंकि द्वितीय और सातवें स्तंभ शिलालेखों में धम्म के इन नैतिक गुणों को इसके मूल स्वरूप के रूप में सूचीबद्ध किया गया है।\nकथन 3 सही है क्योंकि मुख्य शिलालेख XI इस बात पर प्रकाश डालता है कि धम्मदान के समान कोई दूसरा दान नहीं है।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the significance of the Bhabru Rock Edict discovered at Bairat. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Bhabru Rock Edict (discovered in 1837 at Bairat, Rajasthan) holds unique significance in Mauryan history:\n- **Proof of Buddhism**: It is the only inscription where Ashoka explicitly declares his faith in the Buddhist Triratna (Buddha, Dhamma, and Sangha), proving his personal conversion.\n- **Literary Canon**: It lists seven Buddhist texts recommended for regular study by monks, nuns, and laypersons, confirming the existence of early Buddhist scriptures.\n- **Preservation**: The original stone slab is currently preserved at the Asiatic Society of Bengal, Kolkata."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बैराठ में खोजे गए भाब्रू शिलालेख के महत्व को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "बैराठ (राजस्थान) में 1837 में खोजे गए भाब्रू शिलालेख का मौर्यकालीन इतिहास में विशिष्ट महत्व है:\n- **बौद्ध धर्म का प्रमाण**: यह एकमात्र शिलालेख है जिसमें अशोक स्पष्ट रूप से बौद्ध त्रिरत्न (बुद्ध, धम्म और संघ) के प्रति अपनी आस्था व्यक्त करते हैं, जो उनके बौद्ध धर्म अपनाने को सिद्ध करता है।\n- **बौद्ध ग्रंथ सूची**: इसमें भिक्षुओं, भिक्षुणियों और उपासकों के नियमित अध्ययन के लिए सात बौद्ध ग्रंथों की सूची दी गई है, जो प्रारंभिक बौद्ध धर्मग्रंथों के अस्तित्व की पुष्टि करती है।\n- **संरक्षण**: मूल शिलाखंड वर्तमान में कोलकाता की एशियाटिक सोसाइटी ऑफ बंगाल में सुरक्षित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the classification, geographic distribution, and administrative utility of Emperor Ashoka's inscriptions. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Emperor Ashoka's inscriptions represent the earliest written historical documents of India. They can be broadly classified and mapped as follows:\n\n### Classification and Distribution of Edicts\n\n| Edict Class | Key Locations | Scripts Used | Primary Purpose |\n| :--- | :--- | :--- | :--- |\n| **Major Rock Edicts (MRE I-XIV)** | Shahbazgarhi, Mansehra, Kalsi, Sopara, Erragudi, Dhauli, Jaugada | Brahmi, Kharosthi | Administrative policies, Kalinga remorse, and Dhamma code |\n| **Minor Rock Edicts (MRE)** | Bhabru (Bairat), Maski, Gujarra, Sasaram, Rupnath | Brahmi, Greek, Aramaic | Personal conversion to Buddhism, and local instructions |\n| **Pillar Edicts (PE I-VII)** | Delhi-Topra, Delhi-Meerut, Sarnath, Rummindei, Sanchi | Brahmi | Advanced Dhamma summaries, schism warnings, and tax reliefs |\n| **Cave Inscriptions** | Barabar Hills (Sudama, Lomas Rishi caves) | Brahmi | Donation of shelters to Ajivikas, showing religious tolerance |\n\n### Administrative and Social Utility\n- **Direct Communication**: Placed along trade routes and border posts, they allowed Ashoka to bypass intermediaries and speak directly to his subjects.\n- **Welfare and Ethics**: The inscriptions announced administrative reforms (tours of Rajukas, appointment of Dhamma Mahamattas) and ethical guidelines promoting social harmony, non-violence, and tolerance."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सम्राट अशोक के शिलालेखों के वर्गीकरण, भौगोलिक वितरण और प्रशासनिक उपयोगिता पर चर्चा कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "सम्राट अशोक के शिलालेख भारत के सबसे पुराने लिखित ऐतिहासिक दस्तावेज हैं। इन्हें व्यापक रूप से निम्नानुसार वर्गीकृत और मानचित्रित किया जा सकता है:\n\n### शिलालेखों का वर्गीकरण और वितरण\n\n| शिलालेख वर्ग | प्रमुख स्थान | प्रयुक्त लिपियाँ | मुख्य उद्देश्य |\n| :--- | :--- | :--- | :--- |\n| **मुख्य शिलालेख (MRE I-XIV)** | शाहबाजगढ़ी, मनसेहरा, कालसी, सोपारा, येरागुडी, धौली, जौगढ़ | ब्राह्मी, खरोष्ठी | प्रशासनिक नीतियां, कलिंग पश्चाताप और धम्म नियमावली |\n| **लघु शिलालेख (MRE)** | भाब्रू (बैराठ), मास्की, गुर्जरा, सासाराम, रूपनाथ | ब्राह्मी, यूनानी, अरामी | बौद्ध धर्म में व्यक्तिगत रूपांतरण और स्थानीय निर्देश |\n| **स्तंभ शिलालेख (PE I-VII)** | दिल्ली-टोपड़ा, दिल्ली-मेरठ, सारनाथ, रुम्मिन्देई, सांची | ब्राह्मी | धम्म का उन्नत विवरण, संघभेद चेतावनी और करों में छूट |\n| **गुफा शिलालेख** | बराबर पहाड़ियाँ (सुदामा, लोमस ऋषि गुफाएँ) | ब्राह्मी | आजीविकों को आश्रय स्थलों का दान (धार्मिक सहिष्णुता प्रदर्शन) |\n\n### प्रशासनिक और सामाजिक उपयोगिता\n- **प्रत्यक्ष संवाद**: व्यापारिक मार्गों और सीमा चौकियों पर स्थापित होने के कारण इन शिलालेखों ने अशोक को मध्यस्थों के बिना अपनी प्रजा से सीधे संवाद करने में सक्षम बनाया।\n- **कल्याण और नैतिकता**: इन शिलालेखों ने प्रशासनिक सुधारों (राजुकों के दौरे, धम्म महामात्तों की नियुक्ति) और सामाजिक सद्भाव, अहिंसा व सहिष्णुता को बढ़ावा देने वाले नैतिक दिशानिर्देशों की घोषणा की।"
+    }
+  ]
+}

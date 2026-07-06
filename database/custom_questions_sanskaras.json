@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. In the context of ancient Indian Rites of Passage, which of the following is considered the very first sanskara intended for the purification of the womb and conception?",
+      "option_a": "Punsavana",
+      "option_b": "Garbhadhana",
+      "option_c": "Simantonayana",
+      "option_d": "Jatakarma",
+      "correct": "B",
+      "explanation": "Correct option: B. Garbhadhana is the first of the sixteen sanskaras, performed by a couple with the intent of conceiving a healthy offspring, symbolizing the sanctification of the womb."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय संस्कारों के संदर्भ में, गर्भ की शुद्धि और गर्भाधान के लिए निम्नलिखित में से किसे सबसे पहला संस्कार माना जाता है?",
+      "option_a": "पुंसवन",
+      "option_b": "गर्भाधान",
+      "option_c": "सीमान्तोन्नयन",
+      "option_d": "जातकर्म",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. गर्भाधान सोलह संस्कारों में से पहला है, जिसे एक दंपत्ति द्वारा स्वस्थ संतान की प्राप्ति के उद्देश्य से किया जाता है, जो गर्भ के पवित्रीकरण का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. During which month of pregnancy is the Punsavana sanskara (rite for securing the birth of a healthy child/fetus protection) typically performed according to major Grihya Sutras?",
+      "option_a": "First month",
+      "option_b": "Second or third month",
+      "option_c": "Seventh month",
+      "option_d": "Ninth month",
+      "correct": "B",
+      "explanation": "Correct option: B. The Punsavana sanskara is performed in the second or third month of pregnancy, before the fetus begins to move, to ensure physical wellness and proper development."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रमुख गृह्य सूत्रों के अनुसार, पुंसवन संस्कार (स्वस्थ संतान की प्राप्ति/भ्रूण संरक्षण के लिए अनुष्ठान) आमतौर पर गर्भावस्था के किस महीने में किया जाता है?",
+      "option_a": "पहले महीने में",
+      "option_b": "दूसरे या तीसरे महीने में",
+      "option_c": "सातवें महीने में",
+      "option_d": "नौवें महीने में",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. पुंसवन संस्कार गर्भावस्था के दूसरे या तीसरे महीने में, भ्रूण की हलचल शुरू होने से पहले, शारीरिक कल्याण और उचित विकास सुनिश्चित करने के लिए किया जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the primary psychological and symbolic objective of the Simantonayana sanskara (parting the hair of the pregnant woman)?",
+      "option_a": "To officially name the unborn child",
+      "option_b": "To ward off evil spirits and keep the expectant mother in a cheerful, stress-free mental state",
+      "option_c": "To initiate the father into parenting responsibilities",
+      "option_d": "To feed the mother her first solid meal after pregnancy detection",
+      "correct": "B",
+      "explanation": "Correct option: B. Simantonayana involves parting the pregnant woman's hair, symbolically warding off negative energies and ensuring her mental happiness, which directly affects the fetus's cognitive development."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सीमान्तोन्नयन संस्कार (गर्भवती महिला के बालों को संवारना/सीमंत करना) का प्राथमिक मनोवैज्ञानिक और प्रतीकात्मक उद्देश्य क्या है?",
+      "option_a": "अजन्मे बच्चे का आधिकारिक नामकरण करना",
+      "option_b": "बुरी शक्तियों को दूर रखना और होने वाली माँ को प्रसन्न तथा तनावमुक्त मानसिक स्थिति में रखना",
+      "option_c": "पिता को पालन-पोषण की जिम्मेदारियों में दीक्षित करना",
+      "option_d": "गर्भावस्था का पता चलने के बाद माँ को पहला ठोस भोजन खिलाना",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सीमान्तोन्नयन में गर्भवती महिला के बालों को विभाजित किया जाता है, जो प्रतीकात्मक रूप से नकारात्मक ऊर्जा को दूर करता है और उसकी मानसिक प्रसन्नता सुनिश्चित करता है, जो भ्रूण के संज्ञानात्मक विकास को प्रभावित करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Jatakarma sanskara (birth rites), what traditional substances are fed to the newborn infant by the father as a symbolic initiation of intellect (Medha Janana)?",
+      "option_a": "Milk and honey",
+      "option_b": "Honey and clarified butter (ghee) mixed with gold dust",
+      "option_c": "Curd and barley paste",
+      "option_d": "Soma juice and coconut water",
+      "correct": "B",
+      "explanation": "Correct option: B. During Jatakarma, the father feeds the newborn a tiny mixture of honey and ghee using a gold spoon or rod, accompanied by mantras, symbolizing the wish for longevity and sharp intellect."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जातकर्म संस्कार (जन्म अनुष्ठान) में, नवजात शिशु को बुद्धि के प्रतीकात्मक प्रारंभ (मेधा जनन) के रूप में पिता द्वारा कौन से पारंपरिक पदार्थ खिलाए जाते हैं?",
+      "option_a": "दूध और शहद",
+      "option_b": "शहद और घी का मिश्रण जिसमें सोने की भस्म/धूल मिली हो",
+      "option_c": "दही और जौ का पेस्ट",
+      "option_d": "सोम रस और नारियल पानी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. जातकर्म के दौरान, पिता नवजात शिशु को मंत्रोच्चार के साथ सोने की चम्मच या शलाका से शहद और घी का सूक्ष्म मिश्रण खिलाता है, जो दीर्घायु और प्रखर बुद्धि की कामना का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to ancient Dharmashastras, on which day after birth is the Namakarana (naming ceremony) typically recommended to be performed?",
+      "option_a": "On the 3rd day",
+      "option_b": "On the 10th or 12th day",
+      "option_c": "On the 30th day",
+      "option_d": "On the 100th day",
+      "correct": "B",
+      "explanation": "Correct option: B. The Namakarana ceremony is generally performed on the 10th or 12th day after birth, marking the end of the post-natal impurity (Sutaka) period for the family."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन धर्मशास्त्रों के अनुसार, जन्म के कितने दिन बाद सामान्यतः नामकरण संस्कार करने की सिफारिश की जाती है?",
+      "option_a": "तीसरे दिन",
+      "option_b": "10वें या 12वें दिन",
+      "option_c": "30वें दिन",
+      "option_d": "100वें दिन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. नामकरण संस्कार आमतौर पर जन्म के 10वें या 12वें दिन किया जाता है, जो परिवार के लिए प्रसवोत्तर अशौच (सूतक) अवधि की समाप्ति का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Nishkramana sanskara marks the child's first step out of the home. At what age of the infant is this ceremony ideally performed?",
+      "option_a": "First month",
+      "option_b": "Fourth month",
+      "option_c": "Sixth month",
+      "option_d": "First year",
+      "correct": "B",
+      "explanation": "Correct option: B. Nishkramana is performed in the fourth month, where the infant is formally taken out to look at the sun (during the day) or the moon (at night) for environmental acclimatization."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निष्क्रमण संस्कार बच्चे के घर से बाहर निकलने के पहले कदम का प्रतीक है। शिशु की किस आयु में आदर्श रूप से यह संस्कार किया जाता है?",
+      "option_a": "पहले महीने में",
+      "option_b": "चौथे महीने में",
+      "option_c": "छठे महीने में",
+      "option_d": "पहले वर्ष में",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. निष्क्रमण संस्कार चौथे महीने में किया जाता है, जहां शिशु को बाहरी वातावरण के अनुकूल बनाने के लिए औपचारिक रूप से बाहर लाकर सूर्य (दिन में) या चंद्रमा (रात में) के दर्शन कराए जाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following sanskaras marks the transition of the child from a pure liquid diet to solid food, typically performed around the sixth month?",
+      "option_a": "Jatakarma",
+      "option_b": "Annaprashana",
+      "option_c": "Chudakarana",
+      "option_d": "Karnavedha",
+      "correct": "B",
+      "explanation": "Correct option: B. Annaprashana (literally, 'food feeding') is performed when the child is six months old, introducing easily digestible cooked rice or pudding mixed with ghee and honey."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा संस्कार बच्चे के केवल तरल आहार से ठोस आहार की ओर संक्रमण का प्रतीक है, जो आमतौर पर छठे महीने के आसपास किया जाता है?",
+      "option_a": "जातकर्म",
+      "option_b": "अन्नप्राशन",
+      "option_c": "चूड़ाकर्म",
+      "option_d": "कर्णवेध",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. अन्नप्राशन (शाब्दिक अर्थ, 'अन्न ग्रहण करना') तब किया जाता है जब बच्चा छह महीने का हो जाता है, जिसमें घी और शहद के साथ पके हुए सुपाच्य चावल या खीर दी जाती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the common term used for the Chudakarana sanskara, which represents the first tonsure or shaving of the child's head?",
+      "option_a": "Mundana",
+      "option_b": "Vidyarambha",
+      "option_c": "Upanayana",
+      "option_d": "Keshanta",
+      "correct": "A",
+      "explanation": "Correct option: A. Chudakarana, also widely known as Mundana, is the ceremony of shaving the head, representing the shedding of impurities from previous births and promoting cleanliness and health."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चूड़ाकर्म संस्कार के लिए किस सामान्य शब्द का उपयोग किया जाता है, जो बच्चे के सिर के पहले मुंडन या बाल काटने का प्रतिनिधित्व करता है?",
+      "option_a": "मुंडन",
+      "option_b": "विद्यारंभ",
+      "option_c": "उपनयन",
+      "option_d": "केशांत",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. चूड़ाकर्म, जिसे व्यापक रूप से मुंडन भी कहा जाता है, सिर मुंडवाने की रस्म है, जो पिछले जन्मों की अशुद्धियों को दूर करने तथा स्वच्छता और स्वास्थ्य को बढ़ावा देने का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Karnavedha sanskara refers to the piercing of the ears. According to Sushruta Samhita, what medical benefit is attributed to this rite?",
+      "option_a": "Prevention of respiratory diseases",
+      "option_b": "Prevention of hydrocele and hernia, and stimulation of nervous meridians",
+      "option_c": "Improvement in vocal cords",
+      "option_d": "Curing of skin disorders",
+      "correct": "B",
+      "explanation": "Correct option: B. Sushruta Samhita states that Karnavedha (ear piercing) provides protection against diseases like hydrocele (antra-vriddhi) and hernia, while acting as an acupuncture-like benefit for nervous system health."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कर्णवेध संस्कार कान छिदवाने से संबंधित है। सुश्रुत संहिता के अनुसार, इस संस्कार का क्या चिकित्सीय लाभ बताया गया है?",
+      "option_a": "श्वसन रोगों की रोकथाम",
+      "option_b": "अंडकोष वृद्धि (हाइड्रोसील) और हर्निया की रोकथाम, तथा तंत्रिका मेरिडियन का उत्तेजन",
+      "option_c": "मुखर तंतुओं (Vocal cords) में सुधार",
+      "option_d": "त्वचा रोगों का उपचार",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सुश्रुत संहिता के अनुसार कर्णवेध (कान छिदवाना) अंडकोष वृद्धि और हर्निया जैसी बीमारियों से सुरक्षा प्रदान करता है, और तंत्रिका तंत्र के स्वास्थ्य के लिए एक्यूपंक्चर जैसा लाभ देता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which child rite of passage marks the formal learning of alphabets, usually performed around the age of five where the child writes on rice grains?",
+      "option_a": "Upanayana",
+      "option_b": "Vidyarambha",
+      "option_c": "Vedarambha",
+      "option_d": "Samavartana",
+      "correct": "B",
+      "explanation": "Correct option: B. Vidyarambha (or Akshararambha) is the ceremony where the child is taught to write the first letters of the alphabet, typically in a bed of raw rice grains, dedicated to Goddess Saraswati and Lord Ganesha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बच्चों का कौन सा संस्कार वर्णमाला के औपचारिक अधिगम को दर्शाता है, जो आमतौर पर पांच वर्ष की आयु में किया जाता है जहां बच्चा चावल के दानों पर लिखता है?",
+      "option_a": "उपनयन",
+      "option_b": "विद्यारंभ",
+      "option_c": "वेदारंभ",
+      "option_d": "समावर्तन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. विद्यारंभ (या अक्षरांभ) वह संस्कार है जिसमें बच्चे को वर्णमाला के पहले अक्षर लिखना सिखाया जाता है, आमतौर पर कच्चे चावल के दानों पर, जो देवी सरस्वती और भगवान गणेश को समर्पित होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Upanayana sanskara, also called the sacred thread ceremony, signifies the entry of a child into which stage of life (Ashrama)?",
+      "option_a": "Grihastha",
+      "option_b": "Brahmacharya",
+      "option_c": "Vanaprastha",
+      "option_d": "Sannyasa",
+      "correct": "B",
+      "explanation": "Correct option: B. Upanayana initiates the child into formal spiritual and intellectual studies under a Guru, marking the official entry into the Brahmacharya (student) Ashrama."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उपनयन संस्कार, जिसे जनेऊ धारण करने का संस्कार भी कहा जाता है, बच्चे के जीवन के किस चरण (आश्रम) में प्रवेश का प्रतीक है?",
+      "option_a": "गृहस्थ",
+      "option_b": "ब्रह्मचर्य",
+      "option_c": "वानप्रस्थ",
+      "option_d": "संन्यास",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. उपनयन बच्चे को गुरु के अधीन औपचारिक आध्यात्मिक और बौद्धिक अध्ययन में दीक्षित करता है, जो ब्रह्मचर्य (छात्र) आश्रम में आधिकारिक प्रवेश का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the fundamental difference between the Vidyarambha and Vedarambha sanskaras?",
+      "option_a": "Vidyarambha is for girls, Vedarambha is for boys",
+      "option_b": "Vidyarambha marks learning alphabets/primary education, while Vedarambha marks the beginning of formal Vedic scriptures study",
+      "option_c": "Vidyarambha is performed at home, Vedarambha is performed in a temple",
+      "option_d": "Vidyarambha is secular, Vedarambha is only for priests",
+      "correct": "B",
+      "explanation": "Correct option: B. Vidyarambha is the introduction to letters and general primary schooling, whereas Vedarambha is the initiation into specific Vedic text study, performed after Upanayana."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. विद्यारंभ और वेदारंभ संस्कारों के बीच मूलभूत अंतर क्या है?",
+      "option_a": "विद्यारंभ लड़कियों के लिए है, वेदारंभ लड़कों के लिए है",
+      "option_b": "विद्यारंभ वर्णमाला/प्राथमिक शिक्षा सीखने का प्रतीक है, जबकि वेदारंभ औपचारिक वैदिक शास्त्रों के अध्ययन की शुरुआत को दर्शाता है",
+      "option_c": "विद्यारंभ घर पर किया जाता है, वेदारंभ मंदिर में किया जाता है",
+      "option_d": "विद्यारंभ धर्मनिरपेक्ष है, वेदारंभ केवल पुरोहितों के लिए है",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. विद्यारंभ अक्षरों और सामान्य प्राथमिक स्कूली शिक्षा का परिचय है, जबकि वेदारंभ विशिष्ट वैदिक ग्रंथों के अध्ययन की शुरुआत है, जो उपनयन के बाद किया जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Keshanta (or Godana) sanskara, which involves the first shaving of the beard and mustache, is traditionally performed at what age?",
+      "option_a": "8 years",
+      "option_b": "16 years",
+      "option_c": "21 years",
+      "option_d": "25 years",
+      "correct": "B",
+      "explanation": "Correct option: B. Keshanta (literally 'end of hair') is performed when a male student reaches about 16 years of age, symbolizing the transition from adolescence to young adulthood."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. केशांत (या गोदान) संस्कार, जिसमें पहली बार दाढ़ी और मूंछ मुंडवाना शामिल है, पारंपरिक रूप से किस आयु में किया जाता है?",
+      "option_a": "8 वर्ष",
+      "option_b": "16 वर्ष",
+      "option_c": "21 वर्ष",
+      "option_d": "25 वर्ष",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. केशांत (शाब्दिक अर्थ 'बालों का अंत') तब किया जाता है जब एक पुरुष छात्र लगभग 16 वर्ष की आयु में पहुंचता है, जो किशोरावस्था से युवा वयस्कता में संक्रमण का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Samavartana sanskara, which signals the end of studentship in the ancient Gurukul, is popularly marked by which ritual?",
+      "option_a": "Wearing the sacred thread",
+      "option_b": "A ceremonial bath (Snana)",
+      "option_c": "Shaving of the head",
+      "option_d": "Giving away of wealth",
+      "correct": "B",
+      "explanation": "Correct option: B. Samavartana includes a ceremonial bath (Snana), and the student who finishes this rite is called a 'Snataka' (one who has bathed), ready to return home."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समावर्तन संस्कार, जो प्राचीन गुरुकुल में छात्र जीवन की समाप्ति का संकेत देता है, लोकप्रिय रूप से किस अनुष्ठान द्वारा चिह्नित किया जाता है?",
+      "option_a": "जनेऊ धारण करना",
+      "option_b": "औपचारिक स्नान (स्नान)",
+      "option_c": "सिर मुंडवाना",
+      "option_d": "धन का दान करना",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. समावर्तन में एक औपचारिक स्नान (स्नान) शामिल होता है, और इस अनुष्ठान को पूरा करने वाले छात्र को 'स्नातक' कहा जाता है, जो घर लौटने के लिए तैयार होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Vivaha (marriage) sanskara marks the entry into which life stage (Ashrama), considered the cornerstone of society supporting all other stages?",
+      "option_a": "Brahmacharya",
+      "option_b": "Grihastha",
+      "option_c": "Vanaprastha",
+      "option_d": "Sannyasa",
+      "correct": "B",
+      "explanation": "Correct option: B. The Vivaha sanskara transitions an individual into the Grihastha Ashrama (householder stage), which is socially and economically responsible for sustaining the other three ashramas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. विवाह संस्कार किस जीवन चरण (आश्रम) में प्रवेश का प्रतीक है, जिसे समाज की आधारशिला माना जाता है जो अन्य सभी चरणों का समर्थन करता है?",
+      "option_a": "ब्रह्मचर्य",
+      "option_b": "गृहस्थ",
+      "option_c": "वानप्रस्थ",
+      "option_d": "संन्यास",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. विवाह संस्कार किसी व्यक्ति को गृहस्थ आश्रम (गृहस्थ चरण) में स्थानांतरित करता है, जो अन्य तीन आश्रमों को बनाए रखने के लिए सामाजिक और आर्थिक रूप से जिम्मेदार है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Antyesti is the final rite of passage in the 16 Sanskaras. Which philosophy underlines this rite?",
+      "option_a": "Asceticism and physical self-torture",
+      "option_b": "Sacrificing life to the deities for material gains",
+      "option_c": "Returning the physical body elements back to Nature (Pancha Mahabhuta)",
+      "option_d": "Achieving physical immortality",
+      "correct": "C",
+      "explanation": "Correct option: C. Antyesti represents the cremation or funeral rites where the body is consumed by fire, symbolizing the return of the micro-cosmic physical body elements back to the macro-cosmic elements (Pancha Mahabhuta)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अंत्येष्टि 16 संस्कारों में अंतिम संस्कार है। कौन सा दर्शन इस संस्कार को रेखांकित करता है?",
+      "option_a": "तपस्या और शारीरिक आत्म-पीड़न",
+      "option_b": "भौतिक लाभ के लिए देवताओं को जीवन का बलिदान करना",
+      "option_c": "भौतिक शरीर के तत्वों को वापस प्रकृति (पंचमहाभूत) में लौटाना",
+      "option_d": "शारीरिक अमरता प्राप्त करना",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. अंत्येष्टि अंतिम संस्कार या दाह संस्कार का प्रतिनिधित्व करती है जहाँ शरीर को अग्नि को समर्पित किया जाता है, जो सूक्ष्म भौतिक शरीर के तत्वों को व्यापक ब्रह्मांडीय तत्वों (पंचमहाभूत) में वापस लौटाने का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which ancient texts are the primary sources that systematically describe the rules, rituals, and mantras associated with the execution of the Sanskaras?",
+      "option_a": "Aranyakas",
+      "option_b": "Grihya Sutras",
+      "option_c": "Pratishakhyas",
+      "option_d": "Sulba Sutras",
+      "correct": "B",
+      "explanation": "Correct option: B. The Grihya Sutras (part of Kalpa Vedanga) are the primary manuals containing detailed rules and methods for domestic rituals, including the 16 sanskaras."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन से प्राचीन ग्रंथ प्राथमिक स्रोत हैं जो व्यवस्थित रूप से संस्कारों के संपादन से जुड़े नियमों, अनुष्ठानों और मंत्रों का वर्णन करते हैं?",
+      "option_a": "आरण्यक",
+      "option_b": "गृह्य सूत्र",
+      "option_c": "प्रातिशाख्य",
+      "option_d": "शूल्ब सूत्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. गृह्य सूत्र (कल्प वेदांग का हिस्सा) प्राथमिक नियम पुस्तिकाएं हैं जिनमें 16 संस्कारों सहित घरेलू अनुष्ठानों के लिए विस्तृत नियम और तरीके दिए गए हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Gautama Dharma Sutra, how many Samskaras (purificatory rites) are enumerated, which is different from the classical list of 16?",
+      "option_a": "12",
+      "option_b": "24",
+      "option_c": "40",
+      "option_d": "48",
+      "correct": "C",
+      "explanation": "Correct option: C. Gautama Dharma Sutra lists 40 Samskaras, which include external rituals as well as internal virtues (Atma-gunas). Later commentators consolidated them into the standard 16."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गौतम धर्मसूत्र में कितने संस्कारों का उल्लेख किया गया है, जो 16 की पारंपरिक सूची से भिन्न है?",
+      "option_a": "12",
+      "option_b": "24",
+      "option_c": "40",
+      "option_d": "48",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. गौतम धर्मसूत्र में 40 संस्कारों की सूची है, जिसमें बाहरी अनुष्ठानों के साथ-साथ आंतरिक गुण (आत्म-गुण) भी शामिल हैं। बाद के टीकाकारों ने इन्हें मानक 16 में समेकित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Upanishads refers to the development of the child in the womb and contains early concepts of rites associated with birth and parenting?",
+      "option_a": "Garbha Upanishad",
+      "option_b": "Katha Upanishad",
+      "option_c": "Mundaka Upanishad",
+      "option_d": "Kena Upanishad",
+      "correct": "A",
+      "explanation": "Correct option: A. The Garbha Upanishad is a minor Upanishad that details embryology and child development inside the womb, aligning with the concepts of prenatal sanskaras."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा उपनिषद गर्भ में बच्चे के विकास को संदर्भित करता है और इसमें जन्म और पालन-पोषण से जुड़े संस्कारों की प्रारंभिक अवधारणाएं शामिल हैं?",
+      "option_a": "गर्भ उपनिषद",
+      "option_b": "कठोपनिषद",
+      "option_c": "मुण्डकोपनिषद",
+      "option_d": "केनोपनिषद",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. गर्भ उपनिषद एक लघु उपनिषद है जो गर्भ के भीतर भ्रूण विज्ञान और शिशु विकास का विवरण देता है, जो जन्मपूर्व संस्कारों की अवधारणाओं के अनुरूप है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What does the term 'Dvija' mean in ancient Indian society, which a child achieves upon completing the Upanayana sanskara?",
+      "option_a": "Twice-born",
+      "option_b": "Twice-educated",
+      "option_c": "Sacred priest",
+      "option_d": "Renouncer",
+      "correct": "A",
+      "explanation": "Correct option: A. 'Dvija' means twice-born. The first birth is physical from the mother's womb, and the second birth is spiritual, marked by the Upanayana sanskara."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय समाज में 'द्विज' शब्द का क्या अर्थ है, जिसे कोई बच्चा उपनयन संस्कार पूरा करने पर प्राप्त करता है?",
+      "option_a": "दो बार जन्मा (Twice-born)",
+      "option_b": "दो बार शिक्षित",
+      "option_c": "पवित्र पुरोहित",
+      "option_d": "त्यागी",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. 'द्विज' का अर्थ है दो बार जन्मा। पहला जन्म माँ के गर्भ से शारीरिक जन्म होता है, और दूसरा जन्म आध्यात्मिक होता है, जो उपनयन संस्कार द्वारा चिह्नित होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The three strands of the Yajnopavita (sacred thread) represent three types of debts (Rinas). Which of the following is NOT one of these three debts?",
+      "option_a": "Deva Rina (Debt to Gods)",
+      "option_b": "Rishi Rina (Debt to Sages)",
+      "option_c": "Pitri Rina (Debt to Ancestors)",
+      "option_d": "Loka Rina (Debt to Society)",
+      "correct": "D",
+      "explanation": "Correct option: D. The three strands represent Deva Rina (debt to gods), Rishi Rina (debt to gurus/sages), and Pitri Rina (debt to parents/ancestors), which the initiate must repay."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. यज्ञोपवीत (जनेऊ) के तीन सूत्र तीन प्रकार के ऋणों का प्रतिनिधित्व करते हैं। निम्नलिखित में से कौन सा इन तीन ऋणों में शामिल नहीं है?",
+      "option_a": "देव ऋण (देवताओं के प्रति ऋण)",
+      "option_b": "ऋषि ऋण (ऋषियों के प्रति ऋण)",
+      "option_c": "पितृ ऋण (पूर्वजों के प्रति ऋण)",
+      "option_d": "लोक ऋण (समाज के प्रति ऋण)",
+      "correct": "D",
+      "explanation": "सही विकल्प: D. तीन सूत्र देव ऋण, ऋषि ऋण और पितृ ऋण का प्रतिनिधित्व करते हैं, जिन्हें दीक्षित व्यक्ति को चुकाना होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Saptapadi ritual is a key part of which of the following sanskaras?",
+      "option_a": "Upanayana",
+      "option_b": "Vivaha",
+      "option_c": "Samavartana",
+      "option_d": "Garbhadhana",
+      "correct": "B",
+      "explanation": "Correct option: B. Saptapadi (seven steps) is the most critical ritual of the Vivaha sanskara, signifying the legal and spiritual completion of the marriage contract."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सप्तपदी अनुष्ठान निम्नलिखित में से किस संस्कार का एक प्रमुख हिस्सा है?",
+      "option_a": "उपनयन",
+      "option_b": "विवाह",
+      "option_c": "समावर्तन",
+      "option_d": "गर्भाधान",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सप्तपदी (सात कदम) विवाह संस्कार का सबसे महत्वपूर्ण अनुष्ठान है, जो विवाह अनुबंध के कानूनी and आध्यात्मिक पूर्ण होने का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following describes the category of 'Prenatal Sanskaras' (before birth) in the scheme of sixteen sanskaras?",
+      "option_a": "Garbhadhana, Punsavana, and Simantonayana",
+      "option_b": "Jatakarma, Namakarana, and Nishkramana",
+      "option_c": "Vidyarambha, Upanayana, and Vedarambha",
+      "option_d": "Keshanta, Samavartana, and Vivaha",
+      "correct": "A",
+      "explanation": "Correct option: A. Garbhadhana, Punsavana, and Simantonayana are the three prenatal sanskaras performed before the child is born."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा सोलह संस्कारों की योजना में 'जन्मपूर्व संस्कारों' की श्रेणी का वर्णन करता है?",
+      "option_a": "गर्भाधान, पुंसवन और सीमान्तोन्नयन",
+      "option_b": "जातकर्म, नामकरण और निष्क्रमण",
+      "option_c": "विद्यारंभ, उपनयन और वेदारंभ",
+      "option_d": "केशांत, समावर्तन और विवाह",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. गर्भाधान, पुंसवन और सीमान्तोन्नयन तीन जन्मपूर्व संस्कार हैं जो बच्चे के जन्म से पहले किए जाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which color of clothing was traditionally worn by the student during the Samavartana (graduation) bath ceremony to signify purification?",
+      "option_a": "Black",
+      "option_b": "White",
+      "option_c": "Yellow",
+      "option_d": "Red",
+      "correct": "B",
+      "explanation": "Correct option: B. During Samavartana, the graduate took a bath and wore fresh white clothes, abandoning the student's deerskin and simple garments, symbolizing purity and readiness for householder life."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. शुद्धि को दर्शाने के लिए समावर्तन (दीक्षांत) स्नान समारोह के दौरान छात्र द्वारा पारंपरिक रूप से किस रंग के कपड़े पहने जाते थे?",
+      "option_a": "काले",
+      "option_b": "सफेद",
+      "option_c": "पीले",
+      "option_d": "लाल",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. समावर्तन के दौरान, स्नातक स्नान करता था और नए सफेद वस्त्र धारण करता था, छात्र के मृगचर्म और सरल वस्त्रों को त्याग देता था, जो पवित्रता और गृहस्थ जीवन की तैयारी का प्रतीक था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The term 'Samskara' is derived from the Sanskrit root word 'Sam-Kri'. What does it literally signify?",
+      "option_a": "To destroy past memories",
+      "option_b": "To purify, refine, or polish",
+      "option_c": "To bind someone in chains",
+      "option_d": "To offer sacrifices",
+      "correct": "B",
+      "explanation": "Correct option: B. The word Sanskara implies purification, refinement, decoration, and preparation of the body and mind to make them fit for spiritual and social roles."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'संस्कार' शब्द संस्कृत के मूल धातु 'सम्-कृ' से बना है। इसका शाब्दिक अर्थ क्या है?",
+      "option_a": "पुरानी यादों को नष्ट करना",
+      "option_b": "शुद्ध करना, परिष्कृत करना या मांजना",
+      "option_c": "किसी को जंजीरों में बांधना",
+      "option_d": "बलिदान देना",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. संस्कार शब्द का तात्पर्य शरीर और मन के पवित्रीकरण, परिष्कार, अलंकरण और तैयारी से है ताकि वे आध्यात्मिक और सामाजिक भूमिकाओं के लिए उपयुक्त बन सकें।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Upanayana sanskara was traditionally restricted to the Dvija (twice-born) varnas in ancient Vedic society.\nReason (R): Upanayana marked the second, spiritual birth of a child, initiating them into the study of the sacred Vedas under a Guru.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: In the Vedic and post-Vedic periods, only members of the Dvija varnas (Brahmana, Kshatriya, Vaishya) had access to the Upanayana ceremony. Hence, A is true. Reason Analysis: Upanayana means 'bringing close' to the teacher, initiating the child into Vedic study, which is considered their spiritual birth (Dvija status). This explains why it was confined to those eligible for Vedic learning. Hence, R is true and explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): उपनयन संस्कार पारंपरिक रूप से प्राचीन वैदिक समाज में द्विज वर्णों तक ही सीमित था।\nकारण (R): उपनयन बच्चे के दूसरे, आध्यात्मिक जन्म का प्रतीक था, जो उन्हें गुरु के अधीन पवित्र वेदों के अध्ययन में दीक्षित करता था।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: वैदिक और उत्तर-वैदिक काल में, केवल द्विज वर्णों (ब्राह्मण, क्षत्रिय, वैश्य) के सदस्यों को उपनयन संस्कार का अधिकार था। अतः A सही है। कारण विश्लेषण: उपनयन का अर्थ है शिक्षक के समीप लाना, जो बच्चे को वैदिक अध्ययन में दीक्षित करता है, जिसे उनका आध्यात्मिक जन्म (द्विज दर्जा) माना जाता है। यह स्पष्ट करता है कि यह केवल वैदिक शिक्षा के पात्र लोगों तक ही क्यों सीमित था। अतः R सही है और A की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Jatakarma sanskara is performed before the umbilical cord of the newborn infant is severed.\nReason (R): Feeding honey and ghee to the newborn during Jatakarma is scientifically proven to establish life-long immunity against all bacterial infections.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Jatakarma rituals are classically performed immediately upon birth, prior to the cutting of the umbilical cord. Thus, A is true. Reason Analysis: While honey and ghee have mild nutritional and traditional significance, they are not scientifically proven to grant lifelong immunity against all bacterial infections. Thus, R is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): जातकर्म संस्कार नवजात शिशु की गर्भनाल काटने से पहले किया जाता है।\nकारण (R): जातकर्म के दौरान नवजात शिशु को शहद और घी खिलाना सभी जीवाणु संक्रमणों के खिलाफ जीवन भर की प्रतिरक्षा स्थापित करने के लिए वैज्ञानिक रूप से सिद्ध है।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: जातकर्म अनुष्ठान शास्त्रीय रूप से जन्म के तुरंत बाद, गर्भनाल काटने से पहले किया जाता है। अतः A सही है। कारण विश्लेषण: हालांकि शहद और घी का हल्का पोषण और पारंपरिक महत्व है, लेकिन यह वैज्ञानिक रूप से सिद्ध नहीं है कि वे सभी जीवाणु संक्रमणों के खिलाफ आजीवन प्रतिरक्षा प्रदान करते हैं। अतः R गलत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Vivaha sanskara is considered the most critical of all the 16 sanskaras in Hindu social theory.\nReason (R): It marks the entry into the Grihastha Ashrama, which bears the economic and moral burden of supporting the other three ashramas.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Hindu texts rate Vivaha as the most crucial because social continuity and dharma execution depend on it. Thus, A is true. Reason Analysis: The Grihastha ashrama supports Brahmacharis, Vanaprasthis, and Sannyasis through alms and work. This central role makes Vivaha the most important. Thus, R is true and explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): हिंदू सामाजिक सिद्धांत में विवाह संस्कार को सभी 16 संस्कारों में सबसे महत्वपूर्ण माना जाता है।\nकारण (R): यह गृहस्थ आश्रम में प्रवेश का प्रतीक है, जो अन्य तीन आश्रमों का समर्थन करने का आर्थिक और नैतिक बोझ उठाता है।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: हिंदू ग्रंथों में विवाह को सबसे महत्वपूर्ण माना गया है क्योंकि सामाजिक निरंतरता और धर्म का संपादन इसी पर निर्भर करता है। अतः A सही है। कारण विश्लेषण: गृहस्थ आश्रम भिक्षा और श्रम के माध्यम से ब्रह्मचारियों, वानप्रस्थियों और संन्यासियों का भरण-पोषण करता है। यह केंद्रीय भूमिका विवाह को सबसे महत्वपूर्ण बनाती है। अतः R सही है और A की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Simantonayana sanskara is celebrated specifically to ensure the health and peace of mind of the expectant mother.\nReason (R): Ancient Indian sages believed that the emotional state of the mother directly influences the prenatal development of the child.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Simantonayana (parting of hair) is performed to keep the pregnant woman happy and stress-free. Thus, A is true. Reason Analysis: Sage opinions and texts emphasize that the mother's mental state directly affects the physical and mental traits of the fetus, providing the logical rationale for the rites. Thus, R is true and explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): सीमान्तोन्नयन संस्कार विशेष रूप से गर्भवती माँ के स्वास्थ्य और मानसिक शांति को सुनिश्चित करने के लिए मनाया जाता है।\nकारण (R): प्राचीन भारतीय ऋषियों का मानना था कि माँ की भावनात्मक स्थिति बच्चे के जन्मपूर्व विकास को सीधे प्रभावित करती है।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: सीमान्तोन्नयन (बालों को विभाजित करना) गर्भवती महिला को खुश और तनावमुक्त रखने के लिए किया जाता है। अतः A सही है। कारण विश्लेषण: ऋषियों के विचारों और ग्रंथों में इस बात पर जोर दिया गया है कि माँ की मानसिक स्थिति भ्रूण के शारीरिक और मानसिक लक्षणों को सीधे प्रभावित करती है, जो इस अनुष्ठान का तार्किक कारण प्रदान करता है। अतः R सही है और A की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Nishkramana sanskara is performed in the first month of the child's birth.\nReason (R): It is designed to introduce the child gradually to the external environment like sunlight and wind.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "D",
+      "explanation": "Assertion Analysis: Nishkramana is performed in the fourth month, not the first month. Hence, A is false. Reason Analysis: The purpose of Nishkramana is indeed to acclimatize the infant to external parameters like the sun, moon, and air. Hence, R is true."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): निष्क्रमण संस्कार बच्चे के जन्म के पहले महीने में किया जाता है।\nकारण (R): इसे बच्चे को धीरे-धीरे बाहरी वातावरण जैसे धूप और हवा से परिचित कराने के लिए डिज़ाइन किया गया है।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "D",
+      "explanation": "अभिकथन विश्लेषण: निष्क्रमण संस्कार चौथे महीने में किया जाता है, पहले महीने में नहीं। इसलिए, A गलत है। कारण विश्लेषण: निष्क्रमण का उद्देश्य वास्तव में शिशु को धूप, चंद्रमा और हवा जैसे बाहरी तत्वों के अनुकूल बनाना है। इसलिए, R सही है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Keshanta sanskara is also called Godana in several Grihya Sutras.\nReason (R): A gift of a cow (go-dana) was traditionally given to the Guru by the student upon completion of this rite.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Keshanta (shaving the beard) is indeed referred to as Godana in Grihya Sutras. Thus, A is true. Reason Analysis: The ceremony was accompanied by the student gifting a cow to the Guru as a symbol of gratitude, which is why it got the name Godana. Thus, R is true and explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): कई गृह्य सूत्रों में केशांत संस्कार को गोदान भी कहा गया है।\nकारण (R): इस अनुष्ठान के पूरा होने पर छात्र द्वारा गुरु को पारंपरिक रूप से एक गाय का उपहार (गो-दान) दिया जाता था।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: केशांत (दाढ़ी मुंडवाना) को वास्तव में गृह्य सूत्रों में गोदान कहा गया है। अतः A सही है। कारण विश्लेषण: इस अनुष्ठान के दौरान छात्र द्वारा आभार के प्रतीक के रूप में गुरु को एक गाय उपहार में दी जाती थी, जिसके कारण इसका नाम गोदान पड़ा। अतः R सही है और A की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Samavartana sanskara is equivalent to a modern graduation ceremony.\nReason (R): During Samavartana, the student takes a ceremonial bath, bids farewell to the Gurukul, and is declared a Snataka.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Samavartana marks the completion of the student life, very much like graduation. Thus, A is true. Reason Analysis: It involves a ceremonial bath (Snana) and returning home as a Snataka (graduate), explaining why it corresponds to modern graduation. Thus, R is true and explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): समावर्तन संस्कार आधुनिक दीक्षांत समारोह के समकक्ष है।\nकारण (R): समावर्तन के दौरान, छात्र औपचारिक स्नान करता है, गुरुकुल को विदा कहता है, और उसे स्नातक घोषित किया जाता है।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: समावर्तन छात्र जीवन के पूरा होने का प्रतीक है, जो काफी हद तक दीक्षांत समारोह जैसा है। अतः A सही है। कारण विश्लेषण: इसमें एक औपचारिक स्नान (स्नान) शामिल होता है और स्नातक के रूप में घर लौटना शामिल होता, जो यह स्पष्ट करता है कि यह आधुनिक दीक्षांत समारोह के समकक्ष क्यों है। अतः R सही है और A की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Vidyarambha and Upanayana are performed at the exact same age for all children.\nReason (R): Both rites mark the entry into the domain of educational learning.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "D",
+      "explanation": "Assertion Analysis: Vidyarambha is done around age 5 (primary education), whereas Upanayana is done later (between ages 8 and 12, depending on varna). Thus, A is false. Reason Analysis: Both are educational rites, with Vidyarambha introducing letters and Upanayana introducing Vedic studies. Thus, R is true."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): सभी बच्चों के लिए विद्यारंभ और उपनयन बिल्कुल एक ही आयु में किए जाते हैं।\nकारण (R): दोनों संस्कार शैक्षिक शिक्षण के क्षेत्र में प्रवेश को चिह्नित करते हैं।\n\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "D",
+      "explanation": "अभिकथन विश्लेषण: विद्यारंभ लगभग 5 वर्ष की आयु में (प्राथमिक शिक्षा) किया जाता है, जबकि उपनयन बाद में (वर्ण के आधार पर 8 से 12 वर्ष की आयु के बीच) किया जाता है। अतः A गलत है। कारण विश्लेषण: दोनों शैक्षणिक संस्कार हैं, जिनमें विद्यारंभ अक्षरों का परिचय कराता है और उपनयन वैदिक अध्ययनों की शुरुआत कराता है। अतः R सही है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Sanskara) with List-II (Literal Meaning / Key Symbol) and select the correct answer:\nList-I:\na) Garbhadhana\nb) Punsavana\nc) Simantonayana\nd) Jatakarma\n\nList-II:\n1) Parting the hair\n2) Birth rituals / Medha Janana\n3) Fetus protection / male child wish\n4) Impregnation / placing the seed",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-4, b-1, c-3, d-2",
+      "option_d": "a-2, b-4, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Garbhadhana (a) matches placing the seed [4]. Punsavana (b) matches fetus protection / male child wish [3]. Simantonayana (c) matches parting the hair [1]. Jatakarma (d) matches birth rituals [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (संस्कार) को सूची-II (शाब्दिक अर्थ / प्रमुख प्रतीक) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) गर्भाधान\nb) पुंसवन\nc) सीमान्तोन्नयन\nd) जातकर्म\n\nसूची-II:\n1) बालों को संवारना (विभाजित करना)\n2) जन्म अनुष्ठान / मेधा जनन\n3) भ्रूण संरक्षण / पुत्र संतान की कामना\n4) गर्भाधान / बीज बोना",
+      "option_a": "a-4, b-3, c-1, d-2",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-4, b-1, c-3, d-2",
+      "option_d": "a-2, b-4, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. गर्भाधान (a) का मिलान बीज बोने [4] से है। पुंसवन (b) का मिलान भ्रूण संरक्षण [3] से है। सीमान्तोन्नयन (c) का मिलान बालों को संवारने [1] से है। जातकर्म (d) का मिलान जन्म अनुष्ठान [2] से है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Childhood Sanskara) with List-II (Traditional Time/Age) and select the correct answer:\nList-I:\na) Namakarana\nb) Nishkramana\nc) Annaprashana\nd) Chudakarana\n\nList-II:\n1) Fourth month\n2) Sixth month\n3) Tenth or twelfth day\n4) First or third year",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-3, b-2, c-1, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Namakarana (a) is performed on the 10th or 12th day [3]. Nishkramana (b) is performed in the 4th month [1]. Annaprashana (c) is in the 6th month [2]. Chudakarana (d) is in the 1st or 3rd year [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (बाल्यावस्था संस्कार) को सूची-II (पारंपरिक समय/आयु) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) नामकरण\nb) निष्क्रमण\nc) अन्नप्राशन\nd) चूड़ाकर्म\n\nसूची-II:\n1) चौथा महीना\n2) छठा महीना\n3) दसवां या बारहवां दिन\n4) पहला या तीसरा वर्ष",
+      "option_a": "a-3, b-1, c-2, d-4",
+      "option_b": "a-3, b-2, c-1, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-1, c-2, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. नामकरण (a) 10वें या 12वें दिन किया जाता है [3]। निष्क्रमण (b) चौथे महीने में किया जाता है [1]। अन्नप्राशन (c) छठे महीने में होता है [2]। चूड़ाकर्म (d) पहले या तीसरे वर्ष में होता है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Educational Sanskara) with List-II (Primary Ritual Component) and select the correct answer:\nList-I:\na) Vidyarambha\nb) Upanayana\nc) Vedarambha\nd) Samavartana\n\nList-II:\n1) Wearing of Yajnopavita\n2) Akshara Lekhana (writing letters)\n3) Snana (ceremonial graduation bath)\n4) Learning the Savitri/Gayatri mantra",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Vidyarambha (a) involves writing letters [2]. Upanayana (b) involves wearing Yajnopavita [1]. Vedarambha (c) involves learning Gayatri/Vedic mantras [4]. Samavartana (d) involves the graduation bath [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (शैक्षणिक संस्कार) को सूची-II (प्राथमिक अनुष्ठान घटक) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) विद्यारंभ\nb) उपनयन\nc) वेदारंभ\nd) समावर्तन\n\nसूची-II:\n1) यज्ञोपवीत धारण करना\n2) अक्षर लेखन\n3) स्नान (दीक्षांत स्नान)\n4) सावित्री/गायत्री मंत्र सीखना",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-3, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. विद्यारंभ (a) में अक्षर लेखन शामिल है [2]। उपनयन (b) में यज्ञोपवीत धारण करना शामिल है [1]। वेदारंभ (c) में सावित्री/गायत्री मंत्र सीखना शामिल है [4]। समावर्तन (d) में दीक्षांत स्नान शामिल है [3]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Type of Sacred Thread Material in Upanayana) with List-II (Corresponding Varna) and select the correct answer:\nList-I:\na) Cotton (Karpasa)\nb) Hemp/Wool (Shana)\nc) Woolen (Avika)\n\nList-II:\n1) Vaishya\n2) Kshatriya\n3) Brahmana",
+      "option_a": "a-3, b-2, c-1",
+      "option_b": "a-1, b-2, c-3",
+      "option_c": "a-2, b-3, c-1",
+      "option_d": "a-3, b-1, c-2",
+      "correct": "A",
+      "explanation": "Correct option: A. According to the Grihya Sutras, cotton thread is for Brahmanas [3], hemp is for Kshatriyas [2], and woolen thread is for Vaishyas [1]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (उपनयन में जनेऊ सामग्री का प्रकार) को सूची-II (संबंधित वर्ण) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) कपास (सूती)\n\nb) सण (शण/पटुआ)\nc) ऊनी (मेष ऊन)\n\nसूची-II:\n1) वैश्य\n2) क्षत्रिय\n3) ब्राह्मण",
+      "option_a": "a-3, b-2, c-1",
+      "option_b": "a-1, b-2, c-3",
+      "option_c": "a-2, b-3, c-1",
+      "option_d": "a-3, b-1, c-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. गृह्य सूत्रों के अनुसार, कपास का धागा ब्राह्मणों के लिए [3], सण का धागा क्षत्रियों के लिए [2] और ऊनी धागा वैश्यों के लिए [1] निर्धारित था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Veda) with List-II (Specific Vedic Initiation Ritual Aspect) and select the correct answer:\nList-I:\na) Rigveda Upanayana\nb) Yajurveda Upanayana\nc) Samaveda Upanayana\n\nList-II:\n1) Gayatri metre mantra\n2) Trishtubh metre mantra\n3) Jagati metre mantra",
+      "option_a": "a-1, b-2, c-3",
+      "option_b": "a-2, b-1, c-3",
+      "option_c": "a-3, b-2, c-1",
+      "option_d": "a-1, b-3, c-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Rigveda initiation traditionally uses the Gayatri metre (24 syllables) [1], Yajurveda uses Trishtubh (44 syllables) [2], and Samaveda uses Jagati (48 syllables) [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वेद) को सूची-II (विशिष्ट वैदिक दीक्षा अनुष्ठान पहलू) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) ऋग्वेद उपनयन\nb) यजुर्वेद उपनयन\nc) सामवेद उपनयन\n\nसूची-II:\n1) गायत्री छंद मंत्र\n2) त्रिष्टुप छंद मंत्र\n3) जगती छंद मंत्र",
+      "option_a": "a-1, b-2, c-3",
+      "option_b": "a-2, b-1, c-3",
+      "option_c": "a-3, b-2, c-1",
+      "option_d": "a-1, b-3, c-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. ऋग्वेद उपनयन दीक्षा में पारंपरिक रूप से गायत्री छंद (24 अक्षर) [1], यजुर्वेद में त्रिष्टुप (44 अक्षर) [2] और सामवेद में जगती (48 अक्षर) [3] का उपयोग किया जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Sanskara Group) with List-II (Sanskara Names Included) and select the correct answer:\nList-I:\na) Prenatal rites\nb) Early childhood rites\nc) Educational rites\nd) Post-educational/Social rites\n\nList-II:\n1) Upanayana, Vedarambha, Keshanta\n2) Vivaha, Antyesti\n3) Garbhadhana, Punsavana, Simantonayana\n4) Jatakarma, Namakarana, Nishkramana",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-3, b-1, c-4, d-2",
+      "option_c": "a-1, b-2, c-3, d-4",
+      "option_d": "a-4, b-3, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Prenatal matches [3]. Early childhood matches [4]. Educational matches [1]. Post-educational matches [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (संस्कार समूह) को सूची-II (शामिल संस्कार नाम) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) जन्मपूर्व संस्कार\nb) प्रारंभिक बाल्यावस्था संस्कार\nc) शैक्षणिक संस्कार\nd) उत्तर-शैक्षणिक/सामाजिक संस्कार\n\nसूची-II:\n1) उपनयन, वेदारंभ, केशांत\n2) विवाह, अंत्येष्टि\n3) गर्भाधान, पुंसवन, सीमान्तोन्नयन\n4) जातकर्म, नामकरण, निष्क्रमण",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-3, b-1, c-4, d-2",
+      "option_c": "a-1, b-2, c-3, d-4",
+      "option_d": "a-4, b-3, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. जन्मपूर्व का मिलान [3] से है। प्रारंभिक बाल्यावस्था का मिलान [4] से है। शैक्षणिक का मिलान [1] से है। उत्तर-शैक्षणिक का मिलान [2] से है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Traditional Deity worshipped) with List-II (Specific Sanskara) and select the correct answer:\nList-I:\na) Agni\nb) Saraswati\nc) Prajapati\nd) Savitr\n\nList-II:\n1) Garbhadhana / conception\n2) Vidyarambha / alphabets learning\n3) Upanayana / sacred thread rite\n4) Antyesti / funeral rites",
+      "option_a": "a-4, b-2, c-1, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-4, b-1, c-2, d-3",
+      "option_d": "a-2, b-4, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Agni is the primary deity of Antyesti (cremation) [4]. Saraswati is worshipped during Vidyarambha [2]. Prajapati is invoked during Garbhadhana [1]. Savitr is invoked during Upanayana (with the Gayatri mantra) [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पूजे जाने वाले पारंपरिक देवता) को सूची-II (विशिष्ट संस्कार) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) अग्नि\nb) सरस्वती\nc) प्रजापति\nd) सवित्र (सूर्य)\n\nसूची-II:\n1) गर्भाधान\n2) विद्यारंभ\n3) उपनयन\n4) अंत्येष्टि",
+      "option_a": "a-4, b-2, c-1, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-4, b-1, c-2, d-3",
+      "option_d": "a-2, b-4, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. अग्नि अंत्येष्टि (दाह संस्कार) के प्राथमिक देवता हैं [4]। विद्यारंभ के दौरान सरस्वती की पूजा की जाती है [2]। गर्भाधान के दौरान प्रजापति का आह्वान किया जाता है [1]। उपनयन के दौरान सवित्र का आह्वान किया जाता है [3]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient Term) with List-II (Significance in Rites of Passage) and select the correct answer:\nList-I:\na) Mekhala\nb) Ajina\nc) Danda\nd) Yajnopavita\n\nList-II:\n1) Deerskin worn as clothing\n2) Girdle tied around the waist\n3) Staff held by the student\n4) Triple sacred thread",
+      "option_a": "a-2, b-1, c-3, d-4",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Mekhala (a) matches the girdle [2]. Ajina (b) matches deerskin [1]. Danda (c) matches the staff [3]. Yajnopavita (d) matches the sacred thread [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन शब्द) को सूची-II (संस्कारों में महत्व) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) मेखला\nb) अजिन\nc) दण्ड\nd) यज्ञोपवीत\n\nसूची-II:\n1) वस्त्र के रूप में पहना जाने वाला मृगचर्म\n2) कमर में बांधी जाने वाली करधनी\n3) छात्र द्वारा धारण किया जाने वाला डंडा (लाठी)\n4) तिहरा पवित्र धागा (जनेऊ)",
+      "option_a": "a-2, b-1, c-3, d-4",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-3, c-1, d-4",
+      "option_d": "a-3, b-1, c-2, d-4",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. मेखला (a) का मिलान कमरबंद [2] से है। अजिन (b) का मिलान मृगचर्म [1] से है। दण्ड (c) का मिलान लाठी [3] से है। यज्ञोपवीत (d) का मिलान तिहरे पवित्र धागे [4] से है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Simantonayana sanskara:\n1. It is performed in the first trimester of pregnancy.\n2. It involves the symbolic parting of the wife's hair by the husband.\n3. The main objective is to protect the mother from negative vibes and ensure mental peace.\n\nWhich of the statements given above are correct?",
+      "option_a": "2 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is incorrect because Simantonayana is performed in the third trimester (typically in the 6th or 8th month), not the first. Statement 2 is correct because the husband partings the wife's hair with a blade of Darbha grass or a quill. Statement 3 is correct as the psychological health of the pregnant mother is the primary focus of this rite."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सीमान्तोन्नयन संस्कार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह गर्भावस्था की पहली तिमाही में किया जाता है।\n2. इसमें पति द्वारा पत्नी के बालों को प्रतीकात्मक रूप से विभाजित करना शामिल है।\n3. मुख्य उद्देश्य माँ को नकारात्मक तरंगों से बचाना और मानसिक शांति सुनिश्चित करना है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 2 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 गलत है क्योंकि सीमान्तोन्नयन तीसरी तिमाही में (आमतौर पर छठे या आठवें महीने में) किया जाता है, पहली तिमाही में नहीं। कथन 2 सही है क्योंकि पति दूर्वा घास या साही के कांटे से पत्नी के बाल संवारता है। कथन 3 सही है क्योंकि इस संस्कार का मुख्य फोकस गर्भवती माँ का मानसिक स्वास्थ्य होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Upanayana (Sacred Thread) ceremony:\n1. It marks the initiation of a student into the Vedic studies and the Gayatri mantra.\n2. The thread (Yajnopavita) consists of three strands, representing the three debts (Rinas).\n3. It was historically performed at different ages for Brahmanas, Kshatriyas, and Vaishyas.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct as Upanayana is the entry point to Vedic study with the Gayatri Mantra. Statement 2 is correct since the three strands represent Deva, Rishi, and Pitri Rinas. Statement 3 is correct because daily texts state different initiation ages: 8 for Brahmana, 11 for Kshatriya, and 12 for Vaishya."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उपनयन (जनेऊ) संस्कार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह वैदिक अध्ययन और गायत्री मंत्र में छात्र के दीक्षा का प्रतीक है।\n2. जनेऊ (यज्ञोपवीत) में तीन सूत्र होते हैं, जो तीन ऋणों का प्रतिनिधित्व करते हैं।\n3. ऐतिहासिक रूप से यह ब्राह्मणों, क्षत्रियों और वैश्यों के लिए अलग-अलग आयु में किया जाता था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि उपनयन गायत्री मंत्र के साथ वैदिक अध्ययन का प्रवेश बिंदु है। कथन 2 सही है क्योंकि तीन सूत्र देव, ऋषि और पितृ ऋण का प्रतिनिधित्व करते हैं। कथन 3 सही है क्योंकि ग्रंथ दीक्षा की अलग-अलग आयु बताते हैं: ब्राह्मण के लिए 8 वर्ष, क्षत्रिय के लिए 11 वर्ष और वैश्य के लिए 12 वर्ष।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Chudakarana (Mundana) ceremony:\n1. It is performed to shave off the hair from birth to symbolize purity and the removal of past karma.\n2. According to tradition, all hair on the head is completely shaved without leaving any tuft (Shikha).\n3. It is traditionally performed within the first or third year of the child's life.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because shaving represents shedding impurities of past lives. Statement 2 is incorrect because a tuft of hair called 'Shikha' is specifically left on the crown to protect the Brahmarandhra. Statement 3 is correct because the Grihya Sutras prescribe performance in the first or third year."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चूड़ाकर्म (मुंडन) संस्कार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह पवित्रता और पिछले कर्मों को हटाने के प्रतीक के रूप में जन्म के बालों को मुंडवाने के लिए किया जाता है।\n2. परंपरा के अनुसार, सिर के सारे बाल पूरी तरह से मुंडवा दिए जाते हैं और कोई चोटी (शिखा) नहीं छोड़ी जाती।\n3. यह पारंपरिक रूप से बच्चे के जीवन के पहले या तीसरे वर्ष के भीतर किया जाता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि मुंडन पिछले जन्मों की अशुद्धियों को दूर करने का प्रतिनिधित्व करता है। कथन 2 गलत है क्योंकि ब्रह्मरंध्र की रक्षा के लिए सिर के शीर्ष पर 'शिखा' (चोटी) विशेष रूप से छोड़ी जाती है। कथन 3 सही है क्योंकि गृह्य सूत्र पहले या तीसरे वर्ष में इसे करने का निर्देश देते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Annaprashana ceremony:\n1. It represents the first time solid food is fed to the infant.\n2. It is typically performed in the sixth month when the child begins teething.\n3. The food fed must always be spicy meat curry according to the Ashvalayana Grihya Sutra.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Annaprashana translates to 'food feeding' or introduction to solids. Statement 2 is correct as it aligns with the infant's biology around the sixth month. Statement 3 is incorrect because mild sweet puddings (Payasa) or honey-mixed rice are prescribed, not spicy meat curry."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अन्नप्राशन संस्कार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह शिशु को पहली बार ठोस आहार खिलाने का प्रतिनिधित्व करता है।\n2. यह आमतौर पर छठे महीने में किया जाता है जब बच्चे के दांत निकलने शुरू होते हैं।\n3. आश्वलायन गृह्य सूत्र के अनुसार खिलाया जाने वाला भोजन हमेशा मसालेदार मांस करी होना चाहिए।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि अन्नप्राशन का अनुवाद ठोस भोजन की शुरुआत से है। कथन 2 सही है क्योंकि यह छठे महीने के आसपास शिशु के जैविक विकास के अनुकूल है। कथन 3 गलत है क्योंकि हल्की मीठी खीर (पायस) या शहद मिला हुआ चावल दिया जाता है, मसालेदार मांस करी नहीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Samavartana sanskara:\n1. It marks the graduation ceremony where the student returns home from the Guru's house.\n2. The student is called a 'Snataka' after completing this rite.\n3. The ceremony is performed before the Upanayana sanskara takes place.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Samavartana means 'returning home' after completion of education. Statement 2 is correct as the student takes a bath and becomes a Snataka. Statement 3 is incorrect because Samavartana is performed at the end of the student phase, which is years after the Upanayana."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. समावर्तन संस्कार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह दीक्षांत समारोह का प्रतीक है जहां छात्र गुरु के घर से वापस अपने घर लौटता है।\n2. इस अनुष्ठान को पूरा करने के बाद छात्र को 'स्नातक' कहा जाता है।\n3. यह संस्कार उपनयन संस्कार होने से पहले किया जाता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि समावर्तन का अर्थ शिक्षा पूरी होने के बाद 'घर लौटना' है। कथन 2 सही है क्योंकि छात्र औपचारिक स्नान करता है और स्नातक बनता है। कथन 3 गलत है क्योंकि समावर्तन छात्र जीवन के अंत में किया जाता है, जो उपनयन के कई वर्षों बाद होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Antyesti sanskara:\n1. It is the final of the sixteen traditional sanskaras.\n2. The body is traditionally offered to the fire (cremated) to help the soul merge back with Brahman/Nature.\n3. It is completely avoided in the case of ascetics (Sannyasis), who are instead given water burial (Jala Samadhi) or earth burial (Bhu Samadhi).\n\nWhich of the statements given above are correct?",
+      "option_a": "1, 2 and 3",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1 and 3 only",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Antyesti is the 16th and final rite. Statement 2 is correct as cremation represents return of body elements to nature. Statement 3 is correct because Sannyasis who have renounced the material world and their fire obligations are traditionally buried rather than cremated."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अंत्येष्टि संस्कार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह सोलह पारंपरिक संस्कारों में से अंतिम है।\n2. आत्मा को ब्रह्म/प्रकृति में वापस विलीन होने में मदद करने के लिए शरीर को पारंपरिक रूप से अग्नि को समर्पित (दाह संस्कार) किया जाता है।\n3. संन्यासियों के मामले में इससे पूरी तरह से बचा जाता है, जिन्हें इसके बजाय जल समाधि या भू समाधि दी जाती है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "1, 2 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "केवल 1 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि अंत्येष्टि 16वां और अंतिम संस्कार है। कथन 2 सही है क्योंकि दाह संस्कार शरीर के तत्वों को प्रकृति में वापस लौटाने का प्रतिनिधित्व करता है। कथन 3 सही है क्योंकि संन्यासी जिन्होंने भौतिक संसार और अपनी अग्नि जिम्मेदारियों का त्याग कर दिया है, उन्हें जलाने के बजाय दफनाने (समाधि देने) की परंपरा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the prenatal sanskaras:\n1. Punsavana is performed specifically to safeguard the fetus and ensure physical growth.\n2. Garbhadhana is performed before conception occurs.\n3. All prenatal sanskaras are performed after the birth of the child.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Punsavana protects the fetus. Statement 2 is correct because Garbhadhana is the ritual performed for actual conception. Statement 3 is incorrect because prenatal sanskaras, by definition, are performed before birth."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जन्मपूर्व संस्कारों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. पुंसवन विशेष रूप से भ्रूण की सुरक्षा और शारीरिक विकास सुनिश्चित करने के लिए किया जाता है।\n2. गर्भाधान का संपादन गर्भधारण होने से पहले किया जाता है।\n3. सभी जन्मपूर्व संस्कार बच्चे के जन्म के बाद किए जाते हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि पुंसवन भ्रूण की रक्षा करता है। कथन 2 सही है क्योंकि गर्भाधान वास्तविक गर्भधारण के लिए किया जाने वाला अनुष्ठान है। कथन 3 गलत है क्योंकि जन्मपूर्व संस्कार परिभाषा के अनुसार जन्म से पहले किए जाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Karnavedha and Vidyarambha:\n1. Karnavedha (ear piercing) is considered both an aesthetic and a health rite.\n2. Vidyarambha represents the official beginning of secondary education under a family priest.\n3. Both rites are classified as educational sanskaras according to Manu Smriti.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Karnavedha serves physical health and aesthetic purposes. Statement 2 is incorrect because Vidyarambha is for primary education (learning alphabets), not secondary education. Statement 3 is incorrect because Karnavedha is classified as a childhood rite, whereas Vidyarambha is an educational rite."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कर्णवेध और विद्यारंभ के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. कर्णवेध (कान छिदवाना) को सौंदर्य और स्वास्थ्य दोनों के लिए उपयोगी संस्कार माना जाता है।\n2. विद्यारंभ पारिवारिक पुरोहित के अधीन माध्यमिक शिक्षा की आधिकारिक शुरुआत को दर्शाता है।\n3. मनुस्मृति के अनुसार दोनों को शैक्षणिक संस्कारों के रूप में वर्गीकृत किया गया है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि कर्णवेध शारीरिक स्वास्थ्य और सौंदर्य संबंधी दोनों उद्देश्यों को पूरा करता है। कथन 2 गलत है क्योंकि विद्यारंभ प्राथमिक शिक्षा (अक्षर ज्ञान) के लिए है, माध्यमिक शिक्षा के लिए नहीं। कथन 3 गलत है क्योंकि कर्णवेध को बाल्यावस्था संस्कार के रूप में वर्गीकृत किया गया है, जबकि विद्यारंभ शैक्षणिक संस्कार है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Vivaha sanskara rituals:\n1. Panigrahana is the ritual where the groom holds the hand of the bride, promising lifelong companionship.\n2. Saptapadi refers to the three circumambulations around the sacred fire.\n3. Vivaha is considered a contract that can be dissolved by mutual consent in orthodox Hindu law.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Panigrahana means holding hands to swear commitment. Statement 2 is incorrect because Saptapadi is seven steps, not three circumambulations. Statement 3 is incorrect because orthodox Hindu law views Vivaha as an indissoluble sacrament, not a dissolvable contract."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. विवाह संस्कार के अनुष्ठानों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. पाणिग्रहण वह अनुष्ठान है जहाँ वर वधू का हाथ पकड़कर जीवन भर साथ निभाने का वचन देता है।\n2. सप्तपदी का तात्पर्य पवित्र अग्नि के चारों ओर तीन परिक्रमाओं से है।\n3. पारंपरिक हिंदू कानून में विवाह को एक अनुबंध माना जाता है जिसे आपसी सहमति से भंग किया जा सकता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि पाणिग्रहण का अर्थ प्रतिबद्धता जताने के लिए हाथ पकड़ना है। कथन 2 गलत है क्योंकि सप्तपदी सात कदम हैं, तीन परिक्रमाएं नहीं। कथन 3 गलत है क्योंकि पारंपरिक हिंदू कानून विवाह को एक अटूट संस्कार मानता है, न कि एक भंग होने योग्य अनुबंध।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the socio-cultural significance of the Upanayana Sanskara in ancient Indian society. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Introduction: The Upanayana (sacred thread ceremony) is the eleventh rite of passage marking a child's initiation into formal education.\n\nSignificance:\n- Spiritual Birth: It grants the status of 'Dvija' (twice-born), symbolizing intellectual rebirth.\n- Domain of Knowledge: It initiates the child into Brahmacharya and Vedic study under a Guru.\n- Moral Responsibility: The Yajnopavita thread reminds the student of duties towards gods, ancestors, and teachers.\n\nConclusion: Thus, it served as a key social instrument for intellectual development and moral character building in society."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय समाज में उपनयन संस्कार के सामाजिक-सांस्कृतिक महत्व की चर्चा कीजिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "प्रस्तावना: उपनयन (जनेऊ संस्कार) ग्यारहवां संस्कार है जो बच्चे के औपचारिक शिक्षा में प्रवेश को चिह्नित करता है।\n\nमहत्व:\n- आध्यात्मिक जन्म: यह 'द्विज' (दूसरा जन्म) का दर्जा देता है, जो बौद्धिक पुनर्जन्म का प्रतीक है।\n- ज्ञान का क्षेत्र: यह बच्चे को गुरु के अधीन ब्रह्मचर्य और वैदिक अध्ययन में दीक्षित करता है।\n- नैतिक जिम्मेदारी: यज्ञोपवीत धागा छात्र को देवताओं, पूर्वजों और शिक्षकों के प्रति कर्तव्यों की याद दिलाता है।\n\nनिष्कर्ष: इस प्रकार, इसने समाज में बौद्धिक विकास और नैतिक चरित्र निर्माण के लिए एक प्रमुख सामाजिक साधन के रूप में कार्य किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the scientific and developmental basis behind the classification of the sixteen Sanskaras (Rites of Passage) in ancient India. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Introduction: The Sanskara system represents a scientific and structured framework of 16 rites designed to refine human personality at different physiological and developmental stages of life.\n\nClassification and Scientific Basis:\n\n| Stage | Sanskaras Included | Physiological & Developmental Rationale |\n| :--- | :--- | :--- |\n| **Prenatal** | Garbhadhana, Punsavana, Simantonayana | Focuses on prenatal health, fetal protection, and the positive psychological state of the mother. |\n| **Infancy** | Jatakarma, Namakarana, Nishkramana, Annaprashana | Focuses on immune building (honey/ghee), hygiene (tonsure), sensory acclimatization (sunlight), and transition to solid foods. |\n| **Educational** | Vidyarambha, Upanayana, Vedarambha, Keshanta, Samavartana | Structures mental growth, primary writing, formal schooling, discipline under a Guru, and graduation. |\n| **Social & End of Life** | Vivaha, Antyesti | Establishes social order, family responsibilities, and provides a dignified return of the body to nature. |\n\nSignificance:\n- Holistic Development: It integrates physiological growth with intellectual, moral, and social responsibilities.\n- Psychology: Rites like Simantonayana acknowledge the impact of maternal health on the fetus.\n\nConclusion: Therefore, the 16 Sanskaras are not mere superstitions but a highly organized pedagogical and biological system designed to foster well-rounded citizens."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारत में सोलह संस्कारों के वर्गीकरण के पीछे वैज्ञानिक और विकासात्मक आधार का विश्लेषण कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "प्रस्तावना: संस्कार प्रणाली 16 अनुष्ठानों के एक वैज्ञानिक और संरचित ढांचे का प्रतिनिधित्व करती है जो जीवन के विभिन्न शारीरिक और विकासात्मक चरणों में मानव व्यक्तित्व को परिष्कृत करने के लिए डिज़ाइन किए गए हैं।\n\nवर्गीकरण और वैज्ञानिक आधार:\n\n| चरण | शामिल संस्कार | शारीरिक और विकासात्मक तर्क |\n| :--- | :--- | :--- |\n| **जन्मपूर्व** | गर्भाधान, पुंसवन, सीमान्तोन्नयन | जन्मपूर्व स्वास्थ्य, भ्रूण संरक्षण और माँ की सकारात्मक मानसिक स्थिति पर ध्यान केंद्रित करता है। |\n| **शिशुकाल** | जातकर्म, नामकरण, निष्क्रमण, अन्नप्राशन | प्रतिरक्षा निर्माण (शहद/घी), स्वच्छता (मुंडन), संवेदी अनुकूलन (धूप), और ठोस भोजन की ओर संक्रमण पर केंद्रित है। |\n| **शैक्षणिक** | विद्यारंभ, उपनयन, वेदारंभ, केशांत, समावर्तन | मानसिक विकास, अक्षर लेखन, औपचारिक स्कूली शिक्षा, गुरु के अधीन अनुशासन और दीक्षांत को व्यवस्थित करता है। |\n| **सामाजिक व जीवन का अंत** | विवाह, अंत्येष्टि | सामाजिक व्यवस्था, पारिवारिक जिम्मेदारियों को स्थापित करता है, और शरीर की प्रकृति में सम्मानजनक वापसी प्रदान करता है। |\n\nमहत्व:\n- समग्र विकास: यह बौद्धिक, नैतिक और सामाजिक जिम्मेदारियों के साथ शारीरिक विकास को एकीकृत करता है।\n- मनोविज्ञान: सीमान्तोन्नयन जैसे अनुष्ठान भ्रूण पर मातृ स्वास्थ्य के प्रभाव को स्वीकार करते हैं।\n\nनिष्कर्ष: इसलिए, 16 संस्कार केवल अंधविश्वास नहीं हैं बल्कि एक सुव्यवस्थित शैक्षणिक और जैविक प्रणाली हैं जिन्हें बहुमुखी नागरिकों को विकसित करने के लिए डिज़ाइन किया गया है।"
+    }
+  ]
+}

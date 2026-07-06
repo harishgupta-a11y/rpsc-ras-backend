@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Who among the following Greek writers refers to Chandragupta Maurya by the name 'Sandrokottos'?",
+      "option_a": "Megasthenes",
+      "option_b": "Strabo",
+      "option_c": "Justin",
+      "option_d": "Pliny",
+      "correct": "C",
+      "explanation": "Correct option: C. The Greek historian Justin refers to Chandragupta Maurya as 'Sandrokottos', and narrates his meeting with Alexander the Great."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित यूनानी लेखकों में से कौन चंद्रगुप्त मौर्य को 'सैंड्रोकोटस' (Sandrokottos) नाम से संदर्भित करता है?",
+      "option_a": "मेगस्थनीज",
+      "option_b": "स्ट्रैबो",
+      "option_c": "जस्टिन",
+      "option_d": "प्लिनी",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। यूनानी इतिहासकार जस्टिन ने चंद्रगुप्त मौर्य को 'सैंड्रोकोटस' कहा है और सिकंदर महान के साथ उनकी मुलाकात का वर्णन किया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which of the following ancient texts is Chandragupta Maurya referred to as 'Vrishala' and 'Kulahina'?",
+      "option_a": "Mudrarakshasa of Vishakhadatta",
+      "option_b": "Arthashastra of Kautilya",
+      "option_c": "Kathasaritsagara of Somadeva",
+      "option_d": "Mahavamsa of Ceylon",
+      "correct": "A",
+      "explanation": "Correct option: A. Vishakhadatta's Sanskrit play Mudrarakshasa refers to Chandragupta Maurya as 'Vrishala' (of low caste) and 'Kulahina' (of humble origin)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से किस प्राचीन ग्रंथ में चंद्रगुप्त मौर्य को 'वृषल' और 'कुलहीन' कहा गया है?",
+      "option_a": "विशाखदत्त का मुद्राराक्षस",
+      "option_b": "कौटिल्य का अर्थशास्त्र",
+      "option_c": "सोमदेव का कथासरित्सागर",
+      "option_d": "सिंहल का महावंश",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। विशाखदत्त के संस्कृत नाटक मुद्राराक्षस में चंद्रगुप्त मौर्य को 'वृषल' (निम्न कुल का) और 'कुलहीन' (विनम्र मूल का) कहकर संबोधित किया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous military conflict between Chandragupta Maurya and the Seleucid Empire ruler Seleucus I Nicator took place in which year?",
+      "option_a": "326 BC",
+      "option_b": "305 BC",
+      "option_c": "315 BC",
+      "option_d": "298 BC",
+      "correct": "B",
+      "explanation": "Correct option: B. Chandragupta Maurya defeated Seleucus I Nicator in 305 BC, leading to a peace treaty and territorial concessions."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंद्रगुप्त मौर्य और सेल्यूसिड साम्राज्य के शासक सेल्यूकस प्रथम निकेटर के बीच प्रसिद्ध सैन्य संघर्ष किस वर्ष हुआ था?",
+      "option_a": "326 ईसा पूर्व",
+      "option_b": "305 ईसा पूर्व",
+      "option_c": "315 ईसा पूर्व",
+      "option_d": "298 ईसा पूर्व",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। चंद्रगुप्त मौर्य ने 305 ईसा पूर्व में सेल्यूकस प्रथम निकेटर को पराजित किया था, जिसके बाद एक शांति संधि और क्षेत्रीय रियायतें हुई थीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to Buddhist tradition, which of the following clans did Chandragupta Maurya belong to?",
+      "option_a": "Shakya Clan",
+      "option_b": "Moriya Clan of Pipphalivana",
+      "option_c": "Jnatrika Clan",
+      "option_d": "Licchavi Clan",
+      "correct": "B",
+      "explanation": "Correct option: B. Buddhist texts like Mahavamsa state that Chandragupta Maurya belonged to the Moriya clan, a kshatriya clan ruling Pipphalivana."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध परंपरा के अनुसार, चंद्रगुप्त मौर्य निम्नलिखित में से किस वंश से संबंधित थे?",
+      "option_a": "शाक्य वंश",
+      "option_b": "पिप्पलिवन के मोरिय वंश",
+      "option_c": "ज्ञातृक वंश",
+      "option_d": "लिच्छवी वंश",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। महावंश जैसे बौद्ध ग्रंथों में उल्लेख है कि चंद्रगुप्त मौर्य पिप्पलिवन पर शासन करने वाले क्षत्रिय 'मोरिय' वंश से संबंधित थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to Jain tradition, Chandragupta Maurya abdicated his throne and spent his last days performing Sallekhana at which of the following places?",
+      "option_a": "Shravanabelagola",
+      "option_b": "Girnar",
+      "option_c": "Shatrunjaya",
+      "option_d": "Ujjain",
+      "correct": "A",
+      "explanation": "Correct option: A. Chandragupta Maurya embraced Jainism under Acharya Bhadrabahu, abdicated his throne, and starved himself to death (Sallekhana) at Shravanabelagola in modern Karnataka."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन परंपरा के अनुसार, चंद्रगुप्त मौर्य ने अपना सिंहासन त्याग दिया और अपने अंतिम दिन निम्नलिखित में से किस स्थान पर सल्लेखना करते हुए बिताए?",
+      "option_a": "श्रवणबेलगोला",
+      "option_b": "गिरनार",
+      "option_c": "शत्रुंजय",
+      "option_d": "उज्जैन",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। चंद्रगुप्त मौर्य ने आचार्य भद्रबाहु के अधीन जैन धर्म अपनाया, सिंहासन का त्याग किया, और आधुनिक कर्नाटक में श्रवणबेलगोला में सल्लेखना (भूख से मृत्यु) की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the Greek ambassador sent by Seleucus I Nicator to the court of Chandragupta Maurya?",
+      "option_a": "Daimachus",
+      "option_b": "Dionysius",
+      "option_c": "Megasthenes",
+      "option_d": "Heliodorus",
+      "correct": "C",
+      "explanation": "Correct option: C. Megasthenes was sent as the Seleucid ambassador to Pataliputra, where he wrote the famous account 'Indica'."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सेल्यूकस प्रथम निकेटर द्वारा चंद्रगुप्त मौर्य के दरबार में भेजा गया यूनानी राजदूत कौन था?",
+      "option_a": "डाइमेकस",
+      "option_b": "डायोनिसियस",
+      "option_c": "मेगस्थनीज",
+      "option_d": "हेलियोडोरस",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। मेगस्थनीज को सेल्यूसिड राजदूत के रूप में पाटलिपुत्र भेजा गया था, जहाँ उन्होंने प्रसिद्ध वृत्तांत 'इण्डिका' लिखा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which historical document records the construction of a dam on Sudarshana Lake by Pushyagupta, the provincial governor of Chandragupta Maurya?",
+      "option_a": "Junagadh Rock Inscription of Rudradaman I",
+      "option_b": "Aihole Inscription of Pulakeshin II",
+      "option_c": "Allahabad Pillar Inscription of Samudragupta",
+      "option_d": "Hathigumpha Inscription of Kharavela",
+      "correct": "A",
+      "explanation": "Correct option: A. The Junagadh inscription of the Western Kshatrapa ruler Rudradaman I (150 AD) mentions the construction of Sudarshana Lake by Chandragupta's governor Pushyagupta."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा ऐतिहासिक दस्तावेज चंद्रगुप्त मौर्य के प्रांतीय गवर्नर पुष्यगुप्त द्वारा सुदर्शन झील पर एक बांध के निर्माण को दर्ज करता है?",
+      "option_a": "रुद्रदामन प्रथम का जूनागढ़ शिलालेख",
+      "option_b": "पुलकेशिन द्वितीय का ऐहोल शिलालेख",
+      "option_c": "समुद्रगुप्त का इलाहाबाद स्तंभ शिलालेख",
+      "option_d": "खारवेल का हाथीगुम्फा शिलालेख",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। पश्चिमी क्षत्रप शासक रुद्रदामन प्रथम के जूनागढ़ शिलालेख (150 ईस्वी) में चंद्रगुप्त के गवर्नर पुष्यगुप्त द्वारा सुदर्शन झील के निर्माण का उल्लेख है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What title was bestowed upon Bindusara by Greek writers, representing his ruthless military campaigns?",
+      "option_a": "Amitraghata",
+      "option_b": "Devanamampriya",
+      "option_c": "Sandrokottos",
+      "option_d": "Simhasena",
+      "correct": "A",
+      "explanation": "Correct option: A. Bindusara was called 'Amitrochates' or 'Amitraghata' (slayer of enemies) by Greek writers, indicating his formidable military power."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. यूनानी लेखकों द्वारा बिंदुसार को उनकी क्रूर सैन्य अभियानों के संदर्भ में क्या उपाधि प्रदान की गई थी?",
+        "option_a": "अमित्रघात",
+        "option_b": "देवानांप्रिय",
+        "option_c": "सैंड्रोकोटस",
+        "option_d": "सिंहसेन",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। यूनानी लेखकों द्वारा बिंदुसार को 'अमित्रोकेट्स' या 'अमित्रघात' (शत्रुओं का नाश करने वाला) कहा गया था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. The Greek ambassador Daimachus of Plateia was sent to the Mauryan court of Bindusara by which Seleucid ruler?",
+        "option_a": "Seleucus I Nicator",
+        "option_b": "Antiochus I Soter",
+        "option_c": "Ptolemy II Philadelphus",
+        "option_d": "Antigonus Gonatas",
+        "correct": "B",
+        "explanation": "Correct option: B. Daimachus was sent as an ambassador to the court of Bindusara by the Seleucid king Antiochus I Soter."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. प्लेटिया के यूनानी राजदूत डाइमेकस को किस सेल्यूसिड शासक द्वारा बिंदुसार के मौर्य दरबार में भेजा गया था?",
+        "option_a": "सेल्यूकस प्रथम निकेटर",
+        "option_b": "एंटिओकस प्रथम सोटर",
+        "option_c": "टॉलेमी द्वितीय फिलाडेल्फस",
+        "option_d": "एंटिगोनस गोनाटास",
+        "correct": "B",
+        "explanation": "सही विकल्प: B। डाइमेकस को सेल्यूसिड राजा एंटिओकस प्रथम सोटर द्वारा बिंदुसार के दरबार में राजदूत बनाकर भेजा गया था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. According to the Jain text Parishishtaparvan, who was the mother of Bindusara?",
+        "option_a": "Durdhara",
+        "option_b": "Helena",
+        "option_c": "Subhadrangi",
+        "option_d": "Charumati",
+        "correct": "A",
+        "explanation": "Correct option: A. The Parishishtaparvan written by Hemachandra names Durdhara, the queen of Chandragupta Maurya, as the mother of Bindusara."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. जैन ग्रंथ परिशिष्टपर्वन् के अनुसार, बिंदुसार की माता कौन थीं?",
+        "option_a": "दुर्धरा",
+        "option_b": "हेलेना",
+        "option_c": "सुभद्रांगी",
+        "option_d": "चारुमती",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। हेमचंद्र द्वारा रचित परिशिष्टपर्वन् में चंद्रगुप्त मौर्य की रानी दुर्धरा को बिंदुसार की माता के रूप में नामित किया गया है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Which religious sect did Bindusara patronize during his reign?",
+        "option_a": "Buddhism",
+        "option_b": "Jainism",
+        "option_c": "Ajivika",
+        "option_d": "Bhagavatism",
+        "correct": "C",
+        "explanation": "Correct option: C. Bindusara was a patron of the Ajivika sect, an ascetic heterodox sect founded by Makkhali Gosala."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. बिंदुसार ने अपने शासनकाल के दौरान किस धार्मिक संप्रदाय को संरक्षण दिया था?",
+        "option_a": "बौद्ध धर्म",
+        "option_b": "जैन धर्म",
+        "option_c": "आजीवक",
+        "option_d": "भागवत धर्म",
+        "correct": "C",
+        "explanation": "सही विकल्प: C। बिंदुसार मक्खलि गोसाल द्वारा स्थापित आजीवक संप्रदाय के संरक्षक थे, जो एक नास्तिक संप्रदाय था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. According to Pliny, which Egyptian king sent Dionysius as an ambassador to the Mauryan court during the reign of Bindusara (or Chandragupta Maurya)?",
+        "option_a": "Ptolemy I Soter",
+        "option_b": "Ptolemy II Philadelphus",
+        "option_c": "Ptolemy III Euergetes",
+        "option_d": "Ptolemy IV Philopator",
+        "correct": "B",
+        "explanation": "Correct option: B. Pliny records that Ptolemy II Philadelphus of Egypt sent Dionysius as an ambassador to the Mauryan court."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. प्लिनी के अनुसार, किस मिस्र के राजा ने बिंदुसार (या चंद्रगुप्त मौर्य) के शासनकाल के दौरान मौर्य दरबार में डायोनिसियस को राजदूत के रूप में भेजा था?",
+        "option_a": "टॉलेमी प्रथम सोटर",
+        "option_b": "टॉलेमी द्वितीय फिलाडेल्फस",
+        "option_c": "टॉलेमी तृतीय यूएर्गेट्स",
+        "option_d": "टॉलेमी चतुर्थ फिलोपाेटर",
+        "correct": "B",
+        "explanation": "सही विकल्प: B। प्लिनी ने दर्ज किया है कि मिस्र के टॉलेमी द्वितीय फिलाडेल्फस ने मौर्य दरबार में डायोनिसियस को राजदूत के रूप में भेजा था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. During the reign of Bindusara, a major citizens' rebellion broke out in which provincial capital, which was subsequently suppressed by Prince Ashoka?",
+        "option_a": "Ujjain",
+        "option_b": "Tosali",
+        "option_c": "Taxila",
+        "option_d": "Suvarnagiri",
+        "correct": "C",
+        "explanation": "Correct option: C. The Divyavadana mentions that a citizens' rebellion against corrupt ministers broke out in Taxila, and Bindusara sent Prince Ashoka to restore peace."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. बिंदुसार के शासनकाल के दौरान, किस प्रांतीय राजधानी में एक बड़ा नागरिक विद्रोह भड़का था, जिसे बाद में राजकुमार अशोक ने शांत किया था?",
+        "option_a": "उज्जैन",
+        "option_b": "तोसली",
+        "option_c": "तक्षशिला",
+        "option_d": "सुवर्णगिरि",
+        "correct": "C",
+        "explanation": "सही विकल्प: C। दिव्यावदान में उल्लेख है कि भ्रष्ट मंत्रियों के खिलाफ तक्षशिला में विद्रोह हुआ था, और बिंदुसार ने शांति बहाल करने के लिए राजकुमार अशोक को भेजा था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Who served as the Chief Minister (Prime Minister) during the early reign of Bindusara, continuing from the reign of Chandragupta Maurya?",
+        "option_a": "Radhagupta",
+        "option_b": "Chanakya",
+        "option_c": "Khallataka",
+        "option_d": "Rakshasa",
+        "correct": "B",
+        "explanation": "Correct option: B. Chanakya (Kautilya) continued to serve as the Chief Minister during the initial years of Bindusara's reign before being succeeded by Khallataka."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. चंद्रगुप्त मौर्य के शासनकाल से निरंतरता बनाए रखते हुए, बिंदुसार के प्रारंभिक शासनकाल के दौरान किसने मुख्य मंत्री (प्रधानमंत्री) के रूप में कार्य किया था?",
+        "option_a": "राधागुप्त",
+        "option_b": "चाणक्य",
+        "option_c": "खल्लाटक",
+        "option_d": "राक्षस",
+        "correct": "B",
+        "explanation": "सही विकल्प: B। चाणक्य (कौटिल्य) ने खल्लाटक के उत्तराधिकारी बनने से पहले बिंदुसार के शासनकाल के प्रारंभिक वर्षों में मुख्य मंत्री के रूप में कार्य करना जारी रखा था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Which Mauryan governor was responsible for administering the Western province of Saurashtra under Chandragupta Maurya?",
+        "option_a": "Tushaspha",
+        "option_b": "Pushyagupta",
+        "option_c": "Radhagupta",
+        "option_d": "Suvisakha",
+        "correct": "B",
+        "explanation": "Correct option: B. Pushyagupta, the Vaishya brother-in-law of Chandragupta Maurya, was the governor of Saurashtra."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. चंद्रगुप्त मौर्य के अधीन पश्चिमी प्रांत सौराष्ट्र के प्रशासन के लिए कौन सा मौर्य गवर्नर जिम्मेदार था?",
+        "option_a": "तुषास्प",
+        "option_b": "पुष्यगुप्त",
+        "option_c": "राधागुप्त",
+        "option_d": "सुविशाख",
+        "correct": "B",
+        "explanation": "सही विकल्प: B। चंद्रगुप्त मौर्य के वैश्य साले पुष्यगुप्त सौराष्ट्र प्रांत के गवर्नर थे।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Which Greek historian wrote that Chandragupta Maurya overran and subdued the whole of India with an army of 600,000 men?",
+        "option_a": "Plutarch",
+        "option_b": "Arrian",
+        "option_c": "Justin",
+        "option_d": "Diodorus",
+        "correct": "A",
+        "explanation": "Correct option: A. Plutarch stated that 'Androcottus' (Chandragupta) overran and conquered all of India with an army of 600,000 men."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. किस यूनानी इतिहासकार ने लिखा है कि चंद्रगुप्त मौर्य ने 600,000 सैनिकों की सेना के साथ पूरे भारत को रौंद डाला और अपने अधीन कर लिया?",
+        "option_a": "प्लूटार्क",
+        "option_b": "एरियन",
+        "option_c": "जस्टिन",
+        "option_d": "डायोडोरस",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। प्लूटार्क ने कहा था कि 'एंड्रोकोटस' (चंद्रगुप्त) ने 600,000 की सेना के साथ पूरे भारत को रौंद दिया और जीत लिया।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. The Mahasthangarh Inscription, which mentions relief measures during a severe famine, is located in which modern country?",
+        "option_a": "India",
+        "option_b": "Pakistan",
+        "option_c": "Bangladesh",
+        "option_d": "Nepal",
+        "correct": "C",
+        "explanation": "Correct option: C. The Mahasthangarh Inscription, written in Brahmi script and Prakrit language, is found in Bogra district, Bangladesh, and details famine relief under the Mauryas."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. महास्थानगढ़ शिलालेख, जिसमें गंभीर अकाल के दौरान राहत उपायों का उल्लेख है, किस आधुनिक देश में स्थित है?",
+        "option_a": "भारत",
+        "option_b": "पाकिस्तान",
+        "option_c": "बांग्लादेश",
+        "option_d": "नेपाल",
+        "correct": "C",
+        "explanation": "सही विकल्प: C। ब्राह्मी लिपि और प्राकृत भाषा में लिखा गया महास्थानगढ़ शिलालेख बांग्लादेश के बोगरा जिले में मिला है, जिसमें मौर्य काल के दौरान अकाल राहत का विवरण है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. The Sohgaura Copper Plate Inscription, which records the establishment of state storehouses (Koshthagara) for famine relief, is located in which district of Uttar Pradesh?",
+        "option_a": "Gorakhpur",
+        "option_b": "Varanasi",
+        "option_c": "Prayagraj",
+        "option_d": "Mirzapur",
+        "correct": "A",
+        "explanation": "Correct option: A. The Sohgaura Copper Plate is located in Gorakhpur district, Uttar Pradesh, and is one of the earliest known copper-plate inscriptions."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. सोहगौरा तांबे का पत्ता शिलालेख, जो अकाल राहत के लिए राजकीय कोष्ठागारों की स्थापना को दर्ज करता है, उत्तर प्रदेश के किस जिले में स्थित है?",
+        "option_a": "गोरखपुर",
+        "option_b": "वाराणसी",
+        "option_c": "प्रयागराज",
+        "option_d": "मिर्जापुर",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। सोहगौरा ताम्रपत्र उत्तर प्रदेश के गोरखपुर जिले में स्थित है, और यह सबसे पुराने ज्ञात तांबे के पत्रों में से एक है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Under Chandragupta Maurya's administration, what was the term used for the superintendent of passports?",
+        "option_a": "Mudradhyaksha",
+        "option_b": "Pautavadhyaksha",
+        "option_c": "Sulkadhyaksha",
+        "option_d": "Lavanadhyaksha",
+        "correct": "A",
+        "explanation": "Correct option: A. According to Arthashastra, Mudradhyaksha was the superintendent of passports, and without a pass issued by him, no one could enter or leave the country."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. चंद्रगुप्त मौर्य के प्रशासन के तहत, पासपोर्ट के अधीक्षक के लिए किस शब्द का उपयोग किया जाता था?",
+        "option_a": "मुद्राध्यक्ष",
+        "option_b": "पौतवाध्यक्ष",
+        "option_c": "शुल्काध्यक्ष",
+        "option_d": "लवणाध्यक्ष",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। अर्थशास्त्र के अनुसार, मुद्राध्यक्ष पासपोर्ट का अधीक्षक था, और उसके द्वारा जारी पास के बिना कोई भी देश में प्रवेश या निकास नहीं कर सकता था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Which scholar identified the Greek name 'Sandrokottos' with Chandragupta Maurya for the first time in modern historiography?",
+        "option_a": "James Prinsep",
+        "option_b": "William Jones",
+        "option_c": "Vincent Smith",
+        "option_d": "Alexander Cunningham",
+        "correct": "B",
+        "explanation": "Correct option: B. Sir William Jones, the founder of the Asiatic Society of Bengal, first identified 'Sandrokottos' as Chandragupta Maurya in 1793."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. आधुनिक इतिहासलेखन में पहली बार किस विद्वान ने यूनानी नाम 'सैंड्रोकोटस' की पहचान चंद्रगुप्त मौर्य से की थी?",
+        "option_a": "जेम्स प्रिंसेप",
+        "option_b": "विलियम जोन्स",
+        "option_c": "विंसेंट स्मिथ",
+        "option_d": "अलेक्जेंडर कनिंघम",
+        "correct": "B",
+        "explanation": "सही विकल्प: B। बंगाल की एशियाटिक सोसाइटी के संस्थापक सर विलियम जोन्स ने 1793 में पहली बार 'सैंड्रोकोटस' की पहचान चंद्रगुप्त मौर्य के रूप में की थी।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. According to Buddhist chronicles, which title is associated with Bindusara in Tibetan accounts written by Taranatha?",
+        "option_a": "Amitraghata",
+        "option_b": "Simhasena",
+        "option_c": "Conqueror of the land between two seas",
+        "option_d": "Devanampriya",
+        "correct": "C",
+        "explanation": "Correct option: C. The Tibetan Buddhist historian Taranatha mentions that Bindusara conquered the land between the eastern and western oceans (the two seas), implying the Deccan conquest."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. बौद्ध वृत्तांतों के अनुसार, तारानाथ द्वारा लिखित तिब्बती विवरणों में बिंदुसार के साथ कौन सी उपाधि जोड़ी गई है?",
+        "option_a": "अमित्रघात",
+        "option_b": "सिंहसेन",
+        "option_c": "दो समुद्रों के बीच की भूमि का विजेता",
+        "option_d": "देवानांप्रिय",
+        "correct": "C",
+        "explanation": "सही विकल्प: C। तिब्बती बौद्ध इतिहासकार तारानाथ ने उल्लेख किया है कि बिंदुसार ने पूर्वी और पश्चिमी महासागरों (दो समुद्रों) के बीच की भूमि पर विजय प्राप्त की, जिसका अर्थ दक्कन पर विजय है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Which modern region in Karnataka has yielded rock inscriptions confirming Chandragupta Maurya's association with Bhadrabahu and the Jain migration?",
+        "option_a": "Chitradurga",
+        "option_b": "Chandragiri Hill",
+        "option_c": "Hampi",
+        "option_d": "Banavasi",
+        "correct": "B",
+        "explanation": "Correct option: B. Chandragiri Hill at Shravanabelagola contains several inscriptions detailing the migration of Bhadrabahu and his disciple Chandragupta Maurya."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. कर्नाटक के किस आधुनिक क्षेत्र से ऐसे शिलालेख प्राप्त हुए हैं जो भद्रबाहु और जैन प्रवास के साथ चंद्रगुप्त मौर्य के जुड़ाव की पुष्टि करते हैं?",
+        "option_a": "चित्रदुर्ग",
+        "option_b": "चंद्रगिरि पहाड़ी",
+        "option_c": "हम्पी",
+        "option_d": "बनवासी",
+        "correct": "B",
+        "explanation": "सही विकल्प: B। श्रवणबेलगोला में चंद्रगिरि पहाड़ी पर कई शिलालेख हैं जिनमें भद्रबाहु और उनके शिष्य चंद्रगुप्त मौर्य के प्रवास का विवरण है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Who was the chief of the Mauryan spy network (Gudhapurushas) in Kautilya's administrative framework?",
+        "option_a": "Samaharta",
+        "option_b": "Sannidhata",
+        "option_c": "Maha-matyasarpas",
+        "option_d": "Pradesta",
+        "correct": "C",
+        "explanation": "Correct option: C. The Maha-matyasarpas (or Mahamatyapasarpa) was the minister in charge of controlling the extensive network of secret agents (Gudhapurushas)."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. कौटिल्य के प्रशासनिक ढांचे में मौर्य जासूस नेटवर्क (गूढ़पुरुष) का प्रमुख कौन था?",
+        "option_a": "समाहर्ता",
+        "option_b": "सन्निधाता",
+        "option_c": "महामात्यसर्प",
+        "option_d": "प्रदेष्टा",
+        "correct": "C",
+        "explanation": "सही विकल्प: C। महामात्यसर्प (या महामात्यापसर्प) गुप्त एजेंटों (गूढ़पुरुषों) के व्यापक नेटवर्क को नियंत्रित करने वाला प्रभारी मंत्री था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Which department in Chandragupta Maurya's administration was looked after by the 'Pautavadhyaksha'?",
+        "option_a": "Weights and Measures",
+        "option_b": "Forest Produce",
+        "option_c": "Commerce",
+        "option_d": "Tolls and Customs",
+        "correct": "A",
+        "explanation": "Correct option: A. Pautavadhyaksha was the superintendent of weights and measures, responsible for checking and standardizing weights used in trade."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. चंद्रगुप्त मौर्य के प्रशासन में 'पौतवाध्यक्ष' द्वारा किस विभाग की देखरेख की जाती थी?",
+        "option_a": "माप और तौल",
+        "option_b": "वन उत्पाद",
+        "option_c": "वाणिज्य",
+        "option_d": "पथकर और सीमा शुल्क",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। पौतवाध्यक्ष माप और तौल का अधीक्षक था, जो व्यापार में प्रयुक्त होने वाले बाटों की जाँच और मानकीकरण के लिए जिम्मेदार था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Bindusara wrote to Antiochus I, the Seleucid king, requesting him to send three things. Which of the following was NOT among them?",
+        "option_a": "Sweet wine",
+        "option_b": "Dried figs",
+        "option_c": "A sophist (philosopher)",
+        "option_d": "A collection of Greek books",
+        "correct": "D",
+        "explanation": "Correct option: D. Bindusara requested sweet wine, dried figs, and a philosopher. Antiochus sent the wine and figs but wrote back that Greek law forbade the selling of a philosopher."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. बिंदुसार ने सेल्यूसिड राजा एंटिओकस प्रथम को पत्र लिखकर तीन चीजें भेजने का अनुरोध किया था। निम्नलिखित में से कौन उनमें शामिल नहीं था?",
+        "option_a": "मीठी मदिरा",
+        "option_b": "सूखे अंजीर",
+        "option_c": "एक दार्शनिक",
+        "option_d": "यूनानी पुस्तकों का संग्रह",
+        "correct": "D",
+        "explanation": "सही विकल्प: D। बिंदुसार ने मीठी मदिरा, सूखे अंजीर और एक दार्शनिक का अनुरोध किया था। एंटिओकस ने मदिरा और अंजीर भेजे लेकिन लिखा कि यूनानी कानून दार्शनिक को बेचने की अनुमति नहीं देते।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): Chandragupta Maurya built one of the largest empires in ancient India, extending up to the Hindu Kush mountains in the northwest.\nReason (R): Chandragupta Maurya defeated Seleucus I Nicator in 305 BC and acquired the territories of Aria, Arachosia, Paropamisadae, and Gedrosia through a peace treaty.",
+        "option_a": "Both A and R are true, and R is the correct explanation of A.",
+        "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+        "option_c": "A is true, but R is false.",
+        "option_d": "A is false, but R is true.",
+        "correct": "A",
+        "explanation": "Assertion Analysis: Assertion (A) is true because Chandragupta Maurya expanded his empire up to the Hindu Kush. Reason Analysis: Reason (R) is true and directly explains how he acquired these northwestern territories from Seleucus. Therefore, R is the correct explanation of A."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. नीचे दो कथन दिए गए हैं, जिन्हें कथन (A) और कारण (R) के रूप में चिह्नित किया गया है:\nकथन (A): चंद्रगुप्त मौर्य ने प्राचीन भारत में सबसे बड़े साम्राज्यों में से एक का निर्माण किया, जिसका विस्तार उत्तर-पश्चिम में हिंदूकुश पर्वत तक था।\nकारण (R): चंद्रगुप्त मौर्य ने 305 ईसा पूर्व में सेल्यूकस प्रथम निकेटर को पराजित किया और एक शांति संधि के माध्यम सेे एरिया, अराकोसिया, परोपमिसदे और गेड्रोसिया के क्षेत्रों को प्राप्त किया।",
+        "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+        "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+        "option_c": "A सही है, लेकिन R गलत है।",
+        "option_d": "A गलत है, लेकिन R सही है।",
+        "correct": "A",
+        "explanation": "कथन विश्लेषण: कथन (A) सत्य है क्योंकि चंद्रगुप्त मौर्य ने अपने साम्राज्य का विस्तार हिंदूकुश तक किया था। कारण विश्लेषण: कारण (R) सत्य है और सीधे तौर पर स्पष्ट करता है कि उन्होंने सेल्यूकस से इन उत्तर-पश्चिमी क्षेत्रों को कैसे प्राप्त किया। इसलिए, R, A की सही व्याख्या है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): Chandragupta Maurya converted to Jainism and retired to Shravanabelagola in Karnataka.\nReason (R): A severe twelve-year famine broke out in Magadha toward the end of Chandragupta's reign, leading to a migration under Acharya Bhadrabahu.",
+        "option_a": "Both A and R are true, and R is the correct explanation of A.",
+        "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+        "option_c": "A is true, but R is false.",
+        "option_d": "A is false, but R is true.",
+        "correct": "A",
+        "explanation": "Assertion Analysis: Assertion (A) is true as Chandragupta abdicated and moved south to Shravanabelagola. Reason Analysis: Reason (R) is true and explains the cause of the migration and Chandragupta's abdication, thus correctly explaining the assertion."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. नीचे दो कथन दिए गए हैं, जिन्हें कथन (A) और कारण (R) के रूप में चिह्नित किया गया है:\nकथन (A): चंद्रगुप्त मौर्य ने जैन धर्म अपना लिया और कर्नाटक के श्रवणबेलगोला में सेवानिवृत्त हो गए।\nकारण (R): चंद्रगुप्त के शासनकाल के अंत में मगध में बारह वर्ष का भीषण अकाल पड़ा, जिसके कारण आचार्य भद्रबाहु के नेतृत्व में एक पलायन हुआ।",
+        "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+        "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+        "option_c": "A सही है, लेकिन R गलत है।",
+        "option_d": "A गलत है, लेकिन R सही है।",
+        "correct": "A",
+        "explanation": "कथन विश्लेषण: कथन (A) सत्य है क्योंकि चंद्रगुप्त ने राजसिंहासन छोड़ दिया और दक्षिण में श्रवणबेलगोला चले गए। कारण विश्लेषण: कारण (R) सत्य है और पलायन तथा चंद्रगुप्त के सिंहासन त्यागने के कारण को स्पष्ट करता है, इस प्रकार कथन की सही व्याख्या करता है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Greek author Megasthenes describes the Mauryan capital Pataliputra as a large and magnificent city surrounded by a wooden wall.\nReason (R): Bindusara maintainted close diplomatic relations with the Hellenistic kingdoms of Syria and Egypt, exchanging letters and embassies.",
+        "option_a": "Both A and R are true, and R is the correct explanation of A.",
+        "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+        "option_c": "A is true, but R is false.",
+        "option_d": "A is false, but R is true.",
+        "correct": "B",
+        "explanation": "Assertion Analysis: Assertion (A) is true as Megasthenes describes the wooden fortifications of Pataliputra. Reason Analysis: Reason (R) is true because Bindusara maintained diplomatic relations with Antiochus I and Ptolemy II, but it does not explain why Megasthenes described Pataliputra, which happened during Chandragupta Maurya's reign."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. नीचे दो कथन दिए गए हैं, जिन्हें कथन (A) और कारण (R) के रूप में चिह्नित किया गया है:\nकथन (A): यूनानी लेखक मेगस्थनीज ने मौर्य राजधानी पाटलिपुत्र का वर्णन लकड़ी की दीवार से घिरे एक बड़े और शानदार शहर के रूप में किया है।\nकारण (R): बिंदुसार ने सीरिया और मिस्र के हेलेनिस्टिक साम्राज्यों के साथ घनिष्ठ राजनयिक संबंध बनाए रखे, पत्रों और दूतावासों का आदान-प्रदान किया।",
+        "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+        "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+        "option_c": "A सही है, लेकिन R गलत है।",
+        "option_d": "A गलत है, लेकिन R सही है।",
+        "correct": "B",
+        "explanation": "कथन विश्लेषण: कथन (A) सत्य है क्योंकि मेगस्थनीज पाटलिपुत्र के लकड़ी के किलाबंदी का वर्णन करता है। कारण विश्लेषण: कारण (R) सत्य है क्योंकि बिंदुसार ने एंटिओकस प्रथम और टॉलेमी द्वितीय के साथ राजनयिक संबंध बनाए रखे, लेकिन यह यह नहीं समझाता कि मेगस्थनीज ने पाटलिपुत्र का वर्णन क्यों किया, जो चंद्रगुप्त मौर्य के शासनकाल के दौरान हुआ था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Mauryan state under Chandragupta Maurya exercised strict control over the economy, including trade and production.\nReason (R): Kautilya's Arthashastra recommends that the state should directly manage key industries, monopolies, and regulate prices through specialized superintendents.",
+        "option_a": "Both A and R are true, and R is the correct explanation of A.",
+        "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+        "option_c": "A is true, but R is false.",
+        "option_d": "A is false, but R is true.",
+        "correct": "A",
+        "explanation": "Assertion Analysis: Assertion (A) is true since the Mauryan state was highly centralized and controlled trade/production. Reason Analysis: Reason (R) is true and explains the ideological and administrative backing behind this state control as outlined in Arthashastra."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. नीचे दो कथन दिए गए हैं, जिन्हें कथन (A) और कारण (R) के रूप में चिह्नित किया गया है:\nकथन (A): चंद्रगुप्त मौर्य के अधीन मौर्य राज्य ने व्यापार और उत्पादन सहित अर्थव्यवस्था पर कड़ा नियंत्रण रखा।\nकारण (R): कौटिल्य का अर्थशास्त्र सिफारिश करता है कि राज्य को प्रमुख उद्योगों, एकाधिकारों का सीधे प्रबंधन करना चाहिए और विशिष्ट अधीक्षकों के माध्यम से कीमतों को नियंत्रित करना चाहिए।",
+        "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+        "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+        "option_c": "A सही है, लेकिन R गलत है।",
+        "option_d": "A गलत है, लेकिन R सही है।",
+        "correct": "A",
+        "explanation": "कथन विश्लेषण: कथन (A) सत्य है क्योंकि मौर्य राज्य अत्यधिक केंद्रीकृत था और व्यापार/उत्पादन को नियंत्रित करता था। कारण विश्लेषण: कारण (R) सत्य है और अर्थशास्त्र में उल्लिखित इस राज्य नियंत्रण के पीछे के वैचारिक और प्रशासनिक समर्थन को स्पष्ट करता है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): Bindusara did not expand the Mauryan Empire at all, merely maintaining the empire inherited from Chandragupta Maurya.\nReason (R): Bindusara's title 'Amitraghata' is interpreted as 'slayer of enemies' in Greek sources, and he faced rebellions in Taxila.",
+        "option_a": "Both A and R are true, and R is the correct explanation of A.",
+        "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+        "option_c": "A is true, but R is false.",
+        "option_d": "A is false, but R is true.",
+        "correct": "D",
+        "explanation": "Assertion Analysis: Assertion (A) is false because Bindusara is credited by Tibetan historian Taranatha with conquering the land between the two seas (the Deccan). Reason Analysis: Reason (R) is true as he was called Amitraghata and faced rebellions in Taxila."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. नीचे दो कथन दिए गए हैं, जिन्हें कथन (A) और कारण (R) के रूप में चिह्नित किया गया है:\nकथन (A): बिंदुसार ने मौर्य साम्राज्य का बिल्कुल भी विस्तार नहीं किया, केवल चंद्रगुप्त मौर्य से विरासत में मिले साम्राज्य को बनाए रखा।\nकारण (R): बिंदुसार की उपाधि 'अमित्रघात' की व्याख्या यूनानी स्रोतों में 'शत्रुओं का नाश करने वाला' के रूप में की गई है, और उन्हें तक्षशिला में विद्रोह का सामना करना पड़ा था।",
+        "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+        "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+        "option_c": "A सही है, लेकिन R गलत है।",
+        "option_d": "A गलत है, लेकिन R सही है।",
+        "correct": "D",
+        "explanation": "कथन विश्लेषण: कथन (A) असत्य है क्योंकि तिब्बती इतिहासकार तारानाथ ने बिंदुसार को दो समुद्रों (दक्कन) के बीच की भूमि पर विजय प्राप्त करने का श्रेय दिया है। कारण विश्लेषण: कारण (R) सत्य है क्योंकि उन्हें अमित्रघात कहा जाता था और तक्षशिला में विद्रोह का सामना करना पड़ा था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Junagadh Rock Inscription of Rudradaman is of immense value for Mauryan political history.\nReason (R): It records the names of both Chandragupta Maurya and his grandson Ashoka along with details of irrigation works in Saurashtra.",
+        "option_a": "Both A and R are true, and R is the correct explanation of A.",
+        "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+        "option_c": "A is true, but R is false.",
+        "option_d": "A is false, but R is true.",
+        "correct": "A",
+        "explanation": "Assertion Analysis: Assertion (A) is true because it is a rare epigraphic source detailing Mauryan administrative history. Reason Analysis: Reason (R) is true and explains why it is historically valuable, as it connects Chandragupta and Ashoka to the region."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. नीचे दो कथन दिए गए हैं, जिन्हें कथन (A) और कारण (R) के रूप में चिह्नित किया गया है:\nकथन (A): रुद्रदामन का जूनागढ़ शिलालेख मौर्य राजनीतिक इतिहास के लिए अत्यधिक मूल्यवान है।\nकारण (R): इसमें चंद्रगुप्त मौर्य और उनके पोते अशोक दोनों के नामों के साथ-साथ सौराष्ट्र में सिंचाई कार्यों का विवरण दर्ज है।",
+        "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+        "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+        "option_c": "A सही है, लेकिन R गलत है।",
+        "option_d": "A गलत है, लेकिन R सही है।",
+        "correct": "A",
+        "explanation": "कथन विश्लेषण: कथन (A) सत्य है क्योंकि यह मौर्य प्रशासनिक इतिहास का विवरण देने वाला एक दुर्लभ अभिलेखीय स्रोत है। कारण विश्लेषण: कारण (R) सत्य है और स्पष्ट करता है कि यह ऐतिहासिक रूप से क्यों मूल्यवान है, क्योंकि यह चंद्रगुप्त और अशोक को क्षेत्र से जोड़ता है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): Megasthenes states that there was no slavery in India during the Mauryan period.\nReason (R): Kautilya's Arthashastra mentions the existence of domestic helpers and slaves, classified under terms like 'Ahitas' and 'Dasas'.",
+        "option_a": "Both A and R are true, and R is the correct explanation of A.",
+        "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+        "option_c": "A is true, but R is false.",
+        "option_d": "A is false, but R is true.",
+        "correct": "B",
+        "explanation": "Assertion Analysis: Assertion (A) is true as Megasthenes observed that all Indians were free and no one was a slave. Reason Analysis: Reason (R) is true because Arthashastra defines different categories of slaves (Dasas). However, R is not the explanation of A (it contradicts it, showing Megasthenes was mistaken or saw a benign form of slavery)."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. नीचे दो कथन दिए गए हैं, जिन्हें कथन (A) और कारण (R) के रूप में चिह्नित किया गया है:\nकथन (A): मेगस्थनीज का कहना है कि मौर्य काल में भारत में कोई दास प्रथा नहीं थी।\nकारण (R): कौटिल्य का अर्थशास्त्र 'अहितक' और 'दास' जैसे शब्दों के तहत वर्गीकृत घरेलू सहायकों और दासों के अस्तित्व का उल्लेख करता है।",
+        "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+        "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+        "option_c": "A सही है, लेकिन R गलत है।",
+        "option_d": "A गलत है, लेकिन R सही है।",
+        "correct": "B",
+        "explanation": "कथन विश्लेषण: कथन (A) सत्य है क्योंकि मेगस्थनीज ने देखा कि सभी भारतीय स्वतंत्र थे और कोई भी दास नहीं था। कारण विश्लेषण: कारण (R) सत्य है क्योंकि अर्थशास्त्र दासों (दासों) की विभिन्न श्रेणियों को परिभाषित करता है। हालाँकि, R, A की व्याख्या नहीं है (यह इसका खंडन करता है, जिससे पता चलता है कि मेगस्थनीज भ्रमित थे या उन्होंने दासता का सौम्य रूप देखा था)।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\nAssertion (A): Chandragupta Maurya established his capital at Pataliputra, which was strategically located at the confluence of several rivers.\nReason (R): The location of Pataliputra at the confluence of the Ganga, Son, and Gandak rivers provided natural fortification and water-route trade advantages.",
+        "option_a": "Both A and R are true, and R is the correct explanation of A.",
+        "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+        "option_c": "A is true, but R is false.",
+        "option_d": "A is false, but R is true.",
+        "correct": "A",
+        "explanation": "Assertion Analysis: Assertion (A) is true as Pataliputra served as the imperial capital. Reason Analysis: Reason (R) is true and explains the geographical and strategic logic of this location, acting as the correct explanation."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. नीचे दो कथन दिए गए हैं, जिन्हें कथन (A) और कारण (R) के रूप में चिह्नित किया गया है:\nकथन (A): चंद्रगुप्त मौर्य ने पाटलिपुत्र में अपनी राजधानी स्थापित की, जो रणनीतिक रूप से कई नदियों के संगम पर स्थित थी।\nकारण (R): गंगा, सोन और गंडक नदियों के संगम पर पाटलिपुत्र की स्थिति ने प्राकृतिक किलाबंदी और जल-मार्ग व्यापार लाभ प्रदान किए।",
+        "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+        "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+        "option_c": "A सही है, लेकिन R गलत है।",
+        "option_d": "A गलत है, लेकिन R सही है।",
+        "correct": "A",
+        "explanation": "कथन विश्लेषण: कथन (A) सत्य है क्योंकि पाटलिपुत्र साम्राज्य की राजधानी थी। कारण विश्लेषण: कारण (R) सत्य है और इस स्थान के भौगोलिक और रणनीतिक तर्क को स्पष्ट करता है, जो सही व्याख्या के रूप में कार्य करता है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Match List-I (Mauryan Officer/Superintendent) with List-II (Assigned Portfolio/Department) and select the correct answer:\nList-I:\na) Sitadhyaksha\nb) Panyadhyaksha\nc) Akshapataladhyaksha\nd) Sansthadhyaksha\n\nList-II:\n1) Superintendent of Crown Lands and Agriculture\n2) Superintendent of State Commerce\n3) Keeper of State Accounts and Records\n4) Superintendent of Markets and Trade",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-4, c-2, d-3",
+        "correct": "A",
+        "explanation": "Correct option: A. Sitadhyaksha (a) was responsible for crown lands and agriculture [1]. Panyadhyaksha (b) managed state commerce [2]. Akshapataladhyaksha (c) kept state records/accounts [3]. Sansthadhyaksha (d) regulated markets [4]."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. सूची-I (मौर्य अधिकारी/अध्यक्ष) को सूची-II (आवंटित विभाग) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) सीताध्यक्ष\nb) पण्याध्यक्ष\nc) अक्षपटलाध्यक्ष\nd) संस्थाध्यक्ष\n\nसूची-II:\n1) राजकीय भूमि और कृषि का अधीक्षक\n2) राज्य वाणिज्य का अधीक्षक\n3) राज्य के खातों और अभिलेखों का रक्षक\n4) बाजारों और व्यापार का अधीक्षक",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-4, c-2, d-3",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। सीताध्यक्ष (a) राजकीय भूमि और कृषि के लिए जिम्मेदार था [1]। पण्याध्यक्ष (b) राज्य वाणिज्य का प्रबंधन करता था [2]। अक्षपटलाध्यक्ष (c) राज्य के अभिलेखों/खातों को रखता था [3]। संस्थाध्यक्ष (d) बाजारों को नियंत्रित करता था [4]।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Match List-I (Greek Name) with List-II (Identified Mauryan Figure) and select the correct answer:\nList-I:\na) Sandrokottos\nb) Sandrokyptos\nc) Amitrochates\nd) Alikashudara\n\nList-II:\n1) Chandragupta Maurya (referred by Justin/Strabo)\n2) Chandragupta Maurya (alternative Greek reading)\n3) Bindusara (meaning Slayer of Enemies)\n4) Alexander of Epirus",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-1, b-3, c-2, d-4",
+        "option_d": "a-3, b-4, c-1, d-2",
+        "correct": "A",
+        "explanation": "Correct option: A. Sandrokottos (a) represents Chandragupta [1], Sandrokyptos (b) is Athenaeus's variant [2], Amitrochates (c) refers to Bindusara [3], and Alikashudara (d) corresponds to Alexander of Epirus in Ashokan records [4]."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. सूची-I (यूनानी नाम) को सूची-II (पहचाने गए मौर्य व्यक्ति) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) सैंड्रोकोटस\nb) सैंड्रोकीप्टस\nc) अमित्रोकेट्स\nd) अलिकाशुदर\n\nसूची-II:\n1) चंद्रगुप्त मौर्य (जस्टिन/स्ट्रैबो द्वारा संदर्भित)\n2) चंद्रगुप्त मौर्य (वैकल्पिक यूनानी पठन)\n3) बिंदुसार (शत्रुओं का नाश करने वाला)\n4) एपिरस का अलेक्जेंडर",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-1, b-3, c-2, d-4",
+        "option_d": "a-3, b-4, c-1, d-2",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। सैंड्रोकोटस (a) चंद्रगुप्त [1] को दर्शाता है, सैंड्रोकीप्टस (b) एथेनियस का संस्करण [2] है, अमित्रोकेट्स (c) बिंदुसार [3] को संदर्भित करता है, और अलिकाशुदर (d) अशोक के अभिलेखों में एपिरस का अलेक्जेंडर [4] है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Match List-I (Mauryan Provinces under Chandragupta/Bindusara) with List-II (Provincial Capitals) and select the correct answer:\nList-I:\na) Uttarapatha (Northern Province)\nb) Avantipatha (Western Province)\nc) Dakshinapatha (Southern Province)\nd) Prachya (Eastern Province)\n\nList-II:\n1) Taxila\n2) Ujjain\n3) Suvarnagiri\n4) Pataliputra",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-4, b-3, c-2, d-1",
+        "correct": "A",
+        "explanation": "Correct option: A. Uttarapatha's capital was Taxila [1], Avantipatha was based at Ujjain [2], Dakshinapatha at Suvarnagiri [3], and Prachya at Pataliputra [4]."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. सूची-I (चंद्रगुप्त/बिंदुसार के अधीन मौर्य प्रांत) को सूची-II (प्रांतीय राजधानियाँ) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) उत्तरापथ (उत्तरी प्रांत)\nb) अवन्तिपथ (पश्चिमी प्रांत)\nc) दक्षिणापथ (दक्षिणी प्रांत)\nd) प्राच्य (पूर्वी प्रांत)\n\nसूची-II:\n1) तक्षशिला\n2) उज्जैन\n3) सुवर्णगिरि\n4) पाटलिपुत्र",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-4, b-3, c-2, d-1",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। उत्तरापथ की राजधानी तक्षशिला [1] थी, अवन्तिपथ की उज्जैन [2] थी, दक्षिणापथ की सुवर्णगिरि [3] थी, और प्राच्य की पाटलिपुत्र [4] थी।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Match List-I (Diplomat/Ambassador) with List-II (Sending Ruler/Empire) and select the correct answer:\nList-I:\na) Megasthenes\nb) Daimachus\nc) Dionysius\nd) Heliodorus\n\nList-II:\n1) Seleucus I Nicator (Seleucid Empire)\n2) Antiochus I Soter (Syria)\n3) Ptolemy II Philadelphus (Egypt)\n4) Antialcidas (Indo-Greek King)",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "Correct option: A. Megasthenes (a) was sent by Seleucus I [1]; Daimachus (b) was sent by Antiochus I to Bindusara [2]; Dionysius (c) by Ptolemy II [3]; and Heliodorus (d) by Antialcidas to the Shunga court later [4]."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. सूची-I (राजनयिक/राजदूत) को सूची-II (भेजने वाला शासक/साम्राज्य) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) मेगस्थनीज\nb) डाइमेकस\nc) डायोनिसियस\nd) हेलियोडोरस\n\nसूची-II:\n1) सेल्यूकस प्रथम निकेटर (सेल्यूसिड साम्राज्य)\n2) एंटिओकस प्रथम सोटर (सीरिया)\n3) टॉलेमी द्वितीय फिलाडेल्फस (मिस्र)\n4) एंटियालकीडास (इंडो-ग्रीक राजा)",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। मेगस्थनीज (a) सेल्यूकस प्रथम द्वारा भेजे गए थे [1]; डाइमेकस (b) एंटिओकस प्रथम द्वारा बिंदुसार के पास भेजे गए थे [2]; डायोनिसियस (c) टॉलेमी द्वितीय द्वारा [3]; और हेलियोडोरस (d) बाद में शुंग दरबार में एंटियालकीडास द्वारा भेजे गए थे [4]।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Match List-I (Mauryan Inscription/Source) with List-II (Key Historical Data) and select the correct answer:\nList-I:\na) Junagadh Rock Inscription\nb) Sohgaura Copper Plate\nc) Mahasthan Inscription\nd) Parishishtaparvan\n\nList-II:\n1) Pushyagupta and Sudarshana Lake dam\n2) Famine relief using Koshthagara in Gorakhpur\n3) Famine relief measures in Bogra (Bengal)\n4) Jain conversion of Chandragupta Maurya",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "Correct option: A. Junagadh (a) records Lake Sudarshana [1], Sohgaura (b) records Gorakhpur famine relief [2], Mahasthan (c) details Bengal famine relief [3], and Parishishtaparvan (d) explains Chandragupta's Jain conversion [4]."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. सूची-I (मौर्य शिलालेख/स्रोत) को सूची-II (मुख्य ऐतिहासिक डेटा) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) जूनागढ़ शिलालेख\nb) सोहगौरा ताम्रपत्र\nc) महास्थान शिलालेख\nd) परिशिष्टपर्वन्\n\nसूची-II:\n1) पुष्यगुप्त और सुदर्शन झील बांध\n2) गोरखपुर में कोष्ठागार का उपयोग कर अकाल राहत\n3) बोगरा (बंगाल) में अकाल राहत उपाय\n4) चंद्रगुप्त मौर्य का जैन धर्म परिवर्तन",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। जूनागढ़ (a) सुदर्शन झील को दर्ज करता है [1], सोहगौरा (b) गोरखपुर अकाल राहत को [2], महास्थान (c) बंगाल अकाल राहत को [3], और परिशिष्टपर्वन् (d) चंद्रगुप्त के जैन धर्म परिवर्तन को स्पष्ट करता है [4]।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Match List-I (Arthashastra Administrative Term) with List-II (Modern Equivalence) and select the correct answer:\nList-I:\na) Samaharta\nb) Sannidhata\nc) Pradesta\nd) Vyavaharika\n\nList-II:\n1) Collector-General of Revenue\n2) Chief Treasurer and Custodian of Stores\n3) Commissioner of Kantakasodhana (Criminal Court)\n4) Chief Judge of Dharmasthiya (Civil Court)",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "Correct option: A. Samaharta (a) was the Collector-General [1]. Sannidhata (b) was the Chief Treasurer [2]. Pradesta (c) presided over criminal courts [3]. Vyavaharika (d) presided over civil courts [4]."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. सूची-I (अर्थशास्त्र प्रशासनिक शब्द) को सूची-II (आधुनिक समकक्ष) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) समाहर्ता\nb) सन्निधाता\nc) प्रदेष्टा\nd) व्यावहारिक\n\nसूची-II:\n1) राजस्व का संग्रहकर्ता-सामान्य (कलेक्टर-जनरल)\n2) मुख्य कोषाध्यक्ष और भंडारों का रक्षक\n3) कंटकशोधन (आपराधिक न्यायालय) का आयुक्त\n4) धर्मस्थीय (दीवानी न्यायालय) का मुख्य न्यायाधीश",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। समाहर्ता (a) राजस्व का कलेक्टर-जनरल था [1]। सन्निधाता (b) मुख्य कोषाध्यक्ष था [2]। प्रदेष्टा (c) आपराधिक न्यायालयों की अध्यक्षता करता था [3]। व्यावहारिक (d) दीवानी न्यायालयों की अध्यक्षता करता था [4]।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Match List-I (Literary Text) with List-II (Author/Source) and select the correct answer:\nList-I:\na) Arthashastra\nb) Mudrarakshasa\nc) Indica\nd) Parishishtaparvan\n\nList-II:\n1) Kautilya / Chanakya\n2) Vishakhadatta\n3) Megasthenes\n4) Hemachandra",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "Correct option: A. Arthashastra (a) matches Kautilya [1]. Mudrarakshasa (b) matches Vishakhadatta [2]. Indica (c) matches Megasthenes [3]. Parishishtaparvan (d) matches Hemachandra [4]."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. सूची-I (साहित्यिक ग्रंथ) को सूची-II (लेखक/स्रोत) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) अर्थशास्त्र\nb) मुद्राराक्षस\nc) इण्डिका\nd) परिशिष्टपर्वन्\n\nसूची-II:\n1) कौटिल्य / चाणक्य\n2) विशाखदत्त\n3) मेगस्थनीज\n4) हेमचंद्र",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। अर्थशास्त्र (a) कौटिल्य से मेल खाता है [1]। मुद्राराक्षस (b) विशाखदत्त से मेल खाता है [2]। इण्डिका (c) मेगस्थनीज से मेल खाता है [3]। परिशिष्टपर्वन् (d) हेमचंद्र से मेल खाता है [4]।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Match List-I (Administrative Unit) with List-II (Head of the Unit in Mauryan times) and select the correct answer:\nList-I:\na) Rashtra (Province)\nb) Ahara / Vishaya (District)\nc) Sthaniya (800 villages)\nd) Grama (Village)\n\nList-II:\n1) Kumar / Aryaputra\n2) Rajuka / Vishayapati\n3) Sthanika\n4) Gramika",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "Correct option: A. The Province (a) was ruled by a Prince/Kumar [1]. Ahara (b) was headed by Rajukas [2]. Sthaniya (c) was managed by Sthanikas [3]. Grama (d) was headed by the Gramika [4]."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. सूची-I (प्रशासनिक इकाई) को सूची-II (मौर्य काल में इकाई का प्रमुख) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) राष्ट्र (प्रांत)\nb) आहार / विषय (जिला)\nc) स्थानीय (800 गाँव)\nd) ग्राम (गाँव)\n\nसूची-II:\n1) कुमार / आर्यपुत्र\n2) राजुक / विषयपति\n3) स्थानीय\n4) ग्रामिक",
+        "option_a": "a-1, b-2, c-3, d-4",
+        "option_b": "a-2, b-1, c-4, d-3",
+        "option_c": "a-3, b-4, c-1, d-2",
+        "option_d": "a-1, b-3, c-2, d-4",
+        "correct": "A",
+        "explanation": "सही विकल्प: A। प्रांत (a) का शासन राजकुमार/कुमार द्वारा चलाया जाता था [1]। आहार (b) का प्रमुख राजुक होता था [2]। स्थानीय (c) का प्रबंधन स्थानिक द्वारा किया जाता था [3]। ग्राम (d) का प्रमुख ग्रामिक था [4]।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Consider the following statements regarding the municipal administration of Pataliputra as described by Megasthenes:\n1. The municipal administration was managed by a commission of 30 members divided into 6 boards.\n2. The third board was responsible for registering births and deaths to maintain census and taxation.\n3. The fourth board was responsible for the manufacture of industrial goods.\n\nWhich of the statements given above are correct?",
+        "option_a": "1 and 2 only",
+        "option_b": "2 and 3 only",
+        "option_c": "1 and 3 only",
+        "option_d": "1, 2 and 3",
+        "correct": "A",
+        "explanation": "Statement 1 is correct because Megasthenes mentions 30 members split into 6 committees of 5 members each. Statement 2 is correct because the registration of births and deaths was indeed the job of the third board. Statement 3 is incorrect because the fourth board regulated trade and commerce, whereas industrial manufacture was the concern of the fifth (selling manufactured goods) or first (industrial arts) boards."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. मेगस्थनीज द्वारा वर्णित पाटलिपुत्र के नगर प्रशासन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. नगर प्रशासन का प्रबंधन 30 सदस्यों के एक आयोग द्वारा किया जाता था जो 6 बोर्डों में विभाजित था।\n2. तीसरा बोर्ड जनगणना और कराधान बनाए रखने के लिए जन्म और मृत्यु को पंजीकृत करने के लिए जिम्मेदार था।\n3. चौथा बोर्ड औद्योगिक वस्तुओं के निर्माण के लिए जिम्मेदार था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+        "option_a": "केवल 1 और 2",
+        "option_b": "केवल 2 और 3",
+        "option_c": "केवल 1 और 3",
+        "option_d": "1, 2 और 3",
+        "correct": "A",
+        "explanation": "कथन 1 सही है क्योंकि मेगस्थनीज ने 5-5 सदस्यों की 6 समितियों में विभाजित 30 सदस्यों का उल्लेख किया है। कथन 2 सही है क्योंकि जन्म और मृत्यु का पंजीकरण वास्तव में तीसरे बोर्ड का काम था। कथन 3 गलत है क्योंकि चौथा बोर्ड व्यापार और वाणिज्य को नियंत्रित करता था, जबकि औद्योगिक निर्माण पांचवें (निर्मित वस्तुओं की बिक्री) या पहले (औद्योगिक कला) बोर्ड का काम था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Consider the following statements regarding the military administration under Chandragupta Maurya:\n1. Megasthenes outlines a military commission of 30 members divided into 6 boards of 5 members each.\n2. The six boards managed the Navy, Transport/Commissariat, Infantry, Cavalry, Chariots, and Elephants.\n3. The Mauryan state did not maintain a standing army, relying purely on feudal levies.\n\nWhich of the statements given above are correct?",
+        "option_a": "1 and 2 only",
+        "option_b": "2 and 3 only",
+        "option_c": "1 and 3 only",
+        "option_d": "1, 2 and 3",
+        "correct": "A",
+        "explanation": "Statement 1 is correct as Megasthenes details a 30-member war committee. Statement 2 is correct as the six departments managed the navy, transport, and the four traditional wings. Statement 3 is incorrect because the Mauryas maintained a massive, highly paid standing army directly recruited by the state."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. चंद्रगुप्त मौर्य के अधीन सैन्य प्रशासन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. मेगस्थनीज 30 सदस्यों के एक सैन्य आयोग की रूपरेखा बताता है जो 5-5 सदस्यों के 6 बोर्डों में विभाजित था।\n2. छह बोर्ड नौसेना, परिवहन/रसद, पैदल सेना, घुड़सवार सेना, रथ और हाथियों का प्रबंधन करते थे।\n3. मौर्य राज्य ने एक स्थायी सेना नहीं रखी थी, वह पूरी तरह से सामंती बलों पर निर्भर था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+        "option_a": "केवल 1 और 2",
+        "option_b": "केवल 2 और 3",
+        "option_c": "केवल 1 और 3",
+        "option_d": "1, 2 और 3",
+        "correct": "A",
+        "explanation": "कथन 1 सही है क्योंकि मेगस्थनीज ने 30 सदस्यीय युद्ध समिति का विवरण दिया है। कथन 2 सही है क्योंकि छह विभाग नौसेना, परिवहन और चार पारंपरिक अंगों का प्रबंधन करते थे। कथन 3 गलत है क्योंकि मौर्यों ने राज्य द्वारा सीधे भर्ती की गई एक विशाल, उच्च वेतनभोगी स्थायी सेना का रखरखाव किया था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Consider the following statements regarding the sources for the reign of Chandragupta Maurya:\n1. The Sanskrit play Mudrarakshasa details Kautilya's schemes to win over Rakshasa, the loyal minister of the Nandas, for Chandragupta.\n2. Kautilya's Arthashastra mentions Chandragupta Maurya and Pataliputra directly by name in several chapters.\n3. Megasthenes' Indica survived in its original complete manuscript form and was discovered in the 19th century.\n\nWhich of the statements given above is/are correct?",
+        "option_a": "1 only",
+        "option_b": "1 and 2 only",
+        "option_c": "2 and 3 only",
+        "option_d": "1, 2 and 3",
+        "correct": "A",
+        "explanation": "Statement 1 is correct as Mudrarakshasa focus on this political drama. Statement 2 is incorrect because the Arthashastra is a general treatise on statecraft and does not mention Chandragupta or Pataliputra by name. Statement 3 is incorrect because the original Indica is lost, surviving only as fragments quoted by later classical Greek and Roman writers."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. चंद्रगुप्त मौर्य के शासनकाल के स्रोतों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. संस्कृत नाटक मुद्राराक्षस चंद्रगुप्त के लिए नंदों के वफादार मंत्री राक्षस को अपने पक्ष में करने के लिए कौटिल्य की योजनाओं का विवरण देता है।\n2. कौटिल्य के अर्थशास्त्र में कई अध्यायों में चंद्रगुप्त मौर्य और पाटलिपुत्र का सीधे नाम से उल्लेख है।\n3. मेगस्थनीज की इण्डिका अपने मूल पूर्ण पांडुलिपि रूप में बच गई और 19वीं सदी में खोजी गई थी।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+        "option_a": "केवल 1",
+        "option_b": "केवल 1 और 2",
+        "option_c": "केवल 2 और 3",
+        "option_d": "1, 2 और 3",
+        "correct": "A",
+        "explanation": "कथन 1 सही है क्योंकि मुद्राराक्षस इस राजनीतिक नाटक पर केंद्रित है। कथन 2 गलत है क्योंकि अर्थशास्त्र शासन कला पर एक सामान्य ग्रंथ है और इसमें चंद्रगुप्त या पाटलिपुत्र का नाम से उल्लेख नहीं है। कथन 3 गलत है क्योंकि मूल इण्डिका खो गई है, जो केवल बाद के शास्त्रीय यूनानी और रोमन लेखकों द्वारा उद्धृत अंशों के रूप में जीवित है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. With reference to the Mauryan spy system described in Kautilya's Arthashastra, consider the following statements:\n1. The spies were divided into two main categories: Sanstha (stationary) and Sanchara (wandering).\n2. Women were strictly barred from being recruited as spies or secret agents.\n3. Spies were used not only to monitor foreign states but also to keep watch on high-ranking ministers (Tirthas) within the empire.\n\nWhich of the statements given above are correct?",
+        "option_a": "1 and 3 only",
+        "option_b": "1 and 2 only",
+        "option_c": "2 and 3 only",
+        "option_d": "1, 2 and 3",
+        "correct": "A",
+        "explanation": "Statement 1 is correct because Sanstha (stationary) and Sanchara (wandering) were the two main branches. Statement 2 is incorrect because women (like courtesans and mendicants) were extensively recruited as spies. Statement 3 is correct because monitoring the loyalty of high officials (Tirthas) was a key domestic function."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. कौटिल्य के अर्थशास्त्र में वर्णित मौर्य गुप्तचर प्रणाली के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. गुप्तचरों को दो मुख्य श्रेणियों में विभाजित किया गया था: संस्था (स्थिर) और संचारा (भ्रमणशील)।\n2. महिलाओं को जासूस या गुप्त एजेंट के रूप में भर्ती किए जाने पर पूरी तरह से प्रतिबंध था।\n3. जासूसों का उपयोग न केवल विदेशी राज्यों की निगरानी के लिए बल्कि साम्राज्य के भीतर उच्च पदस्थ मंत्रियों (तीर्थों) पर नज़र रखने के लिए भी किया जाता था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+        "option_a": "केवल 1 और 3",
+        "option_b": "केवल 1 और 2",
+        "option_c": "केवल 2 और 3",
+        "option_d": "1, 2 और 3",
+        "correct": "A",
+        "explanation": "कथन 1 सही है क्योंकि संस्था (स्थिर) और संचारा (भ्रमणशील) दो मुख्य शाखाएँ थीं। कथन 2 गलत है क्योंकि महिलाओं (जैसे गणिकाओं और भिक्षुणियों) को बड़े पैमाने पर जासूस के रूप में भर्ती किया जाता था। कथन 3 सही है क्योंकि उच्च अधिकारियों (तीर्थों) की वफादारी की निगरानी करना एक प्रमुख घरेलू कार्य था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Consider the following statements about the Mauryan ruler Bindusara:\n1. He was the son of Chandragupta Maurya and Durdhara.\n2. He was a contemporary of the Seleucid ruler Antiochus I Soter.\n3. He conquered Kalinga and annexed it to the Mauryan Empire.\n\nWhich of the statements given above are correct?",
+        "option_a": "1 and 2 only",
+        "option_b": "2 and 3 only",
+        "option_c": "1 and 3 only",
+        "option_d": "1, 2 and 3",
+        "correct": "A",
+        "explanation": "Statement 1 is correct as per Jain traditions. Statement 2 is correct because he maintained diplomatic correspondence with Antiochus I. Statement 3 is incorrect because Kalinga was conquered by his son Ashoka, not Bindusara."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. मौर्य शासक बिंदुसार के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. वह चंद्रगुप्त मौर्य और दुर्धरा के पुत्र थे।\n2. वह सेल्यूसिड शासक एंटिओकस प्रथम सोटर के समकालीन थे।\n3. उन्होंने कलिंग पर विजय प्राप्त की और इसे मौर्य साम्राज्य में मिला लिया।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+        "option_a": "केवल 1 और 2",
+        "option_b": "केवल 2 और 3",
+        "option_c": "केवल 1 and 3",
+        "option_d": "1, 2 और 3",
+        "correct": "A",
+        "explanation": "कथन 1 सही है जैन परंपराओं के अनुसार। कथन 2 सही है क्योंकि उन्होंने एंटिओकस प्रथम के साथ राजनयिक पत्राचार बनाए रखा। कथन 3 गलत है क्योंकि कलिंग पर विजय उनके पुत्र अशोक ने प्राप्त की थी, बिंदुसार ने नहीं।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Which of the following statements about the Kautilyan Saptanga Theory of State are correct?\n1. The state is compared to a human body consisting of seven parts or limbs.\n2. 'Swami' (the king) is considered the head of the state, and 'Amatya' (ministers) represents the eyes.\n3. 'Mitra' (allies) is not considered a part of the Saptanga theory since allies are external to the state.\n\nWhich of the statements given above are correct?",
+        "option_a": "1 and 2 only",
+        "option_b": "2 and 3 only",
+        "option_c": "1 and 3 only",
+        "option_d": "1, 2 and 3",
+        "correct": "A",
+        "explanation": "Statement 1 is correct as Kautilya describes the seven limbs of state. Statement 2 is correct as Swami is the head and Amatya represents the eyes. Statement 3 is incorrect because 'Mitra' (allies) is explicitly the seventh limb of the Saptanga state model."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. राज्य के कौटिल्य सप्तांग सिद्धांत के बारे में निम्नलिखित में से कौन से कथन सही हैं?\n1. राज्य की तुलना मानव शरीर से की गई है जिसमें सात भाग या अंग शामिल हैं।\n2. 'Swami' (राजा) को राज्य का सिर माना जाता है, और 'अमात्य' (मंत्री) आँखों का प्रतिनिधित्व करते हैं।\n3. 'मित्र' को सप्तांग सिद्धांत का हिस्सा नहीं माना जाता है क्योंकि मित्र राज्य के लिए बाहरी होते हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+        "option_a": "केवल 1 और 2",
+        "option_b": "केवल 2 और 3",
+        "option_c": "केवल 1 और 3",
+        "option_d": "1, 2 और 3",
+        "correct": "A",
+        "explanation": "कथन 1 सही है क्योंकि कौटिल्य ने राज्य के सात अंगों का वर्णन किया है। कथन 2 सही है क्योंकि स्वामी सिर हैं और अमात्य आँखों का प्रतिनिधित्व करते हैं। कथन 3 गलत है क्योंकि 'मित्र' स्पष्ट रूप से सप्तांग राज्य मॉडल का सातवां अंग है।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Consider the following statements regarding the judicial administration of the Mauryan empire under Chandragupta Maurya:\n1. The civil courts were known as Dharmasthiya, dealing with matters like contracts and marriages.\n2. The criminal courts were known as Kantakasodhana, meaning 'removal of thorns'.\n3. The king was the highest judicial authority and held regular court sessions to hear appeals.\n\nWhich of the statements given above are correct?",
+        "option_a": "1, 2 and 3",
+        "option_b": "1 and 2 only",
+        "option_c": "2 and 3 only",
+        "option_d": "1 and 3 only",
+        "correct": "A",
+        "explanation": "Statement 1 is correct because Dharmasthiya courts heard civil cases. Statement 2 is correct because Kantakasodhana dealt with criminal issues and state security. Statement 3 is correct because the king was indeed the ultimate court of appeal."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. चंद्रगुप्त मौर्य के अधीन मौर्य साम्राज्य के न्यायिक प्रशासन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. दीवानी अदालतों को धर्मस्थीय के रूप में जाना जाता था, जो अनुबंधों और विवाहों जैसे मामलों से निपटती थीं।\n2. आपराधिक अदालतों को कंटकशोधन के रूप में जाना जाता था, जिसका अर्थ 'कांटों को हटाना' था।\n3. राजा सर्वोच्च न्यायिक प्राधिकारी थे और अपीलों की सुनवाई के लिए नियमित अदालत सत्र आयोजित करते थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+        "option_a": "1, 2 और 3",
+        "option_b": "केवल 1 और 2",
+        "option_c": "केवल 2 और 3",
+        "option_d": "केवल 1 और 3",
+        "correct": "A",
+        "explanation": "कथन 1 सही है क्योंकि धर्मस्थीय अदालतें दीवानी मामलों की सुनवाई करती थीं। कथन 2 सही है क्योंकि कंटकशोधन आपराधिक मुद्दों और राज्य की सुरक्षा से संबंधित था। कथन 3 सही है क्योंकि राजा वास्तव में अपील की अंतिम अदालत थे।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Regarding the tax system under Chandragupta Maurya as detailed in ancient sources, consider the following statements:\n1. The standard land revenue tax (Bhaga) was generally set at one-fourth to one-sixth of the total agricultural produce.\n2. Megasthenes states that the tax rate was exceptionally low, being only one-tenth of the produce.\n3. A tax on water (Udakabhaga) was levied on those who utilized state-provided irrigation facilities.\n\nWhich of the statements given above is/are correct?",
+        "option_a": "1 and 3 only",
+        "option_b": "1 and 2 only",
+        "option_c": "3 only",
+        "option_d": "1, 2 and 3",
+        "correct": "A",
+        "explanation": "Statement 1 is correct as 1/6th to 1/4th was the standard rate. Statement 2 is incorrect because Megasthenes claims the land tax was one-fourth of the produce, which is high. Statement 3 is correct because Udakabhaga was an irrigation tax levied on state-watered lands."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. प्राचीन स्रोतों में विस्तृत चंद्रगुप्त मौर्य के अधीन कर प्रणाली के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. मानक भूमि राजस्व कर (भाग) आमतौर पर कुल कृषि उपज का एक-चौथाई से एक-छठा हिस्सा निर्धारित किया जाता था।\n2. मेगस्थनीज का कहना है कि कर की दर असाधारण रूप से कम थी, जो उपज का केवल दसवां हिस्सा थी।\n3. राज्य द्वारा प्रदान की जाने वाली सिंचाई सुविधाओं का उपयोग करने वालों पर जल कर (उदकभाग) लगाया जाता था।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+        "option_a": "केवल 1 और 3",
+        "option_b": "केवल 1 और 2",
+        "option_c": "केवल 3",
+        "option_d": "1, 2 और 3",
+        "correct": "A",
+        "explanation": "कथन 1 सही है क्योंकि 1/6 से 1/4 मानक दर थी। कथन 2 गलत है क्योंकि मेगस्थनीज का दावा है कि भूमि कर उपज का एक-चौथाई था, जो कि बहुत अधिक है। कथन 3 सही है क्योंकि उदकभाग राज्य द्वारा सिंचित भूमि पर लगाया जाने वाला सिंचाई कर था।"
+    },
+    {
+        "lang": "EN",
+        "text": "Q. Consider the following statements regarding the early life and rise of Chandragupta Maurya:\n1. Greek sources mention that Chandragupta met Alexander the Great during the latter's campaign in northwestern India.\n2. The Junagadh inscription is the first epigraphic record to explicitly use the name 'Chandragupta'.\n3. Chandragupta Maurya overthrew Dhanananda, the last ruler of the Nanda dynasty, with the strategic assistance of Vishnugupta.\n\nWhich of the statements given above are correct?",
+        "option_a": "1, 2 and 3",
+        "option_b": "1 and 3 only",
+        "option_c": "2 and 3 only",
+        "option_d": "1 and 2 only",
+        "correct": "A",
+        "explanation": "Statement 1 is correct as Plutarch and Justin record his encounter with Alexander. Statement 2 is correct because the Junagadh inscription of Rudradaman is the first to name him 'Chandragupta'. Statement 3 is correct because Vishnugupta (Chanakya) guided him to overthrow Dhanananda."
+    },
+    {
+        "lang": "HI",
+        "text": "Q. चंद्रगुप्त मौर्य के प्रारंभिक जीवन और उत्थान के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यूनानी स्रोतों में उल्लेख है कि उत्तर-पश्चिम भारत में सिकंदर के अभियान के दौरान चंद्रगुप्त ने सिकंदर महान से मुलाकात की थी।\n2. जूनागढ़ शिलालेख स्पष्ट रूप से 'चंद्रगुप्त' नाम का उपयोग करने वाला पहला अभिलेखीय प्रमाण है।\n3. चंद्रगुप्त मौर्य ने विष्णुगुप्त की रणनीतिक सहायता से नंद वंश के अंतिम शासक धनानंद को उखाड़ फेंका।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+        "option_a": "1, 2 और 3",
+        "option_b": "केवल 1 और 3",
+        "option_c": "केवल 2 और 3",
+        "option_d": "केवल 1 और 2",
+        "correct": "A",
+        "explanation": "कथन 1 सही है क्योंकि प्लूटार्क और जस्टिन सिकंदर के साथ उनकी मुलाकात को दर्ज करते हैं। कथन 2 सही है क्योंकि रुद्रदामन का जूनागढ़ शिलालेख उन्हें 'चंद्रगुप्त' नाम देने वाला पहला है। कथन 3 सही है क्योंकि विष्णुगुप्त (चाणक्य) ने उन्हें धनानंद को उखाड़ फेंकने के लिए निर्देशित किया था।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the significance of the Sohgaura Copper Plate and Mahasthan Inscriptions in understanding the welfare state policy of the early Mauryas. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Sohgaura and Mahasthan inscriptions are crucial epigraphic evidence proving the early Mauryan state followed proactive welfare policies during crises:\n\n* **Famine Relief:** Both inscriptions record state-directed famine relief measures, mentioning the distribution of grains from royal granaries (*Koshthagara*).\n* **Emergency Storage:** They describe grain storage to mitigate natural disasters, showcasing centralized administrative planning under Chandragupta Maurya.\n\nThus, they confirm that the Mauryan empire acted as a welfare state, prioritizing citizens' subsistence during distress."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रारंभिक मौर्यों की कल्याणकारी राज्य नीति को समझने में सोहगौरा ताम्रपत्र और महास्थान शिलालेखों के महत्व का मूल्यांकन कीजिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "सोहगौरा और महास्थान शिलालेख महत्वपूर्ण अभिलेखीय प्रमाण हैं जो यह सिद्ध करते हैं कि प्रारंभिक मौर्य राज्य संकट के दौरान सक्रिय कल्याणकारी नीतियों का पालन करता था:\n\n* **अकाल राहत:** दोनों शिलालेखों में राजकीय कोष्ठागारों से अनाज वितरण का उल्लेख करते हुए राज्य-निर्देशित अकाल राहत उपायों को दर्ज किया गया है।\n* **आपातकालीन भंडारण:** ये प्राकृतिक आपदाओं के प्रभाव को कम करने के लिए अनाज भंडारण का वर्णन करते हैं, जो चंद्रगुप्त मौर्य के अधीन केंद्रीकृत प्रशासनिक योजना को दर्शाता है।\n\nइस प्रकार, वे पुष्टि करते हैं कि मौर्य साम्राज्य ने एक कल्याणकारी राज्य के रूप में कार्य किया, जिसने संकट में नागरिकों के भरण-पोषण को प्राथमिकता दी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the administrative organization and strategic significance of the espionage system under Chandragupta Maurya as detailed in Kautilya's Arthashastra. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Under Chandragupta Maurya, Kautilya's Arthashastra structured a highly sophisticated espionage system (*Gudhapurushas*) that served as the backbone of imperial administration and security. Managed by the *Maha-matyasarpas*, the network was divided into two distinct operational branches:\n\n| Espionage Branch | Operational Mode | Sub-categories / Functions |\n| :--- | :--- | :--- |\n| **Sanstha (Stationary)** | Operated from fixed establishments within the empire | *Kapatika* (fraudulent disciples), *Udasthita* (renegade ascetics), *Grihapatika* (householders), *Vaidehaka* (merchants). |\n| **Sanchara (Wandering)** | Mobile agents moving across domestic and foreign regions | *Satri* (classmates/apprentices), *Tikshna* (brave/assassins), *Rasada* (poisoners), *Bhikshuki* (mendicant women). |\n\n**Strategic Significance:**\n* **Domestic Surveillance:** Spies monitored the loyalty of the eighteen highest officials (*Tirthas*), state officers, and checked public opinion.\n* **Foreign Policy and Defense:** Spies operated in neighboring kingdoms, collecting military intelligence, sowing discord among enemies, and carrying out secret assassinations.\n* **Crime Prevention:** Agents infiltrated guilds and markets to identify corrupt merchants and criminals, ensuring internal stability.\n\nConsequently, the espionage system provided the Mauryan state with absolute control, ensuring centralized authority and imperial integration."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौटिल्य के अर्थशास्त्र में वर्णित चंद्रगुप्त मौर्य के अधीन गुप्तचर प्रणाली के प्रशासनिक संगठन और रणनीतिक महत्व का विश्लेषण कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "चंद्रगुप्त मौर्य के अधीन, कौटिल्य के अर्थशास्त्र ने एक अत्यधिक परिष्कृत गुप्तचर प्रणाली (*गूढ़पुरुष*) की संरचना की, जिसने साम्राज्य के प्रशासन और सुरक्षा की रीढ़ के रूप में कार्य किया। *महामात्यसर्प* द्वारा प्रबंधित यह नेटवर्क दो अलग-अलग शाखाओं में विभाजित था:\n\n| गुप्तचर शाखा | संचालन का तरीका | उप-श्रेणियाँ / कार्य |\n| :--- | :--- | :--- |\n| **संस्था (स्थिर)** | साम्राज्य के भीतर निश्चित प्रतिष्ठानों से संचालित | *कापटिक* (कपटी छात्र), *उदास्थित* (संन्यासी), *गृहपतिक* (गृहस्थ), *वैदेहक* (व्यापारी)। |\n| **संचारा (भ्रमणशील)** | घरेलू और विदेशी क्षेत्रों में घूमने वाले गतिशील एजेंट | *सत्री* (सहपाठी), *तीक्ष्ण* (साहसी/हत्यारे), *रसद* (विष देने वाले), *भिक्षुणी* (संन्यासीन महिलाएँ)। |\n\n**रणनीतिक महत्व:**\n* **घरेलू निगरानी:** जासूसों ने अठारह सर्वोच्च अधिकारियों (*तीर्थों*), राज्य के अधिकारियों की वफादारी की निगरानी की और जनता की राय की जाँच की।\n* **विदेश नीति और रक्षा:** जासूस पड़ोसी राज्यों में काम करते थे, सैन्य खुफिया जानकारी एकत्र करते थे, दुश्मनों के बीच मतभेद पैदा करते थे और गुप्त हत्याएं करते थे।\n* **अपराध रोकथाम:** आंतरिक स्थिरता सुनिश्चित करने के लिए एजेंटों ने भ्रष्ट व्यापारियों और अपराधियों की पहचान करने के लिए व्यापार संघों और बाजारों में घुसपैठ की।\n\nपरिणामस्वरूप, गुप्तचर प्रणाली ने मौर्य राज्य को पूर्ण नियंत्रण प्रदान किया, जिससे केंद्रीकृत अधिकार और साम्राज्य का एकीकरण सुनिश्चित हुआ।"
+    }
+  ]
+}

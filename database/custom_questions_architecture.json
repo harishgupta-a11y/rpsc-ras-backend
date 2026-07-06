@@ -1,0 +1,1006 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following temple style is characterized by the presence of a curvilinear shikhara (Latina or Rekha-Prasada) as its most prominent feature?",
+      "option_a": "Dravida Style",
+      "option_b": "Nagara Style",
+      "option_c": "Vesara Style",
+      "option_d": "Nayak Style",
+      "correct": "B",
+      "explanation": "Correct option: B. The Nagara style of temple architecture, prominent in northern India, is characterized by a curvilinear shikhara known as Latina or Rekha-Prasada, which has a square base and walls that curve inward to a point."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सी मंदिर शैली अपने सबसे प्रमुख विशेषता के रूप में एक वक्रीय शिखर (लैटिना या रेखा-प्रसाद) की उपस्थिति द्वारा पहचानी जाती है?",
+      "option_a": "द्रविड़ शैली",
+      "option_b": "नागर शैली",
+      "option_c": "वेसर शैली",
+      "option_d": "नायक शैली",
+      "correct": "B",
+      "explanation": "Correct option: B. उत्तर भारत में प्रमुख नागर शैली की मंदिर वास्तुकला की विशेषता एक वक्रीय शिखर है जिसे लैटिना या रेखा-प्रसाद के रूप में जाना जाता है, जिसका आधार वर्गाकार होता है और दीवारें अंदर की ओर मुड़कर एक बिंदु पर मिलती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The term 'Amalaka', a stone disc with ridges on the rim found at the top of a temple shikhara, is a signature component of which temple style?",
+      "option_a": "Nagara Style",
+      "option_b": "Dravida Style",
+      "option_c": "Vesara Style",
+      "option_d": "Hoysala Style",
+      "correct": "A",
+      "explanation": "Correct option: A. The Amalaka is a ribbed stone disc placed at the crowning peak of a Nagara style shikhara, upon which the Kalasha is positioned."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मंदिर के शिखर के शीर्ष पर पाए जाने वाले किनारों पर धारियों वाले पत्थर के डिस्क 'अमलक' किस मंदिर शैली का एक हस्ताक्षर घटक है?",
+      "option_a": "नागर शैली",
+      "option_b": "द्रविड़ शैली",
+      "option_c": "वेसर शैली",
+      "option_d": "होयसल शैली",
+      "correct": "A",
+      "explanation": "Correct option: A. अमलक एक धारीदार पत्थर का डिस्क होता है जिसे नागर शैली के शिखर के मुकुट पर रखा जाता है, जिसके ऊपर कलश स्थापित किया जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Dravida temple architecture, the high gateway or monumental entrance tower is known as:",
+      "option_a": "Vimana",
+      "option_b": "Gopuram",
+      "option_c": "Mandapa",
+      "option_d": "Antarala",
+      "correct": "B",
+      "explanation": "Correct option: B. Gopurams are the monumental gateway towers, often highly decorated, that form the entrance to Dravida style temples in South India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्रविड़ मंदिर वास्तुकला में, ऊंचे प्रवेश द्वार या स्मारकीय प्रवेश मीनार को किस रूप में जाना जाता है?",
+      "option_a": "विमान",
+      "option_b": "गोपुरम",
+      "option_c": "मंडप",
+      "option_d": "अंतराल",
+      "correct": "B",
+      "explanation": "Correct option: B. गोपुरम द्रविड़ शैली के दक्षिण भारतीय मंदिरों के प्रवेश द्वार पर बने विशाल और अलंकृत प्रवेश द्वार मीनार होते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which dynastic rulers patronized the building of the famous Shore Temple at Mahabalipuram, displaying early Dravida architectural elements?",
+      "option_a": "Cholas",
+      "option_b": "Pandyas",
+      "option_c": "Pallavas",
+      "option_d": "Chalukyas",
+      "correct": "C",
+      "explanation": "Correct option: C. The Shore Temple at Mahabalipuram was built during the reign of the Pallava dynasty under Narasimhavarman II (Rajasimha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस राजवंश के शासकों ने महाबलीपुरम के प्रसिद्ध शोर मंदिर (तट मंदिर) के निर्माण को संरक्षण दिया, जो प्रारंभिक द्रविड़ वास्तुकला तत्वों को प्रदर्शित करता है?",
+      "option_a": "चोल",
+      "option_b": "पांड्य",
+      "option_c": "पल्लव",
+      "option_d": "चालुक्य",
+      "correct": "C",
+      "explanation": "Correct option: C. महाबलीपुरम में शोर मंदिर का निर्माण पल्लव राजवंश के नरसिंहवर्मन द्वितीय (राजसिंह) के शासनकाल के दौरान किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Vesara style of temple architecture, representing a hybrid of Nagara and Dravida styles, was pioneered and extensively developed under which dynasty?",
+      "option_a": "Rashtrakutas",
+      "option_b": "Western Chalukyas of Badami",
+      "option_c": "Cholas",
+      "option_d": "Kakatiyas",
+      "correct": "B",
+      "explanation": "Correct option: B. The Vesara style, also known as the Chalukyan style, was conceptualized and developed under the Early Chalukyas of Badami in the Deccan region."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागर और द्रविड़ शैलियों के मिश्रण का प्रतिनिधित्व करने वाली वेसर मंदिर वास्तुकला शैली का नेतृत्व और व्यापक विकास किस राजवंश के तहत किया गया था?",
+      "option_a": "राष्ट्रकूट",
+      "option_b": "बादामी के पश्चिमी चालुक्य",
+      "option_c": "चोल",
+      "option_d": "काकतीय",
+      "correct": "B",
+      "explanation": "Correct option: B. वेसर शैली, जिसे चालुक्य शैली भी कहा जाता है, की अवधारणा और विकास दक्कन क्षेत्र में बादामी के प्रारंभिक चालुक्यों के तहत किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which specific term refers to the vestibulary space or intermediate chamber connecting the garbhagriha and the mandapa in Hindu temples?",
+      "option_a": "Jagati",
+      "option_b": "Valabhi",
+      "option_c": "Antarala",
+      "option_d": "Phamsana",
+      "correct": "C",
+      "explanation": "Correct option: C. The Antarala is an intermediate chamber or lobby that links the main sanctum (garbhagriha) to the pillared assembly hall (mandapa)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कौन सा विशिष्ट शब्द हिंदू मंदिरों में गर्भगृह और मंडप को जोड़ने वाले अंतराल या मध्यवर्ती कक्ष को संदर्भित करता है?",
+      "option_a": "जगति",
+      "option_b": "वलभी",
+      "option_c": "अंतराल",
+      "option_d": "फाम्साना",
+      "correct": "C",
+      "explanation": "Correct option: C. अंतराल एक मध्यवर्ती कक्ष या गलियारा है जो मुख्य गर्भगृह को स्तंभों वाले सभा मंडप से जोड़ता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous Kailashnath Temple at Ellora, carved out of a single monolithic rock, was constructed under the patronage of which Rashtrakuta king?",
+      "option_a": "Krishna I",
+      "option_b": "Dantidurga",
+      "option_c": "Amoghavarsha I",
+      "option_d": "Govinda III",
+      "correct": "A",
+      "explanation": "Correct option: A. The Kailashnath Temple (Cave 16) at Ellora is a monolithic rock-cut structure built in the 8th century under the patronage of Rashtrakuta King Krishna I."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. एक ही अखंड चट्टान को काटकर बनाया गया एलोरा का प्रसिद्ध कैलाशनाथ मंदिर, किस राष्ट्रकूट राजा के संरक्षण में बनाया गया था?",
+      "option_a": "कृष्ण प्रथम",
+      "option_b": "दन्तिदुर्ग",
+      "option_c": "अमोघवर्ष प्रथम",
+      "option_d": "गोविंद तृतीय",
+      "correct": "A",
+      "explanation": "Correct option: A. एलोरा में कैलाशनाथ मंदिर (गुफा 16) राष्ट्रकूट राजा कृष्ण प्रथम के संरक्षण में 8वीं शताब्दी में निर्मित एक अखंड चट्टान-कटौती संरचना है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Nagara style temples, the raised platform or plinth on which the temple is constructed is technically called the:",
+      "option_a": "Shikhara",
+      "option_b": "Jagati",
+      "option_c": "Mithuna",
+      "option_d": "Vahana",
+      "correct": "B",
+      "explanation": "Correct option: B. The Jagati is the raised platform or terrace upon which Hindu temples, particularly of the Nagara style, are erected."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागर शैली के मंदिरों में, जिस ऊंचे मंच या चबूतरे पर मंदिर का निर्माण किया जाता है उसे तकनीकी रूप से क्या कहा जाता है?",
+      "option_a": "शिखर",
+      "option_b": "जगति",
+      "option_c": "मिथुन",
+      "option_d": "वाहन",
+      "correct": "B",
+      "explanation": "Correct option: B. जगति वह ऊंचा मंच या चबूतरा है जिस पर हिंदू मंदिर, विशेष रूप से नागर शैली के मंदिर, स्थापित किए जाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Dravida style 'Vimana' is distinct from the Nagara 'Shikhara' because the Vimana is shaped like a:",
+      "option_a": "Curvilinear dome",
+      "option_b": "Stepped pyramid",
+      "option_c": "Flat roofed vault",
+      "option_d": "Barrel-vaulted structure",
+      "correct": "B",
+      "explanation": "Correct option: B. Unlike the curvilinear Shikhara of the Nagara style, the Dravida Vimana is a pyramidal tower consisting of progressively smaller stories or talas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्रविड़ शैली का 'विमान' नागर शैली के 'शिखर' से भिन्न है क्योंकि विमान का आकार कैसा होता है?",
+      "option_a": "एक वक्रीय गुंबद",
+      "option_b": "एक सीढ़ीदार पिरामिड",
+      "option_c": "एक सपाट छत वाली तिजोरी",
+      "option_d": "एक बैरल-छत वाली संरचना",
+      "correct": "B",
+      "explanation": "Correct option: B. नागर शैली के वक्रीय शिखर के विपरीत, द्रविड़ विमान एक पिरामिडनुमा मीनार होती है जिसमें क्रमशः छोटी होती हुई मंजिलें होती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Khajuraho temple is widely regarded as the grandest and most representative example of the Chandela school of Nagara temple architecture?",
+      "option_a": "Lakshmana Temple",
+      "option_b": "Kandariya Mahadev Temple",
+      "option_c": "Parsvanath Temple",
+      "option_d": "Vishvanatha Temple",
+      "correct": "B",
+      "explanation": "Correct option: B. The Kandariya Mahadev Temple is the largest, most ornate, and best-preserved temple in the Khajuraho group, built by the Chandela rulers."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. खजुराहो के किस मंदिर को नागर मंदिर वास्तुकला की चंदेल शैली का सबसे भव्य और प्रतिनिधि उदाहरण माना जाता है?",
+      "option_a": "लक्ष्मण मंदिर",
+      "option_b": "कंदरिया महादेव मंदिर",
+      "option_c": "पार्श्वनाथ मंदिर",
+      "option_d": "विश्वनाथ मंदिर",
+      "correct": "B",
+      "explanation": "Correct option: B. कंदरिया महादेव मंदिर खजुराहो समूह का सबसे बड़ा, सबसे अलंकृत और सबसे अच्छी तरह से संरक्षित मंदिर है, जिसे चंदेल शासकों द्वारा बनवाया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The plan of Vesara temples is frequently characterized by which unique geometric layout in its mature phase, as seen in Hoysala temples?",
+      "option_a": "Panchayatana plan",
+      "option_b": "Stellate (star-shaped) plan",
+      "option_c": "Octagonal plan",
+      "option_d": "Cruciform plan",
+      "correct": "B",
+      "explanation": "Correct option: B. Hoysala architecture (an advanced phase of Vesara style) is famous for its stellate or star-shaped plans, created by rotating a square around its center."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वेसर मंदिरों की योजना अक्सर अपने परिपक्व चरण में किस अनूठी ज्यामितीय संरचना द्वारा पहचानी जाती है, जैसा कि होयसल मंदिरों में देखा जाता है?",
+      "option_a": "पंचायतन योजना",
+      "option_b": "तारकीय (सितारे के आकार की) योजना",
+      "option_c": "अष्टकोणीय योजना",
+      "option_d": "क्रूसीफॉर्म योजना",
+      "correct": "B",
+      "explanation": "Correct option: B. होयसल वास्तुकला (वेसर शैली का एक उन्नत चरण) अपनी तारकीय या तारे के आकार की योजनाओं के लिए प्रसिद्ध है, जो एक वर्ग को उसके केंद्र के चारों ओर घुमाकर बनाई जाती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the context of temple architecture, the terms 'Sandhara', 'Nirandhara', and 'Sarvatobhadra' refer to categories of:",
+      "option_a": "Shikhara shapes",
+      "option_b": "Circumambulatory pathways (Pradakshina Patha)",
+      "option_c": "Pillared halls (Mandapas)",
+      "option_d": "Gateway structures",
+      "correct": "B",
+      "explanation": "Correct option: B. These terms classify temples based on the presence of a circumambulatory path: Sandhara has a covered path, Nirandhara has none, and Sarvatobhadra is accessible from all four sides."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मंदिर वास्तुकला के संदर्भ में, 'सांधार', 'निरंधार' और 'सर्वतोभद्र' शब्द किसकी श्रेणियों को संदर्भित करते हैं?",
+      "option_a": "शिखर के आकार",
+      "option_b": "प्रदक्षिणा पथ",
+      "option_c": "स्तंभों वाले हॉल (मंडप)",
+      "option_d": "प्रवेश द्वार संरचनाएं",
+      "correct": "B",
+      "explanation": "Correct option: B. ये शब्द प्रदक्षिणा पथ की उपस्थिति के आधार पर मंदिरों को वर्गीकृत करते हैं: सांधार में ढका हुआ मार्ग होता है, निरंधार में कोई मार्ग नहीं होता है, और सर्वतोभद्र चारों तरफ से सुलभ होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous Sun Temple of Konark, built in the shape of a colossal chariot, represents the peak of which architectural sub-school?",
+      "option_a": "Kalinga School of Nagara style",
+      "option_b": "Solanki School of Nagara style",
+      "option_c": "Khajuraho School of Nagara style",
+      "option_d": "Vesara School of Deccan",
+      "correct": "A",
+      "explanation": "Correct option: A. The Konark Sun Temple represents the absolute peak of the Kalinga school of architecture, which is a regional sub-style of the Nagara style."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. एक विशाल रथ के आकार में बना कोणार्क का प्रसिद्ध सूर्य मंदिर, किस वास्तुकला उप-शैली के शिखर का प्रतिनिधित्व करता है?",
+      "option_a": "नागर शैली की कलिंग उप-शैली",
+      "option_b": "नागर शैली की सोलंकी उप-शैली",
+      "option_c": "नागर शैली की खजुराहो उप-शैली",
+      "option_d": "दक्कन की वेसर शैली",
+      "correct": "A",
+      "explanation": "Correct option: A. कोणार्क सूर्य मंदिर कलिंग वास्तुकला उप-शैली के चरम शिखर का प्रतिनिधित्व करता है, जो नागर शैली की एक क्षेत्रीय उप-शैली है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What does the term 'Deul' refer to in the Kalinga school of architecture?",
+      "option_a": "Assembly hall",
+      "option_b": "Sanctum tower housing the deity",
+      "option_c": "Dance hall",
+      "option_d": "Temple tank",
+      "correct": "B",
+      "explanation": "Correct option: B. In Odisha's Kalinga temple style, the sanctum structure housing the deity and its towering spire is referred to as the 'Deul' (or Rekha Deul)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. कलिंग वास्तुकला उप-शैली में 'देउल' शब्द किसे संदर्भित करता है?",
+      "option_a": "सभा भवन",
+      "option_b": "देवता को रखने वाला गर्भगृह मीनार",
+      "option_c": "नृत्य कक्ष",
+      "option_d": "मंदिर का तालाब",
+      "correct": "B",
+      "explanation": "Correct option: B. ओडिशा की कलिंग मंदिर शैली में, देवता को स्थापित करने वाले गर्भगृह और उसके ऊपर के ऊंचे शिखर को 'देउल' (या रेखा देउल) कहा जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Brihadisvara Temple at Thanjavur, one of the greatest masterpieces of Chola Dravidian architecture, was built by which Chola Emperor?",
+      "option_a": "Rajendra Chola I",
+      "option_b": "Rajaraja Chola I",
+      "option_c": "Parantaka I",
+      "option_d": "Kulothunga I",
+      "correct": "B",
+      "explanation": "Correct option: B. The Brihadisvara Temple (also known as Rajarajeswaram) at Thanjavur was completed in 1010 CE by Emperor Rajaraja Chola I."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल द्रविड़ वास्तुकला की महानतम उत्कृष्ट कृतियों में से एक, तंजावुर का बृहदीश्वर मंदिर किस चोल सम्राट द्वारा बनवाया गया था?",
+      "option_a": "राजेन्द्र चोल प्रथम",
+      "option_b": "राजराज चोल प्रथम",
+      "option_c": "परान्तक प्रथम",
+      "option_d": "कुलोत्तुंग प्रथम",
+      "correct": "B",
+      "explanation": "Correct option: B. तंजावुर में बृहदीश्वर मंदिर (जिसे राजराजेश्वरम भी कहा जाता है) को 1010 ईस्वी में सम्राट राजराज चोल प्रथम द्वारा पूरा किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The presence of a prominent temple tank (water reservoir) inside the temple complex is a mandatory and key defining feature of which architectural style?",
+      "option_a": "Nagara style",
+      "option_b": "Dravida style",
+      "option_c": "Vesara style",
+      "option_d": "Gupta style",
+      "correct": "B",
+      "explanation": "Correct option: B. The presence of a large water tank or reservoir within the boundary wall of the temple complex is a characteristic feature of Dravida architecture."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मंदिर परिसर के भीतर एक प्रमुख मंदिर तालाब (जलाशय) की उपस्थिति किस वास्तुकला शैली की एक अनिवार्य और प्रमुख विशेषता है?",
+      "option_a": "नागर शैली",
+      "option_b": "द्रविड़ शैली",
+      "option_c": "वेसर शैली",
+      "option_d": "गुप्त शैली",
+      "correct": "B",
+      "explanation": "Correct option: B. मंदिर परिसर की सीमा दीवार के भीतर एक बड़े पानी के तालाब या जलाशय की उपस्थिति द्रविड़ वास्तुकला की एक विशिष्ट विशेषता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Lad Khan Temple at Aihole is an important monument of early temple architecture. Under which style and dynasty was it constructed?",
+      "option_a": "Nagara, Chandela Dynasty",
+      "option_b": "Dravida, Pallava Dynasty",
+      "option_c": "Vesara/Early Chalukya, Chalukya Dynasty",
+      "option_d": "Nagara, Gupta Dynasty",
+      "correct": "C",
+      "explanation": "Correct option: C. The Lad Khan Temple at Aihole, Karnataka, was built in the late 5th or early 6th century under the Early Chalukya dynasty, representing early experiments in Chalukyan/Vesara architecture."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऐहोल में लाड़ खान मंदिर प्रारंभिक मंदिर वास्तुकला का एक महत्वपूर्ण स्मारक है। इसका निर्माण किस शैली और राजवंश के तहत किया गया था?",
+      "option_a": "नागर, चंदेल राजवंश",
+      "option_b": "द्रविड़, पल्लव राजवंश",
+      "option_c": "वेसर/प्रारंभिक चालुक्य, चालुक्य राजवंश",
+      "option_d": "नागर, गुप्त राजवंश",
+      "correct": "C",
+      "explanation": "Correct option: C. कर्नाटक के ऐहोल में लाड़ खान मंदिर का निर्माण 5वीं शताब्दी के अंत या 6वीं शताब्दी की शुरुआत में प्रारंभिक चालुक्य राजवंश के तहत किया गया था, जो चालुक्य/वेसर वास्तुकला में प्रारंभिक प्रयोगों का प्रतिनिधित्व करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What does the term 'Panchayatana' refer to in ancient Indian temple layout?",
+      "option_a": "A temple containing five consecutive mandapas",
+      "option_b": "A central main temple surrounded by four smaller subsidiary shrines",
+      "option_c": "Temples built using five distinct materials",
+      "option_d": "A temple dedicated to five different incarnations of Vishnu",
+      "correct": "B",
+      "explanation": "Correct option: B. A Panchayatana temple layout features a main central shrine surrounded by four smaller subsidiary shrines at the corners, making a total of five shrines."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय मंदिर योजना में 'पंचायतन' शब्द का क्या अर्थ है?",
+      "option_a": "भारत में पाँच लगातार मंडपों वाला मंदिर",
+      "option_b": "एक केंद्रीय मुख्य मंदिर जो चार छोटे सहायक मंदिरों से घिरा हो",
+      "option_c": "पांच अलग-अलग सामग्रियों का उपयोग करके बनाए गए मंदिर",
+      "option_d": "विष्णु के पांच अलग-अलग अवतारों को समर्पित मंदिर",
+      "correct": "B",
+      "explanation": "Correct option: B. पंचायतन मंदिर लेआउट में कोनों पर चार छोटे सहायक मंदिरों से घिरा एक मुख्य केंद्रीय मंदिर होता है, जिससे कुल पांच मंदिर बनते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous Lakshmana Temple at Khajuraho was constructed under the patronage of which Chandela ruler?",
+      "option_a": "Dhanga",
+      "option_b": "Yashovarman",
+      "option_c": "Vidyadhara",
+      "option_d": "Ganda",
+      "correct": "B",
+      "explanation": "Correct option: B. The Lakshmana Temple at Khajuraho, dedicated to Vishnu, was built by the Chandela ruler Yashovarman around 930–954 CE."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. खजुराहो का प्रसिद्ध लक्ष्मण मंदिर किस चंदेल शासक के संरक्षण में बनाया गया था?",
+      "option_a": "धंग",
+      "option_b": "यशोवर्मन",
+      "option_c": "विद्याधर",
+      "option_d": "गंड",
+      "correct": "B",
+      "explanation": "Correct option: B. विष्णु को समर्पित खजुराहो का लक्ष्मण मंदिर चंदेल शासक यशोवर्मन द्वारा लगभग 930-954 ईस्वी के दौरान बनवाया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The architecture of the Hoysaleswara Temple at Halebidu is constructed using which highly carveable rock, allowing for extremely intricate sculptures?",
+      "option_a": "Granite",
+      "option_b": "Soapstone (Talc schist)",
+      "option_c": "Sandstone",
+      "option_d": "Basalt",
+      "correct": "B",
+      "explanation": "Correct option: B. Hoysala temples are constructed using soapstone (talc schist), which is relatively soft when quarried and hardens upon exposure, enabling highly detailed and delicate carvings."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हलेबिडु में होयसलेश्वर मंदिर का निर्माण किस अत्यधिक नक्काशी योग्य चट्टान का उपयोग करके किया गया है, जिससे अत्यंत जटिल मूर्तियां बनाना संभव हुआ?",
+      "option_a": "ग्रेनाइट",
+      "option_b": "साबुन का पत्थर (सोपस्टोन / टैल्क शिस्ट)",
+      "option_c": "बलुआ पत्थर",
+      "option_d": "बेसाल्ट",
+      "correct": "B",
+      "explanation": "Correct option: B. होयसल मंदिरों का निर्माण सोपस्टोन (टैल्क शिस्ट) का उपयोग करके किया गया है, जो खदान से निकालते समय अपेक्षाकृत नरम होता है और हवा के संपर्क में आने पर कठोर हो जाता है, जिससे अत्यधिक विस्तृत और नाजुक नक्काशी संभव होती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Dravida style temples, the dvarapalas (door guardians) are typically carved at the entrance of the:",
+      "option_a": "Garbhagriha (Sanctum)",
+      "option_b": "Jagati (Platform)",
+      "option_c": "Prakara (Boundary wall)",
+      "option_d": "Amalaka",
+      "correct": "A",
+      "explanation": "Correct option: A. In Dravida temples, huge sculptures of Dvarapalas (door keepers) guard the entrance to the garbhagriha, replacing the river goddesses Ganga and Yamuna found in Nagara style temples."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्रविड़ शैली के मंदिरों में, द्वारपालों (दरवाजे के रक्षक) की मूर्तियां आमतौर पर किसके प्रवेश द्वार पर उकेरी जाती हैं?",
+      "option_a": "गर्भगृह",
+      "option_b": "जगति",
+      "option_c": "प्राकार (सीमा दीवार)",
+      "option_d": "अमलक",
+      "correct": "A",
+      "explanation": "Correct option: A. द्रविड़ मंदिरों में, द्वारपालों (द्वार रक्षकों) की विशाल मूर्तियां गर्भगृह के प्रवेश द्वार की रक्षा करती हैं, जो नागर शैली के मंदिरों में पाई जाने वाली नदी देवियों गंगा और यमुना का स्थान लेती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The temple of Durga at Aihole is unique because of its semi-circular apse. This plan is inspired by which ancient structures?",
+      "option_a": "Greek Basilicas",
+      "option_b": "Buddhist Chaitya halls",
+      "option_c": "Mauryan Stupas",
+      "option_d": "Islamic Mosques",
+      "correct": "B",
+      "explanation": "Correct option: B. The Durga Temple at Aihole is famous for its apsidal (semi-circular) rear end, which is directly inspired by early Buddhist Chaitya halls."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ऐहोल में दुर्गा मंदिर अपने अर्धवृत्ताकार अप्सराकार (apse) के कारण अद्वितीय है। यह योजना किन प्राचीन संरचनाओं से प्रेरित है?",
+      "option_a": "यूनानी बेसिलिका",
+      "option_b": "बौद्ध चैत्य गृह",
+      "option_c": "मौर्यकालीन स्तूप",
+      "option_d": "इस्लामी मस्जिदें",
+      "correct": "B",
+      "explanation": "Correct option: B. ऐहोल में दुर्गा मंदिर अपने अप्सिडल (अर्धवृत्ताकार) पिछले हिस्से के लिए प्रसिद्ध है, जो सीधे प्रारंभिक बौद्ध चैत्य गृहों से प्रेरित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which temple is widely known as the earliest surviving panchayatana temple in India, dating back to the Gupta period?",
+      "option_a": "Dashavatara Temple at Deogarh",
+      "option_b": "Bhitaragaon Brick Temple",
+      "option_c": "Parvati Temple at Nachna Kuthara",
+      "option_d": "Teli ka Mandir at Gwalior",
+      "correct": "A",
+      "explanation": "Correct option: A. The Dashavatara Temple at Deogarh (Uttar Pradesh), built in the early 6th century during the Gupta period, is the earliest surviving example of a Panchayatana style temple in India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत में सबसे पहले बचे हुए पंचायतन मंदिर के रूप में व्यापक रूप से किसे जाना जाता है, जो गुप्त काल का है?",
+      "option_a": "देवगढ़ का दशावतार मंदिर",
+      "option_b": "भितरगांव का ईंटों का मंदिर",
+      "option_c": "नचना कुठारा का पार्वती मंदिर",
+      "option_d": "ग्वालियर का तेली का मंदिर",
+      "correct": "A",
+      "explanation": "Correct option: A. उत्तर प्रदेश के देवगढ़ में दशावतार मंदिर, जो गुप्त काल के दौरान छठी शताब्दी की शुरुआत में बनाया गया था, भारत में पंचायतन शैली के मंदिर का सबसे पुराना जीवित उदाहरण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Dilwara Jain Temples at Mount Abu, built under the patronage of the Solanki rulers, are constructed using which primary material?",
+      "option_a": "Red sandstone",
+      "option_b": "Chlorite schist",
+      "option_c": "White marble",
+      "option_d": "Granite",
+      "correct": "C",
+      "explanation": "Correct option: C. The Dilwara Jain Temples in Rajasthan, built between the 11th and 13th centuries, are constructed entirely of fine white marble and are famous for their intricate carvings."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सोलंकी शासकों के संरक्षण में निर्मित माउंट आबू के दिलवाड़ा जैन मंदिर किस प्राथमिक सामग्री का उपयोग करके बनाए गए हैं?",
+      "option_a": "लाल बलुआ पत्थर",
+      "option_b": "क्लोराइट शिस्ट",
+      "option_c": "सफेद संगमरमर",
+      "option_d": "ग्रेनाइट",
+      "correct": "C",
+      "explanation": "Correct option: C. राजस्थान में दिलवाड़ा जैन मंदिर, जिनका निर्माण 11वीं से 13वीं शताब्दी के बीच हुआ था, पूरी तरह से सफेद संगमरमर से बने हैं और अपनी जटिल नक्काशी के लिए प्रसिद्ध हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Dravida style temples have massive and highly ornamental Gopurams (gateways) which often dwarf the main Vimana of the temple.\nReason (R): As the temple complexes expanded over time due to temple-centric social and economic activities, successive rulers constructed larger outermost walls and grander gateways to display their power and devotion.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Dravida style temples indeed have massive Gopurams that dwarf the sanctum's Vimana. Reason Analysis: With time, temples grew as socio-economic hubs, leading successive rulers to add outer concentric walls with grander gateways, explaining why the gateways (Gopurams) became larger than the older central Vimana."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): द्रविड़ शैली के मंदिरों में विशाल और अत्यधिक अलंकृत गोपुरम (प्रवेश द्वार) होते हैं जो अक्सर मंदिर के मुख्य विमान को भी बौना कर देते हैं।\nकारण (R): मंदिर-केंद्रित सामाजिक और आर्थिक गतिविधियों के कारण समय के साथ मंदिर परिसरों का विस्तार हुआ, जिससे क्रमिक शासकों ने अपनी शक्ति और भक्ति को प्रदर्शित करने के लिए बड़ी बाहरी दीवारों और भव्य द्वारों का निर्माण किया।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: द्रविड़ शैली के मंदिरों में वास्तव में गोपुरम इतने विशाल होते हैं कि वे मुख्य विमान को बौना बना देते हैं। कारण विश्लेषण: चूंकि मंदिर सामाजिक-आर्थिक गतिविधियों के मुख्य केंद्र बन गए थे, इसलिए उनके विस्तार के दौरान शासकों ने सुरक्षा और प्रभाव प्रदर्शन हेतु बड़ी दीवारों और बड़े प्रवेश द्वारों का निर्माण किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Sun Temple at Konark was constructed in the form of a gigantic solar chariot with twelve pairs of elaborately carved stone wheels.\nReason (R): The Kalinga school of architecture developed distinct regional variations of the Nagara style under the patronage of the Eastern Ganga Dynasty.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "B",
+      "explanation": "Assertion Analysis: The Sun Temple at Konark is indeed built like a solar chariot with 24 wheels. Reason Analysis: The Kalinga school did develop regional variations under the Eastern Ganga Dynasty. However, the patronizing dynasty's name and style definition do not explain the physical architectural choice of building the temple as a chariot."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): कोणार्क के सूर्य मंदिर का निर्माण बारह जोड़ी जटिल नक्काशीदार पत्थर के पहियों वाले एक विशाल सौर रथ के रूप में किया गया था।\nकारण (R): कलिंग वास्तुकला शैली ने पूर्वी गंग राजवंश के संरक्षण में नागर शैली के विशिष्ट क्षेत्रीय रूपों का विकास किया।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: कोणार्क का सूर्य मंदिर एक विशाल सौर रथ के रूप में 24 पहियों के साथ निर्मित है। कारण विश्लेषण: कलिंग शैली ने पूर्वी गंग राजवंश के तहत विकास किया। हालांकि, राजवंश के शासन काल से यह स्पष्ट नहीं होता कि इस मंदिर का आकार रथ जैसा ही क्यों चुना गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Vesara style is described as a hybrid temple style that incorporates features of both Nagara and Dravida traditions.\nReason (R): Vesara style temples are exclusively found in the Indo-Gangetic plains of Northern India.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Vesara is indeed a hybrid style merging Northern (Nagara) and Southern (Dravida) styles. Reason Analysis: Vesara temples are primarily found in the Deccan and Central India (Karnataka region), not in the Indo-Gangetic plains, making R false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): वेसर शैली को एक मिश्रित मंदिर शैली के रूप में वर्णित किया गया है जिसमें नागर और द्रविड़ दोनों परंपराओं की विशेषताएं शामिल हैं।\nकारण (R): वेसर शैली के मंदिर विशेष रूप से उत्तरी भारत के भारत-गंगा के मैदानों में पाए जाते हैं।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: वेसर नागर और द्रविड़ दोनों तत्वों को मिलाने वाली मिश्रित शैली है। कारण विश्लेषण: वेसर मंदिर मुख्य रूप से दक्कन क्षेत्र में केंद्रित हैं, न कि उत्तर भारत के भारत-गंगा के मैदानों में, इसलिए कारण असत्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Unlike Nagara temples, Dravida temples are enclosed within a compound wall containing massive entrance gateways.\nReason (R): Dravida temples were designed not just as places of worship, but also as socio-economic, administrative, and defensive centers of the kingdom that required security and clear demarcation.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Dravida temples are indeed enclosed by compound walls, a feature generally absent in early Nagara styles. Reason Analysis: Because these Southern temples performed administrative, defensive, and economic functions, they were structured with defensive compound walls and grand gates."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): नागर मंदिरों के विपरीत, द्रविड़ मंदिरों को एक चारदीवारी के भीतर घेरा जाता है जिसमें विशाल प्रवेश द्वार होते हैं।\nकारण (R): द्रविड़ मंदिरों को न केवल पूजा स्थलों के रूप में डिज़ाइन किया गया था, बल्कि राज्य के सामाजिक-आर्थिक, प्रशासनिक और रक्षात्मक केंद्रों के रूप में भी डिज़ाइन किया गया था, जिसके लिए सुरक्षा और स्पष्ट सीमांकन की आवश्यकता थी।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: द्रविड़ मंदिरों में सुरक्षा हेतु चारदीवारी और गोपुरम होते हैं। कारण विश्लेषण: चूंकि दक्षिण भारत के मंदिर केवल पूजा स्थल नहीं बल्कि प्रशासनिक, आर्थिक और रक्षात्मक केंद्र थे, अतः उन्हें सुरक्षात्मक घेराबंदी की आवश्यकता थी जो कारण को स्पष्ट करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The rock-cut Rathas of Mahabalipuram are considered proto-types or precursors to the fully developed Dravidian Vimanas.\nReason (R): The Pallava rulers under Narasimhavarman I pioneered the transition from rock-cut architecture to structural stone temples in South India.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "B",
+      "explanation": "Assertion Analysis: The Pancha Rathas are indeed prototypes of Dravidian Vimana style. Reason Analysis: Pallavas did pioneer the transition from rock-cut to structural temples. However, this general historical transition statement does not explain the specific architectural evolution of Rathas as prototypes for Dravidian multi-tiered Vimanas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): महाबलीपुरम के चट्टानों को काटकर बनाए गए रथों को पूर्ण विकसित द्रविड़ विमानों का प्रोटोटाइप या अग्रदूत माना जाता है।\nकारण (R): नरसिंहवर्मन प्रथम के तहत पल्लव शासकों ने दक्षिण भारत में रॉक-कट वास्तुकला से संरचनात्मक पत्थर के मंदिरों में संक्रमण का बीड़ा उठाया।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: पंच रथ द्रविड़ शैली के विमानों के शुरुआती रूप या प्रोटोटाइप हैं। कारण विश्लेषण: पल्लव काल में रॉक-कट से संरचनात्मक मंदिरों में संक्रमण हुआ। हालांकि, संक्रमण की सामान्य ऐतिहासिक प्रक्रिया विशेष रूप से यह स्पष्ट नहीं करती कि ये रथ विमान के डिजाइन के प्रोटोटाइप क्यों बने।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): In the Nagara style of temple architecture, river goddesses Ganga and Yamuna are carved at the entrance of the temple's outer boundary Gopurams.\nReason (R): The practice of placing Ganga and Yamuna at the doorway of the sanctum sanctorum originated during the Gupta period to symbolize purification before entering.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "D",
+      "explanation": "Assertion Analysis: Nagara temples generally do not have boundary walls or Gopurams; the river goddesses are carved at the jambs of the garbhagriha doorway, not on outer Gopurams. Thus, A is false. Reason Analysis: The practice of placing these deities on the sanctum door frame started in the Gupta period to signify purification, which is true."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): नागर शैली की मंदिर वास्तुकला में, नदी देवियों गंगा और यमुना को मंदिर के बाहरी सीमा गोपुरमों के प्रवेश द्वार पर उकेरा गया है।\nकारण (R): गर्भगृह के प्रवेश द्वार पर गंगा और यमुना को रखने की प्रथा गुप्त काल के दौरान शुरू हुई थी ताकि प्रवेश करने से पहले पवित्रता का प्रतीक बनाया जा सके।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "D",
+      "explanation": "अभिकथन विश्लेषण: नागर मंदिरों में पारंपरिक रूप से कोई गोपुरम या बाहरी सीमा दीवारें नहीं होती हैं। नदियां गर्भगृह के प्रवेश चौखट पर होती हैं। इसलिए A असत्य है। कारण विश्लेषण: गंगा और यमुना को पवित्रता के प्रतीक के रूप में प्रवेश द्वार पर रखने की शुरुआत गुप्त काल से हुई, जो कि सत्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Hoysala temples built in Halebidu and Belur feature highly intricate, lace-like carvings that are almost three-dimensional.\nReason (R): The Hoysala craftsmen used soapstone (chloritic schist) as their primary building material, which is soft when quarried but hardens on exposure to air.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Hoysala temples are indeed known for their extremely detailed, lace-like sculptures. Reason Analysis: The choice of soapstone, which is easy to carve when fresh but hardens later, directly enabled the sculptors to execute such complex, three-dimensional carvings."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): हलेबिडु और बेलूर में निर्मित होयसल मंदिरों में अत्यधिक जटिल, फीते जैसी नक्काशी है जो लगभग त्रि-आयामी (three-dimensional) लगती है।\nकारण (R): होयसल कारीगरों ने अपने प्राथमिक निर्माण सामग्री के रूप में साबुन के पत्थर (क्लोराइट शिस्ट) का उपयोग किया, जो खदान से निकालते समय नरम होता है लेकिन हवा के संपर्क में आने पर कठोर हो जाता है।",
+      "option_a": "A और R दोनों सत्य हैं, and R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: होयसल मंदिर अपनी बारीक और त्रि-आयामी नक्काशी के लिए प्रसिद्ध हैं। कारण विश्लेषण: सोपस्टोन का उपयोग, जो नरम होने के कारण आसानी से नक्काशीदार बनाया जा सकता था और बाद में हवा में कठोर हो जाता था, ने इस अत्यधिक जटिल नक्काशी को साकार किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labelled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Lakshmana Temple at Khajuraho is built on a high platform (jagati) and displays a fully developed Panchayatana plan.\nReason (R): The Chandela dynasty builders of Khajuraho strictly followed the Dravida style rules of temple layout as detailed in the Shilpa Shastras.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: The Lakshmana Temple is a classic example of a Nagara style Panchayatana temple built on a high jagati. Reason Analysis: The Chandela builders followed the Nagara style rules, not the Dravida style, which makes the Reason false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): खजुराहो का लक्ष्मण मंदिर एक ऊंचे मंच (जगति) पर बनाया गया है और एक पूर्ण विकसित पंचायतन योजना प्रदर्शित करता है।\nकारण (R): खजुराहो के चंदेल राजवंश के निर्माताओं ने शिल्प शास्त्रों में विस्तृत विवरण के अनुसार मंदिर लेआउट के द्रविड़ शैली के नियमों का कड़ाई से पालन किया।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: लक्ष्मण मंदिर एक उच्च जगति पर बना पंचायतन प्रकार का मंदिर है। कारण विश्लेषण: चंदेल शासक नागर शैली के अनुयायी थे, न कि द्रविड़ शैली के, जिससे कारण पूर्णतः असत्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Architectural Style/School) with List-II (Representative Temple) and select the correct answer:\nList-I:\na) Solanki School of Nagara Style\nb) Chola School of Dravida Style\nc) Kalinga School of Nagara Style\nd) Hoysala School of Vesara Style\n\nList-II:\n1) Sun Temple at Modhera\n2) Brihadisvara Temple at Gangaikondacholapuram\n3) Jagannath Temple at Puri\n4) Chennakeshava Temple at Belur\n5) Kailashnath Temple at Kanchipuram",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-5, c-3, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. The Solanki school matches the Sun Temple at Modhera [1]. The Chola school matches the Brihadisvara Temple at Gangaikondacholapuram [2]. The Kalinga school matches the Jagannath Temple at Puri [3]. The Hoysala school matches the Chennakeshava Temple at Belur [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वास्तुकला शैली/स्कूल) को सूची-II (प्रतिनिधि मंदिर) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) नागर शैली का सोलंकी स्कूल\nb) द्रविड़ शैली का चोल स्कूल\nc) नागर शैली का कलिंग स्कूल\nd) वेसर शैली का होयसल स्कूल\n\nसूची-II:\n1) मोढेरा का सूर्य मंदिर\n2) गंगैकोंडचोलपुरम का बृहदीश्वर मंदिर\n3) पुरी का जगन्नाथ मंदिर\n4) बेलूर का चेन्नाकेशव मंदिर\n5) कांचीपुरम का कैलाशनाथ मंदिर",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-5, c-3, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. सोलंकी स्कूल का मिलान मोढेरा के सूर्य मंदिर [1] से होता है। चोल स्कूल का मिलान गंगैकोंडचोलपुरम के बृहदीश्वर मंदिर [2] से होता है। कलिंग स्कूल का मिलान पुरी के जगन्नाथ मंदिर [3] से होता है। होयसल स्कूल का मिलान बेलूर के चेन्नाकेशव मंदिर [4] से होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Temple Part) with List-II (Architectural Description) and select the correct answer:\nList-I:\na) Garbhagriha\nb) Mandapa\nc) Antarala\nd) Gopuram\n\nList-II:\n1) Inner sanctum sanctorum housing the main deity\n2) Pillared assembly hall for devotees\n3) Vestibule or transitional passage connecting sanctum and hall\n4) Monumental gateway tower of Southern temples\n5) Crowning stone disk at the peak of the spire",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-5",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Garbhagriha is the inner sanctum sanctorum [1]. Mandapa is the assembly hall [2]. Antarala is the vestibule linking the two [3]. Gopuram is the monumental entrance gateway [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (मंदिर के भाग) को सूची-II (वास्तुकला विवरण) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) गर्भगृह\nb) मंडप\nc) अंतराल\nd) गोपुरम\n\nसूची-II:\n1) मुख्य देवता को स्थापित करने वाला आंतरिक गर्भगृह\n2) भक्तों के लिए स्तंभों वाला सभा कक्ष\n3) गर्भगृह और सभा कक्ष को जोड़ने वाला गलियारा\n4) दक्षिणी मंदिरों का स्मारकीय प्रवेश द्वार\n5) शिखर के शीर्ष पर मुकुट के रूप में रखा गया पत्थर का डिस्क",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-5",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. गर्भगृह आंतरिक गर्भगृह है [1]। मंडप स्तंभों वाला सभा कक्ष है [2]। अंतराल इन दोनों को जोड़ने वाला मार्ग है [3]। गोपुरम दक्षिणी मंदिरों का प्रवेश द्वार है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Nagara Shikhara Subtype) with List-II (Distinct Feature) and select the correct answer:\nList-I:\na) Latina / Rekha-Prasada\nb) Phamsana\nc) Valabhi\nd) Shekhari\n\nList-II:\n1) Curvilinear shikhara with a single square base and inward curving walls\n2) Broader and shorter roofs composed of multiple horizontal slabs rising in a slope\n3) Rectangular temple roof with a barrel-vaulted or wagon-vaulted shape\n4) Composite shikhara featuring a central spire flanked by miniature spires (urushikharas)\n5) Circular star-shaped plan with multiple projecting corners",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Latina is the standard curvilinear shikhara [1]. Phamsana consists of straight slope roofs [2]. Valabhi is the barrel-vaulted roof [3]. Shekhari is the composite shikhara with miniature secondary spires [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (नागर शिखर उपप्रकार) को सूची-II (विशिष्ट विशेषता) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) लैटिना / रेखा-प्रसाद\nb) फाम्साना\nc) वलभी\nd) शेखरी\n\nसूची-II:\n1) एक एकल वर्गाकार आधार और अंदर की ओर झुकती हुई दीवारों वाला वक्रीय शिखर\n2) चौड़ी और छोटी छतें जो ढलान में उठने वाले कई क्षैतिज स्लैब से बनी होती हैं\n3) बैरल-छत या वैगन-छत के आकार वाली आयताकार मंदिर की छत\n4) मिश्रित शिखर जिसमें एक मुख्य शिखर के चारों ओर छोटे माध्यमिक शिखर (उरुशिखर) होते हैं\n5) कई उभरे हुए कोनों वाला गोलाकार तारे के आकार का लेआउट",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. लैटिना मानक वक्रीय शिखर है [1]। फाम्साना सीधे ढलान वाली छतों से बना होता है [2]। वलभी बैरल-छत वाली संरचना है [3]। शेखरी एक मुख्य शिखर और सहायक शिखरों वाला मिश्रित शिखर है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Early/Gupta Temple) with List-II (Location/State) and select the correct answer:\nList-I:\na) Dashavatara Temple\nb) Bhitargaon Brick Temple\nc) Parvati Temple\nd) Shiva Temple\n\nList-II:\n1) Deogarh, Uttar Pradesh\n2) Kanpur, Uttar Pradesh\n3) Nachna Kuthara, Madhya Pradesh\n4) Bhumara, Madhya Pradesh\n5) Aihole, Karnataka",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Dashavatara Temple is in Deogarh [1]. Bhitargaon Brick Temple is in Kanpur [2]. Parvati Temple is in Nachna Kuthara [3]. Shiva Temple is in Bhumara [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्रारंभिक/गुप्त मंदिर) को सूची-II (स्थान/राज्य) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) दशावतार मंदिर\nb) भितरगांव ईंट मंदिर\nc) पार्वती मंदिर\nd) शिव मंदिर\n\nसूची-II:\n1) देवगढ़, उत्तर प्रदेश\n2) कानपुर, उत्तर प्रदेश\n3) नचना कुठारा, मध्य प्रदेश\n4) भूमरा, मध्य प्रदेश\n5) ऐहोल, कर्नाटक",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. दशावतार मंदिर देवगढ़ में है [1]। भितरगांव ईंट मंदिर कानपुर में है [2]। पार्वती मंदिर नचना कुठारा में है [3]। शिव मंदिर भूमरा में है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Dravida Dynasty) with List-II (Key Temple Site) and select the correct answer:\nList-I:\na) Pallavas\nb) Cholas\nc) Pandyas\nd) Vijayanagara\n\nList-II:\n1) Mahabalipuram Rathas\n2) Darasuram Airavatesvara Temple\n3) Kalugumalai Vettuvan Koil\n4) Hampi Virupaksha Temple\n5) Halebidu Hoysaleswara Temple",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-4, c-3, d-2",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. Pallavas match Mahabalipuram Rathas [1]. Cholas match Airavatesvara Temple at Darasuram [2]. Pandyas match Kalugumalai rock-cut temple [3]. Vijayanagara matches the Virupaksha Temple at Hampi [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (द्रविड़ राजवंश) को सूची-II (मुख्य मंदिर स्थल) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) पल्लव\nb) चोल\nc) पांड्य\nd) विजयनगर\n\nसूची-II:\n1) महाबलीपुरम रथ\n2) दारासुरम ऐरावतेश्वर मंदिर\n3) कलुगुमलाई वेट्टुवन कोइल\n4) हम्पी विरुपाक्ष मंदिर\n5) हलेबिडु होयसलेश्वर मंदिर",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-4, c-3, d-2",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct option: A. पल्लव का मिलान महाबलीपुरम रथ [1] से होता है। चोल का मिलान दारासुरम ऐरावतेश्वर मंदिर [2] से होता है। पांड्य का मिलान कलुगुमलाई रॉक-कट मंदिर [3] से होता है। विजयनगर का मिलान हम्पी के विरुपाक्ष मंदिर [4] से होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Vesara/Deccan Temple) with List-II (Constructing Dynasty/Rulers) and select the correct answer:\nList-I:\na) Durga Temple at Aihole\nb) Kailashnath Temple at Ellora\nc) Hoysaleswara Temple at Halebidu\nd) Mahadeva Temple at Itagi\n\nList-II:\n1) Early Chalukyas of Badami\n2) Rashtrakutas\n3) Hoysalas\n4) Western Chalukyas of Kalyani\n5) Kakatiyas",
+      "option_a": "a-1, b-2, c-3, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-1, c-3, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "B",
+      "explanation": "Correct option: B. Durga Temple at Aihole was built by the Early Chalukyas of Badami [1]. Kailashnath Temple at Ellora was built by the Rashtrakutas [2]. Hoysaleswara Temple was built by the Hoysalas [3]. Mahadeva Temple at Itagi was built by the Western Chalukyas of Kalyani [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वेसर/दक्कन मंदिर) को सूची-II (निर्माणकर्ता राजवंश/शासक) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) ऐहोल का दुर्गा मंदिर\nb) एलोरा का कैलाशनाथ मंदिर\nc) हलेबिडु का होयसलेश्वर मंदिर\nd) इतागी का महादेव मंदिर\n\nसूची-II:\n1) बादामी के प्रारंभिक चालुक्य\n2) राष्ट्रकूट\n3) होयसल\n4) कल्याणी के पश्चिमी चालुक्य\n5) काकतीय",
+      "option_a": "a-1, b-2, c-3, d-1",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-1, c-3, d-4",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "B",
+      "explanation": "Correct option: B. ऐहोल का दुर्गा मंदिर बादामी के प्रारंभिक चालुक्यों द्वारा बनाया गया था [1]। एलोरा का कैलाशनाथ मंदिर राष्ट्रकूटों द्वारा बनाया गया था [2]। होयसलेश्वर मंदिर का निर्माण होयसलों ने किया था [3]। इतागी का महादेव मंदिर कल्याणी के पश्चिमी चालुक्यों द्वारा बनाया गया था [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Odisha Temple Component) with List-II (Standard Terminology) and select the correct answer:\nList-I:\na) Bada\nb) Gandi\nc) Mastaka\nd) Jagamohana\n\nList-II:\n1) Lower wall/base part of the temple\n2) Trunk or curvilinear spire of the temple\n3) Crowning elements at the very top of the spire\n4) Assembly hall or audience hall in Kalinga style\n5) Sacred pond adjacent to the temple",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Bada is the vertical wall base [1]. Gandi is the main body or trunk of the spire [2]. Mastaka refers to the crowning elements at the top [3]. Jagamohana is the assembly hall [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (ओडिशा मंदिर घटक) को सूची-II (मानक शब्दावली) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) बाड़ (Bada)\nb) गांडी (Gandi)\nc) मस्तक (Mastaka)\nd) जगमोहन (Jagamohana)\n\nसूची-II:\n1) मंदिर का निचला दीवार/आधार भाग\n2) मंदिर का मुख्य धड़ या वक्रीय शिखर\n3) शिखर के सबसे ऊपर स्थित मुकुट तत्व\n4) कलिंग शैली में बना सभा भवन या दर्शक दीर्घा\n5) मंदिर के निकट स्थित पवित्र तालाब",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. बाड़ मंदिर का निचला आधार भाग है [1]। गांडी मुख्य वक्रीय शिखर का धड़ है [2]। मस्तक शीर्ष पर स्थित मुकुट तत्व है [3]। जगमोहन सभा कक्ष को कहा जाता है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Nagara Region School) with List-II (Specific Architectural Feature) and select the correct answer:\nList-I:\na) Khajuraho School\nb) Rajasthan/Solanki School\nc) Odisha School\nd) Kashmir School\n\nList-II:\n1) Temples with high platforms, inner and outer decorated walls, and miniature spires (Urushikharas)\n2) Intricate wood-like marble carvings and absence of carved figures on walls (like Dilwara)\n3) Curved towers divided into vertical bands (Pagis) with separate Deul and Jagamohana\n4) Double-roofed pyramidal structures with triangular pediments and trefoil arches\n5) Stepped square pyramids without vertical division of the towers",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. Khajuraho style has miniature spires [1]. Solanki school is famous for marble carving [2]. Odisha has Deul and Jagamohana with Pagas [3]. Kashmir school features double-roofed structures with trefoil arches [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (नागर क्षेत्रीय शैली) को सूची-II (विशिष्ट वास्तुकला विशेषता) के साथ सुमेलित करें और सही उत्तर चुनें:\nसूची-I:\na) खजुराहो शैली\nb) राजस्थान/सोलंकी शैली\nc) ओडिशा शैली\nd) कश्मीर शैली\n\nसूची-II:\n1) ऊंचे चबूतरे, आंतरिक और बाहरी अलंकृत दीवारें और लघु शिखर (उरुशिखर)\n2) जटिल लकड़ी जैसी संगमरमर की नक्काशी और दीवारों पर नक्काशीदार आकृतियों की अनुपस्थिति (जैसे दिलवाड़ा)\n3) लंबवत पट्टियों (पग) में विभाजित घुमावदार शिखर जिसमें अलग देउल और जगमोहन होते हैं\n4) त्रिकोणीय पेडीमेंट्स और ट्रेफॉइल मेहराबों वाले दोहरी छत वाले पिरामिडनुमा ढांचे\n5) मीनारों के लंबवत विभाजन के बिना सीढ़ीदार वर्गाकार पिरामिड",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct option: A. खजुराहो शैली में उरुशिखर होते हैं [1]। सोलंकी शैली संगमरमर की बारीक नक्काशी के लिए प्रसिद्ध है [2]। ओडिशा शैली में देउल और जगमोहन होते हैं [3]। कश्मीर शैली में दोहरी छत वाले पिरामिडनुमा ढांचे और ट्रेफॉइल मेहराब होते हैं [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Nagara style of temple architecture:\n1. The Nagara style has no boundary walls or elaborate gateways (Gopurams) surrounding the temple complex.\n2. The main deity is always housed in the Garbhagriha, which is located directly under the tallest spire (Shikhara).\n3. Crucial structures of the temple are built on a low ground level without any elevated platform.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Nagara temples traditionally lack boundary walls. Statement 2 is correct because the garbhagriha is situated directly under the highest shikhara. Statement 3 is incorrect because Nagara temples are built on a high platform known as Jagati."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागर शैली की मंदिर वास्तुकला के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. नागर शैली में मंदिर परिसर के चारों ओर कोई सीमा दीवार या विस्तृत प्रवेश द्वार (गोपुरम) नहीं होते हैं।\n2. मुख्य देवता को हमेशा गर्भगृह में स्थापित किया जाता है, जो सीधे सबसे ऊंचे शिखर के नीचे स्थित होता है।\n3. मंदिर की महत्वपूर्ण संरचनाएं बिना किसी ऊंचे मंच (प्लेटफॉर्म) के निचले जमीनी स्तर पर बनाई जाती हैं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि नागर मंदिरों में पारंपरिक रूप से सीमा दीवारों का अभाव होता है। कथन 2 सही है क्योंकि गर्भगृह सीधे सबसे ऊंचे शिखर के नीचे स्थित होता है। कथन 3 गलत है क्योंकि नागर शैली के मंदिर एक ऊंचे मंच पर बनाए जाते हैं जिसे जगति कहा जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Dravida style of temple architecture:\n1. The crowning element at the top of the Vimana is called the Shikhara or Stupika, which is octagonal or dome-shaped.\n2. In Dravida temples, the River Ganges and Yamuna deities serve as door guardians (Dvarapalas) at the main entrance.\n3. The temples are typically laid out in a walled complex that contains multiple tanks or reservoirs.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because the crowning element of a Dravidian Vimana is called the Stupika or Shikhara. Statement 2 is incorrect because Dravida temples feature terrifying Dvarapalas as guardians, whereas Ganga and Yamuna are typical of Nagara temple doorways. Statement 3 is correct because Dravida temples are enclosed in a walled compound containing sacred water tanks."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्रविड़ शैली की मंदिर वास्तुकला के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. विमान के शीर्ष पर मुकुट के रूप में रखा गया तत्व शिखर या स्तूपिका कहलाता है, जो अष्टकोणीय या गुंबद के आकार का होता है।\n2. द्रविड़ मंदिरों में, गंगा और यमुना नदी की मूर्तियां मुख्य प्रवेश द्वार पर द्वारपालों के रूप में कार्य करती हैं।\n3. मंदिर आमतौर पर एक चारदीवारी वाले परिसर में स्थित होते हैं जिसमें कई तालाब या जलाशय होते हैं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि द्रविड़ विमान के मुकुट तत्व को स्तूपिका या शिखर कहा जाता है। कथन 2 गलत है क्योंकि द्रविड़ मंदिरों में गर्भगृह के रक्षक के रूप में द्वारपाल होते हैं, जबकि गंगा और यमुना नागर मंदिरों के प्रवेश द्वार की विशेषता हैं। कथन 3 सही है क्योंकि द्रविड़ मंदिर एक चारदीवारी परिसर के भीतर स्थित होते हैं जिसमें जलाशय होते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements about the Vesara style of temple architecture:\n1. It is a hybrid style that incorporates features of both Northern Nagara and Southern Dravida styles.\n2. The Badami Chalukyas and Hoysalas were key dynasties that patronized and developed this style.\n3. The Vimana of Vesara temples strictly maintains a straight-sided pyramid shape without any curvature.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Vesara is a hybrid of Nagara and Dravida styles. Statement 2 is correct because the Chalukyas and Hoysalas were the primary patrons of the Vesara style. Statement 3 is incorrect because the Vesara spire has a curved profile, merging the curvilinear shikhara of the Nagara with Dravidian tiers."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वेसर शैली की मंदिर वास्तुकला के बारे में निम्नलिखित कथनों पर विचार करें:\n1. यह एक मिश्रित शैली है जिसमें उत्तरी नागर और दक्षिणी द्रविड़ दोनों शैलियों की विशेषताएं शामिल हैं।\n2. बादामी चालुक्य और होयसल प्रमुख राजवंश थे जिन्होंने इस शैली को संरक्षण दिया और विकसित किया।\n3. वेसर मंदिरों का विमान बिना किसी वक्रता के कड़ाई से एक सीधी-पक्षीय पिरामिड आकृति बनाए रखता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि वेसर नागर और द्रविड़ शैलियों का मिश्रण है। कथन 2 सही है क्योंकि चालुक्य और होयसल वेसर शैली के प्राथमिक संरक्षक थे। कथन 3 गलत है क्योंकि वेसर शिखर में वक्रीय प्रोफ़ाइल होती है, जो नागर के वक्रीय शिखर को द्रविड़ मंजिलों के साथ जोड़ती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the Hoysala school of architecture, consider the following statements:\n1. The temples are planned on a stellate or star-shaped layout, providing multiple projections.\n2. The main building material used was hard granite, which made detailed carving impossible.\n3. Monolithic, large statues of Nandi and deities are often built on separate platforms outside the main temple.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because Hoysala temples feature star-shaped (stellate) ground plans. Statement 2 is incorrect because Hoysala temples were built using soft soapstone (chloritic schist), not hard granite. Statement 3 is correct because large monolithic statues (like Nandi) are common outside Hoysala shrines."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. होयसल वास्तुकला शैली के संदर्भ में निम्नलिखित कथनों पर विचार करें:\n1. मंदिरों की योजना एक तारकीय (तारे के आकार) के लेआउट पर बनाई गई है, जो कई उभार प्रदान करती है।\n2. प्रयुक्त मुख्य निर्माण सामग्री कठोर ग्रेनाइट थी, जिससे विस्तृत नक्काशी असंभव हो गई।\n3. नंदी और देवताओं की अखंड, विशाल मूर्तियां अक्सर मुख्य मंदिर के बाहर अलग मंचों पर बनाई जाती हैं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि होयसल मंदिरों में तारे के आकार का ग्राउंड प्लान होता है। कथन 2 गलत है क्योंकि होयसल मंदिर नरम सोपस्टोन से बने थे, कठोर ग्रेनाइट से नहीं। कथन 3 सही है क्योंकि होयसल मंदिरों के बाहर बड़े अखंड नंदी आदि की मूर्तियां आम हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements about the Kalinga School of Nagara architecture:\n1. The Kalinga temples consist of two main parts: the Rekha Deul (sanctum tower) and the Jagamohana (assembly hall).\n2. Unlike Central Indian temples, Kalinga temples lack any curvilinear shape in their spires.\n3. The exterior walls are usually highly decorated with intricate carvings, while the interiors are kept plain.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because Rekha Deul and Jagamohana are the main components of Odisha/Kalinga temples. Statement 2 is incorrect because the Rekha Deul is a curvilinear spire. Statement 3 is correct because the exterior of Kalinga temples is extremely ornate while the inside walls are kept plain."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागर वास्तुकला की कलिंग शैली के बारे में निम्नलिखित कथनों पर विचार करें:\n1. कलिंग मंदिरों में दो मुख्य भाग होते हैं: रेखा देउल (गर्भगृह मीनार) और जगमोहन (सभा भवन)।\n2. मध्य भारतीय मंदिरों के विपरीत, कलिंग मंदिरों के शिखरों में किसी वक्रता का अभाव होता है।\n3. बाहरी दीवारें आमतौर पर जटिल नक्काशी से अत्यधिक अलंकृत होती हैं, जबकि आंतरिक भाग को बिल्कुल सादा रखा जाता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि रेखा देउल और जगमोहन ओडिशा/कलिंग मंदिरों के मुख्य घटक हैं। कथन 2 गलत है क्योंकि रेखा देउल एक वक्रीय शिखर होता है। कथन 3 सही है क्योंकि कलिंग मंदिरों का बाहरी हिस्सा अत्यधिक अलंकृत होता है जबकि आंतरिक दीवारें सादी रखी जाती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Pallava rock-cut and structural temples:\n1. The Mahendra group represents the earliest rock-cut cave temples with simple pillared halls.\n2. The Rajasimha group represents the transition to structural stone temples, as seen in the Shore Temple at Mahabalipuram.\n3. The Nandivarman group is famous for introducing large-scale rock-cut monolithic Rathas.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because the Mahendra style is characterized by rock-cut cave temples. Statement 2 is correct because the Rajasimha style represents early structural temples like the Shore Temple and Kailashnath at Kanchipuram. Statement 3 is incorrect because the monolithic Rathas (Mamalla style) were built under Narasimhavarman I, not the Nandivarman phase."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लव रॉक-कट और संरचनात्मक मंदिरों के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. महेंद्र समूह साधारण स्तंभों वाले हॉलों के साथ सबसे पुराने रॉक-कट गुफा मंदिरों का प्रतिनिधित्व करता है।\n2. राजसिंह समूह संरचनात्मक पत्थर के मंदिरों में संक्रमण का प्रतिनिधित्व करता है, जैसा कि महाबलीपुरम के शोर मंदिर में देखा जाता है।\n3. नंदीवर्मन समूह बड़े पैमाने पर रॉक-कट अखंड रथों (Rathas) को पेश करने के लिए प्रसिद्ध है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि महेंद्र शैली रॉक-कट गुफा मंदिरों द्वारा पहचानी जाती है। कथन 2 सही है क्योंकि राजसिंह शैली संरचनात्मक मंदिरों (जैसे शोर मंदिर और कांचीपुरम का कैलाशनाथ) का प्रतिनिधित्व करती है। कथन 3 गलत है क्योंकि अखंड रथ (मामल्ल शैली) का निर्माण नरसिंहवर्मन प्रथम के तहत हुआ था, न कि नंदीवर्मन चरण में।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the Chola period temple features, consider the following statements:\n1. The Vimana of Chola temples became highly prominent and towered high above the surrounding landscape.\n2. The dvarapalas guarding the temple entrances are depicted as peaceful, meditative figures.\n3. Highly detailed bronze sculptures, such as the Nataraja, were created to be housed inside the temple precincts.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because Chola Vimanas are grand and tall, such as at Thanjavur. Statement 2 is incorrect because Dravidian Chola dvarapalas are portrayed as fierce and muscular guardians rather than peaceful. Statement 3 is correct because the Chola period is famous for exquisite bronze icons like Nataraja."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चोल काल के मंदिर की विशेषताओं के संदर्भ में निम्नलिखित कथनों पर विचार करें:\n1. चोल मंदिरों का विमान अत्यधिक प्रमुख हो गया और आसपास के परिदृश्य से बहुत ऊपर तक ऊंचा उठ गया।\n2. मंदिर के प्रवेश द्वारों की रक्षा करने वाले द्वारपालों को शांत, ध्यानमग्न आकृतियों के रूप में दर्शाया गया है।\n3. नटराज जैसी अत्यधिक विस्तृत कांस्य मूर्तियां मंदिर परिसरों के भीतर रखने के लिए बनाई गई थीं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि चोल विमान बहुत भव्य और ऊंचे हैं, जैसे कि तंजावुर में। कथन 2 गलत है क्योंकि द्रविड़ चोल द्वारपालों को शांत के बजाय उग्र और शक्तिशाली रक्षकों के रूप में चित्रित किया गया है। कथन 3 सही है क्योंकि चोल काल नटराज जैसी उत्कृष्ट कांस्य मूर्तियों के लिए प्रसिद्ध है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements about the Temple of Sun at Modhera (Gujarat):\n1. It features a large, rectangular stepped water tank called the Surya Kund in front of the temple.\n2. The temple is designed such that the rays of the rising sun fall directly on the deity in the sanctum during equinoxes.\n3. The temple walls are completely plain and free from any erotic or mythological carvings.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because the Surya Kund is a highly ornamental stepped tank located in front of the Modhera temple. Statement 2 is correct because the temple alignment allows equinox sun rays to illuminate the inner sanctum. Statement 3 is incorrect because the Solanki style Modhera temple is famous for its highly decorated walls featuring mythological and erotic sculptures."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मोढेरा (गुजरात) के सूर्य मंदिर के बारे में निम्नलिखित कथनों पर विचार करें:\n1. इसमें मंदिर के सामने सूर्य कुंड नामक एक बड़ा, सीढ़ीदार वर्गाकार जलाशय है।\n2. मंदिर को इस तरह से डिज़ाइन किया गया है कि विषुव (equinoxes) के दौरान उगते सूरज की किरणें सीधे गर्भगृह में देवता पर पड़ती हैं।\n3. मंदिर की दीवारें पूरी तरह से सादी हैं और किसी भी कामुक या पौराणिक नक्काशी से मुक्त हैं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि सूर्य कुंड मोढेरा मंदिर के सामने स्थित एक अत्यधिक अलंकृत सीढ़ीदार तालाब है। कथन 2 सही है क्योंकि मंदिर का संरेखण विषुव के सूरज की किरणों को गर्भगृह को रोशन करने की अनुमति देता है। कथन 3 गलत है क्योंकि सोलंकी शैली का मोढेरा मंदिर अपनी अत्यधिक अलंकृत दीवारों के लिए प्रसिद्ध है जिसमें पौराणिक और कामुक मूर्तियां उकेरी गई हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the early development of temples in India:\n1. The earliest structural temples in India, made of brick and stone, began appearing during the Mauryan Period.\n2. Flat roofs and square sanctums with a shallow portico were key features of early Gupta temples.\n3. Gupta temples, like the one at Sanchi (Temple 17), demonstrate the transition from simple shrines to towered structures.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because the earliest surviving structural stone temples began appearing in the Gupta period (4th-5th century CE), not the Mauryan period. Statement 2 is correct because flat-roofed square sanctums are the primary characteristics of early Gupta temples. Statement 3 is correct because Sanchi Temple 17 is a classic early flat-roofed Gupta shrine that led to later towered models."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत में मंदिरों के प्रारंभिक विकास के संबंध में निम्नलिखित कथनों पर विचार करें:\n1. भारत में ईंट और पत्थर से बने सबसे पुराने संरचनात्मक मंदिर मौर्य काल के दौरान दिखाई देने लगे थे।\n2. सपाट छतें और एक उथले बरामदे (portico) के साथ वर्गाकार गर्भगृह प्रारंभिक गुप्त मंदिरों की प्रमुख विशेषताएं थीं।\n3. गुप्त मंदिर, जैसे सांची का मंदिर (मंदिर 17), साधारण गर्भगृह से शिखर युक्त संरचनाओं में संक्रमण को प्रदर्शित करते हैं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि सबसे पुराने जीवित संरचनात्मक पत्थर के मंदिर गुप्त काल (4वीं-5वीं शताब्दी ईस्वी) में दिखाई देने लगे थे, मौर्य काल में नहीं। कथन 2 सही है क्योंकि सपाट छत वाले वर्गाकार गर्भगृह प्रारंभिक गुप्त मंदिरों की मुख्य विशेषताएं हैं। कथन 3 सही है क्योंकि सांची का मंदिर 17 एक उत्कृष्ट प्रारंभिक सपाट छत वाला गुप्त मंदिर है जिसने बाद में शिखर युक्त मॉडल का मार्ग प्रशस्त किया।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the architectural features of the Vesara style of temples. [5 Marks, 50 Words]",
+      "model_answer": "The Vesara style is a hybrid temple architecture that emerged in the Deccan under the Chalukyas of Badami (7th-8th century CE).\n\nKey features include:\n* **Hybridization**: It synthesizes the curvilinear Shikhara of the Northern Nagara style with the multi-tiered Vimana of the Southern Dravida style.\n* **Reduced Spire Height**: The height of the towers is generally lower than the Nagara style, featuring a semi-curved profile.\n* **Patronage**: Promoted by the Chalukyas, Rashtrakutas, and reached its zenith under the Hoysalas.\n\nIn conclusion, it represents a harmonious regional synthesis of Northern and Southern Indian temple forms."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वेसर शैली के मंदिरों की स्थापत्य विशेषताओं की व्याख्या कीजिए। [5 Marks, 50 Words]",
+      "model_answer": "वेसर शैली एक मिश्रित मंदिर वास्तुकला है जो बादामी के चालुक्यों (7वीं-8वीं शताब्दी ईस्वी) के तहत दक्कन में उभरी।\n\nमुख्य विशेषताओं में शामिल हैं:\n* **मिश्रण (संकरण)**: यह उत्तरी नागर शैली के वक्रीय शिखर को दक्षिणी द्रविड़ शैली के बहु-मंजिला विमान के साथ जोड़ता है।\n* **शिखर की कम ऊंचाई**: इसके शिखर की ऊंचाई नागर शैली की तुलना में कम होती है और इसकी प्रोफ़ाइल अर्ध-वक्रीय होती है।\n* **संरक्षण**: इसे चालुक्यों, राष्ट्रकूटों द्वारा बढ़ावा दिया गया तथा होयसलों के तहत यह अपने चरम पर पहुंची।\n\nनिष्कर्षतः, यह उत्तर और दक्षिण भारतीय मंदिर रूपों के सामंजस्यपूर्ण क्षेत्रीय समन्वय का प्रतिनिधित्व करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare the architectural differences between the Nagara and Dravida styles of temple architecture. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Nagara and Dravida styles represent the two primary schools of ancient Indian temple architecture, originating in Northern and Southern India respectively. The key structural differences are detailed below:\n\n| Feature | Nagara Style (Northern India) | Dravida Style (Southern India) |\n| :--- | :--- | :--- |\n| **Temple Boundary** | No boundary walls or monumental gateways. | Enclosed within high compound walls with grand gateways (Gopurams). |\n| **Main Spire** | Curvilinear shikhara (Latina/Rekha-Prasada) curving inward to a point. | Pyramidal Vimana rising in progressively smaller horizontal stories (Talas). |\n| **Crowning Element** | Crowning ribbed stone disc called 'Amalaka' under a 'Kalasha'. | Crowning octagonal or dome-like single stone block called 'Shikhara' or 'Stupika'. |\n| **Entrances** | Decorated with images of River Goddesses Ganga and Yamuna. | Guarded by fierce, massive door guardians called 'Dvarapalas'. |\n| **Water Reservoir** | Usually absent inside the temple premises. | A large temple tank (water reservoir) is a mandatory component. |\n| **Pillared Halls** | Multiple smaller halls (Mandapa, Ardha-mandapa) in assembly. | A single, large assembly hall or a thousand-pillared mandapa in later phases. |\n\nIn conclusion, while Nagara focuses on the vertical elevation of the single central sanctum, Dravida temples developed as massive socio-religious complexes enclosed by defensive walls."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागर और द्रविड़ मंदिर वास्तुकला शैलियों के बीच संरचनात्मक अंतरों की तुलना कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "नागर और द्रविड़ शैलियाँ क्रमशः उत्तर और दक्षिण भारत में विकसित प्राचीन भारतीय मंदिर वास्तुकला के दो प्राथमिक स्कूलों का प्रतिनिधित्व करती हैं। इनके मुख्य अंतर नीचे तालिका में दिए गए हैं:\n\n| विशेषता | नागर शैली (उत्तर भारत) | द्रविड़ शैली (दक्षिण भारत) |\n| :--- | :--- | :--- |\n| **मंदिर की सीमा** | कोई सीमा दीवार या स्मारकीय प्रवेश द्वार नहीं होते हैं। | भव्य प्रवेश द्वारों (गोपुरम) के साथ ऊंची चारदीवारी से घिरा होता है। |\n| **मुख्य शिखर** | वक्रीय शिखर (लैटिना/रेखा-प्रसाद) जो अंदर की ओर झुकता है। | पिरामिडनुमा विमान जो क्रमशः छोटी होती क्षैतिज मंजिलों (तलों) में उठता है। |\n| **शीर्ष तत्व** | 'कलश' के नीचे 'अमलक' नामक धारीदार पत्थर का डिस्क। | 'शिखर' या 'स्तूपिका' नामक अष्टकोणीय या गुंबद जैसा एकल पत्थर खंड। |\n| **प्रवेश द्वार** | नदी देवियों गंगा और यमुना की छवियों से अलंकृत। | 'द्वारपाल' नामक उग्र और विशाल द्वार रक्षकों द्वारा सुरक्षित। |\n| **जलाशय** | मंदिर परिसर के भीतर सामान्यतः अनुपस्थित होता है। | एक बड़ा मंदिर तालाब (जलाशय) एक अनिवार्य घटक है। |\n| **स्तंभों वाले हॉल** | असेंबली में कई छोटे हॉल (मंडप, अर्ध-मंडप) होते हैं। | उत्तरार्द्ध चरणों में एक बड़ा सभा कक्ष या हजार स्तंभों वाला मंडप। |\n\nनिष्कर्षतः, जहाँ नागर शैली एकल केंद्रीय गर्भगृह के लंबवत ऊंचाइयों पर ध्यान केंद्रित करती है, वहीं द्रविड़ शैली के मंदिर सुरक्षात्मक दीवारों से घिरे विशाल सामाजिक-धार्मिक परिसरों के रूप में विकसित हुए।"
+    }
+  ]
+}

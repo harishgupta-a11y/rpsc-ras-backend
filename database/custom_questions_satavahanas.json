@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Who among the following is considered the founder of the Satavahana Dynasty as per the Puranic list and epigraphic records?",
+      "option_a": "Satakarni I",
+      "option_b": "Simuka",
+      "option_c": "Kanha",
+      "option_d": "Hala",
+      "correct": "B",
+      "explanation": "Correct option: B. Simuka is historically identified as the founder of the Satavahana dynasty (referred to as Sisuka in Puranas) in the late 1st century BCE."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पौराणिक सूची और अभिलेखीय साक्ष्यों के अनुसार निम्नलिखित में से किसे सातवाहन राजवंश का संस्थापक माना जाता है?",
+      "option_a": "शातकर्णी प्रथम",
+      "option_b": "सिमुक",
+      "option_c": "कान्हा",
+      "option_d": "हाल",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सिमुक को ईसा पूर्व पहली शताब्दी के उत्तरार्ध में सातवाहन राजवंश का संस्थापक माना जाता है (पुराणों में इन्हें शिशुक भी कहा गया है)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous Naneghat Cave Inscription, which provides detailed records of sacrificial donations, was issued by which of the following Satavahana queens?",
+      "option_a": "Gautami Balasri",
+      "option_b": "Naganika",
+      "option_c": "Vashisthi",
+      "option_d": "Mahadevi",
+      "correct": "B",
+      "explanation": "Correct option: B. Queen Naganika (Nayanika), the wife of King Satakarni I, issued the Naneghat inscription which records their performance of Vedic sacrifices."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रसिद्ध नानेघाट गुफा अभिलेख, जो यज्ञीय दान का विस्तृत विवरण प्रदान करता है, निम्नलिखित में से किस सातवाहन रानी द्वारा जारी किया गया था?",
+      "option_a": "गौतमी बलश्री",
+      "option_b": "नागनिका",
+      "option_c": "वाशिष्ठी",
+      "option_d": "महादेवी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. राजा शातकर्णी प्रथम की पत्नी रानी नागनिका (नयनिका) ने नानेघाट अभिलेख जारी किया था, जिसमें उनके द्वारा किए गए वैदिक यज्ञों का विवरण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Prakrit works is attributed to the 17th Satavahana King Hala, containing a collection of love poems?",
+      "option_a": "Brihatkatha",
+      "option_b": "Gaha Sattasai",
+      "option_c": "Katantra",
+      "option_d": "Lilavati",
+      "correct": "B",
+      "explanation": "Correct option: B. King Hala composed the Gaha Sattasai (Gatha Saptashati), an anthology of 700 Prakrit verses, written in Maharashtri Prakrit."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सी प्राकृत रचना 17वें सातवाहन राजा हाल से संबंधित है, जिसमें प्रेम कविताओं का संग्रह है?",
+      "option_a": "बृहत्कथा",
+      "option_b": "गाहा सत्तसई",
+      "option_c": "कातन्त्र",
+      "option_d": "लीलावती",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. राजा हाल ने महाराष्ट्री प्राकृत में लिखी गई 700 प्राकृत श्लोकों का संग्रह 'गाहा सत्तसई' (गाथा सप्तशती) संकलित किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Jogalthambi hoard of silver coins, which contains coins counter-struck by Gautamiputra Satakarni, originally belonged to which Western Kshatrapa ruler?",
+      "option_a": "Chashtana",
+      "option_b": "Rudradaman I",
+      "option_c": "Nahapana",
+      "option_d": "Jayadaman",
+      "correct": "C",
+      "explanation": "Correct option: C. Gautamiputra Satakarni re-issued/counter-struck the silver coins of the Kshaharata ruler Nahapana, discovered in the Jogalthambi hoard."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. रजत मुद्राओं का जोगलथम्बी भंडार, जिसमें गौतमीपुत्र शातकर्णी द्वारा पुन: अंकित सिक्के मिले हैं, मूल रूप से किस पश्चिमी क्षत्रप शासक का था?",
+      "option_a": "चष्टन",
+      "option_b": "रुद्रदामन प्रथम",
+      "option_c": "नहपान",
+      "option_d": "जयदामन",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. गौतमीपुत्र शातकर्णी ने क्षहरात शासक नहपान के चांदी के सिक्कों को पुन: अंकित (counter-struck) किया था, जो जोगलथम्बी भंडार में पाए गए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What was the most distinctive metal used by the Satavahanas for minting their currency, marking a deviation from contemporary dynasties?",
+      "option_a": "Gold",
+      "option_b": "Silver",
+      "option_c": "Lead",
+      "option_d": "Iron",
+      "correct": "C",
+      "explanation": "Correct option: C. The Satavahanas predominantly minted coins made of lead, along with potin, copper, and bronze, while gold coins were not issued by them."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहनों द्वारा अपनी मुद्रा के मुद्रण के लिए उपयोग की जाने वाली सबसे विशिष्ट धातु कौन सी थी, जो समकालीन राजवंशों से भिन्न थी?",
+      "option_a": "सोना",
+      "option_b": "चांदी",
+      "option_c": "सीसा (Lead)",
+      "option_d": "लोहा",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सातवाहनों ने मुख्य रूप से सीसे (lead) के सिक्के जारी किए, साथ ही पोटीन, तांबे और कांसे के सिक्के भी जारी किए, जबकि सोने के सिक्के उनके द्वारा नहीं ढाले गए थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Satavahana ruler's coins feature the prominent depiction of a ship with double masts, reflecting maritime trade expansion?",
+      "option_a": "Gautamiputra Satakarni",
+      "option_b": "Yajna Sri Satakarni",
+      "option_c": "Vashishtiputra Pulumavi",
+      "option_d": "Simuka",
+      "correct": "B",
+      "explanation": "Correct option: B. Yajna Sri Satakarni issued bilingual portrait coins showing a double-masted ship, signifying the dynasty's maritime influence and trade."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस सातवाहन शासक के सिक्कों पर दो मस्तूलों वाले जहाज का प्रमुख चित्रण है, जो समुद्री व्यापार के विस्तार को दर्शाता है?",
+      "option_a": "गौतमीपुत्र शातकर्णी",
+      "option_b": "यज्ञ श्री शातकर्णी",
+      "option_c": "वाशिष्ठीपुत्र पुलुमावी",
+      "option_d": "सिमुक",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. यज्ञ श्री शातकर्णी ने दो मस्तूलों वाले जहाज के चित्र वाले द्विभाषी सिक्के जारी किए, जो उनके साम्राज्य के समुद्री प्रभाव और व्यापार को दर्शाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The earliest epigraphic evidence of donating tax-free land to Buddhist monks and Brahmins in India is associated with which dynasty?",
+      "option_a": "Gupta Dynasty",
+      "option_b": "Mauryan Dynasty",
+      "option_c": "Satavahana Dynasty",
+      "option_d": "Kushan Dynasty",
+      "correct": "C",
+      "explanation": "Correct option: C. The Satavahanas initiated the practice of granting tax-free land (Bhumidan) to Buddhist monks and Brahmins, documented in the Naneghat and Nasik inscriptions."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारत में बौद्ध भिक्षुओं और ब्राह्मणों को कर-मुक्त भूमि दान करने का सबसे पहला अभिलेखीय साक्ष्य किस राजवंश से जुड़ा है?",
+      "option_a": "गुप्त राजवंश",
+      "option_b": "मौर्य राजवंश",
+      "option_c": "सातवाहन राजवंश",
+      "option_d": "कुषाण राजवंश",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सातवाहनों ने बौद्ध भिक्षुओं और ब्राह्मणों को कर-मुक्त भूमि दान (भूमिदान) देने की प्रथा शुरू की थी, जैसा कि नानेघाट और नासिक अभिलेखों में दर्ज है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which language and script were predominantly used in the official inscriptions of the Satavahana rulers?",
+      "option_a": "Sanskrit in Brahmi Script",
+      "option_b": "Prakrit in Brahmi Script",
+      "option_c": "Pali in Kharosthi Script",
+      "option_d": "Telugu in Brahmi Script",
+      "correct": "B",
+      "explanation": "Correct option: B. The official records of the Satavahanas were composed in Prakrit and written in the Brahmi script."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन शासकों के आधिकारिक अभिलेखों में मुख्य रूप से किस भाषा और लिपि का उपयोग किया गया था?",
+      "option_a": "ब्राह्मी लिपि में संस्कृत",
+      "option_b": "ब्राह्मी लिपि में प्राकृत",
+      "option_c": "खरोष्ठी लिपि में पालि",
+      "option_d": "ब्राह्मी लिपि में तेलुगु",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सातवाहनों के आधिकारिक अभिलेख प्राकृत भाषा में रचित थे और ब्राह्मी लिपि में लिखे गए थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following names represents the secondary, eastern capital of the Satavahanas during their later phase?",
+      "option_a": "Pratishthana",
+      "option_b": "Dhanyakataka",
+      "option_c": "Tagara",
+      "option_d": "Sopara",
+      "correct": "B",
+      "explanation": "Correct option: B. Dhanyakataka (modern Dharanikota near Amaravati in Andhra Pradesh) served as the eastern capital of the Satavahanas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा नाम सातवाहनों के उत्तरवर्ती काल में उनकी द्वितीयक, पूर्वी राजधानी का प्रतिनिधित्व करता है?",
+      "option_a": "प्रतिष्ठान",
+      "option_b": "धान्यकटक",
+      "option_c": "तगर",
+      "option_d": "सोपारा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. धान्यकटक (आंध्र प्रदेश में अमरावती के पास आधुनिक धरणीकोट) ने सातवाहनों की पूर्वी राजधानी के रूप में कार्य किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The prestigious title 'Tri-samudra-toya-pita-vahana' (he whose horses drank the water of three oceans) was adopted by which Satavahana ruler?",
+      "option_a": "Satakarni I",
+      "option_b": "Gautamiputra Satakarni",
+      "option_c": "Vashishtiputra Pulumavi",
+      "option_d": "Yajna Sri Satakarni",
+      "correct": "B",
+      "explanation": "Correct option: B. Gautamiputra Satakarni adopted this title to claim dominion over the entire Deccan peninsula bounded by three seas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रतिष्ठित उपाधि 'त्रि-समुद्र-तोय-पीत-वाहन' (जिसके घोड़ों ने तीन समुद्रों का पानी पिया) किस सातवाहन शासक ने धारण की थी?",
+      "option_a": "शातकर्णी प्रथम",
+      "option_b": "गौतमीपुत्र शातकर्णी",
+      "option_c": "वाशिष्ठीपुत्र पुलुमावी",
+      "option_d": "यज्ञ श्री शातकर्णी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. गौतमीपुत्र शातकर्णी ने तीन समुद्रों से घिरे संपूर्ण दक्कन प्रायद्वीप पर अपने प्रभुत्व का दावा करने के लिए यह उपाधि धारण की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In the Satavahana administrative system, what was the term 'Ahara' used to denote?",
+      "option_a": "A royal tax on agricultural output",
+      "option_b": "A territorial division or district",
+      "option_c": "The royal kitchen department",
+      "option_d": "A class of judicial officers",
+      "correct": "B",
+      "explanation": "Correct option: B. In Satavahana administration, the empire was divided into provinces or districts known as 'Aharas', managed by Amatyas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन प्रशासनिक व्यवस्था में, 'आहार' शब्द का प्रयोग किसे दर्शाने के लिए किया जाता था?",
+      "option_a": "कृषि उपज पर शाही कर",
+      "option_b": "एक क्षेत्रीय विभाजन या जिला",
+      "option_c": "शाही रसोई विभाग",
+      "option_d": "न्यायिक अधिकारियों का एक वर्ग",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सातवाहन प्रशासन में साम्राज्य को प्रांतों या जिलों में विभाजित किया गया था जिन्हें 'आहार' कहा जाता था, और इनका नियंत्रण अमात्यों के पास होता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who was the minister of King Hala who wrote the famous Prakrit narrative work 'Brihatkatha' in Paisachi dialect?",
+      "option_a": "Gunadhya",
+      "option_b": "Sarvavarman",
+      "option_c": "Kouhala",
+      "option_d": "Vatsyayana",
+      "correct": "A",
+      "explanation": "Correct option: A. Gunadhya, the minister of King Hala, composed the epic Brihatkatha in the Paisachi Prakrit language."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजा हाल के वह मंत्री कौन थे जिन्होंने पैशाची प्राकृत में प्रसिद्ध आख्यान ग्रंथ 'बृहत्कथा' लिखा था?",
+      "option_a": "गुणाढ्य",
+      "option_b": "सर्ववर्मन",
+      "option_c": "कौतूहल",
+      "option_d": "वात्स्यायन",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. राजा हाल के मंत्री गुणाढ्य ने पैशाची प्राकृत भाषा में महाकाव्य 'बृहत्कथा' की रचना की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Sanskrit grammar text was composed by Sarvavarman during King Hala's reign to simplify Sanskrit learning?",
+      "option_a": "Katantra",
+      "option_b": "Ashtadhyayi",
+      "option_c": "Mahabhashya",
+      "option_d": "Siddhantakaumudi",
+      "correct": "A",
+      "explanation": "Correct option: A. Sarvavarman wrote the Katantra grammar to help the Satavahana king Hala learn Sanskrit quickly."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजा हाल के शासनकाल के दौरान संस्कृत सीखने को सरल बनाने के लिए सर्ववर्मन ने किस संस्कृत व्याकरण ग्रंथ की रचना की थी?",
+      "option_a": "कातन्त्र",
+      "option_b": "अष्टाध्यायी",
+      "option_c": "महाभाष्य",
+      "option_d": "सिद्धांतकौमुदी",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. सर्ववर्मन ने सातवाहन राजा हाल को तेजी से संस्कृत सीखने में मदद करने के लिए 'कातन्त्र' व्याकरण की रचना की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Junagadh rock inscription of Rudradaman I mentions that Rudradaman defeated which Satavahana ruler twice, but spared his life?",
+      "option_a": "Gautamiputra Satakarni",
+      "option_b": "Vashishtiputra Pulumavi",
+      "option_c": "Yajna Sri Satakarni",
+      "option_d": "Simuka",
+      "correct": "B",
+      "explanation": "Correct option: B. Rudradaman I defeated Vashishtiputra Pulumavi (referred to as Satakarni, Lord of the Deccan) twice but spared him due to a matrimonial alliance."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. रुद्रदामन प्रथम का जूनागढ़ शिलालेख उल्लेख करता है कि उसने किस सातवाहन शासक को दो बार पराजित किया, लेकिन उसका जीवन बख्श दिया?",
+      "option_a": "गौतमीपुत्र शातकर्णी",
+      "option_b": "वाशिष्ठीपुत्र पुलुमावी",
+      "option_c": "यज्ञ श्री शातकर्णी",
+      "option_d": "सिमुक",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. रुद्रदामन प्रथम ने वाशिष्ठीपुत्र पुलुमावी (जिन्हें दक्कन का स्वामी शातकर्णी कहा गया) को दो बार हराया लेकिन निकट वैवाहिक संबंध के कारण उन्हें नष्ट नहीं किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which early Satavahana king expanded the dynasty's territory towards Nashik and Malwa, as recorded in a Kanheri cave inscription?",
+      "option_a": "Simuka",
+      "option_b": "Kanha (Krishna)",
+      "option_c": "Satakarni I",
+      "option_d": "Hala",
+      "correct": "B",
+      "explanation": "Correct option: B. Kanha (also known as Krishna), the second ruler of the Satavahana dynasty, extended his sway to the Nashik region where a cave was dedicated under his reign."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस प्रारंभिक सातवाहन राजा ने नासिक और मालवा की ओर राजवंश के क्षेत्र का विस्तार किया, जैसा कि कान्हेरी गुफा अभिलेख में दर्ज है?",
+      "option_a": "सिमुक",
+      "option_b": "कान्हा (कृष्ण)",
+      "option_c": "शातकर्णी प्रथम",
+      "option_d": "हाल",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सातवाहन राजवंश के दूसरे शासक कान्हा (जिन्हें कृष्ण भी कहा जाता है) ने अपने साम्राज्य का विस्तार नासिक तक किया, जहां उनके शासनकाल में एक गुफा समर्पित की गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which Satavahana king is credited with performing two Ashvamedha sacrifices and one Rajasuya sacrifice to assert his imperial status?",
+      "option_a": "Simuka",
+      "option_b": "Satakarni I",
+      "option_c": "Gautamiputra Satakarni",
+      "option_d": "Pulumavi II",
+      "correct": "B",
+      "explanation": "Correct option: B. Satakarni I performed two Ashvamedha sacrifices and one Rajasuya sacrifice to mark his sovereignty over Western India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किस सातवाहन राजा को अपनी साम्राज्यवादी स्थिति का दावा करने के लिए दो अश्वमेध यज्ञ और एक राजसूय यज्ञ करने का श्रेय दिया जाता है?",
+      "option_a": "सिमुक",
+      "option_b": "शातकर्णी प्रथम",
+      "option_c": "गौतमीपुत्र शातकर्णी",
+      "option_d": "पुलुमावी द्वितीय",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. शातकर्णी प्रथम ने पश्चिमी भारत पर अपनी संप्रभुता स्थापित करने के लिए दो अश्वमेध यज्ञ और एक राजसूय यज्ञ किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What does the term 'varnasankara-shodhaka' or the stopper of intermixing of castes represent in the Nasik Prasasti of Gautamiputra Satakarni?",
+      "option_a": "Creation of new castes",
+      "option_b": "Preservation of the traditional four-fold social order",
+      "option_c": "Integration of foreign tribes as high-caste Kshatriyas",
+      "option_d": "Abolition of the varna system",
+      "correct": "B",
+      "explanation": "Correct option: B. Gautamiputra Satakarni claimed to have put an end to varnasankara (intermixing of castes) to restore the traditional Vedic social order."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गौतमीपुत्र शातकर्णी की नासिक प्रशस्ति में 'वर्णसंकर-शोधक' (जातियों के सम्मिश्रण को रोकने वाला) शब्द क्या दर्शाता है?",
+      "option_a": "नई जातियों का निर्माण",
+      "option_b": "पारंपरिक चार-स्तरीय सामाजिक व्यवस्था का संरक्षण",
+      "option_c": "विदेशी जनजातियों को उच्च-जाति के क्षत्रियों के रूप में एकीकृत करना",
+      "option_d": "वर्ण व्यवस्था का उन्मूलन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. गौतमीपुत्र शातकर्णी ने पारंपरिक वैदिक सामाजिक व्यवस्था को बहाल करने के लिए वर्णसंकर (जातियों के परस्पर मिश्रण) को समाप्त करने का दावा किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Under whose rule did the Satavahanas construct the magnificent rock-cut Chaitya at Karle, which is considered the largest of its kind in India?",
+      "option_a": "Simuka",
+      "option_b": "Bhumi Satavahana",
+      "option_c": "Gautamiputra Satakarni",
+      "option_d": "Vashishtiputra Pulumavi",
+      "correct": "C",
+      "explanation": "Correct option: C. The construction of the grand Karle Chaitya was completed and patronized during the reign of Gautamiputra Satakarni."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. किसके शासनकाल में सातवाहनों ने कार्ला में भव्य शैलकृत चैत्य का निर्माण किया, जिसे भारत में अपनी तरह का सबसे बड़ा चैत्य माना जाता है?",
+      "option_a": "सिमुक",
+      "option_b": "भूमि सातवाहन",
+      "option_c": "गौतमीपुत्र शातकर्णी",
+      "option_d": "वाशिष्ठीपुत्र पुलुमावी",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. भव्य कार्ला चैत्य का निर्माण गौतमीपुत्र शातकर्णी के शासनकाल में पूरा हुआ और उन्हें इसका संरक्षण प्राप्त था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who is the author of 'Lilavati', a Prakrit text that describes the military campaigns and marriage of the Satavahana King Hala?",
+      "option_a": "Kouhala",
+      "option_b": "Gunadhya",
+      "option_c": "Sarvavarman",
+      "option_d": "Bhasa",
+      "correct": "A",
+      "explanation": "Correct option: A. 'Lilavati' is a Prakrit katha composed by Kouhala, depicting the romantic legend and marriage of King Hala."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'लीलावती' के लेखक कौन हैं, जो एक प्राकृत ग्रंथ है और इसमें सातवाहन राजा हाल के सैन्य अभियानों और विवाह का वर्णन है?",
+      "option_a": "कौतूहल",
+      "option_b": "गुणाढ्य",
+      "option_c": "सर्ववर्मन",
+      "option_d": "भास",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. 'लीलावती' कौतूहल द्वारा रचित एक प्राकृत कथा है, जिसमें राजा हाल की प्रेम कहानी और विवाह का चित्रण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What role did the 'Gaulmika' play in the Satavahana administrative structure, especially in rural areas?",
+      "option_a": "Revenue collector of a city",
+      "option_b": "Military administrator and head of a rural unit",
+      "option_c": "Court scribe",
+      "option_d": "Priest in charge of royal land grants",
+      "correct": "B",
+      "explanation": "Correct option: B. The Gaulmika was a military commander in charge of rural units (gulmas), responsible for maintaining law and order."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन प्रशासनिक ढांचे में, विशेष रूप से ग्रामीण क्षेत्रों में, 'गौल्मिक' की क्या भूमिका थी?",
+      "option_a": "एक शहर का राजस्व संग्राहक",
+      "option_b": "सैन्य प्रशासक और ग्रामीण इकाई का प्रमुख",
+      "option_c": "दरबारी लेखक",
+      "option_d": "शाही भूमि दान का प्रभारी पुरोहित",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. गौल्मिक एक सैन्य कमांडर होता था जो कानून व्यवस्था बनाए रखने के लिए जिम्मेदार ग्रामीण इकाइयों (गुल्मों) का प्रभारी होता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What type of coins issued by the Satavahanas featured bilingual inscriptions, combining Middle Indo-Aryan Prakrit and a Southern Dravidian language?",
+      "option_a": "Lead coins",
+      "option_b": "Silver portrait coins",
+      "option_c": "Potin coins",
+      "option_d": "Copper punch-marked coins",
+      "correct": "B",
+      "explanation": "Correct option: B. The Satavahanas issued silver portrait coins featuring the king's bust with Prakrit on the obverse and a Dravidian language (early Telugu/Tamil script) on the reverse."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहनों द्वारा जारी किए गए किस प्रकार के सिक्कों में द्विभाषी लेख थे, जिसमें मध्य भारत-आर्य प्राकृत और एक दक्षिणी द्रविड़ भाषा का संयोजन था?",
+      "option_a": "सीसे के सिक्के",
+      "option_b": "रजत चित्र सिक्के (Silver portrait coins)",
+      "option_c": "पोटीन के सिक्के",
+      "option_d": "तांबे के आहत सिक्के",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सातवाहनों ने चांदी के चित्र वाले सिक्के जारी किए, जिसमें अग्रभाग पर प्राकृत में राजा का चित्र था और पृष्ठभाग पर एक द्रविड़ भाषा (प्रारंभिक तेलुगु/तमिल लिपि) का लेख था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Satavahana society, donor inscriptions frequently mention the 'Gadhikas'. What occupation does this term represent?",
+      "option_a": "Weavers",
+      "option_b": "Perfumers",
+      "option_c": "Blacksmiths",
+      "option_d": "Farmers",
+      "correct": "B",
+      "explanation": "Correct option: B. 'Gadhikas' were perfumers or druggists who made significant donations to Buddhist monasteries, indicating the prosperity of artisans."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन समाज में, दानदाता अभिलेखों में अक्सर 'गधिक' का उल्लेख मिलता है। यह शब्द किस व्यवसाय का प्रतिनिधित्व करता है?",
+      "option_a": "बुनकर",
+      "option_b": "इत्र विक्रेता (गंधिक/Perfumers)",
+      "option_c": "लोहार",
+      "option_d": "किसान",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'गधिक' इत्र बनाने वाले या सुगंधित वस्तुओं के व्यापारी थे जिन्होंने बौद्ध मठों को महत्वपूर्ण दान दिया था, जो कारीगरों की समृद्धि को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which division of the Satavahana military was commanded by a chieftain designated as 'Maharathi'?",
+      "option_a": "Naval fleet",
+      "option_b": "Chariot corps and elite land forces",
+      "option_c": "Spy network",
+      "option_d": "Cavalry division",
+      "correct": "B",
+      "explanation": "Correct option: B. 'Maharathi' was a high-status feudal and military title associated with elite land forces and matrimonial alliances with the royal family."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन सेना के किस विभाग की कमान 'महारथी' के रूप में नामित सेनापति के हाथ में होती थी?",
+      "option_a": "नौसेना बेड़ा",
+      "option_b": "रथ सेना और विशिष्ट भूमि बल",
+      "option_c": "जासूसी नेटवर्क",
+      "option_d": "घुड़सवार सेना",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'महारथी' एक उच्च-स्तरीय सामंती और सैन्य उपाधि थी जो विशिष्ट भूमि बलों से जुड़ी थी और इस वर्ग का राजपरिवार के साथ वैवाहिक संबंध भी होता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Satavahanas were succeeded in the Andhra region (Eastern Deccan) primarily by which of the following dynasties?",
+      "option_a": "Abhiras",
+      "option_b": "Ikshvakus",
+      "option_c": "Vakatakas",
+      "option_d": "Kadambas",
+      "correct": "B",
+      "explanation": "Correct option: B. Following the decline of the Satavahanas in the early 3rd century CE, the Ikshvakus established control in the Krishna-Guntur region."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आंध्र क्षेत्र (पूर्वी दक्कन) में सातवाहनों के बाद मुख्य रूप से किस राजवंश का उदय हुआ?",
+      "option_a": "आभीर",
+      "option_b": "इक्ष्वाकु",
+      "option_c": "वाकाटक",
+      "option_d": "कदम्ब",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. तीसरी शताब्दी ईस्वी की शुरुआत में सातवाहनों के पतन के बाद, इक्ष्वाकुओं ने कृष्णा-गुंटूर क्षेत्र में अपना नियंत्रण स्थापित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which modern state is the historical town of Pratishthana, the primary western capital of the Satavahanas, located?",
+      "option_a": "Andhra Pradesh",
+      "option_b": "Maharashtra",
+      "option_c": "Karnataka",
+      "option_d": "Gujarat",
+      "correct": "B",
+      "explanation": "Correct option: B. Pratishthana (modern Paithan) is located on the banks of the Godavari river in the Aurangabad district of Maharashtra."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहनों की प्राथमिक पश्चिमी राजधानी प्रतिष्ठान ऐतिहासिक शहर वर्तमान में किस राज्य में स्थित है?",
+      "option_a": "आंध्र प्रदेश",
+      "option_b": "महाराष्ट्र",
+      "option_c": "कर्नाटक",
+      "option_d": "गुजरात",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. प्रतिष्ठान (आधुनिक पैठन) महाराष्ट्र के औरंगाबाद जिले में गोदावरी नदी के तट पर स्थित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Satavahana dynasty initiated the practice of granting tax-free land to religious beneficiaries.\nReason (R): The Satavahanas aimed to secure spiritual merit and extend agricultural cultivation into fallow or forested lands.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Satavahanas were indeed the first in India to issue epigraphically recorded tax-free land grants to Buddhists and Brahmins. Reason Analysis: The primary motives for land grants were both religious (merit) and economic (bringing waste/forest land under cultivation). The reason explains the assertion because it outlines the dual religious and material purposes behind initiating the practice."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): सातवाहन राजवंश ने धार्मिक लाभार्थियों को कर-मुक्त भूमि प्रदान करने की प्रथा शुरू की।\nकारण (R): सातवाहनों का उद्देश्य आध्यात्मिक पुण्य प्राप्त करना और परती या वन क्षेत्रों में कृषि कृषि का विस्तार करना था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: सातवाहन वास्तव में भारत में बौद्धों और ब्राह्मणों को लिखित रूप से कर-मुक्त भूमि अनुदान देने वाले पहले शासक थे। कारण विश्लेषण: भूमि अनुदान के प्राथमिक उद्देश्य धार्मिक (पुण्य अर्जन) और आर्थिक (बंजर/वन भूमि को कृषि के तहत लाना) दोनों थे। कारण अभिकथन की व्याख्या करता है क्योंकि यह इस प्रथा को शुरू करने के पीछे के धार्मिक और भौतिक दोनों उद्देश्यों को स्पष्ट करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Satavahana kings frequently carried metronymics (maternal titles) such as Gautamiputra and Vashishtiputra.\nReason (R): The Satavahana society was matrilineal, and succession to the throne passed through the female line.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Satavahana rulers did use names derived from their mothers (metronymics). Reason Analysis: The society was patrilineal, and the throne passed from father to son; women did not inherit power directly. Thus, R is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): सातवाहन राजा अक्सर गौतमीपुत्र और वाशिष्ठीपुत्र जैसे मातृनाम (मातृ उपाधियाँ) धारण करते थे।\nकारण (R): सातवाहन समाज मातृसत्तात्मक था, और सिंहासन का उत्तराधिकार महिला वंश के माध्यम से चलता था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: सातवाहन शासक अपनी माताओं से व्युत्पन्न नामों (मातृनाम) का उपयोग करते थे। कारण विश्लेषण: सातवाहन समाज पितृसत्तात्मक था, और सिंहासन पिता से पुत्र को हस्तांतरित होता था; महिलाओं को सीधे उत्तराधिकार नहीं मिलता था। अतः R गलत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Gautamiputra Satakarni re-struck the silver coins of the Western Kshatrapa ruler Nahapana.\nReason (R): Re-striking the enemy's coinage was a political statement of total victory and sovereignty over the conquered territory.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Jogalthambi coin hoard contains thousands of Nahapana's coins overstruck by Gautamiputra Satakarni. Reason Analysis: Overstriking the defeated king's currency symbolized the annihilation of that king's power and established the victor's economic sovereignty. The reason explains the assertion directly."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): गौतमीपुत्र शातकर्णी ने पश्चिमी क्षत्रप शासक नहपान के चांदी के सिक्कों को पुन: अंकित (re-struck) करवाया था।\nकारण (R): शत्रु के सिक्कों पर पुन: अंकन करना विजित क्षेत्र पर पूर्ण विजय और संप्रभुता की राजनीतिक घोषणा थी।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: जोगलथम्बी मुद्रा भंडार में नहपान के हजारों सिक्के मिले हैं जिन पर गौतमीपुत्र शातकर्णी का पुन: अंकन है। कारण विश्लेषण: पराजित राजा की मुद्रा पर पुन: अंकन करना उस राजा की सत्ता के विनाश का प्रतीक था और विजेता की आर्थिक संप्रभुता स्थापित करता था। कारण अभिकथन की सही व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Satavahanas issued lead coins in vast quantities across their empire.\nReason (R): Gold resources were rare in the Deccan, and the region had abundant local deposits of lead.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Satavahanas minted millions of lead coins, which became their trademark currency. Reason Analysis: The Deccan lacked major gold deposits, prompting the Satavahanas to rely on local lead mines for small-value commercial transactions. The reason provides the geological explanation for the assertion."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): सातवाहनों ने अपने पूरे साम्राज्य में बड़ी मात्रा में सीसे (lead) के सिक्के जारी किए।\nकारण (R): दक्कन में सोने के संसाधन दुर्लभ थे, और इस क्षेत्र में सीसे के प्रचुर स्थानीय भंडार थे।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: सातवाहनों ने लाखों सीसे के सिक्के ढाले, जो उनकी ट्रेडमार्क मुद्रा बन गए। कारण विश्लेषण: दक्कन में बड़े सोने के भंडार की कमी थी, जिससे सातवाहनों को कम मूल्य के व्यावसायिक लेनदेन के लिए स्थानीय सीसा खदानों पर निर्भर रहना पड़ा। कारण अभिकथन की भूगर्भीय व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Gautamiputra Satakarni is referred to as 'Ekabrahmana' in the Nasik inscription of his mother Gautami Balasri.\nReason (R): He was the only Brahmin ruler who completely rejected the performance of Vedic sacrifices.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Gautamiputra Satakarni is styled as 'Ekabrahmana' (either peerless Brahmin or protector of Brahmins) in the Nasik inscription. Reason Analysis: He did not reject Vedic sacrifices; early Satavahanas actively performed and patronized them. Thus, R is false."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): गौतमीपुत्र शातकर्णी को उनकी माँ गौतमी बलश्री के नासिक अभिलेख में 'एकब्राह्मण' कहा गया है।\nकारण (R): वह एकमात्र ब्राह्मण शासक थे जिन्होंने वैदिक यज्ञों के आयोजन को पूरी तरह से खारिज कर दिया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: गौतमीपुत्र शातकर्णी को नासिक अभिलेख में 'एकब्राह्मण' (अद्वितीय ब्राह्मण या ब्राह्मणों का रक्षक) कहा गया है। कारण विश्लेषण: उन्होंने वैदिक यज्ञों को खारिज नहीं किया था; प्रारंभिक सातवाहनों ने सक्रिय रूप से उनका आयोजन और संरक्षण किया था। अतः R गलत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Satavahana administration incorporated significant feudal elements.\nReason (R): Chieftains like Maharathis and Mahabhojas possessed hereditary rights and minted their own localized coins.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Unlike the highly centralized Mauryan administration, the Satavahanas integrated local chieftains into the administration. Reason Analysis: Feudatories such as Maharathis and Mahabhojas had hereditary control and issued their own coins. This decentralization confirms the feudal nature, making R the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): सातवाहन प्रशासन में महत्वपूर्ण सामंती तत्व शामिल थे।\nकारण (R): महारथी और महाभोज जैसे सरदारों के पास वंशानुगत अधिकार थे और वे अपने स्वयं के स्थानीय सिक्के ढालते थे।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अत्यधिक केंद्रीकृत मौर्य प्रशासन के विपरीत, सातवाहनों ने प्रशासन में स्थानीय सरदारों को एकीकृत किया था। कारण विश्लेषण: महारथी और महाभोज जैसे सामंतों का वंशानुगत नियंत्रण था और वे अपने सिक्के जारी करते थे। यह विकेंद्रीकरण सामंती प्रकृति की पुष्टि करता है, इसलिए R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): The Western Kshatrapa ruler Rudradaman I spared the life of the Satavahana ruler whom he defeated in battle.\nReason (R): There was a close matrimonial relationship between the Western Kshatrapas and the Satavahana dynasty.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Rudradaman's Junagadh inscription mentions that he did not destroy the Satakarni king due to the non-distance of relationship. Reason Analysis: The Kanheri inscription reveals that Rudradaman's daughter was married to Vashishtiputra Satakarni. This matrimonial bond is the reason why Rudradaman spared him."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): पश्चिमी क्षत्रप शासक रुद्रदामन प्रथम ने युद्ध में पराजित करने के बाद भी सातवाहन शासक का जीवन बख्श दिया।\nकारण (R): पश्चिमी क्षत्रपों और सातवाहन राजवंश के बीच घनिष्ठ वैवाहिक संबंध था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: रुद्रदामन के जूनागढ़ अभिलेख में उल्लेख है कि उसने संबंधों की निकटता के कारण शातकर्णी राजा को नष्ट नहीं किया। कारण विश्लेषण: कान्हेरी अभिलेख से पता चलता है कि रुद्रदामन की बेटी का विवाह वाशिष्ठीपुत्र शातकर्णी से हुआ था। यही वैवाहिक संबंध रुद्रदामन द्वारा उसे जीवनदान देने का कारण था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\n\nAssertion (A): Although the Satavahanas were orthodox Brahmins, they actively patronized Buddhist institutions.\nReason (R): Buddhism was highly popular among the urban merchant guilds (shrenis) who provided vital economic support to the Satavahana state.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Satavahanas, despite claiming Brahmin status, granted extensive lands to Buddhist monks and caves. Reason Analysis: The merchant guilds who dominated trade and revenue were largely Buddhist patrons. The state patronized Buddhism to maintain social stability and secure trade support, making R the correct explanation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\n\nअभिकथन (A): यद्यपि सातवाहन रूढ़िवादी ब्राह्मण थे, फिर भी उन्होंने बौद्ध संस्थानों को सक्रिय रूप से संरक्षण दिया।\nकारण (R): बौद्ध धर्म शहरी व्यापारी संघों (श्रेणियों) के बीच अत्यधिक लोकप्रिय था जो सातवाहन राज्य को महत्वपूर्ण आर्थिक सहायता प्रदान करते थे।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: सातवाहनों ने ब्राह्मण होने का दावा करने के बावजूद बौद्ध भिक्षुओं और गुफाओं को बड़े पैमाने पर भूमि दान दी। कारण विश्लेषण: व्यापार और राजस्व पर हावी व्यापारी संघ काफी हद तक बौद्ध समर्थक थे। राज्य ने सामाजिक स्थिरता बनाए रखने और व्यापार सहायता सुरक्षित करने के लिए बौद्ध धर्म को संरक्षण दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Satavahana King) with List-II (Distinctive Title/Attribute) and select the correct answer:\nList-I:\na) Simuka\nb) Satakarni I\nc) Gautamiputra Satakarni\nd) Vashishtiputra Pulumavi\ne) Yajna Sri Satakarni\n\nList-II:\n1) Called the founder of the dynasty in Puranic lists\n2) Mentioned as the Lord of the Deccan (Dakshinapathapati)\n3) Styled as the unique Brahmin (Ekabrahmana)\n4) Adorned the title of King of the New City (Navanagaraswami)\n5) Issued coins featuring a double-masted ship",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct match is a-1, b-2, c-3, d-4, e-5. Simuka is the founder [1], Satakarni I is Dakshinapathapati [2], Gautamiputra is Ekabrahmana [3], Pulumavi is Navanagaraswami [4], and Yajna Sri issued ship coins [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (सातवाहन राजा) को सूची-II (विशिष्ट उपाधि/विशेषता) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) सिमुक\nb) शातकर्णी प्रथम\nc) गौतमीपुत्र शातकर्णी\nd) वाशिष्ठीपुत्र पुलुमावी\ne) यज्ञ श्री शातकर्णी\n\nसूची-II:\n1) पौराणिक सूचियों में राजवंश का संस्थापक कहा गया है\n2) दक्कन के स्वामी (दक्षिणापथपति) के रूप में उल्लेखित\n3) अद्वितीय ब्राह्मण (एकब्राह्मण) के रूप में नामित\n4) नए शहर का राजा (नवनगरस्वामी) की उपाधि से विभूषित\n5) दो मस्तूलों वाले जहाज के चित्र वाले सिक्के जारी किए",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही सुमेल a-1, b-2, c-3, d-4, e-5 है। सिमुक संस्थापक है [1], शातकर्णी प्रथम दक्षिणापथपति है [2], गौतमीपुत्र एकब्राह्मण है [3], पुलुमावी नवनगरस्वामी है [4], और यज्ञ श्री ने जहाज के सिक्के जारी किए [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Inscriptions) with List-II (Key Historical Revelation) and select the correct answer:\nList-I:\na) Naneghat Inscription\nb) Nasik Cave Inscription\nc) Junagadh Rock Inscription\nd) Kanheri Cave Inscription\ne) Hathigumpha Inscription\n\nList-II:\n1) Elaborates on the performance of Ashvamedha by early Satavahana rulers\n2) Contains the eulogy of Gautamiputra Satakarni by his mother\n3) Details Rudradaman's victories over the Lord of the Deccan\n4) Mentions the marriage of Rudradaman's daughter to a Satavahana prince\n5) Records King Kharavela's early military expedition against Satakarni",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-4, d-2, e-5",
+      "option_d": "a-5, b-2, c-3, d-4, e-1",
+      "correct": "A",
+      "explanation": "Correct match is a-1, b-2, c-3, d-4, e-5. Naneghat records early sacrifices [1], Nasik features Gautami Balasri's eulogy [2], Junagadh lists Rudradaman's victories [3], Kanheri mentions the matrimonial alliance [4], and Hathigumpha records Kharavela's clash [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अभिलेख) को सूची-II (प्रमुख ऐतिहासिक तथ्य) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) नानेघाट अभिलेख\nb) नासिक गुफा अभिलेख\nc) जूनागढ़ शिलालेख\nd) कान्हेरी गुफा अभिलेख\ne) हाथीगुम्फा अभिलेख\n\nसूची-II:\n1) प्रारंभिक सातवाहन शासकों द्वारा अश्वमेध यज्ञ के अनुष्ठान का विवरण\n2) गौतमीपुत्र शातकर्णी की माता द्वारा उनकी प्रशस्ति\n3) दक्कन के स्वामी पर रुद्रदामन की विजय का विवरण\n4) सातवाहन राजकुमार के साथ रुद्रदामन की पुत्री के विवाह का उल्लेख\n5) शातकर्णी के विरुद्ध राजा खारवेल के प्रारंभिक सैन्य अभियान का विवरण",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-4, d-2, e-5",
+      "option_d": "a-5, b-2, c-3, d-4, e-1",
+      "correct": "A",
+      "explanation": "सही सुमेल a-1, b-2, c-3, d-4, e-5 है। नानेघाट यज्ञों का विवरण देता है [1], नासिक में गौतमी बलश्री की प्रशस्ति है [2], जूनागढ़ में रुद्रदामन की विजय है [3], कान्हेरी में वैवाहिक संबंध का उल्लेख है [4], और हाथीगुम्फा में खारवेल के संघर्ष का विवरण है [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Satavahana Administrative Term) with List-II (Equivalent Modern Office/Role) and select the correct answer:\nList-I:\na) Ahara\nb) Amatya\nc) Maharathi\nd) Gaulmika\ne) Rajjuka\n\nList-II:\n1) Territorial province or district\n2) Governor or district administrator\n3) Hereditary feudal chieftain\n4) Head of a rural police/military unit\n5) Land survey and revenue officer",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct match is a-1, b-2, c-3, d-4, e-5. Ahara is the province [1], Amatya is the governor [2], Maharathi is the feudatory chieftain [3], Gaulmika represents the rural military unit head [4], and Rajjuka is the land officer [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (सातवाहन प्रशासनिक शब्द) को सूची-II (समकक्ष आधुनिक कार्यालय/भूमिका) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) आहार\nb) अमात्य\nc) महारथी\nd) गौल्मिक\ne) रज्जुक\n\nसूची-II:\n1) क्षेत्रीय प्रांत या जिला\n2) राज्यपाल या जिला प्रशासक\n3) वंशानुगत सामंती सरदार\n4) ग्रामीण पुलिस/सैन्य इकाई का प्रमुख\n5) भूमि सर्वेक्षण और राजस्व अधिकारी",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही सुमेल a-1, b-2, c-3, d-4, e-5 है। आहार प्रांत है [1], अमात्य राज्यपाल/प्रशासक है [2], महारथी सामंती सरदार है [3], गौल्मिक ग्रामीण सैन्य इकाई का प्रमुख है [4], और रज्जुक भूमि अधिकारी है [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Literary Work) with List-II (Author/Composer) and select the correct answer:\nList-I:\na) Gaha Sattasai\nb) Brihatkatha\nc) Katantra\nd) Lilavati\ne) Kamasutra\n\nList-II:\n1) King Hala\n2) Gunadhya\n3) Sarvavarman\n4) Kouhala\n5) Vatsyayana",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct match is a-1, b-2, c-3, d-4, e-5. Gaha Sattasai was compiled by King Hala [1], Brihatkatha by Gunadhya [2], Katantra by Sarvavarman [3], Lilavati by Kouhala [4], and Kamasutra by Vatsyayana [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (साहित्यिक रचना) को सूची-II (लेखक/रचयिता) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) गाहा सत्तसई\nb) बृहत्कथा\nc) कातन्त्र\nd) लीलावती\ne) कामसूत्र\n\nसूची-II:\n1) राजा हाल\n2) गुणाढ्य\n3) सर्ववर्मन\n4) कौतूहल\n5) वात्स्यायन",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही सुमेल a-1, b-2, c-3, d-4, e-5 है। गाहा सत्तसई का संकलन राजा हाल ने किया [1], बृहत्कथा गुणाढ्य द्वारा [2], कातन्त्र सर्ववर्मन द्वारा [3], लीलावती कौतूहल द्वारा [4], और कामसूत्र वात्स्यायन द्वारा रचित है [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Satavahana Archaeological Site) with List-II (Key Geographical Feature/Function) and select the correct answer:\nList-I:\na) Pratishthana\nb) Dhanyakataka\nc) Karle\nd) Jogalthambi\ne) Naneghat\n\nList-II:\n1) Primary western capital on the Godavari\n2) Eastern Capital and major stupa site in Andhra\n3) Famous rock-cut Buddhist Chaitya hall in Pune\n4) Large coin hoard containing counterstruck silver coins\n5) Mountain pass acting as a trade route to Western ports",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct match is a-1, b-2, c-3, d-4, e-5. Pratishthana is Paithan [1], Dhanyakataka is the eastern capital [2], Karle is the rock-cut chaitya [3], Jogalthambi is the coin hoard [4], and Naneghat is the pass [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (सातवाहन पुरातात्विक स्थल) को सूची-II (प्रमुख भौगोलिक विशेषता/कार्य) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) प्रतिष्ठान\nb) धान्यकटक\nc) कार्ला\nd) जोगलथम्बी\ne) नानेघाट\n\nसूची-II:\n1) गोदावरी तट पर प्राथमिक पश्चिमी राजधानी\n2) आंध्र में पूर्वी राजधानी और प्रमुख स्तूप स्थल\n3) पुणे में प्रसिद्ध शैलकृत बौद्ध चैत्य गृह\n4) पुन: अंकित चांदी के सिक्कों वाला बड़ा मुद्रा भंडार\n5) पश्चिमी बंदरगाहों के व्यापार मार्ग के रूप में कार्य करने वाला पर्वतीय दर्रा",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही सुमेल a-1, b-2, c-3, d-4, e-5 है। प्रतिष्ठान पैठन है [1], धान्यकटक पूर्वी राजधानी है [2], कार्ला शैलकृत चैत्य है [3], जोगलथम्बी मुद्रा भंडार है [4], और नानेघाट दर्रा है [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Donor Identity in Inscriptions) with List-II (Social Group/Profession) and select the correct answer:\nList-I:\na) Naganika\nb) Gautami Balasri\nc) Gadhika\nd) Halika\ne) Kamara\n\nList-II:\n1) Queen mother who recorded extensive Vedic sacrifices\n2) Queen mother of Gautamiputra Satakarni\n3) Perfumers and fragrant dealers\n4) Farmers or cultivators\n5) Blacksmiths and ironworkers",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct match is a-1, b-2, c-3, d-4, e-5. Naganika is the sacrificial patron queen [1], Gautami Balasri is the queen mother of Gautamiputra [2], Gadhika represents perfumers [3], Halika represents cultivators [4], and Kamara represents blacksmiths [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अभिलेखों में दानदाता) को सूची-II (सामाजिक समूह/व्यवसाय) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) नागनिका\nb) गौतमी बलश्री\nc) गधिक\nd) हलिक\ne) कमार\n\nसूची-II:\n1) रानी जिसने विस्तृत वैदिक यज्ञों का विवरण दर्ज कराया था\n2) गौतमीपुत्र शातकर्णी की राजमाता\n3) इत्र और सुगंधित वस्तुओं के विक्रेता\n4) हल चलाने वाले या किसान\n5) लोहार और लोहे के कारीगर",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही सुमेल a-1, b-2, c-3, d-4, e-5 है। नागनिका यज्ञ कराने वाली रानी है [1], गौतमी बलश्री गौतमीपुत्र की राजमाता है [2], गधिक इत्र विक्रेता हैं [3], हलिक किसान हैं [4], और कमार लोहार हैं [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Currency Type/Term) with List-II (Metallurgical Composition/Feature) and select the correct answer:\nList-I:\na) Karshapana\nb) Lead coins\nc) Potin\nd) Suvarnas\ne) Portrait Coins\n\nList-II:\n1) Standard copper or silver currency of transaction\n2) The most ubiquitous currency of the Satavahana state\n3) An alloy of copper, lead, tin, and zinc\n4) Reference to gold coins in Naneghat donation lists\n5) Bilingual silver coins depicting the royal bust",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct match is a-1, b-2, c-3, d-4, e-5. Karshapana was the standard coin [1], lead was their most common currency [2], potin was a base alloy [3], Suvarnas were gold units mentioned [4], and Portrait coins were bilingual silver issues [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (मुद्रा का प्रकार/शब्द) को सूची-II (धातुकर्म संरचना/विशेषता) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) कार्षापण\nb) सीसे के सिक्के\nc) पोटीन\nd) सुवर्ण\ne) चित्र वाले सिक्के (Portrait Coins)\n\nसूची-II:\n1) लेनदेन की मानक तांबे या चांदी की मुद्रा\n2) सातवाहन राज्य की सबसे व्यापक मुद्रा\n3) तांबा, सीसा, टिन और जस्ता की एक मिश्र धातु\n4) नानेघाट दान सूचियों में वर्णित सोने के सिक्के\n5) राजा की आवक्ष आकृति दर्शाने वाले द्विभाषी चांदी के सिक्के",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही सुमेल a-1, b-2, c-3, d-4, e-5 है। कार्षापण मानक सिक्का था [1], सीसा उनकी सबसे आम मुद्रा थी [2], पोटीन एक मिश्र धातु थी [3], सुवर्ण सोने की इकाई थे [4], और चित्र वाले सिक्के द्विभाषी चांदी के सिक्के थे [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Satavahana Artistic Monument) with List-II (Distinctive Architectural Characteristic) and select the correct answer:\nList-I:\na) Amaravati Stupa\nb) Karle Chaitya\nc) Bhaja Cave\nd) Kanheri Vihara\ne) Nagarjunakonda\n\nList-II:\n1) Sculpted white marble-like limestone relief medallions\n2) Wooden ribs on a rock-cut barrel-vaulted roof\n3) Earliest prototype of a simple rock-cut wooden design\n4) Multiple monastic residential cells with stone beds\n5) Ayaka platforms surmounted by tall pillars",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "Correct match is a-1, b-2, c-3, d-4, e-5. Amaravati has limestone relief panels [1], Karle has wooden ribs [2], Bhaja is the earliest wooden prototype [3], Kanheri has monastic cells [4], and Nagarjunakonda has Ayaka platforms [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (सातवाहन कलात्मक स्मारक) को सूची-II (विशिष्ट वास्तुकलात्मक विशेषता) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) अमरावती स्तूप\nb) कार्ला चैत्य\nc) भाजा गुफा\nd) कान्हेरी विहार\ne) नागार्जुनकोंडा\n\nसूची-II:\n1) नक्काशीदार सफेद संगमरमर जैसे चूना पत्थर के फलक (medallions)\n2) शैलकृत बैरल-वाल्टेड छत पर लकड़ी की कड़ियाँ (ribs)\n3) सरल शैलकृत लकड़ी के डिजाइन का सबसे पहला प्रोटोटाइप\n4) पत्थर के बिस्तरों वाले कई मठवासी आवासीय कक्ष\n5) ऊंचे स्तंभों से सुसज्जित आयक मंच (Ayaka platforms)",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-3, b-2, c-1, d-5, e-4",
+      "correct": "A",
+      "explanation": "सही सुमेल a-1, b-2, c-3, d-4, e-5 है। अमरावती में चूना पत्थर के नक्काशीदार फलक हैं [1], कार्ला में लकड़ी की कड़ियाँ हैं [2], भाजा सबसे प्रारंभिक रूप है [3], कान्हेरी में मठवासी कक्ष हैं [4], और नागार्जुनकोंडा में आयक मंच हैं [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Satavahana dynasty and select the correct answer:\n1. The Satavahana kings frequently used metronymics (maternal titles).\n2. Despite using maternal titles, succession to the Satavahana throne was strictly patrilineal.",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because rulers like Gautamiputra and Vashishtiputra adopted mothers' names. Statement 2 is correct because the crown passed to the eldest son, not daughters, keeping the succession patrilineal."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन राजवंश के संबंध में निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर चुनिए:\n1. सातवाहन राजा अक्सर मातृनाम (मातृ उपाधियों) का उपयोग करते थे।\n2. मातृनामों के उपयोग के बावजूद, सातवाहन सिंहासन का उत्तराधिकार कड़ाई से पितृसत्तात्मक था।",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि गौतमीपुत्र और वाशिष्ठीपुत्र जैसे शासकों ने माताओं के नाम अपनाए। कथन 2 सही है क्योंकि मुकुट जेठा पुत्र को हस्तांतरित होता था, न कि पुत्रियों को, जिससे उत्तराधिकार पितृसत्तात्मक बना रहा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Satavahana land grants and select the correct answer:\n1. The earliest epigraphic evidence of tax-exempt land grants to Buddhist and Brahmin monks is found in Satavahana inscriptions.\n2. These land grants included the transfer of administrative and judicial immunities, restricting royal officers from entering the granted villages.",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct as the Naneghat and Nasik inscriptions contain the oldest written proof of land grants. Statement 2 is correct because the grants exempted the land from tax and prohibited the entry of royal soldiers or administrators."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन भूमि अनुदान के संबंध में निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर चुनिए:\n1. बौद्ध और ब्राह्मण भिक्षुओं को कर-मुक्त भूमि अनुदान का सबसे पहला अभिलेखीय साक्ष्य सातवाहन अभिलेखों में मिलता है।\n2. इन भूमि अनुदानों में प्रशासनिक और न्यायिक छूट का हस्तांतरण शामिल था, जिससे शाही अधिकारियों के दान में दिए गए गांवों में प्रवेश पर रोक लग गई थी।",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि नानेघाट और नासिक अभिलेखों में भूमि अनुदान के सबसे पुराने लिखित प्रमाण हैं। कथन 2 सही है क्योंकि अनुदानों ने भूमि को कर से मुक्त कर दिया और शाही सैनिकों या प्रशासकों के प्रवेश को प्रतिबंधित कर दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the founding of the Satavahana dynasty and select the correct answer:\n1. Simuka is recorded to have overthrown the last Kanva ruler, Susharman, to establish Satavahana hegemony.\n2. The Puranas refer to the Satavahanas as the 'Andhras' or 'Andhrabhrityas'.",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because Simuka terminated the Kanva dynasty to consolidate power in the Deccan. Statement 2 is correct because the Puranic literature consistently calls the dynasty 'Andhra' or servants of Andhras."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन राजवंश की स्थापना के संबंध में निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर चुनिए:\n1. सातवाहन आधिपत्य स्थापित करने के लिए सिमुक द्वारा अंतिम कण्व शासक सुशर्मन को उखाड़ फेंकने का विवरण मिलता है।\n2. पुराणों में सातवाहनों को 'आंध्र' या 'आंध्रभृत्य' कहा गया है।",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि सिमुक ने दक्कन में सत्ता को मजबूत करने के लिए कण्व राजवंश का अंत किया था। कथन 2 सही है क्योंकि पौराणिक साहित्य में इस राजवंश को लगातार 'आंध्र' या आंध्रों का सेवक कहा गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Satavahana epigraphy and languages and select the correct answer:\n1. The official court language of the Satavahanas was Classical Sanskrit.\n2. All major Satavahana inscriptions were composed in the Prakrit language using the Brahmi script.",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because Prakrit (not Sanskrit) was the official language of the Satavahana court. Statement 2 is correct as the inscriptions in Western and Eastern Deccan are written in Prakrit and Brahmi script."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन अभिलेखों और भाषाओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर चुनिए:\n1. सातवाहनों की आधिकारिक दरबारी भाषा शास्त्रीय संस्कृत थी।\n2. सभी प्रमुख सातवाहन अभिलेख ब्राह्मी लिपि का उपयोग करके प्राकृत भाषा में लिखे गए थे।",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि प्राकृत (संस्कृत नहीं) सातवाहन दरबार की आधिकारिक भाषा थी। कथन 2 सही है क्योंकि पश्चिमी और पूर्वी दक्कन में मिले अभिलेख प्राकृत और ब्राह्मी लिपि में लिखे गए हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Satavahana literature and select the correct answer:\n1. The Gaha Sattasai was composed by King Hala in the Paisachi dialect of Prakrit.\n2. The Brihatkatha was composed by Gunadhya in the Maharashtri dialect of Prakrit.",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "D",
+      "explanation": "Statement 1 is incorrect because Hala wrote the Gaha Sattasai in Maharashtri Prakrit. Statement 2 is incorrect because Gunadhya composed the Brihatkatha in Paisachi Prakrit. The dialects are interchanged."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन साहित्य के संबंध में निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर चुनिए:\n1. गाहा सत्तसई की रचना राजा हाल ने प्राकृत की पैशाची बोली में की थी।\n2. बृहत्कथा की रचना गुणाढ्य ने प्राकृत की महाराष्ट्री बोली में की थी।",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "D",
+      "explanation": "कथन 1 गलत है क्योंकि हाल ने महाराष्ट्री प्राकृत में गाहा सत्तसई लिखी थी। कथन 2 गलत है क्योंकि गुणाढ्य ने पैशाची प्राकृत में बृहत्कथा की रचना की थी। यहाँ बोलियों को आपस में बदल दिया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Gautamiputra Satakarni and select the correct answer:\n1. The Nasik Prasasti describes him as the destroyer of the Sakas, Yavanas, and Pahlavas.\n2. He claimed to have stopped varnasankara (the intermixing of the four varnas) and restored the social duties of the castes.",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct as the Nasik cave inscription lists his victories over foreign dynasties (Sakas, Yavanas, Pahlavas). Statement 2 is correct as he took pride in preserving the Vedic social structure and stopping caste intermixing."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गौतमीपुत्र शातकर्णी के संबंध में निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर चुनिए:\n1. नासिक प्रशस्ति में उन्हें शकों, यवनों और पहलवों का संहारक बताया गया है।\n2. उन्होंने वर्णसंकर (चार वर्णों के मिश्रण) को रोकने और जातियों के सामाजिक कर्तव्यों को बहाल करने का दावा किया था।",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि नासिक गुफा अभिलेख में विदेशी राजवंशों (शकों, यवनों, पहलवों) पर उनकी विजयों की सूची है। कथन 2 सही है क्योंकि उन्होंने वैदिक सामाजिक व्यवस्था को बनाए रखने और वर्णसंकर को रोकने में गर्व महसूस किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Yajna Sri Satakarni and select the correct answer:\n1. Yajna Sri Satakarni recovered the lost territories of Konkan and Malwa from the Western Kshatrapas.\n2. His coins with ship symbols have been recovered mostly from coastal regions, proving overseas connections.",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because he defeated the successor of Rudradaman to regain Western lands. Statement 2 is correct because the ship-motif coins were discovered along the Coromandel coast, verifying maritime trade."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. यज्ञ श्री शातकर्णी के संबंध में निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर चुनिए:\n1. यज्ञ श्री शातकर्णी ने कोंकण और मालवा के खोए हुए क्षेत्रों को पश्चिमी क्षत्रपों से वापस हासिल किया था।\n2. जहाज के प्रतीकों वाले उनके सिक्के ज्यादातर तटीय क्षेत्रों से प्राप्त हुए हैं, जो विदेशी संबंधों को सिद्ध करते हैं।",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि उन्होंने पश्चिमी क्षेत्रों को वापस पाने के लिए रुद्रदामन के उत्तराधिकारी को हराया था। कथन 2 सही है क्योंकि कोरोमंडल तट पर जहाज के चित्र वाले सिक्के खोजे गए थे, जो समुद्री व्यापार की पुष्टि करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Naneghat Inscription and select the correct answer:\n1. It was issued by Queen Naganika to document the sacrifices performed by Satakarni I.\n2. It mentions the donation of thousands of karsapanas, cattle, and elephants, showing royal treasury wealth.",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because the inscription is credited to Naganika, commemorating Satakarni I. Statement 2 is correct because it explicitly records the vast scale of sacrificial donations made to priests."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नानेघाट अभिलेख के संबंध में निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर चुनिए:\n1. यह शातकर्णी प्रथम द्वारा किए गए यज्ञों का दस्तावेजीकरण करने के लिए रानी नागनिका द्वारा जारी किया गया था।\n2. इसमें हजारों कार्षापणों, मवेशियों और हाथियों के दान का उल्लेख है, जो शाही खजाने की समृद्धि को दर्शाता है।",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि यह अभिलेख नागनिका द्वारा जारी माना जाता है, जो शातकर्णी प्रथम की याद में था। कथन 2 सही है क्योंकि यह स्पष्ट रूप से पुजारियों को दिए गए यज्ञीय दानों के विशाल पैमाने को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Satavahana trade and select the correct answer:\n1. The Satavahanas controlled ports on both the western coast (e.g., Kalyan, Sopara) and the eastern coast (e.g., Ghantasala).\n2. They maintained close trade ties with the Roman Empire, which is supported by Roman coins found in the Deccan.",
+      "option_a": "1 only",
+      "option_b": "2 only",
+      "option_c": "Both 1 and 2",
+      "option_d": "Neither 1 nor 2",
+      "correct": "C",
+      "explanation": "Statement 1 is correct because Kalyan, Sopara, and Ghantasala were active ports under their administration. Statement 2 is correct as Roman gold and silver coins discovered in the Deccan prove active trade ties."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन व्यापार के संबंध में निम्नलिखित कथनों पर विचार कीजिए और सही उत्तर चुनिए:\n1. सातवाहनों ने पश्चिमी तट (जैसे कल्याण, सोपारा) और पूर्वी तट (जैसे घंटाशाला) दोनों पर बंदरगाहों को नियंत्रित किया।\n2. उन्होंने रोमन साम्राज्य के साथ घनिष्ठ व्यापारिक संबंध बनाए रखे, जिसकी पुष्टि दक्कन में मिले रोमन सिक्कों से होती है।",
+      "option_a": "केवल 1",
+      "option_b": "केवल 2",
+      "option_c": "1 और 2 दोनों",
+      "option_d": "न तो 1 और न ही 2",
+      "correct": "C",
+      "explanation": "कथन 1 सही है क्योंकि कल्याण, सोपारा और घंटाशाला उनके प्रशासन के तहत सक्रिय बंदरगाह थे। कथन 2 सही है क्योंकि दक्कन में खोजे गए रोमन सोने और चांदी के सिक्के सक्रिय व्यापार संबंधों को सिद्ध करते हैं।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the significance of the maternal titles (metronymics) used by the Satavahana rulers. [5 Marks, 50 Words]",
+      "model_answer": "The use of metronymics (e.g., Gautamiputra, Vashishtiputra) by Satavahana kings holds significant socio-political importance:\n\n* **Mother's Status**: It reflects the high social status, reverence, and political influence of queen mothers (like Gautami Balasri) in the royal household.\n* **Vedic Lineage**: It denoted the Vedic gotra of the mother, asserting Brahmanical purity and legitimacy.\n\nHowever, succession was strictly patrilineal, showing a patriarchal structure with maternal respect."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन शासकों द्वारा प्रयुक्त मातृनामों (मार्क उपाधियों) के महत्व पर प्रकाश डालिए। [5 अंक, 50 शब्द]",
+      "model_answer": "सातवाहन राजाओं द्वारा मातृनाम (जैसे, गौतमीपुत्र, वाशिष्ठीपुत्र) का उपयोग महत्वपूर्ण सामाजिक-राजनीतिक महत्व रखता है:\n\n* **माता की स्थिति**: यह राजघराने में राजमाताओं (जैसे गौतमी बलश्री) के उच्च सामाजिक स्तर, सम्मान और राजनीतिक प्रभाव को दर्शाता है।\n* **वैदिक वंश**: यह माता के वैदिक गोत्र को प्रदर्शित करता था, जो ब्राह्मणवादी पवित्रता और वैधता की पुष्टि करता था।\n\nहालाँकि, सिंहासन का उत्तराधिकार कड़ाई से पितृसत्तात्मक बना रहा, जो मातृ सम्मान के साथ एक पितृसत्तात्मक संरचना को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the features and socio-economic implications of land grants initiated during the Satavahana period. [10 Marks, 150 Words]",
+      "model_answer": "The Satavahanas initiated the practice of making tax-free land grants (Bhumidan) to Buddhist monks and Brahmins. This practice carried distinct features and long-term socio-economic implications:\n\n### Key Features of Land Grants\n* **Exemptions**: Grants carried fiscal immunities (tax exemptions) and judicial privileges.\n* **Administrative Restriction**: Royal officers and army personnel were barred from entering the granted villages.\n* **Permanence**: Grants were made perpetual, inscribed on copper plates or cave walls (e.g., Naneghat).\n\n### Socio-Economic Implications\n\n| Area of Impact | Key Implication |\n| :--- | :--- |\n| **Agrarian Expansion** | Barren, waste, and forested lands were reclaimed for cultivation to maximize yield. |\n| **Rise of Feudalism** | Decentralization of administrative power occurred as grantees assumed local governance. |\n| **Religious Patronage** | Monasteries evolved into rich economic centers, acting as banks and controlling trade routes. |\n| **Social Stratification** | Grantees emerged as a privileged landed class, widening class divisions in rural society. |\n\nIn conclusion, while land grants boosted agriculture and trade, they laid the foundation for political decentralization and the rise of feudal structures in early medieval India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सातवाहन काल के दौरान शुरू किए गए भूमि अनुदानों की विशेषताओं और सामाजिक-आर्थिक प्रभावों की चर्चा कीजिए। [10 अंक, 150 शब्द]",
+      "model_answer": "सातवाहनों ने बौद्ध भिक्षुओं और ब्राह्मणों को कर-मुक्त भूमि अनुदान (भूमिदान) देने की प्रथा शुरू की। इस प्रथा की विशिष्ट विशेषताएं और दीर्घकालिक सामाजिक-आर्थिक प्रभाव थे:\n\n### भूमि अनुदान की मुख्य विशेषताएं\n* **छूट**: अनुदानों में वित्तीय छूट (कर छूट) और न्यायिक विशेषाधिकार शामिल थे।\n* **प्रशासनिक प्रतिबंध**: शाही अधिकारियों और सेना के जवानों को दान किए गए गांवों में प्रवेश करने की मनाही थी।\n* **स्थायित्व**: नानेघाट जैसे गुफाओं की दीवारों या तांबे की प्लेटों पर अंकित ये अनुदान स्थायी प्रकृति के होते थे।\n\n### सामाजिक-आर्थिक प्रभाव\n\n| प्रभाव का क्षेत्र | मुख्य प्रभाव |\n| :--- | :--- |\n| **कृषि विस्तार** | अधिक उपज प्राप्त करने के लिए बंजर और वन भूमि को कृषि योग्य बनाया गया। |\n| **सामंतवाद का उदय** | प्रशासनिक शक्ति का विकेंद्रीकरण हुआ क्योंकि दानदाताओं ने स्थानीय प्रशासन का नियंत्रण संभाल लिया। |\n| **धार्मिक संरक्षण** | बौद्ध मठ समृद्ध आर्थिक केंद्रों में बदल गए, जो बैंक और व्यापार मार्गों के नियंत्रक के रूप में कार्य करते थे। |\n| **सामाजिक स्तरीकरण** | दानदाता एक विशेषाधिकार प्राप्त भूमिपति वर्ग के रूप में उभरे, जिससे ग्रामीण समाज में वर्ग भेद बढ़ गया। |\n| **राजस्व की हानि** | राज्य को कृषि करों से होने वाली प्रत्यक्ष आय में कमी आई। |\n\nनिष्कर्षतः, भूमि अनुदानों ने कृषि और व्यापार को बढ़ावा दिया, लेकिन साथ ही उन्होंने पूर्व-मध्यकालीन भारत में राजनीतिक विकेंद्रीकरण और सामंती संरचनाओं के उदय की आधारशिला भी रखी।"
+    }
+  ]
+}

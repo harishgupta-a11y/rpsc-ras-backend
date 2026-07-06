@@ -1,0 +1,204 @@
+{
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the significance of the Four Noble Truths (Arya Satyani) in Buddhist philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Four Noble Truths (Arya Satyani) constitute the foundational doctrine of Buddhism, delivered by Buddha in his first sermon at Sarnath. \n- Dukkha (Life is full of suffering)\n- Samudaya (Suffering has a cause, primarily desire/Tanha)\n- Nirodha (Suffering can be ceased by overcoming desire)\n- Magga (The path leading to the cessation of suffering, i.e., the Ashtangika Marga).\nThis framework serves as a diagnostic medical approach to human existential suffering, offering a practical path to liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध दर्शन में चार आर्य सत्यों (आर्य सत्यानी) के महत्व की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "चार आर्य सत्य बौद्ध धर्म का मूल आधार हैं, जिन्हें बुद्ध ने सारनाथ में अपने प्रथम उपदेश में प्रतिपादित किया था:\n- दुःख: संसार दुःखमय है।\n- दुःख समुदाय: दुःख का कारण है (मुख्यतः तृष्णा)।\n- दुःख निरोध: दुःख का अंत संभव है।\n- दुःख निरोध मार्ग: दुःख निवारण का मार्ग (अष्टांगिक मार्ग) है।\nयह सिद्धांत मानव के अस्तित्वगत दुःखों के निदान के लिए एक व्यावहारिक और उपचारात्मक मार्ग प्रदान करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the concept of Pratityasamutpada (Dependent Origination) in Buddhism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Pratityasamutpada (Dependent Origination) is the Buddhist doctrine of cause and effect, stating that all phenomena arise in dependence upon multiple causes and conditions.\n- Fundamental Principle: \"This arising, that arises; this ceasing, that ceases.\"\n- Cyclic Existence: It links ignorance (Avidya) to suffering (Dukkha) through a twelve-linked chain (Dvadasa Nidanas).\nBy understanding that everything is interconnected and lacks independent existence, one can break the cycle of rebirth and achieve liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म में प्रतीत्यसमुत्पाद (कारण-कार्य सिद्धांत) की अवधारणा को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रतीत्यसमुत्पाद बौद्ध धर्म का कारण-कार्य सिद्धांत है, जिसके अनुसार सभी सांसारिक वस्तुएं किसी न किसी कारण पर निर्भर होकर उत्पन्न होती हैं।\n- मूल सिद्धांत: \"इसके होने से वह होता है; इसके समाप्त होने से वह समाप्त हो जाता है।\"\n- भवचक्र: यह अविद्या से लेकर दुःख तक के चक्र को 12 कड़ियों (द्वादश निदान) के माध्यम से जोड़ता है।\nयह स्पष्ट करता है कि कोई भी वस्तु स्वतंत्र नहीं है, और इस कारण-चक्र को तोड़कर ही मोक्ष प्राप्त किया जा सकता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the concept of Nirvana in Buddhist philosophy? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Nirvana, meaning \"blowing out\" or \"extinguishing\" of the fires of greed, hatred, and delusion, is the ultimate spiritual goal in Buddhism.\n- Key features: It represents the cessation of suffering (Dukkha) and liberation from the cycle of rebirth (Samsara).\n- Nature: It is not a state of nothingness, but a transcendent state of supreme peace, clarity, and freedom achieved in this life (Sopadisesa) or after death (Anupadisesa)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध दर्शन में निर्वाण की अवधारणा क्या है? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "निर्वाण का शाब्दिक अर्थ राग, द्वेष और मोह की अग्नि का \"बुझ जाना\" है, जो बौद्ध धर्म का अंतिम आध्यात्मिक लक्ष्य है।\n- प्रमुख विशेषताएं: यह दुःख की पूर्ण समाप्ति तथा जन्म-मरण के चक्र (संसार) से मुक्ति का प्रतिनिधित्व करता है।\n- स्वरूप: यह कोई शून्यता की स्थिति नहीं है, बल्कि परम शांति, स्पष्टता और स्वतंत्रता की एक पारलौकिक अवस्था है जिसे जीवित रहते हुए (सोपादिशेष) या मृत्यु के बाद (अनुपादिशेष) प्राप्त किया जा सकता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Briefly describe the Middle Path (Madhyama Pratipada) advocated by Gautama Buddha. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Middle Path (Madhyama Pratipada) is the core ethical and practical approach of Buddhism, steering clear of two extreme lifestyles:\n- Extremes avoided: Intense self-mortification (asceticism) and excessive sensory indulgence (hedonism).\n- Core philosophy: It suggests that spiritual progress requires a balanced lifestyle that keeps both body and mind healthy.\nThis balanced approach is practically realized through the practice of the Eightfold Path (Ashtangika Marga)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. गौतम बुद्ध द्वारा प्रतिपादित मध्यम मार्ग (मध्यमा प्रतिपदा) का संक्षेप में वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "मध्यम मार्ग (मध्यमा प्रतिपदा) बौद्ध धर्म का मूल व्यावहारिक दृष्टिकोण है, जो दो अतिवादी जीवन शैलियों से बचने का उपदेश देता है:\n- वर्जित अतियों: अत्यधिक कठोर तपस्या (कायाक्लेश) और अत्यधिक शारीरिक व सांसारिक भोग-विलास।\n- दर्शन: इसका मानना है कि आध्यात्मिक प्रगति के लिए शरीर और मन दोनों का स्वस्थ रहना आवश्यक है।\nइस संतुलित दृष्टिकोण को व्यावहारिक रूप से अष्टांगिक मार्ग का पालन करके प्राप्त किया जा सकता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the Buddhist doctrine of Anatta (Anatman or Non-Self). [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Anatta is the Buddhist philosophical doctrine asserting the absence of a permanent, unchanging, and independent soul (Atman).\n- Composition: What is conventionally called a \"self\" is merely a dynamic combination of five aggregates (Skandhas): form, sensation, perception, mental formations, and consciousness.\n- Significance: It challenges Upanishadic notions of an eternal soul. Realizing Anatta helps dissolve ego-attachment, which is a primary cause of suffering."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म के अनात्मवाद (अनात्त) के सिद्धांत को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "अनात्मवाद बौद्ध दर्शन का वह सिद्धांत है जो किसी स्थायी, अपरिवर्तनीय और स्वतंत्र आत्मा (आत्मन) के अस्तित्व को नकारता है।\n- घटक: जिसे हम व्यावहारिक रूप से \"स्व\" या \"आत्मा\" कहते हैं, वह केवल पांच स्कंधों (रूप, वेदना, संज्ञा, संस्कार और विज्ञान) का एक गतिशील संघात है।\n- महत्व: यह उपनिषदों की नित्य आत्मा की अवधारणा को चुनौती देता है। अनात्मवाद का बोध अहंकार और आसक्ति को समाप्त करता है, जो दुःख का मूल कारण हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What is the doctrine of Anicca (Anitya or Impermanence) in Buddhist philosophy? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Anicca (Impermanence) is one of the three marks of existence (Trilakshana) in Buddhism, stating that all conditioned things are in a constant state of flux.\n- Principle: Nothing physical or mental is static; everything arises, changes, and passes away at every moment.\n- Connection to suffering: Attachment to impermanent things, expecting them to be permanent, inevitably leads to Dukkha.\nRecognizing Anitya fosters detachment and equanimity."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध दर्शन में अनित्यवाद (अनिच्चा) का सिद्धांत क्या है? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "अनित्यवाद बौद्ध धर्म के त्रिलक्षण (अस्तित्व के तीन गुण) में से एक है, जिसके अनुसार संसार की सभी संस्कृत (उत्पन्न) वस्तुएं निरंतर परिवर्तनशील हैं।\n- सिद्धांत: कोई भी भौतिक या मानसिक तत्व स्थिर नहीं है; प्रत्येक क्षण सब कुछ उत्पन्न होता है, बदलता है और नष्ट होता है।\n- दुःख से संबंध: अनित्य वस्तुओं को स्थायी मानकर उनसे आसक्ति रखना ही दुःख (दुक्ख) का मुख्य कारण बनता है।\nअनित्यता का ज्ञान वैराग्य और समता भाव उत्पन्न करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Outline the significance of the Three Jewels (Triratna) of Buddhism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Triratna (Three Jewels) represents the central pillars of refuge and practice in Buddhism:\n- Buddha: The enlightened one, serving as the teacher and the ideal of spiritual attainment.\n- Dhamma: The teachings, cosmic law, and path taught by Buddha to achieve liberation.\n- Sangha: The monastic community that preserves, practices, and propagates the teachings.\nTaking refuge in the Triratna is the formal entry point into Buddhist practice."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म के त्रिरत्न के महत्व को रेखांकित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "त्रिरत्न बौद्ध धर्म में शरण और अभ्यास के तीन केंद्रीय स्तंभों का प्रतिनिधित्व करते हैं:\n- बुद्ध: ज्ञानप्राप्त पुरुष, जो मार्गदर्शक, शिक्षक और आध्यात्मिक सिद्धि के आदर्श हैं।\n- धम्म: बुद्ध के उपदेश, शिक्षाएं और नैतिक नियम जो मुक्ति का मार्ग प्रशस्त करते हैं।\n- संघ: भिक्षुओं और भिक्षुणियों का समुदाय जो इन शिक्षाओं का संरक्षण, आचरण और प्रचार करता है।\nत्रिरत्न की शरण में जाना बौद्ध साधना पद्धति में प्रवेश का औपचारिक प्रमाण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the social factors that contributed to the rise of Buddhism in the 6th century BCE. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Buddhism arose in 6th century BCE India primarily as a reaction against the rigid Brahmanical social order:\n- Varna System: The dominance of Brahmins and the low social status of Vaishyas and Shudras created social discontent.\n- Non-violence: The agricultural expansion required cattle wealth, which was threatened by Vedic animal sacrifices.\nBuddhism offered a democratic, egalitarian alternative that rejected caste hierarchy and welcomed all strata of society."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. छठी शताब्दी ईसा पूर्व में बौद्ध धर्म के उदय में योगदान देने वाले सामाजिक कारकों को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "छठी शताब्दी ईसा पूर्व में बौद्ध धर्म का उदय मुख्य रूप से जटिल ब्राह्मणवादी सामाजिक व्यवस्था के विरुद्ध एक प्रतिक्रिया के रूप में हुआ:\n- वर्ण व्यवस्था: ब्राह्मणों के वर्चस्व और वैश्यों एवं शूद्रों की निम्न सामाजिक स्थिति ने असंतोष पैदा किया।\n- अहिंसा: कृषि विस्तार के लिए पशुधन की आवश्यकता थी, जिसे वैदिक पशु बलि से क्षति पहुँच रही थी।\nबौद्ध धर्म ने जातिगत पदानुक्रम को नकारते हुए समाज के सभी वर्गों के लिए एक लोकतांत्रिक और समतावादी विकल्प प्रस्तुत किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Define the concept of Bodhisattva in Mahayana Buddhism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "In Mahayana Buddhism, a Bodhisattva is an enlightened being who deliberately delays their own final Nirvana out of infinite compassion (Karuna) to help all sentient beings achieve liberation.\n- Key Ideal: Replaces the Hinayana ideal of the Arhat (individual liberation) with universal salvation.\n- Famous Examples: Avalokiteshvara (compassion), Manjushri (wisdom), and Maitreya (the future Buddha).\nThey actively engage in the world using skillful means (Upaya)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महायान बौद्ध धर्म में बोधिसत्व की अवधारणा को परिभाषित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "महायान बौद्ध धर्म में बोधिसत्व वह प्रबुद्ध सत्ता है जो परम करुणा के कारण सभी संवेदनशील जीवों को मुक्ति दिलाने के लिए स्वयं के अंतिम निर्वाण को स्थगित कर देती है।\n- मुख्य आदर्श: यह हीनयान के अर्हत आदर्श (व्यक्तिगत मुक्ति) के स्थान पर सार्वभौमिक मुक्ति पर बल देता है।\n- प्रमुख उदाहरण: अवलोकितेश्वर (करुणा), मंजुश्री (प्रज्ञा) और मैत्रेय (भावी बुद्ध)।\nबोधिसत्व संसार में रहकर ही कौशल (उपाय) के माध्यम से दूसरों के उद्धार के लिए सक्रिय रहते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the role of the Buddhist Sangha in the propagation of Buddhism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Buddhist Sangha was the monastic order established by Buddha, playing a pivotal role in the spread of Buddhism:\n- Organization: It operated on democratic lines, taking decisions through consensus (Napti) and voting (Salaka).\n- Function: Monks (Bhikkhus) and nuns (Bhikkhunis) traveled extensively during non-monsoon months to preach Dhamma.\nIt served as a center of learning and preserved sacred texts, ensuring the longevity of Buddhist teachings."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध धर्म के प्रचार-प्रसार में बौद्ध संघ की भूमिका की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "बौद्ध संघ बुद्ध द्वारा स्थापित एक भिक्षु संगठन था जिसने बौद्ध धर्म के प्रसार में अत्यंत महत्वपूर्ण भूमिका निभाई:\n- संगठन: यह लोकतांत्रिक सिद्धांतों पर कार्य करता था, जहाँ निर्णय आम सहमति (ज्ञप्ति) और मतदान (शलाका) द्वारा लिए जाते थे।\n- कार्य: भिक्षु और भिक्षुणियाँ वर्षावास के अतिरिक्त अन्य महीनों में धम्म के प्रचार के लिए निरंतर भ्रमण करते थे।\nइसने शिक्षा के केंद्र के रूप में कार्य किया और पवित्र ग्रंथों को संरक्षित कर बौद्ध दर्शन को स्थायित्व प्रदान किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the core principles of Panchsheel (Five Precepts) in Buddhist ethics. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Panchsheel represents the five basic ethical precepts for lay Buddhist followers to lead a moral life:\n- Abstaining from taking life (Ahimsa/non-violence).\n- Abstaining from taking what is not given (Asteya/non-stealing).\n- Abstaining from sexual misconduct (Brahmacharya/sensory restraint).\n- Abstaining from false speech (Satya/truthfulness).\n- Abstaining from intoxicating drinks and drugs.\nThese precepts form the foundation of individual moral discipline and social harmony."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध नैतिकता में पंचशील (पांच शील) के मूल सिद्धांतों का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "पंचशील बौद्ध गृहस्थ अनुयायियों के लिए नैतिक जीवन जीने हेतु पांच बुनियादी आचार नियम हैं:\n- जीव हिंसा से विरत रहना (अहिंसा)।\n- चोरी न करना या बिना दी गई वस्तु न लेना (अस्तेय)।\n- व्यभिचार या काम वासना के अतिचार से बचना (ब्रह्मचर्य/इंद्रिय संयम)।\n- असत्य भाषण या झूठ बोलने से बचना (सत्य)।\n- नशीले पदार्थों और मदिरा के सेवन से दूर रहना।\nये शील व्यक्तिगत नैतिक अनुशासन और सामाजिक सद्भाव की नींव रखते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. How does Buddhism explain the concepts of Karma and Rebirth without believing in a soul? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Buddhism rejects the concept of a permanent soul (Anatta) but accepts Karma and Rebirth through the continuity of consciousness:\n- Rebirth: It is not the migration of a static soul, but a transmission of causal energy and consciousness (Vijnana) from one life to the next, like one candle lighting another.\n- Karma: Moral actions leave psychological impressions that shape future life-conditions.\nThus, rebirth is a process of cause and effect, not transmigration of identity."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. आत्मा को न मानते हुए भी बौद्ध धर्म कर्म और पुनर्जन्म की अवधारणाओं को कैसे स्पष्ट करता है? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "बौद्ध धर्म स्थायी आत्मा (अनात्मवाद) को अस्वीकार करता है, लेकिन चेतना की निरंतरता के माध्यम से कर्म और पुनर्जन्म को स्वीकार करता है:\n- पुनर्जन्म: यह एक स्थिर आत्मा का गमन नहीं है, बल्कि एक जीवन से दूसरे जीवन में कारण-ऊर्जा और चेतना (विज्ञान) का संचरण है (जैसे एक दीपक से दूसरा दीपक जलना)।\n- कर्म: नैतिक कर्म मानसिक संस्कार छोड़ते हैं जो भविष्य की जीवन-दशाओं को निर्धारित करते हैं।\nअतः पुनर्जन्म पहचान का नहीं बल्कि कारण-कार्य की निरंतरता का प्रवाह है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Write a short note on the concept of Kshanikavada (Doctrine of Momentariness) in Buddhism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Kshanikavada is a logical extension of the doctrine of impermanence (Anitya) in Buddhist philosophy.\n- Principle: It posits that everything in the universe exists only for a single moment (Kshana) and undergoes destruction in the very next moment.\n- Continuity: What appears as stable is actually a continuous, rapid succession of similar moments (like the flame of a lamp).\nIt emphasizes that change is constant and absolute, denying any static reality."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध दर्शन में क्षणिकवाद के सिद्धांत पर एक संक्षिप्त टिप्पणी लिखिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "क्षणिकवाद बौद्ध दर्शन में अनित्यता (अनिच्चा) के सिद्धांत का एक तार्किक विस्तार है।\n- सिद्धांत: इसके अनुसार ब्रह्मांड की प्रत्येक वस्तु केवल एक क्षण (क्षण) के लिए अस्तित्व में रहती है और अगले ही क्षण नष्ट हो जाती है।\n- निरंतरता: जो वस्तु हमें स्थिर दिखाई देती है, वह वास्तव में समान क्षणों का एक तीव्र और निरंतर प्रवाह है (जैसे दीपक की लौ)।\nयह स्पष्ट करता है कि परिवर्तन निरंतर और पूर्ण है, तथा जगत में कोई भी सत्ता अपरिवर्तनीय या नित्य नहीं है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the core philosophical doctrine of Pratityasamutpada and explain its significance in Buddhist philosophy. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Pratityasamutpada (Dependent Origination or Theory of Causation) is the central philosophical pillar of Buddhism, which asserts that nothing exists independently. Every phenomenon arises in dependence upon specific causes and conditions, and ceases when those causes cease.\n\n### The Twelve Nidanas (Links in the Chain of Causation)\nThis doctrine is illustrated through the *Dvadasa Nidanas* (twelve links), showing how ignorance leads to suffering in a cyclic chain:\n\n1. **Avidya** (Ignorance) \u2192 **Samskara** (Volitional actions)\n2. **Vijnana** (Consciousness) \u2192 **Nama-Rupa** (Mind and body)\n3. **Sadayatana** (Six sense organs) \u2192 **Sparsha** (Contact)\n4. **Vedana** (Sensation) \u2192 **Tanha** (Desire/Craving)\n5. **Upadana** (Clinging/Attachment) \u2192 **Bhava** (Becoming/Will to born)\n6. **Jati** (Birth) \u2192 **Jara-Marana** (Old age, decay, and death)\n\n### Philosophy and Significance\n- **Rejection of Extremes:** It avoids Eternalism (Sassatavada) and Nihilism (Ucchedavada), establishing the Middle Path (Madhyama Pratipada).\n- **Basis of other doctrines:** It provides the logical foundation for Impermanence (Anicca), Non-self (Anatta), and Karma.\n- **Path to Liberation:** By systematically breaking the first link, Avidya (Ignorance), through wisdom, the subsequent links collapse, culminating in Nirvana (liberation)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रतीत्यसमुत्पाद के मूल दार्शनिक सिद्धांत का विश्लेषण कीजिए तथा बौद्ध दर्शन में इसके महत्व को स्पष्ट कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्रतीत्यसमुत्पाद (कारण-कार्य सिद्धांत या आश्रित उत्पत्ति का सिद्धांत) बौद्ध दर्शन का केंद्रीय दार्शनिक स्तंभ है। यह मानता है कि कोई भी वस्तु स्वतंत्र रूप से अस्तित्व में नहीं है। प्रत्येक घटना विशिष्ट कारणों और परिस्थितियों पर निर्भर होकर उत्पन्न होती है, और उन कारणों के समाप्त होने पर नष्ट हो जाती है।\n\n### द्वादश निदान (कारण-कार्य श्रृंखला की बारह कड़ियाँ)\nइस सिद्धांत को *द्वादश निदान* के माध्यम से दर्शाया गया है, जो बताता है कि अविद्या किस प्रकार दुःख के चक्र को जन्म देती है:\n\n1. **अविद्या** (अज्ञान) \u2192 **संस्कार** (मानसिक प्रवृत्तियाँ)\n2. **विज्ञान** (चेतना) \u2192 **नामरूप** (मन और शरीर)\n3. **षडायतन** (छह इंद्रियाँ) \u2192 **स्पर्श** (इंद्रिय संपर्क)\n4. **वेदना** (अनुभूति) \u2192 **तृष्णा** (तीव्र इच्छा)\n5. **उपादान** (आसक्ति) \u2192 **भव** (जन्म लेने की प्रवृत्ति)\n6. **जाति** (जन्म) \u2192 **जरामरण** (बुढ़ापा, दुःख और मृत्यु)\n\n### दार्शनिक महत्व\n- **अतिवाद का निषेध:** यह शाश्वतवाद और उच्छेदवाद (शून्यवाद) की अतियों से बचते हुए मध्यम मार्ग स्थापित करता है।\n- **अन्य सिद्धांतों का आधार:** यह अनित्यवाद, अनात्मवाद और कर्म के सिद्धांत को तार्किक आधार प्रदान करता है।\n- **मुक्ति का मार्ग:** प्रज्ञा द्वारा प्रथम कड़ी 'अविद्या' का नाश करने से पूरी श्रृंखला टूट जाती है, जिससे निर्वाण प्राप्त होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare and contrast the Hinayana and Mahayana schools of Buddhism on the basis of their teachings, philosophy, and practices. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Following the Fourth Buddhist Council at Kundalavana (Kashmir), Buddhism split into two major sects: Hinayana (Lesser Vehicle) and Mahayana (Greater Vehicle). Their differences are structured below:\n\n| Feature | Hinayana Buddhism | Mahayana Buddhism |\n| :--- | :--- | :--- |\n| **Core Concept** | Orthodoxy; strictly follows the original teachings of Buddha. | Liberalism; adapted teachings to changing socio-religious conditions. |\n| **Spiritual Ideal** | **Arhat** (Individual liberation through personal efforts). | **Bodhisattva** (Postponing own Nirvana to help all beings). |\n| **Deification of Buddha** | Buddha is viewed as a great historical teacher and human guide. | Buddha is worshiped as a deity and the ultimate divine reality. |\n| **Worship Method** | Focuses on meditation and symbols (Footprints, Wheel). | Idol worship of Buddha and Bodhisattvas with rituals. |\n| **Scriptural Language**| Pali (Language of the common masses). | Sanskrit (Classical literary language). |\n| **Geographical Spread**| Sri Lanka, Myanmar, Thailand (Southern School). | China, Tibet, Japan, Korea (Northern School). |\n\nDespite these doctrinal differences, both schools share the foundational core of the Four Noble Truths, the Eightfold Path, and the goal of ending suffering."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हीनयान और महायान संप्रदायों की शिक्षाओं, दर्शन और प्रथाओं के आधार पर तुलनात्मक विश्लेषण कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "कुंडलवन (कश्मीर) में आयोजित चतुर्थ बौद्ध संगीति के बाद बौद्ध धर्म दो प्रमुख संप्रदायों: हीनयान (लघु चक्र) और महायान (महा चक्र) में विभाजित हो गया। इनके मध्य प्रमुख अंतर निम्नलिखित हैं:\n\n| लक्षण/आधार | हीनयान बौद्ध धर्म | महायान बौद्ध धर्म |\n| :--- | :--- | :--- |\n| **मूल अवधारणा** | रूढ़िवादी; बुद्ध की मूल शिक्षाओं का कड़ाई से पालन। | प्रगतिशील; बदलती सामाजिक-धार्मिक परिस्थितियों के अनुकूल बदलाव। |\n| **आध्यात्मिक आदर्श** | **अर्हत** (व्यक्तिगत प्रयासों से स्वयं की मुक्ति प्राप्त करना)। | **बोधिसत्व** (दूसरों के कल्याण के लिए अपने निर्वाण को टालना)। |\n| **बुद्ध का स्वरूप** | बुद्ध को एक ऐतिहासिक महापुरुष और शिक्षक माना जाता है। | बुद्ध को एक देवता और परम अलौकिक सत्ता मानकर पूजा जाता है। |\n| **पूजा की पद्धति** | ध्यान और प्रतीकों (चरण चिह्न, धर्मचक्र) पर ध्यान केंद्रित। | बुद्ध और बोधिसत्वों की मूर्ति पूजा और अनुष्ठान। |\n| **ग्रंथों की भाषा** | पालि (आम जनमानस की भाषा)। | संस्कृत (शास्त्रीय साहित्यिक भाषा)। |\n| **भौगोलिक प्रसार** | श्रीलंका, म्यांमार, थाईलैंड (दक्षिणी शाखा)। | चीन, तिब्बत, जापान, कोरिया (उत्तरी शाखा)। |\n\nइन दार्शनिक अंतरों के बावजूद, दोनों संप्रदाय चार आर्य सत्य, अष्टांगिक मार्ग और दुःख निरोध के मूल लक्ष्य को साझा करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the structural categorization of the Ashtangika Marga (Eightfold Path) and explain its practical application in achieving Nirvana. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Ashtangika Marga (Eightfold Path) is the practical guide to ethical living and mental development in Buddhism, designed to end suffering (Dukkha) and lead to Nirvana. It is traditionally categorized into three groups (Threefold Training/Trishiksha):\n\n### 1. Prajna (Wisdom)\n- **Samyak Drishti (Right View):** Understanding the Four Noble Truths and impermanence.\n- **Samyak Sankalpa (Right Resolve):** Mental resolve to avoid greed, hatred, and cruelty.\n\n### 2. Sila (Ethical Conduct)\n- **Samyak Vak (Right Speech):** Refraining from lying, harsh language, and gossip.\n- **Samyak Karmanta (Right Action):** Non-violent, honest conduct (following Panchsheel).\n- **Samyak Ajiva (Right Livelihood):** Earning a living in a way that does not harm others.\n\n### 3. Samadhi (Mental Discipline/Meditation)\n- **Samyak Vyayama (Right Effort):** Preventing unwholesome states of mind and cultivating positive ones.\n- **Samyak Smriti (Right Mindfulness):** Constant awareness of body, feelings, and thoughts.\n- **Samyak Samadhi (Right Concentration):** Practicing deep meditation to achieve mental tranquility.\n\nThis division ensures a holistic development where ethical conduct stabilizes the mind, enabling deep meditation, which in turn leads to the wisdom necessary for final liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अष्टांगिक मार्ग के संरचनात्मक वर्गीकरण की चर्चा कीजिए तथा निर्वाण प्राप्ति में इसके व्यावहारिक अनुप्रयोग को स्पष्ट कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "अष्टांगिक मार्ग बौद्ध धर्म में नैतिक जीवन और मानसिक विकास का एक व्यावहारिक मार्गदर्शक है, जो दुःख निवारण और निर्वाण की प्राप्ति के लिए बनाया गया है। इसे पारंपरिक रूप से तीन श्रेणियों (त्रिशिक्षा) में विभाजित किया जाता है:\n\n### 1. प्रज्ञा (ज्ञान/बुद्धि)\n- **सम्यक दृष्टि:** चार आर्य सत्यों और अनित्यता का सही ज्ञान।\n- **सम्यक संकल्प:** राग, द्वेष और हिंसा से दूर रहने का मानसिक संकल्प।\n\n### 2. शील (नैतिक आचरण)\n- **सम्यक वाक:** असत्य, कटु वचन और निंदा से रहित मधुर वाणी।\n- **सम्यक कर्मान्त:** अहिंसक, शांतिपूर्ण और सत्कर्मों का आचरण।\n- **सम्यक आजीव:** न्यायपूर्ण और अहिंसक तरीकों से जीविकोपार्जन करना।\n\n### 3. समाधि (मानसिक अनुशासन)\n- **सम्यक व्यायाम:** कुविचारों को रोकना और मन में शुभ विचारों को उत्पन्न करने का प्रयत्न।\n- **सम्यक स्मृति:** काया, वेदना और चित्त के प्रति निरंतर सजगता।\n- **सम्यक समाधि:** चित्त की एकाग्रता के लिए गहरा ध्यान लगाना।\n\nयह वर्गीकरण एक समग्र विकास सुनिश्चित करता है जहाँ नैतिक आचरण मन को स्थिर करता है, जिससे गहन ध्यान संभव होता है, और अंततः मुक्ति के लिए आवश्यक प्रज्ञा का उदय होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Detail the social and economic conditions of 6th-century BCE India that facilitated the rapid rise and popularity of Buddhism. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The 6th century BCE in Northern India (Second Urbanization) witnessed profound socio-economic transitions that created a fertile ground for the rise and rapid popularity of Buddhism:\n\n### 1. Social Factors\n- **Rigid Varna System:** Society was dominated by Brahmins, who claimed spiritual superiority. The Kshatriyas resented this dominance, and Gautama Buddha (a Kshatriya) voiced this resentment.\n- **Status of lower castes:** Vaishyas (merchants) and Shudras sought social dignity, which the Brahmanical order denied them. Buddhism offered an egalitarian social structure where merit, not birth, determined status.\n- **Ethical Simplicity:** The simple, ascetic message of Buddha attracted people tired of expensive Vedic rituals and animal sacrifices.\n\n### 2. Economic Factors\n- **Rise of Agricultural Economy:** The use of iron ploughshares in the Gangetic plains required draft animals. The Vedic animal sacrifices (*yagnas*) depleted cattle wealth. Buddhism's emphasis on *Ahimsa* (non-violence) protected this vital economic resource.\n- **Support of the Merchant Class (Vaishyas):** The growth of trade and cities led to the rise of wealthy merchants (*setthis*). However, Brahmanical texts condemned money-lending (*kusida*) and sea voyages. Buddhism did not condemn trade, hence merchants generously patronized the Sangha.\n- **Urbanization:** The new urban classes favored the rational, cosmopolitan outlook of Buddhism over rural-centric orthodox traditions."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. छठी शताब्दी ईसा पूर्व भारत की उन सामाजिक और आर्थिक परिस्थितियों का विवरण दीजिए जिन्होंने बौद्ध धर्म के तीव्र उदय और लोकप्रियता को सुगम बनाया। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "उत्तरी भारत में छठी शताब्दी ईसा पूर्व (द्वितीय नगरीकरण) में हुए व्यापक सामाजिक-आर्थिक परिवर्तनों ने बौद्ध धर्म के उदय और प्रसार के लिए अनुकूल वातावरण तैयार किया:\n\n### 1. सामाजिक कारक\n- **जटिल वर्ण व्यवस्था:** समाज में ब्राह्मणों का अत्यधिक वर्चस्व था। क्षत्रिय वर्ग इस धार्मिक आधिपत्य का विरोध कर रहा था, और बुद्ध (जो स्वयं क्षत्रिय थे) ने इस असंतोष को स्वर दिया।\n- **निम्न जातियों की स्थिति:** वैश्य (व्यापारी) और शूद्र सामाजिक प्रतिष्ठा चाहते थे, जो उन्हें जन्म-आधारित व्यवस्था में नहीं मिल रही थी। बौद्ध धर्म ने समानता पर आधारित मंच दिया जहाँ जन्म के बजाय कर्म को प्रधानता दी गई।\n- **नैतिक सरलता:** खर्चीले वैदिक कर्मकांडों और आडंबरों से तंग आ चुके लोगों को बुद्ध का सरल आचरण और उपदेश आकर्षित करने लगा।\n\n### 2. आर्थिक कारक\n- **कृषि अर्थव्यवस्था का उदय:** गंगा घाटी में लोहे के हलों के प्रयोग हेतु बैलों और पशुओं की आवश्यकता थी। वैदिक यज्ञों में पशुबलि से पशुधन नष्ट हो रहा था। बौद्ध धर्म के 'अहिंसा' के सिद्धांत ने इस कृषि अर्थव्यवस्था की रक्षा की।\n- **व्यापारी वर्ग (वैश्यों) का समर्थन:** व्यापार और नगरों के विकास से धनाढ्य व्यापारियों (श्रेष्ठियों) का उदय हुआ। ब्राह्मण ग्रंथ सूदखोरी और समुद्री यात्रा को पाप मानते थे, जबकि बौद्ध धर्म व्यापार का समर्थन करता था। अतः वैश्यों ने बौद्ध संघ को भारी दान दिया।\n- **नगरीकरण:** नए शहरी वर्गों ने ग्रामीण केंद्रित रूढ़िवादी परंपराओं की तुलना में बौद्ध धर्म के तर्कसंगत और सार्वभौमिक दृष्टिकोण को प्राथमिकता दी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the Buddhist concept of the Three Marks of Existence (Trilakshana) and discuss their ethical implications. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "In Buddhist philosophy, the *Trilakshana* (Three Marks of Existence) represents the fundamental characteristics that define all conditioned, physical, and mental phenomena. Understanding these marks is central to overcoming ignorance and achieving Nirvana.\n\n### The Three Marks of Existence\n1. **Anicca (Impermanence):** \n   - All conditioned things are in a state of continuous flux. \n   - There is no static essence; everything arises, changes, and passes away.\n2. **Dukkha (Suffering):** \n   - Because things are impermanent (Anicca), clinging to them as permanent sources of happiness inevitably causes dissatisfaction, pain, and anxiety.\n3. **Anatta (Non-Self):** \n   - There is no permanent, independent soul (*Atman* or *Jiva*). \n   - What we call \"self\" is an ever-changing bundle of five physical and mental aggregates (*Skandhas*).\n\n### Ethical Implications\n- **Cultivation of Detachment (Vairagya):** Understanding *Anicca* and *Dukkha* reduces craving (*Tanha*) for material wealth and sensory pleasures, which are temporary.\n- **Eradication of Ego:** Recognizing *Anatta* eliminates egoism, pride, and selfishness, fostering universal love (*Metta*) and compassion (*Karuna*).\n- **Basis of Buddhist Morality:** These marks guide individuals to live mindfully, accepting change without grief and treating all transient beings with empathy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध दर्शन के त्रिलक्षण (अस्तित्व के तीन गुण) के सिद्धांत का विश्लेषण कीजिए तथा इसके नैतिक निहितार्थों की चर्चा कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "बौद्ध दर्शन में *त्रिलक्षण* (अस्तित्व के तीन गुण) उन मूलभूत विशेषताओं को संदर्भित करते हैं जो संसार की सभी भौतिक और मानसिक घटनाओं को परिभाषित करते हैं। अज्ञानता पर विजय पाने और निर्वाण की प्राप्ति के लिए इन लक्षणों को समझना अत्यंत आवश्यक है।\n\n### अस्तित्व के तीन लक्षण (त्रिलक्षण)\n1. **अनिच्चा (अनित्यता):** \n   - संसार की सभी वस्तुएं परिवर्तनशील हैं। \n   - कोई भी तत्व स्थिर नहीं है; प्रत्येक क्षण वस्तुएं उत्पन्न होती हैं, परिवर्तित होती हैं और नष्ट होती हैं।\n2. **दुक्ख (दुःख):** \n   - चूँकि सभी वस्तुएं अनित्य हैं, अतः उन्हें सुख का स्थायी स्रोत मानकर उनसे चिपकना (आसक्ति) अंततः असंतोष, निराशा और मानसिक पीड़ा को जन्म देता है।\n3. **अनात्ता (अनात्मवाद):** \n   - संसार में कोई स्थायी, स्वतंत्र और शाश्वत आत्मा नहीं है। \n   - जिसे हम 'मैं' या 'स्व' कहते हैं, वह केवल पांच स्कंधों (भौतिक रूप, वेदना, संज्ञा, संस्कार और विज्ञान) का निरंतर बदलता समूह है।\n\n### नैतिक निहितार्थ\n- **अनासक्ति का विकास:** अनित्यता और दुःख का ज्ञान भौतिक सुखों के प्रति तीव्र इच्छा (तृष्णा) को कम करता है।\n- **अहंकार की समाप्ति:** अनात्मवाद का बोध व्यक्ति के अहंकार, स्वार्थ और घमंड को समाप्त कर सार्वभौमिक मैत्री और करुणा की भावना विकसित करता है।\n- **नैतिकता का आधार:** ये लक्षण मनुष्यों को सजगता से जीने, परिवर्तन को सहजता से स्वीकार करने और सभी संवेदनशील प्राणियों के प्रति सहानुभूति रखने के लिए प्रेरित करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the organizational structure and democratic principles of the Buddhist Sangha as described in the Vinaya Pitaka. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Buddhist Sangha, the monastic order founded by Gautama Buddha, was a revolutionary institution governed by strict rules of conduct recorded in the *Vinaya Pitaka*. It was designed on highly democratic and egalitarian principles, modeled after the tribal republics (*Ganas*) of ancient India.\n\n### Key Democratic Principles of the Sangha\n- **Equality:** Entry into the Sangha required discarding caste, class, and family identity. All monks (*Bhikkhus*) were equal, and decisions were not dictated by a single leader but by the collective body.\n- **Decision-Making through Consensus (Napti):** Proposals (*Napti*) were placed before the assembly. If all remained silent, the resolution was passed. In case of disagreement, votes were cast.\n- **Voting System (Salaka):** Decisions were made by majority voting using colored wooden sticks called *Salaka*. A designated officer (*Salaka-Gahapaka*) distributed and counted the votes to ensure transparency.\n- **Quorum (Ganapuraka):** No official transaction or disciplinary action could take place unless a minimum number of monks (quorum) was present.\n- **Self-Correction (Uposatha and Pavarana):** Fortnightly assemblies (*Uposatha*) were held where monks publicly confessed transgressions of the *Patimokkha* (monastic code) to maintain purity and integrity.\n\nThus, the Sangha was one of the earliest examples of democratic governance in religious history, emphasizing collective consensus and transparency."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. विनय पिटक में वर्णित बौद्ध संघ के संगठनात्मक ढांचे और लोकतांत्रिक सिद्धांतों को स्पष्ट कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "विनय पिटक में वर्णित बौद्ध संघ के संगठनात्मक ढांचे और लोकतांत्रिक सिद्धांतों को स्पष्ट कीजिए।\n\n### बौद्ध संघ के प्रमुख लोकतांत्रिक सिद्धांत\n- **समानता:** संघ में प्रवेश के साथ ही जाति, वर्ग और पारिवारिक पहचान छोड़नी पड़ती थी। सभी भिक्षु समान थे, और निर्णय किसी एक व्यक्ति के बजाय सामूहिक निकाय द्वारा लिए जाते थे।\n- **आम सहमति (ज्ञप्ति):** किसी भी प्रस्ताव (ज्ञप्ति) को सभा के समक्ष रखा जाता था। यदि सदस्य मौन रहते थे, तो प्रस्ताव पारित माना जाता था। मतभेद होने पर मतदान कराया जाता था।\n- **मतदान प्रणाली (शलाका):** बहुमत से निर्णय लेने के लिए रंगीन लकड़ी की शलाकाओं (शलाका) का उपयोग किया जाता था। निष्पक्षता के लिए 'शलाका-ग्राहक' नामक अधिकारी मतों का वितरण और गणना करता था।\n- **कोरम (गणपूरक):** संघ की आधिकारिक कार्यवाही या अनुशासनात्मक बैठक के लिए भिक्षुओं की एक न्यूनतम संख्या (गणपूरक) का उपस्थित होना अनिवार्य था।\n- **आत्म-सुधार (उपोसथ और प्रवारणा):** प्रत्येक पाक्षिक (पंद्रह दिन) पर 'उपोसथ' सभा होती थी, जहाँ भिक्षु प्रातिमोक्ष नियमों के उल्लंघन की सार्वजनिक रूप से स्वीकारोक्ति (स्वीकार करना) करते थे।\n\nइस प्रकार, बौद्ध संघ धार्मिक इतिहास में लोकतांत्रिक शासन प्रणाली का एक प्रारंभिक और उत्कृष्ट उदाहरण था, जो सामूहिक सहमति और पारदर्शिता पर बल देता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the impact of Buddhist philosophy and teachings on the development of Indian art and architecture. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Buddhism exerted a transformative influence on Indian art and architecture, shifting the medium from perishable wood and clay to permanent stone. Its philosophical focus on devotion, relics, and monastic life created new architectural forms:\n\n### 1. Architectural Developments\n- **Stupas:** Originally simple burial mounds, they evolved into elaborate cosmic symbols containing relics of Buddha (e.g., Sanchi Stupa, Sarnath Dhamek Stupa). The stone railings and gateways (*Toranas*) depict Jataka stories.\n- **Chaityas (Prayer Halls):** Rock-cut congregation halls for meditation and worship, featuring vaulted ceilings and a stupa at the end (e.g., Karle, Bhaja, and Ajanta Chaityas).\n- **Viharas (Monasteries):** Residential cells for monks built around central courtyards, which eventually transformed into great monastic universities like Nalanda and Vikramashila.\n\n### 2. Schools of Sculpture and Painting\n- **Gandhara and Mathura Schools:** Facilitated by Mahayana philosophy, these schools created the first human images of Buddha, blending Hellenistic styles (Gandhara) with indigenous styles (Mathura).\n- **Mural Paintings:** The walls of Ajanta and Bagh caves showcase delicate murals illustrating scenes from the life of Buddha and Jataka tales, reflecting deep compassion and aesthetic mastery."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भारतीय कला और वास्तुकला के विकास पर बौद्ध दर्शन और शिक्षाओं के प्रभाव का मूल्यांकन कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "बौद्ध धर्म ने भारतीय कला और वास्तुकला को गहराई से प्रभावित किया, जिससे निर्माण सामग्री लकड़ी और मिट्टी के स्थान पर स्थायी पत्थरों में बदल गई। इसके दार्शनिक विचारों, भक्ति और भिक्षु जीवन ने नई स्थापत्य शैलियों को जन्म दिया:\n\n### 1. स्थापत्य कला का विकास\n- **स्तूप:** मूलतः शवदाह के टीले के रूप में शुरू हुए स्तूप बुद्ध के अवशेषों को संजोने वाले ब्रह्मांडीय प्रतीक बन गए (जैसे सांची स्तूप, सारनाथ का धमेख स्तूप)। इनके प्रवेश द्वारों (तोरण) पर जातक कथाओं का अंकन है।\n- **चैत्य (प्रार्थना कक्ष):** ये ध्यान और सामूहिक प्रार्थना के लिए पहाड़ों को काटकर बनाए गए कक्ष थे, जिनमें अंत में एक स्तूप स्थापित होता था (जैसे कार्ले, भाजा और अजंता के चैत्य)।\n- **विहार (मठ):** भिक्षुओं के रहने के लिए केंद्रीय आंगन के चारों ओर बनाए गए कमरे थे, जो कालान्तर में नालंदा और विक्रमशिला जैसे महान विश्वविद्यालय बने।\n\n### 2. मूर्तिकला और चित्रकला की शैलियाँ\n- **गांधार और मथुरा कला:** महायान दर्शन के प्रभाव से इन शैलियों में पहली बार बुद्ध की मानवीय मूर्तियाँ बनाई गईं, जहाँ यूनानी शैली (गांधार) और स्वदेशी शैली (मथुरा) का सुंदर संगम दिखता है।\n- **भित्ति चित्रकला:** अजंता और बाघ की गुफाओं की दीवारों पर बुद्ध के जीवन और जातक कथाओं को दर्शाने वाले भित्ति चित्र बौद्ध दर्शन की करुणा और उच्च सौंदर्यबोध को प्रदर्शित करते हैं।"
+    }
+  ]
+}

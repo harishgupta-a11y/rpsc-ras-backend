@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q1. Which of the following schools of Indian philosophy is traditionally considered the oldest and is founded by Sage Kapila?",
+      "option_a": "Nyaya",
+      "option_b": "Vaisheshika",
+      "option_c": "Samkhya",
+      "option_d": "Yoga",
+      "correct": "C",
+      "explanation": "Correct option: C. Samkhya is traditionally considered the oldest of the orthodox (Astika) schools of Indian philosophy and is founded by Sage Kapila."
+    },
+    {
+      "lang": "HI",
+      "text": "Q1. भारतीय दर्शन के निम्नलिखित में से किस संप्रदाय को पारंपरिक रूप से सबसे प्राचीन माना जाता है और इसके संस्थापक महर्षि कपिल हैं?",
+      "option_a": "न्याय",
+      "option_b": "वैशेषिक",
+      "option_c": "सांख्य",
+      "option_d": "योग",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सांख्य दर्शन को पारंपरिक रूप से भारतीय दर्शन के आस्तिक संप्रदायों में सबसे प्राचीन माना जाता है और इसके प्रवर्तक महर्षि कपिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q2. How many distinct categories (Padarthas) are accepted in the classical Vaisheshika school of philosophy?",
+      "option_a": "Five",
+      "option_b": "Six",
+      "option_c": "Seven",
+      "option_d": "Eight",
+      "correct": "C",
+      "explanation": "Correct option: C. The classical Vaisheshika school (formulated by Kanada) originally identified six categories, but later thinkers added 'Abhava' (non-existence) to make a total of seven Padarthas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q2. शास्त्रीय वैशेषिक दर्शन संप्रदाय में कितने विशिष्ट पदार्थों (श्रेणियों) को स्वीकार किया गया है?",
+      "option_a": "पाँच",
+      "option_b": "छह",
+      "option_c": "सात",
+      "option_d": "आठ",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. महर्षि कणाद द्वारा संस्थापित शास्त्रीय वैशेषिक संप्रदाय में मूल रूप से छह पदार्थों की पहचान की गई थी, परंतु बाद के विचारकों ने 'अभाव' को जोड़कर कुल सात पदार्थ स्वीकार किए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q3. The doctrine of 'Satkaryavada' (the effect pre-exists in the cause) is a foundational theory of which philosophical school?",
+      "option_a": "Nyaya",
+      "option_b": "Samkhya",
+      "option_c": "Vaisheshika",
+      "option_d": "Purva Mimamsa",
+      "correct": "B",
+      "explanation": "Correct option: B. Satkaryavada is the theory of causation held by the Samkhya and Yoga schools, asserting that the effect (karya) is already latent in its material cause (karana)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q3. 'सत्कार्यवाद' (कार्य अपनी उत्पत्ति से पूर्व कारण में विद्यमान रहता है) का सिद्धांत किस दर्शन संप्रदाय का आधारभूत सिद्धांत है?",
+      "option_a": "न्याय",
+      "option_b": "सांख्य",
+      "option_c": "वैशेषिक",
+      "option_d": "पूर्व मीमांसा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सत्कार्यवाद सांख्य और योग संप्रदाय का कारण-कार्य सिद्धांत है, जिसके अनुसार कार्य (कार्य) अपनी उत्पत्ति से पहले ही अपने उपादान कारण (कारण) में सूक्ष्म रूप से विद्यमान रहता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q4. Who is the author of the 'Brahma Sutras', which forms the foundational text of the Vedanta school?",
+      "option_a": "Jaimini",
+      "option_b": "Badarayana",
+      "option_c": "Shankaracharya",
+      "option_d": "Gautama",
+      "correct": "B",
+      "explanation": "Correct option: B. The Brahma Sutras (also known as Vedānta Sutras) were composed by Sage Badarayana, systematizing the teachings of the Upanishads."
+    },
+    {
+      "lang": "HI",
+      "text": "Q4. 'ब्रह्म सूत्र' के रचयिता कौन हैं, जो वेदांत संप्रदाय का आधारभूत ग्रंथ है?",
+      "option_a": "जैमिनी",
+      "option_b": "बादरायण",
+      "option_c": "शंकराचार्य",
+      "option_d": "गौतम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. ब्रह्म सूत्र (जिसे वेदांत सूत्र भी कहा जाता है) की रचना महर्षि बादरायण द्वारा की गई थी, जिसमें उपनिषदों की शिक्षाओं को व्यवस्थित किया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q5. The Nyaya school of philosophy recognizes how many valid sources of knowledge (Pramanas)?",
+      "option_a": "Two",
+      "option_b": "Three",
+      "option_c": "Four",
+      "option_d": "Six",
+      "correct": "C",
+      "explanation": "Correct option: C. The Nyaya school, founded by Gautama, recognizes four valid Pramanas: Pratyaksha (perception), Anumana (inference), Upamana (comparison), and Shabda (verbal testimony)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q5. न्याय दर्शन संप्रदाय ज्ञान के कितने वैध स्रोतों (प्रमाणों) को स्वीकार करता है?",
+      "option_a": "दो",
+      "option_b": "तीन",
+      "option_c": "चार",
+      "option_d": "छह",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. महर्षि गौतम द्वारा स्थापित न्याय संप्रदाय चार वैध प्रमाणों को स्वीकार करता है: प्रत्यक्ष, अनुमान, उपमान और शब्द।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q6. In Samkhya philosophy, the cosmic evolution is triggered by the proximity of Purusha to Prakriti. Which of the following represents the first evolute of Prakriti?",
+      "option_a": "Ahamkara (Ego)",
+      "option_b": "Manas (Mind)",
+      "option_c": "Mahat (Intellect)",
+      "option_d": "Tanmatras (Subtle elements)",
+      "correct": "C",
+      "explanation": "Correct option: C. In the cosmic evolution process of Samkhya, Mahat (also called Buddhi or Intellect) is the first product to emerge from the unmanifest Prakriti."
+    },
+    {
+      "lang": "HI",
+      "text": "Q6. सांख्य दर्शन में, पुरुष और प्रकृति के सामीप्य से ब्रह्मांडीय विकास प्रारंभ होता है। निम्नलिखित में से कौन प्रकृति का पहला विकार (उत्पाद) है?",
+      "option_a": "अहंकार",
+      "option_b": "मन",
+      "option_c": "महत् (बुद्धि)",
+      "option_d": "तन्मात्राएँ",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सांख्य दर्शन की विकासवादी प्रक्रिया में, अव्यक्त प्रकृति से उत्पन्न होने वाला पहला उत्पाद महत् (जिसे बुद्धि भी कहा जाता है) है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q7. According to the Purva Mimamsa school, the primary purpose of the Vedas is to direct human beings toward which of the following?",
+      "option_a": "Jnana (Liberating Knowledge)",
+      "option_b": "Dharma (Ritual Action and Duty)",
+      "option_c": "Bhakti (Devotion to a Personal Deity)",
+      "option_d": "Yoga (Mental Cessation)",
+      "correct": "B",
+      "explanation": "Correct option: B. Purva Mimamsa, founded by Jaimini, focuses on the ritualistic section (Karma-kanda) of the Vedas and identifies Dharma as the performance of Vedic rituals and duties."
+    },
+    {
+      "lang": "HI",
+      "text": "Q7. पूर्व मीमांसा संप्रदाय के अनुसार, वेदों का मुख्य उद्देश्य मनुष्यों को निम्नलिखित में से किसके प्रति निर्देशित करना है?",
+      "option_a": "ज्ञान",
+      "option_b": "धर्म (अनुष्ठानिक कर्म और कर्तव्य)",
+      "option_c": "भक्ति",
+      "option_d": "योग",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. महर्षि जैमिनी द्वारा स्थापित पूर्व मीमांसा वेदों के कर्मकांडीय भाग पर ध्यान केंद्रित करता है और धर्म को वैदिक यज्ञों तथा कर्तव्यों के संपादन के रूप में परिभाषित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q8. The Vaisheshika school is famous for its atomistic theory of the universe. What term is used to denote the indivisible atom in this system?",
+      "option_a": "Anu",
+      "option_b": "Paramanu",
+      "option_c": "Tanmatra",
+      "option_d": "Mahabhuta",
+      "correct": "B",
+      "explanation": "Correct option: B. In Vaisheshika, the fundamental, indivisible, and eternal constituent of the material world is called Paramanu (atom)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q8. वैशेषिक संप्रदाय ब्रह्मांड के परमाणुवादी सिद्धांत के लिए प्रसिद्ध है। इस दर्शन में अविभाज्य परमाणु को दर्शाने के लिए किस शब्द का प्रयोग किया जाता है?",
+      "option_a": "अणु",
+      "option_b": "परमाणु",
+      "option_c": "तन्मात्रा",
+      "option_d": "महाभूत",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. वैशेषिक दर्शन में, भौतिक जगत के मूलभूत, अविभाज्य और नित्य घटक को परमाणु कहा जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q9. In the context of Patanjali's Yoga Sutras, what is the meaning of 'Chitta-vritti-nirodha'?",
+      "option_a": "Unification of soul and God",
+      "option_b": "Cessation of the fluctuations of the mind-stuff",
+      "option_c": "Awakening of the kundalini energy",
+      "option_d": "Physical purification through postures",
+      "correct": "B",
+      "explanation": "Correct option: B. Patanjali defines Yoga as 'Chitta-vritti-nirodha', which translates to the restriction or cessation (nirodha) of the modifications/fluctuations (vrittis) of the mind-stuff (chitta)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q9. पतंजलि के योग सूत्र के संदर्भ में, 'चित्त-वृत्ति-निरोध' का क्या अर्थ है?",
+      "option_a": "आत्मा और ईश्वर का एकीकरण",
+      "option_b": "चित्त की वृत्तियों (उतार-चढ़ाव) का नियंत्रण या निरोध",
+      "option_c": "कुण्डलिनी ऊर्जा का जागरण",
+      "option_d": "आसनों के माध्यम से शारीरिक शुद्धि",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. महर्षि पतंजलि योग को 'चित्त-वृत्ति-निरोधः' के रूप में परिभाषित करते हैं, जिसका अर्थ है चित्त (मन-बुद्धि-अहंकार) की वृत्तियों (संशोधनों या तरंगों) का पूर्ण निरोध।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q10. The concept of 'Apurva'—the unseen metaphysical link between a ritual performed and its future result—is a key doctrine of which school?",
+      "option_a": "Yoga",
+      "option_b": "Nyaya",
+      "option_c": "Purva Mimamsa",
+      "option_d": "Uttara Mimamsa",
+      "correct": "C",
+      "explanation": "Correct option: C. The Purva Mimamsa school introduces the concept of Apurva (unseen potency) to explain how a Vedic ritual performed today can produce results (like heaven) in the distant future."
+    },
+    {
+      "lang": "HI",
+      "text": "Q10. 'अपूर्व' की अवधारणा—अर्थात संपादित यज्ञ (अनुष्ठान) और उसके भविष्य के फल के बीच का अदृश्य आध्यात्मिक संबंध—किस संप्रदाय का एक प्रमुख सिद्धांत है?",
+      "option_a": "योग",
+      "option_b": "न्याय",
+      "option_c": "पूर्व मीमांसा",
+      "option_d": "उत्तर मीमांसा",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. पूर्व मीमांसा संप्रदाय 'अपूर्व' (अदृश्य शक्ति) की अवधारणा प्रस्तुत करता है, यह समझाने के लिए कि आज किया गया वैदिक यज्ञ भविष्य में मिलने वाले फल (जैसे स्वर्ग) को कैसे उत्पन्न करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q11. Which school of Shad-Darshana forms the logical basis and methodology used by almost all other schools of Indian philosophy?",
+      "option_a": "Samkhya",
+      "option_b": "Vaisheshika",
+      "option_c": "Nyaya",
+      "option_d": "Vedanta",
+      "correct": "C",
+      "explanation": "Correct option: C. The Nyaya school, with its focus on logic, epistemology, and reasoning, provided the common terminology and argumentative methodology used by all other philosophical systems."
+    },
+    {
+      "lang": "HI",
+      "text": "Q11. षड-दर्शन का कौन सा संप्रदाय भारतीय दर्शन के लगभग सभी अन्य संप्रदायों द्वारा उपयोग किए जाने वाले तार्किक आधार और पद्धति का निर्माण करता है?",
+      "option_a": "सांख्य",
+      "option_b": "वैशेषिक",
+      "option_c": "न्याय",
+      "option_d": "वेदांत",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. न्याय संप्रदाय ने अपने तर्कशास्त्र, ज्ञानमीमांसा और विवेचन पर ध्यान केंद्रित करके वह सामान्य शब्दावली और तर्क पद्धति प्रदान की जिसका उपयोग अन्य सभी दर्शन प्रणालियों ने किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q12. What are the three Gunas (qualities) whose equilibrium constitutes the unmanifest state of Prakriti in Samkhya?",
+      "option_a": "Prana, Apana, Vyana",
+      "option_b": "Sattva, Rajas, Tamas",
+      "option_c": "Akasha, Vayu, Agni",
+      "option_d": "Dharma, Artha, Kama",
+      "correct": "B",
+      "explanation": "Correct option: B. According to Samkhya, Prakriti is composed of three Gunas: Sattva (purity/light), Rajas (activity/passion), and Tamas (inertia/darkness). In their balanced state, Prakriti is unmanifest."
+    },
+    {
+      "lang": "HI",
+      "text": "Q12. वे तीन गुण कौन से हैं, जिनकी साम्यावस्था सांख्य दर्शन में प्रकृति की अव्यक्त स्थिति का निर्माण करती है?",
+      "option_a": "प्राण, अपान, व्यान",
+      "option_b": "सत्त्व, रजस्, तमस्",
+      "option_c": "आकाश, वायु, अग्नि",
+      "option_d": "धर्म, अर्थ, काम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सांख्य के अनुसार, प्रकृति तीन गुणों से बनी है: सत्त्व (प्रकाश/ज्ञान), रजस् (गति/राग) और तमस् (अज्ञान/जड़ता)। इनकी संतुलन की अवस्था में प्रकृति अव्यक्त रहती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q13. In the Nyaya syllogism, what is the term used for the middle term or the reason/sign (e.g., presence of smoke)?",
+      "option_a": "Pratijna",
+      "option_b": "Hetu",
+      "option_c": "Udaharana",
+      "option_d": "Upanaya",
+      "correct": "B",
+      "explanation": "Correct option: B. In the five-membered Nyaya syllogism, 'Hetu' is the middle term or reason (the presence of smoke on the hill) which links the subject (paksha) to the major term (sadhya)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q13. न्याय वाक्य (समीकरण) में, मध्य पद या कारण/चिह्न (जैसे, धुएँ की उपस्थिति) के लिए किस शब्द का प्रयोग किया जाता है?",
+      "option_a": "प्रतिज्ञा",
+      "option_b": "हेतु",
+      "option_c": "उदाहरणा",
+      "option_d": "उपनय",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. न्याय के पंच-अवयव वाक्य में, 'हेतु' मध्य पद या कारण होता है जो पक्ष (पर्वत) को साध्य (अग्नि) से जोड़ता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q14. The philosophy of 'Advaita Vedanta' was systematically established and popularized by which philosopher?",
+      "option_a": "Ramanujacharya",
+      "option_b": "Madhvacharya",
+      "option_c": "Adi Shankaracharya",
+      "option_d": "Nimbarkacharya",
+      "correct": "C",
+      "explanation": "Correct option: C. Adi Shankaracharya formulated the non-dualistic school of Advaita Vedanta, emphasizing the absolute identity of Atman and Brahman."
+    },
+    {
+      "lang": "HI",
+      "text": "Q14. 'अद्वैत वेदांत' दर्शन को व्यवस्थित रूप से स्थापित और लोकप्रिय बनाने का श्रेय किस दार्शनिक को दिया जाता है?",
+      "option_a": "रामानुजाचार्य",
+      "option_b": "मध्वाचार्य",
+      "option_c": "आदि शंकराचार्य",
+      "option_d": "निम्बार्काचार्य",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. आदि शंकराचार्य ने अद्वैत वेदांत (अद्वैतवाद) संप्रदाय का प्रतिपादन किया, जिसमें आत्मा और ब्रह्म की पूर्ण एकता पर बल दिया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q15. The 'Prasthanatrayi' represents the three foundational sources of Vedanta. Which of the following is NOT a part of the Prasthanatrayi?",
+      "option_a": "Upanishads",
+      "option_b": "Bhagavad Gita",
+      "option_c": "Brahma Sutras",
+      "option_d": "Rigveda Samhita",
+      "correct": "D",
+      "explanation": "Correct option: D. The Prasthanatrayi consists of the Upanishads (Sruti-prasthana), Bhagavad Gita (Smriti-prasthana), and Brahma Sutras (Nyaya-prasthana). The Rigveda Samhita is not one of them."
+    },
+    {
+      "lang": "HI",
+      "text": "Q15. 'प्रस्थानत्रयी' वेदांत के तीन बुनियादी स्रोतों का प्रतिनिधित्व करती है। निम्नलिखित में से कौन प्रस्थानत्रयी का हिस्सा नहीं है?",
+      "option_a": "उपनिषद",
+      "option_b": "भगवद गीता",
+      "option_c": "ब्रह्म सूत्र",
+      "option_d": "ऋग्वेद संहिता",
+      "correct": "D",
+      "explanation": "सही विकल्प: D. प्रस्थानत्रयी में उपनिषद (श्रुति प्रस्थान), भगवद गीता (स्मृति प्रस्थान) और ब्रह्म सूत्र (न्याय प्रस्थान) शामिल हैं। ऋग्वेद संहिता इसमें शामिल नहीं है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q16. The concept of 'Asatkaryavada' (the effect does not pre-exist in its cause, but is a new creation) is held by which school?",
+      "option_a": "Samkhya",
+      "option_b": "Nyaya",
+      "option_c": "Yoga",
+      "option_d": "Advaita Vedanta",
+      "correct": "B",
+      "explanation": "Correct option: B. The Nyaya-Vaisheshika schools hold Asatkaryavada (also known as Arambhavada), which states that the effect is a completely new beginning and does not pre-exist in the cause."
+    },
+    {
+      "lang": "HI",
+      "text": "Q16. 'असत्कार्यवाद' (कार्य अपनी उत्पत्ति से पूर्व कारण में विद्यमान नहीं रहता है, बल्कि एक नई रचना है) की अवधारणा किस संप्रदाय द्वारा मानी जाती है?",
+      "option_a": "सांख्य",
+      "option_b": "न्याय",
+      "option_c": "योग",
+      "option_d": "अद्वैत वेदांत",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. न्याय-वैशेषिक संप्रदाय असत्कार्यवाद (जिसे आरंभवाद भी कहा जाता है) को मानते हैं, जिसके अनुसार कार्य सर्वथा नवीन सृष्टि है और कारण में पहले से मौजूद नहीं होता।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q17. Which school of Shad-Darshana emphasizes the practice of 'Pranayama' (breath control) as a means of steadying the mind?",
+      "option_a": "Samkhya",
+      "option_b": "Yoga",
+      "option_c": "Nyaya",
+      "option_d": "Vaisheshika",
+      "correct": "B",
+      "explanation": "Correct option: B. The Yoga school of Patanjali outlines Pranayama as the fourth limb of Ashtanga Yoga, aimed at regulating prana (life force) to steady the mind."
+    },
+    {
+      "lang": "HI",
+      "text": "Q17. षड-दर्शन का कौन सा संप्रदाय मन को स्थिर करने के साधन के रूप में 'प्राणायाम' (श्वास नियंत्रण) के अभ्यास पर बल देता है?",
+      "option_a": "सांख्य",
+      "option_b": "योग",
+      "option_c": "न्याय",
+      "option_d": "वैशेषिक",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. पतंजलि का योग संप्रदाय अष्टांग योग के चौथे अंग के रूप में प्राणायाम का वर्णन करता है, जिसका उद्देश्य मन को स्थिर करने के लिए प्राण (जीवन शक्ति) को नियंत्रित करना है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q18. According to Samkhya, 'Purusha' is characterized by which of the following?",
+      "option_a": "Active and changing",
+      "option_b": "Active and changeless",
+      "option_c": "Passive and changing",
+      "option_d": "Passive and changeless consciousness",
+      "correct": "D",
+      "explanation": "Correct option: D. In Samkhya, Purusha is described as pure, eternal consciousness that is inactive (passive), immutable (changeless), and distinct from the material Prakriti."
+    },
+    {
+      "lang": "HI",
+      "text": "Q18. सांख्य दर्शन के अनुसार, 'पुरुष' को निम्नलिखित में से किसके द्वारा वर्णित किया गया है?",
+      "option_a": "सक्रिय और परिवर्तनशील",
+      "option_b": "सक्रिय और अपरिवर्तनीय",
+      "option_c": "निष्क्रिय और परिवर्तनशील",
+      "option_d": "निष्क्रिय और अपरिवर्तनीय चैतन्य",
+      "correct": "D",
+      "explanation": "सही विकल्प: D. सांख्य दर्शन में, पुरुष को शुद्ध, नित्य चैतन्य माना गया है जो अकर्ता (निष्क्रिय), कूटस्थ (अपरिवर्तनीय) और भौतिक प्रकृति से सर्वथा भिन्न है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q19. Which school of Indian philosophy is also known as 'Aulikya Darshana' or 'Kana-bhashya'?",
+      "option_a": "Nyaya",
+      "option_b": "Vaisheshika",
+      "option_c": "Mimamsa",
+      "option_d": "Samkhya",
+      "correct": "B",
+      "explanation": "Correct option: B. The Vaisheshika school is also popularly referred to as Aulikya Darshana or Kanada Darshana after its founder Sage Kanada (also called Uluka)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q19. भारतीय दर्शन के किस संप्रदाय को 'औलूक्य दर्शन' या 'कणाद दर्शन' भी कहा जाता है?",
+      "option_a": "न्याय",
+      "option_b": "वैशेषिक",
+      "option_c": "मीमांसा",
+      "option_d": "सांख्य",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. वैशेषिक संप्रदाय को इसके संस्थापक महर्षि कणाद (जिन्हें उलूक भी कहा जाता था) के नाम पर औलूक्य दर्शन भी कहा जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q20. In Nyaya epistemology, what is 'Upamana' defined as?",
+      "option_a": "Inference based on reasoning",
+      "option_b": "Verbal testimony of a trustworthy person",
+      "option_c": "Knowledge derived through analogy or comparison",
+      "option_d": "Direct sensory perception",
+      "correct": "C",
+      "explanation": "Correct option: C. Upamana is the third Pramana in Nyaya and is defined as the source of knowledge through comparison, analogy, or similarity (e.g., identifying a wild cow based on its resemblance to a domestic cow)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q20. न्याय ज्ञानमीमांसा में, 'उपमान' को किस रूप में परिभाषित किया गया है?",
+      "option_a": "तर्क पर आधारित अनुमान",
+      "option_b": "किसी विश्वसनीय व्यक्ति का शब्द प्रमाण",
+      "option_c": "सादृश्य या तुलना के माध्यम से प्राप्त ज्ञान",
+      "option_d": "प्रत्यक्ष इंद्रियजन्य बोध",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. न्याय दर्शन में उपमान तीसरा प्रमाण है और इसे सादृश्य, तुलना या समानता के माध्यम से प्राप्त ज्ञान के रूप में परिभाषित किया गया है (जैसे पालतू गाय के सादृश्य से नीलगाय की पहचान करना)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q21. The metaphysical view that the world is 'Vivarta' (an illusory appearance or superimposition on Brahman) is held by which sub-school of Vedanta?",
+      "option_a": "Vishishtadvaita",
+      "option_b": "Advaita",
+      "option_c": "Dvaita",
+      "option_d": "Shuddhadvaita",
+      "correct": "B",
+      "explanation": "Correct option: B. Advaita Vedanta holds Vivartavada (theory of apparent transformation), which states that the world is only an illusory appearance of Brahman, not a real modification."
+    },
+    {
+      "lang": "HI",
+      "text": "Q21. यह आध्यात्मिक दृष्टिकोण कि जगत 'विवर्त' (ब्रह्म पर एक आभासी प्रतीति या अध्यास) है, वेदांत के किस उप-संप्रदाय द्वारा माना जाता है?",
+      "option_a": "विशिष्टाद्वैत",
+      "option_b": "अद्वैत",
+      "option_c": "द्वैत",
+      "option_d": "शुद्धाद्वैत",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. अद्वैत वेदांत विवर्तवाद (आभासी रूप परिवर्तन का सिद्धांत) को स्वीकार करता है, जिसके अनुसार जगत ब्रह्म का केवल एक आभासी रूप है, न कि उसका वास्तविक रूपांतरण।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q22. The Vishishtadvaita (qualified non-dualism) school was propounded by which philosopher?",
+      "option_a": "Madhavacharya",
+      "option_b": "Ramanujacharya",
+      "option_c": "Vallabhacharya",
+      "option_d": "Nimbarkacharya",
+      "correct": "B",
+      "explanation": "Correct option: B. Ramanujacharya propounded Vishishtadvaita Vedanta, which posits that Brahman is qualified by the individual souls (Cit) and matter (Acit)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q22. विशिष्टाद्वैत (सविशेष अद्वैतवाद) संप्रदाय का प्रतिपादन किस दार्शनिक ने किया था?",
+      "option_a": "माधवाचार्य",
+      "option_b": "रामानुजाचार्य",
+      "option_c": "वल्लभाचार्य",
+      "option_d": "निम्बार्काचार्य",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. रामानुजाचार्य ने विशिष्टाद्वैत वेदांत का प्रतिपादन किया, जिसमें माना गया है कि ब्रह्म चित् (जीव) और अचित् (जगत) से विशिष्ट (युक्त) है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q23. In the Vaisheshika system, which category represents 'inherence' or the eternal, inseparable relation between a substance and its qualities?",
+      "option_a": "Samanya",
+      "option_b": "Vishesha",
+      "option_c": "Samavaya",
+      "option_d": "Samyoga",
+      "correct": "C",
+      "explanation": "Correct option: C. Samavaya is the inseparable and eternal relation (inherence) that exists between things that cannot be separated, such as a substance and its qualities (e.g., cloth and its color)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q23. वैशेषिक प्रणाली में, कौन सा पदार्थ 'समवाय' या किसी द्रव्य और उसके गुणों के बीच के नित्य, अविभाज्य संबंध को दर्शाता है?",
+      "option_a": "सामान्य",
+      "option_b": "विशेष",
+      "option_c": "समवाय",
+      "option_d": "संयोग",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. समवाय वह अविभाज्य और नित्य संबंध है जो उन वस्तुओं के बीच होता है जिन्हें अलग नहीं किया जा सकता, जैसे द्रव्य और उसके गुण (जैसे कपड़ा और उसका रंग)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q24. The epistemology of the Prabhakara school of Mimamsa accepts how many Pramanas (valid sources of knowledge)?",
+      "option_a": "Three",
+      "option_b": "Five",
+      "option_c": "Six",
+      "option_d": "Four",
+      "correct": "B",
+      "explanation": "Correct option: B. The Prabhakara school of Purva Mimamsa recognizes five Pramanas: Perception, Inference, Comparison, Verbal Testimony, and Postulation (Arthapatti)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q24. मीमांसा के प्रभाकर संप्रदाय की ज्ञानमीमांसा कितने प्रमाणों (ज्ञान के वैध स्रोतों) को स्वीकार करती है?",
+      "option_a": "तीन",
+      "option_b": "पाँच",
+      "option_c": "छह",
+      "option_d": "चार",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. पूर्व मीमांसा का प्रभाकर संप्रदाय पाँच प्रमाणों को स्वीकार करता है: प्रत्यक्ष, अनुमान, उपमान, शब्द और अर्थापत्ति।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q25. Which school of Shad-Darshana does NOT explicitly require the concept of a personal creator God (Ishvara) for cosmic creation and instead focuses on karma and cosmic laws?",
+      "option_a": "Yoga",
+      "option_b": "Classical Samkhya",
+      "option_c": "Vedanta",
+      "option_d": "Nyaya",
+      "correct": "B",
+      "explanation": "Correct option: B. Classical Samkhya (Nirishvara Samkhya) is non-theistic, explaining the creation of the cosmos purely through the interplay of Prakriti and Purusha, without invoking a creator God."
+    },
+    {
+      "lang": "HI",
+      "text": "Q25. षड-दर्शन का कौन सा संप्रदाय ब्रह्मांड की रचना के लिए स्पष्ट रूप से किसी व्यक्तिगत स्रष्टा ईश्वर (ईश्वर) की अवधारणा को आवश्यक नहीं मानता है और इसके स्थान पर कर्म और ब्रह्मांडीय नियमों पर ध्यान केंद्रित करता है?",
+      "option_a": "योग",
+      "option_b": "शास्त्रीय सांख्य",
+      "option_c": "वेदांत",
+      "option_d": "न्याय",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. शास्त्रीय सांख्य (निरीश्वर सांख्य) अनीश्वरवादी है, जो सृष्टि की व्याख्या ईश्वर की कल्पना के बिना केवल प्रकृति और पुरुष के पारस्परिक अंतर्संबंध से करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Samkhya school of philosophy is considered dualistic.\nReason (R): It posits two ultimate, independent, and eternal realities: Purusha (consciousness) and Prakriti (matter).",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because Samkhya is fundamentally dualistic in its metaphysics. Reason Analysis: Reason (R) is true and correctly explains A because this dualism is defined by the existence of two distinct, ultimate realities—Purusha (soul/consciousness) and Prakriti (nature/matter). The link '[Assertion] BECAUSE [Reason]' is logically and historically sound."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): सांख्य दर्शन संप्रदाय को द्वैतवादी माना जाता है।\nकारण (R): यह दो अंतिम, स्वतंत्र और नित्य सत्ताओं को स्वीकार करता है: पुरुष (चेतना) और प्रकृति (जड़ पदार्थ)।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सही है क्योंकि सांख्य अपने तत्वमीमांसा में मूल रूप से द्वैतवादी है। कारण विश्लेषण: कारण (R) सही है और A की सही व्याख्या करता है क्योंकि यह द्वैतवाद दो विशिष्ट, अंतिम सत्ताओं—पुरुष (चेतना) और प्रकृति (पदार्थ)—की उपस्थिति से परिभाषित होता है। '[अभिकथन] क्योंकि [कारण]' का संबंध तार्किक और ऐतिहासिक रूप से सुदृढ़ है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Nyaya philosophy is called a realistic school.\nReason (R): It maintains that the objects of the external world exist independently of our minds and thoughts.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because Nyaya is epistemologically and metaphysically realistic. Reason Analysis: Reason (R) is true and explains A because realism is precisely the philosophical stance that external objects exist independently of our perception or cognition. Thus, '[Assertion] BECAUSE [Reason]' is valid."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): न्याय दर्शन को एक यथार्थवादी (realistic) संप्रदाय कहा जाता है।\nकारण (R): इसका मानना है कि बाहरी दुनिया की वस्तुएं हमारे मन और विचारों से स्वतंत्र रूप से अस्तित्व में हैं।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि न्याय ज्ञानमीमांसा और तत्वमीमांसा दोनों में यथार्थवादी है। कारण विश्लेषण: कारण (R) सत्य है और A की व्याख्या करता है क्योंकि यथार्थवाद वही दार्शनिक दृष्टिकोण है जो यह मानता है कि बाह्य वस्तुएं हमारी धारणा या संज्ञान से स्वतंत्र हैं। '[अभिकथन] क्योंकि [कारण]' का संबंध पूर्णतः वैध है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Shankara's Advaita Vedanta posits that the world is a complete void (Shunya).\nReason (R): The world has no independent existence apart from Brahman, which is the only ultimate truth.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "D",
+      "explanation": "Assertion Analysis: Assertion (A) is false. Shankara's Advaita Vedanta does not consider the world as a complete void (Shunya), which is a Madhyamaka Buddhist view; instead, it assigns Vyavaharika Satta (empirical reality) to the world. Reason Analysis: Reason (R) is true because according to Advaita, the world has no independent existence (Paramarthika Satta) apart from Brahman."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): शंकर का अद्वैत वेदांत यह मानता है कि जगत पूर्ण शून्य (Shunya) है।\nकारण (R): ब्रह्म के अलावा जगत का कोई स्वतंत्र अस्तित्व नहीं है, जो एकमात्र परम सत्य है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "D",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) असत्य है। शंकर का अद्वैत वेदांत जगत को पूर्ण शून्य (शून्य) नहीं मानता, जो कि माध्यमिक बौद्ध दृष्टिकोण है; बल्कि वे जगत को व्यावहारिक सत्ता प्रदान करते हैं। कारण विश्लेषण: कारण (R) सत्य है क्योंकि अद्वैत के अनुसार, ब्रह्म के अतिरिक्त जगत की कोई स्वतंत्र परम सत्ता (पारमार्थिक सत्ता) नहीं है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Yoga school is often referred to as 'Seshvara Samkhya'.\nReason (R): Yoga accepts the entire theoretical framework of Samkhya but adds the concept of a personal deity or God (Ishvara).",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because Yoga is known as 'Seshvara Samkhya' (Samkhya with God). Reason Analysis: Reason (R) is true and explains A because Yoga adopts Samkhya cosmology and metaphysics but explicitly introduces Ishvara as a special Purusha to aid in concentration and liberation. The link '[Assertion] BECAUSE [Reason]' is logically valid."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): योग संप्रदाय को अक्सर 'सेश्वर सांख्य' कहा जाता है।\nकारण (R): योग सांख्य के संपूर्ण सैद्धांतिक ढांचे को स्वीकार करता है, लेकिन इसमें एक व्यक्तिगत ईश्वर (ईश्वर) की अवधारणा को जोड़ देता है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि योग को 'सेश्वर सांख्य' (ईश्वर सहित सांख्य) के रूप में जाना जाता है। कारण विश्लेषण: कारण (R) सत्य है और A की व्याख्या करता है क्योंकि योग सांख्य के ब्रह्मांड विज्ञान और तत्वमीमांसा को अपनाता है परंतु एकाग्रता और मुक्ति में सहायता के लिए ईश्वर को एक विशेष पुरुष के रूप में शामिल करता है। '[अभिकथन] क्योंकि [कारण]' का संबंध पूर्णतः तार्किक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Purva Mimamsa school rejects the necessity of a creator God who created the Vedas.\nReason (R): It holds that the Vedas are 'Apaurusheya' (of non-human/divine authorless origin) and eternal.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because Mimamsa is non-theistic and does not accept a creator God for the Vedas. Reason Analysis: Reason (R) is true and explains A because the school believes the Vedas are eternal and authorless (Apaurusheya), rendering the concept of a creator God redundant. The link '[Assertion] BECAUSE [Reason]' is correct."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): पूर्व मीमांसा संप्रदाय वेदों की रचना करने वाले किसी स्रष्टा ईश्वर की आवश्यकता को खारिज करता है।\nकारण (R): इसका मानना है कि वेद 'अपौरुषेय' (बिना किसी मानवीय या ईश्वरीय रचयिता के) और नित्य हैं।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि मीमांसा अनीश्वरवादी है और वेदों के लिए किसी स्रष्टा ईश्वर को स्वीकार नहीं करता है। कारण विश्लेषण: कारण (R) सत्य है और A की सही व्याख्या करता है क्योंकि यह संप्रदाय वेदों को नित्य और अपौरुषेय मानता है, जिससे स्रष्टा ईश्वर की अवधारणा निरर्थक हो जाती है। '[अभिकथन] क्योंकि [कारण]' का संबंध बिल्कुल सही है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): According to the Vaisheshika school, the category of 'Vishesha' (particularity) is eternal.\nReason (R): Vishesha resides in the eternal, partless substances like atoms, souls, and space, distinguishing them from one another.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because Vaisheshika considers Vishesha (particularity) to be a separate, eternal category. Reason Analysis: Reason (R) is true and explains A because Vishesha exists to distinguish eternal, indivisible substances (like individual atoms of earth, or individual souls) which otherwise have similar properties. The link '[Assertion] BECAUSE [Reason]' is correct."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): वैशेषिक संप्रदाय के अनुसार, 'विशेष' (विशेषता) नामक पदार्थ नित्य है।\nकारण (R): विशेष नित्य, निरवयव (बिना भाग वाले) द्रव्यों जैसे कि परमाणुओं, आत्माओं और आकाश में रहता है, जो उन्हें एक-दूसरे से अलग करता है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि वैशेषिक 'विशेष' को एक स्वतंत्र और नित्य पदार्थ मानता है। कारण विश्लेषण: कारण (R) सत्य है और A की व्याख्या करता है क्योंकि विशेष का अस्तित्व नित्य, अविभाज्य द्रव्यों (जैसे पृथ्वी के व्यक्तिगत परमाणुओं या व्यक्तिगत आत्माओं) को एक दूसरे से अलग करने के लिए होता है। '[अभिकथन] क्योंकि [कारण]' का संबंध पूर्णतः सत्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Patanjali's Yoga philosophy rejects the theory of rebirth and karma.\nReason (R): The primary objective of Yoga is to attain Kaivalya (liberation) by separating Purusha from Prakriti.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "D",
+      "explanation": "Assertion Analysis: Assertion (A) is false. Yoga philosophy completely accepts the traditional Hindu theories of karma and rebirth (Samsara). Reason Analysis: Reason (R) is true because the ultimate goal of Yoga is indeed Kaivalya, which is the isolation of Purusha from Prakriti."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): पतंजलि का योग दर्शन पुनर्जन्म और कर्म के सिद्धांत को खारिज करता है।\nकारण (R): योग का प्राथमिक उद्देश्य पुरुष को प्रकृति से अलग करके कैवल्य (मुक्ति) प्राप्त करना है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "D",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) असत्य है क्योंकि योग दर्शन पारंपरिक हिंदू कर्म और पुनर्जन्म (संसार) के सिद्धांतों को पूरी तरह स्वीकार करता है। कारण विश्लेषण: कारण (R) सत्य है क्योंकि योग का अंतिम लक्ष्य वास्तव में कैवल्य है, जो पुरुष का प्रकृति से विलग होना है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): In Advaita Vedanta, the world is termed as 'Mithya' (illusory/unreal).\nReason (R): The world is subject to sublation (contradiction) by the ultimate knowledge of Brahman and does not remain eternally true.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is not the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true because Advaita Vedanta characterizes the world as Mithya (empirically real but ultimately unreal/illusory). Reason Analysis: Reason (R) is true and explains A because in Advaita epistemology, Mithya is defined as that which is sublated (badhita) by true knowledge of Brahman, meaning it lacks ultimate, eternal reality (Paramarthika Satta). The link '[Assertion] BECAUSE [Reason]' is correct."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, जिनमें से एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): अद्वैत वेदांत में जगत को 'मिथ्या' (आभासी/असत्य) कहा गया है।\nकारण (R): जगत ब्रह्म के परम ज्ञान द्वारा बाधित (बाध) हो जाता है और नित्य सत्य के रूप में शेष नहीं रहता।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या है।",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है।",
+      "option_c": "A सही है, लेकिन R गलत है।",
+      "option_d": "A गलत है, लेकिन R सही है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है क्योंकि अद्वैत वेदांत जगत को मिथ्या (व्यावहारिक रूप से सत्य परंतु अंततः असत्य) मानता है। कारण विश्लेषण: कारण (R) सत्य है और A की व्याख्या करता है क्योंकि अद्वैत ज्ञानमीमांसा में, मिथ्या को उसी रूप में परिभाषित किया गया है जिसका ब्रह्म के वास्तविक ज्ञान से बाध (खंडन) हो जाता है। '[अभिकथन] क्योंकि [कारण]' का संबंध पूरी तरह सटीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Philosophical School) with List-II (Foundational Founder) and select the correct answer:\nList-I:\na) Nyaya\nb) Vaisheshika\nc) Samkhya\nd) Mimamsa\n\nList-II:\n1) Sage Kapila\n2) Sage Jaimini\n3) Sage Gautama\n4) Sage Kanada\n5) Sage Patanjali",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-4, b-3, c-1, d-2",
+      "option_c": "a-3, b-4, c-2, d-1",
+      "option_d": "a-1, b-2, c-3, d-4",
+      "correct": "A",
+      "explanation": "Correct match combination: a-3, b-4, c-1, d-2. Nyaya (a) was founded by Sage Gautama [3]. Vaisheshika (b) was founded by Sage Kanada [4]. Samkhya (c) was founded by Sage Kapila [1]. Mimamsa (d) was founded by Sage Jaimini [2]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (दर्शन संप्रदाय) को सूची-II (मूल संस्थापक) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) न्याय\nb) वैशेषिक\nc) सांख्य\nd) मीमांसा\n\nसूची-II:\n1) महर्षि कपिल\n2) महर्षि जैमिनी\n3) महर्षि गौतम\n4) महर्षि कणाद\n5) महर्षि पतंजलि",
+      "option_a": "a-3, b-4, c-1, d-2",
+      "option_b": "a-4, b-3, c-1, d-2",
+      "option_c": "a-3, b-4, c-2, d-1",
+      "option_d": "a-1, b-2, c-3, d-4",
+      "correct": "A",
+      "explanation": "सही सुमेलित संयोजन: a-3, b-4, c-1, d-2। न्याय (a) के संस्थापक महर्षि गौतम [3] हैं। वैशेषिक (b) के संस्थापक महर्षि कणाद [4] हैं। सांख्य (c) के संस्थापक महर्षि कपिल [1] हैं। मीमांसा (d) के संस्थापक महर्षि जैमिनी [2] हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Philosophy/School) with List-II (Core Epistemological Pramanas Accepted) and select the correct answer:\nList-I:\na) Vaisheshika\nb) Samkhya\nc) Nyaya\nd) Advaita Vedanta\n\nList-II:\n1) Perception and Inference only\n2) Perception, Inference, and Verbal Testimony\n3) Perception, Inference, Comparison, and Verbal Testimony\n4) Six Pramanas (including Arthapatti and Anupalabdhi)\n5) Perception only",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct match combination: a-1, b-2, c-3, d-4. Vaisheshika accepts 2 pramanas [1]. Samkhya accepts 3 pramanas [2]. Nyaya accepts 4 pramanas [3]. Advaita Vedanta accepts 6 pramanas [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (दर्शन/संप्रदाय) को सूची-II (स्वीकृत मुख्य ज्ञानमीमांसीय प्रमाण) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) वैशेषिक\nb) सांख्य\nc) न्याय\nd) अद्वैत वेदांत\n\nसूची-II:\n1) केवल प्रत्यक्ष और अनुमान\n2) प्रत्यक्ष, अनुमान और शब्द\n3) प्रत्यक्ष, अनुमान, उपमान और शब्द\n4) छह प्रमाण (अर्थापत्ति और अनुपलब्धि सहित)\n5) केवल प्रत्यक्ष",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही सुमेलित संयोजन: a-1, b-2, c-3, d-4। वैशेषिक 2 प्रमाण स्वीकार करता है [1]। सांख्य 3 प्रमाण स्वीकार करता है [2]। न्याय 4 प्रमाण स्वीकार करता है [3]। अद्वैत वेदांत 6 प्रमाण स्वीकार करता है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Vedanta Sub-School) with List-II (Chief Proponent) and select the correct answer:\nList-I:\na) Advaita\nb) Vishishtadvaita\nc) Dvaita\nd) Shuddhadvaita\n\nList-II:\n1) Adi Shankaracharya\n2) Ramanujacharya\n3) Madhvacharya\n4) Vallabhacharya\n5) Nimbarkacharya",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct match combination: a-1, b-2, c-3, d-4. Advaita is propounded by Shankaracharya [1]. Vishishtadvaita by Ramanujacharya [2]. Dvaita by Madhvacharya [3]. Shuddhadvaita by Vallabhacharya [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वेदांत उप-संप्रदाय) को सूची-II (मुख्य प्रवर्तक) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) अद्वैत\nb) विशिष्टाद्वैत\nc) द्वैत\nd) शुद्धाद्वैत\n\nसूची-II:\n1) आदि शंकराचार्य\n2) रामानुजाचार्य\n3) मध्वाचार्य\n4) वल्लभाचार्य\n5) निम्बार्काचार्य",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही सुमेलित संयोजन: a-1, b-2, c-3, d-4। अद्वैत का प्रतिपादन शंकराचार्य [1] ने किया। विशिष्टाद्वैत का रामानुजाचार्य [2] ने। द्वैत का मध्वाचार्य [3] ने। शुद्धाद्वैत का वल्लभाचार्य [4] ने किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Philosophy Concept) with List-II (Associated Philosophical System) and select the correct answer:\nList-I:\na) Paramanuvada (Atomism)\nb) Satkaryavada (Pre-existence of effect)\nc) Syllogism (Five-membered logical steps)\nd) Apurva (Unseen force of karma)\n\nList-II:\n1) Vaisheshika\n2) Samkhya\n3) Nyaya\n4) Purva Mimamsa\n5) Vedanta",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct match combination: a-1, b-2, c-3, d-4. Paramanuvada matches Vaisheshika [1]. Satkaryavada matches Samkhya [2]. Syllogism matches Nyaya [3]. Apurva matches Purva Mimamsa [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (दर्शन अवधारणा) को सूची-II (संबद्ध दार्शनिक प्रणाली) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) परमाणुवाद\nb) सत्कार्यवाद\nc) न्याय वाक्य (पंच-अवयव अनुमान)\nd) अपूर्व\n\nसूची-II:\n1) वैशेषिक\n2) सांख्य\n3) न्याय\n4) पूर्व मीमांसा\n5) वेदांत",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही सुमेलित संयोजन: a-1, b-2, c-3, d-4। परमाणुवाद वैशेषिक [1] से सुमेलित है। सत्कार्यवाद सांख्य [2] से। पंच-अवयव न्याय वाक्य न्याय [3] से। अपूर्व पूर्व मीमांसा [4] से सुमेलित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Yoga Ashtanga Limb) with List-II (Key Description/Meaning) and select the correct answer:\nList-I:\na) Yama\nb) Niyama\nc) Pratyahara\nd) Dharana\n\nList-II:\n1) Social ethics and moral restraints\n2) Personal disciplines and observances\n3) Withdrawal of senses from external objects\n4) Concentration or fixing of the mind\n5) Meditation or uninterrupted flow of concentration",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-2, c-4, d-5",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct match combination: a-1, b-2, c-3, d-4. Yama matches social restraints [1]. Niyama matches personal observances [2]. Pratyahara matches withdrawal of senses [3]. Dharana matches concentration [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अष्टांग योग के अंग) को सूची-II (मुख्य विवरण/अर्थ) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) यम\nb) नियम\nc) प्रत्याहार\nd) धारणा\n\nसूची-II:\n1) सामाजिक नैतिकता और नैतिक प्रतिबंध\n2) व्यक्तिगत अनुशासन और नियम\n3) इंद्रियों का बाहरी विषयों से विमुख होना\n4) चित्त को एक स्थान पर केंद्रित करना (एकाग्रता)\n5) ध्यान या एकाग्रता का निरंतर प्रवाह",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-2, c-4, d-5",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही सुमेलित संयोजन: a-1, b-2, c-3, d-4। यम सामाजिक प्रतिबंधों [1] से मेल खाता है। नियम व्यक्तिगत नियमों [2] से। प्रत्याहार इंद्रियों के प्रत्यावर्तन [3] से। धारणा धारणा ध्यान से पहले मन की एकाग्रता [4] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Vaisheshika Substance / Dravya) with List-II (Nature or Associated Element) and select the correct answer:\nList-I:\na) Akasha\nb) Kala\nc) Dik\nd) Atman\n\nList-II:\n1) Ethereal space with quality of sound\n2) Time, the cause of past, present, and future\n3) Space, representing direction\n4) Soul, the substratum of consciousness\n5) Mind, the internal organ of perception",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct match combination: a-1, b-2, c-3, d-4. Akasha represents ethereal space [1]. Kala represents time [2]. Dik represents direction [3]. Atman represents the substratum of consciousness [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वैशेषिक द्रव्य) को सूची-II (प्रकृति या संबद्ध तत्व) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) आकाश\nb) काल\nc) दिक्\nd) आत्मन्\n\nसूची-II:\n1) शब्द गुण वाला आकाश तत्व\n2) भूत, वर्तमान और भविष्य का कारण (समय)\n3) दिशा का प्रतिनिधित्व करने वाला स्थान\n4) आत्मा, चेतना का आधारभूत द्रव्य\n5) मन, धारणा का आंतरिक अंग",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही सुमेलित संयोजन: a-1, b-2, c-3, d-4। आकाश शब्द गुण वाले तत्व [1] से सुमेलित है। काल समय [2] से। दिक् दिशा [3] से। आत्मन् चेतना के आधार [4] से सुमेलित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Text Name) with List-II (Primary Author/Commentator) and select the correct answer:\nList-I:\na) Yoga Sutras\nb) Nyaya Sutras\nc) Samkhyakarika\nd) Vivekachudamani\n\nList-II:\n1) Patanjali\n2) Gautama\n3) Ishvarakrishna\n4) Adi Shankaracharya\n5) Vachaspati Mishra",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct match combination: a-1, b-2, c-3, d-4. Yoga Sutras matches Patanjali [1]. Nyaya Sutras matches Gautama [2]. Samkhyakarika matches Ishvarakrishna [3]. Vivekachudamani matches Adi Shankaracharya [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (ग्रंथ का नाम) को सूची-II (मूल लेखक/भाष्यकार) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) योग सूत्र\nb) न्याय सूत्र\nc) सांख्यकारिका\nd) विवेकचूड़ामणि\n\nसूची-II:\n1) पतंजलि\n2) गौतम\n3) ईश्वरकृष्ण\n4) आदि शंकराचार्य\n5) वाचस्पति मिश्र",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही सुमेलित संयोजन: a-1, b-2, c-3, d-4। योग सूत्र पतंजलि [1] से सुमेलित है। न्याय सूत्र गौतम [2] से। सांख्यकारिका ईश्वरकृष्ण [3] से। विवेकचूड़ामणि आदि शंकराचार्य [4] से सुमेलित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Schools of Vedanta) with List-II (Metaphysical Stance on Atman and Brahman Relation) and select the correct answer:\nList-I:\na) Advaita\nb) Vishishtadvaita\nc) Dvaita\nd) Dvaitadvaita\n\nList-II:\n1) Absolute identity (non-dualism)\n2) Qualified non-dualism (identity with internal differences)\n3) Absolute dualism (radical distinction)\n4) Dualism-cum-non-dualism\n5) Pure non-dualism (without maya)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct match combination: a-1, b-2, c-3, d-4. Advaita holds absolute identity [1]. Vishishtadvaita holds qualified non-dualism [2]. Dvaita holds absolute dualism [3]. Dvaitadvaita holds dualism-cum-non-dualism [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (वेदांत के संप्रदाय) को सूची-II (आत्मा और ब्रह्म के संबंध में तत्वमीमांसीय दृष्टिकोण) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) अद्वैत\nb) विशिष्टाद्वैत\nc) द्वैत\nd) द्वैताद्वैत\n\nसूची-II:\n1) पूर्ण तादात्म्य (अद्वैतवाद)\n2) विशिष्ट अद्वैतवाद (आंतरिक भेदों के साथ अभेद)\n3) पूर्ण द्वैतवाद (स्पष्ट भेद)\n4) द्वैत-सह-अद्वैत (द्वैताद्वैत)\n5) शुद्ध अद्वैतवाद (बिना माया के)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही सुमेलित संयोजन: a-1, b-2, c-3, d-4। अद्वैत पूर्ण तादात्म्य [1] को मानता है। विशिष्टाद्वैत विशिष्ट अद्वैतवाद [2] को। द्वैत पूर्ण द्वैतवाद [3] को। द्वैताद्वैत द्वैत-सह-अद्वैत [4] को मानता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Samkhya system of philosophy:\n1. It believes that Prakriti is active but unconscious.\n2. It asserts that Purusha is inactive but conscious.\n3. It accepts only two pramanas: Pratyaksha and Shabda.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Samkhya defines Prakriti as active and unconscious (Jada). Statement 2 is correct: Purusha is described as inactive (akarta) but conscious (Chetana). Statement 3 is incorrect: Samkhya accepts three pramanas: Pratyaksha (perception), Anumana (inference), and Shabda (testimony)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सांख्य दर्शन संप्रदाय के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह मानता है कि प्रकृति सक्रिय लेकिन अचेतन (जड़) है।\n2. यह दावा करता है कि पुरुष निष्क्रिय लेकिन चेतन है।\n3. यह केवल दो प्रमाणों को स्वीकार करता है: प्रत्यक्ष और शब्द।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: सांख्य प्रकृति को सक्रिय और अचेतन (जड़) मानता है। कथन 2 सही है: पुरुष को अकर्ता (निष्क्रिय) परंतु चेतन (चेतन रूप) कहा गया है। कथन 3 गलत है: सांख्य तीन प्रमाणों को स्वीकार करता है: प्रत्यक्ष, अनुमान और शब्द।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Nyaya logic and reasoning:\n1. The Nyaya syllogism has five members or steps (Avayavas).\n2. The statement 'The hill is on fire' represents the Pratijna (proposition).\n3. The statement 'Because it has smoke' represents the Upanaya (application).\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Nyaya syllogism consists of five steps: Pratijna, Hetu, Udaharana, Upanaya, and Nigamana. Statement 2 is correct: 'The hill is on fire' is the Pratijna (initial proposition to be proved). Statement 3 is incorrect: 'Because it has smoke' represents the Hetu (reason), not Upanaya."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. न्याय तर्कशास्त्र और अनुमान के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. न्याय वाक्य (समीकरण) के पास अवयव या चरण होते हैं।\n2. कथन 'पर्वत अग्निमान है' प्रतिज्ञा (प्रस्तावना) का प्रतिनिधित्व करता है।\n3. कथन 'क्योंकि यहाँ धुआँ है' उपनय (अनुप्रयोग) का प्रतिनिधित्व करता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: न्याय के पाँच अवयव हैं: प्रतिज्ञा, हेतु, उदाहरण, उपनय और निगमन। कथन 2 सही है: 'पर्वत अग्निमान है' प्रतिज्ञा (सिद्ध की जाने वाली स्थापना) है। कथन 3 गलत है: 'क्योंकि यहाँ धुआँ है' हेतु (कारण) का प्रतिनिधित्व करता है, उपनय का नहीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Vaisheshika categories (Padarthas):\n1. Samanya refers to the universal or common essence residing in individual members of a class.\n2. Karma refers to action or movement, which resides only in physical substances.\n3. Abhava was added later as a negative category representing non-existence.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct: Samanya is the universal/generality (like 'gotva' or nithya essence of cow) present in individual instances. Statement 2 is correct: Karma is action/motion, which is temporary and belongs only to physical substances (dravyas). Statement 3 is correct: Abhava (non-existence) was later recognized as the seventh category in the school's development."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वैशेषिक पदार्थों (Padarthas) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. 'सामान्य' से तात्पर्य उस सार्वभौमिक या साझा मूल तत्व से है जो किसी वर्ग के व्यक्तिगत सदस्यों में रहता है।\n2. 'कर्म' से तात्पर्य क्रिया या गति से है, जो केवल भौतिक द्रव्यों में ही रहती है।\n3. 'अभाव' को बाद में अनुपस्थिति या गैर-अस्तित्व को दर्शाने वाली नकारात्मक श्रेणी के रूप में जोड़ा गया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है: 'सामान्य' जाति या सार्वभौमिक तत्त्व (जैसे गोत्व) को दर्शाता है जो सभी व्यक्तियों में समान रूप से रहता है। कथन 2 सही है: 'कर्म' क्रिया अथवा गति है, जो केवल मूर्त या भौतिक द्रव्यों (द्रव्य) में रहता है। कथन 3 सही है: वैशेषिक दर्शन के विकास में 'अभाव' को बाद में सातवें पदार्थ के रूप में मान्यता दी गई थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Yoga school of philosophy:\n1. Patanjali's Yoga Sutras systematically codify the teachings of ancient Yoga practices.\n2. Yoga believes in a personal deity (Ishvara) who is the creator of the Purusha and Prakriti.\n3. The limb 'Asana' refers to physical postures aimed at preparing the body for long meditation.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Patanjali compiled and systemized existing Yoga practices in the Yoga Sutras. Statement 2 is incorrect: Yoga's Ishvara is not the creator of Purusha and Prakriti; both are eternal. Ishvara is a special Purusha who remains untouched by karma. Statement 3 is correct: Asana refers to stable and comfortable physical postures (sthira-sukham asanam)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. योग दर्शन संप्रदाय के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. पतंजलि का योग सूत्र प्राचीन योग प्रथाओं की शिक्षाओं को व्यवस्थित रूप से संहिताबद्ध करता है।\n2. योग एक व्यक्तिगत ईश्वर (ईश्वर) को मानता है जो पुरुष और प्रकृति का स्रष्टा है।\n3. 'आसन' अंग का तात्पर्य उन शारीरिक मुद्राओं से है जिनका उद्देश्य शरीर को लंबे ध्यान के लिए तैयार करना है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: पतंजलि ने योग सूत्रों में मौजूदा योग प्रथाओं का संकलन और व्यवस्थितकरण किया। कथन 2 गलत है: योग का ईश्वर पुरुष और प्रकृति का स्रष्टा नहीं है; वे दोनों नित्य हैं। ईश्वर केवल एक विशेष पुरुष है जो कर्म बंधनों से सर्वथा अप्रभावित है। कथन 3 सही है: आसन से तात्पर्य स्थिर और सुखदायक शारीरिक मुद्राओं (स्थिरसुखमासनम्) से है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Purva Mimamsa philosophy:\n1. It emphasizes the performance of rituals described in the Brahmana portion of the Vedas.\n2. It rejects the self-validity of knowledge (Svatah Pramanyavada) and demands external validation for all knowledge.\n3. The school considers verbal testimony (Shabda) to be the highest and most infallible source of truth.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Purva Mimamsa focuses on the ritualistic codes of the Brahmanas and Samhitas of the Vedas. Statement 2 is incorrect: Mimamsa strongly advocates 'Svatah Pramanyavada' (self-validity of knowledge), holding that all knowledge is intrinsically valid. Statement 3 is correct: Since Vedas are eternal and authorless, Shabda is their supreme source of absolute dharma."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पूर्व मीमांसा दर्शन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह वेदों के ब्राह्मण भाग में वर्णित अनुष्ठानों (यज्ञों) के संपादन पर बल देता है।\n2. यह ज्ञान की स्वतः-प्रामाणिकता (स्वतः प्रामाण्यवाद) को खारिज करता है और सभी ज्ञान के लिए बाहरी सत्यापन की मांग करता है।\n3. यह संप्रदाय शब्द प्रमाण (वेद) को सत्य का सर्वोच्च और अचूक स्रोत मानता है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: पूर्व मीमांसा वेदों के ब्राह्मण और संहिता भागों में निहित यज्ञीय कर्मों पर केंद्रित है। कथन 2 गलत है: मीमांसा दृढ़ता से 'स्वतः प्रामाण्यवाद' का समर्थन करता है, जिसके अनुसार ज्ञान स्वतः ही प्रमाण माना जाता है। कथन 3 सही है: क्योंकि वेद नित्य और अपौरुषेय हैं, अतः शब्द प्रमाण सर्वोच्च धर्म का ज्ञान कराने वाला सर्वोत्तम स्रोत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Vedanta school of philosophy:\n1. It is also known as Uttara Mimamsa because it focuses on the latter part of the Vedas (Upanishads).\n2. Shankara argues that the individual soul (Jiva) is identical to Brahman under Advaita.\n3. Ramanuja rejects the reality of individual souls and the world, terming them as mere illusions.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Vedanta is called Uttara Mimamsa, reflecting its analysis of the Upanishads (the end portion of Vedas). Statement 2 is correct: Shankara's Advaita states 'Jivo Brahmaiva naparah' (the Jiva is none other than Brahman). Statement 3 is incorrect: Ramanuja (Vishishtadvaita) rejects Shankara's illusion theory (Mayavada) and holds that both the individual souls (cit) and the material world (acit) are real attributes of Brahman."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वेदांत दर्शन संप्रदाय के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसे उत्तर मीमांसा भी कहा जाता है क्योंकि यह वेदों के अंतिम भाग (उपनिषदों) पर ध्यान केंद्रित करता है।\n2. शंकराचार्य का तर्क है कि अद्वैत के तहत व्यक्तिगत आत्मा (जीव) ब्रह्म के समान (अभिन्न) है।\n3. रामानुजाचार्य व्यक्तिगत आत्माओं और जगत की वास्तविकता को खारिज करते हैं और उन्हें केवल भ्रम (माया) कहते हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: वेदांत को उत्तर मीमांसा कहा जाता है, जो वेदों के ज्ञानकांडीय भाग (उपनिषदों) के विवेचन पर आधारित है। कथन 2 सही है: शंकराचार्य का अद्वैतवाद मानता है कि 'जीवो ब्रह्मैव नापरः' (जीव ब्रह्म से भिन्न नहीं है)। कथन 3 गलत है: रामानुजाचार्य (विशिष्टाद्वैत) शंकर के मायावाद का खंडन करते हैं और जीव (चित्) तथा जगत (अचित्) दोनों को ब्रह्म के वास्तविक विशेषण मानते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Vaisheshika concept of atomism (Paramanuvada):\n1. It asserts that atoms are eternal, indivisible, and cannot be destroyed.\n2. The creation of the material world begins when atoms combine into dyads (dvyanuka).\n3. The initial movement of atoms to combine is caused by the unseen moral force of karma (Adrishta).\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct: Atoms (Paramanu) are eternal, partless, and indestructible. Statement 2 is correct: Two atoms combine to form a dyad (dvyanuka), which is the first step of physical creation. Statement 3 is correct: Since atoms are unconscious, their initial combination is initiated by Adrishta (the unseen karma of souls)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वैशेषिक के परमाणुवाद (Paramanuvada) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह दावा करता है कि परमाणु नित्य, अविभाज्य हैं और इन्हें नष्ट नहीं किया जा सकता।\n2. भौतिक जगत की रचना तब शुरू होती है जब दो परमाणु मिलकर द्वयणुक (dvyanuka) बनाते हैं।\n3. परमाणुओं के जुड़ने की प्रारंभिक गति कर्म की अदृश्य नैतिक शक्ति (अदृष्ट) के कारण होती है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है: वैशेषिक में परमाणु को नित्य, निरवयव और अविनाशी माना गया है। कथन 2 सही है: दो परमाणुओं के मिलने से द्वयणुक बनता है, जो भौतिक सृष्टि की पहली अवस्था है। कथन 3 सही है: क्योंकि परमाणु अचेतन हैं, अतः सृष्टि काल में उनमें प्रारंभिक गति जीवों के संचित कर्मों (अदृष्ट) द्वारा प्रेरित होती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Nyaya concept of God (Ishvara):\n1. Nyaya regards God as the efficient cause (Nimitta Karana) of the universe.\n2. God is considered the material cause (Upadana Karana) from which the world is created.\n3. God is responsible for associating individual souls with their respective fruits of karma.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 3 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Nyaya defines God as the efficient cause (Nimitta Karana) who shapes the universe out of eternal atoms. Statement 2 is incorrect: The material cause of the world is eternal atoms, not God. Statement 3 is correct: God administers the moral law of Karma, ensuring souls receive fruits corresponding to their actions."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ईश्वर (Ishvara) के न्याय सिद्धांत के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. न्याय ईश्वर को ब्रह्मांड का निमित्त कारण (Nimitta Karana) मानता है।\n2. ईश्वर को वह उपादान कारण (Upadana Karana) माना जाता है जिससे जगत का निर्माण होता है।\n3. ईश्वर व्यक्तिगत आत्माओं को उनके संबंधित कर्मफलों से जोड़ने के लिए उत्तरदायी है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 3",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: न्याय ईश्वर को ब्रह्मांड का निमित्त कारण (सृष्टि का संचालक) मानता है जो नित्य परमाणुओं से सृष्टि का निर्माण करता है। कथन 2 गलत है: ब्रह्मांड का उपादान (भौतिक) कारण नित्य परमाणु हैं, न कि ईश्वर। कथन 3 सही है: ईश्वर कर्म के नैतिक नियम का प्रशासन करता है, यह सुनिश्चित करता है कि आत्माओं को उनके कर्मानुसार फल मिले।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the concept of Liberation (Moksha/Kaivalya) in Shad-Darshana:\n1. In Samkhya-Yoga, Kaivalya is the state where Purusha realizes its complete distinction from Prakriti.\n2. In Advaita Vedanta, Mukti is the experiential realization of the absolute identity between Atman and Brahman.\n3. In Nyaya-Vaisheshika, liberation is described as a state of active, positive bliss where the soul retains sensory contact.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct: Samkhya-Yoga defines Kaivalya as the isolation of Purusha from Prakriti due to discriminative knowledge. Statement 2 is correct: Advaita Vedanta holds that liberation is the realization of the non-dual truth of Atman-Brahman identity. Statement 3 is incorrect: In Nyaya-Vaisheshika, Apavarga (liberation) is a state of absolute cessation of all pain and consciousness, not active sensory bliss."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. षड-दर्शन में मोक्ष या कैवल्य की अवधारणा के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. सांख्य-योग में, कैवल्य वह अवस्था है जहाँ पुरुष प्रकृति से अपनी पूर्ण भिन्नता को पहचान लेता है।\n2. अद्वैत वेदांत में, मुक्ति आत्मा और ब्रह्म के बीच पूर्ण तादात्म्य (अभेद) की अनुभवात्मक अनुभूति है।\n3. न्याय-वैशेषिक में, मोक्ष को सक्रिय, आनंदमय अवस्था के रूप में वर्णित किया गया है जहाँ आत्मा इंद्रिय संपर्क बनाए रखती है।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है: सांख्य-योग विवेकज्ञान द्वारा पुरुष के प्रकृति से सर्वथा पृथक होने को कैवल्य मानता है। कथन 2 सही है: अद्वैत वेदांत मानता है कि मुक्ति आत्मा और ब्रह्म की एकता के अद्वैत सत्य का साक्षात अनुभव है। कथन 3 गलत है: न्याय-वैशेषिक में, अपवर्ग (मोक्ष) को चेतना और दुःख के आत्यंतिक अभाव की अवस्था माना गया है, न कि किसी इंद्रियजन्य आनंद की अवस्था।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q1. Explain the concept of 'Satkaryavada' in Samkhya philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Satkaryavada is the Samkhya theory of causation, which posits that the effect (karya) pre-exists in its material cause (karana) in a latent, unmanifest form before creation. \n- **Key Argument**: A pot is only created from clay, and oil from sesame seed, indicating the effect is inherent in the cause.\n- **Significance**: It forms the cosmological basis to explain how the entire universe evolved from Prakriti, the ultimate material cause."
+    },
+    {
+      "lang": "HI",
+      "text": "Q1. सांख्य दर्शन में 'सत्कार्यवाद' की अवधारणा को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "सत्कार्यवाद सांख्य दर्शन का कारण-कार्य सिद्धांत है, जिसके अनुसार कार्य (घड़ा) अपनी उत्पत्ति से पूर्व अपने उपादान कारण (मिट्टी) में सूक्ष्म व अव्यक्त रूप से विद्यमान रहता है।\n- **मुख्य तर्क**: तेल केवल तिल से और घड़ा केवल मिट्टी से बन सकता है, जो दर्शाता है कि कार्य कारण में अंतर्निहित है।\n- **महत्व**: यह सिद्धांत ब्रह्मांडीय विकास की व्याख्या के लिए आधार प्रदान करता है कि कैसे संपूर्ण जगत मूल उपादान कारण 'प्रकृति' से विकसित हुआ है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q2. Compare the orthodox (Astika) schools of Indian Philosophy (Shad-Darshana) on the basis of their founders, core philosophies, and accepted sources of knowledge. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Shad-Darshana represent the six orthodox schools of Indian philosophy that accept the authority of the Vedas. Although they share common goals like liberation, they differ in epistemology and metaphysics as summarized below:\n\n| School (Darshana) | Founder | Core Philosophical Stance | Pramanas Accepted |\n| :--- | :--- | :--- | :--- |\n| **Samkhya** | Kapila | Dualism of Purusha (consciousness) and Prakriti (matter); Satkaryavada. | 3 (Perception, Inference, Shabda) |\n| **Yoga** | Patanjali | Practical path to liberation via Ashtanga Yoga; Seshvara Samkhya. | 3 (Perception, Inference, Shabda) |\n| **Nyaya** | Gautama | Logical realism; Pramana-sastra; Asatkaryavada. | 4 (Perception, Inference, Comparison, Shabda) |\n| **Vaisheshika** | Kanada | Atomism (Paramanuvada); Analysis of 7 Padarthas (categories). | 2 (Perception, Inference) |\n| **Purva Mimamsa** | Jaimini | Ritualism (Karma-kanda); Apurva; Vedas are eternal. | 5 or 6 (Prabhakara accepts 5; Kumarila accepts 6) |\n| **Vedanta** | Badarayana | Monism/Non-dualism (Uttara Mimamsa); Brahman as the ultimate reality. | 6 (Advaita school accepts six Pramanas) |\n\nIn conclusion, these systems collectively present a comprehensive synthesis of spiritual realization, ethical conduct, logic, and physical atomism, forming the cornerstone of classical Indian intellectual thought."
+    },
+    {
+      "lang": "HI",
+      "text": "Q2. संस्थापक, मुख्य दर्शन और स्वीकृत ज्ञान के स्रोतों के आधार पर भारतीय दर्शन के आस्तिक संप्रदायों (षड-दर्शन) की तुलना कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "षड-दर्शन भारतीय दर्शन के उन छह आस्तिक संप्रदायों का प्रतिनिधित्व करते हैं जो वेदों की सत्ता को स्वीकार करते हैं। यद्यपि मोक्ष जैसे साझा लक्ष्यों पर उनकी सहमति है, फिर भी तत्वमीमांसा और ज्ञानमीमांसा में वे भिन्न हैं:\n\n| संप्रदाय (दर्शन) | संस्थापक | मुख्य दार्शनिक दृष्टिकोण | स्वीकृत प्रमाण |\n| :--- | :--- | :--- | :--- |\n| **सांख्य** | महर्षि कपिल | पुरुष (चेतना) और प्रकृति (जड़) का द्वैतवाद; सत्कार्यवाद। | 3 (प्रत्यक्ष, अनुमान, शब्द) |\n| **योग** | महर्षि पतंजलि | अष्टांग योग के माध्यम से मुक्ति का व्यावहारिक मार्ग; सेश्वर सांख्य। | 3 (प्रत्यक्ष, अनुमान, शब्द) |\n| **न्याय** | महर्षि गौतम | तार्किक यथार्थवाद; प्रमाण-शास्त्र; असत्कार्यवाद। | 4 (प्रत्यक्ष, अनुमान, उपमान, शब्द) |\n| **वैशेषिक** | महर्षि कणाद | परमाणुवाद; 7 पदार्थों (श्रेणियों) का विश्लेषण। | 2 (प्रत्यक्ष, अनुमान) |\n| **पूर्व मीमांसा** | महर्षि जैमिनी | कर्मकांड (यज्ञ); अपूर्व; वेद नित्य और अपौरुषेय हैं। | 5 या 6 (प्रभाकर 5; कुमारिल 6 स्वीकारते हैं) |\n| **वेदांत** | महर्षि बादरायण | अद्वैत/द्वैत (उत्तर मीमांसा); ब्रह्म ही अंतिम सत्य है। | 6 (अद्वैत वेदांत छह प्रमाण स्वीकार करता है) |\n\nनिष्कर्षतः, ये प्रणालियाँ सामूहिक रूप से आध्यात्मिक अनुभूति, नैतिक आचरण, तर्क और भौतिक परमाणुवाद का एक व्यापक संश्लेषण प्रस्तुत करती हैं, जो शास्त्रीय भारतीय वैचारिक चिंतन की आधारशिला हैं।"
+    }
+  ]
+}

@@ -937,6 +937,86 @@ console.log("All SQLite tables verified successfully.");
             console.log("Seeded custom high-quality Literature questions for Mains.");
         }
 
+        // 2.9 Automated Seed for 24 custom History & Culture subtopics (Topics 11, 12, 13)
+        const historySubtopicsMapping = {
+            // Topic 11 (Vedic and Religious ideas)
+            'rigvedic': { pre_file: './custom_questions_rigvedic.json', mains_file: './custom_mains_rigvedic.json', en: 1788, hi: 1796, topic_id: 11, mains_topic_id: 102 },
+            'later_vedic': { pre_file: './custom_questions_later_vedic.json', mains_file: './custom_mains_later_vedic.json', en: 1789, hi: 1797, topic_id: 11, mains_topic_id: 102 },
+            'jainism': { pre_file: './custom_questions_jainism.json', mains_file: './custom_mains_jainism.json', en: 1790, hi: 1798, topic_id: 11, mains_topic_id: 102 },
+            'buddhism': { pre_file: './custom_questions_buddhism.json', mains_file: './custom_mains_buddhism.json', en: 1791, hi: 1799, topic_id: 11, mains_topic_id: 102 },
+            'buddhist_councils': { pre_file: './custom_questions_buddhist_councils.json', mains_file: './custom_mains_buddhist_councils.json', en: 1792, hi: 1800, topic_id: 11, mains_topic_id: 102 },
+            'heterodox': { pre_file: './custom_questions_heterodox.json', mains_file: './custom_mains_heterodox.json', en: 1793, hi: 1801, topic_id: 11, mains_topic_id: 102 },
+
+            // Topic 12 (Dynasties)
+            'maurya1': { pre_file: './custom_questions_maurya1.json', mains_file: './custom_mains_maurya1.json', en: 1802, hi: 1812, topic_id: 12, mains_topic_id: 102 },
+            'ashoka': { pre_file: './custom_questions_ashoka.json', mains_file: './custom_mains_ashoka.json', en: 1803, hi: 1813, topic_id: 12, mains_topic_id: 102 },
+            'edicts': { pre_file: './custom_questions_edicts.json', mains_file: './custom_mains_edicts.json', en: 1804, hi: 1814, topic_id: 12, mains_topic_id: 102 },
+            'kushans': { pre_file: './custom_questions_kushans.json', mains_file: './custom_mains_kushans.json', en: 1805, hi: 1815, topic_id: 12, mains_topic_id: 102 },
+            'satavahanas': { pre_file: './custom_questions_satavahanas.json', mains_file: './custom_mains_satavahanas.json', en: 1806, hi: 1816, topic_id: 12, mains_topic_id: 102 },
+            'gupta1': { pre_file: './custom_questions_gupta1.json', mains_file: './custom_mains_gupta1.json', en: 1807, hi: 1817, topic_id: 12, mains_topic_id: 102 },
+            'gupta2': { pre_file: './custom_questions_gupta2.json', mains_file: './custom_mains_gupta2.json', en: 1808, hi: 1818, topic_id: 12, mains_topic_id: 102 },
+            'chalukyas': { pre_file: './custom_questions_chalukyas.json', mains_file: './custom_mains_chalukyas.json', en: 1809, hi: 1819, topic_id: 12, mains_topic_id: 102 },
+            'pallavas': { pre_file: './custom_questions_pallavas.json', mains_file: './custom_mains_pallavas.json', en: 1810, hi: 1820, topic_id: 12, mains_topic_id: 102 },
+            'cholas': { pre_file: './custom_questions_cholas.json', mains_file: './custom_mains_cholas.json', en: 1811, hi: 1821, topic_id: 12, mains_topic_id: 102 },
+
+            // Topic 13 (Ancient Art, Science & Philosophy)
+            'architecture': { pre_file: './custom_questions_architecture.json', mains_file: './custom_mains_architecture.json', en: 1822, hi: 1830, topic_id: 13, mains_topic_id: 102 },
+            'caves': { pre_file: './custom_questions_caves.json', mains_file: './custom_mains_caves.json', en: 1823, hi: 1831, topic_id: 13, mains_topic_id: 102 },
+            'science': { pre_file: './custom_questions_science.json', mains_file: './custom_mains_science.json', en: 1824, hi: 1832, topic_id: 13, mains_topic_id: 102 },
+            'varna_ashram': { pre_file: './custom_questions_varna_ashram.json', mains_file: './custom_mains_varna_ashram.json', en: 1825, hi: 1833, topic_id: 13, mains_topic_id: 102 },
+            'purushartha': { pre_file: './custom_questions_purushartha.json', mains_file: './custom_mains_purushartha.json', en: 1826, hi: 1834, topic_id: 13, mains_topic_id: 102 },
+            'sanskaras': { pre_file: './custom_questions_sanskaras.json', mains_file: './custom_mains_sanskaras.json', en: 1827, hi: 1835, topic_id: 13, mains_topic_id: 102 },
+            'philosophy': { pre_file: './custom_questions_philosophy.json', mains_file: './custom_mains_philosophy.json', en: 1828, hi: 1836, topic_id: 13, mains_topic_id: 102 },
+            'education': { pre_file: './custom_questions_education.json', mains_file: './custom_mains_education.json', en: 1829, hi: 1837, topic_id: 13, mains_topic_id: 102 }
+        };
+
+        for (const [key, mapping] of Object.entries(historySubtopicsMapping)) {
+            // Check if Prelims questions are seeded for this subtopic
+            const enPreCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = ?", [mapping.en]);
+            if (enPreCount.count === 0) {
+                console.log(`Seeding Prelims custom questions for ${key}...`);
+                const filePath = path.join(__dirname, mapping.pre_file);
+                if (fs.existsSync(filePath)) {
+                    const fileContent = fs.readFileSync(filePath, 'utf8');
+                    const parsedData = JSON.parse(fileContent);
+                    for (const q of parsedData.preQuestions) {
+                        const targetId = q.lang === 'EN' ? mapping.en : mapping.hi;
+                        await run(`
+                            INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        `, [mapping.topic_id, q.text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct, q.explanation, targetId, q.lang]);
+                    }
+                    console.log(`Seeded Prelims custom questions for ${key} successfully.`);
+                }
+            }
+
+            // Check if Mains questions are seeded for this subtopic
+            const enMainsCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE minute_topic_id = ?", [mapping.en]);
+            if (enMainsCount.count === 0) {
+                console.log(`Seeding Mains custom questions for ${key}...`);
+                const filePath = path.join(__dirname, mapping.mains_file);
+                if (fs.existsSync(filePath)) {
+                    // Safe parse to clean unescaped newlines/control characters
+                    const rawContent = fs.readFileSync(filePath, 'utf8');
+                    const sanitized = rawContent
+                        .replace(/[\u0000-\u001F]+/g, (match) => {
+                            if (match === '\n' || match === '\r\n') return match;
+                            if (match === '\t') return '\\t';
+                            return '';
+                        });
+                    const parsedData = JSON.parse(sanitized);
+                    for (const q of parsedData.mainsQuestions) {
+                        const targetId = q.lang === 'EN' ? mapping.en : mapping.hi;
+                        await run(`
+                            INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id)
+                            VALUES (?, ?, ?, ?, 1, ?)
+                        `, [mapping.mains_topic_id, q.text, q.model_answer, q.lang, targetId]);
+                    }
+                    console.log(`Seeded Mains custom questions for ${key} successfully.`);
+                }
+            }
+        }
+
 
     } catch (err) {
         console.error("Database initialization error:", err.message);

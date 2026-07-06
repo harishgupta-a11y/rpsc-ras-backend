@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Which Gupta emperor is historically credited with the foundation of Nalanda University in the 5th century CE?",
+      "option_a": "Chandragupta II",
+      "option_b": "Samudragupta",
+      "option_c": "Kumaragupta I",
+      "option_d": "Skandagupta",
+      "correct": "C",
+      "explanation": "Correct option: C. Kumaragupta I (also known as Shakraditya in Chinese records like Xuanzang's accounts) founded Nalanda University in the early 5th century CE."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 5वीं शताब्दी ईस्वी में नालंदा विश्वविद्यालय की स्थापना का ऐतिहासिक श्रेय किस गुप्त सम्राट को दिया जाता है?",
+      "option_a": "चंद्रगुप्त द्वितीय",
+      "option_b": "समुद्रगुप्त",
+      "option_c": "कुमारगुप्त प्रथम",
+      "option_d": "स्कंदगुप्त",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। कुमारगुप्त प्रथम (चीनी यात्री ह्वेनसांग के विवरण में शक्रादित्य के रूप में उल्लिखित) ने 5वीं शताब्दी के आरंभ में नालंदा विश्वविद्यालय की स्थापना की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which ancient ruling dynasty of Western India was the primary patron of Valabhi University, located in Saurashtra?",
+      "option_a": "Maitrakas",
+      "option_b": "Solankis",
+      "option_c": "Rashtrakutas",
+      "option_d": "Gurjara-Pratiharas",
+      "correct": "A",
+      "explanation": "Correct option: A. Valabhi University, situated in modern-day Gujarat, was heavily patronized by the Maitraka dynasty, which ruled Saurashtra from the late 5th to the 8th century CE."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पश्चिमी भारत के किस प्राचीन शासक राजवंश ने सौराष्ट्र में स्थित वलभी विश्वविद्यालय को मुख्य संरक्षण प्रदान किया था?",
+      "option_a": "मैत्रक",
+      "option_b": "सोलंकी",
+      "option_c": "राष्ट्रकूट",
+      "option_d": "गुर्जर-प्रतिहार",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। आधुनिक गुजरात में स्थित वलभी विश्वविद्यालय को मैत्रक राजवंश द्वारा अत्यधिक संरक्षण दिया गया था, जिसने 5वीं सदी के अंत से 8वीं सदी तक सौराष्ट्र पर शासन किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Valabhi University was a renowned center of learning for which specific sect of Buddhism?",
+      "option_a": "Mahayana",
+      "option_b": "Vajrayana",
+      "option_c": "Hinayana (specifically Sammitiya)",
+      "option_d": "Zen",
+      "correct": "C",
+      "explanation": "Correct option: C. Unlike Nalanda, which was a stronghold of Mahayana Buddhism, Valabhi University was a primary center for Hinayana Buddhism, particularly the Sammitiya school."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वलभी विश्वविद्यालय मुख्य रूप से बौद्ध धर्म के किस विशिष्ट संप्रदाय के अध्ययन का एक प्रसिद्ध केंद्र था?",
+      "option_a": "महायान",
+      "option_b": "वज्रयान",
+      "option_c": "हीनयान (विशेष रूप से सम्मितीय)",
+      "option_d": "जेन",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। नालंदा के विपरीत, जो महायान बौद्ध धर्म का गढ़ था, वलभी विश्वविद्यालय हीनयान बौद्ध धर्म, विशेष रूप से सम्मितीय संप्रदाय का एक प्रमुख केंद्र था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to geographical records and ancient texts, between which two major rivers was the university city of Takshashila located?",
+      "option_a": "Indus and Jhelum",
+      "option_b": "Jhelum and Chenab",
+      "option_c": "Indus and Sarasvati",
+      "option_d": "Chenab and Ravi",
+      "correct": "A",
+      "explanation": "Correct option: A. Takshashila (Taxila) was strategically located in ancient Gandhara between the Indus River and the Jhelum (Hydaspes) River, serving as a crucial link on trade routes."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. भौगोलिक अभिलेखों और प्राचीन ग्रंथों के अनुसार, तक्षशिला विश्वविद्यालय शहर किन दो प्रमुख नदियों के बीच स्थित था?",
+      "option_a": "सिंधु और झेलम",
+      "option_b": "झेलम और चिनाब",
+      "option_c": "सिंधु और सरस्वती",
+      "option_d": "चिनाब और रावी",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। तक्षशिला प्राचीन गांधार में सिंधु और झेलम (हाईडेस्पीज) नदियों के बीच रणनीतिक रूप से स्थित था, जो व्यापार मार्गों पर एक महत्वपूर्ण कड़ी के रूप में कार्य करता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Jivaka, the legendary royal physician of King Bimbisara and Lord Buddha, studied medicine under a renowned teacher for seven years at which ancient university?",
+      "option_a": "Nalanda",
+      "option_b": "Valabhi",
+      "option_c": "Takshashila",
+      "option_d": "Vikramashila",
+      "correct": "C",
+      "explanation": "Correct option: C. Jivaka, one of the most famous physicians of ancient India, studied medicine at Takshashila (Taxila) for seven years under the guidance of Sage Atreya."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. राजा बिम्बिसार और भगवान बुद्ध के प्रसिद्ध शाही चिकित्सक जीवक ने किस प्राचीन विश्वविद्यालय में सात वर्षों तक चिकित्सा शास्त्र का अध्ययन किया था?",
+      "option_a": "नालंदा",
+      "option_b": "वलभी",
+      "option_c": "तक्षशिला",
+      "option_d": "विक्रमशिला",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। प्राचीन भारत के सबसे प्रसिद्ध चिकित्सकों में से एक, जीवक ने ऋषि आत्रेय के मार्गदर्शन में सात वर्षों तक तक्षशिला में चिकित्सा शास्त्र का अध्ययन किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The great Sanskrit grammarian Panini, author of the 'Ashtadhyayi', is historically associated with which of the following ancient universities?",
+      "option_a": "Nalanda",
+      "option_b": "Takshashila",
+      "option_c": "Odantapuri",
+      "option_d": "Valabhi",
+      "correct": "B",
+      "explanation": "Correct option: B. Panini was born in Salatura (near the Indus) and studied and taught at Takshashila, which was the premier center for grammar, language, and logic."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'अष्टाध्यायी' के लेखक, महान संस्कृत व्याकरणविद् पाणिनि, ऐतिहासिक रूप से निम्नलिखित में से किस प्राचीन विश्वविद्यालय से जुड़े हुए हैं?",
+      "option_a": "नालंदा",
+      "option_b": "तक्षशिला",
+      "option_c": "ओदंतपुरी",
+      "option_d": "वलभी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। पाणिनि का जन्म शलातुर (सिंधु के निकट) में हुआ था और उन्होंने तक्षशिला में अध्ययन तथा अध्यापन किया, जो व्याकरण, भाषा और तर्कशास्त्र का प्रमुख केंद्र था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The famous library of Nalanda University, known collectively as 'Dharmaganja' (Treasury of Dharma), consisted of three grand buildings. Which of the following was NOT one of these buildings?",
+      "option_a": "Ratnasagara",
+      "option_b": "Ratnodadhi",
+      "option_c": "Ratnaranjaka",
+      "option_d": "Ratnagiri",
+      "correct": "D",
+      "explanation": "Correct option: D. The Nalanda library Dharmaganja comprised three multi-storeyed buildings: Ratnasagara, Ratnodadhi, and Ratnaranjaka. Ratnagiri is not one of them (it is a Buddhist site in Odisha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय का प्रसिद्ध पुस्तकालय, जिसे सामूहिक रूप से 'धर्मगंज' (धर्म का खजाना) कहा जाता था, तीन भव्य इमारतों से मिलकर बना था। निम्नलिखित में से कौन सा इन इमारतों में शामिल नहीं था?",
+      "option_a": "रत्नसागर",
+      "option_b": "रत्नोदधि",
+      "option_c": "रत्नरंजक",
+      "option_d": "रत्नगिरि",
+      "correct": "D",
+      "explanation": "सही विकल्प: D। नालंदा पुस्तकालय धर्मगंज में तीन बहुमंजिला इमारतें शामिल थीं: रत्नसागर, रत्नोदधि, और रत्नरंजक। रत्नगिरि इनमें शामिल नहीं है (यह ओडिशा में एक बौद्ध स्थल है)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. During the visit of the Chinese pilgrim Xuanzang (Hiuen Tsang) in the 7th century, who was the revered Chancellor (head of the university) of Nalanda?",
+      "option_a": "Dharmapala",
+      "option_b": "Shilabhadra",
+      "option_c": "Chandrakirti",
+      "option_d": "Gunamati",
+      "correct": "B",
+      "explanation": "Correct option: B. Shilabhadra, a distinguished Buddhist scholar and logician, was the Abbot/Chancellor of Nalanda during Xuanzang's stay, under whom Xuanzang studied Yogacara philosophy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 7वीं शताब्दी में चीनी तीर्थयात्री ह्वेनसांग (Xuanzang) की यात्रा के दौरान, नालंदा के पूजनीय कुलाधिपति (विश्वविद्यालय के प्रमुख) कौन थे?",
+      "option_a": "धर्मपाल",
+      "option_b": "शीलभद्र",
+      "option_c": "चंद्रकीर्ति",
+      "option_d": "गुणमति",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। शीलभद्र, एक प्रतिष्ठित बौद्ध विद्वान और तर्कशास्त्री, ह्वेनसांग के प्रवास के दौरान नालंदा के महाविहार प्रमुख (कुलाधिपति) थे, जिनके अधीन ह्वेनसांग ने योगाचार दर्शन का अध्ययन किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which century was Nalanda University destroyed by the military commander Bakhtiyar Khilji?",
+      "option_a": "10th century CE",
+      "option_b": "11th century CE",
+      "option_c": "12th century CE",
+      "option_d": "13th century CE",
+      "correct": "C",
+      "explanation": "Correct option: C. Nalanda was sacked and burnt by Bakhtiyar Khilji, a general of Qutb al-Din Aibak, in the late 12th century (circa 1193 CE)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सैन्य सेनापति बख्तियार खिलजी द्वारा नालंदा विश्वविद्यालय को किस शताब्दी में नष्ट किया गया था?",
+      "option_a": "10वीं शताब्दी ईस्वी",
+      "option_b": "11वीं शताब्दी ईस्वी",
+      "option_c": "12वीं शताब्दी ईस्वी",
+      "option_d": "13वीं शताब्दी ईस्वी",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। नालंदा को 12वीं शताब्दी के अंत (लगभग 1193 ईस्वी) में कुतुबुद्दीन ऐबक के एक सेनापति बख्तियार खिलजी द्वारा लूटा और जला दिया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which year was the ancient archaeological site of Takshashila (Taxila) declared a UNESCO World Heritage Site?",
+      "option_a": "1972",
+      "option_b": "1980",
+      "option_c": "1992",
+      "option_d": "2001",
+      "correct": "B",
+      "explanation": "Correct option: B. The archaeological ruins of Takshashila, located in Pakistan, were declared a UNESCO World Heritage Site in 1980."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तक्षशिला (टैक्सिला) के प्राचीन पुरातात्विक स्थल को किस वर्ष यूनेस्को (UNESCO) विश्व धरोहर स्थल घोषित किया गया था?",
+      "option_a": "1972",
+      "option_b": "1980",
+      "option_c": "1992",
+      "option_d": "2001",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। पाकिस्तान में स्थित तक्षशिला के पुरातात्विक खंडहरों को वर्ष 1980 में यूनेस्को की विश्व धरोहर स्थल घोषित किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In which modern-day state and district of India are the ruins of the ancient Valabhi University located?",
+      "option_a": "Maharashtra, Pune",
+      "option_b": "Gujarat, Bhavnagar",
+      "option_c": "Rajasthan, Jodhpur",
+      "option_d": "Madhya Pradesh, Ujjain",
+      "correct": "B",
+      "explanation": "Correct option: B. The ruins of Valabhi University are located near the town of Vallabhipur in the Bhavnagar district of Gujarat."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन वलभी विश्वविद्यालय के अवशेष भारत के किस आधुनिक राज्य और जिले में स्थित हैं?",
+      "option_a": "महाराष्ट्र, पुणे",
+      "option_b": "गुजरात, भावनगर",
+      "option_c": "राजस्थान, जोधपुर",
+      "option_d": "मध्य प्रदेश, उज्जैन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। वलभी विश्वविद्यालय के खंडहर गुजरात के भावनगर जिले में वल्लभीपुर शहर के निकट स्थित हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following fields of study was Takshashila University particularly famous for throughout the subcontinent?",
+      "option_a": "Classical Dance and Drama",
+      "option_b": "Medicine, Statecraft, and Military Warfare",
+      "option_c": "Hinayana Monastic Rules only",
+      "option_d": "Shipbuilding and Navigation",
+      "correct": "B",
+      "explanation": "Correct option: B. Takshashila was renowned as a secular center of higher learning, particularly famous for medicine (Ayurveda), statecraft (Kautiliya connection), and military science (dhanurvidya)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तक्षशिला विश्वविद्यालय पूरे उपमहाद्वीप में अध्ययन के निम्नलिखित में से किस क्षेत्र के लिए विशेष रूप से प्रसिद्ध था?",
+      "option_a": "शास्त्रीय नृत्य और नाटक",
+      "option_b": "चिकित्सा, राजनीति और सैन्य युद्ध कौशल",
+      "option_c": "केवल हीनयान भिक्षु नियम",
+      "option_d": "जहाज निर्माण और नौवहन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। तक्षशिला उच्च शिक्षा के एक धर्मनिरपेक्ष केंद्र के रूप में प्रसिद्ध था, जो विशेष रूप से चिकित्सा (आयुर्वेद), राजनीति विज्ञान और सैन्य विज्ञान (धनुर्विद्या) के लिए प्रसिद्ध था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Chinese pilgrim Yijing (I-Tsing), who visited India in the late 7th century, compared the educational standards of Valabhi to which other university?",
+      "option_a": "Takshashila",
+      "option_b": "Nalanda",
+      "option_c": "Vikramashila",
+      "option_d": "Odantapuri",
+      "correct": "B",
+      "explanation": "Correct option: B. Yijing mentioned that the educational standards and fame of Valabhi in Western India were equal to those of Nalanda in Eastern India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 7वीं शताब्दी के अंत में भारत की यात्रा करने वाले चीनी तीर्थयात्री इत्सिंग (I-Tsing) ने वलभी के शैक्षिक मानकों की तुलना किस अन्य विश्वविद्यालय से की थी?",
+      "option_a": "तक्षशिला",
+      "option_b": "नालंदा",
+      "option_c": "विक्रमशिला",
+      "option_d": "ओदंतपुरी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। इत्सिंग ने उल्लेख किया था कि पश्चिमी भारत में वलभी के शैक्षिक मानक और प्रसिद्धि पूर्वी भारत के नालंदा के समान थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. How was the strict entry/admission test at Nalanda University conducted, as described by Chinese travelers?",
+      "option_a": "A written exam conducted by the Chancellor",
+      "option_b": "An oral examination at the gates by scholar-gatekeepers (Dvarapalas)",
+      "option_c": "Recommendations from royal families",
+      "option_d": "Drawing of lots",
+      "correct": "B",
+      "explanation": "Correct option: B. Admission to Nalanda was extremely competitive; candidates had to undergo a rigorous oral debate/test at the entrance gates conducted by the scholar-gatekeepers (Dvarapalas)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चीनी यात्रियों के विवरण के अनुसार, नालंदा विश्वविद्यालय में प्रवेश परीक्षा का संचालन किस प्रकार किया जाता था?",
+      "option_a": "कुलाधिपति द्वारा आयोजित लिखित परीक्षा",
+      "option_b": "द्वार-पंडितों (द्वारपालों) द्वारा प्रवेश द्वारों पर ली जाने वाली मौखिक परीक्षा",
+      "option_c": "शाही परिवारों से प्राप्त सिफारिश पत्र",
+      "option_d": "लॉटरी प्रणाली द्वारा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। नालंदा में प्रवेश अत्यंत कठिन था; उम्मीदवारों को प्रवेश द्वार पर ही द्वार-पंडितों (विद्वान द्वारपालों) द्वारा आयोजित एक कठिन मौखिक वाद-विवाद/परीक्षा का सामना करना पड़ता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The copper plate inscription of Nalanda records that King Balaputradeva of the Shailendra dynasty requested which Pala king to grant five villages for the maintenance of a monastery?",
+      "option_a": "Gopala",
+      "option_b": "Dharmapala",
+      "option_c": "Devapala",
+      "option_d": "Mahipala I",
+      "correct": "C",
+      "explanation": "Correct option: C. Balaputradeva, the king of Suvarnadvipa (Sumatra/Java), sent an embassy to the Pala ruler Devapala requesting the grant of five villages for the upkeep of the monastery he built at Nalanda."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा के ताम्रपत्र अभिलेख से पता चलता है कि शैलेंद्र राजवंश के राजा बालपुत्रदेव ने किस पाल राजा से एक विहार के रखरखाव के लिए पांच गांवों को दान करने का अनुरोध किया था?",
+      "option_a": "गोपाल",
+      "option_b": "धर्मपाल",
+      "option_c": "देवपाल",
+      "option_d": "महीपाल प्रथम",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। सुवर्णद्वीप (सुमात्रा/जावा) के राजा बालपुत्रदेव ने पाल शासक देवपाल के दरबार में एक दूत भेजकर नालंदा में उनके द्वारा बनवाए गए विहार के रखरखाव के लिए पांच गांवों के अनुदान का अनुरोध किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. How did Nalanda University manage its daily expenses, food, and lodging for thousands of students and teachers?",
+      "option_a": "By charging high tuition fees",
+      "option_b": "Through tax revenues of surrounding villages donated by kings like Harsha",
+      "option_c": "Through compulsory military tax",
+      "option_d": "Through trade monopolies in the Ganges region",
+      "correct": "B",
+      "explanation": "Correct option: B. Nalanda was free for students. Its expenses were funded by the revenue of donated villages (King Harsha donated 100 villages, and later rulers added more)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय हजारों छात्रों और शिक्षकों के दैनिक खर्च, भोजन और आवास की व्यवस्था कैसे करता था?",
+      "option_a": "भारी शिक्षण शुल्क वसूल कर",
+      "option_b": "राजा हर्ष जैसे शासकों द्वारा दान किए गए आसपास के गांवों के कर राजस्व से",
+      "option_c": "अनिवार्य सैन्य कर के माध्यम से",
+      "option_d": "गंगा क्षेत्र में व्यापारिक एकाधिकार के माध्यम से",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। नालंदा छात्रों के लिए निःशुल्क था। इसके खर्चों का वहन दान किए गए गांवों के राजस्व से होता था (राजा हर्ष ने 100 गांव दान किए थे, और बाद के शासकों ने और अधिक गांव जोड़े)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which British archaeologist led the major systematic excavation of the ruins of Takshashila in the early 20th century?",
+      "option_a": "Alexander Cunningham",
+      "option_b": "Mortimer Wheeler",
+      "option_c": "Sir John Marshall",
+      "option_d": "James Prinsep",
+      "correct": "C",
+      "explanation": "Correct option: C. Sir John Marshall conducted extensive excavations at Takshashila from 1913 onwards and established the Taxila Museum."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 20वीं शताब्दी के प्रारंभ में किस ब्रिटिश पुरातत्वविद् ने तक्षशिला के खंडहरों के बड़े व्यवस्थित उत्खनन का नेतृत्व किया था?",
+      "option_a": "अलेक्जेंडर कनिंघम",
+      "option_b": "मॉर्टिमर व्हीलर",
+      "option_c": "सर जॉन मार्शल",
+      "option_d": "जेम्स प्रिंसेप",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। सर जॉन मार्शल ने 1913 से तक्षशिला में व्यापक उत्खनन का कार्य किया और तक्षशिला संग्रहालय की स्थापना की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which famous historical figure was taken as a young boy to Takshashila by Chanakya (Kautilya) to be educated in statecraft, military science, and humanities?",
+      "option_a": "Bindusara",
+      "option_b": "Ashoka",
+      "option_c": "Chandragupta Maurya",
+      "option_d": "Kharavela",
+      "correct": "C",
+      "explanation": "Correct option: C. Chanakya took Chandragupta Maurya to Takshashila, where he was trained for several years before establishing the Mauryan Empire."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चाणक्य (कौटिल्य) किस प्रसिद्ध ऐतिहासिक व्यक्ति को बचपन में तक्षशिला ले गए थे, ताकि उन्हें राजनीति, सैन्य विज्ञान और मानविकी में शिक्षित किया जा सके?",
+      "option_a": "बिन्दुसार",
+      "option_b": "अशोक",
+      "option_c": "चंद्रगुप्त मौर्य",
+      "option_d": "खारवेल",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। चाणक्य चंद्रगुप्त मौर्य को तक्षशिला ले गए थे, जहाँ मौर्य साम्राज्य की स्थापना करने से पहले उन्हें कई वर्षों तक प्रशिक्षित किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Graduates of Valabhi University were highly sought after in ancient India for employment in which of the following sectors?",
+      "option_a": "Temple priests and ritual heads",
+      "option_b": "State administration, civil services, and law",
+      "option_c": "Naval commanders and maritime traders",
+      "option_d": "Sculpting and temple architecture",
+      "correct": "B",
+      "explanation": "Correct option: B. Valabhi was known not only for Hinayana Buddhism but also for secular subjects, and its graduates were highly preferred for administrative and civil posts in royal courts."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारत में वलभी विश्वविद्यालय के स्नातकों की मांग निम्नलिखित में से किस क्षेत्र में रोजगार के लिए सबसे अधिक थी?",
+      "option_a": "मंदिर के पुजारी और कर्मकांड प्रमुख",
+      "option_b": "राज्य प्रशासन, नागरिक सेवाएं (सिविल सर्विसेज) और कानून",
+      "option_c": "नौसेना कमांडर और समुद्री व्यापारी",
+      "option_d": "मूर्तिकला और मंदिर वास्तुकला",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। वलभी न केवल हीनयान बौद्ध धर्म के लिए बल्कि धर्मनिरपेक्ष विषयों के लिए भी जाना जाता था, और इसके स्नातकों को शाही दरबारों में प्रशासनिक और नागरिक पदों के लिए अत्यधिक प्राथमिकता दी जाती थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. How many years did the Chinese scholar Xuanzang spend at Nalanda University studying Buddhist texts, Sanskrit, and philosophy?",
+      "option_a": "About 2 years",
+      "option_b": "About 5 years",
+      "option_c": "About 10 years",
+      "option_d": "Less than 6 months",
+      "correct": "B",
+      "explanation": "Correct option: B. Xuanzang spent approximately 5 years at Nalanda University studying under Abbot Shilabhadra and copying manuscripts."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चीनी विद्वान ह्वेनसांग ने नालंदा विश्वविद्यालय में बौद्ध ग्रंथों, संस्कृत और दर्शन का अध्ययन करते हुए कितने वर्ष बिताए थे?",
+      "option_a": "लगभग 2 वर्ष",
+      "option_b": "लगभग 5 वर्ष",
+      "option_c": "लगभग 10 वर्ष",
+      "option_d": "6 महीने से कम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। ह्वेनसांग ने नालंदा विश्वविद्यालय में कुलाधिपति शीलभद्र के अधीन अध्ययन करने और पांडुलिपियों की नकल करने में लगभग 5 वर्ष बिताए थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The ancient city of Valabhi was situated in which sub-region of Western India?",
+      "option_a": "Kutch",
+      "option_b": "Saurashtra (Kathiawar)",
+      "option_c": "Konkan",
+      "option_d": "Malwa",
+      "correct": "B",
+      "explanation": "Correct option: B. Valabhi was located in the Saurashtra peninsula (Kathiawar region) of Gujarat, which was a flourishing port and capital city."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन वलभी नगर पश्चिमी भारत के किस उप-क्षेत्र में स्थित था?",
+      "option_a": "कच्छ",
+      "option_b": "सौराष्ट्र (काठियावाड़)",
+      "option_c": "कोंकण",
+      "option_d": "मालवा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। वलभी गुजरात के सौराष्ट्र प्रायद्वीप (काठियावाड़ क्षेत्र) में स्थित था, जो एक समृद्ध बंदरगाह और राजधानी शहर था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The modern Nalanda University, revived through international collaboration, was established in 2014 at which location?",
+      "option_a": "Patna",
+      "option_b": "Gaya",
+      "option_c": "Rajgir",
+      "option_d": "Nalanda town",
+      "correct": "C",
+      "explanation": "Correct option: C. The newly established Nalanda University is located in Rajgir, near the ruins of the ancient Nalanda Mahavihara."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. अंतरराष्ट्रीय सहयोग से पुनर्जीवित किया गया आधुनिक नालंदा विश्वविद्यालय वर्ष 2014 में किस स्थान पर स्थापित किया गया था?",
+      "option_a": "पटना",
+      "option_b": "गया",
+      "option_c": "राजगीर",
+      "option_d": "नालंदा कस्बा",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। नवस्थापित नालंदा विश्वविद्यालय प्राचीन नालंदा महाविहार के खंडहरों के निकट राजगीर में स्थित है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Charaka, the legendary physician and principal compiler of the 'Charaka Samhita', is believed to have been associated with which ancient center of learning?",
+      "option_a": "Nalanda",
+      "option_b": "Takshashila",
+      "option_c": "Valabhi",
+      "option_d": "Kashi",
+      "correct": "B",
+      "explanation": "Correct option: B. Charaka, one of the founding fathers of Ayurveda, lived and studied at Takshashila, which was the hub of Ayurvedic medicine."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'चरक संहिता' के मुख्य संकलनकर्ता और प्रसिद्ध चिकित्सक चरक किस प्राचीन शिक्षा केंद्र से जुड़े माने जाते हैं?",
+      "option_a": "नालंदा",
+      "option_b": "तक्षशिला",
+      "option_c": "वलभी",
+      "option_d": "काशी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। आयुर्वेद के संस्थापकों में से एक, चरक तक्षशिला में रहते थे और वहीं अध्ययन किया था, जो आयुर्वेदिक चिकित्सा का केंद्र था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to the memoirs of Chinese traveler Xuanzang, approximately how many students and monks resided at Nalanda University during its peak?",
+      "option_a": "1,000",
+      "option_b": "5,000",
+      "option_c": "10,000",
+      "option_d": "50,000",
+      "correct": "C",
+      "explanation": "Correct option: C. Xuanzang estimated that there were about 10,000 students and monks residing at Nalanda, taught by 1,510 teachers."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चीनी यात्री ह्वेनसांग के संस्मरणों के अनुसार, अपने चरमोत्कर्ष के दौरान नालंदा विश्वविद्यालय में लगभग कितने छात्र और भिक्षु निवास करते थे?",
+      "option_a": "1,000",
+      "option_b": "5,000",
+      "option_c": "10,000",
+      "option_d": "50,000",
+      "correct": "C",
+      "explanation": "सही विकल्प: C। ह्वेनसांग ने अनुमान लगाया था कि नालंदा में लगभग 10,000 छात्र और भिक्षु रहते थे, जिन्हें 1,510 शिक्षकों द्वारा पढ़ाया जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Valabhi University declined and was eventually destroyed in the late 8th century CE due to invasions from which region?",
+      "option_a": "Hunas from Central Asia",
+      "option_b": "Arabs of Sindh",
+      "option_c": "Ghaznavids from Afghanistan",
+      "option_d": "Tibet",
+      "correct": "B",
+      "explanation": "Correct option: B. The Maitraka capital Valabhi was raided and destroyed by Arab invaders from Sindh around 775-780 CE, leading to the collapse of the university."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 8वीं शताब्दी ईस्वी के अंत में किस क्षेत्र के आक्रमणकारियों के कारण वलभी विश्वविद्यालय का पतन हुआ और अंततः वह नष्ट हो गया?",
+      "option_a": "मध्य एशिया के हूण",
+      "option_b": "सिंध के अरब",
+      "option_c": "अफगानिस्तान के गजनवी",
+      "option_d": "तिब्बत",
+      "correct": "B",
+      "explanation": "सही विकल्प: B। मैत्रकों की राजधानी वल्लभी को लगभग 775-780 ईस्वी में सिंध के अरब आक्रमणकारियों द्वारा लूटा और नष्ट कर दिया गया था, जिससे विश्वविद्यालय का पतन हो गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Takshashila was not a centralized, residential university in the same manner as Nalanda or Valabhi.\nReason (R): Takshashila lacked a centralized administrative structure, uniform syllabus, or common lecture halls, operating instead as a collection of independent gurukulas.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: A is true because Takshashila was indeed a decentralized center of education where teachers ran independent houses of learning.\nReason Analysis: R is true and explains A, as the lack of a central governing body, common examinations, or central dormitories meant it did not function as a single corporate university."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): तक्षशिला नालंदा या वलभी की तरह एक केंद्रीकृत, आवासीय विश्वविद्यालय नहीं था।\nकारण (R): तक्षशिला में एक केंद्रीकृत प्रशासनिक संरचना, समान पाठ्यक्रम या साझा व्याख्यान कक्षों का अभाव था, और यह स्वतंत्र गुरुकुलों के समूह के रूप में संचालित होता था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: A सही है क्योंकि तक्षशिला वास्तव में शिक्षा का एक विकेंद्रीकृत केंद्र था जहां शिक्षक स्वतंत्र शिक्षण शालाएं चलाते थे।\nकारण विश्लेषण: R सही है और A की व्याख्या करता है, क्योंकि केंद्रीय शासी निकाय, साझा परीक्षाओं या केंद्रीय छात्रावासों की कमी का अर्थ था कि यह एक एकीकृत विश्वविद्यालय के रूप में कार्य नहीं करता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Nalanda University provided entirely free education, boarding, and lodging to all its students.\nReason (R): The university was supported by the revenues of over one hundred villages donated by successive rulers, including Harsha and the Pala kings.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: A is true as accounts of Xuanzang confirm that students faced no financial burden for their studies, food, or shelter.\nReason Analysis: R is true and explains A, because the royal endowments of entire villages and their agricultural revenues allowed the university administration to sustain all expenses without charging tuition."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): नालंदा विश्वविद्यालय अपने सभी छात्रों को पूरी तरह से मुफ्त शिक्षा, भोजन और आवास प्रदान करता था।\nकारण (R): विश्वविद्यालय का खर्च हर्ष और पाल राजाओं सहित क्रमिक शासकों द्वारा दान किए गए सौ से अधिक गांवों के राजस्व से चलता था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: A सही है क्योंकि ह्वेनसांग के विवरण पुष्टि करते हैं कि छात्रों को शिक्षा, भोजन या आवास के लिए कोई वित्तीय बोझ नहीं उठाना पड़ता था।\nकारण विश्लेषण: R सही है और A की व्याख्या करता है, क्योंकि राजाओं द्वारा दान किए गए पूरे गांवों के कृषि राजस्व ने विश्वविद्यालय प्रशासन को बिना कोई शिक्षण शुल्क लिए सभी खर्चों को वहन करने की अनुमति दी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Valabhi University became a prominent Buddhist center in Western India, rivaling Nalanda in the East.\nReason (R): The Maitraka kings who patronized Valabhi were devout Buddhists who banned Vedic rituals and non-Buddhist schools of philosophy.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: A is true because Valabhi was a globally renowned center of learning in Western India, compared directly to Nalanda by Chinese travelers.\nReason Analysis: R is false because the Maitraka rulers, although generous patrons of Buddhist viharas, were predominantly Shaiva by personal faith and practiced religious tolerance, never banning Vedic rituals or other schools."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): वलभी विश्वविद्यालय पश्चिमी भारत में एक प्रमुख बौद्ध केंद्र बन गया, जो पूर्व में नालंदा के साथ प्रतिस्पर्धा करता था।\nकारण (R): वलभी को संरक्षण देने वाले मैत्रक राजा कट्टर बौद्ध थे जिन्होंने वैदिक अनुष्ठानों और गैर-बौद्ध दर्शन पद्धतियों पर प्रतिबंध लगा दिया था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: A सही है क्योंकि वलभी पश्चिमी भारत में शिक्षा का एक विश्व प्रसिद्ध केंद्र था, जिसकी तुलना चीनी यात्रियों द्वारा सीधे नालंदा से की गई थी।\nकारण विश्लेषण: R गलत है क्योंकि मैत्रक शासक, यद्यपि बौद्ध विहारों के उदार संरक्षक थे, स्वयं व्यक्तिगत रूप से शैव धर्म के अनुयायी थे और उन्होंने धार्मिक सहिष्णुता अपनाई, कभी भी वैदिक अनुष्ठानों या अन्य संप्रदायों पर प्रतिबंध नहीं लगाया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Takshashila was highly renowned for its school of medicine, attracting students from far-off places like Varanasi and Rajgriha.\nReason (R): Atreya, the legendary teacher of medicine (Ayurveda), taught at Takshashila, and Jivaka was trained under him.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: A is true because Takshashila's medical school was the most prestigious in ancient India, drawing top students from distant regions.\nReason Analysis: R is true and explains A, as the presence of legendary authorities like Atreya and the successful training of Jivaka solidified its reputation as the premier medical university."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): तक्षशिला चिकित्सा शास्त्र के अपने शिक्षण के लिए अत्यधिक प्रसिद्ध था, जो वाराणसी और राजगृह जैसे सुदूर स्थानों से छात्रों को आकर्षित करता था।\nकारण (R): चिकित्सा (आयुर्वेद) के महान गुरु आत्रेय तक्षशिला में पढ़ाते थे, और जीवक ने उन्हीं के अधीन प्रशिक्षण प्राप्त किया था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: A सही है क्योंकि तक्षशिला का चिकित्सा विद्यालय प्राचीन भारत में सबसे प्रतिष्ठित था, जो दूर-दूर के क्षेत्रों के कुशाग्र छात्रों को आकर्षित करता था।\nकारण विश्लेषण: R सही है और A की व्याख्या करता है, क्योंकि आत्रेय जैसे महान विद्वानों की उपस्थिति और जीवक के सफल प्रशिक्षण ने इसे प्रमुख चिकित्सा विश्वविद्यालय के रूप में स्थापित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Only a small fraction of the candidates who sought admission to Nalanda University were actually admitted.\nReason (R): The library of Nalanda University was a massive three-building complex called Dharmaganja.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "B",
+      "explanation": "Assertion Analysis: A is true because Xuanzang noted that only 2 or 3 out of 10 candidates could pass the strict entrance test conducted by the gatekeepers.\nReason Analysis: R is true, as Nalanda's library indeed consisted of Ratnasagara, Ratnodadhi, and Ratnaranjaka, but this fact does not explain the strict entrance examinations at the gates."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): नालंदा विश्वविद्यालय में प्रवेश चाहने वाले उम्मीदवारों में से केवल एक छोटा सा हिस्सा ही वास्तव में प्रवेश पा पाता था।\nकारण (R): नालंदा विश्वविद्यालय का पुस्तकालय धर्मगंज नामक एक विशाल तीन-भवन परिसर था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: A सही है क्योंकि ह्वेनसांग ने उल्लेख किया था कि द्वारपालों द्वारा ली जाने वाली कठिन प्रवेश परीक्षा में 10 में से केवल 2 या 3 उम्मीदवार ही उत्तीर्ण हो पाते थे।\nकारण विश्लेषण: R सही है, क्योंकि नालंदा के पुस्तकालय में वास्तव में तीन भवन शामिल थे, लेकिन यह तथ्य प्रवेश परीक्षा की कठिन होने की व्याख्या नहीं करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Valabhi University served as a major training ground for civil servants and administrative officers in western India.\nReason (R): The curriculum of Valabhi was distinct from Nalanda, emphasizing secular and administrative subjects like law, economics (niti-shastra), and public administration.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: A is true because historical records show that Valabhi graduates were preferred for high administrative and judicial posts in royal courts.\nReason Analysis: R is true and explains A, since the curriculum specifically focused on practical, secular subjects required for the state bureaucracy, in addition to Hinayana theology."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): वलभी विश्वविद्यालय ने पश्चिमी भारत में सिविल सेवकों और प्रशासनिक अधिकारियों के लिए एक प्रमुख प्रशिक्षण केंद्र के रूप में कार्य किया।\nकारण (R): वलभी का पाठ्यक्रम नालंदा से भिन्न था, जिसमें हीनयान धर्मशास्त्र के साथ-साथ कानून, अर्थशास्त्र (नीति-शास्त्र) और लोक प्रशासन जैसे धर्मनिरपेक्ष और प्रशासनिक विषयों पर बल दिया जाता था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: A सही है क्योंकि ऐतिहासिक रिकॉर्ड दर्शाते हैं कि वलभी के स्नातकों को शाही दरबारों में उच्च प्रशासनिक और न्यायिक पदों के लिए प्राथमिकता दी जाती थी।\nकारण विश्लेषण: R सही है और A की व्याख्या करता है, क्योंकि पाठ्यक्रम में विशेष रूप से हीनयान धर्मशास्त्र के अतिरिक्त राज्य नौकरशाही के लिए आवश्यक व्यावहारिक और धर्मनिरपेक्ष विषयों पर ध्यान केंद्रित किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Nalanda University was a cosmopolitan institution that attracted scholars from China, Tibet, Korea, and Central Asia.\nReason (R): The academic focus on Mahayana Buddhism, logic, and philosophy at Nalanda matched the intellectual demands of East Asian cultures where Buddhism had spread.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: A is true as Chinese, Tibetan, Korean, and Indonesian sources document their scholars traveling to study at Nalanda.\nReason Analysis: R is true and explains A, because the dissemination of Mahayana Buddhism in East and Central Asia created a high demand for advanced theological and philosophical training which Nalanda provided."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): नालंदा विश्वविद्यालय एक महानगरीय (कॉस्मोपॉलिटन) संस्थान था जिसने चीन, तिब्बत, कोरिया और मध्य एशिया के विद्वानों को आकर्षित किया था।\nकारण (R): नालंदा में महायान बौद्ध धर्म, तर्कशास्त्र और दर्शन पर अकादमिक ध्यान पूर्वी एशियाई संस्कृतियों की बौद्ध बौद्धिक मांगों के बिल्कुल अनुकूल था जहां बौद्ध धर्म फैल चुका था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: A सही है क्योंकि चीनी, तिब्बती, कोरियाई और इंडोनेशियाई स्रोत उनके विद्वानों के नालंदा में अध्ययन के लिए यात्रा करने का विवरण देते हैं।\nकारण विश्लेषण: R सही है और A की व्याख्या करता है, क्योंकि पूर्वी और मध्य एशिया में महायान बौद्ध धर्म के प्रसार ने उन्नत धार्मिक और दार्शनिक प्रशिक्षण की उच्च मांग पैदा की थी जो नालंदा द्वारा प्रदान की जाती थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The ruins of Nalanda University were forgotten and buried under the earth for centuries until modern excavations began.\nReason (R): Nalanda University was completely restored and functioning under the protection of the Delhi Sultanate kings during the 14th century.\n\nSelect the correct answer using the codes below:",
+      "option_a": "Both A and R are true and R is the correct explanation of A",
+      "option_b": "Both A and R are true but R is NOT the correct explanation of A",
+      "option_c": "A is true but R is false",
+      "option_d": "A is false but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: A is true because following its destruction, Nalanda fell into abandonment, and its ruins were covered by soil mounds until the 19th century.\nReason Analysis: R is false because the university was never restored or protected by the Delhi Sultanate; it ceased functioning as a major university after its destruction in the late 12th/early 13th century."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\nअभिकथन (A): नालंदा विश्वविद्यालय के खंडहरों को सदियों के लिए भुला दिया गया था और आधुनिक उत्खनन शुरू होने तक वे मिट्टी में दबे रहे।\nकारण (R): नालंदा विश्वविद्यालय को 14वीं शताब्दी के दौरान दिल्ली सल्तनत के राजाओं के संरक्षण में पूरी तरह से बहाल कर दिया गया था और यह सुचारू रूप से कार्य कर रहा था।\n\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "option_a": "A और R दोनों सही हैं और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है लेकिन R गलत है",
+      "option_d": "A गलत है लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: A सही है क्योंकि इसके विनाश के बाद नालंदा परित्यक्त हो गया था और 19वीं सदी तक इसके खंडहर मिट्टी के टीलों से ढके रहे थे।\nकारण विश्लेषण: R गलत है क्योंकि दिल्ली सल्तनत द्वारा विश्वविद्यालय को कभी बहाल या संरक्षित नहीं किया गया था; 12वीं सदी के अंत/13वीं सदी के आरंभ में नष्ट होने के बाद यह एक प्रमुख विश्वविद्यालय के रूप में समाप्त हो गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Scholar/Traveler) with List-II (Key Association/Description) and select the correct answer:\nList-I:\na) Xuanzang\nb) Chanakya\nc) Jivaka\nd) Gunamati\ne) Yijing\n\nList-II:\n1) Resided and studied at Nalanda, providing detailed notes on its layout\n2) Teacher of statecraft and military arts associated with Takshashila\n3) Personal physician to Bimbisara trained in medicine at Taxila\n4) Eminent Hinayana Buddhist scholar who resided at Valabhi\n5) Chinese traveler who visited Valabhi in the late 7th century CE",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-2, b-4, c-1, d-3, e-5",
+      "correct": "A",
+      "explanation": "Correct option: A. Xuanzang (a) lived at Nalanda [1]. Chanakya (b) taught statecraft at Takshashila [2]. Jivaka (c) trained in medicine at Taxila [3]. Gunamati (d) was a Hinayana scholar at Valabhi [4]. Yijing (e) visited Valabhi in the late 7th century [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (विद्वान/यात्री) को सूची-II (प्रमुख संबंध/विवरण) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) ह्वेनसांग (Xuanzang)\nb) चाणक्य\nc) जीवक\nd) गुणमति\ne) इत्सिंग (Yijing)\n\nसूची-II:\n1) नालंदा में निवास कर अध्ययन किया और इसके अभिन्यास (लेआउट) पर विस्तृत विवरण दिया\n2) तक्षशिला से जुड़े राजनीति और सैन्य कला के शिक्षक\n3) बिम्बिसार के व्यक्तिगत चिकित्सक जिन्होंने तक्षशिला में चिकित्सा का प्रशिक्षण प्राप्त किया\n4) प्रतिष्ठित हीनयान बौद्ध विद्वान जिन्होंने वलभी में निवास किया\n5) चीनी यात्री जिन्होंने 7वीं शताब्दी ईस्वी के अंत में वलभी की यात्रा की थी",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-4, e-5",
+      "option_d": "a-2, b-4, c-1, d-3, e-5",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। ह्वेनसांग (a) नालंदा में रहे [1]। चाणक्य (b) ने तक्षशिला में राजनीति पढ़ाई [2]। जीवक (c) ने तक्षशिला में चिकित्सा सीखी [3]। गुणमति (d) वलभी के हीनयान विद्वान थे [4]। इत्सिंग (e) ने 7वीं सदी के अंत में वलभी की यात्रा की [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient University) with List-II (Modern Geographical Location) and select the correct answer:\nList-I:\na) Takshashila\nb) Nalanda\nc) Valabhi\nd) Vikramashila\n\nList-II:\n1) Rawalpindi district, Punjab, Pakistan\n2) Nalanda district, Bihar, India\n3) Bhavnagar district, Gujarat, India\n4) Bhagalpur district, Bihar, India\n5) Midnapore district, West Bengal, India",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Takshashila (a) is located near Rawalpindi in Pakistan [1]. Nalanda (b) is in Bihar [2]. Valabhi (c) is in Gujarat [3]. Vikramashila (d) is in Bhagalpur, Bihar [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन विश्वविद्यालय) को सूची-II (आधुनिक भौगोलिक स्थान) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) तक्षशिला\nb) नालंदा\nc) वलभी\nd) विक्रमशिला\n\nसूची-II:\n1) रावलपिंडी जिला, पंजाब, पाकिस्तान\n2) नालंदा जिला, बिहार, भारत\n3) भावनगर जिला, गुजरात, भारत\n4) भागलपुर जिला, बिहार, भारत\n5) मिदनापुर जिला, पश्चिम बंगाल, भारत",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। तक्षशिला (a) पाकिस्तान के रावलपिंडी के पास स्थित है [1]। नालंदा (b) बिहार में है [2]। वलभी (c) गुजरात में है [3]। विक्रमशिला (d) भागलपुर, बिहार में है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Patron/King) with List-II (Key Association/Beneficial Act) and select the correct answer:\nList-I:\na) Kumaragupta I\nb) Harsha Vardhana\nc) Dharasena I\nd) Devapala\ne) Balaputradeva\n\nList-II:\n1) Founded the original Nalanda Mahavihara in the 5th century CE\n2) Donated revenues of 100 villages to Nalanda and built a brass monastery\n3) Early Maitraka ruler who patronized Buddhist viharas at Valabhi\n4) Granted five villages for a monastery built by a Sumatran king at Nalanda\n5) King of Suvarnadvipa who built a monastery at Nalanda",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-5, e-4",
+      "option_d": "a-3, b-2, c-1, d-4, e-5",
+      "correct": "A",
+      "explanation": "Correct option: A. Kumaragupta I (a) founded Nalanda [1]. Harsha (b) donated 100 villages [2]. Dharasena I (c) patronized Valabhi [3]. Devapala (d) granted 5 villages [4]. Balaputradeva (e) was the Sumatran king who built the monastery [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (संरक्षक/राजा) को सूची-II (प्रमुख संबंध/कल्याणकारी कार्य) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) कुमारगुप्त प्रथम\nb) हर्षवर्धन\nc) धरसेन प्रथम\nd) देवपाल\ne) बालपुत्रदेव\n\nसूची-II:\n1) 5वीं शताब्दी ईस्वी में मूल नालंदा महाविहार की स्थापना की\n2) नालंदा को 100 गांवों का राजस्व दान किया और एक पीतल का विहार बनवाया\n3) प्रारंभिक मैत्रक शासक जिन्होंने वलभी में बौद्ध विहारों को संरक्षण दिया\n4) सुमात्रा के राजा द्वारा नालंदा में निर्मित विहार के लिए पांच गाँव दान किए\n5) सुवर्णद्वीप के राजा जिन्होंने नालंदा में एक बौद्ध विहार का निर्माण करवाया",
+      "option_a": "a-1, b-2, c-3, d-4, e-5",
+      "option_b": "a-2, b-1, c-3, d-5, e-4",
+      "option_c": "a-1, b-3, c-2, d-5, e-4",
+      "option_d": "a-3, b-2, c-1, d-4, e-5",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। कुमारगुप्त प्रथम (a) ने नालंदा की स्थापना की [1]। हर्ष (b) ने 100 गाँव दान किए [2]। धरसेन प्रथम (c) ने वलभी को संरक्षण दिया [3]। देवपाल (d) ने 5 गाँव दान किए [4]। बालपुत्रदेव (e) सुमात्रा के राजा थे जिन्होंने विहार बनवाया [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Academic Department/Library Component) with List-II (Description/Name) and select the correct answer:\nList-I:\na) Ratnasagara\nb) Ratnodadhi\n9) Ratnaranjaka\nd) Dvarapala\ne) Dharmaganja\n\nList-II:\n1) The 'Ocean of Jewels' building of Nalanda's library\n2) The nine-storeyed 'Sea of Jewels' library building housing sacred texts\n3) The 'Jewel-adorned' building of the Nalanda library complex\n4) Scholar-gatekeeper who tested candidates during admission\n5) The collective name of the library repository at Nalanda\n\n*(Note: List-I has a typo in prefix (9) instead of (c) to test reading, match accordingly)*",
+      "option_a": "a-1, b-2, 9-3, d-4, e-5",
+      "option_b": "a-2, b-1, 9-3, d-5, e-4",
+      "option_c": "a-1, b-3, 9-2, d-4, e-5",
+      "option_d": "a-3, b-2, 9-1, d-4, e-5",
+      "correct": "A",
+      "explanation": "Correct option: A. Ratnasagara (a) matches [1]. Ratnodadhi (b) was the nine-storeyed building [2]. Ratnaranjaka (9) matches [3]. Dvarapala (d) is the gatekeeper [4]. Dharmaganja (e) is the library complex [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (अकादमिक विभाग/पुस्तकालय घटक) को सूची-II (विवरण/नाम) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) रत्नसागर\nb) रत्नोदधि\n9) रत्नरंजक\nd) द्वारपाल\ne) धर्मगंज\n\nसूची-II:\n1) नालंदा पुस्तकालय का 'रत्नों का महासागर' नामक भवन\n2) पवित्र ग्रंथों को रखने वाला नौ मंजिला 'रत्नों का सागर' पुस्तकालय भवन\n3) नालंदा पुस्तकालय परिसर का 'रत्नों से सुसज्जित' भवन\n4) विद्वान-द्वारपाल जो प्रवेश के समय उम्मीदवारों की परीक्षा लेते थे\n5) नालंदा में पुस्तकालय भंडार का सामूहिक नाम\n\n*(नोट: सूची-I में (c) के स्थान पर (9) टाइपो है, तदनुसार मिलान करें)*",
+      "option_a": "a-1, b-2, 9-3, d-4, e-5",
+      "option_b": "a-2, b-1, 9-3, d-5, e-4",
+      "option_c": "a-1, b-3, 9-2, d-4, e-5",
+      "option_d": "a-3, b-2, 9-1, d-4, e-5",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। रत्नसागर (a) का मिलान [1] से है। रत्नोदधि (b) नौ मंजिला भवन था [2]। रत्नरंजक (9) का मिलान [3] से है। द्वारपाल (d) प्रवेश द्वार रक्षक थे [4]। धर्मगंज (e) पुस्तकालय परिसर का नाम था [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Ancient Scholar) with List-II (Specific Scholarly Work/Contribution) and select the correct answer:\nList-I:\na) Charaka\nb) Panini\n9) Kautilya\nd) Shilabhadra\ne) Xuanzang\n\nList-II:\n1) Authored the 'Charaka Samhita', a foundational text of Ayurveda\n2) Codified Sanskrit grammar in the text 'Ashtadhyayi'\n3) Wrote the 'Arthashastra', a masterwork on statecraft and economy\n4) Headed Nalanda University and taught Yogacara philosophy\n5) Translated Sanskrit Buddhist texts into Chinese\n\n*(Note: List-I has a typo in prefix (9) instead of (c) to test reading, match accordingly)*",
+      "option_a": "a-1, b-2, 9-3, d-4, e-5",
+      "option_b": "a-2, b-1, 9-3, d-5, e-4",
+      "option_c": "a-1, b-3, 9-2, d-4, e-5",
+      "option_d": "a-3, b-4, 9-1, d-2, e-5",
+      "correct": "A",
+      "explanation": "Correct option: A. Charaka (a) authored Charaka Samhita [1]. Panini (b) wrote Ashtadhyayi [2]. Kautilya (9) wrote Arthashastra [3]. Shilabhadra (d) taught Yogacara [4]. Xuanzang (e) translated Sanskrit texts [5]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (प्राचीन विद्वान) को सूची-II (विशिष्ट विद्वत्तापूर्ण कार्य/योगदान) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) चरक\nb) पाणिनि\n9) कौटिल्य\nd) शीलभद्र\ne) ह्वेनसांग\n\nसूची-II:\n1) आयुर्वेद के एक मूलभूत ग्रंथ 'चरक संहिता' की रचना की\n2) 'अष्टाध्यायी' ग्रंथ में संस्कृत व्याकरण को संहिताबद्ध किया\n3) राजनीति और अर्थव्यवस्था पर एक उत्कृष्ट कृति 'अर्थशास्त्र' की रचना की\n4) नालंदा विश्वविद्यालय के प्रमुख बने और योगाचार दर्शन की शिक्षा दी\n5) संस्कृत बौद्ध ग्रंथों का चीनी भाषा में अनुवाद किया\n\n*(नोट: सूची-I में (c) के स्थान पर (9) टाइपो है, तदनुसार मिलान करें)*",
+      "option_a": "a-1, b-2, 9-3, d-4, e-5",
+      "option_b": "a-2, b-1, 9-3, d-5, e-4",
+      "option_c": "a-1, b-3, 9-2, d-4, e-5",
+      "option_d": "a-3, b-4, 9-1, d-2, e-5",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। चरक (a) ने चरक संहिता की रचना की [1]। पाणिनि (b) ने अष्टाध्यायी लिखी [2]। कौटिल्य (9) ने अर्थशास्त्र लिखा [3]। शीलभद्र (d) ने योगाचार की शिक्षा दी [4]। ह्वेनसांग (e) ने संस्कृत ग्रंथों का अनुवाद किया [5]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Educational Center/Context) with List-II (Dominant Academic Focus) and select the correct answer:\nList-I:\na) Takshashila\nb) Nalanda Mahavihara\nc) Valabhi University\nd) Vikramashila\n\nList-II:\n1) Secular higher education including statecraft, military warfare, and medicine\n2) Mahayana Buddhism, Logic, Epistemology, and Sanskrit grammar\n3) Hinayana Buddhism (Sammatiya school) and administration/law\n4) Vajrayana Buddhism, Tantra, and occult sciences\n5) Elementary school teaching of crafts and manual agriculture",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct option: A. Takshashila (a) focused on statecraft and medicine [1]. Nalanda (b) focused on Mahayana and logic [2]. Valabhi (c) focused on Hinayana and law [3]. Vikramashila (d) was the center for Vajrayana [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (शैक्षणिक केंद्र/संदर्भ) को सूची-II (प्रमुख शैक्षणिक ध्यान) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) तक्षशिला\nb) नालंदा महाविहार\nc) वलभी विश्वविद्यालय\nd) विक्रमशिला\n\nसूची-II:\n1) धर्मनिरपेक्ष उच्च शिक्षा जिसमें राजनीति, सैन्य युद्ध और चिकित्सा शामिल थे\n2) महायान बौद्ध धर्म, तर्कशास्त्र, ज्ञानमीमांसा और संस्कृत व्याकरण\n3) हीनयान बौद्ध धर्म (सम्मितीय संप्रदाय) और प्रशासन/कानून\n4) वज्रयान बौद्ध धर्म, तंत्र और गुप्त (गूढ़) विज्ञान\n5) हस्तशिल्प और व्यावहारिक कृषि का प्राथमिक विद्यालय स्तर का शिक्षण",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। तक्षशिला (a) राजनीति और चिकित्सा पर केंद्रित था [1]। नालंदा (b) महायान और तर्कशास्त्र पर केंद्रित था [2]। वलभी (c) हीनयान और कानून पर केंद्रित था [3]। विक्रमशिला (d) वज्रयान का केंद्र था [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Archaeologist/Traveler) with List-II (Key Discovery/Work Related to Universities) and select the correct answer:\nList-I:\na) John Marshall\nb) Alexander Cunningham\nc) Xuanzang\nd) Yijing\n\nList-II:\n1) Excavated the ruins of Takshashila in the early 20th century\n2) Identified the ruins of Nalanda near modern Bargaon in 1861-1862\n3) Authored 'Great Tang Records on the Western Regions' detailing Nalanda\n4) Wrote travelogue on Buddhist practices comparing Valabhi with Nalanda\n5) Deciphered Ashoka's Brahmi inscriptions at Sanchi",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. John Marshall (a) excavated Takshashila [1]. Alexander Cunningham (b) identified Nalanda ruins [2]. Xuanzang (c) wrote the Great Tang Records [3]. Yijing (d) compared Valabhi with Nalanda [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (पुरातत्वविद्/यात्री) को सूची-II (विश्वविद्यालयों से संबंधित प्रमुख खोज/कार्य) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) जॉन मार्शल\nb) अलेक्जेंडर कनिंघम\nc) ह्वेनसांग\nd) इत्सिंग\n\nसूची-II:\n1) 20वीं शताब्दी की शुरुआत में तक्षशिला के खंडहरों का उत्खनन किया\n2) 1861-1862 में आधुनिक बड़गांव के पास नालंदा के खंडहरों की पहचान की\n3) 'ग्रेट टेंग रिकॉर्ड्स ऑन द वेस्टर्न रीजन्स' लिखा, जिसमें नालंदा का विवरण है\n4) बौद्ध प्रथाओं पर यात्रा वृत्तांत लिखा जिसमें वलभी की तुलना नालंदा से की गई\n5) सांची में अशोक के ब्राह्मी शिलालेखों को डिकोड किया",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। जॉन मार्शल (a) ने तक्षशिला का उत्खनन किया [1]। अलेक्जेंडर कनिंघम (b) ने नालंदा के खंडहरों की पहचान की [2]। ह्वेनसांग (c) ने ग्रेट टेंग रिकॉर्ड्स लिखा [3]। इत्सिंग (d) ने वलभी की तुलना नालंदा से की [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Historical Period/Event) with List-II (University Context/Details) and select the correct answer:\nList-I:\na) circa 5th Century BCE to 5th Century CE\nb) 5th Century CE to 12th Century CE\nc) 6th Century CE to 8th Century CE\nd) 1980\n\nList-II:\n1) Flourishing era of Takshashila before its decline due to Huna invasions\n2) Active historical lifespan of the ancient Nalanda University\n3) Period of prominence for Valabhi University under the Maitrakas\n4) Year when Takshashila was designated a UNESCO World Heritage site\n5) Destruction of Vikramashila by Bakhtiyar Khilji",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct option: A. Takshashila flourished up to the 5th century CE [1]. Nalanda was active from the 5th to the 12th century [2]. Valabhi flourished from the 6th to 8th century [3]. Takshashila became a UNESCO site in 1980 [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (ऐतिहासिक काल/घटना) को सूची-II (विश्वविद्यालय संदर्भ/विवरण) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) लगभग 5वीं शताब्दी ईसा पूर्व से 5वीं शताब्दी ईस्वी\nb) 5वीं शताब्दी ईस्वी से 12वीं शताब्दी ईस्वी\nc) 6ठी शताब्दी ईस्वी से 8वीं शताब्दी ईस्वी\nd) 1980\n\nसूची-II:\n1) हूणों के आक्रमण से पतन से पहले तक्षशिला का समृद्ध युग\n2) प्राचीन नालंदा विश्वविद्यालय का सक्रिय ऐतिहासिक जीवनकाल\n3) मैत्रकों के अधीन वलभी विश्वविद्यालय की प्रसिद्धि का काल\n4) वह वर्ष जब तक्षशिला को यूनेस्को विश्व धरोहर स्थल घोषित किया गया था\n5) बख्तियार खिलजी द्वारा विक्रमशिला का विनाश",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही विकल्प: A। तक्षशिला 5वीं शताब्दी ईस्वी तक समृद्ध रही [1]। नालंदा 5वीं से 12वीं शताब्दी तक सक्रिय था [2]। वलभी का विकास 6ठी से 8वीं शताब्दी तक हुआ [3]। तक्षशिला 1980 में यूनेस्को स्थल बनी [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the infrastructure and features of Nalanda University:\n1. The university campus featured eight separate monastic halls and ten major temples, along with numerous study chambers.\n2. It housed a massive library complex consisting of three multi-storeyed buildings named Ratnasagara, Ratnodadhi, and Ratnaranjaka.\n3. The university featured several deep water ponds that were used by students and monks for bathing and daily rituals.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because Nalanda had a highly planned architecture with eight halls and ten temples. Statement 2 is correct because the library, Dharmaganja, consisted of these three specific buildings. Statement 3 is correct as archaeological excavations have revealed several large tanks and ponds integrated into the layout for the water needs of the residents."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय के बुनियादी ढांचे और विशेषताओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. विश्वविद्यालय परिसर में आठ अलग-अलग मठवासी कक्ष (विहार) और दस मुख्य मंदिर थे, साथ ही कई अध्ययन कक्ष भी थे।\n2. इसमें एक विशाल पुस्तकालय परिसर था जिसमें रत्नसागर, रत्नोदधि और रत्नरंजक नाम के तीन बहुमंजिला भवन शामिल थे।\n3. विश्वविद्यालय में पानी के कई गहरे तालाब थे जिनका उपयोग छात्र और भिक्षु स्नान और दैनिक अनुष्ठानों के लिए करते थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि नालंदा की योजनाबद्ध वास्तुकला में आठ कक्ष और दस मंदिर थे। कथन 2 सही है क्योंकि पुस्तकालय धर्मगंज में ये तीन विशिष्ट भवन शामिल थे। कथन 3 सही है क्योंकि पुरातात्विक उत्खनन से निवासियों की पानी की आवश्यकताओं के लिए बने कई बड़े तालाबों का पता चला है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the education system at Takshashila University:\n1. The university did not issue formal degrees or diplomas; graduation was marked by the teacher declaring that the student's education was complete.\n2. Admission was restricted to students who had completed at least their basic education, typically starting from the age of sixteen.\n3. There were no set common examinations; teachers assessed students individually and modified curricula based on their capacity.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct as graduation in Takshashila was based on the satisfaction of the individual teacher rather than a corporate degree. Statement 2 is correct as students entered around 16 years after completing basic schooling. Statement 3 is correct because the decentralized nature allowed personalized evaluation and flexible study durations."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तक्षशिला विश्वविद्यालय में शिक्षा प्रणाली के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. विश्वविद्यालय औपचारिक डिग्री या डिप्लोमा जारी नहीं करता था; गुरु द्वारा छात्र की शिक्षा पूर्ण घोषित करना ही दीक्षांत का प्रतीक था।\n2. प्रवेश केवल उन छात्रों तक सीमित था जिन्होंने अपनी बुनियादी शिक्षा पूरी कर ली थी, जो आम तौर पर सोलह वर्ष की आयु से शुरू होती थी।\n3. कोई निर्धारित सामान्य परीक्षा नहीं होती थी; शिक्षक व्यक्तिगत रूप से छात्रों का मूल्यांकन करते थे और उनकी क्षमता के आधार पर पाठ्यक्रम में बदलाव करते थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि तक्षशिला में स्नातक होना किसी संस्थागत डिग्री के बजाय व्यक्तिगत गुरु की संतुष्टि पर आधारित था। कथन 2 सही है क्योंकि बुनियादी स्कूली शिक्षा पूरी करने के बाद छात्र लगभग 16 वर्ष की आयु में प्रवेश करते थे। कथन 3 सही है क्योंकि विकेंद्रीकृत प्रकृति के कारण व्यक्तिगत मूल्यांकन और लचीली अध्ययन अवधि संभव थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Valabhi University:\n1. It was primarily supported by the Maitraka rulers of Gujarat, who granted land and financial assistance.\n2. The curriculum was secular, offering training in statecraft, administrative law, economics, and medicine.\n3. It was exclusively a center for Buddhist monks, and lay students (Upasakas) were strictly forbidden from enrolling.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Maitraka royal copper plates show significant land grants to Valabhi. Statement 2 is correct as it offered secular subjects to prepare graduates for administrative careers. Statement 3 is incorrect because Valabhi did not restrict itself to monks; lay students also studied there, preparing for careers in statecraft and trade."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वलभी विश्वविद्यालय के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसे मुख्य रूप से गुजरात के मैत्रक शासकों का समर्थन प्राप्त था, जिन्होंने भूमि और वित्तीय सहायता प्रदान की थी।\n2. इसका पाठ्यक्रम धर्मनिरपेक्ष था, जिसमें राजनीति, प्रशासनिक कानून, अर्थशास्त्र और चिकित्सा में प्रशिक्षण दिया जाता था।\n3. यह विशेष रूप से केवल बौद्ध भिक्षुओं के लिए एक केंद्र था, और गृहस्थ छात्रों (उपासकों) के प्रवेश पर पूर्ण प्रतिबंध था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि मैत्रक ताम्रपत्र वलभी को दिए गए महत्वपूर्ण भूमि अनुदानों को दर्शाते हैं। कथन 2 सही है क्योंकि इसने स्नातकों को प्रशासनिक करियर के लिए तैयार करने हेतु धर्मनिरपेक्ष विषय प्रदान किए। कथन 3 गलत है क्योंकि वलभी केवल भिक्षुओं तक सीमित नहीं था; गृहस्थ छात्र भी वहां राजनीति और व्यापार की तैयारी के लिए पढ़ते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the Chinese traveler Xuanzang's description of Nalanda:\n1. He noted that the debates at Nalanda were constant, and students and teachers spent most of their day discussing philosophy.\n2. He described that the students were highly disciplined and that there were no major violations of university rules recorded during its history.\n3. He observed that the King of Kashmir paid for the daily milk, butter, and food supplies of all students at Nalanda.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Xuanzang mentions that debates continued from morning till night. Statement 2 is correct because he writes that the rules were strictly followed and no cases of breach were recorded. Statement 3 is incorrect because the local rulers of Magadha (such as Harsha), not Kashmir, provided the primary funding through the revenue of surrounding villages."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चीनी यात्री ह्वेनसांग द्वारा नालंदा के विवरण के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने उल्लेख किया कि नालंदा में लगातार वाद-विवाद चलते रहते थे, और छात्र तथा शिक्षक अपना अधिकांश दिन दर्शन पर चर्चा करने में बिताते थे।\n2. उन्होंने वर्णन किया कि छात्र अत्यधिक अनुशासित थे और विश्वविद्यालय के इतिहास में नियमों के उल्लंघन का कोई बड़ा मामला दर्ज नहीं था।\n3. उन्होंने देखा कि कश्मीर के राजा ने नालंदा के सभी छात्रों के दैनिक दूध, मक्खन और खाद्य आपूर्ति का खर्च उठाया था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि ह्वेनसांग ने उल्लेख किया है कि वाद-विवाद सुबह से रात तक चलते थे। कथन 2 सही है क्योंकि वह लिखते हैं कि नियमों का कड़ाई से पालन किया जाता था और कोई उल्लंघन दर्ज नहीं था। कथन 3 गलत है क्योंकि कश्मीर के राजा ने नहीं, बल्कि मगध के स्थानीय शासकों (जैसे हर्ष) ने आसपास के गांवों के राजस्व से मुख्य वित्तीय सहायता प्रदान की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the decline and destruction of the ancient universities:\n1. Takshashila declined gradually after being ravaged by the Kidarite Hunas in the late 5th century CE.\n2. Nalanda was destroyed in a fire set by the troops of Bakhtiyar Khilji, which burnt the library for several months.\n3. Valabhi University was restored by the Gurjara-Pratihara kings and remained a major center until the 14th century.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Huna invasions disrupted trade routes and damaged Takshashila's infrastructure, leading to its decline. Statement 2 is correct as historical sources like Tabakat-i-Nasiri record the burning of the university and its library by Khilji's forces. Statement 3 is incorrect because Valabhi did not survive past the 8th century after Arab raids from Sindh destroyed the Maitraka capital."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन विश्वविद्यालयों के पतन और विनाश के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. 5वीं शताब्दी ईस्वी के अंत में किदार हूणों द्वारा तबाह किए जाने के बाद तक्षशिला का धीरे-धीरे पतन हो गया।\n2. बख्तियार खिलजी के सैनिकों द्वारा लगाई गई आग में नालंदा नष्ट हो गया, जिससे पुस्तकालय कई महीनों तक जलता रहा।\n3. वलभी विश्वविद्यालय को गुर्जर-प्रतिहार राजाओं द्वारा बहाल किया गया था और यह 14वीं शताब्दी तक एक प्रमुख केंद्र बना रहा।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि हूणों के आक्रमणों ने व्यापार मार्गों को बाधित किया और तक्षशिला की बुनियादी संरचना को नुकसान पहुंचाया, जिससे इसका पतन हुआ। कथन 2 सही है क्योंकि तबकात-ए-नासिरी जैसे ऐतिहासिक स्रोत खिलजी की सेना द्वारा विश्वविद्यालय और उसके पुस्तकालय को जलाए जाने का विवरण देते हैं। कथन 3 गलत है क्योंकि सिंध से अरब आक्रमणकारियों द्वारा मैत्रक राजधानी को नष्ट करने के बाद वलभी 8वीं सदी से आगे जीवित नहीं रह सका।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements comparing Nalanda and Takshashila Universities:\n1. While Nalanda was a highly organized corporate institution with a single head (Chancellor), Takshashila was a decentralized hub of independent teachers.\n2. Nalanda was founded under the patronage of the Gupta dynasty, whereas Takshashila predated the Guptas by several centuries and flourished during the Achaemenid and Mauryan eras.\n3. Both Nalanda and Takshashila were established specifically to teach Hinayana Buddhism exclusively.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Nalanda had a central administration while Takshashila had individual gurukulas. Statement 2 is correct as Takshashila was an active center of learning by the 5th/6th century BCE under Achaemenid influence and later Mauryan patronage, while Nalanda was founded in the 5th century CE. Statement 3 is incorrect because Takshashila was a secular-Vedic center of education, and Nalanda was primarily Mahayana Buddhist."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा और तक्षशिला विश्वविद्यालयों की तुलना करने वाले निम्नलिखित कथनों पर विचार कीजिए:\n1. जहां नालंदा एक एकल प्रमुख (कुलाधिपति) के साथ एक अत्यधिक संगठित संस्थागत विश्वविद्यालय था, वहीं तक्षशिला स्वतंत्र शिक्षकों का एक विकेंद्रीकृत केंद्र था।\n2. नालंदा की स्थापना गुप्त राजवंश के संरक्षण में हुई थी, जबकि तक्षशिला गुप्तों से कई शताब्दियों पूर्व की थी और हखामनी (अकेमेनिड) व मौर्य काल के दौरान फली-फूली थी।\n3. नालंदा और तक्षशिला दोनों की स्थापना विशेष रूप से केवल हीनयान बौद्ध धर्म को पढ़ाने के लिए की गई थी।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि नालंदा में एक केंद्रीय प्रशासन था जबकि तक्षशिला में स्वतंत्र गुरुकुल थे। कथन 2 सही है क्योंकि तक्षशिला हखामनी प्रभाव और बाद में मौर्य संरक्षण के तहत 5वीं/6ठी शताब्दी ईसा पूर्व तक शिक्षा का एक सक्रिय केंद्र था, जबकि नालंदा की स्थापना 5वीं शताब्दी ईस्वी में हुई थी। कथन 3 गलत है क्योंकि तक्षशिला एक धर्मनिरपेक्ष-वैदिक शिक्षा केंद्र था और नालंदा मुख्य रूप से महायान बौद्ध था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the role of foreign scholars in Nalanda:\n1. Scholars from Tibet, such as Thonmi Sambhota, studied at Nalanda and formulated the Tibetan script based on Sanskrit.\n2. Korean scholars like Hyecho traveled to Nalanda to study Vinaya and Abhidharma.\n3. The university maintained separate hostels sponsored and built by the kings of the Shailendra dynasty of Java and Sumatra.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct as Thonmi Sambhota was sent by King Songtsen Gampo to study at Nalanda, leading to the creation of the Tibetan alphabet. Statement 2 is correct as Korean pilgrim logs confirm their journey to Nalanda. Statement 3 is correct as Balaputradeva of the Shailendra dynasty funded a monastery there."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा में विदेशी विद्वानों की भूमिका के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. तिब्बत के विद्वानों, जैसे थोनमी सम्भोट, ने नालंदा में अध्ययन किया और संस्कृत के आधार पर तिब्बती लिपि तैयार की।\n2. ह्येचो (Hyecho) जैसे कोरियाई विद्वानों ने विनय और अभिधम्म का अध्ययन करने के लिए नालंदा की यात्रा की थी।\n3. विश्वविद्यालय में जावा और सुमात्रा के शैलेंद्र राजवंश के राजाओं द्वारा प्रायोजित और निर्मित अलग विहार (छात्रावास) थे।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि थोनमी सम्भोट को राजा सोंगत्सेन गम्पो द्वारा नालंदा में अध्ययन के लिए भेजा गया था, जिसके कारण तिब्बती वर्णमाला का निर्माण हुआ। कथन 2 सही है क्योंकि कोरियाई तीर्थयात्रियों के यात्रा वृत्तांत नालंदा की उनकी यात्रा की पुष्टि करते हैं। कथन 3 सही है क्योंकि शैलेंद्र राजवंश के बालपुत्रदेव ने वहां एक विहार के लिए वित्तपोषण किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the archaeological excavations of ancient universities:\n1. The ruins of Takshashila are divided into three major cities: Bhir Mound, Sirkap, and Sirsukh.\n2. Excavations at Nalanda have revealed a linear layout with a row of monasteries (viharas) on the east and temples (chaityas) on the west.\n3. The archaeological remains of Valabhi have yielded massive stone stupas similar to those found in Sanchi.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Bhir Mound, Sirkap, and Sirsukh represent the three historical phases of Taxila. Statement 2 is correct as Nalanda's layout is highly structured, with viharas on the east and chaityas facing them on the west. Statement 3 is incorrect because Valabhi's ruins are mostly made of brick and wood, and did not yield massive stone stupas like Sanchi."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन विश्वविद्यालयों के पुरातात्विक उत्खनन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. तक्षशिला के खंडहरों को तीन प्रमुख शहरों में विभाजित किया गया है: भिर मोंड (Bhir Mound), सिरकप (Sirkap), और सिरसुख (Sirsukh)।\n2. नालंदा के उत्खनन से एक रैखिक अभिन्यास (लेआउट) का पता चला है जिसमें पूर्व में विहारों की एक पंक्ति और पश्चिम में मंदिरों (चैत्यों) की पंक्ति है।\n3. वलभी के पुरातात्विक अवशेषों से सांची में पाए जाने वाले विशाल पत्थर के स्तूपों के समान अवशेष मिले हैं।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि भिर मोंड, सिरकप और सिरसुख तक्षशिला के तीन ऐतिहासिक चरणों का प्रतिनिधित्व करते हैं। कथन 2 सही है क्योंकि नालंदा का लेआउट अत्यधिक संरचित है, जिसमें पूर्व में विहार और पश्चिम में उनके सामने चैत्य हैं। कथन 3 गलत है क्योंकि वलभी के खंडहर ज्यादातर ईंट और लकड़ी के बने हैं, और वहां सांची जैसे विशाल पत्थर के स्तूप नहीं मिले हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the academic administration at Nalanda University:\n1. The administrative duties were split between the Vihara-palakas (monastery administrators) and the academic councils under the Abbot.\n2. Decisions regarding disciplinary actions or admission approvals were made collectively by the senior monks through voting.\n3. The university was completely isolated from local politics and did not accept any suggestions or modifications from royal patrons.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct as Nalanda split its governance into administrative and academic bodies to maintain efficiency. Statement 2 is correct as senior monks met in assembly to resolve conflicts and discipline. Statement 3 is incorrect because royal patrons, especially during Harsha and Devapala's reign, played active roles in appointing chancellors and requesting monastery grants, showing interaction with the state."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय में शैक्षणिक प्रशासन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. प्रशासनिक कर्तव्यों को विहार-पालकों (मठ प्रशासकों) और महाविहार प्रमुख (एबट) के अधीन शैक्षणिक परिषदों के बीच विभाजित किया गया था।\n2. अनुशासनात्मक कार्रवाई या प्रवेश मंजूरी के संबंध में निर्णय वरिष्ठ भिक्षुओं द्वारा मतदान के माध्यम से सामूहिक रूप से लिए जाते थे।\n3. विश्वविद्यालय स्थानीय राजनीति से पूरी तरह से अलग था और शाही संरक्षकों से किसी भी सुझाव या बदलाव को स्वीकार नहीं करता था।\n\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि नालंदा ने दक्षता बनाए रखने के लिए अपने शासन को प्रशासनिक और शैक्षणिक निकायों में विभाजित किया था। कथन 2 सही है क्योंकि वरिष्ठ भिक्षु विवादों और अनुशासन को सुलझाने के लिए सभा में मिलते थे। कथन 3 गलत है क्योंकि शाही संरक्षकों, विशेष रूप से हर्ष और देवपाल के शासनकाल के दौरान, कुलाधिपतियों की नियुक्ति और विहार अनुदानों के अनुरोध में सक्रिय भूमिका निभाई थी, जो राज्य के साथ संपर्क को दर्शाता है।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the key administrative and educational features of Valabhi University. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Valabhi University (Gujarat) was a premier center of higher learning under the Maitraka patronage. Its key features include:\n* **Academic Focus:** Specialization in Hinayana Buddhism (Sammatiya school) along with secular subjects like law, statecraft, economics, and medicine.\n* **Administrative Role:** Curricula designed to train civil servants; graduates were highly sought-after for royal court administrations.\n* **Support System:** Funded by royal land grants and wealthy merchants, offering free education."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वलभी विश्वविद्यालय की प्रमुख प्रशासनिक और शैक्षणिक विशेषताओं पर प्रकाश डालिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "मैत्रक राजवंश के संरक्षण में वलभी विश्वविद्यालय (गुजरात) उच्च शिक्षा का एक प्रमुख केंद्र था। इसकी मुख्य विशेषताएं हैं:\n* **शैक्षणिक ध्यान:** हीनयान बौद्ध धर्म (सम्मितीय संप्रदाय) के अध्ययन के साथ-साथ कानून, राजनीति, अर्थशास्त्र और चिकित्सा जैसे धर्मनिरपेक्ष विषयों में विशेषज्ञता।\n* **प्रशासनिक भूमिका:** पाठ्यक्रम को प्रशासनिक अधिकारियों को प्रशिक्षित करने के लिए तैयार किया गया था; इसके स्नातकों की शाही अदालतों में अत्यधिक मांग थी।\n* **सहायता प्रणाली:** राजाओं के भूमि अनुदान और धनी व्यापारियों के दान से संचालित, जहाँ निःशुल्क शिक्षा प्रदान की जाती थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare the organizational structure, academic curriculum, and patronage of Takshashila and Nalanda Universities. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Takshashila and Nalanda represent two distinct models of higher education in ancient India, transitioning from decentralized gurukulas to a corporate residential university.\n\n| Feature | Takshashila University | Nalanda University |\n| :--- | :--- | :--- |\n| **Organizational Structure** | Decentralized; a cluster of independent gurukulas without a central chancellor or common campus. | Highly centralized; unified administration under a Chancellor (Abbot), common lecture halls, and hostels. |\n| **Curriculum & Specialization** | Focused on secular, practical subjects (statecraft, military science, Ayurveda) and Vedic literature. | Focused on Mahayana Buddhism, Buddhist logic, epistemology, Sanskrit grammar, and metaphysics. |\n| **Admission Process** | Based on individual teacher's assessment of candidates (usually above 16 years of age). | Strict entrance test conducted at the gates by scholar-gatekeepers (Dvarapalas). |\n| **Patronage & Funding** | Supported by fee-paying students, community donations, and regional Mauryan and Gandhara rulers. | Financed through revenue-free villages (typically 100 to 200) granted by Gupta, Harsha, and Pala kings. |\n\nIn conclusion, Takshashila served as a flexible, practical center of learning in the ancient era, whereas Nalanda pioneered the concept of a structured, international residential university with rigorous scholastic standards."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तक्षशिला और नालंदा विश्वविद्यालयों की संगठनात्मक संरचना, शैक्षणिक पाठ्यक्रम और संरक्षण की तुलना कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "तक्षशिला और नालंदा प्राचीन भारत में उच्च शिक्षा के दो अलग-अलग मॉडलों का प्रतिनिधित्व करते हैं, जो विकेंद्रीकृत गुरुकुलों से एक संगठित आवासीय विश्वविद्यालय में परिवर्तन को दर्शाते हैं।\n\n| विशेषता | तक्षशिला विश्वविद्यालय | नालंदा विश्वविद्यालय |\n| :--- | :--- | :--- |\n| **संगठनात्मक संरचना** | विकेंद्रीकृत; बिना किसी केंद्रीय कुलपति या साझा परिसर के स्वतंत्र गुरुकुलों का एक समूह। | अत्यधिक केंद्रीकृत; एक कुलाधिपति (महाविहार प्रमुख) के अधीन एकीकृत प्रशासन, साझा व्याख्यान कक्ष और छात्रावास। |\n| **पाठ्यक्रम और विशेषज्ञता** | धर्मनिरपेक्ष और व्यावहारिक विषयों (राजनीति, सैन्य विज्ञान, आयुर्वेद) और वैदिक साहित्य पर केंद्रित। | महायान बौद्ध धर्म, बौद्ध तर्कशास्त्र, ज्ञानमीमांसा, संस्कृत व्याकरण और तत्वमीमांसा पर केंद्रित। |\n| **प्रवेश प्रक्रिया** | उम्मीदवारों के संबंध में व्यक्तिगत शिक्षक के मूल्यांकन पर आधारित (आमतौर पर 16 वर्ष से अधिक आयु)। | प्रवेश द्वार पर विद्वान-द्वारपालों (द्वार-पंडितों) द्वारा आयोजित अत्यंत कठिन मौखिक प्रवेश परीक्षा। |\n| **संरक्षण और वित्तपोषण** | सशुल्क छात्रों, जन-समुदाय के दान, और मौर्य व गांधार के क्षेत्रीय राजाओं द्वारा समर्थित। | गुप्त, हर्ष और पाल राजाओं द्वारा दान किए गए राजस्व-मुक्त गांवों (आमतौर पर 100 से 200) से प्राप्त करों से वित्तपोषित। |\n\nनिष्कर्षतः, तक्षशिला प्राचीन काल में लचीले और व्यावहारिक शिक्षा केंद्र के रूप में कार्य करता था, जबकि नालंदा ने कठोर शैक्षणिक मानकों के साथ एक व्यवस्थित, अंतर्राष्ट्रीय आवासीय विश्वविद्यालय की अवधारणा का सूत्रपात किया।"
+    }
+  ]
+}

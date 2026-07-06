@@ -1,0 +1,204 @@
+{
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Describe the curriculum and specialization of Takshashila University. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Takshashila University was renowned for its multi-disciplinary curriculum.\n- Specializations: It offered training in 18 arts (shilpas) and sciences, including medicine (Ayurveda), statecraft (Arthashastra), archery, warfare, and Vedas.\n- Nature: It focused on practical application and individual mentoring rather than centralized examinations.\n- Legacy: It produced stalwarts like Chanakya and Panini, cementing its position as a premier ancient intellectual hub."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तक्षशिला विश्वविद्यालय के पाठ्यक्रम और विशिष्टता का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "तक्षशिला विश्वविद्यालय अपने बहु-विषयक पाठ्यक्रम के लिए प्रसिद्ध था।\n- विशिष्टताएं: यहाँ 18 शिल्पों और विज्ञानों का प्रशिक्षण दिया जाता था, जिसमें आयुर्वेद (चिकित्सा), राज्यशास्त्र, धनुर्विद्या, युद्धकला और वेद शामिल थे।\n- प्रकृति: यह केंद्रीकृत परीक्षाओं के बजाय व्यावहारिक अनुप्रयोग और व्यक्तिगत मार्गदर्शन पर केंद्रित था।\n- विरासत: इसने चाणक्य और पाणिनी जैसे विद्वान तैयार किए, जिसने इसे प्राचीन काल के एक प्रमुख बौद्धिक केंद्र के रूप में स्थापित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the role and significance of 'Dwaracharyas' in Nalanda University. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "'Dwaracharyas' (Gate Scholars) were the gatekeepers of Nalanda University's academic standard.\n- Role: They conducted rigorous oral entrance examinations at the university gates to evaluate candidates' eligibility.\n- Standard: Only 20-30% of aspirants succeeded in passing these tough tests.\n- Significance: This strict screening maintained the high intellectual caliber and global reputation of Nalanda's student body."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय में 'द्वारपंडितों' (द्वाराचार्यों) की भूमिका और महत्व को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "'द्वारपंडित' (द्वाराचार्य) नालंदा विश्वविद्यालय के शैक्षणिक मानकों के रक्षक थे।\n- भूमिका: वे उम्मीदवारों की पात्रता का मूल्यांकन करने के लिए विश्वविद्यालय के प्रवेश द्वारों पर अत्यंत कठिन मौखिक प्रवेश परीक्षा आयोजित करते थे।\n- मानक: केवल 20-30% आकांक्षी ही इस कठिन परीक्षा को उत्तीर्ण करने में सफल हो पाते थे।\n- महत्व: इस सख्त जांच ने नालंदा के छात्रों की उच्च बौद्धिक क्षमता और वैश्विक प्रतिष्ठा को बनाए रखा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Write a note on Valabhi University as a prominent center of Hinayana Buddhism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Located in Gujarat under the Maitraka dynasty patronage, Valabhi was the western counter-archetype to Nalanda.\n- Sectarian Focus: While Nalanda specialized in Mahayana Buddhism, Valabhi emerged as the preeminent center of Hinayana Buddhism (specifically the Sammatiya sect).\n- Academic Value: It attracted scholars globally to study philosophy, logic, and public administration.\n- Legacy: Scholars like Gunamati and Sthiramati graduated from Valabhi, testifying to its academic excellence."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. हीनयान बौद्ध धर्म के एक प्रमुख केंद्र के रूप में वल्लभी विश्वविद्यालय पर एक टिप्पणी लिखिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "मैत्रक राजवंश के संरक्षण में गुजरात में स्थित, वल्लभी नालंदा का पश्चिमी समकक्ष था।\n- सांप्रदायिक फोकस: जहाँ नालंदा महायान बौद्ध धर्म में विशिष्ट था, वहीं वल्लभी हीनयान बौद्ध धर्म (विशेष रूप से सम्मितीय संप्रदाय) के प्रमुख केंद्र के रूप में उभरा।\n- शैक्षणिक मूल्य: इसने दर्शन, तर्कशास्त्र और लोक प्रशासन के अध्ययन के लिए विश्वभर के विद्वानों को आकर्षित किया।\n- विरासत: गुणमति और स्थिरमति जैसे विद्वान वल्लभी के स्नातक थे, जो इसकी शैक्षणिक उत्कृष्टता को प्रमाणित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. How did Xuanzang's travelogues enrich our knowledge of Nalanda University? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The travelogues of Xuanzang (Hiuen Tsang) serve as a vital primary source for Nalanda.\n- Physical Details: He described its multi-storeyed brick buildings, eight halls, and the massive Dharmaganja library.\n- Academic Life: He recorded the daily routine, curriculum containing Buddhist and Vedic texts, and the strict admission process.\n- Historical Value: His accounts preserve the intellectual atmosphere of 7th-century India under Emperor Harsha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ह्वेनसांग के यात्रा वृत्तांतों ने नालंदा विश्वविद्यालय के हमारे ज्ञान को कैसे समृद्ध किया? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "ह्वेनसांग के यात्रा वृत्तांत नालंदा विश्वविद्यालय के इतिहास के लिए एक महत्वपूर्ण प्राथमिक स्रोत हैं।\n- भौतिक विवरण: उन्होंने इसकी बहुमंजिला ईंटों की इमारतों, आठ विशाल कक्षों और विशाल 'धर्मगंज' पुस्तकालय का वर्णन किया।\n- शैक्षणिक जीवन: उन्होंने दैनिक दिनचर्या, बौद्ध और वैदिक ग्रंथों से युक्त पाठ्यक्रम और कठिन प्रवेश प्रक्रिया को दर्ज किया।\n- ऐतिहासिक मूल्य: उनके विवरणों ने सम्राट हर्ष के काल में सातवीं शताब्दी के भारत के बौद्धिक वातावरण को सुरक्षित रखा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the revenue and funding model of Nalanda University. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Nalanda operated on an endowment-based model, ensuring education remained free for students.\n- Land Grants: Kings of Gupta, Maukhari, and Pala dynasties, along with foreign rulers (like Balaputradeva of Shailendra dynasty), granted villages for its maintenance.\n- Revenue Use: The revenue from nearly 100 to 200 villages provided food, clothing, medicine, and lodging to thousands of students and teachers.\n- Autonomy: This financial independence preserved its academic autonomy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय के राजस्व और वित्त पोषण मॉडल की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "नालंदा एक बंदोबस्त-आधारित (endowment-based) मॉडल पर संचालित होता था, जिससे यह सुनिश्चित होता था कि शिक्षा छात्रों के लिए निःशुल्क रहे।\n- भूमि अनुदान: गुप्त, मौखरि और पाल राजवंशों के राजाओं के साथ-साथ विदेशी शासकों (जैसे शैलेंद्र वंश के बालपुत्रदेव) ने इसके रखरखाव के लिए ग्राम दान दिए थे।\n- राजस्व का उपयोग: लगभग 100 से 200 गांवों से प्राप्त राजस्व से हजारों छात्रों और शिक्षकों को भोजन, वस्त्र, चिकित्सा और आवास प्रदान किया जाता था।\n- स्वायत्तता: इस वित्तीय स्वतंत्रता ने इसकी शैक्षणिक स्वायत्तता को बनाए रखा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare the strategic and geographical locations of Takshashila and Valabhi Universities. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Both universities held highly strategic locations but served different geographical spheres.\n- Takshashila: Located in modern Pakistan, it sat at the crossroads of the Silk Road and Royal Highway, facilitating cultural exchanges with Central Asia and Greece.\n- Valabhi: Situated on the Saurashtra coast in Gujarat, it was a major port town, enabling maritime trade contacts and attracting scholars from western regions.\n- Impact: Their locations directly influenced their cosmopolitan character."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तक्षशिला और वल्लभी विश्वविद्यालयों के रणनीतिक और भौगोलिक स्थानों की तुलना कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "दोनों विश्वविद्यालयों के स्थान अत्यधिक रणनीतिक थे, लेकिन उन्होंने अलग-अलग भौगोलिक क्षेत्रों की सेवा की।\n- तक्षशिला: आधुनिक पाकिस्तान में स्थित, यह सिल्क रोड और शाही राजमार्ग के चौराहे पर था, जिसने मध्य एशिया और यूनान के साथ सांस्कृतिक आदान-प्रदान को सुगम बनाया।\n- वल्लभी: गुजरात के सौराष्ट्र तट पर स्थित, यह एक प्रमुख बंदरगाह शहर था, जिसने समुद्री व्यापार संपर्कों को सक्षम किया और पश्चिमी क्षेत्रों के विद्वानों को आकर्षित किया।\n- प्रभाव: उनके स्थानों ने सीधे तौर पर उनके सर्वदेशीय चरित्र को प्रभावित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Outline the significance of Jivaka's association with Takshashila University. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Jivaka Kaumarabhrutya, the legendary royal physician of Magadha, studied medicine at Takshashila.\n- Education: He spent seven years studying Ayurveda under veteran teachers, demonstrating the university's clinical and practical approach.\n- Practical Exam: His final test involved finding non-medicinal plants within a league of the city; finding none proved his deep botanical knowledge.\n- Legacy: Jivaka's success as Lord Buddha's physician highlighted Takshashila's global reputation in medical education."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तक्षशिला विश्वविद्यालय के साथ जीवक के जुड़ाव के महत्व को रेखांकित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "मगध के प्रसिद्ध शाही चिकित्सक, जीवक कौमारभृत्य ने तक्षशिला में चिकित्सा शास्त्र का अध्ययन किया था।\n- शिक्षा: उन्होंने वरिष्ठ शिक्षकों के अधीन आयुर्वेद का अध्ययन करते हुए सात वर्ष बिताए, जो विश्वविद्यालय के नैदानिक और व्यावहारिक दृष्टिकोण को दर्शाता है।\n- व्यावहारिक परीक्षा: उनकी अंतिम परीक्षा में शहर के चारों ओर एक योजन के दायरे में गैर-औषधीय पौधे ढूंढना शामिल था; कोई भी ऐसा पौधा न मिलना उनके गहन वनस्पति ज्ञान को सिद्ध करता था।\n- विरासत: भगवान बुद्ध के चिकित्सक के रूप में जीवक की सफलता ने चिकित्सा शिक्षा में तक्षशिला की वैश्विक प्रतिष्ठा को रेखांकित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the library complex of Nalanda University. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The library of Nalanda, known as 'Dharmaganja' (Treasury of Truth), was the spiritual and intellectual heart of the university.\n- Structure: It comprised three grand multi-storeyed buildings named Ratnasagara, Ratnodadhi, and Ratnaranjaka.\n- Collection: It housed thousands of manuscripts spanning scriptures, literature, astronomy, and medicine.\n- Destruction: The burning of this library by Bakhtiyar Khalji's forces in the late 12th century caused an irreplaceable loss to global heritage."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय के पुस्तकालय परिसर का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "'धर्मगंज' (सत्य का खजाना) के नाम से प्रसिद्ध नालंदा का पुस्तकालय विश्वविद्यालय का आध्यात्मिक और बौद्धिक केंद्र था।\n- संरचना: इसमें तीन भव्य बहुमंजिला इमारतें शामिल थीं, जिनके नाम रत्नसागर, रत्नोदधि और रत्नरंजक थे।\n- संग्रह: इसमें शास्त्रों, साहित्य, खगोल विज्ञान और चिकित्सा से संबंधित हजारों पांडुलिपियां संरक्षित थीं।\n- विनाश: 12वीं शताब्दी के अंत में बख्तियार खिलजी की सेना द्वारा इस पुस्तकालय को जलाए जाने से वैश्विक विरासत को एक अपूरणीय क्षति हुई।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the patronage of Gupta rulers in the growth of Nalanda University. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Gupta dynasty laid the foundation and nurtured Nalanda into a premier international university.\n- Foundation: Shakraditya (identified as Kumaragupta I) established the university in the 5th century CE.\n- Continued Patronage: Successive rulers like Buddhagupta, Tathagatagupta, and Baladitya added monasteries and colleges.\n- Policy: Though the Guptas were primarily orthodox Hindus, their secular patronage of Buddhist Nalanda exemplifies ancient India's religious tolerance and commitment to education."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय के विकास में गुप्त शासकों के संरक्षण का मूल्यांकन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "गुप्त राजवंश ने नालंदा की नींव रखी और इसे एक प्रमुख अंतर्राष्ट्रीय विश्वविद्यालय के रूप में विकसित किया।\n- स्थापना: शक्रादित्य (कुमारगुप्त प्रथम के रूप में पहचाने गए) ने 5वीं शताब्दी ईस्वी में इस विश्वविद्यालय की स्थापना की थी।\n- निरंतर संरक्षण: बुद्धगुप्त, तथागतगुप्त और बालादित्य जैसे क्रमिक शासकों ने नए मठों और महाविद्यालयों का निर्माण करवाया।\n- नीति: यद्यपि गुप्त मुख्य रूप से रूढ़िवादी हिंदू थे, बौद्ध नालंदा को उनका धर्मनिरपेक्ष संरक्षण प्राचीन भारत की धार्मिक सहिष्णुता और शिक्षा के प्रति प्रतिबद्धता का उदाहरण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the historical circumstances surrounding the destruction of Nalanda University. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Nalanda's destruction in the late 12th century (c. 1193 CE) marked the decline of organized Buddhism in India.\n- Perpetrator: It was sacked and burned by Bakhtiyar Khalji, a general of Qutb-ud-din Aibak.\n- Causes: The raid was driven by iconoclastic zeal and a misunderstanding of the fortified monastery (Vihara) as a military fort.\n- Impact: The massacre of scholars and burning of Dharmaganja caused the decline of classical Indian science and philosophy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय के विनाश से जुड़ी ऐतिहासिक परिस्थितियों का विश्लेषण कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "12वीं शताब्दी के अंत (लगभग 1193 ईस्वी) में नालंदा का विनाश भारत में संगठित बौद्ध धर्म के पतन का प्रतीक बना।\n- विनाशकर्ता: कुतुबुद्दीन ऐबक के एक सेनापति बख्तियार खिलजी द्वारा इसे लूटा और जला दिया गया था।\n- कारण: यह हमला मूर्तिभंजक उत्साह और इस किलेबंद विहार को एक सैन्य किला समझने की भूल के कारण हुआ था।\n- प्रभाव: विद्वानों के नरसंहार और धर्मगंज को जलाए जाने से शास्त्रीय भारतीय विज्ञान और दर्शन का पतन हो गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the role of Valabhi University in training administrative state officials. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Valabhi University was unique in its strong emphasis on secular and administrative education.\n- Curriculum: Apart from Hinayana Buddhism, it specialized in Niti (polity), Varta (economics), law, and public administration.\n- Career Alignment: Graduates were actively recruited by kings and states as administrative officials, ministers, and tax officers.\n- Distinction: This career-oriented and secular focus distinguished Valabhi from the primarily theological atmosphere of contemporary Buddhist viharas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रशासनिक राज्य अधिकारियों को प्रशिक्षित करने में वल्लभी विश्वविद्यालय की भूमिका को रेखांकित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "वल्लभी विश्वविद्यालय धर्मनिरपेक्ष और प्रशासनिक शिक्षा पर अपने मजबूत बल के लिए अद्वितीय था।\n- पाठ्यक्रम: हीनयान बौद्ध धर्म के अलावा, यह नीति (राज्यव्यवस्था), वार्ता (अर्थशास्त्र), कानून और लोक प्रशासन में विशेषज्ञता रखता था।\n- करियर संरेखण: इसके स्नातकों को राजाओं और राज्यों द्वारा प्रशासनिक अधिकारियों, मंत्रियों और कर अधिकारियों के रूप में सक्रिय रूप से नियुक्त किया जाता था।\n- भिन्नता: इस करियर-उन्मुख और धर्मनिरपेक्ष फोकस ने वल्लभी को समकालीन बौद्ध विहारों के मुख्य रूप से धार्मिक वातावरण से अलग किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the method of debate (Shastrartha) as a pedagogy in ancient Indian universities. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Debate, or Shastrartha, was a cornerstone of pedagogy in universities like Nalanda and Valabhi.\n- Methodology: Students and teachers engaged in structured, logical disputations to test philosophical theories.\n- Intellectual Rigor: It required deep mastery of Hetuvidya (logic) and epistemology.\n- Outcome: Public debates resolved complex doctrinal issues and established a scholar's intellectual authority. This method encouraged critical thinking, tolerance for dissenting opinions, and the evolution of philosophical schools in ancient India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय विश्वविद्यालयों में एक शिक्षाशास्त्र के रूप में शास्त्रार्थ (वाद-विवाद) की पद्धति को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "वाद-विवाद या शास्त्रार्थ, नालंदा और वल्लभी जैसे विश्वविद्यालयों में शिक्षाशास्त्र की आधारशिला थी।\n- कार्यप्रणाली: दार्शनिक सिद्धांतों के परीक्षण के लिए छात्र और शिक्षक संरचित, तार्किक वाद-विवाद में शामिल होते थे।\n- बौद्धिक कठोरता: इसके लिए हेतुविद्या (तर्कशास्त्र) और ज्ञानमीमांसा पर गहन अधिकार की आवश्यकता होती थी।\n- परिणाम: सार्वजनिक बहसों से जटिल सैद्धांतिक मुद्दों का समाधान होता था और विद्वान की बौद्धिक प्रतिष्ठा स्थापित होती थी। इस पद्धति ने आलोचनात्मक सोच, असहमति के प्रति सहिष्णुता और दार्शनिक विचारों के विकास को प्रोत्साहित किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Detail the contribution and role of Chanakya as a teacher at Takshashila University. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Chanakya (Kautilya) was an illustrious student and later an Acharya (professor) of statecraft at Takshashila.\n- Academic Contribution: He taught political science and military strategy, during which he conceived much of his treatise 'Arthashastra'.\n- Historical Impact: It was here that he met and groomed Chandragupta Maurya to unify India and defeat the Nanda dynasty and Greek invaders.\n- Significance: His career illustrates Takshashila's vital role in shaping ancient Indian polity and strategic thought."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तक्षशिला विश्वविद्यालय में एक शिक्षक के रूप में चाणक्य के योगदान और भूमिका का विवरण दीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "चाणक्य (कौटिल्य) तक्षशिला में एक मेधावी छात्र और बाद में राजनीति शास्त्र के आचार्य (प्रोफेसर) बने।\n- शैक्षणिक योगदान: उन्होंने राजनीति विज्ञान और सैन्य रणनीति का अध्यापन किया, जिसके दौरान उन्होंने अपने ग्रंथ 'अर्थशास्त्र' की कल्पना की थी।\n- ऐतिहासिक प्रभाव: इसी स्थान पर उन्होंने चंद्रगुप्त मौर्य से मुलाकात की और उन्हें भारत को एकीकृत करने तथा नंद वंश व यूनानी आक्रमणकारियों को पराजित करने के लिए तैयार किया।\n- महत्व: उनका करियर प्राचीन भारतीय राजनीति और रणनीतिक सोच को आकार देने में तक्षशिला की महत्वपूर्ण भूमिका को दर्शाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the admission criteria, student life, and academic administration of Nalanda University as described by Chinese pilgrims. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Chinese pilgrims like Xuanzang and Yijing, who stayed at Nalanda during the 7th century, provided vivid details of its structured administration and vibrant student life.\n\n- **Admission Criteria**:\n  * Admission was highly competitive and strictly regulated by 'Dwaracharyas' (Gate-keepers).\n  * Aspirants had to pass a rigorous oral examination at the gates, testing their knowledge of classical Sanskrit and philosophy. Only 2-3 out of 10 applicants succeeded.\n- **Student Life**:\n  * Students received free education, food, clothing, and medicine funded by royal village endowments.\n  * The daily schedule was regulated by a water clock (clepsydra).\n  * Monastic discipline was strictly maintained in accordance with Vinaya rules.\n- **Academic Administration**:\n  * The university was headed by an Abbot (Viharapatil/Adhyaksha), such as Shilabhadra.\n  * An administrative council managed temporal affairs, while an academic council regulated curricula and debates.\n\n| Parameter | Description / Features |\n| :--- | :--- |\n| **Head of Institution** | Abbot/Mahanayaka (e.g., Shilabhadra) |\n| **Primary Curriculum** | Mahayana Sutras, Vedas, Logic (Hetuvidya), Grammar (Shabdavidya), Medicine (Chikitsavidya) |\n| **Evaluation Method** | Daily lectures (approx. 100 classes daily), active disputations, and debates |\n| **Funding Source** | Revenues from 100-200 villages granted by kings |"
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चीनी यात्रियों के विवरणों के आधार पर नालंदा विश्वविद्यालय की प्रवेश पात्रता, छात्र जीवन और शैक्षणिक प्रशासन की विवेचना कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "ह्वेनसांग और इत्सिंग जैसे चीनी यात्रियों ने, जिन्होंने 7वीं शताब्दी के दौरान नालंदा में प्रवास किया था, इसके संरचित प्रशासन और जीवंत छात्र जीवन के विस्तृत विवरण प्रदान किए हैं।\n\n- **प्रवेश पात्रता**:\n  * प्रवेश अत्यधिक प्रतिस्पर्धी था और 'द्वाराचार्यों' (द्वारपालों) द्वारा कड़ाई से विनियमित किया जाता था।\n  * उम्मीदवारों को द्वार पर ही एक कठिन मौखिक परीक्षा पास करनी होती थी, जो संस्कृत व्याकरण और दर्शनशास्त्र के ज्ञान की जांच करती थी। 10 में से केवल 2-3 उम्मीदवार ही सफल हो पाते थे।\n- **छात्र जीवन**:\n  * शाही ग्राम बंदोबस्त द्वारा वित्त पोषित होने के कारण छात्रों को निःशुल्क शिक्षा, भोजन, वस्त्र और चिकित्सा प्राप्त होती थी।\n  * दैनिक समय-सारणी को जल घड़ी द्वारा विनियमित किया जाता था।\n  * विनय नियमों के अनुसार मठवासी अनुशासन का कड़ाई से पालन किया जाता था।\n- **शैक्षणिक प्रशासन**:\n  * विश्वविद्यालय का नेतृत्व एक कुलाधिपति/महानायक (जैसे शीलभद्र) करते थे।\n  * एक प्रशासनिक परिषद लौकिक मामलों का प्रबंधन करती थी, जबकि एक शैक्षणिक परिषद पाठ्यक्रम और वाद-विवाद को विनियमित करती थी।\n\n| मापदंड | विवरण / विशेषताएं |\n| :--- | :--- |\n| **संस्थान के प्रमुख** | महानायक / आचार्य (जैसे शीलभद्र) |\n| **प्राथमिक पाठ्यक्रम** | महायान सूत्र, वेद, तर्कशास्त्र (हेतुविद्या), व्याकरण (शब्दविद्या), चिकित्सा (चिकित्साविद्या) |\n| **मूल्यांकन पद्धति** | दैनिक व्याख्यान (लगभग 100 कक्षाएं प्रतिदिन) और सक्रिय वाद-विवाद |\n| **वित्त पोषण स्रोत** | राजाओं द्वारा दान किए गए 100-200 गांवों से प्राप्त राजस्व |"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate Takshashila University as the world's earliest center of higher learning, highlighting its curriculum, prominent alumni, and historical decline. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Takshashila, located in ancient Gandhara (modern Pakistan), flourished from around the 6th century BCE to the 5th century CE. It was characterized by decentralized, autonomous colleges rather than a single corporate body.\n\n- **Academic Curriculum**:\n  * Multi-disciplinary: Taught Vedas, grammar, astronomy, medicine, statecraft, and military arts.\n  * Specialized in Ayurveda: The school of medicine was globally renowned, emphasizing clinical practice.\n- **Prominent Alumni**:\n  * **Panini**: The great Sanskrit grammarian who wrote the Astadhyayi.\n  * **Chanakya**: The strategist and author of Arthashastra.\n  * **Jivaka**: The legendary royal physician of Magadha.\n  * **Charaka**: The father of Indian medicine (associated with its lineage).\n- **Historical Decline**:\n  * Invasions: Subject to successive foreign invasions (Greeks, Scythians, Kushanas).\n  * Destruction: The fatal blow was dealt by the Hepthalites (White Huns) in the late 5th century CE, who devastated the city and its educational infrastructure.\n\n| Aspect | Key Features of Takshashila |\n| :--- | :--- |\n| **Structure** | Decentralized, gurukul-based mentorship under individual Acharyas |\n| **Admission Age** | Minimum 16 years, paid tuition fee or committed labor |\n| **Pedagogy** | Individualized instruction, practical field tests, no centralized degrees |\n| **Decline Era** | Late 5th century CE due to Hun invasions |"
+    },
+    {
+      "lang": "HI",
+      "text": "Q. विश्व के प्राचीनतम उच्च शिक्षा केंद्र के रूप में तक्षशिला विश्वविद्यालय का मूल्यांकन कीजिए, इसके पाठ्यक्रम, प्रमुख पूर्व छात्रों और ऐतिहासिक पतन को रेखांकित कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्राचीन गांधार (आधुनिक पाकिस्तान) में स्थित तक्षशिला, लगभग छठी शताब्दी ईसा पूर्व से पांचवीं शताब्दी ईस्वी तक फला-फूला। इसकी विशेषता एक एकल कॉर्पोरेट निकाय के बजाय विकेंद्रीकृत, स्वायत्त कॉलेज थे।\n\n- **शैक्षणिक पाठ्यक्रम**:\n  * बहु-विषयक: यहाँ वेद, व्याकरण, खगोल विज्ञान, चिकित्सा, राज्यशास्त्र और सैन्य कला का अध्यापन होता था।\n  * आयुर्वेद में विशिष्ट: यहाँ का चिकित्सा विद्यालय व्यावहारिक प्रशिक्षण पर बल देने के कारण वैश्विक स्तर पर प्रसिद्ध था।\n- **प्रमुख पूर्व छात्र**:\n  * **पाणिनी**: महान संस्कृत व्याकरणविद् जिन्होंने 'अष्टाध्यायी' की रचना की।\n  * **चाणक्य**: रणनीतिकार और 'अर्थशास्त्र' के लेखक।\n  * **जीवक**: मगध के प्रसिद्ध शाही चिकित्सक।\n  * **चरक**: भारतीय चिकित्सा के जनक (तक्षशिला परंपरा से जुड़े)।\n- **ऐतिहासिक पतन**:\n  * आक्रमण: यह क्रमिक विदेशी आक्रमणों (यूनानी, शक, कुषाण) के अधीन रहा।\n  * विनाश: अंतिम आघात 5वीं शताब्दी ईस्वी के अंत में हेफ्थलाइट्स (श्वेत हूणों) द्वारा दिया गया, जिन्होंने शहर और इसके शैक्षणिक ढांचे को नष्ट कर दिया।\n\n| पहलू | तक्षशिला की प्रमुख विशेषताएं |\n| :--- | :--- |\n| **संरचना** | व्यक्तिगत आचार्यों के अधीन विकेंद्रीकृत, गुरुकुल-आधारित मार्गदर्शन |\n| **प्रवेश आयु** | न्यूनतम 16 वर्ष, भुगतान शुल्क या प्रतिबद्ध श्रम |\n| **शिक्षण पद्धति** | व्यक्तिगत निर्देश, व्यावहारिक क्षेत्र परीक्षण, कोई केंद्रीकृत डिग्री नहीं |\n| **पतन काल** | हूण आक्रमणों के कारण 5वीं शताब्दी ईस्वी के उत्तरार्ध में |"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze Valabhi University as a leading center of Buddhist and secular learning, contrasting its character and curriculum with that of Nalanda. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Valabhi, located in Saurashtra (Gujarat) under the patronage of the Maitraka rulers (600-775 CE), emerged as a brilliant intellectual hub in Western India, rivaling Nalanda in the East.\n\n- **Sectarian Character**:\n  * Nalanda was the citadel of Mahayana Buddhism and had strong spiritual affiliations.\n  * Valabhi was the global headquarters of Hinayana Buddhism, specifically the Sammatiya sect, fostering a different theological perspective.\n- **Secular Curriculum**:\n  * Valabhi had a strong practical orientation, offering courses in law, economics, political science, and administration.\n  * Its graduates directly entered state service, unlike Nalanda where scholars focused heavily on theology, metaphysics, and logic.\n\n| Feature | Valabhi University | Nalanda University |\n| :--- | :--- | :--- |\n| **Location & Region** | Saurashtra, Gujarat (Western India) | Rajgir/Nalanda, Bihar (Eastern India) |\n| **Primary Sect** | Hinayana Buddhism (Sammatiya) | Mahayana Buddhism |\n| **Core Subject Focus** | Secular sciences, Law, Administration, Commerce | Metaphysics, Theology, Epistemology, Logic |\n| **Destiny/End** | Destroyed by Arab invaders (late 8th century) | Destroyed by Bakhtiyar Khalji (late 12th century) |"
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बौद्ध और धर्मनिरपेक्ष शिक्षा के एक अग्रणी केंद्र के रूप में वल्लभी विश्वविद्यालय का विश्लेषण कीजिए तथा इसकी प्रकृति और पाठ्यक्रम की तुलना नालंदा से कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "मैत्रक शासकों (600-775 ईस्वी) के संरक्षण में सौराष्ट्र (गुजरात) में स्थित वल्लभी, पश्चिमी भारत में एक शानदार बौद्धिक केंद्र के रूप में उभरा, जो पूर्व में नालंदा के समतुल्य था।\n\n- **सांप्रदायिक प्रकृति**:\n  * नालंदा महायान बौद्ध धर्म का गढ़ था और इसका झुकाव आध्यात्मिक विषयों की ओर अधिक था।\n  * वल्लभी मुख्य रूप से हीनयान बौद्ध धर्म (विशेष रूप से सम्मितीय संप्रदाय) का वैश्विक मुख्यालय था, जो एक अलग धार्मिक दृष्टिकोण को बढ़ावा देता था।\n- **धर्मनिरपेक्ष पाठ्यक्रम**:\n  * वल्लभी का दृष्टिकोण व्यावहारिक था, जो कानून, अर्थशास्त्र, राजनीति विज्ञान और प्रशासन के पाठ्यक्रम प्रदान करता था।\n  * इसके स्नातक सीधे राज्य की प्रशासनिक सेवा में शामिल होते थे, जबकि नालंदा के विद्वान मुख्य रूप से धर्मशास्त्र, तत्वमीमांसा और तर्कशास्त्र पर ध्यान केंद्रित करते थे।\n\n| विशेषता | वल्लभी विश्वविद्यालय | नालंदा विश्वविद्यालय |\n| :--- | :--- | :--- |\n| **स्थान और क्षेत्र** | सौराष्ट्र, गुजरात (पश्चिमी भारत) | राजगीर/नालंदा, बिहार (पूर्वी भारत) |\n| **प्राथमिक संप्रदाय** | हीनयान बौद्ध धर्म (सम्मितीय) | महायान बौद्ध धर्म |\n| **मुख्य विषय फोकस** | धर्मनिरपेक्ष विज्ञान, कानून, प्रशासन, वाणिज्य | तत्वमीमांसा, धर्मशास्त्र, ज्ञानमीमांसा, तर्कशास्त्र |\n| **पतन का कारण** | अरब आक्रमणकारियों द्वारा विनाश (8वीं सदी के अंत में) | बख्तियार खिलजी द्वारा विनाश (12वीं सदी के अंत में) |"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. \"Ancient Indian universities were not merely religious centers but hubs of multi-disciplinary education.\" Critically evaluate this statement with examples from Takshashila, Nalanda, and Valabhi. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "While ancient Indian universities like Takshashila, Nalanda, and Valabhi were rooted in religious traditions (Buddhist or Vedic), they transcended religious education to foster a comprehensive, multi-disciplinary environment.\n\n- **Multidisciplinary Character**:\n  * **Takshashila**: Famous for secular sciences. It was the premier hub for military training, archery, statecraft (Arthashastra), and grammar. It was not a monastic university but a collection of private academic guilds.\n  * **Nalanda**: While being a Mahayana monastery, its curriculum included Hetuvidya (logic), Shabdavidya (grammar), Chikitsavidya (medicine), and Sankhya philosophy.\n  * **Valabhi**: Highly valued for its secular courses in public administration, law, economics, and commerce, producing state bureaucrats.\n- **Socio-Political Utility**: These universities trained professionals who contributed directly to state administration, healthcare, and economic planning.\n\n* **Key Disciplines Taught**:\n  1. *Chikitsavidya (Medicine)*: Clinical training at Takshashila (Jivaka) and Nalanda.\n  2. *Sabdovidya (Grammar)*: Advanced Sanskrit linguistics (Panini at Takshashila).\n  3. *Hetuvidya (Logic)*: Epistemological debates at Nalanda.\n  4. *Niti & Varta (Polity & Economics)*: Professional administrative education at Valabhi."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. \"प्राचीन भारतीय विश्वविद्यालय केवल धार्मिक केंद्र नहीं थे बल्कि बहु-विषयक शिक्षा के केंद्र थे।\" तक्षशिला, नालंदा और वल्लभी के उदाहरणों के साथ इस कथन का आलोचनात्मक मूल्यांकन कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "यद्यपि तक्षशिला, नालंदा और वल्लभी जैसे प्राचीन भारतीय विश्वविद्यालय धार्मिक परंपराओं (बौद्ध या वैदिक) में निहित थे, उन्होंने धार्मिक शिक्षा से आगे बढ़कर एक व्यापक, बहु-विषयक वातावरण को बढ़ावा दिया।\n\n- **बहु-विषयक चरित्र**:\n  * **तक्षशिला**: यह धर्मनिरपेक्ष विज्ञान के लिए प्रसिद्ध था। यह सैन्य प्रशिक्षण, धनुर्विद्या, राज्यशास्त्र (अर्थशास्त्र) और व्याकरण का प्रमुख केंद्र था। यह एक मठवासी विश्वविद्यालय नहीं था बल्कि व्यक्तिगत शैक्षणिक संघों का समूह था।\n  * **नालंदा**: महायान मठ होने के बावजूद, इसके पाठ्यक्रम में हेतुविद्या (तर्कशास्त्र), शब्दविद्या (व्याकरण), चिकित्साविद्या (आयुर्वेद) और सांख्य दर्शन शामिल थे।\n  * **वल्लभी**: लोक प्रशासन, कानून, अर्थशास्त्र और वाणिज्य में अपने धर्मनिरपेक्ष पाठ्यक्रमों के लिए अत्यधिक मूल्यवान था, जहाँ से राज्य के अधिकारी तैयार होते थे।\n- **सामाजिक-राजनीतिक उपयोगिता**: इन विश्वविद्यालयों ने ऐसे पेशेवरों को प्रशिक्षित किया जिन्होंने राज्य प्रशासन, स्वास्थ्य सेवा और आर्थिक योजना में सीधे योगदान दिया।\n\n* **पढ़ाए जाने वाले प्रमुख विषय**:\n  1. *चिकित्साविद्या (चिकित्सा)*: तक्षशिला (जीवक) और नालंदा में व्यावहारिक नैदानिक प्रशिक्षण।\n  2. *शब्दविद्या (व्याकरण)*: उन्नत संस्कृत भाषाविज्ञान (तक्षशिला में पाणिनी)।\n  3. *हेतुविद्या (तर्कशास्त्र)*: नालंदा में ज्ञानमीमांसीय वाद-विवाद।\n  4. *नीति और वार्ता (राजनीति और अर्थशास्त्र)*: वल्लभी में व्यावसायिक प्रशासनिक शिक्षा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Examine the patronage, socio-economic structure, and institutional organization of Nalanda University that sustained its massive scale. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Nalanda University's scale—housing 10,000 students and 2,000 teachers—was sustained by a sophisticated socio-economic framework and institutional organization.\n\n- **Royal and Merchant Patronage**:\n  * Gupta Emperors (starting with Kumaragupta I) initiated funding.\n  * Pala rulers (Dharmapala and Devapala) provided extensive support, along with the Maukhari dynasty of Kannauj.\n  * International Patronage: King Balaputradeva of Sumatra (Shailendra Dynasty) built a monastery and requested Devapala to grant 5 villages for its upkeep.\n- **Socio-Economic Model**:\n  * The university held titles to over 100 to 200 villages. The revenue, food grains, and dairy products from these villages were delivered directly to the university.\n  * This self-sustaining network eliminated student tuition, boarding, and lodging fees, democratizing higher education.\n- **Institutional Organization**:\n  * Hierarchical governance led by the Mahanayaka (Abbot).\n  * Division into multiple colleges, lecture halls, and astronomical observatories, managed by specific committees.\n\n| Organizational Element | Description |\n| :--- | :--- |\n| **Financial Autonomy** | Village land endowments (Agraharas) ensured steady income. |\n| **Administrative Councils** | Separate bodies managed academic affairs, discipline, and temporal assets. |\n| **Monastic Layout** | Organized brick viharas with private cells, common rooms, and water supply. |"
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नालंदा विश्वविद्यालय के विशाल स्तर को बनाए रखने वाले उसके संरक्षण, सामाजिक-आर्थिक ढांचे और संस्थागत संगठन का परीक्षण कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "नालंदा विश्वविद्यालय का विशाल स्तर—जिसमें 10,000 छात्र और 2,000 शिक्षक रहते थे—एक परिष्कृत सामाजिक-आर्थिक ढांचे और संस्थागत संगठन द्वारा समर्थित था।\n- **शाही और व्यापारी संरक्षण**:\n  * गुप्त सम्राटों (कुमारगुप्त प्रथम से शुरू) ने इसके वित्त पोषण की शुरुआत की।\n  * कन्नौज के मौखरि वंश के साथ-साथ पाल शासकों (धर्मपाल और देवपाल) ने व्यापक सहयोग प्रदान किया।\n  * अंतर्राष्ट्रीय संरक्षण: सुमात्रा (शैलेंद्र राजवंश) के राजा बालपुत्रदेव ने एक मठ का निर्माण कराया और देवपाल से इसके रख-रखाव के लिए 5 गांव दान करने का अनुरोध किया।\n- **सामाजिक-आर्थिक मॉडल**:\n  * विश्वविद्यालय के पास 100 से 200 गांवों का अधिकार था। इन गांवों से प्राप्त राजस्व, खाद्यान्न और डेयरी उत्पाद सीधे विश्वविद्यालय पहुंचाए जाते थे।\n  * इस आत्मनिर्भर नेटवर्क ने छात्रों के शिक्षण, भोजन और आवास शुल्क को समाप्त कर उच्च शिक्षा का लोकतंत्रीकरण किया।\n- **संस्थागत संगठन**:\n  * महानायक (कुलाधिपति) के नेतृत्व में श्रेणीबद्ध शासन व्यवस्था थी।\n  * विशिष्ट समितियों द्वारा प्रबंधित कई कॉलेजों, व्याख्यान कक्षों और खगोलीय वेधशालाओं में विभाजन था।\n\n| संगठनात्मक तत्व | विवरण |\n| :--- | :--- |\n| **वित्तीय स्वायत्तता** | ग्रामीण भूमि अनुदान (अग्रहार) ने निरंतर आय सुनिश्चित की। |\n| **प्रशासनिक परिषदें** | शैक्षणिक मामलों, अनुशासन और भौतिक संपत्तियों के प्रबंधन के लिए अलग निकाय। |\n| **मठवासी संरचना** | निजी कक्षाओं, सामान्य कमरों और जल आपूर्ति से युक्त व्यवस्थित ईंटों के विहार। |"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare and contrast Takshashila, Nalanda, and Valabhi Universities on the basis of their location, patron dynasties, primary sectarian focus, and destiny. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The ancient Indian higher education landscape was defined by distinct regional hubs, each with unique characteristics and historical trajectories.\n\n| Parameter | Takshashila | Nalanda | Valabhi |\n| :--- | :--- | :--- | :--- |\n| **Geographical Location** | Gandhara region (modern Punjab, Pakistan) | Bihar near Rajgir (Eastern India) | Saurashtra coast, Gujarat (Western India) |\n| **Key Patron Dynasties** | Achaemenids, Indo-Greeks, Kushanas | Guptas, Maukharis, Palas | Maitrakas of Valabhi |\n| **Primary Sectarian Focus** | Vedic & Brahmanical traditions; secular arts | Mahayana Buddhism | Hinayana Buddhism (Sammatiya sect) |\n| **Destiny / Cause of Decline** | Devastated by White Huns (5th century CE) | Destroyed by Bakhtiyar Khalji's army (c. 1193 CE) | Sacked by Arab invasions (late 8th century CE) |\n\n- **Key Insights**:\n  * **Institutional Development**: Takshashila represented the transition from Gurukuls to higher learning centers, whereas Nalanda and Valabhi were fully developed, corporate university models.\n  * **Funding and Architecture**: Nalanda and Valabhi featured massive brick complexes funded through institutional village grants, whereas Takshashila operated through individual teachers taking fees or services."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. स्थान, संरक्षक राजवंशों, प्राथमिक सांप्रदायिक ध्यान और नियति के आधार पर तक्षशिला, नालंदा और वल्लभी विश्वविद्यालयों की तुलना और विषमता का विश्लेषण कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारतीय उच्च शिक्षा का परिदृश्य विभिन्न क्षेत्रीय केंद्रों द्वारा परिभाषित था, जिनमें से प्रत्येक की अपनी अनूठी विशेषताएं और ऐतिहासिक प्रक्षेपवक्र थे।\n\n| मापदंड | तक्षशिला | नालंदा | वल्लभी |\n| :--- | :--- | :--- | :--- |\n| **भौगोलिक स्थान** | गांधार क्षेत्र (आधुनिक पंजाब, पाकिस्तान) | राजगीर के पास बिहार (पूर्वी भारत) | सौराष्ट्र तट, गुजरात (पश्चिमी भारत) |\n| **प्रमुख संरक्षक राजवंश** | हखामनी, हिंद-यवन, कुषाण | गुप्त, मौखरि, पाल | वल्लभी के मैत्रक |\n| **प्राथमिक सांप्रदायिक फोकस** | वैदिक और ब्राह्मणवादी परंपराएं; धर्मनिरपेक्ष कलाएं | महायान बौद्ध धर्म | हीनयान बौद्ध धर्म (सम्मितीय संप्रदाय) |\n| **पतन का कारण / नियति** | श्वेत हूणों द्वारा विनाश (5वीं शताब्दी ईस्वी) | बख्तियार खिलजी की सेना द्वारा विनाश (लगभग 1193 ईस्वी) | अरब आक्रमणों द्वारा विनाश (8वीं शताब्दी ईस्वी के अंत में) |\n\n- **प्रमुख अंतर्दृष्टि**:\n  * **संस्थागत विकास**: तक्षशिला गुरुकुल से उच्च शिक्षा केंद्रों में संक्रमण का प्रतिनिधित्व करता था, जबकि नालंदा और वल्लभी पूरी तरह से विकसित, कॉर्पोरेट विश्वविद्यालय मॉडल थे।\n  * **वित्त पोषण और वास्तुकला**: नालंदा और वल्लभी में संस्थागत ग्राम अनुदान के माध्यम से वित्त पोषत विशाल ईंट परिसर थे, जबकि तक्षशिला व्यक्तिगत शिक्षकों द्वारा शुल्क या सेवा प्राप्त करने के आधार पर संचालित होता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the decline of ancient Indian universities (Takshashila, Nalanda, Valabhi) and its impact on the Indian intellectual tradition. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The decline of ancient Indian universities was not a sudden event but a gradual process driven by external invasions, shifts in political patronage, and internal religious changes.\n\n- **Reasons for Decline**:\n  1. *External Invasions*: White Hun incursions destroyed Takshashila in the 5th century CE. Valabhi was sacked by Arab raids in the 8th century, and Nalanda was burned by Bakhtiyar Khalji in c. 1193 CE.\n  2. *Shift in Patronage*: The rise of Rajput dynasties led to patronizing temple-centric education rather than monastic universities.\n  3. *Loss of Financial Base*: Destruction of agricultural estates and villages that funded these universities cut off their lifeline.\n- **Impact on Indian Intellectual Tradition**:\n  * **Knowledge Gap**: The burning of massive libraries (like Dharmaganja) led to the loss of irreplaceable manuscripts in science, logic, and philosophy.\n  * **Decline of Science**: The emphasis shifted from experimental and empirical sciences (like Ayurveda, chemistry, metallurgy) to scholastic and ritualistic studies.\n  * **Migration of Scholars**: Prominent scholars fled to Tibet, Nepal, and East Asia, preserving some texts but ending the institutional supremacy of mainland India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय विश्वविद्यालयों (तक्षशिला, नालंदा, वल्लभी) के पतन और भारतीय बौद्धिक परंपरा पर इसके प्रभाव की चर्चा कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारतीय विश्वविद्यालयों का पतन कोई अचानक हुई घटना नहीं थी, बल्कि यह बाहरी आक्रमणों, राजनीतिक संरक्षण में बदलाव और आंतरिक धार्मिक परिवर्तनों से प्रेरित एक क्रमिक प्रक्रिया थी।\n\n- **पतन के कारण**:\n  1. *बाहरी आक्रमण*: 5वीं शताब्दी ईस्वी में श्वेत हूणों के आक्रमणों ने तक्षशिला को नष्ट कर दिया। 8वीं शताब्दी में अरबों के हमलों से वल्लभी को नुकसान पहुँचा, और लगभग 1193 ईस्वी में बख्तियार खिलजी ने नालंदा को जला दिया।\n  2. *संरक्षण में बदलाव*: राजपूत राजवंशों के उदय के कारण मठवासी विश्वविद्यालयों के बजाय मंदिर-केंद्रित शिक्षा को बढ़ावा मिला।\n  3. *वित्तीय आधार का नुकसान*: इन विश्वविद्यालयों को वित्त पोषित करने वाले कृषि क्षेत्रों और गांवों के विनाश ने उनकी जीवन रेखा काट दी।\n- **भारतीय बौद्धिक परंपरा पर प्रभाव**:\n  * **ज्ञान का अभाव**: विशाल पुस्तकालयों (जैसे धर्मगंज) के जलने से विज्ञान, तर्कशास्त्र और दर्शनशास्त्र की अपूरणीय पांडुलिपियां नष्ट हो गईं।\n  * **विज्ञान का पतन**: प्रायोगिक और अनुभवजन्य विज्ञान (जैसे आयुर्वेद, रसायन शास्त्र, धातु विज्ञान) से ध्यान हटकर शास्त्रीय और कर्मकांडी अध्ययनों पर केंद्रित हो गया।\n  * **विद्वानों का पलायन**: प्रमुख विद्वान तिब्बत, नेपाल और पूर्वी एशिया की ओर पलायन कर गए, जिससे कुछ ग्रंथों का संरक्षण तो हुआ लेकिन मुख्य भूमि भारत की संस्थागत सर्वोच्चता समाप्त हो गई।"
+    }
+  ]
+}

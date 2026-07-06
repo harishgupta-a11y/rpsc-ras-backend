@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q1. Who among the following was the founder of the Ajivika sect, which emerged as a prominent heterodox school in the 6th century BC?",
+      "option_a": "Purana Kassapa",
+      "option_b": "Makkhali Gosala",
+      "option_c": "Ajita Kesakambali",
+      "option_d": "Pakudha Kaccayana",
+      "correct": "B",
+      "explanation": "Correct option: B. Makkhali Gosala was the founder of the Ajivika sect, having initially been a companion of Vardhamana Mahavira before parting ways due to doctrinal differences."
+    },
+    {
+      "lang": "HI",
+      "text": "Q1. निम्नलिखित में से कौन आजीविक सम्प्रदाय के संस्थापक थे, जो छठी शताब्दी ईसा पूर्व में एक प्रमुख नास्तिक (विधर्मी) सम्प्रदाय के रूप में उभरा?",
+      "option_a": "पूरण कस्सप",
+      "option_b": "मक्खलि गोसाल",
+      "option_c": "अजित केसकम्बली",
+      "option_d": "पकुध कच्चायन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. मक्खलि गोसाल आजीविक सम्प्रदाय के संस्थापक थे, जो वैचारिक मतभेदों के कारण अलग होने से पहले प्रारंभ में वर्धमान महावीर के साथी थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q2. What is the core philosophical doctrine of the Ajivika sect that explains all cosmic and human events?",
+      "option_a": "Akriyavada (Non-action)",
+      "option_b": "Ucchedavada (Annihilationism)",
+      "option_c": "Niyati (Absolute Determinism)",
+      "option_d": "Anuvada (Atomism)",
+      "correct": "C",
+      "explanation": "Correct option: C. The core doctrine of the Ajivikas is Niyati (fate or absolute determinism), which posits that all events in the universe are pre-determined and human effort has no impact on destiny."
+    },
+    {
+      "lang": "HI",
+      "text": "Q2. आजीविक सम्प्रदाय का मूल दार्शनिक सिद्धांत क्या है जो सभी ब्रह्मांडीय और मानवीय घटनाओं की व्याख्या करता है?",
+      "option_a": "अक्रियावाद (निष्क्रियता का सिद्धांत)",
+      "option_b": "उच्छेदवाद (विनाशवाद)",
+      "option_c": "नियतिवाद (पूर्ण नियतिवाद)",
+      "option_d": "अणुवाद (परमाणुवाद)",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. आजीविकों का मूल सिद्धांत नियति (भाग्य या पूर्ण नियतिवाद) है, जिसके अनुसार ब्रह्मांड की सभी घटनाएं पहले से निर्धारित हैं और मानवीय प्रयास का भाग्य पर कोई प्रभाव नहीं पड़ता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q3. Which Buddhist text in the Digha Nikaya provides the most detailed description of the doctrines of the six major heterodox teachers (Samanas) of the 6th century BC?",
+      "option_a": "Milinda Panha",
+      "option_b": "Samannaphala Sutta",
+      "option_c": "Mahaparinibbana Sutta",
+      "option_d": "Lalitavistara Sutra",
+      "correct": "B",
+      "explanation": "Correct option: B. The Samannaphala Sutta (The Fruits of the Contemplative Life) of the Digha Nikaya records the doctrines of the six contemporary non-Buddhist teachers as explained to King Ajatashatru."
+    },
+    {
+      "lang": "HI",
+      "text": "Q3. दीघ निकाय का कौन सा बौद्ध ग्रंथ छठी शताब्दी ईसा पूर्व के छह प्रमुख नास्तिक शिक्षकों (श्रमणों) के सिद्धांतों का सबसे विस्तृत विवरण प्रदान करता है?",
+      "option_a": "मिलिन्दपञ्ह",
+      "option_b": "सामञ्ञफल सुत्त",
+      "option_c": "महापरिनिब्बान सुत्त",
+      "option_d": "ललितविस्तर सूत्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. दीघ निकाय का सामञ्ञफल सुत्त राजा अजातशत्रु को समझाए गए छह समकालीन गैर-बौद्ध शिक्षकों के सिद्धांतों को दर्ज करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q4. Who among the following was the exponent of Ucchedavada (Annihilationism/Materialism) in the 6th century BC?",
+      "option_a": "Sanjaya Belatthiputta",
+      "option_b": "Pakudha Kaccayana",
+      "option_c": "Ajita Kesakambali",
+      "option_d": "Purana Kassapa",
+      "correct": "C",
+      "explanation": "Correct option: C. Ajita Kesakambali was the earliest known Indian materialist philosopher who propounded Ucchedavada, asserting that death is the end of all existence and there is no afterlife."
+    },
+    {
+      "lang": "HI",
+      "text": "Q4. निम्नलिखित में से कौन छठी शताब्दी ईसा पूर्व में उच्छेदवाद (विनाशवाद/भौतिकवाद) के प्रतिपादक थे?",
+      "option_a": "संजय बेलट्ठिपुत्त",
+      "option_b": "पकुध कच्चायन",
+      "option_c": "अजित केसकम्बली",
+      "option_d": "पूरण कस्सप",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. अजित केसकम्बली भारत के सबसे पहले ज्ञात भौतिकवादी दार्शनिक थे जिन्होंने उच्छेदवाद का प्रतिपादन किया, जिसमें कहा गया कि मृत्यु सभी अस्तित्व का अंत है और कोई परलोक नहीं होता।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q5. The philosopher Purana Kassapa advocated which of the following schools of thought?",
+      "option_a": "Akriyavada (Doctrine of Non-Action)",
+      "option_b": "Sasvatavada (Eternalism)",
+      "option_c": "Ajnanavada (Scepticism)",
+      "option_d": "Kriyavada (Doctrine of Action)",
+      "correct": "A",
+      "explanation": "Correct option: A. Purana Kassapa propounded Akriyavada, arguing that actions do not produce moral karma (good deeds do not lead to merit and bad deeds do not lead to sin)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q5. दार्शनिक पूरण कस्सप ने निम्नलिखित में से किस विचारधारा का समर्थन किया था?",
+      "option_a": "अक्रियावाद (निष्क्रियता का सिद्धांत)",
+      "option_b": "शाश्वतवाद (नित्यता का सिद्धांत)",
+      "option_c": "अज्ञानवाद (संदेहवाद)",
+      "option_d": "क्रियावाद (कर्म का सिद्धांत)",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. पूरण कस्सप ने अक्रियावाद का प्रतिपादन किया, जिसमें तर्क दिया गया कि कर्मों से कोई नैतिक प्रभाव उत्पन्न नहीं होता (अच्छे कर्मों से पुण्य नहीं मिलता और बुरे कर्मों से पाप नहीं होता)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q6. The doctrine of 'Ajnanavada' (Scepticism/Agnosticism), which refused to give definitive answers to metaphysical questions, is associated with which thinker?",
+      "option_a": "Pakudha Kaccayana",
+      "option_b": "Sanjaya Belatthiputta",
+      "option_c": "Ajita Kesakambali",
+      "option_d": "Makkhali Gosala",
+      "correct": "B",
+      "explanation": "Correct option: B. Sanjaya Belatthiputta was the proponent of Ajnanavada (Scepticism), avoiding positive assertions on matters like the existence of the soul or the afterlife."
+    },
+    {
+      "lang": "HI",
+      "text": "Q6. 'अज्ञानवाद' (संदेहवाद/अज्ञेयवाद) का सिद्धांत, जिसने आध्यात्मिक प्रश्नों के निश्चित उत्तर देने से इनकार कर दिया, किस विचारक से जुड़ा है?",
+      "option_a": "पकुध कच्चायन",
+      "option_b": "संजय बेलट्ठिपुत्त",
+      "option_c": "अजित केसकम्बली",
+      "option_d": "मक्खलि गोसाल",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. संजय बेलट्ठिपुत्त अज्ञानवाद (संदेहवाद) के प्रणेता थे, जो आत्मा के अस्तित्व या परलोक जैसे मामलों पर किसी भी सकारात्मक दावे से बचते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q7. Pakudha Kaccayana, a contemporary of Buddha, propounded a theory that can be identified as the precursor to which school of philosophy?",
+      "option_a": "Vaisheshika (Atomism)",
+      "option_b": "Nyaya (Logic)",
+      "option_c": "Mimamsa (Hermeneutics)",
+      "option_d": "Samkhya (Dualism)",
+      "correct": "A",
+      "explanation": "Correct option: A. Pakudha Kaccayana's theory of seven eternal, uncreated elements (earth, water, fire, air, joy, sorrow, soul) is seen as a precursor to the Vaisheshika school's atomism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q7. बुद्ध के समकालीन पकुध कच्चायन ने एक सिद्धांत प्रतिपादित किया था जिसे किस दर्शनशास्त्र का अग्रदूत माना जा सकता है?",
+      "option_a": "वैशेषिक (परमाणुवाद)",
+      "option_b": "न्याय (तर्कशास्त्र)",
+      "option_c": "मीमांसा (व्याख्याशास्त्र)",
+      "option_d": "सांख्य (द्वैतवाद)",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. पकुध कच्चायन का सात शाश्वत, अकृत तत्वों (पृथ्वी, जल, तेज, वायु, सुख, दुःख, जीव) का सिद्धांत वैशेषिक स्कूल के परमाणुवाद का अग्रदूत माना जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q8. In the 6th century BC, the term 'Shramana' was used to refer to which of the following groups?",
+      "option_a": "Householders performing Vedic sacrifices",
+      "option_b": "Orthodox Brahmin priests",
+      "option_c": "Ascetic renouncers rejecting Vedic authority",
+      "option_d": "Royal advisors and administrative officers",
+      "correct": "C",
+      "explanation": "Correct option: C. 'Shramana' refers to the non-Vedic, ascetic renouncer traditions (like Ajivikas, Buddhists, Jains) who rejected Brahmanical authority, caste distinctions, and animal sacrifices."
+    },
+    {
+      "lang": "HI",
+      "text": "Q8. छठी शताब्दी ईसा पूर्व में, 'श्रमण' शब्द का प्रयोग निम्नलिखित में से किस समूह को संदर्भित करने के लिए किया जाता था?",
+      "option_a": "वैदिक यज्ञ करने वाले गृहस्थ",
+      "option_b": "रूढ़िवादी ब्राह्मण पुरोहित",
+      "option_c": "वैदिक सत्ता को खारिज करने वाले तपस्वी संन्यासी",
+      "option_d": "शाही सलाहकार और प्रशासनिक अधिकारी",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. 'श्रमण' शब्द गैर-वैदिक, तपस्वी संन्यासी परंपराओं (जैसे आजीविक, बौद्ध, जैन) को संदर्भित करता है जिन्होंने ब्राह्मणवादी अधिकार, जातिगत भेदभाव और पशु बलि का विरोध किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q9. Which Maurya ruler dedicated rock-cut caves in the Barabar Hills near Gaya specifically to the Ajivika ascetics?",
+      "option_a": "Chandragupta Maurya",
+      "option_b": "Bindusara",
+      "option_c": "Ashoka",
+      "option_d": "Samudragupta",
+      "correct": "C",
+      "explanation": "Correct option: C. Emperor Ashoka dedicated the Sudama and Visva Zopri caves in the Barabar Hills to the Ajivika sect, as evidenced by his cave inscriptions."
+    },
+    {
+      "lang": "HI",
+      "text": "Q9. गया के निकट बराबर पहाड़ियों में गुफाओं को विशेष रूप से आजीविक तपस्वियों को किस मौर्य शासक ने दान किया था?",
+      "option_a": "चन्द्रगुप्त मौर्य",
+      "option_b": "बिन्दुसार",
+      "option_c": "अशोक",
+      "option_d": "समुद्रगुप्त",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सम्राट अशोक ने बराबर पहाड़ियों में सुदामा और विश्व झोपड़ी गुफाओं को आजीविक सम्प्रदाय को समर्पित किया था, जैसा कि उनके गुफा अभिलेखों से सिद्ध होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q10. The Nagarjuni Hill cave inscriptions show that which of the following rulers donated caves to the Ajivikas?",
+      "option_a": "Dasaratha Maurya",
+      "option_b": "Samprati",
+      "option_c": "Salisuka",
+      "option_d": "Brihadratha",
+      "correct": "A",
+      "explanation": "Correct option: A. Dasaratha Maurya, the grandson of Ashoka, donated caves in the Nagarjuni Hills (such as the Gopika cave) to the Ajivika sect shortly after his accession."
+    },
+    {
+      "lang": "HI",
+      "text": "Q10. नागार्जुन पहाड़ी गुफा अभिलेखों से पता चलता है कि निम्नलिखित में से किस शासक ने आजीविकों को गुफाएं दान में दी थीं?",
+      "option_a": "दशरथ मौर्य",
+      "option_b": "सम्प्रति",
+      "option_c": "शालिसुक",
+      "option_d": "बृहद्रथ",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. अशोक के पौत्र दशरथ मौर्य ने अपने राज्यारोहण के तुरंत बाद नागार्जुन पहाड़ियों में गुफाएँ (जैसे गोपिका गुफा) आजीविक सम्प्रदाय को दान की थीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q11. Which Jain text contains detailed debates and a physical clash between Mahavira and the Ajivika leader Makkhali Gosala in Savatthi?",
+      "option_a": "Acharanga Sutra",
+      "option_b": "Bhagavati Sutra",
+      "option_c": "Kalpa Sutra",
+      "option_d": "Uttaradhyayana Sutra",
+      "correct": "B",
+      "explanation": "Correct option: B. The Jain canonical text Bhagavati Sutra (Vyakhyaprajnapti) contains extensive accounts of the interactions, disputes, and final clash between Mahavira and Makkhali Gosala."
+    },
+    {
+      "lang": "HI",
+      "text": "Q11. किस जैन ग्रंथ में श्रावस्ती में महावीर और आजीविक नेता मक्खलि गोसाल के बीच विस्तृत बहस और संघर्ष का विवरण मिलता है?",
+      "option_a": "आचारांग सूत्र",
+      "option_b": "भगवती सूत्र",
+      "option_c": "कल्प सूत्र",
+      "option_d": "उत्तराध्ययन सूत्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. जैन प्रामाणिक ग्रंथ भगवती सूत्र (व्याख्याप्रज्ञप्ति) में महावीर और मक्खलि गोसाल के बीच बातचीत, विवाद और अंतिम टकराव का विस्तृत विवरण है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q12. What was the materialist philosopher Ajita Kesakambali's opinion regarding donations and rituals?",
+      "option_a": "They lead to high spiritual merit in the next life",
+      "option_b": "They are foolish practices of fools who talk of gifts",
+      "option_c": "They must be accompanied by Vedic chants to be effective",
+      "option_d": "They should only be offered to Shramana ascetics",
+      "correct": "B",
+      "explanation": "Correct option: B. Ajita Kesakambali argued that giving alms is a doctrine of fools; there is no reward for charity, and it is a vain, empty talk because everything ends at death."
+    },
+    {
+      "lang": "HI",
+      "text": "Q12. भौतिकवादी दार्शनिक अजित केसकम्बली का दान और अनुष्ठानों के बारे में क्या मत था?",
+      "option_a": "वे अगले जीवन में उच्च आध्यात्मिक पुण्य की ओर ले जाते हैं",
+      "option_b": "वे उन मूर्खों की मूर्खतापूर्ण प्रथाएँ हैं जो दान की बात करते हैं",
+      "option_c": "प्रभावी होने के लिए उनके साथ वैदिक मंत्रोच्चार होना चाहिए",
+      "option_d": "वे केवल श्रमण तपस्वियों को ही अर्पित किए जाने चाहिए",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. अजित केसकम्बली ने तर्क दिया कि दान देना मूर्खों का सिद्धांत है; दान का कोई फल नहीं मिलता, और यह एक व्यर्थ, खोखली बात है क्योंकि मृत्यु पर सब कुछ समाप्त हो जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q13. In which city did Makkhali Gosala spend the last years of his life and die, living in the workshop of a female potter named Halahala?",
+      "option_a": "Rajagriha",
+      "option_b": "Pataliputra",
+      "option_c": "Savatthi (Sravasti)",
+      "option_d": "Varanasi",
+      "correct": "C",
+      "explanation": "Correct option: C. Makkhali Gosala established his headquarters in Savatthi, living in the pottery shop of his follower Halahala, where he passed away."
+    },
+    {
+      "lang": "HI",
+      "text": "Q13. मक्खलि गोसाल ने अपने जीवन के अंतिम वर्ष किस शहर में बिताए और वहीं हलाहला नामक महिला कुम्हार की कार्यशाला में रहते हुए उनकी मृत्यु हुई?",
+      "option_a": "राजगृह",
+      "option_b": "पाटलिपुत्र",
+      "option_c": "श्रावस्ती",
+      "option_d": "वाराणसी",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. मक्खलि गोसाल ने श्रावस्ती को अपना मुख्यालय बनाया और अपनी अनुयायी हलाहला की कुम्हार की दुकान में रहे, जहां उनका निधन हुआ।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q14. The Lokayata or Charvaka school is highly characterized by which of the following epistemological beliefs?",
+      "option_a": "Inference (Anumana) is the only valid source of knowledge",
+      "option_b": "Perception (Pratyaksha) is the only valid source of knowledge",
+      "option_c": "Verbal Testimony (Shabda) is the supreme valid source of knowledge",
+      "option_d": "Both perception and inference are equally invalid",
+      "correct": "B",
+      "explanation": "Correct option: B. The Lokayata/Charvaka school accepts only Direct Perception (Pratyaksha) as a reliable means of knowledge (Pramana), rejecting inference and testimony."
+    },
+    {
+      "lang": "HI",
+      "text": "Q14. लोकायत या चार्वाक स्कूल को निम्नलिखित में से किस ज्ञानमीमांसा संबंधी विश्वास द्वारा अत्यधिक चित्रित किया गया है?",
+      "option_a": "अनुमान (अनुमान लगाना) ज्ञान का एकमात्र मान्य स्रोत है",
+      "option_b": "प्रत्यक्ष (प्रत्यक्ष अनुभव) ज्ञान का एकमात्र मान्य स्रोत है",
+      "option_c": "शब्द (आप्तवचन) ज्ञान का सर्वोच्च मान्य स्रोत है",
+      "option_d": "प्रत्यक्ष और अनुमान दोनों समान रूप से अमान्य हैं",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. लोकायत/चार्वाक दर्शन केवल प्रत्यक्ष (प्रत्यक्ष अनुभव) को ही ज्ञान (प्रमाण) का एकमात्र विश्वसनीय साधन मानता है, तथा अनुमान और शब्द प्रमाण को खारिज करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q15. The Ajivika sect survived for a long time in South India. In which medieval kingdom do we find inscriptions mentioning a special tax called 'Ajivikakasu' levied on them?",
+      "option_a": "Chola Dynasty",
+      "option_b": "Rashtrakuta Dynasty",
+      "option_c": "Satavahana Dynasty",
+      "option_d": "Gupta Dynasty",
+      "correct": "A",
+      "explanation": "Correct option: A. Chola inscriptions from Tamil Nadu mention 'Ajivikakasu', a tax levied on Ajivika practitioners, showing they survived as a distinct group in the region until the medieval period."
+    },
+    {
+      "lang": "HI",
+      "text": "Q15. दक्षिण भारत में आजीविक सम्प्रदाय लंबे समय तक जीवित रहा। किस मध्यकालीन साम्राज्य के अभिलेखों में उन पर लगाए गए 'आजीविककासु' नामक एक विशेष कर का उल्लेख मिलता है?",
+      "option_a": "चोल राजवंश",
+      "option_b": "राष्ट्रकूट राजवंश",
+      "option_c": "सातवाहन राजवंश",
+      "option_d": "गुप्त राजवंश",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. तमिलनाडु के चोल शिलालेखों में 'आजीविककासु' का उल्लेख मिलता है, जो आजीविकों पर लगाया जाने वाला कर था। इससे पता चलता है कि वे मध्यकाल तक इस क्षेत्र में एक विशिष्ट समूह के रूप में जीवित रहे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q16. What was the primary mode of livelihood practiced by the Ajivika monks?",
+      "option_a": "Farming and trade",
+      "option_b": "Severe ascetic begging (Mendicancy)",
+      "option_c": "Performing fire rituals for laymen",
+      "option_d": "Serving as soldiers in the royal army",
+      "correct": "B",
+      "explanation": "Correct option: B. Ajivika monks practiced rigorous asceticism and mendicancy, begging for food according to strict rules, and often wandering naked."
+    },
+    {
+      "lang": "HI",
+      "text": "Q16. आजीविक भिक्षुओं द्वारा अपनाई जाने वाली आजीविका का प्राथमिक साधन क्या था?",
+      "option_a": "खेती और व्यापार",
+      "option_b": "कठोर तपस्वी भिक्षावृत्ति (याचिका)",
+      "option_c": "गृहस्थों के लिए अग्नि अनुष्ठान करना",
+      "option_d": "शाही सेना में सैनिकों के रूप में सेवा करना",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. आजीविक भिक्षु कठोर तपस्या और भिक्षावृत्ति का अभ्यास करते थे, सख्त नियमों के तहत भोजन की भिक्षा माँगते थे, और अक्सर नग्न घूमते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q17. Which of the following elements did Pakudha Kaccayana NOT include in his list of seven eternal substances?",
+      "option_a": "Karma",
+      "option_b": "Pleasure (Sukha)",
+      "option_c": "Pain (Dukha)",
+      "option_d": "Soul (Jiva)",
+      "correct": "A",
+      "explanation": "Correct option: A. Pakudha Kaccayana's seven elements were Earth, Water, Fire, Air, Pleasure, Pain, and Soul. He did not include Karma in this list."
+    },
+    {
+      "lang": "HI",
+      "text": "Q17. निम्नलिखित में से किस तत्व को पकुध कच्चायन ने सात शाश्वत पदार्थों की अपनी सूची में शामिल नहीं किया था?",
+      "option_a": "कर्म",
+      "option_b": "सुख",
+      "option_c": "दुःख",
+      "option_d": "जीव (आत्मा)",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. पकुध कच्चायन के सात तत्व थे: पृथ्वी, जल, तेज, वायु, सुख, दुःख और जीव। उन्होंने इस सूची में कर्म को शामिल नहीं किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q18. The Buddhist doctrine of 'Pratityasamutpada' (Dependent Origination) was a direct philosophical challenge to which heterodox view?",
+      "option_a": "Ucchedavada of Ajita Kesakambali",
+      "option_b": "Niyati of Makkhali Gosala",
+      "option_c": "Ajnanavada of Sanjaya Belatthiputta",
+      "option_d": "All of the above",
+      "correct": "D",
+      "explanation": "Correct option: D. Pratityasamutpada challenged both determinism (Niyati) by emphasizing conditionality, materialism (Ucchedavada) by explaining continuity, and skepticism by providing a middle path."
+    },
+    {
+      "lang": "HI",
+      "text": "Q18. बौद्ध धर्म का 'प्रतीत्यसमुत्पाद' (आश्रित उत्पत्ति) का सिद्धांत किस नास्तिक दृष्टिकोण को सीधी दार्शनिक चुनौती था?",
+      "option_a": "अजित केसकम्बली का उच्छेदवाद",
+      "option_b": "मक्खलि गोसाल का नियतिवाद",
+      "option_c": "संजय बेलट्ठिपुत्त का अज्ञानवाद",
+      "option_d": "उपरोक्त सभी",
+      "correct": "D",
+      "explanation": "सही विकल्प: D. प्रतीत्यसमुत्पाद ने कारण-कार्य संबंध पर जोर देकर नियतिवाद (नियति), निरंतरता की व्याख्या करके भौतिकवाद (उच्छेदवाद) और मध्यम मार्ग प्रदान करके अज्ञानवाद दोनों को चुनौती दी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q19. The name 'Kesakambali' given to Ajita suggests that he wore a garment made of:",
+      "option_a": "Bark of trees",
+      "option_b": "Human hair",
+      "option_c": "Deerskin",
+      "option_d": "Coarse cotton",
+      "correct": "B",
+      "explanation": "Correct option: B. The prefix 'Kesa-kambali' means one wearing a blanket (kambala) made of human hair (kesa), which was considered highly uncomfortable and a sign of extreme renunciation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q19. अजित को दिया गया नाम 'केसकम्बली' यह दर्शाता है कि वे किस चीज़ से बना वस्त्र पहनते थे?",
+      "option_a": "पेड़ों की छाल",
+      "option_b": "मानव बाल",
+      "option_c": "हिरण की खाल",
+      "option_d": "खुरदरा कपास",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'केसकम्बली' का अर्थ है मानव बाल (केस) से बना कंबल (कंबल) पहनने वाला, जिसे अत्यंत असुविधाजनक और चरम त्याग का प्रतीक माना जाता था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q20. Which heterodox philosopher's views on the futility of action are summarized as 'if a man kills, he does no evil; if he gives charity, he does no good'?",
+      "option_a": "Purana Kassapa",
+      "option_b": "Pakudha Kaccayana",
+      "option_c": "Sanjaya Belatthiputta",
+      "option_d": "Makkhali Gosala",
+      "correct": "A",
+      "explanation": "Correct option: A. Purana Kassapa's Akriyavada states that moral acts of violence or charity do not result in sin or merit, rendering action futile."
+    },
+    {
+      "lang": "HI",
+      "text": "Q20. किस नास्तिक दार्शनिक के कर्म की निरर्थकता पर विचारों को इस प्रकार संक्षेप में प्रस्तुत किया गया है कि 'यदि कोई हत्या करता है, तो वह कोई बुरा काम नहीं करता; यदि वह दान देता है, तो वह कोई भला काम नहीं करता'?",
+      "option_a": "पूरण कस्सप",
+      "option_b": "पकुध कच्चायन",
+      "option_c": "संजय बेलट्ठिपुत्त",
+      "option_d": "मक्खलि गोसाल",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. पूरण कस्सप का अक्रियावाद बताता है कि हिंसा या दान के नैतिक कार्यों का परिणाम पाप या पुण्य में नहीं होता, जिससे कर्म निरर्थक हो जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q21. The Lokayata doctrine rejects the concept of 'Dharma' and 'Moksha' and considers which of the following as the primary goal of life?",
+      "option_a": "Karma (Action)",
+      "option_b": "Kama (Pleasure) and Artha (Wealth)",
+      "option_c": "Bhakti (Devotion)",
+      "option_d": "Vairagya (Renunciation)",
+      "correct": "B",
+      "explanation": "Correct option: B. The Lokayata/Charvaka school rejects spiritual goals and accepts only Artha (material prosperity) and Kama (sensual pleasure) as legitimate human pursuits."
+    },
+    {
+      "lang": "HI",
+      "text": "Q21. लोकायत सिद्धांत 'धर्म' और 'मोक्ष' की अवधारणा को खारिज करता है और निम्नलिखित में से किसे जीवन का प्राथमिक लक्ष्य मानता है?",
+      "option_a": "कर्म",
+      "option_b": "काम (भोग) और अर्थ (धन)",
+      "option_c": "भक्ति",
+      "option_d": "वैराग्य",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. लोकायत/चार्वाक विचारधारा आध्यात्मिक लक्ष्यों को खारिज करती है और केवल अर्थ (भौतिक समृद्धि) और काम (इंद्रिय सुख) को ही वैध मानवीय पुरुषार्थ मानती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q22. The term 'Samsarasuddhi' associated with Makkhali Gosala's doctrine refers to:",
+      "option_a": "Purification of the soul through ritual baths",
+      "option_b": "The automatic purification of the soul after transmigrating through a fixed number of births",
+      "option_c": "Elimination of karma by practicing extreme fasts",
+      "option_d": "None of the above",
+      "correct": "B",
+      "explanation": "Correct option: B. Samsarasuddhi in Ajivika philosophy refers to the doctrine that the cycle of rebirths (samsara) has a fixed duration, and purification occurs naturally at the end of this cycle."
+    },
+    {
+      "lang": "HI",
+      "text": "Q22. मक्खलि गोसाल के सिद्धांत से जुड़ा 'संसारशुद्धि' शब्द किसे संदर्भित करता है?",
+      "option_a": "अनुष्ठानिक स्नान के माध्यम से आत्मा की शुद्धि",
+      "option_b": "जन्मों की एक निश्चित संख्या के माध्यम से पारगमन के बाद आत्मा की स्वचालित शुद्धि",
+      "option_c": "अत्यधिक उपवास करके कर्मों का विनाश",
+      "option_d": "उपरोक्त में से कोई नहीं",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. आजीविक दर्शन में संसारशुद्धि उस सिद्धांत को संदर्भित करता है जिसके अनुसार पुनर्जन्म चक्र (संसार) की अवधि निश्चित है, और इस चक्र के अंत में शुद्धि स्वाभाविक रूप से होती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q23. Which of the following rulers of Magadha is noted for holding discussions with the six major heterodox teachers before meeting Buddha?",
+      "option_a": "Bimbisara",
+      "option_b": "Ajatashatru",
+      "option_c": "Udayin",
+      "option_d": "Shishunaga",
+      "correct": "B",
+      "explanation": "Correct option: B. King Ajatashatru of Magadha is depicted in the Samannaphala Sutta as visiting and questioning all six heterodox teachers to find the immediate benefits of ascetic life."
+    },
+    {
+      "lang": "HI",
+      "text": "Q23. मगध के निम्नलिखित शासकों में से किसे बुद्ध से मिलने से पहले छह प्रमुख नास्तिक शिक्षकों के साथ विचार-विमर्श करने के लिए जाना जाता है?",
+      "option_a": "बिम्बिसार",
+      "option_b": "अजातशत्रु",
+      "option_c": "उदायिन",
+      "option_d": "शिशुनाग",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. मगध के राजा अजातशत्रु को सामञ्ञफल सुत्त में तपस्वी जीवन के तत्काल लाभों को खोजने के लिए सभी छह नास्तिक शिक्षकों के पास जाते और उनसे पूछताछ करते हुए चित्रित किया गया है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q24. What is the main historical limitation in understanding the philosophy of the Ajivikas and other heterodox sects?",
+      "option_a": "No archaeological monuments have survived",
+      "option_b": "Their original texts have completely perished and are only known from the polemical writings of their opponents",
+      "option_c": "They did not use any language spoken by the common people",
+      "option_d": "They left no historical inscriptions",
+      "correct": "B",
+      "explanation": "Correct option: B. The primary limitation is that none of the original Ajivika or Lokayata texts have survived; their doctrines are reconstructed entirely from Buddhist and Jain texts that sought to refute them."
+    },
+    {
+      "lang": "HI",
+      "text": "Q24. आजीविकों और अन्य नास्तिक सम्प्रदायों के दर्शन को समझने में मुख्य ऐतिहासिक सीमा क्या है?",
+      "option_a": "कोई पुरातात्विक स्मारक जीवित नहीं बचा है",
+      "option_b": "उनके मूल ग्रंथ पूरी तरह से नष्ट हो चुके हैं और वे केवल उनके विरोधियों के विवादास्पद लेखों से जाने जाते हैं",
+      "option_c": "उन्होंने आम लोगों द्वारा बोली जाने वाली किसी भी भाषा का उपयोग नहीं किया",
+      "option_d": "उन्होंने कोई ऐतिहासिक शिलालेख नहीं छोड़ा",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. प्राथमिक सीमा यह है कि कोई भी मूल आजीविक या लोकायत ग्रंथ जीवित नहीं बचा है; उनके सिद्धांतों का पुनर्निर्माण पूरी तरह से उन बौद्ध और जैन ग्रंथों से किया गया है जो उनका खंडन करना चाहते थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q25. The famous Halhaladhara or Halahala pottery shop in Savatthi served as the center for which sect during the 6th century BC?",
+      "option_a": "Nigantha Nataputta (Jains)",
+      "option_b": "Buddhists",
+      "option_c": "Ajivikas",
+      "option_d": "Charvakas",
+      "correct": "C",
+      "explanation": "Correct option: C. Halahala, a female potter of Savatthi, was a devoted lay disciple of Makkhali Gosala, and her workshop served as the headquarters and retreat of the Ajivikas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q25. श्रावस्ती में प्रसिद्ध हालहालधरा या हलाहला कुम्हार की दुकान छठी शताब्दी ईसा पूर्व के दौरान किस सम्प्रदाय के केंद्र के रूप में कार्य करती थी?",
+      "option_a": "निगंठ नातपुत्त (जैन)",
+      "option_b": "बौद्ध",
+      "option_c": "आजीविक",
+      "option_d": "चार्वाक",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. श्रावस्ती की एक महिला कुम्हार हलाहला, मक्खलि गोसाल की समर्पित गृहस्थ शिष्या थी और उसकी कार्यशाला आजीविकों के मुख्यालय और विश्राम स्थल के रूप में काम करती थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q26. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Makkhali Gosala parted ways with Vardhamana Mahavira after six years of companionship.\nReason (R): Makkhali Gosala disagreed with Mahavira on the concept of determinism (Niyati) and developed his own philosophy of Ajivikism.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: It is historically true that Gosala and Mahavira spent six years together before parting. Reason Analysis: The parting was due to deep theological differences, particularly Gosala's absolute belief in Niyati (determinism), which directly conflicted with Mahavira's emphasis on free will and karma. Thus, R explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q26. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): मक्खलि गोसाल छह साल के साथ के बाद वर्धमान महावीर से अलग हो गए।\nकारण (R): मक्खलि गोसाल नियतिवाद (नियति) की अवधारणा पर महावीर से असहमत थे और उन्होंने आजीविकवाद के अपने दर्शन का विकास किया।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: यह ऐतिहासिक रूप से सच है कि गोसाल और महावीर अलग होने से पहले छह साल साथ रहे थे। कारण विश्लेषण: यह अलगाव गहरे धार्मिक मतभेदों के कारण हुआ था, विशेष रूप से गोसाल का नियति (भाग्य) पर पूर्ण विश्वास, जो महावीर के स्वतंत्र इच्छा और कर्म पर जोर देने के सीधे विपरीत था। अतः R, A की व्याख्या करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q27. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Early Maurya rulers extended patronage to the Ajivika sect.\nReason (R): Emperor Ashoka and his grandson Dasaratha dedicated rock-cut caves in the Barabar and Nagarjuni hills to the Ajivikas.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: The Ajivika sect enjoyed significant patronage from early Maurya rulers like Ashoka and Dasaratha. Reason Analysis: The physical evidence of this patronage is the series of rock-cut caves in Barabar and Nagarjuni hills dedicated to them through royal inscriptions. Thus, R is the direct evidence and explanation for A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q27. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): प्रारंभिक मौर्य शासकों ने आजीविक सम्प्रदाय को संरक्षण प्रदान किया।\nकारण (R): सम्राट अशोक और उनके पौत्र दशरथ ने बराबर और नागार्जुन पहाड़ियों में चट्टानों को काटकर बनाई गई गुफाएँ आजीविकों को समर्पित कीं।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: आजीविक सम्प्रदाय को अशोक और दशरथ जैसे प्रारंभिक मौर्य शासकों से महत्वपूर्ण संरक्षण प्राप्त था। कारण विश्लेषण: इस संरक्षण का भौतिक प्रमाण बराबर और नागार्जुन पहाड़ियों में चट्टानों को काटकर बनाई गई गुफाएँ हैं जो शाही शिलालेखों के माध्यम से उन्हें समर्पित हैं। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q28. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Ajita Kesakambali is regarded as the earliest materialist philosopher in Indian history.\nReason (R): He propounded that human beings are composed of four basic elements which disintegrate at death, leaving no soul or afterlife.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Ajita Kesakambali is indeed recognized as the earliest thinker to systemize materialism (Ucchedavada). Reason Analysis: The definition of his materialism lies in his theory that humans are made of earth, water, fire, and air, which return to nature upon death, meaning there is no transmigrating soul. Since this definition constitutes why he is a materialist, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q28. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): अजित केसकम्बली को भारतीय इतिहास में सबसे पहला भौतिकवादी दार्शनिक माना जाता है।\nकारण (R): उन्होंने प्रतिपादित किया कि मनुष्य चार मूल तत्वों से बना है जो मृत्यु पर बिखर जाते हैं, जिससे कोई आत्मा या परलोक नहीं बचता।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अजित केसकम्बली को वास्तव में भौतिकवाद (उच्छेदवाद) को व्यवस्थित करने वाला सबसे पहला विचारक माना जाता है। कारण विश्लेषण: उनके भौतिकवाद की परिभाषा उनके इस सिद्धांत में निहित है कि मनुष्य पृथ्वी, जल, अग्नि और वायु से बना है, जो मृत्यु के बाद प्रकृति में वापस चले जाते हैं, जिसका अर्थ है कि कोई पुनर्जन्म लेने वाली आत्मा नहीं है। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q29. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Purana Kassapa's doctrine is classified as Akriyavada (Non-Action).\nReason (R): He argued that whether one commits murder or performs charity, there is no resulting accumulation of sin or merit.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Purana Kassapa is classified as an Akriyavadin (proponent of non-action). Reason Analysis: The reason why his philosophy is called Akriyavada is because he denied that actions have moral reactions (kriya/karma), meaning no merit (punya) or demerit (papa) is generated by any deed. Thus, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q29. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): पूरण कस्सप के सिद्धांत को अक्रियावाद (निष्क्रियता) के रूप में वर्गीकृत किया गया है।\nकारण (R): उन्होंने तर्क दिया कि चाहे कोई हत्या करे या दान दे, इसके परिणामस्वरूप पाप या पुण्य का कोई संचय नहीं होता है।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: पूरण कस्सप को अक्रियावादी (निष्क्रियता के प्रणेता) के रूप में वर्गीकृत किया गया है। कारण विश्लेषण: उनके दर्शन को अक्रियावाद क्यों कहा जाता है, इसका कारण यह है कि उन्होंने इस बात से इनकार किया कि कर्मों की नैतिक प्रतिक्रियाएँ (क्रिया/कर्म) होती हैं। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q30. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Sanjaya Belatthiputta avoided making any definitive assertions regarding metaphysical questions.\nReason (R): He believed that absolute knowledge about the afterlife or the nature of the soul was impossible to attain, leading to a system of sceptic agnosticism.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Sanjaya Belatthiputta is famous for avoiding definitive metaphysical stances. Reason Analysis: His avoidance stems directly from his belief in agnosticism/skepticism (Ajnanavada), which maintains that human intellect cannot verify metaphysical truths. Thus, R is the direct cause and explanation for A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q30. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): संजय बेलट्ठिपुत्त ने आध्यात्मिक प्रश्नों के संबंध में कोई भी निश्चित दावा करने से परहेज किया।\nकारण (R): उनका मानना था कि परलोक या आत्मा की प्रकृति के बारे में पूर्ण ज्ञान प्राप्त करना असंभव था, जिससे एक संदेहवादी अज्ञेयवाद की प्रणाली का उदय हुआ।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: संजय बेलट्ठिपुत्त निश्चित आध्यात्मिक रुख से बचने के लिए प्रसिद्ध हैं। कारण विश्लेषण: उनका यह बचाव सीधे तौर पर उनके अज्ञानवाद/संदेहवाद में विश्वास से उपजा है, जो यह मानता है कि मानव बुद्धि आध्यात्मिक सत्यों को सत्यापित नहीं कर सकती। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q31. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Shramana movement of the 6th century BC rejected the authority of the Vedas.\nReason (R): The Shramanas rejected the sacrificial ritualism of the Brahmanical system and emphasized asceticism and direct spiritual experience.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Shramanas (Buddhists, Jains, Ajivikas) were heterodox because they rejected Vedic authority. Reason Analysis: They rejected the Vedas because they opposed the animal sacrifices (Yajnas) and priestly intermediaries, advocating personal effort and renunciation instead. Thus, R correctly explains A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q31. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): छठी शताब्दी ईसा पूर्व के श्रमण आंदोलन ने वेदों के अधिकार को खारिज कर दिया।\nकारण (R): श्रमणों ने ब्राह्मणवादी व्यवस्था के यज्ञ अनुष्ठानों को खारिज कर दिया और तपस्या तथा प्रत्यक्ष आध्यात्मिक अनुभव पर जोर दिया।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: श्रमण (बौद्ध, जैन, आजीविक) नास्तिक थे क्योंकि उन्होंने वैदिक अधिकार को खारिज कर दिया था। कारण विश्लेषण: उन्होंने वेदों को इसलिए खारिज कर दिया क्योंकि वे पशु बलि (यज्ञ) और पुरोहित मध्यस्थता के विरोधी थे, और व्यक्तिगत प्रयास और संन्यास की वकालत करते थे। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q32. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): The Ajivika sect survived in South India until the medieval period.\nReason (R): Ajivika philosophy was absorbed into Vaishnavism during the reign of the Chola and Pandya dynasties.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "C",
+      "explanation": "Assertion Analysis: True. Inscriptions show that Ajivikas survived in parts of Tamil Nadu and Karnataka as late as the 14th century AD. Reason Analysis: False. Ajivikas did not merge into Vaishnavism; they were heavily persecuted and countered by Shaivite Nayannars and Jains, and eventually vanished or merged into Shaivism/Jainism, not Vaishnavism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q32. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): आजीविक सम्प्रदाय मध्यकाल तक दक्षिण भारत में जीवित रहा।\nकारण (R): चोल और पांड्य राजवंशों के शासनकाल के दौरान आजीविक दर्शन को वैष्णव धर्म में मिला लिया गया था।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: सत्य। शिलालेख दर्शाते हैं कि आजीविक तमिलनाडु और कर्नाटक के कुछ हिस्सों में 14वीं शताब्दी ईस्वी तक जीवित रहे। कारण विश्लेषण: असत्य। आजीविकों का वैष्णव धर्म में विलय नहीं हुआ था; शैव नयनारों और जैनियों द्वारा उनका कड़ा विरोध और उत्पीड़न किया गया था, और अंततः वे शैव धर्म या जैन धर्म में विलीन हो गए या समाप्त हो गए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q33. Given below are two statements, one labeled as Assertion (A) and the other as Reason (R):\nAssertion (A): Pakudha Kaccayana's philosophy can be described as a form of eternalist atomism.\nReason (R): He held that the seven elements—earth, water, fire, air, pleasure, pain, and soul—are eternal, uncreated, and do not interact or change.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A",
+      "option_c": "A is true, but R is false",
+      "option_d": "A is false, but R is true",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Pakudha Kaccayana's view is indeed called Sasvatavada (eternalism) or atomism. Reason Analysis: His concept explains this eternalism because he argued that these seven elements are primary, uncreated, indestructible, and static, and that changes are merely rearrangements. Thus, R is the correct explanation of A."
+    },
+    {
+      "lang": "HI",
+      "text": "Q33. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में लेबल किया गया है:\nअभिकथन (A): पकुध कच्चायन के दर्शन को शाश्वतवादी परमाणुवाद का एक रूप माना जा सकता है।\nकारण (R): उनका मानना था कि सात तत्व—पृथ्वी, जल, तेज, वायु, सुख, दुःख और जीव—शाश्वत, अकृत हैं, और आपस में क्रिया नहीं करते या बदलते नहीं हैं।",
+      "option_a": "A और R दोनों सही हैं, और R, A की सही व्याख्या करता है",
+      "option_b": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं करता है",
+      "option_c": "A सही है, लेकिन R गलत है",
+      "option_d": "A गलत है, लेकिन R सही है",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: पकुध कच्चायन के दृष्टिकोण को वास्तव में शाश्वतवाद (नित्यता) या परमाणुवाद कहा जाता है। कारण विश्लेषण: उनकी अवधारणा इस शाश्वतवाद की व्याख्या करती है क्योंकि उनका तर्क था कि ये सात तत्व प्राथमिक, अकृत, अविनाशी और स्थिर हैं, तथा परिवर्तन केवल इनका पुनर्गठन मात्र हैं। अतः R, A की सही व्याख्या है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q34. Match List-I (Philosopher) with List-II (Core Doctrine) and select the correct answer:\nList-I:\na) Makkhali Gosala\nb) Purana Kassapa\nc) Ajita Kesakambali\nd) Sanjaya Belatthiputta\n\nList-II:\n1) Niyati (Determinism)\n2) Akriyavada (Non-Action)\n3) Ucchedavada (Materialism)\n4) Ajnanavada (Scepticism)\n5) Sasvatavada (Eternalism)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct match: a-1, b-2, c-3, d-4. Makkhali Gosala (a) founded Ajivikism based on Niyati [1]. Purana Kassapa (b) taught Akriyavada [2]. Ajita Kesakambali (c) taught Ucchedavada [3]. Sanjaya Belatthiputta (d) taught Ajnanavada [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q34. सूची-I (दार्शनिक) को सूची-II (मूल सिद्धांत) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) मक्खलि गोसाल\nb) पूरण कस्सप\nc) अजित केसकम्बली\nd) संजय बेलट्ठिपुत्त\n\nसूची-II:\n1) नियतिवाद (नियति)\n2) अक्रियावाद (निष्क्रियता)\n3) उच्छेदवाद (भौतिकवाद)\n4) अज्ञानवाद (संदेहवाद)\n5) शाश्वतवाद (नित्यता)",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "सही सुमेल: a-1, b-2, c-3, d-4. मक्खलि गोसाल (a) ने नियति पर आधारित आजीविकवाद की स्थापना की [1]। पूरण कस्सप (b) ने अक्रियावाद सिखाया [2]। अजित केसकम्बली (c) ने उच्छेदवाद सिखाया [3]। संजय बेलट्ठिपुत्त (d) ने अज्ञानवाद सिखाया [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q35. Match List-I (Heterodox Teacher/Concept) with List-II (Primary Literary/Historical Source reporting them) and select the correct answer:\nList-I:\na) Six Heretical Teachers\nb) Makkhali Gosala's life\nc) Lokayata views\nd) Ajivika survival details\n\nList-II:\n1) Samannaphala Sutta\n2) Bhagavati Sutra\n3) Sarvadarsanasangraha\n4) South Indian Inscriptions\n5) Kalpa Sutra",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct match: a-1, b-2, c-3, d-4. The Six Teachers are described in the Samannaphala Sutta [1]. Gosala's life details are found in the Jaina Bhagavati Sutra [2]. Charvaka/Lokayata views are summarized in Madhavacharya's Sarvadarsanasangraha [3]. Medieval survival is recorded in South Indian Chola inscriptions [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q35. सूची-I (नास्तिक शिक्षक/अवधारणा) को सूची-II (प्राथमिक साहित्यिक/ऐतिहासिक स्रोत) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) छह नास्तिक शिक्षक\nb) मक्खलि गोसाल का जीवन\nc) लोकायत दर्शन के विचार\nd) आजीविकों के अस्तित्व के विवरण\n\nसूची-II:\n1) सामञ्ञफल सुत्त\n2) भगवती सूत्र\n3) सर्वदर्शनसंग्रह\n4) दक्षिण भारतीय शिलालेख\n5) कल्प सूत्र",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही सुमेल: a-1, b-2, c-3, d-4. छह शिक्षकों का वर्णन सामञ्ञफल सुत्त में है [1]। गोसाल के जीवन का विवरण जैन भगवती सूत्र में मिलता है [2]। चार्वाक/लोकायत विचारों को माधवाचार्य के सर्वदर्शनसंग्रह में संकलित किया गया है [3]। मध्यकाल में उनके अस्तित्व के प्रमाण दक्षिण भारतीय चोल शिलालेखों में दर्ज हैं [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q36. Match List-I (Philosophical Term) with List-II (Core Concept/Definition) and select the correct answer:\nList-I:\na) Niyati\nb) Akriya\nc) Uccheda\nd) Sasvata\n\nList-II:\n1) Pre-ordained destiny governing all existence\n2) Denial of moral consequences of human actions\n3) Total annihilation of body and consciousness at death\n4) Uncreated, eternal existence of basic elements\n5) Absolute illusion of sensory experiences",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-4, c-3, d-2",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct match: a-1, b-2, c-3, d-4. Niyati (a) means pre-ordained destiny [1]. Akriya (b) means absence of moral result [2]. Uccheda (c) means total annihilation at death [3]. Sasvata (d) means eternal elements [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q36. सूची-I (दार्शनिक शब्द) को सूची-II (मूल अवधारणा/परिभाषा) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) नियति\nb) अक्रिया\nc) उच्छेद\nd) शाश्वत\n\nसूची-II:\n1) समस्त अस्तित्व को नियंत्रित करने वाला पूर्वनिर्धारित भाग्य\n2) मानवीय कर्मों के नैतिक परिणामों का खंडन\n3) मृत्यु के समय शरीर और चेतना का पूर्ण विनाश\n4) मूल तत्वों का अकृत, शाश्वत अस्तित्व\n5) संवेदी अनुभवों का पूर्ण भ्रम",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-4, c-3, d-2",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "सही सुमेल: a-1, b-2, c-3, d-4. नियति (a) का अर्थ पूर्वनिर्धारित भाग्य है [1]। अक्रिया (b) का अर्थ नैतिक परिणाम का अभाव है [2]। उच्छेद (c) का अर्थ मृत्यु पर पूर्ण विनाश है [3]। शाश्वत (d) का अर्थ अविनाशी तत्व हैं [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q37. Match List-I (Ancient Site) with List-II (Ajivika/Heterodox Connection) and select the correct answer:\nList-I:\na) Barabar Hills\nb) Nagarjuni Hills\nc) Savatthi (Sravasti)\nd) Rajagriha\n\nList-II:\n1) Caves donated by Emperor Ashoka\n2) Caves donated by Dasaratha Maurya\n3) Headquarters of Makkhali Gosala's activities\n4) Early Shramana debate ground and hot springs\n5) Location of the third Buddhist council",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct match: a-1, b-2, c-3, d-4. Barabar (a) has caves donated by Ashoka [1]. Nagarjuni (b) has caves donated by Dasaratha [2]. Savatthi (c) was where Gosala lived and died [3]. Rajagriha (d) was an active hub for early Shramanas [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q37. सूची-I (प्राचीन स्थल) को सूची-II (आजीविक/नास्तिक संबंध) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) बराबर पहाड़ियाँ\nb) नागार्जुन पहाड़ियाँ\nc) श्रावस्ती\nd) राजगृह\n\nसूची-II:\n1) सम्राट अशोक द्वारा दान की गई गुफाएँ\n2) दशरथ मौर्य द्वारा दान की गई गुफाएँ\n3) मक्खलि गोसाल की गतिविधियों का मुख्यालय\n4) प्रारंभिक श्रमण वाद-विवाद स्थल और गर्म चश्मे\n5) तीसरी बौद्ध संगीति का स्थान",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही सुमेल: a-1, b-2, c-3, d-4. बराबर (a) में अशोक द्वारा दान की गई गुफाएँ हैं [1]। नागार्जुन (b) में दशरथ द्वारा दान की गई गुफाएँ हैं [2]। श्रावस्ती (c) वह स्थान था जहाँ गोसाल रहे और मरे [3]। राजगृह (d) प्रारंभिक श्रमणों का सक्रिय केंद्र था [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q38. Match List-I (Philosopher of 6th Century BC) with List-II (Key Term/Attribute) and select the correct answer:\nList-I:\na) Makkhali Gosala\nb) Pakudha Kaccayana\nc) Ajita Kesakambali\nd) Vardhamana Mahavira\n\nList-II:\n1) Re-animation (Payoga-balam)\n2) Seven elements (Kaya)\n3) Hair garment (Kesa-kambala)\n4) Extreme asceticism and Ahimsa\n5) Absolute skepticism",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-4, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "Correct match: a-1, b-2, c-3, d-4. Makkhali Gosala (a) used the term Payoga-balam (re-animation/force) [1]. Pakudha (b) taught the seven elements [2]. Ajita (c) wore a hair garment [3]. Mahavira (d) emphasized Ahimsa [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q38. सूची-I (छठी शताब्दी ईसा पूर्व के दार्शनिक) को सूची-II (प्रमुख शब्द/विशेषता) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) मक्खलि गोसाल\nb) पकुध कच्चायन\nc) अजित केसकम्बली\nd) वर्धमान महावीर\n\nसूची-II:\n1) पुनर्जीवन (प्योग-बलम)\n2) सात तत्व (काया)\n3) बालों का वस्त्र (केस-कम्बल)\n4) अत्यधिक तपस्या और अहिंसा\n5) पूर्ण संदेहवाद",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-4, d-5",
+      "option_d": "a-3, b-2, c-1, d-4",
+      "correct": "A",
+      "explanation": "सही सुमेल: a-1, b-2, c-3, d-4. मक्खलि गोसाल (a) ने प्योग-बलम (पुनर्जीवन/बल) शब्द का प्रयोग किया [1]। पकुध (b) ने सात तत्वों की शिक्षा दी [2]। अजित (c) बालों का वस्त्र पहनते थे [3]। महावीर (d) ने अहिंसा पर जोर दिया [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q39. Match List-I (Heterodox Sect) with List-II (Key Literary Critique/Opponent Text) and select the correct answer:\nList-I:\na) Ajivikas\nb) Lokayatas\nc) Niganthas\nd) Akriyavadins\n\nList-II:\n1) Nayanar and Alvar Tamil hymns\n2) Shankara's Sariraka Bhasya\n3) Buddhist Majjhima Nikaya\n4) Anguttara Nikaya\n5) Rigveda Samhita",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct match: a-1, b-2, c-3, d-4. Ajivikas (a) faced critique in medieval Tamil devotional literature [1]. Lokayatas (b) are refuted in Adi Shankara's Sariraka Bhasya [2]. Niganthas (c) are discussed and refuted in Majjhima Nikaya [3]. Akriyavadins (d) are criticized in the Anguttara Nikaya [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q39. सूची-I (नास्तिक सम्प्रदाय) को सूची-II (प्रमुख साहित्यिक आलोचना/विरोधी पाठ) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) आजीविक\nb) लोकायत\nc) निगंठ (जैन)\nd) अक्रियावादी\n\nसूची-II:\n1) नयनार और आलवार तमिल भजन\n2) शंकर का शारीरक भाष्य\n3) बौद्ध मज्झिम निकाय\n4) अंगुत्तर निकाय\n5) ऋग्वेद संहिता",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही सुमेल: a-1, b-2, c-3, d-4. आजीविकों (a) को मध्यकालीन तमिल भक्ति साहित्य में आलोचना का सामना करना पड़ा [1]। लोकायत (b) का आदि शंकर के शारीरक भाष्य में खंडन किया गया है [2]। निगंठों (c) की चर्चा और खंडन मज्झिम निकाय में है [3]। अक्रियावादियों (d) की आलोचना अंगुत्तर निकाय में की गई है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q40. Match List-I (Barabar/Nagarjuni Cave Name) with List-II (Associated Maurya Benefactor) and select the correct answer:\nList-I:\na) Sudama Cave\nb) Lomas Rishi Cave\nc) Gopika Cave\nd) Visva Zopri Cave\n\nList-II:\n1) Emperor Ashoka\n2) Unfinished façade (Maurya Period)\n3) King Dasaratha\n4) Emperor Ashoka (two-chambered)\n5) Chandragupta Maurya",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-4, d-1",
+      "correct": "A",
+      "explanation": "Correct match: a-1, b-2, c-3, d-4. Sudama Cave (a) is dedicated by Ashoka [1]. Lomas Rishi (b) has an unfinished facade and no inscription, but is Maurya [2]. Gopika Cave (c) in Nagarjuni Hills is dedicated by Dasaratha [3]. Visva Zopri (d) is a two-chambered cave dedicated by Ashoka [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q40. सूची-I (बराबर/नागार्जुन गुफा का नाम) को सूची-II (संबद्ध मौर्य दाता) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) सुदामा गुफा\nb) लोमस ऋषि गुफा\nc) गोपिका गुफा\nd) विश्व झोपड़ी गुफा\n\nसूची-II:\n1) सम्राट अशोक\n2) अधूरा मुखौटा (मौर्य काल)\n3) राजा दशरथ\n4) सम्राट अशोक (दो कक्षीय)\n5) चन्द्रगुप्त मौर्य",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-3, d-4",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-2, c-4, d-1",
+      "correct": "A",
+      "explanation": "सही सुमेल: a-1, b-2, c-3, d-4. सुदामा गुफा (a) अशोक द्वारा दान की गई थी [1]। लोमस ऋषि (b) में अधूरा मुखौटा है और कोई शिलालेख नहीं है, लेकिन यह मौर्य कालीन है [2]। गोपिका गुफा (c) नागार्जुन पहाड़ियों में दशरथ द्वारा दान की गई थी [3]। विश्व झोपड़ी (d) अशोक द्वारा दान की गई दो कक्षों वाली गुफा है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q41. Match List-I (Concept of Soul/Universe) with List-II (Associated Heterodox Philosopher) and select the correct answer:\nList-I:\na) Soul undergoes fixed transmigrations (Samsarasuddhi)\nb) No soul exists beyond the physical body\nc) Soul is passive and unaffected by karma\nd) Soul is one of the seven eternal substances\n\nList-II:\n1) Makkhali Gosala\n2) Ajita Kesakambali\n3) Purana Kassapa\n4) Pakudha Kaccayana\n5) Sanjaya Belatthiputta",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct match: a-1, b-2, c-3, d-4. Samsarasuddhi (a) belongs to Makkhali Gosala [1]. Annihilation of soul (b) is Ajita's materialism [2]. Passive soul (c) is Purana Kassapa's Akriyavada [3]. Soul as one of the seven elements (d) is Pakudha Kaccayana [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q41. सूची-I (आत्मा/ब्रह्मांड की अवधारणा) को सूची-II (संबद्ध नास्तिक दार्शनिक) से सुमेलित कीजिए और सही उत्तर चुनिए:\nसूची-I:\na) आत्मा का निश्चित पुनर्जन्म चक्र होता है (संसारशुद्धि)\nb) भौतिक शरीर के परे कोई आत्मा नहीं होती है\nc) आत्मा निष्क्रिय है और कर्मों से अप्रभावित रहती है\nd) आत्मा सात शाश्वत पदार्थों में से एक है\n\nसूची-II:\n1) मक्खलि गोसाल\n2) अजित केसकम्बली\n3) पूरण कस्सप\n4) पकुध कच्चायन\n5) संजय बेलट्ठिपुत्त",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-5",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही सुमेल: a-1, b-2, c-3, d-4. संसारशुद्धि (a) मक्खलि गोसाल का सिद्धांत है [1]। आत्मा का भौतिक अंत (b) अजित का भौतिकवाद है [2]। निष्क्रिय आत्मा (c) पूरण कस्सप का अक्रियावाद है [3]। आत्मा सात तत्वों में से एक के रूप में (d) पकुध कच्चायन का विचार है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q42. Consider the following statements regarding the Ajivika sect:\n1. It was founded by Makkhali Gosala, who was initially a companion of Vardhamana Mahavira.\n2. The Ajivikas believed that the universe is governed by an absolute cosmic force called Niyati.\n3. The Ajivikas completely rejected the orthodox theory of karma and moral responsibility.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because Makkhali Gosala was a companion of Vardhamana Mahavira before they split. Statement 2 is correct because Niyati (fate) is the core doctrine of the sect. Statement 3 is correct because their fatalistic doctrine denied that actions had any moral reactions (karma)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q42. आजीविक सम्प्रदाय के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसकी स्थापना मक्खलि गोसाल ने की थी, जो प्रारंभ में वर्धमान महावीर के साथी थे।\n2. आजीविकों का मानना था कि ब्रह्मांड नियति नामक एक पूर्ण ब्रह्मांडीय शक्ति द्वारा संचालित होता है।\n3. आजीविकों ने कर्म और नैतिक जिम्मेदारी के रूढ़िवादी सिद्धांत को पूरी तरह से खारिज कर दिया।\n\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि अलग होने से पहले मक्खलि गोसाल छह वर्षों तक महावीर के करीबी साथी थे। कथन 2 सही है क्योंकि नियति (भाग्य) आजीविक दर्शन का केंद्रीय सिद्धांत है। कथन 3 सही है क्योंकि उनके नियतिवादी दृष्टिकोण ने उन्हें कर्म के नैतिक नियम और इस विचार को खारिज करने के लिए प्रेरित किया कि मानवीय प्रयास भाग्य को प्रभावित कर सकते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q43. Consider the following statements regarding the Lokayata (Charvaka) school of philosophy:\n1. It is a materialistic school that accepts direct perception (Pratyaksha) as the only source of valid knowledge.\n2. It rejects the existence of a soul separate from the body and the concept of an afterlife.\n3. It was patronized extensively by the Mauryan emperor Ashoka as a state philosophy.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Charvakas accept only direct perception as a valid pramana. Statement 2 is correct because they argue that consciousness is merely a physical byproduct that perishes at death. Statement 3 is incorrect because Emperor Ashoka patronized Buddhism and dedicated caves to Ajivikas, but not Lokayata materialism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q43. लोकायत (चार्वाक) दर्शनशास्त्र के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह एक भौतिकवादी स्कूल है जो प्रत्यक्ष अनुभव (प्रत्यक्ष) को ज्ञान का एकमात्र मान्य स्रोत स्वीकार करता है।\n2. यह शरीर से अलग आत्मा के अस्तित्व और परलोक की अवधारणा को खारिज करता है।\n3. मौर्य सम्राट अशोक ने इसे राज्य दर्शन के रूप में बड़े पैमाने पर संरक्षण दिया था।\n\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि चार्वाक प्रत्यक्ष के अलावा ज्ञान के सभी स्रोतों को खारिज करते हैं। कथन 2 सही है क्योंकि उनका मानना है कि चेतना भौतिक पदार्थ का एक सह-उत्पाद है, इसलिए मृत्यु के बाद कोई आत्मा नहीं बचती है। कथन 3 गलत है क्योंकि सम्राट अशोक ने बौद्ध धर्म को संरक्षण दिया और आजीविकों को गुफाएं समर्पित कीं, लेकिन उन्होंने लोकायत भौतिकवाद को संरक्षण नहीं दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q44. Consider the following statements about Ajita Kesakambali's philosophy:\n1. He was a contemporary of Gautama Buddha and Vardhamana Mahavira.\n2. He believed that when a body dies, the four elements composing it return to their respective natural domains.\n3. He advocated that giving alms and performing sacrifices are completely useless activities with no moral reward.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because Ajita Kesakambali was one of the six major Shramana teachers contemporary to the Buddha. Statement 2 is correct because he held that earth, water, fire, and air return to their natural state upon death. Statement 3 is correct because he rejected the moral utility of sacrifices and charity."
+    },
+    {
+      "lang": "HI",
+      "text": "Q44. अजित केसकम्बली के दर्शन के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. वे गौतम बुद्ध और वर्धमान महावीर के समकालीन थे।\n2. उनका मानना था कि जब किसी शरीर की मृत्यु होती है, तो उसे बनाने वाले चार तत्व अपने-अपने प्राकृतिक क्षेत्रों में लौट जाते हैं।\n3. उन्होंने वकालत की कि दान देना और यज्ञ करना पूरी तरह से निरर्थक गतिविधियाँ हैं जिनका कोई नैतिक फल नहीं मिलता।\n\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि अजित केसकम्बली बुद्ध के समकालीन छह श्रमण शिक्षकों में से एक थे। कथन 2 सही है क्योंकि उनका मानना था कि मृत्यु के बाद पृथ्वी, जल, तेज और वायु अपने ब्रह्मांडीय भंडार में वापस आ जाते हैं। कथन 3 सही है क्योंकि उन्होंने कहा था कि दान देना मूर्खों का सिद्धांत है और इसका कोई नैतिक फल नहीं होता।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q45. Consider the following statements regarding the Barabar and Nagarjuni Hill caves:\n1. These caves represent the earliest surviving examples of rock-cut architecture in India.\n2. They were carved out of hard granite and display a high mirror-like polish on their interior walls.\n3. All of these caves contain inscriptions dedicating them exclusively to Buddhist monks.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because these Maurya caves are the earliest dated rock-cut caves. Statement 2 is correct because they are carved in granite and feature the famous Maurya polish. Statement 3 is incorrect because the inscriptions dedicate the caves to the Ajivika ascetics, not Buddhist monks."
+    },
+    {
+      "lang": "HI",
+      "text": "Q45. बराबर और नागार्जुन पहाड़ी गुफाओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. ये गुफाएँ भारत में चट्टानों को काटकर बनाई गई वास्तुकला के सबसे पुराने जीवित उदाहरण हैं।\n2. इन्हें कठोर ग्रेनाइट से तराशा गया था और इनकी आंतरिक दीवारों पर दर्पण जैसी चमक है।\n3. इन सभी गुफाओं में शिलालेख हैं जो इन्हें विशेष रूप से बौद्ध भिक्षुओं को समर्पित करते हैं।\n\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि ये मौर्यकालीन गुफाएं सबसे पुरानी चट्टान काटकर बनाई गई गुफाएं हैं। कथन 2 सही है क्योंकि ये ग्रेनाइट में बनाई गई हैं और इनमें प्रसिद्ध मौर्यकालीन पॉलिश है। कथन 3 गलत है क्योंकि शिलालेख स्पष्ट रूप से गुफाओं को आजीविक तपस्वियों को समर्पित करते हैं, न कि बौद्ध भिक्षुओं को।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q46. With reference to the philosopher Pakudha Kaccayana, consider the following statements:\n1. He propounded that the universe is composed of seven eternal, uncreated, and immutable elements.\n2. Pleasure (Sukha) and Pain (Dukha) were considered physical elements by him.\n3. He believed that a sword passing through a body does not kill anyone, but merely passes through the space between elements.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because Pakudha taught Sasvatavada with 7 eternal elements. Statement 2 is correct because joy and sorrow were listed alongside earth, water, fire, air, and soul as basic elements. Statement 3 is correct because his eternalism held that no one can kill or be killed; elements merely separate and the weapon passes through the gap between them."
+    },
+    {
+      "lang": "HI",
+      "text": "Q46. दार्शनिक पकुध कच्चायन के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने प्रतिपादित किया कि ब्रह्मांड सात शाश्वत, अकृत और अपरिवर्तनीय तत्वों से बना है।\n2. उनके द्वारा सुख और दुःख को भी बुनियादी तत्वों के रूप में माना गया था।\n3. उनका मानना था कि शरीर से गुजरने वाली तलवार किसी को मारती नहीं है, बल्कि केवल तत्वों के बीच के स्थान से गुजरती है।\n\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि उन्होंने 7 शाश्वत तत्वों के साथ शाश्वतवाद की शिक्षा दी थी। कथन 2 सही है क्योंकि पृथ्वी, जल, तेज, वायु और जीव के साथ सुख और दुःख को भी बुनियादी तत्वों के रूप में सूचीबद्ध किया गया था। कथन 3 सही है क्योंकि उनके शाश्वतवाद के अनुसार कोई किसी को मार या मर नहीं सकता; तत्व केवल अलग हो जाते हैं और हथियार उनके बीच के अंतराल से गुजरता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q47. Consider the following statements regarding Sanjaya Belatthiputta's Scepticism:\n1. He refused to give a definitive 'yes' or 'no' to questions regarding the existence of the soul after death.\n2. His philosophy of evasive skepticism is known in Buddhist texts as Amaravikkhepa.\n3. His two chief disciples, Sariputta and Moggallana, later became the leading disciples of Gautama Buddha.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because he was a sceptic who avoided definitive assertions. Statement 2 is correct because 'Amaravikkhepa' (eel-wriggling) is the Pali term used to describe his evasive philosophy. Statement 3 is correct because Sariputta and Moggallana were initially followers of Sanjaya before meeting the Buddha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q47. संजय बेलट्ठिपुत्त के संदेहवाद के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने मृत्यु के बाद आत्मा के अस्तित्व से संबंधित प्रश्नों पर निश्चित 'हाँ' या 'ना' कहने से इनकार कर दिया।\n2. उनके इस संदेहवाद के दर्शन को बौद्ध ग्रंथों में 'अमराविक्षेपवाद' (अमराविखेप) के रूप में जाना जाता है।\n3. उनके दो प्रमुख शिष्य, सारिपुत्त और मोग्गल्लान, बाद में गौतम बुद्ध के प्रमुख शिष्य बने।\n\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि वे एक संदेहवादी थे जो निश्चित दावों से बचते थे। कथन 2 सही है क्योंकि उनके इस टालमटोल वाले दर्शन का वर्णन करने के लिए पाली भाषा में 'अमराविखेप' (सर्पिलाकार टालमटोल) शब्द का प्रयोग किया गया है। कथन 3 सही है क्योंकि सारिपुत्त और मोग्गल्लान बुद्ध से मिलने से पहले प्रारंभ में संजय के अनुयायी थे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q48. Consider the following statements regarding Purana Kassapa's Akriyavada:\n1. He taught that there is no moral consequence for actions, whether good or bad.\n2. His philosophy directly challenged the orthodox Brahmanical theory of karma.\n3. He was patronized as a state teacher by King Ajatashatru throughout his reign.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Akriyavada denies moral karma. Statement 2 is correct because denying karma directly challenged Brahmanical ritual ethics. Statement 3 is incorrect because Ajatashatru interviewed many teachers but did not patronize Purana Kassapa as a state teacher."
+    },
+    {
+      "lang": "HI",
+      "text": "Q48. पूरण कस्सप के अक्रियावाद के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने सिखाया कि कर्मों का कोई नैतिक परिणाम नहीं होता, चाहे वे अच्छे हों या बुरे।\n2. उनके दर्शन ने रूढ़िवादी ब्राह्मणवादी कर्म सिद्धांत को सीधे चुनौती दी।\n3. राजा अजातशत्रु ने अपने पूरे शासनकाल में उन्हें राज्य शिक्षक के रूप में संरक्षण दिया था।\n\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि अक्रियावाद कर्म के नैतिक प्रभाव से इनकार करता है। कथन 2 सही है क्योंकि कर्म का खंडन ब्राह्मणवादी नैतिक अनुष्ठान व्यवस्था को चुनौती देता था। कथन 3 गलत है क्योंकि अजातशत्रु ने कई शिक्षकों से बातचीत की थी लेकिन पूरण कस्सप को राज्य शिक्षक के रूप में संरक्षण नहीं दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q49. With reference to the Shramana sects of the 6th century BC, consider the following statements:\n1. They rejected the hereditary caste system (Varna vyavastha) of the Vedic society.\n2. They allowed women to enter their monastic orders, unlike the orthodox Vedic tradition of the time.\n3. They believed in the householder life (Grihastha) as the only path to achieve ultimate liberation.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Shramanas accepted people of all castes. Statement 2 is correct because Buddhism and Jainism allowed women to become nuns (Bhikhunis), breaking contemporary orthodox norms. Statement 3 is incorrect because they emphasized renunciation (Sannyasa/asceticism) and rejected the householder life as the primary path to liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q49.  छठी शताब्दी ईसा पूर्व के श्रमण सम्प्रदायों के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने वैदिक समाज की वंशानुगत वर्ण व्यवस्था को खारिज कर दिया।\n2. उन्होंने महिलाओं को अपने भिक्षु संघों में प्रवेश करने की अनुमति दी, जो उस समय की रूढ़िवादी वैदिक परंपरा के विपरीत थी।\n3. उनका मानना था कि गृहस्थ जीवन ही अंतिम मुक्ति प्राप्त करने का एकमात्र मार्ग है।\n\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि श्रमणों ने सभी जातियों के लोगों को स्वीकार किया। कथन 2 सही है क्योंकि बौद्ध और जैन धर्म ने महिलाओं को भिक्षुणी बनने की अनुमति दी, जिससे तत्कालीन रूढ़िवादी मानदंडों को चुनौती मिली। कथन 3 गलत है क्योंकि उन्होंने संन्यास पर जोर दिया और गृहस्थ जीवन को मुक्ति का एकमात्र मार्ग मानने से इनकार कर दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q50. Consider the following statements about the historical decline of the Ajivikas:\n1. The Ajivika sect survived in North India until the Gupta period, after which it disappeared rapidly.\n2. In South India, they survived as late as the 14th century AD, as evidenced by inscriptions in Tamil Nadu and Karnataka.\n3. They faced severe ideological competition and active opposition from both Shaiva Nayanars and Jains in South India.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "D",
+      "explanation": "Statement 1 is correct because they declined in the North after the Guptas. Statement 2 is correct because inscriptions in Kolar and other areas show Ajivika presence up to the 14th century. Statement 3 is correct because South Indian literature (like Nilakesi) details debates and hostility between Jains, Shaivas, and Ajivikas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q50. आजीविकों के ऐतिहासिक पतन के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. आजीविक सम्प्रदाय उत्तरी भारत में गुप्त काल तक जीवित रहा, जिसके बाद यह तेजी से समाप्त हो गया।\n2. दक्षिण भारत में, वे 14वीं शताब्दी ईस्वी तक जीवित रहे, जैसा कि तमिलनाडु और कर्नाटक के शिलालेखों से सिद्ध होता है।\n3. उन्हें दक्षिण भारत में शैव नयनारों और जैनियों दोनों से गंभीर वैचारिक प्रतिस्पर्धा और सक्रिय विरोध का सामना करना पड़ा।\n\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "D",
+      "explanation": "कथन 1 सही है क्योंकि गुप्त काल के बाद उत्तर भारत में इनका ह्रास हुआ। कथन 2 सही है क्योंकि कोलार और अन्य क्षेत्रों के शिलालेख 14वीं शताब्दी तक आजीविकों की उपस्थिति दर्शाते हैं। कथन 3 सही है क्योंकि दक्षिण भारतीय साहित्य (जैसे नीलगेशी) में जैनियों, शैवों और आजीविकों के बीच विवादों और शत्रुता का विवरण है।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q1. Explain the concept of 'Niyati' in the Ajivika philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "In Ajivika philosophy, founded by Makkhali Gosala, **Niyati** (absolute determinism or fate) is the central cosmic principle. It posits that all occurrences, human actions, and natural processes are pre-ordained and governed by destiny.\n\nKey aspects:\n- **No Free Will:** Human effort, moral acts, and prayers cannot alter the course of destiny.\n- **Samsarasuddhi:** The cycle of rebirth is fixed, and liberation occurs automatically after completing all destined lives.\n- **Cosmic Order:** Everything is static, pre-measured, and runs like a thread unwinding."
+    },
+    {
+      "lang": "HI",
+      "text": "Q1. आजीविक दर्शन में 'नियति' की अवधारणा को स्पष्ट कीजिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "मक्खलि गोसाल द्वारा स्थापित आजीविक दर्शन में, **नियतिवाद (नियति)** केंद्रीय ब्रह्मांडीय सिद्धांत है। यह मानता है कि सभी घटनाएं, मानवीय कर्म और प्राकृतिक प्रक्रियाएं भाग्य द्वारा पूर्वनिर्धारित और नियंत्रित होती हैं।\n\nमुख्य बिंदु:\n- **कोई स्वतंत्र इच्छा नहीं:** मानवीय प्रयास, नैतिक कर्म और प्रार्थनाएं भाग्य के मार्ग को नहीं बदल सकती हैं।\n- **संसारशुद्धि:** पुनर्जन्म का चक्र निश्चित है और मुक्ति सभी नियत जन्मों को पूरा करने के बाद स्वतः होती है।\n- **ब्रह्मांडीय व्यवस्था:** सब कुछ स्थिर, पूर्व-मापित है और एक धागे की तरह घूमता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q2. Analyze the key heterodox philosophies of the 6th century BC (excluding Buddhism and Jainism) and evaluate their impact on the contemporary socio-religious landscape of ancient India. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The 6th century BC witnessed a remarkable intellectual churning in India, characterized by the rise of several Shramana (heterodox) schools that rejected the authority of the Vedas. Excluding Buddhism and Jainism, the major sects and their doctrines are summarized below:\n\n| Philosopher | Sect/School | Core Doctrine | Philosophical Essence |\n| :--- | :--- | :--- | :--- |\n| **Makkhali Gosala** | Ajivika | *Niyatiवाद* (Determinism) | Everything is pre-determined; human effort is futile. |\n| **Ajita Kesakambali** | Ucchedavada / Lokayata | *Materialism* | Annihilation at death; only direct perception is valid. |\n| **Purana Kassapa** | Akriyavada | *Non-action* | Moral deeds do not produce merit or demerit. |\n| **Pakudha Kaccayana** | Sasvatavada | *Eternalism* | The universe consists of seven uncreated, eternal elements. |\n| **Sanjaya Belatthiputta** | Ajnanavada | *Scepticism* | Metaphysical questions are unknowable; avoids assertions. |\n\n### Impact on the Socio-Religious Landscape:\n1. **Challenge to Vedic Hegemony:** They criticized Brahmanical supremacy, complex animal sacrifices, and the rigid varna hierarchy, promoting intellectual egalitarianism.\n2. **Rise of Asceticism:** They catalyzed the growth of monastic orders and ascetic traditions (Shramana movement), shifting focus from ritualism to philosophical contemplation.\n3. **Development of Indian Logic:** The skeptical (Ajnanavada) and materialistic arguments forced later schools (like Nyaya and Buddhism) to refine their logical and epistemological frameworks."
+    },
+    {
+      "lang": "HI",
+      "text": "Q2.  छठी शताब्दी ईसा पूर्व के प्रमुख नास्तिक दर्शनों (बौद्ध और जैन धर्म को छोड़कर) का विश्लेषण कीजिए और प्राचीन भारत के समकालीन सामाजिक-धार्मिक परिदृश्य पर उनके प्रभाव का मूल्यांकन कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "छठी शताब्दी ईसा पूर्व में भारत में एक उल्लेखनीय बौद्धिक मंथन देखा गया, जिसकी विशेषता वेदों के अधिकार को खारिज करने वाले कई श्रमण (नास्तिक) स्कूलों का उदय था। बौद्ध और जैन धर्म को छोड़कर, मुख्य संप्रदाय और उनके सिद्धांत नीचे दिए गए हैं:\n\n| दार्शनिक | सम्प्रदाय/स्कूल | मूल सिद्धांत | दार्शनिक सार |\n| :--- | :--- | :--- | :--- |\n| **मक्खलि गोसाल** | आजीविक | *नियतिवाद* | सब कुछ पहले से तय है; मानवीय प्रयास व्यर्थ है। |\n| **अजित केसकम्बली** | उच्छेदवाद / लोकायत | *भौतिकवाद* | मृत्यु पर सब कुछ समाप्त हो जाता है; केवल प्रत्यक्ष प्रमाण सत्य है। |\n| **पूरण कस्सप** | अक्रियावाद | *निष्क्रियता* | नैतिक कार्यों से पुण्य या पाप नहीं होता। |\n| **पकुध कच्चायन** | शाश्वतवाद | *नित्यता* | ब्रह्मांड सात अकृत, शाश्वत तत्वों से बना है। |\n| **संजय बेलट्ठिपुत्त** | अज्ञानवाद | *संदेहवाद* | आध्यात्मिक प्रश्न अज्ञेय हैं; निश्चित दावों से बचाव। |\n\n### सामाजिक-धार्मिक परिदृश्य पर प्रभाव:\n1. **वैदिक आधिपत्य को चुनौती:** उन्होंने ब्राह्मणवादी वर्चस्व, जटिल पशु बलि और कठोर वर्ण व्यवस्था की आलोचना की, जिससे बौद्धिक समानता को बढ़ावा मिला।\n2. **तपस्या का उदय:** उन्होंने संन्यासी संप्रदायों और श्रमण आंदोलन के विकास को प्रेरित किया, जिससे अनुष्ठान के बजाय दार्शनिक चिंतन पर ध्यान केंद्रित हुआ।\n3. **भारतीय तर्कशास्त्र का विकास:** संदेहवादी (अज्ञानवाद) और भौतिकवादी तर्कों ने बाद के दार्शनिक स्कूलों (जैसे न्याय और बौद्ध धर्म) को अपने तार्किक और ज्ञानमीमांसा ढांचे को परिष्कृत करने के लिए मजबूर किया।"
+    }
+  ]
+}

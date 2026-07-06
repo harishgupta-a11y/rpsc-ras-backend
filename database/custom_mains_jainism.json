@@ -1,0 +1,204 @@
+{
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the concept of 'Triratna' (Three Jewels) in Jain philosophy. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "In Jain philosophy, Triratna (Three Jewels) represents the path to liberation (Moksha) from the cycle of rebirths.\n\nIt comprises three components:\n• Right Faith (Samyak Darshana): Belief in the true teachers and scriptures.\n• Right Knowledge (Samyak Jnana): Flawless understanding of Jiva and Ajiva.\n• Right Conduct (Samyak Charitra): Implementing the five vows.\n\nTogether, these form an integrated path to purify the soul and stop the accumulation of karma."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन दर्शन में 'त्रिरत्न' की अवधारणा को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "जैन दर्शन में, त्रिरत्न जन्म-मरण के चक्र से मुक्ति (मोक्ष) का मार्ग प्रदर्शित करते हैं।\n\nइसके तीन अंग हैं:\n• सम्यक दर्शन: सच्चे गुरुओं और शास्त्रों में अटूट विश्वास।\n• सम्यक ज्ञान: जीव और अजीव का त्रुटिहीन, वास्तविक ज्ञान।\n• सम्यक चरित्र: पाँच व्रतों का व्यावहारिक पालन करना।\n\nये तीनों मिलकर आत्मा को शुद्ध करने और कर्म के संचय को रोकने के लिए एक एकीकृत मार्ग का निर्माण करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Define 'Syadvada' and its significance in Jain epistemology. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Syadvada is the Jain doctrine of relativity of truth, stating that all judgments are conditional and relative.\n\nKey aspects include:\n• It uses the prefix 'Syat' (perhaps/maybe) to highlight the partial nature of assertions.\n• It teaches intellectual tolerance by validating different perspectives.\n• It prevents dogmatic assertions and promotes reconciliation.\n\nThus, Syadvada establishes that truth is multifaceted, fostering peace and mutual understanding in philosophical discourse."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'स्याद्वाद' को परिभाषित कीजिए और जैन ज्ञानमीमांसा में इसके महत्व को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "स्याद्वाद जैन धर्म का सापेक्षता का सिद्धांत है, जो बताता है कि सभी निर्णय सापेक्ष होते हैं।\n\nप्रमुख बिंदु:\n• यह कथनों की आंशिक प्रकृति को दर्शाने के लिए 'स्यात्' (शायद) उपसर्ग का उपयोग करता है।\n• यह विभिन्न दृष्टिकोणों को मान्य मानकर बौद्धिक सहिष्णुता सिखाता.है।\n• यह हठधर्मी दावों को रोकता है और सामंजस्य को बढ़ावा देता है।\n\nइस प्रकार, स्याद्वाद यह स्थापित करता है कि सत्य बहुआयामी है, जो दार्शनिक विमर्श में शांति को बढ़ावा देता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Differentiate between 'Pancha Mahavratas' and 'Anuvratas' in Jain ethics. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Both represent the five ethical vows (Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha) but differ in intensity of practice:\n\n• Pancha Mahavratas: Absolute, strict vows meant for Jain ascetics (monks/nuns). They demand complete renunciation of worldly activities.\n• Anuvratas: Partial, modified vows meant for lay followers (householders). They allow moderate execution suited to daily life.\n\nThis division ensures that Jain ethical ideals remain accessible to both spiritual seekers and practical householders."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन नीतिशास्त्र में 'पंच महाव्रत' और 'अणुव्रत' के बीच अंतर स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "दोनों जैन धर्म के पाँच नैतिक व्रतों (अहिंसा, सत्य, अस्तेय, ब्रह्मचर्य, अपरिग्रह) का प्रतिनिधित्व करते हैं, लेकिन इनके पालन की तीव्रता में अंतर है:\n\n• पंच महाव्रत: जैन भिक्षुओं/साध्वियों के लिए कठोर और पूर्ण व्रत हैं, जिनमें सांसारिक गतिविधियों का पूर्ण त्याग होता है।\n• अणुव्रत: गृहस्थों के लिए आंशिक और शिथिल व्रत हैं, जो व्यावहारिक जीवन के अनुकूल होते हैं।\n\nयह विभाजन सुनिश्चित करता है कि जैन नैतिक मूल्य आध्यात्मिक साधकों और गृहस्थों दोनों के लिए सुलभ रहें।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the dualistic concepts of 'Jiva' and 'Ajiva' in Jain metaphysics. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Jain metaphysics divides the universe into two fundamental, uncreated, and eternal categories:\n\n• Jiva: The conscious, living soul possessing perception, energy, and bliss. Every living entity has an individual Jiva.\n• Ajiva: The unconscious, non-living matter. It comprises Pudgala (matter), Dharma (motion), Adharma (rest), Akasha (space), and Kala (time).\n\nLiberation is achieved when the Jiva frees itself from the bondage of Ajiva (specifically karma-matter)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन तत्वमीमांसा में 'जीव' और 'अजीव' की द्वैतवादी अवधारणाओं को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "जैन तत्वमीमांसा ब्रह्मांड को दो मूलभूत, अनादि और शाश्वत श्रेणियों में विभाजित करती है:\n\n• जीव: चेतनायुक्त, जीवित आत्मा जिसमें दर्शन, ज्ञान, वीर्य और सुख विद्यमान है। प्रत्येक जीव स्वतंत्र है।\n• अजीव: चेतनाहीन, निर्जीव तत्व। इसमें पुद्गल (पदार्थ), धर्म (गति), अधर्म (स्थिति), आकाश (अंतरिक्ष) और काल (समय) शामिल हैं।\n\nमुक्ति तब प्राप्त होती है जब जीव स्वयं को अजीव (विशेष रूप से कर्म-पुद्गल) के बंधन से मुक्त कर लेता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the processes of 'Asrava' and 'Bandha' in Jain Karma theory. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Asrava and Bandha are key stages in the soul's bondage by karma:\n\n• Asrava (Inflow): The influx of subtle karmic matter (pudgala) into the soul, triggered by bodily, mental, or verbal actions.\n• Bandha (Bondage): The actual attachment of these karmic particles to the soul due to passions (Kashayas like anger, greed, ego).\n\nUnderstanding these processes is vital, as they explain how worldly attachments continuously restrict the soul's natural purity."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन कर्म सिद्धांत में 'आस्रव' और 'बंध' की प्रक्रियाओं का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "आस्रव और बंध आत्मा के कर्म बंधन में दो महत्वपूर्ण चरण हैं:\n\n• आस्रव: शरीर, मन और वाणी की क्रियाओं के कारण सूक्ष्म कर्म पुद्गल (कणों) का आत्मा की ओर प्रवाहित होना।\n• बंध: कषायों (क्रोध, मान, माया, लोभ) के कारण इन प्रवाहित कर्म कणों का आत्मा के साथ वास्तविक रूप से चिपक जाना।\n\nइन प्रक्रियाओं को समझना महत्वपूर्ण है, क्योंकि ये बताते हैं कि कैसे सांसारिक आसक्ति आत्मा की वास्तविक पवित्रता को निरंतर बाधित करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. How do 'Samvara' and 'Nirjara' lead to the liberation of the soul? [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Samvara and Nirjara are the processes of stopping and shedding karmic matter:\n\n• Samvara (Stoppage): Blocking the inflow of new karma through self-restraint, vow observance, and mental control.\n• Nirjara (Shedding): Burning away existing accumulated karmas through penance, meditation, and austerities.\n\nOnce new karma is stopped (Samvara) and old karma is completely shed (Nirjara), the soul regains its pristine purity, attaining absolute liberation."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'संवर' और 'निर्जरा' आत्मा की मुक्ति का मार्ग कैसे प्रशस्त करते हैं? [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "संवर और निर्जरा कर्म पुद्गल को रोकने और नष्ट करने की प्रक्रियाएं हैं:\n\n• संवर: आत्म-संयम, व्रतों के पालन और मानसिक नियंत्रण द्वारा नए कर्मों के प्रवाह को रोकना।\n• निर्जरा: तपस्या, ध्यान और साधना के माध्यम से पहले से संचित कर्मों को नष्ट करना।\n\nजब नए कर्म रुक जाते हैं (संवर) और संचित कर्म पूरी तरह नष्ट हो जाते हैं (निर्जरा), तो आत्मा अपनी मूल शुद्धता प्राप्त कर मोक्ष पा लेती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Write a short note on the practice of 'Sallekhana' (Santhara) in Jainism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Sallekhana is the voluntary, peaceful fasting unto death practiced by Jain monks and householders under specific conditions.\n\nKey aspects:\n• It is permitted only during terminal illness, extreme old age, or unavoidable calamity.\n• It is not suicide, as it lacks anger, passion, or emotional distress.\n• It aims to shed deep karmic debts at life's end.\n\nThrough gradual withdrawal from food and water, it focuses on spiritual purity and mindful detachment."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म में 'सल्लेखना' (संथारा) प्रथा पर एक संक्षिप्त टिप्पणी लिखिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "सल्लेखना जैन भिक्षुओं और गृहस्थों द्वारा विशेष परिस्थितियों में स्वेच्छा से किया जाने वाला शांतिपूर्ण आमरण अनशन है।\n\nप्रमुख बिंदु:\n• यह केवल असाध्य बीमारी, अत्यधिक वृद्धावस्था या अपरिहार्य आपदा के समय ही मान्य है।\n• यह आत्महत्या नहीं है, क्योंकि इसमें क्रोध, कषाय या मानसिक अवसाद नहीं होता।\n• इसका उद्देश्य जीवन के अंत में संचित कर्मों को नष्ट करना है।\n\nभोजन-जल के क्रमिक त्याग द्वारा यह आध्यात्मिक पवित्रता और मानसिक अनासक्ति पर ध्यान केंद्रित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain Vardhamana Mahavira's views on the existence of a creator God. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Mahavira rejected the concept of a creator God who manages or judges the universe.\n\nAccording to his teachings:\n• The universe is eternal, uncreated, and operates according to cosmic laws.\n• Divine status is achieved by any soul that attains liberation (Siddha).\n• Humans are masters of their own destiny through their karmic actions.\n\nThus, Jainism is atheistic (Nirishvaravadi) regarding a creator, yet acknowledges divinity within purified souls."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सृष्टिकर्ता ईश्वर के अस्तित्व पर वर्धमान महावीर के विचारों को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "महावीर ने ब्रह्मांड का संचालन या न्याय करने वाले किसी सृष्टिकर्ता ईश्वर की अवधारणा को खारिज कर दिया।\n\nउनकी शिक्षाओं के अनुसार:\n• ब्रह्मांड अनादि, अनंत और शाश्वत नियमों के अनुसार संचालित है।\n• जो भी आत्मा मोक्ष प्राप्त कर लेती है (सिद्ध), वह देवत्व प्राप्त करती है।\n• मनुष्य अपने कर्मों के माध्यम से अपने भाग्य का स्वयं निर्माता है।\n\nइस प्रकार, जैन धर्म सृष्टिकर्ता के संदर्भ में अनीश्वरवादी है, लेकिन शुद्ध आत्माओं में देवत्व को स्वीकार करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. State the primary factors that led to the rise of Jainism in the 6th century BCE. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The rise of Jainism in the 6th century BCE was driven by several socio-religious factors:\n\n• Ritualistic Rigidity: Reaction against complex, expensive Vedic sacrifices and priestly domination.\n• Caste System: Varna rigidities created discontent, especially among the rising Vaishya and Kshatriya classes.\n• Simple Language: Teachings in Prakrit (vernacular) appealed to common masses over Sanskrit.\n\nThese factors combined to make Jainism a highly accessible, egalitarian, and appealing spiritual alternative."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. छठी शताब्दी ईसा पूर्व में जैन धर्म के उदय के प्राथमिक कारकों का उल्लेख कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "छठी शताब्दी ईसा पूर्व में जैन धर्म के उदय के पीछे कई सामाजिक-धार्मिक कारक थे:\n\n• कर्मकांडी जटिलता: खर्चीले वैदिक यज्ञों, पशु बलि और पुरोहिती वर्चस्व के विरुद्ध तीखी प्रतिक्रिया।\n• वर्ण व्यवस्था: जाति प्रथा की कठोरता से असंतोष, विशेषकर उभरते हुए वैश्य और क्षत्रिय वर्गों में।\n• सरल भाषा: प्राकृत (आम बोलचाल की भाषा) में दी गई शिक्षाओं ने संस्कृत की तुलना में जनता को आकर्षित किया।\n\nइन कारकों ने मिलकर जैन धर्म को एक सुलभ, समतावादी और आकर्षक आध्यात्मिक विकल्प बनाया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the role of major royal patrons in the propagation of Jainism in ancient India. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Royal patronage was crucial for the expansion of Jainism across ancient India:\n\n• Haryanka Dynasty: Bimbisara and Ajatashatru patronized Mahavira.\n• Mauryan Empire: Chandragupta Maurya converted, traveling south to Shravanabelagola. Samprati propagated it in Western India.\n• Kharavela of Kalinga: Supported Jain monks and carved the famous Udayagiri cave inscriptions.\n\nThis royal support secured financial stability, monastic structures, and widespread public acceptance for the faith."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारत में जैन धर्म के प्रचार-प्रसार में प्रमुख शाही संरक्षकों की भूमिका पर प्रकाश डालिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारत में जैन धर्म के प्रसार में शाही संरक्षण अत्यंत महत्वपूर्ण था:\n\n• हर्यक वंश: बिंबिसार और अजातशत्रु ने महावीर को संरक्षण दिया।\n• मौर्य साम्राज्य: चंद्रगुप्त मौर्य ने जैन धर्म अपनाया और श्रवणबेलगोला चले गए। संप्रति ने पश्चिमी भारत में इसका प्रसार किया।\n• कलिंग का खारवेल: जैन भिक्षुओं को संरक्षण दिया और प्रसिद्ध उदयगिरि गुफा अभिलेखों का निर्माण कराया।\n\nइस राजकीय समर्थन ने जैन धर्म को वित्तीय स्थिरता, विहार और व्यापक सामाजिक स्वीकृति प्रदान की।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Write a short note on 'Agamas' and their linguistic significance in Jainism. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Agamas are the primary canonical scriptures of Jainism containing the teachings of Mahavira, compiled by his disciples (Gandharas).\n\nLinguistic significance:\n• Written in Ardhamagadhi, a form of Prakrit, to ensure access for ordinary people.\n• Preserved local dialects, breaking the monopoly of Sanskrit literature.\n• Influenced the growth of Kannada, Tamil, and Gujarati vernacular scripts.\n\nThus, Agamas served both a spiritual and democratic linguistic purpose in ancient India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म में 'आगम' और उनके भाषाई महत्व पर एक संक्षिप्त टिप्पणी लिखिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "आगम जैन धर्म के प्राथमिक पवित्र ग्रंथ हैं जिनमें महावीर की शिक्षाएं संकलित हैं, जिन्हें उनके शिष्यों (गणधरों) ने संकलित किया था।\n\nभाषाई महत्व:\n• आम लोगों की पहुंच सुनिश्चित करने के लिए इन्हें अर्धमागधी (प्राकृत का एक रूप) में लिखा गया था।\n• इसने संस्कृत के वर्चस्व को तोड़कर स्थानीय बोलियों को संरक्षण दिया।\n• इसने कन्नड़, तमिल और गुजराती जैसी क्षेत्रीय भाषाओं के विकास को प्रभावित किया।\n\nइस प्रकार, आगमों ने प्राचीन भारत में आध्यात्मिक और लोकतांत्रिक भाषाई दोनों उद्देश्यों को पूरा किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Contrast the Digambara and Svetambara sects on women's liberation and monastic nudity. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The two sects differ significantly on these ascetic codes:\n\n• Monastic Nudity: Digambaras mandate absolute nudity for male monks to achieve detachment. Svetambaras permit wearing simple white robes.\n• Women's Liberation: Digambaras hold that women must be reborn as men to attain Moksha due to practical limitations of nudity. Svetambaras believe women can attain Moksha directly in their current form.\n\nThese differences reflect varying interpretations of extreme asceticism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. स्त्री मुक्ति और नग्नता के विषय पर दिगंबर और श्वेतांबर संप्रदायों के विचारों की तुलना कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "दोनों संप्रदाय इन तपस्या नियमों पर महत्वपूर्ण रूप से भिन्न विचार रखते हैं:\n\n• नग्नता: दिगंबर पूर्ण अपरिग्रह के लिए पुरुष भिक्षुओं के लिए पूर्ण नग्नता अनिवार्य मानते हैं। श्वेतांबर सफेद वस्त्र पहनने की अनुमति देते हैं।\n• स्त्री मुक्ति: दिगंबर मानते हैं कि स्त्रियों को मोक्ष के लिए पुरुष रूप में पुनर्जन्म लेना होगा क्योंकि वे नग्न नहीं रह सकतीं। श्वेतांबर मानते हैं कि स्त्रियाँ वर्तमान जीवन में भी मोक्ष प्राप्त कर सकती हैं।\n\nये मतभेद कठोर तपस्या की व्याख्याओं में अंतर को दर्शाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the significance of the First Jain Council held at Pataliputra. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Held in the 3rd century BCE at Pataliputra, presided over by Sthulabhadra, this council was a major turning point:\n\n• Compilation of Canon: It compiled the lost teachings of Mahavira into the twelve Angas.\n• Sectarian Division: It marked the initial split between Digambaras (who rejected the compiled text and stayed south) and Svetambaras.\n\nThus, it initiated the institutional preservation of Jain texts while formalizing the division within the community."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पाटलिपुत्र में आयोजित प्रथम जैन संगीति के महत्व की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "तीसरी शताब्दी ईसा पूर्व में पाटलिपुत्र में स्थूलभद्र की अध्यक्षता में आयोजित यह संगीति एक महत्वपूर्ण मोड़ थी:\n\n• ग्रंथों का संकलन: इसने महावीर की लुप्त शिक्षाओं को बारह अंगों में संकलित किया।\n• संप्रदाय विभाजन: इसने दिगंबर (जिन्होंने इस संकलन को अस्वीकार किया) और श्वेतांबर संप्रदायों के बीच शुरुआती विभाजन को रेखांकित किया।\n\nइस प्रकार, इसने जैन ग्रंथों के संस्थागत संरक्षण की शुरुआत की और साथ ही समुदाय के भीतर विभाजन को भी औपचारिक रूप दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze Anekantavada and Syadvada as the epistemological and logical foundation of Jain philosophy. Explain how they prevent dogmatism. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Jain epistemology is built on the twin doctrines of Anekantavada (metaphysical multi-dimensional reality) and Syadvada (logical relative expression). Together, they form a comprehensive framework to understand truth without falling into dogmatic traps.\n\n### 1. Conceptual Framework\n* **Anekantavada (Manifoldness of Reality):** It asserts that reality is complex and possesses infinite attributes (Anantadharmatmakam Vastu). No single view can capture the entire truth.\n* **Syadvada (Theory of Relative Judgments):** It is the logical formulation of Anekantavada. It maintains that all knowledge claims are conditional, relative, and true only from a specific standpoint (Naya). It employs seven modes of assertion (Saptabhangi Naya) prefixed with 'Syat' (perhaps/in a certain sense).\n\n### 2. Epistemological Foundation (Saptabhangi Naya)\n1. *Syad-asti* (Perhaps, it exists)\n2. *Syad-nasti* (Perhaps, it does not exist)\n3. *Syad-asti-nasti* (Perhaps, it exists and does not exist)\n4. *Syad-avaktavyam* (Perhaps, it is inexpressible)\n5. *Syad-asti-avaktavyam* (Perhaps, it exists and is inexpressible)\n6. *Syad-nasti-avaktavyam* (Perhaps, it does not exist and is inexpressible)\n7. *Syad-asti-nasti-avaktavyam* (Perhaps, it exists, does not exist, and is inexpressible)\n\n### 3. Prevention of Dogmatism\nThese doctrines promote intellectual humility and respect for opposing viewpoints. By asserting that absolute claims (Ekantavada) lead to conflict, Jainism provides a philosophical basis for non-violence (Ahimsa) in thought, encouraging dialogue, tolerance, and peaceful coexistence in a diverse world."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन दर्शन की ज्ञानमीमांसीय और तार्किक नींव के रूप में अनेकांतवाद और स्याद्वाद का विश्लेषण कीजिए। स्पष्ट कीजिए कि ये मत हठधर्मिता को कैसे रोकते हैं। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "जैन ज्ञानमीमांसा अनेकांतवाद (तत्वमीमांसीय बहुआयामी वास्तविकता) और स्याद्वाद (तार्किक सापेक्ष अभिव्यक्ति) के दोहरे सिद्धांतों पर निर्मित है। ये दोनों मिलकर हठधर्मिता में फंसे बिना सत्य को समझने का एक व्यापक ढांचा प्रदान करते हैं।\n\n### 1. वैचारिक ढांचा\n* **अनेकांतवाद (यथार्थ की बहुआयामी प्रकृति):** यह मानता है कि वास्तविकता अत्यंत जटिल है और इसमें अनंत गुण (अनंतधर्मात्मकं वस्तु) होते हैं। कोई भी एकल दृष्टिकोण संपूर्ण सत्य को समाहित नहीं कर सकता।\n* **स्याद्वाद (सापेक्ष निर्णय का सिद्धांत):** यह अनेकांतवाद का तार्किक रूप है। यह मानता है कि ज्ञान के सभी दावे सशर्त, सापेक्ष और केवल एक विशिष्ट दृष्टिकोण (नय) से सत्य होते हैं। इसमें 'स्यात्' (शायद) उपसर्ग से युक्त सात कथनों (सप्तभंगी नय) का उपयोग किया जाता है।\n\n### 2. ज्ञानमीमांसीय आधार (सप्तभंगी नय)\n1. *स्याद्-अस्ति* (शायद, है)\n2. *स्याद्-नास्ति* (शायद, नहीं है)\n3. *स्याद्-अस्ति-नास्ति* (शायद, है और नहीं भी है)\n4. *स्याद्-अव्यक्तव्यम्* (शायद, कहा नहीं जा सकता)\n5. *स्याद्-अस्ति-अव्यक्तव्यम्* (शायद, है और कहा नहीं जा सकता)\n6. *स्याद्-नास्ति-अव्यक्तव्यम्* (शायद, नहीं है और कहा नहीं जा सकता)\n7. *स्याद्-अस्ति-नास्ति-अव्यक्तव्यम्* (शायद, है, नहीं है और कहा नहीं जा सकता)\n\n### 3. हठधर्मिता की रोकथाम\nये सिद्धांत बौद्धिक विनम्रता और विरोधी दृष्टिकोणों के प्रति सम्मान को बढ़ावा देते हैं। यह मानकर कि एकांगी दावे (एकांतवाद) संघर्ष को जन्म देते हैं, जैन धर्म वैचारिक अहिंसा का मार्ग प्रशस्त करता है, जो सहिष्णुता और शांतिपूर्ण सह-अस्तित्व को प्रोत्साहित करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the ethical code of Jainism with special reference to Mahavratas and Anuvratas. Highlight their relevance in modern times. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Jain ethics revolves around five fundamental vows (Panchasheela) designed to discipline conduct and purify the soul. These are applied in two distinct tiers based on the practitioner's spiritual stage: Mahavratas (Great Vows) and Anuvratas (Minor Vows).\n\n### Comparison of Ethical Vows\n| Vow | Mahavrata (Ascetic Standard) | Anuvrata (Householder Standard) |\n| :--- | :--- | :--- |\n| **Ahimsa (Non-violence)** | Absolute non-injury to any living being (even microbes). | Avoidance of intentional killing of mobile beings. |\n| **Satya (Truth)** | Speaking absolute truth; avoiding misleading words. | Truthfulness that avoids harmful lies or deception. |\n| **Asteya (Non-stealing)** | Taking absolutely nothing unless explicitly given. | Respecting others' property; avoiding dishonest gain. |\n| **Brahmacharya (Chastity)** | Complete celibacy in thought, word, and deed. | Fidelity in marriage and self-restraint. |\n| **Aparigraha (Non-possession)** | Zero possessions; complete renunciation of material assets. | Limiting personal desires and wealth accumulation. |\n\n### Modern Relevance\n1. **Environmental Ethics:** The strict practice of Ahimsa fosters ecological balance and prevents animal cruelty.\n2. **Reducing Consumerism:** Aparigraha directly counters modern excessive consumerism, promoting sustainable development and reducing economic disparity.\n3. **Social Harmony:** Truth and non-stealing build trust, reduce corruption, and foster peaceful conflict resolution."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाव्रत और अणुव्रत के विशेष संदर्भ में जैन धर्म की नैतिक आचार संहिता की चर्चा कीजिए। आधुनिक समय में उनकी प्रासंगिकता पर प्रकाश डालिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "जैन नीतिशास्त्र आचरण को अनुशासित करने और आत्मा को शुद्ध करने के लिए डिज़ाइन किए गए पाँच मूलभूत व्रतों के इर्द-गिर्द घूमता है। इन्हें साधक के आध्यात्मिक स्तर के आधार पर दो अलग-अलग स्तरों पर लागू किया जाता है: महाव्रत और अणुव्रत।\n\n### नैतिक व्रतों का तुलनात्मक विवरण\n| व्रत | महाव्रत (भिक्षुओं हेतु कठोर मानक) | अणुव्रत (गृहस्थों हेतु शिथिल मानक) |\n| :--- | :--- | :--- |\n| **अहिंसा** | सूक्ष्म जीवों सहित किसी भी जीव को लेशमात्र भी क्षति न पहुंचाना। | जानबूझकर त्रस (चलने वाले) जीवों की हिंसा का त्याग करना। |\n| **सत्य** | पूर्ण सत्य का पालन; भ्रामक शब्दों से पूर्णतः बचना। | अहानिकर और सत्य वचन बोलना; छल-कपट से बचना। |\n| **अस्तेय** | बिना दिए किसी भी वस्तु को कभी ग्रहण न करना। | दूसरों की संपत्ति का सम्मान करना; बेईमानी से बचना। |\n| **ब्रह्मचर्य** | मन, वचन और कर्म से पूर्ण ब्रह्मचर्य का पालन। | वैवाहिक जीवन में निष्ठा और इंद्रिय संयम रखना। |\n| **अपरिग्रह** | भौतिक वस्तुओं का पूर्ण त्याग; कोई निजी संपत्ति न रखना। | अपनी आवश्यकताओं को सीमित करना और धन का संचय रोकना। |\n\n### आधुनिक प्रासंगिकता\n1. **पर्यावरण संरक्षण:** अहिंसा का पालन पारिस्थितिक संतुलन को बढ़ावा देता है और जीव संरक्षण में सहायक है।\n2. **उपभोक्तावाद पर नियंत्रण:** अपरिग्रह आधुनिक अत्यधिक उपभोक्तावाद का विरोध करता है, जो सतत विकास को बढ़ावा देता है।\n3. **सामाजिक समरसता:** सत्य और अस्तेय समाज में आपसी विश्वास का निर्माण करते हैं, भ्रष्टाचार को कम करते हैं और शांतिपूर्ण समाधान लाते।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the Jain path to liberation (Moksha) by detailing the Seven Tatvas (Realities) of Jain metaphysics. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "In Jain metaphysics, liberation is not a union with a supreme being, but the restoration of the soul's original, pure state of infinite knowledge, power, and bliss. This process is systematically explained through the Seven Tatvas (Fundamental Truths).\n\n### The Seven Tatvas (Realities)\n1. **Jiva (Soul):** The conscious, living element that experiences joy and pain.\n2. **Ajiva (Non-soul):** The inert, unconscious matter that surrounds and binds the Jiva.\n3. **Asrava (Inflow):** The influx of karmic matter (pudgala) into the soul due to mental, verbal, and physical activities.\n4. **Bandha (Bondage):** The sticking of karmic particles to the soul, caused by passions (Kashayas) like anger, ego, deceit, and greed.\n5. **Samvara (Stoppage):** The block built to stop the incoming karmic particles through strict self-discipline and meditation.\n6. **Nirjara (Shedding):** The purging of previously accumulated karma through intense austerities and penances.\n7. **Moksha (Liberation):** The state of complete separation of the Jiva from Ajiva. The soul ascends to Siddhashila (the highest realm) and remains in eternal bliss.\n\nThus, the Jain path to salvation is a self-reliant ethical process where the soul moves from karmic bondage (Asrava/Bandha) to absolute freedom (Samvara/Nirjara/Moksha) entirely through self-purification."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन तत्वमीमांसा के सातों तत्वों (सत्यों) का विवरण देते हुए जैन धर्म के अनुसार मोक्ष (मुक्ति) के मार्ग की व्याख्या कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "जैन तत्वमीमांसा में, मुक्ति किसी सर्वोच्च सत्ता में विलीन होना नहीं है, बल्कि आत्मा की अनंत ज्ञान, शक्ति और आनंद की मूल शुद्ध अवस्था की बहाली है। इस प्रक्रिया को सात तत्वों के माध्यम से व्यवस्थित रूप से समझाया गया है।\n\n### सप्त तत्व (वास्तविकताएँ)\n1. **जीव:** चेतन तत्व जो सुख-दुख का अनुभव करता है।\n2. **अजीव:** अचेतन और जड़ पदार्थ जो जीव को घेरता और बांधता है।\n3. **आस्रव:** कायिक, मानसिक और वाचिक क्रियाओं के कारण कर्म पुद्गल का आत्मा की ओर प्रवाहित होना।\n4. **बंध:** कषायों (क्रोध, मान, माया, लोभ) के कारण कर्म कणों का आत्मा के साथ चिपक जाना।\n5. **संवर:** आत्म-नियंत्रण और साधना द्वारा नए कर्मों के प्रवेश को पूरी तरह रोकना।\n6. **निर्जरा:** तपस्या और साधना के माध्यम से पहले से संचित कर्मों को जलाकर नष्ट करना।\n7. **मोक्ष:** जीव का अजीव से पूर्णतः पृथक हो जाना। मुक्त आत्मा सिद्धशिला की ओर गमन करती है और शाश्वत आनंद में रहती है।\n\nइस प्रकार, जैन मोक्ष मार्ग एक आत्मनिर्भर नैतिक प्रक्रिया है जहाँ आत्मा कर्माधीन बंधन (आस्रव/बंध) से होकर आत्म-शुद्धि द्वारा परम स्वतंत्रता (संवर/निर्जरा/मोक्ष) प्राप्त करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the socio-economic and religious factors that facilitated the rise and popularity of Jainism in the 6th century BCE. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The 6th century BCE in India, known as the age of Second Urbanization, was a period of intense intellectual ferment. Jainism arose as a powerful alternative to the established order due to several intersecting factors:\n\n### Key Factors for the Rise of Jainism\n* **Religious Factors:**\n  * *Reaction against Vedic Ritualism:* Complex, costly sacrifices (Yajnas) and animal slaughter caused widespread spiritual alienation.\n  * *Dominance of Priestly Class:* The monopoly of Brahmins over rituals and spiritual knowledge was heavily challenged.\n* **Social Factors:**\n  * *Rigidity of the Varna System:* Caste status was determined by birth rather than merit, creating resentment among lower classes and Kshatriyas.\n  * *Egalitarian Appeal:* Mahavira opened the doors of liberation to all, irrespective of caste or gender.\n* **Economic Factors:**\n  * *Rise of Vaishya Class (Traders):* The growth of trade, urbanization, and money lending enhanced the wealth of Vaishyas. However, they were ranked low in the Vedic hierarchy. Jainism, which opposed animal slaughter, suited their peaceful trade interests and offered them higher social dignity.\n  * *Agrarian Shift:* Iron-plough agriculture required preserving cattle, which clashed with Vedic animal sacrifices.\n* **Linguistic Approach:**\n  * *Use of Prakrit:* Jain teachings were in the common man's language, unlike Sanskrit, making it accessible to the masses."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. छठी शताब्दी ईसा पूर्व में जैन धर्म के उदय और लोकप्रियता को सुगम बनाने वाले सामाजिक-आर्थिक और धार्मिक कारकों का विश्लेषण कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "भारत में छठी शताब्दी ईसा पूर्व, जिसे द्वितीय नगरीकरण का काल कहा जाता है, तीव्र बौद्धिक मंथन का काल था। स्थापित व्यवस्था के विरुद्ध जैन धर्म कई कारकों के कारण एक शक्तिशाली विकल्प के रूप में उभरा:\n\n### जैन धर्म के उदय के प्रमुख कारक\n* **धार्मिक कारक:**\n  * *वैदिक कर्मकांडों के विरुद्ध प्रतिक्रिया:* जटिल, खर्चीले यज्ञों और पशु बलि ने आम लोगों को आध्यात्मिक रूप से विमुख कर दिया था।\n  * *पुरोहित वर्ग का वर्चस्व:* कर्मकांडों और आध्यात्मिक ज्ञान पर ब्राह्मणों के एकाधिकार को चुनौती दी गई।\n* **सामाजिक कारक:**\n  * *वर्ण व्यवस्था की कठोरता:* योग्यता के बजाय जन्म के आधार पर सामाजिक स्थिति तय होने से वैश्य, शूद्र और क्षत्रिय असंतोष में थे।\n  * *समतावादी अपील:* महावीर ने जाति या लिंग का भेद किए बिना सभी के लिए मोक्ष के द्वार खोले।\n* **आर्थिक कारक:**\n  * *वैश्य वर्ग (व्यापारियों) का उदय:* व्यापार और नगरीकरण ने वैश्यों को धनी बनाया, लेकिन वैदिक व्यवस्था में उनका स्थान नीचा था। जैन धर्म की अहिंसावादी नीतियों ने उनके व्यापारिक हितों के अनुकूल काम किया और उन्हें सम्मान दिया।\n  * *कृषि अर्थव्यवस्था:* लोहे के हलों के उपयोग के कारण बैलों के संरक्षण की आवश्यकता थी, जो वैदिक पशु बलि के विरुद्ध था।\n* **भाषाई दृष्टिकोण:**\n  * *प्राकृत का उपयोग:* जैन उपदेश आम लोगों की प्राकृत भाषा में थे, जिसने इसे लोकप्रिय बनाया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Compare and contrast the philosophical, doctrinal, and practices-related differences between the Svetambara and Digambara sects of Jainism. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Following the great famine in Magadha and the migration of a group led by Bhadrabahu to South India, Jainism split into two major sects: Svetambara (white-clad) and Digambara (sky-clad). Their differences span across clothing, monastic rules, scriptures, and teachings.\n\n### Comparison of Svetambara and Digambara Sects\n| Attribute | Svetambara | Digambara |\n| :--- | :--- | :--- |\n| **Monastic Garb** | Wear simple, white cotton garments. | Male monks practice complete nudity (no clothes). |\n| **Scriptures** | Accept the authority of the 12 Angas compiled at Pataliputra. | Reject the Angas, claiming the original texts were lost. |\n| **Women's Liberation** | Believe women are fully capable of attaining Moksha directly. | Believe women must be reborn as men to achieve liberation. |\n| **Tirthankara Mallinath** | Considers the 19th Tirthankara Mallinath as a female. | Considers Mallinath as a male Tirthankara. |\n| **Possession of Alms-bowl** | Monks carry a wooden bowl (*patra*) to collect food. | Monks receive food in their cupped hands (*anjali*) only. |\n| **Asceticism** | Moderately flexible; emphasize study and meditation. | Extremely rigorous; emphasize physical penance and solitude. |\n\nDespite these external and operational differences, both sects remain united on core metaphysical principles such as Anekantavada, Triratna, and the supreme importance of Ahimsa."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म के श्वेतांबर और दिगंबर संप्रदायों के बीच दार्शनिक, सिद्धांतवादी और व्यवहार संबंधी अंतरों की तुलना और समीक्षा कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "मगध में पड़े भीषण अकाल और भद्रबाहु के नेतृत्व में एक समूह के दक्षिण भारत प्रवास के बाद, जैन धर्म दो प्रमुख संप्रदायों में विभाजित हो गया: श्वेतांबर (श्वेत वस्त्र धारण करने वाले) और दिगंबर (दिशाओं को ही वस्त्र मानने वाले)।\n\n### श्वेतांबर और दिगंबर संप्रदायों की तुलना\n| गुण/विषय | श्वेतांबर | दिगंबर |\n| :--- | :--- | :--- |\n| **भिक्षु परिधान** | साधारण सूती सफेद वस्त्र धारण करते हैं। | पुरुष भिक्षु पूर्ण नग्नता का पालन करते हैं। |\n| **पवित्र ग्रंथ** | पाटलिपुत्र में संकलित 12 अंगों की प्रामाणिकता स्वीकार करते हैं। | अंगों को खारिज करते हैं, मूल उपदेशों को लुप्त मानते हैं। |\n| **स्त्री मोक्ष** | मानते हैं कि स्त्रियाँ सीधे मोक्ष प्राप्त करने के योग्य हैं। | मानते हैं कि स्त्रियों को मोक्ष हेतु पुरुष रूप में जन्म लेना होगा। |\n| **तीर्थंकर मल्लिनाथ** | 19वें तीर्थंकर मल्लिनाथ को स्त्री मानते हैं। | मल्लिनाथ को पुरुष तीर्थंकर मानते हैं। |\n| **भिक्षा पात्र** | भिक्षु भोजन ग्रहण करने के लिए पात्र (लकड़ी का बर्तन) रखते हैं। | भिक्षु केवल अंजलि (हाथों की ओट) में भोजन ग्रहण करते हैं। |\n| **तपस्या की कठोरता** | अपेक्षाकृत लचीली जीवनशैली; पठन-पाठन पर बल। | अत्यधिक कठोर तपस्या; मौन और शारीरिक क्लेश पर बल। |\n\nइन बाहरी और व्यावहारिक मतभेदों के बावजूद, दोनों संप्रदाय मूल दार्शनिक सिद्धांतों जैसे अनेकांतवाद, त्रिरत्न और अहिंसा की सर्वोपरिता पर एकमत हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Evaluate the contribution of Jainism to Indian art, architecture, and literature, providing notable examples. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Jainism has contributed profoundly to the cultural heritage of India. Through royal patronage and active monastic traditions, it stimulated creativity in literature, sculpture, and cave architecture.\n\n### 1. Contributions to Architecture and Art\n* **Rock-Cut Caves:** Early rock-cut shelters like Udayagiri and Khandagiri (Odisha, patronized by Kharavela) and the Jain caves at Ellora (Maharashtra, including Indra Sabha) display exquisite relief work.\n* **Temple Architecture:**\n  * *Dilwara Temples (Mount Abu):* Built with pure white marble, famous for intricate ceiling carvings.\n  * *Ranakpur Temple (Rajasthan):* Famous for its majestic pillar construction (1444 pillars) and geometric symmetry.\n* **Colossal Statues:** The 57-foot-tall monolithic statue of Gommateshwara (Bahubali) at Shravanabelagola, Karnataka, built by Chamundaraya, is a masterpiece of sculpture.\n\n### 2. Contributions to Literature\n* **Prakrit and Vernaculars:** The Jain canon (Agamas) written in Ardhamagadhi popularized regional languages. Jain writers contributed to early Kannada (e.g., Pampa's Adipurana) and Tamil literature (e.g., Jivaka Chintamani).\n* **Grammar and Astronomy:** Jains produced major works on logic, grammar (like Hemachandra's Siddha-Hema-Shabdanushasana), and mathematical science."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. उपयुक्त उदाहरण देते हुए भारतीय कला, वास्तुकला और साहित्य में जैन धर्म के योगदान का मूल्यांकन कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "जैन धर्म ने भारत की सांस्कृतिक विरासत में गहरा योगदान दिया है। शाही संरक्षण और सक्रिय भिक्षु परंपराओं के माध्यम से इसने साहित्य, मूर्तिकला और गुफा वास्तुकला में रचनात्मकता को बढ़ावा दिया।\n\n### 1. वास्तुकला और कला में योगदान\n* **शैलकृत गुफाएं:** ओडिशा में उदयगिरि और खंडगिरि गुफाएं (खारवेल द्वारा निर्मित) और महाराष्ट्र में एलोरा की जैन गुफाएं (जैसे इंद्र सभा) उत्कृष्ट नक्काशी प्रदर्शित करती हैं।\n* **मंदिर वास्तुकला:**\n  * *दिलवाड़ा मंदिर (माउंट आबू):* सफेद संगमरमर से बने ये मंदिर अपनी बारीक छत की नक्काशी के लिए प्रसिद्ध हैं।\n  * *रणकपुर मंदिर (राजस्थान):* अपने 1444 नक्काशीदार स्तंभों और ज्यामितीय समरूपता के लिए जाना जाता है।\n* **विशाल प्रतिमाएं:** कर्नाटक के श्रवणबेलगोला में चामुंडराय द्वारा निर्मित गोमतेश्वर (बाहुबली) की 57 फीट ऊंची एकाश्म प्रतिमा मूर्तिकला की एक बेजोड़ कृति है।\n\n### 2. साहित्य में योगदान\n* **प्राकृत और क्षेत्रीय भाषाएं:** अर्धमागधी में लिखे गए जैन आगमों ने स्थानीय बोलियों को लोकप्रिय बनाया। जैन विद्वानों ने प्रारंभिक कन्नड़ (जैसे पंपा का आदिपुराण) और तमिल साहित्य (जैसे जीवक चिंतामणि) में योगदान दिया।\n* **व्याकरण और विज्ञान:** जैनियों ने तर्कशास्त्र, व्याकरण (जैसे हेमचंद्र का सिद्ध-हेम-शब्दानुशासन) और खगोल विज्ञान पर महत्वपूर्ण ग्रंथ लिखे।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the concept of Ahimsa (non-violence) in Jain philosophy and compare it with the Buddhist and Gandhian perspectives. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Ahimsa (non-injury) is the corner-stone of Jain philosophy, formulated as *Ahimsa Paramo Dharma*. While it is central to Jainism, Buddhism, and Gandhian philosophy, the scope, application, and philosophical justification differ across these systems.\n\n### Comparative Matrix of Ahimsa\n| Feature | Jain Ahimsa | Buddhist Ahimsa | Gandhian Ahimsa |\n| :--- | :--- | :--- | :--- |\n| **Scope** | Extreme and absolute. Covers visible and invisible (microscopic, elemental) life. | Moderate and practical. Avoidance of intentional harm to living beings. | Social, political, and moral. Applied to human relations and institutional systems. |\n| **Dietary Rules** | Strict vegetarianism; avoids root vegetables (to prevent killing micro-organisms). | Vegetarianism encouraged, but monks can accept offered meat if not killed specifically for them. | Vegetarianism practiced as an ethical duty; focus on simple, natural diet. |\n| **Intent vs Action** | Both intent and physical action cause karma, even accidental injury binds the soul. | Primary focus is on intention (*Cetana*). Accidental harm does not accumulate negative karma. | Intent is crucial, but it must translate into active, non-violent resistance (Satyagraha) against injustice. |\n| **Application** | Ascetic isolation; minimizing action to avoid karma. | Middle Path; ethical livelihood within society. | Active political tool; mass movements and social reform. |\n\nIn conclusion, Jain Ahimsa is metaphysical and individualistic, aimed at purifying the soul. Buddhism adopts a psychological approach of compassion, while Gandhi transforms Ahimsa into a dynamic socio-political force."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन दर्शन में अहिंसा की अवधारणा की चर्चा कीजिए और इसकी बौद्ध तथा गांधीवादी दृष्टिकोणों से तुलना कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "अहिंसा जैन दर्शन का मुख्य आधार स्तंभ है, जिसे 'अहिंसा परमो धर्मः' के रूप में प्रतिपादित किया गया है। यद्यपि अहिंसा जैन धर्म, बौद्ध धर्म और गांधीवादी दर्शन तीनों का केंद्र बिंदु है, परंतु इसके दायरे, अनुप्रयोग और दार्शनिक आधार में भिन्नता है।\n\n### अहिंसा का तुलनात्मक विवरण\n| विशेषता | जैन अहिंसा | बौद्ध अहिंसा | गांधीवादी अहिंसा |\n| :--- | :--- | :--- | :--- |\n| **कार्यक्षेत्र** | अत्यंत कठोर और पूर्ण। दृश्य-अदृश्य (सूक्ष्म जीवों) सभी पर लागू। | मध्यम और व्यावहारिक। जीवों को जानबूझकर हानि न पहुंचाना। | सामाजिक, राजनीतिक और नैतिक। मानवीय और संस्थागत संबंधों पर लागू। |\n| **आहार नियम** | पूर्ण शाकाहार; कंदमूल का त्याग (ताकि सूक्ष्म जीवों की रक्षा हो सके)। | शाकाहार प्रोत्साहित, लेकिन भिक्षु केवल अपने लिए न मारे गए पशु का मांस ले सकते हैं। | नैतिक कर्तव्य के रूप में शाकाहार; सात्विक और सादे भोजन पर बल। |\n| **इरादा बनाम क्रिया** | इरादा और क्रिया दोनों से कर्म बंध होता है, अनजाने में हुई हिंसा भी आत्मा को बांधती है। | मुख्य ध्यान इरादे (चेतना) पर है। अनजाने में हुई हिंसा से पाप कर्म नहीं बनता। | इरादा सर्वोपरि है, लेकिन इसे अन्याय के खिलाफ सक्रिय अहिंसक प्रतिरोध (सत्याग्रह) में बदलना चाहिए। |\n| **अनुप्रयोग** | तपस्वी एकांतवास; कर्मों को न्यूनतम करना ताकि कर्म बंध न हो। | मध्यम मार्ग; समाज के भीतर नैतिक आजीविका का संपादन। | सक्रिय राजनीतिक साधन; जन आंदोलन और सामाजिक सुधार। |\n\nनिष्कर्षतः, जहाँ जैन अहिंसा तत्वमीमांसीय और व्यक्तिगत आत्म-शुद्धि पर केंद्रित है, वहीं बौद्ध अहिंसा करुणा के मनोवैज्ञानिक मार्ग पर चलती है, और गांधी इसे एक भौगोलिक व सामाजिक-राजनीतिक शक्ति में बदल देते हैं।"
+    }
+  ]
+}

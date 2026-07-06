@@ -1,0 +1,1026 @@
+{
+  "preQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following core philosophies of Jainism posits that truth and reality are complex and have multiple aspects, implying that no single point of view can capture the complete truth?",
+      "option_a": "Syadvada",
+      "option_b": "Anekantavada",
+      "option_c": "Nayavada",
+      "option_d": "Pratityasamutpada",
+      "correct": "B",
+      "explanation": "Correct option: B. Anekantavada (the doctrine of non-one-sidedness or manifoldness) is a fundamental Jain philosophical theory stating that ultimate truth and reality are complex and have multiple aspects, making it impossible to express them fully from a single standpoint."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म का निम्नलिखित में से कौन सा मूल दर्शन यह प्रतिपादित करता है कि सत्य और वास्तविकता जटिल हैं और उनके बहुआयामी पहलू हैं, जिसका अर्थ है कि कोई भी एक दृष्टिकोण पूर्ण सत्य को नहीं दर्शा सकता है?",
+      "option_a": "स्याद्वाद",
+      "option_b": "अनेकांतवाद",
+      "option_c": "नयवाद",
+      "option_d": "प्रतीत्यसमुत्पाद",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. अनेकांतवाद (बहुपक्षीयता या विविधता का सिद्धांत) एक बुनियादी जैन दार्शनिक सिद्धांत है जो बताता है कि अंतिम सत्य और वास्तविकता जटिल हैं और उनके कई पहलू हैं, जिससे उन्हें किसी एक दृष्टिकोण से पूरी तरह से व्यक्त करना असंभव हो जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The doctrine of 'Saptabhangi Naya' or the seven-fold predication is associated with which epistemological concept of Jainism?",
+      "option_a": "Anekantavada",
+      "option_b": "Triratna",
+      "option_c": "Syadvada",
+      "option_d": "Pancha Mahavrata",
+      "correct": "C",
+      "explanation": "Correct option: C. Syadvada is the epistemological method of seven-fold predication (Saptabhangi Naya) which asserts that all judgments are conditional, holding good only in certain conditions or relations."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'सप्तभंगी नय' या सात गुना कथन का सिद्धांत जैन धर्म की किस ज्ञानमीमांसा अवधारणा से जुड़ा है?",
+      "option_a": "अनेकांतवाद",
+      "option_b": "त्रिरत्न",
+      "option_c": "स्याद्वाद",
+      "option_d": "पंच महाव्रत",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. स्याद्वाद सात गुना कथन (सप्तभंगी नय) की ज्ञानमीमांसा पद्धति है जो यह मानती है कि सभी निर्णय सशर्त होते हैं, जो केवल कुछ शर्तों या संबंधों में ही सही होते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Out of the five major vows (Pancha Mahavrata) in Jainism, which vow was specifically added by Vardhamana Mahavira to the existing four vows of Parshvanatha?",
+      "option_a": "Ahimsa (Non-violence)",
+      "option_b": "Satya (Truthfulness)",
+      "option_c": "Asteya (Non-stealing)",
+      "option_d": "Brahmacharya (Chastity/Celibacy)",
+      "correct": "D",
+      "explanation": "Correct option: D. Vardhamana Mahavira added the fifth vow, Brahmacharya (chastity/celibacy), to the four vows of the 23rd Tirthankara Parshvanatha (Ahimsa, Satya, Asteya, and Aparigraha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म के पांच महाव्रतों (पंच महाव्रत) में से कौन सा व्रत विशेष रूप से वर्धमान महावीर द्वारा पार्श्वनाथ के पहले से मौजूद चार व्रतों में जोड़ा गया था?",
+      "option_a": "अहिंसा",
+      "option_b": "सत्य",
+      "option_c": "अस्तेय",
+      "option_d": "ब्रह्मचर्य",
+      "correct": "D",
+      "explanation": "सही विकल्प: D. वर्धमान महावीर ने 23वें तीर्थंकर पार्श्वनाथ के चार व्रतों (अहिंसा, सत्य, अस्तेय और अपरिग्रह) में पांचवां व्रत, ब्रह्मचर्य जोड़ा था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to Jain traditions, Vardhamana Mahavira attained Kevala Jnana (supreme omniscience) on the banks of which river near Jrimbhikagrama village?",
+      "option_a": "Niranjana",
+      "option_b": "Rijupalika",
+      "option_c": "Ganges",
+      "option_d": "Sarayu",
+      "correct": "B",
+      "explanation": "Correct option: B. Mahavira attained supreme knowledge or Kevala Jnana under a sal tree on the banks of the Rijupalika River near the village Jrimbhikagrama at the age of 42."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन परंपराओं के अनुसार, वर्धमान महावीर ने जृंभिकग्राम गाँव के पास किस नदी के तट पर केवल ज्ञान (सर्वोच्च ज्ञान) प्राप्त किया था?",
+      "option_a": "निरंजना",
+      "option_b": "ऋजुपालिका",
+      "option_c": "गंगा",
+      "option_d": "सरयू",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. महावीर ने 42 वर्ष की आयु में जृंभिकग्राम गाँव के पास ऋजुपालिका नदी के तट पर एक साल के पेड़ के नीचे केवल ज्ञान प्राप्त किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Jain philosophy, the term 'Pudgala' refers to which of the following substances?",
+      "option_a": "Spiritual energy or soul",
+      "option_b": "Matter that can be touched, tasted, seen, and smelled",
+      "option_c": "Space in which all substances exist",
+      "option_d": "The principle of motion",
+      "correct": "B",
+      "explanation": "Correct option: B. In Jain metaphysics, Pudgala is one of the six Dravyas (substances) representing non-living matter that is characterized by touch, taste, color, and smell."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन दर्शन में, 'पुद्गल' शब्द निम्नलिखित में से किस द्रव्य (पदार्थ) को संदर्भित करता है?",
+      "option_a": "आध्यात्मिक ऊर्जा या आत्मा",
+      "option_b": "वह पदार्थ जिसे स्पर्श किया जा सकता है, चखा जा सकता है, देखा जा सकता है और सूंघा जा सकता है",
+      "option_c": "आकाश जिसमें सभी द्रव्य मौजूद हैं",
+      "option_d": "गति का सिद्धांत",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. जैन तत्वमीमांसा में, पुद्गल छह द्रव्यों में से एक है जो निर्जीव पदार्थ (पुद्गल) का प्रतिनिधित्व करता है, जो स्पर्श, स्वाद, रंग और गंध द्वारा पहचाना जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The practice of 'Sallekhana' (also known as Santhara) in Jainism refers to which of the following spiritual practices?",
+      "option_a": "Meditation in a standing posture",
+      "option_b": "The systematic study of Jain canonical texts",
+      "option_c": "Spiritual fast unto death through gradual withdrawal of food and liquids",
+      "option_d": "The initiation ceremony for entering the monastic order",
+      "correct": "C",
+      "explanation": "Correct option: C. Sallekhana (Santhara) is the ritual of voluntary fasting unto death, undertaken when a person feels their life's purpose is served or in terminal illness, to purify the soul."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म में 'सल्लेखना' (जिसे संथारा भी कहा जाता है) की प्रथा निम्नलिखित में से किस आध्यात्मिक अभ्यास को संदर्भित करती है?",
+      "option_a": "खड़े होकर ध्यान करने की मुद्रा",
+      "option_b": "जैन धार्मिक ग्रंथों का व्यवस्थित अध्ययन",
+      "option_c": "भोजन और तरल पदार्थों के क्रमिक त्याग के माध्यम से आमरण उपवास",
+      "option_d": "सन्यासी संघ में प्रवेश का दीक्षा समारोह",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. सल्लेखना (संथारा) स्वेच्छा से आमरण अनशन करने की प्रथा है, जो तब की जाती है जब व्यक्ति को लगता है कि उसके जीवन का उद्देश्य पूरा हो गया है या अंतिम बीमारी में, आत्मा की शुद्धि के लिए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who presided over the First Jain Council held at Pataliputra in the early 3rd century BCE, which led to the compilation of the 12 Angas?",
+      "option_a": "Bhadrabahu",
+      "option_b": "Sthulabhadra",
+      "option_c": "Devardhi Kshamasramana",
+      "option_d": "Jambuswami",
+      "correct": "B",
+      "explanation": "Correct option: B. The First Jain Council at Pataliputra was convened and presided over by Sthulabhadra, during which the Jain scriptures (12 Angas) were compiled."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. तीसरी शताब्दी ईसा पूर्व की शुरुआत में पाटलिपुत्र में आयोजित प्रथम जैन संगीति की अध्यक्षता किसने की थी, जिसके कारण 12 अंगों का संकलन हुआ था?",
+      "option_a": "भद्रबाहु",
+      "option_b": "स्थूलभद्र",
+      "option_c": "देवर्धि क्षमाश्रमण",
+      "option_d": "जंबूस्वामी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. पाटलिपुत्र में प्रथम जैन संगीति का आयोजन और अध्यक्षता स्थूलभद्र द्वारा की गई थी, जिसके दौरान जैन ग्रंथों (12 अंगों) का संकलन किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Second Jain Council, which was held in the 5th/6th century CE and finalized the compilation of Jain Agamas, took place at Valabhi under the presidency of whom?",
+      "option_a": "Sthulabhadra",
+      "option_b": "Bhadrabahu",
+      "option_c": "Devardhi Kshamasramana",
+      "option_d": "Siddhasena Divakara",
+      "correct": "C",
+      "explanation": "Correct option: C. The Second Jain Council was held at Valabhi in Gujarat in the early 6th century CE, presided over by Devardhi Kshamasramana to write down the canonical texts (Agamas)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्वितीय जैन संगीति, जो 5वीं/6ठी शताब्दी ईस्वी में आयोजित की गई थी और जैन आगमों के संकलन को अंतिम रूप दिया गया था, वल्लभी में किसकी अध्यक्षता में हुई थी?",
+      "option_a": "स्थूलभद्र",
+      "option_b": "भद्रबाहु",
+      "option_c": "देवर्धि क्षमाश्रमण",
+      "option_d": "सिद्धसेन दिवाकर",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. द्वितीय जैन संगीति गुजरात के वल्लभी में छठी शताब्दी ईस्वी की शुरुआत में देवर्धि क्षमाश्रमण की अध्यक्षता में हुई थी, ताकि कैनोनिकल ग्रंथों (आगमों) को लिपिबद्ध किया जा सके।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who is traditionally recognized as the first disciple of Vardhamana Mahavira, who later fell out with him over philosophical differences?",
+      "option_a": "Jamali",
+      "option_b": "Gosala Maskariputra",
+      "option_c": "Sudharman",
+      "option_d": "Indrabhuti Gautama",
+      "correct": "A",
+      "explanation": "Correct option: A. Jamali, who was Mahavira's son-in-law (husband of Priyadarsana), was his first disciple. He later led the first schism (Bahurata-vada) in Jainism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पारंपरिक रूप से वर्धमान महावीर के पहले शिष्य के रूप में किसे मान्यता दी जाती है, जिन्होंने बाद में वैचारिक मतभेदों के कारण उनका साथ छोड़ दिया था?",
+      "option_a": "जमाली",
+      "option_b": "गोशाल मस्करीपुत्र",
+      "option_c": "सुधर्मन",
+      "option_d": "इंद्रभूति गौतम",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. जमाली, जो महावीर के दामाद (प्रियदर्शना के पति) थे, उनके पहले शिष्य थे। बाद में उन्होंने जैन धर्म में प्रथम मतभेद (बहुरत-वाद) का नेतृत्व किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following is NOT one of the modes of the seven-fold predication (Saptabhangi Naya) in Syadvada?",
+      "option_a": "Syad-Asti (Relatively, it is)",
+      "option_b": "Syad-Nasti (Relatively, it is not)",
+      "option_c": "Syad-Nitya (Relatively, it is eternal)",
+      "option_d": "Syad-Avaktavyah (Relatively, it is indescribable)",
+      "correct": "C",
+      "explanation": "Correct option: C. Syad-Nitya is not part of the standard seven-fold predication. The seven modes are combinations of Asti (is), Nasti (is not), and Avaktavya (indescribable)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. निम्नलिखित में से कौन सा स्याद्वाद में सप्तभंगी नय (सात गुना कथन) के रूपों में से एक नहीं है?",
+      "option_a": "स्याद्-अस्ति (सापेक्ष रूप से, यह है)",
+      "option_b": "स्याद्-नास्ति (सापेक्ष रूप से, यह नहीं है)",
+      "option_c": "स्याद्-नित्य (सापेक्ष रूप से, यह शाश्वत है)",
+      "option_d": "स्याद्-अवक्तव्यः (सापेक्ष रूप से, यह अवर्णनीय है)",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. स्याद्-नित्य मानक सप्तभंगी नय का हिस्सा नहीं है। इसके सात रूप अस्ति (है), नास्ति (नहीं है), और अवक्तव्य (अकथनीय/अवर्णनीय) के संयोजन हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The term 'Anuvrata' (lesser vows) in Jainism applies specifically to which group of people?",
+      "option_a": "Jain monks and nuns (Ascetics)",
+      "option_b": "Jain lay disciples (Householders)",
+      "option_c": "The non-Jain patrons of Jainism",
+      "option_d": "Newly initiated novice monks",
+      "correct": "B",
+      "explanation": "Correct option: B. The 'Anuvratas' are the five vows modified with less rigor for Jain householders (shravakas), unlike the 'Mahavratas' which are strictly followed by monks."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म में 'अनुव्रत' (लघु व्रत) शब्द विशेष रूप से किस समूह पर लागू होता है?",
+      "option_a": "जैन भिक्षु और भिक्षुणियाँ (तपस्वी)",
+      "option_b": "जैन गृहस्थ अनुयायी (श्रावक)",
+      "option_c": "जैन धर्म के गैर-जैन संरक्षक",
+      "option_d": "नये दीक्षित नवदीक्षित भिक्षु",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'अनुव्रत' जैन गृहस्थों (श्रावकों) के लिए कम कठोरता के साथ संशोधित पांच व्रत हैं, जबकि 'महाव्रत' भिक्षुओं द्वारा कड़ाई से पालन किए जाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Who were the 'Gandharas' in the history of Jainism?",
+      "option_a": "Royal patrons who converted to Jainism",
+      "option_b": "Chief disciples of Vardhamana Mahavira who compiled his teachings",
+      "option_c": "A sect of Digambara Jain monks",
+      "option_d": "The original composers of the Upangas",
+      "correct": "B",
+      "explanation": "Correct option: B. The Gandharas (or Ganadharas) were the immediate disciples of Mahavira. He had 11 Ganadharas who compiled his teachings into the Agamas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म के इतिहास में 'गणधर' कौन थे?",
+      "option_a": "जैन धर्म अपनाने वाले शाही संरक्षक",
+      "option_b": "वर्धमान महावीर के मुख्य शिष्य जिन्होंने उनके उपदेशों का संकलन किया",
+      "option_c": "दिगंबर जैन भिक्षुओं का एक संप्रदाय",
+      "option_d": "उपांगों के मूल रचनाकार",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. गणधर महावीर के प्रत्यक्ष शिष्य थे। उनके 11 गणधर थे जिन्होंने उनके उपदेशों को आगमों में संकलित किया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which of the following Ganadharas is believed to have survived Mahavira and became the first head of the Jain monastic order after his Mahaparinirvana?",
+      "option_a": "Indrabhuti Gautama",
+      "option_b": "Sudharmaswami",
+      "option_c": "Jambuswami",
+      "option_d": "Sthulabhadra",
+      "correct": "B",
+      "explanation": "Correct option: B. Sudharmaswami (or Sudharman) was the only Ganadhara who survived Mahavira and became the first chief of the Jain congregation after Mahavira's death."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. माना जाता है कि निम्नलिखित गणधरों में से कौन महावीर के बाद जीवित रहे और उनके महापरिनिर्वाण के बाद जैन भिक्षु संघ के पहले प्रमुख बने?",
+      "option_a": "इंद्रभूति गौतम",
+      "option_b": "सुधर्मस्वामी",
+      "option_c": "जंबूस्वामी",
+      "option_d": "स्थूलभद्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. सुधर्मस्वामी (या सुधर्मन) एकमात्र ऐसे गणधर थे जो महावीर के बाद जीवित रहे और महावीर की मृत्यु के बाद जैन संघ के पहले प्रमुख बने।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. According to Jain metaphysics, which of the following substances (Dravyas) is classified as 'Anastikaya' (having no extension or body in space)?",
+      "option_a": "Kala (Time)",
+      "option_b": "Dharma (Medium of Motion)",
+      "option_c": "Adharma (Medium of Rest)",
+      "option_d": "Pudgala (Matter)",
+      "correct": "A",
+      "explanation": "Correct option: A. Jain metaphysics divides Dravya into Astikaya (having space extension) and Anastikaya (no space extension). Kala (Time) is the only Anastikaya Dravya."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन तत्वमीमांसा के अनुसार, निम्नलिखित में से किस द्रव्य को 'अनस्तिकाय' (आकाश में कोई विस्तार या शरीर नहीं होने वाला) के रूप में वर्गीकृत किया गया है?",
+      "option_a": "काल (समय)",
+      "option_b": "धर्म (गति का माध्यम)",
+      "option_c": "अधर्म (स्थिति का माध्यम)",
+      "option_d": "पुद्गल (पुद्गल/द्रव्य)",
+      "correct": "A",
+      "explanation": "सही विकल्प: A. जैन तत्वमीमांसा द्रव्यों को अस्तिकाय (आकाश विस्तार रखने वाले) और अनस्तिकाय (आकाश विस्तार न रखने वाले) में विभाजित करती है। काल (समय) एकमात्र अनस्तिकाय द्रव्य है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The sub-sects 'Terapanthi' and 'Samaiyapanthi' (Taranapanthi) belong to which major school of Jainism?",
+      "option_a": "Svetambara",
+      "option_b": "Digambara",
+      "option_c": "Yapaniya",
+      "option_d": "Kurcaka",
+      "correct": "B",
+      "explanation": "Correct option: B. Terapanthi, Samaiyapanthi (Taranapanthi), and Bisapanthi are sub-sects belonging to the Digambara school of Jainism."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. -उप-संप्रदाय 'तेरहपंथी' और 'समैयापंथी' (तारणपंथी) जैन धर्म के किस प्रमुख संप्रदाय से संबंधित हैं?",
+      "option_a": "श्वेतांबर",
+      "option_b": "दिगंबर",
+      "option_c": "यापनीय",
+      "option_d": "कूर्चक",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. तेरहपंथी, समैयापंथी (तारणपंथी) और बीसपंथी जैन धर्म के दिगंबर संप्रदाय से संबंधित उप-संप्रदाय हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Sthanakvasi' sect, which arose in the 17th century rejecting idol worship, is a sub-sect of which major branch of Jainism?",
+      "option_a": "Digambara",
+      "option_b": "Svetambara",
+      "option_c": "Yapaniya",
+      "option_d": "Taranapanthi",
+      "correct": "B",
+      "explanation": "Correct option: B. Sthanakvasi is a sub-sect of Svetambara Jainism. It was founded by Lavaji in the 17th century and rejects temple-building and idol worship."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'स्थानकवासी' संप्रदाय, जो 17वीं शताब्दी में मूर्ति पूजा को खारिज करते हुए उत्पन्न हुआ था, जैन धर्म की किस प्रमुख शाखा का एक उप-संप्रदाय है?",
+      "option_a": "दिगंबर",
+      "option_b": "श्वेतांबर",
+      "option_c": "यापनीय",
+      "option_d": "तारणपंथी",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. स्थानकवासी श्वेतांबर जैन धर्म का एक उप-संप्रदाय है। इसकी स्थापना 17वीं शताब्दी में लवजी द्वारा की गई थी और यह मंदिर निर्माण और मूर्ति पूजा को खारिज करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. What are the three jewels (Triratna) that constitute the path to liberation (Moksha) in Jain philosophy?",
+      "option_a": "Samyak Vishwas, Samyak Prem, Samyak Karma",
+      "option_b": "Samyak Darshana, Samyak Jnana, Samyak Charitra",
+      "option_c": "Samyak Ahimsa, Samyak Satya, Samyak Asteya",
+      "option_d": "Samyak Vichar, Samyak Vani, Samyak Drishti",
+      "correct": "B",
+      "explanation": "Correct option: B. The Triratna (Three Jewels) of Jainism consists of Samyak Darshana (Right Faith/Perception), Samyak Jnana (Right Knowledge), and Samyak Charitra (Right Conduct)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन दर्शन में मोक्ष (मुक्ति) के मार्ग का गठन करने वाले तीन रत्न (त्रिरत्न) कौन से हैं?",
+      "option_a": "सम्यक विश्वास, सम्यक प्रेम, सम्यक कर्म",
+      "option_b": "सम्यक दर्शन, सम्यक ज्ञान, सम्यक चरित्र",
+      "option_c": "सम्यक अहिंसा, सम्यक सत्य, सम्यक अस्तेय",
+      "option_d": "सम्यक विचार, सम्यक वाणी, सम्यक दृष्टि",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. जैन धर्म के त्रिरत्न में सम्यक दर्शन (सही विश्वास), सम्यक ज्ञान (सही ज्ञान) और सम्यक चरित्र (सही आचरण) शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Jain philosophy, Karma is conceptualized as which of the following?",
+      "option_a": "An unseen spiritual force that judges moral deeds",
+      "option_b": "A form of subtle material matter (Pudgala) that flows into and clings to the soul",
+      "option_c": "The divine will of a supreme creator deity",
+      "option_d": "A psychological state of mind with no physical manifestation",
+      "correct": "B",
+      "explanation": "Correct option: B. In Jainism, Karma is not a mystical force but a form of subtle matter (Karma-pudgala) that flows into the soul (Asrava) and binds it (Bandha)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन दर्शन में, कर्म को निम्नलिखित में से किस रूप में अवधारणाबद्ध किया गया है?",
+      "option_a": "एक अदृश्य आध्यात्मिक शक्ति जो नैतिक कार्यों का न्याय करती है",
+      "option_b": "सूक्ष्म भौतिक पुद्गल का एक रूप जो आत्मा में प्रवाहित होता है और उससे चिपक जाता है",
+      "option_c": "एक सर्वोच्च निर्माता देव की दिव्य इच्छा",
+      "option_d": "मन की एक मनोवैज्ञानिक स्थिति जिसका कोई भौतिक रूप नहीं होता",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. जैन धर्म में, कर्म कोई रहस्यमयी शक्ति नहीं है बल्कि सूक्ष्म पुद्गल (कर्म-पुद्गल) का एक रूप है जो आत्मा में प्रवाहित होता है (आस्रव) और उसे बांधता है (बंध)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Jain philosophy, the process of stopping the influx of fresh karmic matter into the soul is known as which of the following?",
+      "option_a": "Asrava",
+      "option_b": "Bandha",
+      "option_c": "Samvara",
+      "option_d": "Nirjara",
+      "correct": "C",
+      "explanation": "Correct option: C. Samvara is the stage in which the influx of new karmic matter into the soul (Asrava) is stopped through self-discipline and vows."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन दर्शन में, आत्मा में नए कर्म पुद्गलों के प्रवेश को रोकने की प्रक्रिया को क्या कहा जाता है?",
+      "option_a": "आस्रव",
+      "option_b": "बंध",
+      "option_c": "संवर",
+      "option_d": "निर्जरा",
+      "correct": "C",
+      "explanation": "सही विकल्प: C. संवर वह अवस्था है जिसमें आत्म-अनुशासन और व्रतों के माध्यम से आत्मा में नए कर्म पुद्गलों के प्रवेश (आस्रव) को रोका जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Jainism, the wearing away or shedding of accumulated karmic matter from the soul through penance and austerity is called:",
+      "option_a": "Samvara",
+      "option_b": "Nirjara",
+      "option_c": "Moksha",
+      "option_d": "Asrava",
+      "correct": "B",
+      "explanation": "Correct option: B. Nirjara is the shedding or destruction of already accumulated karmas from the soul, which is achieved through internal and external austerities."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म में, तपस्या और आत्मसंयम के माध्यम से आत्मा से संचित कर्म पुद्गलों के क्षय या झड़ने को क्या कहा जाता है?",
+      "option_a": "संवर",
+      "option_b": "निर्जरा",
+      "option_c": "मोक्ष",
+      "option_d": "आस्रव",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. निर्जरा आत्मा से पहले से संचित कर्मों का क्षय या विनाश है, जिसे आंतरिक और बाहरी तपस्या के माध्यम से प्राप्त किया जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Which sect of Jainism holds the belief that women cannot attain liberation (Moksha) without first being reborn as men?",
+      "option_a": "Svetambara",
+      "option_b": "Digambara",
+      "option_c": "Yapaniya",
+      "option_d": "Mahanubhava",
+      "correct": "B",
+      "explanation": "Correct option: B. The Digambara sect believes that women cannot attain liberation directly because they cannot practice complete nudity, which is essential for monkhood. They must be reborn as men to attain Moksha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म का कौन सा संप्रदाय यह विश्वास रखता है कि महिलाएं पहले पुरुष के रूप में पुनर्जन्म लिए बिना मोक्ष (मुक्ति) प्राप्त नहीं कर सकती हैं?",
+      "option_a": "श्वेतांबर",
+      "option_b": "दिगंबर",
+      "option_c": "यापनीय",
+      "option_d": "महानुभाव",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. दिगंबर संप्रदाय का मानना है कि महिलाएं सीधे मोक्ष प्राप्त नहीं कर सकतीं क्योंकि वे पूर्ण नग्नता का अभ्यास नहीं कर सकतीं, जो भिक्षु जीवन के लिए आवश्यक है। उन्हें मोक्ष पाने के लिए पुरुष के रूप में पुनर्जन्म लेना होगा।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Kalpa Sutra', a famous Jain text containing the biographies of the Tirthankaras (including Mahavira), was authored by whom?",
+      "option_a": "Sthulabhadra",
+      "option_b": "Bhadrabahu",
+      "option_c": "Hemachandra",
+      "option_d": "Haribhadra",
+      "correct": "B",
+      "explanation": "Correct option: B. The 'Kalpa Sutra' was written by Bhadrabahu, a great spiritual leader and scholar of the Digambara tradition who migrated to South India with Chandragupta Maurya."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'कल्प सूत्र', एक प्रसिद्ध जैन ग्रंथ जिसमें तीर्थंकरों (महावीर सहित) की आत्मकथाएँ शामिल हैं, किसके द्वारा लिखा गया था?",
+      "option_a": "स्थूलभद्र",
+      "option_b": "भद्रबाहु",
+      "option_c": "हेमचंद्र",
+      "option_d": "हरिभद्र",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'कल्प सूत्र' भद्रबाहु द्वारा लिखा गया था, जो दिगंबर परंपरा के एक महान आध्यात्मिक नेता और विद्वान थे, जिन्होंने चंद्रगुप्त मौर्य के साथ दक्षिण भारत की यात्रा की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The Jain historical text 'Parishishthaparvan', which gives details about the connection of Chandragupta Maurya with Jainism, was written by which scholar?",
+      "option_a": "Bhadrabahu",
+      "option_b": "Hemachandra Acharya",
+      "option_c": "Siddhasena Divakara",
+      "option_d": "Jinasena",
+      "correct": "B",
+      "explanation": "Correct option: B. 'Parishishthaparvan' (also known as Sthaviravali-Charitra) was composed by the 12th-century Svetambara scholar Hemachandra Acharya."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन ऐतिहासिक ग्रंथ 'परिशिष्टपर्वन', जो चंद्रगुप्त मौर्य के जैन धर्म से संबंध के बारे में विवरण देता है, किस विद्वान द्वारा लिखा गया था?",
+      "option_a": "भद्रबाहु",
+      "option_b": "हेमचंद्राचार्य",
+      "option_c": "सिद्धसेन दिवाकर",
+      "option_d": "जिनसेन",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. 'परिशिष्टपर्वन' (जिसे स्थविरावली-चरित्र भी कहा जाता है) की रचना 12वीं सदी के श्वेतांबर विद्वान हेमचंद्राचार्य ने की थी।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. The 'Yapaniya' sect was a unique non-conformist sect of Jainism that flourished in which region of early medieval India?",
+      "option_a": "Gujarat",
+      "option_b": "Karnataka and Southern India",
+      "option_c": "Rajasthan",
+      "option_d": "Bengal",
+      "correct": "B",
+      "explanation": "Correct option: B. The Yapaniya sect was an important Jain sect in Karnataka (South India) that followed Digambara practices (like nudity) but accepted Svetambara canonical texts and believed women could attain Moksha."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. 'यापनीय' संप्रदाय जैन धर्म का एक अनूठा गैर-conformist संप्रदाय था जो प्रारंभिक मध्यकालीन भारत के किस क्षेत्र में फला-फूला?",
+      "option_a": "गुजरात",
+      "option_b": "कर्नाटक और दक्षिण भारत",
+      "option_c": "राजस्थान",
+      "option_d": "बंगाल",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. यापनीय संप्रदाय कर्नाटक (दक्षिण भारत) में एक महत्वपूर्ण जैन संप्रदाय था जो दिगंबर प्रथाओं (जैसे नग्नता) का पालन करता था, लेकिन श्वेतांबर ग्रंथों को स्वीकार करता था और मानता था कि महिलाएं मोक्ष प्राप्त कर सकती हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. In Jain philosophy, the doctrine of 'Nayavada' refers to which of the following aspects of knowledge?",
+      "option_a": "The classification of souls based on their moral purity",
+      "option_b": "The theory of partial standpoints or viewpoints through which we perceive reality",
+      "option_c": "The steps to completely eliminate karmic bondage",
+      "option_d": "The ritual rules for monastic assembly",
+      "correct": "B",
+      "explanation": "Correct option: B. Nayavada is the theory of partial viewpoints or standpoints (Nayas). It asserts that any statement is true only from a particular point of view, and is a vital component of Anekantavada."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन दर्शन में, 'नयवाद' का सिद्धांत ज्ञान के निम्नलिखित में से किस पहलू को संदर्भित करता है?",
+      "option_a": "नैतिक पवित्रता के आधार पर आत्माओं का वर्गीकरण",
+      "option_b": "आंशिक दृष्टिकोणों का सिद्धांत जिसके माध्यम से हम वास्तविकता को समझते हैं",
+      "option_c": "कर्म बंधनों को पूरी तरह से समाप्त करने के चरण",
+      "option_d": "भिक्षु संघ के लिए अनुष्ठानिक नियम",
+      "correct": "B",
+      "explanation": "सही विकल्प: B. नयवाद आंशिक दृष्टिकोणों (नयों) का सिद्धांत है। यह मानता है कि कोई भी कथन केवल एक विशेष दृष्टिकोण से ही सत्य होता है, और यह अनेकांतवाद का एक महत्वपूर्ण घटक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): In early ancient India, Jainism became more popular among merchants and traders rather than farmers and agriculturalists.\nReason (R): The strict adherence to the vow of Ahimsa (non-killing) in Jainism prohibited activities like ploughing and clearing forests, which inevitably harmed insects and soil organisms.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true. Historically, Jainism found strong support among merchants and urban traders who were not directly involved in agriculture.\nReason Analysis: Reason (R) is true and correctly explains A. The extreme rigor of the vow of Ahimsa made farming difficult for devout Jains as cultivation involves tilling soil, killing microscopic organisms and insects, prompting them to adopt trade and commerce."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): प्रारंभिक प्राचीन भारत में, जैन धर्म किसानों और कृषि से जुड़े लोगों के बजाय व्यापारियों और व्यवसायियों के बीच अधिक लोकप्रिय हुआ।\nकारण (R): जैन धर्म में अहिंसा के व्रत का कड़ाई से पालन करने के कारण जुताई और जंगलों को साफ करने जैसी गतिविधियों पर प्रतिबंध था, जिससे अनिवार्य रूप से कीड़ों और सूक्ष्म जीवों को नुकसान पहुंचता था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है। ऐतिहासिक रूप से, जैन धर्म को व्यापारियों और शहरी व्यवसायियों के बीच मजबूत समर्थन मिला, जो सीधे कृषि में शामिल नहीं थे।\nकारण विश्लेषण: कारण (R) सत्य है और A की सही व्याख्या करता है। अहिंसा के व्रत की अत्यधिक कठोरता ने समर्पित जैनियों के लिए खेती करना मुश्किल बना दिया क्योंकि खेती में मिट्टी जोतना, सूक्ष्मजीवों और कीड़ों को मारना शामिल है, जिससे वे व्यापार और वाणिज्य की ओर आकर्षित हुए।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Jainism historically promoted a high degree of intellectual tolerance and peaceful co-existence with other philosophical systems.\nReason (R): The doctrine of Syadvada states that all knowledge assertions are relative and conditional, preventing dogmatic claims of absolute truth by any single perspective.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true. Jainism has been known for philosophical tolerance and avoided dogmatic disputes.\nReason Analysis: Reason (R) is true and explains A because Syadvada asserts that every statement is relative. Hence, because they believed truth has many aspects, they tolerated other viewpoints without dogmatic rejection."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): जैन धर्म ने ऐतिहासिक रूप से अन्य दार्शनिक प्रणालियों के साथ उच्च स्तर की बौद्धिक सहिष्णुता और शांतिपूर्ण सह-अस्तित्व को बढ़ावा दिया।\nकारण (R): स्याद्वाद का सिद्धांत बताता है कि सभी ज्ञान के दावे सापेक्ष और सशर्त होते हैं, जो किसी भी एकल दृष्टिकोण द्वारा पूर्ण सत्य के हठधर्मी दावों को रोकता है।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है। जैन धर्म दार्शनिक सहिष्णुता के लिए जाना जाता रहा है और इसने हठधर्मी विवादों से परहेज किया।\nकारण विश्लेषण: कारण (R) सत्य है और A की व्याख्या करता है क्योंकि स्याद्वाद यह मानता है कि हर कथन सापेक्ष है। अतः, क्योंकि उनका मानना था कि सत्य के कई पहलू हैं, उन्होंने हठधर्मी अस्वीकृति के बिना अन्य दृष्टिकोणों को सहन किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): A major migration of Jain monks led by Bhadrabahu occurred from Magadha to South India in the late 4th century BCE.\nReason (R): Magadha was hit by a severe famine that lasted for twelve years, making the strict observance of monastic rules difficult in the region.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true. Bhadrabahu led a group of monks to Shravanabelagola in Karnataka.\nReason Analysis: Reason (R) is true and explains A because the 12-year famine in Magadha was the direct cause of this migration, which eventually led to the Digambara-Svetambara division."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): चौथी शताब्दी ईसा पूर्व के उत्तरार्ध में भद्रबाहु के नेतृत्व में जैन भिक्षुओं का मगध से दक्षिण भारत में एक बड़ा प्रवास हुआ था।\nकारण (R): मगध में एक भीषण अकाल पड़ा था जो बारह वर्षों तक चला, जिससे इस क्षेत्र में भिक्षु नियमों का कड़ाई से पालन करना कठिन हो गया था।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है। भद्रबाहु भिक्षुओं के एक समूह को कर्नाटक के श्रवणबेलगोला ले गए थे।\nकारण विश्लेषण: कारण (R) सत्य है और A की व्याख्या करता है क्योंकि मगध में 12 साल का अकाल इस प्रवास का प्रत्यक्ष कारण था, जिसके परिणामस्वरूप आगे चलकर दिगंबर-श्वेतांबर विभाजन हुआ।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Vardhamana Mahavira preached his sermons in Ardhamagadhi, a dialect of Prakrit spoken by the common people.\nReason (R): Jain philosophy accepts the authority of the Vedas and seeks to reform the sacrificial priestly system of Brahmanism.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Assertion (A) is true. Mahavira used Ardhamagadhi (Prakrit) to reach ordinary masses.\nReason Analysis: Reason (R) is false. Jain philosophy rejects the authority of the Vedas (Nastika school) and denies the existence of a creator deity, rather than trying to reform Vedism from within."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): वर्धमान महावीर ने अपने उपदेश अर्धमागधी में दिए थे, जो आम लोगों द्वारा बोली जाने वाली प्राकृत की एक बोली थी।\nकारण (R): जैन दर्शन वेदों की सत्ता को स्वीकार करता है और ब्राह्मणवाद की यज्ञीय पुरोहित प्रणाली में सुधार करना चाहता है।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है। महावीर ने आम जनता तक पहुँचने के लिए अर्धमागधी (प्राकृत) का उपयोग किया।\nकारण विश्लेषण: कारण (R) असत्य है। जैन दर्शन वेदों की सत्ता को खारिज करता है (नास्तिक संप्रदाय) और एक निर्माता ईश्वर के अस्तित्व को नकारता है, न कि भीतर से वैदिक धर्म में सुधार का प्रयास करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): The Dilwara Temples at Mount Abu are world-famous masterpieces of Jain temple architecture built during the Solanki rule.\nReason (R): Mahavira emphasized that spiritual liberation can only be achieved by severe asceticism, self-mortification, and complete detachment.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "B",
+      "explanation": "Assertion Analysis: Assertion (A) is true. Dilwara temples are famous Jain marble architecture built under Solanki patronage.\nReason Analysis: Reason (R) is true. Mahavira emphasized extreme asceticism for Moksha. However, R is not the correct explanation of A since temple architecture construction is not causally explained by the ascetic doctrine of Mahavira."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): माउंट आबू में भीलवाड़ा (दिलवाड़ा) मंदिर सोलंकी शासन के दौरान निर्मित जैन मंदिर वास्तुकला के विश्व प्रसिद्ध उत्कृष्ट नमूने हैं।\nकारण (R): महावीर ने इस बात पर बल दिया कि आध्यात्मिक मुक्ति केवल कठोर तपस्या, आत्म-दमन और पूर्ण वैराग्य द्वारा ही प्राप्त की जा सकती है।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "B",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है। दिलवाड़ा मंदिर सोलंकी संरक्षण में निर्मित प्रसिद्ध जैन संगमरमर वास्तुकला हैं।\nकारण विश्लेषण: कारण (R) सत्य है। महावीर ने मोक्ष के लिए चरम तपस्या पर जोर दिया था। हालाँकि, R, A की सही व्याख्या नहीं है क्योंकि मंदिर वास्तुकला का निर्माण महावीर के तपस्वी सिद्धांत द्वारा कारण-रूप से स्पष्ट नहीं होता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Jainism is considered an atheistic philosophy (Nastika Darshana) in classical Indian thought.\nReason (R): Jainism denies the existence of a supreme creator God who created, maintains, and regulates the universe.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true. Jainism is classified as Nastika because it rejects Vedic authority and also rejects a creator deity.\nReason Analysis: Reason (R) is true and correctly explains why Jainism is viewed as atheistic, since it believes the universe is eternal and runs on self-regulatory cosmic laws without a creator."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): शास्त्रीय भारतीय विचार में जैन धर्म को एक नास्तिक दर्शन (नास्तिक दर्शन) माना जाता है।\nकारण (R): जैन धर्म एक सर्वोच्च निर्माता ईश्वर के अस्तित्व को नकारता है जिसने ब्रह्मांड का निर्माण किया, जो इसका रखरखाव और नियंत्रण करता है।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है। जैन धर्म को नास्तिक के रूप में वर्गीकृत किया गया है क्योंकि यह वैदिक सत्ता और एक निर्माता देव दोनों को खारिज करता है।\nकारण विश्लेषण: कारण (R) सत्य है और स्पष्ट करता है कि जैन धर्म को नास्तिक क्यों माना जाता है, क्योंकि इसका मानना है कि ब्रह्मांड शाश्वत है और बिना किसी निर्माता के आत्म-नियमनकारी ब्रह्मांडीय नियमों पर चलता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Jainism attributes the presence of souls (Jiva) not only to animals and plants but also to inanimate objects like rocks, water, and wind.\nReason (R): According to Jain metaphysics, the entire universe is filled with living beings (Jivas) categorized based on the number of sensory organs they possess, starting from one-sensed beings (Ekendriya).",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "A",
+      "explanation": "Assertion Analysis: Assertion (A) is true. Jainism has an animistic worldview where rocks, water droplets, and wind possess living souls.\nReason Analysis: Reason (R) is true and explains A because it describes the taxonomy of Jivas where single-sensed beings (having only the sense of touch) include earth, water, fire, and air bodies."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): जैन धर्म न केवल जानवरों और पौधों में बल्कि चट्टानों, पानी और हवा जैसी निर्जीव वस्तुओं में भी आत्माओं (जीव) की उपस्थिति मानता है।\nकारण (R): जैन तत्वमीमांसा के अनुसार, पूरा ब्रह्मांड जीवों से भरा हुआ है जिन्हें उनके पास मौजूद इंद्रियों की संख्या के आधार पर वर्गीकृत किया गया है, जिसकी शुरुआत एक-इंद्रिय जीवों (एकेन्द्रिय) से होती है।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है Bourgeois.",
+      "correct": "A",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है। जैन धर्म का एक जीववादी दृष्टिकोण है जहाँ चट्टानें, पानी की बूंदें और हवा जीवित आत्माएं रखती हैं।\nकारण विश्लेषण: कारण (R) सत्य है और A की व्याख्या करता है क्योंकि यह जीवों के वर्गीकरण का वर्णन करता है जिसमें एक-इंद्रिय वाले जीव (केवल स्पर्श की भावना रखने वाले) मिट्टी, पानी, अग्नि और वायु काय शामिल हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):\n\nAssertion (A): Vardhamana Mahavira belonged to the Jnatrika clan, a ruling Kshatriya clan of the Vajji confederacy.\nReason (R): Mahavira was born in Kushinagar, which was the prominent capital of the Shakya clan.",
+      "option_a": "Both A and R are true, and R is the correct explanation of A.",
+      "option_b": "Both A and R are true, but R is NOT the correct explanation of A.",
+      "option_c": "A is true, but R is false.",
+      "option_d": "A is false, but R is true.",
+      "correct": "C",
+      "explanation": "Assertion Analysis: Assertion (A) is true. Mahavira was born to Siddhartha, chief of the Jnatrika clan of Kundagrama near Vaishali.\nReason Analysis: Reason (R) is false. Mahavira was born in Kundagrama (near Vaishali), not Kushinagar (which is where Gautama Buddha died and was a Mallian town). Also, Shakyas were at Kapilavastu, not Kushinagar."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नीचे दो कथन दिए गए हैं, एक को अभिकथन (A) और दूसरे को कारण (R) के रूप में अंकित किया गया है:\n\nअभिकथन (A): वर्धमान महावीर वज्जी संघ के एक शासक क्षत्रिय कबीले, ज्ञातृक वंश से संबंधित थे।\nकारण (R): महावीर का जन्म कुशीनगर में हुआ था, जो शाक्य वंश की प्रमुख राजधानी थी।",
+      "option_a": "A और R दोनों सत्य हैं, और R, A की सही व्याख्या करता है।",
+      "option_b": "A और R दोनों सत्य हैं, लेकिन R, A की सही व्याख्या नहीं करता है।",
+      "option_c": "A सत्य है, लेकिन R असत्य है।",
+      "option_d": "A असत्य है, लेकिन R सत्य है।",
+      "correct": "C",
+      "explanation": "अभिकथन विश्लेषण: अभिकथन (A) सत्य है। महावीर का जन्म वैशाली के पास कुण्डग्राम के ज्ञातृक वंश के प्रमुख सिद्धार्थ के यहाँ हुआ था।\nकारण विश्लेषण: कारण (R) असत्य है। महावीर का जन्म कुण्डग्राम (वैशाली के पास) में हुआ था, न कि कुशीनगर में (जहाँ गौतम बुद्ध का महापरिनिर्वाण हुआ था और जो मल्लों का नगर था)। इसके अलावा, शाक्य कपिलवस्तु में थे, कुशीनगर में नहीं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Tirthankara) with List-II (Emblem/Symbol) and select the correct answer:\nList-I:\na) Rishabhanatha\nb) Neminatha\nc) Parshvanatha\nd) Mahavira\n\nList-II:\n1) Conch (Shankha)\n2) Bull (Vrishabha)\n3) Lion (Simha)\n4) Serpent (Sarpa)\n5) Elephant (Gaja)\n6) Lotus (Utpala)",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-5, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "Correct match mapping: a-2, b-1, c-4, d-3. Rishabhanatha's symbol is the Bull [2], Neminatha's is the Conch [1], Parshvanatha's is the Serpent [4], and Mahavira's is the Lion [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (तीर्थंकर) को सूची-II (प्रतीक/चिह्न) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) ऋषभनाथ\nb) नेमिनाथ\nc) पार्श्वनाथ\nd) महावीर\n\nसूची-II:\n1) शंख\n2) वृषभ (बैल)\n3) सिंह (शेर)\n4) सर्प\n5) हाथी\n6) कमल",
+      "option_a": "a-2, b-1, c-4, d-3",
+      "option_b": "a-1, b-2, c-3, d-4",
+      "option_c": "a-2, b-4, c-1, d-3",
+      "option_d": "a-5, b-1, c-4, d-2",
+      "correct": "A",
+      "explanation": "सही सुमेलित मैपिंग: a-2, b-1, c-4, d-3 है। ऋषभनाथ का प्रतीक वृषभ (बैल) [2] है, नेमिनाथ का शंख [1] है, पार्श्वनाथ का सर्प [4] है, और महावीर का सिंह [3] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Jain Term) with List-II (Core Philosophy/Meaning) and select the correct answer:\nList-I:\na) Jiva\nb) Ajiva\nc) Asrava\nd) Bandha\n\nList-II:\n1) Influx of karmic particles into the soul\n2) Conscious living spirit or soul\n3) Binding of karmic matter to the soul\n4) Non-conscious insentient matter/substance\n5) Cessation of karmic flow\n6) Complete destruction of karmas",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-4, b-2, c-3, d-1",
+      "option_c": "a-2, b-1, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "Correct match mapping: a-2, b-4, c-1, d-3. Jiva is the conscious soul [2], Ajiva is the insentient matter [4], Asrava is the influx of karma [1], and Bandha is the bondage of karma [3]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (जैन पारिभाषिक शब्द) को सूची-II (मूल दर्शन/अर्थ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) जीव\nb) अजीव\nc) आस्रव\nd) बंध\n\nसूची-II:\n1) आत्मा में कर्म पुद्गलों का प्रवेश\n2) चेतन जीवित आत्मा\n3) आत्मा से कर्म पुद्गलों का बंधना\n4) अचेतन निर्जीव पदार्थ/द्रव्य\n5) कर्म प्रवाह का रुकना\n6) कर्मों का पूर्ण विनाश",
+      "option_a": "a-2, b-4, c-1, d-3",
+      "option_b": "a-4, b-2, c-3, d-1",
+      "option_c": "a-2, b-1, c-4, d-3",
+      "option_d": "a-3, b-4, c-1, d-2",
+      "correct": "A",
+      "explanation": "सही सुमेलित मैपिंग: a-2, b-4, c-1, d-3 है। जीव चेतन आत्मा [2] है, अजीव निर्जीव पदार्थ [4] है, आस्रव कर्मों का प्रवेश [1] है, और बंध कर्मों का बंधन [3] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Jain Vow) with List-II (Literal Practice/Meaning) and select the correct answer:\nList-I:\na) Asteya\nb) Aparigraha\nc) Satya\nd) Ahimsa\n\nList-II:\n1) Refraining from stealing\n2) Non-possession or non-attachment\n3) Truthfulness in speech and thought\n4) Complete non-injury to living beings\n5) Observance of celibacy\n6) Fasting during Paryushan",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct match mapping: a-1, b-2, c-3, d-4. Asteya means non-stealing [1], Aparigraha is non-possession [2], Satya is truthfulness [3], and Ahimsa is non-injury [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (जैन व्रत) को सूची-II (शाब्दिक अभ्यास/अर्थ) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) अस्तेय\nb) अपरिग्रह\nc) सत्य\nd) अहिंसा\n\nसूची-II:\n1) चोरी न करना\n2) अपरिग्रह या गैर-स्वामित्व/अनासक्ति\n3) वाणी और विचार में सत्यता\n4) सजीवों को बिल्कुल चोट न पहुँचाना\n5) ब्रह्मचर्य का पालन\n6) पर्यूषण के दौरान उपवास",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही सुमेलित मैपिंग: a-1, b-2, c-3, d-4 है। अस्तेय का अर्थ चोरी न करना [1] है, अपरिग्रह का अर्थ संपत्ति संचय न करना [2] है, सत्य का अर्थ सत्य बोलना [3] है, और अहिंसा का अर्थ किसी जीव को आहत न करना [4] है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Jain Scholar/Author) with List-II (Literary Work) and select the correct answer:\nList-I:\na) Jinasena\nb) Hemachandra\nc) Bhadrabahu\nd) Siddhasena Divakara\n\nList-II:\n1) Adipurana\n2) Trishashtishalakapurushacharitra\n3) Kalpasutra\n4) Sanmati Tarka\n5) Samaraichcha Kaha\n6) Kuvalayamala",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct match mapping: a-1, b-2, c-3, d-4. Jinasena composed the Adipurana [1]. Hemachandra wrote Trishashtishalakapurushacharitra [2]. Bhadrabahu wrote Kalpasutra [3]. Siddhasena Divakara wrote Sanmati Tarka [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (जैन विद्वान/लेखक) को सूची-II (साहित्यिक कृति) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) जिनसेन\nb) हेमचंद्र\nc) भद्रबाहु\nd) सिद्धसेन दिवाकर\n\nसूची-II:\n1) आदिपुराण\n2) त्रिषष्टिशलाकापुरुषचरित्र\n3) कल्पसूत्र\n4) सन्मति तर्क\n5) समराइच्च कहा\n6) कुवलयमाला",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही सुमेलित मैपिंग: a-1, b-2, c-3, d-4 है। जिनसेन ने आदिपुराण की रचना की [1]। हेमचंद्र ने त्रिषष्टिशलाकापुरुषचरित्र लिखा [2]। भद्रबाहु ने कल्पसूत्र लिखा [3]। सिद्धसेन दिवाकर ने सन्मति तर्क लिखा [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Type of Knowledge in Jainism) with List-II (Nature/Description) and select the correct answer:\nList-I:\na) Mati\nb) Shruta\nc) Avadhi\nd) Manahparyaya\n\nList-II:\n1) Knowledge obtained through senses and mind\n2) Knowledge derived from scriptures or hearing\n3) Clairvoyant or extrasensory perception of material objects\n4) Direct telepathic knowledge of others' thoughts\n5) Infinite supreme omniscience (Kevala)\n6) Wrong perception or ignorance",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-5, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct match mapping: a-1, b-2, c-3, d-4. Mati is sensory knowledge [1]. Shruta is scriptural/revealed knowledge [2]. Avadhi is clairvoyance [3]. Manahparyaya is telepathic knowledge of other minds [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (जैन धर्म में ज्ञान के प्रकार) को सूची-II (प्रकृति/विवरण) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) मति\nb) श्रुत\nc) अवधि\nd) मनःपर्यय\n\nसूची-II:\n1) -इंद्रियों और मन के माध्यम से प्राप्त ज्ञान\n2) शास्त्रों या सुनने से प्राप्त ज्ञान\n3) भौतिक वस्तुओं का दिव्य या अतीन्द्रिय प्रत्यक्ष ज्ञान\n4) दूसरों के विचारों का सीधा दूरसंवेदी ज्ञान\n5) अनंत सर्वोच्च केवल ज्ञान\n6) गलत धारणा या अज्ञानता",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-5, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही सुमेलित मैपिंग: a-1, b-2, c-3, d-4 है। मति इंद्रियजन्य ज्ञान है [1]। श्रुत शास्त्रीय/श्रवण ज्ञान है [2]। अवधि दिव्य दृष्टि/अतीन्द्रिय ज्ञान है [3]। मनःपर्यय दूसरों के मन को जानने का ज्ञान है [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Royal Patron of Jainism) with List-II (Associated Dynasty) and select the correct answer:\nList-I:\na) Chandragupta Maurya\nb) Kharavela\nc) Amoghavarsha I\nd) Kumarapala\n\nList-II:\n1) Maurya Dynasty\n2) Mahameghavahana Dynasty of Kalinga\n3) Rashtrakuta Dynasty\n4) Solanki (Chaulukya) Dynasty of Gujarat\n5) Chalukyas of Vatapi\n6) Satavahana Dynasty",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "Correct match mapping: a-1, b-2, c-3, d-4. Chandragupta Maurya belonged to Maurya [1], Kharavela to Mahameghavahana of Kalinga [2], Amoghavarsha I to Rashtrakuta [3], and Kumarapala to Solanki of Gujarat [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (जैन धर्म के शाही संरक्षक) को सूची-II (संबद्ध राजवंश) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) चंद्रगुप्त मौर्य\nb) खारवेल\nc) अमोघवर्ष प्रथम\nd) कुमारपाल\n\nSUCHI-II:\n1) मौर्य राजवंश\n2) कलिंग का महामेघवाहन राजवंश\n3) राष्ट्रकूट राजवंश\n4) गुजरात का सोलंकी (चालुक्य) राजवंश\n5) वातापी के चालुक्य\n6) सातवाहन राजवंश",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-3, d-1",
+      "correct": "A",
+      "explanation": "सही सुमेलित मैपिंग: a-1, b-2, c-3, d-4 है। चंद्रगुप्त मौर्य मौर्य वंश से थे [1], खारवेल कलिंग के महामेघवाहन वंश से थे [2], अमोघवर्ष प्रथम राष्ट्रकूट से थे [3], और कुमारपाल गुजरात के सोलंकी वंश से थे [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Jain Sacred Place) with List-II (State/Location) and select the correct answer:\nList-I:\na) Shravanabelagola\nb) Dilwara Temples\nc) Palitana\nd) Shatrunjaya Hills\n\nList-II:\n1) Karnataka\n2) Rajasthan (Mount Abu)\n3) Gujarat (Bhavnagar district)\n4) Saurashtra region\n5) Bihar (Giridih district)\n6) Madhya Pradesh",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct match mapping: a-1, b-2, c-3, d-4. Shravanabelagola is in Karnataka [1], Dilwara is in Rajasthan [2], Palitana is in Gujarat [3], and Shatrunjaya Hills are near Palitana (specifically representing the sacred hill complex, often matched with Saurashtra/Gujarat region) [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (जैन पवित्र स्थान) को सूची-II (राज्य/स्थान) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) -श्रवणबेलगोला\nb) दिलवाड़ा मंदिर\nc) पालिताना\nd) शत्रुंजय पहाड़ियाँ\n\nसूची-II:\n1) कर्नाटक\n2) राजस्थान (माउंट आबू)\n3) गुजरात (भावनगर जिला)\n4) सौराष्ट्र क्षेत्र\n5) बिहार (गिरिडीह जिला)\n6) मध्य प्रदेश",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-2, c-4, d-3",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही सुमेलित मैपिंग: a-1, b-2, c-3, d-4 है। श्रवणबेलगोला कर्नाटक में है [1], दिलवाड़ा राजस्थान में है [2], पालिताना गुजरात में है [3], और शत्रुंजय पहाड़ियाँ सौराष्ट्र क्षेत्र में हैं [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Match List-I (Jain Vow Category) with List-II (Technical Name/Components) and select the correct answer:\nList-I:\na) Digvrata\nb) Deshavrata\nc) Anarthadandavrata\nd) Shikshavrata\n\nList-II:\n1) Vow of limiting spatial activity within a certain direction\n2) Vow of further restricting spatial activity to smaller areas\n3) Vow to avoid unnecessary or mindless harmful activities\n4) Vows of spiritual training/discipline (like Samayika)\n5) Vow of non-possession of material wealth\n6) Vow of absolute monastic asceticism",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "Correct match mapping: a-1, b-2, c-3, d-4. Digvrata restricts movement in directions [1]. Deshavrata limits it to specific small areas [2]. Anarthadandavrata avoids purposeless harm [3]. Shikshavrata consists of disciplinary training vows [4]."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सूची-I (जैन व्रत श्रेणी) को सूची-II (तकनीकी नाम/घटक) से सुमेलित कीजिए और सही उत्तर का चयन कीजिए:\nसूची-I:\na) दिग्व्रत\nb) देशव्रत\nc) अनर्थदण्डव्रत\nd) शिक्षाव्रत\n\nसूची-II:\n1) एक निश्चित दिशा में स्थानिक गतिविधि को सीमित करने का व्रत\n2) स्थानिक गतिविधि को छोटे क्षेत्रों में और अधिक सीमित करने का व्रत\n3) अनावश्यक या बिना सोचे-समझे की जाने वाली हानिकारक गतिविधियों से बचने का व्रत\n4) आध्यात्मिक प्रशिक्षण/अनुशासन के व्रत (जैसे सामायिक)\n5) भौतिक धन के गैर-स्वामित्व का व्रत\n6) पूर्ण भिक्षु तपस्या का व्रत",
+      "option_a": "a-1, b-2, c-3, d-4",
+      "option_b": "a-2, b-1, c-4, d-3",
+      "option_c": "a-1, b-3, c-2, d-4",
+      "option_d": "a-4, b-2, c-1, d-3",
+      "correct": "A",
+      "explanation": "सही सुमेलित मैपिंग: a-1, b-2, c-3, d-4 है। दिग्व्रत दिशाओं में आवागमन को प्रतिबंधित करता है [1]। देशव्रत इसे विशिष्ट छोटे क्षेत्रों तक सीमित करता है [2]। अनर्थदण्डव्रत निरुद्देश्य नुकसान से बचाता है [3]। शिक्षाव्रत में अनुशासनात्मक प्रशिक्षण व्रत शामिल हैं [4]।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Vardhamana Mahavira:\n1. He attained Kaivalya at the age of 30 immediately after leaving his home.\n2. He was a contemporary of Gautama Buddha and Bimbisara of Magadha.\n3. He passed away (attained Nirvana) at Pavapuri near modern-day Patna.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because Mahavira left his home at the age of 30, but practiced intense penance for 12 years and attained Kaivalya at the age of 42, not immediately.\nStatement 2 is correct because Mahavira was a contemporary of Gautama Buddha and Magadhan ruler Bimbisara.\nStatement 3 is correct because Mahavira passed away at the age of 72 at Pavapuri."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. वर्धमान महावीर के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने अपना घर छोड़ने के तुरंत बाद 30 वर्ष की आयु में कैवल्य प्राप्त किया था।\n2. वह गौतम बुद्ध और मगध के बिंबिसार के समकालीन थे।\n3. उनका निधन (निर्वाण प्राप्त किया) आधुनिक पटना के पास पावापुरी में हुआ था।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि महावीर ने 30 वर्ष की आयु में अपना घर छोड़ दिया था, लेकिन 12 वर्षों तक तीव्र तपस्या की और 42 वर्ष की आयु में कैवल्य प्राप्त किया, न कि तुरंत।\nकथन 2 सही है क्योंकि महावीर गौतम बुद्ध और मगध शासक बिंबिसार के समकालीन थे।\nकथन 3 सही है क्योंकि महावीर का निधन 72 वर्ष की आयु में पावापुरी में हुआ था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Jain epistemology and metaphysics:\n1. Syadvada is the logic of relative predication, while Anekantavada is the ontological theory of the manifoldness of reality.\n2. According to Jainism, truth can be stated absolutely without any relative context.\n3. Nayavada refers to the system of seven-fold modes of assertions.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1 and 3 only",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Syadvada represents the linguistic/logical theory of relativity and Anekantavada represents the metaphysical theory of multiple aspects of reality.\nStatement 2 is incorrect because Jainism explicitly denies that truth can be stated absolutely without relative context, as all knowledge is relative (Naya).\nStatement 3 is incorrect because Saptabhangi Naya refers to the seven-fold predication, whereas Nayavada is the theory of partial viewpoints."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. -जैन ज्ञानमीमांसा और तत्वमीमांसा के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. स्याद्वाद सापेक्ष कथन का तर्क है, जबकि अनेकांतवाद वास्तविकता की बहुआयामीता का तत्वमीमांसात्मक सिद्धांत है।\n2. जैन धर्म के अनुसार, सत्य को बिना किसी सापेक्ष संदर्भ के पूर्ण रूप से व्यक्त किया जा सकता है।\n3. नयवाद दावों (कथनों) के सात गुना रूपों की प्रणाली को संदर्भित करता है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "केवल 1 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि स्याद्वाद सापेक्षता के भाषाई/तार्किक सिद्धांत का प्रतिनिधित्व करता है और अनेकांतवाद वास्तविकता के कई पहलुओं के तत्वमीमांसात्मक सिद्धांत को दर्शाता है।\nकथन 2 गलत है क्योंकि जैन धर्म स्पष्ट रूप से इस बात से इंकार करता है कि सत्य को सापेक्ष संदर्भ के बिना पूर्ण रूप से व्यक्त किया जा सकता है, क्योंकि सभी ज्ञान सापेक्ष (नय) हैं।\nकथन 3 गलत है क्योंकि सप्तभंगी नय सात गुना कथन को संदर्भित करता है, जबकि नयवाद आंशिक दृष्टिकोण का सिद्धांत है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the differences between Svetambara and Digambara sects of Jainism:\n1. Digambaras believe that Mallinatha (the 19th Tirthankara) was a woman, while Svetambaras believe Mallinatha was a man.\n2. Svetambaras wear white robes and allow monks to own minimal possessions like a begging bowl.\n3. Digambaras reject the canonical authority of the 12 Angas compiled in the First Council of Pataliputra.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is incorrect because it is the Svetambaras who believe Mallinatha was a woman, while Digambaras believe Mallinatha was a man.\nStatement 2 is correct because Svetambara monks wear white robes and carry a wooden bowl for begging alms.\nStatement 3 is correct because Digambaras believe the original teachings (Angas) were lost during the famine and reject the compiled scriptures of the Pataliputra council."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म के श्वेतांबर और दिगंबर संप्रदायों के बीच अंतर के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. दिगंबरों का मानना है कि मल्लिनाथ (19वें तीर्थंकर) एक महिला थीं, जबकि श्वेतांबरों का मानना है कि मल्लिनाथ एक पुरुष थे।\n2. श्वेतांबर सफेद वस्त्र पहनते हैं और भिक्षुओं को भिक्षापात्र जैसी न्यूनतम वस्तुएं रखने की अनुमति देते हैं।\n3. दिगंबर पाटलिपुत्र की प्रथम संगीति में संकलित 12 अंगों की धार्मिक प्रामाणिकता को खारिज करते हैं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 गलत है क्योंकि श्वेतांबरों का मानना है कि मल्लिनाथ एक महिला थीं, जबकि दिगंबरों का मानना है कि मल्लिनाथ एक पुरुष थे।\nकथन 2 सही है क्योंकि श्वेतांबर भिक्षु सफेद वस्त्र पहनते हैं और भिक्षा मांगने के लिए लकड़ी का कटोरा रखते हैं।\nकथन 3 सही है क्योंकि दिगंबरों का मानना है कि अकाल के दौरान मूल उपदेश (अंग) खो गए थे और वे पाटलिपुत्र संगीति के संकलित ग्रंथों को खारिज करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to Jain metaphysics, consider the following statements:\n1. The universe is eternal and uncreated, passing through cycles of cosmic decline (Avasarpini) and progress (Utsarpini).\n2. Dravya (Substance) is characterized by origin (Utpada), destruction (Vyaya), and permanence (Dhrauvya).\n3. Jiva (Soul) is completely formless and does not expand or contract to fit the physical body it occupies.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Jainism believes in a cyclical, eternal universe governed by time cycles of Utsarpini and Avasarpini.\nStatement 2 is correct because Jain metaphysics defines substance (Dravya) as possessing Utpada (creation), Vyaya (decay), and Dhrauvya (permanence).\nStatement 3 is incorrect because Jainism believes that the soul has the quality of contraction and expansion, adapting to the size of the physical body it inhabits (Pradesha-sankucha-vikasa)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन तत्वमीमांसा के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. ब्रह्मांड शाश्वत और अनिर्मित है, जो ब्रह्मांडीय गिरावट (अवसर्पिणी) और प्रगति (उत्सर्पिणी) के चक्रों से गुजरता है।\n2. द्रव्य (पदार्थ) की विशेषता उत्पत्ति (उत्पाद), विनाश (व्यय) और स्थायित्व (ध्रौव्य) है।\n3. जीव (आत्मा) पूरी तरह से निराकार है और जिस भौतिक शरीर में वह रहता है, उसके अनुसार सिकुड़ता या फैलता नहीं है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि जैन धर्म उत्सर्पिणी और अवसर्पिणी के समय चक्रों द्वारा संचालित एक चक्रीय, शाश्वत ब्रह्मांड में विश्वास करता है।\nकथन 2 सही है क्योंकि जैन तत्वमीमांसा द्रव्य को उत्पाद (सृष्टि), व्यय (क्षय) और ध्रौव्य (नित्यता) से युक्त परिभाषित करता है।\nकथन 3 गलत है क्योंकि जैन धर्म का मानना है कि आत्मा में संकुचन और विस्तार का गुण होता है, जिससे वह अपने शरीर के आकार के अनुकूल हो जाती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the spread and patronage of Jainism:\n1. Jainism spread to Western India and Karnataka under the patronage of early rulers like Chandragupta Maurya.\n2. Kharavela of Kalinga was a patron of Jainism and constructed cave dwellings for Jain ascetics at Udayagiri and Khandagiri.\n3. The Solanki rulers of Gujarat did not patronize Jainism, leading to its decline in Western India.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Chandragupta Maurya and later kings played a key role in spreading Jainism to Karnataka and Western India.\nStatement 2 is correct because the Hathigumpha inscription proves Kharavela was a devout Jain patron who built rock-cut caves at Udayagiri and Khandagiri.\nStatement 3 is incorrect because Solanki rulers (like Siddharaja Jaisimha and Kumarapala) highly patronized Jainism, making Gujarat a major Jain center."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म के प्रसार और संरक्षण के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. चंद्रगुप्त मौर्य जैसे शुरुआती शासकों के संरक्षण में जैन धर्म पश्चिमी भारत और कर्नाटक में फैला।\n2. कलिंग के खारवेल जैन धर्म के संरक्षक थे और उन्होंने उदयगिरि और खंडगिरि में जैन तपस्वियों के लिए गुफा आवासों का निर्माण कराया था।\n3. गुजरात के सोलंकी शासकों ने जैन धर्म को संरक्षण नहीं दिया, जिससे पश्चिमी भारत में इसका पतन हो गया।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि चंद्रगुप्त मौर्य और बाद के राजाओं ने जैन धर्म को कर्नाटक और पश्चिमी भारत में फैलाने में महत्वपूर्ण भूमिका निभाई।\nकथन 2 सही है क्योंकि हाथीगुम्फा शिलालेख साबित करता है कि खारवेल एक समर्पित जैन संरक्षक थे जिन्होंने उदयगिरि और खंडगिरि में गुफाएं बनवाई थीं।\nकथन 3 गलत है क्योंकि सोलंकी शासकों (जैसे सिद्धराज जयसिंह और कुमारपाल) ने जैन धर्म को अत्यधिक संरक्षण दिया, जिससे गुजरात एक प्रमुख जैन केंद्र बन गया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. With reference to the Jain doctrine of Karma, consider the following statements:\n1. Karmas are divided into Ghatiya (destructive) and Aghatiya (non-destructive) categories.\n2. Ghatiya karmas directly affect the spiritual qualities of the soul, such as infinite knowledge and perception.\n3. Kevalins (enlightened beings) destroy both Ghatiya and Aghatiya karmas simultaneously upon attaining Kevala Jnana.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because Jainism classifies karmas into 4 Ghatiya (destructive of soul's qualities) and 4 Aghatiya (affecting bodily characteristics) karmas.\nStatement 2 is correct because Ghatiya karmas (like Jnanavaraniya) directly obscure the soul's infinite knowledge, perception, power, and bliss.\nStatement 3 is incorrect because a Kevalin destroys only the 4 Ghatiya karmas when attaining Kevala Jnana, while the 4 Aghatiya karmas remain and are only shed at the time of final death (Nirvana)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन कर्म सिद्धांत के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. कर्मों को घातिया (विनाशकारी) और अघातिया (गैर-विनाशकारी) श्रेणियों में विभाजित किया गया है।\n2. घातिया कर्म सीधे तौर पर आत्मा के आध्यात्मिक गुणों, जैसे कि अनंत ज्ञान और धारणा को प्रभावित करते हैं।\n3. केवलिन (प्रबुद्ध जीव) केवल ज्ञान प्राप्त करने पर घातिया और अघातिया दोनों कर्मों को एक साथ नष्ट कर देते हैं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि जैन धर्म कर्मों को 4 घातिया (आत्मा के गुणों का विनाश करने वाले) और 4 अघातिया (शारीरिक विशेषताओं को प्रभावित करने वाले) में वर्गीकृत करता है।\nकथन 2 सही है क्योंकि घातिया कर्म (जैसे ज्ञानावरणीय) सीधे तौर पर आत्मा के अनंत ज्ञान, धारणा, शक्ति और आनंद को बाधित करते हैं।\nकथन 3 गलत है क्योंकि केवलिन केवल ज्ञान प्राप्त करते समय केवल 4 घातिया कर्मों को नष्ट करता है, जबकि 4 अघातिया कर्म बने रहते हैं और अंतिम मृत्यु (निर्वाण) के समय ही नष्ट होते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the moral vows of Jainism:\n1. The five vows are called Mahavrata when practiced by monks and Anuvrata when practiced by householders.\n2. The vow of Asteya prohibits not only taking another's property without permission but also coveting it.\n3. Aparigraha for householders means complete starvation to renounce the body.\n\nWhich of the statements given above is/are correct?",
+      "option_a": "1 only",
+      "option_b": "1 and 2 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1 and 3 only",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because the intensity of the vows defines them as Mahavrata (great vows, strict) or Anuvrata (minor vows, modified).\nStatement 2 is correct because Asteya (non-stealing) forbids taking what is not given, including mentally coveting others' possessions.\nStatement 3 is incorrect because Aparigraha for householders means limiting possessions and desires, not starving to renounce the body (which refers to Sallekhana)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. -जैन धर्म के नैतिक व्रतों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. पांच व्रतों को भिक्षुओं द्वारा पालन किए जाने पर महाव्रत और गृहस्थों द्वारा पालन किए जाने पर अनुव्रत कहा जाता है।\n2. अस्तेय का व्रत न केवल बिना अनुमति के दूसरे की संपत्ति लेने को प्रतिबंधित करता है बल्कि उसकी लालसा करने को भी रोकता है।\n3. गृहस्थों के लिए अपरिग्रह का अर्थ शरीर का त्याग करने के लिए पूर्ण भुखमरी है।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1",
+      "option_b": "केवल 1 और 2",
+      "option_c": "केवल 2 और 3",
+      "option_d": "केवल 1 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि व्रतों की तीव्रता उन्हें महाव्रत (कठोर) या अनुव्रत (संशोधित) के रूप में परिभाषित करती है।\nकथन 2 सही है क्योंकि अस्तेय (चोरी न करना) वह लेने से मना करता है जो दिया नहीं गया है, जिसमें मानसिक रूप से दूसरों की संपत्ति की लालसा करना भी शामिल है।\nकथन 3 गलत है क्योंकि गृहस्थों के लिए अपरिग्रह का अर्थ संपत्ति और इच्छाओं को सीमित करना है, न कि शरीर का त्याग करने के लिए भूखे रहना (जो सल्लेखना को संदर्भित करता है)।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding Jain councils and canonical literature:\n1. The compilation of Jain literature was completed over a long period, culminating in the Valabhi Council in the 6th century CE.\n2. The Agamas are written in classical Sanskrit, which was the court language of the Guptas.\n3. The Angas contain the sermons of Mahavira, while the Upangas provide further explanations of the Angas.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "1 and 3 only",
+      "option_c": "2 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "B",
+      "explanation": "Statement 1 is correct because the canon was finalized at the Second Council of Valabhi in 512/526 CE.\nStatement 2 is incorrect because the early canonical Agamas were composed in Ardhamagadhi Prakrit, not Sanskrit (though Sanskrit was used later by scholars like Siddhasena Divakara).\nStatement 3 is correct because the 12 Angas contain Mahavira's direct sermons, and the 12 Upangas are secondary texts explaining the Angas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन संगीतियों और धार्मिक साहित्य के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. जैन साहित्य का संकलन एक लंबी अवधि में पूरा हुआ, जो छठी शताब्दी ईस्वी में वल्लभी संगीति में समाप्त हुआ।\n2. आगम ग्रंथ शास्त्रीय संस्कृत में लिखे गए हैं, जो गुप्त शासकों की दरबारी भाषा थी।\n3. अंगों में महावीर के उपदेश शामिल हैं, जबकि उपांग अंगों की और अधिक व्याख्या प्रदान करते हैं।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 1 और 3",
+      "option_c": "केवल 2 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "B",
+      "explanation": "कथन 1 सही है क्योंकि आगम साहित्य को 512/526 ईस्वी में वल्लभी की दूसरी संगीति में अंतिम रूप दिया गया था।\nकथन 2 गलत है क्योंकि प्रारंभिक प्रामाणिक आगम ग्रंथ अर्धमागधी प्राकृत में लिखे गए थे, न कि संस्कृत में (हालांकि बाद में सिद्धसेन दिवाकर जैसे विद्वानों द्वारा संस्कृत का उपयोग किया गया था)।\nकथन 3 सही है क्योंकि 12 अंगों में महावीर के प्रत्यक्ष उपदेश शामिल हैं, और 12 उपांग अंगों की व्याख्या करने वाले माध्यमिक ग्रंथ हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Consider the following statements regarding the minor sects and schisms of Jainism:\n1. The Yapaniya sect served as a bridge between the Svetambaras and Digambaras.\n2. The Terapanthi sub-sect of Svetambaras completely rejects idol worship.\n3. The Digambara tradition completely denies that any Tirthankara could have been married before renouncing the world.\n\nWhich of the statements given above are correct?",
+      "option_a": "1 and 2 only",
+      "option_b": "2 and 3 only",
+      "option_c": "1 and 3 only",
+      "option_d": "1, 2 and 3",
+      "correct": "A",
+      "explanation": "Statement 1 is correct because the Yapaniya sect had beliefs and practices overlapping both Svetambara (canonical acceptance, women liberation) and Digambara (nudity) traditions.\nStatement 2 is correct because the Svetambara Terapanth (founded by Acharya Bhikshu) is a non-iconic sect that rejects temple-building and idol worship.\nStatement 3 is incorrect because Digambaras accept that Tirthankaras like Rishabhanatha were married, though they believe Mahavira did not marry and remained a lifelong celibate, which differs from the Svetambara view that Mahavira was married and had a daughter."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म के छोटे संप्रदायों और मतभेदों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यापनीय संप्रदाय ने श्वेतांबरों और दिगंबरों के बीच एक सेतु का कार्य किया।\n2. श्वेतांबरों का तेरहपंथी उप-संप्रदाय मूर्ति पूजा को पूरी तरह से खारिज करता है।\n3. दिगंबर परंपरा पूरी तरह से इस बात से इंकार करती है कि संसार त्यागने से पहले किसी भी तीर्थंकर का विवाह हुआ होगा।\n\nउपर्युक्त कथनों में से कौन सा/से सही है/हैं?",
+      "option_a": "केवल 1 और 2",
+      "option_b": "केवल 2 और 3",
+      "option_c": "केवल 1 और 3",
+      "option_d": "1, 2 और 3",
+      "correct": "A",
+      "explanation": "कथन 1 सही है क्योंकि यापनीय संप्रदाय में ऐसे विश्वास और प्रथाएं थीं जो श्वेतांबर (आगमों की स्वीकृति, महिला मुक्ति) और दिगंबर (नग्नता) दोनों परंपराओं के साथ मेल खाती थीं।\nकथन 2 सही है क्योंकि श्वेतांबर तेरहपंथ (आचार्य भिक्षु द्वारा स्थापित) एक गैर-मूर्तिकला संप्रदाय है जो मंदिर निर्माण और मूर्ति पूजा को खारिज करता है।\nकथन 3 गलत है क्योंकि दिगंबर स्वीकार करते हैं कि ऋषभनाथ जैसे तीर्थंकरों का विवाह हुआ था, हालांकि वे मानते हैं कि महावीर का विवाह नहीं हुआ था और वे आजीवन ब्रह्मचारी रहे, जो श्वेतांबर दृष्टिकोण से भिन्न है कि महावीर विवाहित थे और उनकी एक पुत्री थी।"
+    }
+  ],
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Explain the Jain concept of 'Syadvada' and its significance. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Syadvada is the Jain epistemological doctrine of relative predication. It asserts that all knowledge and judgments are conditional, true only from a particular perspective.\n\nKey aspects:\n- Formulates the 'Saptabhangi Naya' (seven-fold predication) using the prefix 'Syad' (relatively/perhaps).\n- Rejects absolutism (Ekantavada) in thought and speech.\n\nSignificance: It fosters intellectual tolerance, promotes peaceful resolution of philosophical disputes, and accommodates diverse viewpoints in social discourse."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन धर्म की 'स्याद्वाद' अवधारणा और इसके महत्व को स्पष्ट कीजिए। [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "स्याद्वाद जैन ज्ञानमीमांसा का सापेक्षतावादी सिद्धांत है। यह मानता है कि सभी ज्ञान और निर्णय सशर्त होते हैं, जो केवल एक विशेष दृष्टिकोण से ही सत्य होते हैं।\n\nमुख्य बिंदु:\n- यह 'स्यात्' (सापेक्ष रूप से) उपसर्ग का उपयोग करके 'सप्तभंगी नय' (सात गुना कथन) को तैयार करता है।\n- यह विचारों और वाणी में एकांतवाद (कठोरता) को खारिज करता है।\n\nमहत्व: यह बौद्धिक सहिष्णुता को बढ़ावा देता है, दार्शनिक विवादों के शांतिपूर्ण समाधान को प्रोत्साहित करता है, और सामाजिक संवाद में विविध दृष्टिकोणों को स्थान देता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the Jain doctrine of Karma and the path to liberation (Moksha) as prescribed in Jain philosophy. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "In Jain philosophy, Karma is conceptualized as subtle material matter (karma-pudgala) that flows into and binds the soul due to passions and actions. Liberation (Moksha) is the complete shedding of these karmic particles, restoring the soul to its natural state of infinite knowledge and bliss.\n\nThe process of bondage and liberation is structured as follows:\n\n| Stage | Technical Name | Description |\n| :--- | :--- | :--- |\n| 1. Influx | Asrava | Flow of karmic matter into the soul caused by physical/mental activities. |\n| 2. Bondage | Bandha | Clinging of karmic particles to the soul due to attachment and ignorance. |\n| 3. Stoppage | Samvara | Arresting the influx of fresh karmic matter through self-restraint and vows. |\n| 4. Shedding | Nirjara | Burning away of accumulated karma through internal and external austerities. |\n| 5. Liberation | Moksha | Complete freedom of the soul from karmic bondage, achieving Kaivalya. |\n\nThis path is traversed by practicing the **Three Jewels (Triratna)**: Right Faith (Samyak Darshana), Right Knowledge (Samyak Jnana), and Right Conduct (Samyak Charitra), underpinned by the strict observance of the Five Great Vows (Pancha Mahavrata)."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. जैन दर्शन में निर्धारित कर्म के सिद्धांत और मोक्ष (मुक्ति) के मार्ग का वर्णन कीजिए। [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "जैन दर्शन में, कर्म को सूक्ष्म भौतिक पुद्गल (कर्म-पुद्गल) के रूप में देखा जाता है जो राग, द्वेष और प्रवृत्तियों के कारण आत्मा में प्रवेश कर उसे बांधता है। मोक्ष इन कर्म पुद्गलों का आत्मा से पूर्णतः समाप्त हो जाना है, जिससे आत्मा अपने मूल स्वरूप (अनंत ज्ञान और आनंद) को पुनः प्राप्त कर लेती है।\n\nकर्म बंधन और मुक्ति की प्रक्रिया को निम्न तालिका में समझा जा सकता है:\n\n| चरण | तकनीकी नाम | विवरण |\n| :--- | :--- | :--- |\n| 1. प्रवेश | आस्रव | मन, वचन और काया की प्रवृत्तियों से कर्म पुद्गलों का आत्मा की ओर प्रवाह। |\n| 2. बंधन | बंध | अज्ञानता और आसक्ति के कारण कर्म पुद्गलों का आत्मा से चिपक जाना। |\n| 3. रोकना | संवर | आत्म-संयम और नैतिक व्रतों द्वारा नए कर्मों के प्रवेश को रोकना। |\n| 4. निर्जरा | निर्जरा | तपस्या और ध्यान के माध्यम से संचित कर्मों को नष्ट करना। |\n| 5. मुक्ति | मोक्ष | कर्म बंधनों से आत्मा की पूर्ण मुक्ति और केवल ज्ञान की प्राप्ति। |\n\nइस मार्ग को **त्रिरत्न** (सम्यक दर्शन, सम्यक ज्ञान, सम्यक चरित्र) के अभ्यास और पंच महाव्रतों के कठोर पालन द्वारा प्राप्त किया जा सकता है।"
+    }
+  ]
+}

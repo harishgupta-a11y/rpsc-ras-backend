@@ -1,0 +1,204 @@
+{
+  "mainsQuestions": [
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the three main types of Shikharas found in the Nagara style of temple architecture. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Nagara style of temple architecture in Northern India features three distinct types of Shikharas (towers):\n- **Rekha-Prasada (Latina):** A simple, square base with walls curving inward to a point at the top.\n- **Phamsana:** Broader and shorter towers made of multiple slabs gliding horizontally on a straight incline.\n- **Valabhi:** Rectangular chambers with a barrel-vaulted roof, resembling a wagon vault.\nThus, these diverse shikhara types reflect the architectural evolution and regional adaptations within the Nagara style."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागर शैली की मंदिर वास्तुकला में पाए जाने वाले तीन मुख्य प्रकार के शिखरों की चर्चा कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "उत्तर भारत की नागर शैली की मंदिर वास्तुकला में तीन विशिष्ट प्रकार के शिखर पाए जाते हैं:\n- **रेखा-प्रसाद (लैटिना):** एक चौकोर आधार वाला सरल शिखर, जिसकी दीवारें ऊपर की ओर एक बिंदु पर वक्राकार रूप में मिलती हैं।\n- **फामसाना:** यह चौड़े और कम ऊंचे शिखर होते हैं, जिनमें कई क्षैतिज स्लैब एक सीधी ढलान पर ऊपर की ओर उठते हैं।\n- **वलभी:** आयताकार कक्ष जिन पर बैलगाड़ी के आकार की गुंबददार छत (अर्ध-गोलाकार) होती है।\nइस प्रकार, ये विभिन्न शिखर प्रकार नागर शैली के अंतर्गत स्थापत्य के विकास और क्षेत्रीय अनुकूलन को दर्शाते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Highlight the prominent architectural features of the Vimana in Dravida temple architecture. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Vimana is the central tower-like structure over the garbhagriha in Dravida style temples. Its key features include:\n- **Pyramidal Structure:** It rises geometrically in step-like stories (talas) rather than curving inwards like the Nagara Shikhara.\n- **Crowning Element:** It is capped by a dome-shaped octagon called the Shikhara (equivalent to the Amalaka of Nagara style).\n- **Monolithic Apex:** The top portion is usually carved from a single stone block.\nUltimately, the Vimana represents the ascending spiritual axis and dominates the southern temple landscape."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्रविड़ मंदिर वास्तुकला में विमान (Vimana) की प्रमुख स्थापत्य विशेषताओं पर प्रकाश डालिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "द्रविड़ शैली के मंदिरों में गर्भगृह के ऊपर स्थित केंद्रीय मीनार जैसी संरचना को 'विमान' कहा जाता है। इसकी प्रमुख विशेषताएँ हैं:\n- **पिरामिडाकार संरचना:** यह नागर शिखर की तरह अंदर की ओर वक्राकार होने के बजाय ज्यामितीय रूप से सीढ़ीदार मंजिलों (तलों) में ऊपर उठता है।\n- **शीर्ष तत्व:** इसके शीर्ष पर एक गुंबददार अष्टकोणीय संरचना होती है जिसे 'शिखर' कहा जाता है (जो नागर शैली के आमलक के समकक्ष है)।\n- **एकल शिलाखंड का शीर्ष:** इसका सबसे ऊपरी भाग प्रायः एक ही पत्थर को तराश कर बनाया जाता है।\nअंततः, विमान बढ़ते हुए आध्यात्मिक अक्ष का प्रतिनिधित्व करता है और दक्षिणी मंदिर परिदृश्य पर हावी रहता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the hybrid nature of the Vesara style of temple architecture. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Vesara style, also known as the Deccan style, represents a hybrid architectural form. It emerged under the patronage of the Chalukyas of Badami:\n- **Synthesis of Styles:** It combines the decorative elements and spire design of the Northern Nagara style with the step-tiered Vimana of the Southern Dravida style.\n- **Structural Elements:** While the ground plan (such as stellar plans) resembles Dravida temples, the profile of the superstructure shows Nagara influence.\nHence, Vesara served as a creative bridge blending regional idioms of Indian temple architecture."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मंदिर वास्तुकला की वेसर शैली की मिश्रित/संकरण प्रकृति को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "वेसर शैली, जिसे दक्कन शैली भी कहा जाता है, एक मिश्रित स्थापत्य कला का प्रतिनिधित्व करती है। इसका विकास बादामी के चालुक्यों के संरक्षण में हुआ:\n- **शैलियों का संश्लेषण:** यह उत्तर भारत की नागर शैली के सजावटी तत्वों और शिखर डिजाइन को दक्षिण भारत की द्रविड़ शैली के सीढ़ीदार विमान के साथ जोड़ती है।\n- **संरचनात्मक तत्व:** यद्यपि इसका भूमि विन्यास (जैसे कि तारांकित योजना) द्रविड़ मंदिरों जैसा दिखता है, लेकिन इसके ऊपरी ढांचे की रूपरेखा पर नागर प्रभाव दिखाई देता है।\nअतः, वेसर शैली ने भारतीय मंदिर वास्तुकला के क्षेत्रीय रूपों को मिलाने वाले एक रचनात्मक सेतु के रूप में कार्य किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. State the religious and architectural significance of the Garbhagriha in ancient Indian temples. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Garbhagriha (sanctum sanctorum) is the innermost chamber of a Hindu temple:\n- **Religious Core:** It houses the principal deity of the temple and is the focal point for worship and rituals.\n- **Architectural Design:** Traditionally designed as a dark, unadorned square chamber to foster focused meditation and spiritual connection.\n- **Access:** Only priests are allowed inside, while devotees view the deity from the entrance threshold.\nIn summary, it symbolizes the womb of the universe and the spiritual source of divine energy."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय मंदिरों में गर्भगृह के धार्मिक और स्थापत्य महत्व को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "गर्भगृह हिंदू मंदिर का सबसे आंतरिक कक्ष होता है:\n- **धार्मिक केंद्र:** यह मंदिर के मुख्य देवता का निवास स्थान होता है और पूजा एवं अनुष्ठानों का मुख्य केंद्र बिंदु है।\n- **स्थापत्य प्रारूप:** एकाग्र ध्यान और आध्यात्मिक जुड़ाव को बढ़ावा देने के लिए इसे पारंपरिक रूप से एक अंधेरे, बिना सजावट वाले चौकोर कक्ष के रूप में डिज़ाइन किया जाता है।\n- **प्रवेश:** इसके अंदर केवल पुजारियों को जाने की अनुमति होती है, जबकि श्रद्धालु प्रवेश द्वार की चौखट से देवता के दर्शन करते हैं।\nसंक्षेप में, यह ब्रह्मांड के गर्भ और दिव्य ऊर्जा के आध्यात्मिक स्रोत का प्रतीक है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Analyze the architectural function and evolution of Mandapas in ancient temples. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Mandapa is a pillared hall or pavilion in Hindu temple architecture:\n- **Functional Utility:** It serves as a gathering space for devotees to perform prayers, witness dances, and participate in assemblies.\n- **Evolution:** Initially constructed as detached structures (under Pallavas), they later integrated directly with the Garbhagriha via an Antarala (vestibule).\n- **Categorization:** Larger temples often feature multiple mandapas, categorized as Ardha-mandapa, Maha-mandapa, and Nata-mandapa.\nUltimately, mandapas transitioned temples from simple ritual shrines to vibrant community hubs."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन मंदिरों में मंडपों के स्थापत्य कार्य और विकास का विश्लेषण कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "हिंदू मंदिर वास्तुकला में मंडप एक स्तंभों वाला हॉल या मण्डप होता है:\n- **कार्यात्मक उपयोगिता:** यह भक्तों के लिए प्रार्थना करने, नृत्य देखने और सभाओं में भाग लेने के लिए एक एकत्रित होने का स्थान है।\n- **विकास:** प्रारंभ में ये पृथक संरचनाओं (पल्लवों के अधीन) के रूप में बनाए गए थे, बाद में इन्हें अंतराल (गलियारे) के माध्यम से सीधे गर्भगृह से जोड़ दिया गया।\n- **वर्गीकरण:** बड़े मंदिरों में अक्सर कई मंडप होते हैं, जिन्हें अर्ध-मंडप, महा-मंडप और नट-मंडप के रूप में वर्गीकृत किया जाता है।\nअंततः, मंडपों ने मंदिरों को सरल अनुष्ठान स्थलों से जीवंत सामुदायिक केंद्रों में बदल दिया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Describe the role and aesthetic features of Gopurams in Dravida style temples. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Gopurams are monumental, ornate entrance gateways typical of Dravidian temple complexes:\n- **Socio-Political Symbol:** Commissioned by kings to project political power and religious devotion, especially under the Vijayanagara Empire.\n- **Design:** Pyramidal in shape, heavily decorated with stucco sculptures of deities, mythological figures, and celestial beings.\n- **Aesthetic Scale:** They are often taller than the central Vimana, transforming the temple horizon.\nConsequently, Gopurams serve as grand thresholds demarcating the sacred temple precinct from the secular world."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. द्रविड़ शैली के मंदिरों में गोपुरमों की भूमिका और सौंदर्यपरक विशेषताओं का वर्णन कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "गोपुरम द्रविड़ शैली के मंदिर परिसरों की विशेषता वाले विशाल और अलंकृत प्रवेश द्वार हैं:\n- **सामाजिक-राजनीतिक प्रतीक:** राजाओं द्वारा राजनीतिक शक्ति और धार्मिक भक्ति को प्रदर्शित करने के लिए इनका निर्माण कराया जाता था, विशेष रूप से विजयनगर साम्राज्य के तहत।\n- **डिजाइन:** आकार में पिरामिडनुमा, जो देवताओं, पौराणिक आकृतियों और दिव्य जीवों की गारे की मूर्तियों से अत्यधिक सजे होते हैं।\n- **सौंदर्यपरक पैमाना:** ये अक्सर केंद्रीय विमान से ऊंचे होते हैं, जो मंदिर के क्षितिज को बदलते हैं।\nपरिणामस्वरूप, गोपुरम पवित्र मंदिर परिसर को धर्मनिरपेक्ष दुनिया से अलग करने वाले भव्य प्रवेश द्वार के रूप में कार्य करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the architectural significance of the Chandela School (Khajuraho Group of Temples). [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Chandela School is a distinct sub-type of the Nagara style developed in Central India (10th-11th century CE):\n- **Elevated Platforms:** Temples are built on high, solid masonry terraces (Jagati) without boundary walls.\n- **Interconnected Layout:** The Garbhagriha, Mandapa, and Ardhamandapa are linked, forming a single unified structure.\n- **Sensuous Sculptures:** Renowned for their intricate, erotic, and secular stone carvings representing daily life.\nThus, the Khajuraho temples represent the zenith of medieval Indian stone art and structural integration."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. चंदेल स्कूल (खजुराहो के मंदिर समूह) के स्थापत्य महत्व को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "चंदेल स्कूल मध्य भारत में (10वीं-11वीं शताब्दी ईस्वी) विकसित नागर शैली का एक विशिष्ट उप-प्रकार है:\n- **ऊंचे चबूतरे:** मंदिर बिना किसी सीमा दीवार के ऊंचे, ठोस चिनाई वाले चबूतरे (जगती) पर बनाए गए हैं।\n- **परस्पर जुड़ी योजना:** गर्भगृह, मंडप और अर्धमंडप एक दूसरे से जुड़े हुए हैं, जिससे एक एकीकृत संरचना बनती है।\n- **कामुक मूर्तियां:** ये दैनिक जीवन का प्रतिनिधित्व करने वाली अपनी जटिल, कामुक और धर्मनिरपेक्ष पत्थर की नक्काशी के लिए प्रसिद्ध हैं।\nइस प्रकार, खजुराहो के मंदिर मध्यकालीन भारतीय पाषाण कला और संरचनात्मक एकीकरण के चरमोत्कर्ष का प्रतिनिधित्व करते हैं।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Delineate the main components of the Odisha (Kalinga) School of temple architecture. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Kalinga style of temple architecture in Odisha is characterized by the following components:\n- **Deul:** The main sanctum tower, usually displaying a curvilinear Shikhara (Rekha Deul).\n- **Jagamohana:** The pillared assembly hall (equivalent to the Mandapa) with a pyramidal roof (Pidha Deul).\n- **Khakhara Deul:** A rectangular temple type with a barrel-roofed vault, usually dedicated to tantric goddesses.\nOverall, these components create a highly dramatic vertical silhouette, famously seen in the Sun Temple of Konark."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. ओडिशा (कलिंग) स्कूल ऑफ मंदिर वास्तुकला के मुख्य घटकों को रेखांकित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "ओडिशा की कलिंग शैली की मंदिर वास्तुकला निम्नलिखित घटकों द्वारा रेखांकित की जाती है:\n- **देउल (Deul):** मुख्य गर्भगृह की मीनार, जो आमतौर पर एक वक्ररेखीय शिखर (रेखा देउल) प्रदर्शित करती है।\n- **जगममोहन (Jagamohana):** पिरामिडनुमा छत (पीढ़ा देउल) वाला स्तंभयुक्त असेंबली हॉल (मंडप के समकक्ष)।\n- **खाखरा देउल (Khakhara Deul):** पीपेनुमा गुंबददार छत वाला एक आयताकार मंदिर प्रकार, जो आमतौर पर तांत्रिक देवियों को समर्पित होता है।\nकुल मिलाकर, ये घटक एक अत्यधिक नाटकीय ऊर्ध्वाधर रूपरेखा बनाते हैं, जैसा कि कोणार्क के सूर्य मंदिर में प्रसिद्ध रूप से देखा जाता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Write a short note on the Solanki School of temple architecture. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Developed in Gujarat and Rajasthan under Solanki rulers (11th-13th century CE), this Nagara sub-style is marked by:\n- **Step-wells (Kunds):** Temples, like the Modhera Sun Temple, feature a large, beautifully carved stepped water tank at the front.\n- **Ornate Pillars:** Interiors display highly decorative, archway toranas and intricately carved pillars.\n- **Material:** Extensive use of soft sandstone, basalt, and white marble (as seen in Dilwara temples).\nThus, the Solanki school is celebrated for its lavish interior ornamentation and unique water-structure integration."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. सोलंकी स्कूल ऑफ मंदिर वास्तुकला पर एक संक्षिप्त टिप्पणी लिखिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "सोलंकी शासकों के अधीन गुजरात और राजस्थान में (11वीं-13वीं शताब्दी ईस्वी) विकसित इस नागर उप-शैली की विशेषताएं हैं:\n- **बावड़ी (कुंड):** मोढेरा सूर्य मंदिर की तरह, इन मंदिरों के सामने एक बड़ा, खूबसूरती से तराशा गया सीढ़ीदार जलाशय होता है।\n- **अलंकृत स्तंभ:** आंतरिक भाग अत्यधिक सजावटी मेहराबदार तोरणों और जटिल नक्काशीदार स्तंभों को प्रदर्शित करते हैं।\n- **सामग्री:** नरम बलुआ पत्थर, बेसाल्ट और सफेद संगमरमर (जैसा कि दिलवाड़ा के मंदिरों में देखा जाता है) का व्यापक उपयोग।\nइस प्रकार, सोलंकी स्कूल अपने भव्य आंतरिक अलंकरण और अद्वितीय जल-संरचना एकीकरण के लिए प्रसिद्ध है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the architectural features and significance of the Shore Temple at Mahabalipuram. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Built by Pallava King Narasimhavarman II (Rajasimha) in the 8th century CE, the Shore Temple holds immense significance:\n- **Structural Shift:** It marks the transition from rock-cut cave temples to early structural stone temples in South India.\n- **Layout:** Houses three shrines, two dedicated to Shiva and one to Vishnu, designed to capture the first rays of the rising sun.\n- **Coastal Resilience:** Constructed with granite blocks to withstand harsh coastal erosion.\nIn conclusion, it stands as a pioneer of Dravidian structural architecture and a UNESCO World Heritage site."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. महाबलीपुरम के शोर मंदिर (तटीय मंदिर) की स्थापत्य विशेषताओं और महत्व को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "8वीं शताब्दी ईस्वी में पल्लव राजा नरसिंहवर्मन द्वितीय (राजसिंह) द्वारा निर्मित शोर मंदिर अत्यधिक महत्व रखता है:\n- **संरचनात्मक बदलाव:** यह दक्षिण भारत में रॉक-कट गुफा मंदिरों से प्रारंभिक संरचनात्मक पाषाण मंदिरों की ओर संक्रमण का प्रतीक है।\n- **विन्यास:** इसमें तीन गर्भगृह शामिल हैं, दो शिव को और एक विष्णु को समर्पित है, जिन्हें उगते सूर्य की पहली किरणों को ग्रहण करने के लिए डिज़ाइन किया गया है।\n- **तटीय लचीलापन:** कठोर तटीय क्षरण का सामना करने के लिए इसका निर्माण ग्रेनाइट पत्थरों से किया गया है।\nनिष्कर्षतः, यह द्रविड़ संरचनात्मक वास्तुकला के अग्रदूत और यूनेस्को की विश्व धरोहर स्थल के रूप में खड़ा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Differentiate between Antarala and Jagati in Hindu temple plans. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Antarala and Jagati represent two distinct functional elements in Hindu temple plans:\n- **Antarala (Vestibule):** A small transition passage or antechamber connecting the main assembly hall (Mandapa) with the sanctum sanctorum (Garbhagriha).\n- **Jagati (Platform):** A raised, elevated stone platform or terrace upon which the entire temple structure is constructed, typical in Nagara temples.\nConclusively, while the Jagati serves as the structural foundation, the Antarala serves as a spiritual transit corridor."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. hindu mandir yojnao me 'antarala' aur 'jagati' ke beech antar spasht kijiye. [5 Marks, 50 Words]\n\nउत्तर:",
+      "model_answer": "हिंदू मंदिर योजनाओं में अंतराल और जगती दो अलग-अलग कार्यात्मक तत्वों का प्रतिनिधित्व करते हैं:\n- **अंतराल (गलियारा):** मुख्य सभा कक्ष (मंडप) को गर्भगृह से जोड़ने वाला एक छोटा संक्रमण मार्ग या मध्य कक्ष।\n- **जगती (चबूतरा):** एक ऊंचा उठा हुआ पत्थर का चबूतरा या मंच जिस पर पूरे मंदिर का ढांचा बनाया जाता है, जो नागर शैली में आम है।\nनिष्कर्षतः, जहां जगती संरचनात्मक आधार के रूप में कार्य करती है, वहीं अंतराल एक आध्यात्मिक संक्रमण गलियारे के रूप में कार्य करता है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the concept of the Panchayatana layout in temple architecture. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "The Panchayatana is a highly structured layout design popular in Nagara temple architecture:\n- **Spatial Arrangement:** It consists of a central main shrine dedicated to the primary deity, surrounded by four smaller subsidiary shrines at the corners.\n- **Cruciform Ground Plan:** The overall layout often resembles a cross or a five-shrine matrix (like the Dashavatara Temple, Deogarh).\nThus, the Panchayatana scheme represents cosmic order and hierarchical spiritual devotion in physical space."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. मंदिर वास्तुकला में पंचायतन विन्यास/योजना की अवधारणा को स्पष्ट कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "पंचायतन नागर शैली की मंदिर वास्तुकला में लोकप्रिय एक अत्यधिक व्यवस्थित स्थापत्य प्रारूप है:\n- **स्थानिक व्यवस्था:** इसमें मुख्य देवता को समर्पित एक केंद्रीय मुख्य मंदिर होता है, जो कोनों पर स्थित चार छोटे सहायक मंदिरों से घिरा होता है।\n- **क्रूसीफॉर्म ग्राउंड प्लान:** इसका कुल विन्यास अक्सर एक क्रॉस या पांच-मंदिरों की मैट्रिक्स जैसा दिखता है (जैसे देवगढ़ का दशावतार मंदिर)।\nइस प्रकार, पंचायतन योजना भौतिक स्थान में ब्रह्मांडीय व्यवस्था और श्रेणीबद्ध आध्यात्मिक भक्ति का प्रतिनिधित्व करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Outline the exceptional features of the Kailashnath Temple (Cave 16) at Ellora. [5 Marks, 50 Words]\n\nAnswer:",
+      "model_answer": "Commissioned by Rashtrakuta King Krishna I in the 8th century CE, the Kailashnath Temple is a marvel of rock-cut engineering:\n- **Monolithic Sculpture:** Carved from a single basalt cliffside from top to bottom, removing over 200,000 tons of rock.\n- **Dravidian Influence:** Incorporates Dravidian Vimana, double-storied gateways, and elaborate sculptural panels depicting the Ramayana and Mahabharata.\n- **Drainage & Ventilation:** Possesses integrated drainage systems and air shafts.\nUltimately, it stands as the zenith of monolithic rock-cut architecture in ancient India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. एलोरा के कैलाशनाथ मंदिर (गुफा 16) की असाधारण विशेषताओं को रेखांकित कीजिए। [5 अंक, 50 शब्द]\n\nउत्तर:",
+      "model_answer": "8वीं शताब्दी ईस्वी में राष्ट्रकूट राजा कृष्ण प्रथम द्वारा निर्मित, कैलाशनाथ मंदिर चट्टान काटकर बनाई गई वास्तुकला का एक चमत्कार है:\n- **एकाश्म मूर्तिकला:** 2 लाख टन से अधिक चट्टानों को हटाकर ऊपर से नीचे की ओर एक ही बेसाल्ट चट्टान से तराशा गया है।\n- **द्रविड़ प्रभाव:** इसमें द्रविड़ विमान, दो मंजिला प्रवेश द्वार और रामायण व महाभारत को दर्शाने वाले विस्तृत मूर्तिकला पैनल शामिल हैं।\n- **जल निकासी व वेंटिलेशन:** इसमें एकीकृत जल निकासी व्यवस्था और वायु मार्ग शामिल हैं।\nअंततः, यह प्राचीन भारत में एकाश्म रॉक-कट वास्तुकला के चरमोत्कर्ष के रूप में खड़ा है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Contrast the Nagara and Dravida styles of ancient Indian temple architecture with respect to their design, layout, and structural elements. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Nagara and Dravida are the two major classical styles of ancient Indian temple architecture. Developed in Northern and Southern India respectively, they present distinct variations in layout, shape, and decoration.\n\n### Comparative Analysis of Nagara and Dravida Styles\n\n| Feature | Nagara Style (North India) | Dravida Style (South India) |\n| :--- | :--- | :--- |\n| **Shikhara/Vimana** | Curvilinear tower curving inward (Shikhara) topped by a circular Amalaka and Kalasha. | Pyramidal tower rising in steps (Vimana) topped by an octagonal Shikhara. |\n| **Boundary Wall** | Generally lacks boundary walls and elaborate entry gateways. | Enclosed by high boundary walls with monumental gateways called Gopurams. |\n| **Temple Tank** | Water tanks inside the temple complex are rare or optional. | Presence of a large sacred water tank (Kalyani) is an essential component. |\n| **Sanctum Entrance** | Guarded by Ganga and Yamuna river goddess sculptures. | Guarded by fierce guardian deities called Dwarapalas. |\n| **Base Platform** | Constructed on high stone platforms (Jagati). | Built closer to ground level on a low plinth (Adhisthana). |\n\nIn conclusion, while Nagara style emphasizes curvilinear verticality and integrated horizontal extensions, Dravida style prioritizes geometric symmetry, enclosed sacred zones, and monumental, multi-layered entry complexes."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. डिजाइन, विन्यास और संरचनात्मक तत्वों के संबंध में प्राचीन भारतीय मंदिर वास्तुकला की नागर और द्रविड़ शैलियों की तुलना कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "नागर और द्रविड़ प्राचीन भारतीय मंदिर वास्तुकला की दो प्रमुख शास्त्रीय शैलियाँ हैं। क्रमशः उत्तर और दक्षिण भारत में विकसित, ये योजना, आकार और सजावट में भिन्नता प्रस्तुत करती हैं।\n\n### नागर और द्रविड़ शैलियों का तुलनात्मक विश्लेषण\n\n| विशेषता | नागर शैली (उत्तर भारत) | द्रविड़ शैली (दक्षिण भारत) |\n| :--- | :--- | :--- |\n| **शिखर/विमान** | अंदर की ओर वक्राकार मीनार (शिखर) जिसके ऊपर गोलाकार आमलक और कलश होता है। | चरणों में ऊपर उठती पिरामिडाकार मीनार (विमान) जिसके ऊपर अष्टकोणीय शिखर होता है। |\n| **सीमा दीवार** | आमतौर पर सीमा दीवारों और विस्तृत प्रवेश द्वारों का अभाव होता है। | गोपुरम नामक विशाल प्रवेश द्वारों वाली ऊंची सीमा दीवारों से घिरा होता है। |\n| **मंदिर का तालाब** | मंदिर परिसर के अंदर पानी के तालाब दुर्लभ या वैकल्पिक होते हैं। | एक बड़े पवित्र जल कुंड (कल्याणी) की उपस्थिति एक आवश्यक घटक है। |\n| **गर्भगृह प्रवेश** | गंगा और यमुना नदी देवी की मूर्तियों द्वारा रक्षित। | द्वारपाल नामक उग्र रक्षक देवताओं की मूर्तियों द्वारा रक्षित। |\n| **आधार मंच** | ऊंचे पत्थर के चबूतरे (जगती) पर निर्मित। | कम ऊंचाई वाले चबूतरे (अधिष्ठान) पर जमीनी स्तर के करीब निर्मित। |\n\nनिष्कर्षतः, जहां नागर शैली वक्ररेखीय ऊर्ध्वाधरता और एकीकृत क्षैतिज विस्तार पर जोर देती है, वहीं द्रविड़ शैली ज्यामितीय समरूपता, घिरे हुए पवित्र क्षेत्रों और विशाल, बहुस्तरीय प्रवेश परिसरों को प्राथमिकता देती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Trace the evolution of the Vesara style of temple architecture under the Western Chalukyas, Rashtrakutas, and Hoysalas. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Vesara style of temple architecture flourished in the Deccan region between the 7th and 13th centuries CE. It evolved through the patronage of three key dynasties:\n\n1. **Early Western Chalukyas (Badami):**\n   - Initiated the style by experimenting with Nagara and Dravida ideas at Aihole, Pattadakal, and Badami.\n   - Key examples include the Durga Temple at Aihole (apsidal plan) and the Papanatha Temple at Pattadakal.\n\n2. **Rashtrakutas (8th-10th Century CE):**\n   - Added monumentality and introduced rock-cut masterworks.\n   - Developed shrines with Dravidian plans but incorporated northern-style decorative pillars and detailing, epitomized by the Kailash Temple at Ellora.\n\n3. **Hoysalas (11th-13th Century CE):**\n   - Achieved the zenith of this style, often classified as the 'Hoysala style'.\n   - Introduced the star-shaped (stellate) ground plan, soapstone (chloritic schist) for intricate carvings, and projecting mini-shrines.\n   - Notable examples are the Hoysaleswara Temple (Halebidu) and Chennakeshava Temple (Belur).\n\nThus, Vesara evolved from a transitional experiment to a highly baroque, sophisticated artistic tradition in the Deccan."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पश्चिमी चालुक्य, राष्ट्रकूट और होयसल राजवंशों के तहत वेसर शैली की मंदिर वास्तुकला के विकास को रेखांकित कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "दक्कन क्षेत्र में 7वीं और 13वीं शताब्दी ईस्वी के बीच वेसर शैली की मंदिर वास्तुकला का विकास हुआ। इसका विकास तीन प्रमुख राजवंशों के संरक्षण में हुआ:\n\n1. **प्रारंभिक पश्चिमी चालुक्य (बादमी):**\n   - उन्होंने ऐहोल, पट्टदकल और बादामी में नागर और द्रविड़ विचारों का प्रयोग करके इस शैली की शुरुआत की।\n   - मुख्य उदाहरणों में ऐहोल का दुर्गा मंदिर (अप्सराकार योजना) और पट्टदकल का पापनाथ मंदिर शामिल हैं।\n\n2. **राष्ट्रकूट (8वीं-10वीं शताब्दी ईस्वी):**\n   - उन्होंने वास्तुकला को विशालता प्रदान की और रॉक-कट कृतियों की शुरुआत की।\n   - द्रविड़ शैली के विन्यास वाले मंदिरों का विकास किया, लेकिन उत्तर भारतीय शैली के सजावटी स्तंभों को शामिल किया, जिसका उदाहरण एलोरा का कैलाश मंदिर है।\n\n3. **होयसल (11वीं-13वीं शताब्दी ईस्वी):**\n   - इस शैली के चरमोत्कर्ष पर पहुंचे, जिसे अक्सर 'होयसल शैली' के रूप में वर्गीकृत किया जाता है।\n   - तारांकित (नक्षत्र जैसी) योजना, जटिल नक्काशी के लिए सोपस्टोन (सैंडस्टोन की तुलना में नरम पत्थर) और प्रक्षेपित मिनी-मंदिरों की शुरुआत की।\n   - उल्लेखनीय उदाहरण होयसलेश्वर मंदिर (हेलिबीडु) और चेन्नाकेशव मंदिर (बेलूर) हैं।\n\nइस प्रकार, वेसर शैली दक्कन में एक संक्रमणकालीन प्रयोग से विकसित होकर एक अत्यधिक अलंकृत और परिष्कृत कलात्मक परंपरा बन गई।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Discuss the regional schools of Nagara temple architecture, highlighting the distinct features of the Odisha, Khajuraho, and Solanki schools. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Nagara style of temple architecture developed unique regional variations across Northern India. These variations are categorized into three main schools:\n\n### Comparison of Nagara Regional Schools\n\n| Regional School | Key Architectural Features | Prominent Examples |\n| :--- | :--- | :--- |\n| **Odisha (Kalinga) School** | - Walls are divided into sub-structures (Pagas). <br>- Curved spires (Rekha Deul) and stepped roofs (Jagamohana). <br>- No pillars in halls; iron beams used for support. | - Lingaraja Temple, Bhubaneswar <br>- Sun Temple, Konark |\n| **Khajuraho (Chandela) School** | - Built on high platforms (Jagati). <br>- Curvilinear towers rise progressively, mimicking mountain peaks. <br>- Elaborate erotic sculptures cover outer walls. | - Kandariya Mahadeva Temple <br>- Lakshmana Temple |\n| **Solanki School (Gujarat/Rajasthan)** | - Presence of step-wells (Kunds) near the entrance. <br>- Highly carved, decorative archways (Toranas). <br>- Polished soft stones or marble used. | - Sun Temple, Modhera <br>- Dilwara Temples, Mount Abu |\n\nIn conclusion, these schools demonstrate how the base Nagara template was adapted locally to accommodate regional aesthetic tastes, available geological materials, and ritual practices."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. नागर मंदिर वास्तुकला के क्षेत्रीय स्कूलों पर चर्चा कीजिए, जिसमें ओडिशा, खजुराहो और सोलंकी स्कूलों की विशिष्ट विशेषताओं को रेखांकित किया गया हो। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "उत्तर भारत में नागर शैली की मंदिर वास्तुकला में विभिन्न क्षेत्रीय विविधताएँ विकसित हुईं। इन विविधताओं को तीन मुख्य स्कूलों में वर्गीकृत किया गया है:\n\n### नागर क्षेत्रीय स्कूलों की तुलना\n\n| क्षेत्रीय स्कूल | प्रमुख स्थापत्य विशेषताएँ | प्रमुख उदाहरण |\n| :--- | :--- | :--- |\n| **ओडिशा (कलिंग) स्कूल** | - दीवारों को उप-संरचनाओं (पग) में विभाजित किया गया है। <br>- घुमावदार शिखर (रेखा देउल) और सीढ़ीदार छतें (जगममोहन)। <br>- हॉलों में स्तंभ नहीं हैं; सहारे के लिए लोहे के बीम का उपयोग। | - लिंगराज मंदिर, भुवनेश्वर <br>- सूर्य मंदिर, कोणार्क |\n| **खजुराहो (चंदेल) स्कूल** | - ऊंचे चबूतरे (जगती) पर निर्मित। <br>- वक्ररेखीय मीनारें उत्तरोत्तर ऊपर उठती हैं, जो पर्वत शिखरों की नकल करती हैं। <br>- बाहरी दीवारों पर जटिल कामुक मूर्तियां। | - कंदारिया महादेव मंदिर <br>- लक्ष्मण मंदिर |\n| **सोलंकी स्कूल (गुजरात/राजस्थान)** | - प्रवेश द्वार के पास सीढ़ीदार जलाशयों (कुंडों) की उपस्थिति। <br>- अत्यधिक नक्काशीदार, सजावटी मेहराब (तोरण)। <br>- पॉलिशदार मुलायम पत्थरों या संगमरमर का उपयोग। | - सूर्य मंदिर, मोढेरा <br>- दिलवाड़ा मंदिर, माउंट आबू |\n\nनिष्कर्षतः, ये स्कूल प्रदर्शित करते हैं कि कैसे बुनियादी नागर प्रारूप को क्षेत्रीय सौंदर्य अभिरुचि, उपलब्ध भौगोलिक सामग्रियों और धार्मिक प्रथाओं के अनुसार स्थानीय रूप से अनुकूलित किया गया था।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Trace the architectural evolution of the Dravida style from the Pallavas to the Imperial Cholas. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The Dravida style of temple architecture evolved continuously in South India from the 6th to the 13th century CE, reaching its zenith under the Pallavas and Cholas:\n\n1. **Pallava Phase (600–900 CE):**\n   - **Mahendra Group:** Rock-cut pillared halls (Mandapas) without structural elements.\n   - **Mamalla Group:** Monolithic rock-cut shrines called Rathas (e.g., Five Rathas, Mahabalipuram).\n   - **Rajasimha Group:** Transition to structural temples (e.g., Shore Temple, Kailasanatha Temple at Kanchipuram).\n\n2. **Imperial Chola Phase (900–1250 CE):**\n   - **Scale and Grandeur:** Temples became colossal stone complexes signifying imperial power.\n   - **Vimana Domination:** The Vimana reached historic heights, overshadowing the entrance gates (e.g., Brihadisvara Temple, Thanjavur rises to 66 meters).\n   - **Sculptural Mastery:** Elaborate bronze sculptures (Nataraja) and detailed relief works on stone walls.\n   - **Complex Enclosures:** Development of secondary shrines, water tanks, and early Gopurams.\n\nThus, Dravida architecture moved from humble cave shrines under the Pallavas to majestic, multi-functional imperial complexes under the Cholas."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. पल्लवों से लेकर शाही चोलों तक द्रविड़ शैली की वास्तुकला के विकास को रेखांकित कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "दक्षिण भारत में 6वीं से 13वीं शताब्दी ईस्वी तक द्रविड़ शैली की मंदिर वास्तुकला का निरंतर विकास हुआ, जो पल्लवों और चोलों के तहत अपने चरमोत्कर्ष पर पहुंचा:\n\n1. **पल्लव चरण (600–900 ईस्वी):**\n   - **महेंद्र समूह:** संरचनात्मक तत्वों के बिना चट्टान काटकर बनाए गए स्तंभों वाले हॉल (मंडप)।\n   - **मामल्ल समूह:** एकाश्म रॉक-कट मंदिर जिन्हें रथ कहा जाता है (जैसे पंच रथ, महाबलीपुरम)।\n   - **राजसिंह समूह:** संरचनात्मक मंदिरों की ओर संक्रमण (जैसे शोर मंदिर, कांचीपुरम का कैलाशनाथ मंदिर)।\n\n2. **शाही चोल चरण (900–1250 ईस्वी):**\n   - **पैमाना और भव्यता:** मंदिर शाही शक्ति को दर्शाने वाले विशाल पत्थर के परिसर बन गए।\n   - **विमान का प्रभुत्व:** विमान ऐतिहासिक ऊंचाइयों पर पहुंच गया, जिसने प्रवेश द्वारों को बौना कर दिया (जैसे तंजावुर का बृहदीश्वर मंदिर 66 मीटर तक ऊंचा है)।\n   - **मूर्तिकला की महारत:** विस्तृत कांस्य मूर्तियां (नटराज) और पत्थर की दीवारों पर विस्तृत नक्काशी कार्य।\n   - **जटिल बाड़े:** द्वितीयक मंदिरों, जलाशयों और प्रारंभिक गोपुरमों का विकास।\n\nइस प्रकार, द्रविड़ वास्तुकला पल्लवों के अधीन सामान्य गुफा मंदिरों से विकसित होकर चोलों के अधीन भव्य, बहु-कार्यात्मक शाही परिसरों में परिवर्तित हो गई।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. How did ancient Indian temple architecture reflect the socio-cultural and political power of contemporary dynasties? Explain with examples. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "In ancient India, temples were not merely religious centers; they functioned as mirrors of socio-cultural and political dynamics. Contemporary dynasties used temple architecture in several ways:\n\n- **Legitimization of Royalty:** Kings claimed divine association by naming deities after themselves. For example, the Brihadisvara Temple (Rajarajeswaram) built by Chola King Rajaraja I reinforced his authority as a divine agent.\n- **Economic Hubs:** Temples functioned as banks, major landholders, and employers. They collected land revenue and funded local trade, crafting a strong economic base.\n- **Display of Imperial Wealth:** The scale and material used reflected empire resource mobilization. The monolithic Kailash Temple at Ellora demonstrated the Rashtrakutas' ability to command massive labor and architectural genius.\n- **Centers of Art & Integration:** Through Sabha-mandapas and Nata-mandapas, temples patronized dance, music, and education, integrating society under a state-sponsored cultural umbrella.\n\nHence, temple building was a strategic tool that integrated political power, economic administration, and social cohesion under the banner of spiritual patronage."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्राचीन भारतीय मंदिर वास्तुकला ने तत्कालीन राजवंशों की सामाजिक-सांस्कृतिक और राजनीतिक शक्ति को किस प्रकार प्रतिबिंबित किया? उदाहरणों सहित स्पष्ट कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "प्राचीन भारत में, मंदिर केवल धार्मिक केंद्र नहीं थे; उन्होंने सामाजिक-सांस्कृतिक और राजनीतिक गतिविधियों के दर्पण के रूप में कार्य किया। तत्कालीन राजवंशों ने कई तरीकों से मंदिर वास्तुकला का उपयोग किया:\n\n- **शाही वैधता:** राजाओं ने देवताओं का नाम अपने नाम पर रखकर दिव्य संबंध का दावा किया। उदाहरण के लिए, चोल राजा राजराज प्रथम द्वारा निर्मित बृहदीश्वर मंदिर (राजराजेश्वरम) ने एक दिव्य एजेंट के रूप में उनके अधिकार को मजबूत किया।\n- **आर्थिक केंद्र:** मंदिरों ने बैंकों, प्रमुख भूस्वामियों और नियोक्ताओं के रूप में कार्य किया। उन्होंने भूमि राजस्व एकत्र किया और स्थानीय व्यापार को वित्तपोषित किया, जिससे एक मजबूत आर्थिक आधार तैयार हुआ।\n- **शाही धन का प्रदर्शन:** प्रयुक्त पैमाने और सामग्री ने साम्राज्य की संसाधन जुटाने की क्षमता को दर्शाया। एलोरा के एकाश्म कैलाश मंदिर ने विशाल श्रम और स्थापत्य प्रतिभा को नियंत्रित करने की राष्ट्रकूटों की क्षमता का प्रदर्शन किया।\n- **कला और एकीकरण के केंद्र:** सभा-मंडपों और नट-मंडपों के माध्यम से, मंदिरों ने नृत्य, संगीत और शिक्षा को संरक्षण दिया, जिससे समाज राज्य-प्रायोजित सांस्कृतिक छतरी के नीचे एकीकृत हुआ।\n\nइसलिए, मंदिर निर्माण एक रणनीतिक उपकरण था जिसने आध्यात्मिक संरक्षण के बैनर तले राजनीतिक शक्ति, आर्थिक प्रशासन और सामाजिक सद्भाव को एकीकृत किया।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Explain the layout and architectural characteristics of Hoysala temples, with special reference to the temples of Belur and Halebidu. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "Under the patronage of the Hoysala Empire (11th-14th centuries CE) in Karnataka, a unique, ornate sub-style of temple architecture emerged, characterized by its highly detailed craftsmanship. \n\n### Distinctive Architectural Characteristics of Hoysala Temples\n\n- **Stellate (Star-shaped) Plan:** The shrines are designed in a star pattern by rotating a square layout on its axis. This creates multiple projections and recesses, maximizing the wall space available for carving.\n- **Soapstone Material:** The use of chloritic schist (soapstone), which is soft when quarried but hardens upon exposure, allowed sculptors to execute intricate, jewelry-like details.\n- **Jagati (Raised Platform):** Temples are built on a high star-shaped platform, which serves as a pradakshina-patha (circumambulation path).\n- **Zigzag Layout of Walls:** The wall surfaces are broken into vertical panels decorated with friezes of elephants, horses, mythical beasts, and Puranic scenes.\n\n### Key Examples\n- **Chennakeshava Temple (Belur):** Known for its massive courtyard, complex bracket figures (Madanikas), and gravity-defying pillars.\n- **Hoysaleswara Temple (Halebidu):** A double-shrine (Dvikuta) temple famous for its intricate friezes and colossal monolithic Nandi sculptures.\n\nConsequently, Hoysala architecture represents the pinnacle of decorative stone craftsmanship in medieval India."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. बेलूर और हेलिबीडु के मंदिरों के विशेष संदर्भ में, होयसल मंदिरों के विन्यास और स्थापत्य विशेषताओं को स्पष्ट कीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "कर्नाटक में होयसल साम्राज्य (11वीं-14वीं शताब्दी ईस्वी) के संरक्षण में, मंदिर वास्तुकला की एक अनूठी, अलंकृत उप-शैली का उदय हुआ, जो अपनी अत्यधिक विस्तृत शिल्प कौशल के लिए जानी जाती है।\n\n### होयसल मंदिरों की विशिष्ट स्थापत्य विशेषताएँ\n\n- **तारांकित (नक्षत्र जैसी) योजना:** मंदिरों को अपने अक्ष पर एक चौकोर विन्यास को घुमाकर एक तारे के पैटर्न में डिज़ाइन किया गया है। यह कई उभार और खांचे बनाता है, जिससे नक्काशी के लिए उपलब्ध दीवार का स्थान अधिकतम हो जाता है।\n- **सोपस्टोन सामग्री:** क्लोरिटिक शिस्ट (सोपस्टोन) के उपयोग ने, जो खनन के समय नरम होता है लेकिन हवा के संपर्क में आने पर कठोर हो जाता है, मूर्तिकारों को आभूषणों जैसी जटिल नक्काशी करने की अनुमति दी।\n- **जगती (उठा हुआ चबूतरा):** मंदिर एक ऊंचे तारे के आकार के चबूतरे पर बनाए गए हैं, जो प्रदक्षिणा-पथ के रूप में कार्य करता है।\n- **दीवारों का ज़िगज़ैग विन्यास:** दीवार की सतहों को हाथियों, घोड़ों, पौराणिक जीवों और पौराणिक दृश्यों की पट्टियों से सजाए गए लंबवत पैनलों में विभाजित किया गया है।\n\n### प्रमुख उदाहरण\n- **चेन्नाकेशव मंदिर (बेलूर):** अपने विशाल प्रांगण, जटिल ब्रैकेट आकृतियों (मदनिकाओं) और गुरुत्वाकर्षण को चुनौती देने वाले स्तंभों के लिए जाना जाता है।\n- **Hoysaleswara Temple (Halebidu):** a double-shrine (Dvikuta) temple famous for its intricate friezes and colossal monolithic Nandi sculptures.\n\nपरिणामस्वरूप, होयसल वास्तुकला मध्यकालीन भारत में सजावटी पत्थर शिल्प कौशल के शिखर का प्रतिनिधित्व करती है।"
+    },
+    {
+      "lang": "EN",
+      "text": "Q. Detail the evolution of rock-cut temple architecture to structural temples in ancient India, focusing on key milestones and architectural transitions. [10 Marks, 150 Words]\n\nAnswer:",
+      "model_answer": "The transition from rock-cut caves to freestanding structural temples represents a significant milestone in ancient Indian architecture, shifting from subtractive carving to additive construction.\n\n### Key Transition Phases and Milestones\n\n- **Early Cave Architecture (3rd Century BCE - 5th Century CE):** \n  - Began with simple Buddhist Chaityas and Viharas (e.g., Barabar Caves, Karle).\n  - Early Hindu caves emerged under the Guptas (e.g., Udayagiri caves in Madhya Pradesh), displaying rock-cut relief panels.\n- **Monolithic Transition (7th Century CE):**\n  - The Pallavas bridged the gap with the Pancha Rathas at Mahabalipuram. These were carved out of single boulders, mimicking freestanding structural forms but technically remaining rock-cut.\n- **Early Structural Shrines (8th Century CE onwards):**\n  - The Shore Temple at Mahabalipuram and the Kailasanatha Temple at Kanchipuram utilized dressed stone blocks (granite and sandstone) for construction, establishing structural Dravidian templates.\n  - Simultaneously, the Gupta-era Dashavatara Temple (Deogarh) initiated Nagara structural templates using stone blocks on a raised plinth.\n\nUltimately, this transition allowed architects greater spatial freedom, enabling larger temple complexes with elaborate spires, mandapas, and enclosure walls."
+    },
+    {
+      "lang": "HI",
+      "text": "Q. प्रमुख मील के पत्थरों और स्थापत्य संक्रमणों पर ध्यान केंद्रित करते हुए, प्राचीन भारत में रॉक-कट (चट्टान काटकर बनाए गए) मंदिर वास्तुकला से संरचनात्मक मंदिरों की ओर विकास का विवरण दीजिए। [10 अंक, 150 शब्द]\n\nउत्तर:",
+      "model_answer": "रॉक-कट गुफाओं से मुक्त संरचनात्मक मंदिरों में संक्रमण प्राचीन भारतीय वास्तुकला में एक महत्वपूर्ण मील का पत्थर है, जो घटाव वाली नक्काशी से जोड़ या निर्माण आधारित पद्धति की ओर बदलाव को दर्शाता है।\n\n### प्रमुख संक्रमण चरण और मील के पत्थर\n\n- **प्रारंभिक गुफा वास्तुकला (तीसरी शताब्दी ईसा पूर्व - 5वीं शताब्दी ईस्वी):**\n  - सरल बौद्ध चैत्यों और विहारों (जैसे बराबर गुफाएं, कार्ले) के साथ शुरुआत हुई।\n  - गुप्त काल के तहत प्रारंभिक हिंदू गुफाओं का उदय हुआ (जैसे मध्य प्रदेश में उदयगिरि की गुफाएं), जो रॉक-कट नक्काशीदार पानालों को प्रदर्शित करती हैं।\n- **एकाश्म संक्रमण (7वीं शताब्दी ईस्वी):**\n  - पल्लव शासकों ने महाबलीपुरम में पंच रथों के साथ इस अंतर को पाटा। इन्हें एकल शिलाखंडों से तराशा गया था, जो स्वतंत्र रूप से निर्मित संरचनात्मक रूपों की नकल करते थे लेकिन तकनीकी रूप से रॉक-कट ही थे।\n- **प्रारंभिक संरचनात्मक मंदिर (8वीं शताब्दी ईस्वी से):**\n  - महाबलीपुरम के शोर मंदिर और कांचीपुरम के कैलाशनाथ मंदिर में निर्माण के लिए तराशे गए पत्थरों (ग्रेनाइट और बलुआ पत्थर) का उपयोग किया गया, जिसने द्रविड़ संरचनात्मक प्रारूपों को स्थापित किया।\n  - साथ ही, गुप्तकालीन दशावतार मंदिर (देवगढ़) ने एक ऊंचे चबूतरे पर पत्थर के ब्लॉकों का उपयोग करके नागर संरचनात्मक प्रारूपों की शुरुआत की।\n\nअंततः, इस संक्रमण ने वास्तुकारों को अधिक स्थानिक स्वतंत्रता दी, जिससे विस्तृत शिखरों, मंडपों और सीमा दीवारों वाले बड़े मंदिर परिसरों का निर्माण संभव हुआ।"
+    }
+  ]
+}
