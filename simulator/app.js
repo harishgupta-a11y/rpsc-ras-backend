@@ -3192,6 +3192,78 @@ function cleanSpeechText(text) {
     .trim();
 }
 
+function generateIntelligentExplanation(text, lang) {
+  const textLower = text.toLowerCase();
+  let theme = lang === 'HI' ? "दिए गए विषय" : "the given topic";
+  
+  if (textLower.includes('rajan') || textLower.includes('राजा')) {
+    theme = lang === 'HI' ? "ऋग्वैदिक काल में राजा या राजन की स्थिति और शक्तियों" : "the status and powers of the Rajan or King in the Rigvedic period";
+  } else if (textLower.includes('sabha') || textLower.includes('सभा')) {
+    theme = lang === 'HI' ? "वैदिक शासन में सभा की संरचना और लोकतांत्रिक विशेषताओं" : "the structure and democratic features of the Sabha assembly";
+  } else if (textLower.includes('samiti') || textLower.includes('समिति')) {
+    theme = lang === 'HI' ? "ऋग्वैदिक काल में समिति के गठन और राजनीतिक अधिकारों" : "the organization and political powers of the Samiti assembly";
+  } else if (textLower.includes('vidatha') || textLower.includes('विदथ')) {
+    theme = lang === 'HI' ? "वैदिक काल की सबसे प्राचीन सभा विदथ के सामाजिक और धार्मिक महत्व" : "the social and religious significance of the ancient Vidatha assembly";
+  } else if (textLower.includes('women') || textLower.includes('महिला') || textLower.includes('स्त्री')) {
+    theme = lang === 'HI' ? "ऋग्वैदिक समाज में महिलाओं की स्थिति और विदुषी महिलाओं के योगदान" : "the status of women and female scholars in Rigvedic society";
+  } else if (textLower.includes('gavisthi') || textLower.includes('गविष्टि')) {
+    theme = lang === 'HI' ? "गविष्टि शब्द के अर्थ और कबीलाई युद्धों में इसके सामाजिक निहितार्थों" : "the meaning of the term Gavisthi and its social implications in cattle raids";
+  } else if (textLower.includes('varna') || textLower.includes('वर्ण')) {
+    theme = lang === 'HI' ? "ऋग्वेद में वर्ण व्यवस्था के लचीलेपन और इसके विकास क्रम" : "the flexibility and evolution of the Varna system in the Rigveda";
+  } else if (textLower.includes('family') || textLower.includes('परिवार') || textLower.includes('कुल')) {
+    theme = lang === 'HI' ? "वैदिक काल में संयुक्त परिवार और गृहपति के अधिकारों की प्रकृति" : "the joint family structure and authority of the Grihapati in early Vedic society";
+  } else if (textLower.includes('rta') || textLower.includes('ऋत')) {
+    theme = lang === 'HI' ? "ऋत की नैतिक अवधारणा और सृष्टि के प्राकृतिक नियमों" : "the ethical concept of Rta and cosmic natural order in the Rigveda";
+  } else if (textLower.includes('ashoka') || textLower.includes('अशोक')) {
+    theme = lang === 'HI' ? "महान सम्राट अशोक की धम्म नीति और कल्याणकारी राज्य के सिद्धांतों" : "the Dhamma policy of Emperor Ashoka the Great and its moral principles";
+  } else if (textLower.includes('chola') || textLower.includes('चोल')) {
+    theme = lang === 'HI' ? "चोल साम्राज्य के नौसैनिक बल और स्थानीय स्वशासन प्रणाली" : "the local self-government system and naval dominance of the Chola Dynasty";
+  } else if (textLower.includes('temple') || textLower.includes('मंदिर') || textLower.includes('architecture')) {
+    theme = lang === 'HI' ? "प्राचीन भारत की नागर, द्रविड़ और वेसर मंदिर शैलियों" : "the Nagara, Dravida, and Vesara temple architecture styles of ancient India";
+  } else if (textLower.includes('cave') || textLower.includes('गुफा') || textLower.includes('ajanta')) {
+    theme = lang === 'HI' ? "अजंता और एलोरा की गुफाओं और भित्ति चित्रकला की विशेषताओं" : "the rock-cut architecture and mural paintings of Ajanta and Ellora caves";
+  } else if (textLower.includes('science') || textLower.includes('विज्ञान') || textLower.includes('mathematics')) {
+    theme = lang === 'HI' ? "प्राचीन भारत में गणित, खगोल विज्ञान और चिकित्सा के विकास" : "the scientific development in mathematics, astronomy, and medicine in ancient India";
+  }
+
+  if (lang === 'HI') {
+    return `आइए इस प्रश्न को समझते हैं। इसमें आपसे ${theme} के बारे में पूछा गया है। इस उत्तर में, हम इसके प्रमुख पहलुओं को बिंदुवार तरीके से प्रस्तुत करेंगे ताकि आप परीक्षा में अधिकतम अंक प्राप्त कर सकें। आइए उत्तर को धीरे-धीरे और स्पष्ट रूप से सुनते हैं।`;
+  } else {
+    return `Let's analyze this question. It asks you to discuss ${theme}. The model answer breaks this down into key structured arguments, including background context and core dimensions. Let's listen to the model answer slowly and clearly, word by word.`;
+  }
+}
+
+function speakAnswerSlowly(sentences, index, voice, lang, callback) {
+  if (appState.voiceMuted || !isVoiceReading) return;
+  if (index >= sentences.length) {
+    if (callback) callback();
+    return;
+  }
+
+  const sentence = sentences[index].trim();
+  if (!sentence) {
+    speakAnswerSlowly(sentences, index + 1, voice, lang, callback);
+    return;
+  }
+
+  const utterance = new SpeechSynthesisUtterance(sentence);
+  if (voice) utterance.voice = voice;
+  utterance.lang = lang === 'HI' ? 'hi-IN' : 'en-IN';
+  utterance.rate = 0.72; // Slow, word-by-word pacing
+
+  utterance.onend = () => {
+    speechTimeoutTimer = setTimeout(() => {
+      speakAnswerSlowly(sentences, index + 1, voice, lang, callback);
+    }, 1200); // 1.2 seconds pause between sentences
+  };
+
+  utterance.onerror = () => {
+    speakAnswerSlowly(sentences, index + 1, voice, lang, callback);
+  };
+
+  window.speechSynthesis.speak(utterance);
+}
+
 function runVoiceReading(q, isMains) {
   cleanVoiceEngine();
   if (appState.voiceMuted) return;
@@ -3211,27 +3283,29 @@ function runVoiceReading(q, isMains) {
     if (appState.voiceMuted || !isVoiceReading) return;
 
     if (isMains) {
-      // 3. True Teacher Explainer
-      const teacherIntro = currentLang === 'HI' 
-        ? "यह प्रश्न परीक्षा के दृष्टिकोण से महत्वपूर्ण है। आइए इस उत्तर के मुख्य संक्षेप और संदर्भ को आसान भाषा में समझते हैं।"
-        : "This question is important from an exam perspective. Let's understand the main brief and context of this answer in simple language.";
-      
+      // 1. Generate Intelligent Explanation
+      const teacherIntro = generateIntelligentExplanation(cleanQText, currentLang);
       const introUtterance = new SpeechSynthesisUtterance(teacherIntro);
       if (voice) introUtterance.voice = voice;
       introUtterance.lang = currentLang === 'HI' ? 'hi-IN' : 'en-IN';
 
       introUtterance.onend = () => {
-        // Conversational 0.8-second breaks to separate the overview introduction
         speechTimeoutTimer = setTimeout(() => {
           if (appState.voiceMuted || !isVoiceReading) return;
           const cleanAns = cleanSpeechText(q.model_answer);
-          const ansUtterance = new SpeechSynthesisUtterance(cleanAns);
-          if (voice) ansUtterance.voice = voice;
-          ansUtterance.lang = currentLang === 'HI' ? 'hi-IN' : 'en-IN';
-          ansUtterance.onend = () => {
+          
+          // Split answer by sentences for slow sequential reading
+          const sentences = cleanAns.split(/([.।?])/).reduce((acc, part, i, arr) => {
+            if (i % 2 === 0) {
+              const punctuation = arr[i + 1] || '';
+              acc.push(part + punctuation);
+            }
+            return acc;
+          }, []);
+
+          speakAnswerSlowly(sentences, 0, voice, currentLang, () => {
             isVoiceReading = false;
-          };
-          window.speechSynthesis.speak(ansUtterance);
+          });
         }, 800);
       };
       window.speechSynthesis.speak(introUtterance);
