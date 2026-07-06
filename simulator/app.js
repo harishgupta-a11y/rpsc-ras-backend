@@ -68,6 +68,9 @@ function logAdmin(message) {
 
 // 1. Navigation Flow Controller
 function navigateToScreen(viewId) {
+  // Reset audio speech and mic recognition on screen transitions
+  cleanVoiceEngine();
+
   logSystem(`Transitioning state to screen: ${viewId}`);
 
   // Enforce Subscription Gatekeeper on state transitions (except paywall login)
@@ -837,6 +840,9 @@ function showQuestion(index) {
 
   const q = appState.activeQuizQuestions[index];
   qText.innerText = q.question_text;
+  
+  // Trigger speech voice reading layer
+  runVoiceReading(q, isMains);
   
   const skipBtn = document.getElementById('quiz-btn-skip');
   const clock = document.getElementById('quiz-timer-clock');
@@ -3043,9 +3049,278 @@ function updateScreenshotUI(allowScreenshots) {
 document.addEventListener('DOMContentLoaded', () => {
   initSimulatorServerConfig();
   initScreenshotSetting();
+  initVoiceToggleUI();
 });
 // Fallback in case DOMContentLoaded already fired
 if (document.readyState === 'complete' || document.readyState === 'interactive') {
   initSimulatorServerConfig();
   initScreenshotSetting();
+  initVoiceToggleUI();
 }
+
+// ==========================================
+// ADVANCED WEB SPEECH API VOICE LAYER
+// ==========================================
+appState.voiceMuted = localStorage.getItem('sim_voice_muted') === 'true';
+let voiceRecognition = null;
+let speechTimeoutTimer = null;
+let isVoiceReading = false;
+
+// Global UI Toggle
+function toggleVoiceOutput() {
+  appState.voiceMuted = !appState.voiceMuted;
+  localStorage.setItem('sim_voice_muted', appState.voiceMuted ? 'true' : 'false');
+  const btn = document.getElementById('voice-toggle-btn');
+  if (btn) {
+    btn.innerText = appState.voiceMuted ? '🔇 Voice: Off' : '🔊 Voice: On';
+    btn.style.background = appState.voiceMuted ? 'rgba(239,68,68,0.15)' : 'rgba(56, 189, 248, 0.15)';
+    btn.style.borderColor = appState.voiceMuted ? '#EF4444' : 'var(--color-primary)';
+  }
+  if (appState.voiceMuted) {
+    cleanVoiceEngine();
+  } else {
+    // If inside test screen, trigger voice reading of current question
+    if (appState.currentView === 'view-quiz') {
+      showQuestion(appState.currentQuestionIndex);
+    }
+  }
+}
+
+function cleanVoiceEngine() {
+  logSystem("[Voice] Resetting and cleaning up Web Speech API engine...");
+  try {
+    window.speechSynthesis.cancel();
+  } catch (e) {}
+  if (voiceRecognition) {
+    try {
+      voiceRecognition.onresult = null;
+      voiceRecognition.onend = null;
+      voiceRecognition.onerror = null;
+      voiceRecognition.stop();
+    } catch (e) {}
+    voiceRecognition = null;
+  }
+  if (speechTimeoutTimer) {
+    clearTimeout(speechTimeoutTimer);
+    speechTimeoutTimer = null;
+  }
+  isVoiceReading = false;
+}
+
+function getIndianVoice() {
+  const voices = window.speechSynthesis.getVoices();
+  // Target Native Google Hindi or hi-IN voice agent profile
+  let voice = voices.find(v => v.lang === 'hi-IN' && v.name.includes('Google'));
+  if (voice) return voice;
+  voice = voices.find(v => v.lang === 'hi-IN');
+  if (voice) return voice;
+  // Fallback to Indian English voice agent
+  voice = voices.find(v => v.lang.startsWith('en-IN') || v.name.includes('India') || v.name.includes('Indian'));
+  if (voice) return voice;
+  // General Hindi fallback
+  voice = voices.find(v => v.lang.startsWith('hi'));
+  if (voice) return voice;
+  return null;
+}
+
+// Clean question and answer texts of raw structural markers
+function cleanSpeechText(text) {
+  if (!text) return "";
+  return text
+    .replace(/^(Q\.|Q\d+[:\.]?|प्र\.|प्रश्न\s*\d*[:\.]?)\s*/i, '') // Q: Q1. etc
+    .replace(/(?:A\)\s*.*?|B\)\s*.*?|C\)\s*.*?|D\)\s*.*?)$/g, '') // Options if any appended in test
+    .replace(/\s*[A-D]\)\s*/g, ' ') // letters
+    .replace(/\s*Answer:\s*/i, ' ')
+    .replace(/\s*उत्तर:\s*/i, ' ')
+    .trim();
+}
+
+function runVoiceReading(q, isMains) {
+  cleanVoiceEngine();
+  if (appState.voiceMuted) return;
+
+  const currentLang = appState.language || 'EN';
+  const cleanQText = cleanSpeechText(q.question_text || q.text);
+  let voice = getIndianVoice();
+
+  isVoiceReading = true;
+
+  // Speak Question
+  const qUtterance = new SpeechSynthesisUtterance(cleanQText);
+  if (voice) qUtterance.voice = voice;
+  qUtterance.lang = currentLang === 'HI' ? 'hi-IN' : 'en-IN';
+  
+  qUtterance.onend = () => {
+    if (appState.voiceMuted || !isVoiceReading) return;
+
+    if (isMains) {
+      // 3. True Teacher Explainer
+      const teacherIntro = currentLang === 'HI' 
+        ? "यह प्रश्न परीक्षा के दृष्टिकोण से महत्वपूर्ण है। आइए इस उत्तर के मुख्य संक्षेप और संदर्भ को आसान भाषा में समझते हैं।"
+        : "This question is important from an exam perspective. Let's understand the main brief and context of this answer in simple language.";
+      
+      const introUtterance = new SpeechSynthesisUtterance(teacherIntro);
+      if (voice) introUtterance.voice = voice;
+      introUtterance.lang = currentLang === 'HI' ? 'hi-IN' : 'en-IN';
+
+      introUtterance.onend = () => {
+        // Conversational 0.8-second breaks to separate the overview introduction
+        speechTimeoutTimer = setTimeout(() => {
+          if (appState.voiceMuted || !isVoiceReading) return;
+          const cleanAns = cleanSpeechText(q.model_answer);
+          const ansUtterance = new SpeechSynthesisUtterance(cleanAns);
+          if (voice) ansUtterance.voice = voice;
+          ansUtterance.lang = currentLang === 'HI' ? 'hi-IN' : 'en-IN';
+          ansUtterance.onend = () => {
+            isVoiceReading = false;
+          };
+          window.speechSynthesis.speak(ansUtterance);
+        }, 800);
+      };
+      window.speechSynthesis.speak(introUtterance);
+
+    } else {
+      // MCQ Mode: Start silence reminder (6 seconds)
+      isVoiceReading = false;
+      startSilenceTimer(currentLang, voice);
+    }
+  };
+
+  window.speechSynthesis.speak(qUtterance);
+
+  // Instant Always-On Microphone activation
+  startSpeechRecognition(isMains);
+}
+
+function startSilenceTimer(currentLang, voice) {
+  if (speechTimeoutTimer) clearTimeout(speechTimeoutTimer);
+  speechTimeoutTimer = setTimeout(() => {
+    if (appState.voiceMuted || appState.currentView !== 'view-quiz') return;
+    
+    const reminderText = currentLang === 'HI' 
+      ? "उत्तर दें या अगला सवाल बोलें" 
+      : "Ans de ya next bole";
+      
+    const reminderUtterance = new SpeechSynthesisUtterance(reminderText);
+    if (voice) reminderUtterance.voice = voice;
+    reminderUtterance.lang = 'hi-IN'; // Force Hindi voice agent to speak it casually
+    
+    reminderUtterance.onend = () => {
+      // Keep listening by restarting recognition if stopped
+      if (appState.currentView === 'view-quiz' && !appState.voiceMuted) {
+        startSpeechRecognition(false);
+      }
+    };
+    window.speechSynthesis.speak(reminderUtterance);
+  }, 6000);
+}
+
+function startSpeechRecognition(isMains) {
+  if (appState.voiceMuted || appState.currentView !== 'view-quiz') return;
+
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    logSystem("[Voice Warning] SpeechRecognition is not supported in this browser.");
+    return;
+  }
+
+  if (voiceRecognition) {
+    try { voiceRecognition.stop(); } catch(e) {}
+  }
+
+  voiceRecognition = new SpeechRecognition();
+  voiceRecognition.continuous = true;
+  voiceRecognition.interimResults = false;
+  voiceRecognition.lang = appState.language === 'HI' ? 'hi-IN' : 'en-IN';
+
+  voiceRecognition.onresult = (event) => {
+    const transcript = event.results[event.results.length - 1][0].transcript.trim().toLowerCase();
+    logSystem(`[Voice Recognition] Transcript: "${transcript}"`);
+
+    if (isMains) {
+      // True Skip commands
+      const skipCommands = ["next", "forward", "अगला", "आगे"];
+      if (skipCommands.some(cmd => transcript.includes(cmd))) {
+        logSystem("[Voice Command] Skip / Next detected. Transitioning question...");
+        cleanVoiceEngine();
+        const nextBtn = document.getElementById('quiz-btn-next');
+        const submitBtn = document.getElementById('quiz-btn-submit');
+        if (nextBtn && !nextBtn.classList.contains('hidden')) {
+          nextBtn.click();
+        } else if (submitBtn && !submitBtn.classList.contains('hidden')) {
+          submitBtn.click();
+        }
+      }
+    } else {
+      // MCQ Mode Option matcher
+      let matchedLetter = null;
+      
+      const optAPatterns = ["a", "option a", "ए", "ऑप्शन ए", "apple", "one", "hey", "eh"];
+      const optBPatterns = ["b", "option b", "बी", "ऑप्शन बी", "boy", "two"];
+      const optCPatterns = ["c", "option c", "सी", "ऑप्शन सी", "cat", "three"];
+      const optDPatterns = ["d", "option d", "डी", "ऑप्शन डी", "dog", "four"];
+
+      // Check strict match or containment of phrases
+      if (optAPatterns.some(pat => transcript === pat || transcript.endsWith(" " + pat) || transcript.startsWith(pat + " "))) {
+        matchedLetter = 'A';
+      } else if (optBPatterns.some(pat => transcript === pat || transcript.endsWith(" " + pat) || transcript.startsWith(pat + " "))) {
+        matchedLetter = 'B';
+      } else if (optCPatterns.some(pat => transcript === pat || transcript.endsWith(" " + pat) || transcript.startsWith(pat + " "))) {
+        matchedLetter = 'C';
+      } else if (optDPatterns.some(pat => transcript === pat || transcript.endsWith(" " + pat) || transcript.startsWith(pat + " "))) {
+        matchedLetter = 'D';
+      }
+
+      if (matchedLetter) {
+        logSystem(`[Voice Command] Match choice detected: Option ${matchedLetter}`);
+        // Immediately cut off audio
+        try { window.speechSynthesis.cancel(); } catch(e) {}
+        
+        // Register choice
+        appState.userAnswers[appState.currentQuestionIndex] = matchedLetter;
+        showQuestion(appState.currentQuestionIndex); // re-render UI selection
+        
+        // Auto-advance
+        setTimeout(() => {
+          const nextBtn = document.getElementById('quiz-btn-next');
+          const submitBtn = document.getElementById('quiz-btn-submit');
+          if (nextBtn && !nextBtn.classList.contains('hidden')) {
+            nextBtn.click();
+          } else if (submitBtn && !submitBtn.classList.contains('hidden')) {
+            submitBtn.click();
+          }
+        }, 300);
+      }
+    }
+  };
+
+  voiceRecognition.onend = () => {
+    // Keep mic active
+    if (appState.currentView === 'view-quiz' && !appState.voiceMuted && voiceRecognition) {
+      try { voiceRecognition.start(); } catch(e) {}
+    }
+  };
+
+  voiceRecognition.onerror = (e) => {
+    console.log("[Voice Recognition Error]", e.error);
+  };
+
+  try {
+    voiceRecognition.start();
+  } catch(e) {}
+}
+
+// Trigger voices list loading immediately
+window.speechSynthesis.onvoiceschanged = () => {
+  logSystem("[Voice] SpeechSynthesis Voice Agent Profiles updated.");
+};
+
+function initVoiceToggleUI() {
+  const btn = document.getElementById('voice-toggle-btn');
+  if (btn) {
+    btn.innerText = appState.voiceMuted ? '🔇 Voice: Off' : '🔊 Voice: On';
+    btn.style.background = appState.voiceMuted ? 'rgba(239,68,68,0.15)' : 'rgba(56, 189, 248, 0.15)';
+    btn.style.borderColor = appState.voiceMuted ? '#EF4444' : 'var(--color-primary)';
+  }
+}
+

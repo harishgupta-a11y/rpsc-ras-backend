@@ -509,7 +509,10 @@
             <!-- Timer Bar -->
             <div class="quiz-timer-bar">
               <span id="quiz-progress-text">Question 1 of 10</span>
-              <button id="quiz-btn-quit" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:4px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight:bold; outline:none;">Exit</button>
+              <div style="display: flex; gap: 4px; align-items: center;">
+                <button id="voice-toggle-btn" style="background: rgba(56, 189, 248, 0.15); border: 1px solid var(--color-primary); color: white; padding:4px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight:bold; outline:none;" onclick="toggleVoiceOutput()">🔊 Voice: On</button>
+                <button id="quiz-btn-quit" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:4px 8px; border-radius:var(--radius-xs); cursor:pointer; font-size:10px; font-weight:bold; outline:none;">Exit</button>
+              </div>
               <span id="quiz-timer-clock" class="timer-glowing">⏱ 10:00</span>
             </div>
 
