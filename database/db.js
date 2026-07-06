@@ -1380,7 +1380,7 @@ async function seedPlaceholderQuestionsIfNeeded() {
         console.log("Starting comprehensive database check and random question seeding...");
 
         // 1. Seed Pre syllabus topics with at least 3 EN and 3 HI questions
-        const allPreTopics = await all("SELECT topic_id, topic_name FROM topics WHERE topic_id < 100");
+        const allPreTopics = await all("SELECT topic_id, topic_name FROM topics WHERE topic_id < 100 AND topic_id NOT IN (11, 12, 13)");
         let preTopicsSeeded = 0;
         for (const topic of allPreTopics) {
             // Check English
