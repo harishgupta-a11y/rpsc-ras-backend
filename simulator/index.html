@@ -243,6 +243,16 @@
               </div>
             </div>
 
+            <!-- Universal Hot-Folder Ingestion Card -->
+            <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 2px dashed var(--color-primary); background: rgba(56, 189, 248, 0.03); text-align: center;">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: var(--color-primary);">🚀 Quick Ingestion Portal</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 12px; line-height: 1.4;">Upload any <strong>Pre MCQ</strong> or <strong>Mains Q&A</strong> DOCX file. File names must start with the topic/subtopic ID (e.g. <code>1811_cholas.docx</code> or <code>11_vedic.docx</code>).</p>
+              <label style="background:var(--color-primary-glow); border:1px solid var(--color-primary); color:white; padding:8px 16px; border-radius:var(--radius-sm); cursor:pointer; font-size:11px; display:inline-block; font-weight: bold; width: 80%; margin: 0 auto;">
+                Select & Ingest File
+                <input type="file" accept=".docx,.txt" onchange="ingestHotFolderFile(this)" style="display:none;">
+              </label>
+            </div>
+
             <!-- Blank Sample Templates Card -->
             <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 1.5px solid var(--color-primary); background: rgba(14, 165, 233, 0.05);">
               <h3 style="font-size: 13px; margin-bottom: 4px; color: var(--color-primary);">📥 Download Blank Sample Templates</h3>

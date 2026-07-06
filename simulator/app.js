@@ -2177,6 +2177,63 @@ function downloadSampleTemplate(type, language) {
   }
 }
 
+async function ingestHotFolderFile(input) {
+  const file = input.files[0];
+  if (!file) return;
+
+  const filename = file.name;
+  logAdmin(`[Quick Ingest] Processing file: ${filename}`);
+
+  // Match topic/subtopic ID prefix (digits at the start of filename)
+  const idMatch = filename.match(/^(\d+)/);
+  if (!idMatch) {
+    alert("Error: Filename must start with a valid topic or subtopic ID number (e.g., 1811_cholas.docx).");
+    return;
+  }
+  const targetId = parseInt(idMatch[1]);
+  
+  // Extract Language: default to EN, set to HI if 'hi' is present in name
+  const language = (filename.toLowerCase().includes('_hi') || filename.toLowerCase().includes('hindi')) ? 'HI' : 'EN';
+  
+  // Determine if Pre MCQ or Mains descriptive
+  const isMains = filename.toLowerCase().includes('mains') || filename.toLowerCase().includes('written') || filename.toLowerCase().includes('descriptive') || targetId >= 100;
+  
+  logAdmin(`[Quick Ingest] Extracted target ID: ${targetId}, Language: ${language}, Mode: ${isMains ? 'Mains Written' : 'Pre MCQ'}`);
+
+  const formData = new FormData();
+  formData.append('language', language);
+  formData.append('questionsFile', file);
+  
+  // Mapped subtopic range for minute_topic_ids vs parent topic_ids
+  if (targetId >= 1788) {
+    formData.append('minuteTopicId', targetId);
+  } else {
+    formData.append('topicId', targetId);
+  }
+
+  const uploadEndpoint = isMains 
+    ? `${API_BASE}/admin/upload-mains-questions` 
+    : `${API_BASE}/admin/upload-questions`;
+
+  try {
+    const res = await fetch(uploadEndpoint, {
+      method: 'POST',
+      body: formData
+    });
+    if (res.ok) {
+      const data = await res.json();
+      logAdmin(`[Quick Ingest Success] Loaded ${data.inserted_count || 0} questions: ${data.message}`);
+      alert(`Successfully ingested! Loaded ${data.inserted_count || 0} questions.`);
+      loadAdminPortal();
+    } else {
+      const err = await res.json();
+      alert("Error: " + err.error);
+    }
+  } catch (err) {
+    alert("Upload failed: " + err.message);
+  }
+}
+
 async function uploadPreTopicQuestions(input) {
   const file = input.files[0];
   const select = document.getElementById('admin-pre-topic-select');
