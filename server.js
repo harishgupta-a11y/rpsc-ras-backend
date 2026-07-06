@@ -1082,6 +1082,22 @@ app.post('/api/admin/clear-topic-questions', async (req, res) => {
     }
 });
 
+// --- Admin Route: Clean Old Question Placeholders ---
+app.post('/api/admin/clean-placeholders', async (req, res) => {
+    try {
+        const delPre = await db.run("DELETE FROM questions WHERE minute_topic_id IS NULL");
+        const delMains = await db.run("DELETE FROM mains_questions WHERE minute_topic_id IS NULL");
+        console.log(`[Admin] Wiped old template question placeholders. Pre: ${delPre.changes}, Mains: ${delMains.changes}`);
+        return res.status(200).json({ 
+            message: "Successfully erased old template question placeholders.",
+            pre_deleted: delPre.changes,
+            mains_deleted: delMains.changes
+        });
+    } catch (err) {
+        return res.status(500).json({ error: "Failed to erase placeholders: " + err.message });
+    }
+});
+
 // --- Settings (Screenshot Protection Control) Routes ---
 async function getSettingsFromDb() {
     const defaults = {
