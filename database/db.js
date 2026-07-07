@@ -604,7 +604,7 @@ console.log("All SQLite tables verified successfully.");
         const id_200_2 = mtMains2Hi ? mtMains2Hi.minute_topic_id : 1691;
 
         const ivcCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = ?", [id_122]);
-        if (ivcCount.count <= 10) {
+        if (false) {
             console.log("Seeding premium upgraded questions for IVC...");
             await run("DELETE FROM questions WHERE minute_topic_id IN (?, ?, ?, ?)", [id_122, id_130, id_122_2, id_130_2]);
             await run("DELETE FROM mains_questions WHERE minute_topic_id IN (?, ?, ?, ?)", [id_174, id_200, id_174_2, id_200_2]);
@@ -637,7 +637,7 @@ console.log("All SQLite tables verified successfully.");
 
         // 2.7 Seed custom high-quality questions for Performing Arts of Rajasthan (Folk Dances, Music & Dramas - Topic 8 & 101)
         const performingArtsPreCount = await get("SELECT COUNT(*) as count FROM questions WHERE topic_id = 8");
-        if (performingArtsPreCount.count <= 6) {
+        if (false) {
             console.log("Seeding custom high-quality questions for Performing Arts of Rajasthan (Pre)...");
             await run("DELETE FROM questions WHERE topic_id = 8");
             
@@ -854,7 +854,7 @@ console.log("All SQLite tables verified successfully.");
         }
 
         const performingArtsMainsCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE topic_id = 101 AND exam_id IS NULL");
-        if (performingArtsMainsCount.count <= 2) {
+        if (false) {
             console.log("Seeding custom high-quality questions for Performing Arts of Rajasthan (Mains)...");
             await run("DELETE FROM mains_questions WHERE topic_id = 101 AND exam_id IS NULL");
 
@@ -912,7 +912,7 @@ console.log("All SQLite tables verified successfully.");
 
         // 2.8 Seed custom high-quality questions for Rajasthani Literature (Topic 9 & 101)
         const literaturePreCount = await get("SELECT COUNT(*) as count FROM questions WHERE topic_id = 9");
-        if (literaturePreCount.count === 0) {
+        if (false) {
             console.log("Seeding custom high-quality questions for Rajasthani Literature (Pre)...");
             const litData = require('./custom_questions_literature.json');
             for (const q of litData.preQuestions) {
@@ -925,7 +925,7 @@ console.log("All SQLite tables verified successfully.");
         }
 
         const literatureMainsCount = await get("SELECT COUNT(*) as count FROM mains_questions WHERE topic_id = 101 AND question_text LIKE '%literature%'");
-        if (literatureMainsCount.count === 0) {
+        if (false) {
             console.log("Seeding custom high-quality questions for Rajasthani Literature (Mains)...");
             const litData = require('./custom_questions_literature.json');
             for (const q of litData.mainsQuestions) {
@@ -970,7 +970,7 @@ console.log("All SQLite tables verified successfully.");
             'education': { pre_file: './custom_questions_education.json', mains_file: './custom_mains_education.json', en: 1829, hi: 1837, topic_id: 13, mains_topic_id: 102 }
         };
 
-        for (const [key, mapping] of Object.entries(historySubtopicsMapping)) {
+        for (const [key, mapping] of []) {
             // Check if Prelims questions are seeded for this subtopic
             const enPreCount = await get("SELECT COUNT(*) as count FROM questions WHERE minute_topic_id = ?", [mapping.en]);
             if (enPreCount.count === 0) {

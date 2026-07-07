@@ -550,7 +550,15 @@ app.post('/api/admin/upload-mains-questions', upload.single('questionsFile'), as
         const originalName = req.file.originalname || "";
         
         if (originalName.toLowerCase().endsWith('.docx')) {
-            const result = await mammoth.convertToHtml({ buffer: req.file.buffer });
+            const result = await mammoth.convertToHtml({ 
+                buffer: req.file.buffer,
+                convertImage: mammoth.images.inline(async (element) => {
+                    const imageBuffer = await element.read();
+                    return {
+                        src: `data:${element.contentType};base64,${imageBuffer.toString('base64')}`
+                    };
+                })
+            });
             rawText = convertHtmlToTextWithListNumbering(result.value);
         } else {
             rawText = req.file.buffer.toString('utf8');
@@ -866,7 +874,15 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
         
         if (originalName.toLowerCase().endsWith('.docx')) {
             // Extract HTML from uploaded word file buffer to preserve list numbering
-            const result = await mammoth.convertToHtml({ buffer: req.file.buffer });
+            const result = await mammoth.convertToHtml({ 
+                buffer: req.file.buffer,
+                convertImage: mammoth.images.inline(async (element) => {
+                    const imageBuffer = await element.read();
+                    return {
+                        src: `data:${element.contentType};base64,${imageBuffer.toString('base64')}`
+                    };
+                })
+            });
             rawText = convertHtmlToTextWithListNumbering(result.value);
         } else {
             // Read as raw txt
@@ -1490,13 +1506,13 @@ app.post('/api/admin/update-question', async (req, res) => {
     const qid = parseInt(questionId);
 
     try {
-        if (source === 'PRE_TOPICS') {
+        if (source === 'PRE_TOPICS' || source === 'PRE_SUBTOPICS') {
             await db.run(`
                 UPDATE questions 
                 SET question_text = ?, option_a = ?, option_b = ?, option_c = ?, option_d = ?, correct_option = ?, detailed_explanation = ?
                 WHERE question_id = ?
             `, [questionText, optionA, optionB, optionC, optionD, correctOption, detailedExplanation, qid]);
-        } else if (source === 'MAINS_TOPICS') {
+        } else if (source === 'MAINS_TOPICS' || source === 'MAINS_SUBTOPICS') {
             await db.run(`
                 UPDATE mains_questions 
                 SET question_text = ?, model_answer = ?
@@ -1532,9 +1548,9 @@ app.post('/api/admin/delete-question', async (req, res) => {
     const qid = parseInt(questionId);
 
     try {
-        if (source === 'PRE_TOPICS') {
+        if (source === 'PRE_TOPICS' || source === 'PRE_SUBTOPICS') {
             await db.run("DELETE FROM questions WHERE question_id = ?", [qid]);
-        } else if (source === 'MAINS_TOPICS') {
+        } else if (source === 'MAINS_TOPICS' || source === 'MAINS_SUBTOPICS') {
             await db.run("DELETE FROM mains_questions WHERE mains_question_id = ?", [qid]);
         } else if (source === 'EXAMS') {
             await db.run("DELETE FROM mains_questions WHERE mains_question_id = ?", [qid]);
