@@ -345,7 +345,7 @@ async function generateMainsFromNotes(pdfText, topicName, count = 10) {
     });
 
     const prompt = `You are a senior RPSC RAS Mains examiner and evaluator.
-Your task is to generate exactly ${count} highly challenging descriptive questions and expert model answers. Use the provided reference notes as the core anchor, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions and answers possible.`
+Your task is to generate exactly ${count} highly challenging descriptive questions and expert model answers. Use the provided reference notes as the core anchor, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions and answers possible.
 
 ---
 REFERENCE NOTES:
