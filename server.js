@@ -621,7 +621,7 @@ app.post('/api/admin/upload-mains-questions', upload.single('questionsFile'), as
 });
 
 // --- Admin Route: Generate and Seed Questions from PDF via Gemini AI ---
-app.post('/api/admin/generate-questions-from-pdf', upload.single('pdfFile'), async (req, res) => {
+app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), async (req, res) => {
     const tier = req.body.tier || 'PRE'; // 'PRE' or 'MAINS'
     let topicId = req.body.topicId ? parseInt(req.body.topicId) : null;
     const minuteTopicId = req.body.minuteTopicId ? parseInt(req.body.minuteTopicId) : null;
@@ -635,20 +635,28 @@ app.post('/api/admin/generate-questions-from-pdf', upload.single('pdfFile'), asy
         return res.status(400).json({ error: "Topic ID is required." });
     }
 
-    if (!req.file) {
-        return res.status(400).json({ error: "Please upload a reference PDF notes file." });
+    if (!req.files || req.files.length === 0) {
+        return res.status(400).json({ error: "Please upload at least one reference PDF notes file." });
     }
 
     try {
         const pdfParse = require('pdf-parse');
         const aiEngine = require('./ai_engine');
 
-        // Parse PDF text
-        const data = await pdfParse(req.file.buffer);
-        const pdfText = data.text;
+        // Parse all PDFs and combine their text content
+        let pdfText = "";
+        for (const file of req.files) {
+            try {
+                const data = await pdfParse(file.buffer);
+                pdfText += `\n\n--- CONTENT FROM FILE: ${file.originalname} ---\n` + data.text;
+            } catch (pdfErr) {
+                console.error(`Failed parsing PDF file ${file.originalname}:`, pdfErr.message);
+                throw new Error(`Failed parsing PDF file ${file.originalname}: ${pdfErr.message}`);
+            }
+        }
 
         if (!pdfText.trim()) {
-            return res.status(400).json({ error: "The uploaded PDF notes file contains no readable text." });
+            return res.status(400).json({ error: "The uploaded PDF notes files contain no readable text." });
         }
 
         // Get topic name for dynamic prompt injection

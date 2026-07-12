@@ -3477,7 +3477,7 @@ function initVoiceToggleUI() {
 }
 
 // --- AI Question Generator Frontend Implementation ---
-let selectedAiPdfFile = null;
+let selectedAiPdfFiles = [];
 
 function onAiTierChange() {
   const tier = document.getElementById('ai-tier-select').value;
@@ -3545,14 +3545,16 @@ function onAiPdfFileChange(input) {
   const statusSpan = document.getElementById('ai-pdf-status');
   const generateBtn = document.getElementById('ai-generate-btn');
   
-  if (input.files && input.files[0]) {
-    selectedAiPdfFile = input.files[0];
-    statusSpan.innerText = `📄 ${selectedAiPdfFile.name} (${(selectedAiPdfFile.size / 1024 / 1024).toFixed(2)} MB)`;
+  if (input.files && input.files.length > 0) {
+    selectedAiPdfFiles = Array.from(input.files);
+    let totalSize = 0;
+    selectedAiPdfFiles.forEach(f => totalSize += f.size);
+    statusSpan.innerText = `📄 ${selectedAiPdfFiles.length} file(s) chosen (${(totalSize / 1024 / 1024).toFixed(2)} MB)`;
     statusSpan.style.color = '#10B981';
     generateBtn.disabled = false;
   } else {
-    selectedAiPdfFile = null;
-    statusSpan.innerText = "No file chosen";
+    selectedAiPdfFiles = [];
+    statusSpan.innerText = "No files chosen";
     statusSpan.style.color = '#EF4444';
     generateBtn.disabled = true;
   }
@@ -3565,8 +3567,8 @@ async function triggerAiGeneration() {
   const generateBtn = document.getElementById('ai-generate-btn');
   const statusSpan = document.getElementById('ai-pdf-status');
 
-  if (!selectedAiPdfFile) {
-    alert("Please select a PDF file first.");
+  if (selectedAiPdfFiles.length === 0) {
+    alert("Please select PDF file(s) first.");
     return;
   }
 
@@ -3576,16 +3578,18 @@ async function triggerAiGeneration() {
   }
 
   // Confirm before starting
-  const confirmed = confirm(`Are you sure you want to trigger Gemini AI to generate and seed questions?\nThis will parse the PDF notes, call Gemini, clean up citation details, and seed directly into the database.`);
+  const confirmed = confirm(`Are you sure you want to trigger Gemini AI to generate and seed questions?\nThis will parse the ${selectedAiPdfFiles.length} PDF file(s), call Gemini, clean up citation details, and seed directly into the database.`);
   if (!confirmed) return;
 
   generateBtn.disabled = true;
   generateBtn.innerText = "⏳ Generating & Seeding (Might take 1-2 minutes)...";
   generateBtn.style.background = '#F59E0B';
-  logAdmin(`[AI Pipeline] Initiating AI Generation from PDF: ${selectedAiPdfFile.name}`);
+  logAdmin(`[AI Pipeline] Initiating AI Generation from ${selectedAiPdfFiles.length} PDF file(s)`);
 
   const formData = new FormData();
-  formData.append('pdfFile', selectedAiPdfFile);
+  selectedAiPdfFiles.forEach(file => {
+    formData.append('pdfFiles', file);
+  });
   formData.append('tier', tier);
   formData.append('topicId', topicId);
   if (minuteTopicId) {
@@ -3606,8 +3610,8 @@ async function triggerAiGeneration() {
       
       // Reset file picker
       document.getElementById('ai-pdf-file').value = "";
-      selectedAiPdfFile = null;
-      statusSpan.innerText = "No file chosen";
+      selectedAiPdfFiles = [];
+      statusSpan.innerText = "No files chosen";
       statusSpan.style.color = '#10B981';
       
       // Refresh stats
@@ -3621,9 +3625,11 @@ async function triggerAiGeneration() {
     alert(`Network error during AI Generation: ${e.message}`);
     logAdmin(`[AI Pipeline] Network Error: ${e.message}`);
   } finally {
-    generateBtn.disabled = selectedAiPdfFile ? false : true;
+    generateBtn.disabled = selectedAiPdfFiles.length > 0 ? false : true;
     generateBtn.innerText = "🚀 Generate & Seed Questions";
     generateBtn.style.background = '#10B981';
   }
 }
+
+
 
