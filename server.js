@@ -647,17 +647,23 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
         const pdfParse = require('pdf-parse');
         const aiEngine = require('./ai_engine');
 
-        // Parse all PDFs and combine their text content
+        // Parse all reference files (supports both .pdf and .txt) and combine their text content
         let pdfText = "";
         for (const file of req.files) {
             try {
-                const uint8Array = new Uint8Array(file.buffer);
-                const parser = new pdfParse.PDFParse(uint8Array);
-                const data = await parser.getText();
-                pdfText += `\n\n--- CONTENT FROM FILE: ${file.originalname} ---\n` + data.text;
+                const isTxt = file.originalname.toLowerCase().endsWith('.txt');
+                if (isTxt) {
+                    const text = file.buffer.toString('utf8');
+                    pdfText += `\n\n--- CONTENT FROM FILE: ${file.originalname} ---\n` + text;
+                } else {
+                    const uint8Array = new Uint8Array(file.buffer);
+                    const parser = new pdfParse.PDFParse(uint8Array);
+                    const data = await parser.getText();
+                    pdfText += `\n\n--- CONTENT FROM FILE: ${file.originalname} ---\n` + data.text;
+                }
             } catch (pdfErr) {
-                console.error(`Failed parsing PDF file ${file.originalname}:`, pdfErr.message);
-                throw new Error(`Failed parsing PDF file ${file.originalname}: ${pdfErr.message}`);
+                console.error(`Failed parsing reference file ${file.originalname}:`, pdfErr.message);
+                throw new Error(`Failed parsing reference file ${file.originalname}: ${pdfErr.message}`);
             }
         }
 
