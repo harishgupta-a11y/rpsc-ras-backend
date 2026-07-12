@@ -1,5 +1,5 @@
 // RPSC RAS Exam Prep - Google Gemini AI Pipeline Integration
-const { GoogleGenAI } = require('@google/generative-ai');
+const { GoogleGenAI } = require('@google/genai');
 
 // Initialize Gemini API Client
 // Note: In production, ensure GEMINI_API_KEY is configured in your environment variables.
@@ -17,6 +17,7 @@ if (apiKey && apiKey !== 'MOCK_KEY_FOR_TESTING') {
         genAI = null;
     }
 }
+
 
 /**
  * Helper to get a mock theory content response for RPSC RAS topics when API Key is missing.
@@ -275,11 +276,6 @@ async function generateMCQsFromNotes(pdfText, topicName, count = 20) {
         throw new Error("Gemini API Key is not configured in the environment.");
     }
     
-    const model = genAI.getGenerativeModel({
-        model: 'gemini-1.5-flash',
-        generationConfig: { responseMimeType: 'application/json' }
-    });
-
     const prompt = `You are a senior examiner for the RPSC (Rajasthan Public Service Commission) exams.
 Your task is to generate exactly ${count} highly challenging Prelims MCQs of IAS/RAS level. Use the provided reference notes as the core anchor, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions possible.
 
@@ -306,7 +302,7 @@ RULES FOR MCQS:
    - Do NOT include option letter prefixes in the option texts (e.g. option A text must just be the content, NOT "A) content").
    - Do NOT include page number references, bibliography citations, or book references (e.g. strip all "(p. 1)", "(pp. 4-5)", "[1]", "(Ref: page 12)").
    - Never mention the uploaded source material or reference notes file as the source.
-   
+
 Output format must strictly conform to this JSON Schema array:
 [
   {
@@ -324,26 +320,24 @@ Output format must strictly conform to this JSON Schema array:
       "C": "विकल्प C का हिंदी पाठ",
       "D": "विकल्प D का हिंदी पाठ"
     },
-    "correct_option": "A", // must be 'A', 'B', 'C', or 'D'
+    "correct_option": "A",
     "explanation_en": "Detailed factual explanation in English (no page references or citations)",
     "explanation_hi": "विस्तृत तथ्यात्मक हिंदी व्याख्या (बिना किसी पृष्ठ संख्या या संदर्भ के)"
   }
 ]`;
 
-    const result = await model.generateContent(prompt);
-    const text = result.response.text();
-    return JSON.parse(text);
+    const result = await genAI.models.generateContent({
+        model: 'gemini-2.0-flash',
+        contents: prompt,
+        config: { responseMimeType: 'application/json' }
+    });
+    return JSON.parse(result.text);
 }
 
 async function generateMainsFromNotes(pdfText, topicName, count = 10) {
     if (!genAI) {
         throw new Error("Gemini API Key is not configured in the environment.");
     }
-
-    const model = genAI.getGenerativeModel({
-        model: 'gemini-1.5-flash',
-        generationConfig: { responseMimeType: 'application/json' }
-    });
 
     const prompt = `You are a senior RPSC RAS Mains examiner and evaluator.
 Your task is to generate exactly ${count} highly challenging descriptive questions and expert model answers. Use the provided reference notes as the core anchor, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions and answers possible.
@@ -382,8 +376,8 @@ RULES FOR MAINS QUESTIONS:
 Output format must strictly conform to this JSON Schema array:
 [
   {
-    "marks": 5, // must be 5 or 10
-    "word_limit": 50, // must be 50 if marks is 5, or 150 if marks is 10
+    "marks": 5,
+    "word_limit": 50,
     "question_en": "Descriptive question in English (without prefixes like Q.1)",
     "question_hi": "मुख्य परीक्षा का वर्णनात्मक प्रश्न हिंदी में (बिना किसी उपसर्ग के)",
     "answer_en": "IBC-structured expert model answer in English (adhering to the target word limit, using bullet points, sub-headings, and Markdown tables as required)",
@@ -391,9 +385,12 @@ Output format must strictly conform to this JSON Schema array:
   }
 ]`;
 
-    const result = await model.generateContent(prompt);
-    const text = result.response.text();
-    return JSON.parse(text);
+    const result = await genAI.models.generateContent({
+        model: 'gemini-2.0-flash',
+        contents: prompt,
+        config: { responseMimeType: 'application/json' }
+    });
+    return JSON.parse(result.text);
 }
 
 module.exports = {
