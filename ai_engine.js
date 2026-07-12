@@ -280,7 +280,7 @@ async function generateMCQsFromNotes(pdfText, topicName, count = 20) {
     });
 
     const prompt = `You are a senior examiner for the RPSC (Rajasthan Public Service Commission) exams.
-Your task is to generate exactly ${count} highly challenging Prelims MCQs of IAS/RAS level based ONLY on the provided reference notes.
+Your task is to generate exactly ${count} highly challenging Prelims MCQs of IAS/RAS level. Use the provided reference notes as the core anchor, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions possible.
 
 ---
 REFERENCE NOTES:
@@ -345,7 +345,7 @@ async function generateMainsFromNotes(pdfText, topicName, count = 10) {
     });
 
     const prompt = `You are a senior RPSC RAS Mains examiner and evaluator.
-Your task is to generate exactly ${count} highly challenging descriptive questions and expert model answers based ONLY on the provided reference notes.
+Your task is to generate exactly ${count} highly challenging descriptive questions and expert model answers. Use the provided reference notes as the core anchor, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions and answers possible.`
 
 ---
 REFERENCE NOTES:
