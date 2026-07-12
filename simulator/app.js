@@ -3528,16 +3528,13 @@ function onAiTierChange() {
 async function onAiTopicChange() {
   const tier = document.getElementById('ai-tier-select').value;
   const topicId = document.getElementById('ai-topic-select').value;
-  const subtopicGroup = document.getElementById('ai-subtopic-group');
   const subtopicSelect = document.getElementById('ai-subtopic-select');
-  if (!subtopicSelect || !subtopicGroup) return;
+  if (!subtopicSelect) return;
 
   subtopicSelect.innerHTML = '<option value="">-- No Sub-topic (Seed to main topic) --</option>';
+  subtopicSelect.disabled = true;
 
-  if (!topicId) {
-    subtopicGroup.style.display = 'none';
-    return;
-  }
+  if (!topicId) return;
 
   try {
     const mobileHeader = "9876543210";
@@ -3548,22 +3545,18 @@ async function onAiTopicChange() {
     if (res.ok) {
       const data = await res.json();
       if (data.minuteTopics && data.minuteTopics.length > 0) {
-        subtopicGroup.style.display = 'block';
+        subtopicSelect.disabled = false;
+        subtopicSelect.innerHTML = '<option value="">-- Select Sub-topic (Optional) --</option>';
         data.minuteTopics.forEach(mt => {
           const opt = document.createElement('option');
           opt.value = mt.minute_topic_id;
           opt.innerText = `[SUBTOPIC] ${mt.minute_topic_name}`;
           subtopicSelect.appendChild(opt);
         });
-      } else {
-        subtopicGroup.style.display = 'none';
       }
-    } else {
-      subtopicGroup.style.display = 'none';
     }
   } catch (e) {
     console.error("Error fetching subtopics for AI Generator:", e);
-    subtopicGroup.style.display = 'none';
   }
 }
 
