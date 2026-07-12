@@ -641,6 +641,9 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
     }
 
     try {
+        if (global.DOMMatrix === undefined) {
+            global.DOMMatrix = class DOMMatrix {};
+        }
         const pdfParse = require('pdf-parse');
         const aiEngine = require('./ai_engine');
 
@@ -648,7 +651,9 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
         let pdfText = "";
         for (const file of req.files) {
             try {
-                const data = await pdfParse(file.buffer);
+                const uint8Array = new Uint8Array(file.buffer);
+                const parser = new pdfParse.PDFParse(uint8Array);
+                const data = await parser.getText();
                 pdfText += `\n\n--- CONTENT FROM FILE: ${file.originalname} ---\n` + data.text;
             } catch (pdfErr) {
                 console.error(`Failed parsing PDF file ${file.originalname}:`, pdfErr.message);
