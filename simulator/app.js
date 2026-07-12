@@ -3538,7 +3538,7 @@ async function onAiTopicChange() {
 
   try {
     const mobileHeader = "9876543210";
-    const res = await fetch(`${API_BASE}/syllabus/minute-topics?topicId=${topicId}`, {
+    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${topicId}`, {
       headers: { 'x-user-mobile': mobileHeader }
     });
 
