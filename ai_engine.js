@@ -5,15 +5,16 @@ const { GoogleGenAI } = require('@google/generative-ai');
 // Note: In production, ensure GEMINI_API_KEY is configured in your environment variables.
 const apiKey = process.env.GEMINI_API_KEY || 'MOCK_KEY_FOR_TESTING';
 
+console.log(`[AI Engine] GEMINI_API_KEY status: ${apiKey !== 'MOCK_KEY_FOR_TESTING' ? 'SET (length=' + apiKey.length + ')' : 'NOT SET (using mock)'}`);
+
 let genAI;
 if (apiKey && apiKey !== 'MOCK_KEY_FOR_TESTING') {
-    // Standard initialization using @google/generative-ai SDK
-    // For the newer SDK, you can use: const genAI = new GoogleGenAI({ apiKey });
-    // In typical projects: const { GoogleGenAI } = require('@google/generative-ai');
     try {
         genAI = new GoogleGenAI({ apiKey });
+        console.log('[AI Engine] Gemini client initialized successfully.');
     } catch (e) {
-        console.warn("Error initializing Gemini API Client:", e.message);
+        console.error('[AI Engine] CRITICAL: Error initializing Gemini API Client:', e.message);
+        genAI = null;
     }
 }
 
