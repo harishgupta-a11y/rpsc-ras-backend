@@ -625,6 +625,7 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
     const tier = req.body.tier || 'PRE'; // 'PRE' or 'MAINS'
     let topicId = req.body.topicId ? parseInt(req.body.topicId) : null;
     const minuteTopicId = req.body.minuteTopicId ? parseInt(req.body.minuteTopicId) : null;
+    const count = req.body.count ? parseInt(req.body.count) : (tier === 'PRE' ? 20 : 10);
 
     if (!topicId && minuteTopicId) {
         const mt = await db.get("SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?", [minuteTopicId]);
@@ -685,8 +686,8 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
         let insertCount = 0;
 
         if (tier === 'PRE') {
-            // Generate 20 MCQs
-            const mcqs = await aiEngine.generateMCQsFromNotes(pdfText, topicName, 20);
+            // Generate requested MCQs
+            const mcqs = await aiEngine.generateMCQsFromNotes(pdfText, topicName, count);
             
             for (const item of mcqs) {
                 // Insert English MCQ version
@@ -732,8 +733,8 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
             });
 
         } else if (tier === 'MAINS') {
-            // Generate 10 Mains questions (IBC structured)
-            const mainsQAs = await aiEngine.generateMainsFromNotes(pdfText, topicName, 10);
+            // Generate requested Mains questions (IBC structured)
+            const mainsQAs = await aiEngine.generateMainsFromNotes(pdfText, topicName, count);
 
             // Get current sequence_order for mains
             const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM mains_questions WHERE topic_id = ?", [topicId]);

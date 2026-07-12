@@ -3482,6 +3482,7 @@ let selectedAiPdfFiles = [];
 function onAiTierChange() {
   const tier = document.getElementById('ai-tier-select').value;
   const topicSelect = document.getElementById('ai-topic-select');
+  const countSelect = document.getElementById('ai-count-select');
   if (!topicSelect) return;
 
   topicSelect.innerHTML = "";
@@ -3495,6 +3496,30 @@ function onAiTierChange() {
     opt.innerText = t.name;
     topicSelect.appendChild(opt);
   });
+
+  // Populate count select options
+  if (countSelect) {
+    countSelect.innerHTML = "";
+    if (tier === 'PRE') {
+      const options = [5, 10, 20, 30, 50, 100];
+      options.forEach(val => {
+        const opt = document.createElement('option');
+        opt.value = val;
+        opt.innerText = `${val} MCQs`;
+        if (val === 20) opt.selected = true; // default
+        countSelect.appendChild(opt);
+      });
+    } else {
+      const options = [2, 4, 6, 8, 10, 20, 30];
+      options.forEach(val => {
+        const opt = document.createElement('option');
+        opt.value = val;
+        opt.innerText = `${val} Q&As`;
+        if (val === 10) opt.selected = true; // default
+        countSelect.appendChild(opt);
+      });
+    }
+  }
 
   onAiTopicChange();
 }
@@ -3564,6 +3589,7 @@ async function triggerAiGeneration() {
   const tier = document.getElementById('ai-tier-select').value;
   const topicId = document.getElementById('ai-topic-select').value;
   const minuteTopicId = document.getElementById('ai-subtopic-select').value;
+  const count = document.getElementById('ai-count-select').value;
   const generateBtn = document.getElementById('ai-generate-btn');
   const statusSpan = document.getElementById('ai-pdf-status');
 
@@ -3578,13 +3604,13 @@ async function triggerAiGeneration() {
   }
 
   // Confirm before starting
-  const confirmed = confirm(`Are you sure you want to trigger Gemini AI to generate and seed questions?\nThis will parse the ${selectedAiPdfFiles.length} PDF file(s), call Gemini, clean up citation details, and seed directly into the database.`);
+  const confirmed = confirm(`Are you sure you want to trigger Gemini AI to generate and seed ${count} questions?\nThis will parse the ${selectedAiPdfFiles.length} PDF file(s), call Gemini, clean up citation details, and seed directly into the database.`);
   if (!confirmed) return;
 
   generateBtn.disabled = true;
-  generateBtn.innerText = "⏳ Generating & Seeding (Might take 1-2 minutes)...";
+  generateBtn.innerText = `⏳ Generating & Seeding ${count} Qs (Might take 1-2 minutes)...`;
   generateBtn.style.background = '#F59E0B';
-  logAdmin(`[AI Pipeline] Initiating AI Generation from ${selectedAiPdfFiles.length} PDF file(s)`);
+  logAdmin(`[AI Pipeline] Initiating AI Generation of ${count} questions from ${selectedAiPdfFiles.length} PDF file(s)`);
 
   const formData = new FormData();
   selectedAiPdfFiles.forEach(file => {
@@ -3592,6 +3618,7 @@ async function triggerAiGeneration() {
   });
   formData.append('tier', tier);
   formData.append('topicId', topicId);
+  formData.append('count', count);
   if (minuteTopicId) {
     formData.append('minuteTopicId', minuteTopicId);
   }
