@@ -253,6 +253,50 @@
               </label>
             </div>
 
+            <!-- AI Question Generator from PDF Notes -->
+            <div class="glass-card template-manager-card" id="admin-ai-generator-section" style="padding: 14px; margin-bottom: 12px; border: 2px solid #10B981; background: rgba(16, 185, 129, 0.03);">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: #10B981;">🤖 AI Question Generator from Notes</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px; line-height: 1.4;">
+                Upload reference study notes in PDF format. Gemini will generate high-quality bilingual questions and seed them directly into your database.
+              </p>
+              
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="ai-tier-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">1. Select Target Tier</label>
+                <select id="ai-tier-select" onchange="onAiTierChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="PRE">RAS Prelims (20 bilingual MCQs)</option>
+                  <option value="MAINS">RAS Mains (10 bilingual Q&As)</option>
+                </select>
+              </div>
+              
+              <div class="input-group" style="margin-bottom: 10px;">
+                <label for="ai-topic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">2. Select Topic</label>
+                <select id="ai-topic-select" onchange="onAiTopicChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <!-- Populated dynamically -->
+                </select>
+              </div>
+
+              <div class="input-group" id="ai-subtopic-group" style="margin-bottom: 10px; display: none;">
+                <label for="ai-subtopic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">3. Select Sub-topic (Optional)</label>
+                <select id="ai-subtopic-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="">-- No Sub-topic (Seed to main topic) --</option>
+                  <!-- Populated dynamically -->
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 12px;">
+                <label style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">4. Upload PDF Notes File</label>
+                <label style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 6px 10px; border-radius: var(--radius-xs); cursor: pointer; font-size: 10px; display: block; text-align: center; font-weight: bold;">
+                  📂 Choose PDF File...
+                  <input type="file" id="ai-pdf-file" accept=".pdf" onchange="onAiPdfFileChange(this)" style="display:none;">
+                </label>
+                <span id="ai-pdf-status" style="font-size: 9px; color: #10B981; margin-top: 4px; display: block;">No file chosen</span>
+              </div>
+
+              <button id="ai-generate-btn" onclick="triggerAiGeneration()" style="background: #10B981; color: black; border: none; padding: 8px 12px; border-radius: var(--radius-sm); cursor: pointer; font-size: 11px; font-weight: bold; width: 100%;" disabled>
+                🚀 Generate & Seed Questions
+              </button>
+            </div>
+
             <!-- Blank Sample Templates Card -->
             <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 1.5px solid var(--color-primary); background: rgba(14, 165, 233, 0.05);">
               <h3 style="font-size: 13px; margin-bottom: 4px; color: var(--color-primary);">📥 Download Blank Sample Templates</h3>

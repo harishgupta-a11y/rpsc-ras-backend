@@ -620,6 +620,164 @@ app.post('/api/admin/upload-mains-questions', upload.single('questionsFile'), as
     }
 });
 
+// --- Admin Route: Generate and Seed Questions from PDF via Gemini AI ---
+app.post('/api/admin/generate-questions-from-pdf', upload.single('pdfFile'), async (req, res) => {
+    const tier = req.body.tier || 'PRE'; // 'PRE' or 'MAINS'
+    let topicId = req.body.topicId ? parseInt(req.body.topicId) : null;
+    const minuteTopicId = req.body.minuteTopicId ? parseInt(req.body.minuteTopicId) : null;
+
+    if (!topicId && minuteTopicId) {
+        const mt = await db.get("SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?", [minuteTopicId]);
+        if (mt) topicId = mt.topic_id;
+    }
+
+    if (!topicId) {
+        return res.status(400).json({ error: "Topic ID is required." });
+    }
+
+    if (!req.file) {
+        return res.status(400).json({ error: "Please upload a reference PDF notes file." });
+    }
+
+    try {
+        const pdfParse = require('pdf-parse');
+        const aiEngine = require('./ai_engine');
+
+        // Parse PDF text
+        const data = await pdfParse(req.file.buffer);
+        const pdfText = data.text;
+
+        if (!pdfText.trim()) {
+            return res.status(400).json({ error: "The uploaded PDF notes file contains no readable text." });
+        }
+
+        // Get topic name for dynamic prompt injection
+        const topicRow = await db.get("SELECT topic_name FROM topics WHERE topic_id = ?", [topicId]);
+        const topicName = topicRow ? topicRow.topic_name : "Target Topic";
+
+        // Programmatic sanitization helper function
+        const sanitizeFieldText = (val) => {
+            if (typeof val !== 'string') return '';
+            
+            // 1. Remove leading question prefixes (e.g. Q. 1, Q1, Q. 1), Q1:, Q1., 1., Q., प्र. 1, प्रश्न 1:)
+            let cleaned = val.replace(/^\s*(?:Q\s*\.?\s*\d*\s*[\)\.:\-]?|Question\s*\d*\s*[\)\.:\-]?|प्र\s*\.?\s*\d*\s*[\)\.:\-]?|प्रश्न\s*\d*\s*[\)\.:\-]?|\d+\s*[\)\.:\-]+)\s*/i, '');
+            
+            // 2. Remove option letter prefixes (e.g. A) content, B. content -> content)
+            cleaned = cleaned.replace(/^\s*[A-D]\s*[\)\.:\-]+\s*/i, '');
+            
+            // 3. Remove citation brackets and page references (e.g. (p. 12), (pp. 4-5), [1], [Ref: Page 4], (Ref: 12))
+            cleaned = cleaned.replace(/[\(\[]\s*(?:pp?\.?\s*\d+(?:\s*-\s*\d+)?|Ref\s*:\s*[^\)\]]*|Page\s*\d+|[0-9]+)\s*[\)\]]/gi, '');
+            
+            // 4. Remove duplicate/trailing dots or extra double spaces
+            cleaned = cleaned.replace(/\s+/g, ' ').replace(/\*\*+/g, '').replace(/\*+/g, '').trim();
+            
+            return cleaned;
+        };
+
+        let insertCount = 0;
+
+        if (tier === 'PRE') {
+            // Generate 20 MCQs
+            const mcqs = await aiEngine.generateMCQsFromNotes(pdfText, topicName, 20);
+            
+            for (const item of mcqs) {
+                // Insert English MCQ version
+                await db.run(`
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                `, [
+                    topicId,
+                    sanitizeFieldText(item.question_en),
+                    sanitizeFieldText(item.options_en.A),
+                    sanitizeFieldText(item.options_en.B),
+                    sanitizeFieldText(item.options_en.C),
+                    sanitizeFieldText(item.options_en.D),
+                    item.correct_option.trim().toUpperCase(),
+                    sanitizeFieldText(item.explanation_en),
+                    minuteTopicId || null,
+                    'EN'
+                ]);
+
+                // Insert Hindi MCQ version
+                await db.run(`
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                `, [
+                    topicId,
+                    sanitizeFieldText(item.question_hi),
+                    sanitizeFieldText(item.options_hi.A),
+                    sanitizeFieldText(item.options_hi.B),
+                    sanitizeFieldText(item.options_hi.C),
+                    sanitizeFieldText(item.options_hi.D),
+                    item.correct_option.trim().toUpperCase(),
+                    sanitizeFieldText(item.explanation_hi),
+                    minuteTopicId || null,
+                    'HI'
+                ]);
+
+                insertCount += 2; // Incremented by 2 because we seed EN and HI questions
+            }
+
+            console.log(`[AI Gen] Successfully generated and seeded ${insertCount} Prelims MCQs for Topic ID ${topicId}`);
+            return res.status(200).json({
+                message: `AI generation successful! Generated and seeded ${insertCount / 2} bilingual MCQs (${insertCount} total database rows).`
+            });
+
+        } else if (tier === 'MAINS') {
+            // Generate 10 Mains questions (IBC structured)
+            const mainsQAs = await aiEngine.generateMainsFromNotes(pdfText, topicName, 10);
+
+            // Get current sequence_order for mains
+            const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM mains_questions WHERE topic_id = ?", [topicId]);
+            let currentSeq = seqResult && seqResult.maxSeq ? seqResult.maxSeq : 0;
+
+            for (const item of mainsQAs) {
+                // Increment sequence order
+                currentSeq++;
+
+                // Insert English Mains version
+                await db.run(`
+                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id, word_limit)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                `, [
+                    topicId,
+                    sanitizeFieldText(item.question_en) + ` (Marks: ${item.marks}, Word Limit: ${item.word_limit})`,
+                    sanitizeFieldText(item.answer_en),
+                    'EN',
+                    currentSeq,
+                    minuteTopicId || null,
+                    item.word_limit
+                ]);
+
+                // Insert Hindi Mains version
+                await db.run(`
+                    INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id, word_limit)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                `, [
+                    topicId,
+                    sanitizeFieldText(item.question_hi) + ` (अंक: ${item.marks}, शब्द सीमा: ${item.word_limit})`,
+                    sanitizeFieldText(item.answer_hi),
+                    'HI',
+                    currentSeq,
+                    minuteTopicId || null,
+                    item.word_limit
+                ]);
+
+                insertCount += 2; // Incremented by 2 because we seed EN and HI questions
+            }
+
+            console.log(`[AI Gen] Successfully generated and seeded ${insertCount} Mains descriptive questions for Topic ID ${topicId}`);
+            return res.status(200).json({
+                message: `AI generation successful! Generated and seeded ${insertCount / 2} bilingual Mains questions (${insertCount} total database rows).`
+            });
+        }
+
+    } catch (err) {
+        console.error("[AI Gen Error] Failed:", err);
+        return res.status(500).json({ error: "Failed to generate questions: " + err.message });
+    }
+});
+
 
 
 // --- GET Mains Questions sequential portal (Gated) ---

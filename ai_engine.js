@@ -269,8 +269,136 @@ Output format must strictly conform to this JSON Schema:
     }
 }
 
+async function generateMCQsFromNotes(pdfText, topicName, count = 20) {
+    if (!genAI) {
+        throw new Error("Gemini API Key is not configured in the environment.");
+    }
+    
+    const model = genAI.getGenerativeModel({
+        model: 'gemini-1.5-flash',
+        generationConfig: { responseMimeType: 'application/json' }
+    });
+
+    const prompt = `You are a senior examiner for the RPSC (Rajasthan Public Service Commission) exams.
+Your task is to generate exactly ${count} highly challenging Prelims MCQs of IAS/RAS level based ONLY on the provided reference notes.
+
+---
+REFERENCE NOTES:
+${pdfText}
+---
+
+TOPIC: ${topicName}
+
+RULES FOR MCQS:
+1. Make questions of IAS/RAS level. They must be a mix of highly tough, moderate, and easy difficulty in a ratio of 2:1:1. Do NOT mention the difficulty level in the question text.
+2. The questions must be of all types that come in RPSC exams:
+   - Classical MCQ
+   - Statement-based type (diversifying correct statements: e.g. sometimes 1 & 2 correct, sometimes only 1, sometimes 2 & 3, etc.)
+   - Assertion-Reason type (diversifying relationships: e.g. both A and R correct, A-correct R-incorrect, A-incorrect R-correct, etc.)
+   - Match the Column type (rendered in clean Markdown tables).
+   These types should be mixed in a ratio of 3:1:1:1.
+3. The correct options should be evenly distributed among A, B, C, and D in a 1:1:1:1 ratio.
+4. For every question, generate exactly the same question in both English and Hindi.
+5. Provide a detailed, highly factual explanation in both English and Hindi.
+6. Crucial Cleanliness Rules:
+   - Do NOT include question number prefixes in the question texts (e.g. no "Q. 1", no "Q1.", no "प्रश्न 1:").
+   - Do NOT include option letter prefixes in the option texts (e.g. option A text must just be the content, NOT "A) content").
+   - Do NOT include page number references, bibliography citations, or book references (e.g. strip all "(p. 1)", "(pp. 4-5)", "[1]", "(Ref: page 12)").
+   - Never mention the uploaded source material or reference notes file as the source.
+   
+Output format must strictly conform to this JSON Schema array:
+[
+  {
+    "question_en": "Question text in English (without prefixes like Q. 1)",
+    "question_hi": "प्रश्न का हिंदी पाठ (बिना किसी उपसर्ग जैसे प्रश्न 1 के)",
+    "options_en": {
+      "A": "Option text A in English",
+      "B": "Option text B in English",
+      "C": "Option text C in English",
+      "D": "Option text D in English"
+    },
+    "options_hi": {
+      "A": "विकल्प A का हिंदी पाठ",
+      "B": "विकल्प B का हिंदी पाठ",
+      "C": "विकल्प C का हिंदी पाठ",
+      "D": "विकल्प D का हिंदी पाठ"
+    },
+    "correct_option": "A", // must be 'A', 'B', 'C', or 'D'
+    "explanation_en": "Detailed factual explanation in English (no page references or citations)",
+    "explanation_hi": "विस्तृत तथ्यात्मक हिंदी व्याख्या (बिना किसी पृष्ठ संख्या या संदर्भ के)"
+  }
+]`;
+
+    const result = await model.generateContent(prompt);
+    const text = result.response.text();
+    return JSON.parse(text);
+}
+
+async function generateMainsFromNotes(pdfText, topicName, count = 10) {
+    if (!genAI) {
+        throw new Error("Gemini API Key is not configured in the environment.");
+    }
+
+    const model = genAI.getGenerativeModel({
+        model: 'gemini-1.5-flash',
+        generationConfig: { responseMimeType: 'application/json' }
+    });
+
+    const prompt = `You are a senior RPSC RAS Mains examiner and evaluator.
+Your task is to generate exactly ${count} highly challenging descriptive questions and expert model answers based ONLY on the provided reference notes.
+
+---
+REFERENCE NOTES:
+${pdfText}
+---
+
+TOPIC: ${topicName}
+
+RULES FOR MAINS QUESTIONS:
+1. Generate descriptive questions of 5 Marks and 10 Marks categories in equal numbers.
+2. For every question, generate exactly the same question and model answer in both English and Hindi.
+3. Every model answer must follow the universal Introduction-Body-Conclusion (IBC) formula:
+   - For 5-Mark Questions (50 Words Limit, write around 60-65 words):
+     - Focus on 1-2 core points.
+     - 1-2 lines of introduction (go straight to the core theme, skip general background).
+     - 1-2 main points in body.
+     - Include exactly 1 core example or definition.
+     - No diagrams or data.
+     - 1 punchy conclusion sentence.
+   - For 10-Mark Questions (150 Words Limit, write around 165-180 words):
+     - Focus on broader dimensions requiring sub-headings and bullet points.
+     - 3-4 lines of introduction (establish context, give a fact, or cite a constitutional article).
+     - 4-6 body points exploring multiple angles (e.g. social, economic, political).
+     - Include 2-3 real-life examples, data, or committee recommendations.
+     - 2-3 sentences of conclusion (forward-looking solution, policy suggestion, or "way forward").
+4. Crucial Presentation Rules:
+   - Do NOT use ASCII lines or text diagrams.
+   - Display all classification data in a clean Markdown table.
+   - Do NOT include question number prefixes in the question text (e.g. no "Q. 1", "Q1.", "प्रश्न 1").
+   - Do NOT include page number references, bibliography citations, or book references (e.g. strip all "(p. 1)", "(pp. 4-5)", "[1]").
+   - Never mention the uploaded source material or reference notes file as the source.
+
+Output format must strictly conform to this JSON Schema array:
+[
+  {
+    "marks": 5, // must be 5 or 10
+    "word_limit": 50, // must be 50 if marks is 5, or 150 if marks is 10
+    "question_en": "Descriptive question in English (without prefixes like Q.1)",
+    "question_hi": "मुख्य परीक्षा का वर्णनात्मक प्रश्न हिंदी में (बिना किसी उपसर्ग के)",
+    "answer_en": "IBC-structured expert model answer in English (adhering to the target word limit, using bullet points, sub-headings, and Markdown tables as required)",
+    "answer_hi": "IBC-संरचित आदर्श मॉडल उत्तर हिंदी में (लक्षित शब्द सीमा का पालन करते हुए, बिंदु, उप-शीर्षक और मार्कडाउन तालिकाओं का उपयोग करके)"
+  }
+]`;
+
+    const result = await model.generateContent(prompt);
+    const text = result.response.text();
+    return JSON.parse(text);
+}
+
 module.exports = {
     generateTheoryContent,
     generateMCQBatch,
-    generateMainsTemplates
+    generateMainsTemplates,
+    generateMCQsFromNotes,
+    generateMainsFromNotes
 };

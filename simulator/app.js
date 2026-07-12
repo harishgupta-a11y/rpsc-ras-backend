@@ -1,10 +1,16 @@
 // RPSC RAS Exam Prep Simulator - Core Logic & State Machine
 const getApiBase = () => {
-  const saved = localStorage.getItem('sim_api_base_url');
-  if (saved) return saved;
-
   const hostname = window.location.hostname;
   const protocol = window.location.protocol;
+  
+  // Ignore local localStorage dev overrides if on production Render domain
+  const isRemote = hostname.includes('onrender.com') || (hostname !== 'localhost' && hostname !== '127.0.0.1' && !hostname.startsWith('192.168.') && !hostname.startsWith('10.'));
+  
+  if (!isRemote) {
+    const saved = localStorage.getItem('sim_api_base_url');
+    if (saved) return saved;
+  }
+
   if (protocol === 'file:') {
     return "http://localhost:5000/api";
   }
@@ -1720,8 +1726,18 @@ async function populateIngestTopics() {
         opt2.dataset.subjectId = t.subId;
         opt2.innerText = displayName;
         mainsParentSelect.appendChild(opt2);
-      }
     });
+
+    // Save topics globally for AI Question Generator tab
+    window.aiPreTopics = preTopics;
+    window.aiMainsTopics = mainsTopics;
+    
+    // Populate AI topic dropdown
+    try {
+      onAiTierChange();
+    } catch(e) {
+      console.warn("AI tier population not ready yet:", e.message);
+    }
 
     // Restore previous selections
     if (prevPreVal) preSelect.value = prevPreVal;
@@ -2571,17 +2587,22 @@ async function onManagerSourceChange() {
         const data = await res.json();
         select.innerHTML = "";
         const targetTier = source === 'PRE_SUBTOPICS' ? 'PRE' : 'MAINS';
+        if (!data.minuteTopics || data.minuteTopics.length === 0) {
+          select.innerHTML = "<option value=''>No subtopics found for this language</option>";
+          return;
+        }
         data.minuteTopics.forEach(mt => {
           const isMainsTopic = mt.topic_id >= 100;
           if ((targetTier === 'MAINS' && isMainsTopic) || (targetTier === 'PRE' && !isMainsTopic)) {
             const opt = document.createElement('option');
             opt.value = mt.minute_topic_id;
-            opt.innerText = `[Subtopic] ${mt.topic_name.substring(0, 20)}... -> ${mt.minute_topic_name}`;
+            const parentName = mt.topic_name ? mt.topic_name.substring(0, 20) : "Syllabus";
+            opt.innerText = `[Subtopic] ${parentName}... -> ${mt.minute_topic_name}`;
             select.appendChild(opt);
           }
         });
         if (select.children.length === 0) {
-          select.innerHTML = "<option value=''>No subtopics found for this language</option>";
+          select.innerHTML = "<option value=''>No matching subtopics found for this tier</option>";
         }
       }
     } else {
@@ -3452,6 +3473,157 @@ function initVoiceToggleUI() {
     btn.innerText = appState.voiceMuted ? '🔇 Voice: Off' : '🔊 Voice: On';
     btn.style.background = appState.voiceMuted ? 'rgba(239,68,68,0.15)' : 'rgba(56, 189, 248, 0.15)';
     btn.style.borderColor = appState.voiceMuted ? '#EF4444' : 'var(--color-primary)';
+  }
+}
+
+// --- AI Question Generator Frontend Implementation ---
+let selectedAiPdfFile = null;
+
+function onAiTierChange() {
+  const tier = document.getElementById('ai-tier-select').value;
+  const topicSelect = document.getElementById('ai-topic-select');
+  if (!topicSelect) return;
+
+  topicSelect.innerHTML = "";
+
+  const topicsList = (tier === 'PRE') ? window.aiPreTopics : window.aiMainsTopics;
+  if (!topicsList) return;
+
+  topicsList.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t.id;
+    opt.innerText = t.name;
+    topicSelect.appendChild(opt);
+  });
+
+  onAiTopicChange();
+}
+
+async function onAiTopicChange() {
+  const tier = document.getElementById('ai-tier-select').value;
+  const topicId = document.getElementById('ai-topic-select').value;
+  const subtopicGroup = document.getElementById('ai-subtopic-group');
+  const subtopicSelect = document.getElementById('ai-subtopic-select');
+  if (!subtopicSelect || !subtopicGroup) return;
+
+  subtopicSelect.innerHTML = '<option value="">-- No Sub-topic (Seed to main topic) --</option>';
+
+  if (!topicId) {
+    subtopicGroup.style.display = 'none';
+    return;
+  }
+
+  try {
+    const mobileHeader = "9876543210";
+    const res = await fetch(`${API_BASE}/syllabus/minute-topics?topicId=${topicId}`, {
+      headers: { 'x-user-mobile': mobileHeader }
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      if (data.minuteTopics && data.minuteTopics.length > 0) {
+        subtopicGroup.style.display = 'block';
+        data.minuteTopics.forEach(mt => {
+          const opt = document.createElement('option');
+          opt.value = mt.minute_topic_id;
+          opt.innerText = `[SUBTOPIC] ${mt.minute_topic_name}`;
+          subtopicSelect.appendChild(opt);
+        });
+      } else {
+        subtopicGroup.style.display = 'none';
+      }
+    } else {
+      subtopicGroup.style.display = 'none';
+    }
+  } catch (e) {
+    console.error("Error fetching subtopics for AI Generator:", e);
+    subtopicGroup.style.display = 'none';
+  }
+}
+
+function onAiPdfFileChange(input) {
+  const statusSpan = document.getElementById('ai-pdf-status');
+  const generateBtn = document.getElementById('ai-generate-btn');
+  
+  if (input.files && input.files[0]) {
+    selectedAiPdfFile = input.files[0];
+    statusSpan.innerText = `📄 ${selectedAiPdfFile.name} (${(selectedAiPdfFile.size / 1024 / 1024).toFixed(2)} MB)`;
+    statusSpan.style.color = '#10B981';
+    generateBtn.disabled = false;
+  } else {
+    selectedAiPdfFile = null;
+    statusSpan.innerText = "No file chosen";
+    statusSpan.style.color = '#EF4444';
+    generateBtn.disabled = true;
+  }
+}
+
+async function triggerAiGeneration() {
+  const tier = document.getElementById('ai-tier-select').value;
+  const topicId = document.getElementById('ai-topic-select').value;
+  const minuteTopicId = document.getElementById('ai-subtopic-select').value;
+  const generateBtn = document.getElementById('ai-generate-btn');
+  const statusSpan = document.getElementById('ai-pdf-status');
+
+  if (!selectedAiPdfFile) {
+    alert("Please select a PDF file first.");
+    return;
+  }
+
+  if (!topicId) {
+    alert("Please select a topic.");
+    return;
+  }
+
+  // Confirm before starting
+  const confirmed = confirm(`Are you sure you want to trigger Gemini AI to generate and seed questions?\nThis will parse the PDF notes, call Gemini, clean up citation details, and seed directly into the database.`);
+  if (!confirmed) return;
+
+  generateBtn.disabled = true;
+  generateBtn.innerText = "⏳ Generating & Seeding (Might take 1-2 minutes)...";
+  generateBtn.style.background = '#F59E0B';
+  logAdmin(`[AI Pipeline] Initiating AI Generation from PDF: ${selectedAiPdfFile.name}`);
+
+  const formData = new FormData();
+  formData.append('pdfFile', selectedAiPdfFile);
+  formData.append('tier', tier);
+  formData.append('topicId', topicId);
+  if (minuteTopicId) {
+    formData.append('minuteTopicId', minuteTopicId);
+  }
+
+  try {
+    const res = await fetch(`${API_BASE}/admin/generate-questions-from-pdf`, {
+      method: 'POST',
+      body: formData
+    });
+
+    const data = await res.json();
+
+    if (res.ok) {
+      alert(`Success!\n\n${data.message}`);
+      logAdmin(`[AI Pipeline] Success: ${data.message}`);
+      
+      // Reset file picker
+      document.getElementById('ai-pdf-file').value = "";
+      selectedAiPdfFile = null;
+      statusSpan.innerText = "No file chosen";
+      statusSpan.style.color = '#10B981';
+      
+      // Refresh stats
+      await fetchAdminStats();
+      await populateIngestTopics();
+    } else {
+      alert(`Error during AI Generation:\n\n${data.error || 'Unknown error'}`);
+      logAdmin(`[AI Pipeline] Error: ${data.error || 'Unknown error'}`);
+    }
+  } catch (e) {
+    alert(`Network error during AI Generation: ${e.message}`);
+    logAdmin(`[AI Pipeline] Network Error: ${e.message}`);
+  } finally {
+    generateBtn.disabled = selectedAiPdfFile ? false : true;
+    generateBtn.innerText = "🚀 Generate & Seed Questions";
+    generateBtn.style.background = '#10B981';
   }
 }
 
