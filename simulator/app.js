@@ -1726,6 +1726,7 @@ async function populateIngestTopics() {
         opt2.dataset.subjectId = t.subId;
         opt2.innerText = displayName;
         mainsParentSelect.appendChild(opt2);
+      }
     });
 
     // Save topics globally for AI Question Generator tab
