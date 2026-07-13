@@ -153,8 +153,8 @@ module.exports = {
       explanation_hi: "दोनों कथन गलत हैं। समिति ने जयपुर को राजस्थान की राजधानी के रूप में बनाए रखने और उच्च न्यायालय को जोधपुर में बनाए रखने की सिफारिश की थी, जिससे अजमेर के राजधानी के दावे और बीकानेर के उच्च न्यायालय के दावे को खारिज कर दिया गया।"
     },
     {
-      question_en: "Assertion (A): March 30th is celebrated as Rajasthan Day (Rajasthan Diwas).\nReason (R): On 30th March 1949, the four largest princely states—Jaipur, Jodhpur, Bikaner, and Jaisalmer—were merged in Phase IV to form Greater Rajasthan, integrating the vast majority of the state.\nSelect the correct answer:",
-      question_hi: "कथन (A): प्रतिवर्ष 30 मार्च को राजस्थान दिवस के रूप में मनाया जाता है।\nकारण (R): 30 मार्च 1949 को, चार सबसे बड़ी रियासतों—जयपुर, जोधपुर, बीकानेर और जैसलमेर का विलय चौथे चरण में वृहत् राजस्थान बनाने के लिए हुआ था, जिससे राज्य के विशाल हिस्से का एकीकरण हुआ।\nसही उत्तर चुनिए:",
+      question_en: "Assertion (A): The Matsya Union (Alwar, Bharatpur, Dholpur, Karauli) was not integrated with the Rajasthan Union (Phase II) on 25th March 1948, despite being formed just a week earlier.\nReason (R): The rulers of Bharatpur and Dholpur, supported by local groups, preferred merging with Uttar Pradesh due to linguistic and cultural affinities, requiring the states ministry to set up a commission to gauge public opinion first.\nSelect the correct answer:",
+      question_hi: "कथन (A): मत्स्य संघ (अलवर, भरतपुर, धौलपुर, करौली) को मात्र एक सप्ताह पूर्व गठित होने के बावजूद, 25 मार्च 1948 को पूर्व राजस्थान संघ (द्वितीय चरण) में एकीकृत नहीं किया गया था।\nकारण (R): भरतपुर और धौलपुर के शासकों ने, स्थानीय समूहों के समर्थन से, भाषाई और सांस्कृतिक समानता के कारण उत्तर प्रदेश में विलय को प्राथमिकता दी, जिसके लिए रियासती विभाग को पहले जनमत का आकलन करने के लिए एक आयोग गठित करने की आवश्यकता थी।\nसही उत्तर चुनिए:",
       options_en: {
         A: "Both A and R are true and R is the correct explanation of A",
         B: "Both A and R are true but R is not the correct explanation of A",
@@ -168,12 +168,12 @@ module.exports = {
         D: "A गलत है लेकिन R सही है"
       },
       correct_option: "A",
-      explanation_en: "Both statements are true and the reason correctly explains the assertion. The merger of the four major Marwar and Dhundhar states on 30th March 1949 marked the completion of the integration of the majority of Rajasthan, hence celebrated as Rajasthan Day.",
-      explanation_hi: "दोनों कथन सही हैं और कारण कथन की सही व्याख्या करता है। 30 मार्च 1949 को चार प्रमुख रियासतों (जयपुर, जोधपुर, बीकानेर, जैसलमेर) के विलय ने राजस्थान के अधिकांश भाग के एकीकरण को पूरा किया, इसलिए इसे राजस्थान दिवस के रूप में मनाया जाता है।"
+      explanation_en: "Both A and R are true and R is the correct explanation. The Matsya Union was kept separate because of the Dholpur and Bharatpur merger dispute. Since they had a Braj-speaking population, they desired to join UP. The Riyasati Vibhag set up the Shankar Rao Dev Committee to resolve this public opinion dispute before finally merging them in Phase V.",
+      explanation_hi: "कथन (A) और कारण (R) दोनों सही हैं और R, A की सही व्याख्या है। धौलपुर और भरतपुर के विलय विवाद के कारण मत्स्य संघ को शुरुआत में अलग रखा गया था। चूंकि इन क्षेत्रों में ब्रजभाषी आबादी थी, इसलिए वे उत्तर प्रदेश में शामिल होना चाहते थे। रियासती विभाग ने अंततः पांचवें चरण में उनका विलय करने से पहले जनमत का आकलन करने के लिए शंकर राव देव समिति का गठन किया।"
     },
     {
-      question_en: "Assertion (A): Ajmer-Merwara possessed a separate legislative assembly named the 'Dhara Sabha' before its merger on 1st November 1956.\nReason (R): Under the recommendations of the Satya Narayan Rao Committee, Jaipur was declared the capital and Ajmer was given the Revenue Board.\nSelect the correct answer:",
-      question_hi: "कथन (A): 1 नवंबर 1956 को विलय से पहले अजमेर-मेरवाड़ा की 'धारा सभा' नाम से एक अलग विधानसभा थी।\nकारण (R): सत्यनारायण राव समिति की सिफारिशों के तहत, जयपुर को राजधानी घोषित किया गया और अजमेर को राजस्व मंडल दिया गया।\nसही उत्तर चुनिए:",
+      question_en: "Assertion (A): Maharana Bhupal Singh of Mewar was designated as the lifelong 'Maharaj Pramukh' of Rajasthan in the fourth phase of integration (30th March 1949).\nReason (R): The B.R. Patel Committee recommended that Jaipur should be the permanent capital of Greater Rajasthan, which required compensating Mewar's historical precedence.\nSelect the correct answer:",
+      question_hi: "कथन (A): एकीकरण के चौथे चरण (30 मार्च 1949) में मेवाड़ के महाराणा भूपाल सिंह को राजस्थान का आजीवन 'महाराज प्रमुख' मनोनीत किया गया था।\nकारण (R): बी.आर. पटेल समिति ने सिफारिश की थी कि जयपुर को वृहत् राजस्थान की स्थायी राजधानी होना चाहिए, जिसके लिए मेवाड़ की ऐतिहासिक वरिष्ठता की क्षतिपूर्ति करना आवश्यक था।\nसही उत्तर चुनिए:",
       options_en: {
         A: "Both A and R are true and R is the correct explanation of A",
         B: "Both A and R are true but R is not the correct explanation of A",
@@ -187,12 +187,12 @@ module.exports = {
         D: "A गलत है लेकिन R सही है"
       },
       correct_option: "B",
-      explanation_en: "Both statements are true. However, the reason discusses the allocation of administrative departments in 1956, which does not explain why Ajmer-Merwara had a separate Part 'C' state assembly (Dhara Sabha) prior to the merger (which was due to its post-independence status under a Chief Commissioner). Hence, R is not the correct explanation of A.",
-      explanation_hi: "दोनों कथन सही हैं। हालांकि, कारण में 1956 में प्रशासनिक विभागों के आवंटन पर चर्चा की गई है, जो यह स्पष्ट नहीं करता है कि विलय से पहले अजमेर-मेरवाड़ा की एक अलग विधानसभा (धारा सभा) क्यों थी (जो इसके स्वतंत्रता के बाद मुख्य आयुक्त के अधीन होने के कारण थी)। अतः R, A की सही व्याख्या नहीं है।"
+      explanation_en: "Both statements are true. In Phase IV, Mewar's Maharana Bhupal Singh was made Maharaj Pramukh for life to honor Mewar's status because the active post of Rajpramukh was assigned to Jaipur Maharaja Sawai Man Singh II. The capital allocation to Jaipur was a separate decision based on the B.R. Patel Committee report. Hence, R is not the correct explanation of A.",
+      explanation_hi: "दोनों कथन सत्य हैं। चौथे चरण में, मेवाड़ के महाराणा भूपाल सिंह को मेवाड़ के गौरव का सम्मान करने के लिए आजीवन महाराज प्रमुख बनाया गया था क्योंकि राजप्रमुख का सक्रिय पद जयपुर महाराजा सवाई मानसिंह द्वितीय को सौंपा गया था। जयपुर को राजधानी बनाना बी.आर. पटेल समिति की रिपोर्ट पर आधारित एक स्वतंत्र निर्णय था। अतः R, A की सही व्याख्या नहीं है।"
     },
     {
-      question_en: "Assertion (A): While signing the Instrument of Accession, Maharawal Chandraveer Singh of Banswara remarked, 'I am signing my death warrant'.\nReason (R): Banswara was the first princely state in Rajasthan to voluntarily sign the Instrument of Accession on 7th August 1947.\nSelect the correct answer:",
-      question_hi: "कथन (A): विलय पत्र पर हस्ताक्षर करते समय, बांसवाड़ा के महारावल चंद्रवीर सिंह ने टिप्पणी की थी, 'मैं अपने मृत्यु वारंट पर हस्ताक्षर कर रहा हूँ'।\nकारण (R): बांसवाड़ा 7 अगस्त 1947 को स्वेच्छा से विलय पत्र पर हस्ताक्षर करने वाली राजस्थान की पहली रियासत थी।\nसही उत्तर चुनिए:",
+      question_en: "Assertion (A): During the partition of Sirohi in January 1950 (Phase VI), the native village of Gokulbhai Bhatt (Hathal) was intentionally kept inside the territory merged with Rajasthan.\nReason (R): The local population of Hathal village overwhelmingly spoke Gujarati, which justified its inclusion in Rajasthan under the linguistic division principles of the Riyasati Vibhag.\nSelect the correct answer:",
+      question_hi: "कथन (A): जनवरी 1950 में सिरोही के विभाजन (छठे चरण) के दौरान, गोकुलभाई भट्ट के पैतृक गाँव (हाथल) को जानबूझकर राजस्थान में मिलाए गए क्षेत्र के भीतर रखा गया था।\nकारण (R): हाथल गाँव की स्थानीय आबादी अत्यधिक गुजराती बोलती थी, जिसने रियासती विभाग के भाषाई विभाजन सिद्धांतों के तहत राजस्थान में इसके शामिल होने को सही ठहराया।\nसही उत्तर चुनिए:",
       options_en: {
         A: "Both A and R are true and R is the correct explanation of A",
         B: "Both A and R are true but R is not the correct explanation of A",
@@ -206,12 +206,12 @@ module.exports = {
         D: "A गलत है लेकिन R सही है"
       },
       correct_option: "C",
-      explanation_en: "Assertion (A) is true. Maharawal Chandraveer Singh did make this remark. Reason (R) is false because Bikaner (not Banswara) was the first state to sign the Instrument of Accession on 7th August 1947. Banswara signed in Phase II (March 1948).",
-      explanation_hi: "कथन (A) सही है। महारावल चंद्रवीर सिंह ने वास्तव में यह टिप्पणी की थी। कारण (R) गलत है क्योंकि बीकानेर (न कि बांसवाड़ा) 7 अगस्त 1947 को विलय पत्र पर हस्ताक्षर करने वाला पहला राज्य था। बांसवाड़ा ने दूसरे चरण (मार्च 1948) में हस्ताक्षर किए थे।"
+      explanation_en: "Assertion (A) is true. Patel kept Gokulbhai Bhatt's native village Hathal in Rajasthan while transferring Mount Abu and Delwara to Bombay. Reason (R) is false because Hathal was a Rajasthani-speaking village; it was retained in Rajasthan to satisfy local demands for Gokulbhai Bhatt's inclusion, not because it spoke Gujarati.",
+      explanation_hi: "कथन (A) सत्य है। पटेल ने माउंट आबू और देलवाड़ा को बॉम्बे में स्थानांतरित करते हुए गोकुलभाई भट्ट के पैतृक गांव हाथल को राजस्थान में रखा। कारण (R) असत्य है क्योंकि हाथल एक राजस्थानी भाषी गांव था; इसे गोकुलभाई भट्ट के राजस्थान में विलय की स्थानीय मांगों को शांत करने के लिए रखा गया था, न कि इसलिए कि वहां गुजराती बोली जाती थी।"
     },
     {
-      question_en: "Assertion (A): The Central Government appointed S.N. Sapru as the Administrator of Bharatpur in December 1947 because the Maharaja voluntarily requested his retirement.\nReason (R): Bharatpur was facing severe communal violence and political revolt led by Jat leader Deshraj, causing a complete breakdown of law and order.\nSelect the correct answer:",
-      question_hi: "कथन (A): केंद्र सरकार ने दिसंबर 1947 में एस.एन. सप्रू को भरतपुर का प्रशासक नियुक्त किया क्योंकि महाराजा ने स्वेच्छा से सेवानिवृत्ति का अनुरोध किया था।\nकारण (R): भरतपुर में जाट नेता देशराज के नेतृत्व में भीषण सांप्रदायिक हिंसा और राजनीतिक विद्रोह हो रहा था, जिससे कानून-व्यवस्था पूरी तरह चरमरा गई थी।\nसही उत्तर चुनिए:",
+      question_en: "Assertion (A): Maharaja Hanwant Singh of Jodhpur immediately signed the Instrument of Accession on 15th August 1947 without any hesitation or threat, making Jodhpur the first state to join India.\nReason (R): Lord Mountbatten and V.P. Menon warned the Maharaja that joining Pakistan would violate geographical contiguity and lead to communal rebellion among Jodhpur's Hindu-majority population.\nSelect the correct answer:",
+      question_hi: "कथन (A): जोधपुर के महाराजा हनुवंत सिंह ने बिना किसी झिझक या धमकी के 15 अगस्त 1947 को तुरंत विलय पत्र पर हस्ताक्षर कर दिए, जिससे जोधपुर भारत में शामिल होने वाला पहला राज्य बन गया।\nकारण (R): लॉर्ड माउंटबेटन और वी.पी. मेनन ने महाराजा को चेतावनी दी थी कि पाकिस्तान में शामिल होना भौगोलिक निकटता का उल्लंघन करेगा और जोधपुर की हिंदू-बहुसंख्यक आबादी के बीच सांप्रदायिक विद्रोह को जन्म देगा।\nसही उत्तर चुनिए:",
       options_en: {
         A: "Both A and R are true and R is the correct explanation of A",
         B: "Both A and R are true but R is not the correct explanation of A",
@@ -225,8 +225,8 @@ module.exports = {
         D: "A गलत है लेकिन R सही है"
       },
       correct_option: "D",
-      explanation_en: "Assertion (A) is false. S.N. Sapru was appointed as Administrator due to administrative collapse and communal violence, not because the Maharaja voluntarily requested retirement. Reason (R) is true.",
-      explanation_hi: "कथन (A) गलत है। एस.एन. सप्रू को प्रशासनिक पतन और सांप्रदायिक हिंसा के कारण प्रशासक नियुक्त किया गया था, न कि इसलिए कि महाराजा ने स्वेच्छा से सेवानिवृत्ति का अनुरोध किया था। कारण (R) सही है।"
+      explanation_en: "Assertion (A) is false. Jodhpur signed on 11th August 1947 after a pen-pistol standoff and hesitation, and Bikaner was the first state to sign (on 7th August). Reason (R) is true. Mountbatten and Menon did warn Hanwant Singh of communal consequences due to the Hindu majority.",
+      explanation_hi: "कथन (A) असत्य है। जोधपुर ने पेन-पिस्तौल तानने की घटना और हिचकिचाहट के बाद 11 अगस्त 1947 को हस्ताक्षर किए थे, और बीकानेर हस्ताक्षर करने वाला पहला राज्य था (7 अगस्त)। कारण (R) सत्य है। माउंटबेटन और मेनन ने हनुवंत सिंह को हिंदू बहुसंख्या के कारण सांप्रदायिक परिणामों की चेतावनी दी थी।"
     },
     {
       question_en: "Match the integration phases in Column-I with their respective inaugurators in Column-II and select the correct option:\n\n| Column-I (Phase) | Column-II (Inaugurator) |\n|---|---|\n| 1. Matsya Union | I. N.V. Gadgil |\n| 2. Rajasthan Union | II. N.V. Gadgil |\n| 3. United States of Rajasthan | III. Jawaharlal Nehru |\n| 4. Greater Rajasthan | IV. Vallabhbhai Patel |",
