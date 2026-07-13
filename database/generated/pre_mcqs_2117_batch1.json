@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Consider the following statements regarding the archaeological site of Bagore:\n1. It is located on the banks of the Kothari River in the Bhilwara district.\n2. It has provided the earliest evidence of animal domestication in the Indian subcontinent.\n3. The excavations at Bagore were led by the archaeologist V.N. Mishra.\nWhich of the statements given above are correct?",
+      "question_hi": "बागोर पुरातात्विक स्थल के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह भीलवाड़ा जिले में कोठारी नदी के तट पर स्थित है।\n2. इसने भारतीय उपमहाद्वीप में पशुपालन के सबसे प्राचीन प्रमाण प्रदान किए हैं।\n3. बागोर में उत्खनन का नेतृत्व पुरातत्वविद् वी.एन. मिश्रा ने किया था।\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Bagore is India's largest Mesolithic site, located on the Kothari River in Bhilwara district. It was excavated by V.N. Mishra and has provided the earliest evidence of animal domestication (dog, sheep, goat, cattle) in India.",
+      "explanation_hi": "बागोर भारत का सबसे बड़ा मध्यपाषाण कालीन स्थल है, जो भीलवाड़ा जिले में कोठारी नदी के तट पर स्थित है। इसका उत्खनन वी.एन. मिश्रा द्वारा किया गया था और इसने भारत में पशुपालन (कुत्ता, भेड़, बकरी, मवेशी) के सबसे प्रारंभिक प्रमाण प्रदान किए हैं।"
+    },
+    {
+      "question_en": "At which of the following prehistoric sites in Rajasthan has the earliest evidence of the use of fire in the state, along with fire altars and charred animal bones, been discovered?",
+      "question_hi": "राजस्थान के निम्नलिखित में से किस प्रागैतिहासिक स्थल पर राज्य में आग के उपयोग के सबसे प्राचीन प्रमाण, साथ ही अग्निकुंड और जले हुए जानवरों की हड्डियाँ खोजी गई हैं?",
+      "options_en": {
+        "A": "Bagore",
+        "B": "Tilwara",
+        "C": "Pachpadra",
+        "D": "Didwana"
+      },
+      "options_hi": {
+        "A": "बागोर",
+        "B": "तिलवारा",
+        "C": "पचपदरा",
+        "D": "डीडवाना"
+      },
+      "correct_option": "B",
+      "explanation_en": "Tilwara, located on the Luni river in Barmer, was excavated by V.N. Mishra. It contains evidence of fire altars, Mesolithic tools, and charred bones, representing the earliest evidence of fire use in prehistoric Rajasthan.",
+      "explanation_hi": "बाड़मेर में लूणी नदी पर स्थित तिलवारा का उत्खनन वी.एन. मिश्रा द्वारा किया गया था। यहाँ से अग्निकुंड, मध्यपाषाण कालीन उपकरण और जली हुई हड्डियों के प्रमाण मिले हैं, जो प्रागैतिहासिक राजस्थान में आग के उपयोग के सबसे प्राचीन प्रमाण का प्रतिनिधित्व करते हैं।"
+    },
+    {
+      "question_en": "The prehistoric site locally known as 'Mhasatiya' is:",
+      "question_hi": "स्थानीय रूप से 'महासतिया' के नाम से जाना जाने वाला प्रागैतिहासिक स्थल है:",
+      "options_en": {
+        "A": "Tilwara",
+        "B": "Didwana",
+        "C": "Bagore",
+        "D": "Jayal"
+      },
+      "options_hi": {
+        "A": "तिलवारा",
+        "B": "डीडवाना",
+        "C": "बागोर",
+        "D": "जायल"
+      },
+      "correct_option": "C",
+      "explanation_en": "Bagore in Bhilwara is locally known as 'Mhasatiya' due to a large mound at the site. It is India's largest Mesolithic site.",
+      "explanation_hi": "भीलवाड़ा में बागोर को स्थानीय स्तर पर टीले की उपस्थिति के कारण 'महासतिया' के नाम से जाना जाता है। यह भारत का सबसे बड़ा मध्यपाषाण कालीन स्थल है।"
+    },
+    {
+      "question_en": "Which of the following statements is/are correct regarding the prehistoric site of Didwana?\n1. It is a key site showing evidence of both Palaeolithic and Mesolithic cultures.\n2. It is situated in the saline lake area of Nagaur district.\n3. Stone tools found here include both large unpolished pebble tools and smaller microliths.\nSelect the correct answer using the options below:",
+      "question_hi": "डीडवाना प्रागैतिहासिक स्थल के संबंध में निम्नलिखित में से कौन सा/से कथन सही है/हैं?\n1. यह पुरापाषाण और मध्यपाषाण दोनों संस्कृतियों के प्रमाण दिखाने वाला एक प्रमुख स्थल है।\n2. यह नागौर जिले के खारे पानी की झील क्षेत्र में स्थित है।\n3. यहाँ पाए गए पत्थर के उपकरणों में बड़े बिना पॉलिश किए गए कंकड़ उपकरण (पेबल टूल्स) और छोटे सूक्ष्म-पाषाण उपकरण (माइक्रोलिथ) दोनों शामिल हैं।\nनीचे दिए गए विकल्पों का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Didwana in Nagaur district is a saline lake area showing evidence of early human habitation spanning from the Palaeolithic (hand axes, chopper-chopping tools) to the Mesolithic (microliths) periods.",
+      "explanation_hi": "नागौर जिले में डीडवाना एक खारे पानी का झील क्षेत्र है जो पुरापाषाण काल (हस्त-कुठार, चाॅपर-चॉपिंग उपकरण) से लेकर मध्यपाषाण काल (सूक्ष्म-पाषाण) तक प्रारंभिक मानव निवास के प्रमाण प्रदर्शित करता है।"
+    },
+    {
+      "question_en": "Consider the following pairs of prehistoric sites and their corresponding districts in Rajasthan:\n1. Jayal - Nagaur\n2. Sojat - Pali\n3. Dhaneri - Barmer\nWhich of the pairs given above are correctly matched?",
+      "question_hi": "राजस्थान में प्रागैतिहासिक स्थलों और उनके संबंधित जिलों के निम्नलिखित युग्मों पर विचार कीजिए:\n1. जायल - नागौर\n2. सोजत - पाली\n3. धनेरी - बाड़मेर\nउपरोक्त युग्मों में से कौन से सही सुमेलित हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Jayal is located in Nagaur, and Sojat is in Pali district. Dhaneri is a Mesolithic site in Rajasthan, but it is not in Barmer; it is in Pali/Jodhpur region. Thus, only pairs 1 and 2 are correctly matched.",
+      "explanation_hi": "जायल नागौर में स्थित है, और सोजत पाली जिले में स्थित है। धनेरी राजस्थान में एक मध्यपाषाण कालीन स्थल है, लेकिन यह बाड़मेर में नहीं है; यह पाली/जोधपुर क्षेत्र में आता है। इस प्रकार, केवल युग्म 1 और 2 सही सुमेलित हैं।"
+    },
+    {
+      "question_en": "In the context of prehistoric rock paintings in Rajasthan, which of the following sites is renowned for containing the earliest known rock paintings in the state?",
+      "question_hi": "राजस्थान में प्रागैतिहासिक शैल चित्रों (रॉक पेंटिंग्स) के संदर्भ में, निम्नलिखित में से कौन सा स्थल राज्य में सबसे प्राचीन ज्ञात शैल चित्रों के लिए प्रसिद्ध है?",
+      "options_en": {
+        "A": "Alaniya (Kota)",
+        "B": "Garada (Bundi)",
+        "C": "Dadikar (Alwar)",
+        "D": "Bhim ki Dungari (Jaipur)"
+      },
+      "options_hi": {
+        "A": "अलानिया (कोटा)",
+        "B": "गरदड़ा (बूंदी)",
+        "C": "दडीकर (अलवर)",
+        "D": "भीम की डूंगरी (जयपुर)"
+      },
+      "correct_option": "C",
+      "explanation_en": "Dadikar in Alwar district contains the earliest known rock paintings in Rajasthan.",
+      "explanation_hi": "अलवर जिले के दडीकर में राजस्थान के सबसे प्राचीन ज्ञात शैल चित्र प्राप्त हुए हैं।"
+    },
+    {
+      "question_en": "Which of the following features is/are characteristic of the Mesolithic site of Bagore?\n1. Discovery of stone circles locally known as 'Leshni'.\n2. Earliest copper and iron needles in the region.\n3. Cultural sequences extending from the Mesolithic to Chalcolithic and Iron Age.\nSelect the correct answer using the options below:",
+      "question_hi": "निम्नलिखित में से कौन सी विशेषता/विशेषताएं बागोर के मध्यपाषाण कालीन स्थल की विशेषता है/हैं?\n1. स्थानीय रूप से 'लेश्नी' के रूप में जाने जाने वाले पत्थरों के घेरों (स्टोन सर्कल्स) की खोज।\n2. क्षेत्र में सबसे शुरुआती तांबे और लोहे की सुइयां।\n3. मध्यपाषाण काल से ताम्रपाषाण काल और लौह युग तक विस्तृत सांस्कृतिक अनुक्रम।\nनीचे दिए गए विकल्पों का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Bagore is unique for yielding stone circles or rings known as 'Leshni'. It has also yielded early tools like needles (including copper/iron needles in later phases) and displays a continuous occupational sequence through the Mesolithic, Chalcolithic, and Iron Age.",
+      "explanation_hi": "बागोर 'लेश्नी' के रूप में जाने जाने वाले पत्थरों के घेरों (स्टोन सर्कल्स) के लिए विशिष्ट है। यहाँ से प्रारंभिक सुइयाँ (उत्तरवर्ती चरणों में तांबे/लोहे की सुइयों सहित) प्राप्त हुई हैं और यह मध्यपाषाण, ताम्रपाषाण और लौह युग तक निरंतर निवास के अनुक्रम को प्रदर्शित करता है।"
+    },
+    {
+      "question_en": "With reference to the Stone Age in Rajasthan, consider the following statements:\n1. Pebble tools, hand axes, and chopper-chopping tools without polishing are characteristic of the Palaeolithic period.\n2. The Neolithic period in Rajasthan is marked by a large number of extensive, well-defined purely Neolithic settlements.\n3. Microliths, or tiny stone blades, serve as the defining tool technology of the Mesolithic period.\nWhich of the statements given above are correct?",
+      "question_hi": "राजस्थान में पाषाण युग के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. बिना पॉलिश किए गए कंकड़ उपकरण (पेबल टूल्स), हस्त-कुठार (हैंड एक्स) और चाॅपर-चॉपिंग उपकरण पुरापाषाण काल की विशेषता हैं।\n2. राजस्थान में नवपाषाण काल बड़ी संख्या में व्यापक, अच्छी तरह से परिभाषित विशुद्ध नवपाषाण बस्तियों द्वारा चिह्नित है।\n3. सूक्ष्म-पाषाण (माइक्रोलिथ), या छोटे पत्थर के ब्लेड, मध्यपाषाण काल की परिभाषित उपकरण तकनीक के रूप में कार्य करते हैं।\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 1 और 3",
+        "C": "केवल 2 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 and 3 are correct. However, Statement 2 is incorrect because purely Neolithic sites are extremely rare in Rajasthan; the transition from Mesolithic to Chalcolithic happened directly at many sites without a distinct, widespread purely Neolithic phase.",
+      "explanation_hi": "कथन 1 और 3 सही हैं। हालाँकि, कथन 2 गलत है क्योंकि राजस्थान में विशुद्ध रूप से नवपाषाण कालीन स्थल अत्यंत दुर्लभ हैं; कई स्थलों पर मध्यपाषाण काल से ताम्रपाषाण काल में संक्रमण सीधे हुआ, बिना किसी विशिष्ट, व्यापक विशुद्ध नवपाषाण कालीन चरण के।"
+    },
+    {
+      "question_en": "Which of the following Mesolithic sites is/are located in the Barmer district of Rajasthan?\n1. Tilwara\n2. Pachpadra\n3. Jayal\nSelect the correct answer using the options below:",
+      "question_hi": "निम्नलिखित में से कौन सा/से मध्यपाषाण कालीन स्थल राजस्थान के बाड़मेर जिले में स्थित है/हैं?\n1. तिलवारा\n2. पचपदरा\n3. जायल\nनीचे दिए गए विकल्पों का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 1 और 2",
+        "C": "केवल 2 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Tilwara (located on the Luni River near Balotra) and Pachpadra (near the salt lake) are located in the Barmer district. Jayal is situated in the Nagaur district.",
+      "explanation_hi": "तिलवारा (बालोतरा के पास लूणी नदी पर स्थित) और पचपदरा (खारे पानी की झील के पास) बाड़मेर जिले में स्थित हैं। जायल नागौर जिले में स्थित है।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the archaeological site of Tilwara:\n1. It is located near Balotra on the Luni River basin.\n2. It was excavated under the supervision of the renowned archaeologist V.N. Mishra.\n3. The site has yielded evidence of fire altars and charred bones, suggesting ritualistic or domestic fire use.\nWhich of the statements given above are correct?",
+      "question_hi": "तिलवारा पुरातात्विक स्थल के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह लूणी नदी बेसिन पर बालोतरा के पास स्थित है।\n2. इसका उत्खनन प्रसिद्ध पुरातत्वविद् वी.एन. मिश्रा के पर्यवेक्षण में किया गया था।\n3. इस स्थल से अग्निकुंडों और जली हुई हड्डियों के प्रमाण मिले हैं, जो धार्मिक या घरेलू स्तर पर आग के उपयोग का सुझाव देते हैं।\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All three statements are correct. Tilwara is a key Mesolithic site in Barmer district on the Luni River, excavated by V.N. Mishra, yielding earliest evidence of fire use in Rajasthan through fire altars and charred bones.",
+      "explanation_hi": "सभी तीनों कथन सही हैं। तिलवारा बाड़मेर जिले में लूणी नदी पर स्थित एक प्रमुख मध्यपाषाण कालीन स्थल है, जिसका उत्खनन वी.एन. मिश्रा द्वारा किया गया था, जहाँ से अग्निकुंडों और जली हुई हड्डियों के माध्यम से राजस्थान में आग के उपयोग के सबसे शुरुआती प्रमाण प्राप्त हुए हैं।"
+    },
+    {
+      "question_en": "Match the prehistoric rock painting sites of Rajasthan with their dominant themes or descriptions:\n1. Alaniya - Hunting scenes\n2. Garada - Cave paintings\n3. Dadikar - Earliest known rock paintings\nWhich of the pairs given above are correctly matched?",
+      "question_hi": "राजस्थान के प्रागैतिहासिक शैल चित्र स्थलों को उनकी प्रमुख शैलियों या विवरणों से सुमेलित कीजिए:\n1. अलानिया - शिकार के दृश्य\n2. गरदड़ा - गुफा चित्र (शैल चित्र)\n3. दडीकर - सबसे प्राचीन ज्ञात शैल चित्र\nउपरोक्त युग्मों में से कौन से सही सुमेलित हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All pairs are correctly matched. Alaniya in Kota is famous for hunting scenes; Garada in Bundi is known for prehistoric cave paintings; Dadikar in Alwar is famous for containing the earliest known rock paintings in Rajasthan.",
+      "explanation_hi": "सभी युग्म सही सुमेलित हैं। कोटा का अलानिया शिकार के दृश्यों के लिए प्रसिद्ध है; बूंदी का गरदड़ा प्रागैतिहासिक गुफा चित्रों के लिए जाना जाता है; अलवर का दडीकर राजस्थान में सबसे प्राचीन ज्ञात शैल चित्रों के लिए प्रसिद्ध है।"
+    },
+    {
+      "question_en": "At which of the following prehistoric sites in Rajasthan have rock shelters featuring ancient rock paintings and evidence of Mesolithic habitation been found?",
+      "question_hi": "राजस्थान के निम्नलिखित में से किस प्रागैतिहासिक स्थल पर प्राचीन शैल चित्रों और मध्यपाषाण कालीन आवास के प्रमाण वाले शैलाश्रय (रॉक शेल्टर) पाए गए हैं?",
+      "options_en": {
+        "A": "Bhim ki Dungari (Viratnagar)",
+        "B": "Sambhar Lake",
+        "C": "Budha Pushkar",
+        "D": "Jayal"
+      },
+      "options_hi": {
+        "A": "भीम की डूंगरी (विराटनगर)",
+        "B": "सांभर झील",
+        "C": "बूढ़ा पुष्कर",
+        "D": "जायल"
+      },
+      "correct_option": "A",
+      "explanation_en": "Bhim ki Dungari, located in Viratnagar (Jaipur), features rock shelters with ancient paintings and evidence of Mesolithic human habitation.",
+      "explanation_hi": "विराटनगर (जयपुर) में स्थित भीम की डूंगरी में प्राचीन चित्रों से युक्त शैलाश्रय और मध्यपाषाण कालीन मानव निवास के प्रमाण प्राप्त हुए हैं।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the geographical distribution of Mesolithic sites in Rajasthan:\n1. They are primarily concentrated in the arid and semi-arid regions of Barmer, Bhilwara, and Nagaur.\n2. The sites are frequently associated with river basins like the Luni and Kothari, or saline/playa lake basins.\nWhich of the statements given above is/are correct?",
+      "question_hi": "राजस्थान में मध्यपाषाण कालीन स्थलों के भौगोलिक वितरण के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. वे मुख्य रूप से बाड़मेर, भीलवाड़ा और नागौर के शुष्क और अर्ध-शुष्क क्षेत्रों में केंद्रित हैं।\n2. ये स्थल अक्सर लूणी और कोठारी जैसी नदी घाटियों, या खारे/प्लाया झील घाटियों से जुड़े हुए हैं।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. The Mesolithic sites in Rajasthan show a strong concentration in Barmer (Tilwara, Pachpadra), Bhilwara (Bagore), and Nagaur (Didwana, Jayal). These sites are located along river systems like Luni and Kothari or near salt lakes like Didwana and Pachpadra.",
+      "explanation_hi": "दोनों कथन सही हैं। राजस्थान में मध्यपाषाण कालीन स्थल बाड़मेर (तिलवारा, पचपदरा), भीलवाड़ा (बागोर), और नागौर (डीडवाना, जायल) में एक मजबूत संकेंद्रण दिखाते हैं। ये स्थल लूणी और कोठारी जैसी नदी प्रणालियों के किनारे या डीडवाना और पचपदरा जैसी खारे पानी की झीलों के पास स्थित हैं।"
+    },
+    {
+      "question_en": "Which of the following sites has yielded prehistoric tools from both the Palaeolithic and Mesolithic periods and is situated in the Ajmer district?",
+      "question_hi": "निम्नलिखित में से किस स्थल से पुरापाषाण और मध्यपाषाण दोनों कालों के प्रागैतिहासिक उपकरण प्राप्त हुए हैं और यह अजमेर जिले में स्थित है?",
+      "options_en": {
+        "A": "Sambhar Lake",
+        "B": "Budha Pushkar",
+        "C": "Didwana",
+        "D": "Sojat"
+      },
+      "options_hi": {
+        "A": "सांभर झील",
+        "B": "बूढ़ा पुष्कर",
+        "C": "डीडवाना",
+        "D": "सोजत"
+      },
+      "correct_option": "B",
+      "explanation_en": "Budha Pushkar in Ajmer district is a significant prehistoric site showing evidence of both Palaeolithic tools and Mesolithic microliths.",
+      "explanation_hi": "अजमेर जिले में स्थित बूढ़ा पुष्कर एक महत्वपूर्ण प्रागैतिहासिक स्थल है जो पुरापाषाण कालीन उपकरणों और मध्यपाषाण कालीन सूक्ष्म-पाषाणों (माइक्रोलिथ) दोनों के प्रमाण दिखाता है।"
+    },
+    {
+      "question_en": "Which of the following archaeological sites in Rajasthan represents a continuous stratigraphical sequence from the Mesolithic to the Chalcolithic and finally the Iron Age?",
+      "question_hi": "राजस्थान का निम्नलिखित में से कौन सा पुरातात्विक स्थल मध्यपाषाण काल से ताम्रपाषाण काल और अंततः लौह युग तक एक निरंतर स्तर-क्रम (स्ट्रैटिग्राफिकल अनुक्रम) का प्रतिनिधित्व करता है?",
+      "options_en": {
+        "A": "Tilwara",
+        "B": "Bagore",
+        "C": "Pachpadra",
+        "D": "Jayal"
+      },
+      "options_hi": {
+        "A": "तिलवारा",
+        "B": "बागोर",
+        "C": "पचपदरा",
+        "D": "जायल"
+      },
+      "correct_option": "B",
+      "explanation_en": "Bagore is one of the few sites in Rajasthan showing a clear developmental transition across three distinct cultural phases: Mesolithic, Chalcolithic, and Iron Age, indicating long-term human occupation.",
+      "explanation_hi": "बागोर राजस्थान के उन कुछ स्थलों में से एक है जो तीन अलग-अलग सांस्कृतिक चरणों: मध्यपाषाण, ताम्रपाषाण और लौह युग में एक स्पष्ट विकासात्मक संक्रमण को प्रदर्शित करता है, जो दीर्घकालिक मानव निवास का संकेत देता है।"
+    },
+    {
+      "question_en": "In the context of prehistoric tools, 'microliths' are the defining characteristic of which cultural period?",
+      "question_hi": "प्रागैतिहासिक उपकरणों के संदर्भ में, 'माइक्रोलिथ' (सूक्ष्म-पाषाण) किस सांस्कृतिक काल की परिभाषित विशेषता है?",
+      "options_en": {
+        "A": "Palaeolithic",
+        "B": "Mesolithic",
+        "C": "Neolithic",
+        "D": "Chalcolithic"
+      },
+      "options_hi": {
+        "A": "पुरापाषाण काल",
+        "B": "मध्यपाषाण काल",
+        "C": "नवपाषाण काल",
+        "D": "ताम्रपाषाण काल"
+      },
+      "correct_option": "B",
+      "explanation_en": "Microliths (tiny, highly finished stone blades and tools) are the defining characteristic of the Mesolithic (Middle Stone Age) period.",
+      "explanation_hi": "माइक्रोलिथ (छोटे, अत्यधिक परिष्कृत पत्थर के ब्लेड और उपकरण) मध्यपाषाण काल की परिभाषित विशेषता हैं।"
+    },
+    {
+      "question_en": "The prehistoric site of Pachpadra, associated with Mesolithic tool assemblages and human habitation, is situated near a salt lake in which district?",
+      "question_hi": "मध्यपाषाण कालीन उपकरण समुच्चय और मानव निवास से जुड़ा प्रागैतिहासिक स्थल पचपदरा, किस जिले में एक खारे पानी की झील के पास स्थित है?",
+      "options_en": {
+        "A": "Nagaur",
+        "B": "Barmer",
+        "C": "Jodhpur",
+        "D": "Jaipur"
+      },
+      "options_hi": {
+        "A": "नागौर",
+        "B": "बाड़मेर",
+        "C": "जोधपुर",
+        "D": "जयपुर"
+      },
+      "correct_option": "B",
+      "explanation_en": "Pachpadra is a prehistoric Mesolithic site located in the Barmer district, close to the famous Pachpadra saline lake.",
+      "explanation_hi": "पचपदरा एक प्रागैतिहासिक मध्यपाषाण कालीन स्थल है जो बाड़मेर जिले में प्रसिद्ध पचपदरा खारे पानी की झील के पास स्थित है।"
+    },
+    {
+      "question_en": "Consider the following statements:\n1. Pebble-based tools, unpolished hand axes, and chopper-chopping tools are typically found in Didwana.\n2. Polished stone tools, pottery, and developed agriculture are characteristic of the Neolithic period, which is widely represented by major sites across Rajasthan.\nWhich of the statements given above is/are correct?",
+      "question_hi": "निम्नलिखित कथनों पर विचार कीजिए:\n1. कंकड़-आधारित (पेबल) उपकरण, बिना पॉलिश वाले हस्त-कुठार और चाॅपर-चॉपिंग उपकरण आमतौर पर डीडवाना में पाए जाते हैं।\n2. पॉलिश किए गए पत्थर के उपकरण, मिट्टी के बर्तन और विकसित कृषि नवपाषाण काल की विशेषता हैं, जिसका प्रतिनिधित्व राजस्थान के प्रमुख स्थलों द्वारा व्यापक रूप से किया जाता है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct, as Didwana shows Palaeolithic pebble tools. Statement 2 is incorrect because while polished tools, pottery, and agriculture define the Neolithic period, purely Neolithic sites are extremely rare in Rajasthan, and most sites show a direct transition from Mesolithic to Chalcolithic.",
+      "explanation_hi": "कथन 1 सही है, क्योंकि डीडवाना में पुरापाषाण कालीन कंकड़ उपकरण दिखाई देते हैं। कथन 2 गलत है क्योंकि जब पॉलिश किए गए उपकरण, मिट्टी के बर्तन और कृषि नवपाषाण काल को परिभाषित करते हैं, तब भी राजस्थान में विशुद्ध रूप से नवपाषाण कालीन स्थल अत्यंत दुर्लभ हैं, और अधिकांश स्थल मध्यपाषाण से सीधे ताम्रपाषाण में संक्रमण प्रदर्शित करते हैं।"
+    },
+    {
+      "question_en": "Which of the following archaeologists conducted the extensive excavations at both Bagore and Tilwara sites in Rajasthan?",
+      "question_hi": "निम्नलिखित में से किस पुरातत्वविद् ने राजस्थान में बागोर और तिलवारा दोनों स्थलों पर व्यापक उत्खनन कार्य किया था?",
+      "options_en": {
+        "A": "A. Ghosh",
+        "B": "V.N. Mishra",
+        "C": "R.C. Agrawala",
+        "D": "H.D. Sankalia"
+      },
+      "options_hi": {
+        "A": "ए. घोष",
+        "B": "वी.एन. मिश्रा",
+        "C": "आर.सी. अग्रवाल",
+        "D": "एच.डी. सांकलिया"
+      },
+      "correct_option": "B",
+      "explanation_en": "Professor V.N. Mishra (Virendra Nath Misra) excavated both the Mesolithic sites of Bagore (Bhilwara) and Tilwara (Barmer) in Rajasthan.",
+      "explanation_hi": "प्रोफेसर वी.एन. मिश्रा (वीरेंद्र नाथ मिश्र) ने राजस्थान में बागोर (भीलवाड़ा) और तिलवारा (बाड़मेर) दोनों मध्यपाषाण कालीन स्थलों का उत्खनन किया था।"
+    },
+    {
+      "question_en": "Which of the following prehistoric sites is situated on the border of Jaipur and Nagaur districts and has provided evidence of ancient human habitation near a saline lake environment?",
+      "question_hi": "निम्नलिखित में से कौन सा प्रागैतिहासिक स्थल जयपुर और नागौर जिलों की सीमा पर स्थित है और इसने खारे पानी की झील के पास प्राचीन मानव निवास के प्रमाण प्रदान किए हैं?",
+      "options_en": {
+        "A": "Sambhar Lake",
+        "B": "Budha Pushkar",
+        "C": "Didwana",
+        "D": "Pachpadra"
+      },
+      "options_hi": {
+        "A": "सांभर झील",
+        "B": "बूढ़ा पुष्कर",
+        "C": "डीडवाना",
+        "D": "पचपदरा"
+      },
+      "correct_option": "A",
+      "explanation_en": "Sambhar Lake, situated on the Jaipur-Nagaur border, is an ancient salt lake that has yielded evidence of human habitation since prehistoric times.",
+      "explanation_hi": "जयपुर-नागौर सीमा पर स्थित सांभर झील एक प्राचीन खारे पानी की झील है जहाँ से प्रागैतिहासिक काल से ही मानव निवास के प्रमाण मिले हैं।"
+    },
+    {
+      "question_en": "Animal domestication evidence in prehistoric India has been discovered at Bagore. Which of the following animals were domesticated by the inhabitants of this site?\n1. Dog\n2. Sheep and Goat\n3. Cattle\nSelect the correct answer using the options below:",
+      "question_hi": "प्रागैतिहासिक भारत में पशुपालन के प्रमाण बागोर से खोजे गए हैं। इस स्थल के निवासियों द्वारा निम्नलिखित में से किन जानवरों को पालतू बनाया गया था?\n1. कुत्ता\n2. भेड़ और बकरी\n3. मवेशी (गाय-बैल)\nनीचे दिए गए विकल्पों का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Excavations at Bagore have yielded the earliest evidence of domestication of animals in India, including dog, sheep, goat, and cattle.",
+      "explanation_hi": "बागोर में उत्खनन से भारत में जानवरों के पालतू बनाने के सबसे प्राचीन प्रमाण प्राप्त हुए हैं, जिनमें कुत्ता, भेड़, बकरी और मवेशी शामिल हैं।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the Stone Age sites of Nagaur district:\n1. Didwana has yielded both Palaeolithic tools and Mesolithic microliths.\n2. Jayal is recognized as an important Mesolithic site.\n3. The sites indicate a dense prehistoric habitation near saline lakes and water sources in the Nagaur region.\nWhich of the statements given above are correct?",
+      "question_hi": "नागौर जिले के पाषाण कालीन स्थलों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. डीडवाना से पुरापाषाण कालीन उपकरण और मध्यपाषाण कालीन सूक्ष्म-पाषाण (माइक्रोलिथ) दोनों प्राप्त हुए हैं।\n2. जायल को एक महत्वपूर्ण मध्यपाषाण कालीन स्थल के रूप में मान्यता प्राप्त है।\n3. ये स्थल नागौर क्षेत्र में खारे पानी की झीलों और जल स्रोतों के पास घनी प्रागैतिहासिक बस्तियों का संकेत देते हैं।\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Nagaur district is rich in prehistoric sites. Didwana shows multi-period occupancy from Palaeolithic to Mesolithic, Jayal is a significant Mesolithic site, and both suggest prehistoric populations settled around the lake systems and water basins of Nagaur.",
+      "explanation_hi": "नागौर जिला प्रागैतिहासिक स्थलों से समृद्ध है। डीडवाना पुरापाषाण काल से मध्यपाषाण काल तक बहु-सांस्कृतिक निवास को दर्शाता है, जायल एक महत्वपूर्ण मध्यपाषाण कालीन स्थल है, और दोनों ही नागौर के झील प्रणालियों और जल बेसिनों के आसपास प्रागैतिहासिक आबादी के बसने का संकेत देते हैं।"
+    },
+    {
+      "question_en": "Rock paintings depicting hunting scenes and animal figures in Rajasthan have been discovered at Alaniya. In which district is Alaniya located?",
+      "question_hi": "राजस्थान में शिकार के दृश्यों और पशु आकृतियों को दर्शाने वाले शैल चित्र अलानिया से खोजे गए हैं। अलानिया किस जिले में स्थित है?",
+      "options_en": {
+        "A": "Alwar",
+        "B": "Kota",
+        "C": "Bundi",
+        "D": "Jaipur"
+      },
+      "options_hi": {
+        "A": "अलवर",
+        "B": "कोटा",
+        "C": "बूंदी",
+        "D": "जयपुर"
+      },
+      "correct_option": "B",
+      "explanation_en": "Alaniya, famous for prehistoric hunting-themed rock paintings, is located in the Kota district of Rajasthan.",
+      "explanation_hi": "प्रागैतिहासिक शिकार-थीम वाले शैल चित्रों के लिए प्रसिद्ध अलानिया, राजस्थान के कोटा जिले में स्थित है।"
+    },
+    {
+      "question_en": "Which of the following is/are unique archaeological evidence recovered from the Mesolithic site of Bagore?\n1. The earliest copper and iron needles.\n2. Unique stone circles or rings locally called 'Leshni'.\n3. Rock paintings depicting human and animal figures.\nSelect the correct answer using the options below:",
+      "question_hi": "निम्नलिखित में से कौन सा/से विशिष्ट पुरातात्विक प्रमाण बागोर के मध्यपाषाण कालीन स्थल से प्राप्त हुआ है/हैं?\n1. सबसे प्राचीन तांबे और लोहे की सुइयां।\n2. विशिष्ट पत्थरों के घेरे (स्टोन सर्कल्स) जिन्हें स्थानीय रूप से 'लेश्नी' कहा जाता है।\n3. मानव और पशु आकृतियों को दर्शाने वाले शैल चित्र।\nनीचे दिए गए विकल्पों का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Bagore is highly rich in artifacts, featuring early copper/iron needles, distinctive stone rings ('Leshni') which are found only here in Rajasthan, and rock shelters with paintings of human and animal figures.",
+      "explanation_hi": "बागोर कलाकृतियों में अत्यधिक समृद्ध है, जिसमें प्रारंभिक तांबे/लोहे की सुइयां, विशिष्ट पत्थर के घेरे ('लेश्नी') जो राजस्थान में केवल यहीं पाए जाते हैं, और मानव तथा पशु आकृतियों के चित्रों से युक्त शैल चित्र शामिल हैं।"
+    },
+    {
+      "question_en": "Which of the following statements best describes the Neolithic culture in Rajasthan based on archaeological findings?",
+      "question_hi": "पुरातात्विक निष्कर्षों के आधार पर राजस्थान में नवपाषाण काल की संस्कृति का सबसे अच्छा वर्णन निम्नलिखित में से कौन सा कथन करता है?",
+      "options_en": {
+        "A": "Rajasthan has numerous well-defined, purely Neolithic settlements containing polished tools and intensive farming.",
+        "B": "Neolithic sites are rare in Rajasthan, with most locations showing a direct transitional phase from Mesolithic to Chalcolithic.",
+        "C": "Neolithic culture was completely absent from the geographic boundaries of Rajasthan.",
+        "D": "Neolithic sites in Rajasthan are restricted to the southern tribal belt along the Mahi River."
+      },
+      "options_hi": {
+        "A": "राजस्थान में कई अच्छी तरह से परिभाषित, विशुद्ध रूप से नवपाषाण कालीन बस्तियां हैं जिनमें पॉलिश किए गए उपकरण और गहन खेती के प्रमाण हैं।",
+        "B": "राजस्थान में नवपाषाण कालीन स्थल दुर्लभ हैं, जिसमें अधिकांश स्थान मध्यपाषाण से सीधे ताम्रपाषाण काल में एक संक्रमणकालीन चरण दिखाते हैं।",
+        "C": "राजस्थान की भौगोलिक सीमाओं में नवपाषाण संस्कृति पूरी तरह से अनुपस्थित थी।",
+        "D": "राजस्थान में नवपाषाण कालीन स्थल माही नदी के किनारे दक्षिणी जनजातीय पट्टी तक सीमित हैं।"
+      },
+      "correct_option": "B",
+      "explanation_en": "In Rajasthan, purely Neolithic sites are rare. Most prehistoric sites show a direct transition from the Mesolithic microlithic culture into the metal-using Chalcolithic and Iron Age phases.",
+      "explanation_hi": "राजस्थान में विशुद्ध रूप से नवपाषाण कालीन स्थल दुर्लभ हैं। अधिकांश प्रागैतिहासिक स्थल मध्यपाषाण सूक्ष्म-पाषाण संस्कृति से सीधे धातु-उपयोग करने वाले ताम्रपाषाण और लौह युग के चरणों में संक्रमण प्रदर्शित करते हैं।"
+    }
+  ]
+}

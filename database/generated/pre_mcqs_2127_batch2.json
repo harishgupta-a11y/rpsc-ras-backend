@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "According to the historical accounts of Marwar, who is considered the immediate ancestor (father) of Rao Siha, the founder of the Rathore dynasty in Marwar, and from which region did they migrate?",
+      "question_hi": "मारवाड़ के ऐतिहासिक वृत्तांतों के अनुसार, मारवाड़ में राठौड़ राजवंश के संस्थापक राव सीहा के निकटतम पूर्वज (पिता) कौन माने जाते हैं और उन्होंने किस क्षेत्र से पलायन किया था?",
+      "options_en": {
+        "A": "Sehjpal, Kannauj",
+        "B": "Dhuhad, Delhi",
+        "C": "Viram Dev, Ghazni",
+        "D": "Rao Jodha, Mandore"
+      },
+      "options_hi": {
+        "A": "सेहजपाल, कन्नौज",
+        "B": "धूहड़, दिल्ली",
+        "C": "वीरम देव, गजनी",
+        "D": "राव जोधा, मंडोर"
+      },
+      "correct_option": "A",
+      "explanation_en": "The Rathores are considered descendants of the Kannauj Rathor Rajputs, who migrated to Rajasthan after Muhammad Ghori's defeat of Jaichand of Kannauj in 1194 AD. Ancestor Sehjpal (Siha's father) settled in Rajasthan, and Rao Siha founded the Rathore lineage in Marwar.",
+      "explanation_hi": "राठौड़ों को कन्नौज के राठौड़ राजपूतों का वंशज माना जाता है, जिन्होंने 1194 ई. में कन्नौज के जयचंद पर मुहम्मद गोरी की विजय के बाद राजस्थान में प्रवास किया था। पूर्वज सेहजपाल (सीहा के पिता) राजस्थान में बस गए और राव सीहा ने मारवाड़ में राठौड़ वंश की स्थापना की।"
+    },
+    {
+      "question_en": "In which year did Rao Siha establish the Rathore lineage in Marwar, and where did he initially settle?",
+      "question_hi": "राव सीहा ने किस वर्ष मारवाड़ में राठौड़ वंश की स्थापना की थी और वे प्रारंभ में कहाँ बसे थे?",
+      "options_en": {
+        "A": "1194 AD, Mandore",
+        "B": "1212 AD, Khed (Pali)",
+        "C": "1453 AD, Jodhpur",
+        "D": "1532 AD, Ajmer"
+      },
+      "options_hi": {
+        "A": "1194 ई., मंडोर",
+        "B": "1212 ई., खेड़ (पाली)",
+        "C": "1453 ई., जोधपुर",
+        "D": "1532 ई., अजमेर"
+      },
+      "correct_option": "B",
+      "explanation_en": "Rao Siha founded the Rathore lineage in Marwar in 1212 AD and settled at Khed in the Pali district.",
+      "explanation_hi": "राव सीहा ने 1212 ई. में मारवाड़ में राठौड़ वंश की स्थापना की और पाली जिले के खेड़ में बस गए।"
+    },
+    {
+      "question_en": "Rao Jodha founded Jodhpur in 1459 AD and built Mehrangarh Fort. On which hill is the fort constructed, and what is its alternative name?",
+      "question_hi": "राव जोधा ने 1459 ई. में जोधपुर की स्थापना की और मेहरानगढ़ किले का निर्माण करवाया। यह किला किस पहाड़ी पर बना है और इसका दूसरा नाम क्या है?",
+      "options_en": {
+        "A": "Chidiyatunk hill, Bhakurchidiya hill",
+        "B": "Modiya Magri hill, Tambavati hill",
+        "C": "Kothari hill, Didwana hill",
+        "D": "Goram hill, Harsura hill"
+      },
+      "options_hi": {
+        "A": "चिड़ियाटूंक पहाड़ी, भाकुरचिड़िया पहाड़ी",
+        "B": "मोदिया मगरी पहाड़ी, तांबावती पहाड़ी",
+        "C": "कोठारी पहाड़ी, डीडवाना पहाड़ी",
+        "D": "गोराम पहाड़ी, हरसुरा पहाड़ी"
+      },
+      "correct_option": "A",
+      "explanation_en": "Rao Jodha built Mehrangarh Fort on the Chidiyatunk hill, which is also popularly known as the Bhakurchidiya hill ('the hill of eagles').",
+      "explanation_hi": "राव जोधा ने चिड़ियाटूंक पहाड़ी पर मेहरानगढ़ किले का निर्माण करवाया था, जिसे लोकप्रिय रूप से भाकुरचिड़िया पहाड़ी ('चील की पहाड़ी') भी कहा जाता है।"
+    },
+    {
+      "question_en": "Which of the following is NOT listed among the seven famous gates of Mehrangarh Fort?",
+      "question_hi": "निम्नलिखित में से कौन सा विकल्प मेहरानगढ़ किले के सात प्रसिद्ध द्वारों (पोल) में शामिल नहीं है?",
+      "options_en": {
+        "A": "Fateh Pol",
+        "B": "Gopal Pol",
+        "C": "Laxmi Pol",
+        "D": "Amrita Pol"
+      },
+      "options_hi": {
+        "A": "फतेह पोल",
+        "B": "गोपाल पोल",
+        "C": "लक्ष्मी पोल",
+        "D": "अमृता पोल"
+      },
+      "correct_option": "C",
+      "explanation_en": "The seven gates of Mehrangarh Fort are Fateh Pol, Gopal Pol, Bhairon Pol, Dedh Kamgra Pol, Loha Pol, Suraj Pol, and Amrita Pol. Laxmi Pol is not one of them.",
+      "explanation_hi": "मेहरानगढ़ किले के सात द्वार फतेह पोल, गोपाल पोल, भैरों पोल, डेढ़ कांगड़ा पोल, लोहा पोल, सूरज पोल और अमृता पोल हैं। लक्ष्मी पोल इनमें शामिल नहीं है।"
+    },
+    {
+      "question_en": "According to the notes, which tactic did Sher Shah Suri use against Rao Maldev during the Battle of Paheba (1541) to create distrust?",
+      "question_hi": "संदर्भ नोट्स के अनुसार, शेरशाह सूरी ने 1541 ई. के पाहेबा के युद्ध के दौरान राव मालदेव के विरुद्ध अविश्वास उत्पन्न करने के लिए किस रणनीति का उपयोग किया था?",
+      "options_en": {
+        "A": "He cut off the water supply to Maldev's camp.",
+        "B": "He distributed fake letters of Maldev's commanders.",
+        "C": "He bribed Maldev's brother to capture Mandore.",
+        "D": "He launched a surprise night attack on Balsamand Lake."
+      },
+      "options_hi": {
+        "A": "उसने मालदेव के शिविर की जलापूर्ति बंद कर दी थी।",
+        "B": "उसने मालदेव के सेनापतियों के जाली पत्र वितरित किए थे।",
+        "C": "उसने मंडोर पर अधिकार करने के लिए मालदेव के भाई को रिश्वत दी थी।",
+        "D": "उसने बालसमंद झील पर अचानक रात में हमला कर दिया था।"
+      },
+      "correct_option": "B",
+      "explanation_en": "In the Battle of Paheba (1541), Maldev won against Sher Shah Suri initially, but Sher Shah used spies to distribute fake letters of Maldev's commanders to create distrust.",
+      "explanation_hi": "पाहेबा के युद्ध (1541) में, मालदेव ने शुरुआत में शेरशाह सूरी के खिलाफ जीत हासिल की, लेकिन शेरशाह ने अविश्वास पैदा करने के लिए जासूसी का इस्तेमाल कर मालदेव के सेनापतियों के जाली पत्र वितरित करवाए।"
+    },
+    {
+      "question_en": "During the Battle of Sammel (Giri Sumel) in January 1544, which brave commanders of Rao Maldev died fighting against Sher Shah Suri?",
+      "question_hi": "जनवरी 1544 में सम्मेल (गिरि सुमेल) के युद्ध के दौरान शेरशाह सूरी के विरुद्ध लड़ते हुए राव मालदेव के कौन से वीर सेनापति वीरगति को प्राप्त हुए थे?",
+      "options_en": {
+        "A": "Jaimal and Patta",
+        "B": "Gaora and Badal",
+        "C": "Balak and Madan",
+        "D": "Jaita and Kumpna"
+      },
+      "options_hi": {
+        "A": "जयमल और पत्ता",
+        "B": "गोरा और बादल",
+        "C": "बालक और मदन",
+        "D": "जैता और कूंपा"
+      },
+      "correct_option": "D",
+      "explanation_en": "In the Battle of Sammel (Giri Sumel) in January 1544, Rao Maldev was defeated by Sher Shah Suri, and his loyal commanders Jaita and Kumpna died fighting.",
+      "explanation_hi": "जनवरी 1544 में सम्मेल (गिरि सुमेल) के युद्ध में शेरशाह सूरी ने राव मालदेव को पराजित किया था, जहाँ उनके वफादार सेनापति जैता और कूंपा लड़ते हुए वीरगति को प्राप्त हुए थे।"
+    },
+    {
+      "question_en": "Following which battle did Sher Shah Suri famously declare: 'I nearly lost the empire of Delhi for a handful of millet (bajra)'?",
+      "question_hi": "किस युद्ध के बाद शेरशाह सूरी ने प्रसिद्ध रूप से यह घोषणा की थी: 'मैंने मुट्ठी भर बाजरे के लिए दिल्ली का साम्राज्य लगभग खो दिया था'?",
+      "options_en": {
+        "A": "Battle of Paheba",
+        "B": "Battle of Sammel (Giri Sumel)",
+        "C": "Battle of Dharmat",
+        "D": "Battle of Gagron"
+      },
+      "options_hi": {
+        "A": "पाहेबा का युद्ध",
+        "B": "सम्मेल (गिरि सुमेल) का युद्ध",
+        "C": "धरमत का युद्ध",
+        "D": "गागरोन का युद्ध"
+      },
+      "correct_option": "B",
+      "explanation_en": "Sher Shah Suri made this statement after the Battle of Sammel (Giri Sumel) in January 1544, where he narrowly defeated the Rathore army of Rao Maldev.",
+      "explanation_hi": "शेरशाह सूरी ने यह कथन जनवरी 1544 में सम्मेल (गिरि सुमेल) के युद्ध के बाद कहा था, जहाँ उसने राव मालदेव की राठौड़ सेना को बड़ी मुश्किल से हराया था।"
+    },
+    {
+      "question_en": "Who is historically referred to as the 'Pratap of Marwar' or the 'Forgotten Hero of Marwar' due to his refusal to submit to Akbar?",
+      "question_hi": "अकबर की अधीनता स्वीकार न करने के कारण इतिहास में किसे 'मारवाड़ का प्रताप' या 'मारवाड़ का भूला-बिसरा नायक' कहा जाता है?",
+      "options_en": {
+        "A": "Rao Chandrasen",
+        "B": "Rao Maldev",
+        "C": "Maharaja Jaswant Singh I",
+        "D": "Maharaja Ajit Singh"
+      },
+      "options_hi": {
+        "A": "राव चंद्रसेन",
+        "B": "राव मालदेव",
+        "C": "महाराजा जसवंत सिंह प्रथम",
+        "D": "महाराजा अजीत सिंह"
+      },
+      "correct_option": "A",
+      "explanation_en": "Rao Chandrasen is known as the 'Pratap of Marwar' and the 'Forgotten Hero of Marwar'. He never submitted to Akbar and kept fighting from forests and hills until his death in exile in 1581 at Siwana.",
+      "explanation_hi": "राव चंद्रसेन को 'मारवाड़ का प्रताप' और 'मारवाड़ का भूला-बिसरा नायक' कहा जाता है। उन्होंने कभी भी अकबर की अधीनता स्वीकार नहीं की और जंगलों तथा पहाड़ियों से संघर्ष जारी रखते हुए 1581 ई. में सिवाना में निर्वासन के दौरान वीरगति प्राप्त की।"
+    },
+    {
+      "question_en": "Which Marwar ruler built the Gajner Lake and remained loyal to the Mughal administration during his reign from 1620 to 1638 AD?",
+      "question_hi": "किस मारवाड़ शासक ने गजनेर झील का निर्माण करवाया था और अपने 1620 से 1638 ई. के शासनकाल के दौरान मुगलों के प्रति वफादार रहे थे?",
+      "options_en": {
+        "A": "Rao Chandrasen",
+        "B": "Maharaja Abhay Singh",
+        "C": "Maharaja Gaj Singh",
+        "D": "Maharaja Jaswant Singh I"
+      },
+      "options_hi": {
+        "A": "राव चंद्रसेन",
+        "B": "महाराजा अभय सिंह",
+        "C": "महाराजा गज सिंह",
+        "D": "महाराजा जसवंत सिंह प्रथम"
+      },
+      "correct_option": "C",
+      "explanation_en": "Maharaja Gaj Singh (1620-38 AD) built the Gajner Lake and remained loyal to the Mughals.",
+      "explanation_hi": "महाराजा गज सिंह (1620-38 ई.) ने गजनेर झील का निर्माण करवाया था और वे मुगलों के प्रति वफादार रहे थे।"
+    },
+    {
+      "question_en": "During the Mughal war of succession, Maharaja Jaswant Singh I of Marwar fought on behalf of which royal prince against Aurangzeb in the Battle of Dharmat (April 25, 1658)?",
+      "question_hi": "मुगल उत्तराधिकार के युद्ध के दौरान, मारवाड़ के महाराजा जसवंत सिंह प्रथम ने 25 अप्रैल, 1658 को हुए धरमत के युद्ध में औरंगजेब के विरुद्ध किस शहजादे की ओर से लड़ाई लड़ी थी?",
+      "options_en": {
+        "A": "Prince Khurram",
+        "B": "Dara Shikoh",
+        "C": "Prince Akbar",
+        "D": "Prince Muazzam"
+      },
+      "options_hi": {
+        "A": "शहजादा खुर्रम",
+        "B": "दारा शिकोह",
+        "C": "शहजादा अकबर",
+        "D": "शहजादा मुअज्जम"
+      },
+      "correct_option": "B",
+      "explanation_en": "In the Battle of Dharmat (April 25, 1658), Maharaja Jaswant Singh I fought on behalf of Dara Shikoh against Aurangzeb. The defeat of Dara's forces decided the succession war in Aurangzeb's favor.",
+      "explanation_hi": "25 अप्रैल, 1658 को हुए धरमत के युद्ध में, महाराजा जसवंत सिंह प्रथम ने औरंगजेब के विरुद्ध दारा शिकोह की ओर से युद्ध लड़ा था। इस पराजय ने मुगल उत्तराधिकार के युद्ध का निर्णय औरंगजेब के पक्ष में कर दिया था।"
+    },
+    {
+      "question_en": "Which of the following literary works was composed by Maharaja Jaswant Singh I of Marwar?",
+      "question_hi": "निम्नलिखित में से कौन सी साहित्यिक रचना मारवाड़ के महाराजा जसवंत सिंह प्रथम द्वारा रचित है?",
+      "options_en": {
+        "A": "Rai Singh Mahotsav",
+        "B": "Bhasha Bhushan",
+        "C": "Anup Ramayana",
+        "D": "Anup Yoga Vilasa"
+      },
+      "options_hi": {
+        "A": "रायसिंह महोत्सव",
+        "B": "भाषा भूषण",
+        "C": "अनूप रामायण",
+        "D": "अनूप योग विलास"
+      },
+      "correct_option": "B",
+      "explanation_en": "Maharaja Jaswant Singh I was a scholar who authored philosophical and literary works such as 'Bhasha Bhushan', 'Aparoksha Siddhant', and 'Anubhav Prakash'.",
+      "explanation_hi": "महाराजा जसवंत सिंह प्रथम एक विद्वान थे जिन्होंने 'भाषा भूषण', 'अपरोक्ष सिद्धांत' और 'अनुभव प्रकाश' जैसी दार्शनिक और साहित्यिक रचनाओं का प्रणयन किया था।"
+    },
+    {
+      "question_en": "Who was the famous historian and court poet of Maharaja Jaswant Singh I?",
+      "question_hi": "महाराजा जसवंत सिंह प्रथम के प्रसिद्ध इतिहासकार और दरबारी कवि कौन थे?",
+      "options_en": {
+        "A": "Munhta Nainsi",
+        "B": "Kanha Vyas",
+        "C": "Ranchod Bhatt",
+        "D": "Jaita"
+      },
+      "options_hi": {
+        "A": "मुहणोत नैणसी",
+        "B": "काँहा व्यास",
+        "C": "रणछोड़ भट्ट",
+        "D": "जैता"
+      },
+      "correct_option": "A",
+      "explanation_en": "Munhta Nainsi, the famous historian and writer, served as the court poet and administrator in the court of Maharaja Jaswant Singh I.",
+      "explanation_hi": "प्रसिद्ध इतिहासकार और लेखक मुहणोत नैणसी, महाराजा जसवंत सिंह प्रथम के दरबार में दरबारी कवि और प्रशासक के रूप में कार्यरत थे।"
+    },
+    {
+      "question_en": "Veer Durgadas Rathore, the legendary commander of Jodhpur, is known by several epithets. Which of the following is NOT one of them?",
+      "question_hi": "जोधपुर के महान सेनापति वीर दुर्गादास राठौड़ को कई उपाधियों से जाना जाता है। निम्नलिखित में से कौन सी उपाधि उनमें शामिल नहीं है?",
+      "options_en": {
+        "A": "Shield of Marwar",
+        "B": "Rajputana's Bismarck",
+        "C": "Forgotten Hero of Marwar",
+        "D": "Son of Rajputana"
+      },
+      "options_hi": {
+        "A": "मारवाड़ की ढाल",
+        "B": "राजपूताना का बिस्मार्क",
+        "C": "मारवाड़ का भूला-बिसरा नायक",
+        "D": "राजपूताना का सपूत"
+      },
+      "correct_option": "C",
+      "explanation_en": "Durgadas Rathore is known as the 'Shield of Marwar', 'Son of Rajputana', and 'Rajputana's Bismarck'. The epithet 'Forgotten Hero of Marwar' (or Pratap of Marwar) belongs to Rao Chandrasen.",
+      "explanation_hi": "दुर्गादास राठौड़ को 'मारवाड़ की ढाल', 'राजपूताना का सपूत' और 'राजपूताना का बिस्मार्क' कहा जाता है। 'मारवाड़ का भूला-बिसरा नायक' (या मारवाड़ का प्रताप) उपाधि राव चंद्रसेन की है।"
+    },
+    {
+      "question_en": "Who was born posthumously in the Lahore fort in January 1679, rescued from Aurangzeb's captivity by Durgadas Rathore, and ultimately murdered by his own son in 1724 AD?",
+      "question_hi": "जनवरी 1679 में लाहौर किले में मरणोपरांत किसका जन्म हुआ था, जिन्हें दुर्गादास राठौड़ ने औरंगजेब की कैद से बचाया था और अंततः 1724 ई. में उनके अपने ही पुत्र द्वारा उनकी हत्या कर दी गई थी?",
+      "options_en": {
+        "A": "Maharaja Abhay Singh",
+        "B": "Maharaja Jaswant Singh I",
+        "C": "Maharaja Ajit Singh",
+        "D": "Maharaja Vij Singh"
+      },
+      "options_hi": {
+        "A": "महाराजा अभय सिंह",
+        "B": "महाराजा जसवंत सिंह प्रथम",
+        "C": "महाराजा अजीत सिंह",
+        "D": "महाराजा विजय सिंह"
+      },
+      "correct_option": "C",
+      "explanation_en": "Maharaja Ajit Singh was born posthumously in Lahore fort in January 1679. Durgadas Rathore smuggled him out of Lahore under disguise to save him from Aurangzeb. Ajit Singh was later murdered by his son Abhay Singh in 1724 AD.",
+      "explanation_hi": "महाराजा अजीत सिंह का जन्म जनवरी 1679 में लाहौर किले में मरणोपरांत हुआ था। दुर्गादास राठौड़ ने औरंगजेब से बचाने के लिए उन्हें वेश बदलकर लाहौर से बाहर निकाला था। अजीत सिंह की हत्या बाद में 1724 ई. में उनके पुत्र अभय सिंह ने कर दी थी।"
+    },
+    {
+      "question_en": "During the reign of Maharaja Abhay Singh of Marwar, Jodhpur forces achieved a notable victory over which Mughal governor of Gujarat in the Battle of Ahmedabad in 1730?",
+      "question_hi": "मारवाड़ के महाराजा अभय सिंह के शासनकाल के दौरान, जोधपुर की सेना ने 1730 में अहमदाबाद के युद्ध में गुजरात के किस मुगल गवर्नर पर उल्लेखनीय विजय प्राप्त की थी?",
+      "options_en": {
+        "A": "Sarbuland Khan",
+        "B": "Mirza Hakim",
+        "C": "Asaf Khan",
+        "D": "Bahador Shah I"
+      },
+      "options_hi": {
+        "A": "सरबुलंद खान",
+        "B": "मिर्जा हकीम",
+        "C": "आसफ खान",
+        "D": "बहादुर शाह प्रथम"
+      },
+      "correct_option": "A",
+      "explanation_en": "Maharaja Abhay Singh achieved a victory over the Mughal governor Sarbuland Khan in the Battle of Ahmedabad in 1730. He also built the Phool Mahal in Mehrangarh.",
+      "explanation_hi": "महाराजा अभय सिंह ने 1730 में अहमदाबाद के युद्ध में मुगल गवर्नर सरबुलंद खान पर विजय प्राप्त की थी। उन्होंने मेहरानगढ़ में फूल महल का निर्माण भी करवाया था।"
+    },
+    {
+      "question_en": "Under which ruler did Marwar sign the British Treaty in January 1818 to establish a subsidiary alliance?",
+      "question_hi": "किस शासक के अधीन मारवाड़ ने एक सहायक संधि स्थापित करने के लिए जनवरी 1818 में ब्रिटिश संधि पर हस्ताक्षर किए थे?",
+      "options_en": {
+        "A": "Maharaja Vij Singh",
+        "B": "Maharaja Man Singh II",
+        "C": "Maharaja Jaswant Singh I",
+        "D": "Maharaja Ajit Singh"
+      },
+      "options_hi": {
+        "A": "महाराजा विजय सिंह",
+        "B": "महाराजा मान सिंह द्वितीय",
+        "C": "महाराजा जसवंत सिंह प्रथम",
+        "D": "महाराजा अजीत सिंह"
+      },
+      "correct_option": "B",
+      "explanation_en": "Maharaja Man Singh II signed the British Treaty in January 1818, entering Marwar into a subsidiary alliance with the British.",
+      "explanation_hi": "महाराजा मान सिंह द्वितीय ने जनवरी 1818 में ब्रिटिश संधि पर हस्ताक्षर किए, जिससे मारवाड़ अंग्रेजों के साथ सहायक संधि में शामिल हो गया था।"
+    },
+    {
+      "question_en": "Which historic location served as the capital of the Rathores before Rao Jodha founded Jodhpur, and holds the 'Dewal' (cremation chhatri) of Rathore rulers?",
+      "question_hi": "कौन सा ऐतिहासिक स्थान राव जोधा द्वारा जोधपुर की स्थापना से पूर्व राठौड़ों की राजधानी था, और जहाँ राठौड़ शासकों के 'देवल' (दाह संस्कार छतरियां) स्थित हैं?",
+      "options_en": {
+        "A": "Khed",
+        "B": "Mandore",
+        "C": "Siwana",
+        "D": "Bikaner"
+      },
+      "options_hi": {
+        "A": "खेड़",
+        "B": "मंडोर",
+        "C": "सिवाना",
+        "D": "बीकानेर"
+      },
+      "correct_option": "B",
+      "explanation_en": "Mandore was the ancient capital of the Rathores before Jodhpur. It contains the Dewal (cremation chhatris) of the Rathore rulers.",
+      "explanation_hi": "जोधपुर से पहले मंडोर राठौड़ों की प्राचीन राजधानी थी। यहाँ राठौड़ शासकों के देवल (दाह संस्कार छतरियां) स्थित हैं।"
+    },
+    {
+      "question_en": "Rao Bika, the fifth son of Rao Jodha, founded Bikaner city in 1488 AD. Which local Bhati chief supported him during his expansion and settlement?",
+      "question_hi": "राव जोधा के पांचवें पुत्र राव बीका ने 1488 ई. में बीकानेर शहर की स्थापना की थी। उनके विस्तार और बसावट के दौरान किस स्थानीय भाटी प्रमुख ने उनका सहयोग किया था?",
+      "options_en": {
+        "A": "Nera Bhati",
+        "B": "Jindrav Khichi",
+        "C": "Deval Charan",
+        "D": "Sarbuland Khan"
+      },
+      "options_hi": {
+        "A": "नरा भाटी",
+        "B": "जींदराव खींची",
+        "C": "देवल चारण",
+        "D": "सरबुलंद खान"
+      },
+      "correct_option": "A",
+      "explanation_en": "Rao Bika left Jodhpur after a succession dispute and founded Bikaner in 1488 AD. He received support from the local Bhati chief Nera Bhati, which is reflected in the city's name (Bika + Nera = Bikaner).",
+      "explanation_hi": "उत्तराधिकार के विवाद के बाद राव बीका ने जोधपुर छोड़ दिया और 1488 ई. में बीकानेर की स्थापना की। उन्हें स्थानीय भाटी प्रमुख नरा भाटी से सहयोग प्राप्त हुआ था, जो शहर के नाम (बीका + नरा = बीकानेर) में भी परिलक्षित होता है।"
+    },
+    {
+      "question_en": "According to the Bikaner Rathore records, in which battle did Rao Jaitasi die fighting in 1541 AD?",
+      "question_hi": "बीकानेर राठौड़ अभिलेखों के अनुसार, 1541 ई. में राव जैतसी की मृत्यु किस युद्ध में लड़ते हुए हुई थी?",
+      "options_en": {
+        "A": "Battle of Sammel (Giri Sumel)",
+        "B": "Battle of Paheba",
+        "C": "Battle of Dharmat",
+        "D": "Battle of Ahmedabad"
+      },
+      "options_hi": {
+        "A": "सम्मेल (गिरि सुमेल) का युद्ध",
+        "B": "पाहेबा का युद्ध",
+        "C": "धरमत का युद्ध",
+        "D": "अहमदाबाद का युद्ध"
+      },
+      "correct_option": "B",
+      "explanation_en": "Rao Jaitasi (1526–42 AD) died fighting bravely in the Battle of Paheba (1541) against the forces of Rao Maldev.",
+      "explanation_hi": "राव जैतसी (1526-42 ई.) की मृत्यु 1541 ई. में राव मालदेव की सेना के विरुद्ध पाहेबा के युद्ध में बहादुरी से लड़ते हुए हुई थी।"
+    },
+    {
+      "question_en": "Maharaja Rai Singh of Bikaner was a distinguished Mughal general. Against which rebel brother of Akbar in Kabul did he lead a successful campaign?",
+      "question_hi": "बीकानेर के महाराजा रायसिंह एक प्रतिष्ठित मुगल सेनापति थे। उन्होंने काबुल में अकबर के किस विद्रोही भाई के विरुद्ध एक सफल सैन्य अभियान का नेतृत्व किया था?",
+      "options_en": {
+        "A": "Mirza Hakim",
+        "B": "Muhammad Husain Mirza",
+        "C": "Prince Muazzam",
+        "D": "Dara Shikoh"
+      },
+      "options_hi": {
+        "A": "मिर्जा हकीम",
+        "B": "मुहम्मद हुसैन मिर्जा",
+        "C": "शहजादा मुअज्जम",
+        "D": "दारा शिकोह"
+      },
+      "correct_option": "A",
+      "explanation_en": "Maharaja Rai Singh of Bikaner campaigned against Akbar's rebel brother, Mirza Hakim, in Kabul, and also against Gujarat rebel Muhammad Husain Mirza.",
+      "explanation_hi": "बीकानेर के महाराजा रायसिंह ने काबुल में अकबर के विद्रोही भाई मिर्जा हकीम के खिलाफ और गुजरात के विद्रोही मुहम्मद हुसैन मिर्जा के खिलाफ सैन्य अभियानों का नेतृत्व किया था।"
+    },
+    {
+      "question_en": "Who is the author of 'Rai Singh Prashasti', the eulogy found at Junagarh Fort, and which fort did Maharaja Rai Singh build between 1589 and 1594 AD?",
+      "question_hi": "जूनागढ़ किले में पाई जाने वाली प्रशस्ति 'रायसिंह प्रशस्ति' के रचयिता कौन हैं, और महाराजा रायसिंह ने 1589 से 1594 ई. के बीच किस किले का निर्माण करवाया था?",
+      "options_en": {
+        "A": "Jaita, Mehrangarh Fort",
+        "B": "Jaita, Junagarh Fort",
+        "C": "Munhta Nainsi, Junagarh Fort",
+        "D": "Bhushan, Mehrangarh Fort"
+      },
+      "options_hi": {
+        "A": "जैता, मेहरानगढ़ किला",
+        "B": "जैता, जूनागढ़ किला",
+        "C": "मुहणोत नैणसी, जूनागढ़ किला",
+        "D": "भूषण, मेहरानगढ़ किला"
+      },
+      "correct_option": "B",
+      "explanation_en": "Maharaja Rai Singh built the Junagarh Fort in Bikaner between 1589 and 1594 AD. The 'Rai Singh Prashasti' (eulogy) was written by Jaita.",
+      "explanation_hi": "महाराजा रायसिंह ने 1589 से 1594 ई. के बीच बीकानेर में जूनागढ़ किले का निर्माण करवाया था। 'रायसिंह प्रशस्ति' जैता द्वारा लिखी गई थी।"
+    },
+    {
+      "question_en": "During his Deccan campaigns, Maharaja Anup Singh of Bikaner collected valuable South Indian sculptures and manuscripts. Where did he house this rich collection, and which famous library did he establish?",
+      "question_hi": "बीकानेर के महाराजा अनूप सिंह ने अपने दक्कन अभियानों के दौरान दक्षिण भारतीय मूर्तियों और पांडुलिपियों का बहुमूल्य संग्रह एकत्रित किया था। उन्होंने इस समृद्ध संग्रह को कहाँ रखा और किस प्रसिद्ध पुस्तकालय की स्थापना की?",
+      "options_en": {
+        "A": "Bikaner Museum, Anup Sanskrit Library",
+        "B": "Phool Mahal, Mehrangarh Library",
+        "C": "Lalgarh Palace, Ganga Golden Jubilee Library",
+        "D": "Junagarh Fort, Laxminath Library"
+      },
+      "options_hi": {
+        "A": "बीकानेर संग्रहालय, अनूप संस्कृत पुस्तकालय",
+        "B": "फूल महल, मेहरानगढ़ पुस्तकालय",
+        "C": "लालगढ़ पैलेस, गंगा गोल्डन जुबली पुस्तकालय",
+        "D": "जूनागढ़ किला, लक्ष्मीनाथ पुस्तकालय"
+      },
+      "correct_option": "A",
+      "explanation_en": "Maharaja Anup Singh brought South Indian sculptures and manuscripts back to the Bikaner Museum and established the Anup Sanskrit Library at Bikaner, which holds a rich collection of manuscripts.",
+      "explanation_hi": "महाराजा अनूप सिंह दक्षिण भारतीय मूर्तियों और पांडुलिपियों को बीकानेर संग्रहालय में लाए और बीकानेर में 'अनूप संस्कृत पुस्तकालय' की स्थापना की, जिसमें पांडुलिपियों का समृद्ध संग्रह है।"
+    },
+    {
+      "question_en": "Which of the following literary or musical works is NOT associated with Maharaja Anup Singh's collection or compositions?",
+      "question_hi": "निम्नलिखित में से कौन सा संगीत या साहित्यिक ग्रंथ महाराजा अनूप सिंह के संग्रह अथवा रचनाओं से संबंधित नहीं है?",
+      "options_en": {
+        "A": "Anup Ramayana",
+        "B": "Anup Vivek",
+        "C": "Rai Singh Mahotsav",
+        "D": "Anup Sitar"
+      },
+      "options_hi": {
+        "A": "अनूप रामायण",
+        "B": "अनूप विवेक",
+        "C": "रायसिंह महोत्सव",
+        "D": "अनूप सितार"
+      },
+      "correct_option": "C",
+      "explanation_en": "'Rai Singh Mahotsav' was written by Maharaja Rai Singh. The other works—'Anup Ramayana', 'Anup Vivek', 'Anup Yoga Vilasa', 'Anup Sitar', and 'Anup Sangeet Ratnakar'—are associated with Maharaja Anup Singh.",
+      "explanation_hi": "'रायसिंह महोत्सव' की रचना महाराजा रायसिंह ने की थी। अन्य रचनाएँ—'अनूप रामायण', 'अनूप विवेक', 'अनूप योग विलास', 'अनूप सितार' और 'अनूप संगीत रत्नाकर'—महाराजा अनूप सिंह से संबंधित हैं।"
+    },
+    {
+      "question_en": "Who was the progressive Bikaner ruler who represented India at the Paris Peace Conference and signed the Treaty of Versailles in 1919?",
+      "question_hi": "बीकानेर के वे प्रगतिशील शासक कौन थे जिन्होंने पेरिस शांति सम्मेलन में भारत का प्रतिनिधित्व किया और 1919 में वर्साय की संधि पर हस्ताक्षर किए थे?",
+      "options_en": {
+        "A": "Maharaja Ganga Singh",
+        "B": "Maharaja Anup Singh",
+        "C": "Maharaja Rai Singh",
+        "D": "Maharaja Sur Singh"
+      },
+      "options_hi": {
+        "A": "महाराजा गंगा सिंह",
+        "B": "महाराजा अनूप सिंह",
+        "C": "महाराजा रायसिंह",
+        "D": "महाराजा सूर सिंह"
+      },
+      "correct_option": "A",
+      "explanation_en": "Maharaja Ganga Singh (1887-1943 AD) represented India (on behalf of the princely states) at the Paris Peace Conference and signed the Treaty of Versailles in 1919.",
+      "explanation_hi": "महाराजा गंगा सिंह (1887-1943 ई.) ने पेरिस शांति सम्मेलन में (देशी रियासतों की ओर से) भारत का प्रतिनिधित्व किया था और 1919 में वर्साय की संधि पर हस्ताक्षर किए थे।"
+    },
+    {
+      "question_en": "The landmark Gang Canal, which transformed arid Bikaner, was built by Maharaja Ganga Singh using water from which river, and which palace did he build in 1902 in memory of his father?",
+      "question_hi": "शुष्क बीकानेर की कायापलट करने वाली ऐतिहासिक गंग नहर का निर्माण महाराजा गंगा सिंह ने किस नदी के पानी का उपयोग करके करवाया था, और उन्होंने 1902 में अपने पिता की स्मृति में किस महल का निर्माण करवाया था?",
+      "options_en": {
+        "A": "Sutlej River, Lalgarh Palace",
+        "B": "Ghaggar River, Karan Mahal",
+        "C": "Luni River, Phool Mahal",
+        "D": "Kothari River, Gajner Palace"
+      },
+      "options_hi": {
+        "A": "सतलुज नदी, लालगढ़ पैलेस",
+        "B": "घग्गर नदी, करण महल",
+        "C": "लूनी नदी, फूल महल",
+        "D": "कोठारी नदी, गजनेर पैलेस"
+      },
+      "correct_option": "A",
+      "explanation_en": "Maharaja Ganga Singh built the Gang Canal to irrigate Bikaner, bringing water from the Sutlej River. He built the Lalgarh Palace in 1902 in the Indo-Saracenic architectural style, named after his father Lal Singh.",
+      "explanation_hi": "महाराजा गंगा सिंह ने सतलुज नदी से पानी लाकर बीकानेर की सिंचाई के लिए गंग नहर का निर्माण करवाया था। उन्होंने 1902 में इंडो-सारसेनिक स्थापत्य शैली में अपने पिता लाल सिंह के नाम पर लालगढ़ पैलेस का निर्माण करवाया था।"
+    }
+  ]
+}

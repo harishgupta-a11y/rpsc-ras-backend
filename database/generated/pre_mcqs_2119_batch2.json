@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "With reference to the archaeological site of Bagor, consider the following statements:\n1. It is located on the Kothari River in the Bhilwara district of Rajasthan.\n2. Excavations led by V.N. Mishra revealed a continuous occupation from the Mesolithic to the Chalcolithic period.\n3. In Phase II (Chalcolithic), copper tools including three arrowheads with holes (perforations) were discovered.\nWhich of the statements given above are correct?",
+      "question_hi": "बागोर पुरातात्विक स्थल के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. यह राजस्थान के भीलवाड़ा जिले में कोठारी नदी के तट पर स्थित है।\n2. वी.एन. मिश्रा के नेतृत्व में किए गए उत्खनन से मध्यपाषाण काल से ताम्रपाषाण काल तक निरंतर निवास का पता चलता है।\n3. द्वितीय चरण (ताम्रपाषाण काल) में, तीन छेद वाले तांबे के तीर (एरोहेड्स) सहित तांबे के उपकरण खोजे गए थे।\nउपर्युक्त कथनों में से कौन-से सही हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All three statements are correct. Bagor is situated on the Kothari River in Bhilwara. Excavated by V.N. Mishra, it shows a transition from Mesolithic to Chalcolithic. Phase II has yielded copper tools (arrowheads with holes), indicating contacts with advanced Chalcolithic or Harappan cultures.",
+      "explanation_hi": "तीनों कथन सही हैं। बागोड़ भीलवाड़ा में कोठारी नदी के तट पर स्थित है। वी.एन. मिश्रा द्वारा उत्खनन किए गए इस स्थल पर मध्यपाषाण काल से ताम्रपाषाण काल तक का संक्रमण दिखाई देता है। द्वितीय चरण से तांबे के उपकरण (छेद वाले तीर के अग्रभाग) प्राप्त हुए हैं, जो उन्नत ताम्रपाषाण या हड़प्पा संस्कृतियों के साथ संपर्कों को दर्शाते हैं।"
+    },
+    {
+      "question_en": "With reference to the Sothi Culture of Rajasthan, consider the following statements:\n1. It is considered a Proto-Harappan or Pre-Harappan culture that laid the foundation for the urban Harappan civilization.\n2. Archaeologist Amlanand Ghosh termed Sothi as 'Kalibangan-I' due to the striking similarity in pottery fabrics.\nWhich of the statements given above is/are correct?",
+      "question_hi": "राजस्थान की सोथी संस्कृति के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. इसे एक प्रोटो-हड़प्पा या पूर्व-हड़प्पा संस्कृति माना जाता है जिसने शहरी हड़प्पा सभ्यता की नींव रखी थी।\n2. पुरातत्वविद् अमलानंद घोष ने मिट्टी के बर्तनों के वस्त्रों (फेब्रिक्स) में समानता के कारण सोथी को 'कालीबंगा-प्रथम' कहा था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Sothi culture in Bikaner was identified as a Pre-Harappan phase. Amlanand Ghosh surveyed the region in 1952 and noted that the Sothi pottery fabric was identical to the Pre-Harappan levels at Kalibangan, hence he termed it 'Kalibangan-I'.",
+      "explanation_hi": "दोनों कथन सही हैं। बीकानेर की सोथी संस्कृति की पहचान पूर्व-हड़प्पा चरण के रूप में की गई थी। अमलानंद घोष ने 1952 में इस क्षेत्र का सर्वेक्षण किया और पाया कि सोथी के मृदभांड कालीबंगा के पूर्व-हड़प्पा स्तरों के समान थे, इसलिए उन्होंने इसे 'कालीबंगा-प्रथम' कहा था।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the building materials and architecture at Kalibangan:\n1. The residential houses were constructed primarily using sun-dried mud bricks, while baked bricks were reserved for drains, wells, and bathrooms.\n2. It is the only Harappan site where ornamental bricks with a design of intersecting circles have been found in the flooring of a house.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा में निर्माण सामग्री और वास्तुकला के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. आवासीय घरों का निर्माण मुख्य रूप से धूप में सुखाई गई मिट्टी की ईंटों (कच्ची ईंटों) से किया गया था, जबकि पकी हुई ईंटें नालियों, कुओं और स्नानागार के लिए आरक्षित थीं।\n2. यह एकमात्र हड़प्पा स्थल है जहां एक घर के फर्श में प्रतिच्छेद करने वाले वृत्तों (intersecting circles) के डिजाइन वाली अलंकृत ईंटें पाई गई हैं।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. At Kalibangan, raw mud bricks were used for housing (earning it the name of a poor town). Baked bricks were used only for sewerage, wells, and bathrooms. It has also yielded unique decorated floor tiles (bricks) with intersecting circles pattern.",
+      "explanation_hi": "दोनों कथन सही हैं। कालीबंगा में, आवासों के लिए कच्ची मिट्टी की ईंटों का उपयोग किया गया था (जिसके कारण इसे एक गरीब बस्ती कहा गया)। पकी हुई ईंटों का उपयोग केवल जल निकासी, कुओं और स्नानागार के लिए किया जाता था। यहाँ से प्रतिच्छेद करने वाले वृत्तों के पैटर्न वाली अलंकृत फर्श टाइलें (ईंटें) भी मिली हैं जो अद्वितीय हैं।"
+    },
+    {
+      "question_en": "With reference to early copper metallurgy in India, consider the following statements:\n1. The copper objects discovered at Ganeshwar are made of highly alloyed bronze with less than 60% purity of copper.\n2. The presence of arsenical copper in several Harappan artifacts suggests that Ganeshwar was a major source of copper for the Indus Valley Civilization.\nWhich of the statements given above is/are correct?",
+      "question_hi": "भारत में प्रारंभिक ताम्र धातु कर्म के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. गणेश्वर में खोजी गई तांबे की वस्तुएं अत्यधिक मिश्रित कांस्य (alloyed bronze) से बनी हैं जिसमें तांबे की शुद्धता 60% से कम है।\n2. कई हड़प्पा कलाकृतियों में आर्सेनिक युक्त तांबे (arsenical copper) की उपस्थिति से पता चलता है कि गणेश्वर सिंधु घाटी सभ्यता के लिए तांबे का एक प्रमुख स्रोत था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because Ganeshwar copper artifacts show an exceptionally high purity of copper (up to 97-99%) and are not highly alloyed with tin/bronze. Statement 2 is correct because the trace presence of arsenic (arsenical copper) acts as a diagnostic chemical finger-print confirming Ganeshwar as the supplier of copper to Harappan sites.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि गणेश्वर की तांबे की वस्तुओं में तांबे की शुद्धता असाधारण रूप से उच्च (97-99% तक) है और वे टिन/कांस्य के साथ अत्यधिक मिश्रित नहीं हैं। कथन 2 सही है क्योंकि आर्सेनिक की सूक्ष्म मात्रा (आर्सेनिक युक्त तांबा) एक रासायनिक फिंगरप्रिंट के रूप में कार्य करती है जिससे यह पुष्टि होती है कि गणेश्वर हड़प्पा स्थलों को तांबे की आपूर्ति करता था।"
+    },
+    {
+      "question_en": "Which of the following archaeological sites in Rajasthan has yielded the earliest skeletal evidence of Leprosy in India, dating back to the Chalcolithic period (circa 2000 BC)?",
+      "question_hi": "राजस्थान के निम्नलिखित में से किस पुरातात्विक स्थल से भारत में कुष्ठ रोग (Leprosy) का सबसे पहला कंकाल साक्ष्य मिला है, जो ताम्रपाषाण काल (लगभग 2000 ईसा पूर्व) का है?",
+      "options_en": {
+        "A": "Ahar",
+        "B": "Balathal",
+        "C": "Bagor",
+        "D": "Gilund"
+      },
+      "options_hi": {
+        "A": "आहड़",
+        "B": "बालाथल",
+        "C": "बागोर",
+        "D": "गिलुंड"
+      },
+      "correct_option": "B",
+      "explanation_en": "Excavations at Balathal in Udaipur district yielded skeletal remains of a male adult showing clear pathological evidence of leprosy. Dated to around 2000 BC, this is the oldest recorded skeletal case of leprosy in India and the world.",
+      "explanation_hi": "उदयपुर जिले के बालाथल में किए गए उत्खनन से एक वयस्क पुरुष के कंकाल अवशेष मिले हैं जिसमें कुष्ठ रोग के स्पष्ट रोगविज्ञानी साक्ष्य दिखाई देते हैं। लगभग 2000 ईसा पूर्व का यह कंकाल भारत और दुनिया में कुष्ठ रोग का सबसे पुराना दर्ज मामला है।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the coins discovered at the Ahar archaeological site:\n1. A total of sixty gold coins and thirty silver seals were recovered from the excavations.\n2. One of the copper coins features the Greek god Apollo holding an arrow with a quiver, and contains a Greek legend.\nWhich of the statements given above is/are correct?",
+      "question_hi": "आहड़ पुरातात्विक स्थल पर खोजी गई मुद्राओं (सिक्कों) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उत्खनन से कुल साठ सोने के सिक्के और तीस चांदी की मुद्राएँ (सील) प्राप्त हुई हैं।\n2. तांबे के सिक्कों में से एक पर ग्रीक देवता अपोलो को हाथ में तीर और पीठ पर तरकश लिए दिखाया गया है, और इस पर ग्रीक भाषा में लेख अंकित है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because excavations at Ahar yielded six copper coins and three terracotta seals (not gold or silver). Statement 2 is correct as one copper coin bears the Greek god Apollo holding an arrow and quiver, showing long-distance Hellenistic trade links.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि आहड़ में उत्खनन से छह तांबे के सिक्के और तीन मिट्टी की मुहरें मिली थीं (न कि सोने या चांदी के)। कथन 2 सही है क्योंकि तांबे के एक सिक्के पर ग्रीक देवता अपोलो को तीर और तरकश पकड़े हुए दिखाया गया है, जो लंबी दूरी के यूनानी व्यापारिक संबंधों को दर्शाता है।"
+    },
+    {
+      "question_en": "The ploughed field discovered at Kalibangan displays a grid pattern of furrows. With reference to this agricultural practice, consider the following statements:\n1. The furrows run in two directions: one set runs east-west and the other north-south, intersecting at right angles.\n2. The closely-spaced furrows were used for sowing mustard, while the wider-spaced furrows were used for sowing barley.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा में खोजे गए जुते हुए खेत में कूंड़ों (furrows) का एक ग्रिड पैटर्न दिखाई देता है। इस कृषि पद्धति के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. कूंड़ दो दिशाओं में चलते हैं: एक सेट पूर्व-पश्चिम और दूसरा उत्तर-दक्षिण की ओर जाता है, जो एक दूसरे को समकोण पर काटते हैं।\n2. कम दूरी वाले कूंड़ों का उपयोग सरसों बोने के लिए किया जाता था, जबकि अधिक दूरी वाले कूंड़ों का उपयोग जौ बोने के लिए किया जाता था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct. Statement 2 is incorrect because the spacing of the furrows shows that the closely-spaced furrows (east-west) were meant for barley, and the wider-spaced ones (north-south) were meant for mustard or sesame. It is swapped in the statement.",
+      "explanation_hi": "कथन 1 सही है। कथन 2 गलत है क्योंकि कूंड़ों की दूरी से पता चलता है कि कम दूरी वाले कूंड़ (पूर्व-पश्चिम) जौ के लिए थे, और अधिक दूरी वाले कूंड़ (उत्तर-दक्षिण) सरसों या तिल के लिए थे। कथन में इसे उलट दिया गया है।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the signature pottery of the Ahar Culture:\n1. Black-and-Red Ware was produced using the inverted firing technique, where the pot is placed upside down in the kiln.\n2. The pottery of Ahar is typically painted in blue and yellow colors with complex depictions of hunting scenes.\nWhich of the statements given above is/are correct?",
+      "question_hi": "आहड़ संस्कृति के विशिष्ट मृदभांड के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. लाल और काले रंग के मृदभांड (Black-and-Red Ware) का निर्माण उल्टी पकाई पद्धति (inverted firing technique) से किया जाता था, जहां बर्तन को भट्टी में उल्टा रखा जाता था।\n2. आहड़ के मृदभांडों को आमतौर पर नीले और पीले रंगों से रंगा जाता था जिसमें शिकार के दृश्यों का जटिल चित्रण होता था।\nउपर्युक्त कथनों में से कौन-sa/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct. Black-and-Red ware was fired inverted to get a black top/interior and red bottom. Statement 2 is incorrect because Ahar pottery is painted in white color, depicting simple geometric motifs (dots, lines, spirals), not complex hunting scenes in blue and yellow.",
+      "explanation_hi": "कथन 1 सही है। काले-लाल मृदभांड को उल्टा पकाया जाता था जिससे उसका ऊपरी भाग/भीतरी हिस्सा काला और निचला हिस्सा लाल हो जाता था। कथन 2 गलत है क्योंकि आहड़ के मृदभांडों पर सफेद रंग से पेंटिंग की जाती थी, जिसमें सरल ज्यामितीय चित्र (बिंदु, रेखाएं, सर्पिल) होते थे, न कि नीले और पीले रंग में शिकार के जटिल दृश्य।"
+    },
+    {
+      "question_en": "With reference to Gilund, a prominent Ahar culture site, which of the following statements is/are correct?\n1. It is located on the Banas River in Rajsamand district, near a hillock called Modiya Magri.\n2. While Ahar houses were built of mud-brick and stone, Gilund has yielded extensive evidence of baked bricks in construction.\nSelect the correct answer using the codes below:",
+      "question_hi": "आहड़ संस्कृति के एक प्रमुख स्थल गिलुंड के संदर्भ में, निम्नलिखित में से कौन-सा/से कथन सही है/हैं?\n1. यह राजसमंद जिले में बनास नदी के तट पर स्थित है, जो मोदिया मगरी नामक पहाड़ी के पास है।\n2. जबकि आहड़ के घर मिट्टी की ईंटों और पत्थरों से बने थे, गिलुंड में निर्माण में पकी हुई ईंटों के व्यापक साक्ष्य मिले हैं।\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Gilund is located near the Modiya Magri hill on the Banas River in Rajsamand. While other Chalcolithic sites like Ahar relied heavily on stone and mud-bricks, Gilund is unique for yielding significant evidence of the use of baked bricks for residential and fortification structures.",
+      "explanation_hi": "दोनों कथन सही हैं। गिलुंड राजसमंद में बनास नदी के पास मोदिया मगरी पहाड़ी के पास स्थित है। जबकि आहड़ जैसे अन्य ताम्रपाषाण स्थलों में पत्थर और कच्ची ईंटों का उपयोग किया गया था, गिलुंड अपने यहाँ आवासीय और किलेबंदी की संरचनाओं में पकी हुई ईंटों के व्यापक उपयोग के साक्ष्यों के लिए अद्वितीय है।"
+    },
+    {
+      "question_en": "Who among the following archaeologists was the first to survey the Ghaggar-Hakra river valley in 1917, identifying it as the ancient Sarasvati river basin before the discovery of Kalibangan?",
+      "question_hi": "निम्नलिखित पुरातत्वविदों में से किसने कालीबंगा की खोज से पहले, 1917 में घग्गर-हाकरा नदी घाटी का पहला सर्वेक्षण किया था और इसे प्राचीन सरस्वती नदी घाटी के रूप में पहचाना था?",
+      "options_en": {
+        "A": "Aurel Stein",
+        "B": "L.P. Tessitori",
+        "C": "Amlanand Ghosh",
+        "D": "B.B. Lal"
+      },
+      "options_hi": {
+        "A": "ऑरेल स्टीन",
+        "B": "एल.पी. टेसिटोरी",
+        "C": "अमलानंद घोष",
+        "D": "बी.बी. लाल"
+      },
+      "correct_option": "A",
+      "explanation_en": "Sir Aurel Stein surveyed the dried-up bed of the Ghaggar-Hakra River in 1917 and identified it as the valley of the ancient Sarasvati River. L.P. Tessitori explored it around 1919-20, and Amlanand Ghosh discovered the Harappan site of Kalibangan in 1952.",
+      "explanation_hi": "सर ऑरेल स्टीन ने 1917 में घग्गर-हाकरा नदी के सूखे मार्ग का सर्वेक्षण किया और इसे प्राचीन सरस्वती नदी की घाटी के रूप में पहचाना। एल.पी. टेसिटोरी ने लगभग 1919-20 में इसकी खोज की, और अमलानंद घोष ने 1952 में कालीबंगा के हड़प्पा स्थल की खोज की थी।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the architectural features of Balathal:\n1. Excavations revealed a massive fortification wall built entirely of polished marble blocks in the center of the settlement.\n2. The settlement features a unique 11-room residential complex, showing a highly stratified social structure.\nWhich of the statements given above is/are correct?",
+      "question_hi": "बालाथल की स्थापत्य विशेषताओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उत्खनन से बस्ती के केंद्र में पूरी तरह से पॉलिश किए गए संगमरमर के पत्थरों से बनी एक विशाल किलेबंदी की दीवार मिली है।\n2. इस बस्ती में एक अनोखा 11 कमरों वाला आवासीय परिसर है, जो अत्यधिक स्तरीकृत सामाजिक संरचना को दर्शाता है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because the fortified enclosure at Balathal was constructed of mud, mud-bricks, and stone, not polished marble blocks. Statement 2 is correct as a massive 11-room residential complex was excavated, indicating a complex socio-economic structure.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि बालाथल में किलेबंदी का घेरा मिट्टी, कच्ची ईंटों और पत्थरों से बनाया गया था, न कि पॉलिश किए गए संगमरमर के ब्लॉकों से। कथन 2 सही है क्योंकि यहाँ से एक विशाल 11 कमरों वाला आवासीय परिसर खोदा गया था, जो एक जटिल सामाजिक-आर्थिक संरचना की ओर संकेत करता है।"
+    },
+    {
+      "question_en": "The discovery of a cylindrical seal at Kalibangan is a key evidence of its foreign trade relations. With reference to this seal, consider the following statements:\n1. The seal is made of pure gold and represents the Egyptian pharaoh.\n2. Cylindrical seals of this type are characteristic of the Mesopotamian civilization, indicating contact between the two regions.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा में एक बेलनाकार मुहर की खोज इसके विदेशी व्यापार संबंधों का एक प्रमुख साक्ष्य है। इस मुहर के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. यह मुहर शुद्ध सोने से बनी है और मिस्र के फिरौन का प्रतिनिधित्व करती है।\n2. इस प्रकार की बेलनाकार मुहरें मेसोपोटामिया सभ्यता की विशेषता हैं, जो दोनों क्षेत्रों के बीच संपर्क को दर्शाती हैं।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because the cylindrical seal is made of steatite (soapstone) and features a female figure between two males holding her hands and a tiger motif, not gold or an Egyptian pharaoh. Statement 2 is correct because cylindrical seals are typical Mesopotamian artifacts, showing trade contact.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि बेलनाकार मुहर सेलखड़ी (steatite) से बनी है और इस पर दो पुरुषों के बीच एक महिला आकृति तथा बाघ का रूपांकन है, न कि यह सोने की बनी है या मिस्र के फिरौन का प्रतिनिधित्व करती है। कथन 2 सही है क्योंकि बेलनाकार मुहरें मेसोपोटामिया की विशिष्ट वस्तुएं हैं, जो व्यापारिक संपर्कों को दर्शाती हैं।"
+    },
+    {
+      "question_en": "With reference to the archaeological site of Raidh in Rajasthan, which of the following statements is/are correct?\n1. It is known as the 'Tata Nagar of ancient India' due to the discovery of the largest single hoard of punch-marked coins in India.\n2. The excavations at Raidh were conducted under the supervision of archaeologist K.N. Puri.\nSelect the correct answer using the codes below:",
+      "question_hi": "राजस्थान के रायढ़ पुरातात्विक स्थल के संदर्भ में, निम्नलिखित में से कौन-सा/से कथन सही है/हैं?\n1. इसे भारत में आहत मुद्राओं (पंच-मार्क सिक्कों) के सबसे बड़े एकल भंडार की खोज के कारण 'प्राचीन भारत का टाटा नगर' कहा जाता है।\n2. रायढ़ में उत्खनन पुरातत्वविद् के.एन. पुरी के पर्यवेक्षण में आयोजित किया गया था।\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Raidh in Tonk was excavated by K.N. Puri. It is referred to as the 'Tata Nagar of ancient India' because it yielded the largest single cache of punch-marked coins (over 3,000 coins) along with thousands of other coins of Malava and Mitra dynasties.",
+      "explanation_hi": "दोनों कथन सही हैं। टोंक में स्थित रायढ़ का उत्खनन के.एन. पुरी द्वारा किया गया था। इसे 'प्राचीन भारत का टाटा नगर' कहा जाता है क्योंकि यहाँ से आहत सिक्कों (3,000 से अधिक सिक्के) का सबसे बड़ा एकल भंडार मिला था, साथ ही मालव और मित्र राजवंशों के हजारों अन्य सिक्के भी मिले थे।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the sanitation and drainage system of Kalibangan:\n1. Unlike Mohenjo-daro which had brick-lined drains, Kalibangan had drainage channels made of hollowed-out wooden logs.\n2. Inside the houses, wastewater was collected in large terracotta soakage jars placed in the courtyard or street.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा की स्वच्छता और जल निकासी व्यवस्था के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. मोहनजोदड़ो के विपरीत जहां ईंटों से बनी नालियां थीं, कालीबंगा में खोखले किए गए लकड़ी के लट्ठों से बनी जल निकासी नलिकाएं थीं।\n2. घरों के भीतर, अपशिष्ट जल को आंगन या सड़क पर रखे गए बड़े मिट्टी के सोख्ता जारों में एकत्र किया जाता था।\nउपर्युक्त कथनों में से कौन-sa/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Kalibangan is unique for using hollowed wooden logs as drainage pipes instead of the standard burnt brick drains seen in Mohenjo-daro. For domestic wastewater disposal, they relied on large ceramic/terracotta soakage jars placed in the streets.",
+      "explanation_hi": "दोनों कथन सही हैं। कालीबंगा मोहनजोदड़ो में देखी जाने वाली मानक पकी हुई ईंटों की नालियों के स्थान पर जल निकासी पाइप के रूप में खोखले लकड़ी के लट्ठों का उपयोग करने के लिए अद्वितीय है। घरेलू अपशिष्ट जल निपटान के लिए, वे सड़कों पर रखे बड़े मिट्टी के सोख्ता बर्तनों पर निर्भर थे।"
+    },
+    {
+      "question_en": "With reference to Ojhiyana, a site belonging to the Ahar culture, consider the following statements:\n1. Unlike typical Ahar sites situated on flat river banks, Ojhiyana is located on the slopes of a hill.\n2. Ojhiyana is the only Ahar culture site where no animal or cattle figurines were found.\nWhich of the statements given above is/are correct?",
+      "question_hi": "आहड़ संस्कृति से संबंधित स्थल ओझियाना के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. समतल नदी तटों पर स्थित विशिष्ट आहड़ स्थलों के विपरीत, ओझियाना एक पहाड़ी की ढलान पर स्थित है।\n2. ओझियाना एकमात्र ऐसा आहड़ संस्कृति स्थल है जहाँ कोई पशु या मवेशी की मूर्तियाँ नहीं मिली हैं।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct because Ojhiyana is uniquely situated on a hill slope. Statement 2 is incorrect because Ojhiyana is famous for yielding cow and bull terracotta figurines (often called Ojhiyana Bulls) which represent some of the earliest cattle domestication evidence in Rajasthan.",
+      "explanation_hi": "कथन 1 सही है क्योंकि ओझियाना विशिष्ट रूप से एक पहाड़ी ढलान पर स्थित है। कथन 2 गलत है क्योंकि ओझियाना गाय और बैल की मिट्टी की मूर्तियों (जिन्हें अक्सर ओझियाना बुल्स कहा जाता है) के लिए प्रसिद्ध है, जो राजस्थान में पशुपालन/मवेशी पालन के सबसे पुराने साक्ष्यों का प्रतिनिधित्व करती हैं।"
+    },
+    {
+      "question_en": "With reference to the mortuary practices at Kalibangan, consider the following statements:\n1. Rectangular graves with extended skeletons and pottery represent standard inhumation burials.\n2. Circular graves containing only pottery and no skeletal remains indicate symbolic or cenotaph burials.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा में शव विसर्जन प्रथाओं के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. विस्तृत कंकाल और मिट्टी के बर्तनों वाली आयताकार कब्रें मानक शवाधान का प्रतिनिधित्व करती हैं।\n2. केवल मिट्टी के बर्तन और बिना किसी कंकाल के अवशेष वाली गोलाकार कब्रें प्रतीकात्मक या स्मारक कब्रों को दर्शाती हैं।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Kalibangan archaeological excavations revealed three types of burial practices: extended inhumation in rectangular pits, pot burial in circular/oval graves (which contained only pottery and no skeletal remains, indicating symbolic burials), and rectangular graves with only pottery and ornaments acting as cenotaphs.",
+      "explanation_hi": "दोनों कथन सही हैं। कालीबंगा के पुरातात्विक उत्खनन से तीन प्रकार की शवाधान प्रथाओं का पता चला है: आयताकार गड्ढों में विस्तृत शवाधान, गोलाकार/अंडाकार कब्रों में कलश शवाधान (जिसमें केवल मिट्टी के बर्तन थे और कंकाल के अवशेष नहीं थे, जो प्रतीकात्मक शवाधान को दर्शाते हैं), और केवल मिट्टी के बर्तन व आभूषणों वाली आयताकार कब्रें जो स्मारक (प्रतीकात्मक) के रूप में कार्य करती थीं।"
+    },
+    {
+      "question_en": "With reference to the Jodhpura archaeological site, consider the following statements:\n1. It is located on the Luni River in the Thar desert.\n2. It serves as the type-site for Ochre Coloured Pottery (OCP) in Rajasthan, showing a clear stratigraphical transition to Black and Red Ware.\nWhich of the statements given above is/are correct?",
+      "question_hi": "जोधपुरा पुरातात्विक स्थल के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. यह थार मरुस्थल में लूनी नदी के तट पर स्थित है।\n2. यह राजस्थान में गैरिक मृदभांड (OCP) संस्कृति के लिए एक मानक स्थल के रूप में कार्य करता है, जो लाल और काले मृदभांड में स्पष्ट संक्रमण को दर्शाता है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because Jodhpura is located on the Sabi River in the Kotputli-Behror (formerly Jaipur) district, not the Luni River. Statement 2 is correct as Jodhpura is the type-site for the OCP culture in Rajasthan, showing a clear stratigraphical transition from OCP to BRW and Painted Grey Ware (PGW).",
+      "explanation_hi": "कथन 1 गलत है क्योंकि जोधपुरा कोटपूतली-बहरोड़ (पूर्व में जयपुर) जिले में साबी नदी के तट पर स्थित है, न कि लूनी नदी के तट पर। कथन 2 सही है क्योंकि जोधपुरा राजस्थान में OCP संस्कृति के लिए एक मानक स्थल (type-site) है, जो OCP से लाल और काले मृदभांड (BRW) तथा चित्रित धूसर मृदभांड (PGW) में स्पष्ट कालानुक्रमिक संक्रमण को दर्शाता है।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the metallurgy at Sunari:\n1. Sunari in Jhunjhunu district has yielded the oldest iron smelting furnaces in Rajasthan, which are double-chambered.\n2. No evidence of air bellows was found at Sunari, indicating they relied on natural wind draft.\nWhich of the statements given above is/are correct?",
+      "question_hi": "सुनारी में धातु कर्म के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. झुंझुनू जिले के सुनारी से राजस्थान में लोहे को गलाने वाली सबसे पुरानी भट्टियां मिली हैं, जो दोहरे कक्ष वाली हैं।\n2. सुनारी में हवा भरने वाली धौंकनी (bellows) का कोई साक्ष्य नहीं मिला है, जिससे पता चलता है कि वे प्राकृतिक हवा के झोंके पर निर्भर थे।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct. Sunari in Jhunjhunu has yielded the oldest double-chambered iron smelting furnaces in Rajasthan. Statement 2 is incorrect because archaeologists found clear evidence of a clay bellows (air pump) used to blow air into the furnace to achieve high temperatures required for smelting.",
+      "explanation_hi": "कथन 1 सही है। झुंझुनू के सुनारी से राजस्थान में लोहे को गलाने वाली सबसे पुरानी दोहरे कक्ष वाली भट्टियां मिली हैं। कथन 2 गलत है क्योंकि पुरातत्वविदों को भट्टी में हवा फूंकने के लिए इस्तेमाल होने वाली मिट्टी की धौंकनी (bellows) के स्पष्ट साक्ष्य मिले हैं, जिसका उपयोग गलाने के लिए आवश्यक उच्च तापमान प्राप्त करने के लिए किया जाता था।"
+    },
+    {
+      "question_en": "Arrange the following archaeological sites of Rajasthan in the chronological order of their first excavation/exploration:\n1. Kalibangan\n2. Ahar\n3. Ganeshwar\n4. Balathal\nSelect the correct sequence:",
+      "question_hi": "राजस्थान के निम्नलिखित पुरातात्विक स्थलों को उनके पहले उत्खनन/अन्वेषण के कालानुक्रमिक क्रम में व्यवस्थित कीजिए:\n1. कालीबंगा\n2. आहड़\n3. गणेश्वर\n4. बालाथल\nसही क्रम चुनिए:",
+      "options_en": {
+        "A": "1 - 2 - 3 - 4",
+        "B": "2 - 1 - 4 - 3",
+        "C": "1 - 3 - 2 - 4",
+        "D": "2 - 3 - 1 - 4"
+      },
+      "options_hi": {
+        "A": "1 - 2 - 3 - 4",
+        "B": "2 - 1 - 4 - 3",
+        "C": "1 - 3 - 2 - 4",
+        "D": "2 - 3 - 1 - 4"
+      },
+      "correct_option": "A",
+      "explanation_en": "The correct sequence is Kalibangan (first excavated/surveyed by Amlanand Ghosh in 1952), Ahar (first excavated by Akshay Kirti Vyas in 1953), Ganeshwar (excavated by R.C. Agrawal in 1977), and Balathal (excavated by V.N. Mishra in 1993). Therefore, the correct chronological order of their excavation/exploration is 1-2-3-4.",
+      "explanation_hi": "सही क्रम कालीबंगा (पहली बार 1952 में अमलानंद घोष द्वारा उत्खनन/सर्वेक्षण किया गया), आहड़ (पहली बार 1953 में अक्षय कीर्ति व्यास द्वारा उत्खनन किया गया), गणेश्वर (1977 में आर.सी. अग्रवाल द्वारा उत्खनन किया गया), और बालाथल (1993 में वी.एन. मिश्रा द्वारा उत्खनन किया गया) है। इसलिए, उनके उत्खनन/अन्वेषण का सही कालानुक्रमिक क्रम 1-2-3-4 है।"
+    },
+    {
+      "question_en": "The terracotta spindle whorls discovered at Ahar have attracted significant archaeological interest. With reference to this, consider the following statements:\n1. They suggest that spinning and weaving of cotton and wool were common household industries at Ahar.\n2. None of the spindle whorls feature any decorative or incised designs, showing a purely utilitarian nature.\nWhich of the statements given above is/are correct?",
+      "question_hi": "आहड़ में खोजे गए मिट्टी के तकली चक्र (spindle whorls) ने महत्वपूर्ण पुरातात्विक रुचि आकर्षित की है। इसके संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. इनसे पता चलता है कि आहड़ में कपास और ऊन की कताई तथा बुनाई आम घरेलू उद्योग थे।\n2. तकली चक्रों में से किसी पर भी कोई सजावटी या नक्काशीदार डिजाइन नहीं है, जो विशुद्ध रूप से उपयोगी (utilitarian) स्वरूप को दर्शाता है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct as spindle whorls indicate active spinning/textile work. Statement 2 is incorrect because many spindle whorls feature complex incised geometric designs (spirals, triangles, dots) which are stylistically identical to those found in Troy (Asia Minor), hinting at ancient international cultural connections.",
+      "explanation_hi": "कथन 1 सही है क्योंकि तकली चक्र सक्रिय कताई/कपड़ा बुनाई के काम को दर्शाते हैं। कथन 2 गलत है क्योंकि कई तकली चक्रों पर जटिल नक्काशीदार ज्यामितीय डिजाइन (सर्पिल, त्रिकोण, बिंदु) हैं जो शैलीगत रूप से ट्रॉय (एशिया माइनर) में पाए गए डिजाइनों के समान हैं, जो प्राचीन अंतर्राष्ट्रीय सांस्कृतिक संबंधों की ओर संकेत करते हैं।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the evidence of natural disasters at Kalibangan:\n1. The excavation has revealed faulted strata, cracked walls, and displaced brick courses in the Pre-Harappan (Phase I) levels.\n2. This is widely recognized as the earliest archaeologically recorded evidence of an earthquake in human history (circa 2600 BC).\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा में प्राकृतिक आपदाओं के साक्ष्य के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उत्खनन से पूर्व-हड़प्पा (प्रथम चरण) के स्तरों में भ्रंशित स्तर (faulted strata), दीवारों में दरारें और विस्थापित ईंटों की परतें सामने आई हैं।\n2. इसे मानव इतिहास में भूकंप के सबसे पहले पुरातात्विक रूप से दर्ज साक्ष्य के रूप में व्यापक रूप से मान्यता प्राप्त है (लगभग 2600 ईसा पूर्व)।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Kalibangan is unique for providing clear evidence of an earthquake at the Pre-Harappan level (Phase I, dated around 2600 BC). Archaeologists found faulted strata, clefts in the walls of houses, and collapsed structures, making it the oldest recorded earthquake in the archaeological record.",
+      "explanation_hi": "दोनों कथन सही हैं। कालीबंगा पूर्व-हड़प्पा स्तर (प्रथम चरण, लगभग 2600 ईसा पूर्व) पर भूकंप के स्पष्ट साक्ष्य प्रदान करने के लिए अद्वितीय है। पुरातत्वविदों को घरों की दीवारों में दरारें, भ्रंशित स्तर और ढही हुई संरचनाएं मिलीं, जो इसे पुरातात्विक रिकॉर्ड में सबसे पुराना दर्ज भूकंप बनाती हैं।"
+    },
+    {
+      "question_en": "With reference to the architectural features of Ganeshwar, consider the following statements:\n1. Unlike Harappan settlements where baked and sun-dried bricks were extensively used, Ganeshwar used local stone for constructing houses and embankments.\n2. The Ganeshwar people built a massive clay-brick wall to protect their settlement from the dry winds of the Thar desert.\nWhich of the statements given above is/are correct?",
+      "question_hi": "गणेश्वर की स्थापत्य विशेषताओं के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. हड़प्पा बस्तियों के विपरीत जहाँ पकी और धूप में सुखाई गई ईंटों का बड़े पैमाने पर उपयोग किया जाता था, गणेश्वर में घरों और तटबंधों के निर्माण के लिए स्थानीय पत्थर का उपयोग किया गया था।\n2. गणेश्वर के लोगों ने अपनी बस्ती को थार मरुस्थल की शुष्क हवाओं से बचाने के लिए मिट्टी की ईंटों की एक विशाल दीवार का निर्माण किया था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct. Ganeshwar people relied entirely on locally available stone for construction rather than clay bricks. Statement 2 is incorrect because the massive stone structure found at Ganeshwar was a stone embankment or bridge designed to protect the settlement from the seasonal flooding of the Kantali River, not a clay-brick wall against winds.",
+      "explanation_hi": "कथन 1 सही है। गणेश्वर के लोगों ने मिट्टी की ईंटों के बजाय निर्माण के लिए पूरी तरह से स्थानीय रूप से उपलब्ध पत्थर पर भरोसा किया। कथन 2 गलत है क्योंकि गणेश्वर में पाई गई विशाल पत्थर की संरचना एक पत्थर का तटबंध या पुलनुमा संरचना थी जिसे कांतली नदी की मौसमी बाढ़ से बस्ती की रक्षा के लिए डिजाइन किया गया था, न कि हवाओं के खिलाफ मिट्टी की ईंटों की दीवार।"
+    },
+    {
+      "question_en": "With reference to the history of archaeological exploration in Rajasthan, consider the following statements:\n1. L.P. Tessitori, an Italian Indologist, was the first to report prehistoric pottery and ruins at Sothi in Bikaner during his surveys between 1916 and 1919.\n2. Tessitori died before the official discovery of the Indus Valley Civilization, and Sothi was later systematically excavated by Amlanand Ghosh in 1952.\nWhich of the statements given above is/are correct?",
+      "question_hi": "राजस्थान में पुरातात्विक अन्वेषण के इतिहास के संदर्भ में, निम्नलिखित कथनों पर विचार कीजिए:\n1. एक इतालवी भारतविद् एल.पी. टेसिटोरी ने 1916 और 1919 के बीच अपने सर्वेक्षणों के दौरान बीकानेर के सोथी में प्रागैतिहासिक मृदभांड और खंडहरों की खोज की थी।\n2. सिंधु घाटी सभ्यता की आधिकारिक खोज से पहले ही टेसिटोरी का निधन हो गया था, और बाद में 1952 में अमलानंद घोष द्वारा सोथी का व्यवस्थित रूप से उत्खनन किया गया था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. L.P. Tessitori explored the Bikaner region under the patronage of Maharaja Ganga Singh and identified prehistoric remains at Sothi. Since he passed away in 1919, he did not live to see the discovery of Harappa (1921). In 1952, Amlanand Ghosh systematically excavated Sothi, establishing its Pre-Harappan character.",
+      "explanation_hi": "दोनों कथन सही हैं। एल.पी. टेसिटोरी ने महाराजा गंगा सिंह के संरक्षण में बीकानेर क्षेत्र का पता लगाया और सोथी में प्रागैतिहासिक अवशेषों की पहचान की। चूंकि 1919 में उनका निधन हो गया, वे हड़प्पा (1921) की खोज देखने के लिए जीवित नहीं रहे। 1952 में, अमलानंद घोष ने सोथी का व्यवस्थित उत्खनन किया और इसके पूर्व-हड़प्पा चरित्र को स्थापित किया था।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the town planning and fortification of Kalibangan:\n1. At Kalibangan, only the lower residential town was fortified, while the citadel was left completely open without any walls.\n2. The fortification walls were constructed using mud-bricks, which were plastered with mud and clay.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा के नगर नियोजन और किलेबंदी के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. कालीबंगा में केवल निचले आवासीय नगर की किलेबंदी की गई थी, जबकि दुर्ग को बिना किसी दीवार के पूरी तरह से खुला छोड़ दिया गया था।\n2. किलेबंदी की दीवारें मिट्टी की ईंटों से बनाई गई थीं, जिन पर मिट्टी और गारे का प्लास्टर किया गया था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because Kalibangan is unique for having both the Citadel (upper town) and the Lower Town fortified separately with their own massive walls. Statement 2 is correct as mud-bricks were used for the fortification walls, and they were mud-plastered.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि कालीबंगा इस मामले में अद्वितीय है कि दुर्ग (उच्च नगर) और निचला नगर दोनों अलग-अलग अपनी बड़ी दीवारों से घिरे थे। कथन 2 सही है क्योंकि किलेबंदी की दीवारों के लिए कच्ची ईंटों (मिट्टी की ईंटों) का उपयोग किया गया था और उन पर मिट्टी का प्लास्टर किया गया था।"
+    },
+    {
+      "question_en": "With reference to the excavations at Balathal, which of the following statements is/are correct?\n1. It has yielded the earliest evidence of a built tube-well in Rajasthan, demonstrating advanced water management.\n2. Terracotta jar fragments at Balathal have preserved impressions of hand-woven cotton cloth, proving early cotton weaving.\nSelect the correct answer using the codes below:",
+      "question_hi": "बालाथल में उत्खनन के संदर्भ में, निम्नलिखित में से कौन-sa/se कथन सही है/हैं?\n1. यहाँ से राजस्थान में निर्मित नलकूप (tube-well) का सबसे पहला साक्ष्य मिला है, जो उन्नत जल प्रबंधन को दर्शाता है।\n2. बालाथल में मिट्टी के बर्तनों के टुकड़ों पर हाथ से बुने हुए सूती कपड़े के निशान मिले हैं, जो प्रारंभिक कपास की बुनाई को प्रमाणित करते हैं।\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Balathal yielded a unique stone-lined tube well structure, which is the earliest of its kind in Rajasthan. It also yielded pottery fragments with impressions of hand-woven cotton cloth, proving that cotton spinning and weaving was practiced there since the Chalcolithic period.",
+      "explanation_hi": "दोनों कथन सही हैं। बालाथल से पत्थर से निर्मित नलकूप (कूप) जैसी संरचना का एक अनूठा साक्ष्य मिला है, जो राजस्थान में अपनी तरह का सबसे पुराना है। यहाँ से मिट्टी के बर्तनों के टुकड़ों पर हाथ से बुने हुए सूती कपड़े के निशान भी मिले हैं, जिससे यह सिद्ध होता है कि ताम्रपाषाण काल से ही वहाँ कपास की कताई और बुनाई की जाती थी।"
+    }
+  ]
+}

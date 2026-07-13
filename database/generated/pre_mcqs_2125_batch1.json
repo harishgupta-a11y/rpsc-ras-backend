@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Which of the following statements is/are correct regarding the Battle of Bhutala (1227 AD)?\n1. It was fought between Jaitra Singh of Mewar and Delhi Sultan Iltutmish.\n2. The commanders of Mewar's army in this battle were Balak and Madan.\n3. The literary source 'Hammeer Mad Mardana' by Jai Singh Suri provides details about this battle.",
+      "question_hi": "भूताला के युद्ध (1227 ई.) के संबंध में निम्नलिखित में से कौन सा/से कथन सही है/हैं?\n1. यह मेवाड़ के जैत्र सिंह और दिल्ली के सुल्तान इल्तुतमिश के बीच लड़ा गया था।\n2. इस युद्ध में मेवाड़ की सेना के सेनापति बालक और मदन थे।\n3. जय सिंह सूरी कृत साहित्यिक स्रोत 'हम्मीर मद मर्दन' इस युद्ध के बारे में विवरण प्रदान करता है।",
+      "options_en": {
+        "A": "Only 1 and 2",
+        "B": "Only 2 and 3",
+        "C": "Only 1 and 3",
+        "D": "All 1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "सभी 1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "The Battle of Bhutala was fought in 1227 AD between Jaitra Singh of Mewar and Delhi Sultan Iltutmish, in which Jaitra Singh emerged victorious. Balak and Madan were his commanders. The details of this battle are found in Jai Singh Suri's 'Hammeer Mad Mardana'.",
+      "explanation_hi": "भूताला का युद्ध 1227 ई. में मेवाड़ के जैत्र सिंह और दिल्ली के सुल्तान इल्तुतमिश के बीच लड़ा गया था, जिसमें जैत्र सिंह विजयी हुए थे। बालक और मदन उनके सेनापति थे। इस युद्ध का विवरण जय सिंह सूरी के 'हम्मीर मद मर्दन' में मिलता है।"
+    },
+    {
+      "question_en": "Which Mewar ruler established the Eklingji Temple at Kailashpuri (Udaipur), introduced 115-grain gold coins (Suvarna Masha) in Mewar, and held the title of 'Chakkawei'?",
+      "question_hi": "मेवाड़ के किस शासक ने कैलाशपुरी (उदयपुर) में एकलिंगजी मंदिर की स्थापना की, मेवाड़ में 115 ग्रेन के सोने के सिक्के (सुवर्ण माशा) चलाए, और 'चक्कवै' (Chakkawei) की उपाधि धारण की?",
+      "options_en": {
+        "A": "Allat",
+        "B": "Bappa Rawal",
+        "C": "Jaitra Singh",
+        "D": "Tej Singh"
+      },
+      "options_hi": {
+        "A": "अल्लट",
+        "B": "बप्पा रावल",
+        "C": "जैत्र सिंह",
+        "D": "तेज सिंह"
+      },
+      "correct_option": "B",
+      "explanation_en": "Bappa Rawal (whose real name was Kalbhoj) received the Mewar kingdom as a gift from his Guru Harit Rishi. He established the Eklingji Temple at Kailashpuri, introduced 115-grain gold coins, and was known by the titles Hindu Suraj, Rajguru, and Chakkawei.",
+      "explanation_hi": "बप्पा रावल (जिनका वास्तविक नाम कालभोज था) ने अपने गुरु हारित ऋषि से उपहार के रूप में मेवाड़ राज्य प्राप्त किया था। उन्होंने कैलाशपुरी में एकलिंगजी मंदिर की स्थापना की, 115 ग्रेन के सोने के सिक्के चलाए, और उन्हें हिन्दू सूरज, राजगुरु और चक्कवै जैसी उपाधियों से जाना जाता था।"
+    },
+    {
+      "question_en": "Consider the following statements about the Mewar ruler Allat:\n1. He shifted the capital of Mewar from Nagda to Ahar.\n2. He built the Varaha (Varaha) temple at Ahar.\n3. He married the Huna princess Hariya Devi.\nWhich of the statements given above are correct?",
+      "question_hi": "मेवाड़ के शासक अल्लट के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने मेवाड़ की राजधानी को नागदा से आहड़ स्थानांतरित किया।\n2. उन्होंने आहड़ में वराह मंदिर का निर्माण करवाया।\n3. उन्होंने हुण राजकुमारी हरिया देवी से विवाह किया।\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "options_en": {
+        "A": "Only 1 and 2",
+        "B": "Only 2 and 3",
+        "C": "Only 1 and 3",
+        "D": "All 1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "सभी 1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Allat (940-953 AD) shifted the capital of Mewar from Nagda to Ahar. He constructed the Varaha temple at Ahar and married the Huna princess Hariya Devi. His period is also associated with the Saraneshwar Eulogy (953 AD) and Shaktikumar's Atapur Inscription (977 AD).",
+      "explanation_hi": "अल्लट (940-953 ई.) ने मेवाड़ की राजधानी को नागदा से आहड़ स्थानांतरित किया। उन्होंने आहड़ में वराह मंदिर का निर्माण करवाया और हुण राजकुमारी हरिया देवी से विवाह किया। उनके काल का संबंध सारणेश्वर प्रशस्ति (953 ई.) और शक्तिकुमार के आटपुर शिलालेख (977 ई.) से भी है।"
+    },
+    {
+      "question_en": "Who led the external resistance during the First Saka of Chittor (1303 AD) against Alauddin Khilji, and which literary work serves as a Sufi allegorical reference to this event?",
+      "question_hi": "अलाउद्दीन खिलजी के विरुद्ध चित्तौड़ के प्रथम साके (1303 ई.) के दौरान बाहरी प्रतिरोध का नेतृत्व किसने किया था, और कौन सी साहित्यिक कृति इस घटना के लिए एक सूफी रूपक संदर्भ के रूप में कार्य करती है?",
+      "options_en": {
+        "A": "Jaimal and Patta; Padmavat by Malik Muhammad Jaisi",
+        "B": "Gora and Badal; Padmavat by Malik Muhammad Jaisi",
+        "C": "Bagh Singh and Kalla Rathore; Hammeer Mad Mardana by Jai Singh Suri",
+        "D": "Chunda and Mokal; Shrawak Pratikraman Sutra Churni"
+      },
+      "options_hi": {
+        "A": "जयमल और पत्ता; मलिक मुहम्मद जायसी कृत पद्मावत",
+        "B": "गोरा और बादल; मलिक मुहम्मद जायसी कृत पद्मावत",
+        "C": "बाघ सिंह और कल्ला राठौड़; जय सिंह सूरी कृत हम्मीर मद मर्दन",
+        "D": "चूंडा और मोकल; श्रावक प्रतिक्रमण सूत्र चूर्णी"
+      },
+      "correct_option": "B",
+      "explanation_en": "During the First Saka of Chittor in 1303 AD under Ratan Singh, Gora and Badal (nephews of Queen Padmini) led the external resistance and performed Kesariya, while Queen Padmini led the Johar. The literary reference is 'Padmavat' written in Avadhi by Malik Muhammad Jaisi in 1540 AD.",
+      "explanation_hi": "रतन सिंह के शासनकाल में 1303 ई. में चित्तौड़ के प्रथम साके के दौरान, रानी पद्मिनी के चाचा-भतीजे गोरा और बादल ने बाहरी प्रतिरोध का नेतृत्व किया और केसरिया किया, जबकि रानी पद्मिनी ने जौहर का नेतृत्व किया। इसका साहित्यिक संदर्भ 1540 ई. में मलिक मुहम्मद जायसी द्वारा अवधी में लिखी गई 'पद्मावत' है।"
+    },
+    {
+      "question_en": "With reference to Rana Hammeer (1326-64 AD), which of the following statements is correct?",
+      "question_hi": "राणा हम्मीर (1326-64 ई.) के संदर्भ में, निम्नलिखित में से कौन सा कथन सही है?",
+      "options_en": {
+        "A": "He was from the Nepalese branch of the Guhils and constructed the Gambhiri bridge.",
+        "B": "He shifted the capital of Mewar to Ahar and commissioned the Saraneshwar Eulogy.",
+        "C": "He defeated the forces of Delhi Sultan Muhammad Bin Tughlaq in the Battle of Singholi.",
+        "D": "He took the famous 'Bhisham Pratigya' of Mewar to surrender his claim to the throne."
+      },
+      "options_hi": {
+        "A": "वह गुहिलों की नेपाली शाखा से थे और उन्होंने गम्भीरी पुल का निर्माण करवाया था।",
+        "B": "उन्होंने मेवाड़ की राजधानी को आहड़ स्थानांतरित किया और सारणेश्वर प्रशस्ति का निर्माण करवाया।",
+        "C": "उन्होंने सिंघोली के युद्ध में दिल्ली के सुल्तान मुहम्मद बिन तुगलक की सेना को पराजित किया था।",
+        "D": "उन्होंने मेवाड़ के सिंहासन पर अपना अधिकार त्यागने के लिए प्रसिद्ध 'भीष्म प्रतिज्ञा' ली थी।"
+      },
+      "correct_option": "C",
+      "explanation_en": "Rana Hammeer, from the Sisodia clan, is known as the 'Savior of Mewar' for rescuing Mewar from Tughlaq domination. He defeated Muhammad Bin Tughlaq's army in the Battle of Singholi and constructed the Barwari/Annapurna temple.",
+      "explanation_hi": "सिसोदा ग्राम के राणा हम्मीर को तुगलक प्रभुत्व से मेवाड़ को मुक्त कराने के लिए 'मेवाड़ का उद्धारक' कहा जाता है। उन्होंने सिंघोली के युद्ध में मुहम्मद बिन तुगलक की सेना को पराजित किया और बरवड़ी/अन्नपूर्णा मंदिर का निर्माण करवाया।"
+    },
+    {
+      "question_en": "During the reign of which Mewar Maharana were the Jawar silver mines opened and Pichola Lake constructed?",
+      "question_hi": "मेवाड़ के किस महाराणा के शासनकाल के दौरान जावर की चांदी की खदानें खोली गईं और पिछोला झील का निर्माण किया गया था?",
+      "options_en": {
+        "A": "Maharana Kumbha",
+        "B": "Maharana Lakha",
+        "C": "Maharana Mokal",
+        "D": "Maharana Sanga"
+      },
+      "options_hi": {
+        "A": "महाराणा कुंभा",
+        "B": "महाराणा लाखा",
+        "C": "महाराणा मोकल",
+        "D": "महाराणा सांगा"
+      },
+      "correct_option": "B",
+      "explanation_en": "During the reign of Maharana Lakha (1382-1421 AD), the opening of the Jawar silver mines (Udaipur) brought immense economic prosperity to Mewar. Also, Pichola Lake was built during his time by financing the work of Chhitra Banjara.",
+      "explanation_hi": "महाराणा लाखा (1382-1421 ई.) के शासनकाल के दौरान उदयपुर में जावर की चांदी की खदानें खुलने से मेवाड़ को अत्यधिक आर्थिक समृद्धि प्राप्त हुई। साथ ही, उनके समय में छित्तर बंजारे के कार्य को वित्तपोषित करके पिछोला झील का निर्माण किया गया था।"
+    },
+    {
+      "question_en": "Who took the 'Bhisham Pratigya of Mewar' to sacrifice his right to the throne, leading to the allocation of special hereditary rights to the Salumbar jagir?",
+      "question_hi": "किसने मेवाड़ के सिंहासन पर अपना अधिकार त्यागने के लिए 'मेवाड़ की भीष्म प्रतिज्ञा' ली थी, जिसके कारण सलूंबर जागीर को विशेष वंशानुगत अधिकार आवंटित किए गए थे?",
+      "options_en": {
+        "A": "Chunda",
+        "B": "Raghav Dev",
+        "C": "Ranmal Rathore",
+        "D": "Udai Karan"
+      },
+      "options_hi": {
+        "A": "चूंडा",
+        "B": "राघव देव",
+        "C": "रणमल राठौड़",
+        "D": "उदय करण"
+      },
+      "correct_option": "A",
+      "explanation_en": "Chunda, the eldest son of Maharana Lakha, voluntarily renounced his claim to the Mewar throne in favor of his younger brother Mokal (Hansa Bai's son). This act is known as the 'Bhisham Pratigya of Mewar', and as compensation, his line (Salumbar jagir) received special hereditary rights.",
+      "explanation_hi": "महाराणा लाखा के ज्येष्ठ पुत्र चूंडा ने अपने छोटे भाई मोकल (हंसाबाई के पुत्र) के पक्ष में स्वेच्छा से मेवाड़ के सिंहासन पर अपना अधिकार त्याग दिया था। इस कार्य को 'मेवाड़ की भीष्म प्रतिज्ञा' के रूप में जाना जाता है, और इसके बदले में उनके वंश (सलूंबर जागीर) को विशेष वंशानुगत अधिकार प्राप्त हुए।"
+    },
+    {
+      "question_en": "The celebrated Vijay Stambha (Victory Tower) in Chittor was built by Maharana Kumbha to commemorate his victory in which battle?",
+      "question_hi": "चित्तौड़ में प्रसिद्ध विजय स्तंभ (कीर्ति स्तंभ) का निर्माण महाराणा कुंभा ने किस युद्ध में अपनी विजय के उपलक्ष्य में करवाया था?",
+      "options_en": {
+        "A": "Battle of Singholi",
+        "B": "Battle of Khatoli",
+        "C": "Battle of Sarangpur",
+        "D": "Battle of Badanaur"
+      },
+      "options_hi": {
+        "A": "सिंघोली का युद्ध",
+        "B": "खातौली का युद्ध",
+        "C": "सारंगपुर का युद्ध",
+        "D": "बदनौर का युद्ध"
+      },
+      "correct_option": "C",
+      "explanation_en": "Maharana Kumbha defeated Mahmud Khilji I of the Malwa Sultanate in the Battle of Sarangpur in 1437 AD. To commemorate this celebrated victory, he constructed the 9-story Vijay Stambha (Victory Tower) inside the Chittor Fort.",
+      "explanation_hi": "महाराणा कुंभा ने 1437 ई. में सारंगपुर के युद्ध में मालवा सल्तनत के महमूद खिलजी प्रथम को पराजित किया था। इस प्रसिद्ध विजय की स्मृति में उन्होंने चित्तौड़ किले के भीतर 9 मंजिला विजय स्तंभ का निर्माण करवाया था।"
+    },
+    {
+      "question_en": "Which of the following statements is NOT correct regarding the Vijay Stambha (Victory Tower) built by Maharana Kumbha?",
+      "question_hi": "महाराणा कुंभा द्वारा निर्मित विजय स्तंभ के संबंध में निम्नलिखित में से कौन सा कथन सही नहीं है?",
+      "options_en": {
+        "A": "It has 9 stories, stands 122 feet tall, and is dedicated to Lord Vishnu.",
+        "B": "The word 'ALLAH' is engraved in Arabic on its exterior.",
+        "C": "Its chief architect and designer was Atri, and it was executed by his son Mahesh.",
+        "D": "It was built to commemorate the victory in the Battle of Badanaur."
+      },
+      "options_hi": {
+        "A": "यह 9 मंजिला है, 122 फीट ऊंचा है और भगवान विष्णु को समर्पित है।",
+        "B": "इसके बाहरी हिस्से पर अरबी में 'अल्लाह' शब्द खुदा हुआ है।",
+        "C": "इसके मुख्य वास्तुकार और डिजाइनर अत्रि थे, और काम उनके पुत्र महेश द्वारा निष्पादित किया गया था।",
+        "D": "इसका निर्माण बदनौर के युद्ध में विजय के उपलक्ष्य में किया गया था।"
+      },
+      "correct_option": "D",
+      "explanation_en": "The Vijay Stambha was built to commemorate the victory in the Battle of Sarangpur (1437 AD), not the Battle of Badanaur (which took place in 1457 AD where Kumbha defeated combined Malwa-Gujarat forces, but not the reason for building Vijay Stambha).",
+      "explanation_hi": "विजय स्तंभ का निर्माण सारंगपुर के युद्ध (1437 ई.) में विजय की स्मृति में किया गया था, न कि बदनौर के युद्ध की स्मृति में (हालांकि बदनौर का युद्ध 1457 ई. में हुआ था जिसमें कुंभा ने मालवा-गुजरात की संयुक्त सेना को हराया था)।"
+    },
+    {
+      "question_en": "The Ranakpur Jain Temple (1439 AD), featuring 1444 unique pillars, was built during Maharana Kumbha's reign. Who designed it and who funded its construction?",
+      "question_hi": "1444 अद्वितीय खंभों वाला प्रसिद्ध रणकपुर जैन मंदिर (1439 ई.) महाराणा कुंभा के शासनकाल के दौरान बनाया गया था। इसके डिजाइनर कौन थे और इसके निर्माण के लिए धन किसने प्रदान किया था?",
+      "options_en": {
+        "A": "Designed by Mandan; funded by Chhitra Banjara",
+        "B": "Designed by Deepak; funded by Dharna Shah",
+        "C": "Designed by Atri; funded by Bhamashah",
+        "D": "Designed by Govind; funded by Tarachand"
+      },
+      "options_hi": {
+        "A": "मंडन द्वारा डिजाइन किया गया; छित्तर बंजारे द्वारा वित्तपोषित",
+        "B": "दीपाक द्वारा डिजाइन किया गया; धरणा शाह द्वारा वित्तपोषित",
+        "C": "अत्रि द्वारा डिजाइन किया गया; भामाशाह द्वारा वित्तपोषित",
+        "D": "गोविंद द्वारा डिजाइन किया गया; ताराचंद द्वारा वित्तपोषित"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Ranakpur Jain Temple, dedicated to Adinath, was built in 1439 AD. It was funded by the Jain merchant Dharna Shah (Dharnak Shah) and designed by the architect Deepak during the reign of Maharana Kumbha.",
+      "explanation_hi": "आदिनाथ को समर्पित रणकपुर जैन मंदिर का निर्माण 1439 ई. में किया गया था। यह महाराणा कुंभा के शासनकाल के दौरान जैन व्यापारी धरणा शाह (धरणक शाह) द्वारा वित्तपोषित और वास्तुकार दीपाक द्वारा डिजाइन किया गया था।"
+    },
+    {
+      "question_en": "Which of the following is a comprehensive treatise on music divided into four parts, composed by Maharana Kumbha?",
+      "question_hi": "निम्नलिखित में से कौन महाराणा कुंभा द्वारा रचित संगीत पर चार भागों में विभाजित एक व्यापक ग्रंथ है?",
+      "options_en": {
+        "A": "Sangeet Mimamsa",
+        "B": "Sudha Prabandha",
+        "C": "Rasik Priya",
+        "D": "Sangeet Raj"
+      },
+      "options_hi": {
+        "A": "संगीत मीमांसा",
+        "B": "सुधा प्रबंध",
+        "C": "रसिक प्रिया",
+        "D": "संगीत राज"
+      },
+      "correct_option": "D",
+      "explanation_en": "Maharana Kumbha was a great scholar who played the Veena and composed several works. His most famous musical treatise is 'Sangeet Raj', which is divided into four parts. Other works include Sangeet Mimamsa, Sudha Prabandha, and Rasik Priya (a commentary on Jayadeva's Geet Govinda).",
+      "explanation_hi": "महाराणा कुंभा एक महान विद्वान थे जो वीणा बजाते थे और कई कृतियों की रचना की थी। उनका सबसे प्रसिद्ध संगीत ग्रंथ 'संगीत राज' है, जो चार भागों में विभाजित है। अन्य कृतियों में संगीत मीमांसा, सुधा प्रबंध और रसिक प्रिया (जयदेव के गीत गोविंद पर एक टीका) शामिल हैं।"
+    },
+    {
+      "question_en": "Who sent the 'Pati Perawan' (alliance/betrothal letters) to various Rajput chiefs, including Prithviraj Rathore and Maldev, to unite them against Babur prior to the Battle of Khanwa?",
+      "question_hi": "खानवा के युद्ध से पहले बाबर के खिलाफ उन्हें एकजुट करने के लिए विभिन्न राजपूत सरदारों (जिनमें पृथ्वीराज राठौड़ और मालदेव शामिल थे) को 'पाती पेरावन' पत्र किसने भेजे थे?",
+      "options_en": {
+        "A": "Maharana Kumbha",
+        "B": "Rana Sanga",
+        "C": "Maharana Pratap",
+        "D": "Udai Singh II"
+      },
+      "options_hi": {
+        "A": "महाराणा कुंभा",
+        "B": "राणा सांगा",
+        "C": "महाराणा प्रताप",
+        "D": "उदय सिंह II"
+      },
+      "correct_option": "B",
+      "explanation_en": "Rana Sanga (Rana Sangram Singh) revived the ancient Rajput tradition of 'Pati Perawan' by sending letters to all Rajput rulers (such as Maldev of Jodhpur, Kalyanmal of Bikaner, Hasan Khan Mewati, Jhalla Ajja, etc.) to invite them to join the battle against Babur.",
+      "explanation_hi": "राणा सांगा (राणा संग्राम सिंह) ने बाबर के विरुद्ध युद्ध में शामिल होने के लिए सभी राजपूत शासकों (जैसे जोधपुर के मालदेव, बीकानेर के कल्याणमल, हसन खान मेवाती, झाला अज्जा आदि) को पत्र भेजकर प्राचीन राजपूत परंपरा 'पाती पेरावन' को पुनर्जीवित किया था।"
+    },
+    {
+      "question_en": "Consider the following pairs of battles fought by Rana Sanga and their respective years:\n1. Battle of Khatoli - 1517 AD\n2. Battle of Gagron - 1519 AD\n3. Battle of Bayana - 1527 AD\nWhich of the pairs given above are correct?",
+      "question_hi": "राणा सांगा द्वारा लड़े गए युद्धों और उनके संबंधित वर्षों के निम्नलिखित युग्मों पर विचार कीजिए:\n1. खातौली का युद्ध - 1517 ई.\n2. गागरोन का युद्ध - 1519 ई.\n3. बयाना का युद्ध - 1527 ई.\nउपर्युक्त में से कौन से युग्म सही हैं?",
+      "options_en": {
+        "A": "Only 1 and 2",
+        "B": "Only 2 and 3",
+        "C": "Only 1 and 3",
+        "D": "All 1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "सभी 1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All pairs are correctly matched. The Battle of Khatoli was fought in 1517 AD (defeating Ibrahim Lodi), the Battle of Gagron in 1519 AD (defeating Mahmud Khilji II of Malwa), and the Battle of Bayana on 16 February 1527 AD (defeating Babur's advance forces).",
+      "explanation_hi": "सभी युग्म सही सुमेलित हैं। खातौली का युद्ध 1517 ई. में (इब्राहिम लोदी को पराजित किया), गागरोन का युद्ध 1519 ई. में (मालवा के महमूद खिलजी द्वितीय को पराजित किया), और बयाना का युद्ध 16 फरवरी 1527 ई. में (बाबर की अग्रिम सेना को पराजित किया) लड़ा गया था।"
+    },
+    {
+      "question_en": "During the Second Saka of Chittor (1535 AD), who performed Johar alongside 13,000 women, and which chief of Devaliya assisted in defending the fort?",
+      "question_hi": "चित्तौड़ के दूसरे साके (1535 ई.) के दौरान, किसने 13,000 महिलाओं के साथ जौहर किया था, और देवलिया के किस रावत ने किले की रक्षा में सहायता की थी?",
+      "options_en": {
+        "A": "Queen Padmini and Gora",
+        "B": "Queen Karmawati and Bagh Singh",
+        "C": "Phul Kanwar and Jaimal",
+        "D": "Hadi Rani and Sardar Singh"
+      },
+      "options_hi": {
+        "A": "रानी पद्मिनी और गोरा",
+        "B": "रानी कर्मावती और बाघ सिंह",
+        "C": "फूल कंवर और जयमल",
+        "D": "हाड़ी रानी और सरदार सिंह"
+      },
+      "correct_option": "B",
+      "explanation_en": "During the Second Saka of Chittor in 1535 AD, triggered by the attack of Bahadur Shah of Gujarat, Bagh Singh of Devaliya helped defend the fort and died fighting, while Queen Karmawati (Vikramaditya's mother) led 13,000 women in Johar.",
+      "explanation_hi": "गुजरात के बहादुर शाह के आक्रमण के कारण 1535 ई. में हुए चित्तौड़ के दूसरे साके के दौरान, देवलिया के बाघ सिंह ने किले की रक्षा में सहायता की और वीरगति प्राप्त की, जबकि रानी कर्मावती (विक्रमादित्य की माता) ने 13,000 महिलाओं के साथ जौहर का नेतृत्व किया।"
+    },
+    {
+      "question_en": "Who provided the hiding place/refuge where Panna Dhai kept the infant Udai Singh safe after escaping Chittor?",
+      "question_hi": "चित्तौड़ से भागने के बाद पन्ना धाय ने शिशु उदय सिंह को सुरक्षित रखने के लिए किसके पास शरण/छिपने का स्थान प्राप्त किया था?",
+      "options_en": {
+        "A": "Ranmal Rathore",
+        "B": "Asha Devpura",
+        "C": "Chhitra Banjara",
+        "D": "Bhamashah"
+      },
+      "options_hi": {
+        "A": "रणमल राठौड़",
+        "B": "आशा देवपुरा",
+        "C": "छित्तर बंजारे",
+        "D": "भामाशाह"
+      },
+      "correct_option": "B",
+      "explanation_en": "After Panna Dhai sacrificed her own son Chandan to save Udai Singh from Banveer, she escaped Chittor. She kept the infant Udai Singh in a hiding place under the protection of Asha Devpura.",
+      "explanation_hi": "बनवीर से उदय सिंह को बचाने के लिए पन्ना धाय द्वारा अपने पुत्र चंदन का बलिदान देने के बाद, वह चित्तौड़ से भाग निकलीं। उन्होंने शिशु उदय सिंह को आशा देवपुरा के संरक्षण में एक गुप्त स्थान पर रखा था।"
+    },
+    {
+      "question_en": "Who led the heroic defense of Chittor and who led the Johar during the Third Saka of Chittor (1568 AD) during Akbar's attack?",
+      "question_hi": "अकबर के आक्रमण के समय चित्तौड़ के तीसरे साके (1568 ई.) के दौरान चित्तौड़ की वीर रक्षा का नेतृत्व किसने किया था और जौहर का नेतृत्व किसने किया था?",
+      "options_en": {
+        "A": "Gora and Badal; Queen Padmini",
+        "B": "Jaimal and Patta; Phul Kanwar",
+        "C": "Bagh Singh and Kalla Rathore; Queen Karmawati",
+        "D": "Hakim Khan Sur and Rana Punja; Sahal Kanwar"
+      },
+      "options_hi": {
+        "A": "गोरा और बादल; रानी पद्मिनी",
+        "B": "जयमल और पत्ता; फूल कंवर",
+        "C": "बाघ सिंह और कल्ला राठौड़; रानी कर्मावती",
+        "D": "हकीम खान सूर और राणा पुंजा; सहल कंवर"
+      },
+      "correct_option": "B",
+      "explanation_en": "During Akbar's attack on Chittor (1567-68 AD), Jaimal of Merta and Patta of Amet led the heroic resistance inside the fort. The Third Saka of Chittor took place in 1568 AD, where Phul Kanwar led the Johar.",
+      "explanation_hi": "अकबर के चित्तौड़ आक्रमण (1567-68 ई.) के दौरान, मेड़ता के जयमल और आमेट के पत्ता ने किले के भीतर वीरतापूर्ण प्रतिरोध का नेतृत्व किया। 1568 ई. में चित्तौड़ का तीसरा साका हुआ, जहाँ फूल कंवर ने जौहर का नेतृत्व किया।"
+    },
+    {
+      "question_en": "Which French traveler has recorded in his accounts that Akbar erected statues of Jaimal and Patta at the gates of the Agra Fort to honor their bravery?",
+      "question_hi": "किस फ्रांसीसी यात्री ने अपने वृत्तांतों में दर्ज किया है कि अकबर ने जयमल और पत्ता की वीरता के सम्मान में आगरा किले के द्वारों पर उनकी मूर्तियां स्थापित की थीं?",
+      "options_en": {
+        "A": "Tavernier",
+        "B": "Bernier",
+        "C": "Manucci",
+        "D": "Thevenot"
+      },
+      "options_hi": {
+        "A": "टैवर्नियर",
+        "B": "बर्नियर",
+        "C": "मानुची",
+        "D": "थेवेनोट"
+      },
+      "correct_option": "B",
+      "explanation_en": "The French traveler Bernier visited India and noted in his accounts that Akbar, impressed by the bravery of Mewar generals Jaimal and Patta in the defense of Chittor, erected their statues at the gates of the Agra Fort.",
+      "explanation_hi": "फ्रांसीसी यात्री बर्नियर ने भारत की यात्रा की और अपने वृत्तांतों में दर्ज किया कि चित्तौड़ की रक्षा में मेवाड़ के सेनापतियों जयमल और पत्ता की वीरता से प्रभावित होकर अकबर ने आगरा किले के द्वारों पर उनकी मूर्तियां स्थापित करवाई थीं।"
+    },
+    {
+      "question_en": "Which of the following is the correct chronological sequence of the four Mughal embassies sent by Akbar to persuade Maharana Pratap?",
+      "question_hi": "अकबर द्वारा महाराणा प्रताप को मनाने के लिए भेजे गए चार मुगल दूतों (शिष्टमंडलों) का सही कालानुक्रमिक क्रम निम्नलिखित में से कौन सा है?",
+      "options_en": {
+        "A": "Jalal Khan Qurchi, Man Singh, Bhagwant Das, Todarmal",
+        "B": "Man Singh, Jalal Khan Qurchi, Todarmal, Bhagwant Das",
+        "C": "Jalal Khan Qurchi, Bhagwant Das, Man Singh, Todarmal",
+        "D": "Man Singh, Bhagwant Das, Jalal Khan Qurchi, Todarmal"
+      },
+      "options_hi": {
+        "A": "जलाल खान कोरची, मान सिंह, भगवंत दास, टोडरमल",
+        "B": "मान सिंह, जलाल खान कोरची, टोडरमल, भगवंत दास",
+        "C": "जलाल खान कोरची, भगवंत दास, मान सिंह, टोडरमल",
+        "D": "मान सिंह, भगवंत दास, जलाल खान कोरची, टोडरमल"
+      },
+      "correct_option": "A",
+      "explanation_en": "Akbar sent four diplomatic missions to persuade Maharana Pratap to accept Mughal suzerainty: (1) Jalal Khan Qurchi in 1572, (2) Man Singh in 1573, (3) Bhagwant Das in 1573, and (4) Todarmal in 1573. All four missions failed.",
+      "explanation_hi": "अकबर ने महाराणा प्रताप को मुगल संप्रभुता स्वीकार करने के लिए मनाने के लिए चार राजनयिक मिशन भेजे: (1) 1572 में जलाल खान कोरची, (2) 1573 में मान सिंह, (3) 1573 में भगवंत दास, और (4) 1573 में टोडरमल। ये चारों मिशन विफल रहे।"
+    },
+    {
+      "question_en": "Who among the following commanders participated in the Battle of Haldighati (1576 AD) on the side of Maharana Pratap?\n1. Hakim Khan Sur\n2. Ram Shah Tomar\n3. Rana Punja\n4. Krishan Das Chundawat\nSelect the correct option.",
+      "question_hi": "निम्नलिखित में से किन सेनापतियों ने हल्दीघाटी के युद्ध (1576 ई.) में महाराणा प्रताप की ओर से भाग लिया था?\n1. हकीम खान सूर\n2. राम शाह तोमर\n3. राणा पुंजा\n4. कृष्ण दास चूंडावत\nसही विकल्प का चयन कीजिए।",
+      "options_en": {
+        "A": "Only 1 and 3",
+        "B": "Only 1, 2 and 3",
+        "C": "Only 2, 3 and 4",
+        "D": "All 1, 2, 3 and 4"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 3",
+        "B": "केवल 1, 2 और 3",
+        "C": "केवल 2, 3 और 4",
+        "D": "सभी 1, 2, 3 और 4"
+      },
+      "correct_option": "D",
+      "explanation_en": "All of them fought on Pratap's side. Hakim Khan Sur was the Afghan general (the only Muslim commander), Ram Shah Tomar (King of Gwalior) fought along with his grandsons, Rana Punja led 400 Bhil archers, and Krishan Das Chundawat was a key noble commander.",
+      "explanation_hi": "इन सभी ने प्रताप की ओर से युद्ध लड़ा था। हकीम खान सूर अफगान सेनापति थे (एकमात्र मुस्लिम सेनापति), राम शाह तोमर (ग्वालियर के राजा) अपने पोतों के साथ लड़े, राणा पुंजा ने 400 भील तीरंदाजों का नेतृत्व किया, और कृष्ण दास चूंडावत एक प्रमुख सरदार थे।"
+    },
+    {
+      "question_en": "In the Battle of Haldighati (1576 AD), who wore Maharana Pratap's crown and royal umbrella to save his life, and who sounded a false retreat bugle to confuse the Mughal forces?",
+      "question_hi": "हल्दीघाटी के युद्ध (1576 ई.) में महाराणा प्रताप के प्राण बचाने के लिए उनका मुकुट और राजकीय छत्र किसने धारण किया था, और मुगल सेना को भ्रमित करने के लिए झूठी वापसी का बिगुल किसने बजाया था?",
+      "options_en": {
+        "A": "Jhala Bida and Mihatar Khan",
+        "B": "Jhala Ajja and Hakim Khan Sur",
+        "C": "Ram Shah Tomar and Rana Punja",
+        "D": "Gora and Badal"
+      },
+      "options_hi": {
+        "A": "झाला बीदा और मिहतर खान",
+        "B": "झाला अज्जा और हकीम खान सूर",
+        "C": "राम शाह तोमर और राणा पुंजा",
+        "D": "गोरा और बादल"
+      },
+      "correct_option": "A",
+      "explanation_en": "During the crisis in the Battle of Haldighati, Jhala Bida wore Maharana Pratap's crown and royal umbrella to divert the Mughal attack, sacrificing himself. Mihatar Khan, a Mughal soldier, sounded a false bugle declaring the retreat/arrival of Akbar, which temporarily confused the armies.",
+      "explanation_hi": "हल्दीघाटी के युद्ध में संकट के समय, झाला बीदा ने मुगल आक्रमण को मोड़ने के लिए महाराणा प्रताप का मुकुट और राजकीय छत्र धारण किया और स्वयं का बलिदान दे दिया। मिहतर खान ने मुगल सेना में अकबर के आने का झूठा बिगुल फूंककर सैनिकों को भ्रमित किया जिससे प्रताप को सुरक्षित निकलने का मार्ग मिला।"
+    },
+    {
+      "question_en": "Which battle fought in 1582, where Maharana Pratap defeated the Mughal commander Sultan Khan, is famously known as the 'Marathon of Mewar'?",
+      "question_hi": "1582 ई. में लड़ा गया कौन सा युद्ध, जिसमें महाराणा प्रताप ने मुगल सेनापति सुल्तान खान को पराजित किया था, 'मेवाड़ का मैराथन' के रूप में प्रसिद्ध है?",
+      "options_en": {
+        "A": "Battle of Haldighati",
+        "B": "Battle of Dewair",
+        "C": "Battle of Singholi",
+        "D": "Battle of Gagron"
+      },
+      "options_hi": {
+        "A": "हल्दीघाटी का युद्ध",
+        "B": "दिवेर का युद्ध",
+        "C": "सिंघोली का युद्ध",
+        "D": "गागरोन का युद्ध"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Battle of Dewair (1582) is called the 'Marathon of Mewar' by Colonel Tod. In this battle, Pratap defeated the Mughal commander Sultan Khan, marking a turning point where Pratap recaptured all of Mewar except Chittor, Ajmer, and Mandalgarh.",
+      "explanation_hi": "कर्नल टॉड द्वारा 1582 ई. के दिवेर के युद्ध को 'मेवाड़ का मैराथन' कहा गया है। इस युद्ध में प्रताप ने मुगल सेनापति सुल्तान खान को पराजित किया, जो एक महत्वपूर्ण मोड़ था जिसके बाद प्रताप ने चित्तौड़, अजमेर और मांडलगढ़ को छोड़कर पूरे मेवाड़ पर फिर से अधिकार कर लिया।"
+    },
+    {
+      "question_en": "Who contributed their entire personal treasury (equivalent to maintaining 25,000 soldiers for 12 years) to fund Maharana Pratap's army in 1578 AD?",
+      "question_hi": "1578 ई. में महाराणा प्रताप की सेना के वित्तपोषण के लिए अपनी पूरी व्यक्तिगत तिजोरी (जो 12 वर्षों तक 25,000 सैनिकों के रखरखाव के बराबर थी) किसने दान कर दी थी?",
+      "options_en": {
+        "A": "Dharna Shah and Deepak",
+        "B": "Bhamashah and Tarachand",
+        "C": "Sadulnath Trivedi and Chakrapani Mishra",
+        "D": "Bida Jaitmalot and Karamchand Panwar"
+      },
+      "options_hi": {
+        "A": "धरणा शाह और दीपाक",
+        "B": "भामाशाह और ताराचंद",
+        "C": "सदुलनाथ त्रिवेदी और चक्रपाणि मिश्र",
+        "D": "बीदा जैतमालोत और करमचंद पंवार"
+      },
+      "correct_option": "B",
+      "explanation_en": "In 1578 AD, Bhamashah and his brother Tarachand (from Chuliya, Pali) handed over their entire personal treasury to Maharana Pratap to fund his struggle against the Mughals. Bhamashah is remembered as the 'Financier of Mewar's independence'.",
+      "explanation_hi": "1578 ई. में, भामाशाह और उनके भाई ताराचंद (चूलिया, पाली के निवासी) ने मुगलों के खिलाफ संघर्ष के लिए महाराणा प्रताप को अपनी पूरी व्यक्तिगत तिजोरी सौंप दी थी। भामाशाह को 'मेवाड़ की स्वतंत्रता के फाइनेंसर' के रूप में याद किया जाता है।"
+    },
+    {
+      "question_en": "Which of the following was NOT one of the terms of the Mughal-Mewar Treaty signed on 5 February 1615 between Amar Singh I and Jahangir/Prince Khurram?",
+      "question_hi": "5 फरवरी 1615 को अमर सिंह प्रथम और जहांगीर/राजकुमार खुर्रम के बीच हस्ताक्षरित मुगल-मेवाड़ संधि की शर्तों में निम्नलिखित में से कौन सी एक शामिल नहीं थी?",
+      "options_en": {
+        "A": "Amar Singh I accepted Mughal suzerainty.",
+        "B": "Karan Singh was to present himself at the Mughal court.",
+        "C": "The fortifications of Chittor Fort could be repaired under Mughal supervision.",
+        "D": "Mewar was to provide military aid to the Mughals."
+      },
+      "options_hi": {
+        "A": "अमर सिंह प्रथम ने मुगल संप्रभुता स्वीकार की।",
+        "B": "करण सिंह को मुगल दरबार में उपस्थित होना था।",
+        "C": "चित्तौड़ किले के परकोटे (किलेबंदी) की मरम्मत मुगल पर्यवेक्षण में की जा सकती थी।",
+        "D": "मेवाड़ को मुगलों को सैन्य सहायता प्रदान करनी थी।"
+      },
+      "correct_option": "C",
+      "explanation_en": "According to the terms of the Mughal-Mewar Treaty of 1615, the fortifications of Chittor Fort were NOT to be repaired under any circumstances. This term was put to ensure Mewar would not easily revolt or fortify itself against Delhi again.",
+      "explanation_hi": "1615 की मुगल-मेवाड़ संधि की शर्तों के अनुसार, चित्तौड़ किले की किलेबंदी (परकोटे) की मरम्मत किसी भी परिस्थिति में नहीं की जानी थी। यह शर्त इसलिए रखी गई थी ताकि मेवाड़ आसानी से दोबारा विद्रोह या किलेबंदी न कर सके।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the reign of Maharana Raj Singh (1652-80 AD):\n1. He married Charumati, the princess of Rupnagar, to save her from forced conversion by Aurangzeb.\n2. He installed Shrinathji at Nathdwara, protecting the deity brought from Govardhan.\n3. His wife Sahal Kanwar (Hadi Rani) famously sent her own head as a token to her husband going to war.\nWhich of the statements given above are correct?",
+      "question_hi": "महाराणा राज सिंह (1652-80 ई.) के शासनकाल के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्होंने औरंगज़ेब द्वारा जबरन धर्म परिवर्तन से बचाने के लिए रूपनगर की राजकुमारी चारुमती से विवाह किया।\n2. उन्होंने नाथद्वारा में श्रीनाथजी की स्थापना की, तथा गोवर्धन से लाई गई मूर्ति की रक्षा की।\n3. उनकी पत्नी सहल कंवर (हाड़ी रानी) ने युद्ध में जा रहे अपने पति को निशानी के तौर पर अपना सिर काटकर भेज दिया था।\nउपर्युक्त कथनों में से कौन से सही हैं?",
+      "options_en": {
+        "A": "Only 1 and 2",
+        "B": "Only 2 and 3",
+        "C": "Only 1 and 3",
+        "D": "All 1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "सभी 1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All statements are correct. Raj Singh married Charumati of Rupnagar in 1669, installed Shrinathji at Nathdwara in 1672 (bringing it from Govardhan to save it from Aurangzeb's iconoclasm), and Sahal Kanwar (Hadi Rani), wife of Salumbar chief Sardar Singh, sacrificed her head to keep her husband focused on the war.",
+      "explanation_hi": "सभी कथन सही हैं। राज सिंह ने 1669 में रूपनगर की चारुमती से विवाह किया, 1672 में नाथद्वारा में श्रीनाथजी की मूर्ति स्थापित की (औरंगजेब के मूर्तिभंजन से बचाने के लिए इसे गोवर्धन से लाया गया था), और सलूंबर के रावत सरदार सिंह की पत्नी सहल कंवर (हाड़ी रानी) ने अपने पति का ध्यान युद्ध पर केंद्रित रखने के लिए अपना सिर काटकर बलिदान कर दिया था।"
+    },
+    {
+      "question_en": "Who commissioned the 'Raj Prasasti' (the world's largest stone inscription comprising 25 granite slabs in Sanskrit), and who was its author/composer?",
+      "question_hi": "'राज प्रशस्ति' (25 ग्रेनाइट शिलाओं पर संस्कृत भाषा में लिखित विश्व का सबसे बड़ा शिलालेख) किसने स्थापित करवाया था, और इसके रचयिता कौन थे?",
+      "options_en": {
+        "A": "Maharana Kumbha; Atri and Mahesh",
+        "B": "Maharana Raj Singh; Ranchod Bhatt",
+        "C": "Maharana Jagat Singh I; Sadashiv Bhatt",
+        "D": "Maharana Amar Singh I; Kanha Vyas"
+      },
+      "options_hi": {
+        "A": "महाराणा कुंभा; अत्रि और महेश",
+        "B": "महाराणा राज सिंह; रणछोड़ भट्ट",
+        "C": "महाराणा जगत सिंह प्रथम; सदाशिव भट्ट",
+        "D": "महाराणा अमर सिंह प्रथम; कान्हा व्यास"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Raj Prasasti was commissioned by Maharana Raj Singh to commemorate the construction of Rajsamand Lake (completed in 1688). Written in Sanskrit on 25 granite slabs, containing 1017 shlokas, it is the world's largest stone inscription and was composed by Ranchod Bhatt.",
+      "explanation_hi": "राजसमंद झील के निर्माण (1688 में पूर्ण) की स्मृति में महाराणा राज सिंह द्वारा राज प्रशस्ति स्थापित करवाई गई थी। 25 ग्रेनाइट शिलाओं पर संस्कृत भाषा में लिखे गए 1017 श्लोकों वाला यह शिलालेख विश्व का सबसे बड़ा शिलालेख है, जिसके रचयिता रणछोड़ भट्ट थे।"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Consider the following statements regarding the Ganeshwar archaeological site:\n1. It is located on the banks of the Kantali River in the Sikar district of Rajasthan.\n2. It is considered the oldest copper-using site in India, pre-dating the Harappan civilization.\n3. R.C. Agrawal excavated the site, which is known as the 'Mother of Copper Age' in India.\nWhich of the statements given above are correct?",
+      "question_hi": "गणेश्वर पुरातात्विक स्थल के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह राजस्थान के सीकर जिले में कांतली नदी के तट पर स्थित है।\n2. इसे भारत में सबसे पुराना तांबा-उपयोगकर्ता स्थल माना जाता है, जो हड़प्पा सभ्यता से पहले का है।\n3. आर.सी. अग्रवाल ने इस स्थल का उत्खनन किया, जिसे भारत में 'ताम्रयुगीन संस्कृति की जननी' के रूप में जाना जाता है।\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Ganeshwar is located on the banks of the Kantali River in Sikar district, Rajasthan. It was excavated by R.C. Agrawal and is known as the 'Mother of Copper Age' / 'Cradle of Copper Age' in India. It is the oldest copper-using site in India (pre-dating Harappan) and supplied copper artifacts to the Indus Valley Civilization.",
+      "explanation_hi": "गणेश्वर राजस्थान के सीकर जिले में कांतली नदी के तट पर स्थित है। इसका उत्खनन आर.सी. अग्रवाल द्वारा किया गया था और इसे भारत में 'ताम्रयुगीन संस्कृति की जननी' (मदर ऑफ कॉपर एज) के रूप में जाना जाता है। यह भारत में सबसे पुराना तांबा-उपयोगकर्ता स्थल है (हड़प्पा सभ्यता से पूर्व का) और इसने सिंधु घाटी सभ्यता को तांबे की कलाकृतियों की आपूर्ति की थी।"
+    },
+    {
+      "question_en": "Which of the following archaeological findings at the Ahar site indicates its long-distance trade relations with Afghanistan?",
+      "question_hi": "आहड़ स्थल पर मिली निम्नलिखित में से कौन सी पुरातात्विक खोज अफगानिस्तान के साथ इसके सुदूर व्यापारिक संबंधों को दर्शाती है?",
+      "options_en": {
+        "A": "Handle-less water pots",
+        "B": "Lapis Lazuli",
+        "C": "Apollo coin",
+        "D": "Terracotta Banasian Bull"
+      },
+      "options_hi": {
+        "A": "बिना हत्थे के जलपात्र",
+        "B": "लैपिस लाजुली (लाजवर्द)",
+        "C": "अपोलो सिक्का",
+        "D": "टेराकोटा बनासियन बुल"
+      },
+      "correct_option": "B",
+      "explanation_en": "Lapis Lazuli, a semi-precious stone found at the Ahar site, was imported from Afghanistan, which proves the long-distance trade relations of the Ahar culture.",
+      "explanation_hi": "आहड़ स्थल पर मिला अर्ध-कीमती पत्थर लैपिस लाजुली (लाजवर्द), अफगानिस्तान से आयात किया गया था, जो आहड़ संस्कृति के सुदूर व्यापारिक संबंधों को सिद्ध करता है।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the Ahar civilization:\n1. It is also known as the Banas Culture after the Banas river basin.\n2. In historical inscriptions, the site of Ahar is referred to as Aghatpur.\n3. The local mound at Ahar is known as Dhoolkot.\nWhich of the statements given above are correct?",
+      "question_hi": "आहड़ सभ्यता के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसे बनास नदी बेसिन के नाम पर बनास संस्कृति के रूप में भी जाना जाता है।\n2. ऐतिहासिक अभिलेखों में, आहड़ स्थल को आघाटपुर कहा गया है।\n3. आहड़ के स्थानीय टीले को धूलकोट के नाम से जाना जाता है।\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Ahar culture is named after the type site Ahar, also called Banas culture. In ancient inscriptions, it is referred to as Aghatpur, and it is locally known as Dhoolkot (mound of dust/ruins). It was also called Tambavati due to the abundance of copper.",
+      "explanation_hi": "आहड़ संस्कृति का नाम इसके मुख्य स्थल आहड़ के नाम पर रखा गया है, जिसे बनास संस्कृति भी कहा जाता है। प्राचीन अभिलेखों में इसे आघाटपुर कहा गया है, और स्थानीय स्तर पर इसे धूलकोट (धूल/मलबे का टीला) के रूप में जाना जाता है। तांबे की प्रचुरता के कारण इसे ताम्रवती भी कहा जाता था।"
+    },
+    {
+      "question_en": "Which archaeologist designated Kalibangan as the 'Third Capital of the Indus Valley Civilization'?",
+      "question_hi": "किस पुरातत्वविद् ने कालीबंगा को 'सिंधु घाटी सभ्यता की तीसरी राजधानी' कहा था?",
+      "options_en": {
+        "A": "Amlanand Ghosh",
+        "B": "Dashrath Sharma",
+        "C": "L.P. Tessitori",
+        "D": "Aurel Stein"
+      },
+      "options_hi": {
+        "A": "अमलानंद घोष",
+        "B": "दशरथ शर्मा",
+        "C": "एल.पी. टेसिटोरी",
+        "D": "ऑरेल स्टीन"
+      },
+      "correct_option": "B",
+      "explanation_en": "Noted historian Dashrath Sharma designated Kalibangan as the 'Third Capital of the Indus Civilization', after Harappa and Mohenjo-daro.",
+      "explanation_hi": "प्रसिद्ध इतिहासकार दशरथ शर्मा ने हड़प्पा और मोहनजोदड़ो के बाद कालीबंगा को 'सिंधु सभ्यता की तीसरी राजधानी' कहा था।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the agricultural practices at Kalibangan:\n1. It has yielded the world's oldest ploughed farm field.\n2. Evidence of double cropping, specifically sowing barley and mustard/sesame simultaneously, was found.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा में कृषि पद्धतियों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यहाँ से विश्व के सबसे पुराने जुते हुए खेत के साक्ष्य मिले हैं।\n2. यहाँ एक साथ दो फसलें उगाने, विशेष रूप से जौ और सरसों/तिल को एक साथ बोने के साक्ष्य मिले हैं।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Kalibangan is renowned for containing the world's oldest ploughed farm field. The pattern of furrows suggests the practice of double cropping (sowing barley and mustard/sesame simultaneously in the same field) during the pre-Harappan phase.",
+      "explanation_hi": "कालीबंगा विश्व के सबसे पुराने जुते हुए कृषि क्षेत्र के साक्ष्य के लिए प्रसिद्ध है। कुंडों (हल रेखाओं) के पैटर्न से पूर्व-हड़प्पा काल के दौरान दोहरी फसल (एक ही खेत में जौ और सरसों/तिल को एक साथ बोना) की पद्धति का संकेत मिलता है।"
+    },
+    {
+      "question_en": "Which of the following unique archaeological features has been discovered at the Balathal site in Udaipur?",
+      "question_hi": "उदयपुर के बालाथल स्थल पर निम्नलिखित में से किस अनूठी पुरातात्विक विशेषता की खोज की गई है?",
+      "options_en": {
+        "A": "11-room house complex and a tube well",
+        "B": "Apollo coin and handle-less water pot",
+        "C": "Six-hole human skull showing brain surgery",
+        "D": "Stone bridge across the river"
+      },
+      "options_hi": {
+        "A": "11 कमरों वाला विशाल भवन और एक नलकूप",
+        "B": "अपोलो सिक्का और बिना हत्थे का जलपात्र",
+        "C": "मस्तिष्क शल्यचिकित्सा दर्शाने वाली छह छिद्रों वाली मानव खोपड़ी",
+        "D": "नदी पर बना पत्थर का पुल"
+      },
+      "correct_option": "A",
+      "explanation_en": "Balathal in Udaipur district was excavated by V.N. Mishra. It yielded an 11-room house complex, a tube well (earliest in Rajasthan), hand-made cloth impressions, and controversial early evidence of iron furnaces.",
+      "explanation_hi": "उदयपुर जिले के बालाथल का उत्खनन वी.एन. मिश्र द्वारा किया गया था। यहाँ से 11 कमरों वाला एक विशाल भवन परिसर, एक नलकूप (राजस्थान में सबसे पहला), हाथ से बने कपड़े की छाप और लोहे की भट्टियों के विवादास्पद प्रारंभिक साक्ष्य मिले हैं।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the religious and mortuary practices at Kalibangan:\n1. A series of seven fire altars were found on a citadel platform, representing unique religious practices.\n2. Mohenjo-daro has yielded a greater number of identical fire altars compared to Kalibangan.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा में धार्मिक और शवदाह (अंतिम संस्कार) प्रथाओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. दुर्ग के चबूतरे पर सात अग्नि वेदिकाओं की एक श्रृंखला मिली है, जो विशिष्ट धार्मिक प्रथाओं को दर्शाती है।\n2. मोहनजोदड़ो से कालीबंगा की तुलना में अधिक संख्या में समान अग्नि वेदिकाएं प्राप्त हुई हैं।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "A",
+      "explanation_en": "A row of 7 fire altars was discovered on the citadel platform at Kalibangan, indicating unique ritualistic practices. However, no fire altars have been found at Mohenjo-daro.",
+      "explanation_hi": "कालीबंगा में दुर्ग के चबूतरे पर 7 अग्नि वेदिकाओं की एक पंक्ति खोजी गई थी, जो विशिष्ट अनुष्ठानिक प्रथाओं को दर्शाती है। हालाँकि, मोहनजोदड़ो से कोई भी अग्नि वेदिका प्राप्त नहीं हुई है।"
+    },
+    {
+      "question_en": "With reference to Gilund, a site belonging to the Ahar culture, consider the following statements:\n1. It is located at a hill known as Modiya Magri in the Rajsamand district.\n2. Unlike other Chalcolithic sites, it provides significant evidence of the use of baked bricks.\n3. The excavation was conducted by archaeologists including B.B. Lal and V.S. Shinde.\nWhich of the statements given above are correct?",
+      "question_hi": "आहड़ संस्कृति से संबंधित स्थल गिलूंड के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह राजसमंद जिले में 'मोडिया मगरी' नामक पहाड़ी पर स्थित है।\n2. अन्य ताम्रपाषाणिक स्थलों के विपरीत, यहाँ पकी हुई ईंटों के उपयोग के महत्वपूर्ण साक्ष्य मिलते हैं।\n3. इसका उत्खनन बी.बी. लाल और वी.एस. शिंदे सहित पुरातत्वविदों द्वारा किया गया था।\nउपरोक्त कथनों में से कौन से सही हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Gilund is located at Modiya Magri hill in Rajsamand district. It is a major Ahar culture site excavated by B.B. Lal, V.S. Shinde, and Gregory Possehl. It is noted for the unique use of baked bricks, which is generally rare in Chalcolithic sites.",
+      "explanation_hi": "गिलूंड राजसमंद जिले में मोदिया मगरी पहाड़ी पर स्थित है। यह आहड़ संस्कृति का एक प्रमुख स्थल है जिसका उत्खनन बी.बी. लाल, वी.एस. शिंदे और ग्रेगरी पोशेल द्वारा किया गया था। यह पकी हुई ईंटों के अनूठे उपयोग के लिए जाना जाता है, जो सामान्यतः ताम्रपाषाणिक स्थलों में दुर्लभ है।"
+    },
+    {
+      "question_en": "The archaeological site of Ojhiyana, which has provided the earliest evidence of cattle domestication (cow and bull terracotta figurines) in Rajasthan, is located in which district on the banks of which river?",
+      "question_hi": "राजस्थान में पशुपालन (गाय और बैल की टेराकोटा मूर्तियां) के सबसे प्रारंभिक साक्ष्य प्रदान करने वाला पुरातात्विक स्थल ओझियाना, किस जिले में किस नदी के तट पर स्थित है?",
+      "options_en": {
+        "A": "Udaipur, Bedach River",
+        "B": "Bhilwara, Khari River",
+        "C": "Rajsamand, Banas River",
+        "D": "Chittorgarh, Gambhiri River"
+      },
+      "options_hi": {
+        "A": "उदयपुर, बेड़च नदी",
+        "B": "भीलवाड़ा, खारी नदी",
+        "C": "राजसमंद, बनास नदी",
+        "D": "चित्तौड़गढ़, गंभीरी नदी"
+      },
+      "correct_option": "B",
+      "explanation_en": "Ojhiyana is located in the Bhilwara district of Rajasthan on the banks of the Khari River. Excavated by B.R. Meena and Alok Tripathi, it yielded cow and bull terracotta figurines, which represent the earliest evidence of cattle domestication in Rajasthan.",
+      "explanation_hi": "ओझियाना राजस्थान के भीलवाड़ा जिले में खारी नदी के तट पर स्थित है। बी.आर. मीणा और आलोक त्रिपाठी द्वारा उत्खनित इस स्थल से गाय और बैल की टेराकोटा मूर्तियां मिली हैं, जो राजस्थान में पशुपालन (मवेशियों को पालतू बनाने) के सबसे प्रारंभिक साक्ष्य का प्रतिनिधित्व करती हैं।"
+    },
+    {
+      "question_en": "With reference to the Pre-Harappan Sothi Culture of Rajasthan, consider the following statements:\n1. The Sothi ware was first discovered by Italian scholar L.P. Tessitori.\n2. The key sites representing this culture include Sothi, Sawariya, and Pugal in Bikaner.\nWhich of the statements given above is/are correct?",
+      "question_hi": "राजस्थान की पूर्व-हड़प्पा सोथी संस्कृति के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. सोथी मृदभांड (सोथी वेयर) की खोज सबसे पहले इतालवी विद्वान एल.पी. टेसिटोरी ने की थी।\n2. इस संस्कृति का प्रतिनिधित्व करने वाले प्रमुख स्थलों में बीकानेर के सोथी, सावरिया और पूगल शामिल हैं।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "L.P. Tessitori first identified the Sothi ware during his surveys. The primary sites of this pre-Harappan culture are Sothi, Sawariya, and Pugal, all situated in the Bikaner district.",
+      "explanation_hi": "इतालवी विद्वान एल.पी. टेसिटोरी ने अपने सर्वेक्षणों के दौरान सबसे पहले सोथी मृदभांडों की पहचान की थी। इस पूर्व-हड़प्पा संस्कृति के प्राथमिक स्थल सोथी, सावरिया और पूगल हैं, जो सभी बीकानेर जिले में स्थित हैं।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the pottery and domestic utensils found at Ahar:\n1. Black and Red Ware is the signature pottery of the Ahar culture.\n2. The presence of a handle-less water pot suggests contact with ancient Iranian styles.\nWhich of the statements given above is/are correct?",
+      "question_hi": "आहड़ में पाए गए मृदभांडों और घरेलू बर्तनों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. लाल और काले मृदभांड (ब्लैक एंड रेड वेयर) आहड़ संस्कृति के विशिष्ट मृदभांड हैं।\n2. बिना हत्थे वाले जलपात्र की उपस्थिति प्राचीन ईरानी शैलियों के साथ संपर्क का सुझाव देती है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Black and Red Ware pottery is the signature archaeological feature of Ahar. Additionally, handle-less water pots found here resemble styles from ancient Iran, indicating international contact.",
+      "explanation_hi": "लाल और काले रंग के मृदभांड (ब्लैक एंड रेड वेयर) आहड़ की विशिष्ट पुरातात्विक विशेषता है। इसके अतिरिक्त, यहाँ पाए गए बिना हत्थे वाले जलपात्र प्राचीन ईरान की शैलियों से मिलते-जुलते हैं, जो अंतर्राष्ट्रीय संपर्क का संकेत देते हैं।"
+    },
+    {
+      "question_en": "Which of the following unique archaeological evidences is/are associated with the Kalibangan site?\n1. Camel bones, which are not found in any other Harappan site.\n2. A six-hole human skull indicating the practice of brain surgery (trepanning).\n3. Archaeological evidence of destruction by an earthquake at the pre-Harappan level.\nSelect the correct answer using the codes below:",
+      "question_hi": "निम्नलिखित में से कौन सा/से अनूठा/अनूठे पुरातात्विक साक्ष्य कालीबंगा स्थल से संबद्ध है/हैं?\n1. ऊंट की हड्डियां, जो किसी अन्य हड़प्पा स्थल में नहीं पाई जाती हैं।\n2. मस्तिष्क शल्यचिकित्सा (ट्रेपेनिंग) की प्रथा को दर्शाने वाली छह छिद्रों वाली मानव खोपड़ी।\n3. पूर्व-हड़प्पा स्तर पर भूकंप से हुए विनाश के पुरातात्विक साक्ष्य।\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All three are unique features of Kalibangan. It is the only Harappan site yielding camel bones and a 6-hole skull showing brain surgery (trepanning). The pre-Harappan levels also showed clear evidence of earthquake damage.",
+      "explanation_hi": "ये तीनों कालीबंगा की अनूठी विशेषताएं हैं। यह एकमात्र हड़प्पा स्थल है जहाँ से ऊंट की हड्डियां और मस्तिष्क शल्यचिकित्सा (ट्रेपेनिंग) दर्शाने वाली 6 छिद्रों वाली खोपड़ी मिली है। पूर्व-हड़प्पा स्तरों में भूकंप से क्षति के स्पष्ट साक्ष्य भी मिले हैं।"
+    },
+    {
+      "question_en": "With reference to early metallurgy in Rajasthan, consider the following statements:\n1. Sunari in Jhunjhunu district has yielded the oldest iron smelting furnaces in Rajasthan.\n2. Jodhpura in Jaipur district, located on the Sabi River, has also yielded ancient iron tools.\nWhich of the statements given above is/are correct?",
+      "question_hi": "राजस्थान में प्रारंभिक धातुकर्म के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. झुंझुनू जिले के सुनारी से राजस्थान में लोहा गलाने की सबसे पुरानी भट्टियां प्राप्त हुई हैं।\n2. साबी नदी पर स्थित जयपुर जिले के जोधपुरा से भी प्राचीन लोहे के उपकरण मिले हैं।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Sunari (Jhunjhunu) contains the oldest iron furnaces in Rajasthan along with chariot remains. Jodhpura (Jaipur), situated on the banks of the Sabi River, is also an important early iron age site that yielded iron tools. Both are correct.",
+      "explanation_hi": "सुनारी (झुंझुनू) से रथ के अवशेषों के साथ राजस्थान की सबसे पुरानी लोहे की भट्टियां मिली हैं। साबी नदी के तट पर स्थित जोधपुरा (जयपुर) भी एक महत्वपूर्ण प्रारंभिक लौह युगीन स्थल है जहाँ से लोहे के उपकरण मिले हैं। दोनों कथन सही हैं।"
+    },
+    {
+      "question_en": "Which ancient archaeological site in Rajasthan is historically referred to as the 'Tata Nagar of ancient India' due to the discovery of thousands of coins?",
+      "question_hi": "राजस्थान के किस प्राचीन पुरातात्विक स्थल को हजारों सिक्कों की खोज के कारण ऐतिहासिक रूप से 'प्राचीन भारत का टाटा नगर' कहा जाता है?",
+      "options_en": {
+        "A": "Naliyasar",
+        "B": "Raidh",
+        "C": "Bairath",
+        "D": "Sunari"
+      },
+      "options_hi": {
+        "A": "नलियासर",
+        "B": "रैढ़",
+        "C": "बैराठ",
+        "D": "सुनारी"
+      },
+      "correct_option": "B",
+      "explanation_en": "Raidh in Jaipur (Tonk border area) was excavated by K.N. Puri. It is referred to as the 'Tata Nagar of ancient India' because it yielded thousands of Malav, Mitra, and Appolodotus coins, along with a Mother Goddess figurine.",
+      "explanation_hi": "जयपुर (टोंक सीमा क्षेत्र) में स्थित रैढ़ का उत्खनन के.एन. पुरी द्वारा किया गया था। इसे 'प्राचीन भारत का टाटा नगर' कहा जाता है क्योंकि यहाँ से हजारों मालव, मित्र और अपोलोडोटस के सिक्के और एक मातृदेवी की मूर्ति मिली थी।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the survey and name of Kalibangan:\n1. The name 'Kalibangan' literally translates to 'Black Bangles' due to the discovery of black terracotta bangles.\n2. The Ghaggar River, on whose banks it is located, was identified as the ancient Sarasvati River by Aurel Stein.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा के सर्वेक्षण और नाम के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. कालीबंगा नाम का शाब्दिक अर्थ 'काली चूड़ियाँ' है, जो यहाँ से काली मिट्टी (टेराकोटा) की चूड़ियों की खोज के कारण पड़ा।\n2. घग्गर नदी, जिसके तट पर यह स्थित है, की पहचान ऑरेल स्टीन द्वारा प्राचीन सरस्वती नदी के रूप में की गई थी।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Kalibangan is named after the black terracotta bangles found there. The seasonal Ghaggar River was identified as the course of the ancient sacred Sarasvati River by Aurel Stein in 1917.",
+      "explanation_hi": "दोनों कथन सही हैं। कालीबंगा का नाम वहां मिली काली मिट्टी (टेराकोटा) की चूड़ियों के नाम पर रखा गया है। मौसमी घग्गर नदी की पहचान 1917 में ऑरेल स्टीन द्वारा प्राचीन सरस्वती नदी के मार्ग के रूप में की गई थी।"
+    },
+    {
+      "question_en": "Who among the following archaeologists were associated with the systematic excavation of Kalibangan between 1960 and 1969?",
+      "question_hi": "निम्नलिखित में से कौन से पुरातत्वविद 1960 और 1969 के बीच कालीबंगा के व्यवस्थित उत्खनन से जुड़े थे?",
+      "options_en": {
+        "A": "Amlanand Ghosh and R.C. Agrawal",
+        "B": "B.B. Lal and B.K. Thapar",
+        "C": "H.D. Sankalia and V.N. Mishra",
+        "D": "B.R. Meena and Alok Tripathi"
+      },
+      "options_hi": {
+        "A": "अमलानंद घोष और आर.सी. अग्रवाल",
+        "B": "बी.बी. लाल और बी.के. थापर",
+        "C": "एच.डी. सांकलिया और वी.एन. मिश्र",
+        "D": "बी.आर. मीणा और आलोक त्रिपाठी"
+      },
+      "correct_option": "B",
+      "explanation_en": "While Amlanand Ghosh identified the Harappan phase at Kalibangan in 1952, the systematic excavations from 1960 to 1969 were led by B.B. Lal and B.K. Thapar, along with M.D. Khare, K.M. Shrivastav, and S.P. Jain.",
+      "explanation_hi": "यद्यपि अमलानंद घोष ने 1952 में कालीबंगा में हड़प्पा चरण की पहचान की थी, लेकिन 1960 से 1969 तक व्यवस्थित उत्खनन का नेतृत्व बी.बी. लाल और बी.के. थापर ने किया था, जिनके साथ एम.डी. खरे, के.एम. श्रीवास्तव और एस.पी. जैन भी शामिल थे।"
+    },
+    {
+      "question_en": "With reference to the Ganeshwar archaeological site, consider the following statements:\n1. Over 750 copper fishing hooks have been recovered, indicating fishing was an important activity.\n2. Although contemporary to the Indus Valley Civilization, it represents an independent civilization.\nWhich of the statements given above is/are correct?",
+      "question_hi": "गणेश्वर पुरातात्विक स्थल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. यहाँ से 750 से अधिक तांबे के मछली पकड़ने के कांटे बरामद हुए हैं, जो दर्शाते हैं कि मछली पकड़ना एक महत्वपूर्ण गतिविधि थी।\n2. यद्यपि यह सिंधु घाटी सभ्यता के समकालीन था, फिर भी यह एक स्वतंत्र सभ्यता का प्रतिनिधित्व करता है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Ganeshwar has yielded more than 750 copper fishing hooks, arrow-heads, and chisels. It was a major supplier of copper to the IVC but remained an independent civilization.",
+      "explanation_hi": "दोनों कथन सही हैं। गणेश्वर से 750 से अधिक तांबे के मछली पकड़ने के कांटे, बाणाग्र (arrow-heads) और छेनी प्राप्त हुए हैं। यह सिंधु घाटी सभ्यता को तांबे का प्रमुख आपूर्तिकर्ता था लेकिन यह एक स्वतंत्र सभ्यता बनी रही।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the economic activities and agriculture of the Ahar civilization:\n1. The presence of copper furnaces indicates Ahar was a major copper-smelting center.\n2. The agricultural remains show that Ahar people cultivated rice, wheat, and sorghum (jowar).\nWhich of the statements given above is/are correct?",
+      "question_hi": "आहड़ सभ्यता की आर्थिक गतिविधियों और कृषि के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. तांबे की भट्टियों (ताम्र भट्टियों) की उपस्थिति दर्शाती है कि आहड़ तांबा गलाने का एक प्रमुख केंद्र था।\n2. कृषि अवशेषों से पता चलता है कि आहड़ के लोग चावल, गेहूं और ज्वार (sorghum) की खेती करते थे।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. Multiple copper smelting furnaces have been excavated at Ahar, corroborating its ancient name 'Tambavati' (copper-rich land). Their diet and agriculture included rice, wheat, and sorghum (jowar).",
+      "explanation_hi": "दोनों कथन सही हैं। आहड़ में तांबा गलाने की कई भट्टियां खोजी गई हैं, जो इसके प्राचीन नाम 'ताम्रवती' (तांबे से समृद्ध भूमि) की पुष्टि करती हैं। उनके आहार और कृषि में चावल, गेहूं और ज्वार शामिल थे।"
+    },
+    {
+      "question_en": "With reference to Balathal in Udaipur district, consider the following statements:\n1. It is a Chalcolithic site that demonstrates a clear continuity from the Chalcolithic to the Iron Age.\n2. It has yielded impressions of hand-made cloth, showing evidence of cotton weaving.\nWhich of the statements given above is/are correct?",
+      "question_hi": "उदयपुर जिले के बालाथल के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह एक ताम्रपाषाणिक स्थल है जो ताम्रपाषाण काल से लौह युग तक निरंतरता को प्रदर्शित करता है।\n2. यहाँ से हाथ से बने कपड़े की छाप मिली है, जो सूती बुनाई का साक्ष्य दर्शाती है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Balathal shows continuity from the Chalcolithic to the Iron Age, supported by the presence of early iron furnaces. It also yielded impressions of hand-made cloth, indicating textile weaving.",
+      "explanation_hi": "बालाथल ताम्रपाषाण काल से लौह युग तक की निरंतरता को दर्शाता है, जिसे प्रारंभिक लोहे की भट्टियों की उपस्थिति से समर्थन मिलता है। यहाँ से हाथ से बने कपड़े के निशान भी मिले हैं, जो वस्त्र बुनाई का संकेत देते हैं।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the town planning of Kalibangan:\n1. Both the Citadel (upper mound) and the Lower Town were enclosed by fortification walls.\n2. Unlike Harappa which used primarily baked bricks, Kalibangan used both raw (sun-dried) and decorated bricks for construction.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालीबंगा के नगर नियोजन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. दुर्ग (उच्च टीला) और निचला नगर दोनों ही रक्षा प्राचीर (किलेबंदी की दीवारों) से घिरे हुए थे।\n2. हड़प्पा के विपरीत, जहाँ मुख्य रूप से पकी ईंटों का उपयोग किया जाता था, कालीबंगा में निर्माण के लिए कच्ची (धूप में सुखाई गई) और अलंकृत (सजावटी) दोनों प्रकार की ईंटों का उपयोग किया गया था।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2",
+        "C": "1 और 2 दोनों",
+        "D": "न तो 1 और न ही 2"
+      },
+      "correct_option": "C",
+      "explanation_en": "Both statements are correct. In Kalibangan, both the citadel and lower town were fortified. Unlike Harappan cities that utilized baked bricks extensively, Kalibangan mostly used sun-dried (raw) bricks, along with unique decorated/carved bricks.",
+      "explanation_hi": "दोनों कथन सही हैं। कालीबंगा में, दुर्ग और निचला शहर दोनों ही किलेबंद थे। हड़प्पा के शहरों के विपरीत, जहाँ बड़े पैमाने पर पकी हुई ईंटों का उपयोग किया जाता था, कालीबंगा में ज्यादातर धूप में सुखाई गई (कच्ची) ईंटों का उपयोग किया गया था, साथ ही अनूठी अलंकृत/नक्काशीदार ईंटों का भी उपयोग किया गया था।"
+    },
+    {
+      "question_en": "The discovery of a cylindrical seal at Kalibangan indicates its maritime or overland trade contacts with which ancient civilization?",
+      "question_hi": "कालीबंगा में एक बेलनाकार मुहर (cylindrical seal) की खोज किस प्राचीन सभ्यता के साथ इसके समुद्री या स्थलीय व्यापारिक संपर्कों को दर्शाती है?",
+      "options_en": {
+        "A": "Iranian Civilization",
+        "B": "Mesopotamian Civilization",
+        "C": "Egyptian Civilization",
+        "D": "Greek Civilization"
+      },
+      "options_hi": {
+        "A": "ईरानी सभ्यता",
+        "B": "मेसोपोटामिया की सभ्यता",
+        "C": "मिस्र की सभ्यता",
+        "D": "ग्रीक (यूनानी) सभ्यता"
+      },
+      "correct_option": "B",
+      "explanation_en": "A cylindrical seal, typical of the Mesopotamian civilization, was discovered at Kalibangan, confirming international trade contacts with Western Asia.",
+      "explanation_hi": "मेसोपोटामिया की सभ्यता की एक विशिष्ट बेलनाकार मुहर कालीबंगा में खोजी गई थी, जो पश्चिमी एशिया के साथ अंतर्राष्ट्रीय व्यापारिक संपर्कों की पुष्टि करती है।"
+    },
+    {
+      "question_en": "Who among the following archaeologists was NOT involved in the excavation of the Ahar site?",
+      "question_hi": "निम्नलिखित में से कौन से पुरातत्वविद् आहड़ स्थल के उत्खनन से संबद्ध नहीं थे?",
+      "options_en": {
+        "A": "H.D. Sankalia",
+        "B": "A.K. Vyas",
+        "C": "R.C. Agrawal",
+        "D": "Amlanand Ghosh"
+      },
+      "options_hi": {
+        "A": "एच.डी. सांकलिया",
+        "B": "ए.के. व्यास",
+        "C": "आर.सी. अग्रवाल",
+        "D": "अमलानंद घोष"
+      },
+      "correct_option": "D",
+      "explanation_en": "Amlanand Ghosh is associated with Kalibangan (identifying it in 1952) and the Sothi culture. The excavators of Ahar include A.K. Vyas, R.C. Agrawal, H.D. Sankalia, and V.N. Mishra.",
+      "explanation_hi": "अमलानंद घोष कालीबंगा (1952 में इसकी पहचान करने) और सोथी संस्कृति से जुड़े हैं। आहड़ के उत्खननकर्ताओं में ए.के. व्यास, आर.सी. अग्रवाल, एच.डी. सांकलिया और वी.एन. मिश्र शामिल हैं।"
+    },
+    {
+      "question_en": "What is the unique feature of the drainage system found at Kalibangan that distinguishes it from Mohenjo-daro?",
+      "question_hi": "कालीबंगा में पाई जाने वाली जल निकासी प्रणाली की वह कौन सी अनूठी विशेषता है जो इसे मोहनजोदड़ो से अलग करती है?",
+      "options_en": {
+        "A": "Complete absence of any drains",
+        "B": "Use of underground wooden pipes/drains",
+        "C": "Use of stone-carved aqueducts",
+        "D": "Use of terracotta rings in wells"
+      },
+      "options_hi": {
+        "A": "जल निकासी का पूर्ण अभाव",
+        "B": "भूमिगत लकड़ी के पाइपों/नालियों का उपयोग",
+        "C": "पत्थर से तराशे गए जलमार्गों का उपयोग",
+        "D": "कुओं में टेराкоटा के छल्लों का उपयोग"
+      },
+      "correct_option": "B",
+      "explanation_en": "Unlike the brick-built, well-planned drains of Mohenjo-daro and Harappa, Kalibangan had a unique wooden drainage system, where hollowed wooden logs were used as water conduits.",
+      "explanation_hi": "मोहनजोदड़ो और हड़प्पा की ईंटों से बनी सुनियोजित नालियों के विपरीत, कालीबंगा में एक अनूठी लकड़ी की जल निकासी प्रणाली थी, जहाँ खोखले किए गए लकड़ी के लट्ठों का उपयोग पानी के निकास के रूप में किया जाता था।"
+    },
+    {
+      "question_en": "With reference to mortuary practices in Harappan sites, Kalibangan is unique for providing evidence of:",
+      "question_hi": "हड़प्पा स्थलों में शवदाह (अंतिम संस्कार) प्रथाओं के संदर्भ में, कालीबंगा किसके साक्ष्य प्रदान करने के लिए अद्वितीय है?",
+      "options_en": {
+        "A": "Urn burials under house floors",
+        "B": "Couple burial of a man and a woman together",
+        "C": "Sati system inscriptions",
+        "D": "Fractional burials in stone circles"
+      },
+      "options_hi": {
+        "A": "घरों के फर्श के नीचे कलश शवाधान",
+        "B": "एक पुरुष और एक महिला को एक साथ दफनाने (युगल शवाधान)",
+        "C": "सती प्रथा के शिलालेख",
+        "D": "पत्थर के घेरों में आंशिक शवाधान"
+      },
+      "correct_option": "B",
+      "explanation_en": "Kalibangan is famous for providing evidence of a couple burial (a man and a woman buried together in a single grave), which represents a unique mortuary practice of the Harappan civilization.",
+      "explanation_hi": "कालीबंगा एक युगल शवाधान (एक पुरुष और एक महिला को एक ही कब्र में एक साथ दफनाने) के साक्ष्य प्रदान करने के लिए प्रसिद्ध है, जो हड़प्पा सभ्यता की एक अनूठी शवदाह प्रथा का प्रतिनिधित्व करता है।"
+    },
+    {
+      "question_en": "The unique terracotta figurines known as 'Banasian Bull' are associated with which of the following Chalcolithic cultures of Rajasthan?",
+      "question_hi": "'बनासियन बुल' के रूप में जानी जाने वाली अनूठी मिट्टी की मूर्तियाँ (टेराकोटा मूर्तियाँ) राजस्थान की निम्नलिखित में से किस ताम्रपाषाणिक संस्कृति से संबंधित हैं?",
+      "options_en": {
+        "A": "Ganeshwar Culture",
+        "B": "Ahar Culture",
+        "C": "Sothi Culture",
+        "D": "Sunari Culture"
+      },
+      "options_hi": {
+        "A": "गणेश्वर संस्कृति",
+        "B": "आहड़ संस्कृति",
+        "C": "सोथी संस्कृति",
+        "D": "सुनारी संस्कृति"
+      },
+      "correct_option": "B",
+      "explanation_en": "The distinct terracotta figurines of bulls, referred to as 'Banasian Bulls', are a hallmark artifact of the Ahar culture (also known as the Banas culture) in Rajasthan.",
+      "explanation_hi": "बैलों की विशिष्ट मिट्टी (टेराकोटा) की मूर्तियाँ, जिन्हें 'बनासियन बुल्स' कहा जाता है, राजस्थान में आहड़ संस्कृति (जिसे बनास संस्कृति भी कहा जाता है) की एक पहचान हैं।"
+    }
+  ]
+}
