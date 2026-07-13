@@ -471,6 +471,13 @@ console.log("All SQLite tables verified successfully.");
         }
         console.log("Seeded Ancient Indian History sub-topics for Pre and Mains (both EN and HI).");
 
+        // Upgrade topic names to align with the complete 2026 syllabus subtopics
+        const updatedTopicNames = require('./updated_topic_names');
+        for (const [topicId, topicName] of Object.entries(updatedTopicNames)) {
+            await run("UPDATE topics SET topic_name = ? WHERE topic_id = ?", [topicName, parseInt(topicId)]);
+        }
+        console.log("Successfully updated RPSC RAS topic names to match the 2026 syllabus.");
+
         // Clean up any existing placeholder/fake questions safely on startup
         await run("DELETE FROM questions WHERE question_text LIKE 'Practice MCQ Question for%'");
         await run("DELETE FROM questions WHERE question_text LIKE 'सब-टॉपिक:%के लिए अभ्यास प्रश्न'");
