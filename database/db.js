@@ -231,6 +231,11 @@ async function initDatabase() {
             // Ignore if column already exists
         }
         try {
+            await run("ALTER TABLE mains_questions ADD COLUMN word_limit INTEGER DEFAULT 50;");
+        } catch (e) {
+            // Ignore if column already exists
+        }
+        try {
             await run("ALTER TABLE minute_topics ADD COLUMN language TEXT NOT NULL DEFAULT 'EN';");
         } catch (e) {
             // Ignore if column already exists
