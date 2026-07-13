@@ -799,23 +799,55 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
 });
 
 app.post('/api/admin/inject-pregenerated-questions', async (req, res) => {
-    const topicId = req.body.topicId ? parseInt(req.body.topicId) : 6;
-    const minuteTopicId = req.body.minuteTopicId ? parseInt(req.body.minuteTopicId) : null;
-
     try {
-        console.log(`[Inject] Starting direct injection of pre-generated questions for Topic ID ${topicId}, Subtopic ID ${minuteTopicId || 'None'}...`);
+        console.log(`[Inject] Starting direct injection of pre-generated questions for Integration of Rajasthan...`);
         
         const data = require('./integration_questions_data');
         let insertCount = 0;
 
-        // 1. Ingest Prelims MCQs
+        // 1. Ensure subtopics exist under Topic 6 (Prelims)
+        let preSubEn = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 6 AND language = 'EN' AND minute_topic_name = 'Integration of Rajasthan'");
+        if (!preSubEn) {
+            await db.run("INSERT INTO minute_topics (topic_id, minute_topic_name, language) VALUES (6, 'Integration of Rajasthan', 'EN')");
+            preSubEn = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 6 AND language = 'EN' AND minute_topic_name = 'Integration of Rajasthan'");
+        }
+        
+        let preSubHi = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 6 AND language = 'HI' AND minute_topic_name = 'राजस्थान का एकीकरण'");
+        if (!preSubHi) {
+            await db.run("INSERT INTO minute_topics (topic_id, minute_topic_name, language) VALUES (6, 'राजस्थान का एकीकरण', 'HI')");
+            preSubHi = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 6 AND language = 'HI' AND minute_topic_name = 'राजस्थान का एकीकरण'");
+        }
+
+        const preSubtopicIdEn = preSubEn.minute_topic_id;
+        const preSubtopicIdHi = preSubHi.minute_topic_id;
+
+        // 2. Ensure subtopics exist under Topic 101 (Mains)
+        let mainsSubEn = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 101 AND language = 'EN' AND minute_topic_name = 'Integration of Rajasthan'");
+        if (!mainsSubEn) {
+            await db.run("INSERT INTO minute_topics (topic_id, minute_topic_name, language) VALUES (101, 'Integration of Rajasthan', 'EN')");
+            mainsSubEn = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 101 AND language = 'EN' AND minute_topic_name = 'Integration of Rajasthan'");
+        }
+
+        let mainsSubHi = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 101 AND language = 'HI' AND minute_topic_name = 'राजस्थान का एकीकरण'");
+        if (!mainsSubHi) {
+            await db.run("INSERT INTO minute_topics (topic_id, minute_topic_name, language) VALUES (101, 'राजस्थान का एकीकरण', 'HI')");
+            mainsSubHi = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = 101 AND language = 'HI' AND minute_topic_name = 'राजस्थान का एकीकरण'");
+        }
+
+        const mainsSubtopicIdEn = mainsSubEn.minute_topic_id;
+        const mainsSubtopicIdHi = mainsSubHi.minute_topic_id;
+
+        // 3. Clean up existing questions for these subtopics
+        await db.run("DELETE FROM questions WHERE minute_topic_id IN (?, ?)", [preSubtopicIdEn, preSubtopicIdHi]);
+        await db.run("DELETE FROM mains_questions WHERE minute_topic_id IN (?, ?)", [mainsSubtopicIdEn, mainsSubtopicIdHi]);
+
+        // 4. Ingest Prelims MCQs under Topic 6 (using the respective subtopic IDs)
         for (const item of data.preQuestions) {
             // Insert English MCQ version
             await db.run(`
                 INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (6, ?, ?, ?, ?, ?, ?, ?, ?, 'EN')
             `, [
-                topicId,
                 item.question_en.trim(),
                 item.options_en.A.trim(),
                 item.options_en.B.trim(),
@@ -823,16 +855,14 @@ app.post('/api/admin/inject-pregenerated-questions', async (req, res) => {
                 item.options_en.D.trim(),
                 item.correct_option.trim().toUpperCase(),
                 item.explanation_en.trim(),
-                minuteTopicId || null,
-                'EN'
+                preSubtopicIdEn
             ]);
 
             // Insert Hindi MCQ version
             await db.run(`
                 INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                VALUES (6, ?, ?, ?, ?, ?, ?, ?, ?, 'HI')
             `, [
-                topicId,
                 item.question_hi.trim(),
                 item.options_hi.A.trim(),
                 item.options_hi.B.trim(),
@@ -840,15 +870,14 @@ app.post('/api/admin/inject-pregenerated-questions', async (req, res) => {
                 item.options_hi.D.trim(),
                 item.correct_option.trim().toUpperCase(),
                 item.explanation_hi.trim(),
-                minuteTopicId || null,
-                'HI'
+                preSubtopicIdHi
             ]);
 
             insertCount += 2;
         }
 
-        // 2. Ingest Mains Q&As
-        const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM mains_questions WHERE topic_id = ?", [topicId]);
+        // 5. Ingest Mains Q&As under Topic 101 (using the respective subtopic IDs)
+        const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM mains_questions WHERE topic_id = 101", []);
         let currentSeq = seqResult && seqResult.maxSeq ? seqResult.maxSeq : 0;
 
         for (const item of data.mainsQuestions) {
@@ -857,37 +886,33 @@ app.post('/api/admin/inject-pregenerated-questions', async (req, res) => {
             // Insert English Mains version
             await db.run(`
                 INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id, word_limit)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
+                VALUES (101, ?, ?, 'EN', ?, ?, ?)
             `, [
-                topicId,
                 item.question_en.trim() + ` (Marks: ${item.marks}, Word Limit: ${item.word_limit})`,
                 item.answer_en.trim(),
-                'EN',
                 currentSeq,
-                minuteTopicId || null,
+                mainsSubtopicIdEn,
                 item.word_limit
             ]);
 
             // Insert Hindi Mains version
             await db.run(`
                 INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id, word_limit)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
+                VALUES (101, ?, ?, 'HI', ?, ?, ?)
             `, [
-                topicId,
                 item.question_hi.trim() + ` (अंक: ${item.marks}, शब्द सीमा: ${item.word_limit})`,
                 item.answer_hi.trim(),
-                'HI',
                 currentSeq,
-                minuteTopicId || null,
+                mainsSubtopicIdHi,
                 item.word_limit
             ]);
 
             insertCount += 2;
         }
 
-        console.log(`[Inject] Successfully injected ${insertCount} database rows for Topic ID ${topicId}`);
+        console.log(`[Inject] Successfully injected ${insertCount} database rows for Integration of Rajasthan.`);
         return res.status(200).json({
-            message: `Pregenerated injection successful! Injected 20 MCQs and 10 Mains Q&As (total ${insertCount} database rows).`
+            message: `Pregenerated injection successful! Subtopics created. Injected 20 MCQs and 10 Mains Q&As (total ${insertCount} database rows).`
         });
 
     } catch (err) {
