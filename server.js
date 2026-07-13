@@ -798,6 +798,104 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
     }
 });
 
+app.post('/api/admin/inject-pregenerated-questions', async (req, res) => {
+    const topicId = req.body.topicId ? parseInt(req.body.topicId) : 6;
+    const minuteTopicId = req.body.minuteTopicId ? parseInt(req.body.minuteTopicId) : null;
+
+    try {
+        console.log(`[Inject] Starting direct injection of pre-generated questions for Topic ID ${topicId}, Subtopic ID ${minuteTopicId || 'None'}...`);
+        
+        const data = require('./integration_questions_data');
+        let insertCount = 0;
+
+        // 1. Ingest Prelims MCQs
+        for (const item of data.preQuestions) {
+            // Insert English MCQ version
+            await db.run(`
+                INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            `, [
+                topicId,
+                item.question_en.trim(),
+                item.options_en.A.trim(),
+                item.options_en.B.trim(),
+                item.options_en.C.trim(),
+                item.options_en.D.trim(),
+                item.correct_option.trim().toUpperCase(),
+                item.explanation_en.trim(),
+                minuteTopicId || null,
+                'EN'
+            ]);
+
+            // Insert Hindi MCQ version
+            await db.run(`
+                INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            `, [
+                topicId,
+                item.question_hi.trim(),
+                item.options_hi.A.trim(),
+                item.options_hi.B.trim(),
+                item.options_hi.C.trim(),
+                item.options_hi.D.trim(),
+                item.correct_option.trim().toUpperCase(),
+                item.explanation_hi.trim(),
+                minuteTopicId || null,
+                'HI'
+            ]);
+
+            insertCount += 2;
+        }
+
+        // 2. Ingest Mains Q&As
+        const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM mains_questions WHERE topic_id = ?", [topicId]);
+        let currentSeq = seqResult && seqResult.maxSeq ? seqResult.maxSeq : 0;
+
+        for (const item of data.mainsQuestions) {
+            currentSeq++;
+
+            // Insert English Mains version
+            await db.run(`
+                INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id, word_limit)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            `, [
+                topicId,
+                item.question_en.trim() + ` (Marks: ${item.marks}, Word Limit: ${item.word_limit})`,
+                item.answer_en.trim(),
+                'EN',
+                currentSeq,
+                minuteTopicId || null,
+                item.word_limit
+            ]);
+
+            // Insert Hindi Mains version
+            await db.run(`
+                INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id, word_limit)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            `, [
+                topicId,
+                item.question_hi.trim() + ` (अंक: ${item.marks}, शब्द सीमा: ${item.word_limit})`,
+                item.answer_hi.trim(),
+                'HI',
+                currentSeq,
+                minuteTopicId || null,
+                item.word_limit
+            ]);
+
+            insertCount += 2;
+        }
+
+        console.log(`[Inject] Successfully injected ${insertCount} database rows for Topic ID ${topicId}`);
+        return res.status(200).json({
+            message: `Pregenerated injection successful! Injected 20 MCQs and 10 Mains Q&As (total ${insertCount} database rows).`
+        });
+
+    } catch (err) {
+        console.error("[Inject Error] Failed:", err);
+        return res.status(500).json({ error: "Failed to inject questions: " + err.message });
+    }
+});
+
 
 
 // --- GET Mains Questions sequential portal (Gated) ---
