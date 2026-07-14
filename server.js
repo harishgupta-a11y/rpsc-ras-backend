@@ -1133,7 +1133,8 @@ function convertHtmlToTextWithListNumbering(html) {
 function cleanFieldText(text) {
     if (!text) return "";
     let clean = text.trim();
-    // Remove trailing double asterisks if they were captured from the next bold trigger
+    
+    // 1. Remove trailing double asterisks if they were captured from the next bold trigger
     if (clean.endsWith('**')) {
         clean = clean.slice(0, -2).trim();
     }
@@ -1141,6 +1142,30 @@ function cleanFieldText(text) {
     if (clean.startsWith('**') && !clean.endsWith('**') && (clean.match(/\*\*/g) || []).length === 1) {
         clean = clean.slice(2).trim();
     }
+
+    // 2. Remove leading question number prefixes (e.g. Q. 1, Q1, Q. 1), Question 1:, 1., प्र. 1, प्रश्न 1:)
+    // Handles various delimiters like dot, closing bracket, colon, dash.
+    // Order matters: प्रश्न must come before प्र to prevent matching only the first character.
+    clean = clean.replace(/^\s*(?:Q\s*\.?\s*\d*\s*[\)\.:\-]?|Question\s*\d*\s*[\)\.:\-]?|प्रश्न\s*\d*\s*[\)\.:\-]?|प्र\s*\.?\s*\d*\s*[\)\.:\-]?|\d+\s*[\)\.:\-]+)\s*/i, '');
+
+    // 3. Remove option letter prefixes (e.g. A) content, B. content -> content)
+    clean = clean.replace(/^\s*[A-D]\s*[\)\.:\-]+\s*/i, '');
+
+    // 4. Remove citation brackets and page references (e.g. (p. 12), (pp. 4-5), [1], [Ref: Page 4], (Ref: 12))
+    clean = clean.replace(/[\(\[]\s*(?:pp?\.?\s*\d+(?:\s*-\s*\d+)?|Ref\s*:\s*[^\)\]]*|Page\s*\d+|[0-9]+)\s*[\)\]]/gi, '');
+
+    // 5. Remove common conversational boilerplate/wrapper lines
+    clean = clean.replace(/^\s*(?:English\s+Version|Hindi\s+Version|English\s+Translation|Hindi\s+Translation|Explanation\s*:?|व्याख्या\s*:?)\s*$/gim, '');
+
+    // Remove common trailing AI conversational wraps from the end of the text
+    clean = clean.replace(/\s*(?:Let\s+me\s+know\s+if\s+you\s+would\s+like|Hope\s+this\s+helps|Hope\s+these\s+questions|Here\s+is\s+the\s+first|designed\s+according\s+to\s+your|designed\s+to\s+challenge|following\s+the\s+same\s+strict|highly\s+utility|if\s+you\s+need\s+more)[\s\S]*$/i, '');
+
+    // Remove spaces before punctuation marks (e.g. "detail ." -> "detail.")
+    clean = clean.replace(/\s+([\.\?,;])/g, '$1');
+
+    // 6. Remove duplicate double spaces or trailing dots/newlines
+    clean = clean.replace(/\s+/g, ' ').trim();
+
     return clean;
 }
 

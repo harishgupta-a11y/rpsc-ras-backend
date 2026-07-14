@@ -351,22 +351,26 @@ TOPIC: ${topicName}
 
 RULES FOR MAINS QUESTIONS:
 1. Generate descriptive questions of 5 Marks and 10 Marks categories in equal numbers.
-2. For every question, generate exactly the same question and model answer in both English and Hindi.
+2. For every question, you MUST append the marks and words suffix to the question text itself.
+   - For 5 Marks questions: Append " (5 Marks, 50 Words)" to question_en, and " (5 अंक, 50 शब्द)" to question_hi.
+   - For 10 Marks questions: Append " (10 Marks, 150 Words)" to question_en, and " (10 अंक, 150 शब्द)" to question_hi.
 3. Every model answer must follow the universal Introduction-Body-Conclusion (IBC) formula:
    - For 5-Mark Questions (50 Words Limit, write around 60-65 words):
      - Focus on 1-2 core points.
      - 1-2 lines of introduction (go straight to the core theme, skip general background).
-     - 1-2 main points in body.
+     - 1-2 main points in body (written entirely in paragraphs, do NOT use bullet points).
      - Include exactly 1 core example or definition.
      - No diagrams or data.
      - 1 punchy conclusion sentence.
    - For 10-Mark Questions (150 Words Limit, write around 165-180 words):
      - Focus on broader dimensions requiring sub-headings and bullet points.
      - 3-4 lines of introduction (establish context, give a fact, or cite a constitutional article).
-     - 4-6 body points exploring multiple angles (e.g. social, economic, political).
+     - 4-6 body points exploring multiple angles (e.g. social, economic, political) represented as bullet points.
+     - Make sure every bullet point's title/heading is strictly written in bold words (e.g., "- **Faunal Remains**: ...").
      - Include 2-3 real-life examples, data, or committee recommendations.
      - 2-3 sentences of conclusion (forward-looking solution, policy suggestion, or "way forward").
-4. Crucial Presentation Rules:
+4. CRITICAL RULES FOR MODEL ANSWERS (DO NOT VIOLATE):
+   - Do NOT use the words or headers "Introduction", "Body", "Conclusion", "प्रस्तावना", "निष्कर्ष", "मुख्य भाग", "भूमिका" anywhere in the answer. Simply structure the answer into paragraphs and bullet points directly.
    - Do NOT use ASCII lines or text diagrams.
    - Display all classification data in a clean Markdown table.
    - Do NOT include question number prefixes in the question text (e.g. no "Q. 1", "Q1.", "प्रश्न 1").
@@ -378,10 +382,10 @@ Output format must strictly conform to this JSON Schema array:
   {
     "marks": 5,
     "word_limit": 50,
-    "question_en": "Descriptive question in English (without prefixes like Q.1)",
-    "question_hi": "मुख्य परीक्षा का वर्णनात्मक प्रश्न हिंदी में (बिना किसी उपसर्ग के)",
-    "answer_en": "IBC-structured expert model answer in English (adhering to the target word limit, using bullet points, sub-headings, and Markdown tables as required)",
-    "answer_hi": "IBC-संरचित आदर्श मॉडल उत्तर हिंदी में (लक्षित शब्द सीमा का पालन करते हुए, बिंदु, उप-शीर्षक और मार्कडाउन तालिकाओं का उपयोग करके)"
+    "question_en": "Descriptive question in English ending with suffix ' (5 Marks, 50 Words)'",
+    "question_hi": "मुख्य परीक्षा का वर्णनात्मक प्रश्न हिंदी में जो ' (5 अंक, 50 शब्द)' के साथ समाप्त हो",
+    "answer_en": "Expert model answer in English (adhering to word limits, bolding bullet headers, and omitting Introduction/Body labels)",
+    "answer_hi": "आदर्श मॉडल उत्तर हिंदी में (शब्द सीमा का पालन करते हुए, बुलेट हेडर को बोल्ड करते हुए और प्रस्तावना/निष्कर्ष लेबल को छोड़ते हुए)"
   }
 ]`;
 
