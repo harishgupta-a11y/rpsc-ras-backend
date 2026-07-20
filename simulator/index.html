@@ -617,14 +617,29 @@
               </div>
 
               <div class="input-group" style="margin-bottom: 8px;">
-                <label for="note-topic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Link to Topic (optional)</label>
+                <label for="note-tier-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Tier</label>
+                <select id="note-tier-select" onchange="onNoteTierChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="PRE">Prelims (PRE)</option>
+                  <option value="MAINS">Mains (MAINS)</option>
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 8px;">
+                <label for="note-subject-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Subject</label>
+                <select id="note-subject-select" onchange="onNoteSubjectChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="">-- Select Subject --</option>
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 8px;">
+                <label for="note-topic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Topic (optional)</label>
                 <select id="note-topic-select" onchange="onNoteTopicChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
                   <option value="">-- General / No specific topic --</option>
                 </select>
               </div>
 
               <div class="input-group" style="margin-bottom: 8px;">
-                <label for="note-subtopic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Link to Sub-topic (optional)</label>
+                <label for="note-subtopic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Select Sub-topic (optional)</label>
                 <select id="note-subtopic-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
                   <option value="">-- Select sub-topic --</option>
                 </select>

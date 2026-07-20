@@ -1106,31 +1106,13 @@ async function loadAdminPortal() {
       await populateIngestTopics();
       loadUploadedFilesHistory();
       loadRevisionNotesList();
-      populateNoteTopics();
+      populateNoteSubjects();
       onManagerSourceChange();
     }
   } catch (err) {
     logAdmin(`[Error] Stats fetch failed: ${err.message}`);
   }
 }
-
-async function populateNoteTopics() {
-  const select = document.getElementById('note-topic-select');
-  if (!select) return;
-  try {
-    const res = await fetch(`${API_BASE}/topics`);
-    const data = await res.json();
-    const topics = data.topics || [];
-    select.innerHTML = '<option value="">-- General / No specific topic --</option>';
-    topics.forEach(t => {
-      const opt = document.createElement('option');
-      opt.value = t.id;
-      opt.textContent = t.name;
-      select.appendChild(opt);
-    });
-  } catch (e) { /* ignore */ }
-}
-
 
 async function loadUploadedFilesHistory() {
   const container = document.getElementById('uploaded-files-list');
@@ -3796,4 +3778,185 @@ async function uploadMainsSubtopicFromGDoc() {
   } catch (e) { alert('GDoc import failed: ' + e.message); }
 }
 
+// ============================================================
+// --- Revision Notes Manager Handlers (Hierarchical Flow)
+// ============================================================
 
+let notesSyllabusCache = { PRE: [], MAINS: [] };
+
+async function onNoteTierChange() {
+  const tier = document.getElementById('note-tier-select').value;
+  const subjectSelect = document.getElementById('note-subject-select');
+  const topicSelect = document.getElementById('note-topic-select');
+  const subtopicSelect = document.getElementById('note-subtopic-select');
+
+  subjectSelect.innerHTML = '<option value="">-- Select Subject --</option>';
+  topicSelect.innerHTML = '<option value="">-- General / No specific topic --</option>';
+  subtopicSelect.innerHTML = '<option value="">-- Select sub-topic --</option>';
+
+  const subjects = notesSyllabusCache[tier] || [];
+  subjects.forEach(sub => {
+    const opt = document.createElement('option');
+    opt.value = sub.subject_id;
+    opt.textContent = sub.subject_name;
+    subjectSelect.appendChild(opt);
+  });
+}
+
+async function onNoteSubjectChange() {
+  const tier = document.getElementById('note-tier-select').value;
+  const subjectId = parseInt(document.getElementById('note-subject-select').value);
+  const topicSelect = document.getElementById('note-topic-select');
+  const subtopicSelect = document.getElementById('note-subtopic-select');
+
+  topicSelect.innerHTML = '<option value="">-- General / No specific topic --</option>';
+  subtopicSelect.innerHTML = '<option value="">-- Select sub-topic --</option>';
+
+  if (!subjectId) return;
+
+  const subjects = notesSyllabusCache[tier] || [];
+  const matchedSub = subjects.find(s => s.subject_id === subjectId);
+  if (matchedSub && matchedSub.units) {
+    matchedSub.units.forEach(unit => {
+      if (unit.topics) {
+        unit.topics.forEach(topic => {
+          const opt = document.createElement('option');
+          opt.value = topic.topic_id;
+          opt.textContent = topic.topic_name;
+          topicSelect.appendChild(opt);
+        });
+      }
+    });
+  }
+}
+
+async function onNoteTopicChange() {
+  const topicId = document.getElementById('note-topic-select').value;
+  const subtopicSelect = document.getElementById('note-subtopic-select');
+  subtopicSelect.innerHTML = '<option value="">-- Select sub-topic --</option>';
+  if (!topicId) return;
+
+  try {
+    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${topicId}&language=EN`);
+    const data = await res.json();
+    const items = data.minuteTopics || [];
+    items.forEach(mt => {
+      const opt = document.createElement('option');
+      opt.value = mt.minute_topic_id;
+      opt.textContent = mt.minute_topic_name;
+      subtopicSelect.appendChild(opt);
+    });
+  } catch (e) {
+    console.error("Failed to load sub-topics:", e);
+  }
+}
+
+async function populateNoteSubjects() {
+  try {
+    const mobileHeader = "9876543210";
+    const [resPre, resMains] = await Promise.all([
+      fetch(`${API_BASE}/syllabus?tier=PRE`, { headers: { 'x-user-mobile': mobileHeader } }),
+      fetch(`${API_BASE}/syllabus?tier=MAINS`, { headers: { 'x-user-mobile': mobileHeader } })
+    ]);
+
+    if (resPre.ok) {
+      const data = await resPre.json();
+      notesSyllabusCache.PRE = data.subjects || [];
+    }
+    if (resMains.ok) {
+      const data = await resMains.json();
+      notesSyllabusCache.MAINS = data.subjects || [];
+    }
+
+    onNoteTierChange();
+  } catch (e) {
+    console.error("Failed to populate subjects cache:", e);
+  }
+}
+
+async function uploadRevisionNote() {
+  const title = document.getElementById('note-title').value.trim();
+  const gdocUrl = document.getElementById('note-gdoc-url').value.trim();
+  
+  const tier = document.getElementById('note-tier-select').value;
+  const subjectId = document.getElementById('note-subject-select').value || null;
+  const topicId = document.getElementById('note-topic-select').value || null;
+  const minuteTopicId = document.getElementById('note-subtopic-select').value || null;
+  const language = document.getElementById('note-lang-select').value || 'EN';
+
+  if (!title) return alert('Please enter a title for this revision note.');
+  if (!gdocUrl) return alert('Please paste a Google Doc URL.');
+  if (!subjectId) return alert('Please select a subject.');
+
+  logAdmin(`[RevNote] Importing revision note: "${title}"...`);
+
+  try {
+    const res = await fetch(`${API_BASE}/admin/upload-revision-note-from-gdoc`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ 
+        title, 
+        gdocUrl, 
+        subjectId: parseInt(subjectId), 
+        topicId: topicId ? parseInt(topicId) : null, 
+        minuteTopicId: minuteTopicId ? parseInt(minuteTopicId) : null, 
+        language 
+      })
+    });
+    const data = await res.json();
+    if (res.ok) {
+      logAdmin(`[RevNote Success] ${data.message}`);
+      alert(data.message);
+      document.getElementById('note-title').value = '';
+      document.getElementById('note-gdoc-url').value = '';
+      loadRevisionNotesList();
+    } else {
+      logAdmin(`[RevNote Error] ${data.error}`);
+      alert('Error: ' + data.error);
+    }
+  } catch (e) {
+    alert('Import failed: ' + e.message);
+  }
+}
+
+async function loadRevisionNotesList() {
+  const container = document.getElementById('revision-notes-list');
+  if (!container) return;
+  container.innerHTML = '<span style="color: var(--color-text-muted);">Loading...</span>';
+  try {
+    const res = await fetch(`${API_BASE}/admin/revision-notes`);
+    const data = await res.json();
+    const notes = data.notes || [];
+    if (notes.length === 0) {
+      container.innerHTML = '<span style="color: var(--color-text-muted);">No revision notes added yet.</span>';
+      return;
+    }
+    container.innerHTML = notes.map(n => `
+      <div style="display:flex; justify-content:space-between; align-items:center; background:rgba(255,255,255,0.03); padding:5px 6px; border-radius:4px; border:1px solid rgba(255,255,255,0.06); margin-bottom: 4px;">
+        <div style="flex:1; overflow:hidden;">
+          <div style="font-weight:bold; color:white; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${n.title}</div>
+          <div style="color:var(--color-text-muted); font-size:9px;">ID:${n.note_id} | ${n.language || 'EN'} | Subject:${n.subject_id} | Topic:${n.topic_id || 'General'} | Sub:${n.minute_topic_id || 'Any'}</div>
+        </div>
+        <button onclick="deleteRevisionNote(${n.note_id})" style="background:rgba(239,68,68,0.15); color:#EF4444; border:1px solid rgba(239,68,68,0.3); padding:3px 7px; border-radius:4px; cursor:pointer; font-size:9px; margin-left:6px; white-space:nowrap;">Delete</button>
+      </div>
+    `).join('');
+  } catch (e) {
+    container.innerHTML = '<span style="color:#EF4444;">Failed to load notes: ' + e.message + '</span>';
+  }
+}
+
+async function deleteRevisionNote(noteId) {
+  if (!confirm('Delete this revision note? This cannot be undone.')) return;
+  try {
+    const res = await fetch(`${API_BASE}/admin/revision-note/${noteId}`, { method: 'DELETE' });
+    if (res.ok) {
+      logAdmin(`[RevNote] Deleted note ID ${noteId}`);
+      loadRevisionNotesList();
+    } else {
+      const data = await res.json();
+      alert('Error: ' + data.error);
+    }
+  } catch (e) {
+    alert('Delete failed: ' + e.message);
+  }
+}
