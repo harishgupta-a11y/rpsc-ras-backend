@@ -374,6 +374,29 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
         const totalMarks = (correct * 1.33) - (incorrect * 0.44);
         const roundedScore = Math.round(totalMarks * 100) / 100;
 
+        // Auto-generate descriptive title from first question topic if not provided
+        let attemptTitle = req.body.title || "Practice Quiz";
+        if (!req.body.title && dbQuestions.length > 0) {
+            const firstQ = dbQuestions[0];
+            const topicRow = await db.get("SELECT topic_name FROM topics WHERE topic_id = ?", [firstQ.topic_id]);
+            if (topicRow) {
+                attemptTitle = `Practice: ${topicRow.topic_name}`;
+            }
+        }
+        const timeTakenSeconds = req.body.timeTakenSeconds || 0;
+
+        // Log attempt to global history table
+        await db.saveAttemptRecord(
+            userId,
+            'PRACTICE',
+            attemptTitle,
+            roundedScore,
+            correct,
+            incorrect,
+            dbQuestions.length,
+            timeTakenSeconds
+        );
+
         return res.status(200).json({
             total: dbQuestions.length,
             correct: correct,
@@ -1953,6 +1976,218 @@ app.delete('/api/admin/revision-note/:noteId', async (req, res) => {
         res.status(200).json({ message: "Revision note deleted." });
     } catch (err) {
         res.status(500).json({ error: "Failed to delete revision note: " + err.message });
+    }
+});
+
+// --- Test Series APIs ---
+
+// 1. Fetch test series scheduled exams with attempt statuses
+app.get('/api/test-series/list', async (req, res) => {
+    const userId = parseInt(req.query.userId);
+    if (!userId) return res.status(400).json({ error: "User ID is required." });
+    
+    try {
+        const exams = await db.getTestSeriesExams();
+        const attempts = await db.getAttemptsHistory(userId);
+        
+        const testAttemptsMap = {};
+        attempts.forEach(a => {
+            if (a.attempt_type === 'TEST_SERIES') {
+                testAttemptsMap[a.title] = a;
+            }
+        });
+        
+        const nowSec = Math.floor(Date.now() / 1000);
+        const result = exams.map(e => {
+            const attempt = testAttemptsMap[e.title];
+            return {
+                test_exam_id: e.test_exam_id,
+                title: e.title,
+                description: e.description,
+                test_type: e.test_type,
+                duration_minutes: e.duration_minutes,
+                total_questions: e.total_questions,
+                unlock_timestamp: e.unlock_timestamp,
+                is_unlocked: nowSec >= e.unlock_timestamp,
+                is_attempted: !!attempt,
+                score: attempt ? attempt.score : null,
+                total_correct: attempt ? attempt.total_correct : null,
+                total_incorrect: attempt ? attempt.total_incorrect : null,
+                time_taken_seconds: attempt ? attempt.time_taken_seconds : null,
+                attempted_timestamp: attempt ? attempt.attempted_timestamp : null
+            };
+        });
+        
+        res.status(200).json(result);
+    } catch (err) {
+        res.status(500).json({ error: "Failed to load test series: " + err.message });
+    }
+});
+
+// 2. Fetch questions for a specific test series exam (Security: Omit answers/explanations until submit)
+app.get('/api/test-series/questions', checkSubscription, async (req, res) => {
+    const examId = parseInt(req.query.examId);
+    const language = req.query.language || 'EN';
+    if (!examId) return res.status(400).json({ error: "Exam ID is required." });
+    
+    try {
+        const questions = await db.getOrGenerateExamQuestions(examId, language);
+        
+        const secureQuestions = questions.map(q => {
+            const { correct_option, detailed_explanation, ...rest } = q;
+            return rest;
+        });
+        
+        res.status(200).json({
+            exam_id: examId,
+            question_count: secureQuestions.length,
+            questions: secureQuestions
+        });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to generate exam questions: " + err.message });
+    }
+});
+
+// 3. Submit and grade a test series exam
+app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
+    const { userId, examId, answers, timeTakenSeconds } = req.body;
+    if (!userId || !examId || !answers) {
+        return res.status(400).json({ error: "User ID, Exam ID, and answers are required." });
+    }
+    
+    try {
+        const exam = await db.getTestSeriesExamById(examId);
+        if (!exam) return res.status(404).json({ error: "Exam not found." });
+        
+        let questionIds = [];
+        let answersMap = {};
+        if (Array.isArray(answers)) {
+            questionIds = answers.map(a => Number(a.questionId));
+            answers.forEach(a => {
+                answersMap[a.questionId] = a.choice;
+            });
+        } else {
+            questionIds = Object.keys(answers).map(Number);
+            answersMap = answers;
+        }
+        
+        if (questionIds.length === 0) {
+            return res.status(200).json({
+                total: 0,
+                correct: 0,
+                incorrect: 0,
+                skipped: 0,
+                score: 0.00,
+                details: []
+            });
+        }
+        
+        const placeholders = questionIds.map(() => '?').join(',');
+        const dbQuestions = await db.all(`SELECT * FROM questions WHERE question_id IN (${placeholders})`, questionIds);
+        
+        const dbQuestionsMap = {};
+        for (const q of dbQuestions) {
+            dbQuestionsMap[q.question_id] = q;
+        }
+        
+        let correct = 0;
+        let incorrect = 0;
+        let skipped = 0;
+        const details = [];
+        const timestamp = Date.now();
+        
+        for (const qId of questionIds) {
+            const q = dbQuestionsMap[qId];
+            if (!q) continue;
+            
+            const userChoice = answersMap[qId];
+            await db.saveQuizAttempt(userId, qId, timestamp);
+            
+            if (!userChoice) {
+                skipped++;
+                details.push({
+                    question_id: qId,
+                    question_text: q.question_text,
+                    option_a: q.option_a,
+                    option_b: q.option_b,
+                    option_c: q.option_c,
+                    option_d: q.option_d,
+                    user_answer: null,
+                    correct_answer: q.correct_option,
+                    is_correct: false,
+                    is_skipped: true,
+                    explanation: q.detailed_explanation
+                });
+            } else if (userChoice.toUpperCase() === q.correct_option.toUpperCase()) {
+                correct++;
+                details.push({
+                    question_id: qId,
+                    question_text: q.question_text,
+                    option_a: q.option_a,
+                    option_b: q.option_b,
+                    option_c: q.option_c,
+                    option_d: q.option_d,
+                    user_answer: userChoice,
+                    correct_answer: q.correct_option,
+                    is_correct: true,
+                    is_skipped: false,
+                    explanation: q.detailed_explanation
+                });
+            } else {
+                incorrect++;
+                details.push({
+                    question_id: qId,
+                    question_text: q.question_text,
+                    option_a: q.option_a,
+                    option_b: q.option_b,
+                    option_c: q.option_c,
+                    option_d: q.option_d,
+                    user_answer: userChoice,
+                    correct_answer: q.correct_option,
+                    is_correct: false,
+                    is_skipped: false,
+                    explanation: q.detailed_explanation
+                });
+            }
+        }
+        
+        const totalMarks = (correct * 1.33) - (incorrect * 0.44);
+        const roundedScore = Math.round(totalMarks * 100) / 100;
+        
+        await db.saveAttemptRecord(
+            userId,
+            'TEST_SERIES',
+            exam.title,
+            roundedScore,
+            correct,
+            incorrect,
+            questionIds.length,
+            timeTakenSeconds || 0
+        );
+        
+        res.status(200).json({
+            total: questionIds.length,
+            correct: correct,
+            incorrect: incorrect,
+            skipped: skipped,
+            score: roundedScore,
+            details: details
+        });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to grade exam: " + err.message });
+    }
+});
+
+// 4. Fetch unified attempts history (Practice + Test Series)
+app.get('/api/user/attempts', async (req, res) => {
+    const userId = parseInt(req.query.userId);
+    if (!userId) return res.status(400).json({ error: "User ID is required." });
+    
+    try {
+        const history = await db.getAttemptsHistory(userId);
+        res.status(200).json(history);
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch attempt history: " + err.message });
     }
 });
 

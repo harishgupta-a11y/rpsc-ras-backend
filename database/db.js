@@ -51,6 +51,91 @@ async function all(sql, params = []) {
     }
 }
 
+async function seedTestSeriesSchedule() {
+    const countRow = await get("SELECT COUNT(*) as count FROM test_series_exams");
+    if (countRow && countRow.count > 0) return; // Already seeded
+
+    console.log("Seeding weekly mock Test Series calendar...");
+
+    const startDate = new Date('2026-07-20T00:00:00Z'); // Starts from Monday July 20th
+    const subjectsMap = {
+        1: "History, Art, Culture, Literature & Heritage of Rajasthan",
+        2: "Indian History (Ancient, Medieval & Modern)",
+        3: "Geography of World and India",
+        4: "Geography of Rajasthan",
+        5: "Indian Constitution, Political System & Governance",
+        6: "Political and Administrative System of Rajasthan",
+        7: "Economic Concepts and Indian Economy",
+        8: "Economy of Rajasthan",
+        9: "Science & Technology",
+        10: "Reasoning & Mental Ability",
+        11: "Current Affairs & Issues"
+    };
+
+    for (let w = 1; w <= 20; w++) {
+        // Wednesday (Micro Test 1)
+        const wedDate = new Date(startDate.getTime() + ((w - 1) * 7 + 2) * 24 * 60 * 60 * 1000);
+        wedDate.setUTCHours(10, 0, 0, 0); // 10:00 AM
+        
+        let wedSubId = ((w - 1) * 2 % 11) + 1;
+        let wedSubName = subjectsMap[wedSubId];
+        await run(`
+            INSERT INTO test_series_exams (title, description, test_type, duration_minutes, total_questions, unlock_timestamp, subject_ids)
+            VALUES (?, ?, 'SECTIONAL', 60, 50, ?, ?)
+        `, [
+            `Week ${w} - Micro Test 1: ${wedSubName}`,
+            `50 questions sectional mock test focusing on ${wedSubName}. Attempt this to check your micro targets.`,
+            Math.floor(wedDate.getTime() / 1000),
+            String(wedSubId)
+        ]);
+
+        // Friday (Micro Test 2)
+        const friDate = new Date(startDate.getTime() + ((w - 1) * 7 + 4) * 24 * 60 * 60 * 1000);
+        friDate.setUTCHours(10, 0, 0, 0); // 10:00 AM
+        
+        let friSubId = (((w - 1) * 2 + 1) % 11) + 1;
+        let friSubName = subjectsMap[friSubId];
+        await run(`
+            INSERT INTO test_series_exams (title, description, test_type, duration_minutes, total_questions, unlock_timestamp, subject_ids)
+            VALUES (?, ?, 'SECTIONAL', 60, 50, ?, ?)
+        `, [
+            `Week ${w} - Micro Test 2: ${friSubName}`,
+            `50 questions sectional mock test focusing on ${friSubName}. Attempt this to check your micro targets.`,
+            Math.floor(friDate.getTime() / 1000),
+            String(friSubId)
+        ]);
+
+        // Sunday (Macro Test)
+        const sunDate = new Date(startDate.getTime() + ((w - 1) * 7 + 6) * 24 * 60 * 60 * 1000);
+        sunDate.setUTCHours(10, 0, 0, 0); // 10:00 AM
+
+        if (w <= 10) {
+            // Sunday is cumulative of Wednesday + Friday
+            await run(`
+                INSERT INTO test_series_exams (title, description, test_type, duration_minutes, total_questions, unlock_timestamp, subject_ids)
+                VALUES (?, ?, 'SUBJECT_WISE', 120, 100, ?, ?)
+            `, [
+                `Week ${w} - Sunday Subject Mock: ${wedSubName} + ${friSubName}`,
+                `100 questions cumulative mock test combining this week's Wednesday & Friday topics.`,
+                Math.floor(sunDate.getTime() / 1000),
+                `${wedSubId},${friSubId}`
+            ]);
+        } else {
+            // Sunday is Full Syllabus Mock Test (FST - 150 Qs)
+            await run(`
+                INSERT INTO test_series_exams (title, description, test_type, duration_minutes, total_questions, unlock_timestamp, subject_ids)
+                VALUES (?, ?, 'FST', 180, 150, ?, ?)
+            `, [
+                `Week ${w} - Sunday Mock Exam: Full Syllabus FST-${w-10}`,
+                `150 questions full-length comprehensive mock exam simulating the actual RPSC RAS Prelims paper.`,
+                Math.floor(sunDate.getTime() / 1000),
+                '1,2,3,4,5,6,7,8,9,10,11'
+            ]);
+        }
+    }
+    console.log("Successfully seeded 60 scheduled test series exams (40 Micro and 20 Macro tests).");
+}
+
 // Initialize Database Tables
 async function initDatabase() {
     try {
@@ -214,6 +299,49 @@ async function initDatabase() {
             CREATE TABLE IF NOT EXISTS app_settings (
                 key TEXT PRIMARY KEY,
                 value TEXT
+            );
+        `);
+
+        // 14. Test Series Exams Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS test_series_exams (
+                test_exam_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                title TEXT NOT NULL,
+                description TEXT,
+                test_type TEXT CHECK(test_type IN ('FST', 'SUBJECT_WISE', 'SECTIONAL')) NOT NULL,
+                duration_minutes INTEGER NOT NULL,
+                total_questions INTEGER NOT NULL,
+                unlock_timestamp INTEGER NOT NULL,
+                subject_ids TEXT,
+                topic_ids TEXT
+            );
+        `);
+
+        // 15. Attempts History Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS attempts_history (
+                attempt_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id INTEGER NOT NULL,
+                attempt_type TEXT CHECK(attempt_type IN ('PRACTICE', 'TEST_SERIES')) NOT NULL,
+                title TEXT NOT NULL,
+                score REAL,
+                total_correct INTEGER,
+                total_incorrect INTEGER,
+                total_questions INTEGER,
+                time_taken_seconds INTEGER,
+                attempted_timestamp INTEGER NOT NULL
+            );
+        `);
+        // 16. Test Series Exam Questions (Stable link mapping)
+        await run(`
+            CREATE TABLE IF NOT EXISTS test_series_exam_questions (
+                exam_id INTEGER NOT NULL,
+                question_id INTEGER NOT NULL,
+                sequence_order INTEGER NOT NULL,
+                language TEXT DEFAULT 'EN',
+                PRIMARY KEY (exam_id, question_id, language),
+                FOREIGN KEY (exam_id) REFERENCES test_series_exams(test_exam_id) ON DELETE CASCADE,
+                FOREIGN KEY (question_id) REFERENCES questions(question_id) ON DELETE CASCADE
             );
         `);
 
@@ -1018,6 +1146,9 @@ console.log("All SQLite tables verified successfully.");
         } catch (migErr) {
             console.error("Failed to run Assertion-Reason/Statement migration:", migErr.message);
         }
+
+        // Seed test series weekly mocks schedule
+        await seedTestSeriesSchedule();
 
     } catch (err) {
         console.error("Database initialization error:", err.message);
@@ -1836,7 +1967,103 @@ module.exports = {
         "INSERT INTO revision_notes (title, content, subject_id, topic_id, minute_topic_id, language) VALUES (?, ?, ?, ?, ?, ?)",
         [title, content, subjectId || null, topicId || null, minuteTopicId || null, language || 'EN']
     ),
-    deleteRevisionNote: (noteId) => run("DELETE FROM revision_notes WHERE note_id = ?", [noteId])
+    deleteRevisionNote: (noteId) => run("DELETE FROM revision_notes WHERE note_id = ?", [noteId]),
+
+    // Test Series & Attempts History Helpers
+    getTestSeriesExams: () => all("SELECT * FROM test_series_exams ORDER BY unlock_timestamp ASC"),
+    getTestSeriesExamsByType: (type) => all("SELECT * FROM test_series_exams WHERE test_type = ? ORDER BY unlock_timestamp ASC", [type]),
+    getTestSeriesExamById: (examId) => get("SELECT * FROM test_series_exams WHERE test_exam_id = ?", [examId]),
+    saveAttemptRecord: (userId, attemptType, title, score, totalCorrect, totalIncorrect, totalQuestions, timeTakenSeconds) => run(`
+        INSERT INTO attempts_history (user_id, attempt_type, title, score, total_correct, total_incorrect, total_questions, time_taken_seconds, attempted_timestamp)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `, [userId, attemptType, title, score, totalCorrect, totalIncorrect, totalQuestions, timeTakenSeconds, Date.now()]),
+    getAttemptsHistory: (userId) => all("SELECT * FROM attempts_history WHERE user_id = ? ORDER BY attempted_timestamp DESC", [userId]),
+    getOrGenerateExamQuestions: async (examId, language = 'EN') => {
+        const existing = await all(`
+            SELECT q.*, seq.sequence_order
+            FROM test_series_exam_questions seq
+            JOIN questions q ON seq.question_id = q.question_id
+            WHERE seq.exam_id = ? AND seq.language = ?
+            ORDER BY seq.sequence_order ASC
+        `, [examId, language]);
+
+        if (existing && existing.length > 0) {
+            return existing;
+        }
+
+        const exam = await get("SELECT * FROM test_series_exams WHERE test_exam_id = ?", [examId]);
+        if (!exam) throw new Error("Exam not found");
+
+        const totalQs = exam.total_questions;
+        const subjectIds = exam.subject_ids ? exam.subject_ids.split(',').map(Number) : [];
+
+        let targets = {};
+        if (exam.test_type === 'FST') {
+            targets = {
+                1: 20, 4: 12, 6: 8, 8: 10,
+                2: 15, 3: 15, 5: 12, 7: 13,
+                9: 15, 10: 15, 11: 15
+            };
+        } else {
+            const count = subjectIds.length || 1;
+            const perSub = Math.floor(totalQs / count);
+            let remainder = totalQs % count;
+            subjectIds.forEach(subId => {
+                targets[subId] = perSub + (remainder > 0 ? 1 : 0);
+                remainder--;
+            });
+        }
+
+        let selectedQuestions = [];
+        let deficit = 0;
+
+        for (const [subIdStr, targetCount] of Object.entries(targets)) {
+            const subId = Number(subIdStr);
+            const subQs = await all(`
+                SELECT q.* FROM questions q
+                JOIN topics t ON q.topic_id = t.topic_id
+                JOIN units u ON t.unit_id = u.unit_id
+                WHERE u.subject_id = ? AND q.language = ?
+                ORDER BY RANDOM()
+                LIMIT ?
+            `, [subId, language, targetCount]);
+
+            selectedQuestions.push(...subQs);
+            if (subQs.length < targetCount) {
+                deficit += (targetCount - subQs.length);
+            }
+        }
+
+        if (deficit > 0) {
+            const currentIds = selectedQuestions.map(q => q.question_id);
+            const placeholders = currentIds.length > 0 ? currentIds.map(() => '?').join(',') : '0';
+            
+            const fillQs = await all(`
+                SELECT q.* FROM questions q
+                JOIN topics t ON q.topic_id = t.topic_id
+                JOIN units u ON t.unit_id = u.unit_id
+                WHERE q.language = ? AND q.question_id NOT IN (${placeholders})
+                ORDER BY RANDOM()
+                LIMIT ?
+            `, [language, ...currentIds, deficit]);
+
+            selectedQuestions.push(...fillQs);
+        }
+
+        selectedQuestions.sort(() => Math.random() - 0.5);
+
+        for (let i = 0; i < selectedQuestions.length; i++) {
+            await run(`
+                INSERT OR IGNORE INTO test_series_exam_questions (exam_id, question_id, sequence_order, language)
+                VALUES (?, ?, ?, ?)
+            `, [examId, selectedQuestions[i].question_id, i + 1, language]);
+        }
+
+        return selectedQuestions.map((q, idx) => ({
+            ...q,
+            sequence_order: idx + 1
+        }));
+    }
 };
 
 // Initialize DB immediately
