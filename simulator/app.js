@@ -1105,12 +1105,32 @@ async function loadAdminPortal() {
       loadPyqExamsDropdown();
       await populateIngestTopics();
       loadUploadedFilesHistory();
+      loadRevisionNotesList();
+      populateNoteTopics();
       onManagerSourceChange();
     }
   } catch (err) {
     logAdmin(`[Error] Stats fetch failed: ${err.message}`);
   }
 }
+
+async function populateNoteTopics() {
+  const select = document.getElementById('note-topic-select');
+  if (!select) return;
+  try {
+    const res = await fetch(`${API_BASE}/topics`);
+    const data = await res.json();
+    const topics = data.topics || [];
+    select.innerHTML = '<option value="">-- General / No specific topic --</option>';
+    topics.forEach(t => {
+      const opt = document.createElement('option');
+      opt.value = t.id;
+      opt.textContent = t.name;
+      select.appendChild(opt);
+    });
+  } catch (e) { /* ignore */ }
+}
+
 
 async function loadUploadedFilesHistory() {
   const container = document.getElementById('uploaded-files-list');

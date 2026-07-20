@@ -605,6 +605,59 @@
                 Loading files...
               </div>
             </div>
+
+            <!-- 8. Revision Notes Manager -->
+            <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 1px solid #F59E0B; margin-top: 12px;">
+              <h3 style="font-size: 13px; margin-bottom: 4px; color: #F59E0B;">&#128214; 8. Revision Notes Manager</h3>
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px;">Upload study notes from a Google Doc. Students see these in the Notes tab for each topic.</p>
+
+              <div class="input-group" style="margin-bottom: 8px;">
+                <label for="note-title" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Note Title</label>
+                <input type="text" id="note-title" placeholder="e.g. Harappan Civilisation - Key Facts" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; font-size: 11px; outline: none; box-sizing: border-box;">
+              </div>
+
+              <div class="input-group" style="margin-bottom: 8px;">
+                <label for="note-topic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Link to Topic (optional)</label>
+                <select id="note-topic-select" onchange="onNoteTopicChange()" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="">-- General / No specific topic --</option>
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 8px;">
+                <label for="note-subtopic-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Link to Sub-topic (optional)</label>
+                <select id="note-subtopic-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="">-- Select sub-topic --</option>
+                </select>
+              </div>
+
+              <div class="input-group" style="margin-bottom: 8px;">
+                <label for="note-lang-select" style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">Language Medium</label>
+                <select id="note-lang-select" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 6px; border-radius: var(--radius-sm); width: 100%; outline: none; font-size: 11px;">
+                  <option value="EN">English Medium</option>
+                  <option value="HI">Hindi Medium (&#2361;&#2367;&#2344;&#2381;&#2342;&#2368;)</option>
+                </select>
+              </div>
+
+              <div style="margin-bottom: 10px;">
+                <label style="font-size: 11px; margin-bottom: 4px; display: block; color: var(--color-text-muted);">&#128196; Google Doc Link (share as "Anyone with link - Viewer")</label>
+                <input type="text" id="note-gdoc-url" placeholder="https://docs.google.com/document/d/..." style="background: var(--color-surface-screen); color: white; border: 1px solid rgba(245,158,11,0.5); padding: 6px; border-radius: var(--radius-sm); width: 100%; font-size: 10px; outline: none; box-sizing: border-box;">
+              </div>
+
+              <button onclick="uploadRevisionNote()" style="background: rgba(245,158,11,0.2); border: 1px solid #F59E0B; color: #F59E0B; padding: 8px 14px; border-radius: var(--radius-xs); cursor: pointer; font-size: 11px; font-weight: bold; width: 100%;">
+                &#128229; Import Note from Google Doc
+              </button>
+
+              <div style="margin-top: 14px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                  <h4 style="font-size: 10px; color: white; margin: 0;">Saved Revision Notes</h4>
+                  <button onclick="loadRevisionNotesList()" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 3px 8px; border-radius: var(--radius-xs); cursor: pointer; font-size: 9px;">Refresh</button>
+                </div>
+                <div id="revision-notes-list" style="max-height: 160px; overflow-y: auto; background: #090d16; padding: 6px; border-radius: var(--radius-xs); border: 1px solid rgba(255,255,255,0.05); font-size: 10px; display: flex; flex-direction: column; gap: 5px;">
+                  <span style="color: var(--color-text-muted);">Loading...</span>
+                </div>
+              </div>
+            </div>
+
           </section>
 
           <!-- Screen 5: Quiz Assessment Engine -->
