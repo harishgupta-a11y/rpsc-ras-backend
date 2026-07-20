@@ -2015,24 +2015,28 @@ app.get('/api/revision-notes/topics', checkSubscription, async (req, res) => {
         let query, params;
         if (subjectId) {
             query = `
-                SELECT t.topic_id, t.topic_name, COUNT(rn.note_id) as note_count
+                SELECT t.topic_id, 
+                       CASE WHEN ? = 'HI' THEN COALESCE(t.topic_name_hi, t.topic_name) ELSE t.topic_name END as topic_name, 
+                       COUNT(rn.note_id) as note_count
                 FROM revision_notes rn
                 JOIN topics t ON rn.topic_id = t.topic_id
                 WHERE rn.subject_id = ? AND (rn.language = ? OR rn.language IS NULL)
-                GROUP BY t.topic_id, t.topic_name
+                GROUP BY t.topic_id, t.topic_name, t.topic_name_hi
                 ORDER BY t.topic_id ASC
             `;
-            params = [subjectId, language];
+            params = [language, subjectId, language];
         } else {
             query = `
-                SELECT t.topic_id, t.topic_name, COUNT(rn.note_id) as note_count
+                SELECT t.topic_id, 
+                       CASE WHEN ? = 'HI' THEN COALESCE(t.topic_name_hi, t.topic_name) ELSE t.topic_name END as topic_name, 
+                       COUNT(rn.note_id) as note_count
                 FROM revision_notes rn
                 JOIN topics t ON rn.topic_id = t.topic_id
                 WHERE (rn.language = ? OR rn.language IS NULL)
-                GROUP BY t.topic_id, t.topic_name
+                GROUP BY t.topic_id, t.topic_name, t.topic_name_hi
                 ORDER BY t.topic_id ASC
             `;
-            params = [language];
+            params = [language, language];
         }
         const rows = await db.all(query, params);
         res.status(200).json({ topics: rows || [] });

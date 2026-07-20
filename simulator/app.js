@@ -3836,8 +3836,9 @@ async function onNoteTopicChange() {
   subtopicSelect.innerHTML = '<option value="">-- Select sub-topic --</option>';
   if (!topicId) return;
 
+  const lang = document.getElementById('note-lang-select').value || 'EN';
   try {
-    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${topicId}&language=EN`, {
+    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${topicId}&language=${lang}`, {
       headers: { 'x-user-mobile': '9876543210' }
     });
     const data = await res.json();
