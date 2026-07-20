@@ -3837,7 +3837,9 @@ async function onNoteTopicChange() {
   if (!topicId) return;
 
   try {
-    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${topicId}&language=EN`);
+    const res = await fetch(`${API_BASE}/minute-topics?topic_id=${topicId}&language=EN`, {
+      headers: { 'x-user-mobile': '9876543210' }
+    });
     const data = await res.json();
     const items = data.minuteTopics || [];
     items.forEach(mt => {
