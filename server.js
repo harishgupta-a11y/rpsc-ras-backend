@@ -1721,19 +1721,47 @@ app.post('/api/admin/delete-question', async (req, res) => {
  * URL format: https://docs.google.com/document/d/DOCID/pub
  */
 async function fetchGoogleDocText(gdocUrl) {
-    // If user gives standard edit URL, convert to publish URL
     let fetchUrl = gdocUrl.trim();
+    // Try to extract the Google Doc ID to download it as DOCX directly from Google Drive!
+    const docIdMatch = fetchUrl.match(/\/document\/d\/([a-zA-Z0-9-_]+)/);
+    if (docIdMatch) {
+        try {
+            const docId = docIdMatch[1];
+            const exportUrl = `https://docs.google.com/document/d/${docId}/export?format=docx`;
+            console.log(`[GDoc Export] Attempting to export Google Doc as DOCX: ${exportUrl}`);
+            const response = await axios.get(exportUrl, {
+                responseType: 'arraybuffer',
+                timeout: 30000,
+                maxRedirects: 5
+            });
+            if (response.status === 200) {
+                const result = await mammoth.convertToHtml({
+                    arrayBuffer: Buffer.from(response.data),
+                    convertImage: mammoth.images.inline(async (element) => {
+                        const imageBuffer = await element.read();
+                        return {
+                            src: `data:${element.contentType};base64,${imageBuffer.toString('base64')}`
+                        };
+                    })
+                });
+                console.log(`[GDoc Export] Successfully parsed DOCX using mammoth-plus.`);
+                return convertHtmlToTextWithListNumbering(result.value);
+            }
+        } catch (err) {
+            console.warn(`[GDoc Export Warning] Could not download DOCX directly, falling back to published HTML: ${err.message}`);
+        }
+    }
+
+    // Fallback: Fetch published HTML
     // Convert /edit or /view to /pub for HTML export
     fetchUrl = fetchUrl.replace(/\/(edit|view)(\?.*)?$/, '/pub');
-    // If it's a published link, also try requesting as text/plain via export
-    // Try fetching as published HTML
     const response = await axios.get(fetchUrl, {
         headers: { 'Accept': 'text/html,application/xhtml+xml' },
         timeout: 30000,
         maxRedirects: 5
     });
     if (response.status !== 200) {
-        throw new Error(`Failed to fetch Google Doc. HTTP status: ${response.status}. Make sure the document is published via File → Share → Publish to Web.`);
+        throw new Error(`Failed to fetch Google Doc. HTTP status: ${response.status}. Make sure the document is published/shared.`);
     }
     const html = response.data;
     // Convert using the same HTML pipeline
