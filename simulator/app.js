@@ -3653,4 +3653,127 @@ async function triggerAiGeneration() {
 }
 
 
+// ============================================================
+// --- Google Doc Import Handlers (for all 6 upload sections)
+// ============================================================
+
+async function uploadPreTopicFromGDoc() {
+  const gdocUrl = document.getElementById('admin-pre-topic-gdoc-url').value.trim();
+  const topicId = document.getElementById('admin-pre-topic-select').value;
+  const language = document.getElementById('admin-pre-lang-select').value;
+  if (!gdocUrl) return alert('Please paste a Google Doc URL first.');
+  if (!topicId) return alert('Please select a topic first.');
+  logAdmin(`[GDoc] Importing Pre Topic questions from Google Doc for Topic ID ${topicId} (${language})...`);
+  try {
+    const res = await fetch(`${API_BASE}/admin/upload-questions-from-gdoc`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ gdocUrl, topicId, language })
+    });
+    const data = await res.json();
+    if (res.ok) { logAdmin(`[GDoc Success] ${data.message}`); alert(data.message); loadAdminPortal(); }
+    else { logAdmin(`[GDoc Error] ${data.error}`); alert('Error: ' + data.error); }
+  } catch (e) { alert('GDoc import failed: ' + e.message); }
+}
+
+async function uploadSubtopicFromGDoc() {
+  const gdocUrl = document.getElementById('admin-subtopic-gdoc-url').value.trim();
+  const minuteTopicId = document.getElementById('admin-subtopic-select').value;
+  const topicId = document.getElementById('admin-subtopic-parent-select').value;
+  const language = document.getElementById('admin-subtopic-lang-select').value;
+  if (!gdocUrl) return alert('Please paste a Google Doc URL first.');
+  if (!minuteTopicId) return alert('Please select a sub-topic first.');
+  logAdmin(`[GDoc] Importing Sub-topic questions from Google Doc for Sub-topic ID ${minuteTopicId} (${language})...`);
+  try {
+    const res = await fetch(`${API_BASE}/admin/upload-questions-from-gdoc`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ gdocUrl, topicId, minuteTopicId, language })
+    });
+    const data = await res.json();
+    if (res.ok) { logAdmin(`[GDoc Success] ${data.message}`); alert(data.message); loadAdminPortal(); }
+    else { logAdmin(`[GDoc Error] ${data.error}`); alert('Error: ' + data.error); }
+  } catch (e) { alert('GDoc import failed: ' + e.message); }
+}
+
+async function uploadPrePyqFromGDoc() {
+  const gdocUrl = document.getElementById('admin-pyq-pre-gdoc-url').value.trim();
+  const examId = document.getElementById('admin-pyq-pre-select').value;
+  const language = document.getElementById('admin-pyq-pre-lang-select').value;
+  if (!gdocUrl) return alert('Please paste a Google Doc URL first.');
+  if (!examId) return alert('Please select a Prelims exam first.');
+  logAdmin(`[GDoc] Importing Prelims PYQs from Google Doc for Exam ID ${examId} (${language})...`);
+  try {
+    const res = await fetch(`${API_BASE}/admin/upload-questions-from-gdoc`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ gdocUrl, examId, language })
+    });
+    const data = await res.json();
+    if (res.ok) { logAdmin(`[GDoc Success] ${data.message}`); alert(data.message); loadAdminPortal(); }
+    else { logAdmin(`[GDoc Error] ${data.error}`); alert('Error: ' + data.error); }
+  } catch (e) { alert('GDoc import failed: ' + e.message); }
+}
+
+async function uploadMainsPyqFromGDoc() {
+  const gdocUrl = document.getElementById('admin-pyq-mains-gdoc-url').value.trim();
+  const examId = document.getElementById('admin-pyq-mains-select').value;
+  const language = document.getElementById('admin-pyq-mains-lang-select').value;
+  if (!gdocUrl) return alert('Please paste a Google Doc URL first.');
+  if (!examId) return alert('Please select a Mains exam first.');
+  logAdmin(`[GDoc] Importing Mains PYQs from Google Doc for Exam ID ${examId} (${language})...`);
+  try {
+    const res = await fetch(`${API_BASE}/admin/upload-questions-from-gdoc`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ gdocUrl, examId, language })
+    });
+    const data = await res.json();
+    if (res.ok) { logAdmin(`[GDoc Success] ${data.message}`); alert(data.message); loadAdminPortal(); }
+    else { logAdmin(`[GDoc Error] ${data.error}`); alert('Error: ' + data.error); }
+  } catch (e) { alert('GDoc import failed: ' + e.message); }
+}
+
+async function uploadMainsTopicFromGDoc() {
+  const gdocUrl = document.getElementById('admin-mains-topic-gdoc-url').value.trim();
+  const topicId = document.getElementById('admin-mains-topic-select').value;
+  const language = document.getElementById('admin-mains-lang-select').value;
+  if (!gdocUrl) return alert('Please paste a Google Doc URL first.');
+  if (!topicId) return alert('Please select a Mains topic first.');
+  logAdmin(`[GDoc] Importing Mains Q&A from Google Doc for Topic ID ${topicId} (${language})...`);
+  try {
+    const res = await fetch(`${API_BASE}/admin/upload-questions-from-gdoc`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ gdocUrl, topicId, language })
+    });
+    const data = await res.json();
+    if (res.ok) { logAdmin(`[GDoc Success] ${data.message}`); alert(data.message); loadAdminPortal(); }
+    else { logAdmin(`[GDoc Error] ${data.error}`); alert('Error: ' + data.error); }
+  } catch (e) { alert('GDoc import failed: ' + e.message); }
+}
+
+async function uploadMainsSubtopicFromGDoc() {
+  const gdocUrl = document.getElementById('admin-mains-subtopic-gdoc-url').value.trim();
+  const select = document.getElementById('admin-mains-subtopic-parent-select');
+  const opt = select.options[select.selectedIndex];
+  if (!opt) return alert('Please select a parent Mains topic first.');
+  const topicId = opt.value;
+  const minuteTopicId = document.getElementById('admin-mains-subtopic-select').value;
+  const language = document.getElementById('admin-mains-subtopic-lang-select').value;
+  if (!gdocUrl) return alert('Please paste a Google Doc URL first.');
+  if (!minuteTopicId) return alert('Please select a Mains sub-topic first.');
+  logAdmin(`[GDoc] Importing Mains Sub-topic Q&A from Google Doc for Sub-topic ID ${minuteTopicId} (${language})...`);
+  try {
+    const res = await fetch(`${API_BASE}/admin/upload-questions-from-gdoc`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ gdocUrl, topicId, minuteTopicId, language })
+    });
+    const data = await res.json();
+    if (res.ok) { logAdmin(`[GDoc Success] ${data.message}`); alert(data.message); loadAdminPortal(); }
+    else { logAdmin(`[GDoc Error] ${data.error}`); alert('Error: ' + data.error); }
+  } catch (e) { alert('GDoc import failed: ' + e.message); }
+}
+
 
