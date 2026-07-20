@@ -2007,6 +2007,62 @@ app.get('/api/revision-notes', checkSubscription, async (req, res) => {
     }
 });
 
+// --- Revision Notes: GET topics that have notes (for hierarchical browser) ---
+app.get('/api/revision-notes/topics', checkSubscription, async (req, res) => {
+    const subjectId = req.query.subject_id ? parseInt(req.query.subject_id) : null;
+    const language = req.query.language || 'EN';
+    try {
+        let query, params;
+        if (subjectId) {
+            query = `
+                SELECT t.topic_id, t.topic_name, COUNT(rn.note_id) as note_count
+                FROM revision_notes rn
+                JOIN topics t ON rn.topic_id = t.topic_id
+                WHERE rn.subject_id = ? AND (rn.language = ? OR rn.language IS NULL)
+                GROUP BY t.topic_id, t.topic_name
+                ORDER BY t.topic_id ASC
+            `;
+            params = [subjectId, language];
+        } else {
+            query = `
+                SELECT t.topic_id, t.topic_name, COUNT(rn.note_id) as note_count
+                FROM revision_notes rn
+                JOIN topics t ON rn.topic_id = t.topic_id
+                WHERE (rn.language = ? OR rn.language IS NULL)
+                GROUP BY t.topic_id, t.topic_name
+                ORDER BY t.topic_id ASC
+            `;
+            params = [language];
+        }
+        const rows = await db.all(query, params);
+        res.status(200).json({ topics: rows || [] });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch note topics: " + err.message });
+    }
+});
+
+// --- Revision Notes: GET subtopics under a topic that have notes ---
+app.get('/api/revision-notes/subtopics', checkSubscription, async (req, res) => {
+    const topicId = req.query.topic_id ? parseInt(req.query.topic_id) : null;
+    const language = req.query.language || 'EN';
+    if (!topicId) return res.status(400).json({ error: "topic_id is required." });
+    try {
+        const query = `
+            SELECT mt.minute_topic_id, mt.minute_topic_name as subtopic_name, COUNT(rn.note_id) as note_count
+            FROM revision_notes rn
+            JOIN minute_topics mt ON rn.minute_topic_id = mt.minute_topic_id
+            WHERE rn.topic_id = ? AND (rn.language = ? OR rn.language IS NULL)
+            GROUP BY mt.minute_topic_id, mt.minute_topic_name
+            ORDER BY mt.minute_topic_id ASC
+        `;
+        const rows = await db.all(query, [topicId, language]);
+        res.status(200).json({ subtopics: rows || [] });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch note subtopics: " + err.message });
+    }
+});
+
+
 // --- Revision Notes: GET all (admin-facing) ---
 app.get('/api/admin/revision-notes', async (req, res) => {
     try {
@@ -2033,10 +2089,22 @@ app.post('/api/admin/upload-revision-note-from-gdoc', async (req, res) => {
             return res.status(400).json({ error: "The Google Doc appears to be empty or could not be read." });
         }
 
+        // Resolve subjectId if missing
+        let resolvedSubjectId = subjectId ? parseInt(subjectId) : null;
+        if (!resolvedSubjectId && topicId) {
+            const topicRow = await db.get(
+                "SELECT u.subject_id FROM topics t JOIN units u ON t.unit_id = u.unit_id WHERE t.topic_id = ?",
+                [parseInt(topicId)]
+            );
+            if (topicRow) {
+                resolvedSubjectId = topicRow.subject_id;
+            }
+        }
+
         const result = await db.addRevisionNote(
             title.trim(),
             rawText.trim(),
-            subjectId ? parseInt(subjectId) : null,
+            resolvedSubjectId,
             topicId ? parseInt(topicId) : null,
             minuteTopicId ? parseInt(minuteTopicId) : null,
             language || 'EN'
