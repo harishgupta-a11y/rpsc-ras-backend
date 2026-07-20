@@ -1716,57 +1716,117 @@ app.post('/api/admin/delete-question', async (req, res) => {
 // ======================================================
 
 /**
- * Fetches and converts a Google Doc "Publish to Web" link to plain text.
- * The user must publish their doc via File -> Share -> Publish to Web (Plain Text or Default HTML).
- * URL format: https://docs.google.com/document/d/DOCID/pub
+ * Fetches and converts a Google Doc link to plain text.
+ *
+ * IMPORTANT: The Google Doc must be shared as "Anyone with the link - Viewer"
+ * OR published to web (File → Share → Publish to Web).
+ *
+ * This function tries two strategies in order:
+ *  1. Direct DOCX export via Google Drive export API (best quality, preserves formatting)
+ *  2. Fallback to published HTML export (requires "Publish to Web" to be enabled)
  */
 async function fetchGoogleDocText(gdocUrl) {
     let fetchUrl = gdocUrl.trim();
-    // Try to extract the Google Doc ID to download it as DOCX directly from Google Drive!
+
+    // Extract the Google Doc ID from any standard Google Docs URL format
     const docIdMatch = fetchUrl.match(/\/document\/d\/([a-zA-Z0-9-_]+)/);
-    if (docIdMatch) {
-        try {
-            const docId = docIdMatch[1];
-            const exportUrl = `https://docs.google.com/document/d/${docId}/export?format=docx`;
-            console.log(`[GDoc Export] Attempting to export Google Doc as DOCX: ${exportUrl}`);
-            const response = await axios.get(exportUrl, {
-                responseType: 'arraybuffer',
-                timeout: 30000,
-                maxRedirects: 5
-            });
-            if (response.status === 200) {
-                const result = await mammoth.convertToHtml({
-                    arrayBuffer: Buffer.from(response.data),
-                    convertImage: mammoth.images.inline(async (element) => {
-                        const imageBuffer = await element.read();
-                        return {
-                            src: `data:${element.contentType};base64,${imageBuffer.toString('base64')}`
-                        };
-                    })
-                });
-                console.log(`[GDoc Export] Successfully parsed DOCX using mammoth-plus.`);
-                return convertHtmlToTextWithListNumbering(result.value);
-            }
-        } catch (err) {
-            console.warn(`[GDoc Export Warning] Could not download DOCX directly, falling back to published HTML: ${err.message}`);
-        }
+    if (!docIdMatch) {
+        throw new Error(
+            'Invalid Google Doc URL. Please paste the full link from your browser address bar, e.g. https://docs.google.com/document/d/DOCID/edit'
+        );
     }
 
-    // Fallback: Fetch published HTML
-    // Convert /edit or /view to /pub for HTML export
-    fetchUrl = fetchUrl.replace(/\/(edit|view)(\?.*)?$/, '/pub');
-    const response = await axios.get(fetchUrl, {
-        headers: { 'Accept': 'text/html,application/xhtml+xml' },
-        timeout: 30000,
-        maxRedirects: 5
-    });
-    if (response.status !== 200) {
-        throw new Error(`Failed to fetch Google Doc. HTTP status: ${response.status}. Make sure the document is published/shared.`);
+    const docId = docIdMatch[1];
+
+    // --- Strategy 1: Export as DOCX (requires doc shared as "Anyone with the link - Viewer") ---
+    try {
+        const exportUrl = `https://docs.google.com/document/d/${docId}/export?format=docx`;
+        console.log(`[GDoc Export] Attempting DOCX export: ${exportUrl}`);
+        const response = await axios.get(exportUrl, {
+            responseType: 'arraybuffer',
+            timeout: 30000,
+            maxRedirects: 10,
+            validateStatus: (status) => status < 500  // Don't throw on 4xx, handle them below
+        });
+
+        if (response.status === 401 || response.status === 403) {
+            // Document is private — throw a clear, actionable error immediately
+            throw new Error(
+                `ACCESS DENIED (${response.status}): Your Google Doc is private. ` +
+                `To fix this:\n` +
+                `1. Open your Google Doc\n` +
+                `2. Click "Share" (top right)\n` +
+                `3. Under "General access", change to "Anyone with the link"\n` +
+                `4. Set permission to "Viewer"\n` +
+                `5. Click "Done" and try again.`
+            );
+        }
+
+        if (response.status === 200) {
+            const result = await mammoth.convertToHtml({
+                arrayBuffer: Buffer.from(response.data),
+                convertImage: mammoth.images.inline(async (element) => {
+                    const imageBuffer = await element.read();
+                    return {
+                        src: `data:${element.contentType};base64,${imageBuffer.toString('base64')}`
+                    };
+                })
+            });
+            console.log(`[GDoc Export] Successfully parsed DOCX via mammoth.`);
+            return convertHtmlToTextWithListNumbering(result.value);
+        }
+
+        console.warn(`[GDoc Export] Unexpected status ${response.status}, trying HTML fallback...`);
+    } catch (err) {
+        // Re-throw the actionable ACCESS DENIED error immediately — don't fall through
+        if (err.message && err.message.startsWith('ACCESS DENIED')) {
+            throw err;
+        }
+        console.warn(`[GDoc Export Warning] DOCX export failed (${err.message}), trying published HTML fallback...`);
     }
-    const html = response.data;
-    // Convert using the same HTML pipeline
-    return convertHtmlToTextWithListNumbering(html);
+
+    // --- Strategy 2: Published HTML export (requires File → Share → Publish to Web) ---
+    try {
+        const pubUrl = `https://docs.google.com/document/d/${docId}/pub`;
+        console.log(`[GDoc Export] Trying published HTML export: ${pubUrl}`);
+        const response = await axios.get(pubUrl, {
+            headers: { 'Accept': 'text/html,application/xhtml+xml' },
+            timeout: 30000,
+            maxRedirects: 10,
+            validateStatus: (status) => status < 500
+        });
+
+        if (response.status === 401 || response.status === 403 || response.status === 404) {
+            throw new Error(
+                `ACCESS DENIED (${response.status}): Your Google Doc is private or not published. ` +
+                `To fix this, do ONE of the following:\n\n` +
+                `OPTION A (Recommended - Share with link):\n` +
+                `  1. Open your Google Doc\n` +
+                `  2. Click "Share" (top right corner)\n` +
+                `  3. Under "General access", select "Anyone with the link"\n` +
+                `  4. Set permission to "Viewer" and click "Done"\n\n` +
+                `OPTION B (Publish to Web):\n` +
+                `  1. Open your Google Doc\n` +
+                `  2. Go to File → Share → Publish to Web\n` +
+                `  3. Click "Publish"\n` +
+                `  4. Copy the published link and paste it here`
+            );
+        }
+
+        if (response.status === 200) {
+            console.log(`[GDoc Export] Successfully fetched published HTML.`);
+            return convertHtmlToTextWithListNumbering(response.data);
+        }
+
+        throw new Error(`Failed to fetch Google Doc. HTTP status: ${response.status}.`);
+    } catch (err) {
+        if (err.message && (err.message.startsWith('ACCESS DENIED') || err.message.startsWith('Failed'))) {
+            throw err;
+        }
+        throw new Error(`Network error fetching Google Doc: ${err.message}. Make sure the server has internet access.`);
+    }
 }
+
 
 // --- Admin Route: Upload MCQ questions from Google Doc link ---
 app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
