@@ -2,11 +2,13 @@
 const express = require('express');
 const cors = require('cors');
 const multer = require('multer');
-const mammoth = require('mammoth');
+const mammoth = require('mammoth-plus');
+const { MathMLToLaTeX } = require('mathml-to-latex');
 const { Document, Packer, Paragraph, TextRun } = require('docx');
 const db = require('./database/db');
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios');
 
 
 const app = express();
@@ -551,7 +553,7 @@ app.post('/api/admin/upload-mains-questions', upload.single('questionsFile'), as
         
         if (originalName.toLowerCase().endsWith('.docx')) {
             const result = await mammoth.convertToHtml({ 
-                buffer: req.file.buffer,
+                arrayBuffer: req.file.buffer,
                 convertImage: mammoth.images.inline(async (element) => {
                     const imageBuffer = await element.read();
                     return {
@@ -688,8 +690,14 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
             // 3. Remove citation brackets and page references (e.g. (p. 12), (pp. 4-5), [1], [Ref: Page 4], (Ref: 12))
             cleaned = cleaned.replace(/[\(\[]\s*(?:pp?\.?\s*\d+(?:\s*-\s*\d+)?|Ref\s*:\s*[^\)\]]*|Page\s*\d+|[0-9]+)\s*[\)\]]/gi, '');
             
-            // 4. Remove duplicate/trailing dots or extra double spaces
-            cleaned = cleaned.replace(/\s+/g, ' ').replace(/\*\*+/g, '').replace(/\*+/g, '').trim();
+            // 4. Collapse spaces and preserve newlines (do not strip bold/italic asterisks)
+            cleaned = cleaned
+                .replace(/[ \t]+/g, ' ')
+                .replace(/[ \t]+([\.\?,;])/g, '$1')
+                .replace(/[ \t]+$/gm, '')
+                .replace(/\r\n/g, '\n')
+                .replace(/\n{3,}/g, '\n\n')
+                .trim();
             
             return cleaned;
         };
@@ -697,9 +705,38 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
         let insertCount = 0;
 
         if (tier === 'PRE') {
-            // Generate requested MCQs
-            const mcqs = await aiEngine.generateMCQsFromNotes(pdfText, topicName, count);
+            // First, split the notes into concepts
+            console.log(`[AI Gen] Splitting notes into concepts for topic: ${topicName}`);
+            const concepts = await aiEngine.splitNotesIntoConcepts(pdfText, topicName);
+            console.log(`[AI Gen] Segments identified: ${concepts.length}. Allocating questions...`);
             
+            const mcqs = [];
+            for (let i = 0; i < concepts.length; i++) {
+                const sub = concepts[i];
+                let conceptCount = Math.round(count * (sub.weight / 100));
+                if (conceptCount === 0) conceptCount = 1;
+                
+                // Adjust for the last concept to match exact requested count
+                if (i === concepts.length - 1) {
+                    const currentTotal = mcqs.length;
+                    if (currentTotal + conceptCount !== count) {
+                        conceptCount = Math.max(1, count - currentTotal);
+                    }
+                }
+                
+                console.log(`[AI Gen] Generating ${conceptCount} MCQs for sub-concept: "${sub.title}"`);
+                try {
+                    const batch = await aiEngine.generateMCQsFromNotes(pdfText, topicName, sub, conceptCount);
+                    mcqs.push(...batch);
+                } catch (batchErr) {
+                    console.error(`[AI Gen] Batch generation failed for sub-concept "${sub.title}":`, batchErr.message);
+                }
+            }
+
+            if (mcqs.length === 0) {
+                throw new Error("Failed to generate any MCQs across all sub-concepts.");
+            }
+
             for (const item of mcqs) {
                 // Insert English MCQ version
                 await db.run(`
@@ -735,7 +772,7 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                     'HI'
                 ]);
 
-                insertCount += 2; // Incremented by 2 because we seed EN and HI questions
+                insertCount += 2;
             }
 
             console.log(`[AI Gen] Successfully generated and seeded ${insertCount} Prelims MCQs for Topic ID ${topicId}`);
@@ -744,16 +781,54 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
             });
 
         } else if (tier === 'MAINS') {
-            // Generate requested Mains questions (IBC structured)
-            const mainsQAs = await aiEngine.generateMainsFromNotes(pdfText, topicName, count);
+            // First, split notes into concepts
+            console.log(`[AI Gen] Splitting notes into concepts for topic: ${topicName}`);
+            const concepts = await aiEngine.splitNotesIntoConcepts(pdfText, topicName);
+            console.log(`[AI Gen] Segments identified: ${concepts.length}. Allocating questions...`);
+
+            const mainsQAs = [];
+            for (let i = 0; i < concepts.length; i++) {
+                const sub = concepts[i];
+                let conceptCount = Math.round(count * (sub.weight / 100));
+                if (conceptCount === 0) conceptCount = 1;
+                
+                // Adjust for the last concept to match exact requested count
+                if (i === concepts.length - 1) {
+                    const currentTotal = mainsQAs.length;
+                    if (currentTotal + conceptCount !== count) {
+                        conceptCount = Math.max(1, count - currentTotal);
+                    }
+                }
+                
+                console.log(`[AI Gen] Generating ${conceptCount} Mains QAs for sub-concept: "${sub.title}"`);
+                try {
+                    const batch = await aiEngine.generateMainsFromNotes(pdfText, topicName, sub, conceptCount);
+                    mainsQAs.push(...batch);
+                } catch (batchErr) {
+                    console.error(`[AI Gen] Batch generation failed for sub-concept "${sub.title}":`, batchErr.message);
+                }
+            }
+
+            if (mainsQAs.length === 0) {
+                throw new Error("Failed to generate any Mains questions across all sub-concepts.");
+            }
 
             // Get current sequence_order for mains
             const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM mains_questions WHERE topic_id = ?", [topicId]);
             let currentSeq = seqResult && seqResult.maxSeq ? seqResult.maxSeq : 0;
 
             for (const item of mainsQAs) {
-                // Increment sequence order
                 currentSeq++;
+
+                let qTextEn = sanitizeFieldText(item.question_en);
+                if (!qTextEn.includes("Marks") || !qTextEn.includes("Words")) {
+                    qTextEn = `${qTextEn.trim()} (${item.marks || 5} Marks, ${item.word_limit || 50} Words)`;
+                }
+
+                let qTextHi = sanitizeFieldText(item.question_hi);
+                if (!qTextHi.includes("अंक") || !qTextHi.includes("शब्द")) {
+                    qTextHi = `${qTextHi.trim()} (${item.marks || 5} अंक, ${item.word_limit || 50} शब्द)`;
+                }
 
                 // Insert English Mains version
                 await db.run(`
@@ -761,7 +836,7 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                     VALUES (?, ?, ?, ?, ?, ?, ?)
                 `, [
                     topicId,
-                    sanitizeFieldText(item.question_en) + ` (Marks: ${item.marks}, Word Limit: ${item.word_limit})`,
+                    qTextEn,
                     sanitizeFieldText(item.answer_en),
                     'EN',
                     currentSeq,
@@ -775,7 +850,7 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                     VALUES (?, ?, ?, ?, ?, ?, ?)
                 `, [
                     topicId,
-                    sanitizeFieldText(item.question_hi) + ` (अंक: ${item.marks}, शब्द सीमा: ${item.word_limit})`,
+                    qTextHi,
                     sanitizeFieldText(item.answer_hi),
                     'HI',
                     currentSeq,
@@ -783,7 +858,7 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                     item.word_limit
                 ]);
 
-                insertCount += 2; // Incremented by 2 because we seed EN and HI questions
+                insertCount += 2;
             }
 
             console.log(`[AI Gen] Successfully generated and seeded ${insertCount} Mains descriptive questions for Topic ID ${topicId}`);
@@ -1049,9 +1124,35 @@ app.post('/api/admin/clear-mains-questions', async (req, res) => {
     }
 });
 
+function convertMathMLToLaTeX(html) {
+    if (!html) return "";
+    return html.replace(/<math\b[^>]*>([\s\S]*?)<\/math>/gi, (match) => {
+        try {
+            let cleanMath = match
+                .replace(/<(\/?)[a-z]+:math/gi, '<$1math')
+                .replace(/<(\/?)[a-z]+:mrow/gi, '<$1mrow')
+                .replace(/<(\/?)[a-z]+:mfrac/gi, '<$1mfrac')
+                .replace(/<(\/?)[a-z]+:mi/gi, '<$1mi')
+                .replace(/<(\/?)[a-z]+:mo/gi, '<$1mo')
+                .replace(/<(\/?)[a-z]+:mn/gi, '<$1mn')
+                .replace(/<(\/?)[a-z]+:msup/gi, '<$1msup')
+                .replace(/<(\/?)[a-z]+:msub/gi, '<$1msub')
+                .replace(/<(\/?)[a-z]+:msqrt/gi, '<$1msqrt')
+                .replace(/<(\/?)[a-z]+:mroot/gi, '<$1mroot')
+                .replace(/<(\/?)[a-z]+:mtext/gi, '<$1mtext');
+            
+            const latex = MathMLToLaTeX.convert(cleanMath);
+            return `$ ${latex} $`;
+        } catch (err) {
+            console.error("MathML conversion failed for match:", match, err.message);
+            return match;
+        }
+    });
+}
+
 // Helper to convert HTML to text with list numbering preserved
 function convertHtmlToTextWithListNumbering(html) {
-    let processedHtml = html;
+    let processedHtml = convertMathMLToLaTeX(html);
     
     // Convert inline images to safe placeholder strings [IMAGE:data:...]
     // Convert inline images to safe placeholder strings [IMAGE:data:...] without newlines
@@ -1151,8 +1252,8 @@ function cleanFieldText(text) {
     // 3. Remove option letter prefixes (e.g. A) content, B. content -> content)
     clean = clean.replace(/^\s*[A-D]\s*[\)\.:\-]+\s*/i, '');
 
-    // 4. Remove citation brackets and page references (e.g. (p. 12), (pp. 4-5), [1], [Ref: Page 4], (Ref: 12))
-    clean = clean.replace(/[\(\[]\s*(?:pp?\.?\s*\d+(?:\s*-\s*\d+)?|Ref\s*:\s*[^\)\]]*|Page\s*\d+|[0-9]+)\s*[\)\]]/gi, '');
+    // 4. Remove citation brackets and page references (e.g. (p. 12), (pp. 4-5), [Ref: Page 4], (Ref: 12)) but preserve pure numbers in brackets/parentheses like [1] or (2) to avoid breaking math/formula indices and lists.
+    clean = clean.replace(/[\(\[]\s*(?:pp?\.?\s*\d+(?:\s*-\s*\d+)?|Ref\s*:\s*[^\)\]]*|Page\s*\d+)\s*[\)\]]/gi, '');
 
     // 5. Remove common conversational boilerplate/wrapper lines
     clean = clean.replace(/^\s*(?:English\s+Version|Hindi\s+Version|English\s+Translation|Hindi\s+Translation|Explanation\s*:?|व्याख्या\s*:?)\s*$/gim, '');
@@ -1160,11 +1261,23 @@ function cleanFieldText(text) {
     // Remove common trailing AI conversational wraps from the end of the text
     clean = clean.replace(/\s*(?:Let\s+me\s+know\s+if\s+you\s+would\s+like|Hope\s+this\s+helps|Hope\s+these\s+questions|Here\s+is\s+the\s+first|designed\s+according\s+to\s+your|designed\s+to\s+challenge|following\s+the\s+same\s+strict|highly\s+utility|if\s+you\s+need\s+more)[\s\S]*$/i, '');
 
-    // Remove spaces before punctuation marks (e.g. "detail ." -> "detail.")
-    clean = clean.replace(/\s+([\.\?,;])/g, '$1');
+    // Format Assertion-Reason questions: put Reason on a new line with a 1-line gap
+    clean = clean.replace(/\s*(Reason|कारण)\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
+    clean = clean.replace(/\s*(Assertion|कथन)\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
 
-    // 6. Remove duplicate double spaces or trailing dots/newlines
-    clean = clean.replace(/\s+/g, ' ').trim();
+    // Format statement-wise questions: put statements on separate lines with a 1-line gap
+    clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
+    clean = clean.replace(/(?<=\s|^)(\d+)\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
+    clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
+
+    // 6. Collapse spaces and preserve newlines (do not strip bold/italic asterisks)
+    clean = clean
+        .replace(/[ \t]+/g, ' ')
+        .replace(/[ \t]+([\.\?,;])/g, '$1')
+        .replace(/[ \t]+$/gm, '')
+        .replace(/\r\n/g, '\n')
+        .replace(/\n{3,}/g, '\n\n')
+        .trim();
 
     return clean;
 }
@@ -1201,7 +1314,7 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
         if (originalName.toLowerCase().endsWith('.docx')) {
             // Extract HTML from uploaded word file buffer to preserve list numbering
             const result = await mammoth.convertToHtml({ 
-                buffer: req.file.buffer,
+                arrayBuffer: req.file.buffer,
                 convertImage: mammoth.images.inline(async (element) => {
                     const imageBuffer = await element.read();
                     return {
@@ -1309,13 +1422,13 @@ app.post('/api/admin/upload-questions', upload.single('questionsFile'), async (r
         for (const block of blocks) {
             if (!block.trim() || !block.includes("A)")) continue;
 
-            const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?<=^|[\r\n])[ \t]*(?<!\()A\))/);
-            const aMatch = block.match(/(?<=^|[\r\n])[ \t]*(?<!\()A\)([\s\S]*?)(?=(?<=^|[\r\n])[ \t]*(?<!\()B\))/);
-            const bMatch = block.match(/(?<=^|[\r\n])[ \t]*(?<!\()B\)([\s\S]*?)(?=(?<=^|[\r\n])[ \t]*(?<!\()C\))/);
-            const cMatch = block.match(/(?<=^|[\r\n])[ \t]*(?<!\()C\)([\s\S]*?)(?=(?<=^|[\r\n])[ \t]*(?<!\()D\))/);
-            const dMatch = block.match(/(?<=^|[\r\n])[ \t]*(?<!\()D\)([\s\S]*?)(?=(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Cc]orrect|[Aa]nswer|उत्तर|सही उत्तर)\*?\*?):?)/);
-            const correctMatch = block.match(/(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Cc]orrect|[Aa]nswer|उत्तर|सही उत्तर)\*?\*?)[\s*:]+\s*([A-D])(?!\w)/i);
-            const expMatch = block.match(/(?<=^|[\r\n]|\s)(?:\*?\*?(?:[Ee]xplanation|[Ee]xp|व्याख्या|स्पष्टीकरण)\*?\*?)[\s*:]+\s*([\s\S]*?)$/i);
+            const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Aa]\))/);
+            const aMatch = block.match(/(?<=^|\s)(?<!\()[Aa]\)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Bb]\))/);
+            const bMatch = block.match(/(?<=^|\s)(?<!\()[Bb]\)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Cc]\))/);
+            const cMatch = block.match(/(?<=^|\s)(?<!\()[Cc]\)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Dd]\))/);
+            const dMatch = block.match(/(?<=^|\s)(?<!\()[Dd]\)([\s\S]*?)(?=(?:\r?\n[ \t]*(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?<=^|\s)(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?:\r?\n[ \t]*|(?<=^|\s))\*?\*?(?:Correct Answer|Correct Option|Answer Key|सही उत्तर)\*?\*?\s+))/i);
+            const correctMatch = block.match(/(?:\r?\n[ \t]*(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?<=^|\s)(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?:\r?\n[ \t]*|(?<=^|\s))\*?\*?(?:Correct Answer|Correct Option|Answer Key|सही उत्तर)\*?\*?\s+)\s*([A-D])(?!\w|[\)\.])/i);
+            const expMatch = block.match(/(?:\r?\n[ \t]*(?:\*?\*?(?:Explanation|Exp|व्याख्या|स्पष्टीकरण)\*?\*?)\s*[:\-]|(?<=^|\s)(?:\*?\*?(?:Explanation|Exp|व्याख्या|स्पष्टीकरण)\*?\*?)\s*[:\-][\s\S]*?)\s*([\s\S]*?)$/i);
 
             if (qMatch && aMatch && bMatch && correctMatch) {
                 parsedQuestions.push({
@@ -1885,6 +1998,321 @@ app.post('/api/admin/delete-question', async (req, res) => {
         res.status(200).json({ message: "Question deleted successfully." });
     } catch (err) {
         res.status(500).json({ error: "Failed to delete question: " + err.message });
+    }
+});
+
+// ======================================================
+// --- Google Doc Link Ingestion Helper ---
+// ======================================================
+
+/**
+ * Fetches and converts a Google Doc "Publish to Web" link to plain text.
+ * The user must publish their doc via File -> Share -> Publish to Web (Plain Text or Default HTML).
+ * URL format: https://docs.google.com/document/d/DOCID/pub
+ */
+async function fetchGoogleDocText(gdocUrl) {
+    // If user gives standard edit URL, convert to publish URL
+    let fetchUrl = gdocUrl.trim();
+    // Convert /edit or /view to /pub for HTML export
+    fetchUrl = fetchUrl.replace(/\/(edit|view)(\?.*)?$/, '/pub');
+    // If it's a published link, also try requesting as text/plain via export
+    // Try fetching as published HTML
+    const response = await axios.get(fetchUrl, {
+        headers: { 'Accept': 'text/html,application/xhtml+xml' },
+        timeout: 30000,
+        maxRedirects: 5
+    });
+    if (response.status !== 200) {
+        throw new Error(`Failed to fetch Google Doc. HTTP status: ${response.status}. Make sure the document is published via File → Share → Publish to Web.`);
+    }
+    const html = response.data;
+    // Convert using the same HTML pipeline
+    return convertHtmlToTextWithListNumbering(html);
+}
+
+// --- Admin Route: Upload MCQ questions from Google Doc link ---
+app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
+    const topicId = req.body.topicId ? parseInt(req.body.topicId) : null;
+    const minuteTopicId = req.body.minuteTopicId ? parseInt(req.body.minuteTopicId) : null;
+    const examId = req.body.examId ? parseInt(req.body.examId) : null;
+    const language = req.body.language || 'EN';
+    const gdocUrl = req.body.gdocUrl;
+
+    if (!gdocUrl) {
+        return res.status(400).json({ error: "Google Doc URL is required." });
+    }
+    if (!topicId && !minuteTopicId && !examId) {
+        return res.status(400).json({ error: "Topic ID, Minute Topic ID, or Exam ID is required." });
+    }
+
+    try {
+        console.log(`[GDoc Ingest] Fetching Google Doc from: ${gdocUrl}`);
+        const rawText = await fetchGoogleDocText(gdocUrl);
+
+        if (!rawText.trim()) {
+            return res.status(400).json({ error: "The Google Doc appears to be empty or could not be read. Please ensure the document is published and contains text." });
+        }
+
+        // Re-use the same parsing logic as the DOCX upload by creating a fake request body
+        // and calling the core parsing logic
+        const fakeReq = {
+            body: { topicId, minuteTopicId, examId, language },
+            file: { buffer: Buffer.from(rawText, 'utf8'), originalname: 'gdoc.txt' }
+        };
+
+        // Process via internal handler - replicate the core logic of upload-questions
+        let isMains = false;
+        let resolvedTopicId = topicId;
+
+        if (minuteTopicId && !resolvedTopicId) {
+            const mt = await db.get("SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?", [minuteTopicId]);
+            if (mt) resolvedTopicId = mt.topic_id;
+        }
+        if (resolvedTopicId) {
+            const topicRow = await db.get(`
+                SELECT s.tier_type FROM topics t
+                JOIN units u ON t.unit_id = u.unit_id
+                JOIN subjects s ON u.subject_id = s.subject_id
+                WHERE t.topic_id = ?`, [resolvedTopicId]);
+            if (topicRow && topicRow.tier_type === 'MAINS') isMains = true;
+        }
+        if (examId) {
+            const exam = await db.get("SELECT tier_type FROM pyq_exams WHERE exam_id = ?", [examId]);
+            if (!exam) return res.status(404).json({ error: "Exam not found." });
+            if (exam.tier_type === 'MAINS') isMains = true;
+        }
+
+        if (isMains) {
+            // Parse Mains Q&As
+            const blocks = rawText.split(/(?=(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?))/i);
+            const parsedQuestions = [];
+            for (const block of blocks) {
+                if (!block.trim() || (!block.includes("Answer:") && !block.includes("Answer") && !block.includes("उत्तर:") && !block.includes("उत्तर") && !block.includes("मॉडल उत्तर"))) continue;
+                const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?:\*?\*?(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)\*?\*?))/i);
+                const ansMatch = block.match(/(?:\*?\*?(?:Answer|Answer:|उत्तर:|मॉडल उत्तर:|उत्तर|मॉडल उत्तर)\*?\*?)[\s*:]*([\s\S]*?)$/i);
+                if (qMatch && ansMatch) {
+                    let answerText = ansMatch[1].trim();
+                    if (answerText.endsWith("---")) answerText = answerText.substring(0, answerText.length - 3).trim();
+                    parsedQuestions.push({ question_text: cleanFieldText(qMatch[1]), model_answer: cleanFieldText(answerText) });
+                }
+            }
+            if (parsedQuestions.length === 0) {
+                return res.status(400).json({ error: "Could not parse any Mains questions. Please ensure format uses Q. and Answer: triggers." });
+            }
+            let successCount = 0;
+            const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM mains_questions WHERE topic_id = ? AND language = ?", [resolvedTopicId || 101, language]);
+            let currentSeq = seqResult && seqResult.maxSeq ? seqResult.maxSeq : 0;
+            for (const q of parsedQuestions) {
+                currentSeq++;
+                const tgt = resolvedTopicId || 101;
+                const mins = minuteTopicId || null;
+                const examTarget = examId || null;
+                if (examTarget) {
+                    await db.run(`INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, exam_id) VALUES (?, ?, ?, ?, ?, ?)`, [tgt, q.question_text, q.model_answer, language, currentSeq, examTarget]);
+                } else {
+                    await db.run(`INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order, minute_topic_id) VALUES (?, ?, ?, ?, ?, ?)`, [tgt, q.question_text, q.model_answer, language, currentSeq, mins]);
+                }
+                successCount++;
+            }
+            console.log(`[GDoc Ingest] Ingested ${successCount} Mains questions.`);
+            return res.status(200).json({ message: `Google Doc import successful! Loaded ${successCount} Mains questions.`, inserted_count: successCount });
+        } else {
+            // Parse Pre MCQs
+            const qPattern = /(?:^|\n)\s*Q\.\s*\d*[:\.]?\s*/i;
+            const blocks = rawText.split(qPattern).filter(b => b.trim());
+            const parsedQuestions = [];
+            for (const block of blocks) {
+                const lines = block.trim().split('\n').map(l => l.trim()).filter(l => l);
+                let questionLines = [];
+                let optionA = '', optionB = '', optionC = '', optionD = '', correctOpt = '', explanationLines = [];
+                let parsingExplanation = false;
+                for (const line of lines) {
+                    if (/^A[\)\.:]/i.test(line)) { optionA = cleanFieldText(line.replace(/^A[\)\.:]/i, '').trim()); continue; }
+                    if (/^B[\)\.:]/i.test(line)) { optionB = cleanFieldText(line.replace(/^B[\)\.:]/i, '').trim()); continue; }
+                    if (/^C[\)\.:]/i.test(line)) { optionC = cleanFieldText(line.replace(/^C[\)\.:]/i, '').trim()); continue; }
+                    if (/^D[\)\.:]/i.test(line)) { optionD = cleanFieldText(line.replace(/^D[\)\.:]/i, '').trim()); continue; }
+                    if (/^(?:Answer|Ans|Correct)[:\s]*([A-D])/i.test(line)) {
+                        const m = line.match(/^(?:Answer|Ans|Correct)[:\s]*([A-D])/i);
+                        if (m) correctOpt = m[1].toUpperCase();
+                        parsingExplanation = false;
+                        continue;
+                    }
+                    if (/^(?:Explanation|Exp|Solution|Reason|उत्तर|व्याख्या)[:\s]/i.test(line)) {
+                        parsingExplanation = true;
+                        explanationLines.push(line.replace(/^(?:Explanation|Exp|Solution|Reason|उत्तर|व्याख्या)[:\s]/i, '').trim());
+                        continue;
+                    }
+                    if (parsingExplanation) { explanationLines.push(line); continue; }
+                    questionLines.push(line);
+                }
+                if (questionLines.length && optionA && optionB && optionC && optionD && correctOpt) {
+                    parsedQuestions.push({
+                        question_text: cleanFieldText(questionLines.join('\n')),
+                        option_a: optionA, option_b: optionB, option_c: optionC, option_d: optionD,
+                        correct_option: correctOpt,
+                        detailed_explanation: cleanFieldText(explanationLines.join('\n')) || 'See the correct option.'
+                    });
+                }
+            }
+            if (parsedQuestions.length === 0) {
+                return res.status(400).json({ error: "Could not parse any MCQs. Please ensure format uses Q., A), B), C), D) and Answer: triggers." });
+            }
+            if (examId) {
+                // Ingest into pyq_questions
+                let successCount = 0;
+                const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM pyq_questions WHERE exam_id = ? AND language = ?", [examId, language]);
+                let currentSeq = seqResult && seqResult.maxSeq ? seqResult.maxSeq : 0;
+
+                for (const q of parsedQuestions) {
+                    currentSeq++;
+                    await db.run(`
+                        INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    `, [examId, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, language, currentSeq]);
+                    successCount++;
+                }
+                console.log(`[GDoc Ingest] Ingested ${successCount} PYQ MCQs.`);
+                return res.status(200).json({ message: `Google Doc import successful! Loaded ${successCount} PYQ MCQs.`, inserted_count: successCount });
+            } else {
+                // Ingest into standard questions
+                let successCount = 0;
+                for (const q of parsedQuestions) {
+                    const tgt = resolvedTopicId || topicId;
+                    await db.run(`INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+                        [tgt, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, minuteTopicId || null, language]);
+                    successCount++;
+                }
+                console.log(`[GDoc Ingest] Ingested ${successCount} Pre MCQs.`);
+                return res.status(200).json({ message: `Google Doc import successful! Loaded ${successCount} MCQs.`, inserted_count: successCount });
+            }
+        }
+    } catch (err) {
+        console.error('[GDoc Ingest Error]', err.message);
+        if (err.code === 'ECONNREFUSED' || err.code === 'ERR_NETWORK') {
+            return res.status(502).json({ error: "Cannot reach Google Docs. Ensure the document is published publicly and the server has internet access." });
+        }
+        res.status(500).json({ error: "Failed to import from Google Doc: " + err.message });
+    }
+});
+
+// --- Revision Notes: GET (user-facing) ---
+app.get('/api/revision-notes', checkSubscription, async (req, res) => {
+    const subjectId = req.query.subject_id ? parseInt(req.query.subject_id) : null;
+    const topicId = req.query.topic_id ? parseInt(req.query.topic_id) : null;
+    const minuteTopicId = req.query.minute_topic_id ? parseInt(req.query.minute_topic_id) : null;
+    const language = req.query.language || 'EN';
+    try {
+        const notes = await db.getRevisionNotes(subjectId, topicId, minuteTopicId, language);
+        res.status(200).json({ notes: notes || [] });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch revision notes: " + err.message });
+    }
+});
+
+// --- Revision Notes: GET all (admin-facing) ---
+app.get('/api/admin/revision-notes', async (req, res) => {
+    try {
+        const notes = await db.getAllRevisionNotes();
+        res.status(200).json({ notes: notes || [] });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch revision notes: " + err.message });
+    }
+});
+
+// --- Revision Notes: Upload from Google Doc ---
+app.post('/api/admin/upload-revision-note-from-gdoc', async (req, res) => {
+    const { title, gdocUrl, subjectId, topicId, minuteTopicId, language } = req.body;
+
+    if (!title || !gdocUrl) {
+        return res.status(400).json({ error: "Title and Google Doc URL are required." });
+    }
+
+    try {
+        console.log(`[RevNote Ingest] Fetching Google Doc from: ${gdocUrl}`);
+        const rawText = await fetchGoogleDocText(gdocUrl);
+
+        if (!rawText.trim()) {
+            return res.status(400).json({ error: "The Google Doc appears to be empty or could not be read." });
+        }
+
+        const result = await db.addRevisionNote(
+            title.trim(),
+            rawText.trim(),
+            subjectId ? parseInt(subjectId) : null,
+            topicId ? parseInt(topicId) : null,
+            minuteTopicId ? parseInt(minuteTopicId) : null,
+            language || 'EN'
+        );
+
+        console.log(`[RevNote Ingest] Saved revision note: "${title}" (ID: ${result.lastID})`);
+        res.status(200).json({ message: `Revision note "${title}" imported successfully!`, note_id: result.lastID });
+    } catch (err) {
+        console.error('[RevNote Ingest Error]', err.message);
+        res.status(500).json({ error: "Failed to import revision note from Google Doc: " + err.message });
+    }
+});
+
+// --- Revision Notes: Upload from DOCX file (supports images, tables, diagrams) ---
+app.post('/api/admin/upload-revision-note-docx', upload.single('noteFile'), async (req, res) => {
+    const { title, subjectId, topicId, minuteTopicId, language } = req.body;
+
+    if (!title) {
+        return res.status(400).json({ error: "Note title is required." });
+    }
+    if (!req.file) {
+        return res.status(400).json({ error: "Please upload a .docx or .txt file." });
+    }
+
+    try {
+        let rawText = "";
+        const originalName = req.file.originalname || "";
+
+        if (originalName.toLowerCase().endsWith('.docx')) {
+            // Extract HTML from uploaded DOCX, preserving images as base64
+            const result = await mammoth.convertToHtml({
+                arrayBuffer: req.file.buffer,
+                convertImage: mammoth.images.inline(async (element) => {
+                    const imageBuffer = await element.read();
+                    return {
+                        src: `data:${element.contentType};base64,${imageBuffer.toString('base64')}`
+                    };
+                })
+            });
+            rawText = convertHtmlToTextWithListNumbering(result.value);
+        } else {
+            rawText = req.file.buffer.toString('utf8');
+        }
+
+        if (!rawText.trim()) {
+            return res.status(400).json({ error: "The uploaded file appears to be empty or could not be read." });
+        }
+
+        const result = await db.addRevisionNote(
+            title.trim(),
+            rawText.trim(),
+            subjectId ? parseInt(subjectId) : null,
+            topicId ? parseInt(topicId) : null,
+            minuteTopicId ? parseInt(minuteTopicId) : null,
+            language || 'EN'
+        );
+
+        console.log(`[RevNote DOCX] Saved revision note from DOCX: "${title}" (ID: ${result.lastID})`);
+        res.status(200).json({ message: `Revision note "${title}" imported from DOCX successfully!`, note_id: result.lastID });
+    } catch (err) {
+        console.error('[RevNote DOCX Error]', err.message);
+        res.status(500).json({ error: "Failed to import revision note from DOCX: " + err.message });
+    }
+});
+
+// --- Revision Notes: Delete ---
+app.delete('/api/admin/revision-note/:noteId', async (req, res) => {
+    const noteId = parseInt(req.params.noteId);
+    if (!noteId) return res.status(400).json({ error: "Note ID is required." });
+    try {
+        await db.deleteRevisionNote(noteId);
+        res.status(200).json({ message: "Revision note deleted." });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to delete revision note: " + err.message });
     }
 });
 

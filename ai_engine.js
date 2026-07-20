@@ -271,13 +271,58 @@ Output format must strictly conform to this JSON Schema:
     }
 }
 
-async function generateMCQsFromNotes(pdfText, topicName, count = 20) {
+async function splitNotesIntoConcepts(pdfText, topicName) {
+    if (!genAI) {
+        return [
+            { title: "General Overview", summary: "General historical study and syllabus of " + topicName, weight: 100 }
+        ];
+    }
+    try {
+        const prompt = `You are a senior curriculum developer for the RPSC (Rajasthan Public Service Commission) exams.
+Analyze the following reference notes on the topic "${topicName}" and split them into 3 to 7 distinct, non-overlapping historical sub-concepts/logical sections based on the rulers, events, dynasties, or themes covered.
+
+---
+REFERENCE NOTES:
+${pdfText}
+---
+
+Output a JSON array of sub-concepts where each object strictly conforms to this schema:
+[
+  {
+    "title": "Sub-concept Title (e.g. Origin of Chauhan Dynasty, or Reign of Maharana Kumbha)",
+    "summary": "Detailed summary of the specific facts, rulers, dates, and historical events to be tested from this section",
+    "weight": 30 // Recommended percentage of questions to allocate (integer, 10-50, sum of all weights must equal 100)
+  }
+]`;
+        const result = await genAI.models.generateContent({
+            model: 'gemini-2.0-flash',
+            contents: prompt,
+            config: { responseMimeType: 'application/json' }
+        });
+        return JSON.parse(result.text);
+    } catch (e) {
+        console.error("[AI Engine] Error splitting notes into concepts, falling back:", e);
+        return [
+            { title: "General Overview", summary: "General historical study and syllabus of " + topicName, weight: 100 }
+        ];
+    }
+}
+
+async function generateMCQsFromNotes(pdfText, topicName, subConcept, count = 20) {
     if (!genAI) {
         throw new Error("Gemini API Key is not configured in the environment.");
     }
     
     const prompt = `You are a senior examiner for the RPSC (Rajasthan Public Service Commission) exams.
-Your task is to generate exactly ${count} highly challenging Prelims MCQs of IAS/RAS level. Use the provided reference notes as the core anchor, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions possible.
+Your task is to generate exactly ${count} highly challenging Prelims MCQs of IAS/RAS level focusing strictly and exclusively on the sub-concept described below:
+
+---
+TARGET SUB-CONCEPT:
+Title: ${subConcept.title}
+Summary of Facts to Test: ${subConcept.summary}
+---
+
+Use the provided reference notes as the core anchor to extract facts, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions possible.
 
 ---
 REFERENCE NOTES:
@@ -301,8 +346,8 @@ RULES FOR MCQS:
    - Do NOT include question number prefixes in the question texts (e.g. no "Q. 1", no "Q1.", no "प्रश्न 1:").
    - Do NOT include option letter prefixes in the option texts (e.g. option A text must just be the content, NOT "A) content").
    - Do NOT include page number references, bibliography citations, or book references (e.g. strip all "(p. 1)", "(pp. 4-5)", "[1]", "(Ref: page 12)").
-   - Never mention the uploaded source material or reference notes file as the source.
-
+   - Never mention the uploaded source material, reference notes file, or document as the source (e.g. do NOT say "According to the notes", "As per reference material", or "संदर्भ नोट्स के अनुसार").
+   
 Output format must strictly conform to this JSON Schema array:
 [
   {
@@ -321,8 +366,8 @@ Output format must strictly conform to this JSON Schema array:
       "D": "विकल्प D का हिंदी पाठ"
     },
     "correct_option": "A",
-    "explanation_en": "Detailed factual explanation in English (no page references or citations)",
-    "explanation_hi": "विस्तृत तथ्यात्मक हिंदी व्याख्या (बिना किसी पृष्ठ संख्या या संदर्भ के)"
+    "explanation_en": "Detailed factual explanation in English (no page references, citations, or references to notes)",
+    "explanation_hi": "विस्तृत तथ्यात्मक हिंदी व्याख्या (बिना किसी पृष्ठ संख्या, संदर्भ या नोट्स के उल्लेख के)"
   }
 ]`;
 
@@ -334,13 +379,21 @@ Output format must strictly conform to this JSON Schema array:
     return JSON.parse(result.text);
 }
 
-async function generateMainsFromNotes(pdfText, topicName, count = 10) {
+async function generateMainsFromNotes(pdfText, topicName, subConcept, count = 10) {
     if (!genAI) {
         throw new Error("Gemini API Key is not configured in the environment.");
     }
 
     const prompt = `You are a senior RPSC RAS Mains examiner and evaluator.
-Your task is to generate exactly ${count} highly challenging descriptive questions and expert model answers. Use the provided reference notes as the core anchor, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions and answers possible.
+Your task is to generate exactly ${count} highly challenging descriptive questions and expert model answers focusing strictly and exclusively on the sub-concept described below:
+
+---
+TARGET SUB-CONCEPT:
+Title: ${subConcept.title}
+Summary of Facts to Test: ${subConcept.summary}
+---
+
+Use the provided reference notes as the core anchor, but expand and draw upon your own comprehensive, expert historical knowledge base (including standard web, online, and academic reference content) to craft the best, most comprehensive questions and answers possible.
 
 ---
 REFERENCE NOTES:
@@ -375,7 +428,7 @@ RULES FOR MAINS QUESTIONS:
    - Display all classification data in a clean Markdown table.
    - Do NOT include question number prefixes in the question text (e.g. no "Q. 1", "Q1.", "प्रश्न 1").
    - Do NOT include page number references, bibliography citations, or book references (e.g. strip all "(p. 1)", "(pp. 4-5)", "[1]").
-   - Never mention the uploaded source material or reference notes file as the source.
+   - Never mention the uploaded source material, reference notes file, or document as the source (e.g. do NOT say "According to the notes" or "संदर्भ नोट्स के अनुसार").
 
 Output format must strictly conform to this JSON Schema array:
 [
@@ -402,5 +455,6 @@ module.exports = {
     generateMCQBatch,
     generateMainsTemplates,
     generateMCQsFromNotes,
-    generateMainsFromNotes
+    generateMainsFromNotes,
+    splitNotesIntoConcepts
 };

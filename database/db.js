@@ -178,6 +178,24 @@ async function initDatabase() {
             );
         `);
 
+        // 13. Revision Notes Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS revision_notes (
+                note_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                title TEXT NOT NULL,
+                content TEXT NOT NULL,
+                subject_id INTEGER DEFAULT NULL,
+                topic_id INTEGER DEFAULT NULL,
+                minute_topic_id INTEGER DEFAULT NULL,
+                language TEXT DEFAULT 'EN',
+                created_at INTEGER DEFAULT (strftime('%s','now') * 1000)
+            );
+        `);
+        // Migration: add minute_topic_id column to existing revision_notes tables
+        try {
+            await run(`ALTER TABLE revision_notes ADD COLUMN minute_topic_id INTEGER DEFAULT NULL`);
+        } catch (e) { /* column already exists */ }
+
         // 11. Mains Questions Table
         await run(`
             CREATE TABLE IF NOT EXISTS mains_questions (
@@ -920,6 +938,86 @@ console.log("All SQLite tables verified successfully.");
             }
         }
 
+        // Run Assertion-Reason & Statement-wise Question formatting migration
+        try {
+            const arQuestions = await all("SELECT question_id, question_text, option_d, detailed_explanation FROM questions WHERE question_text LIKE '%Assertion%' OR question_text LIKE '%Reason%' OR question_text LIKE '%कथन%' OR question_text LIKE '%कारण%' OR question_text LIKE '%Statement%' OR question_text LIKE '%1.%'");
+            for (const q of arQuestions) {
+                let text = q.question_text;
+                let clean = text.trim();
+                
+                // 1. Assertion-Reason formatting
+                clean = clean.replace(/\s*(Reason|कारण)\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
+                clean = clean.replace(/\s*(Assertion|कथन)\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+
+                // 2. Statement-wise formatting
+                clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
+                clean = clean.replace(/(?<=\s|^)(\d+)\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
+                clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
+
+                clean = clean
+                    .replace(/[ \t]+/g, ' ')
+                    .replace(/[ \t]+([\.\?,;])/g, '$1')
+                    .replace(/[ \t]+$/gm, '')
+                    .replace(/\r\n/g, '\n')
+                    .replace(/\n{3,}/g, '\n\n')
+                    .trim();
+
+                let exp = q.detailed_explanation ? q.detailed_explanation.trim() : "";
+                const match = exp.match(/^[\s\S]*?(?:Explanation|Exp|व्याख्या|स्पष्टीकरण)\s*[:\-]\s*([\s\S]*)$/i);
+                if (match) {
+                    exp = match[1].trim();
+                }
+
+                let optD = q.option_d ? q.option_d.trim() : "";
+                if (optD === 'A is incorrect but R is') optD = 'A is incorrect but R is correct';
+                else if (optD === 'A is false but R is') optD = 'A is false but R is true';
+                else if (optD === 'A wrong but R is') optD = 'A is wrong but R is correct';
+
+                if (clean !== q.question_text || exp !== q.detailed_explanation || optD !== q.option_d) {
+                    await run("UPDATE questions SET question_text = ?, detailed_explanation = ?, option_d = ? WHERE question_id = ?", [clean, exp, optD, q.question_id]);
+                }
+            }
+
+            const arPyqQuestions = await all("SELECT pyq_question_id, question_text, option_d, detailed_explanation FROM pyq_questions WHERE question_text LIKE '%Assertion%' OR question_text LIKE '%Reason%' OR question_text LIKE '%कथन%' OR question_text LIKE '%कारण%' OR question_text LIKE '%Statement%' OR question_text LIKE '%1.%'");
+            for (const q of arPyqQuestions) {
+                let text = q.question_text;
+                let clean = text.trim();
+                
+                // 1. Assertion-Reason formatting
+                clean = clean.replace(/\s*(Reason|कारण)\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
+                clean = clean.replace(/\s*(Assertion|कथन)\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+
+                // 2. Statement-wise formatting
+                clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
+                clean = clean.replace(/(?<=\s|^)(\d+)\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
+                clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
+
+                clean = clean
+                    .replace(/[ \t]+/g, ' ')
+                    .replace(/[ \t]+([\.\?,;])/g, '$1')
+                    .replace(/[ \t]+$/gm, '')
+                    .replace(/\r\n/g, '\n')
+                    .replace(/\n{3,}/g, '\n\n')
+                    .trim();
+
+                let exp = q.detailed_explanation ? q.detailed_explanation.trim() : "";
+                const match = exp.match(/^[\s\S]*?(?:Explanation|Exp|व्याख्या|स्पष्टीकरण)\s*[:\-]\s*([\s\S]*)$/i);
+                if (match) {
+                    exp = match[1].trim();
+                }
+
+                let optD = q.option_d ? q.option_d.trim() : "";
+                if (optD === 'A is incorrect but R is') optD = 'A is incorrect but R is correct';
+                else if (optD === 'A is false but R is') optD = 'A is false but R is true';
+                else if (optD === 'A wrong but R is') optD = 'A is wrong but R is correct';
+
+                if (clean !== q.question_text || exp !== q.detailed_explanation || optD !== q.option_d) {
+                    await run("UPDATE pyq_questions SET question_text = ?, detailed_explanation = ?, option_d = ? WHERE pyq_question_id = ?", [clean, exp, optD, q.pyq_question_id]);
+                }
+            }
+        } catch (migErr) {
+            console.error("Failed to run Assertion-Reason/Statement migration:", migErr.message);
+        }
 
     } catch (err) {
         console.error("Database initialization error:", err.message);
@@ -1719,7 +1817,26 @@ module.exports = {
         if (!fs.existsSync(flagPath)) {
             fs.writeFileSync(flagPath, 'true', 'utf8');
         }
-    }
+    },
+
+    // Revision Notes Operations
+    getRevisionNotes: (subjectId, topicId, minuteTopicId, language) => {
+        if (minuteTopicId) {
+            return all("SELECT * FROM revision_notes WHERE minute_topic_id = ? AND language = ? ORDER BY created_at DESC", [minuteTopicId, language || 'EN']);
+        } else if (topicId) {
+            return all("SELECT * FROM revision_notes WHERE topic_id = ? AND language = ? ORDER BY created_at DESC", [topicId, language || 'EN']);
+        } else if (subjectId) {
+            return all("SELECT * FROM revision_notes WHERE subject_id = ? AND language = ? ORDER BY created_at DESC", [subjectId, language || 'EN']);
+        } else {
+            return all("SELECT * FROM revision_notes WHERE language = ? ORDER BY created_at DESC", [language || 'EN']);
+        }
+    },
+    getAllRevisionNotes: () => all("SELECT * FROM revision_notes ORDER BY created_at DESC"),
+    addRevisionNote: (title, content, subjectId, topicId, minuteTopicId, language) => run(
+        "INSERT INTO revision_notes (title, content, subject_id, topic_id, minute_topic_id, language) VALUES (?, ?, ?, ?, ?, ?)",
+        [title, content, subjectId || null, topicId || null, minuteTopicId || null, language || 'EN']
+    ),
+    deleteRevisionNote: (noteId) => run("DELETE FROM revision_notes WHERE note_id = ?", [noteId])
 };
 
 // Initialize DB immediately
