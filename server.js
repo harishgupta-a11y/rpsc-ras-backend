@@ -1935,9 +1935,9 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                         parsingExplanation = false;
                         continue;
                     }
-                    if (/^(?:Explanation|Exp|Solution|Reason|उत्तर|व्याख्या)[:\s]/i.test(line)) {
+                    if (/^(?:Explanation|Exp|Solution|उत्तर|व्याख्या)[:\s]/i.test(line)) {
                         parsingExplanation = true;
-                        explanationLines.push(line.replace(/^(?:Explanation|Exp|Solution|Reason|उत्तर|व्याख्या)[:\s]/i, '').trim());
+                        explanationLines.push(line.replace(/^(?:Explanation|Exp|Solution|उत्तर|व्याख्या)[:\s]/i, '').trim());
                         continue;
                     }
                     if (parsingExplanation) { explanationLines.push(line); continue; }
