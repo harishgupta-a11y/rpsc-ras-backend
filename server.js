@@ -1021,6 +1021,8 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
 
     try {
         let questions;
+        let fallbackInfo = null;
+
         if (minuteTopicId) {
             const sql = `
                 SELECT mq.*, t.topic_name 
@@ -1030,22 +1032,68 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
             `;
             const params = [minuteTopicId, language];
             let allQs = [];
+            let usedFallback = false;
+
             if (difficulty === '5_MARKS') {
                 allQs = await db.all(sql + ' AND mq.word_limit = 50', params);
+                if (allQs.length === 0) {
+                    allQs = await db.all(sql, params);
+                    usedFallback = true;
+                }
             } else if (difficulty === '10_MARKS') {
                 allQs = await db.all(sql + ' AND mq.word_limit = 150', params);
-            }
-            
-            // Fallback if empty
-            if (allQs.length === 0) {
+                if (allQs.length === 0) {
+                    allQs = await db.all(sql, params);
+                    usedFallback = true;
+                }
+            } else {
                 allQs = await db.all(sql, params);
             }
+
+            if (usedFallback) {
+                const requested = difficulty === '10_MARKS' ? '10' : '5';
+                const available = difficulty === '10_MARKS' ? '5' : '10';
+                fallbackInfo = {
+                    message: language === 'HI'
+                        ? `इस विषय में केवल ${available} अंक के प्रश्न उपलब्ध हैं। ${requested} अंक के प्रश्न अभी जोड़े नहीं गए हैं।`
+                        : `Only ${available}-mark questions are available for this topic. ${requested}-mark questions have not been added yet.`
+                };
+            }
+
             questions = distributeMainsQuestions(allQs, limitVal);
         } else {
-            const allQs = await db.getMainsQuestions(topicIds, language, difficulty);
+            // Check if filtered questions exist before falling back
+            let allQs = [];
+            let usedFallback = false;
+
+            if (difficulty !== 'ALL') {
+                allQs = await db.getMainsQuestions(topicIds, language, difficulty);
+                // Detect fallback: if we got questions but none match the requested word_limit
+                const wordLimitTarget = difficulty === '5_MARKS' ? 50 : 150;
+                const exactMatch = allQs.filter(q => q.word_limit === wordLimitTarget);
+                if (exactMatch.length === 0 && allQs.length > 0) {
+                    usedFallback = true;
+                }
+            } else {
+                allQs = await db.getMainsQuestions(topicIds, language, 'ALL');
+            }
+
+            if (usedFallback) {
+                const requested = difficulty === '10_MARKS' ? '10' : '5';
+                const available = difficulty === '10_MARKS' ? '5' : '10';
+                fallbackInfo = {
+                    message: language === 'HI'
+                        ? `इस विषय में केवल ${available} अंक के प्रश्न उपलब्ध हैं। ${requested} अंक के प्रश्न अभी जोड़े नहीं गए हैं।`
+                        : `Only ${available}-mark questions are available for this topic. ${requested}-mark questions have not been added yet.`
+                };
+            }
+
             questions = distributeMainsQuestions(allQs, limitVal);
         }
-        res.status(200).json({ questions });
+
+        const response = { questions };
+        if (fallbackInfo) response.fallback = fallbackInfo;
+        res.status(200).json(response);
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch Mains questions: " + err.message });
     }
