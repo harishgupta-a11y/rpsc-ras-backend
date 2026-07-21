@@ -19,12 +19,13 @@ app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
-// Serve simulator static dashboard
+// Serve desktop web application & admin dashboard
+app.use(express.static(path.join(__dirname, 'public')));
 app.use('/simulator', express.static(path.join(__dirname, 'simulator')));
 
-// Root test endpoints
-app.get('/', (req, res) => {
-    res.status(200).json({ status: "online", message: "RPSC RAS Backend API is running." });
+// Root test & gateway endpoints
+app.get('/app', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 app.get('/api', (req, res) => {
     res.status(200).json({ status: "online", message: "RPSC RAS Backend API Gateway is running." });

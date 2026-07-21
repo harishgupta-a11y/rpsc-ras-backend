@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPSC RAS Desktop Prep Portal | Pre, Mains, Notes & Test Series</title>
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      /* Dark Theme Default */
+      --bg-base: #080C14;
+      --bg-surface: #111827;
+      --bg-card: #1E293B;
+      --bg-glass: rgba(17, 24, 39, 0.75);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-hover: rgba(56, 189, 248, 0.4);
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --accent-sky: #38BDF8;
+      --accent-blue: #0EA5E9;
+      --accent-emerald: #10B981;
+      --accent-purple: #C084FC;
+      --accent-amber: #F59E0B;
+      --accent-rose: #EF4444;
+      --shadow-elevation: 0 10px 30px rgba(0, 0, 0, 0.35);
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+    }
+
+    [data-theme="light"] {
+      --bg-base: #F8FAFC;
+      --bg-surface: #FFFFFF;
+      --bg-card: #FFFFFF;
+      --bg-glass: rgba(255, 255, 255, 0.85);
+      --border-color: rgba(226, 232, 240, 0.9);
+      --border-hover: rgba(2, 132, 199, 0.5);
+      --text-main: #0F172A;
+      --text-muted: #475569;
+      --accent-sky: #0284C7;
+      --accent-blue: #0369A1;
+      --accent-emerald: #059669;
+      --accent-purple: #7C3AED;
+      --accent-amber: #D97706;
+      --accent-rose: #DC2626;
+      --shadow-elevation: 0 10px 30px rgba(15, 23, 42, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Outfit', sans-serif;
+    }
+
+    /* Sidebar Navigation */
+    .sidebar {
+      width: 280px;
+      background-color: var(--bg-surface);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      padding: 24px 16px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 100;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+      padding-left: 8px;
+    }
+
+    .brand-logo img {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      border: 1.5px solid var(--accent-sky);
+    }
+
+    .brand-name {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      color: var(--text-main);
+    }
+
+    .brand-sub {
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--accent-sky);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .nav-section-title {
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--text-muted);
+      margin: 20px 0 8px 12px;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 14px;
+      border-radius: var(--radius-md);
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-bottom: 4px;
+    }
+
+    .nav-item:hover {
+      background-color: rgba(56, 189, 248, 0.08);
+      color: var(--text-main);
+    }
+
+    .nav-item.active {
+      background-color: var(--accent-blue);
+      color: #FFFFFF;
+      box-shadow: 0 4px 14px rgba(14, 165, 233, 0.35);
+    }
+
+    .nav-icon {
+      font-size: 16px;
+      width: 20px;
+      text-align: center;
+    }
+
+    /* User & Theme Footer */
+    .sidebar-footer {
+      margin-top: auto;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .user-pill {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      margin-bottom: 12px;
+    }
+
+    .theme-toggle-btn {
+      width: 100%;
+      padding: 10px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      background: var(--bg-card);
+      color: var(--text-main);
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    /* Main Workspace */
+    .main-workspace {
+      margin-left: 280px;
+      flex: 1;
+      padding: 32px 40px;
+      max-width: 1350px;
+    }
+
+    .top-header-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+    }
+
+    .page-title {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    .page-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .lang-switcher {
+      display: flex;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 4px;
+      gap: 4px;
+    }
+
+    .lang-btn {
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .lang-btn.active {
+      background: var(--accent-blue);
+      color: #FFFFFF;
+    }
+
+    /* Glass Cards & Portal Grid */
+    .portal-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .glass-card {
+      background-color: var(--bg-surface);
+      border: 1.5px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      position: relative;
+      box-shadow: var(--shadow-elevation);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .glass-card:hover {
+      border-color: var(--border-hover);
+      transform: translateY(-2px);
+    }
+
+    .card-badge {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #FFFFFF;
+    }
+
+    .card-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .card-desc {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+
+    .action-btn {
+      padding: 12px 20px;
+      border-radius: var(--radius-md);
+      border: none;
+      background: var(--accent-blue);
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
+    }
+
+    .action-btn:hover {
+      opacity: 0.92;
+    }
+
+    /* Segments & Tabs */
+    .segment-bar {
+      display: flex;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 6px;
+      gap: 6px;
+      margin-bottom: 24px;
+      overflow-x: auto;
+    }
+
+    .segment-tab {
+      padding: 10px 20px;
+      border-radius: var(--radius-sm);
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .segment-tab.active {
+      background: var(--accent-blue);
+      color: #FFFFFF;
+    }
+
+    /* Exam Player View */
+    .exam-player-container {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .question-card {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      box-shadow: var(--shadow-elevation);
+    }
+
+    .question-stem {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.6;
+      margin-bottom: 28px;
+      border-left: 4px solid var(--accent-sky);
+      padding-left: 16px;
+    }
+
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .option-pill {
+      display: flex;
+      align-items: center;
+      padding: 16px 20px;
+      border-radius: var(--radius-md);
+      border: 1.5px solid var(--border-color);
+      background: var(--bg-card);
+      cursor: pointer;
+    }
+
+    .option-pill:hover {
+      border-color: var(--accent-sky);
+    }
+
+    .option-pill.selected {
+      border-color: var(--accent-sky);
+      background: rgba(56, 189, 248, 0.12);
+    }
+
+    .option-pill.correct {
+      border-color: var(--accent-emerald);
+      background: rgba(16, 185, 129, 0.15);
+    }
+
+    .option-pill.incorrect {
+      border-color: var(--accent-rose);
+      background: rgba(239, 68, 68, 0.15);
+    }
+
+    .option-letter {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1.5px solid var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 800;
+      margin-right: 16px;
+    }
+
+    .option-pill.selected .option-letter {
+      border-color: var(--accent-sky);
+      background: var(--accent-sky);
+      color: #FFFFFF;
+    }
+
+    .option-text {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    /* Floating Question Palette Strip */
+    .question-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 20px;
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-color);
+      border-radius: var(--radius-lg);
+    }
+
+    .strip-pill {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-card);
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .strip-pill.active {
+      border-color: var(--accent-sky);
+      background: rgba(56, 189, 248, 0.2);
+      color: var(--accent-sky);
+    }
+
+    .strip-pill.answered {
+      background: var(--accent-emerald);
+      color: #FFFFFF;
+      border-color: var(--accent-emerald);
+    }
+
+    /* Keyboard Shortcuts Bar */
+    .hotkey-badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid var(--border-color);
+      font-size: 10px;
+      font-family: monospace;
+      margin-left: auto;
+    }
+
+    /* Side-by-Side Mains View */
+    .mains-split-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .explanation-box {
+      margin-top: 24px;
+      padding: 20px;
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid var(--accent-emerald);
+      border-radius: var(--radius-md);
+    }
+
+    /* Hidden Utility Classes */
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar Nav -->
+  <aside class="sidebar">
+    <div class="brand-logo">
+      <img src="logo.jpg" alt="Logo" onerror="this.src='https://via.placeholder.com/40'">
+      <div>
+        <div class="brand-name">RPSC RAS Desktop</div>
+        <div class="brand-sub">PREP PORTAL v1.1</div>
+      </div>
+    </div>
+
+    <div class="nav-section-title">Portals & Practice</div>
+    <a class="nav-item active" onclick="showScreen('dashboard')"><span class="nav-icon">🏠</span> Dashboard</a>
+    <a class="nav-item" onclick="showScreen('prelims')"><span class="nav-icon">🎯</span> RAS Prelims Practice</a>
+    <a class="nav-item" onclick="showScreen('mains')"><span class="nav-icon">✍️</span> RAS Mains Written</a>
+    <a class="nav-item" onclick="showScreen('notes')"><span class="nav-icon">📖</span> Revision Notes Reader</a>
+    <a class="nav-item" onclick="showScreen('testseries')"><span class="nav-icon">🏆</span> Test Series Mocks</a>
+    <a class="nav-item" onclick="showScreen('history')"><span class="nav-icon">📊</span> Scorecards & Analytics</a>
+
+    <div class="sidebar-footer">
+      <div class="user-pill">
+        <div>
+          <div style="font-size: 11px; color: var(--text-muted);">Logged in as</div>
+          <div style="font-size: 13px; font-weight: 700;" id="user-mobile-display">+91 9876543210</div>
+        </div>
+        <button onclick="loginUser()" style="padding: 4px 8px; border-radius: 6px; border: 1px solid var(--border-color); background: transparent; color: var(--accent-sky); font-size: 11px; cursor: pointer;">Login</button>
+      </div>
+
+      <button class="theme-toggle-btn" onclick="toggleTheme()">
+        <span id="theme-icon">🌙</span> <span id="theme-text">Dark Mode</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main Workspace -->
+  <main class="main-workspace">
+    <!-- Top Header -->
+    <header class="top-header-bar">
+      <div>
+        <h1 class="page-title" id="page-title">RAS Desktop Dashboard</h1>
+        <p class="page-desc" id="page-desc">Access high-yield MCQs, Mains model answers, past papers, and revision notes on your laptop.</p>
+      </div>
+      <div class="lang-switcher">
+        <button class="lang-btn active" id="lang-en" onclick="setLanguage('EN')">English</button>
+        <button class="lang-btn" id="lang-hi" onclick="setLanguage('HI')">हिन्दी</button>
+      </div>
+    </header>
+
+    <!-- DASHBOARD VIEW -->
+    <section id="view-dashboard">
+      <div class="portal-grid">
+        <div class="glass-card">
+          <span class="card-badge" style="background: var(--accent-sky);">MCQs + PYQs</span>
+          <div>
+            <h3 class="card-title">RAS Prelims Portal</h3>
+            <p class="card-desc">Practice topic-wise MCQs, Foundation & Advanced level questions with instant detailed explanations.</p>
+          </div>
+          <button class="action-btn" onclick="showScreen('prelims')">Open Prelims Portal ➔</button>
+        </div>
+
+        <div class="glass-card">
+          <span class="card-badge" style="background: var(--accent-purple);">Written Answers</span>
+          <div>
+            <h3 class="card-title">RAS Mains Portal</h3>
+            <p class="card-desc">Master 5 Marks (50 words) and 10 Marks (150 words) descriptive questions with expert model answer guides.</p>
+          </div>
+          <button class="action-btn" style="background: var(--accent-purple);" onclick="showScreen('mains')">Open Mains Portal ➔</button>
+        </div>
+
+        <div class="glass-card">
+          <span class="card-badge" style="background: var(--accent-amber);">Full Papers</span>
+          <div>
+            <h3 class="card-title">RAS Test Series</h3>
+            <p class="card-desc">Take timed 50 Qs micro-mocks & 150 Qs full syllabus papers under real RPSC exam countdown timer.</p>
+          </div>
+          <button class="action-btn" style="background: var(--accent-amber);" onclick="showScreen('testseries')">Start Mock Test ➔</button>
+        </div>
+
+        <div class="glass-card">
+          <span class="card-badge" style="background: var(--accent-emerald);">Notes & Tables</span>
+          <div>
+            <h3 class="card-title">Revision Notes E-Reader</h3>
+            <p class="card-desc">Read comprehensive study notes, structured comparison tables, flowcharts, and diagrams in full screen.</p>
+          </div>
+          <button class="action-btn" style="background: var(--accent-emerald);" onclick="showScreen('notes')">Open E-Reader ➔</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRELIMS MCQs PRACTICE VIEW -->
+    <section id="view-prelims" class="hidden">
+      <div class="segment-bar">
+        <button class="segment-tab active" onclick="filterPrelims('ALL')">All Questions</button>
+        <button class="segment-tab" onclick="filterPrelims('FOUNDATION')">Foundation Tier</button>
+        <button class="segment-tab" onclick="filterPrelims('ADVANCED')">Advanced Tier (High Yield)</button>
+      </div>
+
+      <div class="exam-player-container">
+        <div class="question-card">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 16px; color: var(--text-muted); font-size: 13px;">
+            <span id="q-number">Question 1 of 20</span>
+            <span>Keyboard shortcuts: <span class="hotkey-badge">1, 2, 3, 4</span></span>
+          </div>
+
+          <div class="question-stem" id="pre-q-text">
+            Loading RAS Prelims Question...
+          </div>
+
+          <div class="options-grid" id="pre-options">
+            <!-- Populated dynamically -->
+          </div>
+
+          <div class="explanation-box hidden" id="pre-explanation">
+            <h4 style="color: var(--accent-emerald); margin-bottom: 8px;">Detailed Rationale Explanation:</h4>
+            <div id="pre-exp-text" style="font-size: 14.5px; line-height: 1.6;"></div>
+          </div>
+
+          <div style="display: flex; gap: 14px; margin-top: 32px;">
+            <button class="action-btn" style="background: var(--bg-card); color: var(--text-main); border: 1px solid var(--border-color); flex: 1;" onclick="prevQuestion()">◀ Previous</button>
+            <button class="action-btn" style="flex: 1.5;" onclick="nextQuestion()">Next Question ➔ <span class="hotkey-badge">Enter</span></button>
+          </div>
+        </div>
+
+        <div class="question-palette-panel">
+          <h4 style="margin-bottom: 14px; font-size: 14px;">Question Quick Navigator</h4>
+          <div class="question-strip" id="question-palette">
+            <!-- Pills populated dynamically -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAINS WRITTEN PRACTICE VIEW -->
+    <section id="view-mains" class="hidden">
+      <div class="segment-bar">
+        <button class="segment-tab active" onclick="filterMains('5_MARKS')">5 Marks Questions (50 Words)</button>
+        <button class="segment-tab" onclick="filterMains('10_MARKS')">10 Marks Questions (150 Words)</button>
+        <button class="segment-tab" onclick="filterMains('ALL')">Mixed All Questions</button>
+      </div>
+
+      <div class="mains-split-grid">
+        <div class="question-card">
+          <div style="display: flex; gap: 8px; margin-bottom: 14px;">
+            <span style="background: var(--accent-sky); color: #FFF; padding: 3px 10px; border-radius: 8px; font-size: 11px; font-weight: 800;" id="mains-marks-badge">5 MARKS</span>
+            <span style="background: var(--accent-purple); color: #FFF; padding: 3px 10px; border-radius: 8px; font-size: 11px; font-weight: 800;" id="mains-words-badge">50 WORDS</span>
+          </div>
+          <h3 class="question-stem" id="mains-q-text">Loading Mains Descriptive Question...</h3>
+          <p style="font-size: 13px; color: var(--text-muted); line-height: 1.5;">Write down your answer in your notebook, then click the button on the right to verify with the official model answer.</p>
+        </div>
+
+        <div class="question-card" style="border-color: var(--accent-emerald);">
+          <h3 style="color: var(--accent-emerald); margin-bottom: 16px;">Expert Model Answer Guide</h3>
+          <div id="mains-model-answer" style="font-size: 15px; line-height: 1.7; color: var(--text-main);">
+            Model answer rationale will appear here...
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const API_BASE = window.location.origin.includes('localhost') ? 'http://localhost:5000/api' : 'https://rpsc-ras-backend.onrender.com/api';
+    let currentTheme = localStorage.getItem('theme') || 'dark';
+    let currentLang = 'EN';
+    let currentQuestions = [];
+    let currentIndex = 0;
+    let userAnswers = {};
+
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    function toggleTheme() {
+      currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', currentTheme);
+      localStorage.setItem('theme', currentTheme);
+      document.getElementById('theme-icon').innerText = currentTheme === 'dark' ? '🌙' : '☀️';
+      document.getElementById('theme-text').innerText = currentTheme === 'dark' ? 'Dark Mode' : 'Light Mode';
+    }
+
+    function showScreen(screenId) {
+      ['dashboard', 'prelims', 'mains', 'notes', 'testseries', 'history'].forEach(s => {
+        const el = document.getElementById('view-' + s);
+        if (el) el.classList.add('hidden');
+      });
+      const activeEl = document.getElementById('view-' + screenId);
+      if (activeEl) activeEl.classList.remove('hidden');
+
+      document.querySelectorAll('.nav-item').forEach(nav => nav.classList.remove('active'));
+
+      if (screenId === 'prelims') fetchPrelimsQuestions();
+      if (screenId === 'mains') fetchMainsQuestions();
+    }
+
+    async function fetchPrelimsQuestions() {
+      try {
+        const res = await fetch(`${API_BASE}/quiz/generate`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ topicIds: [2135], count: 10, language: currentLang })
+        });
+        const data = await res.json();
+        currentQuestions = data.questions || [];
+        currentIndex = 0;
+        userAnswers = {};
+        renderQuestion();
+      } catch (e) {
+        console.error("Failed to load questions", e);
+      }
+    }
+
+    function renderQuestion() {
+      if (!currentQuestions.length) return;
+      const q = currentQuestions[currentIndex];
+      document.getElementById('q-number').innerText = `Question ${currentIndex + 1} of ${currentQuestions.length}`;
+      document.getElementById('pre-q-text').innerText = q.question_text;
+      
+      const optsContainer = document.getElementById('pre-options');
+      optsContainer.innerHTML = '';
+      
+      const opts = { A: q.option_a, B: q.option_b, C: q.option_c, D: q.option_d };
+      Object.entries(opts).forEach(([letter, text]) => {
+        const div = document.createElement('div');
+        div.className = 'option-pill' + (userAnswers[currentIndex] === letter ? ' selected' : '');
+        div.onclick = () => selectOption(letter);
+        div.innerHTML = `<div class="option-letter">${letter}</div><div class="option-text">${text}</div>`;
+        optsContainer.appendChild(div);
+      });
+
+      renderPalette();
+    }
+
+    function selectOption(letter) {
+      userAnswers[currentIndex] = letter;
+      renderQuestion();
+    }
+
+    function renderPalette() {
+      const container = document.getElementById('question-palette');
+      container.innerHTML = '';
+      currentQuestions.forEach((q, i) => {
+        const btn = document.createElement('div');
+        btn.className = 'strip-pill' + (i === currentIndex ? ' active' : '') + (userAnswers[i] ? ' answered' : '');
+        btn.innerText = i + 1;
+        btn.onclick = () => { currentIndex = i; renderQuestion(); };
+        container.appendChild(btn);
+      });
+    }
+
+    function nextQuestion() {
+      if (currentIndex < currentQuestions.length - 1) { currentIndex++; renderQuestion(); }
+    }
+
+    function prevQuestion() {
+      if (currentIndex > 0) { currentIndex--; renderQuestion(); }
+    }
+
+    // Keyboard Shortcuts (A, B, C, D, Arrow keys, Enter)
+    window.addEventListener('keydown', (e) => {
+      const key = e.key.toUpperCase();
+      if (['A', 'B', 'C', 'D'].includes(key)) selectOption(key);
+      if (key === '1') selectOption('A');
+      if (key === '2') selectOption('B');
+      if (key === '3') selectOption('C');
+      if (key === '4') selectOption('D');
+      if (e.key === 'ArrowRight' || e.key === 'Enter') nextQuestion();
+      if (e.key === 'ArrowLeft') prevQuestion();
+    });
+  </script>
+</body>
+</html>
