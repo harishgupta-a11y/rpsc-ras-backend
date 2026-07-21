@@ -1974,14 +1974,16 @@ module.exports = {
 
     // Revision Notes Operations
     getRevisionNotes: (subjectId, topicId, minuteTopicId, language) => {
+        // Language is a label on notes but we show ALL notes regardless of student's UI language
+        // so notes uploaded in EN are visible to HI students and vice versa
         if (minuteTopicId) {
-            return all("SELECT * FROM revision_notes WHERE minute_topic_id = ? AND language = ? ORDER BY created_at DESC", [minuteTopicId, language || 'EN']);
+            return all("SELECT * FROM revision_notes WHERE minute_topic_id = ? ORDER BY created_at DESC", [minuteTopicId]);
         } else if (topicId) {
-            return all("SELECT * FROM revision_notes WHERE topic_id = ? AND language = ? ORDER BY created_at DESC", [topicId, language || 'EN']);
+            return all("SELECT * FROM revision_notes WHERE topic_id = ? ORDER BY created_at DESC", [topicId]);
         } else if (subjectId) {
-            return all("SELECT * FROM revision_notes WHERE subject_id = ? AND language = ? ORDER BY created_at DESC", [subjectId, language || 'EN']);
+            return all("SELECT * FROM revision_notes WHERE subject_id = ? ORDER BY created_at DESC", [subjectId]);
         } else {
-            return all("SELECT * FROM revision_notes WHERE language = ? ORDER BY created_at DESC", [language || 'EN']);
+            return all("SELECT * FROM revision_notes ORDER BY created_at DESC", []);
         }
     },
     getAllRevisionNotes: () => all("SELECT * FROM revision_notes ORDER BY created_at DESC"),

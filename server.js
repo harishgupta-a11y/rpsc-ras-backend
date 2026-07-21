@@ -2098,11 +2098,11 @@ app.get('/api/revision-notes/topics', checkSubscription, async (req, res) => {
                        COUNT(rn.note_id) as note_count
                 FROM revision_notes rn
                 JOIN topics t ON rn.topic_id = t.topic_id
-                WHERE rn.subject_id = ? AND (rn.language = ? OR rn.language IS NULL)
+                WHERE rn.subject_id = ?
                 GROUP BY t.topic_id, t.topic_name, t.topic_name_hi
                 ORDER BY t.topic_id ASC
             `;
-            params = [language, subjectId, language];
+            params = [language, subjectId];
         } else {
             query = `
                 SELECT t.topic_id, 
@@ -2110,11 +2110,10 @@ app.get('/api/revision-notes/topics', checkSubscription, async (req, res) => {
                        COUNT(rn.note_id) as note_count
                 FROM revision_notes rn
                 JOIN topics t ON rn.topic_id = t.topic_id
-                WHERE (rn.language = ? OR rn.language IS NULL)
                 GROUP BY t.topic_id, t.topic_name, t.topic_name_hi
                 ORDER BY t.topic_id ASC
             `;
-            params = [language, language];
+            params = [language];
         }
         const rows = await db.all(query, params);
         res.status(200).json({ topics: rows || [] });
@@ -2133,11 +2132,11 @@ app.get('/api/revision-notes/subtopics', checkSubscription, async (req, res) => 
             SELECT mt.minute_topic_id, mt.minute_topic_name as subtopic_name, COUNT(rn.note_id) as note_count
             FROM revision_notes rn
             JOIN minute_topics mt ON rn.minute_topic_id = mt.minute_topic_id
-            WHERE rn.topic_id = ? AND (rn.language = ? OR rn.language IS NULL)
+            WHERE rn.topic_id = ?
             GROUP BY mt.minute_topic_id, mt.minute_topic_name
             ORDER BY mt.minute_topic_id ASC
         `;
-        const rows = await db.all(query, [topicId, language]);
+        const rows = await db.all(query, [topicId]);
         res.status(200).json({ subtopics: rows || [] });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch note subtopics: " + err.message });
