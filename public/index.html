@@ -473,6 +473,28 @@
       border-radius: var(--radius-md);
     }
 
+    /* History & Test Table */
+    .history-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+
+    .history-table th, .history-table td {
+      padding: 14px 18px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 14px;
+    }
+
+    .history-table th {
+      background: var(--bg-card);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+    }
+
     /* Login Modal */
     .modal-overlay {
       position: fixed;
@@ -525,6 +547,8 @@
     <a class="nav-item" id="nav-prelims" onclick="showScreen('prelims')"><span class="nav-icon">🎯</span> RAS Prelims MCQs</a>
     <a class="nav-item" id="nav-mains" onclick="showScreen('mains')"><span class="nav-icon">✍️</span> RAS Mains Written</a>
     <a class="nav-item" id="nav-notes" onclick="showScreen('notes')"><span class="nav-icon">📖</span> Revision Notes Reader</a>
+    <a class="nav-item" id="nav-testseries" onclick="showScreen('testseries')"><span class="nav-icon">🏆</span> Test Series Mocks</a>
+    <a class="nav-item" id="nav-history" onclick="showScreen('history')"><span class="nav-icon">📊</span> Scorecards & History</a>
 
     <div class="sidebar-footer">
       <div class="user-pill">
@@ -573,6 +597,15 @@
             <p class="card-desc">Master 5 Marks (50 words) and 10 Marks (150 words) descriptive questions with expert model answer guides.</p>
           </div>
           <button class="action-btn" style="background: var(--accent-purple);" onclick="showScreen('mains')">Open Mains Portal ➔</button>
+        </div>
+
+        <div class="glass-card">
+          <span class="card-badge" style="background: var(--accent-amber);">Full Papers</span>
+          <div>
+            <h3 class="card-title">RAS Test Series</h3>
+            <p class="card-desc">Take timed 50 Qs micro-mocks & 150 Qs full syllabus papers under real RPSC exam countdown timer.</p>
+          </div>
+          <button class="action-btn" style="background: var(--accent-amber);" onclick="showScreen('testseries')">Start Mock Test ➔</button>
         </div>
 
         <div class="glass-card">
@@ -673,10 +706,56 @@
         <select class="select-dropdown" id="notes-subject-select" onchange="fetchNotes()"></select>
       </div>
 
-      <div class="question-card" style="max-width: 900px; margin: 0 auto;">
+      <div class="question-card" style="max-width: 950px; margin: 0 auto;">
         <h2 id="note-title" style="margin-bottom: 16px; color: var(--accent-sky);">Select a Subject to Read Notes</h2>
         <hr style="border: none; border-top: 1px solid var(--border-color); margin-bottom: 20px;">
         <div id="note-content-body" style="font-size: 15px; line-height: 1.8;">Choose a subject above to load revision notes.</div>
+      </div>
+    </section>
+
+    <!-- TEST SERIES VIEW -->
+    <section id="view-testseries" class="hidden">
+      <div class="portal-grid" id="testseries-grid">
+        <div class="glass-card">
+          <span class="card-badge" style="background: var(--accent-amber);">50 Qs Sectional</span>
+          <div>
+            <h3 class="card-title">RAS Pre Micro-Sectional Mock 1</h3>
+            <p class="card-desc">50 High-Yield Questions under 60 minutes exam countdown timer.</p>
+          </div>
+          <button class="action-btn" style="background: var(--accent-amber);" onclick="alert('Starting Mock Paper...')">Start Mock Paper ➔</button>
+        </div>
+
+        <div class="glass-card">
+          <span class="card-badge" style="background: var(--accent-purple);">150 Qs Full Syllabus</span>
+          <div>
+            <h3 class="card-title">RPSC RAS Full Mock Paper 1</h3>
+            <p class="card-desc">150 Questions RPSC Standard pattern paper with full analytical scorecard.</p>
+          </div>
+          <button class="action-btn" style="background: var(--accent-purple);" onclick="alert('Starting Full Mock Paper...')">Start Full Mock ➔</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCORECARDS & HISTORY VIEW -->
+    <section id="view-history" class="hidden">
+      <div class="question-card">
+        <h2 style="margin-bottom: 8px;">My Scorecards & Test History</h2>
+        <p style="font-size: 13.5px; color: var(--text-muted); margin-bottom: 20px;">View performance records across all practice sessions and test attempts.</p>
+
+        <table class="history-table">
+          <thead>
+            <tr>
+              <th>Attempt Title</th>
+              <th>Date</th>
+              <th>Score</th>
+              <th>Accuracy</th>
+              <th>Right / Wrong</th>
+            </tr>
+          </thead>
+          <tbody id="history-rows">
+            <tr><td colspan="5" style="text-align: center; color: var(--text-muted);">Loading attempt history...</td></tr>
+          </tbody>
+        </table>
       </div>
     </section>
   </main>
@@ -739,7 +818,7 @@
     }
 
     function showScreen(screenId) {
-      ['dashboard', 'prelims', 'mains', 'notes'].forEach(s => {
+      ['dashboard', 'prelims', 'mains', 'notes', 'testseries', 'history'].forEach(s => {
         const el = document.getElementById('view-' + s);
         if (el) el.classList.add('hidden');
         const nav = document.getElementById('nav-' + s);
@@ -755,6 +834,7 @@
       if (screenId === 'prelims') fetchPrelimsQuestions();
       if (screenId === 'mains') fetchMainsQuestions();
       if (screenId === 'notes') fetchNotes();
+      if (screenId === 'history') fetchHistory();
     }
 
     async function fetchSyllabus() {
@@ -951,6 +1031,37 @@
         }
       } catch (e) {
         console.error("Failed to load notes", e);
+      }
+    }
+
+    async function fetchHistory() {
+      try {
+        const res = await fetch(`${API_BASE}/user/attempts?userId=1`, {
+          headers: { 'x-user-mobile': userMobile }
+        });
+        if (res.ok) {
+          const history = await res.json();
+          const tbody = document.getElementById('history-rows');
+          tbody.innerHTML = '';
+          if (!history.length) {
+            tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: var(--text-muted);">No past attempt records found. Start practicing to generate scorecards!</td></tr>';
+            return;
+          }
+          history.forEach(item => {
+            const tr = document.createElement('tr');
+            const date = new Date(item.attempted_timestamp).toLocaleDateString();
+            tr.innerHTML = `
+              <td style="font-weight: 700;">${item.title}</td>
+              <td style="color: var(--text-muted);">${date}</td>
+              <td style="color: var(--accent-sky); font-weight: 800;">${item.score_achieved}</td>
+              <td style="color: var(--accent-emerald); font-weight: 700;">${item.accuracy_percentage}%</td>
+              <td>✔ ${item.total_correct} &nbsp; ✖ ${item.total_incorrect}</td>
+            `;
+            tbody.appendChild(tr);
+          });
+        }
+      } catch (e) {
+        console.error("Failed to load attempt history", e);
       }
     }
 
