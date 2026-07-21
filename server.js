@@ -243,7 +243,7 @@ app.get('/api/syllabus', async (req, res) => {
 
 // --- Custom MCQ Quiz Generator Route (Gated, Strict No-Repeat Guard) ---
 app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
-    const { userId, topicIds, minuteTopicId, count, language } = req.body;
+    const { userId, topicIds, minuteTopicId, count, language, difficulty } = req.body;
     const lang = language || req.headers['x-user-language'] || 'EN';
 
     if (!userId || ((!topicIds || !Array.isArray(topicIds) || topicIds.length === 0) && !minuteTopicId)) {
@@ -251,10 +251,11 @@ app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
     }
 
     const questionCount = parseInt(count) || 10;
+    const diff = difficulty || 'ALL';
 
     try {
-        console.log(`[Quiz Engine] Compiling ${questionCount} questions. Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${lang}`);
-        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId);
+        console.log(`[Quiz Engine] Compiling ${questionCount} questions. Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${lang}`, `Difficulty: ${diff}`);
+        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId, diff);
 
         res.status(200).json({
             user_id: userId,
@@ -553,6 +554,7 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
     let topicId = req.body.topicId ? parseInt(req.body.topicId) : null;
     const minuteTopicId = req.body.minuteTopicId ? parseInt(req.body.minuteTopicId) : null;
     const count = req.body.count ? parseInt(req.body.count) : (tier === 'PRE' ? 20 : 10);
+    const difficulty = req.body.difficulty || 'FOUNDATION';
 
     if (!topicId && minuteTopicId) {
         const mt = await db.get("SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?", [minuteTopicId]);
@@ -665,8 +667,8 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
             for (const item of mcqs) {
                 // Insert English MCQ version
                 await db.run(`
-                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language, difficulty)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 `, [
                     topicId,
                     sanitizeFieldText(item.question_en),
@@ -677,13 +679,14 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                     item.correct_option.trim().toUpperCase(),
                     sanitizeFieldText(item.explanation_en),
                     minuteTopicId || null,
-                    'EN'
+                    'EN',
+                    difficulty
                 ]);
 
                 // Insert Hindi MCQ version
                 await db.run(`
-                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language, difficulty)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 `, [
                     topicId,
                     sanitizeFieldText(item.question_hi),
@@ -694,7 +697,8 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                     item.correct_option.trim().toUpperCase(),
                     sanitizeFieldText(item.explanation_hi),
                     minuteTopicId || null,
-                    'HI'
+                    'HI',
+                    difficulty
                 ]);
 
                 insertCount += 2;
@@ -1843,6 +1847,7 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
     const minuteTopicId = req.body.minuteTopicId ? parseInt(req.body.minuteTopicId) : null;
     const examId = req.body.examId ? parseInt(req.body.examId) : null;
     const language = req.body.language || 'EN';
+    const difficulty = req.body.difficulty || 'FOUNDATION';
     const gdocUrl = req.body.gdocUrl;
 
     if (!gdocUrl) {
@@ -1985,8 +1990,8 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 let successCount = 0;
                 for (const q of parsedQuestions) {
                     const tgt = resolvedTopicId || topicId;
-                    await db.run(`INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
-                        [tgt, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, minuteTopicId || null, language]);
+                    await db.run(`INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language, difficulty) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+                        [tgt, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, minuteTopicId || null, language, difficulty]);
                     successCount++;
                 }
                 console.log(`[GDoc Ingest] Ingested ${successCount} Pre MCQs.`);

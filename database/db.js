@@ -1795,22 +1795,26 @@ module.exports = {
         return subjects;
     },
 
-    // Strict No-Repeat Quiz Generator (with Language Filter & Minute Topic support)
-    generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null) => {
-        // Enforce Strict No-Repeat Guard and language filter
+    // Strict No-Repeat Quiz Generator (with Language Filter, Difficulty & Minute Topic support)
+    generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null, difficulty = 'ALL') => {
+        // Enforce Strict No-Repeat Guard, language and difficulty filter
         let questions = [];
+        const diffFilter = (difficulty && difficulty !== 'ALL') ? " AND q.difficulty = ? " : "";
+        const diffParams = (difficulty && difficulty !== 'ALL') ? [difficulty] : [];
+
         if (minuteTopicId) {
             questions = await all(`
                 SELECT q.*, t.topic_name FROM questions q
                 JOIN topics t ON q.topic_id = t.topic_id
                 WHERE q.minute_topic_id = ?
                   AND q.language = ?
+                  ${diffFilter}
                   AND q.question_id NOT IN (
                       SELECT question_id FROM user_quiz_history WHERE user_id = ?
                   )
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [minuteTopicId, language, userId, limit]);
+            `, [minuteTopicId, language, ...diffParams, userId, limit]);
         } else {
             const placeholders = topicIds.map(() => '?').join(',');
             questions = await all(`
@@ -1818,17 +1822,18 @@ module.exports = {
                 JOIN topics t ON q.topic_id = t.topic_id
                 WHERE q.topic_id IN (${placeholders})
                   AND q.language = ?
+                  ${diffFilter}
                   AND q.question_id NOT IN (
                       SELECT question_id FROM user_quiz_history WHERE user_id = ?
                   )
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [...topicIds, language, userId, limit]);
+            `, [...topicIds, language, ...diffParams, userId, limit]);
         }
 
         // Guard: Recycle previously attempted questions if the pool is exhausted
         if (questions.length < limit) {
-            console.log(`[Quiz Engine] Question pool exhausted for user ${userId} (${language}). Recycling.`);
+            console.log(`[Quiz Engine] Question pool exhausted for user ${userId} (${language}) with difficulty ${difficulty}. Recycling.`);
             const extraLimit = limit - questions.length;
             let recycledQuestions = [];
             if (minuteTopicId) {
@@ -1837,9 +1842,10 @@ module.exports = {
                     JOIN topics t ON q.topic_id = t.topic_id
                     WHERE q.minute_topic_id = ?
                       AND q.language = ?
+                      ${diffFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
-                `, [minuteTopicId, language, extraLimit]);
+                `, [minuteTopicId, language, ...diffParams, extraLimit]);
             } else {
                 const placeholders = topicIds.map(() => '?').join(',');
                 recycledQuestions = await all(`
@@ -1847,9 +1853,10 @@ module.exports = {
                     JOIN topics t ON q.topic_id = t.topic_id
                     WHERE q.topic_id IN (${placeholders})
                       AND q.language = ?
+                      ${diffFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
-                `, [...topicIds, language, extraLimit]);
+                `, [...topicIds, language, ...diffParams, extraLimit]);
             }
 
             // Combine and ensure unique questions

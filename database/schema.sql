@@ -60,6 +60,7 @@ CREATE TABLE questions (
     option_d TEXT NOT NULL,
     correct_option CHAR(1) CHECK (correct_option IN ('A', 'B', 'C', 'D')) NOT NULL,
     detailed_explanation TEXT NOT NULL,
+    difficulty VARCHAR(15) DEFAULT 'FOUNDATION',
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP NOT NULL
 );
 
