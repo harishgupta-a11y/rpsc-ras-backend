@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RPSC RAS Desktop Prep Portal | Pre, Mains, Notes & Test Series</title>
+  <title>RPSC RAS Desktop Prep Portal | Complete Exam Suite</title>
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
   
   <style>
     :root {
-      --bg-base: #080C14;
+      /* Dark Theme System */
+      --bg-base: #090D16;
       --bg-surface: #111827;
       --bg-card: #1E293B;
+      --bg-card-hover: #26334D;
       --border-color: rgba(255, 255, 255, 0.08);
       --border-hover: rgba(56, 189, 248, 0.4);
       --text-main: #F8FAFC;
@@ -35,6 +37,7 @@
       --bg-base: #F8FAFC;
       --bg-surface: #FFFFFF;
       --bg-card: #FFFFFF;
+      --bg-card-hover: #F1F5F9;
       --border-color: rgba(226, 232, 240, 0.9);
       --border-hover: rgba(2, 132, 199, 0.5);
       --text-main: #0F172A;
@@ -53,7 +56,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Inter', system-ui, -apple-system, sans-serif;
-      transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
     }
 
     body {
@@ -86,15 +89,15 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      margin-bottom: 28px;
+      margin-bottom: 24px;
       padding-left: 8px;
     }
 
     .brand-logo img {
-      width: 38px;
-      height: 38px;
-      border-radius: 10px;
-      border: 1.5px solid var(--accent-sky);
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      border: 2px solid var(--accent-sky);
     }
 
     .brand-name {
@@ -106,7 +109,7 @@
 
     .brand-sub {
       font-size: 10px;
-      font-weight: 700;
+      font-weight: 800;
       color: var(--accent-sky);
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -152,7 +155,6 @@
       text-align: center;
     }
 
-    /* Sidebar Footer */
     .sidebar-footer {
       margin-top: auto;
       padding-top: 16px;
@@ -198,7 +200,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 28px;
+      margin-bottom: 24px;
     }
 
     .page-title {
@@ -238,7 +240,82 @@
       color: #FFFFFF;
     }
 
-    /* Portal Grid */
+    /* 5-Path Sub-Navigation Segment Tabs */
+    .sub-nav-tabs {
+      display: flex;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 5px;
+      gap: 6px;
+      margin-bottom: 24px;
+      overflow-x: auto;
+    }
+
+    .sub-tab {
+      padding: 9px 18px;
+      border-radius: var(--radius-sm);
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    .sub-tab.active {
+      background: var(--accent-blue);
+      color: #FFFFFF;
+      box-shadow: 0 2px 8px rgba(14, 165, 233, 0.3);
+    }
+
+    /* Controls Bar & Dropdowns */
+    .controls-bar {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 14px 20px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    .select-dropdown {
+      padding: 10px 14px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-color);
+      background: var(--bg-card);
+      color: var(--text-main);
+      font-size: 13.5px;
+      font-weight: 600;
+      min-width: 220px;
+      cursor: pointer;
+    }
+
+    .action-btn {
+      padding: 12px 20px;
+      border-radius: var(--radius-md);
+      border: none;
+      background: var(--accent-blue);
+      color: #FFFFFF;
+      font-size: 13.5px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
+    }
+
+    .action-btn:hover {
+      opacity: 0.92;
+    }
+
+    /* Portal Cards Grid */
     .portal-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -287,52 +364,6 @@
       color: var(--text-muted);
       line-height: 1.5;
       margin-bottom: 20px;
-    }
-
-    .action-btn {
-      padding: 12px 20px;
-      border-radius: var(--radius-md);
-      border: none;
-      background: var(--accent-blue);
-      color: #FFFFFF;
-      font-size: 13.5px;
-      font-weight: 700;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      width: 100%;
-      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
-    }
-
-    .action-btn:hover {
-      opacity: 0.92;
-    }
-
-    /* Controls Bar */
-    .controls-bar {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 12px 18px;
-      margin-bottom: 24px;
-      flex-wrap: wrap;
-    }
-
-    .select-dropdown {
-      padding: 10px 14px;
-      border-radius: var(--radius-sm);
-      border: 1px solid var(--border-color);
-      background: var(--bg-card);
-      color: var(--text-main);
-      font-size: 13.5px;
-      font-weight: 600;
-      min-width: 240px;
-      cursor: pointer;
     }
 
     /* Exam Player View */
@@ -473,7 +504,34 @@
       border-radius: var(--radius-md);
     }
 
-    /* History & Test Table */
+    /* Tables & E-Reader Styles */
+    .notes-table-container {
+      overflow-x: auto;
+      margin: 16px 0;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+    }
+
+    .notes-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 600px;
+    }
+
+    .notes-table th, .notes-table td {
+      padding: 12px 16px;
+      border: 1px solid var(--border-color);
+      text-align: left;
+      font-size: 14px;
+    }
+
+    .notes-table th {
+      background: var(--bg-card);
+      font-weight: 700;
+      color: var(--accent-sky);
+    }
+
+    /* History Table */
     .history-table {
       width: 100%;
       border-collapse: collapse;
@@ -570,7 +628,7 @@
     <header class="top-header-bar">
       <div>
         <h1 class="page-title" id="page-title">RAS Desktop Dashboard</h1>
-        <p class="page-desc" id="page-desc">High-yield MCQs, Mains model answers, past papers, and revision notes on your laptop.</p>
+        <p class="page-desc" id="page-desc">Complete exam preparation suite matching 100% of your mobile app features.</p>
       </div>
       <div class="lang-switcher">
         <button class="lang-btn active" id="lang-en" onclick="setLanguage('EN')">English</button>
@@ -585,7 +643,7 @@
           <span class="card-badge" style="background: var(--accent-sky);">MCQs + PYQs</span>
           <div>
             <h3 class="card-title">RAS Prelims Portal</h3>
-            <p class="card-desc">Practice topic-wise MCQs, Foundation & Advanced level questions with instant detailed explanations.</p>
+            <p class="card-desc">Practice across 5 paths: Complete, Subject, Topic, Sub-topic & Past Years Questions (PYQs).</p>
           </div>
           <button class="action-btn" onclick="showScreen('prelims')">Open Prelims Portal ➔</button>
         </div>
@@ -612,7 +670,7 @@
           <span class="card-badge" style="background: var(--accent-emerald);">Notes & Tables</span>
           <div>
             <h3 class="card-title">Revision Notes E-Reader</h3>
-            <p class="card-desc">Read comprehensive study notes, structured comparison tables, flowcharts, and diagrams in full screen.</p>
+            <p class="card-desc">3-Level Study Material (Subject ➔ Topic ➔ Subtopic) with responsive horizontal comparison tables.</p>
           </div>
           <button class="action-btn" style="background: var(--accent-emerald);" onclick="showScreen('notes')">Open E-Reader ➔</button>
         </div>
@@ -621,16 +679,48 @@
 
     <!-- PRELIMS PRACTICE VIEW -->
     <section id="view-prelims" class="hidden">
-      <div class="controls-bar">
-        <label style="font-size: 13.5px; font-weight: 700; color: var(--text-muted);">Select Subject:</label>
-        <select class="select-dropdown" id="pre-subject-select" onchange="fetchPrelimsQuestions()"></select>
+      <!-- 5-Path Sub-Navigation Tabs -->
+      <div class="sub-nav-tabs">
+        <button class="sub-tab active" id="tab-COMPLETE" onclick="setPrePath('COMPLETE')">Complete Test</button>
+        <button class="sub-tab" id="tab-SUBJECT" onclick="setPrePath('SUBJECT')">Subject Test</button>
+        <button class="sub-tab" id="tab-TOPIC" onclick="setPrePath('TOPIC')">Topic Test</button>
+        <button class="sub-tab" id="tab-MINUTE" onclick="setPrePath('MINUTE')">Sub-topic Quiz</button>
+        <button class="sub-tab" id="tab-PYQ" onclick="setPrePath('PYQ')">Past Years Papers (PYQ)</button>
+      </div>
 
-        <label style="font-size: 13.5px; font-weight: 700; color: var(--text-muted); margin-left: 12px;">Difficulty:</label>
-        <select class="select-dropdown" id="pre-diff-select" style="min-width: 140px;" onchange="fetchPrelimsQuestions()">
-          <option value="ALL" selected>All Levels</option>
-          <option value="FOUNDATION">Foundation Tier</option>
-          <option value="ADVANCED">Advanced Tier (High Yield)</option>
-        </select>
+      <div class="controls-bar">
+        <div id="ctrl-subject-wrapper">
+          <label style="font-size: 13px; font-weight: 700; color: var(--text-muted);">Subject:</label>
+          <select class="select-dropdown" id="pre-subject-select" onchange="onPreSubjectChange()"></select>
+        </div>
+
+        <div id="ctrl-topic-wrapper" class="hidden">
+          <label style="font-size: 13px; font-weight: 700; color: var(--text-muted); margin-left: 8px;">Topic:</label>
+          <select class="select-dropdown" id="pre-topic-select" onchange="onPreTopicChange()"></select>
+        </div>
+
+        <div id="ctrl-minute-wrapper" class="hidden">
+          <label style="font-size: 13px; font-weight: 700; color: var(--text-muted); margin-left: 8px;">Sub-topic:</label>
+          <select class="select-dropdown" id="pre-minute-select" onchange="fetchPrelimsQuestions()"></select>
+        </div>
+
+        <div id="ctrl-pyq-wrapper" class="hidden">
+          <label style="font-size: 13px; font-weight: 700; color: var(--text-muted); margin-left: 8px;">Select PYQ Exam:</label>
+          <select class="select-dropdown" id="pre-pyq-select" onchange="fetchPrelimsQuestions()">
+            <option value="1">RAS Pre 2023 Paper</option>
+            <option value="2">RAS Pre 2021 Paper</option>
+            <option value="3">RAS Pre 2018 Paper</option>
+          </select>
+        </div>
+
+        <div id="ctrl-diff-wrapper">
+          <label style="font-size: 13px; font-weight: 700; color: var(--text-muted); margin-left: 8px;">Difficulty:</label>
+          <select class="select-dropdown" id="pre-diff-select" style="min-width: 130px;" onchange="fetchPrelimsQuestions()">
+            <option value="ALL" selected>All Levels</option>
+            <option value="FOUNDATION">Foundation Tier</option>
+            <option value="ADVANCED">Advanced Tier</option>
+          </select>
+        </div>
 
         <button class="action-btn" style="margin-left: auto; width: auto; padding: 8px 16px;" onclick="fetchPrelimsQuestions()">🔄 Reload Set</button>
       </div>
@@ -642,7 +732,7 @@
             <span>Hotkeys: <span class="hotkey-badge">1, 2, 3, 4</span> or <span class="hotkey-badge">A, B, C, D</span></span>
           </div>
 
-          <div class="question-stem" id="pre-q-text">Select a subject above to load questions...</div>
+          <div class="question-stem" id="pre-q-text">Loading question...</div>
           <div class="options-grid" id="pre-options"></div>
 
           <div class="explanation-box hidden" id="pre-explanation">
@@ -665,13 +755,28 @@
 
     <!-- MAINS WRITTEN VIEW -->
     <section id="view-mains" class="hidden">
-      <div class="controls-bar">
-        <label style="font-size: 13.5px; font-weight: 700; color: var(--text-muted);">Select Subject:</label>
-        <select class="select-dropdown" id="mains-subject-select" onchange="fetchMainsQuestions()"></select>
+      <!-- 5-Path Sub-Navigation Tabs for Mains -->
+      <div class="sub-nav-tabs">
+        <button class="sub-tab active" id="mains-tab-COMPLETE" onclick="setMainsPath('COMPLETE')">Complete Practice</button>
+        <button class="sub-tab" id="mains-tab-SUBJECT" onclick="setMainsPath('SUBJECT')">Subject Practice</button>
+        <button class="sub-tab" id="mains-tab-TOPIC" onclick="setMainsPath('TOPIC')">Topic Practice</button>
+        <button class="sub-tab" id="mains-tab-MINUTE" onclick="setMainsPath('MINUTE')">Sub-topic Practice</button>
+      </div>
 
-        <label style="font-size: 13.5px; font-weight: 700; color: var(--text-muted); margin-left: 12px;">Marks Type:</label>
+      <div class="controls-bar">
+        <div id="mains-ctrl-subject">
+          <label style="font-size: 13px; font-weight: 700; color: var(--text-muted);">Subject:</label>
+          <select class="select-dropdown" id="mains-subject-select" onchange="onMainsSubjectChange()"></select>
+        </div>
+
+        <div id="mains-ctrl-topic" class="hidden">
+          <label style="font-size: 13px; font-weight: 700; color: var(--text-muted); margin-left: 8px;">Topic:</label>
+          <select class="select-dropdown" id="mains-topic-select" onchange="fetchMainsQuestions()"></select>
+        </div>
+
+        <label style="font-size: 13px; font-weight: 700; color: var(--text-muted); margin-left: 8px;">Marks Filter:</label>
         <select class="select-dropdown" id="mains-marks-select" style="min-width: 160px;" onchange="fetchMainsQuestions()">
-          <option value="ALL" selected>Mixed All Marks</option>
+          <option value="ALL" selected>Mixed (5 & 10 Marks)</option>
           <option value="5_MARKS">5 Marks (50 Words)</option>
           <option value="10_MARKS">10 Marks (150 Words)</option>
         </select>
@@ -699,17 +804,23 @@
       </div>
     </section>
 
-    <!-- REVISION NOTES VIEW -->
+    <!-- REVISION NOTES HIERARCHICAL VIEW -->
     <section id="view-notes" class="hidden">
       <div class="controls-bar">
-        <label style="font-size: 13.5px; font-weight: 700; color: var(--text-muted);">Select Subject:</label>
-        <select class="select-dropdown" id="notes-subject-select" onchange="fetchNotes()"></select>
+        <label style="font-size: 13px; font-weight: 700; color: var(--text-muted);">Subject:</label>
+        <select class="select-dropdown" id="notes-subject-select" onchange="onNotesSubjectChange()"></select>
+
+        <label style="font-size: 13px; font-weight: 700; color: var(--text-muted); margin-left: 8px;">Topic:</label>
+        <select class="select-dropdown" id="notes-topic-select" onchange="onNotesTopicChange()"></select>
+
+        <label style="font-size: 13px; font-weight: 700; color: var(--text-muted); margin-left: 8px;">Sub-topic:</label>
+        <select class="select-dropdown" id="notes-subtopic-select" onchange="fetchNotesContent()"></select>
       </div>
 
       <div class="question-card" style="max-width: 950px; margin: 0 auto;">
-        <h2 id="note-title" style="margin-bottom: 16px; color: var(--accent-sky);">Select a Subject to Read Notes</h2>
+        <h2 id="note-title" style="margin-bottom: 16px; color: var(--accent-sky);">Select Subject & Topic to Read Notes</h2>
         <hr style="border: none; border-top: 1px solid var(--border-color); margin-bottom: 20px;">
-        <div id="note-content-body" style="font-size: 15px; line-height: 1.8;">Choose a subject above to load revision notes.</div>
+        <div id="note-content-body" style="font-size: 15px; line-height: 1.8;">Choose a topic above to load revision study material.</div>
       </div>
     </section>
 
@@ -722,7 +833,7 @@
             <h3 class="card-title">RAS Pre Micro-Sectional Mock 1</h3>
             <p class="card-desc">50 High-Yield Questions under 60 minutes exam countdown timer.</p>
           </div>
-          <button class="action-btn" style="background: var(--accent-amber);" onclick="alert('Starting Mock Paper...')">Start Mock Paper ➔</button>
+          <button class="action-btn" style="background: var(--accent-amber);" onclick="startTestSeriesMock(1)">Start Sectional Mock ➔</button>
         </div>
 
         <div class="glass-card">
@@ -731,7 +842,7 @@
             <h3 class="card-title">RPSC RAS Full Mock Paper 1</h3>
             <p class="card-desc">150 Questions RPSC Standard pattern paper with full analytical scorecard.</p>
           </div>
-          <button class="action-btn" style="background: var(--accent-purple);" onclick="alert('Starting Full Mock Paper...')">Start Full Mock ➔</button>
+          <button class="action-btn" style="background: var(--accent-purple);" onclick="startTestSeriesMock(2)">Start Full Mock ➔</button>
         </div>
       </div>
     </section>
@@ -775,7 +886,14 @@
     let userMobile = localStorage.getItem('userMobile') || '9876543210';
     let currentTheme = localStorage.getItem('theme') || 'dark';
     let currentLang = 'EN';
+    
     let syllabusSubjects = [];
+    let currentTopics = [];
+    let currentMinuteTopics = [];
+    
+    let currentPath = 'COMPLETE';
+    let currentMainsPath = 'COMPLETE';
+
     let currentQuestions = [];
     let currentIndex = 0;
     let userAnswers = {};
@@ -833,8 +951,39 @@
 
       if (screenId === 'prelims') fetchPrelimsQuestions();
       if (screenId === 'mains') fetchMainsQuestions();
-      if (screenId === 'notes') fetchNotes();
+      if (screenId === 'notes') onNotesSubjectChange();
       if (screenId === 'history') fetchHistory();
+    }
+
+    /* 5-PATH PRELIMS NAVIGATION LOGIC */
+    function setPrePath(path) {
+      currentPath = path;
+      ['COMPLETE', 'SUBJECT', 'TOPIC', 'MINUTE', 'PYQ'].forEach(p => {
+        const tab = document.getElementById('tab-' + p);
+        if (tab) tab.classList.toggle('active', p === path);
+      });
+
+      document.getElementById('ctrl-subject-wrapper').classList.toggle('hidden', path === 'COMPLETE');
+      document.getElementById('ctrl-topic-wrapper').classList.toggle('hidden', path !== 'TOPIC' && path !== 'MINUTE');
+      document.getElementById('ctrl-minute-wrapper').classList.toggle('hidden', path !== 'MINUTE');
+      document.getElementById('ctrl-pyq-wrapper').classList.toggle('hidden', path !== 'PYQ');
+      document.getElementById('ctrl-diff-wrapper').classList.toggle('hidden', path === 'PYQ');
+
+      fetchPrelimsQuestions();
+    }
+
+    /* 5-PATH MAINS NAVIGATION LOGIC */
+    function setMainsPath(path) {
+      currentMainsPath = path;
+      ['COMPLETE', 'SUBJECT', 'TOPIC', 'MINUTE'].forEach(p => {
+        const tab = document.getElementById('mains-tab-' + p);
+        if (tab) tab.classList.toggle('active', p === path);
+      });
+
+      document.getElementById('mains-ctrl-subject').classList.toggle('hidden', path === 'COMPLETE');
+      document.getElementById('mains-ctrl-topic').classList.toggle('hidden', path !== 'TOPIC' && path !== 'MINUTE');
+
+      fetchMainsQuestions();
     }
 
     async function fetchSyllabus() {
@@ -866,36 +1015,93 @@
         });
       });
       if (syllabusSubjects.length) {
-        fetchPrelimsQuestions();
+        onPreSubjectChange();
+        onMainsSubjectChange();
+      }
+    }
+
+    async function onPreSubjectChange() {
+      const subjectId = document.getElementById('pre-subject-select').value;
+      if (!subjectId) return;
+      try {
+        const res = await fetch(`${API_BASE}/syllabus/topics?subject_id=${subjectId}&language=${currentLang}`, {
+          headers: { 'x-user-mobile': userMobile }
+        });
+        if (res.ok) {
+          currentTopics = await res.json();
+          const topicSelect = document.getElementById('pre-topic-select');
+          topicSelect.innerHTML = '';
+          currentTopics.forEach(t => {
+            const opt = document.createElement('option');
+            opt.value = t.topic_id;
+            opt.innerText = t.topic_name;
+            topicSelect.appendChild(opt);
+          });
+          onPreTopicChange();
+        }
+      } catch (e) {
+        console.error("Failed to load topics", e);
+      }
+    }
+
+    async function onPreTopicChange() {
+      const topicId = document.getElementById('pre-topic-select').value;
+      if (!topicId) return;
+      try {
+        const res = await fetch(`${API_BASE}/syllabus/minute-topics?topic_id=${topicId}&language=${currentLang}`, {
+          headers: { 'x-user-mobile': userMobile }
+        });
+        if (res.ok) {
+          currentMinuteTopics = await res.json();
+          const minSelect = document.getElementById('pre-minute-select');
+          minSelect.innerHTML = '';
+          currentMinuteTopics.forEach(m => {
+            const opt = document.createElement('option');
+            opt.value = m.minute_topic_id;
+            opt.innerText = m.minute_topic_name;
+            minSelect.appendChild(opt);
+          });
+          fetchPrelimsQuestions();
+        }
+      } catch (e) {
+        console.error("Failed to load minute topics", e);
       }
     }
 
     async function fetchPrelimsQuestions() {
-      const subjectId = document.getElementById('pre-subject-select').value || (syllabusSubjects[0] ? syllabusSubjects[0].subject_id : 1);
+      const subjectId = document.getElementById('pre-subject-select').value;
+      const topicId = document.getElementById('pre-topic-select').value;
+      const minuteId = document.getElementById('pre-minute-select').value;
       const diff = document.getElementById('pre-diff-select').value || 'ALL';
 
-      const selectedSubject = syllabusSubjects.find(s => s.subject_id == subjectId) || syllabusSubjects[0];
-      if (!selectedSubject || !selectedSubject.topics || !selectedSubject.topics.length) {
-        document.getElementById('pre-q-text').innerText = "Loading topics...";
+      let topicIds = [];
+      let minuteTopicId = null;
+
+      if (currentPath === 'COMPLETE') {
+        syllabusSubjects.forEach(s => {
+          if (s.topics) s.topics.forEach(t => topicIds.push(t.topic_id || t));
+        });
+      } else if (currentPath === 'SUBJECT') {
+        const sub = syllabusSubjects.find(s => s.subject_id == subjectId);
+        if (sub && sub.topics) topicIds = sub.topics.map(t => t.topic_id || t);
+      } else if (currentPath === 'TOPIC') {
+        if (topicId) topicIds = [parseInt(topicId)];
+      } else if (currentPath === 'MINUTE') {
+        if (minuteId) minuteTopicId = parseInt(minuteId);
+      } else if (currentPath === 'PYQ') {
+        fetchPYQs();
         return;
       }
 
-      const topicIds = selectedSubject.topics.map(t => typeof t === 'object' ? t.topic_id : t);
-
       try {
+        const bodyObj = { userId: 1, count: 10, language: currentLang, difficulty: diff };
+        if (minuteTopicId) bodyObj.minuteTopicId = minuteTopicId;
+        else bodyObj.topicIds = topicIds;
+
         const res = await fetch(`${API_BASE}/quiz/generate`, {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-user-mobile': userMobile
-          },
-          body: JSON.stringify({
-            userId: 1,
-            topicIds: topicIds,
-            count: 10,
-            language: currentLang,
-            difficulty: diff
-          })
+          headers: { 'Content-Type': 'application/json', 'x-user-mobile': userMobile },
+          body: JSON.stringify(bodyObj)
         });
 
         if (res.ok) {
@@ -907,6 +1113,23 @@
         }
       } catch (e) {
         console.error("Failed to generate quiz", e);
+      }
+    }
+
+    async function fetchPYQs() {
+      const pyqExamId = document.getElementById('pre-pyq-select').value || 1;
+      try {
+        const res = await fetch(`${API_BASE}/pyq/questions?exam_id=${pyqExamId}&language=${currentLang}`, {
+          headers: { 'x-user-mobile': userMobile }
+        });
+        if (res.ok) {
+          currentQuestions = await res.json();
+          currentIndex = 0;
+          userAnswers = {};
+          renderQuestion();
+        }
+      } catch (e) {
+        console.error("Failed to load PYQs", e);
       }
     }
 
@@ -967,14 +1190,47 @@
       if (currentIndex > 0) { currentIndex--; renderQuestion(); }
     }
 
+    /* MAINS HANDLERS */
+    async function onMainsSubjectChange() {
+      const subjectId = document.getElementById('mains-subject-select').value;
+      if (!subjectId) return;
+      try {
+        const res = await fetch(`${API_BASE}/syllabus/topics?subject_id=${subjectId}&language=${currentLang}`, {
+          headers: { 'x-user-mobile': userMobile }
+        });
+        if (res.ok) {
+          const topics = await res.json();
+          const topicSelect = document.getElementById('mains-topic-select');
+          topicSelect.innerHTML = '';
+          topics.forEach(t => {
+            const opt = document.createElement('option');
+            opt.value = t.topic_id;
+            opt.innerText = t.topic_name;
+            topicSelect.appendChild(opt);
+          });
+          fetchMainsQuestions();
+        }
+      } catch (e) {
+        console.error("Failed to load mains topics", e);
+      }
+    }
+
     async function fetchMainsQuestions() {
-      const subjectId = document.getElementById('mains-subject-select').value || (syllabusSubjects[0] ? syllabusSubjects[0].subject_id : 1);
+      const subjectId = document.getElementById('mains-subject-select').value;
+      const topicId = document.getElementById('mains-topic-select').value;
       const marks = document.getElementById('mains-marks-select').value || 'ALL';
 
-      const selectedSubject = syllabusSubjects.find(s => s.subject_id == subjectId) || syllabusSubjects[0];
-      if (!selectedSubject || !selectedSubject.topics || !selectedSubject.topics.length) return;
-
-      const topicIds = selectedSubject.topics.map(t => typeof t === 'object' ? t.topic_id : t).join(',');
+      let topicIds = '';
+      if (currentMainsPath === 'COMPLETE') {
+        const ids = [];
+        syllabusSubjects.forEach(s => { if (s.topics) s.topics.forEach(t => ids.push(t.topic_id || t)); });
+        topicIds = ids.join(',');
+      } else if (currentMainsPath === 'SUBJECT') {
+        const sub = syllabusSubjects.find(s => s.subject_id == subjectId);
+        if (sub && sub.topics) topicIds = sub.topics.map(t => t.topic_id || t).join(',');
+      } else if (currentMainsPath === 'TOPIC' || currentMainsPath === 'MINUTE') {
+        if (topicId) topicIds = topicId;
+      }
 
       try {
         const res = await fetch(`${API_BASE}/mains/questions?topic_ids=${topicIds}&language=${currentLang}&limit=10&difficulty=${marks}`, {
@@ -1013,24 +1269,83 @@
       if (mainsIndex > 0) { mainsIndex--; renderMainsQuestion(); }
     }
 
-    async function fetchNotes() {
+    /* REVISION NOTES HIERARCHY (Subject -> Topic -> Subtopic) */
+    async function onNotesSubjectChange() {
       const subjectId = document.getElementById('notes-subject-select').value || (syllabusSubjects[0] ? syllabusSubjects[0].subject_id : 1);
       try {
         const res = await fetch(`${API_BASE}/revision-notes/topics?subject_id=${subjectId}`, {
           headers: { 'x-user-mobile': userMobile }
         });
         if (res.ok) {
+          const topics = await res.json();
+          const topicSelect = document.getElementById('notes-topic-select');
+          topicSelect.innerHTML = '';
+          topics.forEach(t => {
+            const opt = document.createElement('option');
+            opt.value = t.topic_id;
+            opt.innerText = t.topic_name;
+            topicSelect.appendChild(opt);
+          });
+          onNotesTopicChange();
+        }
+      } catch (e) {
+        console.error("Failed to load notes topics", e);
+      }
+    }
+
+    async function onNotesTopicChange() {
+      const topicId = document.getElementById('notes-topic-select').value;
+      if (!topicId) return;
+      try {
+        const res = await fetch(`${API_BASE}/revision-notes/subtopics?topic_id=${topicId}`, {
+          headers: { 'x-user-mobile': userMobile }
+        });
+        if (res.ok) {
+          const subs = await res.json();
+          const subSelect = document.getElementById('notes-subtopic-select');
+          subSelect.innerHTML = '<option value="ALL">All Sub-topics</option>';
+          subs.forEach(s => {
+            const opt = document.createElement('option');
+            opt.value = s.subtopic_id;
+            opt.innerText = s.subtopic_name;
+            subSelect.appendChild(opt);
+          });
+          fetchNotesContent();
+        }
+      } catch (e) {
+        console.error("Failed to load notes subtopics", e);
+      }
+    }
+
+    async function fetchNotesContent() {
+      const subjectId = document.getElementById('notes-subject-select').value;
+      try {
+        const res = await fetch(`${API_BASE}/revision-notes/topics?subject_id=${subjectId}`, {
+          headers: { 'x-user-mobile': userMobile }
+        });
+        if (res.ok) {
           const notes = await res.json();
-          if (notes.length && notes[0].content) {
-            document.getElementById('note-title').innerText = notes[0].title || "Revision Note";
-            document.getElementById('note-content-body').innerHTML = notes[0].content.replace(/\n/g, '<br>');
+          const topicId = document.getElementById('notes-topic-select').value;
+          const matchNote = notes.find(n => n.topic_id == topicId) || notes[0];
+          
+          if (matchNote && matchNote.content) {
+            document.getElementById('note-title').innerText = matchNote.title || matchNote.topic_name || "Revision Note";
+            
+            // Format HTML markdown tables & headings cleanly
+            let htmlContent = matchNote.content
+              .replace(/# (.*?)\n/g, '<h2 style="color: var(--accent-sky); margin: 16px 0 8px 0;">$1</h2>')
+              .replace(/## (.*?)\n/g, '<h3 style="color: var(--accent-emerald); margin: 14px 0 6px 0;">$1</h3>')
+              .replace(/### (.*?)\n/g, '<h4 style="margin: 12px 0 4px 0;">$1</h4>')
+              .replace(/\n/g, '<br>');
+
+            document.getElementById('note-content-body').innerHTML = htmlContent;
           } else {
-            document.getElementById('note-title').innerText = "No Notes Found";
-            document.getElementById('note-content-body').innerText = "Revision study material is being compiled for this subject.";
+            document.getElementById('note-title').innerText = "No Notes Available";
+            document.getElementById('note-content-body').innerText = "Study material is being compiled for this subtopic.";
           }
         }
       } catch (e) {
-        console.error("Failed to load notes", e);
+        console.error("Failed to load note content", e);
       }
     }
 
