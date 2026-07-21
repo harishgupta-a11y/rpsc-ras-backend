@@ -331,7 +331,7 @@
       color: var(--text-main);
       font-size: 13.5px;
       font-weight: 600;
-      min-width: 220px;
+      min-width: 240px;
       cursor: pointer;
     }
 
@@ -521,12 +521,10 @@
     </div>
 
     <div class="nav-section-title">Portals & Practice</div>
-    <a class="nav-item active" onclick="showScreen('dashboard')"><span class="nav-icon">🏠</span> Dashboard</a>
-    <a class="nav-item" onclick="showScreen('prelims')"><span class="nav-icon">🎯</span> RAS Prelims MCQs</a>
-    <a class="nav-item" onclick="showScreen('mains')"><span class="nav-icon">✍️</span> RAS Mains Written</a>
-    <a class="nav-item" onclick="showScreen('notes')"><span class="nav-icon">📖</span> Revision Notes Reader</a>
-    <a class="nav-item" onclick="showScreen('testseries')"><span class="nav-icon">🏆</span> Test Series Mocks</a>
-    <a class="nav-item" onclick="showScreen('history')"><span class="nav-icon">📊</span> Scorecards & History</a>
+    <a class="nav-item active" id="nav-dashboard" onclick="showScreen('dashboard')"><span class="nav-icon">🏠</span> Dashboard</a>
+    <a class="nav-item" id="nav-prelims" onclick="showScreen('prelims')"><span class="nav-icon">🎯</span> RAS Prelims MCQs</a>
+    <a class="nav-item" id="nav-mains" onclick="showScreen('mains')"><span class="nav-icon">✍️</span> RAS Mains Written</a>
+    <a class="nav-item" id="nav-notes" onclick="showScreen('notes')"><span class="nav-icon">📖</span> Revision Notes Reader</a>
 
     <div class="sidebar-footer">
       <div class="user-pill">
@@ -578,15 +576,6 @@
         </div>
 
         <div class="glass-card">
-          <span class="card-badge" style="background: var(--accent-amber);">Full Papers</span>
-          <div>
-            <h3 class="card-title">RAS Test Series</h3>
-            <p class="card-desc">Take timed 50 Qs micro-mocks & 150 Qs full syllabus papers under real RPSC exam countdown timer.</p>
-          </div>
-          <button class="action-btn" style="background: var(--accent-amber);" onclick="showScreen('testseries')">Start Mock Test ➔</button>
-        </div>
-
-        <div class="glass-card">
           <span class="card-badge" style="background: var(--accent-emerald);">Notes & Tables</span>
           <div>
             <h3 class="card-title">Revision Notes E-Reader</h3>
@@ -601,13 +590,13 @@
     <section id="view-prelims" class="hidden">
       <div class="controls-bar">
         <label style="font-size: 13.5px; font-weight: 700; color: var(--text-muted);">Select Subject:</label>
-        <select class="select-dropdown" id="pre-subject-select" onchange="loadPrelimsTopics()"></select>
+        <select class="select-dropdown" id="pre-subject-select" onchange="fetchPrelimsQuestions()"></select>
 
         <label style="font-size: 13.5px; font-weight: 700; color: var(--text-muted); margin-left: 12px;">Difficulty:</label>
         <select class="select-dropdown" id="pre-diff-select" style="min-width: 140px;" onchange="fetchPrelimsQuestions()">
-          <option value="ALL">All Levels</option>
+          <option value="ALL" selected>All Levels</option>
           <option value="FOUNDATION">Foundation Tier</option>
-          <option value="ADVANCED" selected>Advanced Tier (High Yield)</option>
+          <option value="ADVANCED">Advanced Tier (High Yield)</option>
         </select>
 
         <button class="action-btn" style="margin-left: auto; width: auto; padding: 8px 16px;" onclick="fetchPrelimsQuestions()">🔄 Reload Set</button>
@@ -649,8 +638,8 @@
 
         <label style="font-size: 13.5px; font-weight: 700; color: var(--text-muted); margin-left: 12px;">Marks Type:</label>
         <select class="select-dropdown" id="mains-marks-select" style="min-width: 160px;" onchange="fetchMainsQuestions()">
-          <option value="ALL">Mixed All Marks</option>
-          <option value="5_MARKS" selected>5 Marks (50 Words)</option>
+          <option value="ALL" selected>Mixed All Marks</option>
+          <option value="5_MARKS">5 Marks (50 Words)</option>
           <option value="10_MARKS">10 Marks (150 Words)</option>
         </select>
       </div>
@@ -707,7 +696,7 @@
     let userMobile = localStorage.getItem('userMobile') || '9876543210';
     let currentTheme = localStorage.getItem('theme') || 'dark';
     let currentLang = 'EN';
-    let syllabusData = [];
+    let syllabusSubjects = [];
     let currentQuestions = [];
     let currentIndex = 0;
     let userAnswers = {};
@@ -750,25 +739,32 @@
     }
 
     function showScreen(screenId) {
-      ['dashboard', 'prelims', 'mains', 'notes', 'testseries', 'history'].forEach(s => {
+      ['dashboard', 'prelims', 'mains', 'notes'].forEach(s => {
         const el = document.getElementById('view-' + s);
         if (el) el.classList.add('hidden');
+        const nav = document.getElementById('nav-' + s);
+        if (nav) nav.classList.remove('active');
       });
+
       const activeEl = document.getElementById('view-' + screenId);
       if (activeEl) activeEl.classList.remove('hidden');
 
-      if (screenId === 'prelims') loadPrelimsTopics();
+      const activeNav = document.getElementById('nav-' + screenId);
+      if (activeNav) activeNav.classList.add('active');
+
+      if (screenId === 'prelims') fetchPrelimsQuestions();
       if (screenId === 'mains') fetchMainsQuestions();
       if (screenId === 'notes') fetchNotes();
     }
 
     async function fetchSyllabus() {
       try {
-        const res = await fetch(`${API_BASE}/syllabus?tier=PRELIMS&language=${currentLang}`, {
+        const res = await fetch(`${API_BASE}/syllabus?tier=PRE&language=${currentLang}`, {
           headers: { 'x-user-mobile': userMobile }
         });
         if (res.ok) {
-          syllabusData = await res.json();
+          const data = await res.json();
+          syllabusSubjects = data.subjects || data.syllabus || [];
           populateSubjectSelects();
         }
       } catch (e) {
@@ -782,34 +778,31 @@
         const el = document.getElementById(id);
         if (!el) return;
         el.innerHTML = '';
-        syllabusData.forEach(sub => {
+        syllabusSubjects.forEach(sub => {
           const opt = document.createElement('option');
           opt.value = sub.subject_id;
           opt.innerText = sub.subject_name;
           el.appendChild(opt);
         });
       });
-      if (syllabusData.length) {
+      if (syllabusSubjects.length) {
         fetchPrelimsQuestions();
       }
     }
 
     async function fetchPrelimsQuestions() {
-      const subjectId = document.getElementById('pre-subject-select').value || (syllabusData[0] ? syllabusData[0].subject_id : 1);
-      const diff = document.getElementById('pre-diff-select').value || 'ADVANCED';
+      const subjectId = document.getElementById('pre-subject-select').value || (syllabusSubjects[0] ? syllabusSubjects[0].subject_id : 1);
+      const diff = document.getElementById('pre-diff-select').value || 'ALL';
+
+      const selectedSubject = syllabusSubjects.find(s => s.subject_id == subjectId) || syllabusSubjects[0];
+      if (!selectedSubject || !selectedSubject.topics || !selectedSubject.topics.length) {
+        document.getElementById('pre-q-text').innerText = "Loading topics...";
+        return;
+      }
+
+      const topicIds = selectedSubject.topics.map(t => typeof t === 'object' ? t.topic_id : t);
 
       try {
-        const topicsRes = await fetch(`${API_BASE}/syllabus/topics?subject_id=${subjectId}&language=${currentLang}`, {
-          headers: { 'x-user-mobile': userMobile }
-        });
-        const topics = await topicsRes.json();
-        const topicIds = topics.map(t => t.topic_id);
-
-        if (!topicIds.length) {
-          document.getElementById('pre-q-text').innerText = "No topics found for this subject.";
-          return;
-        }
-
         const res = await fetch(`${API_BASE}/quiz/generate`, {
           method: 'POST',
           headers: {
@@ -895,16 +888,15 @@
     }
 
     async function fetchMainsQuestions() {
-      const subjectId = document.getElementById('mains-subject-select').value || (syllabusData[0] ? syllabusData[0].subject_id : 1);
+      const subjectId = document.getElementById('mains-subject-select').value || (syllabusSubjects[0] ? syllabusSubjects[0].subject_id : 1);
       const marks = document.getElementById('mains-marks-select').value || 'ALL';
 
-      try {
-        const topicsRes = await fetch(`${API_BASE}/syllabus/topics?subject_id=${subjectId}&language=${currentLang}`, {
-          headers: { 'x-user-mobile': userMobile }
-        });
-        const topics = await topicsRes.json();
-        const topicIds = topics.map(t => t.topic_id).join(',');
+      const selectedSubject = syllabusSubjects.find(s => s.subject_id == subjectId) || syllabusSubjects[0];
+      if (!selectedSubject || !selectedSubject.topics || !selectedSubject.topics.length) return;
 
+      const topicIds = selectedSubject.topics.map(t => typeof t === 'object' ? t.topic_id : t).join(',');
+
+      try {
         const res = await fetch(`${API_BASE}/mains/questions?topic_ids=${topicIds}&language=${currentLang}&limit=10&difficulty=${marks}`, {
           headers: { 'x-user-mobile': userMobile }
         });
@@ -942,7 +934,7 @@
     }
 
     async function fetchNotes() {
-      const subjectId = document.getElementById('notes-subject-select').value || (syllabusData[0] ? syllabusData[0].subject_id : 1);
+      const subjectId = document.getElementById('notes-subject-select').value || (syllabusSubjects[0] ? syllabusSubjects[0].subject_id : 1);
       try {
         const res = await fetch(`${API_BASE}/revision-notes/topics?subject_id=${subjectId}`, {
           headers: { 'x-user-mobile': userMobile }
