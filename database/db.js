@@ -1925,15 +1925,30 @@ module.exports = {
     createPyqExam: (name, year, tier) => run("INSERT INTO pyq_exams (exam_name, exam_year, tier_type) VALUES (?, ?, ?)", [name, year, tier]),
 
     // Mains Questions Operations
-    getMainsQuestions: (topicIds, language = 'EN') => {
+    getMainsQuestions: async (topicIds, language = 'EN', difficulty = 'ALL') => {
         const placeholders = topicIds.map(() => '?').join(',');
-        return all(`
+        const params = [...topicIds, language];
+        const baseSql = `
             SELECT mq.*, t.topic_name 
             FROM mains_questions mq
             JOIN topics t ON mq.topic_id = t.topic_id
             WHERE mq.topic_id IN (${placeholders}) AND mq.language = ?
-            ORDER BY mq.sequence_order ASC
-        `, [...topicIds, language]);
+        `;
+
+        if (difficulty === '5_MARKS') {
+            const filteredSql = baseSql + ' AND mq.word_limit = 50 ORDER BY mq.sequence_order ASC';
+            const rows = await all(filteredSql, params);
+            if (rows.length > 0) return rows;
+            console.log(`[Quiz Engine] No 5 Marks questions found for topics ${topicIds.join(',')}. Falling back to all questions.`);
+        } else if (difficulty === '10_MARKS') {
+            const filteredSql = baseSql + ' AND mq.word_limit = 150 ORDER BY mq.sequence_order ASC';
+            const rows = await all(filteredSql, params);
+            if (rows.length > 0) return rows;
+            console.log(`[Quiz Engine] No 10 Marks questions found for topics ${topicIds.join(',')}. Falling back to all questions.`);
+        }
+
+        const defaultSql = baseSql + ' ORDER BY mq.sequence_order ASC';
+        return all(defaultSql, params);
     },
     createMainsQuestion: (topicId, questionText, modelAnswer, language, sequenceOrder) => run(`
         INSERT INTO mains_questions (topic_id, question_text, model_answer, language, sequence_order)

@@ -973,7 +973,10 @@ function distributeMainsQuestions(allQs, limitVal) {
     const others = [];
     
     for (const q of shuffledPool) {
-        const marks = getQuestionMarks(q.question_text);
+        const marks = q.word_limit === 150 || q.word_limit === 100 
+            ? 10 
+            : (q.word_limit === 50 ? 5 : getQuestionMarks(q.question_text));
+            
         if (marks === 10) group10.push(q);
         else if (marks === 5) group5.push(q);
         else if (marks === 2) group2.push(q);
@@ -1008,6 +1011,7 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
     const minuteTopicId = req.query.minute_topic_id ? parseInt(req.query.minute_topic_id) : null;
     const language = req.query.language || 'EN';
     const limitVal = req.query.limit ? parseInt(req.query.limit) : (req.query.count ? parseInt(req.query.count) : null);
+    const difficulty = req.query.difficulty || req.query.mains_filter || 'ALL'; // '5_MARKS', '10_MARKS', 'ALL'
 
     if (!topicIdsStr && !minuteTopicId) {
         return res.status(400).json({ error: "Topic IDs or Minute Topic ID is required." });
@@ -1025,10 +1029,20 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
                 WHERE mq.minute_topic_id = ? AND mq.language = ?
             `;
             const params = [minuteTopicId, language];
-            const allQs = await db.all(sql, params);
+            let allQs = [];
+            if (difficulty === '5_MARKS') {
+                allQs = await db.all(sql + ' AND mq.word_limit = 50', params);
+            } else if (difficulty === '10_MARKS') {
+                allQs = await db.all(sql + ' AND mq.word_limit = 150', params);
+            }
+            
+            // Fallback if empty
+            if (allQs.length === 0) {
+                allQs = await db.all(sql, params);
+            }
             questions = distributeMainsQuestions(allQs, limitVal);
         } else {
-            const allQs = await db.getMainsQuestions(topicIds, language);
+            const allQs = await db.getMainsQuestions(topicIds, language, difficulty);
             questions = distributeMainsQuestions(allQs, limitVal);
         }
         res.status(200).json({ questions });
