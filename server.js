@@ -1124,6 +1124,13 @@ function convertHtmlToTextWithListNumbering(html) {
         .replace(/<strong\b[^>]*>([\s\S]*?)<\/strong>/gi, '**$1**')
         .replace(/<b\b[^>]*>([\s\S]*?)<\/b>/gi, '**$1**');
 
+    // Convert headings to markdown
+    processedHtml = processedHtml
+        .replace(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi, '\n# $1\n')
+        .replace(/<h2\b[^>]*>([\s\S]*?)<\/h2>/gi, '\n## $1\n')
+        .replace(/<h3\b[^>]*>([\s\S]*?)<\/h3>/gi, '\n### $1\n')
+        .replace(/<h4\b[^>]*>([\s\S]*?)<\/h4>/gi, '\n#### $1\n');
+
     // Find all <ol> groups and number the <li> items
     processedHtml = processedHtml.replace(/<ol\b[^>]*>([\s\S]*?)<\/ol>/gi, (match, olContent) => {
         let index = 1;
@@ -1143,6 +1150,8 @@ function convertHtmlToTextWithListNumbering(html) {
     let text = processedHtml
         .replace(/<\/p>/gi, '\n')
         .replace(/<\/div>/gi, '\n')
+        .replace(/<\/h[1-6]>/gi, '\n')
+        .replace(/<\/li>/gi, '\n')
         .replace(/<br\s*\/?>/gi, '\n')
         .replace(/<[^>]+>/g, '') // remove all other tags
         .replace(/&nbsp;/gi, ' ')
