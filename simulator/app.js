@@ -3663,14 +3663,15 @@ async function uploadPreTopicFromGDoc() {
   const gdocUrl = document.getElementById('admin-pre-topic-gdoc-url').value.trim();
   const topicId = document.getElementById('admin-pre-topic-select').value;
   const language = document.getElementById('admin-pre-lang-select').value;
+  const difficulty = document.getElementById('admin-pre-difficulty-select') ? document.getElementById('admin-pre-difficulty-select').value : 'FOUNDATION';
   if (!gdocUrl) return alert('Please paste a Google Doc URL first.');
   if (!topicId) return alert('Please select a topic first.');
-  logAdmin(`[GDoc] Importing Pre Topic questions from Google Doc for Topic ID ${topicId} (${language})...`);
+  logAdmin(`[GDoc] Importing Pre Topic questions (${difficulty}) from Google Doc for Topic ID ${topicId} (${language})...`);
   try {
     const res = await fetch(`${API_BASE}/admin/upload-questions-from-gdoc`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ gdocUrl, topicId, language })
+      body: JSON.stringify({ gdocUrl, topicId, language, difficulty })
     });
     const data = await res.json();
     if (res.ok) { logAdmin(`[GDoc Success] ${data.message}`); alert(data.message); loadAdminPortal(); }
@@ -3683,14 +3684,15 @@ async function uploadSubtopicFromGDoc() {
   const minuteTopicId = document.getElementById('admin-subtopic-select').value;
   const topicId = document.getElementById('admin-subtopic-parent-select').value;
   const language = document.getElementById('admin-subtopic-lang-select').value;
+  const difficulty = document.getElementById('admin-subtopic-difficulty-select') ? document.getElementById('admin-subtopic-difficulty-select').value : 'FOUNDATION';
   if (!gdocUrl) return alert('Please paste a Google Doc URL first.');
   if (!minuteTopicId) return alert('Please select a sub-topic first.');
-  logAdmin(`[GDoc] Importing Sub-topic questions from Google Doc for Sub-topic ID ${minuteTopicId} (${language})...`);
+  logAdmin(`[GDoc] Importing Sub-topic questions (${difficulty}) from Google Doc for Sub-topic ID ${minuteTopicId} (${language})...`);
   try {
     const res = await fetch(`${API_BASE}/admin/upload-questions-from-gdoc`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ gdocUrl, topicId, minuteTopicId, language })
+      body: JSON.stringify({ gdocUrl, topicId, minuteTopicId, language, difficulty })
     });
     const data = await res.json();
     if (res.ok) { logAdmin(`[GDoc Success] ${data.message}`); alert(data.message); loadAdminPortal(); }
