@@ -1190,12 +1190,14 @@ function convertHtmlToTextWithListNumbering(html) {
         .replace(/<strong\b[^>]*>([\s\S]*?)<\/strong>/gi, '**$1**')
         .replace(/<b\b[^>]*>([\s\S]*?)<\/b>/gi, '**$1**');
 
-    // Convert headings to markdown
+    // Convert headings to markdown — strip inner HTML tags from heading text first to prevent
+    // stray <br>/<span> tags from inserting newlines between the "# " prefix and the heading text
+    const stripInnerTags = (s) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
     processedHtml = processedHtml
-        .replace(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi, '\n# $1\n')
-        .replace(/<h2\b[^>]*>([\s\S]*?)<\/h2>/gi, '\n## $1\n')
-        .replace(/<h3\b[^>]*>([\s\S]*?)<\/h3>/gi, '\n### $1\n')
-        .replace(/<h4\b[^>]*>([\s\S]*?)<\/h4>/gi, '\n#### $1\n');
+        .replace(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi, (m, t) => `\n# ${stripInnerTags(t)}\n`)
+        .replace(/<h2\b[^>]*>([\s\S]*?)<\/h2>/gi, (m, t) => `\n## ${stripInnerTags(t)}\n`)
+        .replace(/<h3\b[^>]*>([\s\S]*?)<\/h3>/gi, (m, t) => `\n### ${stripInnerTags(t)}\n`)
+        .replace(/<h4\b[^>]*>([\s\S]*?)<\/h4>/gi, (m, t) => `\n#### ${stripInnerTags(t)}\n`);
 
     // Find all <ol> groups and number the <li> items
     processedHtml = processedHtml.replace(/<ol\b[^>]*>([\s\S]*?)<\/ol>/gi, (match, olContent) => {
