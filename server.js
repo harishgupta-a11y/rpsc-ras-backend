@@ -1198,9 +1198,9 @@ function cleanFieldText(text) {
     // Remove common trailing AI conversational wraps from the end of the text
     clean = clean.replace(/\s*(?:Let\s+me\s+know\s+if\s+you\s+would\s+like|Hope\s+this\s+helps|Hope\s+these\s+questions|Here\s+is\s+the\s+first|designed\s+according\s+to\s+your|designed\s+to\s+challenge|following\s+the\s+same\s+strict|highly\s+utility|if\s+you\s+need\s+more)[\s\S]*$/i, '');
 
-    // Format Assertion-Reason questions: put Reason on a new line with a 1-line gap
-    clean = clean.replace(/\s*(Reason|कारण)\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
-    clean = clean.replace(/\s*(Assertion|कथन)\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+    // Format Assertion-Reason questions: put Reason on a new line with a 1-line gap (skip if part of introductory sentence)
+    clean = clean.replace(/(?<!(?:other\s+as\s+|दूसरे\s+को\s+|दूसरा\s+को\s+|और\s+))\b(Reason|कारण)\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
+    clean = clean.replace(/(?<!(?:labeled\s+as\s+|एक\s+को\s+))\b(Assertion|कथन)\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
 
     // Format statement-wise questions: put statements on separate lines with a 1-line gap
     clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
