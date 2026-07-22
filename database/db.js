@@ -1937,14 +1937,10 @@ module.exports = {
 
         if (difficulty === '5_MARKS') {
             const filteredSql = baseSql + ' AND mq.word_limit = 50 ORDER BY mq.sequence_order ASC';
-            const rows = await all(filteredSql, params);
-            if (rows.length > 0) return rows;
-            console.log(`[Quiz Engine] No 5 Marks questions found for topics ${topicIds.join(',')}. Falling back to all questions.`);
+            return all(filteredSql, params);
         } else if (difficulty === '10_MARKS') {
-            const filteredSql = baseSql + ' AND mq.word_limit = 150 ORDER BY mq.sequence_order ASC';
-            const rows = await all(filteredSql, params);
-            if (rows.length > 0) return rows;
-            console.log(`[Quiz Engine] No 10 Marks questions found for topics ${topicIds.join(',')}. Falling back to all questions.`);
+            const filteredSql = baseSql + ' AND (mq.word_limit = 150 OR mq.word_limit = 100) ORDER BY mq.sequence_order ASC';
+            return all(filteredSql, params);
         }
 
         const defaultSql = baseSql + ' ORDER BY mq.sequence_order ASC';

@@ -981,13 +981,9 @@ function distributeMainsQuestions(allQs, limitVal, targetDifficulty = 'ALL') {
     
     // STRICT MARKS LEVEL FILTERING: Never mix 10-marks into 5-marks section
     if (targetDifficulty === '5_MARKS') {
-        if (group5.length > 0) {
-            return limitVal ? group5.slice(0, limitVal) : group5;
-        }
+        return limitVal ? group5.slice(0, limitVal) : group5;
     } else if (targetDifficulty === '10_MARKS') {
-        if (group10.length > 0) {
-            return limitVal ? group10.slice(0, limitVal) : group10;
-        }
+        return limitVal ? group10.slice(0, limitVal) : group10;
     }
 
     if (!limitVal || shuffledPool.length <= limitVal) {
@@ -1022,7 +1018,10 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
     const minuteTopicId = req.query.minute_topic_id ? parseInt(req.query.minute_topic_id) : null;
     const language = req.query.language || 'EN';
     const limitVal = req.query.limit ? parseInt(req.query.limit) : (req.query.count ? parseInt(req.query.count) : null);
-    const difficulty = req.query.difficulty || req.query.mains_filter || 'ALL'; // '5_MARKS', '10_MARKS', 'ALL'
+    const difficultyRaw = req.query.difficulty || req.query.mains_filter || 'ALL'; // '5_MARKS', '10_MARKS', 'ALL'
+    let difficulty = difficultyRaw;
+    if (difficulty === 'FOUNDATION') difficulty = '5_MARKS';
+    if (difficulty === 'ADVANCED') difficulty = '10_MARKS';
 
     if (!topicIdsStr && !minuteTopicId) {
         return res.status(400).json({ error: "Topic IDs or Minute Topic ID is required." });
@@ -1032,7 +1031,6 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
 
     try {
         let questions;
-        let fallbackInfo = null;
 
         if (minuteTopicId) {
             const sql = `
@@ -1043,68 +1041,22 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
             `;
             const params = [minuteTopicId, language];
             let allQs = [];
-            let usedFallback = false;
 
             if (difficulty === '5_MARKS') {
                 allQs = await db.all(sql + ' AND mq.word_limit = 50', params);
-                if (allQs.length === 0) {
-                    allQs = await db.all(sql, params);
-                    usedFallback = true;
-                }
             } else if (difficulty === '10_MARKS') {
                 allQs = await db.all(sql + ' AND (mq.word_limit = 150 OR mq.word_limit = 100)', params);
-                if (allQs.length === 0) {
-                    allQs = await db.all(sql, params);
-                    usedFallback = true;
-                }
             } else {
                 allQs = await db.all(sql, params);
             }
 
-            if (usedFallback) {
-                const requested = difficulty === '10_MARKS' ? '10' : '5';
-                const available = difficulty === '10_MARKS' ? '5' : '10';
-                fallbackInfo = {
-                    message: language === 'HI'
-                        ? `इस विषय में केवल ${available} अंक के प्रश्न उपलब्ध हैं। ${requested} अंक के प्रश्न अभी जोड़े नहीं गए हैं।`
-                        : `Only ${available}-mark questions are available for this topic. ${requested}-mark questions have not been added yet.`
-                };
-            }
-
             questions = distributeMainsQuestions(allQs, limitVal, difficulty);
         } else {
-            let allQs = [];
-            let usedFallback = false;
-
-            if (difficulty !== 'ALL') {
-                allQs = await db.getMainsQuestions(topicIds, language, difficulty);
-                const wordLimitTarget = difficulty === '5_MARKS' ? 50 : 150;
-                const exactMatch = allQs.filter(q => q.word_limit === wordLimitTarget || (difficulty === '10_MARKS' && q.word_limit === 100));
-                if (exactMatch.length > 0) {
-                    allQs = exactMatch;
-                } else if (allQs.length > 0) {
-                    usedFallback = true;
-                }
-            } else {
-                allQs = await db.getMainsQuestions(topicIds, language, 'ALL');
-            }
-
-            if (usedFallback) {
-                const requested = difficulty === '10_MARKS' ? '10' : '5';
-                const available = difficulty === '10_MARKS' ? '5' : '10';
-                fallbackInfo = {
-                    message: language === 'HI'
-                        ? `इस विषय में केवल ${available} अंक के प्रश्न उपलब्ध हैं। ${requested} अंक के प्रश्न अभी जोड़े नहीं गए हैं।`
-                        : `Only ${available}-mark questions are available for this topic. ${requested}-mark questions have not been added yet.`
-                };
-            }
-
+            let allQs = await db.getMainsQuestions(topicIds, language, difficulty);
             questions = distributeMainsQuestions(allQs, limitVal, difficulty);
         }
 
-        const response = { questions };
-        if (fallbackInfo) response.fallback = fallbackInfo;
-        res.status(200).json(response);
+        res.status(200).json({ questions });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch Mains questions: " + err.message });
     }
@@ -2096,7 +2048,7 @@ app.get('/api/revision-notes', checkSubscription, async (req, res) => {
     }
 });
 
-// --- Revision Notes: GET topics that have notes (for hierarchical browser) ---
+// --- Revision Notes: GET topics (for hierarchical browser) ---
 app.get('/api/revision-notes/topics', checkSubscription, async (req, res) => {
     const subjectId = req.query.subject_id ? parseInt(req.query.subject_id) : null;
     const language = req.query.language || 'EN';
@@ -2107,9 +2059,10 @@ app.get('/api/revision-notes/topics', checkSubscription, async (req, res) => {
                 SELECT t.topic_id, 
                        CASE WHEN ? = 'HI' THEN COALESCE(t.topic_name_hi, t.topic_name) ELSE t.topic_name END as topic_name, 
                        COUNT(rn.note_id) as note_count
-                FROM revision_notes rn
-                JOIN topics t ON rn.topic_id = t.topic_id
-                WHERE rn.subject_id = ?
+                FROM topics t
+                JOIN units u ON t.unit_id = u.unit_id
+                LEFT JOIN revision_notes rn ON t.topic_id = rn.topic_id
+                WHERE u.subject_id = ?
                 GROUP BY t.topic_id, t.topic_name, t.topic_name_hi
                 ORDER BY t.topic_id ASC
             `;
@@ -2119,8 +2072,8 @@ app.get('/api/revision-notes/topics', checkSubscription, async (req, res) => {
                 SELECT t.topic_id, 
                        CASE WHEN ? = 'HI' THEN COALESCE(t.topic_name_hi, t.topic_name) ELSE t.topic_name END as topic_name, 
                        COUNT(rn.note_id) as note_count
-                FROM revision_notes rn
-                JOIN topics t ON rn.topic_id = t.topic_id
+                FROM topics t
+                LEFT JOIN revision_notes rn ON t.topic_id = rn.topic_id
                 GROUP BY t.topic_id, t.topic_name, t.topic_name_hi
                 ORDER BY t.topic_id ASC
             `;
@@ -2133,7 +2086,7 @@ app.get('/api/revision-notes/topics', checkSubscription, async (req, res) => {
     }
 });
 
-// --- Revision Notes: GET subtopics under a topic that have notes ---
+// --- Revision Notes: GET subtopics under a topic ---
 app.get('/api/revision-notes/subtopics', checkSubscription, async (req, res) => {
     const topicId = req.query.topic_id ? parseInt(req.query.topic_id) : null;
     const language = req.query.language || 'EN';
@@ -2141,13 +2094,13 @@ app.get('/api/revision-notes/subtopics', checkSubscription, async (req, res) => 
     try {
         const query = `
             SELECT mt.minute_topic_id, mt.minute_topic_name as subtopic_name, COUNT(rn.note_id) as note_count
-            FROM revision_notes rn
-            JOIN minute_topics mt ON rn.minute_topic_id = mt.minute_topic_id
-            WHERE rn.topic_id = ?
+            FROM minute_topics mt
+            LEFT JOIN revision_notes rn ON mt.minute_topic_id = rn.minute_topic_id
+            WHERE mt.topic_id = ? AND mt.language = ?
             GROUP BY mt.minute_topic_id, mt.minute_topic_name
             ORDER BY mt.minute_topic_id ASC
         `;
-        const rows = await db.all(query, [topicId]);
+        const rows = await db.all(query, [topicId, language]);
         res.status(200).json({ subtopics: rows || [] });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch note subtopics: " + err.message });
@@ -2181,12 +2134,23 @@ app.post('/api/admin/upload-revision-note-from-gdoc', async (req, res) => {
             return res.status(400).json({ error: "The Google Doc appears to be empty or could not be read." });
         }
 
-        // Resolve subjectId if missing
+        // Resolve topicId and subjectId if missing from minuteTopicId
         let resolvedSubjectId = subjectId ? parseInt(subjectId) : null;
-        if (!resolvedSubjectId && topicId) {
+        let resolvedTopicId = topicId ? parseInt(topicId) : null;
+
+        if (minuteTopicId && (!resolvedTopicId || !resolvedSubjectId)) {
+            const metaRow = await db.get(
+                "SELECT mt.topic_id, u.subject_id FROM minute_topics mt JOIN topics t ON mt.topic_id = t.topic_id JOIN units u ON t.unit_id = u.unit_id WHERE mt.minute_topic_id = ?",
+                [parseInt(minuteTopicId)]
+            );
+            if (metaRow) {
+                if (!resolvedTopicId) resolvedTopicId = metaRow.topic_id;
+                if (!resolvedSubjectId) resolvedSubjectId = metaRow.subject_id;
+            }
+        } else if (!resolvedSubjectId && resolvedTopicId) {
             const topicRow = await db.get(
                 "SELECT u.subject_id FROM topics t JOIN units u ON t.unit_id = u.unit_id WHERE t.topic_id = ?",
-                [parseInt(topicId)]
+                [resolvedTopicId]
             );
             if (topicRow) {
                 resolvedSubjectId = topicRow.subject_id;
@@ -2197,7 +2161,7 @@ app.post('/api/admin/upload-revision-note-from-gdoc', async (req, res) => {
             title.trim(),
             rawText.trim(),
             resolvedSubjectId,
-            topicId ? parseInt(topicId) : null,
+            resolvedTopicId,
             minuteTopicId ? parseInt(minuteTopicId) : null,
             language || 'EN'
         );
