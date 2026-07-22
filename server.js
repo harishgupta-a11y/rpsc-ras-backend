@@ -960,12 +960,7 @@ function getQuestionMarks(text) {
     return 5; // Default fallback
 }
 
-function distributeMainsQuestions(allQs, limitVal) {
-    if (!limitVal || allQs.length <= limitVal) {
-        return shuffle([...allQs]);
-    }
-    
-    // Shuffle the entire pool first to ensure randomness within marks categories
+function distributeMainsQuestions(allQs, limitVal, targetDifficulty = 'ALL') {
     const shuffledPool = shuffle([...allQs]);
     
     const group10 = [];
@@ -982,6 +977,21 @@ function distributeMainsQuestions(allQs, limitVal) {
         else if (marks === 5) group5.push(q);
         else if (marks === 2) group2.push(q);
         else others.push(q);
+    }
+    
+    // STRICT MARKS LEVEL FILTERING: Never mix 10-marks into 5-marks section
+    if (targetDifficulty === '5_MARKS') {
+        if (group5.length > 0) {
+            return limitVal ? group5.slice(0, limitVal) : group5;
+        }
+    } else if (targetDifficulty === '10_MARKS') {
+        if (group10.length > 0) {
+            return limitVal ? group10.slice(0, limitVal) : group10;
+        }
+    }
+
+    if (!limitVal || shuffledPool.length <= limitVal) {
+        return shuffledPool;
     }
     
     const selected = [];
@@ -1042,7 +1052,7 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
                     usedFallback = true;
                 }
             } else if (difficulty === '10_MARKS') {
-                allQs = await db.all(sql + ' AND mq.word_limit = 150', params);
+                allQs = await db.all(sql + ' AND (mq.word_limit = 150 OR mq.word_limit = 100)', params);
                 if (allQs.length === 0) {
                     allQs = await db.all(sql, params);
                     usedFallback = true;
@@ -1061,18 +1071,18 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
                 };
             }
 
-            questions = distributeMainsQuestions(allQs, limitVal);
+            questions = distributeMainsQuestions(allQs, limitVal, difficulty);
         } else {
-            // Check if filtered questions exist before falling back
             let allQs = [];
             let usedFallback = false;
 
             if (difficulty !== 'ALL') {
                 allQs = await db.getMainsQuestions(topicIds, language, difficulty);
-                // Detect fallback: if we got questions but none match the requested word_limit
                 const wordLimitTarget = difficulty === '5_MARKS' ? 50 : 150;
-                const exactMatch = allQs.filter(q => q.word_limit === wordLimitTarget);
-                if (exactMatch.length === 0 && allQs.length > 0) {
+                const exactMatch = allQs.filter(q => q.word_limit === wordLimitTarget || (difficulty === '10_MARKS' && q.word_limit === 100));
+                if (exactMatch.length > 0) {
+                    allQs = exactMatch;
+                } else if (allQs.length > 0) {
                     usedFallback = true;
                 }
             } else {
@@ -1089,7 +1099,7 @@ app.get('/api/mains/questions', checkSubscription, async (req, res) => {
                 };
             }
 
-            questions = distributeMainsQuestions(allQs, limitVal);
+            questions = distributeMainsQuestions(allQs, limitVal, difficulty);
         }
 
         const response = { questions };
