@@ -246,11 +246,25 @@
             <!-- Universal Hot-Folder Ingestion Card -->
             <div class="glass-card template-manager-card" style="padding: 14px; margin-bottom: 12px; border: 2px dashed var(--color-primary); background: rgba(56, 189, 248, 0.03); text-align: center;">
               <h3 style="font-size: 13px; margin-bottom: 4px; color: var(--color-primary);">🚀 Quick Ingestion Portal</h3>
-              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 12px; line-height: 1.4;">Upload any <strong>Pre MCQ</strong> or <strong>Mains Q&A</strong> DOCX file. File names must start with the topic/subtopic ID (e.g. <code>1811_cholas.docx</code> or <code>11_vedic.docx</code>).</p>
-              <label style="background:var(--color-primary-glow); border:1px solid var(--color-primary); color:white; padding:8px 16px; border-radius:var(--radius-sm); cursor:pointer; font-size:11px; display:inline-block; font-weight: bold; width: 80%; margin: 0 auto;">
-                Select & Ingest File
+              <p style="font-size: 10px; color: var(--color-text-muted); margin-bottom: 10px; line-height: 1.4;">Upload any <strong>Pre MCQ</strong> or <strong>Mains Q&A</strong> DOCX file. File names must start with the subtopic ID (e.g. <code>2278_संविधान_सभा.docx</code> or <code>1811_cholas.docx</code>).</p>
+              
+              <label style="background:var(--color-primary-glow); border:1px solid var(--color-primary); color:white; padding:8px 16px; border-radius:var(--radius-sm); cursor:pointer; font-size:11px; display:inline-block; font-weight: bold; width: 85%; margin: 0 auto 10px auto;">
+                📂 Select & Ingest Local DOCX File
                 <input type="file" accept=".docx,.txt" onchange="ingestHotFolderFile(this)" style="display:none;">
               </label>
+
+              <!-- Direct Google Doc Link Provision -->
+              <div style="margin-top: 10px; border-top: 1px dashed rgba(56, 189, 248, 0.3); padding-top: 10px; text-align: left;">
+                <p style="font-size: 10px; color: #F59E0B; margin-bottom: 6px; font-weight: bold;">
+                  🔗 Or Paste & Ingest Directly from Google Doc Link:
+                </p>
+                <div style="display: flex; gap: 6px;">
+                  <input type="text" id="quick-gdoc-url" placeholder="Paste Google Doc URL (e.g. https://docs.google.com/document/d/...)" style="background: var(--color-surface-screen); color: white; border: 1px solid #F59E0B; padding: 6px 8px; border-radius: var(--radius-sm); flex: 1; font-size: 10px; outline: none;">
+                  <button onclick="ingestQuickGDoc()" style="background: rgba(245,158,11,0.25); border: 1px solid #F59E0B; color: #F59E0B; padding: 6px 12px; border-radius: var(--radius-sm); cursor: pointer; font-size: 10px; font-weight: bold; white-space: nowrap;">
+                    🚀 Ingest Link
+                  </button>
+                </div>
+              </div>
             </div>
 
             <!-- AI Question Generator from PDF Notes -->
