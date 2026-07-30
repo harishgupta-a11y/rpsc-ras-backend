@@ -82,13 +82,20 @@ function cleanFieldText(text) {
     clean = clean.replace(/\s*(?:Let\s+me\s+know\s+if\s+you\s+would\s+like|Hope\s+this\s+helps|Hope\s+these\s+questions|Here\s+is\s+the\s+first|designed\s+according\s+to\s+your|designed\s+to\s+challenge|following\s+the\s+same\s+strict|highly\s+utility|if\s+you\s+need\s+more)[\s\S]*$/i, '');
 
     // Format Assertion-Reason questions: put Reason on a new line with a 1-line gap
-    clean = clean.replace(/\s*(Reason|कारण)\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
-    clean = clean.replace(/\s*(Assertion|कथन)\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+    clean = clean.replace(/(?<=^|\n)\s*Reason\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
+    clean = clean.replace(/(?<=^|\n)\s*Assertion\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+    clean = clean.replace(/(?<=^|\n)\s*कारण\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/g, '\n\nकारण (R):');
+    clean = clean.replace(/(?<=^|\n)\s*कथन\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/g, '\n\nकथन (A):');
 
     // Format statement-wise questions: put statements on separate lines with a 1-line gap
     clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
-    clean = clean.replace(/(?<=\s|^)(\d+)\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
+    clean = clean.replace(/(?<=^|\n)(\d{1,2})\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
     clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
+
+    // Fix legal citation word-number separation caused by GDoc parsing newlines (e.g. Article\n\n22 -> Article 22)
+    const keywords = ['Article', 'Section', 'Amendment', 'Part', 'Schedule', 'Clause', 'Act', 'अनुच्छेद', 'धारा', 'संशोधन', 'भाग', 'अनुसूची', 'अधिनियम'];
+    const articleRegex = new RegExp(`\\b(${keywords.join('|')})\\s*\\r?\\n\\r?\\n\\s*(\\d+)\\b`, 'gi');
+    clean = clean.replace(articleRegex, '$1 $2');
 
     // 6. Collapse spaces and preserve newlines (do not strip bold/italic asterisks)
     clean = clean

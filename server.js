@@ -626,6 +626,11 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                 .replace(/\r\n/g, '\n')
                 .replace(/\n{3,}/g, '\n\n')
                 .trim();
+
+            // Fix legal citation word-number separation caused by GDoc parsing newlines (e.g. Article\n\n22 -> Article 22)
+            const keywords = ['Article', 'Section', 'Amendment', 'Part', 'Schedule', 'Clause', 'Act', 'अनुच्छेद', 'धारा', 'संशोधन', 'भाग', 'अनुसूची', 'अधिनियम'];
+            const articleRegex = new RegExp(`\\b(${keywords.join('|')})\\s*\\r?\\n\\r?\\n\\s*(\\d+)\\b`, 'gi');
+            cleaned = cleaned.replace(articleRegex, '$1 $2');
             
             return cleaned;
         };
@@ -955,7 +960,7 @@ function getQuestionMarks(text) {
         return 5;
     }
     if (textLower.includes('2-marks') || textLower.includes('2 marks') || textLower.includes('2-अंक') || textLower.includes('2 अंक') || textLower.includes('15 शब्द') || textLower.includes('15 words')) {
-        return 2;
+        return 5; // Enforce new 2026 pattern: upgrade legacy 2-marks to 5-marks
     }
     return 5; // Default fallback
 }
@@ -965,7 +970,6 @@ function distributeMainsQuestions(allQs, limitVal, targetDifficulty = 'ALL') {
     
     const group10 = [];
     const group5 = [];
-    const group2 = [];
     const others = [];
     
     for (const q of shuffledPool) {
@@ -975,7 +979,6 @@ function distributeMainsQuestions(allQs, limitVal, targetDifficulty = 'ALL') {
             
         if (marks === 10) group10.push(q);
         else if (marks === 5) group5.push(q);
-        else if (marks === 2) group2.push(q);
         else others.push(q);
     }
     
@@ -991,7 +994,7 @@ function distributeMainsQuestions(allQs, limitVal, targetDifficulty = 'ALL') {
     }
     
     const selected = [];
-    const pools = [group5, group10, group2, others].filter(p => p.length > 0);
+    const pools = [group5, group10, others].filter(p => p.length > 0);
     
     if (pools.length > 0) {
         let poolIdx = 0;
@@ -1195,9 +1198,46 @@ function convertHtmlToTextWithListNumbering(html) {
     return text;
 }
 
+function joinMidSentenceLineBreaks(text) {
+    if (!text) return "";
+    const lines = text.split(/\r?\n/);
+    const joinedLines = [];
+    
+    for (let i = 0; i < lines.length; i++) {
+        let current = lines[i].trim();
+        if (!current) {
+            joinedLines.push("");
+            continue;
+        }
+        
+        if (i === lines.length - 1) {
+            joinedLines.push(current);
+            continue;
+        }
+        
+        let next = lines[i + 1].trim();
+        if (!next) {
+            joinedLines.push(current);
+            continue;
+        }
+        
+        const endsWithTerminal = /[\.\?!।:;]$/.test(current);
+        const isHeader = /^(?:Assertion\s*\(A\)|Reason\s*\(R\)|Question\s*\d+|Question|प्रश्न|उत्तर|Explanation|व्याख्या)[:\s]*$/i.test(current) || current.startsWith('#');
+        const nextStartsNewBlock = /^(?:[-*•]|\d{1,2}\.|\w\)|[A-D][\)\.:\-]|Assertion\s*\(A\)|Reason\s*\(R\)|Question|प्रश्न|उत्तर|Explanation|व्याख्या)/i.test(next) || next.startsWith('#');
+        
+        if (!endsWithTerminal && !isHeader && !nextStartsNewBlock) {
+            lines[i + 1] = current + " " + next;
+        } else {
+            joinedLines.push(current);
+        }
+    }
+    
+    return joinedLines.join('\n').replace(/\n{3,}/g, '\n\n');
+}
+
 function cleanFieldText(text) {
     if (!text) return "";
-    let clean = text.trim();
+    let clean = joinMidSentenceLineBreaks(text).trim();
     
     // 1. Remove trailing double asterisks if they were captured from the next bold trigger
     if (clean.endsWith('**')) {
@@ -1226,12 +1266,14 @@ function cleanFieldText(text) {
     clean = clean.replace(/\s*(?:Let\s+me\s+know\s+if\s+you\s+would\s+like|Hope\s+this\s+helps|Hope\s+these\s+questions|Here\s+is\s+the\s+first|designed\s+according\s+to\s+your|designed\s+to\s+challenge|following\s+the\s+same\s+strict|highly\s+utility|if\s+you\s+need\s+more)[\s\S]*$/i, '');
 
     // Format Assertion-Reason questions: put Reason on a new line with a 1-line gap (skip if part of introductory sentence)
-    clean = clean.replace(/(?<!(?:other\s+as\s+|दूसरे\s+को\s+|दूसरा\s+को\s+|और\s+))\b(Reason|कारण)\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
-    clean = clean.replace(/(?<!(?:labeled\s+as\s+|एक\s+को\s+))\b(Assertion|कथन)\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+    clean = clean.replace(/(?<=^|\n)\s*Reason\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
+    clean = clean.replace(/(?<=^|\n)\s*Assertion\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+    clean = clean.replace(/(?<=^|\n)\s*कारण\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/g, '\n\nकारण (R):');
+    clean = clean.replace(/(?<=^|\n)\s*कथन\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/g, '\n\nकथन (A):');
 
     // Format statement-wise questions: put statements on separate lines with a 1-line gap
     clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
-    clean = clean.replace(/(?<=\s|^)(\d+)\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
+    clean = clean.replace(/(?<=^|\n)(\d{1,2})\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
     clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
 
     // 6. Collapse spaces and preserve newlines (do not strip bold/italic asterisks)
