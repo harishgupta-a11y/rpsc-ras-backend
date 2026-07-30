@@ -617,12 +617,7 @@ console.log("All SQLite tables verified successfully.");
         }
         console.log("Seeded Ancient Indian History sub-topics for Pre and Mains (both EN and HI).");
 
-        // Upgrade topic names to align with the complete 2026 syllabus subtopics
-        const updatedTopicNames = require('./updated_topic_names');
-        for (const [topicId, topicName] of Object.entries(updatedTopicNames)) {
-            await run("UPDATE topics SET topic_name = ? WHERE topic_id = ?", [topicName, parseInt(topicId)]);
-        }
-        console.log("Successfully updated RPSC RAS topic names to match the 2026 syllabus.");
+        // Overwriting topic names is disabled to preserve backend database integrity as requested.
 
         // Clean up any existing placeholder/fake questions safely on startup
         await run("DELETE FROM questions WHERE question_text LIKE 'Practice MCQ Question for%'");
@@ -1074,12 +1069,14 @@ console.log("All SQLite tables verified successfully.");
                 let clean = text.trim();
                 
                 // 1. Assertion-Reason formatting
-                clean = clean.replace(/\s*(Reason|कारण)\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
-                clean = clean.replace(/\s*(Assertion|कथन)\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+                clean = clean.replace(/(?<=^|\n)\s*Reason\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
+                clean = clean.replace(/(?<=^|\n)\s*Assertion\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+                clean = clean.replace(/(?<=^|\n)\s*कारण\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/g, '\n\nकारण (R):');
+                clean = clean.replace(/(?<=^|\n)\s*कथन\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/g, '\n\nकथन (A):');
 
                 // 2. Statement-wise formatting
                 clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
-                clean = clean.replace(/(?<=\s|^)(\d+)\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
+                clean = clean.replace(/(?<=^|\n)(\d{1,2})\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
                 clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
 
                 clean = clean
@@ -1112,12 +1109,14 @@ console.log("All SQLite tables verified successfully.");
                 let clean = text.trim();
                 
                 // 1. Assertion-Reason formatting
-                clean = clean.replace(/\s*(Reason|कारण)\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
-                clean = clean.replace(/\s*(Assertion|कथन)\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+                clean = clean.replace(/(?<=^|\n)\s*Reason\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
+                clean = clean.replace(/(?<=^|\n)\s*Assertion\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
+                clean = clean.replace(/(?<=^|\n)\s*कारण\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/g, '\n\nकारण (R):');
+                clean = clean.replace(/(?<=^|\n)\s*कथन\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/g, '\n\nकथन (A):');
 
                 // 2. Statement-wise formatting
                 clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
-                clean = clean.replace(/(?<=\s|^)(\d+)\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
+                clean = clean.replace(/(?<=^|\n)(\d{1,2})\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
                 clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
 
                 clean = clean
