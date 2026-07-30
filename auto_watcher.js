@@ -211,6 +211,54 @@ function convertHtmlToTextWithListNumbering(html) {
         .replace(/&quot;/gi, '"')
         .replace(/&#39;/gi, "'");
     
+    // Generalized cleanup for subheadings and bullet points that got split onto newlines by mammoth/Google Doc conversion
+    const lines = text.split(/\r?\n/);
+    const cleanedLines = [];
+    for (let idx = 0; idx < lines.length; idx++) {
+        let current = lines[idx].trim();
+        if (!current) {
+            cleanedLines.push("");
+            continue;
+        }
+
+        // Check if current line is an emoji only (or contains only an emoji and whitespace)
+        const isEmojiOnly = /^(?:[\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDC00-\uDFFF]|[\u2300-\u23FF])\s*$/.test(current);
+        
+        if (idx + 1 < lines.length) {
+            const next = lines[idx + 1].trim();
+            if (next.startsWith(':')) {
+                current = current + next;
+                idx++; // skip next line
+            } else if (isEmojiOnly) {
+                // If current line is only an emoji, and the next line is a text title, merge them if the next line is not a main heading or list prefix
+                const nextIsListOrHeading = /^(?:Section|Phase|#|-|•|\d+\.)/i.test(next);
+                if (!nextIsListOrHeading) {
+                    current = current + " " + next;
+                    idx++; // skip next line
+                    // Now check if the line after that starts with a colon ':'
+                    if (idx + 1 < lines.length) {
+                        const nextNext = lines[idx + 1].trim();
+                        if (nextNext.startsWith(':')) {
+                            current = current + nextNext;
+                            idx++; // skip nextNext line
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Also check if current line is a bullet marker followed by only an emoji, and next line is the text
+        const isListBulletEmoji = /^[-•]\s*(?:[\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDC00-\uDFFF]|[\u2300-\u23FF])\s*$/.test(current);
+        if (isListBulletEmoji && idx + 1 < lines.length) {
+            const next = lines[idx + 1].trim();
+            current = current + " " + next;
+            idx++; // skip next line
+        }
+
+        cleanedLines.push(current);
+    }
+    text = cleanedLines.join('\n').replace(/\n{3,}/g, '\n\n');
+    
     return text;
 }
 
