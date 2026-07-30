@@ -1468,6 +1468,51 @@ app.post('/api/admin/update-popup-image', async (req, res) => {
     res.status(200).json(currentSettings);
 });
 
+// API to fetch a single question (MCQ, PYQ, or Mains descriptive) by type and ID reference
+app.get('/api/pyq-by-ref', checkSubscription, async (req, res) => {
+    const { type, id } = req.query;
+    if (!type || !id) {
+        return res.status(400).json({ error: "Missing type or id query parameters." });
+    }
+    
+    try {
+        let question = null;
+        if (type === 'pre') {
+            question = await db.get("SELECT * FROM questions WHERE question_id = ?", [parseInt(id)]);
+            if (question) {
+                question.type = 'pre';
+                question.id = question.question_id;
+            }
+        } else if (type === 'pyq') {
+            question = await db.get(`
+                SELECT pq.*, pe.exam_name, pe.exam_year 
+                FROM pyq_questions pq 
+                JOIN pyq_exams pe ON pq.exam_id = pe.exam_id 
+                WHERE pq.pyq_question_id = ?
+            `, [parseInt(id)]);
+            if (question) {
+                question.type = 'pyq';
+                question.id = question.pyq_question_id;
+            }
+        } else if (type === 'mains') {
+            question = await db.get("SELECT * FROM mains_questions WHERE mains_question_id = ?", [parseInt(id)]);
+            if (question) {
+                question.type = 'mains';
+                question.id = question.mains_question_id;
+            }
+        }
+        
+        if (!question) {
+            return res.status(404).json({ error: "Linked question not found." });
+        }
+        
+        return res.json({ question });
+    } catch (e) {
+        console.error("Error fetching linked PYQ question:", e);
+        return res.status(500).json({ error: "Failed to fetch linked question: " + e.message });
+    }
+});
+
 // --- PYQs (Previous Years Questions) Routes ---
 app.get('/api/pyqs', checkSubscription, async (req, res) => {
     const tier = req.query.tier;
