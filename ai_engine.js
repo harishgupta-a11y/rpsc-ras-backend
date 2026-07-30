@@ -450,11 +450,38 @@ Output format must strictly conform to this JSON Schema array:
     return JSON.parse(result.text);
 }
 
+/**
+ * Dynamic English-to-Hinglish explanation translation using Gemini 2.0 Flash.
+ */
+async function translateToHinglish(text) {
+    if (!genAI) {
+        console.warn("[AI Engine] Gemini client not initialized. Falling back to original text.");
+        return text;
+    }
+    try {
+        const prompt = `Translate the following English explanation into conversational Hinglish (a mixture of simple English words and Hindi grammar/structure, standard spoken language of North Indian civil services aspirants). Keep the core technical terms in English (like "Fundamental Rights", "Article 21", "Judicial Review", etc.) but explain the concept in a conversational Hinglish tutoring style. Do not include markdown headers, keep it simple and plain text suitable for TTS (Text-to-Speech) read-aloud:
+"${text}"`;
+
+        const result = await genAI.models.generateContent({
+            model: 'gemini-2.0-flash',
+            contents: prompt
+        });
+        if (result && result.text) {
+            return result.text.trim();
+        }
+        return text;
+    } catch (e) {
+        console.error("[AI Engine] Hinglish translation failed, returning original text:", e);
+        return text;
+    }
+}
+
 module.exports = {
     generateTheoryContent,
     generateMCQBatch,
     generateMainsTemplates,
     generateMCQsFromNotes,
     generateMainsFromNotes,
-    splitNotesIntoConcepts
+    splitNotesIntoConcepts,
+    translateToHinglish
 };

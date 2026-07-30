@@ -345,6 +345,18 @@ async function initDatabase() {
             );
         `);
 
+        // 17. User Bookmarks Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS user_bookmarks (
+                bookmark_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_mobile TEXT NOT NULL,
+                question_type TEXT CHECK(question_type IN ('pre', 'pyq', 'mains')) NOT NULL,
+                question_id INTEGER NOT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                UNIQUE(user_mobile, question_type, question_id)
+            );
+        `);
+
         // Migrations: Add columns if not present
         try {
             await run("ALTER TABLE questions ADD COLUMN minute_topic_id INTEGER DEFAULT NULL;");

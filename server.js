@@ -2243,6 +2243,94 @@ app.get('/api/revision-notes/subtopics', checkSubscription, async (req, res) => 
 });
 
 
+// --- Bookmarks Routes ---
+app.post('/api/bookmarks/toggle', checkSubscription, async (req, res) => {
+    const userMobile = req.headers['x-user-mobile'] || '9876543210';
+    const { question_type, question_id } = req.body;
+    if (!question_type || !question_id) {
+        return res.status(400).json({ error: "Missing question_type or question_id in request body." });
+    }
+    
+    try {
+        const existing = await db.get(
+            "SELECT bookmark_id FROM user_bookmarks WHERE user_mobile = ? AND question_type = ? AND question_id = ?",
+            [userMobile, question_type, parseInt(question_id)]
+        );
+        
+        if (existing) {
+            await db.run("DELETE FROM user_bookmarks WHERE bookmark_id = ?", [existing.bookmark_id]);
+            return res.status(200).json({ bookmarked: false });
+        } else {
+            await db.run(
+                "INSERT INTO user_bookmarks (user_mobile, question_type, question_id) VALUES (?, ?, ?)",
+                [userMobile, question_type, parseInt(question_id)]
+            );
+            return res.status(200).json({ bookmarked: true });
+        }
+    } catch (err) {
+        console.error("[Bookmarks API] Toggle error:", err);
+        return res.status(500).json({ error: "Failed to toggle bookmark: " + err.message });
+    }
+});
+
+app.get('/api/bookmarks', checkSubscription, async (req, res) => {
+    const userMobile = req.headers['x-user-mobile'] || '9876543210';
+    try {
+        const bookmarkRecords = await db.all(
+            "SELECT * FROM user_bookmarks WHERE user_mobile = ? ORDER BY created_at DESC",
+            [userMobile]
+        );
+        
+        const bookmarks = [];
+        for (const record of bookmarkRecords) {
+            let qDetail = null;
+            if (record.question_type === 'pre') {
+                qDetail = await db.get("SELECT * FROM questions WHERE question_id = ?", [record.question_id]);
+            } else if (record.question_type === 'pyq') {
+                qDetail = await db.get(`
+                    SELECT pq.*, pe.exam_name, pe.exam_year 
+                    FROM pyq_questions pq 
+                    JOIN pyq_exams pe ON pq.exam_id = pe.exam_id 
+                    WHERE pq.pyq_question_id = ?
+                `, [record.question_id]);
+            } else if (record.question_type === 'mains') {
+                qDetail = await db.get("SELECT * FROM mains_questions WHERE mains_question_id = ?", [record.question_id]);
+            }
+            
+            if (qDetail) {
+                bookmarks.push({
+                    bookmark_id: record.bookmark_id,
+                    question_type: record.question_type,
+                    question_id: record.question_id,
+                    created_at: record.created_at,
+                    details: qDetail
+                });
+            }
+        }
+        res.status(200).json({ bookmarks });
+    } catch (err) {
+        console.error("[Bookmarks API] Fetch error:", err);
+        res.status(500).json({ error: "Failed to fetch bookmarks: " + err.message });
+    }
+});
+
+// --- Dynamic Hinglish Audio Translator ---
+app.post('/api/translate-to-hinglish', checkSubscription, async (req, res) => {
+    const { text } = req.body;
+    if (!text) {
+        return res.status(400).json({ error: "Text field is required in request body." });
+    }
+    try {
+        const aiEngine = require('./ai_engine');
+        const hinglishText = await aiEngine.translateToHinglish(text);
+        res.status(200).json({ explanation: hinglishText });
+    } catch (err) {
+        console.error("[Hinglish API] Translation error:", err);
+        res.status(500).json({ error: "Translation failed: " + err.message });
+    }
+});
+
+
 // --- Revision Notes: GET all (admin-facing) ---
 app.get('/api/admin/revision-notes', async (req, res) => {
     try {
