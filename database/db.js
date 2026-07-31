@@ -562,6 +562,26 @@ async function initDatabase() {
         } catch (err) {
             console.error("Failed to seed topic translations:", err.message);
         }
+        // Create performance optimization indexes
+        try {
+            await run(`CREATE INDEX IF NOT EXISTS idx_questions_topic ON questions(topic_id);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_questions_minute ON questions(minute_topic_id);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_questions_lang ON questions(language);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_mains_questions_topic ON mains_questions(topic_id);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_mains_questions_minute ON mains_questions(minute_topic_id);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_mains_questions_lang ON mains_questions(language);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_revision_notes_minute ON revision_notes(minute_topic_id);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_revision_notes_topic ON revision_notes(topic_id);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_revision_notes_subject ON revision_notes(subject_id);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_revision_notes_lang ON revision_notes(language);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_pyq_questions_exam ON pyq_questions(exam_id);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_minute_topics_topic ON minute_topics(topic_id);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_minute_topics_lang ON minute_topics(language);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_user_bookmarks_mobile ON user_bookmarks(user_mobile);`);
+            console.log("[DB] Created all performance optimization indexes successfully.");
+        } catch (idxErr) {
+            console.error("[DB] Failed to create performance indexes:", idxErr.message);
+        }
 
 console.log("All SQLite tables verified successfully.");
 
