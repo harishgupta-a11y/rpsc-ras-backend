@@ -89,7 +89,7 @@ function cleanFieldText(text) {
 
     // Format statement-wise questions: put statements on separate lines with a 1-line gap
     clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
-    clean = clean.replace(/(?<=^|\n)(\d{1,2})\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
+    clean = clean.replace(/(?<=^|\n)([1-5])\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
     clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
 
     // Fix legal citation word-number separation caused by GDoc parsing newlines (e.g. Article\n\n22 -> Article 22)

@@ -1867,6 +1867,10 @@ module.exports = {
             console.log(`[Quiz Engine] Question pool exhausted for user ${userId} (${language}) with difficulty ${difficulty}. Recycling.`);
             const extraLimit = limit - questions.length;
             let recycledQuestions = [];
+            const loadedIds = questions.map(q => q.question_id);
+            const loadedFilter = loadedIds.length > 0 ? ` AND q.question_id NOT IN (${loadedIds.map(() => '?').join(',')}) ` : "";
+            const loadedParams = loadedIds.length > 0 ? loadedIds : [];
+
             if (minuteTopicId) {
                 recycledQuestions = await all(`
                     SELECT q.*, t.topic_name FROM questions q
@@ -1874,9 +1878,10 @@ module.exports = {
                     WHERE q.minute_topic_id = ?
                       AND q.language = ?
                       ${diffFilter}
+                      ${loadedFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
-                `, [minuteTopicId, language, ...diffParams, extraLimit]);
+                `, [minuteTopicId, language, ...diffParams, ...loadedParams, extraLimit]);
             } else {
                 const placeholders = topicIds.map(() => '?').join(',');
                 recycledQuestions = await all(`
@@ -1885,15 +1890,16 @@ module.exports = {
                     WHERE q.topic_id IN (${placeholders})
                       AND q.language = ?
                       ${diffFilter}
+                      ${loadedFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
-                `, [...topicIds, language, ...diffParams, extraLimit]);
+                `, [...topicIds, language, ...diffParams, ...loadedParams, extraLimit]);
             }
 
             // Combine and ensure unique questions
-            const loadedIds = new Set(questions.map(q => q.question_id));
+            const loadedSet = new Set(loadedIds);
             for (const rq of recycledQuestions) {
-                if (!loadedIds.has(rq.question_id) && questions.length < limit) {
+                if (!loadedSet.has(rq.question_id) && questions.length < limit) {
                     questions.push(rq);
                 }
             }

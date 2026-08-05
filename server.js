@@ -1271,7 +1271,7 @@ function joinMidSentenceLineBreaks(text) {
         
         const endsWithTerminal = /[\.\?!।:;]$/.test(current);
         const isHeader = /^(?:Assertion\s*\(A\)|Reason\s*\(R\)|Question\s*\d+|Question|प्रश्न|उत्तर|Explanation|व्याख्या)[:\s]*$/i.test(current) || current.startsWith('#');
-        const nextStartsNewBlock = /^(?:[-*•]|\d{1,2}\.|\w\)|[A-D][\)\.:\-]|Assertion\s*\(A\)|Reason\s*\(R\)|Question|प्रश्न|उत्तर|Explanation|व्याख्या)/i.test(next) || next.startsWith('#');
+        const nextStartsNewBlock = /^(?:[-*•]|[1-5]\.|\w\)|[A-D][\)\.:\-]|Assertion\s*\(A\)(?:\s*[:\-]\s*\S+|\s+\S+)|Reason\s*\(R\)(?:\s*[:\-]\s*\S+|\s+\S+)|कथन\s*[\(\[]\s*A\s*[\)\]](?:\s*[:\-]\s*\S+|\s+\S+)|कारण\s*[\(\[]\s*R\s*[\)\]](?:\s*[:\-]\s*\S+|\s+\S+)|Question|प्रश्न|उत्तर|Explanation|व्याख्या)/i.test(next) || next.startsWith('#');
         
         if (!endsWithTerminal && !isHeader && !nextStartsNewBlock) {
             lines[i + 1] = current + " " + next;
@@ -1321,7 +1321,7 @@ function cleanFieldText(text) {
 
     // Format statement-wise questions: put statements on separate lines with a 1-line gap
     clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
-    clean = clean.replace(/(?<=^|\n)(\d{1,2})\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
+    clean = clean.replace(/(?<=^|\n)([1-5])\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
     clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
 
     // 6. Collapse spaces and preserve newlines (do not strip bold/italic asterisks)
