@@ -372,11 +372,12 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             }
         }
 
-        // RPSC Marking: +1.33 for correct, -0.44 for wrong, 0 for skipped
-        const totalMarks = (correct * 1.33) - (incorrect * 0.44);
+        // Dynamic Marking based on DB settings (Default: +1.33 for correct, -0.44 for wrong)
+        const settings = await getSettingsFromDb();
+        const correctVal = parseFloat(settings.quizCorrectMarks) || 1.33;
+        const negativeVal = parseFloat(settings.quizNegativeMarks) || 0.44;
+        const totalMarks = (correct * correctVal) - (incorrect * negativeVal);
         const roundedScore = Math.round(totalMarks * 100) / 100;
-
-        // Auto-generate descriptive title from first question topic if not provided
         let attemptTitle = req.body.title || "Practice Quiz";
         if (!req.body.title && dbQuestions.length > 0) {
             const firstQ = dbQuestions[0];
@@ -1393,7 +1394,6 @@ app.post('/api/admin/clean-placeholders', async (req, res) => {
     }
 });
 
-// --- Settings (Screenshot Protection Control) Routes ---
 async function getSettingsFromDb() {
     const defaults = {
         allowScreenshots: false,
@@ -1401,7 +1401,13 @@ async function getSettingsFromDb() {
         maxSubjectCount: 150,
         maxTopicCount: 100,
         maxSubtopicCount: 50,
-        welcomePopupImageUrl: ''
+        welcomePopupImageUrl: '',
+        dashboardTitle: 'RPSC RAS Exam Prep',
+        dashboardBannerText: '🔥 Practice tests and premium notes are updated for RPSC RAS!',
+        inAppLogoUrl: '/logo.jpg',
+        themePrimaryColor: '#0EA5E9',
+        quizCorrectMarks: '1.33',
+        quizNegativeMarks: '0.44'
     };
     try {
         const rows = await db.all("SELECT * FROM app_settings");
@@ -1409,8 +1415,16 @@ async function getSettingsFromDb() {
         rows.forEach(row => {
             if (row.key === 'allowScreenshots') {
                 dbSettings[row.key] = row.value === 'true';
-            } else if (row.key === 'welcomePopupImageUrl') {
-                dbSettings[row.key] = row.value || '';
+            } else if (
+                row.key === 'welcomePopupImageUrl' || 
+                row.key === 'dashboardTitle' || 
+                row.key === 'dashboardBannerText' || 
+                row.key === 'inAppLogoUrl' || 
+                row.key === 'themePrimaryColor' ||
+                row.key === 'quizCorrectMarks' ||
+                row.key === 'quizNegativeMarks'
+            ) {
+                dbSettings[row.key] = row.value !== undefined ? row.value : defaults[row.key];
             } else {
                 dbSettings[row.key] = parseInt(row.value) || defaults[row.key];
             }
@@ -1421,7 +1435,6 @@ async function getSettingsFromDb() {
         return defaults;
     }
 }
-
 async function saveSettingsToDb(settings) {
     try {
         for (const [key, val] of Object.entries(settings)) {
@@ -1465,6 +1478,22 @@ app.post('/api/admin/update-popup-image', async (req, res) => {
     currentSettings.welcomePopupImageUrl = welcomePopupImageUrl || '';
     await saveSettingsToDb(currentSettings);
     console.log("[Admin] Updated welcomePopupImageUrl in DB:", currentSettings.welcomePopupImageUrl);
+    res.status(200).json(currentSettings);
+});
+
+app.post('/api/admin/update-ui-settings', async (req, res) => {
+    const { dashboardTitle, dashboardBannerText, inAppLogoUrl, themePrimaryColor, quizCorrectMarks, quizNegativeMarks } = req.body;
+    const currentSettings = await getSettingsFromDb();
+
+    if (dashboardTitle !== undefined) currentSettings.dashboardTitle = dashboardTitle;
+    if (dashboardBannerText !== undefined) currentSettings.dashboardBannerText = dashboardBannerText;
+    if (inAppLogoUrl !== undefined) currentSettings.inAppLogoUrl = inAppLogoUrl;
+    if (themePrimaryColor !== undefined) currentSettings.themePrimaryColor = themePrimaryColor;
+    if (quizCorrectMarks !== undefined) currentSettings.quizCorrectMarks = quizCorrectMarks;
+    if (quizNegativeMarks !== undefined) currentSettings.quizNegativeMarks = quizNegativeMarks;
+
+    await saveSettingsToDb(currentSettings);
+    console.log("[Admin] Updated UI settings in DB:", currentSettings);
     res.status(200).json(currentSettings);
 });
 
@@ -2586,9 +2615,12 @@ app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
             }
         }
         
-        const totalMarks = (correct * 1.33) - (incorrect * 0.44);
+        // Dynamic Marking based on DB settings (Default: +1.33 for correct, -0.44 for wrong)
+        const settings = await getSettingsFromDb();
+        const correctVal = parseFloat(settings.quizCorrectMarks) || 1.33;
+        const negativeVal = parseFloat(settings.quizNegativeMarks) || 0.44;
+        const totalMarks = (correct * correctVal) - (incorrect * negativeVal);
         const roundedScore = Math.round(totalMarks * 100) / 100;
-        
         await db.saveAttemptRecord(
             userId,
             'TEST_SERIES',
@@ -2599,7 +2631,6 @@ app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
             questionIds.length,
             timeTakenSeconds || 0
         );
-        
         res.status(200).json({
             total: questionIds.length,
             correct: correct,
