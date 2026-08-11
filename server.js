@@ -1082,6 +1082,53 @@ app.post('/api/admin/clear-mains-questions', async (req, res) => {
     }
 });
 
+function getImageDimensions(buffer) {
+    try {
+        if (!buffer || buffer.length < 4) return null;
+        
+        // 1. PNG check: signature 0x89 0x50 0x4E 0x47
+        if (buffer[0] === 0x89 && buffer[1] === 0x50 && buffer[2] === 0x4E && buffer[3] === 0x47) {
+            if (buffer.length >= 24) {
+                const width = buffer.readInt32BE(16);
+                const height = buffer.readInt32BE(20);
+                return { width, height };
+            }
+        }
+        
+        // 2. GIF check: GIF8
+        if (buffer[0] === 0x47 && buffer[1] === 0x49 && buffer[2] === 0x46) {
+            if (buffer.length >= 10) {
+                const width = buffer.readUInt16LE(6);
+                const height = buffer.readUInt16LE(8);
+                return { width, height };
+            }
+        }
+        
+        // 3. JPEG check: signature 0xFF 0xD8
+        if (buffer[0] === 0xFF && buffer[1] === 0xD8) {
+            let offset = 2;
+            while (offset < buffer.length - 8) {
+                if (buffer[offset] !== 0xFF) break;
+                const marker = buffer[offset + 1];
+                if (marker === 0xD9 || marker === 0xDA) break; // SOS or EOI
+                
+                const length = buffer.readUInt16BE(offset + 2);
+                
+                if ((marker >= 0xC0 && marker <= 0xC3) || (marker >= 0xC5 && marker <= 0xC7) || 
+                    (marker >= 0xC9 && marker <= 0xCB) || (marker >= 0xCD && marker <= 0xCF)) {
+                    const height = buffer.readUInt16BE(offset + 5);
+                    const width = buffer.readUInt16BE(offset + 7);
+                    return { width, height };
+                }
+                offset += 2 + length;
+            }
+        }
+    } catch (e) {
+        console.warn("[getImageDimensions] Failed parsing dimensions:", e.message);
+    }
+    return null;
+}
+
 function convertMathMLToLaTeX(html) {
     if (!html) return "";
     return html.replace(/<math\b[^>]*>([\s\S]*?)<\/math>/gi, (match) => {
@@ -1112,10 +1159,31 @@ function convertMathMLToLaTeX(html) {
 function convertHtmlToTextWithListNumbering(html) {
     let processedHtml = convertMathMLToLaTeX(html);
     
-    // Convert all images to safe placeholder strings [IMAGE:src] without newlines
-    processedHtml = processedHtml.replace(/<img\s+[^>]*src=["']([^"']+)["'][^>]*>/gi, (match, src) => {
-        const cleanSrc = src.replace(/[\r\n\s]+/g, ''); // strip all whitespaces/newlines from base64/URL string
-        return `\n[IMAGE:${cleanSrc}]\n`;
+    // Convert all images to safe placeholder strings [IMAGE:width=W&height=H:src]
+    // Differentiate between inline images (height < 50) and block images (height >= 50 or no dimensions)
+    processedHtml = processedHtml.replace(/<img\s+([^>]*?)>/gi, (match, attrs) => {
+        const srcMatch = attrs.match(/src=["']([^"']+)["']/i);
+        if (!srcMatch) return "";
+        const src = srcMatch[1].replace(/[\r\n\s]+/g, '');
+        
+        const altMatch = attrs.match(/alt=["']([^"']+)["']/i);
+        const dimensions = altMatch ? altMatch[1] : ""; // e.g. "width=12&height=22"
+        
+        if (dimensions && dimensions.startsWith('width=')) {
+            const wMatch = dimensions.match(/width=(\d+)/);
+            const hMatch = dimensions.match(/height=(\d+)/);
+            const height = hMatch ? parseInt(hMatch[1]) : 0;
+            
+            if (height > 0 && height < 50) {
+                // Inline image - keep on the same line, no surrounding newlines
+                return `[IMAGE:${dimensions}:${src}]`;
+            } else {
+                // Block image - wrap in newlines
+                return `\n[IMAGE:${dimensions}:${src}]\n`;
+            }
+        }
+        // Fallback for no dimensions - treat as block image
+        return `\n[IMAGE:${src}]\n`;
     });
 
     // Strip paragraphs inside table cells to prevent cells from splitting onto newlines
@@ -1971,8 +2039,11 @@ async function fetchGoogleDocText(gdocUrl) {
                 arrayBuffer: Buffer.from(response.data),
                 convertImage: mammoth.images.inline(async (element) => {
                     const imageBuffer = await element.read();
+                    const dimensions = getImageDimensions(imageBuffer);
+                    const altAttr = dimensions ? `width=${dimensions.width}&height=${dimensions.height}` : "";
                     return {
-                        src: `data:${element.contentType};base64,${imageBuffer.toString('base64')}`
+                        src: `data:${element.contentType};base64,${imageBuffer.toString('base64')}`,
+                        alt: altAttr
                     };
                 })
             });
