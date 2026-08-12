@@ -1,5 +1,25 @@
+
+// Helper to extract PNG width and height from base64 string
+function getPngDimensions(base64Str) {
+    try {
+        const matches = base64Str.match(/^data:image\/png;base64,(.+)$/);
+        const data = matches ? matches[1] : base64Str;
+        const buffer = Buffer.from(data, 'base64');
+        
+        // Check PNG signature: 89 50 4E 47 0D 0A 1A 0A
+        if (buffer.readUInt32BE(0) === 0x89504E47 && buffer.readUInt32BE(4) === 0x0D0A1A0A) {
+            const width = buffer.readUInt32BE(16);
+            const height = buffer.readUInt32BE(20);
+            return { width, height };
+        }
+    } catch (e) {
+        console.error("Failed to parse PNG dimensions:", e.message);
+    }
+    return null;
+}
+
 // RPSC RAS Exam Prep - Hot-Folder Document Ingestion Watcher
-// Drop DOCX or TXT files here to automatically update your SQLite database!
+// Drop PDF, DOCX, or TXT files here to automatically update your SQLite database!
 
 const fs = require('fs');
 const path = require('path');
@@ -7,22 +27,31 @@ const mammoth = require('mammoth-plus');
 const { MathMLToLaTeX } = require('mathml-to-latex');
 const sqlite3 = require('sqlite3').verbose();
 
+// PDF parser polyfill for Node environment
+if (global.DOMMatrix === undefined) {
+    global.DOMMatrix = class DOMMatrix {};
+}
+const pdfParse = require('pdf-parse');
+
 // Watcher configurations
 const WATCH_DIR = __dirname;
 const IMPORT_DIR = path.join(WATCH_DIR, 'import_directory');
 const QUIZ_DIR = path.join(IMPORT_DIR, 'quizzes');
+const THEORY_DIR = path.join(IMPORT_DIR, 'theory');
 const PROCESSED_DIR = path.join(IMPORT_DIR, 'processed');
 const DB_FILE = path.join(WATCH_DIR, 'database', 'rpsc_ras.db');
 
 // Ensure directories exist
 if (!fs.existsSync(QUIZ_DIR)) fs.mkdirSync(QUIZ_DIR, { recursive: true });
+if (!fs.existsSync(THEORY_DIR)) fs.mkdirSync(THEORY_DIR, { recursive: true });
 if (!fs.existsSync(PROCESSED_DIR)) fs.mkdirSync(PROCESSED_DIR, { recursive: true });
 
 console.log(`====================================================`);
-` RPSC RAS App: Hot-Folder File Ingestion Active`;
-console.log(` Monitoring Directory: ${QUIZ_DIR}`);
-console.log(` Target Database: ${DB_FILE}`);
-console.log(` Mode: STRICT OFFLINE REGEX PARSER (AI generation Banned)`);
+console.log(` RPSC RAS App: Hot-Folder File Ingestion Active`);
+console.log(` Monitoring Quizzes Dir: ${QUIZ_DIR}`);
+console.log(` Monitoring Theory Dir:  ${THEORY_DIR}`);
+console.log(` Target Database:        ${DB_FILE}`);
+console.log(` Mode: STRICT OFFLINE REGEX PARSER (PDF, DOCX, TXT Support)`);
 console.log(`====================================================`);
 
 // Connect to SQLite Database
@@ -39,11 +68,21 @@ setInterval(checkDirectories, 3000);
 
 async function checkDirectories() {
     try {
+        // Process Quizzes
         const quizFiles = fs.readdirSync(QUIZ_DIR);
         for (const file of quizFiles) {
             const filePath = path.join(QUIZ_DIR, file);
             if (fs.statSync(filePath).isFile()) {
-                await processIngestionFile(filePath);
+                await processIngestionFile(filePath, 'QUIZ');
+            }
+        }
+
+        // Process Theory
+        const theoryFiles = fs.readdirSync(THEORY_DIR);
+        for (const file of theoryFiles) {
+            const filePath = path.join(THEORY_DIR, file);
+            if (fs.statSync(filePath).isFile()) {
+                await processIngestionFile(filePath, 'THEORY');
             }
         }
     } catch (err) {
@@ -65,39 +104,37 @@ function cleanFieldText(text) {
     }
 
     // 2. Remove leading question number prefixes (e.g. Q. 1, Q1, Q. 1), Question 1:, 1., प्र. 1, प्रश्न 1:)
-    // Handles various delimiters like dot, closing bracket, colon, dash.
-    // Order matters: प्रश्न must come before प्र to prevent matching only the first character.
     clean = clean.replace(/^\s*(?:Q\s*\.?\s*\d*\s*[\)\.:\-]?|Question\s*\d*\s*[\)\.:\-]?|प्रश्न\s*\d*\s*[\)\.:\-]?|प्र\s*\.?\s*\d*\s*[\)\.:\-]?|\d+\s*[\)\.:\-]+)\s*/i, '');
 
     // 3. Remove option letter prefixes (e.g. A) content, B. content -> content)
     clean = clean.replace(/^\s*[A-D]\s*[\)\.:\-]+\s*/i, '');
 
-    // 4. Remove citation brackets and page references (e.g. (p. 12), (pp. 4-5), [Ref: Page 4], (Ref: 12)) but preserve pure numbers in brackets/parentheses like [1] or (2) to avoid breaking math/formula indices and lists.
+    // 4. Remove citation brackets and page references
     clean = clean.replace(/[\(\[]\s*(?:pp?\.?\s*\d+(?:\s*-\s*\d+)?|Ref\s*:\s*[^\)\]]*|Page\s*\d+)\s*[\)\]]/gi, '');
 
     // 5. Remove common conversational boilerplate/wrapper lines
     clean = clean.replace(/^\s*(?:English\s+Version|Hindi\s+Version|English\s+Translation|Hindi\s+Translation|Explanation\s*:?|व्याख्या\s*:?)\s*$/gim, '');
 
-    // Remove common trailing AI conversational wraps from the end of the text
+    // Remove common trailing AI conversational wraps
     clean = clean.replace(/\s*(?:Let\s+me\s+know\s+if\s+you\s+would\s+like|Hope\s+this\s+helps|Hope\s+these\s+questions|Here\s+is\s+the\s+first|designed\s+according\s+to\s+your|designed\s+to\s+challenge|following\s+the\s+same\s+strict|highly\s+utility|if\s+you\s+need\s+more)[\s\S]*$/i, '');
 
-    // Format Assertion-Reason questions: put Reason on a new line with a 1-line gap
+    // Format Assertion-Reason questions
     clean = clean.replace(/(?<=^|\n)\s*Reason\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/gi, '\n\nReason (R):');
     clean = clean.replace(/(?<=^|\n)\s*Assertion\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/gi, '\n\nAssertion (A):');
     clean = clean.replace(/(?<=^|\n)\s*कारण\s*[\(\[]\s*R\s*[\)\]]\s*[:\-]/g, '\n\nकारण (R):');
     clean = clean.replace(/(?<=^|\n)\s*कथन\s*[\(\[]\s*A\s*[\)\]]\s*[:\-]/g, '\n\nकथन (A):');
 
-    // Format statement-wise questions: put statements on separate lines with a 1-line gap
+    // Format statement-wise questions
     clean = clean.replace(/\s*(Statement|कथन)\s*(\d+)\s*[:\.]?\s*/gi, '\n\n$1 $2: ');
     clean = clean.replace(/(?<=^|\n)([1-5])\.\s+(?=[A-Z\u0900-\u097F])/g, '\n\n$1. ');
     clean = clean.replace(/\s*(Which of the statements?\s+given\s+above|Which of the\s+(?:above\s+)?statements?|Select the correct answer|उपरोक्त\s+(?:कथनों\s+)?(?:में\s+से\s+)?कौन|नीचे\s+दिए\s+गए\s+कूट)/gi, '\n\n$1');
 
-    // Fix legal citation word-number separation caused by GDoc parsing newlines (e.g. Article\n\n22 -> Article 22)
+    // Fix legal citation word-number separation
     const keywords = ['Article', 'Section', 'Amendment', 'Part', 'Schedule', 'Clause', 'Act', 'अनुच्छेद', 'धारा', 'संशोधन', 'भाग', 'अनुसूची', 'अधिनियम'];
     const articleRegex = new RegExp(`\\b(${keywords.join('|')})\\s*\\r?\\n\\r?\\n\\s*(\\d+)\\b`, 'gi');
     clean = clean.replace(articleRegex, '$1 $2');
 
-    // 6. Collapse spaces and preserve newlines (do not strip bold/italic asterisks)
+    // 6. Collapse spaces and preserve newlines
     clean = clean
         .replace(/[ \t]+/g, ' ')
         .replace(/[ \t]+([\.\?,;])/g, '$1')
@@ -138,13 +175,35 @@ function convertMathMLToLaTeX(html) {
 function convertHtmlToTextWithListNumbering(html) {
     let processedHtml = convertMathMLToLaTeX(html);
     
-    // Convert inline images to safe placeholder strings [IMAGE:data:...] without newlines
-    processedHtml = processedHtml.replace(/<img\s+[^>]*src=["'](data:image\/[^"']+)["'][^>]*>/gi, (match, src) => {
-        const cleanSrc = src.replace(/[\r\n\s]+/g, ''); // strip all whitespaces/newlines from base64 string
-        return `\n[IMAGE:${cleanSrc}]\n`;
+    processedHtml = processedHtml.replace(/<img\s+([^>]*?)>/gi, (match, attrs) => {
+        const srcMatch = attrs.match(/src=["']([^"']+)["']/i);
+        if (!srcMatch) return "";
+        const src = srcMatch[1].replace(/[\r\n\s]+/g, '');
+        
+        const altMatch = attrs.match(/alt=["']([^"']+)["']/i);
+        let dimensions = altMatch ? altMatch[1] : "";
+        
+        if (!dimensions && src.startsWith('data:image/png;base64,')) {
+            const dims = getPngDimensions(src);
+            if (dims) {
+                dimensions = `width=${dims.width}&height=${dims.height}`;
+            }
+        }
+        
+        if (dimensions && dimensions.startsWith('width=')) {
+            const wMatch = dimensions.match(/width=(\d+)/);
+            const hMatch = dimensions.match(/height=(\d+)/);
+            const height = hMatch ? parseInt(hMatch[1]) : 0;
+            
+            if (height > 0 && height < 60) {
+                return `[IMAGE:${dimensions}:${src}]`;
+            } else {
+                return `\n[IMAGE:${dimensions}:${src}]\n`;
+            }
+        }
+        return `\n[IMAGE:${src}]\n`;
     });
 
-    // Strip paragraphs inside table cells to prevent cells from splitting onto newlines
     processedHtml = processedHtml.replace(/<(td|th)\b[^>]*>([\s\S]*?)<\/\1>/gi, (match, tag, cellContent) => {
         let cleanCell = cellContent
             .replace(/<p\b[^>]*>/gi, '')
@@ -153,7 +212,6 @@ function convertHtmlToTextWithListNumbering(html) {
         return `<${tag}>${cleanCell}</${tag}>`;
     });
 
-    // Format tables to clean text markdown style (pipes and dashes) for mobile grid rendering
     processedHtml = processedHtml.replace(/<table\b[^>]*>([\s\S]*?)<\/table>/gi, (match, tableContent) => {
         let tableText = "\n";
         const rows = tableContent.split(/<\/tr>/gi);
@@ -178,12 +236,10 @@ function convertHtmlToTextWithListNumbering(html) {
         return tableText + "\n";
     });
 
-    // Convert strong/bold tags to markdown **bold**
     processedHtml = processedHtml
         .replace(/<strong\b[^>]*>([\s\S]*?)<\/strong>/gi, '**$1**')
         .replace(/<b\b[^>]*>([\s\S]*?)<\/b>/gi, '**$1**');
 
-    // Find all <ol> groups and number the <li> items
     processedHtml = processedHtml.replace(/<ol\b[^>]*>([\s\S]*?)<\/ol>/gi, (match, olContent) => {
         let index = 1;
         return olContent.replace(/<li>([\s\S]*?)<\/li>/gi, (liMatch, liContent) => {
@@ -191,19 +247,17 @@ function convertHtmlToTextWithListNumbering(html) {
         });
     });
     
-    // Replace all <ul> groups' <li> with "- "
     processedHtml = processedHtml.replace(/<ul\b[^>]*>([\s\S]*?)<\/ul>/gi, (match, ulContent) => {
         return ulContent.replace(/<li>([\s\S]*?)<\/li>/gi, (liMatch, liContent) => {
             return `<p>- ${liContent}</p>`;
         });
     });
 
-    // Strip other HTML tags and format paragraphs
     let text = processedHtml
         .replace(/<\/p>/gi, '\n')
         .replace(/<\/div>/gi, '\n')
         .replace(/<br\s*\/?>/gi, '\n')
-        .replace(/<[^>]+>/g, '') // remove all other tags
+        .replace(/<[^>]+>/g, '') 
         .replace(/&nbsp;/gi, ' ')
         .replace(/&lt;/gi, '<')
         .replace(/&gt;/gi, '>')
@@ -211,7 +265,6 @@ function convertHtmlToTextWithListNumbering(html) {
         .replace(/&quot;/gi, '"')
         .replace(/&#39;/gi, "'");
     
-    // Generalized cleanup for subheadings and bullet points that got split onto newlines by mammoth/Google Doc conversion
     const lines = text.split(/\r?\n/);
     const cleanedLines = [];
     for (let idx = 0; idx < lines.length; idx++) {
@@ -221,38 +274,34 @@ function convertHtmlToTextWithListNumbering(html) {
             continue;
         }
 
-        // Check if current line is an emoji only (or contains only an emoji and whitespace)
         const isEmojiOnly = /^(?:[\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDC00-\uDFFF]|[\u2300-\u23FF])\s*$/.test(current);
         
         if (idx + 1 < lines.length) {
             const next = lines[idx + 1].trim();
             if (next.startsWith(':')) {
                 current = current + next;
-                idx++; // skip next line
+                idx++;
             } else if (isEmojiOnly) {
-                // If current line is only an emoji, and the next line is a text title, merge them if the next line is not a main heading or list prefix
                 const nextIsListOrHeading = /^(?:Section|Phase|#|-|•|\d+\.)/i.test(next);
                 if (!nextIsListOrHeading) {
                     current = current + " " + next;
-                    idx++; // skip next line
-                    // Now check if the line after that starts with a colon ':'
+                    idx++;
                     if (idx + 1 < lines.length) {
                         const nextNext = lines[idx + 1].trim();
                         if (nextNext.startsWith(':')) {
                             current = current + nextNext;
-                            idx++; // skip nextNext line
+                            idx++;
                         }
                     }
                 }
             }
         }
         
-        // Also check if current line is a bullet marker followed by only an emoji, and next line is the text
         const isListBulletEmoji = /^[-•]\s*(?:[\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDC00-\uDFFF]|[\u2300-\u23FF])\s*$/.test(current);
         if (isListBulletEmoji && idx + 1 < lines.length) {
             const next = lines[idx + 1].trim();
             current = current + " " + next;
-            idx++; // skip next line
+            idx++;
         }
 
         cleanedLines.push(current);
@@ -262,11 +311,11 @@ function convertHtmlToTextWithListNumbering(html) {
     return text;
 }
 
-async function processIngestionFile(filePath) {
+async function processIngestionFile(filePath, contentType) {
     const filename = path.basename(filePath);
-    console.log(`[Watcher] New file detected: ${filename}`);
+    console.log(`[Watcher] New ${contentType} file detected: ${filename}`);
 
-    // Parse Topic ID from filename (must start with digits, e.g. "101_questions.docx" -> topic ID 101)
+    // Parse Topic ID from filename (must start with digits, e.g. "101_questions.pdf")
     const topicIdMatch = filename.match(/^(\d+)/);
     if (!topicIdMatch) {
         console.error(`[Watcher Error] Filename "${filename}" must start with a topic ID number (e.g. 101_questions.txt). Skipping.`);
@@ -293,6 +342,12 @@ async function processIngestionFile(filePath) {
                 })
             });
             rawText = convertHtmlToTextWithListNumbering(result.value);
+        } else if (ext === '.pdf') {
+            const buffer = fs.readFileSync(filePath);
+            const uint8Array = new Uint8Array(buffer);
+            const parser = new pdfParse.PDFParse(uint8Array);
+            const data = await parser.getText();
+            rawText = data.text;
         } else {
             console.error(`[Watcher Error] Unsupported file format "${ext}" for: ${filename}. Skipping.`);
             moveFileToProcessed(filePath, `error_${filename}`);
@@ -307,57 +362,127 @@ async function processIngestionFile(filePath) {
 
         console.log(`[Watcher] Extracted ${rawText.length} characters of raw text. Parsing content...`);
 
-        // Parse questions using strict regex triggers
-        const blocks = rawText.split(/(?=Q\.)/);
-        const parsedQuestions = [];
+        if (contentType === 'QUIZ') {
+            // Parse questions using strict regex triggers
+            const blocks = rawText.split(/(?=Q\.)/);
+            const parsedQuestions = [];
 
-        for (const block of blocks) {
-            if (!block.trim() || !block.includes("A)")) continue;
+            for (const block of blocks) {
+                if (!block.trim() || !block.includes("A)")) continue;
 
-            const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Aa]\))/);
-            const aMatch = block.match(/(?<=^|\s)(?<!\()[Aa]\)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Bb]\))/);
-            const bMatch = block.match(/(?<=^|\s)(?<!\()[Bb]\)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Cc]\))/);
-            const cMatch = block.match(/(?<=^|\s)(?<!\()[Cc]\)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Dd]\))/);
-            const dMatch = block.match(/(?<=^|\s)(?<!\()[Dd]\)([\s\S]*?)(?=(?:\r?\n[ \t]*(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?<=^|\s)(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?:\r?\n[ \t]*|(?<=^|\s))\*?\*?(?:Correct Answer|Correct Option|Answer Key|सही उत्तर)\*?\*?\s+))/i);
-            const correctMatch = block.match(/(?:\r?\n[ \t]*(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?<=^|\s)(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?:\r?\n[ \t]*|(?<=^|\s))\*?\*?(?:Correct Answer|Correct Option|Answer Key|सही उत्तर)\*?\*?\s+)\s*([A-D])(?!\w|[\)\.])/i);
-            const expMatch = block.match(/(?:\r?\n[ \t]*(?:\*?\*?(?:Explanation|Exp|व्याख्या|स्पष्टीकरण)\*?\*?)\s*[:\-]|(?<=^|\s)(?:\*?\*?(?:Explanation|Exp|व्याख्या|स्पष्टीकरण)\*?\*?)\s*[:\-][\s\S]*?)\s*([\s\S]*?)$/i);
+                const qMatch = block.match(/(?:Q\.|प्र\.|प्रश्न\s*\d*[:\.]?)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Aa]\))/);
+                const aMatch = block.match(/(?<=^|\s)(?<!\()[Aa]\)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Bb]\))/);
+                const bMatch = block.match(/(?<=^|\s)(?<!\()[Bb]\)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Cc]\))/);
+                const cMatch = block.match(/(?<=^|\s)(?<!\()[Cc]\)([\s\S]*?)(?=(?<=^|\s)(?<!\()[Dd]\))/);
+                const dMatch = block.match(/(?<=^|\s)(?<!\()[Dd]\)([\s\S]*?)(?=(?:\r?\n[ \t]*(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?<=^|\s)(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?:\r?\n[ \t]*|(?<=^|\s))\*?\*?(?:Correct Answer|Correct Option|Answer Key|सही उत्तर)\*?\*?\s+))/i);
+                const correctMatch = block.match(/(?:\r?\n[ \t]*(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?<=^|\s)(?:\*?\*?(?:Correct Answer|Correct Option|Answer Key|Correct|Answer|उत्तर|सही उत्तर)\*?\*?)\s*[:\-]|(?:\r?\n[ \t]*|(?<=^|\s))\*?\*?(?:Correct Answer|Correct Option|Answer Key|सही उत्तर)\*?\*?\s+)\s*([A-D])(?!\w|[\)\.])/i);
+                const expMatch = block.match(/(?:\r?\n[ \t]*(?:\*?\*?(?:Explanation|Exp|व्याख्या|स्पष्टीकरण)\*?\*?)\s*[:\-]|(?<=^|\s)(?:\*?\*?(?:Explanation|Exp|व्याख्या|स्पष्टीकरण)\*?\*?)\s*[:\-][\s\S]*?)\s*([\s\S]*?)$/i);
 
-            if (qMatch && aMatch && bMatch && correctMatch) {
-                parsedQuestions.push({
-                    question_text: cleanFieldText(qMatch[1]),
-                    option_a: cleanFieldText(aMatch[1]),
-                    option_b: cleanFieldText(bMatch[1]),
-                    option_c: cMatch ? cleanFieldText(cMatch[1]) : "None of the above",
-                    option_d: dMatch ? cleanFieldText(dMatch[1]) : "All of the above",
-                    correct_option: correctMatch[1].trim().toUpperCase(),
-                    detailed_explanation: expMatch ? cleanFieldText(expMatch[1]) : "Ingested from watcher hot-folder."
-                });
+                if (qMatch && aMatch && bMatch && correctMatch) {
+                    parsedQuestions.push({
+                        question_text: cleanFieldText(qMatch[1]),
+                        option_a: cleanFieldText(aMatch[1]),
+                        option_b: cleanFieldText(bMatch[1]),
+                        option_c: cMatch ? cleanFieldText(cMatch[1]) : "None of the above",
+                        option_d: dMatch ? cleanFieldText(dMatch[1]) : "All of the above",
+                        correct_option: correctMatch[1].trim().toUpperCase(),
+                        detailed_explanation: expMatch ? cleanFieldText(expMatch[1]) : "Ingested from watcher hot-folder."
+                    });
+                }
             }
-        }
 
-        if (parsedQuestions.length === 0) {
-            console.error(`[Watcher Error] Could not parse any questions from "${filename}". Check triggers formatting.`);
-            moveFileToProcessed(filePath, `error_${filename}`);
-            return;
-        }
+            if (parsedQuestions.length === 0) {
+                console.error(`[Watcher Error] Could not parse any questions from "${filename}". Check triggers formatting.`);
+                moveFileToProcessed(filePath, `error_${filename}`);
+                return;
+            }
 
-        // Insert into SQLite database
-        let successCount = 0;
-        for (const q of parsedQuestions) {
-            await new Promise((resolve, reject) => {
-                db.run(`
-                    INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                `, [topicId, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation], function(err) {
+            // Insert into SQLite database
+            let successCount = 0;
+            for (const q of parsedQuestions) {
+                await new Promise((resolve, reject) => {
+                    db.run(`
+                        INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                    `, [topicId, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation], function(err) {
+                        if (err) reject(err);
+                        else resolve(this);
+                    });
+                });
+                successCount++;
+            }
+
+            console.log(`[Watcher Success] Ingested ${successCount} questions into Topic ID ${topicId} from ${filename}`);
+            moveFileToProcessed(filePath, filename);
+
+        } else if (contentType === 'THEORY') {
+            // Find subject_id and topic_name for topicId
+            const topicRow = await new Promise((resolve, reject) => {
+                db.get(`
+                    SELECT u.subject_id, t.topic_name 
+                    FROM topics t 
+                    JOIN units u ON t.unit_id = u.unit_id 
+                    WHERE t.topic_id = ?
+                `, [topicId], (err, row) => {
                     if (err) reject(err);
-                    else resolve(this);
+                    else resolve(row);
                 });
             });
-            successCount++;
-        }
 
-        console.log(`[Watcher Success] Ingested ${successCount} questions into Topic ID ${topicId} from ${filename}`);
-        moveFileToProcessed(filePath, filename);
+            if (!topicRow) {
+                console.error(`[Watcher Error] Topic ID ${topicId} not found in database. Skipping.`);
+                moveFileToProcessed(filePath, `error_${filename}`);
+                return;
+            }
+
+            const subjectId = topicRow.subject_id;
+            const topicName = topicRow.topic_name;
+
+            // Determine language from filename
+            const isHi = filename.toLowerCase().includes('_hi') || filename.toLowerCase().includes('hindi');
+            const language = isHi ? 'HI' : 'EN';
+
+            const cleanContent = rawText.trim();
+
+            // Check if revision note already exists
+            const existingNote = await new Promise((resolve, reject) => {
+                db.get(`
+                    SELECT note_id FROM revision_notes 
+                    WHERE topic_id = ? AND language = ?
+                `, [topicId, language], (err, row) => {
+                    if (err) reject(err);
+                    else resolve(row);
+                });
+            });
+
+            if (existingNote) {
+                // Update
+                await new Promise((resolve, reject) => {
+                    db.run(`
+                        UPDATE revision_notes 
+                        SET title = ?, content = ? 
+                        WHERE note_id = ?
+                    `, [`${topicName} Notes`, cleanContent, existingNote.note_id], function(err) {
+                        if (err) reject(err);
+                        else resolve(this);
+                    });
+                });
+                console.log(`[Watcher Success] Updated theory notes for Topic ID ${topicId} [${language}] from ${filename}`);
+            } else {
+                // Insert
+                await new Promise((resolve, reject) => {
+                    db.run(`
+                        INSERT INTO revision_notes (title, content, subject_id, topic_id, language, created_at)
+                        VALUES (?, ?, ?, ?, ?, ?)
+                    `, [`${topicName} Notes`, cleanContent, subjectId, topicId, language, Date.now()], function(err) {
+                        if (err) reject(err);
+                        else resolve(this);
+                    });
+                });
+                console.log(`[Watcher Success] Ingested new theory notes for Topic ID ${topicId} [${language}] from ${filename}`);
+            }
+            moveFileToProcessed(filePath, filename);
+        }
 
     } catch (err) {
         console.error(`[Watcher Error] Failed to process ${filename}:`, err.message);

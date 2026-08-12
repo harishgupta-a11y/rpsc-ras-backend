@@ -1,3 +1,23 @@
+
+// Helper to extract PNG width and height from base64 string
+function getPngDimensions(base64Str) {
+    try {
+        const matches = base64Str.match(/^data:image\/png;base64,(.+)$/);
+        const data = matches ? matches[1] : base64Str;
+        const buffer = Buffer.from(data, 'base64');
+        
+        // Check PNG signature: 89 50 4E 47 0D 0A 1A 0A
+        if (buffer.readUInt32BE(0) === 0x89504E47 && buffer.readUInt32BE(4) === 0x0D0A1A0A) {
+            const width = buffer.readUInt32BE(16);
+            const height = buffer.readUInt32BE(20);
+            return { width, height };
+        }
+    } catch (e) {
+        console.error("Failed to parse PNG dimensions:", e.message);
+    }
+    return null;
+}
+
 // RPSC RAS Exam Prep Backend Service
 const express = require('express');
 const cors = require('cors');
@@ -1167,22 +1187,30 @@ function convertHtmlToTextWithListNumbering(html) {
         const src = srcMatch[1].replace(/[\r\n\s]+/g, '');
         
         const altMatch = attrs.match(/alt=["']([^"']+)["']/i);
-        const dimensions = altMatch ? altMatch[1] : ""; // e.g. "width=12&height=22"
+        let dimensions = altMatch ? altMatch[1] : ""; // e.g. "width=12&height=22"
+        
+        // Auto-decode dimensions for base64 PNGs on the fly
+        if (!dimensions && src.startsWith('data:image/png;base64,')) {
+            const dims = getPngDimensions(src);
+            if (dims) {
+                dimensions = `width=${dims.width}&height=${dims.height}`;
+            }
+        }
         
         if (dimensions && dimensions.startsWith('width=')) {
             const wMatch = dimensions.match(/width=(\d+)/);
             const hMatch = dimensions.match(/height=(\d+)/);
             const height = hMatch ? parseInt(hMatch[1]) : 0;
             
-            if (height > 0 && height < 50) {
-                // Inline image - keep on the same line, no surrounding newlines
+            if (height > 0 && height < 60) {
+                // Inline / math equation image - keep on same line
                 return `[IMAGE:${dimensions}:${src}]`;
             } else {
                 // Block image - wrap in newlines
                 return `\n[IMAGE:${dimensions}:${src}]\n`;
             }
         }
-        // Fallback for no dimensions - treat as block image
+        // Fallback for no dimensions
         return `\n[IMAGE:${src}]\n`;
     });
 
