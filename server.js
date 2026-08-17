@@ -1770,6 +1770,53 @@ app.get('/api/pyq/count-by-subtopic', checkSubscription, async (req, res) => {
     }
 });
 
+// Fetch PYQs by subject ID
+app.get('/api/pyq/by-subject', checkSubscription, async (req, res) => {
+    const subjectId = parseInt(req.query.subject_id);
+    const lang = req.query.language || 'EN';
+    if (!subjectId) {
+        return res.status(400).json({ error: "Subject ID is required." });
+    }
+    try {
+        const questions = await db.all(`
+            SELECT pq.* 
+            FROM pyq_questions pq
+            JOIN topics t ON pq.topic_id = t.topic_id
+            JOIN units u ON t.unit_id = u.unit_id
+            WHERE u.subject_id = ? AND pq.language = ?
+            ORDER BY pq.sequence_order ASC
+        `, [subjectId, lang]);
+        res.status(200).json({ questions });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch subject PYQs: " + err.message });
+    }
+});
+
+// Fetch PYQs by list of topic IDs
+app.get('/api/pyq/by-topics', checkSubscription, async (req, res) => {
+    const topicIdsStr = req.query.topic_ids;
+    const lang = req.query.language || 'EN';
+    if (!topicIdsStr) {
+        return res.status(400).json({ error: "Topic IDs are required." });
+    }
+    const topicIds = topicIdsStr.split(',').map(id => parseInt(id)).filter(id => !isNaN(id));
+    if (topicIds.length === 0) {
+        return res.status(400).json({ error: "Invalid Topic IDs." });
+    }
+    try {
+        const placeholders = topicIds.map(() => '?').join(',');
+        const questions = await db.all(`
+            SELECT pq.* 
+            FROM pyq_questions pq
+            WHERE pq.topic_id IN (${placeholders}) AND pq.language = ?
+            ORDER BY pq.sequence_order ASC
+        `, [...topicIds, lang]);
+        res.status(200).json({ questions });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch topics PYQs: " + err.message });
+    }
+});
+
 app.post('/api/admin/create-pyq-exam', async (req, res) => {
     const { name, year, tier } = req.body;
     if (!name || !year || !tier) {

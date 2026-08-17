@@ -1811,12 +1811,49 @@ module.exports = {
         const unitNameCol = language === 'HI' ? 'unit_name_hi' : 'unit_name';
         const topicNameCol = language === 'HI' ? 'topic_name_hi' : 'topic_name';
 
+        // Fetch bulk PYQ counts to avoid round-trips
+        const subjectPyqMap = {};
+        const topicPyqMap = {};
+        if (tier === 'PRE') {
+            try {
+                const subCounts = await all(`
+                    SELECT u.subject_id, COUNT(*) as count 
+                    FROM pyq_questions pq
+                    JOIN topics t ON pq.topic_id = t.topic_id
+                    JOIN units u ON t.unit_id = u.unit_id
+                    GROUP BY u.subject_id
+                `);
+                subCounts.forEach(row => {
+                    subjectPyqMap[row.subject_id] = row.count;
+                });
+
+                const topCounts = await all(`
+                    SELECT topic_id, COUNT(*) as count 
+                    FROM pyq_questions 
+                    WHERE topic_id IS NOT NULL
+                    GROUP BY topic_id
+                `);
+                topCounts.forEach(row => {
+                    topicPyqMap[row.topic_id] = row.count;
+                });
+            } catch (e) {
+                console.error("Failed to load bulk PYQ counts:", e);
+            }
+        }
+
         const subjects = await all(`SELECT subject_id, tier_type, COALESCE(${nameCol}, subject_name) as subject_name FROM subjects WHERE tier_type = ?`, [tier]);
         for (const sub of subjects) {
+            sub.pyq_count = subjectPyqMap[sub.subject_id] || 0;
+
             const units = await all(`SELECT unit_id, subject_id, COALESCE(${unitNameCol}, unit_name) as unit_name FROM units WHERE subject_id = ?`, [sub.subject_id]);
             let flatTopics = [];
             for (const unit of units) {
                 const topics = await all(`SELECT topic_id, unit_id, COALESCE(${topicNameCol}, topic_name) as topic_name FROM topics WHERE unit_id = ?`, [unit.unit_id]);
+                
+                for (const t of topics) {
+                    t.pyq_count = topicPyqMap[t.topic_id] || 0;
+                }
+
                 unit.topics = topics;
                 flatTopics = flatTopics.concat(topics);
             }
