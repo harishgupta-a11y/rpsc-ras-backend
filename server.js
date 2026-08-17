@@ -1741,6 +1741,35 @@ app.get('/api/pyq/questions', checkSubscription, async (req, res) => {
     }
 });
 
+// Fetch PYQs by subtopic ID for Prelims Practice Integration
+app.get('/api/pyq/by-subtopic', checkSubscription, async (req, res) => {
+    const minuteTopicId = parseInt(req.query.minute_topic_id);
+    const lang = req.query.language || 'EN';
+    if (!minuteTopicId) {
+        return res.status(400).json({ error: "Minute Topic ID is required." });
+    }
+    try {
+        const questions = await db.all("SELECT * FROM pyq_questions WHERE minute_topic_id = ? AND language = ? ORDER BY sequence_order ASC", [minuteTopicId, lang]);
+        res.status(200).json({ questions });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch subtopic PYQs: " + err.message });
+    }
+});
+
+// Fetch count of PYQs by subtopic ID for Revision Notes and Subject Hub
+app.get('/api/pyq/count-by-subtopic', checkSubscription, async (req, res) => {
+    const minuteTopicId = parseInt(req.query.minute_topic_id);
+    if (!minuteTopicId) {
+        return res.status(400).json({ error: "Minute Topic ID is required." });
+    }
+    try {
+        const row = await db.get("SELECT COUNT(*) as count FROM pyq_questions WHERE minute_topic_id = ?", [minuteTopicId]);
+        res.status(200).json({ count: row ? row.count : 0 });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch subtopic PYQs count: " + err.message });
+    }
+});
+
 app.post('/api/admin/create-pyq-exam', async (req, res) => {
     const { name, year, tier } = req.body;
     if (!name || !year || !tier) {
@@ -2421,9 +2450,22 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 for (const q of parsedQuestions) {
                     currentSeq++;
                     await db.run(`
-                        INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                    `, [examId, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, language, currentSeq]);
+                        INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order, topic_id, minute_topic_id)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    `, [
+                        examId, 
+                        q.question_text, 
+                        q.option_a, 
+                        q.option_b, 
+                        q.option_c, 
+                        q.option_d, 
+                        q.correct_option, 
+                        q.detailed_explanation, 
+                        language, 
+                        currentSeq, 
+                        topicId || null, 
+                        minuteTopicId || null
+                    ]);
                     successCount++;
                 }
                 console.log(`[GDoc Ingest] Ingested ${successCount} PYQ MCQs.`);
