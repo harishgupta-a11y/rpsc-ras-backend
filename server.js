@@ -47,7 +47,7 @@ async function convertLaTeXTextToImages(text) {
         if (formulaText) {
             try {
                 const encoded = encodeURIComponent(formulaText);
-                const url = `https://latex.codecogs.com/png.image?\\dpi{150}\\bg{white}${encoded}`;
+                const url = `https://latex.codecogs.com/png.image?\\dpi{150}\\bg{transparent}${encoded}`;
                 const response = await axios.get(url, { responseType: 'arraybuffer', timeout: 10000 });
                 if (response.status === 200) {
                     const base64 = Buffer.from(response.data).toString('base64');
@@ -70,7 +70,7 @@ async function convertLaTeXTextToImages(text) {
         if (formulaText && !/^\d+$/.test(formulaText) && !formulaText.startsWith('₹') && !/^[0-9\s,\.]+$/.test(formulaText)) {
             try {
                 const encoded = encodeURIComponent(formulaText);
-                const url = `https://latex.codecogs.com/png.image?\\dpi{150}\\bg{white}${encoded}`;
+                const url = `https://latex.codecogs.com/png.image?\\dpi{150}\\bg{transparent}${encoded}`;
                 const response = await axios.get(url, { responseType: 'arraybuffer', timeout: 10000 });
                 if (response.status === 200) {
                     const base64 = Buffer.from(response.data).toString('base64');
