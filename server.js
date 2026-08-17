@@ -2385,6 +2385,7 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 let optionA = '', optionB = '', optionC = '', optionD = '', correctOpt = '', explanationLines = [];
                 let parsingExplanation = false;
                 let currentOptionState = '';
+                let qTopicName = '', qSubtopicName = '';
                 
                 for (const line of lines) {
                     const trimmedLine = line.trim();
@@ -2452,6 +2453,22 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                         explanationLines.push(trimmedLine.replace(/^(?:Explanation|Exp|Solution|उत्तर|व्याख्या)[:\s]/i, '').trim());
                         continue;
                     }
+
+                    // Topic tag trigger
+                    if (/^(?:Topic|Syllabus Topic)[:\s]/i.test(trimmedLine)) {
+                        currentOptionState = '';
+                        parsingExplanation = false;
+                        qTopicName = trimmedLine.replace(/^(?:Topic|Syllabus Topic)[:\s]*/i, '').trim();
+                        continue;
+                    }
+
+                    // Subtopic tag trigger
+                    if (/^(?:Subtopic|Sub-topic|Minute Topic)[:\s]/i.test(trimmedLine)) {
+                        currentOptionState = '';
+                        parsingExplanation = false;
+                        qSubtopicName = trimmedLine.replace(/^(?:Subtopic|Sub-topic|Minute Topic)[:\s]*/i, '').trim();
+                        continue;
+                    }
                     
                     // Append content based on current parsing state
                     if (parsingExplanation) {
@@ -2481,7 +2498,9 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                         option_c: await convertLaTeXTextToImages(optionC),
                         option_d: await convertLaTeXTextToImages(optionD),
                         correct_option: correctOpt,
-                        detailed_explanation: await convertLaTeXTextToImages(cleanFieldText(explanationLines.join('\n')) || 'See the correct option.')
+                        detailed_explanation: await convertLaTeXTextToImages(cleanFieldText(explanationLines.join('\n')) || 'See the correct option.'),
+                        topic_name: qTopicName,
+                        subtopic_name: qSubtopicName
                     });
                 }
             }
@@ -2496,6 +2515,45 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
 
                 for (const q of parsedQuestions) {
                     currentSeq++;
+                    
+                    let resolvedTopicId = topicId;
+                    let resolvedMinuteTopicId = minuteTopicId;
+                    
+                    // Try to resolve topic name if tagged
+                    if (q.topic_name) {
+                        let row = await db.get(
+                            "SELECT topic_id FROM topics WHERE LOWER(TRIM(topic_name)) = LOWER(TRIM(?)) OR LOWER(TRIM(topic_name_hi)) = LOWER(TRIM(?))",
+                            [q.topic_name, q.topic_name]
+                        );
+                        if (!row) {
+                            row = await db.get(
+                                "SELECT topic_id FROM topics WHERE topic_name LIKE ? OR topic_name_hi LIKE ?",
+                                [`%${q.topic_name.trim()}%`, `%${q.topic_name.trim()}%`]
+                            );
+                        }
+                        if (row) {
+                            resolvedTopicId = row.topic_id;
+                        }
+                    }
+                    
+                    // Try to resolve subtopic name if tagged
+                    if (q.subtopic_name) {
+                        let row = await db.get(
+                            "SELECT minute_topic_id, topic_id FROM minute_topics WHERE LOWER(TRIM(minute_topic_name)) = LOWER(TRIM(?)) OR LOWER(TRIM(minute_topic_name_hi)) = LOWER(TRIM(?))",
+                            [q.subtopic_name, q.subtopic_name]
+                        );
+                        if (!row) {
+                            row = await db.get(
+                                "SELECT minute_topic_id, topic_id FROM minute_topics WHERE minute_topic_name LIKE ? OR minute_topic_name_hi LIKE ?",
+                                [`%${q.subtopic_name.trim()}%`, `%${q.subtopic_name.trim()}%`]
+                            );
+                        }
+                        if (row) {
+                            resolvedMinuteTopicId = row.minute_topic_id;
+                            if (row.topic_id) resolvedTopicId = row.topic_id;
+                        }
+                    }
+                    
                     await db.run(`
                         INSERT INTO pyq_questions (exam_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, language, sequence_order, topic_id, minute_topic_id)
                         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -2510,8 +2568,8 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                         q.detailed_explanation, 
                         language, 
                         currentSeq, 
-                        topicId || null, 
-                        minuteTopicId || null
+                        resolvedTopicId, 
+                        resolvedMinuteTopicId
                     ]);
                     successCount++;
                 }
