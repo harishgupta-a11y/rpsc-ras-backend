@@ -181,13 +181,23 @@ function convertHtmlToTextWithListNumbering(html) {
         const src = srcMatch[1].replace(/[\r\n\s]+/g, '');
         
         const altMatch = attrs.match(/alt=["']([^"']+)["']/i);
-        let dimensions = altMatch ? altMatch[1] : "";
+        const altText = altMatch ? altMatch[1] : "";
         
-        if (!dimensions && src.startsWith('data:image/png;base64,')) {
+        const isMathFormula = altText.toLowerCase().includes('math') || altText.toLowerCase().includes('equation') || altText.toLowerCase().includes('formula');
+        
+        let dimensions = "";
+        
+        // Auto-decode dimensions for base64 PNGs on the fly
+        if (src.startsWith('data:image/png;base64,')) {
             const dims = getPngDimensions(src);
             if (dims) {
                 dimensions = `width=${dims.width}&height=${dims.height}`;
             }
+        }
+        
+        if (isMathFormula) {
+            // Explicit math formula - keep inline
+            return `[IMAGE:math:${src}]`;
         }
         
         if (dimensions && dimensions.startsWith('width=')) {
@@ -196,11 +206,14 @@ function convertHtmlToTextWithListNumbering(html) {
             const height = hMatch ? parseInt(hMatch[1]) : 0;
             
             if (height > 0 && height < 60) {
+                // Inline / math equation image - keep on same line
                 return `[IMAGE:${dimensions}:${src}]`;
             } else {
+                // Block image - wrap in newlines
                 return `\n[IMAGE:${dimensions}:${src}]\n`;
             }
         }
+        // Fallback for no dimensions
         return `\n[IMAGE:${src}]\n`;
     });
 

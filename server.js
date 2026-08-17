@@ -1187,14 +1187,23 @@ function convertHtmlToTextWithListNumbering(html) {
         const src = srcMatch[1].replace(/[\r\n\s]+/g, '');
         
         const altMatch = attrs.match(/alt=["']([^"']+)["']/i);
-        let dimensions = altMatch ? altMatch[1] : ""; // e.g. "width=12&height=22"
+        const altText = altMatch ? altMatch[1] : "";
+        
+        const isMathFormula = altText.toLowerCase().includes('math') || altText.toLowerCase().includes('equation') || altText.toLowerCase().includes('formula');
+        
+        let dimensions = "";
         
         // Auto-decode dimensions for base64 PNGs on the fly
-        if (!dimensions && src.startsWith('data:image/png;base64,')) {
+        if (src.startsWith('data:image/png;base64,')) {
             const dims = getPngDimensions(src);
             if (dims) {
                 dimensions = `width=${dims.width}&height=${dims.height}`;
             }
+        }
+        
+        if (isMathFormula) {
+            // Explicit math formula - keep inline
+            return `[IMAGE:math:${src}]`;
         }
         
         if (dimensions && dimensions.startsWith('width=')) {
