@@ -2308,13 +2308,55 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 let questionLines = [];
                 let optionA = '', optionB = '', optionC = '', optionD = '', correctOpt = '', explanationLines = [];
                 let parsingExplanation = false;
+                let currentOptionState = '';
+                
                 for (const line of lines) {
-                    if (/^(?:A|1)\s*[\)\.:\-\|]/i.test(line)) { optionA = cleanFieldText(line.replace(/^(?:A|1)\s*[\)\.:\-\|]*/i, '').trim()); continue; }
-                    if (/^(?:B|2)\s*[\)\.:\-\|]/i.test(line)) { optionB = cleanFieldText(line.replace(/^(?:B|2)\s*[\)\.:\-\|]*/i, '').trim()); continue; }
-                    if (/^(?:C|3)\s*[\)\.:\-\|]/i.test(line)) { optionC = cleanFieldText(line.replace(/^(?:C|3)\s*[\)\.:\-\|]*/i, '').trim()); continue; }
-                    if (/^(?:D|4)\s*[\)\.:\-\|]/i.test(line)) { optionD = cleanFieldText(line.replace(/^(?:D|4)\s*[\)\.:\-\|]*/i, '').trim()); continue; }
-                    if (/^(?:Answer|Ans|Correct)[:\s]*([A-D1-4])/i.test(line)) {
-                        const m = line.match(/^(?:Answer|Ans|Correct)[:\s]*([A-D1-4])/i);
+                    const trimmedLine = line.trim();
+                    
+                    // Punctuation option markers (e.g. A) option text)
+                    if (/^(?:A|1)\s*[\)\.:\-\|]/i.test(trimmedLine)) {
+                        currentOptionState = 'A';
+                        optionA = cleanFieldText(trimmedLine.replace(/^(?:A|1)\s*[\)\.:\-\|]*/i, '').trim());
+                        continue;
+                    }
+                    if (/^(?:B|2)\s*[\)\.:\-\|]/i.test(trimmedLine)) {
+                        currentOptionState = 'B';
+                        optionB = cleanFieldText(trimmedLine.replace(/^(?:B|2)\s*[\)\.:\-\|]*/i, '').trim());
+                        continue;
+                    }
+                    if (/^(?:C|3)\s*[\)\.:\-\|]/i.test(trimmedLine)) {
+                        currentOptionState = 'C';
+                        optionC = cleanFieldText(trimmedLine.replace(/^(?:C|3)\s*[\)\.:\-\|]*/i, '').trim());
+                        continue;
+                    }
+                    if (/^(?:D|4)\s*[\)\.:\-\|]/i.test(trimmedLine)) {
+                        currentOptionState = 'D';
+                        optionD = cleanFieldText(trimmedLine.replace(/^(?:D|4)\s*[\)\.:\-\|]*/i, '').trim());
+                        continue;
+                    }
+                    
+                    // Table single-character option markers (e.g. "A" on a line by itself)
+                    if (/^(?:A|1)$/i.test(trimmedLine)) {
+                        currentOptionState = 'A';
+                        continue;
+                    }
+                    if (/^(?:B|2)$/i.test(trimmedLine)) {
+                        currentOptionState = 'B';
+                        continue;
+                    }
+                    if (/^(?:C|3)$/i.test(trimmedLine)) {
+                        currentOptionState = 'C';
+                        continue;
+                    }
+                    if (/^(?:D|4)$/i.test(trimmedLine)) {
+                        currentOptionState = 'D';
+                        continue;
+                    }
+                    
+                    // Answer trigger
+                    if (/^(?:Answer|Ans|Correct)[:\s]*([A-D1-4])/i.test(trimmedLine)) {
+                        currentOptionState = '';
+                        const m = trimmedLine.match(/^(?:Answer|Ans|Correct)[:\s]*([A-D1-4])/i);
                         if (m) {
                             const rawOpt = m[1].toUpperCase();
                             if (rawOpt === '1') correctOpt = 'A';
@@ -2326,14 +2368,35 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                         parsingExplanation = false;
                         continue;
                     }
-                    if (/^(?:Explanation|Exp|Solution|उत्तर|व्याख्या)[:\s]/i.test(line)) {
+                    
+                    // Explanation trigger
+                    if (/^(?:Explanation|Exp|Solution|उत्तर|व्याख्या)[:\s]/i.test(trimmedLine)) {
+                        currentOptionState = '';
                         parsingExplanation = true;
-                        explanationLines.push(line.replace(/^(?:Explanation|Exp|Solution|उत्तर|व्याख्या)[:\s]/i, '').trim());
+                        explanationLines.push(trimmedLine.replace(/^(?:Explanation|Exp|Solution|उत्तर|व्याख्या)[:\s]/i, '').trim());
                         continue;
                     }
-                    if (parsingExplanation) { explanationLines.push(line); continue; }
-                    questionLines.push(line);
+                    
+                    // Append content based on current parsing state
+                    if (parsingExplanation) {
+                        explanationLines.push(trimmedLine);
+                    } else if (currentOptionState === 'A') {
+                        optionA = optionA ? (optionA + " " + trimmedLine) : trimmedLine;
+                    } else if (currentOptionState === 'B') {
+                        optionB = optionB ? (optionB + " " + trimmedLine) : trimmedLine;
+                    } else if (currentOptionState === 'C') {
+                        optionC = optionC ? (optionC + " " + trimmedLine) : trimmedLine;
+                    } else if (currentOptionState === 'D') {
+                        optionD = optionD ? (optionD + " " + trimmedLine) : trimmedLine;
+                    } else {
+                        // Skip table headers
+                        if (/^(?:Option|Book|Author|Lake|Country|Industrial Region \/ City|Core Manufacturing Sector)$/i.test(trimmedLine)) {
+                            continue;
+                        }
+                        questionLines.push(trimmedLine);
+                    }
                 }
+                
                 if (questionLines.length && optionA && optionB && optionC && optionD && correctOpt) {
                     parsedQuestions.push({
                         question_text: await convertLaTeXTextToImages(cleanFieldText(questionLines.join('\n'))),
