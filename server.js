@@ -2239,7 +2239,7 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 const lines = [];
                 for (let i = 0; i < rawLines.length; i++) {
                     const currentLine = rawLines[i];
-                    if (/^[A-D][\)\.:\-]?$/i.test(currentLine) && i + 1 < rawLines.length && rawLines[i + 1].startsWith('[IMAGE:')) {
+                    if (/^[A-D1-4]\s*[\)\.:\-\|]$/i.test(currentLine) && i + 1 < rawLines.length && rawLines[i + 1].startsWith('[IMAGE:')) {
                         lines.push(currentLine + " " + rawLines[i + 1]);
                         i++;
                     } else {
@@ -2251,13 +2251,20 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 let optionA = '', optionB = '', optionC = '', optionD = '', correctOpt = '', explanationLines = [];
                 let parsingExplanation = false;
                 for (const line of lines) {
-                    if (/^A[\)\.:]/i.test(line)) { optionA = cleanFieldText(line.replace(/^A[\)\.:]/i, '').trim()); continue; }
-                    if (/^B[\)\.:]/i.test(line)) { optionB = cleanFieldText(line.replace(/^B[\)\.:]/i, '').trim()); continue; }
-                    if (/^C[\)\.:]/i.test(line)) { optionC = cleanFieldText(line.replace(/^C[\)\.:]/i, '').trim()); continue; }
-                    if (/^D[\)\.:]/i.test(line)) { optionD = cleanFieldText(line.replace(/^D[\)\.:]/i, '').trim()); continue; }
-                    if (/^(?:Answer|Ans|Correct)[:\s]*([A-D])/i.test(line)) {
-                        const m = line.match(/^(?:Answer|Ans|Correct)[:\s]*([A-D])/i);
-                        if (m) correctOpt = m[1].toUpperCase();
+                    if (/^(?:A|1)\s*[\)\.:\-\|]/i.test(line)) { optionA = cleanFieldText(line.replace(/^(?:A|1)\s*[\)\.:\-\|]*/i, '').trim()); continue; }
+                    if (/^(?:B|2)\s*[\)\.:\-\|]/i.test(line)) { optionB = cleanFieldText(line.replace(/^(?:B|2)\s*[\)\.:\-\|]*/i, '').trim()); continue; }
+                    if (/^(?:C|3)\s*[\)\.:\-\|]/i.test(line)) { optionC = cleanFieldText(line.replace(/^(?:C|3)\s*[\)\.:\-\|]*/i, '').trim()); continue; }
+                    if (/^(?:D|4)\s*[\)\.:\-\|]/i.test(line)) { optionD = cleanFieldText(line.replace(/^(?:D|4)\s*[\)\.:\-\|]*/i, '').trim()); continue; }
+                    if (/^(?:Answer|Ans|Correct)[:\s]*([A-D1-4])/i.test(line)) {
+                        const m = line.match(/^(?:Answer|Ans|Correct)[:\s]*([A-D1-4])/i);
+                        if (m) {
+                            const rawOpt = m[1].toUpperCase();
+                            if (rawOpt === '1') correctOpt = 'A';
+                            else if (rawOpt === '2') correctOpt = 'B';
+                            else if (rawOpt === '3') correctOpt = 'C';
+                            else if (rawOpt === '4') correctOpt = 'D';
+                            else correctOpt = rawOpt;
+                        }
                         parsingExplanation = false;
                         continue;
                     }
