@@ -2287,7 +2287,7 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
             return res.status(200).json({ message: `Google Doc import successful! Loaded ${successCount} Mains questions.`, inserted_count: successCount });
         } else {
             // Parse Pre MCQs
-            const qPattern = /(?:^|\n)\s*Q\.\s*\d*[:\.]?\s*/i;
+            const qPattern = /(?:\bQ\s*\.\s*)/i;
             const blocks = rawText.split(qPattern).filter(b => b.trim());
             const parsedQuestions = [];
             for (const block of blocks) {
