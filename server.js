@@ -31,6 +31,61 @@ const path = require('path');
 const axios = require('axios');
 
 
+
+// Helper to convert raw LaTeX expressions ($...$ and $...$) to base64 images on ingest
+async function convertLaTeXTextToImages(text) {
+    if (!text) return "";
+    
+    let processed = text;
+    
+    // 1. Process block equations: $ ... $
+    const blockRegex = /\$\$([\s\S]*?)\$\$/g;
+    const blockMatches = [...processed.matchAll(blockRegex)];
+    for (const match of blockMatches) {
+        const fullFormula = match[0];
+        const formulaText = match[1].trim();
+        if (formulaText) {
+            try {
+                const encoded = encodeURIComponent(formulaText);
+                const url = `https://latex.codecogs.com/png.image?\\dpi{150}\\bg{white}${encoded}`;
+                const response = await axios.get(url, { responseType: 'arraybuffer', timeout: 10000 });
+                if (response.status === 200) {
+                    const base64 = Buffer.from(response.data).toString('base64');
+                    // Block equations wrapped in newlines
+                    processed = processed.replace(fullFormula, `\n[IMAGE:math:data:image/png;base64,${base64}]\n`);
+                }
+            } catch (err) {
+                console.error("[LaTeX Block Convert Failed]", formulaText, err.message);
+            }
+        }
+    }
+    
+    // 2. Process inline equations: $ ... $
+    const inlineRegex = /\$([^\$\n]+?)\$/g;
+    const inlineMatches = [...processed.matchAll(inlineRegex)];
+    for (const match of inlineMatches) {
+        const fullFormula = match[0];
+        const formulaText = match[1].trim();
+        // Skip currency or non-equation values (like $15 or $2460)
+        if (formulaText && !/^\d+$/.test(formulaText) && !formulaText.startsWith('₹') && !/^[0-9\s,\.]+$/.test(formulaText)) {
+            try {
+                const encoded = encodeURIComponent(formulaText);
+                const url = `https://latex.codecogs.com/png.image?\\dpi{150}\\bg{white}${encoded}`;
+                const response = await axios.get(url, { responseType: 'arraybuffer', timeout: 10000 });
+                if (response.status === 200) {
+                    const base64 = Buffer.from(response.data).toString('base64');
+                    // Inline equations kept inline
+                    processed = processed.replace(fullFormula, `[IMAGE:math:data:image/png;base64,${base64}]`);
+                }
+            } catch (err) {
+                console.error("[LaTeX Inline Convert Failed]", formulaText, err.message);
+            }
+        }
+    }
+    
+    return processed;
+}
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -2204,7 +2259,10 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 if (qMatch && ansMatch) {
                     let answerText = ansMatch[1].trim();
                     if (answerText.endsWith("---")) answerText = answerText.substring(0, answerText.length - 3).trim();
-                    parsedQuestions.push({ question_text: cleanFieldText(qMatch[1]), model_answer: cleanFieldText(answerText) });
+                    parsedQuestions.push({ 
+                        question_text: await convertLaTeXTextToImages(cleanFieldText(qMatch[1])), 
+                        model_answer: await convertLaTeXTextToImages(cleanFieldText(answerText)) 
+                    });
                 }
             }
             if (parsedQuestions.length === 0) {
@@ -2278,10 +2336,13 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 }
                 if (questionLines.length && optionA && optionB && optionC && optionD && correctOpt) {
                     parsedQuestions.push({
-                        question_text: cleanFieldText(questionLines.join('\n')),
-                        option_a: optionA, option_b: optionB, option_c: optionC, option_d: optionD,
+                        question_text: await convertLaTeXTextToImages(cleanFieldText(questionLines.join('\n'))),
+                        option_a: await convertLaTeXTextToImages(optionA),
+                        option_b: await convertLaTeXTextToImages(optionB),
+                        option_c: await convertLaTeXTextToImages(optionC),
+                        option_d: await convertLaTeXTextToImages(optionD),
                         correct_option: correctOpt,
-                        detailed_explanation: cleanFieldText(explanationLines.join('\n')) || 'See the correct option.'
+                        detailed_explanation: await convertLaTeXTextToImages(cleanFieldText(explanationLines.join('\n')) || 'See the correct option.')
                     });
                 }
             }
