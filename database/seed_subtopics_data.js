@@ -6,8 +6,8 @@ module.exports = [
   // Topic 1: Pre-historic sites
   { topic_id: 1, name: "Pre-historical Sites: Palaeolithic, Mesolithic, and Neolithic Sites in Rajasthan", lang: "EN" },
   { topic_id: 1, name: "प्रागैतिहासिक स्थल: राजस्थान में पुरापाषाण, मध्यपाषाण और नवपाषाण स्थल", lang: "HI" },
-  { topic_id: 1, name: "Chalcolithic and Bronze Age Sites in Rajasthan (Kalibangan, Ahar, Ganeshwar, Balathal, Bagor)", lang: "EN" },
-  { topic_id: 1, name: "राजस्थान के ताम्रपाषाणिक और कांस्य युगीन स्थल (कालीबंगा, आहड़, गणेश्वर, बालाथल, बैगोर)", lang: "HI" },
+  { topic_id: 1, name: "Chalcolithic and Bronze Age Sites in Rajasthan (like Kalibangan, Ahar, Ganeshwar, Balathal, Bagor, etc.)", lang: "EN" },
+  { topic_id: 1, name: "राजस्थान के ताम्रपाषाणिक और कांस्य युगीन स्थल (जैसे कालीबंगा, आहड़, गणेश्वर, बालाथल, बैगोर आदि)", lang: "HI" },
   { topic_id: 1, name: "Archaeological Inscriptions and Numismatic Sources of Rajasthan History", lang: "EN" },
   { topic_id: 1, name: "राजस्थान इतिहास के पुरालेखीय शिलालेख और मुद्राशास्त्रीय (सिक्के) स्रोत", lang: "HI" },
   { topic_id: 1, name: "Archival and Literary Sources of Rajasthan History", lang: "EN" },
@@ -34,10 +34,10 @@ module.exports = [
   { topic_id: 4, name: "18वीं-19वीं शताब्दी में राजस्थान की राजनीतिक और सामाजिक स्थिति", lang: "HI" },
 
   // Topic 5: Peasant movements
-  { topic_id: 5, name: "Peasant Movements in 20th Century Rajasthan (Bijolia, Begun, Barad)", lang: "EN" },
-  { topic_id: 5, name: "20वीं शताब्दी के राजस्थान में किसान आंदोलन (बिजोलिया, बेगू, बरड़)", lang: "HI" },
-  { topic_id: 5, name: "Tribal Movements in Rajasthan (Eki Movement, Bhagat Movement, Motilal Tejawat)", lang: "EN" },
-  { topic_id: 5, name: "राजस्थान में जनजातीय आंदोलन (एकी आंदोलन, भगत आंदोलन, मोतीलाल तेजावत)", lang: "HI" },
+  { topic_id: 5, name: "Peasant Movements in 20th Century Rajasthan (like Bijolia, Begun, Barad, etc.)", lang: "EN" },
+  { topic_id: 5, name: "20वीं शताब्दी के राजस्थान में किसान आंदोलन (जैसे बिजोलिया, बेगू, बरड़ आदि)", lang: "HI" },
+  { topic_id: 5, name: "Tribal Movements in Rajasthan (like Eki Movement, Bhagat Movement, Motilal Tejawat, etc.)", lang: "EN" },
+  { topic_id: 5, name: "राजस्थान में जनजातीय आंदोलन (जैसे एकी आंदोलन, भगत आंदोलन, मोतीलाल तेजावत आदि)", lang: "HI" },
   { topic_id: 5, name: "Praja Mandal Movements & Mass Awakening in Rajasthan", lang: "EN" },
   { topic_id: 5, name: "राजस्थान में प्रजामंडल आंदोलन और जन जागरूकता", lang: "HI" },
 
@@ -52,12 +52,12 @@ module.exports = [
   { topic_id: 7, name: "राजस्थान की स्थापत्य परंपराएं: मंदिर, महल और बावड़ियां", lang: "HI" },
   { topic_id: 7, name: "Schools of Rajasthani Paintings: Mewar, Marwar, Hadoti, and Dhundhar", lang: "EN" },
   { topic_id: 7, name: "राजस्थानी चित्रकला की शैलियाँ: मेवाड़, मारवार, हाड़ौती और ढूंढाड़", lang: "HI" },
-  { topic_id: 7, name: "Handicrafts and Traditional Arts of Rajasthan (Blue Pottery, Thewa Art, Usta Art)", lang: "EN" },
-  { topic_id: 7, name: "राजस्थान के हस्तशिल्प और पारंपरिक कलाएं (ब्लू पॉटरी, थेवा कला, उस्ता कला)", lang: "HI" },
+  { topic_id: 7, name: "Handicrafts and Traditional Arts of Rajasthan (like Blue Pottery, Thewa Art, Usta Art, etc.)", lang: "EN" },
+  { topic_id: 7, name: "राजस्थान के हस्तशिल्प और पारंपरिक कलाएं (जैसे ब्लू पॉटरी, थेवा कला, उस्ता कला आदि)", lang: "HI" },
 
   // Topic 8: Performing arts
-  { topic_id: 8, name: "Performing Arts of Rajasthan: Folk Dances & Folk Drama (Khyal, Swang, Rammat)", lang: "EN" },
-  { topic_id: 8, name: "राजस्थान की प्रदर्शन कलाएं: लोक नृत्य और लोक नाट्य (ख्याल, स्वांग, रम्मत)", lang: "HI" },
+  { topic_id: 8, name: "Performing Arts of Rajasthan: Folk Dances & Folk Drama (like Khyal, Swang, Rammat, etc.)", lang: "EN" },
+  { topic_id: 8, name: "राजस्थान की प्रदर्शन कलाएं: लोक नृत्य और लोक नाट्य (जैसे ख्याल, स्वांग, रम्मत आदि)", lang: "HI" },
   { topic_id: 8, name: "Rajasthani Music: Classical, Folk Traditions & Folk Instruments", lang: "EN" },
   { topic_id: 8, name: "राजस्थानी संगीत: शास्त्रीय, लोक परंपराएं और लोक वाद्ययंत्र", lang: "HI" },
 
@@ -68,10 +68,10 @@ module.exports = [
   { topic_id: 9, name: "राजस्थानी भाषा का साहित्य: डिंगल, पिंगल और लोक साहित्य", lang: "HI" },
 
   // Topic 10: Religious sects
-  { topic_id: 10, name: "Religious Life: Saints and Sects of Rajasthan (Dadupanth, Jasnathi, Bishnoi, Ramsnehi)", lang: "EN" },
-  { topic_id: 10, name: "धार्मिक जीवन: राजस्थान के संत और संप्रदाय (दादू पंथ, जसनाथी, बिश्नोई, रामस्नेही)", lang: "HI" },
-  { topic_id: 10, name: "Folk Deities of Rajasthan (Panchpir, Tejaji, Devnarayan, Karni Mata)", lang: "EN" },
-  { topic_id: 10, name: "राजस्थान के लोक देवता और देवियाँ (पंचपीर, तेजाजी, देवनारायण, करणी माता)", lang: "HI" },
+  { topic_id: 10, name: "Religious Life: Saints and Sects of Rajasthan (like Dadupanth, Jasnathi, Bishnoi, Ramsnehi, etc.)", lang: "EN" },
+  { topic_id: 10, name: "धार्मिक जीवन: राजस्थान के संत और संप्रदाय (जैसे दादू पंथ, जसनाथी, बिश्नोई, रामस्नेही आदि)", lang: "HI" },
+  { topic_id: 10, name: "Folk Deities of Rajasthan (like Panchpir, Tejaji, Devnarayan, Karni Mata, etc.)", lang: "EN" },
+  { topic_id: 10, name: "राजस्थान के लोक देवता और देवियाँ (जैसे पंचपीर, तेजाजी, देवनारायण, करणी माता आदि)", lang: "HI" },
   { topic_id: 10, name: "Social Life: Fairs, Festivals & Attires of Rajasthan", lang: "EN" },
   { topic_id: 10, name: "सामाजिक जीवन: राजस्थान के मेले, त्योहार और परिधान", lang: "HI" },
   { topic_id: 10, name: "Social Customs, Traditions & Ornaments of Rajasthan", lang: "EN" },
@@ -102,8 +102,8 @@ module.exports = [
   { topic_id: 13, name: "प्राचीन भारत में वैज्ञानिक विकास: खगोल विज्ञान, गणित, चिकित्सा", lang: "HI" },
   { topic_id: 13, name: "Indian Knowledge System: Varna-Ashram, Purusharthas, Sanskaras & Six Philosophies", lang: "EN" },
   { topic_id: 13, name: "भारतीय ज्ञान प्रणाली: वर्ण-आश्रम, पुरुषार्थ, संस्कार और षड्दर्शन", lang: "HI" },
-  { topic_id: 13, name: "Ancient Indian Education System: Universities (Nalanda, Takshashila, Valabhi)", lang: "EN" },
-  { topic_id: 13, name: "प्राचीन भारतीय शिक्षा प्रणाली: विश्वविद्यालय (नालंदा, तक्षशिला, वल्लभी)", lang: "HI" },
+  { topic_id: 13, name: "Ancient Indian Education System: Universities (like Nalanda, Takshashila, Valabhi, etc.)", lang: "EN" },
+  { topic_id: 13, name: "प्राचीन भारतीय शिक्षा प्रणाली: विश्वविद्यालय (जैसे नालंदा, तक्षशिला, वल्लभी आदि)", lang: "HI" },
 
   // Topic 14: Medieval India
   { topic_id: 14, name: "Sultanate Period: Dynasties, Administration & Vijayanagar Empire", lang: "EN" },
@@ -130,8 +130,8 @@ module.exports = [
   { topic_id: 17, name: "भारत में ब्रिटिश नीतियां: राजनीतिक, आर्थिक और प्रशासनिक नीतियां", lang: "HI" },
   { topic_id: 17, name: "Indian National Movement: Moderate and Extremist Phases (1885 - 1915)", lang: "EN" },
   { topic_id: 17, name: "भारतीय राष्ट्रीय आंदोलन: उदारवादी और उग्रवादी चरण (1885 - 1915)", lang: "HI" },
-  { topic_id: 17, name: "Gandhian Era & Mass Movements (Non-Cooperation, Civil Disobedience, Quit India)", lang: "EN" },
-  { topic_id: 17, name: "गांधीवादी युग और जन आंदोलन (असहयोग, सविनय अवज्ञा, भारत छोड़ो)", lang: "HI" },
+  { topic_id: 17, name: "Gandhian Era & Mass Movements (like Non-Cooperation, Civil Disobedience, Quit India, etc.)", lang: "EN" },
+  { topic_id: 17, name: "गांधीवादी युग और जन आंदोलन (जैसे असहयोग, सविनय अवज्ञा, भारत छोड़ो आदि)", lang: "HI" },
   { topic_id: 17, name: "Revolutionary Movements in India and Abroad, and Regional Freedom Struggles", lang: "EN" },
   { topic_id: 17, name: "भारत और विदेशों में क्रांतिकारी आंदोलन, और क्षेत्रीय स्वतंत्रता संग्राम", lang: "HI" },
   { topic_id: 17, name: "Partition of India & Accession of Princely States (Role of Patel and Menon)", lang: "EN" },
@@ -160,7 +160,7 @@ module.exports = [
   { topic_id: 20, name: "विश्व भूगोल: वैश्विक कृषि प्रकार और महत्वपूर्ण फसलें", lang: "HI" },
   { topic_id: 20, name: "World Geography: Major Industrial Regions & Transport Networks", lang: "EN" },
   { topic_id: 20, name: "विश्व भूगोल: प्रमुख औद्योगिक क्षेत्र और परिवहन नेटवर्क", lang: "HI" },
-  { topic_id: 20, name: "World Geography: Environmental Issues (Deforestation, Climate Change & Ozone Depletion)", lang: "EN" },
+  { topic_id: 20, name: "World Geography: Environmental Issues (like Deforestation, Climate Change & Ozone Depletion, etc.)", lang: "EN" },
   { topic_id: 20, name: "विश्व भूगोल: पर्यावरणीय मुद्दे (वनों की कटाई, जलवायु परिवर्तन और ओजोन रिक्तीकरण)", lang: "HI" },
 
   // Topic 21: India Physical Geography
@@ -214,7 +214,7 @@ module.exports = [
   { topic_id: 30, name: "राजस्थान का भूगोल: कृषि और प्रमुख फसलों का वितरण", lang: "HI" },
   { topic_id: 30, name: "Geography of Rajasthan: Livestock Resources, Breeds & Dairy Development", lang: "EN" },
   { topic_id: 30, name: "राजस्थान का भूगोल: पशुधन संसाधन, नस्लें और डेयरी विकास", lang: "HI" },
-  { topic_id: 30, name: "Geography of Rajasthan: Irrigation Projects (Indira Gandhi Canal, Chambal Project)", lang: "EN" },
+  { topic_id: 30, name: "Geography of Rajasthan: Irrigation Projects (like Indira Gandhi Canal, Chambal Project, etc.)", lang: "EN" },
   { topic_id: 30, name: "राजस्थान का भूगोल: सिंचाई परियोजनाएं (इंदिरा गांधी नहर, चंबल परियोजना)", lang: "HI" },
   { topic_id: 30, name: "Geography of Rajasthan: Population Growth, Density, Literacy & Sex-Ratio", lang: "EN" },
   { topic_id: 30, name: "राजस्थान का भूगोल: जनसंख्या वृद्धि, घनत्व, साक्षरता और लिंगानुपात", lang: "HI" },
@@ -623,7 +623,7 @@ module.exports = [
   { topic_id: 113, name: "भारत और अंतर्राष्ट्रीय मामले: शीत युद्ध के बाद के बदलाव, अमेरिका का आधिपत्य और बहुध्रुवीयता", lang: "HI" },
   { topic_id: 113, name: "Indian Foreign Policy: Relations with major powers and Neighbouring countries", lang: "EN" },
   { topic_id: 113, name: "भारतीय विदेश नीति: प्रमुख शक्तियों और पड़ोसी देशों के साथ संबंध", lang: "HI" },
-  { topic_id: 113, name: "Indian Diaspora, Cultural Diplomacy & India's role in global platforms (UN, WTO, G-20, QUAD)", lang: "EN" },
+  { topic_id: 113, name: "Indian Diaspora, Cultural Diplomacy & India's role in global platforms (like UN, WTO, G-20, QUAD, etc.)", lang: "EN" },
   { topic_id: 113, name: "भारतीय प्रवासी, सांस्कृतिक कूटनीति और वैश्विक मंचों (UN, WTO, G-20, QUAD) में भारत की भूमिका", lang: "HI" },
   { topic_id: 113, name: "Climate Diplomacy: COP Summits, International Solar Alliance (ISA), Mission LiFE", lang: "EN" },
   { topic_id: 113, name: "जलवायु कूटनीति: COP शिखर सम्मेलन, अंतर्राष्ट्रीय सौर गठबंधन (ISA), मिशन LiFE", lang: "HI" },
@@ -671,7 +671,7 @@ module.exports = [
   { topic_id: 115, name: "बुद्धिमत्ता: कार्यस्थल पर विभिन्न प्रकार की बुद्धिमत्ता का महत्व और समावेशन", lang: "HI" },
   { topic_id: 115, name: "Leadership Profiles: Theories, Types, Styles & workplace challenges", lang: "EN" },
   { topic_id: 115, name: "नेतृत्व प्रोफाइल: सिद्धांत, प्रकार, शैलियाँ और कार्यस्थल की चुनौतियाँ", lang: "HI" },
-  { topic_id: 115, name: "Communication: Models, Networks, Barriers, Distortions & destructive communication (Cyberslacking, Moonlighting)", lang: "EN" },
+  { topic_id: 115, name: "Communication: Models, Networks, Barriers, Distortions & destructive communication (like Cyberslacking, Moonlighting, etc.)", lang: "EN" },
   { topic_id: 115, name: "संचार: मॉडल, नेटवर्क, बाधाएं, विकृतियां और विनाशकारी संचार (साइबरस्लैकिंग, मूनलाइटिंग)", lang: "HI" },
   { topic_id: 115, name: "Flourishing at work: Virtues & Strengths, RAISEC Model and Person-Fit Environment", lang: "EN" },
   { topic_id: 115, name: "कार्यस्थल पर प्रफुल्लता: गुण और शक्तियां, RAISEC मॉडल और व्यक्ति-अनुकूल वातावरण", lang: "HI" },
