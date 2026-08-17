@@ -2224,7 +2224,20 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
             const blocks = rawText.split(qPattern).filter(b => b.trim());
             const parsedQuestions = [];
             for (const block of blocks) {
-                const lines = block.trim().split('\n').map(l => l.trim()).filter(l => l);
+                const rawLines = block.trim().split('\n').map(l => l.trim()).filter(l => l);
+                
+                // Pre-merge option letters with images on the next line
+                const lines = [];
+                for (let i = 0; i < rawLines.length; i++) {
+                    const currentLine = rawLines[i];
+                    if (/^[A-D][\)\.:\-]?$/i.test(currentLine) && i + 1 < rawLines.length && rawLines[i + 1].startsWith('[IMAGE:')) {
+                        lines.push(currentLine + " " + rawLines[i + 1]);
+                        i++;
+                    } else {
+                        lines.push(currentLine);
+                    }
+                }
+
                 let questionLines = [];
                 let optionA = '', optionB = '', optionC = '', optionD = '', correctOpt = '', explanationLines = [];
                 let parsingExplanation = false;
