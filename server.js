@@ -2508,6 +2508,38 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 return res.status(400).json({ error: "Could not parse any MCQs. Please ensure format uses Q., A), B), C), D) and Answer: triggers." });
             }
             if (examId) {
+                // Check if any parsed question is missing topic or subtopic names
+                const missingTags = parsedQuestions.some(q => !q.topic_name || !q.subtopic_name);
+                
+                // If Gemini API is active, run auto-tagging for missing ones
+                if (missingTags && process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY !== 'MOCK_KEY_FOR_TESTING') {
+                    console.log("[GDoc Ingest] Questions lack topic/subtopic tags. Triggering auto-tagging via Gemini...");
+                    try {
+                        const syllabusList = await db.getSyllabusWithSubtopics(language);
+                        
+                        // We run auto-tagging in batches of 15 questions
+                        const batchSize = 15;
+                        for (let i = 0; i < parsedQuestions.length; i += batchSize) {
+                            const batch = parsedQuestions.slice(i, i + batchSize);
+                            const mapping = await aiEngine.autoTagMCQBatch(batch, syllabusList);
+                            
+                            // Map classification back to parsed questions
+                            if (mapping && Array.isArray(mapping)) {
+                                mapping.forEach(item => {
+                                    const relativeId = parseInt(item.id);
+                                    if (!isNaN(relativeId) && batch[relativeId]) {
+                                        if (!batch[relativeId].topic_name) batch[relativeId].topic_name = item.topic;
+                                        if (!batch[relativeId].subtopic_name) batch[relativeId].subtopic_name = item.subtopic;
+                                    }
+                                });
+                            }
+                        }
+                        console.log("[GDoc Ingest] Auto-tagging completed successfully.");
+                    } catch (e) {
+                        console.error("[GDoc Ingest] Auto-tagging failed:", e.message);
+                    }
+                }
+
                 // Ingest into pyq_questions
                 let successCount = 0;
                 const seqResult = await db.get("SELECT MAX(sequence_order) as maxSeq FROM pyq_questions WHERE exam_id = ? AND language = ?", [examId, language]);

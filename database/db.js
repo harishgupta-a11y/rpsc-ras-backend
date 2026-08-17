@@ -1863,6 +1863,23 @@ module.exports = {
         return subjects;
     },
 
+    getSyllabusWithSubtopics: async (language = 'EN') => {
+        const subjects = await module.exports.getFullSyllabus('PRE', language);
+        const subtopics = await all("SELECT topic_id, minute_topic_name FROM minute_topics WHERE language = ?", [language]);
+        const subtopicMap = {};
+        subtopics.forEach(st => {
+            if (!subtopicMap[st.topic_id]) subtopicMap[st.topic_id] = [];
+            subtopicMap[st.topic_id].push(st.minute_topic_name);
+        });
+        
+        subjects.forEach(sub => {
+            sub.topics.forEach(t => {
+                t.subtopics = subtopicMap[t.topic_id] || [];
+            });
+        });
+        return subjects;
+    },
+
     // Strict No-Repeat Quiz Generator (with Language Filter, Difficulty & Minute Topic support)
     generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null, difficulty = 'ALL') => {
         // Enforce Strict No-Repeat Guard, language and difficulty filter

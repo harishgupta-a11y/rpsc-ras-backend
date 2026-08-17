@@ -476,6 +476,61 @@ async function translateToHinglish(text) {
     }
 }
 
+async function autoTagMCQBatch(questions, syllabusList) {
+    if (!genAI) {
+        console.warn("[AI Engine] Gemini client not initialized. Skipping auto-tagging.");
+        return [];
+    }
+    
+    let syllabusText = "";
+    syllabusList.forEach(sub => {
+        syllabusText += `Subject: ${sub.subject_name}\n`;
+        sub.topics.forEach(t => {
+            syllabusText += `  - Topic: ${t.topic_name}\n`;
+            if (t.subtopics && t.subtopics.length > 0) {
+                t.subtopics.forEach(st => {
+                    syllabusText += `    * Subtopic: ${st}\n`;
+                });
+            }
+        });
+    });
+
+    const prompt = `
+You are an expert RPSC RAS syllabus mapping assistant.
+Given the following list of syllabus subjects, topics, and subtopics:
+
+${syllabusText}
+
+And given this batch of objective past year questions (in JSON format):
+${JSON.stringify(questions.map((q, idx) => ({ id: idx, text: q.question_text, options: [q.option_a, q.option_b, q.option_c, q.option_d] })), null, 2)}
+
+Your task is to classify each question into its most relevant Topic and Subtopic from the syllabus reference list provided above.
+Return the result strictly as a JSON array of objects, where each object has:
+- "id": the integer id of the question.
+- "topic": the exact topic name from the reference list.
+- "subtopic": the exact subtopic name from the reference list.
+
+Do not write any markdown code fences, headers, or conversational text. Return only the raw JSON array.
+`;
+
+    try {
+        const response = await genAI.models.generateContent({
+            model: 'gemini-2.0-flash',
+            contents: prompt
+        });
+        
+        let text = response.text || '';
+        if (text.includes("```")) {
+            text = text.replace(/```json/g, '').replace(/```/g, '').trim();
+        }
+        const mapping = JSON.parse(text);
+        return mapping;
+    } catch (err) {
+        console.error("[AI Engine] Gemini Auto-Tagging failed for batch:", err);
+        return [];
+    }
+}
+
 module.exports = {
     generateTheoryContent,
     generateMCQBatch,
@@ -483,5 +538,6 @@ module.exports = {
     generateMCQsFromNotes,
     generateMainsFromNotes,
     splitNotesIntoConcepts,
-    translateToHinglish
+    translateToHinglish,
+    autoTagMCQBatch
 };
