@@ -305,12 +305,23 @@ app.post('/api/subscription/purchase', async (req, res) => {
     }
 });
 
+// --- Exams List ---
+app.get('/api/exams', async (req, res) => {
+    try {
+        const exams = await db.getExams();
+        res.status(200).json({ exams });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch exams: " + err.message });
+    }
+});
+
 // --- Syllabus Info (Gated) ---
 app.get('/api/syllabus', async (req, res) => {
     const examTier = req.query.tier || 'PRE'; // PRE or MAINS
     const language = req.query.language || req.headers['x-user-language'] || 'EN';
+    const examCode = req.query.examCode || req.headers['x-exam-code'] || 'RPSC';
     try {
-        const syllabus = await db.getFullSyllabus(examTier, language);
+        const syllabus = await db.getFullSyllabus(examTier, language, examCode);
         res.status(200).json({ syllabus, subjects: syllabus });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch syllabus: " + err.message });
@@ -1705,12 +1716,13 @@ app.get('/api/pyq-by-ref', checkSubscription, async (req, res) => {
 // --- PYQs (Previous Years Questions) Routes ---
 app.get('/api/pyqs', checkSubscription, async (req, res) => {
     const tier = req.query.tier;
+    const examCode = req.query.examCode || req.headers['x-exam-code'] || 'RPSC';
     try {
         let exams;
         if (tier) {
-            exams = await db.all("SELECT * FROM pyq_exams WHERE tier_type = ? ORDER BY exam_year DESC", [tier]);
+            exams = await db.all("SELECT * FROM pyq_exams WHERE tier_type = ? AND exam_code = ? ORDER BY exam_year DESC", [tier, examCode]);
         } else {
-            exams = await db.all("SELECT * FROM pyq_exams ORDER BY exam_year DESC, tier_type DESC");
+            exams = await db.all("SELECT * FROM pyq_exams WHERE exam_code = ? ORDER BY exam_year DESC, tier_type DESC", [examCode]);
         }
         res.status(200).json({ exams });
     } catch (err) {
@@ -2879,10 +2891,11 @@ app.delete('/api/admin/revision-note/:noteId', async (req, res) => {
 // 1. Fetch test series scheduled exams with attempt statuses
 app.get('/api/test-series/list', async (req, res) => {
     const userId = parseInt(req.query.userId);
+    const examCode = req.query.examCode || req.headers['x-exam-code'] || 'RPSC';
     if (!userId) return res.status(400).json({ error: "User ID is required." });
     
     try {
-        const exams = await db.getTestSeriesExams();
+        const exams = await db.getTestSeriesExams(examCode);
         const attempts = await db.getAttemptsHistory(userId);
         
         const testAttemptsMap = {};

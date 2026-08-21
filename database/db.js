@@ -369,6 +369,11 @@ async function initDatabase() {
             // Ignore if column already exists
         }
         try {
+            await run("ALTER TABLE questions ADD COLUMN difficulty TEXT DEFAULT 'FOUNDATION';");
+        } catch (e) {
+            // Ignore if column already exists
+        }
+        try {
             await run("ALTER TABLE users ADD COLUMN has_used_trial INTEGER DEFAULT 0;");
         } catch (e) {
             // Ignore if column already exists
@@ -1781,6 +1786,14 @@ async function seedPlaceholderQuestionsIfNeeded() {
             console.log(`Seeded ${mainsSeeded} placeholder questions for Mains topics.`);
         }
 
+        // Multi-exam database schema migration
+        try {
+            const migrateMultiExam = require('./migrate_multi_exam');
+            await migrateMultiExam();
+        } catch (migErr) {
+            console.error("[DB Init] Multi-exam migration failed on startup:", migErr.message);
+        }
+
     } catch (e) {
         console.error("Error in seeding placeholder questions:", e.message);
     }
@@ -1800,13 +1813,13 @@ module.exports = {
     setUserTrialUsed: (mobile) => run("UPDATE users SET has_used_trial = 1 WHERE mobile_number = ?", [mobile]),
     
     // Syllabus Operations
-    getSubjects: (tier) => all("SELECT * FROM subjects WHERE tier_type = ?", [tier]),
+    getSubjects: (tier, examCode = 'RPSC') => all("SELECT * FROM subjects WHERE tier_type = ? AND exam_code = ?", [tier, examCode]),
     getUnitsBySubject: (subId) => all("SELECT * FROM units WHERE subject_id = ?", [subId]),
     getTopicsByUnit: (unitId) => all("SELECT * FROM topics WHERE unit_id = ?", [unitId]),
     
     // Full Syllabus hierarchy lookup
     // Full Syllabus hierarchy lookup
-    getFullSyllabus: async (tier, language = 'EN') => {
+    getFullSyllabus: async (tier, language = 'EN', examCode = 'RPSC') => {
         const nameCol = language === 'HI' ? 'subject_name_hi' : 'subject_name';
         const unitNameCol = language === 'HI' ? 'unit_name_hi' : 'unit_name';
         const topicNameCol = language === 'HI' ? 'topic_name_hi' : 'topic_name';
@@ -1841,7 +1854,7 @@ module.exports = {
             }
         }
 
-        const subjects = await all(`SELECT subject_id, tier_type, COALESCE(${nameCol}, subject_name) as subject_name FROM subjects WHERE tier_type = ?`, [tier]);
+        const subjects = await all(`SELECT subject_id, tier_type, COALESCE(${nameCol}, subject_name) as subject_name FROM subjects WHERE tier_type = ? AND exam_code = ?`, [tier, examCode]);
         for (const sub of subjects) {
             sub.pyq_count = subjectPyqMap[sub.subject_id] || 0;
 
@@ -1863,8 +1876,8 @@ module.exports = {
         return subjects;
     },
 
-    getSyllabusWithSubtopics: async (language = 'EN') => {
-        const subjects = await module.exports.getFullSyllabus('PRE', language);
+    getSyllabusWithSubtopics: async (language = 'EN', examCode = 'RPSC') => {
+        const subjects = await module.exports.getFullSyllabus('PRE', language, examCode);
         const subtopics = await all("SELECT topic_id, minute_topic_name FROM minute_topics WHERE language = ?", [language]);
         const subtopicMap = {};
         subtopics.forEach(st => {
@@ -2012,7 +2025,7 @@ module.exports = {
     },
 
     // PYQs Operations
-    getPyqExams: () => all("SELECT * FROM pyq_exams ORDER BY exam_year DESC"),
+    getPyqExams: (examCode = 'RPSC') => all("SELECT * FROM pyq_exams WHERE exam_code = ? ORDER BY exam_year DESC", [examCode]),
     getPyqQuestions: (examId, language = 'EN') => all("SELECT * FROM pyq_questions WHERE exam_id = ? AND language = ? ORDER BY sequence_order ASC", [examId, language]),
     createPyqExam: (name, year, tier) => run("INSERT INTO pyq_exams (exam_name, exam_year, tier_type) VALUES (?, ?, ?)", [name, year, tier]),
 
@@ -2082,8 +2095,9 @@ module.exports = {
     deleteRevisionNote: (noteId) => run("DELETE FROM revision_notes WHERE note_id = ?", [noteId]),
 
     // Test Series & Attempts History Helpers
-    getTestSeriesExams: () => all("SELECT * FROM test_series_exams ORDER BY unlock_timestamp ASC"),
-    getTestSeriesExamsByType: (type) => all("SELECT * FROM test_series_exams WHERE test_type = ? ORDER BY unlock_timestamp ASC", [type]),
+    getExams: () => all("SELECT * FROM exams ORDER BY exam_code ASC"),
+    getTestSeriesExams: (examCode = 'RPSC') => all("SELECT * FROM test_series_exams WHERE exam_code = ? ORDER BY unlock_timestamp ASC", [examCode]),
+    getTestSeriesExamsByType: (type, examCode = 'RPSC') => all("SELECT * FROM test_series_exams WHERE test_type = ? AND exam_code = ? ORDER BY unlock_timestamp ASC", [type, examCode]),
     getTestSeriesExamById: (examId) => get("SELECT * FROM test_series_exams WHERE test_exam_id = ?", [examId]),
     saveAttemptRecord: (userId, attemptType, title, score, totalCorrect, totalIncorrect, totalQuestions, timeTakenSeconds) => run(`
         INSERT INTO attempts_history (user_id, attempt_type, title, score, total_correct, total_incorrect, total_questions, time_taken_seconds, attempted_timestamp)
