@@ -2153,6 +2153,70 @@ app.post('/api/admin/create-minute-topic', async (req, res) => {
     }
 });
 
+// Admin Route: Insert a single flashcard manually
+app.post('/api/admin/insert-flashcard', async (req, res) => {
+    const { minuteTopicId, language, frontText, backText } = req.body;
+    if (!minuteTopicId || !language || !frontText || !backText) {
+        return res.status(400).json({ error: "minuteTopicId, language, frontText, and backText are required." });
+    }
+
+    try {
+        await db.insertFlashcard(
+            parseInt(minuteTopicId),
+            language.toUpperCase(),
+            frontText.trim(),
+            backText.trim()
+        );
+        res.status(200).json({ message: "Flashcard inserted successfully." });
+    } catch (err) {
+        console.error("[Insert Flashcard Route Error]", err.message);
+        res.status(500).json({ error: "Failed to insert flashcard: " + err.message });
+    }
+});
+
+// Admin Route: Insert batch of flashcards manually
+app.post('/api/admin/insert-flashcards-batch', async (req, res) => {
+    const { minuteTopicId, language, cards } = req.body; // cards: [ { frontText, backText }, ... ]
+    if (!minuteTopicId || !language || !cards || !Array.isArray(cards)) {
+        return res.status(400).json({ error: "minuteTopicId, language, and cards array are required." });
+    }
+
+    try {
+        let inserted = 0;
+        for (const card of cards) {
+            if (card.frontText && card.backText) {
+                await db.insertFlashcard(
+                    parseInt(minuteTopicId),
+                    language.toUpperCase(),
+                    card.frontText.trim(),
+                    card.backText.trim()
+                );
+                inserted++;
+            }
+        }
+        res.status(200).json({ message: `Successfully inserted ${inserted} flashcards.` });
+    } catch (err) {
+        console.error("[Batch Insert Flashcard Route Error]", err.message);
+        res.status(500).json({ error: "Failed to insert batch of flashcards: " + err.message });
+    }
+});
+
+// Admin Route: Clear flashcards for a specific subtopic
+app.post('/api/admin/clear-flashcards', async (req, res) => {
+    const { minuteTopicId, language } = req.body;
+    if (!minuteTopicId || !language) {
+        return res.status(400).json({ error: "minuteTopicId and language are required." });
+    }
+
+    try {
+        await db.run("DELETE FROM flashcards WHERE minute_topic_id = ? AND language = ?", [parseInt(minuteTopicId), language.toUpperCase()]);
+        res.status(200).json({ message: "Flashcards cleared successfully." });
+    } catch (err) {
+        console.error("[Clear Flashcard Route Error]", err.message);
+        res.status(500).json({ error: "Failed to clear flashcards: " + err.message });
+    }
+});
+
 app.post('/api/admin/clear-minute-questions', async (req, res) => {
     const { minuteTopicId } = req.body;
     if (!minuteTopicId) {
