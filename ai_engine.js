@@ -11,7 +11,26 @@ let genAI;
 if (apiKey && apiKey !== 'MOCK_KEY_FOR_TESTING') {
     try {
         genAI = new GoogleGenAI({ apiKey });
-        console.log('[AI Engine] Gemini client initialized successfully.');
+        genAI.getGenerativeModel = function(options) {
+            const modelName = options.model.replace('1.5-flash', '3.6-flash').replace('2.0-flash', '3.6-flash');
+            const responseMimeType = options.generationConfig?.responseMimeType;
+            return {
+                generateContent: async (contents) => {
+                    const config = responseMimeType ? { responseMimeType } : undefined;
+                    const res = await genAI.models.generateContent({
+                        model: modelName,
+                        contents: contents,
+                        config
+                    });
+                    return {
+                        response: {
+                            text: () => res.text
+                        }
+                    };
+                }
+            };
+        };
+        console.log('[AI Engine] Gemini client initialized successfully with getGenerativeModel shim.');
     } catch (e) {
         console.error('[AI Engine] CRITICAL: Error initializing Gemini API Client:', e.message);
         genAI = null;
@@ -163,7 +182,7 @@ async function generateTheoryContent(subject, topic) {
     }
 
     try {
-        const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+        const model = genAI.getGenerativeModel({ model: 'gemini-3.6-flash' });
         const prompt = `You are a civil-services academic author. Generate highly reliable, factual, civil-services-grade documentation formatted exclusively in GitHub Markdown for RPSC RAS preparation.
 Subject: ${subject}
 Topic: ${topic}
@@ -194,7 +213,7 @@ async function generateMCQBatch(subject, topic, count = 10) {
 
     try {
         const model = genAI.getGenerativeModel({
-            model: 'gemini-1.5-flash',
+            model: 'gemini-3.6-flash',
             generationConfig: { responseMimeType: 'application/json' }
         });
 
@@ -238,7 +257,7 @@ async function generateMainsTemplates(subject, topic) {
 
     try {
         const model = genAI.getGenerativeModel({
-            model: 'gemini-1.5-flash',
+            model: 'gemini-3.6-flash',
             generationConfig: { responseMimeType: 'application/json' }
         });
 
@@ -295,7 +314,7 @@ Output a JSON array of sub-concepts where each object strictly conforms to this 
   }
 ]`;
         const result = await genAI.models.generateContent({
-            model: 'gemini-2.0-flash',
+            model: 'gemini-3.6-flash',
             contents: prompt,
             config: { responseMimeType: 'application/json' }
         });
@@ -372,7 +391,7 @@ Output format must strictly conform to this JSON Schema array:
 ]`;
 
     const result = await genAI.models.generateContent({
-        model: 'gemini-2.0-flash',
+        model: 'gemini-3.6-flash',
         contents: prompt,
         config: { responseMimeType: 'application/json' }
     });
@@ -443,7 +462,7 @@ Output format must strictly conform to this JSON Schema array:
 ]`;
 
     const result = await genAI.models.generateContent({
-        model: 'gemini-2.0-flash',
+        model: 'gemini-3.6-flash',
         contents: prompt,
         config: { responseMimeType: 'application/json' }
     });
@@ -463,7 +482,7 @@ async function translateToHinglish(text) {
 "${text}"`;
 
         const result = await genAI.models.generateContent({
-            model: 'gemini-2.0-flash',
+            model: 'gemini-3.6-flash',
             contents: prompt
         });
         if (result && result.text) {
@@ -515,7 +534,7 @@ Do not write any markdown code fences, headers, or conversational text. Return o
 
     try {
         const response = await genAI.models.generateContent({
-            model: 'gemini-2.0-flash',
+            model: 'gemini-3.6-flash',
             contents: prompt
         });
         
@@ -564,7 +583,7 @@ Respond strictly in a valid JSON array of objects with the keys "front_text" and
 ]`;
 
         const result = await genAI.models.generateContent({
-            model: 'gemini-2.0-flash',
+            model: 'gemini-3.6-flash',
             contents: prompt,
             config: { responseMimeType: 'application/json' }
         });
@@ -614,7 +633,7 @@ async function enrichRevisionNotes(rawText, topicName) {
             rawText;
 
         const result = await genAI.models.generateContent({
-            model: 'gemini-2.0-flash',
+            model: 'gemini-3.6-flash',
             contents: prompt
         });
         
