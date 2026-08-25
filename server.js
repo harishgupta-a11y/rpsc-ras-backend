@@ -1,4 +1,3 @@
-
 // Helper to extract PNG width and height from base64 string
 function getPngDimensions(base64Str) {
     try {
@@ -329,6 +328,63 @@ app.get('/api/syllabus', async (req, res) => {
     }
 });
 
+app.get('/api/syllabus/dynamic', async (req, res) => {
+    const examTier = req.query.tier || 'PRE'; // PRE or MAINS
+    const language = req.query.language || req.headers['x-user-language'] || 'EN';
+    const examCode = req.query.examCode || req.headers['x-exam-code'] || 'RPSC';
+    try {
+        let subjects = [];
+        const nameCol = language === 'HI' ? 'subject_name_hi' : 'subject_name';
+        const unitNameCol = language === 'HI' ? 'unit_name_hi' : 'unit_name';
+        const topicNameCol = language === 'HI' ? 'topic_name_hi' : 'topic_name';
+
+        if (examTier === 'PRE') {
+            // Only fetch Current Affairs (subject_id = 11)
+            subjects = await db.all(`SELECT subject_id, tier_type, COALESCE(${nameCol}, subject_name) as subject_name FROM subjects WHERE subject_id = 11 AND exam_code = ?`, [examCode]);
+            for (const sub of subjects) {
+                sub.pyq_count = 0;
+                const units = await db.all(`SELECT unit_id, subject_id, COALESCE(${unitNameCol}, unit_name) as unit_name FROM units WHERE subject_id = ?`, [sub.subject_id]);
+                let flatTopics = [];
+                for (const unit of units) {
+                    const topics = await db.all(`SELECT topic_id, unit_id, COALESCE(${topicNameCol}, topic_name) as topic_name FROM topics WHERE unit_id = ?`, [unit.unit_id]);
+                    for (const t of topics) {
+                        t.pyq_count = 0;
+                        const subtopics = await db.all("SELECT minute_topic_id, topic_id, minute_topic_name FROM minute_topics WHERE topic_id = ? AND language = ?", [t.topic_id, language]);
+                        t.minute_topics = subtopics;
+                    }
+                    unit.topics = topics;
+                    flatTopics = flatTopics.concat(topics);
+                }
+                sub.units = units;
+                sub.topics = flatTopics;
+            }
+        } else {
+            // Fetch MAINS subjects
+            subjects = await db.all(`SELECT subject_id, tier_type, COALESCE(${nameCol}, subject_name) as subject_name FROM subjects WHERE tier_type = 'MAINS' AND exam_code = ?`, [examCode]);
+            for (const sub of subjects) {
+                sub.pyq_count = 0;
+                const units = await db.all(`SELECT unit_id, subject_id, COALESCE(${unitNameCol}, unit_name) as unit_name FROM units WHERE subject_id = ?`, [sub.subject_id]);
+                let flatTopics = [];
+                for (const unit of units) {
+                    const topics = await db.all(`SELECT topic_id, unit_id, COALESCE(${topicNameCol}, topic_name) as topic_name FROM topics WHERE unit_id = ?`, [unit.unit_id]);
+                    for (const t of topics) {
+                        t.pyq_count = 0;
+                        const subtopics = await db.all("SELECT minute_topic_id, topic_id, minute_topic_name FROM minute_topics WHERE topic_id = ? AND language = ?", [t.topic_id, language]);
+                        t.minute_topics = subtopics;
+                    }
+                    unit.topics = topics;
+                    flatTopics = flatTopics.concat(topics);
+                }
+                sub.units = units;
+                sub.topics = flatTopics;
+            }
+        }
+        res.status(200).json({ syllabus: subjects, subjects });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch dynamic syllabus: " + err.message });
+    }
+});
+
 // --- Custom MCQ Quiz Generator Route (Gated, Strict No-Repeat Guard) ---
 app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
     const { userId, topicIds, minuteTopicId, count, language, difficulty, month, year } = req.body;
@@ -401,6 +457,7 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
         let correct = 0;
         let incorrect = 0;
         let skipped = 0;
+        let omrPenalties = 0;
         const details = [];
         const timestamp = Date.now();
 
@@ -414,7 +471,7 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             await db.saveQuizAttempt(userId, qId, timestamp);
 
             if (!userChoice) {
-                skipped++;
+                omrPenalties++;
                 details.push({
                     question_id: qId,
                     question_text: q.question_text,
@@ -423,6 +480,21 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
                     option_c: q.option_c,
                     option_d: q.option_d,
                     user_answer: null,
+                    correct_answer: q.correct_option,
+                    is_correct: false,
+                    is_skipped: true,
+                    explanation: q.detailed_explanation
+                });
+            } else if (userChoice.toUpperCase() === 'E' || userChoice === '5') {
+                skipped++;
+                details.push({
+                    question_id: qId,
+                    question_text: q.question_text,
+                    option_a: q.option_a,
+                    option_b: q.option_b,
+                    option_c: q.option_c,
+                    option_d: q.option_d,
+                    user_answer: 'E',
                     correct_answer: q.correct_option,
                     is_correct: false,
                     is_skipped: true,
@@ -461,12 +533,16 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             }
         }
 
-        // Dynamic Marking based on DB settings (Default: +1.33 for correct, -0.44 for wrong)
+        // Dynamic Marking based on DB settings (Default: +1.33 for correct, -0.44 for wrong/blank)
         const settings = await getSettingsFromDb();
-        const correctVal = parseFloat(settings.quizCorrectMarks) || 1.33;
-        const negativeVal = parseFloat(settings.quizNegativeMarks) || 0.44;
-        const totalMarks = (correct * correctVal) - (incorrect * negativeVal);
+        const correctVal = parseFloat(settings.quizCorrectMarks) || 1.3333;
+        const negativeVal = parseFloat(settings.quizNegativeMarks) || 0.4444;
+        
+        // Correct answer gets +correctVal, wrong answer and blank OMR get -negativeVal, E gets 0
+        const totalMarks = (correct * correctVal) - (incorrect * negativeVal) - (omrPenalties * negativeVal);
         const roundedScore = Math.round(totalMarks * 100) / 100;
+        const isDisqualified = omrPenalties > (dbQuestions.length * 0.1);
+        
         let attemptTitle = req.body.title || "Practice Quiz";
         if (!req.body.title && dbQuestions.length > 0) {
             const firstQ = dbQuestions[0];
@@ -482,9 +558,9 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             userId,
             'PRACTICE',
             attemptTitle,
-            roundedScore,
+            isDisqualified ? 0.00 : roundedScore,
             correct,
-            incorrect,
+            incorrect + omrPenalties,
             dbQuestions.length,
             timeTakenSeconds
         );
@@ -494,7 +570,9 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             correct: correct,
             incorrect: incorrect,
             skipped: skipped,
-            score: roundedScore,
+            omrPenalties: omrPenalties,
+            isDisqualified: isDisqualified,
+            score: isDisqualified ? 0.00 : roundedScore,
             details: details
         });
 
@@ -3097,6 +3175,7 @@ app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
         let correct = 0;
         let incorrect = 0;
         let skipped = 0;
+        let omrPenalties = 0;
         const details = [];
         const timestamp = Date.now();
         
@@ -3108,7 +3187,7 @@ app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
             await db.saveQuizAttempt(userId, qId, timestamp);
             
             if (!userChoice) {
-                skipped++;
+                omrPenalties++;
                 details.push({
                     question_id: qId,
                     question_text: q.question_text,
@@ -3117,6 +3196,21 @@ app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
                     option_c: q.option_c,
                     option_d: q.option_d,
                     user_answer: null,
+                    correct_answer: q.correct_option,
+                    is_correct: false,
+                    is_skipped: true,
+                    explanation: q.detailed_explanation
+                });
+            } else if (userChoice.toUpperCase() === 'E' || userChoice === '5') {
+                skipped++;
+                details.push({
+                    question_id: qId,
+                    question_text: q.question_text,
+                    option_a: q.option_a,
+                    option_b: q.option_b,
+                    option_c: q.option_c,
+                    option_d: q.option_d,
+                    user_answer: 'E',
                     correct_answer: q.correct_option,
                     is_correct: false,
                     is_skipped: true,
@@ -3155,19 +3249,23 @@ app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
             }
         }
         
-        // Dynamic Marking based on DB settings (Default: +1.33 for correct, -0.44 for wrong)
+        // Dynamic Marking based on DB settings (Default: +1.33 for correct, -0.44 for wrong/blank)
         const settings = await getSettingsFromDb();
-        const correctVal = parseFloat(settings.quizCorrectMarks) || 1.33;
-        const negativeVal = parseFloat(settings.quizNegativeMarks) || 0.44;
-        const totalMarks = (correct * correctVal) - (incorrect * negativeVal);
+        const correctVal = parseFloat(settings.quizCorrectMarks) || 1.3333;
+        const negativeVal = parseFloat(settings.quizNegativeMarks) || 0.4444;
+        
+        // Correct answer gets +correctVal, wrong answer and blank OMR get -negativeVal, E gets 0
+        const totalMarks = (correct * correctVal) - (incorrect * negativeVal) - (omrPenalties * negativeVal);
         const roundedScore = Math.round(totalMarks * 100) / 100;
+        const isDisqualified = omrPenalties > (questionIds.length * 0.1);
+        
         await db.saveAttemptRecord(
             userId,
             'TEST_SERIES',
             exam.title,
-            roundedScore,
+            isDisqualified ? 0.00 : roundedScore,
             correct,
-            incorrect,
+            incorrect + omrPenalties,
             questionIds.length,
             timeTakenSeconds || 0
         );
@@ -3176,7 +3274,9 @@ app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
             correct: correct,
             incorrect: incorrect,
             skipped: skipped,
-            score: roundedScore,
+            omrPenalties: omrPenalties,
+            isDisqualified: isDisqualified,
+            score: isDisqualified ? 0.00 : roundedScore,
             details: details
         });
     } catch (err) {
