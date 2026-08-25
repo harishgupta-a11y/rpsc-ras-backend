@@ -1,0 +1,124 @@
+{
+  "mains": [
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Evaluate the administrative significance of the Divan (or Mehta) in medieval Rajasthan.",
+      "question_hi": "मध्यकालीन राजस्थान में दीवान (या मेहता) के प्रशासनिक महत्व का मूल्यांकन कीजिए।",
+      "answer_en": "The Divan (or Mehta) was the prime minister and finance chief in medieval Rajasthan's central administration. He supervised the state's financial accounts, monitored land revenue collections, and audited expenditures. Thus, the Divan acted as the administrative pivot ensuring fiscal stability and executive control for the ruler.",
+      "answer_hi": "दीवान (या मेहता) मध्यकालीन राजस्थान के केंद्रीय प्रशासन में प्रधानमंत्री और वित्त प्रमुख थे। उन्होंने राज्य के वित्तीय खातों की निगरानी, भू-राजस्व संग्रह का पर्यवेक्षण और व्यय का अंकेक्षण किया। इस प्रकार, दीवान ने शासक के लिए वित्तीय स्थिरता और कार्यकारी नियंत्रण सुनिश्चित करने वाले प्रशासनिक धुरी के रूप में कार्य किया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Explain the role and political importance of the Vakeel in the diplomatic affairs of Rajput states.",
+      "question_hi": "राजपूत राज्यों के राजनयिक मामलों में वकील की भूमिका और राजनीतिक महत्व को स्पष्ट कीजिए।",
+      "answer_en": "The Vakeel served as the resident ambassador representing Rajput rulers at the Mughal imperial court. He managed diplomatic relations, negotiated treaties, and protected the home state's political interests at the center. Consequently, the Vakeel was crucial for maintaining diplomatic harmony and navigating imperial politics.",
+      "answer_hi": "वकील मुगल शाही दरबार में राजपूत शासकों का प्रतिनिधित्व करने वाले निवासी राजदूत के रूप में कार्य करते थे। उन्होंने राजनयिक संबंधों का प्रबंधन किया, संधियों पर बातचीत की और केंद्र में गृह राज्य के राजनीतिक हितों की रक्षा की। फलस्वरूप, वकील राजनयिक सद्भाव बनाए रखने और शाही राजनीति को संचालित करने में महत्वपूर्ण थे।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Distinguish between Khalisah, Jagir, and Bhom lands in the medieval Mewar revenue system.",
+      "question_hi": "मध्यकालीन मेवाड़ राजस्व प्रणाली में खालसा, जागीर और भोम भूमि के बीच अंतर स्पष्ट कीजिए।",
+      "answer_en": "Khalisah was state-owned land managed directly by the crown for revenue. Jagir land was granted to military chiefs and relatives in lieu of services. Bhom land was hereditary tribal/local holdings granted for loyalty and local security. These categories balanced direct crown revenue with decentralized military support.",
+      "answer_hi": "खालसा राज्य के स्वामित्व वाली भूमि थी जिसका प्रबंधन सीधे राजस्व के लिए राजा द्वारा किया जाता था। जागीर भूमि सैन्य प्रमुखों और रिश्तेदारों को सेवाओं के बदले दी जाती थी। भोम भूमि वफादारी और स्थानीय सुरक्षा के लिए दी जाने वाली वंशानुगत आदिवासी/स्थानीय जोत थी। इन श्रेणियों ने सैन्य सहायता के साथ प्रत्यक्ष राजस्व को संतुलित किया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Analyze Batai and Kankoot as methods of land revenue assessment in medieval Rajasthan.",
+      "question_hi": "मध्यकालीन राजस्थान में भू-राजस्व मूल्यांकन की पद्धतियों के रूप में बटाई और कंकूत का विश्लेषण कीजिए।",
+      "answer_en": "Batai and Kankoot were primary revenue assessment methods. Batai involved direct crop-sharing after harvest between the state and peasants. Kankoot was a pre-harvest estimation of standing crop yield to determine revenue. Together, these systems provided flexibility, accommodating agricultural fluctuations and protecting state shares.",
+      "answer_hi": "बटाई और कंकूत राजस्व मूल्यांकन की प्राथमिक पद्धतियाँ थीं। बटाई में फसल कटाई के बाद राज्य और किसानों के बीच प्रत्यक्ष फसल-साझाकरण शामिल था। कंकूत राजस्व निर्धारित करने के लिए खड़ी फसल की उपज का पूर्व-कटाई अनुमान था। इन प्रणालियों ने कृषि में उतार-चढ़ाव को समायोजित कर राज्य के राजस्व को सुरक्षित किया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Differentiate between Khasra and Khatauni as components of medieval revenue records.",
+      "question_hi": "मध्यकालीन राजस्व अभिलेखों के घटकों के रूप में खसरा और खतौनी के बीच अंतर स्पष्ट कीजिए।",
+      "answer_en": "Khasra was the primary register detailing individual agricultural plots, listing ownership, soil quality, and crops. Khatauni was a consolidated register showing the total landholdings of each family or cultivator. These records formed the bedrock of village-level revenue administration and dispute resolution.",
+      "answer_hi": "खसरा व्यक्तिगत कृषि भूखंडों का विवरण देने वाला प्राथमिक रजिस्टर था, जिसमें स्वामित्व, मिट्टी की गुणवत्ता और फसलों को सूचीबद्ध किया जाता था। खतौनी प्रत्येक परिवार या कृषक की कुल जोत को दर्शाने वाला समेकित रजिस्टर था। ये अभिलेख ग्रामीण स्तर के राजस्व प्रशासन और विवाद समाधान के आधार थे।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Evaluate the significance of Munhta Nainsi's 'Marwar ra Pargana ri Vigat' (1666) in Rajasthan's administrative history.",
+      "question_hi": "राजस्थान के प्रशासनिक इतिहास में मुहता नैणसी की कृति 'मारवाड़ रा परगना री विगत' (1666) के महत्व का मूल्यांकन कीजिए।",
+      "answer_en": "'Marwar ra Pargana ri Vigat' is the first comprehensive socio-economic and geographic survey of Marwar, compiled by Munhta Nainsi. It documented village-level demographic, agricultural, and revenue data with unprecedented precision. This landmark work served as a crucial administrative manual and remains an invaluable historical source.",
+      "answer_hi": "'मारवाड़ रा परगना री विगत' मुहता नैणसी द्वारा संकलित मारवाड़ का पहला व्यापक सामाजिक-आर्थिक और भौगोलिक सर्वेक्षण है। इसने अभूतपूर्व सटीकता के साथ ग्राम-स्तरीय जनसांख्यिकीय, कृषि और राजस्व आंकड़ों का दस्तावेजीकरण किया। यह ऐतिहासिक कृति एक महत्वपूर्ण प्रशासनिक मैनुअल साबित हुई और आज भी एक अमूल्य ऐतिहासिक स्रोत है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Outline the administrative innovations introduced by Sawai Jai Singh II in the Jaipur state.",
+      "question_hi": "जयपुर राज्य में सवाई जयसिंह द्वितीय द्वारा शुरू किए गए प्रशासनिक नवाचारों को रेखांकित कीजिए।",
+      "answer_en": "Sawai Jai Singh II modernized Jaipur's administration by establishing specialized departments like Ariz (Military Department) and Majlis (Assembly). He institutionalized district-wise Kanungos for systematic revenue supervision and standardized village Khasra registers. These reforms enhanced centralized administrative control and optimized revenue collection mechanisms.",
+      "answer_hi": "सवाई जयसिंह द्वितीय ने 'आरिज' (सैन्य विभाग) और 'मजलिस' (सभा) जैसे विशिष्ट विभागों की स्थापना करके जयपुर के प्रशासन का आधुनिकीकरण किया। उन्होंने व्यवस्थित राजस्व पर्यवेक्षण के लिए जिलावार कानूनगो को संस्थागत बनाया और ग्राम खसरा रजिस्टरों को मानकीकृत किया। इन सुधारों ने केंद्रीकृत नियंत्रण और राजस्व संग्रह को अनुकूलित किया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Categorize the different types of Jagirs prevalent in medieval Rajasthan and their purposes.",
+      "question_hi": "मध्यकालीन राजस्थान में प्रचलित विभिन्न प्रकार की जागीरों और उनके उद्देश्यों को वर्गीकृत कीजिए।",
+      "answer_en": "Jagirs were categorized into Wakil Jagir, Bhumia Jagir, and Grasiya Jagir. Wakil Jagir was granted for royal service, Bhumia Jagir to local chiefs for territorial security, and Grasiya Jagir for military upkeep. This system efficiently decentralized military organization and integrated local elites into state administration.",
+      "answer_hi": "जागीरों को वकील जागीर, भूमिया जागीर और गरासिया जागीर में वर्गीकृत किया गया था। वकील जागीर शाही सेवा के लिए, भूमिया जागीर क्षेत्रीय सुरक्षा के लिए स्थानीय सरदारों को और गरासिया जागीर सैन्य रखरखाव के लिए दी जाती थी। इस प्रणाली ने सैन्य संगठन का विकेंद्रीकरण कर स्थानीय संभ्रांतों को राज्य प्रशासन से जोड़ा।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Analyze the roles of the Patel and Patwari in the local village administration of medieval Rajasthan.",
+      "question_hi": "मध्यकालीन राजस्थान के स्थानीय ग्राम प्रशासन में पटेल और पटवारी की भूमिकाओं का विश्लेषण कीजिए।",
+      "answer_en": "The Patel (or Mukhiya) was the hereditary village headman responsible for maintaining order, collecting taxes, and resolving disputes. The Patwari maintained field-level land records, crop inventories, and tax registers. Together, they formed the primary interface between the peasantry and the central state revenue system.",
+      "answer_hi": "पटेल (या मुखिया) वंशानुगत ग्राम प्रधान था जो व्यवस्था बनाए रखने, कर एकत्र करने और विवादों को सुलझाने के लिए जिम्मेदार था। पटवारी खेत-स्तरीय भूमि अभिलेख, फसल सूची और कर रजिस्टर रखता था। दोनों मिलकर किसानों और केंद्रीय राज्य राजस्व प्रणाली के बीच प्राथमिक संपर्क सूत्र का निर्माण करते थे।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Explain the Patta system and its role in regulating military obligations in medieval Rajasthan.",
+      "question_hi": "मध्यकालीन राजस्थान में पट्टा प्रणाली और सैन्य दायित्वों को विनियमित करने में इसकी भूमिका को स्पष्ट कीजिए।",
+      "answer_en": "The Patta system was a land grant mechanism regulating military obligations. The state issued a Patta (grant document) detailing land revenue rights to warriors. In exchange, the grantee was legally bound to provide a specified contingent of troops to the ruler. This system formalized feudal military recruitment.",
+      "answer_hi": "पट्टा प्रणाली सैन्य दायित्वों को विनियमित करने वाली एक भूमि अनुदान व्यवस्था थी। राज्य ने योद्धाओं को भू-राजस्व अधिकारों का विवरण देने वाला पट्टा (अनुदान दस्तावेज) जारी किया। बदले में, अनुदान प्राप्तकर्ता कानूनी रूप से शासक को सैनिकों की एक निर्दिष्ट टुकड़ी प्रदान करने के लिए बाध्य था। इस प्रणाली ने सामंती सैन्य भर्ती को औपचारिक रूप दिया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Discuss the hierarchical organization of the military commanders in medieval Rajput states.",
+      "question_hi": "मध्यकालीन राजपूत राज्यों में सैन्य कमांडरों के पदानुक्रमित संगठन की विवेचना कीजिए।",
+      "answer_en": "The military was hierarchically organized under the Mir Bakshi. Command structures included the Hazari (commander of 1000 troops), Panchsadi (500), and Sadi (100). Additionally, hereditary Bhumia militia and Dhangar (shepherd-soldiers) supported regular troops. This structure ensured a swift mobilization capability and structured battle leadership during conflicts.",
+      "answer_hi": "मीर बख्शी के अधीन सेना पदानुक्रमित रूप से संगठित थी। कमांडर संरचना में हजारी (1000 सैनिकों का कमांडर), पंचसदी (500) और सदी (100) शामिल थे। इसके अतिरिक्त, वंशानुगत भूमिया मिलिशिया और धनगर (चरवाहे-सैनिक) नियमित सैनिकों का समर्थन करते थे। इस संरचना ने संघर्षों के दौरान त्वरित गतिशीलता और व्यवस्थित युद्ध नेतृत्व सुनिश्चित किया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Examine the socio-economic impact of 'Lag-Baag' on the peasants of medieval Rajasthan.",
+      "question_hi": "मध्यकालीन राजस्थान के किसानों पर 'लाग-बाग' के सामाजिक-आर्थिक प्रभाव का परीक्षण कीजिए।",
+      "answer_en": "Lag-Baag represented various illegal or supplementary taxes imposed by feudal lords beyond standard land revenue. These arbitrary levies severely exploited the peasantry, driving them into chronic indebtedness and poverty. Consequently, Lag-Baag became the primary grievance that triggered widespread peasant movements across Rajasthan in later centuries.",
+      "answer_hi": "लाग-बाग मानक भू-राजस्व से इतर सामंती जमींदारों द्वारा लगाए गए विभिन्न अवैध या पूरक करों का प्रतिनिधित्व करता था। इन मनमाने करों ने किसानों का गंभीर शोषण किया, जिससे वे ऋणग्रस्तता और गरीबी के चक्र में फंस गए। परिणामस्वरूप, लाग-बाग बाद की सदियों में राजस्थान में व्यापक किसान आंदोलनों का प्राथमिक कारण बना।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Define the concepts of 'Rekh' and 'Sanad' within the medieval Rajasthani revenue framework.",
+      "question_hi": "मध्यकालीन राजस्थानी राजस्व ढांचे के भीतर 'रेख' और 'सनद' की अवधारणाओं को परिभाषित कीजिए।",
+      "answer_en": "Rekh (or Lekh) was the assessed revenue potential of a land grant, used to determine military obligations. Sanad was the official royal decree or charter confirming land grants, privileges, or administrative appointments. Together, they established the legal and fiscal parameters governing the ruler-vassal relationship.",
+      "answer_hi": "रेख (या लेख) किसी भूमि अनुदान की अनुमानित राजस्व क्षमता थी, जिसका उपयोग सैन्य दायित्वों को निर्धारित करने के लिए किया जाता था। सनद भूमि अनुदान, विशेषाधिकारों या प्रशासनिक नियुक्तियों की पुष्टि करने वाला आधिकारिक शाही फरमान या चार्टर था। दोनों ने मिलकर शासक-जागीरदार संबंधों को नियंत्रित करने वाले कानूनी और वित्तीय मापदंड स्थापित किए।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Briefly analyze the minting and currency systems of Mewar, Marwar, and Jaipur states.",
+      "question_hi": "मेवाड़, मारवाड़ और जयपुर राज्यों की टकसाल और मुद्रा प्रणालियों का संक्षेप में विश्लेषण कीजिए।",
+      "answer_en": "Rajput states maintained independent mints: Mewar's Chittor mint issued Tamankiya and Swroopa Shahi coins; Marwar utilized Merta mint; Jaipur's Sawai Madhopur mint produced Jahazshahi coins. These currencies facilitated regional trade, asserted sovereign authority, and standardized revenue transactions prior to British-minted Calcutta sikkah dominance.",
+      "answer_hi": "राजपूत राज्यों ने स्वतंत्र टकसालें बनाए रखीं: मेवाड़ की चित्तौड़ टकसाल ने तमानकिया और स्वरूप शाही सिक्के जारी किए; मारवाड़ ने मेड़ता टकसाल का उपयोग किया; जयपुर की सवाई माधोपुर टकसाल ने जहाजशाही सिक्के बनाए। इन मुद्राओं ने क्षेत्रीय व्यापार को सुगम बनाया, संप्रभु अधिकार का प्रदर्शन किया और राजस्व लेनदेन को मानकीकृत किया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Examine the police and judicial system in medieval Rajasthan, focusing on the Kotwal and Hakim.",
+      "question_hi": "कोतवाल और हाकिम पर ध्यान केंद्रित करते हुए मध्यकालीन राजस्थान में पुलिस और न्यायिक व्यवस्था का परीक्षण कीजिए।",
+      "answer_en": "The Kotwal served as the urban police chief maintaining town security and managing the Kotwali jail. The Hakim was the district administrator combining revenue collection with judicial powers to resolve civil disputes. This system integrated executive enforcement with local judicial arbitration to maintain law and order.",
+      "answer_hi": "कोतवाल शहरी पुलिस प्रमुख के रूप में कार्य करता था जो नगर सुरक्षा बनाए रखता था और कोतवाली जेल का प्रबंधन करता था। हाकिम जिला प्रशासक था जो नागरिक विवादों को सुलझाने के लिए न्यायिक शक्तियों के साथ राजस्व संग्रह का समन्वय करता था। इस प्रणाली ने कानून-व्यवस्था बनाए रखने के लिए स्थानीय न्यायिक मध्यस्थता को एकीकृत किया।"
+    }
+  ]
+}

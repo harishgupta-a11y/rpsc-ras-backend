@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Consider the following statements about Jantar and Bhapang:\n1. Jantar is a stringed instrument with two gourds, predominantly played by the Gurjar Bhopas while reciting the phad of Devnarayan Ji.\n2. Bhapang is played with a horsehair bow.\n3. Jantar is categorized under the Sushira Vadya (wind instrument) group.\nWhich of the statements given above is/are correct?",
+      "question_hi": "जंतर और भपंग के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. जंतर दो तुम्बों (कद्दू) वाला एक तंत वाद्य यंत्र है, जिसे मुख्य रूप से गुर्जर भोपों द्वारा देवनारायण जी की फड़ के वाचन के दौरान बजाया जाता है।\n2. भपंग को घोड़े के बालों से बने धनुष (गज) से बजाया जाता है।\n3. जंतर को सुषिर वाद्य (हवा से बजने वाले वाद्य) समूह के अंतर्गत वर्गीकृत किया गया है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 and 3 only",
+        "C": "1 and 2 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 2",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct: Jantar is a stringed instrument (Tata Vadya) resembling a Veena with two gourds, played by the Gurjar Bhopas during the narration of the Devnarayan Ji phad. Statement 2 is incorrect: Bhapang is a plucked drone instrument, played by plucking/pulling the string, not with a bow. Statement 3 is incorrect: Jantar is a stringed instrument (Tata Vadya), not a wind instrument (Sushira Vadya).",
+      "explanation_hi": "कथन 1 सही है: जंतर दो तुम्बों (कद्दू) वाला एक वीणा सदृश तंत वाद्य यंत्र है, जिसे गुर्जर भोपों द्वारा देवनारायण जी की फड़ के वाचन के दौरान बजाया जाता है। कथन 2 गलत है: भपंग एक खींचा जाने वाला (प्लकड) ड्रोन वाद्य यंत्र है, जिसे उंगली से तार को खींचकर/आघात करके बजाया जाता है, न कि गज (धनुष) से। कथन 3 गलत है: जंतर एक तंत वाद्य (तार वाला वाद्य) है, न कि सुषिर वाद्य (हवा से बजने वाला वाद्य)।"
+    },
+    {
+      "question_en": "Consider the following statements about the musical legacy of Maharana Kumbha:\n1. Sangeet Raj is divided into three parts namely Pathya, Geet, and Rasa.\n2. Sangeet Mimamsa is a major musical treatise composed by Maharana Kumbha.\n3. Sangeet Raj is considered the most comprehensive encyclopedic work on music and dance written in medieval Rajasthan.\nWhich of the statements given above is/are correct?",
+      "question_hi": "महाराणा कुंभा की संगीत विरासत के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. संगीत राज तीन भागों में विभाजित है, जिनके नाम पाठ्य, गीत और रस हैं।\n2. संगीत मीमांसा महाराणा कुंभा द्वारा रचित एक प्रमुख संगीत ग्रंथ है।\n3. संगीत राज को मध्यकालीन राजस्थान में संगीत और नृत्य पर लिखा गया सबसे व्यापक विश्वकोश ग्रंथ माना जाता है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect: Sangeet Raj is divided into five parts (Ratnakosas) namely Pathya, Geet, Vadya, Nritya, and Rasa. Statements 2 and 3 are correct: Sangeet Mimamsa is another key treatise by Maharana Kumbha, and Sangeet Raj is widely recognized as the most extensive musicological work of medieval Rajasthan.",
+      "explanation_hi": "कथन 1 गलत है: संगीत राज पांच भागों (रत्नकोश) में विभाजित है, जिनके नाम पाठ्य, गीत, वाद्य, नृत्य और रस हैं। कथन 2 और 3 सही हैं: संगीत मीमांसा महाराणा कुंभा द्वारा रचित एक अन्य प्रमुख ग्रंथ है, और संगीत राज को मध्यकालीन राजस्थान के सबसे विस्तृत संगीत शास्त्र कार्य के रूप में मान्यता प्राप्त है।"
+    },
+    {
+      "question_en": "Consider the following statements about Kalbelia dance and its associated instruments:\n1. Kalbelia dance and songs were inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity in 2010.\n2. The primary wind instrument used in Kalbelia performances is the Kamacha, played by the women of the community.\n3. The Kalbelia community traditionally belongs to the snake charmer lineage in Rajasthan.\nWhich of the statements given above is/are correct?",
+      "question_hi": "कालबेलिया नृत्य और इससे जुड़े वाद्यों के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. कालबेलिया नृत्य और गीतों को वर्ष 2010 में यूनेस्को (UNESCO) की मानवता की अमूर्त सांस्कृतिक विरासत की प्रतिनिधि सूची में शामिल किया गया था।\n2. कालबेलिया प्रस्तुतियों में प्रयुक्त होने वाला प्राथमिक सुषिर वाद्य कामायचा है, जिसे समुदाय की महिलाओं द्वारा बजाया जाता है।\n3. कालबेलिया समुदाय पारंपरिक रूप से राजस्थान में सपेरा (सांप पकड़ने वाले) वंश से संबंधित है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "C",
+      "explanation_en": "Statements 1 and 3 are correct: Kalbelia dance/songs joined the UNESCO Representative List in 2010, and they belong to the snake charmer lineage. Statement 2 is incorrect: Kamacha is a stringed instrument played by the Manganiyars. The primary wind instrument of the Kalbelia is the Been (or Poongi), played by men while women dance.",
+      "explanation_hi": "कथन 1 और 3 सही हैं: कालबेलिया नृत्य/गीतों को 2010 में यूनेस्को की प्रतिनिधि सूची में शामिल किया गया था, और वे सपेरा समुदाय से जुड़े हैं। कथन 2 गलत है: कामायचा मांगणियारों द्वारा बजाया जाने वाला एक तंत वाद्य यंत्र है। कालबेलिया का प्राथमिक सुषिर वाद्य बीन (या पूंगी) है, जिसे पुरुषों द्वारा बजाया जाता है जबकि महिलाएं नृत्य करती हैं।"
+    },
+    {
+      "question_en": "Consider the following statements about the Mand music tradition:\n1. Mand is a classical-folk singing style unique to Rajasthan, historically developed under the patronage of regional courts like Jaisalmer and Bikaner.\n2. Gavri Devi of Bikaner is one of the most prominent exponents of the Mand style.\n3. The famous song \"Kesariya Balam\" is composed in the Mand style and represents Rajasthan's welcoming tradition.\nWhich of the statements given above is/are correct?",
+      "question_hi": "मांड संगीत परंपरा के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. मांड राजस्थान की एक अनूठी शास्त्रीय-लोक गायन शैली है, जो ऐतिहासिक रूप से जैसलमेर और बीकानेर जैसे क्षेत्रीय दरबारों के संरक्षण में विकसित हुई थी।\n2. बीकानेर की गवरी देवी मांड गायन शैली की सबसे प्रमुख प्रतिपादकों में से एक हैं।\n3. प्रसिद्ध गीत \"केसरिया बालम\" मांड शैली में रचित है और राजस्थान की स्वागत परंपरा का प्रतिनिधित्व करता है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 and 3 only",
+        "C": "1 and 2 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 2",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All statements are correct: Mand is a specialized classical-folk singing tradition of Rajasthan that flourished under the court patronage of Jaisalmer and Bikaner. Gavri Devi of Bikaner is its legendary exponent, and the famous welcoming song 'Kesariya Balam' is set in the Mand style.",
+      "explanation_hi": "सभी कथन सही हैं: मांड राजस्थान की एक विशिष्ट शास्त्रीय-लोक गायन परंपरा है जो जैसलमेर और बीकानेर के दरबारी संरक्षण में फली-फूली। बीकानेर की गवरी देवी इसकी प्रसिद्ध प्रतिपादक हैं, और प्रसिद्ध स्वागत गीत 'केसरिया बालम' मांड शैली में ही रचा गया है।"
+    },
+    {
+      "question_en": "Assertion (A): The Morchang, despite its tiny metal structure, is classified under the Sushira Vadya (wind instruments) category in Rajasthani folk music.\nReason (R): It is played by holding it between the teeth, using the oral cavity as a resonator, while the performer blows air and plucks the metal tongue to produce sound.",
+      "question_hi": "कथन (A): मोरचंग को उसके छोटे धातु के ढांचे के बावजूद राजस्थानी लोक संगीत में सुषिर वाद्य (हवा से बजने वाले वाद्य) की श्रेणी में वर्गीकृत किया गया है।\nकारण (R): इसे दांतों के बीच रखकर बजाया जाता है, जिसमें मुख गुहा (ओरल कैविटी) का उपयोग रेज़ोनेटर के रूप में किया जाता है, जबकि वादक हवा फूंकता है और ध्वनि उत्पन्न करने के लिए धातु की जीभ (पत्ती) को हिलाता/खींचता है।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "A",
+      "explanation_en": "Both A and R are true, and R is the correct explanation of A. Even though the metal tongue of the Morchang (jaw harp) is plucked, it cannot produce its characteristic musical sound without the air blown from the performer's mouth and the resonance provided by the oral cavity. Hence, it is classified under Sushira Vadya (wind instruments).",
+      "explanation_hi": "A और R दोनों सही हैं, और R, A की सही व्याख्या है। यद्यपि मोरचंग (ज्यू-हार्प) की धातु की जीभ (पत्ती) को अंगुली से हिलाया जाता है, लेकिन वादक के मुंह से फूकी जाने वाली हवा और मुख गुहा (ओरल कैविटी) द्वारा प्रदान किए जाने वाले अनुनाद (रेज़ोनेंस) के बिना यह अपनी विशिष्ट संगीतमय ध्वनि उत्पन्न नहीं कर सकता। इसलिए, इसे सुषिर वाद्य (हवा से बजने वाले वाद्य) के अंतर्गत वर्गीकृत किया गया है।"
+    },
+    {
+      "question_en": "Assertion (A): The Chang is a large, circular wooden frame drum played with great enthusiasm during the Holi festival in the Shekhawati region.\nReason (R): The Manganiyar community of Barmer and Jaisalmer regions has traditionally relied on Hindu Rajput patrons for their livelihood.",
+      "question_hi": "कथन (A): चंग एक बड़ा, गोलाकार लकड़ी के फ्रेम वाला ड्रम (डफ) है जिसे शेखावाटी क्षेत्र में होली के त्योहार के दौरान बड़े उत्साह के साथ बजाया जाता है।\nकारण (R): बाड़मेर और जैसलमेर क्षेत्रों का मांगणियार समुदाय पारंपरिक रूप से अपनी आजीविका के लिए हिंदू राजपूत संरक्षकों पर निर्भर रहा है।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "B",
+      "explanation_en": "Both Assertion (A) and Reason (R) are historically correct statements. The Chang is a key percussion instrument played in Shekhawati during Holi festival. The Manganiyars are Muslim folk musicians who traditionally serve Hindu Rajput patrons. However, the patron-client system of the Manganiyar community in western Rajasthan has no relation to the playing of the Chang drum in the Shekhawati region of northeastern/central Rajasthan.",
+      "explanation_hi": "कथन (A) और कारण (R) दोनों ऐतिहासिक रूप से सही कथन हैं। चंग शेखावाटी में होली के त्योहार के दौरान बजाया जाने वाला एक प्रमुख ताल वाद्य है। मांगणियार मुस्लिम लोक संगीतकार हैं जो पारंपरिक रूप से हिंदू राजपूत संरक्षकों की सेवा करते हैं। हालांकि, पश्चिमी राजस्थान के मांगणियार समुदाय की संरक्षक-यजमान प्रणाली का उत्तर-पूर्वी/मध्य राजस्थान के शेखावाटी क्षेत्र में चंग ड्रम बजाए जाने से कोई संबंध नहीं है।"
+    },
+    {
+      "question_en": "Assertion (A): The 'Kurjan' songs in Rajasthan's folklore are poignant expressions of separation (Viraha) sung by women to send messages to their husbands.\nReason (R): The Kurjan bird mentioned in these folk songs refers to the Indian Peafowl, which is celebrated as the state bird of Rajasthan.",
+      "question_hi": "कथन (A): राजस्थानी लोक संगीत में 'कुरजां' गीत विरह (वियोग) की मार्मिक अभिव्यक्ति हैं जो महिलाओं द्वारा अपने पतियों को संदेश भेजने के लिए गाए जाते हैं।\nकारण (R): इन लोक गीतों में उल्लिखित कुरजां पक्षी भारतीय मोर (Peafowl) को संदर्भित करता है, जिसे राजस्थान के राज्य पक्षी के रूप में मनाया जाता है।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "C",
+      "explanation_en": "Assertion (A) is true: Kurjan (Kurjaa) songs are sung by women expressing the pain of separation and addressing the migratory crane bird to carry messages to their husbands. Reason (R) is false: The Kurjan bird is the Demoiselle Crane (not the Indian Peafowl), and the state bird of Rajasthan is the Great Indian Bustard (Godawan), not the peafowl.",
+      "explanation_hi": "कथन (A) सही है: कुरजां गीत विरह की पीड़ा को व्यक्त करने वाली महिलाओं द्वारा गाए जाते हैं, जो प्रवासी क्रेन (सारस/कुरजां) पक्षी को संबोधित कर अपने पति तक संदेश पहुंचाने की कामना करती हैं। कारण (R) गलत है: कुरजां पक्षी डेमोइसेल क्रेन (सारस प्रजाति) को संदर्भित करता है (न कि भारतीय मोर को), और राजस्थान का राज्य पक्षी गोडावण (Great Indian Bustard) है, मोर नहीं।"
+    },
+    {
+      "question_en": "Assertion (A): The Kamacha is classified as a Sushira Vadya (wind instrument) because it produces sound through the vibration of air inside its wooden body.\nReason (R): The Langaa community of western Rajasthan consists of hereditary musicians who traditionally play the Sarangi and Sindhi Sarangi.",
+      "question_hi": "कथन (A): कामायचा को एक सुषिर वाद्य (हवा से बजाने वाला वाद्य) के रूप में वर्गीकृत किया गया है क्योंकि यह अपने लकड़ी के खोखले भाग के भीतर हवा के कंपन के माध्यम से ध्वनि उत्पन्न करता है।\nकारण (R): पश्चिमी राजस्थान का लंगा समुदाय वंशानुगत संगीतकारों का है जो पारंपरिक रूप से सारंगी और सिंधी सारंगी बजाते हैं।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "D",
+      "explanation_en": "Assertion (A) is false: The Kamacha is a stringed instrument (Tata Vadya) played with a bow, not a wind instrument (Sushira Vadya). Reason (R) is true: The Langaa community consists of hereditary Muslim musicians of western Rajasthan (Jaisalmer and Barmer) who are famous for playing the Sarangi and Sindhi Sarangi.",
+      "explanation_hi": "कथन (A) गलत है: कामायचा एक गज (धनुष) से बजाया जाने वाला तंत वाद्य (तार वाला वाद्य) है, न कि सुषिर वाद्य (हवा से बजने वाला वाद्य)। कारण (R) सही है: पश्चिमी राजस्थान (जैसलमेर और बाड़मेर) के लंगा समुदाय में वंशानुगत मुस्लिम संगीतकार शामिल हैं जो सारंगी और सिंधी सारंगी बजाने के लिए प्रसिद्ध हैं।"
+    },
+    {
+      "question_en": "Match the following folk instruments with their classifications or key features:\n| Column I (Instrument) | Column II (Classification/Feature) |\n|---|---|\n| 1. Bhapang | a. Plucked string drone |\n| 2. Satara | b. Combined double flute |\n| 3. Morchang | c. Metal jaw harp |\n| 4. Chang | d. Holi frame drum |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित लोक वाद्यों को उनके वर्गीकरण या प्रमुख विशेषताओं से सुमेलित कीजिए:\n| कॉलम I (वाद्य यंत्र) | कॉलम II (वर्गीकरण/विशेषता) |\n|---|---|\n| 1. भपंग | a. तार से बजाया जाने वाला ड्रोन |\n| 2. सतारा | b. संयुक्त दोहरी बांसुरी |\n| 3. मोरचंग | c. धातु का ज्यू-हार्प |\n| 4. चंग | d. होली का फ्रेम ड्रम |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "A",
+      "explanation_en": "The correct matches are: 1. Bhapang is a plucked single-string drone instrument (Tata Vadya). 2. Satara is a double flute played simultaneously (Sushira Vadya). 3. Morchang is a small iron jaw harp (Sushira Vadya). 4. Chang is a large wooden frame drum played during Holi (Avanaddha Vadya).",
+      "explanation_hi": "सही मिलान इस प्रकार हैं: 1. भपंग एक तार वाला, खींचा जाने वाला (प्लकड) एकल-तंत्री ड्रोन वाद्य है (तंत वाद्य)। 2. सतारा एक साथ बजाई जाने वाली दोहरी बांसुरी है (सुषिर वाद्य)। 3. मोरचंग लोहे का एक छोटा ज्यू-हार्प है (सुषिर वाद्य)। 4. चंग होली के दौरान बजाया जाने वाला एक बड़ा लकड़ी का फ्रेम ड्रम है (अवनद्ध वाद्य)।"
+    },
+    {
+      "question_en": "Match the following Rajasthani folk songs with their themes and symbols:\n| Column I (Folk Song) | Column II (Theme / Symbolism) |\n|---|---|\n| 1. Hichki | a. Crane bird representing a message of separation |\n| 2. Kurjan | b. Hiccup representing remembrance by a loved one |\n| 3. Panihari | c. Song celebrating the peacock |\n| 4. Mordhvani | d. Song of women fetching water emphasizing fidelity |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित राजस्थानी लोक गीतों को उनके विषयों और प्रतीकों से सुमेलित कीजिए:\n| कॉलम I (लोक गीत) | कॉलम II (विषय/प्रतीकवाद) |\n|---|---|\n| 1. हिचकी | a. वियोग का संदेश ले जाने वाला कुरजां पक्षी |\n| 2. कुरजां | b. प्रियजन द्वारा याद किए जाने का संकेत देने वाली हिचकी |\n| 3. पानीहारी | c. मोर की सुंदरता का गान करने वाला गीत |\n| 4. मोरध्वनी | d. पतिव्रता धर्म पर बल देने वाला पानी भरने वाली महिलाओं का गीत |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "B",
+      "explanation_en": "The correct matches are: 1. Hichki represents the hiccup signifying memory of a loved one (often popular in Mewat/Alwar). 2. Kurjan utilizes the migratory crane to send a message of separation. 3. Panihari is sung by women carrying water pots, highlighting marital fidelity. 4. Mordhvani is a song celebrating the beauty and voice of the peacock.",
+      "explanation_hi": "सही मिलान इस प्रकार हैं: 1. हिचकी प्रियजन द्वारा याद किए जाने का संकेत देने वाली शारीरिक हिचकी का प्रतिनिधित्व करती है (मेवात/अलवर में लोकप्रिय)। 2. कुरजां प्रवासी पक्षी सारस (क्रेन) के माध्यम से वियोग का संदेश भेजने को दर्शाती है। 3. पनिहारी पानी भरने वाली महिलाओं द्वारा गाया जाता है, जो वैवाहिक निष्ठा (पतिव्रता धर्म) को उजागर करता है। 4. मोरध्वनी मोर की सुंदरता और उसकी आवाज का जश्न मनाने वाला गीत है।"
+    },
+    {
+      "question_en": "Match the music treatises, concepts, or instruments with their associated creators or communities:\n| Column I (Work/Concept) | Column II (Creator/Association) |\n|---|---|\n| 1. Sangeet Raj | a. Classical-folk style patronized in Jaisalmer |\n| 2. Sangeet Mimamsa | b. Double-pipe wind instrument of Kalbelias |\n| 3. Mand Style | c. Maharana Kumbha's five-chapter treatise |\n| 4. Been | d. Shorter music commentary by Maharana Kumbha |\nSelect the correct answer using the codes given below:",
+      "question_hi": "संगीत ग्रंथों, अवधारणाओं या वाद्यों को उनके संबंधित रचयिताओं या समुदायों से सुमेलित कीजिए:\n| कॉलम I (ग्रंथ/अवधारणा) | कॉलम II (रचयिता/संबंध) |\n|---|---|\n| 1. संगीत राज | a. जैसलमेर में संरक्षित शास्त्रीय-लोक शैली |\n| 2. संगीत मीमांसा | b. कालबेलिया का दोहरी नली वाला सुषिर वाद्य |\n| 3. मांड शैली | c. महाराणा कुंभा का पांच अध्यायों का महान ग्रंथ |\n| 4. बीन | d. महाराणा कुंभा द्वारा लिखित लघु संगीत ग्रंथ |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-a, 4-d",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-a, 3-b, 4-c"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-a, 4-d",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-a, 3-b, 4-c"
+      },
+      "correct_option": "C",
+      "explanation_en": "The correct matches are: 1. Sangeet Raj is Maharana Kumbha's massive music encyclopedic treatise in 5 parts. 2. Sangeet Mimamsa is a shorter musical work by Kumbha. 3. Mand is the classical-folk fusion singing style patronized in Jaisalmer/Bikaner. 4. Been is the double-pipe instrument used by the snake-charmer Kalbelia community.",
+      "explanation_hi": "सही मिलान इस प्रकार हैं: 1. संगीत राज महाराणा कुंभा द्वारा 5 अध्यायों में रचित एक महान संगीत ग्रंथ है। 2. संगीत मीमांसा महाराणा कुंभा द्वारा लिखित लघु संगीत ग्रंथ है। 3. मांड जैसलमेर/बीकानेर दरबारों में संरक्षित शास्त्रीय-लोक गायन शैली है। 4. बीन सपेरा कालबेलिया समुदाय द्वारा बजाया जाने वाला दोहरी नली वाला वाद्य यंत्र है।"
+    },
+    {
+      "question_en": "Match the following Rajasthani folk instruments with their traditionally associated communities or playing contexts:\n| Column I (Instrument) | Column II (Community / Context) |\n|---|---|\n| 1. Jantar | a. Jogi community snake charmers |\n| 2. Kamacha | b. Damami and Gurjar Bhopas |\n| 3. Poongi | c. Manganiyar community of Jaisalmer |\n| 4. Duff | d. Frame drum played by women |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित राजस्थानी लोक वाद्यों को उनके पारंपरिक रूप से जुड़े समुदायों या वादन के संदर्भों से सुमेलित कीजिए:\n| कॉलम I (वाद्य यंत्र) | कॉलम II (समुदाय / संदर्भ) |\n|---|---|\n| 1. जंतर | a. जोगी समुदाय के सपेरे |\n| 2. कामायचा | b. दमामी और गुर्जर भोपे |\n| 3. पूंगी | c. जैसलमेर का मांगणियार समुदाय |\n| 4. डफ | d. महिलाओं द्वारा बजाया जाने वाला फ्रेम ड्रम |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-d, 3-c, 4-b",
+        "B": "1-c, 2-a, 3-d, 4-b",
+        "C": "1-d, 2-b, 3-c, 4-a",
+        "D": "1-b, 2-c, 3-a, 4-d"
+      },
+      "options_hi": {
+        "A": "1-a, 2-d, 3-c, 4-b",
+        "B": "1-c, 2-a, 3-d, 4-b",
+        "C": "1-d, 2-b, 3-c, 4-a",
+        "D": "1-b, 2-c, 3-a, 4-d"
+      },
+      "correct_option": "D",
+      "explanation_en": "The correct matches are: 1. Jantar is traditionally played by Damami and Gurjar Bhopas. 2. Kamacha is the signature stringed instrument played by the Manganiyars of Jaisalmer. 3. Poongi (or Been) is played by Jogis/Kalbelias (snake charmers). 4. Duff (or Dapph) is a frame drum played by women during festivals.",
+      "explanation_hi": "सही मिलान इस प्रकार हैं: 1. जंतर पारंपरिक रूप से दमामी और गुर्जर भोपों द्वारा बजाया जाता है। 2. कामायचा जैसलमेर के मांगणियार समुदाय द्वारा बजाया जाने वाला विशिष्ट तंत वाद्य है। 3. पूंगी (या बीन) जोगी/कालबेलिया (सपेरों) द्वारा बजाई जाती है। 4. डफ (या डफ्फ) महिलाओं द्वारा त्योहारों के दौरान बजाया जाने वाला फ्रेम ड्रम है।"
+    },
+    {
+      "question_en": "Which of the following statements best describes the structure and playing style of the 'Morchang' in Rajasthan?",
+      "question_hi": "निम्नलिखित में से कौन सा विवरण राजस्थान के 'मोरचंग' की संरचना और वादन शैली का सबसे अच्छा वर्णन करता है?",
+      "options_en": {
+        "A": "It is a small iron jaw harp placed between the teeth and plucked while blowing air to create rhythmic patterns.",
+        "B": "It is a double-sided leather drum played with wooden sticks during royal processions.",
+        "C": "It is a long brass trumpet played by the Sargara community to signal the start of a battle.",
+        "D": "It is a multi-stringed bow instrument carved out of a single block of mango wood."
+      },
+      "options_hi": {
+        "A": "यह लोहे का एक छोटा ज्यू-हार्प (जबड़ा वीणा) है जिसे दांतों के बीच रखा जाता है और लयबद्ध पैटर्न बनाने के लिए हवा फूंकते हुए बजाया जाता है।",
+        "B": "यह एक दो तरफा चमड़े का ड्रम है जिसे शाही जुलूसों के दौरान लकड़ी की छड़ियों से बजाया जाता है।",
+        "C": "यह सरगरा समुदाय द्वारा युद्ध शुरू होने का संकेत देने के लिए बजाया जाने वाला एक लंबा पीतल का तुरही वाद्य है।",
+        "D": "यह एक बहु-तंत्रीय गज (धनुष) वाद्य यंत्र है जिसे आम की लकड़ी के एक टुकड़े से तराशकर बनाया जाता है।"
+      },
+      "correct_option": "A",
+      "explanation_en": "The Morchang is a folk jaw harp (a tiny metal frame with a flexible metal tongue). It is played by holding it against the teeth, using the mouth cavity as a natural acoustic resonator while plucking the metal tongue and breathing in/out.",
+      "explanation_hi": "मोरचंग एक लोक ज्यू-हार्प (एक लचीली धातु की पत्ती वाला छोटा धातु का ढांचा) है। इसे दांतों से दबाकर बजाया जाता है, जिसमें धातु की पत्ती को हिलाते समय और सांस लेते/छोड़ते समय मुख गुहा एक प्राकृतिक प्रतिध्वनिकर्ता (रेज़ोनेटर) के रूप में कार्य करती है।"
+    },
+    {
+      "question_en": "In the folk music traditions of western Rajasthan, what is the primary distinction between the Langaa and Manganiyar communities?",
+      "question_hi": "पश्चिमी राजस्थान की लोक संगीत परंपराओं में, लंगा और मांगणियार समुदायों के बीच प्राथमिक अंतर क्या है?",
+      "options_en": {
+        "A": "Langaas exclusively perform Hindu devotional songs, whereas Manganiyars perform Sufi qawwalis.",
+        "B": "Langaas traditionally play the Sarangi and serve Muslim patrons, whereas Manganiyars play the Kamacha and serve Hindu Rajput patrons.",
+        "C": "Langaas belong to the Jogi community of snake charmers, while Manganiyars are story-telling Bhopas.",
+        "D": "Langaas play only wind instruments like Alghoza, while Manganiyars perform using heavy percussion instruments like Chang."
+      },
+      "options_hi": {
+        "A": "लंगा विशेष रूप से हिंदू भक्ति गीत गाते हैं, जबकि मांगणियार सूफी कव्वालियां गाते हैं।",
+        "B": "लंगा पारंपरिक रूप से सारंगी बजाते हैं और मुस्लिम संरक्षकों की सेवा करते हैं, जबकि मांगणियार कामायचा बजाते हैं और हिंदू राजपूत संरक्षकों की सेवा करते हैं।",
+        "C": "लंगा सपेरों के जोगी समुदाय से संबंधित हैं, जबकि मांगणियार कथावाचक भोपे हैं।",
+        "D": "लंगा केवल अलगोजा जैसे सुषिर वाद्य बजाते हैं, जबकि मांगणियार चंग जैसे भारी अवनद्ध वाद्यों का उपयोग करके प्रदर्शन करते हैं।"
+      },
+      "correct_option": "B",
+      "explanation_en": "Langaas are hereditary Muslim musicians whose traditional patrons are Muslim Sindhi Sipahis, and they primarily play the Sarangi and Sindhi Sarangi. Manganiyars are also Muslim musicians, but their patrons are primarily Hindu Rajput chieftains and landowners, and they are famously known for playing the bow-instrument Kamacha and Khartal clappers.",
+      "explanation_hi": "लंगा वंशानुगत मुस्लिम संगीतकार हैं जिनके पारंपरिक संरक्षक मुस्लिम सिंधी सिपाही हैं, और वे मुख्य रूप से सारंगी और सिंधी सारंगी बजाते हैं। मांगणियार भी मुस्लिम संगीतकार हैं, लेकिन उनके संरक्षक मुख्य रूप से हिंदू राजपूत सरदार और जमींदार हैं, और वे गज से बजने वाले कामायचा और खड़ताल बजाने के लिए प्रसिद्ध हैं।"
+    },
+    {
+      "question_en": "The 'Poongi' (or Been), widely used by the Jogi and Kalbelia communities of Rajasthan, is made using which of the following natural materials?",
+      "question_hi": "राजस्थान के जोगी और कालबेलिया समुदायों द्वारा व्यापक रूप से उपयोग की जाने वाली 'पूंगी' (या बीन), निम्नलिखित में से किस प्राकृतिक सामग्री का उपयोग करके बनाई जाती है?",
+      "options_en": {
+        "A": "A hollowed piece of bamboo wrapped in animal hide",
+        "B": "A curved brass pipe with clay reeds",
+        "C": "A dried and hollowed gourd shell fitted with two bamboo pipes",
+        "D": "A carved block of teak wood with iron strings"
+      },
+      "options_hi": {
+        "A": "जानवर की खाल में लिपटा हुआ बांस का एक खोखला टुकड़ा",
+        "B": "मिट्टी की रीड (पत्तियों) के साथ एक मुड़ी हुई पीतल की नली",
+        "C": "एक सूखा और खोखला कद्दू (तूंबा) जिसके नीचे बांस की दो नलियां लगी होती हैं",
+        "D": "लोहे के तारों से युक्त सागवान की लकड़ी का एक नक्काशीदार टुकड़ा"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Poongi (or Been) is a traditional snake charmer's wind instrument (Sushira Vadya). It is constructed using a dried, hollowed gourd (tumba) which acts as an air chamber, connected to two bamboo pipes (chhanters) equipped with brass or wax reeds for sound production.",
+      "explanation_hi": "पूंगी (या बीन) सपेरों का एक पारंपरिक सुषिर वाद्य है। इसका निर्माण एक सूखे, खोखले कद्दू (तूंबा) का उपयोग करके किया जाता है जो वायु कक्ष (एयर चैंबर) के रूप में कार्य करता है, जो बांस की दो नलियों (जिन्हें चेंटर कहा जाता है) से जुड़ा होता है, जिसमें ध्वनि उत्पादन के लिए पीतल या मोम की पत्तियां लगी होती हैं।"
+    },
+    {
+      "question_en": "Gavri Devi, a legendary exponent of the Mand singing style, was associated with the royal court of which of the following princely states of Rajasthan?",
+      "question_hi": "मांड गायन शैली की महान प्रतिपादक गवरी देवी, राजस्थान की निम्नलिखित में से किस रियासत के शाही दरबार से संबद्ध थीं?",
+      "options_en": {
+        "A": "Jodhpur",
+        "B": "Jaisalmer",
+        "C": "Mewar",
+        "D": "Bikaner"
+      },
+      "options_hi": {
+        "A": "जोधपुर",
+        "B": "जैसलमेर",
+        "C": "मेवाड़",
+        "D": "बीकानेर"
+      },
+      "correct_option": "D",
+      "explanation_en": "Gavri Devi, one of the most celebrated and pioneering female vocalists of the Mand classical-folk style, was born in Bikaner and received patronization and early musical grooming at the royal court of Bikaner princely state.",
+      "explanation_hi": "मांड शास्त्रीय-लोक गायकी की सबसे प्रसिद्ध और अग्रणी महिला गायिकाओं में से एक, गवरी देवी का जन्म बीकानेर में हुआ था और उन्हें बीकानेर रियासत के शाही दरबार में संरक्षण और प्रारंभिक संगीत प्रशिक्षण प्राप्त हुआ था।"
+    },
+    {
+      "question_en": "Sangeet Raj, the monumental music treatise composed by Maharana Kumbha, is divided into five parts (Ratnakosas). Which of the following is NOT one of these five parts?",
+      "question_hi": "महाराणा कुंभा द्वारा रचित संगीत के महान ग्रंथ संगीत राज को पांच भागों (रत्नकोश) में विभाजित किया गया है। निम्नलिखित में से कौन सा इन पांच भागों में से एक नहीं है?",
+      "options_en": {
+        "A": "Tala Ratnakosa",
+        "B": "Pathya Ratnakosa",
+        "C": "Geet Ratnakosa",
+        "D": "Vadya Ratnakosa"
+      },
+      "options_hi": {
+        "A": "ताल रत्नकोश",
+        "B": "पाठ्य रत्नकोश",
+        "C": "गीत रत्नकोश",
+        "D": "वाद्य रत्नकोश"
+      },
+      "correct_option": "A",
+      "explanation_en": "Sangeet Raj is divided into five distinct sections or Ratnakosas: Pathya Ratnakosa (reading/lyrics), Geet Ratnakosa (song), Vadya Ratnakosa (instrument), Nritya Ratnakosa (dance), and Rasa Ratnakosa (emotion/sentiment). Tala Ratnakosa is not a chapter in Sangeet Raj.",
+      "explanation_hi": "संगीत राज को पांच अलग-अलग खंडों या रत्नकोशों में विभाजित किया गया है: पाठ्य रत्नकोश, गीत रत्नकोश, वाद्य रत्नकोश, नृत्य रत्नकोश और रस रत्नकोश। ताल रत्नकोश संगीत राज का कोई अध्याय नहीं है।"
+    },
+    {
+      "question_en": "The folk wind instrument 'Satara', played in the desert regions of Rajasthan, is best described as a:",
+      "question_hi": "राजस्थान के रेगिस्तानी इलाकों में बजाया जाने वाला लोक सुषिर वाद्य 'सतारा', सबसे अच्छी तरह किस रूप में वर्णित है?",
+      "options_en": {
+        "A": "Single long flute played using the nose",
+        "B": "Combined double-flute played simultaneously by blowing air through both pipes",
+        "C": "Curved brass horn played during temple prayers",
+        "D": "Stringed instrument with a resonators made of coconut shells"
+      },
+      "options_hi": {
+        "A": "नाक का उपयोग करके बजाई जाने वाली एक लंबी बांसुरी",
+        "B": "दोनों नलियों में एक साथ हवा फूंककर बजाई जाने वाली संयुक्त दोहरी बांसुरी",
+        "C": "मंदिर की प्रार्थनाओं के दौरान बजाया जाने वाला पीतल का मुड़ा हुआ सींग (तुरही)",
+        "D": "नारियल के छिलकों से बने प्रतिध्वनिकर्ता (रेज़ोनेटर) वाला एक तंत वाद्य यंत्र"
+      },
+      "correct_option": "B",
+      "explanation_en": "Satara is a unique Rajasthani wind instrument that consists of two flutes played simultaneously. One flute provides a continuous drone sound (similar to a bagpipe), while the other is used to play the melody. The player blows air into both pipes at the same time.",
+      "explanation_hi": "सतारा राजस्थान का एक अनूठा सुषिर वाद्य है जिसमें एक साथ दो बांसुरियां बजाई जाती हैं। एक बांसुरी निरंतर ड्रोन (तान) प्रदान करती है (बीन की तरह), जबकि दूसरी का उपयोग धुन बजाने के लिए किया जाता है। वादक एक ही समय में दोनों नलियों में हवा फूंकता है।"
+    },
+    {
+      "question_en": "Which of the following stringed instruments is played by the Gurjar Bhopas during the narration of the Phad of Devnarayan Ji?",
+      "question_hi": "देवनारायण जी की फड़ के वाचन के दौरान गुर्जर भोपों द्वारा निम्नलिखित में से कौन सा तंत वाद्य यंत्र बजाया जाता है?",
+      "options_en": {
+        "A": "Rawanhatha",
+        "B": "Kamacha",
+        "C": "Jantar",
+        "D": "Chikara"
+      },
+      "options_hi": {
+        "A": "रावणहत्था",
+        "B": "कामायचा",
+        "C": "जंतर",
+        "D": "चिकारा"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Jantar is a unique stringed instrument of the Veena family, featuring two large gourds (tumbas) connected by a central neck. It is played exclusively by the Gurjar Bhopas while singing and explaining the folk-epics and narrative scrolls (phad) of Devnarayan Ji.",
+      "explanation_hi": "जंतर वीणा परिवार का एक अनूठा तंत वाद्य है, जिसमें दो बड़े कद्दू (तूंबा) एक केंद्रीय दण्ड से जुड़े होते हैं। यह विशेष रूप से गुर्जर भोपों द्वारा देवनारायण जी के लोक-महाकाव्यों और सचित्र स्क्रॉल (फड़) के वाचन और गायन के दौरान बजाया जाता है।"
+    },
+    {
+      "question_en": "In which region of Rajasthan is the 'Chang' drum extensively played during the spring festival of Holi, accompanied by Dhamal folk songs?",
+      "question_hi": "राजस्थान के किस क्षेत्र में वसंत ऋतु के त्योहार होली के दौरान धमाल लोक गीतों के साथ 'चंग' ड्रम बड़े पैमाने पर बजाया जाता है?",
+      "options_en": {
+        "A": "Hadoti",
+        "B": "Mewar",
+        "C": "Vagad",
+        "D": "Shekhawati"
+      },
+      "options_hi": {
+        "A": "हाड़ौती",
+        "B": "मेवाड़",
+        "C": "वागड़",
+        "D": "शेखावाटी"
+      },
+      "correct_option": "D",
+      "explanation_en": "The Chang is a large percussion frame drum (Avanaddha Vadya) that is synonymous with the Holi celebrations in the Shekhawati region (Sikar, Jhunjhunu, Churu). Groups of men play the Chang and dance while singing traditional 'Dhamal' songs.",
+      "explanation_hi": "चंग एक बड़ा ताल वाद्य (अवनद्ध वाद्य) है जो शेखावाटी क्षेत्र (सीकर, झुंझुनू, चुरू) में होली के उत्सव का पर्याय है। पुरुषों के समूह पारंपरिक 'धमाल' गीत गाते हुए चंग बजाते हैं और नृत्य करते हैं।"
+    },
+    {
+      "question_en": "The traditional Rajasthani folk song 'Panihari' primarily revolves around which of the following themes?",
+      "question_hi": "पारंपरिक राजस्थानी लोक गीत 'पनिहारी' मुख्य रूप से निम्नलिखित में से किस विषय के इर्द-गिर्द घूमता है?",
+      "options_en": {
+        "A": "The fidelity of a married woman carrying water pots, who remains loyal to her husband despite temptation.",
+        "B": "A mother calling her son back from a long battle in the desert.",
+        "C": "The celebration of the arrival of the monsoon rains in the dry Marwar region.",
+        "D": "The heroic exploits of the local folk deity Pabuji."
+      },
+      "options_hi": {
+        "A": "पानी के घड़े ले जाने वाली एक विवाहित महिला की पतिव्रता भावना, जो प्रलोभन के बावजूद अपने पति के प्रति वफादार रहती है।",
+        "B": "एक मां द्वारा अपने बेटे को रेगिस्तान में लंबी लड़ाई से वापस बुलाना।",
+        "C": "शुष्क मारवाड़ क्षेत्र में मानसूनी बारिश के आगमन का उत्सव।",
+        "D": "स्थानीय लोक देवता पाबूजी के वीरतापूर्ण कारनामे।"
+      },
+      "correct_option": "A",
+      "explanation_en": "Panihari is a very famous traditional folk song sung by Rajasthani women while going to fetch water from wells. The song represents a narrative dialogue where a stranger tries to lure the water-carrying woman (Panihari), but she proudly rejects his advances, establishing the values of marital fidelity and character strength.",
+      "explanation_hi": "पनिहारी कुएं से पानी भरने जाते समय राजस्थानी महिलाओं द्वारा गाया जाने वाला एक बहुत ही प्रसिद्ध पारंपरिक लोक गीत है। यह गीत एक संवादात्मक कहानी को दर्शाता है जहां एक अजनबी पानी ले जाने वाली महिला (पनिहारी) को लुभाने की कोशिश करता है, लेकिन वह गर्व से उसके प्रस्तावों को खारिज कर देती है, जो वैवाहिक निष्ठा और चरित्र की दृढ़ता के मूल्यों को स्थापित करता है।"
+    },
+    {
+      "question_en": "The 'Bhapang', a plucked single-string drone instrument of Rajasthan, is traditionally associated with which socio-cultural region and community?",
+      "question_hi": "राजस्थान का एक खींचा जाने वाला (प्लकड) एकल-तंत्री ड्रोन वाद्य 'भपंग', पारंपरिक रूप से किस सामाजिक-सांस्कृतिक क्षेत्र और समुदाय से जुड़ा हुआ है?",
+      "options_en": {
+        "A": "Shekhawati region and the Langaa community",
+        "B": "Mewat region and the Jogi community",
+        "C": "Vagad region and the Bhil community",
+        "D": "Hadoti region and the Kalbelia community"
+      },
+      "options_hi": {
+        "A": "शेखावाटी क्षेत्र और लंगा समुदाय",
+        "B": "मेवात क्षेत्र और जोगी समुदाय",
+        "C": "वागड़ क्षेत्र और भील समुदाय",
+        "D": "हाड़ौती क्षेत्र और कालबेलिया समुदाय"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Bhapang is a unique single-stringed plucked drum (often referred to as a talking drum or variable tension chordophone) from the Mewat region (Alwar-Bharatpur). It is traditionally played by Jogi musicians of this region to accompany Sufi thoughts and folk ballads.",
+      "explanation_hi": "भपंग मेवात क्षेत्र (अलवर-भरतपुर) का एक अनूठा एकल-तंत्री वाद्य यंत्र है (जिसे अक्सर टॉकिंग ड्रम या परिवर्तनशील तनाव तंत्री वाद्य कहा जाता है)। यह पारंपरिक रूप से इस क्षेत्र के जोगी संगीतकारों द्वारा सूफी विचारों और लोक गाथाओं के गायन के दौरान बजाया जाता है।"
+    },
+    {
+      "question_en": "The 'Duff' (or Dapph), a traditional percussion instrument of Rajasthan, is classified as a:",
+      "question_hi": "राजस्थान का एक पारंपरिक ताल वाद्य 'डफ' (या डफ्फ), किस रूप में वर्गीकृत है?",
+      "options_en": {
+        "A": "Sushira Vadya (Wind Instrument)",
+        "B": "Tata Vadya (Stringed Instrument)",
+        "C": "Avanaddha Vadya (Percussion/Membranophone)",
+        "D": "Ghana Vadya (Idiophone)"
+      },
+      "options_hi": {
+        "A": "सुषिर वाद्य (हवा से बजने वाला वाद्य)",
+        "B": "तंत वाद्य (तारों वाला वाद्य)",
+        "C": "अवनद्ध वाद्य (चमड़े मढ़ा ताल वाद्य)",
+        "D": "घन वाद्य (ठोस धातु/लकड़ी का वाद्य)"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Duff (or Dapph) is a circular frame drum covered with animal hide on one side. Instruments where sound is produced by striking a stretched membrane are classified as Avanaddha Vadya (membranophones or percussion instruments).",
+      "explanation_hi": "डफ (या डफ्फ) एक गोलाकार फ्रेम ड्रम है जिसके एक तरफ जानवर की खाल मढ़ी होती है। वे वाद्य यंत्र जिनमें खिंची हुई झिल्ली (चमड़े) पर आघात करके ध्वनि उत्पन्न की जाती है, उन्हें अवनद्ध वाद्य (मेम्ब्रेनोफोन या ताल वाद्य) के रूप में वर्गीकृत किया जाता है।"
+    },
+    {
+      "question_en": "Which of the following features is unique to the 'Kamacha' (or Kamayacha) of the Manganiyar community?",
+      "question_hi": "मांगणियार समुदाय के 'कामायचा' (या कामायचा) की निम्नलिखित में से कौन सी विशेषता अनूठी है?",
+      "options_en": {
+        "A": "It is a wind instrument played using a double reed.",
+        "B": "It is made from hollowed gourd with steel keys like a harmonium.",
+        "C": "It has 27 strings and is played exclusively with fingers, without any bow.",
+        "D": "It is carved from a single piece of mango wood with a parchment-covered belly and played using a horsehair bow."
+      },
+      "options_hi": {
+        "A": "यह एक सुषिर वाद्य है जिसे दोहरी पत्ती (रीड) का उपयोग करके बजाया जाता है।",
+        "B": "यह हारमोनियम की तरह स्टील की चाबियों के साथ खोखले कद्दू से बनाया जाता है।",
+        "C": "इसमें 27 तार होते हैं और इसे बिना किसी धनुष (गज) के केवल उंगलियों से बजाया जाता है।",
+        "D": "इसे आम की लकड़ी के एक टुकड़े से तराशकर बनाया जाता है, जिसका निचला हिस्सा चमड़े से मढ़ा होता है और इसे घोड़े के बालों से बने गज से बजाया जाता है।"
+      },
+      "correct_option": "D",
+      "explanation_en": "The Kamacha is a highly rare and complex stringed instrument unique to the Manganiyars of western Rajasthan. It is carved out of a single piece of mango wood, features a large circular resonator covered with goat hide, has 17 strings (with 3 main gut strings), and is played with a curved bow (gaz) made of horsehair.",
+      "explanation_hi": "कामायचा पश्चिमी राजस्थान के मांगणियारों का एक अत्यंत दुर्लभ और जटिल तंत वाद्य है। इसे आम की लकड़ी के एक टुकड़े से तराशकर बनाया जाता है, इसमें बकरी की खाल से मढ़ा हुआ एक बड़ा गोलाकार अनुनादक होता है, इसमें 17 तार (जिसमें 3 मुख्य आंत के तार होते हैं) होते हैं, और इसे घोड़े के बालों से बने मुड़े हुए गज (धनुष) से बजाया जाता है।"
+    },
+    {
+      "question_en": "The Rajasthani folk song 'Hichki' is most popular in which region and what does it symbolize?",
+      "question_hi": "राजस्थानी लोक गीत 'हिचकी' किस क्षेत्र में सबसे लोकप्रिय है और यह किसका प्रतीक है?",
+      "options_en": {
+        "A": "Mewar region, symbolizing the departure of the bride.",
+        "B": "Hadoti region, celebrating the harvest of kharif crops.",
+        "C": "Shekhawati region, celebrating a child's birth.",
+        "D": "Mewat (Alwar) region, symbolizing the memory of a loved one."
+      },
+      "options_hi": {
+        "A": "मेवाड़ क्षेत्र, दुल्हन की विदाई का प्रतीक है।",
+        "B": "हाड़ौती क्षेत्र, खरीफ फसलों की कटाई का उत्सव है।",
+        "C": "शेखावाटी क्षेत्र, बच्चे के जन्म का उत्सव है।",
+        "D": "मेवात (अलवर) क्षेत्र, किसी प्रियजन की याद आने का प्रतीक है।"
+      },
+      "correct_option": "D",
+      "explanation_en": "The folk song 'Hichki' is extremely popular in the Mewat region (primarily Alwar and surrounding areas). In Rajasthani cultural belief, a sudden hiccup indicates that a loved one or spouse is remembering you from afar. The song expresses this feeling of nostalgia and longing.",
+      "explanation_hi": "लोक गीत 'हिचकी' मेवात क्षेत्र (मुख्य रूप से अलवर और आसपास के क्षेत्रों) में अत्यधिक लोकप्रिय है। राजस्थानी सांस्कृतिक मान्यता में, अचानक आने वाली हिचकी इस बात का संकेत है कि कोई प्रियजन या जीवनसाथी आपको दूर से याद कर रहा है। यह गीत इसी पुरानी यादों और तड़प की भावना को व्यक्त करता है।"
+    }
+  ]
+}

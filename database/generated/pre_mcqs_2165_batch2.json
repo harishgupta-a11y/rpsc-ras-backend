@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Consider the following statements about Devnarayan Ji:\n1. Devnarayan Ji was born in Goth Manglod, Ajmer.\n2. His blue-colored horse is named Leelaagar.\n3. The painted scroll (Phad) of Devnarayan Ji is recited by Charan Bhopas using a Ravanhatha.\nWhich of the statements given above is/are correct?",
+      "question_hi": "देवनारायण जी के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. देवनारायण जी का जन्म गोठ मांगलोद, अजमेर में हुआ था।\n2. उनके नीले रंग के घोड़े का नाम लीलागर है।\n3. देवनारायण जी की फड़ का वाचन चारण भोपों द्वारा रावणहत्था के प्रयोग से किया जाता है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Devnarayan Ji was born in Goth Manglod, Ajmer to Savai Bhoj. His horse is named Leelaagar (blue horse). His painted scroll (Phad) is the longest of its kind and is recited by Gujar Bhopas (not Charan Bhopas) using the Jantar musical instrument (not Ravanhatha).",
+      "explanation_hi": "देवनारायण जी का जन्म गोठ मांगलोद, अजमेर में सवाई भोज के घर हुआ था। उनके घोड़े का नाम लीलागर (नीला घोड़ा) है। देवनारायण जी की फड़ सबसे लंबी फड़ है, जिसका वाचन गुर्जर भोपों (चारण भोपों नहीं) द्वारा जन्तर वाद्य यंत्र (रावणहत्था नहीं) के साथ किया जाता है।"
+    },
+    {
+      "question_en": "Consider the following statements about Karni Mata of Deshnok:\n1. She was born in Suwap village (Phalodi) to Meha Charan.\n2. The Rathore rulers of Bikaner historically avoided seeking her blessings during battles.\n3. The sacred rats in her temple are believed to be the reincarnated souls of the Charan community.\nWhich of the statements given above is/are correct?",
+      "question_hi": "देशनोक की करणी माता के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. उनका जन्म मेहा चारण के घर सुवाप गाँव (फलोदी) में हुआ था।\n2. बीकानेर के राठौड़ शासकों ने ऐतिहासिक रूप से युद्धों के दौरान उनका आशीर्वाद लेने से परहेज किया।\n3. उनके मंदिर में रहने वाले पवित्र चूहों को चारण समुदाय की पुनर्जन्म प्राप्त आत्माएं माना जाता है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 1 और 3",
+        "C": "केवल 2 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Karni Mata was born in Suwap village, Phalodi to Meha Charan. Rulers of Bikaner, from Rao Bika (1488) onwards, sought her blessings for their military campaigns and battles. The sacred rats (Kabas) in her temple are believed to be reincarnated Charans.",
+      "explanation_hi": "करणी माता का जन्म मेहा चारण के घर सुवाप गाँव, फलोदी में हुआ था। राव बीका (1488 ई.) से लेकर बीकानेर के राठौड़ शासकों ने अपने सैन्य अभियानों और युद्धों के लिए उनका आशीर्वाद लिया। उनके मंदिर के पवित्र चूहों (काबा) को चारण समुदाय के पुनर्जन्म प्राप्त सदस्य माना जाता है।"
+    },
+    {
+      "question_en": "Consider the following statements:\n1. The Kaila Devi fair is celebrated in Karauli during the Chaitra Shukla fortnight, where Languriya songs are sung.\n2. Sachia Mata of Osian is worshipped as the family deity (kuldevi) of the Oswal Jain community.\n3. The temple of Sachia Mata was constructed during the reign of the Guhilot dynasty.\nWhich of the statements given above is/are correct?",
+      "question_hi": "निम्नलिखित कथनों पर विचार कीजिए:\n1. कैला देवी का मेला करौली में चैत्र शुक्ल पक्ष में आयोजित होता है, जहाँ लांगुरिया गीत गाए जाते हैं।\n2. ओसियां की सचिया माता को ओसवाल जैन समुदाय की कुलदेवी के रूप में पूजा जाता है।\n3. सचिया माता के मंदिर का निर्माण गुहिलोत राजवंश के शासनकाल के दौरान हुआ था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1, 2 and 3",
+        "B": "2 and 3 only",
+        "C": "1 and 2 only",
+        "D": "1 only"
+      },
+      "options_hi": {
+        "A": "1, 2 और 3",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 2",
+        "D": "केवल 1"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Kaila Devi fair is held during Chaitra Shukla 1-14 in Karauli, characterized by Languriya songs. Sachia Mata is the kuldevi of Oswal Jains and her temple at Osian was built by the Pratihara rulers, not the Guhilot dynasty.",
+      "explanation_hi": "कैला देवी मेला करौली में चैत्र शुक्ल 1-14 तक आयोजित होता है, जिसमें लांगुरिया गीत गाए जाते हैं। सचिया माता ओसवाल जैनों की कुलदेवी हैं और ओसियां में उनका मंदिर प्रतिहार शासकों द्वारा बनाया गया था, न कि गुहिलोत राजवंश द्वारा।"
+    },
+    {
+      "question_en": "Consider the following statements about Sheetla Mata:\n1. Her primary shrine is situated at Sheel ki Dungri in Chaksu, Jaipur.\n2. She is considered the deity of smallpox and measles, and her unique mount is a donkey.\n3. Cold food cooked the previous day is offered to her during the Basoda festival.\nWhich of the statements given above is/are correct?",
+      "question_hi": "शीतला माता के संदर्भ में निम्नलिखित कथनों पर विचार कीजिए:\n1. उनका मुख्य मंदिर शील की डूंगरी, चाकसू, जयपुर में स्थित है।\n2. उन्हें चेचक और खसरा की देवी माना जाता है, और उनका अनूठा वाहन गधा है।\n3. बासोड़ा त्योहार के दौरान उन्हें एक दिन पहले पकाया गया ठंडा भोजन अर्पित किया जाता है।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All three statements are correct. Sheetla Mata's main shrine is at Chaksu (Jaipur). She is worshipped for curing smallpox and measles, rides a donkey, and is offered cold food during Basoda on Chaitra Krishna Ashtami.",
+      "explanation_hi": "तीनों कथन सही हैं। शीतला माता का मुख्य मंदिर चाकसू (जयपुर) में है। उन्हें चेचक और खसरा निवारक देवी के रूप में पूजा जाता है, उनका वाहन गधा है, और चैत्र कृष्ण अष्टमी को बासोड़ा पर ठंडा भोजन चढ़ाया जाता है।"
+    },
+    {
+      "question_en": "Assertion (A): The temple of Karni Mata at Deshnok is famous for the protection and worship of rats, locally known as Kabas.\nReason (R): Devotees believe that these rats are the reincarnated souls of the Charan community who will eventually be reborn as human Charans.",
+      "question_hi": "कथन (A): देशनोक में करणी माता का मंदिर चूहों, जिन्हें स्थानीय रूप से काबा कहा जाता है, के संरक्षण और पूजा के लिए प्रसिद्ध है।\nकारण (R): श्रद्धालुओं का मानना है कि ये चूहे चारण समुदाय की पुनर्जन्म प्राप्त आत्माएं हैं जो अंततः मानव चारणों के रूप में पुनर्जन्म लेंगे।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "A",
+      "explanation_en": "Karni Mata is believed to have requested Yama to reincarnate her descendants (Charans) as rats in her temple before they are reborn as humans. Thus, these rats are sacred, protected, and worshipped, explaining the unique practice.",
+      "explanation_hi": "माना जाता है कि करणी माता ने यमराज से अपने वंशजों (चारणों) को मनुष्यों के रूप में पुनर्जन्म लेने से पहले अपने मंदिर में चूहों के रूप में पुनर्जीवित करने का अनुरोध किया था। इसलिए, ये चूहे पवित्र हैं, उनकी रक्षा की जाती है और पूजा की जाती है, जो इस अनूठी प्रथा की व्याख्या करता है।"
+    },
+    {
+      "question_en": "Assertion (A): Devnarayan Ji is regarded by the Gujar community as the 24th incarnation of Lord Vishnu.\nReason (R): The epic painted scroll 'Devnarayan ka Phad' is approximately 30 feet long and is the longest of its kind in Rajasthan.",
+      "question_hi": "कथन (A): देवनारायण जी को गुर्जर समुदाय द्वारा भगवान विष्णु का 24वां अवतार माना जाता है।\nकारण (R): महाकाव्य चित्रित स्क्रॉल 'देवनारायण की फड़' लगभग 30 फीट लंबी है और राजस्थान में अपनी तरह की सबसे लंबी फड़ है।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "B",
+      "explanation_en": "Both the assertion and reason are factually correct. However, the length of the Phad (epic scroll) is not the reason why Devnarayan Ji is regarded as an incarnation of Lord Vishnu.",
+      "explanation_hi": "कथन और कारण दोनों तथ्यात्मक रूप से सही हैं। हालाँकि, फड़ (चित्रित स्क्रॉल) की लंबाई देवनारायण जी को भगवान विष्णु का अवतार माने जाने का कारण नहीं है।"
+    },
+    {
+      "question_en": "Assertion (A): The temple of Sachia Mata at Osian was built by the Gurjara-Pratihara rulers between the 8th and 9th centuries.\nReason (R): Sachia Mata is worshipped exclusively as the family deity (kuldevi) of the Yadav community of Rajasthan.",
+      "question_hi": "कथन (A): ओसियां में सचिया माता के मंदिर का निर्माण 8वीं और 9वीं शताब्दी के बीच गुर्जर-प्रतिहार शासकों द्वारा किया गया था।\nकारण (R): सचिया माता की पूजा विशेष रूप से राजस्थान के यादव समुदाय की कुलदेवी के रूप में की जाती है।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "C",
+      "explanation_en": "The assertion is true as the Osian temple was built by the Pratiharas. However, the reason is false because Sachia Mata is worshipped as the kuldevi of the Oswal Jain community, not the Yadav community.",
+      "explanation_hi": "कथन सही है क्योंकि ओसियां मंदिर का निर्माण प्रतिहारों द्वारा किया गया था। हालाँकि, कारण गलत है क्योंकि सचिया माता की पूजा ओसवाल जैनों की कुलदेवी के रूप में की जाती है, न कि यादव समुदाय की।"
+    },
+    {
+      "question_en": "Assertion (A): Sheetla Mata's main fair is celebrated on Chaitra Shukla Ashtami, where fresh hot food is offered to the deity.\nReason (R): The unique vahana of Sheetla Mata is a donkey, and her temple is located at Sheel ki Dungri in Chaksu, Jaipur.",
+      "question_hi": "कथन (A): शीतला माता का मुख्य मेला चैत्र शुक्ल अष्टमी को मनाया जाता है, जहाँ देवी को ताजा गर्म भोजन अर्पित किया जाता है।\nकारण (R): शीतला माता का अनूठा वाहन गधा है, और उनका मंदिर शील की डूंगरी, चाकसू, जयपुर में स्थित है।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "D",
+      "explanation_en": "The assertion is false because Sheetla Mata's fair is celebrated on Chaitra Krishna Ashtami (not Shukla Ashtami) and cold food (cooked the previous day, known as Basoda) is offered. The reason is true.",
+      "explanation_hi": "कथन गलत है क्योंकि शीतला माता का मेला चैत्र कृष्ण अष्टमी (न कि शुक्ल अष्टमी) को मनाया जाता है और ठंडा भोजन (एक दिन पहले पकाया गया, जिसे बासोड़ा कहा जाता है) चढ़ाया जाता है। कारण सही है।"
+    },
+    {
+      "question_en": "Match the following folk deities of Rajasthan with their primary location/shrine:\n| Column I (Folk Deity) | Column II (Location/Shrine) |\n|---|---|\n| 1. Devnarayan Ji | a. Asind, Bhilwara |\n| 2. Jeen Mata | b. Reevasa, Sikar |\n| 3. Sheetla Mata | c. Chaksu, Jaipur |\n| 4. Sachia Mata | d. Osian, Jodhpur |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के निम्नलिखित लोक देवताओं/देवियों को उनके मुख्य स्थान/मंदिर से सुमेलित कीजिए:\n| कॉलम I (लोक देवता/देवी) | कॉलम II (स्थान/मंदिर) |\n|---|---|\n| 1. देवनारायण जी | a. आसींद, भीलवाड़ा |\n| 2. जीण माता | b. रेवासा, सीकर |\n| 3. शीतला माता | c. चाकसू, जयपुर |\n| 4. सचिया माता | d. ओसियां, जोधपुर |\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "A",
+      "explanation_en": "Devnarayan Ji's main shrine is at Asind, Bhilwara; Jeen Mata is located at Reevasa, Sikar; Sheetla Mata is at Chaksu, Jaipur; and Sachia Mata is at Osian, Jodhpur.",
+      "explanation_hi": "देवनारायण जी का मुख्य मंदिर आसींद, भीलवाड़ा में है; जीण माता रेवासा, सीकर में स्थित हैं; शीतला माता चाकसू, जयपुर में हैं; और सचिया माता ओसियां, जोधपुर में हैं।"
+    },
+    {
+      "question_en": "Match the folk deities with their respective communities, attributes, or associations:\n| Column I (Deity) | Column II (Association/Attribute) |\n|---|---|\n| 1. Karni Mata | a. Blue Horse (Leelaagar) |\n| 2. Kaila Devi | b. Charan Community |\n| 3. Sheetla Mata | c. Languriya Songs |\n| 4. Devnarayan Ji | d. Donkey Vahana |\nSelect the correct answer using the codes given below:",
+      "question_hi": "लोक देवताओं/देवियों को उनके संबंधित समुदायों, विशेषताओं या संघों से सुमेलित कीजिए:\n| कॉलम I (देवता/देवी) | कॉलम II (संघ/विशेषता) |\n|---|---|\n| 1. करणी माता | a. नीला घोड़ा (लीलागर) |\n| 2. कैला देवी | b. चारण समुदाय |\n| 3. शीतला माता | c. लांगुरिया गीत |\n| 4. देवनारायण जी | d. गधा वाहन |\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-b, 2-a, 3-d, 4-c",
+        "B": "1-b, 2-c, 3-d, 4-a",
+        "C": "1-c, 2-b, 3-a, 4-d",
+        "D": "1-d, 2-a, 3-c, 4-b"
+      },
+      "options_hi": {
+        "A": "1-b, 2-a, 3-d, 4-c",
+        "B": "1-b, 2-c, 3-d, 4-a",
+        "C": "1-c, 2-b, 3-a, 4-d",
+        "D": "1-d, 2-a, 3-c, 4-b"
+      },
+      "correct_option": "B",
+      "explanation_en": "Karni Mata was born to Meha Charan and is highly revered by the Charan community. Kaila Devi is associated with the singing of Languriya folk songs. Sheetla Mata's vehicle is a donkey. Devnarayan Ji's horse is Leelaagar (blue horse).",
+      "explanation_hi": "करणी माता का जन्म मेहा चारण के घर हुआ था और चारण समुदाय द्वारा वे अत्यधिक पूजनीय हैं। कैला देवी लांगुरिया लोक गीतों के गायन से जुड़ी हैं। शीतला माता का वाहन गधा है। देवनारायण जी का घोड़ा लीलागर (नीला घोड़ा) है।"
+    },
+    {
+      "question_en": "Match the folk deities of Rajasthan with their primary fair dates:\n| Column I (Folk Deity) | Column II (Fair Date) |\n|---|---|\n| 1. Sheetla Mata | a. Chaitra Shukla Pratipada to Chaturdashi |\n| 2. Devnarayan Ji | b. Chaitra and Ashwin Navratri |\n| 3. Kaila Devi | c. Chaitra Krishna Ashtami |\n| 4. Jeen Mata | d. Bhadra Shukla Shashthi |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के लोक देवताओं/देवियों को उनकी मुख्य मेला तिथियों से सुमेलित कीजिए:\n| कॉलम I (लोक देवता/देवी) | कॉलम II (मेला तिथि) |\n|---|---|\n| 1. शीतला माता | a. चैत्र शुक्ल प्रतिपदा से चतुर्दशी |\n| 2. देवनारायण जी | b. चैत्र और आश्विन नवरात्रि |\n| 3. कैला देवी | c. चैत्र कृष्ण अष्टमी |\n| 4. जीण माता | d. भाद्रपद शुक्ल षष्ठी |\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-d, 2-c, 3-b, 4-a",
+        "B": "1-c, 2-a, 3-d, 4-b",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-a, 2-b, 3-c, 4-d"
+      },
+      "options_hi": {
+        "A": "1-d, 2-c, 3-b, 4-a",
+        "B": "1-c, 2-a, 3-d, 4-b",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-a, 2-b, 3-c, 4-d"
+      },
+      "correct_option": "C",
+      "explanation_en": "Sheetla Mata fair is on Chaitra Krishna Ashtami. Devnarayan Ji fair is on Bhadra Shukla Shashthi. Kaila Devi fair is held Chaitra Shukla 1 to 14. Jeen Mata fair occurs during Chaitra and Ashwin Navratris.",
+      "explanation_hi": "शीतला माता का मेला चैत्र कृष्ण अष्टमी को लगता है। देवनारायण जी का मेला भाद्रपद शुक्ल षष्ठी को लगता है। कैला देवी का मेला चैत्र शुक्ल 1 से 14 तक आयोजित होता है। जीण माता का मेला चैत्र और आश्विन नवरात्रि के दौरान आयोजित होता है।"
+    },
+    {
+      "question_en": "Match the folk deities with their prominent identifications/reputations:\n| Column I (Deity/Symbol) | Column II (Identification) |\n|---|---|\n| 1. Devnarayan Ji | a. Goddess with 100 eyes |\n| 2. Karni Mata | b. Kuldevi of Oswal Jains |\n| 3. Jeen Mata | c. Incarnation of Vishnu |\n| 4. Sachia Mata | d. Incarnation of Durga |\nSelect the correct answer using the codes given below:",
+      "question_hi": "लोक देवताओं/देवियों को उनकी प्रमुख पहचान/प्रसिद्धि से सुमेलित कीजिए:\n| कॉलम I (देवता/प्रतीक) | कॉलम II (पहचान) |\n|---|---|\n| 1. देवनारायण जी | a. 100 आँखों वाली देवी |\n| 2. करणी माता | b. ओसवाल जैनों की कुलदेवी |\n| 3. जीण माता | c. विष्णु के अवतार |\n| 4. सचिया माता | d. दुर्गा का अवतार |\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-c, 2-a, 3-d, 4-b",
+        "C": "1-d, 2-c, 3-b, 4-a",
+        "D": "1-c, 2-d, 3-a, 4-b"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-c, 2-a, 3-d, 4-b",
+        "C": "1-d, 2-c, 3-b, 4-a",
+        "D": "1-c, 2-d, 3-a, 4-b"
+      },
+      "correct_option": "D",
+      "explanation_en": "Devnarayan Ji is identified as an incarnation of Lord Vishnu (24th avatar). Karni Mata is regarded as an incarnation of Goddess Durga. Jeen Mata is worshipped as a goddess with 100 eyes. Sachia Mata is the kuldevi of the Oswal Jains.",
+      "explanation_hi": "देवनारायण जी को भगवान विष्णु के अवतार (24वें अवतार) के रूप में पहचाना जाता है। करणी माता को देवी दुर्गा का अवतार माना जाता है। जीण माता की पूजा 100 आँखों वाली देवी के रूप में की जाती है। सचिया माता ओसवाल जैनों की कुलदेवी हैं।"
+    },
+    {
+      "question_en": "With reference to the historic painted scroll 'Devnarayan ka Phad', which of the following statements is correct?",
+      "question_hi": "ऐतिहासिक चित्रित स्क्रॉल 'देवनारायण की फड़' के संदर्भ में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options_en": {
+        "A": "It was included in the UNESCO's Representative List of Intangible Cultural Heritage in 2013 and is performed using the 'Jantar' musical instrument by Gujar Bhopas.",
+        "B": "It is painted using watercolours on cotton cloth by the Charan community and is recited using a 'Ravanhatha'.",
+        "C": "The scroll narrates the exploits of Savai Bhoj and is typically performed only during the Navratris of Chaitra and Ashwin.",
+        "D": "It is the shortest painted scroll of Rajasthan and depicts the blue horse 'Leelaagar' as a symbol of Lord Shiva."
+      },
+      "options_hi": {
+        "A": "इसे 2013 में यूनेस्को की अमूर्त सांस्कृतिक विरासत की प्रतिनिधि सूची में शामिल किया गया था और इसका प्रदर्शन गुर्जर भोपों द्वारा 'जन्तर' वाद्य यंत्र के प्रयोग से किया जाता है।",
+        "B": "इसे चारण समुदाय द्वारा सूती कपड़े पर जलरंगों का उपयोग करके चित्रित किया जाता है और इसका वाचन 'रावणहत्था' के प्रयोग से किया जाता है।",
+        "C": "यह फड़ सवाई भोज के कारनामों का वर्णन करती है और आमतौर पर केवल चैत्र और आश्विन की नवरात्रि के दौरान प्रदर्शित की जाती है।",
+        "D": "यह राजस्थान की सबसे छोटी चित्रित फड़ है और इसमें नीले घोड़े 'लीलागर' को भगवान शिव के प्रतीक के रूप में दर्शाया गया है।"
+      },
+      "correct_option": "A",
+      "explanation_en": "Devnarayan ka Phad is the longest painted scroll of Rajasthan. In 2013, it was included in UNESCO's Intangible Cultural Heritage list. The phad is sung and performed by Bhopas of the Gujar community using the 'Jantar' instrument. Devnarayan Ji is considered an incarnation of Vishnu, not Shiva.",
+      "explanation_hi": "देवनारायण की फड़ राजस्थान की सबसे लंबी चित्रित फड़ है। 2013 में, इसे यूनेस्को की अमूर्त सांस्कृतिक विरासत सूची में शामिल किया गया था। फड़ का गायन और वाचन गुर्जर समुदाय के भोपों द्वारा 'जंतर' वाद्य यंत्र का उपयोग करके किया जाता है। देवनारायण जी को विष्णु का अवतार माना जाता है, न कि शिव का।"
+    },
+    {
+      "question_en": "The ancient temple of Sachia Mata, who is worshipped as the family deity (kuldevi) of the Oswal Jains, was constructed during the reign of which dynasty?",
+      "question_hi": "ओसवाल जैनों की कुलदेवी के रूप में पूजी जाने वाली सचिया माता का प्राचीन मंदिर किस राजवंश के शासनकाल के दौरान बनाया गया था?",
+      "options_en": {
+        "A": "Guhilot",
+        "B": "Gurjara-Pratihara",
+        "C": "Chauhan",
+        "D": "Rathore"
+      },
+      "options_hi": {
+        "A": "गुहिलोत",
+        "B": "गुर्जर-प्रतिहार",
+        "C": "चौहान",
+        "D": "राठौड़"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Sachia Mata temple is located in Osian, Jodhpur. It was constructed by the Pratihara (Gurjara-Pratihara) rulers in the 8th-9th century AD.",
+      "explanation_hi": "सचिया माता का मंदिर ओसियां, जोधपुर में स्थित है। इसका निर्माण 8वीं-9वीं शताब्दी ईस्वी में प्रतिहार (गुर्जर-प्रतिहार) शासकों द्वारा किया गया था।"
+    },
+    {
+      "question_en": "In the context of the folk deities of Rajasthan, what is the significance of the term 'Kaba' associated with Karni Mata of Deshnok?",
+      "question_hi": "राजस्थान के लोक देवी-देवताओं के संदर्भ में, देशनोक की करणी माता से जुड़े शब्द 'काबा' का क्या महत्व है?",
+      "options_en": {
+        "A": "It refers to the special sweet prasadi offered to the deity on Navratri.",
+        "B": "It represents the sacred white eagles that fly over the temple of Deshnok.",
+        "C": "It refers to the thousands of sacred rats protected inside the temple, believed to be reincarnated Charans.",
+        "D": "It is the name of the sacred reservoir where Karni Mata took her Samadhi in 1538 AD."
+      },
+      "options_hi": {
+        "A": "यह नवरात्रि पर देवी को चढ़ाई जाने वाली विशेष मीठी प्रसादी को संदर्भित करता है।",
+        "B": "यह उन पवित्र सफेद चीलों का प्रतिनिधित्व करता है जो देशनोक के मंदिर के ऊपर उड़ती हैं।",
+        "C": "यह मंदिर के भीतर संरक्षित हजारों पवित्र चूहों को संदर्भित करता है, जिन्हें चारणों का पुनर्जन्म माना जाता है।",
+        "D": "यह उस पवित्र जलाशय का नाम है जहाँ करणी माता ने 1538 ई. में समाधि ली थी।"
+      },
+      "correct_option": "C",
+      "explanation_en": "The temple of Karni Mata in Deshnok is famous for about 25,000 rats living there. These rats are called 'Kaba'. Devotees believe the rats are the reincarnated souls of the Charan community.",
+      "explanation_hi": "देशनोक में करणी माता का मंदिर वहाँ रहने वाले लगभग 25,000 चूहों के लिए प्रसिद्ध है। इन चूहों को 'काबा' कहा जाता है। श्रद्धालुओं का मानना है कि ये चूहे चारण समुदाय की पुनर्जन्म प्राप्त आत्माएं हैं।"
+    },
+    {
+      "question_en": "Which folk deity of Rajasthan is uniquely associated with a donkey as their mount (vahana) and is offered cold food during the Basoda festival?",
+      "question_hi": "राजस्थान के किस लोक देवी का संबंध अनोखे रूप से उनके वाहन के रूप में गधे से है और बासोड़ा त्योहार के दौरान उन्हें ठंडा भोजन अर्पित किया जाता है?",
+      "options_en": {
+        "A": "Kaila Devi",
+        "B": "Jeen Mata",
+        "C": "Sachia Mata",
+        "D": "Sheetla Mata"
+      },
+      "options_hi": {
+        "A": "कैला देवी",
+        "B": "जीण माता",
+        "C": "सचिया माता",
+        "D": "शीतला माता"
+      },
+      "correct_option": "D",
+      "explanation_en": "Sheetla Mata is the deity associated with smallpox. Her mount is a donkey, her shrine is at Chaksu, Jaipur, and she is offered cold food (Basoda) cooked the previous day.",
+      "explanation_hi": "शीतला माता चेचक से जुड़ी देवी हैं। उनका वाहन गधा है, उनका मंदिर चाकसू, जयपुर में है, और उन्हें एक दिन पहले पकाया गया ठंडा भोजन (बासोड़ा) चढ़ाया जाता है।"
+    },
+    {
+      "question_en": "Consider the folk deity Jeen Mata of Sikar. Which of the following special characteristics is attributed to her in local beliefs?",
+      "question_hi": "सीकर की लोक देवी जीण माता पर विचार कीजिए। स्थानीय मान्यताओं में उनके लिए निम्नलिखित में से कौन-सी विशेष विशेषता बताई गई है?",
+      "options_en": {
+        "A": "She is believed to possess 100 eyes, seeing everything simultaneously, and her brother Harsh Bhairav is worshipped on an adjacent hill.",
+        "B": "She is considered the direct incarnation of Karni Mata and is associated with the protection of rats.",
+        "C": "Her temple was constructed by the Pratihara rulers in the 8th century and she is the kuldevi of the Oswal Jains.",
+        "D": "She is offered hot meat dishes and cold food during the Basoda festival of Chaitra Krishna Ashtami."
+      },
+      "options_hi": {
+        "A": "माना जाता है कि उनके पास 100 आँखें हैं, जिससे वे सब कुछ एक साथ देखती हैं, और उनके भाई हर्ष भैरव की पूजा पास की पहाड़ी पर की जाती है।",
+        "B": "उन्हें करणी माता का प्रत्यक्ष अवतार माना जाता है और वे चूहों के संरक्षण से जुड़ी हैं।",
+        "C": "उनके मंदिर का निर्माण 8वीं शताब्दी में प्रतिहार शासकों द्वारा किया गया था और वे ओसवाल जैनों की कुलदेवी हैं।",
+        "D": "उन्हें चैत्र कृष्ण अष्टमी के बासोड़ा त्योहार के दौरान गर्म मांस के व्यंजन और ठंडा भोजन अर्पित किया जाता है।"
+      },
+      "correct_option": "A",
+      "explanation_en": "Jeen Mata's temple is located at Reevasa, Sikar. She is believed to have 100 eyes. Her brother, Harsh Bhairav, is worshipped on the adjacent hill. Her fairs are celebrated during Chaitra and Ashwin Navratris.",
+      "explanation_hi": "जीण माता का मंदिर रेवासा, सीकर में स्थित है। माना जाता है कि उनके पास 100 आँखें हैं। उनके भाई, हर्ष भैरव की पूजा पास की पहाड़ी पर की जाती है। उनका मेला चैत्र और आश्विन नवरात्रि के दौरान मनाया जाता है।"
+    },
+    {
+      "question_en": "During which of the following periods is the famous fair of Kaila Devi held in Karauli, featuring the singing of the unique Languriya folk songs?",
+      "question_hi": "निम्नलिखित में से किस अवधि के दौरान करौली में प्रसिद्ध कैला देवी का मेला आयोजित किया जाता है, जिसमें अनूठे लांगुरिया लोक गीतों का गायन होता है?",
+      "options_en": {
+        "A": "Chaitra Krishna Ashtami",
+        "B": "Chaitra Shukla Pratipada to Chaturdashi",
+        "C": "Bhadra Shukla Shashthi",
+        "D": "Ashwin Krishna Pratipada to Amavasya"
+      },
+      "options_hi": {
+        "A": "चैत्र कृष्ण अष्टमी",
+        "B": "चैत्र शुक्ल प्रतिपदा से चतुर्दशी",
+        "C": "भाद्रपद शुक्ल षष्ठी",
+        "D": "आश्विन कृष्ण प्रतिपदा से अमावस्या"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Kaila Devi fair is the largest fair of Karauli, held in Chaitra Shukla 1 to 14. Devotees sing Languriya folk songs, which are devotional-erotic in nature.",
+      "explanation_hi": "कैला देवी का मेला करौली का सबसे बड़ा मेला है, जो चैत्र शुक्ल 1 से 14 तक आयोजित होता है। श्रद्धालु लांगुरिया लोक गीत गाते हैं, जो स्वभाव से भक्ति-श्रृंगार रस के होते हैं।"
+    },
+    {
+      "question_en": "Who was the father of the famous folk deity Devnarayan Ji, who is worshipped as the 24th avatar of Lord Vishnu by the Gurjar community?",
+      "question_hi": "प्रसिद्ध लोक देवता देवनारायण जी के पिता कौन थे, जिन्हें गुर्जर समुदाय द्वारा भगवान विष्णु का 24वां अवतार माना जाता है?",
+      "options_en": {
+        "A": "Meha Charan",
+        "B": "Bika Rathore",
+        "C": "Savai Bhoj Gurjar",
+        "D": "Harsh Bhairav"
+      },
+      "options_hi": {
+        "A": "मेहा चारण",
+        "B": "बीका राठौड़",
+        "C": "सवाई भोज गुर्जर",
+        "D": "हर्ष भैरव"
+      },
+      "correct_option": "C",
+      "explanation_en": "Devnarayan Ji was born to Savai Bhoj Gurjar in Goth Manglod, Ajmer.",
+      "explanation_hi": "देवनारायण जी का जन्म गोठ मांगलोद, अजमेर में सवाई भोज गुर्जर के घर हुआ था।"
+    },
+    {
+      "question_en": "Which of the following statements about the historical timeline of Karni Mata is correct according to local traditions and historical records?",
+      "question_hi": "स्थानीय परंपराओं और ऐतिहासिक अभिलेखों के अनुसार करणी माता की ऐतिहासिक समयरेखा के बारे में निम्नलिखित में से कौन-सा कथन सही है?",
+      "options_en": {
+        "A": "She was born in the 10th century and was a contemporary of the early Pratihara rulers.",
+        "B": "She was born in 1538 AD and lived for exactly 50 years before taking Samadhi in Jodhpur.",
+        "C": "She was born in Suwap village in Jodhpur and was the sister of Harsh Bhairav.",
+        "D": "She was born in 1387 AD and achieved Samadhi in 1538 AD, living a legendary lifespan of 151 years."
+      },
+      "options_hi": {
+        "A": "उनका जन्म 10वीं शताब्दी में हुआ था और वे प्रारंभिक प्रतिहार शासकों की समकालीन थीं।",
+        "B": "उनका जन्म 1538 ई. में हुआ था और वे जोधपुर में समाधि लेने से पहले ठीक 50 वर्ष तक जीवित रहीं।",
+        "C": "उनका जन्म जोधपुर के सुवाप गाँव में हुआ था और वे हर्ष भैरव की बहन थीं।",
+        "D": "उनका जन्म 1387 ई. में हुआ था और उन्होंने 1538 ई. में समाधि प्राप्त की, जिससे उनका जीवनकाल पौराणिक रूप से 151 वर्ष का रहा।"
+      },
+      "correct_option": "D",
+      "explanation_en": "Legend and records state Karni Mata was born in 1387 AD and achieved Samadhi in 1538 AD, living for 151 years. She was born in Suwap village, Phalodi (Jodhpur region).",
+      "explanation_hi": "किंवदंती और अभिलेखों के अनुसार करणी माता का जन्म 1387 ई. में हुआ था और उन्होंने 1538 ई. में समाधि प्राप्त की, जिससे वे 151 वर्षों तक जीवित रहीं। उनका जन्म सुवाप गाँव, फलोदी (जोधपुर क्षेत्र) में हुआ था।"
+    },
+    {
+      "question_en": "The postal department of India has issued a commemorative postage stamp dedicated to which of the following folk deities of Rajasthan?",
+      "question_hi": "भारतीय डाक विभाग ने राजस्थान के निम्नलिखित में से किस लोक देवता पर एक स्मारक डाक टिकट जारी किया है?",
+      "options_en": {
+        "A": "Devnarayan Ji",
+        "B": "Sheetla Mata",
+        "C": "Jeen Mata",
+        "D": "Kaila Devi"
+      },
+      "options_hi": {
+        "A": "देवनारायण जी",
+        "B": "शीतला माता",
+        "C": "जीण माता",
+        "D": "कैला देवी"
+      },
+      "correct_option": "A",
+      "explanation_en": "The Postal Department of India issued a postage stamp in honour of Devnarayan Ji and his historic Phad.",
+      "explanation_hi": "भारतीय डाक विभाग ने देवनारायण जी और उनकी ऐतिहासिक फड़ के सम्मान में एक डाक टिकट जारी किया है।"
+    },
+    {
+      "question_en": "The temple of Kaila Devi, famous for the Languriya songs and its annual fair, is located in the vicinity of which sanctuary/district in Rajasthan?",
+      "question_hi": "कैला देवी का मंदिर, जो लांगुरिया गीतों और अपने वार्षिक मेले के लिए प्रसिद्ध है, राजस्थान के किस अभयारण्य/जिले के आसपास स्थित है?",
+      "options_en": {
+        "A": "Phalodi",
+        "B": "Karauli",
+        "C": "Sikar",
+        "D": "Bhilwara"
+      },
+      "options_hi": {
+        "A": "फलोदी",
+        "B": "करौली",
+        "C": "सीकर",
+        "D": "भीलवाड़ा"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Kaila Devi Temple is located inside the Kaila Devi Sanctuary in the Karauli district of Rajasthan.",
+      "explanation_hi": "कैला देवी मंदिर राजस्थान के करौली जिले में कैला देवी अभयारण्य के अंदर स्थित है।"
+    },
+    {
+      "question_en": "According to the legends of Karni Mata, who did she pray to in order to revive her dead son Laxman, leading to the origin of the sacred rats (Kabas) in Deshnok?",
+      "question_hi": "करणी माता की किंवदंतियों के अनुसार, अपने मृत पुत्र लक्ष्मण को पुनर्जीवित करने के लिए उन्होंने किससे प्रार्थना की थी, जिसके कारण देशनोक में पवित्र चूहों (काबा) की उत्पत्ति हुई?",
+      "options_en": {
+        "A": "Lord Vishnu",
+        "B": "Lord Shiva",
+        "C": "Yama (the god of death)",
+        "D": "Lord Bhairav"
+      },
+      "options_hi": {
+        "A": "भगवान विष्णु",
+        "B": "भगवान शिव",
+        "C": "यमराज (मृत्यु के देवता)",
+        "D": "भगवान भैरव"
+      },
+      "correct_option": "C",
+      "explanation_en": "According to legend, Karni Mata's stepson Laxman drowned. She prayed to Yama, the god of death, to revive him. Yama initially refused but later agreed that Laxman and all of Karni Mata's male descendants would not go to Yama but would temporarily reside as rats (Kabas) in her temple.",
+      "explanation_hi": "किंवदंती के अनुसार, करणी माता के सौतेले बेटे लक्ष्मण डूब गए थे। उन्होंने उन्हें पुनर्जीवित करने के लिए मृत्यु के देवता यमराज से प्रार्थना की। यमराज ने शुरू में इनकार कर दिया लेकिन बाद में सहमति व्यक्त की कि लक्ष्मण और करणी माता के सभी पुरुष वंशज यमराज के पास नहीं जाएंगे बल्कि अस्थायी रूप से उनके मंदिर में चूहों (काबा) के रूप में निवास करेंगे।"
+    },
+    {
+      "question_en": "What is the name of the blue horse (symbol) of Lord Devnarayan, which is prominently depicted on his painted scroll (Phad)?",
+      "question_hi": "भगवान देवनारायण के नीले घोड़े (प्रतीक) का क्या नाम है, जिसे उनके चित्रित स्क्रॉल (फड़) पर प्रमुखता से दर्शाया गया है?",
+      "options_en": {
+        "A": "Kesar Kalmi",
+        "B": "Kiran Kabra",
+        "C": "Lilo",
+        "D": "Leelaagar"
+      },
+      "options_hi": {
+        "A": "केसर कालमी",
+        "B": "किरण काबरा",
+        "C": "लीलो",
+        "D": "लीलागर"
+      },
+      "correct_option": "D",
+      "explanation_en": "The horse of Devnarayan Ji is named Leelaagar (also referred to as Neela Ghoda/blue horse). Kesar Kalmi is associated with Pabuji, and Kiran Kabra is associated with Mehaji.",
+      "explanation_hi": "देवनारायण जी के घोड़े का नाम लीलागर (नीला घोड़ा भी कहा जाता है) है। केसर कालमी पाबूजी से संबंधित है, और किरण काबरा मेहाजी से संबंधित है।"
+    },
+    {
+      "question_en": "In Rajasthan's folk tradition, the deities Gogaji, Ramdevji, Pabuji, Mehaji, and Harbhuji are collectively known as what, and which deity is NOT included in this group despite being a prominent folk deity?",
+      "question_hi": "राजस्थान की लोक परंपरा में, गोगाजी, रामदेवजी, पाबूजी, मेहाजी और हड़बूजी को सामूहिक रूप से किस नाम से जाना जाता है, और एक प्रमुख लोक देवता होने के बावजूद इस समूह में कौन-सा देवता शामिल नहीं है?",
+      "options_en": {
+        "A": "Panchpir; Pabuji is not included",
+        "B": "Lok Devtas; Tejaji is not included",
+        "C": "Panch Lok; Devnarayan Ji is included",
+        "D": "Panchpir; Tejaji is not included"
+      },
+      "options_hi": {
+        "A": "पंचपीर; पाबूजी शामिल नहीं हैं",
+        "B": "लोक देवता; तेजाजी शामिल नहीं हैं",
+        "C": "पंच लोक; देवनारायण जी शामिल हैं",
+        "D": "पंचपीर; तेजाजी शामिल नहीं हैं"
+      },
+      "correct_option": "D",
+      "explanation_en": "Gogaji, Ramdevji, Pabuji, Mehaji, and Harbhuji are collectively referred to as the 'Panchpir' (five pirs) of Rajasthan. Veer Tejaji, although a major and highly revered folk deity of Rajasthan, is not included in the Panchpir.",
+      "explanation_hi": "गोगाजी, रामदेवजी, पाबूजी, मेहाजी और हड़बूजी को सामूहिक रूप से राजस्थान के 'पंचपीर' के रूप में संदर्भित किया जाता है। वीर तेजाजी, यद्यपि राजस्थान के एक प्रमुख और अत्यधिक पूजनीय लोक देवता हैं, फिर भी वे पंचपीर में शामिल नहीं हैं।"
+    }
+  ]
+}

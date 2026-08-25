@@ -1,0 +1,1724 @@
+
+Q. Which of the following constitutional provisions specifically addresses the citizenship status of a person who migrated to Pakistan after March 1, 1947, but subsequently returned to India under a permit for resettlement or permanent return?
+
+A) Article 7 of the Constitution of India
+
+B) Article 6 of the Constitution of India
+
+C) Article 8 of the Constitution of India
+
+D) Article 9 of the Constitution of India
+
+Correct: A
+
+Explanation: Article 7 of the Constitution of India deals with the citizenship of certain migrants to Pakistan. It states that a person who migrated from the territory of India to the territory now included in Pakistan after March 1, 1947, shall not be deemed to be a citizen of India. However, an exception is made for those who returned to India under a permit for resettlement or permanent return issued by or under the authority of any law, making them eligible to be registered as citizens under conditions similar to those under Article 6.
+
+Q. Under the Citizenship Act of 1955, a person born outside India on or after December 3, 2004, can acquire Indian citizenship by descent only if which of the following conditions is fulfilled?
+
+A) Either of the parents is a citizen of India at the time of birth, and the birth is registered at an Indian consulate within five years.
+
+B) Both parents are citizens of India, or one parent is a citizen and the other is not an illegal migrant at the time of birth.
+
+C) The birth is registered at an Indian consulate within one year of its occurrence, or with the permission of the Central Government after that period, along with an explicit declaration that the minor does not hold the passport of another country.
+
+D) The person resides ordinarily in India for a continuous period of seven years before making an application to the Ministry of Home Affairs.
+
+Correct: C
+
+Explanation: According to the amendments made to the Citizenship Act of 1955, a person born outside India on or after December 3, 2004, shall not be a citizen of India by descent unless their birth is registered at an Indian consulate within one year of the date of birth, or with the permission of the Central Government after the expiry of the said period. The application for registration must be accompanied by an undertaking in writing from the parents of such minor child that he or she does not hold the passport of another country.
+
+Q. Indian citizenship can be terminated through three distinct modalities under the Citizenship Act of 1955. Which of the following correctly identifies these three methods?
+
+A) Renunciation, Registration, and Naturalisation
+
+B) Deprivation, Termination, and Descent
+
+C) Renunciation, Termination, and Deprivation
+
+D) Abdication, Cancellation, and Deletion
+
+Correct: C
+
+Explanation: The Citizenship Act of 1955 specifies three ways of losing citizenship: Renunciation, which is a voluntary declaration by an Indian citizen of full age and capacity; Termination, which happens automatically by operation of law when an Indian citizen voluntarily acquires the citizenship of another country; and Deprivation, which is a compulsory termination of Indian citizenship by the Central Government on grounds such as obtaining citizenship by fraud, showing disloyalty to the Constitution, or unlawfully trading with the enemy during war.
+
+Q. Consider the following statements regarding the legal status and rights of an Overseas Citizen of India Cardholder:
+
+
+An OCI cardholder enjoys parity with Non-Resident Indians in respect of all economic, financial, and educational fields, including the acquisition of agricultural or plantation properties.
+
+An OCI cardholder is eligible for appointment to public services and posts in connection with the affairs of the Union or of any State, subject to special clearance from the Ministry of External Affairs.
+
+An OCI cardholder does not possess the right to vote in general elections, nor are they eligible to become a member of either House of Parliament or a State Legislature.
+Which of the statements given above is/are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1, 2 and 3
+D) 3 only
+Correct: D
+Explanation: Statement 1 is incorrect because OCI cardholders are explicitly barred from acquiring agricultural or plantation properties in India; they are only permitted to acquire non-agricultural immovable property. Statement 2 is incorrect because OCI cardholders are not eligible for public employment or appointment to public services and posts in connection with the affairs of the Union or any State. Statement 3 is correct because under the Citizenship Act of 1955, OCI cardholders do not have voting rights and are ineligible to hold constitutional posts, including memberships in Parliament or State Legislatures.
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): A citizen of India automatically ceases to be an Indian citizen if they voluntarily acquire the citizenship of another sovereign state.
+
+Reason (R): The Constitution of India explicitly mandates a single citizenship framework and rejects any form of dual or multiple citizenship under Article 9.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is true but (R) is false.
+
+D) (A) is false but (R) is true.
+
+Correct: A
+
+Explanation: Assertion (A) is completely accurate as the voluntary acquisition of foreign citizenship results in the immediate loss of Indian citizenship. Reason (R) is also correct and directly explains the assertion, as Article 9 of the Constitution explicitly states that no person shall be a citizen of India if they have voluntarily acquired the citizenship of a foreign state. This solidifies India's absolute single citizenship model.
+
+Q. Match the constitutional articles concerning citizenship with their precise functional domain:
+
+
+
+
+
+
+Column I (Article)
+
+
+
+
+
+Column II (Functional Domain)
+
+
+
+
+
+
+
+X.
+ Article 5
+
+
+
+
+I.
+ Rights of citizenship of certain persons who have migrated to India from Pakistan.
+
+
+
+
+
+
+Y.
+ Article 6
+
+
+
+
+II.
+ Citizenship at the commencement of the Constitution for persons domiciled in India.
+
+
+
+
+
+
+Z.
+ Article 8
+
+
+
+
+III.
+ Parliament to regulate the right of citizenship by law.
+
+
+
+
+
+
+W.
+ Article 11
+
+
+
+
+IV.
+ Rights of citizenship of certain persons of Indian origin residing outside India.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-I, Y-II, Z-III, W-IV
+
+B) X-II, Y-I, Z-IV, W-III
+
+C) X-II, Y-I, Z-III, W-IV
+
+D) X-I, Y-II, Z-IV, W-III
+
+Correct: B
+
+Explanation: The correct matching is based directly on Part II of the Constitution of India. Article 5 defines citizenship at the commencement of the Constitution for individuals having a domicile in India (X-II). Article 6 provides citizenship rights for individuals who migrated from Pakistan to India (Y-I). Article 8 addresses the citizenship rights of certain persons of Indian origin residing outside India (Z-IV). Article 11 explicitly empowers the Parliament to regulate citizenship rights through legislation (W-III).
+
+Q. Under the provisions of the Third Schedule of the Citizenship Act, 1955, which of the following is a mandatory qualification for a foreigner seeking citizenship by naturalisation?
+
+A) The applicant must have resided in India or been in the service of a Government in India throughout the period of twelve months immediately preceding the date of the application.
+
+B) The applicant must possess an adequate knowledge of all twenty-two languages specified in the Eighth Schedule to the Constitution of India.
+
+C) The applicant must renounce their foreign citizenship within six months after the certificate of naturalisation is granted by the Central Government.
+
+D) The applicant must have a minimum immovable property investment in India as certified by the Reserve Bank of India.
+
+Correct: A
+
+Explanation: The Third Schedule of the Citizenship Act, 1955, outlines the qualifications for naturalisation. A key requirement is that the applicant must have resided in India or been in the service of a Government in India throughout the period of twelve months immediately preceding the date of the application. Additionally, during the fourteen years immediately preceding this twelve-month period, they must have resided or served for an aggregate period of not less than eleven years (relaxed to five years for specific categories under the Citizenship Amendment Act, 2019). Knowledge of only one language specified in the Eighth Schedule is required, not all twenty-two.
+
+Q. Consider the following statements regarding Section 6A of the Citizenship Act, 1955, inserted following the Assam Accord:
+
+
+All persons of Indian origin who came to Assam from Bangladesh before January 1, 1966, are deemed to be citizens of India from that date.
+
+Persons who entered Assam between January 1, 1966, and March 25, 1971, must register themselves and are tracking a ten-year period during which they enjoy all rights of a citizen except the right to vote.
+
+Anyone entering Assam after March 25, 1971, is classified as an illegal migrant and is subject to detection and deportation.
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 1, 2 and 3
+C) 2 and 3 only
+D) 1 and 3 only
+Correct: B
+Explanation: Section 6A was introduced to give statutory effect to the citizenship clauses of the Assam Accord. Statement 1 is correct; migrants who arrived before January 1, 1966, are deemed Indian citizens. Statement 2 is correct; migrants arriving between January 1, 1966, and March 25, 1971, are detected as foreigners, must register, and their names are deleted from electoral rolls for ten years, after which they regain full citizenship rights including voting. Statement 3 is correct; March 25, 1971, serves as the strict cut-off date for identifying illegal migrants in Assam.
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): The provisions contained in Articles 5 to 10 of the Constitution of India do not constitute a permanent or elaborate law governing citizenship.
+
+Reason (R): The constituent assembly deliberately left the comprehensive regulation of citizenship to the future wisdom of Parliament under the enabling provisions of Article 11.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is true but (R) is false.
+
+D) (A) is false but (R) is true.
+
+Correct: A
+
+Explanation: Articles 5 to 10 only determined who became a citizen of India at the specific date of the commencement of the Constitution (January 26, 1950). They did not deal with the problem of acquisition or loss of citizenship after that date. The Constitution makers deliberately kept these provisions flexible and temporary, passing the mantle to Parliament via Article 11 to enact a comprehensive law, which eventually manifested as the Citizenship Act of 1955.
+
+Q. Match the landmark judicial precedents with the core legal principle established regarding citizenship and residency:
+
+
+
+
+
+
+Column I (Case Law)
+
+
+
+
+
+Column II (Legal Principle)
+
+
+
+
+
+
+X. Louis De Raedt v. Union of India
+
+
+
+I. Domicile of choice requires both physical residence and a fixed intention of permanent settlement.
+
+
+
+
+
+Y. State of Trading Corporation of India v. CTO
+
+
+
+II. A foreigner has no fundamental right to claim a choice of domicile or permanent stay in India.
+
+
+
+
+
+Z. Pradeep Jain v. Union of India
+
+
+
+III. Corporations and legal entities are not 'citizens' within the meaning of Article 19.
+
+
+
+
+
+W. Central Bank of India v. Ram Narain
+
+
+
+IV. The Constitution of India recognizes only one single domicile, which is the domicile of India.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-I, Y-III, Z-IV, W-II
+
+B) X-II, Y-I, Z-IV, W-III
+
+C) X-I, Y-IV, Z-III, W-II
+
+D) X-II, Y-III, Z-IV, W-I
+
+Correct: D
+
+Explanation: In Louis De Raedt v. Union of India, the Supreme Court ruled that the executive power of the government to expel foreigners is absolute and they have no fundamental right to permanent stay (X-II). In State Trading Corporation of India v. CTO, it was held that juristic persons like companies are not citizens and cannot claim rights under Article 19 (Y-III). In Pradeep Jain v. Union of India, the court clarified that India recognizes only a single domicile of the country, rejecting provincial domiciles for citizenship parameters (Z-IV). In Central Bank of India v. Ram Narain, it was established that change of domicile requires a clear combination of factum (residence) and animus (intention) (W-I).
+
+Q. The Citizenship Amendment Act, 2019, fast-tracks the acquisition of Indian citizenship by naturalisation for specific minority communities from Pakistan, Bangladesh, and Afghanistan. Which of the following sets of religious communities is entirely covered under this amendment?
+
+A) Hindus, Sikhs, Buddhists, Jains, Parsis, and Christians
+
+B) Hindus, Sikhs, Buddhists, Jains, Ahmadiyyas, and Jews
+
+C) Hindus, Sikhs, Hazaras, Jains, Parsis, and Christians
+
+D) Hindus, Sikhs, Buddhists, Jains, Bohras, and Parsis
+
+Correct: A
+
+Explanation: The Citizenship Amendment Act, 2019, specifically provisions for six persecuted minority communities from Afghanistan, Bangladesh, and Pakistan, namely Hindus, Sikhs, Buddhists, Jains, Parsis, and Christians. It explicitly omits sectarian Muslim minority groups such as Ahmadiyyas, Hazaras, or Bohras, which makes option A the only legally accurate combination.
+
+Q. Consider the following statements regarding the loss of Indian citizenship by the process of 'Termination':
+
+
+It occurs automatically by operation of law when an Indian citizen voluntarily acquires the citizenship of another country.
+
+The provision for automatic termination applies even when India is engaged in a war, to prevent cases of statelessness.
+
+A person whose citizenship is terminated retains the right to hold commercial property in India for a transition period of three years.
+Which of the statements given above is/are correct?
+A) 1 only
+B) 1 and 2 only
+C) 2 and 3 only
+D) 1, 2 and 3
+Correct: A
+Explanation: Statement 1 is correct as termination is an automatic statutory consequence under Section 9 of the Citizenship Act, 1955. Statement 2 is incorrect because the Act explicitly states that this provision of automatic termination does not apply during a war in which India is engaged; the acquisition of foreign citizenship during wartime must be reviewed by the Central Government. Statement 3 is incorrect as the loss of citizenship instantly changes the status of the individual to a foreign national, stripping them of domestic citizenship property rights without an automatic transition period.
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): Parliament can enact laws taking away the citizenship of any person who has acquired it under Article 5 of the Constitution.
+
+Reason (R): Article 10 explicitly subjects the continuance of citizenship rights of any person to the provisions of any law made by Parliament.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is true but (R) is false.
+
+D) (A) is false but (R) is true.
+
+Correct: A
+
+Explanation: Article 10 of the Constitution provides for the continuance of the rights of citizenship, stating that every person who is or is deemed to be a citizen of India under any of the foregoing provisions shall continue to be such citizen, subject to the provisions of any law that may be made by Parliament. This means that Parliament's legislative power under Article 11 to terminate or regulate citizenship extends to even those who became citizens at the commencement of the Constitution under Article 5.
+
+Q. Match the functional aspects of citizenship registration with the corresponding authorities or legal descriptions:
+
+
+
+
+
+
+Column I (Aspect)
+
+
+
+
+
+Column II (Authority / Description)
+
+
+
+
+
+
+X. Deprivation of Citizenship
+
+
+
+I. Relaxes the continuous stay requirement to 5 years for specified minorities.
+
+
+
+
+
+Y. Registration of OCI Cards
+
+
+
+II. Requires an application directly processed by the Ministry of Home Affairs.
+
+
+
+
+
+Z. Citizenship Amendment Act 2019
+
+
+
+III. Involves a compulsory termination initiated by the Central Government due to fraud.
+
+
+
+
+
+W. Dual Citizenship Alternative
+
+
+
+IV. Formally executed via the grant of an Overseas Citizen of India status.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-III, Y-I, Z-II, W-IV
+
+B) X-II, Y-III, Z-I, W-IV
+
+C) X-III, Y-II, Z-I, W-IV
+
+D) X-II, Y-I, Z-III, W-IV
+
+Correct: C
+
+Explanation: Deprivation is a compulsory method of losing citizenship when it was obtained by fraud, false representation, or concealment of material facts (X-III). Registration of OCI cards is administered through applications processed by the Ministry of Home Affairs (Y-II). The CAA 2019 reduces the residency requirement for naturalisation from 11 years to 5 years for the six listed non-Muslim communities from three specific nations (Z-I). India does not allow dual citizenship, but provides the OCI card as a functional surrogate for people of Indian origin (W-IV).
+
+Q. Under Article 6 of the Constitution, a person who migrated to India from Pakistan before a specific date is deemed an Indian citizen at the commencement of the Constitution if they have been ordinarily resident in India since their migration. What is this exact historical cut-off date?
+
+A) August 15, 1947
+
+B) January 26, 1950
+
+C) July 19, 1948
+
+D) March 1, 1947
+
+Correct: C
+
+Explanation: Article 6 of the Constitution provides citizenship rights for persons who migrated from Pakistan to India. It establishes July 19, 1948, as the cut-off date (the date when the permit system for migration was introduced). Anyone who migrated before this date and has been ordinarily resident in India since is deemed a citizen. Anyone who migrated on or after July 19, 1948, had to be registered as a citizen by an officer appointed by the Government of India, following at least six months of residence preceding the application.
+
+Q. Consider the following statements concerning the provisions of the Citizenship Amendment Act, 2019 (CAA):
+
+
+The amendment explicitly excludes tribal areas of Assam, Meghalaya, Mizoram, and Tripura included in the Sixth Schedule to the Constitution.
+
+The amendment does not apply to areas covered under the 'Inner Line' notified under the Bengal Eastern Frontier Regulation, 1873.
+
+The cut-off date for the eligible migrants to have entered India to claim citizenship under this framework is December 31, 2014.
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1, 2 and 3
+D) 1 and 3 only
+Correct: C
+Explanation: All three statements accurately present the statutory boundaries of the CAA, 2019. To protect the demographic and cultural distinctiveness of indigenous communities, the Act explicitly exempts areas protected under the Sixth Schedule (Statement 1) and states requiring the Inner Line Permit (ILP) such as Arunachal Pradesh, Nagaland, Mizoram, and Manipur (Statement 2). It also establishes December 31, 2014, as the absolute deadline for entry into India (Statement 3).
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): A person born in India on January 1, 2000, is not automatically granted Indian citizenship by birth if one parent is an illegal migrant.
+
+Reason (R): The Citizenship Amendment Act, 2003, tightened jus soli rules by specifying that for births after December 3, 2004, citizenship by birth requires that both parents are citizens or one is a citizen and the other is not an illegal migrant.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is false but (R) is true.
+
+D) (A) is true but (R) is false.
+
+Correct: C
+
+Explanation: The Assertion is false. For persons born in India between July 1, 1987, and December 3, 2004, the law states that they are citizens by birth if either of their parents was a citizen of India at the time of their birth; the status of the other parent as an illegal migrant did not disqualify the child until the 2003 amendment went into effect on December 3, 2004. The Reason statement is completely true but fails to make the assertion correct because the child was born in 2000.
+
+Q. Match the conditions under which a person can lose citizenship through 'Deprivation' under Section 10 of the Citizenship Act, 1955:
+
+
+
+
+
+
+Column I (Ground for Deprivation)
+
+
+
+
+
+Column II (Specific Criteria)
+
+
+
+
+
+
+X. Disloyalty to the Constitution
+
+
+
+I. Imprisonment in any country for not less than two years within five years of registration or naturalisation.
+
+
+
+
+
+Y. Trading with the Enemy
+
+
+
+II. Showing dissatisfaction or disaffection towards the Constitution of India by speech or act.
+
+
+
+
+
+Z. Continuous Absence
+
+
+
+III. Unlawfully trading or communicating with an enemy state during a war engaged by India.
+
+
+
+
+
+W. Criminal Conviction Abroad
+
+
+
+IV. Being ordinarily resident out of India for a continuous period of seven years without educational or official exemption.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-II, Y-III, Z-I, W-IV
+
+B) X-II, Y-III, Z-IV, W-I
+
+C) X-III, Y-II, Z-IV, W-I
+
+D) X-III, Y-II, Z-I, W-IV
+
+Correct: B
+
+Explanation: Deprivation occurs under specific statutory criteria: Disloyalty involves displaying disaffection to the Constitution (X-II). Trading with the enemy applies if a citizen unlawfully assists a country at war with India (Y-III). Continuous absence applies to naturalised citizens who stay out of the country for 7 years without registration or official service (Z-IV). Criminal conviction applies if a registered or naturalised citizen is sentenced to prison for 2 or more years within 5 years of obtaining citizenship (W-I).
+
+Q. Which Article of the Indian Constitution protects the citizenship rights of a person of Indian origin who is ordinarily residing in any country outside undivided India, provided they register themselves through India's diplomatic channels?
+
+A) Article 8
+
+B) Article 9
+
+C) Article 7
+
+D) Article 5
+
+Correct: A
+
+Explanation: Article 8 deals with the citizenship of certain persons of Indian origin residing outside India. It provides that any person who, or either of whose parents or any of whose grandparents, was born in India as defined in the Government of India Act, 1935, and who is ordinarily residing in any country outside India as so defined, shall be deemed to be a citizen of India if they have been registered as a citizen of India by the diplomatic or consular representative of India in the country where they are for the time being residing.
+
+Q. Consider the following statements regarding the dynamic relationship between Fundamental Rights and Citizenship in India:
+
+
+Fundamental Rights under Articles 15, 16, 19, 29, and 30 are exclusively reserved for citizens of India.
+
+Friendly aliens enjoy all fundamental rights that are available to Indian citizens, including the right to equal public employment opportunities.
+
+Enemy aliens are denied the protection against arrest and detention provided under Article 22 of the Constitution.
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3
+Correct: C
+Explanation: Statement 1 is correct because the rights under Articles 15, 16, 19, 29, and 30 are denied to foreigners. Statement 2 is incorrect because friendly aliens do not get these exclusive citizen rights, nor do they enjoy equal public employment. Statement 3 is correct because Article 22(3) explicitly states that the protections of Article 22 against arrest and detention do not apply to any person who for the time being is an enemy alien.
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): The President of India must be a citizen by birth, unlike the United States where a naturalised citizen can also hold the highest executive office.
+
+Reason (R): The Indian legal framework allows both a citizen by birth as well as a naturalised citizen to be eligible for the office of the President.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is true but (R) is false.
+
+D) (A) is false but (R) is true.
+
+Correct: D
+
+Explanation: The Assertion is completely false because in India, unlike the United States, a naturalised citizen is fully eligible to hold the office of the President. In the US, only a natural-born citizen can become President. The Reason statement is true, explaining that the Indian framework draws no barrier between citizenship by birth and citizenship by naturalisation when it comes to eligibility for constitutional offices.
+
+Q. Match the categories of persons with their matching legal descriptions concerning registration under the Citizenship Act, 1955:
+
+
+
+
+
+
+Column I (Category)
+
+
+
+
+
+Column II (Legal Description)
+
+
+
+
+
+
+X. Section 5(1)(a)
+
+
+
+I. A person who is married to a citizen of India and is ordinarily resident for seven years.
+
+
+
+
+
+Y. Section 5(1)(c)
+
+
+
+II. A person of full age and capacity who has been registered as an OCI cardholder for five years.
+
+
+
+
+
+Z. Section 5(1)(g)
+
+
+
+III. Minor children of persons who are citizens of India.
+
+
+
+
+
+W. Section 5(1)(d)
+
+
+
+IV. A person of Indian origin who is ordinarily resident in India for seven years before making an application.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-IV, Y-I, Z-II, W-III
+
+B) X-IV, Y-I, Z-III, W-II
+
+C) X-I, Y-IV, Z-II, W-III
+
+D) X-I, Y-IV, Z-III, W-II
+
+Correct: A
+
+Explanation: Under Section 5 of the Citizenship Act, 1955, distinct clauses manage registration: 5(1)(a) mandates 7 years of residence for persons of Indian origin (X-IV). 5(1)(c) deals with persons married to Indian citizens requiring 7 years of ordinary residence (Y-I). 5(1)(g) allows OCI cardholders registered for 5 years and residing in India for 1 year to claim regular citizenship (Z-II). 5(1)(d) covers minor children of Indian citizens (W-III).
+
+Q. In which of the following scenarios can a minor child lose their Indian citizenship under the express provisions of the Citizenship Act, 1955?
+
+A) When the minor child travels abroad for higher education without a valid clearance from the Ministry of External Affairs.
+
+B) When a male or female Indian citizen renounces their citizenship, the Indian citizenship of every minor child of that person also ceases.
+
+C) When the minor child stays with their grandparents in a foreign country continuously for a period exceeding three years.
+
+D) When the minor child is adopted by a Non-Resident Indian (NRI) family holding Indian passports.
+
+Correct: B
+
+Explanation: Section 8(2) of the Citizenship Act, 1955, states that where a person ceases to be a citizen of India under subsection (1) (which deals with the declaration of renunciation), every minor child of that person shall thereupon cease to be a citizen of India. However, the child may, within one year after attaining full age (18 years), make a declaration that he or she wishes to resume Indian citizenship, and upon registration, will become an Indian citizen again.
+
+Q. Consider the following statements regarding the administrative framework of citizenship tracking in India:
+
+
+The Ministry of Home Affairs is the sole nodal ministry for processing applications relating to the grant, registration, and renunciation of Indian citizenship.
+
+State Governments have absolute constitutional autonomy to grant citizenship under the Seventh Schedule via the State List.
+
+The National Population Register (NPR) is a register of usual residents of the country being prepared under provisions of the Citizenship Act, 1955.
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3
+Correct: C
+Explanation: Statement 1 is correct as the Ministry of Home Affairs handles all citizenship administration. Statement 2 is incorrect because citizenship, naturalisation, and aliens fall exclusively under Entry 17 of the Union List in the Seventh Schedule, meaning only Parliament has power to legislate or govern it. Statement 3 is correct because the NPR is generated under the Citizenship (Registration of Citizens and Issue of National Identity Cards) Rules, 2003, formulated under the parent Citizenship Act of 1955.
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): An Indian citizen who acquires foreign citizenship can retain their Indian passport to complete legal formalities for up to six months.
+
+Reason (R): The Passports Act, 1967, and the Citizenship Act, 1955, make it a punishable offence to hold or travel on an Indian passport after voluntarily acquiring foreign nationality.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is false but (R) is true.
+
+D) (A) is true but (R) is false.
+
+Correct: C
+
+Explanation: The Assertion is completely false. The moment an Indian citizen voluntarily acquires the citizenship of another country, their Indian citizenship terminates immediately by operation of law. There is no grace period allowed to retain or use the Indian passport. Doing so is an offense under both the Passports Act and the Citizenship Act, which makes the Reason statement completely true.
+
+Q. Match the historical and legal milestones with their corresponding significance or years:
+
+
+
+
+
+
+Column I (Milestone)
+
+
+
+
+
+Column II (Significance / Year)
+
+
+
+
+
+
+X. Commonwealth Citizenship
+
+
+
+I. Abolished by the Citizenship Amendment Act, 2003.
+
+
+
+
+
+Y. Introduction of PIO Card
+
+
+
+II. Launched in 1999 to assist persons of Indian origin up to the fourth generation.
+
+
+
+
+
+Z. Merger of PIO and OCI
+
+
+
+III. Formally executed in 2015 to create a unified OCI cardholder scheme.
+
+
+
+
+
+W. Act 1955 Enactment
+
+
+
+IV. Provided the initial structural baseline for regularized post-constitutional citizenship.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-I, Y-II, Z-III, W-IV
+
+B) X-IV, Y-II, Z-III, W-I
+
+C) X-I, Y-III, Z-II, W-IV
+
+D) X-IV, Y-III, Z-II, W-I
+
+Correct: A
+
+Explanation: Originally, the Citizenship Act, 1955, recognized Commonwealth Citizenship, but this concept was completely deleted by the Citizenship Amendment Act, 2003 (X-I). The Person of Indian Origin (PIO) card scheme was first introduced in 1999 (Y-II). The Government of India later merged the PIO card scheme with the Overseas Citizen of India (OCI) card scheme in 2015 due to operational duplication (Z-III). The enactment of the principal Citizenship Act of 1955 laid down the fundamental baselines for citizenship acquisition and loss (W-IV).
+
+Q. Which of the following constitutional provisions guarantees that a person who is or is deemed to be a citizen of India under any of the provisions of Part II shall continue to be such citizen, subject to the provisions of any law that may be made by Parliament?
+
+A) Article 9
+
+B) Article 10
+
+C) Article 11
+
+D) Article 5
+
+Correct: B
+
+Explanation: Article 10 of the Constitution provides for the continuance of the rights of citizenship. It ensures that every person who is or is deemed to be a citizen of India under any of the preceding provisions of Part II shall continue to be such citizen, subject to the provisions of any law that may be made by Parliament. This functions as a constitutional safeguard for individuals, ensuring their citizenship cannot be stripped away arbitrarily by executive action alone, but must be governed strictly by parliamentary legislation.
+
+Q. A person born in India on January 1, 1990, whose mother was an Indian citizen and whose father was a foreign diplomat stationed in New Delhi at the time of birth, seeks to claim Indian citizenship by birth under Section 3 of the Citizenship Act, 1955. What is the legal validity of this claim?
+
+A) The claim is entirely valid because the child was born between July 1, 1987, and December 3, 2004, and one parent was an Indian citizen.
+
+B) The claim is invalid because children of foreign diplomats enjoying immunity from legal process do not automatically acquire Indian citizenship by birth under jus soli rules.
+
+C) The claim is valid provided the child renounces the citizenship of the father’s nation upon turning eighteen years of age.
+
+D) The claim is invalid because citizenship by birth was restricted to children born of both Indian parents after the 1986 amendment.
+
+Correct: B
+
+Explanation: Section 3(2) of the Citizenship Act, 1955, explicitly provides exceptions to the acquisition of citizenship by birth. It states that a person shall not be a citizen of India by virtue of birth if, at the time of their birth, their father (or mother) possesses such immunity from suits and legal process as is accorded to an envoy of a foreign sovereign power accredited to the President of India and is not a citizen of India.
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): The Supreme Court of India ruled in the landmark 
+Kihoto Hollohan
+ case that a member disqualified under the Tenth Schedule automatically forfeits their citizenship if they join a foreign political organization.
+
+Reason (R): Under Article 9 of the Constitution of India, the voluntary acquisition of citizenship of a foreign state leads to the immediate cessation of Indian citizenship.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is false but (R) is true.
+
+D) (A) is true but (R) is false.
+
+Correct: C
+
+Explanation: The Assertion is completely false. The 
+Kihoto Hollohan
+ case (1992) dealt with the constitutional validity of the Tenth Schedule (Anti-defection law) and the powers of the Speaker; it had absolutely nothing to do with the loss or forfeiture of citizenship or joining foreign political organizations. The Reason statement is completely true independently, as Article 9 strictly bars dual citizenship and mandates immediate termination of Indian citizenship upon the voluntary acquisition of foreign nationality.
+
+Q. Match the specific timeline of entry or registration for citizenship under Part II of the Constitution with its correct legal parameter:
+
+
+
+
+
+
+Column I (Timeline/Date Parameter)
+
+
+
+
+
+Column II (Legal Parameter)
+
+
+
+
+
+
+X. Migrated to India 
+before
+ July 19, 1948
+
+
+
+I. Subject to the registration requirements needing at least 6 months of residency prior to application.
+
+
+
+
+
+Y. Migrated to India 
+on or after
+ July 19, 1948
+
+
+
+II. Migrated to Pakistan after this date but returned under a valid permit for resettlement.
+
+
+
+
+
+Z. Migrated to Pakistan 
+after
+ March 1, 1947
+
+
+
+III. Deemed to be a citizen of India at commencement if ordinarily resident since the date of migration.
+
+
+
+
+
+W. Domiciled in India at commencement
+
+
+
+IV. Must have been born in India, or either parent born in India, or ordinarily resident for at least 5 years.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-III, Y-I, Z-II, W-IV
+
+B) X-I, Y-III, Z-IV, W-II
+
+C) X-III, Y-IV, Z-II, W-I
+
+D) X-I, Y-IV, Z-II, W-III
+
+Correct: A
+
+Explanation: Under Article 6, individuals migrating to India from Pakistan 
+before
+ July 19, 1948, are deemed citizens if ordinarily resident since migration (X-III). Those entering 
+on or after
+ July 19, 1948, must apply and register, requiring a minimum of 6 months residency beforehand (Y-I). Article 7 handles persons migrating to Pakistan 
+after
+ March 1, 1947, who later returned via resettlement permits (Z-II). Article 5 establishes that a person domiciled in India at the commencement of the Constitution must fulfill birth or a 5-year residency benchmark (W-IV).
+
+Q. Under the administrative rules framed under the Citizenship Act, 1955, what is the legal position of a registered Overseas Citizen of India (OCI) cardholder regarding research work or missionary activities inside India?
+
+A) They can freely undertake any research or missionary activities under the principle of absolute parity with Non-Resident Indians (NRIs).
+
+B) They are strictly prohibited from entering India if their primary purpose involves scientific or academic research.
+
+C) They require a special permit or prior permission from the Ministry of Home Affairs or the designated Indian Mission to undertake missionary, mountaineering, or research work.
+
+D) They are permitted to carry out research work freely, but missionary work is exclusively reserved for citizens of India by birth.
+
+Correct: C
+
+Explanation: While OCI cardholders enjoy a lifelong multiple-entry visa and general parity with NRIs in economic, financial, and educational fields, they are subject to regulatory restrictions. According to the Ministry of Home Affairs guidelines, an OCI cardholder requires prior permission or a special permit to undertake missionary activities, mountaineering, journalistic activities, or any research work in India.
+
+Q. Consider the following statements regarding the dynamic mechanism of citizenship acquisition through the "Incorporation of Territory" under Section 7 of the Citizenship Act, 1955:
+
+
+When a foreign territory becomes a part of India, all inhabitants of that territory automatically become citizens of India from the date of incorporation.
+
+The Central Government must specify the persons who shall be citizens of India by notifying an order in the Official Gazette.
+
+This mechanism was utilized when Pondicherry was annexed, resulting in the Citizenship (Pondicherry) Order, 1962.
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3
+Correct: B
+Explanation: Statement 1 is incorrect because incorporation of territory does not automatically grant universal citizenship to all residents; the grant of citizenship is discretionary and selective. Statement 2 is correct because Section 7 of the Citizenship Act, 1955, mandates that the Central Government specifies the eligible persons via an official order in the Gazette. Statement 3 is correct because when Pondicherry became a part of India, the Government issued the Citizenship (Pondicherry) Order, 1962, to specify the conditions of citizenship for its inhabitants.
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): A person who was born in the United Kingdom in 1980 to an Indian citizen father cannot claim Indian citizenship by descent under the provisions of the Constitution of India.
+
+Reason (R): Part II of the Constitution of India contains no provisions for the automatic acquisition or regulation of citizenship for individuals born after January 26, 1950.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is true but (R) is false.
+
+D) (A) is false but (R) is true.
+
+Correct: A
+
+Explanation: The Assertion is correct because Part II of the Constitution (Articles 5–11) only addresses citizenship status at the specific date of the commencement of the Constitution (January 26, 1950). It does not provide any statutory mechanism for individuals born in 1980; their claims are instead governed exclusively by the Citizenship Act of 1955. The Reason is also completely true and directly explains the assertion by clarifying that the Constitution does not regulate future births or post-1950 citizenship dynamics.
+
+Q. Match the statutory amendments to the Citizenship Act, 1955, with their definitive impact on the concept of 
+jus soli
+ (citizenship by birth) or registration parameters:
+
+
+
+
+
+
+Column I (Amendment Act)
+
+
+
+
+
+Column II (Definitive Impact)
+
+
+
+
+
+
+X. Citizenship (Amendment) Act, 1986
+
+
+
+I. Merged the Person of Indian Origin (PIO) card scheme with the OCI scheme.
+
+
+
+
+
+Y. Citizenship (Amendment) Act, 2003
+
+
+
+II. Restricted 
+jus soli
+ by mandating that at least one parent must be an Indian citizen at birth.
+
+
+
+
+
+Z. Citizenship (Amendment) Act, 2015
+
+
+
+III. Introduced the category of Overseas Citizen of India (OCI) in response to dual citizenship demands.
+
+
+
+
+
+W. Citizenship (Amendment) Act, 2005
+
+
+
+IV. Mandated that one parent must be a citizen and the other must not be an illegal migrant.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-II, Y-IV, Z-I, W-III
+
+B) X-IV, Y-II, Z-III, W-I
+
+C) X-II, Y-III, Z-I, W-IV
+
+D) X-IV, Y-III, Z-I, W-II
+
+Correct: A
+
+Explanation: The 1986 amendment shifted India away from absolute 
+jus soli
+ by requiring that for births after July 1, 1987, at least one parent must be an Indian citizen (X-II). The 2003 amendment tightened this further for births after December 3, 2004, requiring that one parent is a citizen and the other is not an illegal migrant (Y-IV). The 2015 amendment discontinued the PIO card and merged it into the OCI fold (Z-I). The 2005 amendment expanded the scope of the OCI scheme across various countries (W-III).
+
+Q. Under Section 14A of the Citizenship Act, 1955 (inserted via the 2003 amendment), which of the following statements is legally accurate regarding the National Identity Cards?
+
+A) The Central Government may optionally issue national identity cards only to individuals residing in border states.
+
+B) The Central Government may compulsorily register every citizen of India and issue national identity cards, maintaining a National Register of Indian Citizens.
+
+C) The registration and maintenance of the National Register of Indian Citizens is delegated entirely to the Election Commission of India.
+
+D) National Identity Cards serve as a valid substitute for regular passports for travel within Commonwealth countries.
+
+Correct: B
+
+Explanation: Section 14A of the Citizenship Act, 1955, empowers the Central Government to compulsorily register every citizen of India and issue national identity cards. It also provides that the government may maintain a National Register of Indian Citizens (NRIC) and for that purpose establish a National Registration Authority.
+
+Q. Consider the following statements regarding the legal definitions and criteria surrounding an "illegal migrant" under the Citizenship Act, 1955:
+
+
+An illegal migrant is defined as a foreigner who enters India without a valid passport or other travel documents.
+
+A foreigner who enters India with a valid passport but remains inside the country beyond the permitted period specified in their visa is also classified as an illegal migrant.
+
+The Citizenship Act allows the Central Government to condone the status of an illegal migrant if they marry an Indian citizen and reside continuously for three years.
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3
+Correct: A
+Explanation: Statements 1 and 2 accurately present the definition of an "illegal migrant" under Section 2(1)(b) of the Citizenship Act, 1955. An illegal migrant is any foreigner who enters without documents or overstays their visa. Statement 3 is entirely incorrect because marrying an Indian citizen does not automatically regularize or condone the status of an illegal migrant; they remain statutorily barred from applying for citizenship via registration or naturalisation unless specific legislative exemptions apply (such as those introduced under the CAA, 2019).
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): The Parliament of India derives its exclusive power to enact comprehensive legislation on citizenship from Article 11 of the Constitution.
+
+Reason (R): Entry 17 of the Union List in the Seventh Schedule explicitly vests the subjects of "Citizenship, naturalisation and aliens" within the legislative domain of Parliament.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is true but (R) is false.
+
+D) (A) is false but (R) is true.
+
+Correct: A
+
+Explanation: The Assertion is true because Article 11 explicitly grants Parliament the power to make provisions with respect to the acquisition and termination of citizenship and all other matters relating to it. The Reason is also true and serves as the correct explanation, as it highlights the distribution of legislative powers under the Seventh Schedule, where Entry 17 of List I (Union List) leaves citizenship entirely within the absolute domain of the Central Parliament, excluding state legislatures completely.
+
+Q. Match the statutory forms of citizenship loss with the appropriate legal scenario under the provisions of the Citizenship Act, 1955:
+
+
+
+
+
+
+Column I (Form of Loss)
+
+
+
+
+
+Column II (Legal Scenario)
+
+
+
+
+
+
+X. Loss by Renunciation
+
+
+
+I. A naturalised citizen who shows disloyalty to the Constitution of India is compulsorily stripped of citizenship.
+
+
+
+
+
+Y. Loss by Termination
+
+
+
+II. An adult Indian citizen voluntarily signs a declaration giving up their Indian citizenship upon moving abroad.
+
+
+
+
+
+Z. Loss by Deprivation
+
+
+
+III. An Indian citizen automatically loses their citizenship upon voluntarily acquiring foreign nationality.
+
+
+
+
+
+W. Ceasing of Minor Citizenship
+
+
+
+IV. A child's Indian citizenship lapses because their parent renounced Indian nationality under Section 8.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-II, Y-III, Z-I, W-IV
+
+B) X-III, Y-II, Z-IV, W-I
+
+C) X-II, Y-I, Z-III, W-IV
+
+D) X-III, Y-I, Z-IV, W-II
+
+Correct: A
+
+Explanation: Loss by Renunciation involves a voluntary declaration by an adult citizen of full capacity (X-II). Loss by Termination is an automatic operation of law triggered by acquiring a foreign nationality (Y-III). Loss by Deprivation is an involuntary, compulsory stripping of citizenship by the Central Government on grounds like fraud or disloyalty (Z-I). Section 8(2) specifies that when a person renounces citizenship, their minor child also ceases to be a citizen (W-IV).
+
+Q. Under the provisions of Section 5(1)(f) of the Citizenship Act, 1955, a person of full age and capacity can be registered as a citizen of India if they have been registered as an Overseas Citizen of India (OCI) cardholder for a minimum period of:
+
+A) Three years, and have been residing in India for one year before making the application.
+
+B) Five years, and have been residing in India for one year before making the application.
+
+C) Seven years, without any continuous residency requirements inside India.
+
+D) Five years, with a mandatory requirement of continuous residency for three years.
+
+Correct: B
+
+Explanation: According to Section 5(1)(g) of the Citizenship Act, 1955, a person of full age and capacity who has been registered as an Overseas Citizen of India (OCI) cardholder for five years, and who has been residing in India for one year immediately before making an application for registration, is eligible to register for full Indian citizenship.
+
+Q. Consider the following statements regarding the status of citizenship during a state of National Emergency declared under Article 352:
+
+
+The Parliament can pass a law suspending the citizenship rights of all citizens belonging to minority communities during an emergency.
+
+The automatic termination of Indian citizenship due to the voluntary acquisition of foreign nationality can be suspended or withheld if the acquisition occurs during a war in which India is engaged.
+
+Fundamental rights available exclusively to citizens, such as Article 19, can be suspended under Article 358 during an external emergency.
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3
+Correct: B
+Explanation: Statement 1 is completely unconstitutional and incorrect; Parliament cannot arbitrarily strip citizenship based on minority status, as equality before law and citizenship protections continue to apply. Statement 2 is correct because Section 9 of the Citizenship Act explicitly states that the automatic termination of citizenship does not apply during a war in which India is engaged, giving the Central Government discretion. Statement 3 is correct because Article 358 provides for the automatic suspension of Article 19 rights when a National Emergency is declared on the grounds of war or external aggression.
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): In the famous 
+State Trading Corporation of India v. Commercial Tax Officer
+ case, the Supreme Court clarified that nationality and citizenship are legally identical concepts in municipal law.
+
+Reason (R): While nationality denotes the socio-ethnic ties of an individual to a specific state under international law, citizenship defines the formal civil and political rights within domestic constitutional law.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is false but (R) is true.
+
+D) (A) is true but (R) is false.
+
+Correct: C
+
+Explanation: The Assertion is false. In the 
+State Trading Corporation
+ case, the Supreme Court explicitly drew a distinction between citizenship and nationality, clarifying that they are not legally identical. A company or corporation may have Indian nationality for international trade or registration purposes, but it does not possess "citizenship" under domestic municipal law to claim Fundamental Rights. The Reason statement is completely true independently, presenting the standard legal distinction between nationality (international/ethnic concept) and citizenship (municipal/political concept).
+
+Q. Match the constitutional and statutory terms with their core definition regarding citizenship and allegiance:
+
+
+
+
+
+
+Column I (Term)
+
+
+
+
+
+Column II (Core Definition)
+
+
+
+
+
+
+X. Domicile
+
+
+
+I. A person's formal legal tie to a state under international law, often determined by birth or ethnicity.
+
+
+
+
+
+Y. Nationality
+
+
+
+II. The status of an individual who possesses no formal legal citizenship or nationality in any sovereign state.
+
+
+
+
+
+Z. Statelessness
+
+
+
+III. A person's permanent legal home or the place where they reside with the fixed intention of remaining.
+
+
+
+
+
+W. Allegiance
+
+
+
+IV. The continuous obligation of fidelity and obedience that a citizen owes to their sovereign state.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-III, Y-I, Z-II, W-IV
+
+B) X-I, Y-III, Z-IV, W-II
+
+C) X-III, Y-II, Z-I, W-IV
+
+D) X-I, Y-IV, Z-II, W-III
+
+Correct: A
+
+Explanation: Domicile means a permanent legal home accompanied by the intention to remain indefinitely (X-III). Nationality refers to the formal tie under international law linked to origin or ethnicity (Y-I). Statelessness occurs when an individual is not recognized as a citizen by any state under its laws (Z-II). Allegiance represents the legal obligation of loyalty that a citizen owes to their country (W-IV).
+
+Q. Under the provisions of the Citizenship Act, 1955, what is the maximum continuous period for which a naturalised Indian citizen can reside outside India without official registration or educational exemption before risking the compulsory loss of their citizenship?
+
+A) Three years
+
+B) Five years
+
+C) Seven years
+
+D) Ten years
+
+Correct: C
+
+Explanation: Section 10(2)(g) of the Citizenship Act, 1955, states that the Central Government may by order deprive a naturalised citizen of their citizenship if they have been ordinarily resident out of India for a continuous period of seven years. This clause does not apply if the individual is at any time in the service of a government in India or of an international organisation of which India is a member, or registers annually at an Indian consulate their intention to retain Indian citizenship.
+
+Q. Consider the following statements regarding the criteria for registration of citizenship for a person of Indian origin (PIO) under Section 5(1)(a) of the Citizenship Act, 1955:
+
+
+The applicant must be ordinarily resident in India for a period of five years before making the application.
+
+The applicant must have resided in India continuously for a period of twelve months immediately preceding the date of application.
+
+A person is deemed to be of Indian origin if they, or either of their parents, were born in undivided India.
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3
+Correct: B
+Explanation: Statement 1 is incorrect because Section 5(1)(a) requires the applicant to be ordinarily resident in India for seven years (not five years) before making an application. Statement 2 is correct because the rules mandate a continuous stay of twelve months immediately prior to filing the application. Statement 3 is correct because the statutory definition of a "person of Indian origin" matches an individual born in undivided India or in territories that became part of India after August 15, 1947.
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): The Constitution of India explicitly prohibits state legislatures from creating a separate category of 'State Citizenship' or conferring exclusive civil privileges based on regional domicile.
+
+Reason (R): Article 15(1) of the Constitution prohibits discrimination against any citizen on the grounds of place of birth, but does not explicitly bar discrimination based on residence.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is true but (R) is false.
+
+D) (A) is false but (R) is true.
+
+Correct: B
+
+Explanation: The Assertion is true; the Indian Constitution enforces a strict single citizenship model and prevents states from setting up separate state citizenships. The Reason is also completely true independently, as Article 15(1) lists "religion, race, caste, sex, place of birth" as prohibited grounds of discrimination, intentionally omitting "residence." This omission allows states to provide concessions (like lower college fees or domicile quotas) for local residents. However, the Reason is not the correct explanation of the Assertion, as the absolute ban on state citizenship stems from the structural single-citizenship design of Part II, not from Article 15's residency omissions.
+
+Q. Match the historical classifications of states under the original Constitution of India (1950) with their corresponding description prior to the Seventh Constitutional Amendment Act, 1956:
+
+
+
+
+
+
+Column I (Part Category)
+
+
+
+
+
+Column II (Description)
+
+
+
+
+
+
+X. Part A States
+
+
+
+I. Chief Commissioner's provinces of British India and some centrally administered princely states.
+
+
+
+
+
+Y. Part B States
+
+
+
+II. Former Governor's provinces of British India possessing an elected legislature.
+
+
+
+
+
+Z. Part C States
+
+
+
+III. The territory of Andaman and Nicobar Islands, placed under a unique direct administration.
+
+
+
+
+
+W. Part D States
+
+
+
+IV. Former princely states or unions of princely states governed by a Rajpramukh with a legislature.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-II, Y-IV, Z-I, W-III
+
+B) X-IV, Y-II, Z-III, W-I
+
+C) X-II, Y-I, Z-IV, W-III
+
+D) X-I, Y-IV, Z-II, W-III
+
+Correct: A
+
+Explanation: Under the original 1950 structural framework, Part A states were the former Governor's provinces of British India (X-II). Part B states were the major princely states or state unions governed by a Rajpramukh (Y-IV). Part C states comprised the former Chief Commissioner's provinces and minor princely units under central oversight (Z-I). Part D was reserved solely for the Andaman and Nicobar Islands (W-III). This four-fold classification was entirely abolished following the recommendations of the Fazl Ali Commission via the 7th Amendment in 1956.
+
+Q. Under the updated guidelines issued by the Ministry of Home Affairs, an Overseas Citizen of India (OCI) cardholder must get their OCI card re-issued only under which of the following mandatory conditions?
+
+A) Every time they change their residential address or employment status in a foreign country.
+
+B) Exactly once when a new passport is issued after completing twenty years of age, to capture their facial features as an adult.
+
+C) Annually from the date of the original registration, to verify that they have not re-acquired an Indian passport.
+
+D) Every time a new passport is issued until they reach the age of fifty years.
+
+Correct: B
+
+Explanation: In April 2021, the Government of India significantly simplified the OCI re-issuance rules. Currently, an OCI cardholder is required to get their OCI card re-issued exactly once when a new passport is issued after completing 20 years of age. This single re-issuance updates the adult biological data and facial capture. The previous requirement to re-issue the card every time a passport was renewed up to 20 years and after 50 years has been completely dispensed with.
+
+Q. A person who migrated from Lahore to Amritsar on August 20, 1948, filed an application for citizenship registration under Article 6(b)(ii) of the Constitution. For how long must they have been continuously resident in the territory of India immediately preceding the date of their application to be registered by the designated officer?
+
+A) For not less than three months
+
+B) For not less than six months
+
+C) For a minimum period of one year
+
+D) For a minimum period of two years
+
+Correct: B
+
+Explanation: Article 6(b)(ii) of the Constitution governs the citizenship rights of individuals who migrated to India from Pakistan on or after July 19, 1948. It explicitly states that such a person can be registered as a citizen of India only if they have been resident in the territory of India for at least six months immediately preceding the date of their application.
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): The Supreme Court of India ruled in the case of 
+Sarbananda Sonowal v. Union of India
+ that illegal migration into the state of Assam constitutes a form of "external aggression" against that state.
+
+Reason (R): Article 355 of the Constitution explicitly mandates that it shall be the duty of the Union to protect every State against external aggression and domestic disturbance.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is true but (R) is false.
+
+D) (A) is false but (R) is true.
+
+Correct: A
+
+Explanation: In the landmark 
+Sarbananda Sonowal v. Union of India
+ case (2005), the Supreme Court struck down the Illegal Migrants (Determination by Tribunals) Act, 1983. The Court held that the massive influx of illegal migrants into Assam posed a grave threat to national security and demography, amounting to "external aggression" under Article 355. Since Article 355 casts a constitutional duty on the Union to protect states from external aggression, the failure to deport illegal migrants was viewed as a violation of this federal obligation, making the Reason a direct explanation of the Assertion.
+
+Q. Match the operational categories of individuals residing outside India with their precise statutory classification under Indian law:
+
+
+
+
+
+
+Column I (Category)
+
+
+
+
+
+Column II (Statutory Classification)
+
+
+
+
+
+
+X. Indian citizens holding valid Indian passports who reside abroad for employment or business.
+
+
+
+I. Stateless persons of Indian heritage who require special entry visas under the Foreigners Act.
+
+
+
+
+
+Y. Foreign citizens of Indian origin who hold an absolute life-long multiple-entry visa stamp.
+
+
+
+II. Non-Resident Indians (NRIs) who enjoy full domestic civil and constitutional rights.
+
+
+
+
+
+Z. Foreign citizens who held Indian passports but voluntarily renounced them before 2015.
+
+
+
+III. Overseas Citizen of India (OCI) Cardholders who hold special economic rights.
+
+
+
+
+
+W. Persons who migrated from undivided India but hold no legal papers of any sovereign state.
+
+
+
+IV. Person of Indian Origin (PIO) cardholders whose cards are now statutorily treated as OCI cards.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-II, Y-III, Z-IV, W-I
+
+B) X-III, Y-II, Z-I, W-IV
+
+C) X-II, Y-I, Z-III, W-IV
+
+D) X-III, Y-I, Z-IV, W-II
+
+Correct: A
+
+Explanation: Non-Resident Indians (NRIs) are Indian citizens holding Indian passports who live abroad, retaining all constitutional rights including voting (X-II). Overseas Citizen of India (OCI) cardholders enjoy a lifelong, multiple-entry visa framework with specific economic exemptions (Y-III). Person of Indian Origin (PIO) cardholders were a separate category until 2015, when a statutory notification deemed all existing PIO cards valid as OCI cards (Z-IV). Stateless individuals who carry no sovereign passport fall under general border controls and immigration oversight via the Foreigners Act (W-I).
+
+Q. Under Section 15 of the Citizenship Act, 1955, if an applicant is aggrieved by any order passed by the prescribed authority refusing to register or naturalise them as a citizen, what administrative remedy is available to them?
+
+A) They can file a constitutional writ petition directly in the Supreme Court under Article 32.
+
+B) They can make an application for revision to the Central Government within thirty days of the date of communication of the order.
+
+C) They must appeal to an independent Inter-Ministerial Citizenship Tribunal whose decision is final.
+
+D) They can request a review from the National Human Rights Commission within sixty days.
+
+Correct: B
+
+Explanation: Section 15 of the Citizenship Act, 1955, deals with revisionary mechanisms. Any person aggrieved by an order made by the prescribed authority can make an application to the Central Government for revision within 30 days from the date on which the order is communicated to them. The Central Government may then review the order and pass such directions as it deems fit.
+
+Q. Consider the following statements regarding the legal baseline of citizenship deprivation under Section 10 of the Citizenship Act, 1955:
+
+
+The Central Government can deprive a citizen of their citizenship on any ground without providing a formal notice or statement of reasons.
+
+An individual whose citizenship is sought to be deprived has a statutory right to refer their case to a Committee of Inquiry appointed by the Central Government.
+
+Deprivation of citizenship under Section 10 applies uniformly to all citizens of India, including those who acquired citizenship by birth.
+Which of the statements given above is/are correct?
+A) 1 and 2 only
+B) 2 only
+C) 2 and 3 only
+D) 1, 2 and 3
+Correct: B
+Explanation: Statement 1 is incorrect because principles of natural justice apply, and the government must provide written grounds and notice. Statement 2 is correct because Section 10(3) explicitly gives the person a right to request that their case be referred to a Committee of Inquiry consisting of a chairman (with judicial experience) and two other members. Statement 3 is incorrect because deprivation of citizenship under Section 10 applies only to citizens who obtained their citizenship through registration or naturalisation; it does not apply to citizens who hold citizenship by birth or descent.
+
+
+Q. Given below are two statements, one labeled as Assertion (A) and the other labeled as Reason (R):
+
+Assertion (A): The state of Jammu and Kashmir maintained a unique mechanism of "Permanent Residents" who enjoyed exclusive rights to acquire immovable property until August 2019.
+
+Reason (R): Part II of the Constitution of India explicitly authorized the Jammu and Kashmir state legislature to create a separate state citizenship under Article 7.
+
+Select the correct response from the options given below:
+
+A) Both (A) and (R) are true and (R) is the correct explanation of (A).
+
+B) Both (A) and (R) are true but (R) is not the correct explanation of (A).
+
+C) (A) is true but (R) is false.
+
+D) (A) is false but (R) is true.
+
+Correct: C
+
+Explanation: The Assertion is true. Under Article 35A (which was linked to Article 370), the state legislature of Jammu and Kashmir was empowered to define "Permanent Residents" and accord them special rights regarding property, employment, and settlement. The Reason statement is completely false because Part II of the Constitution enforces a strict single citizenship for the entire nation and does not authorize any separate state citizenship. Furthermore, Article 35A was inserted via a Presidential Order in 1954, not via Article 7 of Part II.
+
+Q. Match the statutory exceptions to regular immigration laws under the Citizenship Amendment Act (CAA), 2019, with their operational descriptions:
+
+
+
+
+
+
+Column I (Statutory Parameter)
+
+
+
+
+
+Column II (Operational Description)
+
+
+
+
+
+
+X. Specified Country of Origin
+
+
+
+I. Entered India on or before December 31, 2014, to escape religious persecution.
+
+
+
+
+
+Y. Cut-off Date Parameter
+
+
+
+II. Complete immunity from legal proceedings initiated under the Passport (Entry into India) Act, 1920.
+
+
+
+
+
+Z. Exemption from Penalty
+
+
+
+III. Reduced continuous residency requirement for naturalisation from 11 years down to 5 years.
+
+
+
+
+
+W. Relaxed Residency Baseline
+
+
+
+IV. Limited exclusively to migrants belonging to specific minority groups from Pakistan, Bangladesh, and Afghanistan.
+
+
+
+
+
+Select the correct match from the options given below:
+
+A) X-IV, Y-I, Z-II, W-III
+
+B) X-IV, Y-I, Z-III, W-II
+
+C) X-I, Y-IV, Z-II, W-III
+
+D) X-I, Y-IV, Z-III, W-II
+
+Correct: A
+
+Explanation: The CAA 2019 identifies Pakistan, Bangladesh, and Afghanistan as the specified countries of origin (X-IV). The operational cut-off date is set at December 31, 2014 (Y-I). Migrants covered under this scheme get complete exemption and immunity from criminal charges linked to illegal entry or visa overstay under the Passport Act and Foreigners Act (Z-II). The amendment also lowers the residency window for naturalisation from 11 years to 5 years for these specific individuals (W-III).
+
+Q. Under the express provisions of Section 4 of the Citizenship Act, 1955, a person born outside India between January 26, 1950, and December 10, 1992, is considered a citizen of India by descent if:
+
+A) Both of their parents were citizens of India at the time of their birth.
+
+B) Their father was a citizen of India at the time of their birth.
+
+C) Their mother was a citizen of India and held an official government position abroad.
+
+D) Their birth was registered at an Indian consulate within six months of occurrence.
+
+Correct: B
+
+Explanation: Originally, Section 4 of the Citizenship Act, 1955, followed a patrilineal framework for citizenship by descent. A person born outside India on or after January 26, 1950, but before December 10, 1992, became a citizen of India by descent only if their father was a citizen of India at the time of their birth. This gender disparity was resolved by the 1992 amendment, which extended the provision to include births where either parent was an Indian citizen, but this change applied only prospectively to births occurring on or after December 10, 1992.
+
+Q. Consider the following statements regarding the National Register of Citizens (NRC) implemented in the state of Assam:
+
+
+The NRC in Assam was updated under the exclusive supervision of the Supreme Court of India in accordance with the Citizenship Rules, 2003.
+
+To prove their inclusion in the updated NRC, residents had to present historical documents establishing their presence in Assam prior to March 24, 1971.
+
+The legacy data mechanism allowed individuals to trace their lineage through ancestors who appeared in the 1951 NRC or electoral rolls up to 1971.
+Which of the statements given above are correct?
+A) 1 and 2 only
+B) 2 and 3 only
+C) 1 and 3 only
+D) 1, 2 and 3
+Correct: D
+Explanation: All three statements are correct. The NRC update process in Assam was a court-mandated exercise monitored directly by the Supreme Court (Statement 1). The statutory cut-off date to identify citizens was midnight of March 24, 1971, as per the Assam Accord (Statement 2). Applicants had to prove their link to ancestors whose names appeared either in the original 1951 NRC or in electoral rolls up to March 24, 1971, using a system known as "Legacy Data" (Statement 3).
+

@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Which of the following statements is historically accurate regarding the folk deity Pabuji and his cultural representations in Rajasthan?",
+      "question_hi": "राजस्थान के लोक देवता पाबूजी और उनके सांस्कृतिक निरूपण के संबंध में निम्नलिखित में से कौन सा कथन ऐतिहासिक रूप से सही है?",
+      "options_en": {
+        "A": "The epic 'Pabuji ka Phad' is painted on a long scroll and is typically recited by the Bhopa priest of the Nayak/Rabari community using the 'Rawanhatha' instrument.",
+        "B": "Pabuji was born in Bapini and died in a battle against Rao Ranagdev Bhati of Jaisalmer while protecting the cows of Deval Charan.",
+        "C": "The black mare of Pabuji, 'Kesar Kalmi', was a divine gift bestowed upon him by Guru Gorakhnath.",
+        "D": "Pabuji is believed to be an incarnation of Lord Lakshmana, and his main fair is celebrated annually on Bhadra Shukla Dashami."
+      },
+      "options_hi": {
+        "A": "\"पाबूजी की फड़\" महाकाव्य एक लंबे स्क्रॉल पर चित्रित है और आमतौर पर नायक/राबड़ी समुदाय के भोपा पुजारी द्वारा \"रावणहत्था\" वाद्ययंत्र का उपयोग करके गाया जाता है।",
+        "B": "पाबूजी का जन्म बापिणी में हुआ था और देवल चारणी की गायों की रक्षा करते हुए जैसलमेर के राव राणगदेव भाटी के खिलाफ युद्ध में उनकी मृत्यु हुई थी।",
+        "C": "पाबूजी की काली घोड़ी \"केसर कालमी\" उन्हें गुरु गोरखनाथ द्वारा दिया गया एक दिव्य उपहार थी।",
+        "D": "पाबूजी को भगवान लक्ष्मण का अवतार माना जाता है, और उनका मुख्य मेला प्रतिवर्ष भाद्रपद शुक्ल दशमी को मनाया जाता है।"
+      },
+      "correct_option": "A",
+      "explanation_en": "Pabuji was born in Kolumand (Jodhpur). He is considered an incarnation of Lord Lakshmana and is the patron deity of camel herders (Rabaris). His Phad (scroll painting) is performed by Bhopas using the Rawanhatha instrument. His black mare was 'Kesar Kalmi', received from Deval Charan (or Kelam De's family). His fair is celebrated on Phalguna Purnima (Holi). Thus, statement A is correct.",
+      "explanation_hi": "पाबूजी का जन्म कोलू मण्ड (जोधपुर) में हुआ था। उन्हें भगवान लक्ष्मण का अवतार माना जाता है और वे ऊंट पालकों (राबड़ी समुदाय) के आराध्य देव हैं। उनकी फड़ का वाचन भोपाओं द्वारा रावणहत्था वाद्ययंत्र के साथ किया जाता है। उनकी काली घोड़ी का नाम 'केसर कालमी' था, जो उन्हें देवल चारणी से प्राप्त हुई थी। उनका मेला फाल्गुन पूर्णिमा (होली) को आयोजित होता है। अतः कथन A सही है।"
+    },
+    {
+      "question_en": "Which of the following architectural and cultural features is uniquely associated with the main shrine of Gogaji at Gogamedi in Hanumangarh?",
+      "question_hi": "हनुमानगढ़ के गोगामेड़ी में गोगाजी के मुख्य मंदिर से कौन सी स्थापत्य और सांस्कृतिक विशेषता विशिष्ट रूप से जुड़ी हुई है?",
+      "options_en": {
+        "A": "The entrance of the shrine has the word 'Bismillah' inscribed on it, and the building is constructed in a shape resembling a traditional Rajput palace.",
+        "B": "The shrine is designed in a mosque-like shape with the word 'Bismillah' inscribed on the main gate, reflecting syncretic Hindu-Muslim worship.",
+        "C": "The shrine is surrounded by a dense sacred grove called 'Oran' where cutting trees is strictly prohibited to appease the snake deity.",
+        "D": "The sanctum sanctorum contains no idol but a wooden cart that is worshipped with offerings of grain and oil."
+      },
+      "options_hi": {
+        "A": "मंदिर के प्रवेश द्वार पर \"बिस्मिल्लाह\" शब्द अंकित है, और इमारत का निर्माण एक पारंपरिक राजपूत महल के आकार में किया गया है।",
+        "B": "मंदिर को मस्जिद जैसी आकृति में डिज़ाइन किया गया है जिसके मुख्य द्वार पर \"बिस्मिल्लाह\" शब्द अंकित है, जो हिंदू-मुस्लिम मिश्रित पूजा को दर्शाता है।",
+        "C": "मंदिर एक घने पवित्र उपवन से घिरा हुआ है जिसे \"ओरण\" कहा जाता है, जहाँ सर्प देवता को प्रसन्न करने के लिए पेड़ काटना सख्त मना है।",
+        "D": "गर्भगृह में कोई मूर्ति नहीं है, बल्कि एक लकड़ी की गाड़ी है जिसकी पूजा अनाज और तेल चढ़ाकर की जाती है।"
+      },
+      "correct_option": "B",
+      "explanation_en": "Gogaji's main shrine at Gogamedi (Hanumangarh) was built/modified by Firoz Shah Tughlaq in a mosque-like shape (tomb shape) and has the word 'Bismillah' inscribed on the main entrance. It reflects the syncretic worship where both Hindus and Muslims pay respects.",
+      "explanation_hi": "गोगामेड़ी (हनुमानगढ़) में गोगाजी का मुख्य मंदिर फिरोज शाह तुगलक द्वारा मस्जिद/मकबरे के आकार में बनवाया गया था और इसके मुख्य प्रवेश द्वार पर 'बिस्मिल्लाह' शब्द अंकित है। यह उस मिश्रित पूजा संस्कृति को दर्शाता है जहां हिंदू और मुस्लिम दोनों श्रद्धा अर्पित करते हैं।"
+    },
+    {
+      "question_en": "Ramdevji is highly revered for his contributions to social reform and communal harmony. Which of the following sects/organizations was initiated by him to eradicate untouchability and integrate the marginalized?",
+      "question_hi": "रामदेवजी को सामाजिक सुधार और सांप्रदायिक सद्भाव में उनके योगदान के लिए अत्यधिक पूजनीय माना जाता है। छुआछूत को समाप्त करने और हाशिए पर मौजूद लोगों को एकीकृत करने के लिए उनके द्वारा निम्नलिखित में से किस पंथ/संगठन की शुरुआत की गई थी?",
+      "options_en": {
+        "A": "Alakh Giriji Sect, which focused on the spiritual liberation of the pastoralist Rabari community.",
+        "B": "Jasnathi Sampradaya, which was started to protest against animal sacrifice and cattle theft.",
+        "C": "Kamadiya Panth, established by Ramdevji to foster social equality, whose female followers perform the 'Terah Taali' dance.",
+        "D": "Kundan Panth, which was specifically created to counter the influence of the demon Bhairon."
+      },
+      "options_hi": {
+        "A": "अलख गिरीजी संप्रदाय, जो पशुपालक राबड़ी समुदाय की आध्यात्मिक मुक्ति पर केंद्रित था।",
+        "B": "जसनाथी संप्रदाय, जिसकी शुरुआत पशु बलि और मवेशियों की चोरी के विरोध में की गई थी।",
+        "C": "कामड़िया पंथ, जिसकी स्थापना रामदेवजी ने सामाजिक समानता को बढ़ावा देने के लिए की थी, और जिसकी महिला अनुयायी \"तेरह ताली\" नृत्य प्रस्तुत करती हैं।",
+        "D": "कुंदन पंथ, जिसे विशेष रूप से भैरव राक्षस के प्रभाव का मुकाबला करने के लिए बनाया गया था।"
+      },
+      "correct_option": "C",
+      "explanation_en": "Ramdevji founded the Kamadiya Panth to promote social equality and eliminate untouchability. The female members of this Panth perform the famous 'Terah Taali' dance during the Ramdevra Fair in honour of Ramdevji.",
+      "explanation_hi": "रामदेवजी ने सामाजिक समानता को बढ़ावा देने और अस्पृश्यता को मिटाने के लिए 'कामड़िया पंथ' की स्थापना की थी। इस पंथ की महिला सदस्य रामदेवजी के सम्मान में रामदेवरा मेले के दौरान प्रसिद्ध 'तेरह ताली' नृत्य प्रस्तुत करती हैं।"
+    },
+    {
+      "question_en": "Who is the legendary folk deity of Rajasthan, believed to be the maternal uncle or close contemporary of Pabuji, who is worshipped using a wooden cart (Bailgadi) at Bengti (Phalodi)?",
+      "question_hi": "राजस्थान के वे प्रसिद्ध लोक देवता कौन हैं, जिन्हें पाबूजी का मामा या निकट समकालीन माना जाता है, और जिनकी पूजा बेंगटी (फलोदी) में एक लकड़ी की गाड़ी (बैलगाड़ी) के रूप में की जाती है?",
+      "options_en": {
+        "A": "Mehaji Mangaliya",
+        "B": "Gogaji",
+        "C": "Devnarayanji",
+        "D": "Hadbuji"
+      },
+      "options_hi": {
+        "A": "मेहाजी मांगलिया",
+        "B": "गोगाजी",
+        "C": "देवनारायणजी",
+        "D": "हड़बूजी"
+      },
+      "correct_option": "D",
+      "explanation_en": "Hadbuji Sankhla, a contemporary of Pabuji and Rao Jodha, is worshipped at Bengti (Phalodi). Devotees worship his wooden cart (Bailgadi), which he used to transport fodder for sick and disabled cattle.",
+      "explanation_hi": "हड़बूजी सांखला, जो पाबूजी और राव जोधा के समकालीन थे, की पूजा बेंगटी (फलोदी) में की जाती है। श्रद्धालु उनकी लकड़ी की गाड़ी की पूजा करते हैं, जिसका उपयोग वे बीमार और विकलांग मवेशियों के लिए चारा लाने के लिए करते थे।"
+    },
+    {
+      "question_en": "The legendary folk deity Tejaji is widely worshipped by the agrarian communities of Rajasthan. In which district is the major shrine 'Sursura' located, where Tejaji is believed to have attained martyrdom due to a snake bite?",
+      "question_hi": "प्रसिद्ध लोक देवता तेजाजी की पूजा राजस्थान के कृषि समुदायों द्वारा व्यापक रूप से की जाती है। वह मुख्य मंदिर \"सुरसुरा\" किस जिले में स्थित है, जहाँ माना जाता है कि तेजाजी ने सर्पदंश के कारण वीरगति प्राप्त की थी?",
+      "options_en": {
+        "A": "Ajmer",
+        "B": "Nagaur",
+        "C": "Jodhpur",
+        "D": "Barmer"
+      },
+      "options_hi": {
+        "A": "अजमेर",
+        "B": "नागौर",
+        "C": "जोधपुर",
+        "D": "बाड़मेर"
+      },
+      "correct_option": "A",
+      "explanation_en": "Tejaji was bitten by a snake at Sendaveria and passed away (attained martyrdom) at Sursura, which is located near Kishangarh in the Ajmer district of Rajasthan.",
+      "explanation_hi": "तेजाजी को सेंदवरिया में सांप ने काटा था और उनका निधन (वीरगति) सुरसुरा में हुआ था, जो राजस्थान के अजमेर जिले में किशनगढ़ के पास स्थित है।"
+    },
+    {
+      "question_en": "The 'Phad' (scroll painting) of Devnarayanji is highly unique among the folk arts of Rajasthan. Which of the following features is NOT true about Devnarayanji's Phad?",
+      "question_hi": "देवनारायणजी की \"फड़\" राजस्थान की लोक कलाओं में अत्यधिक विशिष्ट है। देवनारायणजी की फड़ के बारे में निम्नलिखित में से कौन सा कथन सही नहीं है?",
+      "options_en": {
+        "A": "It is the longest and oldest Phad among all the folk deities of Rajasthan.",
+        "B": "It is traditionally performed by the Bhopas of the Kamad community using the Rawanhatha instrument.",
+        "C": "The Department of Posts, Government of India, issued a postage stamp dedicated to this Phad.",
+        "D": "It depicts the battles and exploits of the Bagdawat brothers of the Gurjar clan."
+      },
+      "options_hi": {
+        "A": "यह राजस्थान के सभी लोक देवताओं में सबसे लंबी और सबसे पुरानी फड़ है।",
+        "B": "यह पारंपरिक रूप से कामड़ समुदाय के भोपाओं द्वारा रावणहत्था वाद्ययंत्र का उपयोग करके बांची जाती है।",
+        "C": "भारत सरकार के डाक विभाग द्वारा इस फड़ को समर्पित एक डाक टिकट जारी किया गया था।",
+        "D": "इसमें गुर्जर समुदाय के बगड़ावत भाइयों के संघर्ष और गाथाओं को दर्शाया गया है।"
+      },
+      "correct_option": "B",
+      "explanation_en": "Devnarayanji's Phad is traditionally performed by the Bhopas of the Gurjar community using the 'Jantar' instrument, not by the Kamad community using the 'Rawanhatha'. Thus, statement B is incorrect and is the correct answer.",
+      "explanation_hi": "देवनारायणजी की फड़ का वाचन पारंपरिक रूप से गुर्जर समुदाय के भोपाओं द्वारा 'जंतर' वाद्ययंत्र का उपयोग करके किया जाता है, न कि कामड़ समुदाय द्वारा रावणहत्था से। अतः कथन B गलत है और यही सही उत्तर है।"
+    },
+    {
+      "question_en": "Which of the following folk deities of Rajasthan is also known as 'Jahar Pir' (or Jahar Veer), a title reportedly bestowed upon him by Mahmud Ghaznavi due to his extraordinary valor?",
+      "question_hi": "राजस्थान के निम्नलिखित लोक देवताओं में से किसे \"जाहर पीर\" (या जाहर वीर) के रूप में भी जाना जाता है, जो उपाधि कथित तौर पर महमूद गजनवी द्वारा उनकी असाधारण वीरता के कारण दी गई थी?",
+      "options_en": {
+        "A": "Pabuji",
+        "B": "Ramdevji",
+        "C": "Gogaji",
+        "D": "Tejaji"
+      },
+      "options_hi": {
+        "A": "पाबूजी",
+        "B": "रामदेवजी",
+        "C": "गोगाजी",
+        "D": "तेजाजी"
+      },
+      "correct_option": "C",
+      "explanation_en": "Gogaji is called 'Jahar Pir' (or Jahar Veer) by Muslims. According to legend, Mahmud Ghaznavi was so impressed by his combat skills that he called him 'Jahar Pir' (manifest deity/poison deity/peer).",
+      "explanation_hi": "गोगाजी को मुस्लिमों द्वारा 'जाहर पीर' (या जाहर वीर) कहा जाता है। लोककथाओं के अनुसार, महमूद गजनवी उनकी युद्ध कला से इतना प्रभावित हुआ था कि उसने उन्हें 'जाहर पीर' (साक्षात देवता/पीर) कहा था।"
+    },
+    {
+      "question_en": "In Rajasthan, the priest of which folk deity belongs to the Mangaliya clan, and it is traditionally believed that their family lineage does not grow biologically, requiring them to adopt children?",
+      "question_hi": "राजस्थान में किस लोक देवता के पुजारी मांगलिया कबीले से संबंधित होते हैं, और यह पारंपरिक मान्यता है कि उनके परिवार का वंश जैविक रूप से आगे नहीं बढ़ता है, जिसके कारण उन्हें गोद लेना पड़ता है?",
+      "options_en": {
+        "A": "Hadbuji",
+        "B": "Pabuji",
+        "C": "Tejaji",
+        "D": "Mehaji Mangaliya"
+      },
+      "options_hi": {
+        "A": "हड़बूजी",
+        "B": "पाबूजी",
+        "C": "तेजाजी",
+        "D": "मेहाजी मांगलिया"
+      },
+      "correct_option": "D",
+      "explanation_en": "Mehaji Mangaliya's main shrine is at Bapini (Jodhpur). His priest belongs to the Mangaliya clan, and popular belief holds that their family lineage does not grow biologically, so they must adopt a successor.",
+      "explanation_hi": "मेहाजी मांगलिया का मुख्य मंदिर बापिणी (जोधपुर) में स्थित है। उनके पुजारी मांगलिया राजपूत होते हैं और लोक मान्यता के अनुसार उनके वंश की वृद्धि नहीं होती, अतः वे गोद लेकर अपना वंश चलाते हैं।"
+    },
+    {
+      "question_en": "Karni Mata, the tutelary goddess of the Bikaner rulers, is internationally renowned for her temple at Deshnok. Which animal is considered sacred and worshipped as her 'Kaba' at this temple?",
+      "question_hi": "बीकानेर के शासकों की अधिष्ठात्री देवी करणी माता अपने देशनोक स्थित मंदिर के लिए अंतर्राष्ट्रीय स्तर पर प्रसिद्ध हैं। इस मंदिर में किस जानवर को पवित्र माना जाता है और उनके \"काबा\" के रूप में पूजा जाता है?",
+      "options_en": {
+        "A": "Rat",
+        "B": "Kite",
+        "C": "Lion",
+        "D": "Cow"
+      },
+      "options_hi": {
+        "A": "चूहा",
+        "B": "चील",
+        "C": "शेर",
+        "D": "गाय"
+      },
+      "correct_option": "A",
+      "explanation_en": "At the Deshnok temple of Karni Mata, rats (especially white ones) are considered extremely sacred and are called 'Kaba'. Devotees offer them food, and seeing a white rat is considered highly auspicious.",
+      "explanation_hi": "करणी माता के देशनोक मंदिर में चूहों (विशेष रूप से सफेद चूहों) को अत्यंत पवित्र माना जाता है और उन्हें 'काबा' कहा जाता है। श्रद्धालु उन्हें प्रसाद चढ़ाते हैं और सफेद चूहे का दिखना अत्यधिक शुभ माना जाता है।"
+    },
+    {
+      "question_en": "Ramdevji is said to have performed many miracles, known as 'Parcha'. Among these, which miracle is associated with his early life in the Pokhran region?",
+      "question_hi": "रामदेवजी द्वारा कई चमत्कार किए जाने की मान्यता है, जिन्हें \"परचा\" कहा जाता है। इनमें से कौन सा चमत्कार उनके पोखरण क्षेत्र के प्रारंभिक जीवन से जुड़ा हुआ है?",
+      "options_en": {
+        "A": "Reviving the dead cows of Deval Charan.",
+        "B": "Subduing the wicked demon Bhairon (Bherawa) who terrorized the locals.",
+        "C": "Bringing rain to the drought-prone desert of Barmer.",
+        "D": "Curing the leprosy of King Firoz Shah Tughlaq."
+      },
+      "options_hi": {
+        "A": "देवल चारणी की मृत गायों को जीवित करना।",
+        "B": "स्थानीय लोगों को आतंकित करने वाले दुष्ट राक्षस भैरव (भैरवा) का दमन करना।",
+        "C": "बाड़मेर के सूखाग्रस्त रेगिस्तान में बारिश लाना।",
+        "D": "राजा फिरोज शाह तुगलक के कुष्ठ रोग को ठीक करना।"
+      },
+      "correct_option": "B",
+      "explanation_en": "During his early life, Ramdevji subdued and killed the cruel demon Bhairon (Bherawa), who had terrorized the Pokhran and Runicha region, thereby restoring peace and safety for the locals.",
+      "explanation_hi": "अपने प्रारंभिक जीवन के दौरान, रामदेवजी ने पोखरण और रूणिचा क्षेत्र को आतंकित करने वाले क्रूर राक्षस भैरव (भैरवा) का दमन किया और उसका वध किया, जिससे स्थानीय लोगों के लिए शांति और सुरक्षा बहाल हुई।"
+    },
+    {
+      "question_en": "Folk deities of Rajasthan are often revered as 'Jhohar' (heroes who sacrificed their lives). Which of the following pairs of deities laid down their lives specifically protecting the cows of others?",
+      "question_hi": "राजस्थान के लोक देवताओं को अक्सर \"झुंझार\" (वीर जिन्होंने अपने प्राणों का बलिदान दिया) के रूप में पूजा जाता है। निम्नलिखित में से देवताओं की कौन सी जोड़ी ने विशेष रूप से दूसरों की गायों की रक्षा करते हुए अपने प्राण न्यौछावर किए थे?",
+      "options_en": {
+        "A": "Ramdevji and Hadbuji",
+        "B": "Mehaji Mangaliya and Karni Mata",
+        "C": "Pabuji and Tejaji",
+        "D": "Devnarayanji and Gogaji"
+      },
+      "options_hi": {
+        "A": "रामदेवजी और हड़बूजी",
+        "B": "मेहाजी मांगलिया और करणी माता",
+        "C": "पाबूजी और तेजाजी",
+        "D": "देवनारायणजी और गोगाजी"
+      },
+      "correct_option": "C",
+      "explanation_en": "Pabuji sacrificed his life fighting Jindrav Khichi to protect the cows of Deval Charan. Tejaji sacrificed his life (was bitten by a snake while returning from battle) after rescuing the cows of Lacha Gujari from the Mina tribe. Both are classic cow protectors.",
+      "explanation_hi": "पाबूजी ने देवल चारणी की गायों की रक्षा के लिए जिंदराव खींची से लड़ते हुए अपने प्राणों का बलिदान दिया था। तेजाजी ने लाछा गुजरी की गायों को मीणा जनजाति से बचाने के बाद सर्पदंश के कारण वीरगति प्राप्त की थी। दोनों प्रमुख गौरक्षक देवता हैं।"
+    },
+    {
+      "question_en": "Which of the following folk deities is worshipped by the Gurjar community, who offer leaves of the Neem tree at his shrine due to his historical association with herbal medicine and healing?",
+      "question_hi": "निम्नलिखित में से किस लोक देवता की पूजा गुर्जर समुदाय द्वारा की जाती है, जो उनके मंदिर में नीम के पेड़ की पत्तियाँ चढ़ाते हैं क्योंकि उनका ऐतिहासिक संबंध जड़ी-बूटी चिकित्सा और उपचार से था?",
+      "options_en": {
+        "A": "Tejaji",
+        "B": "Gogaji",
+        "C": "Pabuji",
+        "D": "Devnarayanji"
+      },
+      "options_hi": {
+        "A": "तेजाजी",
+        "B": "गोगाजी",
+        "C": "पाबूजी",
+        "D": "देवनारायणजी"
+      },
+      "correct_option": "D",
+      "explanation_en": "Devnarayanji is regarded as an incarnation of Lord Vishnu and is worshipped by the Gurjar community. He possessed extensive knowledge of Ayurveda, and therefore, Neem leaves are offered at his temples as a symbol of health and healing.",
+      "explanation_hi": "देवनारायणजी को भगवान विष्णु का अवतार माना जाता है और गुर्जर समुदाय द्वारा उनकी पूजा की जाती है। उनके पास आयुर्वेद का व्यापक ज्ञान था, इसलिए उनके मंदिरों में स्वास्थ्य और उपचार के प्रतीक के रूप में नीम की पत्तियां चढ़ाई जाती हैं।"
+    },
+    {
+      "question_en": "What is the name of the faithful white mare of Tejaji, which, according to folk legends, carried the tragic news of his death to his family?",
+      "question_hi": "तेजाजी की उस वफादार सफेद घोड़ी का क्या नाम है, जिसने लोक कथाओं के अनुसार, उनकी मृत्यु का दुखद समाचार उनके परिवार तक पहुँचाया था?",
+      "options_en": {
+        "A": "Kesar Kalmi",
+        "B": "Leelaghar",
+        "C": "Neeli Ghodi",
+        "D": "Lelan"
+      },
+      "options_hi": {
+        "A": "केसर कालमी",
+        "B": "लीलाघर",
+        "C": "नीली घोड़ी",
+        "D": "लीलण"
+      },
+      "correct_option": "D",
+      "explanation_en": "Lelan (also known as Lilan) was the white mare of Tejaji. According to legend, after Tejaji died from a snake bite at Sursura, Lelan carried the news of his death back to his home and his wife Pemal.",
+      "explanation_hi": "लीलण (जिसे लीलन भी कहा जाता है) तेजाजी की सफेद घोड़ी थी। लोककथा के अनुसार, सुरसुरा में सर्पदंश से तेजाजी की मृत्यु के बाद, लीलण ने उनकी मृत्यु का समाचार उनके घर और उनकी पत्नी पेमल तक पहुँचाया था।"
+    },
+    {
+      "question_en": "Consider the following statements about Karni Mata:\n1. She is considered an incarnation of Goddess Hinglaj and her sacred symbol is the kite (Cheel).\n2. Traditional accounts credit her with laying the foundation stones of both Mehrangarh Fort in Jodhpur and Junagarh Fort in Bikaner.\n3. The sacred white rats found inside her temple at Deshnok are local to the Thar desert and are known as 'Sua'.\nWhich of the statements given above is/are correct?",
+      "question_hi": "करणी माता के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उन्हें देवी हिंगलाज का अवतार माना जाता है और उनका पवित्र प्रतीक चील है।\n2. पारंपरिक वृत्तांतों के अनुसार जोधपुर के मेहरानगढ़ किले और बीकानेर के जूनागढ़ किले दोनों की आधारशिला रखने का श्रेय उन्हें दिया जाता है।\n3. देशनोक में उनके मंदिर के भीतर पाए जाने वाले पवित्र सफेद चूहे थार रेगिस्तान के स्थानीय जीव हैं और उन्हें \"काबा\" कहा जाता है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statements 1 and 2 are correct. Karni Mata is considered an incarnation of Goddess Hinglaj, her symbol is the kite (cheel), and she laid the foundation stones of Mehrangarh and Junagarh. Statement 3 is incorrect because the sacred rats at her temple are called 'Kaba', not 'Sua'.",
+      "explanation_hi": "कथन 1 और 2 सही हैं। करणी माता को देवी हिंगलाज का अवतार माना जाता है, उनका प्रतीक चील है, और उन्होंने मेहरानगढ़ तथा जूनागढ़ किलों की आधारशिला रखी थी। कथन 3 गलत है क्योंकि उनके मंदिर के पवित्र चूहों को 'काबा' कहा जाता है, 'सुआ' नहीं।"
+    },
+    {
+      "question_en": "Consider the following statements about Devnarayanji:\n1. He belonged to the Rathore clan of Rajputs and was a contemporary of Pabuji.\n2. His Phad is the oldest and longest scroll-painting of Rajasthan, traditionally sung using the Jantar instrument.\n3. He is widely revered as an incarnation of Lord Vishnu, and his devotees offer Neem leaves at his shrines.\nWhich of the statements given above is/are correct?",
+      "question_hi": "देवनारायणजी के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. वह राजपूतों के राठौड़ वंश से संबंधित थे और पाबूजी के समकालीन थे।\n2. उनकी फड़ राजस्थान की सबसे पुरानी और सबसे लंबी स्क्रॉल-पेंटिंग है, जिसे पारंपरिक रूप से जंतर वाद्ययंत्र का उपयोग करके गाया जाता है।\n3. उन्हें व्यापक रूप से भगवान विष्णु का अवतार माना जाता है, और उनके भक्त उनके मंदिरों में नीम की पत्तियांक चढ़ातें हैं।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because Devnarayanji belonged to the Bagdawat Gurjar clan, not the Rathore clan of Rajputs. Statements 2 and 3 are correct as his Phad is the oldest/longest and is played with Jantar, and he is worshipped as an incarnation of Lord Vishnu with Neem leaves.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि देवनारायणजी राजपूतों के राठौड़ वंश के नहीं, बल्कि बगड़ावत गुर्जर वंश से संबंधित थे। कथन 2 और 3 सही हैं क्योंकि उनकी फड़ सबसे पुरानी/लंबी है और जंतर के साथ गाई जाती है, तथा उन्हें नीम की पत्तियों के साथ विष्णु का अवतार माना जाता है।"
+    },
+    {
+      "question_en": "Consider the following statements about Tejaji:\n1. He was born in Kharnal in Nagaur district in a Jat family, and his vehicle is a white mare named Lelan.\n2. The Parbatsar cattle fair, held in the month of Bhadrapada, is dedicated to him and is one of the largest livestock fairs in Rajasthan.\n3. He is highly revered in the Ajmer region, with major places of worship located at Sursura, Beawar, and Bhaoonta.\nWhich of the statements given above is/are correct?",
+      "question_hi": "तेजाजी के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उनका जन्म नागौर जिले के खड़नाल में एक जाट परिवार में हुआ था, और उनका वाहन लीलण नामक एक सफेद घोड़ी है।\n2. भाद्रपद के महीने में आयोजित होने वाला परबतसर पशु मेला उन्हें समर्पित है और यह राजस्थान के सबसे बड़े पशु मेलों में से एक है।\n3. अजमेर क्षेत्र में उन्हें अत्यधिक पूजा जाता है, उनके मुख्य पूजा स्थल सुरसुरा, ब्यावर और भावंता में स्थित हैं।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1, 2 and 3",
+        "D": "1 only"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "1, 2 और 3",
+        "D": "केवल 1"
+      },
+      "correct_option": "C",
+      "explanation_en": "All three statements are correct. Tejaji was born in Kharnal (Nagaur) to a Jat family. His mare is Lelan. Parbatsar Cattle Fair is dedicated to him. He is highly revered in Ajmer district (Sursura, Beawar, Bhaoonta, etc.).",
+      "explanation_hi": "सभी तीनों कथन सही हैं। तेजाजी का जन्म खड़नाल (नागौर) में जाट परिवार में हुआ था। उनकी घोड़ी लीलण है। परबतसर पशु मेला उन्हें समर्पित है। वे अजमेर जिले (सुरसुरा, ब्यावर, भावंता आदि) में अत्यधिक पूजनीय हैं।"
+    },
+    {
+      "question_en": "Consider the following statements about Mehaji Mangaliya:\n1. His primary shrine is situated at Bapini village in the Jodhpur district.\n2. He is considered one of the 'Panch Pirs' and serves as the chief patron deity of the Rabari camel-herder community.\n3. He was a contemporary of Rao Jodha and lost his life in a battle against Jindrav Khichi of Jayal.\nWhich of the statements given above is/are correct?",
+      "question_hi": "मेहाजी मांगलिया के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. उनका मुख्य मंदिर जोधपुर जिले के बापिणी गाँव में स्थित है।\n2. उन्हें \"पंच पीरों\" में से एक माना जाता है और वे राबड़ी ऊंट पालक समुदाय के मुख्य आराध्य देव के रूप में सेवा करते हैं।\n3. वह राव जोधा के समकालीन थे और जायल के जिंदराव खींची के खिलाफ युद्ध में वीरगति को प्राप्त हुए थे।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1 only"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "केवल 1"
+      },
+      "correct_option": "D",
+      "explanation_en": "Statement 1 is correct. Mehaji's shrine is in Bapini (Jodhpur). Statement 2 is incorrect because Pabuji is the patron deity of Rabaris, not Mehaji. Statement 3 is incorrect because Mehaji was a contemporary of Rao Chunda/Rao Jodha but died fighting against Rao Ranagdev Bhati of Jaisalmer, not Jindrav Khichi (Pabuji fought Jindrav Khichi).",
+      "explanation_hi": "कथन 1 सही है। मेहाजी का मंदिर बापिणी (जोधपुर) में है। कथन 2 गलत है क्योंकि राबड़ियों के आराध्य देव पाबूजी हैं, मेहाजी नहीं। कथन 3 गलत है क्योंकि मेहाजी राव चूंडा/राव जोधा के समकालीन थे और जैसलमेर के राव राणगदेव भाटी के विरुद्ध युद्ध में मारे गए थे, न कि जिंदराव खींची से (पाबूजी ने जिंदराव खींची से युद्ध किया था)।"
+    },
+    {
+      "question_en": "Assertion (A): Pabuji is widely revered by the Rabari community of Rajasthan as their chief patron deity.\nReason (R): Pabuji is credited with bringing the first camels to Rajasthan from Lanka to fulfill his promise to Deval Charan.",
+      "question_hi": "कथन (A): पाबूजी को राजस्थान के राबड़ी समुदाय द्वारा अपने मुख्य आराध्य देव के रूप में व्यापक रूप से पूजा जाता है।\nकारण (R): देवल चारणी को दिए गए वचन को पूरा करने के लिए पाबूजी को श्रीलंका से राजस्थान में पहले ऊंट लाने का श्रेय दिया जाता है।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "A",
+      "explanation_en": "Pabuji brought the first camels to Rajasthan to help Deval Charan, and as a result, the camel-herding Rabari community adopted him as their chief patron deity. Both A and R are true, and R is the correct explanation of A.",
+      "explanation_hi": "पाबूजी ने देवल चारणी की सहायता के लिए राजस्थान में पहले ऊंट लाए थे, जिसके परिणामस्वरूप ऊंट पालक राबड़ी समुदाय ने उन्हें अपना मुख्य आराध्य देव माना। A और R दोनों सही हैं, और R, A की सही व्याख्या है।"
+    },
+    {
+      "question_en": "Assertion (A): The temple of Gogaji at Gogamedi is visited by a large number of both Hindu and Muslim devotees.\nReason (R): Gogaji fought a fierce battle against his cousins Arjan and Surjan over the ownership and protection of cattle.",
+      "question_hi": "कथन (A): गोगामेड़ी स्थित गोगाजी के मंदिर में बड़ी संख्या में हिंदू और मुस्लिम दोनों श्रद्धालु आते हैं।\nकारण (R): गोगाजी ने मवेशियों के स्वामित्व और सुरक्षा को लेकर अपने चचेरे भाइयों अर्जन और सुरजन के खिलाफ भीषण युद्ध लड़ा था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "B",
+      "explanation_en": "Both statements are true. Gogamedi is visited by both Hindus and Muslims, which is due to his syncretic identity and his mosque-shaped shrine. The battle with his cousins Arjan and Surjan is true, but it does not explain why both Hindus and Muslims visit his shrine. Thus, R is not the correct explanation of A.",
+      "explanation_hi": "दोनों कथन सही हैं। गोगामेड़ी में हिंदू और मुस्लिम दोनों आते हैं, जो उनकी मिश्रित पहचान और मस्जिद के आकार के मंदिर के कारण है। उनके चचेरे भाइयों अर्जन और सुरजन के साथ युद्ध की बात भी सही है, लेकिन यह इस बात की व्याख्या नहीं करता कि दोनों धर्मों के लोग उनके मंदिर क्यों आते हैं। अतः R, A की सही व्याख्या नहीं है।"
+    },
+    {
+      "question_en": "Assertion (A): Ramdevji is unique among the folk deities of Rajasthan as he is the only one who also composed a literary work, 'Chobis Bania'.\nReason (R): Ramdevji was a disciple of Guru Gorakhnath and achieved Samadhi at Dadrewa in Churu district.",
+      "question_hi": "कथन (A): रामदेवजी राजस्थान के लोक देवताओं में अद्वितीय हैं क्योंकि वे एकमात्र ऐसे देवता हैं जिन्होंने एक साहित्यिक कृति 'चोबीस बाणियां' की रचना भी की थी।\nकारण (R): रामदेवजी गुरु गोरखनाथ के शिष्य थे और उन्होंने चूरू जिले के ददरेवा में समाधि ली थी।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "C",
+      "explanation_en": "Assertion (A) is true; Ramdevji was a poet and wrote 'Chobis Bania'. Reason (R) is false because Ramdevji was a disciple of Sage Balinath (not Gorakhnath) and took Samadhi at Ramdevra (Runicha) in Jaisalmer district (not Dadrewa, which is Gogaji's birthplace).",
+      "explanation_hi": "कथन (A) सही है; रामदेवजी एक कवि थे और उन्होंने 'चोबीस बाणियां' लिखी थी। कारण (R) गलत है क्योंकि रामदेवजी गुरु बालिनाथ के शिष्य थे (गोरखनाथ के नहीं) और उन्होंने जैसलमेर जिले के रामदेवरा (रूणिचा) में समाधि ली थी (ददरेवा में नहीं, जो गोगाजी का जन्मस्थान है)।"
+    },
+    {
+      "question_en": "Assertion (A): Hadbuji is worshipped by offering green neem leaves and clay horses at his main temple in Bhenswad, Nagaur.\nReason (R): Hadbuji is known for his cart (drawn by an ox), which he used to transport dry fodder for sick and disabled cattle.",
+      "question_hi": "कथन (A): हड़बूजी की पूजा नागौर के भैंसवाड़ में उनके मुख्य मंदिर में हरी नीम की पत्तियां और मिट्टी के घोड़े चढ़ाकर की जाती है।\nकारण (R): हड़बूजी को उनकी गाड़ी (बैल द्वारा खींची जाने वाली) के लिए जाना जाता है, जिसका उपयोग वे बीमार और विकलांग मवेशियों के लिए सूखा चारा लाने के लिए करते थे।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "D",
+      "explanation_en": "Assertion (A) is false because Hadbuji is worshipped at Bengti (Phalodi) where his cart is worshipped; neem leaves are offered to Devnarayanji and clay horses to Ramdevji. Reason (R) is true as Hadbuji's cart was used to carry fodder for sick cattle.",
+      "explanation_hi": "कथन (A) गलत है क्योंकि हड़बूजी की पूजा बेंगटी (फलोदी) में की जाती है जहाँ उनकी गाड़ी की पूजा की जाती है; नीम की पत्तियाँ देवनारायणजी को और मिट्टी के घोड़े रामदेवजी को चढ़ाए जाते हैं। कारण (R) सही है क्योंकि हड़बूजी की गाड़ी का उपयोग बीमार पशुओं के लिए चारा लाने के लिए किया जाता था।"
+    },
+    {
+      "question_en": "Match the following Folk Deities of Rajasthan with their respective Consorts:\n| Column I (Folk Deity) | Column II (Consort) |\n|---|---|\n| 1. Tejaji | a. Pemal |\n| 2. Pabuji | b. Phoolamde |\n| 3. Ramdevji | c. Netalde |\n| 4. Devnarayanji | d. Pipalde |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के निम्नलिखित लोक देवताओं को उनके संबंधित जीवनसाथी (पत्नी) से सुमेलित कीजिए:\n| कॉलम I (लोक देवता) | कॉलम II (जीवनसाथी) |\n|---|---|\n| 1. तेजाजी | a. पेमल |\n| 2. पाबूजी | b. फूलमदे |\n| 3. रामदेवजी | c. नेतलदे |\n| 4. देवनारायणजी | d. पीपलदे |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "A",
+      "explanation_en": "Tejaji's consort was Pemal. Pabuji's consort was Phoolamde (also known as Supiyarade). Ramdevji's consort was Netalde (Nihal De). Devnarayanji's consort was Pipalde. Hence, Option A is the correct match.",
+      "explanation_hi": "तेजाजी की पत्नी पेमल थीं। पाबूजी की पत्नी फूलमदे (जिन्हें सुप्यारदे भी कहा जाता है) थीं। रामदेवजी की पत्नी नेतलदे थीं। देवनारायणजी की पत्नी पीपलदे थीं। अतः विकल्प A सही मिलान है।"
+    },
+    {
+      "question_en": "Match the following Folk Deities with their respective Vahana (Horse/Mare):\n| Column I (Folk Deity) | Column II (Vahana) |\n|---|---|\n| 1. Gogaji | a. Lelan |\n| 2. Tejaji | b. Blue Horse |\n| 3. Devnarayanji | c. Kesar Kalmi |\n| 4. Pabuji | d. Leelaghar |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित लोक देवताओं को उनके संबंधित वाहन (घोड़ा/घोड़ी) से सुमेलित कीजिए:\n| कॉलम I (लोक देवता) | कॉलम II (वाहन) |\n|---|---|\n| 1. गोगाजी | a. लीलण |\n| 2. तेजाजी | b. नीली घोड़ी |\n| 3. देवनारायणजी | c. केसर कालमी |\n| 4. पाबूजी | d. लीलाघर |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "B",
+      "explanation_en": "Gogaji's vahana is the Blue Horse (Neeli Ghodi). Tejaji's mare is Lelan. Devnarayanji's horse is Leelaghar (Lilagar). Pabuji's mare is Kesar Kalmi. This gives the match: 1-b, 2-a, 3-d, 4-c, which corresponds to Option B.",
+      "explanation_hi": "गोगाजी का वाहन नीली घोड़ी है। तेजाजी की घोड़ी लीलण है। देवनारायणजी का घोड़ा लीलाघर है। पाबूजी की घोड़ी केसर कालमी है। इससे मिलान होता है: 1-b, 2-a, 3-d, 4-c, जो विकल्प B के अनुरूप है।"
+    },
+    {
+      "question_en": "Match the following Folk Deities of Rajasthan with their primary birthplaces or shrines:\n| Column I (Folk Deity) | Column II (Birthplace/Shrine) |\n|---|---|\n| 1. Ramdevji | a. Bhenswad (Nagaur) |\n| 2. Hadbuji | b. Undkasmir (Barmer) |\n| 3. Mehaji Mangaliya | c. Kharnal (Nagaur) |\n| 4. Tejaji | d. Bapini (Jodhpur) |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के निम्नलिखित लोक देवताओं को उनके मुख्य जन्मस्थान या मंदिरों से सुमेलित कीजिए:\n| कॉलम I (लोक देवता) | कॉलम II (जन्मस्थान/मंदिर) |\n|---|---|\n| 1. रामदेवजी | a. भैंसवाड़ (नागौर) |\n| 2. हड़बूजी | b. उण्डूकासमेर (बाड़मेर) |\n| 3. मेहाजी मांगलिया | c. खड़नाल (नागौर) |\n| 4. तेजाजी | d. बापिणी (जोधपुर) |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-a, 4-d",
+        "C": "1-b, 2-a, 3-d, 4-c",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-a, 4-d",
+        "C": "1-b, 2-a, 3-d, 4-c",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "C",
+      "explanation_en": "Ramdevji was born in Undkasmir (Barmer). Hadbuji was born in Bhenswad (Nagaur). Mehaji Mangaliya's shrine is in Bapini (Jodhpur). Tejaji was born in Kharnal (Nagaur). Thus, the correct matching is: 1-b, 2-a, 3-d, 4-c, which is Option C.",
+      "explanation_hi": "रामदेवजी का जन्म उण्डूकासमेर (बाड़मेर) में हुआ था। हड़बूजी का जन्म भैंसवाड़ (नागौर) में हुआ था। मेहाजी मांगलिया का मंदिर बापिणी (जोधपुर) में स्थित है। तेजाजी का जन्म खड़नाल (नागौर) में हुआ था। अतः सही मिलान है: 1-b, 2-a, 3-d, 4-c, जो विकल्प C है।"
+    },
+    {
+      "question_en": "Match the following Folk Deities with their respective Fair dates/celebration periods:\n| Column I (Folk Deity) | Column II (Fair Date) |\n|---|---|\n| 1. Gogaji | a. Bhadra Shukla Dashami |\n| 2. Tejaji | b. Bhadra Krishna Navami |\n| 3. Ramdevji | c. Phalguna Purnima |\n| 4. Pabuji | d. Bhadra Shukla Dwitiya to Ekadashi |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित लोक देवताओं को उनके संबंधित मेलों की तिथियों/उत्सव अवधियों से सुमेलित कीजिए:\n| कॉलम I (लोक देवता) | कॉलम II (मेले की तिथि) |\n|---|---|\n| 1. गोगाजी | a. भाद्रपद शुक्ल दशमी |\n| 2. तेजाजी | b. भाद्रपद कृष्ण नवमी |\n| 3. रामदेवजी | c. फाल्गुन पूर्णिमा |\n| 4. पाबूजी | d. भाद्रपद शुक्ल द्वितीया से एकादशी |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-b, 2-a, 3-d, 4-c"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-b, 2-a, 3-d, 4-c"
+      },
+      "correct_option": "D",
+      "explanation_en": "Gogaji's fair is celebrated on Goga Navami (Bhadra Krishna Navami). Tejaji's fair starts on Teja Dashami (Bhadra Shukla Dashami). Ramdevji's fair at Ramdevra runs from Bhadra Shukla Dwitiya to Ekadashi. Pabuji's fair is celebrated on Phalguna Purnima (Holi). This gives: 1-b, 2-a, 3-d, 4-c, which is Option D.",
+      "explanation_hi": "गोगाजी का मेला गोगा नवमी (भाद्रपद कृष्ण नवमी) को मनाया जाता है। तेजाजी का मेला तेजा दशमी (भाद्रपद शुक्ल दशमी) से शुरू होता है। रामदेवजी का मेला भाद्रपद शुक्ल द्वितीया से एकादशी तक चलता है। पाबूजी का मेला फाल्गुन पूर्णिमा (होली) को मनाया जाता है। इससे मिलान होता है: 1-b, 2-a, 3-d, 4-c, जो विकल्प D है।"
+    }
+  ]
+}

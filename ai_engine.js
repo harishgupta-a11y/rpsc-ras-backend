@@ -531,6 +531,100 @@ Do not write any markdown code fences, headers, or conversational text. Return o
     }
 }
 
+/**
+ * Generates flashcards from a batch of MCQs using Gemini.
+ */
+async function generateFlashcardsFromQuestions(questions) {
+    if (!genAI) {
+        // Return mock flashcards if Gemini is not configured
+        return questions.map(q => ({
+            front_text: `Fact check: ${q.question_text.slice(0, 80)}...`,
+            back_text: `Answer: ${q.correct_option}. Explanation: ${q.detailed_explanation.slice(0, 150)}...`
+        }));
+    }
+
+    try {
+        const questionsList = questions.map((q, idx) => `Q${idx+1}: ${q.question_text}\nAnswer: ${q.correct_option}\nExplanation: ${q.detailed_explanation}`).join('\n\n');
+        
+        const prompt = `You are an expert RPSC RAS exam tutor. Summarize the following RPSC RAS exam questions into short, bite-sized revision flashcards. Each flashcard must consist of:
+1. "front_text": A concise, clear question or fact check prompt (max 15 words) in the same language as the original question.
+2. "back_text": A short, direct answer or key fact bullet summary (max 25 words) in the same language as the original question.
+
+Ensure each flashcard corresponds to its question index.
+
+Questions:
+${questionsList}
+
+Respond strictly in a valid JSON array of objects with the keys "front_text" and "back_text" matching this structure:
+[
+  {
+    "front_text": "...",
+    "back_text": "..."
+  }
+]`;
+
+        const result = await genAI.models.generateContent({
+            model: 'gemini-2.0-flash',
+            contents: prompt,
+            config: { responseMimeType: 'application/json' }
+        });
+        
+        return JSON.parse(result.text);
+    } catch (e) {
+        console.error("[AI Engine] Error generating flashcards from questions, falling back:", e.message);
+        return questions.map(q => ({
+            front_text: q.question_text.slice(0, 100) + "?",
+            back_text: `${q.correct_option}: ${q.detailed_explanation.slice(0, 150)}`
+        }));
+    }
+}
+
+
+/**
+ * Automatically enriches plain text notes with memory tricks, exam traps, and Mermaid flowcharts.
+ */
+async function enrichRevisionNotes(rawText, topicName) {
+    if (!genAI) {
+        return rawText; // Return original if Gemini not active
+    }
+
+    try {
+        const prompt = "You are an elite RPSC RAS exam coach. Your task is to take the following plain text study notes for the topic \"" + topicName + "\" and enrich them into our standard master script structure following these rules:\n\n" +
+            "Phase 1: The Content Ingestion Rule\n" +
+            "- Zero Summarization: Never cut out micro-facts, coordinate numbers, historical dates, or committee names from source text.\n" +
+            "- Exhaustive Comparison: Maintain 100% data fidelity. If the source mentions exceptions or local names (e.g., Katra vs. Karda), keep them explicitly mapped.\n\n" +
+            "Phase 2: The Standard Chapter Structure\n" +
+            "Every chapter or sub-topic must follow this high-density layout:\n" +
+            "- Core Concept / Theory Heading (###)\n" +
+            "- Mobile-Optimized Mermaid Flowchart (Using the backtick format to prevent text bugs).\n" +
+            "- Comparative Data Tables (For dimensions, metrics, or state-wise classifications).\n" +
+            "- Pedagogical Callouts:\n" +
+            "  - 🧠 Memory Trick: Acronyms or visual mnemonics for sequential/hard lists.\n" +
+            "  - 🚨 EXAM TRAP: Highlighting RPSC/board-level confusion points.\n\n" +
+            "Phase 3: The App & Export-Safe Mermaid Standard\n" +
+            "To ensure your flowcharts never get cut off on mobile screens or cause double-spacing bugs in your app (uvPrep) or PDF exports, always write your Mermaid blocks using Markdown Strings (double quotes combined with backticks):\n" +
+            "```mermaid\n" +
+            "graph TD\n" +
+            "    A[\"`Parent Concept\\nLine 1 Details`\"] --> B[\"`Child Concept\\nLine 2 Details`\"]\n" +
+            "    B -.->|\"Optional Condition\"| C[\"`Final Output`\"]\n" +
+            "```\n\n" +
+            "Phase 4: Ready-to-Use Boilerplate Template\n" +
+            "Format the following raw notes for my uvPrep app following our standard master script: Retain 100% of the data with zero omissions, build a comparative Markdown table for metrics, create a mobile-optimized Mermaid flowchart using backtick strings, and inject strategic 🧠 Memory Trick and 🚨 EXAM TRAP blocks for high-yield exam points.\n\n" +
+            "Raw study notes:\n" +
+            rawText;
+
+        const result = await genAI.models.generateContent({
+            model: 'gemini-2.0-flash',
+            contents: prompt
+        });
+        
+        return result.text;
+    } catch (e) {
+        console.error("[AI Engine] Note enrichment failed, falling back:", e.message);
+        return rawText;
+    }
+}
+
 module.exports = {
     generateTheoryContent,
     generateMCQBatch,
@@ -539,5 +633,7 @@ module.exports = {
     generateMainsFromNotes,
     splitNotesIntoConcepts,
     translateToHinglish,
-    autoTagMCQBatch
+    autoTagMCQBatch,
+    generateFlashcardsFromQuestions,
+    enrichRevisionNotes
 };

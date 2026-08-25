@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Which of the following statements correctly describes the birthplace and social background of Govind Guru, the founder of the Bhagat Movement?",
+      "question_hi": "भगत आंदोलन के संस्थापक गोविंद गुरु के जन्मस्थान और सामाजिक पृष्ठभूमि का निम्नलिखित में से कौन सा कथन सही वर्णन करता है?",
+      "options_en": {
+        "A": "Born in Devguru village of Banswara, belonging to the nomadic Banjara community.",
+        "B": "Born in Koliyari village of Udaipur, belonging to the Oswal Jain community.",
+        "C": "Born in Kamboi village of Sabarkantha, belonging to the Garasia community.",
+        "D": "Born in Mathasiya village of Rajsamand, belonging to the Bhil community."
+      },
+      "options_hi": {
+        "A": "बांसवाड़ा के देवगुरु गांव में जन्म, बंजारा समुदाय से संबद्ध।",
+        "B": "उदयपुर के कोलियारी गांव में जन्म, ओसवाल जैन समुदाय से संबद्ध।",
+        "C": "साबरकांठा के कम्बोई गांव में जन्म, गरासिया समुदाय से संबद्ध।",
+        "D": "राजसमंद के मथासिया गांव में जन्म, भील समुदाय से संबद्ध।"
+      },
+      "correct_option": "A",
+      "explanation_en": "Govind Guru (or Govind Giri), the founder of the Bhagat Movement, was born in Devguru (Banswara) in 1858. He belonged to the nomadic Banjara (Banjar) community. In contrast, Motilal Tejawat of the Eki Movement was from Koliyari village (Udaipur) and belonged to the Oswal Jain community.",
+      "explanation_hi": "भगत आंदोलन के संस्थापक गोविंद गुरु (या गोविंद गिरी) का जन्म 1858 में देवगुरु (बांसवाड़ा) में हुआ था। वह घुमंतू बंजारा समुदाय से थे। इसके विपरीत, एकी आंदोलन के मोतीलाल तेजावत उदयपुर के कोलियारी गाँव के थे और ओसवाल जैन समुदाय से थे।"
+    },
+    {
+      "question_en": "In which village did the historic mass meeting of March 1921 take place, marking the formal launch of the Eki Movement under the leadership of Motilal Tejawat?",
+      "question_hi": "मार्च 1921 में किस गाँव में ऐतिहासिक जनसभा आयोजित की गई थी, जिसने मोतीलाल तेजावत के नेतृत्व में एकी आंदोलन की औपचारिक शुरुआत को चिह्नित किया था?",
+      "options_en": {
+        "A": "Koliyari",
+        "B": "Mathasiya",
+        "C": "Chaura",
+        "D": "Devguru"
+      },
+      "options_hi": {
+        "A": "कोलियारी",
+        "B": "मथासिया",
+        "C": "चौरा",
+        "D": "देवगुरु"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Eki (Unity) Movement was formally initiated in March 1921 when Motilal Tejawat organized a massive tribal assembly (mass meeting) at Mathasiya village (located in Rajsamand district). Over tens of thousands of tribals gathered to protest against high feudal taxes and forced labour (begar).",
+      "explanation_hi": "एकी (एकता) आंदोलन की औपचारिक शुरुआत मार्च 1921 में हुई थी जब मोतीलाल तेजावत ने मथासिया गाँव (राजसमंद जिले में स्थित) में एक विशाल आदिवासी सभा का आयोजन किया था। सामंती करों और बेगार (जबरन श्रम) के विरोध में हजारों की संख्या में आदिवासी यहाँ एकत्रित हुए थे।"
+    },
+    {
+      "question_en": "Under the provisions of the Criminal Tribes Act of 1924, which segment of the Meena community was legally required to report weekly to the local police stations?",
+      "question_hi": "1924 के क्रिमिनल ट्राइब्स एक्ट (आपराधिक जनजाति अधिनियम) के प्रावधानों के तहत, मीणा समुदाय के किस वर्ग को कानूनी रूप से हर सप्ताह स्थानीय पुलिस थानों में रिपोर्ट करना आवश्यक था?",
+      "options_en": {
+        "A": "All Meena individuals, including women and children.",
+        "B": "Only Meena community leaders and village heads.",
+        "C": "All adult Meena males.",
+        "D": "Only Meenas residing in the princely state of Udaipur."
+      },
+      "options_hi": {
+        "A": "महिलाओं और बच्चों सहित सभी मीणा व्यक्ति।",
+        "B": "केवल मीणा समुदाय के नेता और ग्राम प्रधान।",
+        "C": "सभी वयस्क मीणा पुरुष।",
+        "D": "केवल उदयपुर रियासत में रहने वाले मीणा।"
+      },
+      "correct_option": "C",
+      "explanation_en": "Under the Criminal Tribes Act of 1924, the British administration classified the Meena tribe as a 'Criminal Tribe'. A highly oppressive provision of this act mandated that all adult Meena males had to register and mark their attendance weekly at the nearest police station.",
+      "explanation_hi": "1924 के क्रिमिनल ट्राइब्स एक्ट (आपराधिक जनजाति अधिनियम) के तहत ब्रिटिश प्रशासन ने मीणा जनजाति को 'आपराधिक जनजाति' के रूप में वर्गीकृत किया था। इस अधिनियम के एक अत्यधिक दमनकारी प्रावधान के अनुसार सभी वयस्क मीणा पुरुषों को अपने निकटतम पुलिस स्टेशन में साप्ताहिक रूप से पंजीकरण कराना और अपनी उपस्थिति दर्ज कराना अनिवार्य था।"
+    },
+    {
+      "question_en": "Which military unit, along with British forces, was primarily deployed to open fire on the tribal gathering at Mangarh Hill on 17 November 1913?",
+      "question_hi": "17 नवंबर 1913 को मानगढ़ पहाड़ी पर आदिवासी सभा पर गोलियां चलाने के लिए ब्रिटिश सेना के साथ मुख्य रूप से किस सैन्य इकाई को तैनात किया गया था?",
+      "options_en": {
+        "A": "Mewar Bhil Corps",
+        "B": "Mewar State Infantry",
+        "C": "Merwara Battalion",
+        "D": "Rajputana Rifles"
+      },
+      "options_hi": {
+        "A": "मेवाड़ भील कॉर्प्स",
+        "B": "मेवाड़ स्टेट इन्फैंट्री",
+        "C": "मेरवाड़ा बटालियन",
+        "D": "राजपूताना राइफल्स"
+      },
+      "correct_option": "D",
+      "explanation_en": "During the Mangarh Hill massacre on 17 November 1913, British forces along with the Rajputana Rifles opened fire on a peaceful religious assembly of around 15,000 to 25,000 Bhil tribals gathered under Govind Guru. Over 1,500 Bhils were killed in this tragedy.",
+      "explanation_hi": "17 नवंबर 1913 को मानगढ़ पहाड़ी हत्याकांड के दौरान, ब्रिटिश सेना ने राजपूताना राइफल्स के साथ मिलकर गोविंद गुरु के नेतृत्व में एकत्रित लगभग 15,000 से 25,000 भील आदिवासियों की एक शांतिपूर्ण धार्मिक सभा पर अंधाधुंध गोलीबारी की। इस त्रासदी में 1,500 से अधिक भील मारे गए थे।"
+    },
+    {
+      "question_en": "In which year was the Criminal Tribes Act, which heavily restricted the Meena community in Rajasthan, finally repealed after independence?",
+      "question_hi": "स्वतंत्रता के बाद किस वर्ष राजस्थान में मीणा समुदाय को प्रतिबंधित करने वाले क्रिमिनल ट्राइब्स एक्ट (आपराधिक जनजाति अधिनियम) को अंततः निरस्त किया गया था?",
+      "options_en": {
+        "A": "1952",
+        "B": "1947",
+        "C": "1950",
+        "D": "1956"
+      },
+      "options_hi": {
+        "A": "1952",
+        "B": "1947",
+        "C": "1950",
+        "D": "1956"
+      },
+      "correct_option": "A",
+      "explanation_en": "The Criminal Tribes Act of 1924, which placed severe restrictions on the Meena community by requiring weekly reporting, was finally repealed in the year 1952, following independence and sustained public pressure.",
+      "explanation_hi": "1924 का क्रिमिनल ट्राइब्स एक्ट, जिसने साप्ताहिक रिपोर्टिंग की आवश्यकता के माध्यम से मीणा समुदाय पर कड़े प्रतिबंध लगा दिए थे, स्वतंत्रता और निरंतर सार्वजनिक दबाव के बाद अंततः वर्ष 1952 में निरस्त कर दिया गया था।"
+    },
+    {
+      "question_en": "After his death sentence was commuted to life imprisonment, Govind Guru spent the final years of his life and passed away in 1931 at which of the following places?",
+      "question_hi": "मौत की सजा को उम्रकैद में बदले जाने के बाद, गोविंद गुरु ने अपने जीवन के अंतिम वर्ष कहाँ बिताए और 1931 में उनका निधन किस स्थान पर हुआ?",
+      "options_en": {
+        "A": "Devguru (Banswara)",
+        "B": "Kamboi (Gujarat)",
+        "C": "Mangarh (Dungarpur)",
+        "D": "Koliyari (Udaipur)"
+      },
+      "options_hi": {
+        "A": "देवगुरु (बांसवाड़ा)",
+        "B": "कम्बोई (गुजरात)",
+        "C": "मानगढ़ (डूंगरपुर)",
+        "D": "कोलियारी (उदयपुर)"
+      },
+      "correct_option": "B",
+      "explanation_en": "Govind Guru was arrested after the Mangarh massacre and sentenced to death, which was later commuted to life imprisonment by the Viceroy. After release, he spent his remaining years in Kamboi (Gujarat), where he passed away in 1931.",
+      "explanation_hi": "मानगढ़ हत्याकांड के बाद गोविंद गुरु को गिरफ्तार कर लिया गया था और मौत की सजा सुनाई गई थी, जिसे बाद में वायसराय द्वारा उम्रकैद में बदल दिया गया था। जेल से रिहाई के बाद, उन्होंने अपने जीवन के शेष वर्ष कम्बोई (गुजरात) में बिताए, जहाँ 1931 में उनका निधन हो गया।"
+    },
+    {
+      "question_en": "The Garasia tribe of Sirohi and Udaipur is famous for the 'Valar' dance. Which of the following is a unique characteristic of this dance?",
+      "question_hi": "सिरोही और उदयपुर की गरासिया जनजाति 'वालर' नृत्य के लिए प्रसिद्ध है। निम्नलिखित में से कौन सी इस नृत्य की एक अनूठी विशेषता है?",
+      "options_en": {
+        "A": "It is performed exclusively by male dancers wearing iron rings.",
+        "B": "It is accompanied by the heavy beating of double-headed drums.",
+        "C": "It is performed gracefully without the use of any musical instruments.",
+        "D": "It is enacted only during the early morning hours on full moon nights."
+      },
+      "options_hi": {
+        "A": "यह विशेष रूप से लोहे के कंगन पहने पुरुष नर्तकों द्वारा किया जाता है।",
+        "B": "यह दोमुंहे ढोल (मृदंग) की भारी थाप के साथ किया जाता है।",
+        "C": "यह बिना किसी वाद्य यंत्र के अत्यंत शालीनता से किया जाता है।",
+        "D": "यह केवल पूर्णिमा की रातों में तड़के सुबह किया जाता है।"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Valar dance is a unique tribal dance of the Garasia tribe residing in Sirohi, Udaipur, and Rajsamand. The most notable characteristic of the Valar dance is that it is performed in a semi-circular formation without the accompaniment of any musical instruments.",
+      "explanation_hi": "वालर नृत्य सिरोही, उदयपुर और राजसमंद में रहने वाली गरासिया जनजाति का एक अनूठा आदिवासी नृत्य है। वालर नृत्य की सबसे उल्लेखनीय विशेषता यह है कि यह बिना किसी वाद्य यंत्र के अर्द्धवृत्ताकार घेरे में किया जाता है।"
+    },
+    {
+      "question_en": "Sant Mavji, revered as a prophetic figure who started a reformist religious movement among the Bhils, primarily operated in which sub-region of Rajasthan?",
+      "question_hi": "भीलों के बीच सुधारवादी धार्मिक आंदोलन शुरू करने वाले और एक पैगंबर के रूप में पूजे जाने वाले संत मावजी मुख्य रूप से राजस्थान के किस उप-क्षेत्र में सक्रिय थे?",
+      "options_en": {
+        "A": "Shekhawati",
+        "B": "Hadoti",
+        "C": "Mewat",
+        "D": "Vagad"
+      },
+      "options_hi": {
+        "A": "शेखावाटी",
+        "B": "हाड़ौती",
+        "C": "मेवात",
+        "D": "वागड़"
+      },
+      "correct_option": "D",
+      "explanation_en": "Sant Mavji was a prominent social reformer and prophet figure of the Vagad region (comprising Dungarpur and Banswara). He initiated a religious reform movement among the Bhils to eliminate social evils and superstitions.",
+      "explanation_hi": "संत मावजी वागड़ क्षेत्र (जिसमें डूंगरपुर और बांसवाड़ा शामिल हैं) के एक प्रमुख समाज सुधारक और पैगंबर थे। उन्होंने सामाजिक बुराइयों और अंधविश्वासों को दूर करने के लिए भीलों के बीच एक धार्मिक सुधार आंदोलन शुरू किया था।"
+    },
+    {
+      "question_en": "Who among the following is widely known as the 'Gandhi of Mewar' and referred to as 'Banna' by the tribal communities during the Eki Movement?",
+      "question_hi": "निम्नलिखित में से किसे 'मेवाड़ का गांधी' कहा जाता है और एकी आंदोलन के दौरान आदिवासी समुदायों द्वारा उन्हें 'बन्ना' कहकर संबोधित किया जाता था?",
+      "options_en": {
+        "A": "Motilal Tejawat",
+        "B": "Govind Guru",
+        "C": "Bhim Singh",
+        "D": "Sant Mavji"
+      },
+      "options_hi": {
+        "A": "मोतीलाल तेजावत",
+        "B": "गोविंद गुरु",
+        "C": "भीम सिंह",
+        "D": "संत मावजी"
+      },
+      "correct_option": "A",
+      "explanation_en": "Motilal Tejawat, who belonged to the Oswal Jain family of Koliyari village, Udaipur, is fondly referred to as 'Banna' (meaning beloved) by the tribals. Because of his Gandhian style of peaceful resistance against feudalism, he is also known as the 'Gandhi of Mewar'.",
+      "explanation_hi": "उदयपुर के कोलियारी गाँव के ओसवाल जैन परिवार से ताल्लुक रखने वाले मोतीलाल तेजावत को आदिवासी प्यार से 'बन्ना' (अर्थात प्रिय) कहते हैं। सामंतवाद के खिलाफ शांतिपूर्ण प्रतिरोध की गांधीवादी शैली के कारण उन्हें 'मेवाड़ का गांधी' भी कहा जाता है।"
+    },
+    {
+      "question_en": "On which exact date did the infamous Chaura Massacre occur, where Mewar State forces and a British political officer opened fire on a tribal gathering during the Eki Movement?",
+      "question_hi": "कुख्यात चौरा हत्याकांड किस तिथि को हुआ था, जिसमें मेवाड़ राज्य की सेना और ब्रिटिश राजनीतिक अधिकारी ने एकी आंदोलन के दौरान आदिवासियों की सभा पर गोलियां चलाई थीं?",
+      "options_en": {
+        "A": "17 November 1913",
+        "B": "7 May 1922",
+        "C": "10 March 1921",
+        "D": "15 August 1929"
+      },
+      "options_hi": {
+        "A": "17 नवंबर 1913",
+        "B": "7 मई 1922",
+        "C": "10 मार्च 1921",
+        "D": "15 अगस्त 1929"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Chaura Massacre occurred on 7 May 1922 during the Eki Movement. Mewar State forces and a British political officer opened fire on a peaceful gathering of tribals in the Sirohi/Mathasiya region, resulting in the death of approximately 1,200 tribals.",
+      "explanation_hi": "चौरा हत्याकांड एकी आंदोलन के दौरान 7 मई 1922 को हुआ था। मेवाड़ राज्य की सेना और एक ब्रिटिश राजनीतिक अधिकारी ने सिरोही/मथासिया क्षेत्र में आदिवासियों की एक शांतिपूर्ण सभा पर गोलियां चलाईं, जिससे लगभग 1,200 आदिवासियों की मौत हो गई थी।"
+    },
+    {
+      "question_en": "The Damor tribe in Rajasthan is predominantly concentrated in which of the following districts?",
+      "question_hi": "राजस्थान में डामोर जनजाति मुख्य रूप से निम्नलिखित में से किस जिले में केंद्रित है?",
+      "options_en": {
+        "A": "Baran",
+        "B": "Sirohi",
+        "C": "Dungarpur",
+        "D": "Jaipur"
+      },
+      "options_hi": {
+        "A": "बारां",
+        "B": "सिरोही",
+        "C": "डूंगरपुर",
+        "D": "जयपुर"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Damor tribe in Rajasthan is primarily concentrated in the Dungarpur district.",
+      "explanation_hi": "राजस्थान में डामोर जनजाति मुख्य रूप से डूंगरपुर जिले में केंद्रित है।"
+    },
+    {
+      "question_en": "Which of the following tribal communities of Rajasthan is uniquely concentrated in the Baran district and holds a distinct status among the state's tribal groups?",
+      "question_hi": "राजस्थान का कौन सा आदिवासी समुदाय विशिष्ट रूप से बारां जिले में केंद्रित है और राज्य के जनजातीय समूहों में एक अनूठा स्थान रखता है?",
+      "options_en": {
+        "A": "Kathodia",
+        "B": "Garasia",
+        "C": "Damor",
+        "D": "Saharia"
+      },
+      "options_hi": {
+        "A": "कथौड़ी",
+        "B": "गरासिया",
+        "C": "डामोर",
+        "D": "सहारिया"
+      },
+      "correct_option": "D",
+      "explanation_en": "The Saharia tribe is uniquely concentrated in the Baran district of Rajasthan. It is recognized as a particularly vulnerable tribal group and is the only Scheduled Tribe in Baran.",
+      "explanation_hi": "सहारिया जनजाति मुख्य रूप से राजस्थान के बारां जिले में केंद्रित है। इसे विशेष रूप से कमजोर जनजातीय समूह के रूप में मान्यता प्राप्त है और यह बारां की एकमात्र अनुसूचित जनजाति है।"
+    },
+    {
+      "question_en": "Which of the following was NOT among the core demands raised by the tribals during the Eki Movement under Motilal Tejawat?",
+      "question_hi": "मोतीलाल तेजावत के नेतृत्व में एकी आंदोलन के दौरान आदिवासियों द्वारा उठाई गई प्रमुख मांगों में निम्नलिखित में से कौन सी शामिल नहीं थी?",
+      "options_en": {
+        "A": "Abolition of unpaid forced labour (Begar)",
+        "B": "Reduction of excessive feudal taxes and levies",
+        "C": "Recognition of traditional forest rights for fuel and fodder",
+        "D": "Complete independence from the British Empire and establishing a sovereign Bhil state"
+      },
+      "options_hi": {
+        "A": "बिना वेतन के जबरन श्रम (बेगार) का उन्मूलन",
+        "B": "अत्यधिक सामंती करों और शुल्कों में कटौती",
+        "C": "ईंधन और चारे के लिए पारंपरिक वन अधिकारों को मान्यता",
+        "D": "ब्रिटिश साम्राज्य से पूर्ण स्वतंत्रता और एक संप्रभु भील राज्य की स्थापना"
+      },
+      "correct_option": "D",
+      "explanation_en": "The Eki Movement focused on socio-economic grievances: abolition of begar (forced unpaid labour), reduction of excessive feudal taxes and levies, and restoration of traditional forest rights. It did not demand complete independence from the British Empire or the creation of a sovereign tribal state.",
+      "explanation_hi": "एकी आंदोलन का ध्यान सामाजिक और आर्थिक शिकायतों पर केंद्रित था: बेगार (जबरन बिना वेतन का श्रम) का उन्मूलन, अत्यधिक सामंती करों और शुल्कों में कटौती, और पारंपरिक वन अधिकारों की बहाली। इसने ब्रिटिश साम्राज्य से पूर्ण स्वतंत्रता या एक संप्रभु आदिवासी राज्य के गठन की मांग नहीं की थी।"
+    },
+    {
+      "question_en": "Consider the following statements about the Bhagat Movement and Samp Sabha:\n1. The Samp Sabha was founded by Govind Guru in 1883 to promote unity and social reforms among the Bhils.\n2. Govind Guru belonged to the Oswal Jain community of Udaipur, which helped him mobilize traders.\n3. The historic Mangarh Hill massacre occurred in the year 1921, directly coinciding with the Non-Cooperation Movement.\nWhich of the statements given above is/are correct?",
+      "question_hi": "भगत आंदोलन और संप सभा के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. भीलों के बीच एकता और सामाजिक सुधारों को बढ़ावा देने के लिए गोविंद गुरु द्वारा 1883 में संप सभा की स्थापना की गई थी।\n2. गोविंद गुरु उदयपुर के ओसवाल जैन समुदाय से थे, जिससे उन्हें व्यापारियों को संगठित करने में मदद मिली।\n3. ऐतिहासिक मानगढ़ पहाड़ी हत्याकांड वर्ष 1921 में हुआ था, जो सीधे तौर पर असहयोग आंदोलन के समानांतर था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 1 और 2",
+        "C": "केवल 2 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct: The Samp Sabha was founded by Govind Guru in 1883 to promote unity and social reforms among the Bhils. Statement 2 is incorrect: Govind Guru belonged to the nomadic Banjara community, not the Oswal Jain community (which was Motilal Tejawat's background). Statement 3 is incorrect: The Mangarh Hill massacre occurred on 17 November 1913, not in 1921.",
+      "explanation_hi": "कथन 1 सही है: भीलों के बीच एकता और सामाजिक सुधारों को बढ़ावा देने के लिए गोविंद गुरु द्वारा 1883 में संप सभा की स्थापना की गई थी। कथन 2 गलत है: गोविंद गुरु घुमंतू बंजारा समुदाय से थे, न कि ओसवाल जैन समुदाय से (जो मोतीलाल तेजावत की पृष्ठभूमि थी)। कथन 3 गलत है: मानगढ़ पहाड़ी हत्याकांड 17 नवंबर 1913 को हुआ था, न कि 1921 में।"
+    },
+    {
+      "question_en": "Consider the following statements about the Eki Movement:\n1. The movement was organized by Motilal Tejawat to protest against unpaid forced labour (begar) and oppressive taxes.\n2. The movement was initiated with a massive tribal assembly at Mathasiya village in March 1921.\n3. During this movement, the tragic Chaura massacre took place on 17 November 1913, where over 1,200 tribals lost their lives.\nWhich of the statements given above is/are correct?",
+      "question_hi": "एकी आंदोलन के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह आंदोलन मोतीलाल तेजावत द्वारा बेगार (बिना वेतन के जबरन श्रम) और दमनकारी करों के विरोध में आयोजित किया गया था।\n2. इस आंदोलन की शुरुआत मार्च 1921 में मथासिया गाँव में एक विशाल आदिवासी सभा के साथ हुई थी।\n3. इस आंदोलन के दौरान 17 नवंबर 1913 को कुख्यात चौरा हत्याकांड हुआ था, जिसमें 1,200 से अधिक आदिवासियों की जान चली गई थी।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 3 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 3",
+        "B": "केवल 1 और 2",
+        "C": "केवल 2 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is correct: The Eki Movement under Motilal Tejawat aimed to protest against unpaid forced labour (begar) and excessive feudal taxes. Statement 2 is correct: It started with a mass tribal meeting at Mathasiya village in March 1921. Statement 3 is incorrect: The Chaura massacre occurred during the Eki Movement on 7 May 1922, not on 17 November 1913 (which was the date of the Mangarh Hill massacre).",
+      "explanation_hi": "कथन 1 सही है: मोतीलाल तेजावत के नेतृत्व में एकी आंदोलन का उद्देश्य बेगार (जबरन बिना वेतन का श्रम) और अत्यधिक सामंती करों के खिलाफ विरोध करना था। कथन 2 सही है: इसकी शुरुआत मार्च 1921 में मथासिया गाँव में एक विशाल आदिवासी सभा के साथ हुई थी। कथन 3 गलत है: चौरा हत्याकांड एकी आंदोलन के दौरान 7 मई 1922 को हुआ था, न कि 17 नवंबर 1913 को (जो मानगढ़ पहाड़ी हत्याकांड की तिथि थी)।"
+    },
+    {
+      "question_en": "Consider the following statements about the Meena Movement and related legislation:\n1. The Criminal Tribes Act was first introduced in 1883 to suppress the religious gathering of the Samp Sabha.\n2. The Criminal Tribes Act of 1924 mandated that all adult Meena males must register and report weekly to the police.\n3. Following sustained tribal agitation and post-independence reforms, the Criminal Tribes Act was repealed in 1952.\nWhich of the statements given above is/are correct?",
+      "question_hi": "मीणा आंदोलन और संबंधित विधानों के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. संप सभा के धार्मिक जमावड़े को दबाने के लिए सबसे पहले 1883 में क्रिमिनल ट्राइब्स एक्ट लागू किया गया था।\n2. 1924 के क्रिमिनल ट्राइब्स एक्ट ने यह अनिवार्य कर दिया कि सभी मीणा पुरुषों को पंजीकरण कराना होगा और हर सप्ताह पुलिस के सामने रिपोर्ट करनी होगी।\n3. निरंतर आदिवासी आंदोलनों और स्वतंत्रता के बाद के सुधारों के परिणामस्वरूप, क्रिमिनल ट्राइब्स एक्ट को 1952 में निरस्त कर दिया गया था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 1 और 3",
+        "C": "केवल 2 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "C",
+      "explanation_en": "Statement 1 is incorrect: The Criminal Tribes Act was enacted in 1924, not 1883. Statement 2 is correct: Under this act, all adult Meena males had to register and report weekly to the local police stations. Statement 3 is correct: The act was officially repealed in 1952 after independence.",
+      "explanation_hi": "कथन 1 गलत है: क्रिमिनल ट्राइब्स एक्ट 1924 में लागू किया गया था, न कि 1883 में। कथन 2 सही है: इस अधिनियम के तहत, सभी वयस्क मीणा पुरुषों को पंजीकरण कराना और स्थानीय पुलिस स्टेशनों में साप्ताहिक रूप से उपस्थिति दर्ज कराना अनिवार्य था। कथन 3 सही है: स्वतंत्रता के बाद 1952 में इस अधिनियम को आधिकारिक रूप से निरस्त कर दिया गया था।"
+    },
+    {
+      "question_en": "Consider the following statements regarding Mangarh Hill and the Bhagat Movement:\n1. The Bhagat Sampraday was established by Govind Guru to advocate for vegetarianism, abstinence from alcohol, and the eradication of forced labour among the Bhils.\n2. The Mangarh Hill massacre, which occurred on 17 November 1913, resulted in the death of approximately 1,500 Bhils and is known as the Adivasi Jallianwala Bagh.\n3. The Mangarh Dham was declared a National Memorial in the year 2022 by Prime Minister Narendra Modi during a joint event with multiple state Chief Ministers.\nWhich of the statements given above is/are correct?",
+      "question_hi": "मानगढ़ पहाड़ी और भगत आंदोलन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. भीलों के बीच शाकाहार, मद्यपान से परहेज और जबरन श्रम (बेगार) के उन्मूलन की वकालत करने के लिए गोविंद गुरु द्वारा भगत संप्रदाय की स्थापना की गई थी।\n2. 17 नवंबर 1913 को हुए मानगढ़ पहाड़ी हत्याकांड में लगभग 1,500 भील मारे गए थे और इसे 'आदिवासी जलियांवाला बाग' के रूप में जाना जाता है।\n3. वर्ष 2022 में प्रधानमंत्री नरेंद्र मोदी द्वारा कई राज्यों के मुख्यमंत्रियों के साथ एक संयुक्त कार्यक्रम के दौरान मानगढ़ धाम को राष्ट्रीय स्मारक घोषित किया गया था।\nउपर्युक्त कथनों में से कौन-सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 1 और 2",
+        "C": "केवल 2 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Statement 1 is correct: The Bhagat Sampraday was established by Govind Guru to reform Bhil society by advocating vegetarianism, de-addiction from alcohol, and stopping begar. Statement 2 is correct: On 17 November 1913, British forces fired on a Bhil gathering at Mangarh Hill, killing around 1,500 Bhils. Statement 3 is correct: Mangarh Dham was declared a National Memorial in 2022 by Prime Minister Narendra Modi.",
+      "explanation_hi": "कथन 1 सही है: गोविंद गुरु द्वारा भील समाज में सुधार के लिए शाकाहार, मद्यपान से परहेज और बेगार बंद करने की वकालत करते हुए भगत संप्रदाय की स्थापना की गई थी। कथन 2 सही है: 17 नवंबर 1913 को मानगढ़ पहाड़ी पर ब्रिटिश सेना ने भीलों की सभा पर गोलियां चलाईं, जिसमें लगभग 1,500 भील मारे गए। कथन 3 सही है: 2022 में प्रधानमंत्री नरेंद्र मोदी द्वारा मानगढ़ धाम को राष्ट्रीय स्मारक घोषित किया गया था।"
+    },
+    {
+      "question_en": "Assertion (A): The Eki Movement led by Motilal Tejawat is also referred to as the Unity Movement.\nReason (R): The primary objective of the movement was to forge solidarity and unity among the tribal communities to resist feudal exploitation and taxes.",
+      "question_hi": "कथन (A): मोतीलाल तेजावत के नेतृत्व में चलाए गए एकी आंदोलन को 'एकता आंदोलन' भी कहा जाता है।\nकारण (R): इस आंदोलन का मुख्य उद्देश्य आदिवासियों के बीच सुदृढ़ एकजुटता और एकता स्थापित करना था ताकि वे सामंती शोषण और करों का विरोध कर सकें।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "A",
+      "explanation_en": "Both Assertion and Reason are true, and the Reason is the correct explanation. The Eki Movement is known as the Unity Movement ('Eki' translates to unity) because its main goal was to build strong solidarity and unity among the Bhil and Garasia tribes to jointly oppose feudal exploitation and forced labour.",
+      "explanation_hi": "कथन और कारण दोनों सही हैं, और कारण कथन की सही व्याख्या है। एकी आंदोलन को एकता आंदोलन के रूप में जाना जाता है ('एकी' का अर्थ एकता है) क्योंकि इसका मुख्य उद्देश्य सामंती शोषण और बेगार का संयुक्त रूप से विरोध करने के लिए भील और गरासिया जनजातियों के बीच सुदृढ़ एकजुटता और एकता का निर्माण करना था।"
+    },
+    {
+      "question_en": "Assertion (A): The Mangarh Hill massacre of November 1913 is historically referred to as the 'Adivasi Jallianwala Bagh'.\nReason (R): Govind Guru established the Samp Sabha in 1883 to promote social reforms such as vegetarianism and abstinence from alcohol among the Bhil tribe.",
+      "question_hi": "कथन (A): नवंबर 1913 के मानगढ़ पहाड़ी हत्याकांड को ऐतिहासिक रूप से 'आदिवासी जलियांवाला बाग' कहा जाता है।\nकारण (R): गोविंद गुरु ने भील जनजाति के बीच शाकाहार और मद्यपान से परहेज जैसे सामाजिक सुधारों को बढ़ावा देने के लिए 1883 में संप सभा की स्थापना की थी।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "B",
+      "explanation_en": "Both Assertion and Reason are true, but the Reason is not the correct explanation. The Mangarh massacre is called the 'Adivasi Jallianwala Bagh' because of the brutal and indiscriminate firing by British-led forces on peaceful tribals, mirroring the Jallianwala Bagh incident. The establishment of Samp Sabha by Govind Guru in 1883 is a correct fact but does not explain why the massacre is compared to Jallianwala Bagh.",
+      "explanation_hi": "कथन और कारण दोनों सही हैं, लेकिन कारण सही व्याख्या नहीं है। मानगढ़ हत्याकांड को जलियांवाला बाग जैसी ही बर्बरता और शांतिपूर्ण आदिवासियों पर ब्रिटिश नेतृत्व वाली सेना द्वारा की गई अंधाधुंध गोलीबारी के कारण 'आदिवासी जलियांवाला बाग' कहा जाता है। 1883 में गोविंद गुरु द्वारा संप सभा की स्थापना एक सही तथ्य है लेकिन यह व्याख्या नहीं करता कि इस हत्याकांड की तुलना जलियांवाला बाग से क्यों की जाती है।"
+    },
+    {
+      "question_en": "Assertion (A): Motilal Tejawat managed to escape into the forests after Mewar State forces fired on the tribal gathering at Chaura on 7 May 1922.\nReason (R): Following his escape, Motilal Tejawat continued his armed rebellion from the forests and never surrendered to the state authorities.",
+      "question_hi": "कथन (A): 7 मई 1922 को चौरा में आदिवासी सभा पर मेवाड़ राज्य की सेना द्वारा की गई गोलीबारी के बाद मोतीलाल तेजावत जंगलों में भागने में सफल रहे।\nकारण (R): अपने पलायन के बाद, मोतीलाल तेजावत ने जंगलों से अपना सशस्त्र विद्रोह जारी रखा और राज्य के अधिकारियों के सामने कभी आत्मसमर्पण नहीं किया।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Assertion is true, but the Reason is false. After the Chaura Massacre on 7 May 1922, Motilal Tejawat successfully escaped into the forests and continued the movement. However, he eventually surrendered to the state authorities in the year 1929, making the Reason false.",
+      "explanation_hi": "कथन सही है, लेकिन कारण गलत है। 7 मई 1922 को चौरा हत्याकांड के बाद, मोतीलाल तेजावत जंगलों में भागने में सफल रहे और आंदोलन जारी रखा। हालाँकि, उन्होंने अंततः वर्ष 1929 में राज्य के अधिकारियों के सामने आत्मसमर्पण कर दिया, जिससे कारण गलत हो जाता है।"
+    },
+    {
+      "question_en": "Assertion (A): The Criminal Tribes Act of 1924 was enacted by the British administration specifically to target the Garasia tribe of Sirohi.\nReason (R): Under the Criminal Tribes Act of 1924, Meena males were legally mandated to report weekly to their local police stations.",
+      "question_hi": "कथन (A): ब्रिटिश प्रशासन द्वारा 1924 का क्रिमिनल ट्राइब्स एक्ट विशेष रूप से सिरोही की गरासिया जनजाति को लक्षित करने के लिए लागू किया गया था।\nकारण (R): 1924 के क्रिमिनल ट्राइब्स एक्ट के तहत, मीणा पुरुषों के लिए अपने स्थानीय पुलिस थानों में हर हफ्ते रिपोर्ट करना कानूनी रूप से अनिवार्य था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "D",
+      "explanation_en": "The Assertion is false, but the Reason is true. The Criminal Tribes Act of 1924 targeted the Meena tribe of Rajasthan, not the Garasia tribe of Sirohi. Under this act, Meena males were required to report weekly to the local police station, making the Reason true.",
+      "explanation_hi": "कथन गलत है, लेकिन कारण सही है। 1924 का क्रिमिनल ट्राइब्स एक्ट राजस्थान की मीणा जनजाति को लक्षित करने के लिए लागू किया गया था, न कि सिरोही की गरासिया जनजाति को। इस अधिनियम के तहत, मीणा पुरुषों को हर सप्ताह स्थानीय पुलिस स्टेशन में रिपोर्ट करना आवश्यक था, जिससे कारण सही हो जाता है।"
+    },
+    {
+      "question_en": "Match the following leaders/reformer figures of tribal movements with their associated organizations or sub-regions:\n| Column I (Leader) | Column II (Association) |\n|---|---|\n| 1. Motilal Tejawat | a. Vagad Movement |\n| 2. Govind Guru | b. Meena Seva Sangh |\n| 3. Sant Mavji | c. Eki Movement |\n| 4. Maharaj Bhim Singh | d. Samp Sabha |\nSelect the correct answer using the codes given below:",
+      "question_hi": "आदिवासी आंदोलनों के निम्नलिखित नेताओं/सुधारकों को उनके संबद्ध संगठनों या उप-क्षेत्रों से सुमेलित कीजिए:\n| कॉलम I (नेता) | कॉलम II (संबद्धता) |\n|---|---|\n| 1. मोतीलाल तेजावत | a. वागड़ आंदोलन |\n| 2. गोविंद गुरु | b. मीणा सेवा संघ |\n| 3. संत मावजी | c. एकी आंदोलन |\n| 4. महाराज भीम सिंह | d. संप सभा |\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-c, 2-d, 3-a, 4-b",
+        "B": "1-d, 2-c, 3-b, 4-a",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-a, 2-d, 3-c, 4-b"
+      },
+      "options_hi": {
+        "A": "1-c, 2-d, 3-a, 4-b",
+        "B": "1-d, 2-c, 3-b, 4-a",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-a, 2-d, 3-c, 4-b"
+      },
+      "correct_option": "A",
+      "explanation_en": "Motilal Tejawat is associated with the Eki Movement; Govind Guru established the Samp Sabha in 1883; Sant Mavji initiated the Vagad reform movement among Bhils; and Maharaj Bhim Singh was a leader of the Meena Seva Sangh.",
+      "explanation_hi": "मोतीलाल तेजावत एकी आंदोलन से जुड़े हैं; गोविंद गुरु ने 1883 में संप सभा की स्थापना की; संत मावजी ने भीलों के बीच वागड़ सुधार आंदोलन शुरू किया; और महाराज भीम सिंह मीणा सेवा संघ के नेता थे।"
+    },
+    {
+      "question_en": "Match the tribal communities of Rajasthan with their primary districts/regions of concentration:\n| Column I (Tribe) | Column II (Primary District/Region) |\n|---|---|\n| 1. Saharia | a. Dungarpur |\n| 2. Garasia | b. Baran |\n| 3. Damor | c. Banswara & Udaipur |\n| 4. Bhil | d. Sirohi |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के आदिवासी समुदायों को उनके संकेंद्रीयण वाले प्राथमिक जिलों/क्षेत्रों से सुमेलित कीजिए:\n| कॉलम I (जनजाति) | कॉलम II (प्राथमिक जिला/क्षेत्र) |\n|---|---|\n| 1. सहारिया | a. डूंगरपुर |\n| 2. गरासिया | b. बारां |\n| 3. डामोर | c. बांसवाड़ा और उदयपुर |\n| 4. भील | d. सिरोही |\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-b, 2-a, 3-d, 4-c",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-d, 2-b, 3-a, 4-c",
+        "D": "1-a, 2-d, 3-c, 4-b"
+      },
+      "options_hi": {
+        "A": "1-b, 2-a, 3-d, 4-c",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-d, 2-b, 3-a, 4-c",
+        "D": "1-a, 2-d, 3-c, 4-b"
+      },
+      "correct_option": "B",
+      "explanation_en": "According to the tribal distribution in Rajasthan, the Saharia tribe is concentrated in Baran, the Garasia tribe is concentrated in Sirohi, the Damor tribe is in Dungarpur, and the Bhil tribe is concentrated in Banswara and Udaipur.",
+      "explanation_hi": "राजस्थान में जनजातीय वितरण के अनुसार, सहारिया जनजाति बारां में केंद्रित है, गरासिया जनजाति सिरोही में, डामोर जनजाति डूंगरपुर में और भील जनजाति बांसवाड़ा और उदयपुर में केंद्रित है।"
+    },
+    {
+      "question_en": "Match the key events of the tribal movements in Rajasthan with their corresponding years or exact dates:\n| Column I (Event) | Column II (Year / Date) |\n|---|---|\n| 1. Foundation of Samp Sabha | a. 17 November 1913 |\n| 2. Mangarh Hill Massacre | b. 7 May 1922 |\n| 3. Launch of Eki Movement | c. 1883 |\n| 4. Occurrence of Chaura Massacre | d. March 1921 |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान में आदिवासी आंदोलनों की प्रमुख घटनाओं को उनके संबंधित वर्षों या सटीक तिथियों से सुमेलित कीजिए:\n| कॉलम I (घटना) | कॉलम II (वर्ष / तिथि) |\n|---|---|\n| 1. संप सभा की स्थापना | a. 17 नवंबर 1913 |\n| 2. मानगढ़ पहाड़ी हत्याकांड | b. 7 मई 1922 |\n| 3. एकी आंदोलन की शुरुआत | c. 1883 |\n| 4. चौरा हत्याकांड का होना | d. मार्च 1921 |\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-c, 2-d, 3-a, 4-b",
+        "B": "1-a, 2-c, 3-d, 4-b",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-d, 2-a, 3-b, 4-c"
+      },
+      "options_hi": {
+        "A": "1-c, 2-d, 3-a, 4-b",
+        "B": "1-a, 2-c, 3-d, 4-b",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-d, 2-a, 3-b, 4-c"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Samp Sabha was founded in 1883; the Mangarh Hill massacre occurred on 17 November 1913; the Eki Movement was launched in March 1921; and the Chaura massacre took place on 7 May 1922.",
+      "explanation_hi": "संप सभा की स्थापना 1883 में हुई थी; मानगढ़ पहाड़ी हत्याकांड 17 नवंबर 1913 को हुआ था; एकी आंदोलन की शुरुआत मार्च 1921 में हुई थी; और चौरा हत्याकांड 7 मई 1922 को हुआ था।"
+    },
+    {
+      "question_en": "Match the tribal leaders/reformers of Rajasthan with their primary birthplaces or main centers of initial activity:\n| Column I (Leader) | Column II (Birthplace / Activity Center) |\n|---|---|\n| 1. Motilal Tejawat | a. Devguru (Banswara) |\n| 2. Govind Guru | b. Koliyari (Udaipur) |\n| 3. Sant Mavji | c. Jaipur |\n| 4. Maharaj Bhim Singh | d. Vagad (Dungarpur/Banswara) |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के आदिवासी नेताओं/सुधारकों को उनके प्राथमिक जन्मस्थानों या प्रारंभिक गतिविधि के मुख्य केंद्रों से सुमेलित कीजिए:\n| कॉलम I (नेता) | कॉलम II (जन्मस्थान / गतिविधि केंद्र) |\n|---|---|\n| 1. मोतीलाल तेजावत | a. देवगुरु (बांसवाड़ा) |\n| 2. गोविंद गुरु | b. कोलियारी (उदयपुर) |\n| 3. संत मावजी | c. जयपुर |\n| 4. महाराज भीम सिंह | d. वागड़ (डूंगरपुर/बांसवाड़ा) |\nनीचे दिए गए कूट का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-d, 4-c",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-b, 2-a, 3-d, 4-c"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-d, 4-c",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-b, 2-a, 3-d, 4-c"
+      },
+      "correct_option": "D",
+      "explanation_en": "Motilal Tejawat was born in Koliyari village, Udaipur; Govind Guru was born in Devguru, Banswara; Sant Mavji operated in Vagad (Dungarpur/Banswara); and Maharaj Bhim Singh operated in Jaipur during the Meena Movement.",
+      "explanation_hi": "मोतीलाल तेजावत का जन्म कोलियारी गाँव, उदयपुर में हुआ था; गोविंद गुरु का जन्म देवगुरु, बांसवाड़ा में हुआ था; संत मावजी ने वागड़ (डूंगरपुर/बांसवाड़ा) में कार्य किया; और महाराज भीम सिंह ने मीणा आंदोलन के दौरान जयपुर में कार्य किया।"
+    }
+  ]
+}

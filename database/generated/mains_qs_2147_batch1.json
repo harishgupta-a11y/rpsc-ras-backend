@@ -1,0 +1,124 @@
+{
+  "mains": [
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Discuss the defensive architecture of Gagron Fort in Jhalawar.",
+      "question_hi": "झालावाड़ में स्थित गागरोन किले की रक्षात्मक वास्तुकला की विवेचना कीजिए।",
+      "answer_en": "Gagron Fort, located in Jhalawar, is a classical Jal Durg (Water Fort) built directly on rocky foundations. Naturally secured on three sides by the Kali Sindh and Ahu rivers and a moat on the fourth, its double-walled ramparts and circular bastions integrate with the rugged topography to thwart enemy advances. It remains an exemplary model of riverine defense architecture.",
+      "answer_hi": "झालावाड़ में स्थित गागरोन किला, बिना नींव के सीधे चट्टानी आधार पर निर्मित जल दुर्ग का शास्त्रीय उदाहरण है। तीन तरफ से काली सिंध और आहू नदियों तथा चौथी तरफ खाई से सुरक्षित, इसके दोहरे परकोटे और गोलाकार बुर्ज दुश्मन को रोकने के लिए ऊबड़-खाबड़ स्थलाकृति से जुड़े हैं। यह नदीय रक्षा वास्तुकला का अनुकरणीय मॉडल है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Explain the strategic design of Kumbhalgarh Fort's outer wall.",
+      "question_hi": "कुम्भलगढ़ किले की बाहरी दीवार के रणनीतिक डिजाइन की व्याख्या कीजिए।",
+      "answer_en": "The outer wall of Kumbhalgarh Fort, designed by architect Mandan, is known as the \"Great Wall of India\" for its defensive prowess. Spanning 36 kilometers along the Aravalli range, this massive stone wall is 15 feet wide, allowing four horses to run abreast. It features integrated watchtowers, crenellated battlements, and loop-holes designed to repel infantry and artillery assaults. The wall successfully guarded the Mewar rulers during times of crisis by rendering the fort virtually impregnable.",
+      "answer_hi": "शिल्पी मण्डन द्वारा डिजाइन की गई कुम्भलगढ़ किले की बाहरी दीवार को अपनी रक्षात्मक क्षमता के लिए \"भारत की महान दीवार\" कहा जाता है। अरावली श्रृंखला में 36 किलोमीटर लंबी यह विशाल पत्थर की दीवार 15 फीट चौड़ी है, जिस पर चार घोड़े एक साथ दौड़ सकते हैं। इसमें दुश्मन के हमलों को विफल करने के लिए बुर्ज और कंगूरे बने हैं। इस दीवार ने संकट के समय मेवाड़ के शासकों की सुरक्षा की।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Analyze the unique defensive mechanism of Lohagarh Fort in Bharatpur.",
+      "question_hi": "भरतपुर के लोहागढ़ किले की अनूठी रक्षात्मक प्रणाली का विश्लेषण कीजिए।",
+      "answer_en": "Lohagarh Fort, constructed by Jat ruler Maharaja Suraj Mal, represents a unique clay-based defensive architecture known as 'Mitti ka Qila'. The fort is protected by massive double clay walls that absorbed impacting British cannonballs without cracking. Additionally, a deep moat connected to the Moti Jheel canal encircled the fort, making physical breaches by infantry impossible. This low-cost, earth-based engineering successfully resisted multiple British sieges, earning it the name 'Iron Fort'.",
+      "answer_hi": "महाराजा सूरजमल द्वारा निर्मित लोहागढ़ किला मिट्टी आधारित रक्षात्मक वास्तुकला का प्रतिनिधित्व करता है, जिसे 'मिट्टी का किला' भी कहा जाता है। किला विशाल दोहरी मिट्टी की दीवारों से सुरक्षित है जो ब्रिटिश तोपों के गोलों को बिना टूटे सोख लेती थीं। साथ ही, मोती झील से जुड़ी गहरी खाई ने पैदल सेना के प्रवेश को असंभव बना दिया। इस तकनीक ने ब्रिटिश हमलों को विफल किया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Describe the 'Living Fort' characteristics of Jaisalmer Fort.",
+      "question_hi": "जैसलमेर किले की 'जीवंत किला' (लिविंग फोर्ट) संबंधी विशेषताओं का वर्णन कीजिए।",
+      "answer_en": "Jaisalmer Fort, or Sonar Qila, built by Bhati Rajput Jaisal on Trikuta Hill, is one of Rajasthan's prominent living forts. Its yellow sandstone architecture hosts a thriving residential population, comprising temples, houses, and bazaars within its walls. The fort utilizes a triple-layered stone wall and ninety-nine bastions without mortar, relying on interlocking stone joints. It stands as a unique synthesis of active civilian habitation and robust medieval desert defense.",
+      "answer_hi": "त्रिकूट पहाड़ी पर भाटी राजपूत जैसल द्वारा निर्मित जैसलमेर किला (सोनार किला) राजस्थान का एक प्रमुख जीवंत किला है। पीली बलुआ पत्थर की वास्तुकला वाली इस सीमा के भीतर आज भी एक बड़ी आबादी निवास करती है, जिसमें मंदिर, घर और बाजार शामिल हैं। किला बिना गारे के परस्पर जुड़े पत्थरों, तिहरे परकोटे और 99 बुर्जों से सुरक्षित है। यह नागरिक आवास और सैन्य सुरक्षा का अनुपम उदाहरण है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Comment on the military architecture of Mehrangarh Fort's gates.",
+      "question_hi": "मेहरानगढ़ किले के प्रवेश द्वारों की सैन्य वास्तुकला पर टिप्पणी कीजिए।",
+      "answer_en": "Mehrangarh Fort, built by Rao Jodha on Bhakurchidiya hill, features highly strategic gate defense layouts designed to break enemy advances. The fort contains seven successive gates, including Loha Pol and Fateh Pol, built at sharp angles and steep slopes to prevent war elephants from building ramming momentum. The gates feature iron spikes and flanking bastions for defensive firing. These barriers formed a formidable security grid, ensuring Mehrangarh's security against sieges.",
+      "answer_hi": "राव जोधा द्वारा चिड़ियाटूंक पहाड़ी पर निर्मित मेहरानगढ़ किला रणनीतिक प्रवेश द्वारों के लिए प्रसिद्ध है। किले में सात क्रमिक द्वार (जैसे लोहा पोल, फतेह पोल) हैं, जिन्हें तीव्र मोड़ों और ढलानों पर बनाया गया है ताकि हाथी टक्कर मारने की गति न बना सकें। द्वारों पर लोहे के नुकीले कील लगे हैं। यह भूलभुलैया सुरक्षा चक्र मेहरानगढ़ की अभेद्यता सुनिश्चित करता था।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Evaluate the dual defensive and offensive capabilities of Jaigarh Fort.",
+      "question_hi": "जयगढ़ किले की दोहरी रक्षात्मक और आक्रामक क्षमताओं का मूल्यांकन कीजिए।",
+      "answer_en": "Jaigarh Fort, built by Sawai Jai Singh II, served as the primary military treasury and armory for the Jaipur state. Defensively, it features massive underground water reservoirs and a secret underground passage connecting it to Amber Fort for royal evacuations. Offensively, it housed a state-of-the-art cannon foundry and the massive Jaivana cannon, the world's largest wheeled cannon. Jaigarh thus integrated long-term siege survival with formidable defensive firepower.",
+      "answer_hi": "सवाई जयसिंह द्वितीय द्वारा निर्मित जयगढ़ किला जयपुर राज्य के सैन्य शस्त्रागार और खजाने के रूप में कार्य करता था। सुरक्षा की दृष्टि से, इसमें विशाल भूमिगत जल टांके और आमेर किले से जुड़ने वाली गुप्त सुरंगें हैं। आक्रामक रूप से, इसमें तोप बनाने का कारखाना और पहियों पर चलने वाली विश्व की सबसे बड़ी 'जयबाण' तोप मौजूद थी। यह किला घेराबंदी सुरक्षा और आक्रामक मारक क्षमता का बेहतरीन मिश्रण था।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Examine the defensive immunity of Junagarh Fort in Bikaner.",
+      "question_hi": "बीकानेर के जूनागढ़ किले की रक्षात्मक अभेद्यता का परीक्षण कीजिए।",
+      "answer_en": "Junagarh Fort, constructed by Raja Rai Singh on flat plains, is unique for never having been conquered by external forces. Unlike typical hill forts, Junagarh relies on a deep surrounding moat and exceptionally high, thick brick-and-stone walls punctuated by 37 bastions. The fort contains 37 internal palaces, built close together to form a maze-like layout that confused intruders. Its sophisticated flat-ground fortification design successfully compensated for the lack of natural elevation.",
+      "answer_hi": "राजा रायसिंह द्वारा समतल भूमि पर निर्मित जूनागढ़ किला बाहरी शत्रुओं द्वारा कभी न जीते जाने के लिए अद्वितीय है। पहाड़ी किले के विपरीत, यह गहरी खाई और 37 बुर्जों से युक्त अत्यंत ऊंची और चौड़ी दीवारों पर निर्भर है। इसके भीतर 37 महल परस्पर सटे हैं जो एक भूलभुलैया बनाते हैं। इसकी परिष्कृत समतल-भूमि वास्तुकला ने प्राकृतिक ऊंचाई की कमी को प्रभावी ढंग से पूरा किया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Explain the military and strategic significance of Nahargarh Fort.",
+      "question_hi": "नाहरगढ़ किले के सैन्य और रणनीतिक महत्व को स्पष्ट कीजिए।",
+      "answer_en": "Nahargarh Fort, built by Sawai Jai Singh II in 1734, served as a vital defensive sentinel overlooking the city of Jaipur. Positioned on the edge of the Aravalli hills, it formed a coordinated defense line with Jaigarh and Amber. Its architecture features high ramparts, defensive bastions, and the Madhavendra Bhawan, which contains twelve identical double-storey suites for queens. Nahargarh successfully combined tactical military surveillance with secure retreat quarters for the royal family.",
+      "answer_hi": "सवाई जयसिंह द्वितीय द्वारा 1734 में निर्मित नाहरगढ़ किला जयपुर शहर की सुरक्षा के लिए एक महत्वपूर्ण प्रहरी था। अरावली की पहाड़ियों पर स्थित यह किला जयगढ़ और आमेर के साथ मिलकर एक सुरक्षा घेरा बनाता था। इसकी वास्तुकला में ऊंचे परकोटे, रक्षात्मक बुर्ज और रानियों के लिए बने 12 एक जैसे महल शामिल हैं। नाहरगढ़ ने सैन्य निगरानी और शाही निवास का उत्कृष्ट समन्वय प्रस्तुत किया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Analyze the strategic importance of Taragarh Fort in Ajmer.",
+      "question_hi": "अजमेर के तारागढ़ किले के रणनीतिक महत्व का विश्लेषण कीजिए।",
+      "answer_en": "Taragarh Fort, constructed by Ajayraj Chauhan on Garh Beetli hill, is historically known as the 'Gibraltar of Rajasthan'. Strategically, it commands the focal point of Rajasthan, controlling trade and military routes between Delhi, Mewar, and Marwar. The fort features massive stone ramparts, natural cliff defenses, and deep water reservoirs, which allowed it to withstand prolonged sieges. Its geopolitical location made Taragarh a highly contested military prize throughout medieval Indian history.",
+      "answer_hi": "अजयराज चौहान द्वारा गढ़ बीठली पहाड़ी पर निर्मित तारागढ़ किला इतिहास में 'राजस्थान का जिब्राल्टर' नाम से जाना जाता है। रणनीतिक रूप से, यह दिल्ली, मेवाड़ और मारवार के बीच व्यापारिक और सैन्य मार्गों को नियंत्रित करता था। किले में विशाल पत्थर के परकोटे, प्राकृतिक चट्टानी ढलानें और पानी के बड़े जलाशय हैं जो घेराबंदी में सहायक थे। इसकी भू-राजनीतिक स्थिति ने इसे अत्यधिक महत्वपूर्ण सैन्य केंद्र बनाया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Assess how Amber Fort integrates luxury with defensive architecture.",
+      "question_hi": "आकलन कीजिए कि आमेर किला किस प्रकार विलासिता को रक्षात्मक वास्तुकला के साथ एकीकृत करता है।",
+      "answer_en": "Amber Fort, established by Raja Man Singh I, exhibits a brilliant synthesis of Rajput military strength and Mughal-influenced artistic luxury. The fort's exterior features rugged yellow sandstone walls overlooking Maota Lake, which served as a natural moat. Internally, the defensive layout transitions into opulent spaces like the Sheesh Mahal, Diwan-i-Aam, and the fortified Shila Devi Temple. This dual design allowed Amber to remain militarily secure while serving as a grand center of royal administration.",
+      "answer_hi": "राजा मानसिंह प्रथम द्वारा स्थापित आमेर किला राजपूत सैन्य शक्ति और मुगल-प्रभावित कलात्मक विलासिता का एक शानदार समन्वय है। किले का बाहरी भाग उबड़-खाबड़ बलुआ पत्थर की दीवारों से बना है जो मावठा झील की ओर खुलती हैं, जो एक प्राकृतिक खाई का कार्य करती थी। आंतरिक भाग में शीश महल, दीवान-ए-खास और सुरक्षित शिला देवी मंदिर जैसी समृद्ध संरचनाएं हैं। यह भव्य प्रशासनिक केंद्र होने के साथ सैन्य रूप से भी सुरक्षित था।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Define the features of 'Giri Durg' using Chittorgarh Fort as an example.",
+      "question_hi": "चित्तौड़गढ़ किले का उदाहरण देते हुए 'गिरि दुर्ग' की विशेषताओं को परिभाषित कीजिए।",
+      "answer_en": "Chittorgarh Fort is the quintessential 'Giri Durg' (Hill Fort) of Rajasthan, epitomizing classical Rajput military architecture. Built on the 180-meter-high Mesa Plateau, it utilizes steep natural cliffs as primary defensive barriers. The fort features seven fortified gates (Pols), massive ramparts, and perennial water bodies like Bhim Laat, which sustained the garrison during historic sieges. Chittorgarh stands as the supreme model of self-sufficient hill fortification designed for ultimate resistance.",
+      "answer_hi": "चित्तौड़गढ़ किला राजस्थान के 'गिरि दुर्ग' (पहाड़ी किला) का सर्वोत्कृष्ट उदाहरण है, जो राजपूत सैन्य वास्तुकला का प्रतीक है। 180 मीटर ऊंचे मेसा पठार पर निर्मित यह किला खड़ी प्राकृतिक चट्टानों का रक्षात्मक दीवार के रूप में उपयोग करता है। इसमें सात अभेद्य द्वार, विशाल परकोटे और भीम लत जैसे बारहमासी जलाशय हैं जो घेराबंदी के दौरान जलापूर्ति सुनिश्चित करते थे। यह आत्मनिर्भर दुर्ग वास्तुकला का सर्वोच्च शिखर है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Examine the defensive and architectural features of Taragarh Fort in Bundi.",
+      "question_hi": "बूंदी के तारागढ़ किले की रक्षात्मक और स्थापत्य कला संबंधी विशेषताओं का परीक्षण कीजिए।",
+      "answer_en": "Taragarh Fort in Bundi, constructed by Rao Deva's son Barel, is renowned for its steep hillside positioning and intricate layout. The fort features massive ramparts built without modern mortar, relying on stone interlocking. To survive long sieges, it incorporated massive rainwater harvesting reservoirs (Baoris) carved into the rock, alongside secret underground tunnels connecting to the Garh Palace. Taragarh Bundi exemplifies high-altitude defense coupled with indigenous water-management engineering.",
+      "answer_hi": "बूंदी में राव देवा के पुत्र बरेल द्वारा निर्मित तारागढ़ किला अपनी खड़ी पहाड़ी स्थिति और जटिल वास्तुकला के लिए प्रसिद्ध है। किले में बिना आधुनिक गारे के, केवल पत्थरों को जोड़कर बने विशाल परकोटे हैं। घेराबंदी का सामना करने के लिए, इसमें चट्टान को काटकर बनाए गए विशाल वर्षा जल संचयन जलाशय (बावड़ियाँ) और गढ़ महल से जुड़ने वाली गुप्त सुरंगें शामिल हैं। यह स्वदेशी जल-प्रबंधन और रक्षा वास्तुकला का अद्भुत उदाहरण है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Describe the strategic and architectural restoration of Achalgarh Fort.",
+      "question_hi": "अचलगढ़ किले के रणनीतिक और स्थापत्य पुनर्निर्माण का वर्णन कीजिए।",
+      "answer_en": "Achalgarh Fort, situated near Abu Road, was extensively reconstructed by Maharana Kumbha to secure Mewar's western borders. Positioned on a high peak of the Aravalli range, the fort features thick stone battlements designed to withstand siege weapons. The complex integrates natural lakes like Mandakini Kund for water security, alongside the historic Achaleshwar Mahadev temple. Its renovation reflects Kumbha's strategic emphasis on securing mountainous border passes through fortified outposts.",
+      "answer_hi": "मेवाड़ की पश्चिमी सीमाओं को सुरक्षित करने के लिए महाराणा कुम्भा द्वारा आबू रोड के पास अचलगढ़ किले का पुनर्निर्माण किया गया था। अरावली की ऊंची चोटी पर स्थित इस किले में घेराबंदी झेलने के लिए मोटे पत्थरों की दीवारें हैं। किले में जल सुरक्षा के लिए मंदाकिनी कुंड जैसी प्राकृतिक झीलें तथा ऐतिहासिक अचलेश्वर महादेव मंदिर शामिल हैं। इसका नवीनीकरण पर्वतीय सीमा मार्गों को सुरक्षित करने के कुम्भा के विजन को दर्शाता है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Explain how Ranthambore Fort integrates forest and hill defenses.",
+      "question_hi": "स्पष्ट कीजिए कि रणथंभौर किला किस प्रकार वन और पहाड़ी सुरक्षा को एकीकृत करता है।",
+      "answer_en": "Ranthambore Fort, built by Chauhan ruler Vagbhata, is a unique combination of a Giri Durg (Hill Fort) and Vana Durg (Forest Fort). Situated on a high hill surrounded by the deep forests of the Aravalli and Vindhya ranges, it remains invisible until approached closely. It features massive stone ramparts, concentric defensive valleys, and three major lakes that provided water during prolonged sieges. This architectural integration of natural terrain made Ranthambore a virtually impregnable Chauhan stronghold.",
+      "answer_hi": "चौहान शासक वाग्भट्ट द्वारा निर्मित रणथंभौर किला गिरि दुर्ग और वन दुर्ग का एक अनूठा संयोजन है। अरावली और विंध्य पर्वतमाला के घने जंगलों से घिरी ऊंची पहाड़ी पर स्थित यह किला निकट आने तक दिखाई नहीं देता। इसमें विशाल पत्थर के परकोटे, संकेंद्रित सुरक्षात्मक घाटियाँ और तीन प्रमुख झीलें हैं जो घेराबंदी के दौरान जलापूर्ति सुनिश्चित करती थीं। इस प्राकृतिक दुर्ग ने इसे अभेद्य बनाया।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Analyze the architectural significance of Jaisalmer Fort's triple-layered wall.",
+      "question_hi": "जैसलमेर किले के तिहरे परकोटे के स्थापत्य महत्व का विश्लेषण कीजिए।",
+      "answer_en": "Jaisalmer Fort features a unique triple-layered defensive wall (known as Cheer/Moris), representing advanced medieval desert military engineering. The outermost wall consists of massive stone blocks, the middle wall acts as a retaining barrier, and the innermost wall supports military platforms. Built without mortar using interlocking stones on Trikuta Hill, it features 99 bastions to redirect attacking forces. This structure successfully prevented soil erosion on the sandy hill while providing unparalleled defensive depth.",
+      "answer_hi": "जैसलमेर किले में एक अद्वितीय तिहरा रक्षात्मक परकोटा (जिसे पाढ़/मोरी कहा जाता है) है, जो मध्यकालीन रेगिस्तानी सैन्य इंजीनियरिंग का प्रतिनिधित्व करता है। सबसे बाहरी दीवार पत्थरों के विशाल ब्लॉकों से बनी है, बीच की दीवार सहारा देने वाली है और अंतरतम दीवार सैन्य मंच प्रदान करती है। बिना गारे के परस्पर जुड़े पत्थरों से निर्मित इस किले में 99 बुर्ज हैं। यह संरचना मिट्टी के कटाव को रोकती थी और रक्षा प्रदान करती थी।"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Who among the following Amer rulers or nobles was instrumental in facilitating the meeting between Sant Dadu Dayal and the Mughal Emperor Akbar at Fatehpur Sikri in 1585 AD?",
+      "question_hi": "निम्नलिखित आमेर शासकों या रईसों में से किसने 1585 ई. में फतेहपुर सीकरी में संत दादू दयाल और मुगल सम्राट अकबर के बीच बैठक आयोजित करने में महत्वपूर्ण भूमिका निभाई थी?",
+      "options_en": {
+        "A": "Raja Bhagwant Das",
+        "B": "Raja Man Singh I",
+        "C": "Mirza Raja Jai Singh",
+        "D": "Sawai Jai Singh"
+      },
+      "options_hi": {
+        "A": "राजा भगवंत दास",
+        "B": "राजा मान सिंह प्रथम",
+        "C": "मिर्जा राजा जय सिंह",
+        "D": "सवाई जय सिंह"
+      },
+      "correct_option": "A",
+      "explanation_en": "In 1585 AD, Sant Dadu Dayal met the Mughal Emperor Akbar at Fatehpur Sikri. This meeting was arranged through Raja Bhagwant Das of Amer, and they spent 40 days discussing theology.",
+      "explanation_hi": "1585 ई. में, संत दादू दयाल ने फतेहपुर सीकरी में मुगल सम्राट अकबर से मुलाकात की। यह मुलाकात आमेर के राजा भगवंत दास के माध्यम से आयोजित की गई थी, और उन्होंने धर्मशास्त्र पर चर्चा करते हुए 40 दिन बिताए थे।"
+    },
+    {
+      "question_en": "According to the Dadupanthi tradition, who was the spiritual guru of Sant Dadu Dayal, believed to be a follower of Kabir's lineage?",
+      "question_hi": "दादू पंथी परंपरा के अनुसार, संत दादू दयाल के आध्यात्मिक गुरु कौन थे, जिन्हें कबीर की परंपरा का अनुयायी माना जाता है?",
+      "options_en": {
+        "A": "Ramanand",
+        "B": "Sant Budhan",
+        "C": "Raghavadas",
+        "D": "Garibdas"
+      },
+      "options_hi": {
+        "A": "रामानंद",
+        "B": "संत बुढ़न",
+        "C": "राघवदास",
+        "D": "गरीबदास"
+      },
+      "correct_option": "B",
+      "explanation_en": "According to Dadupanthi tradition, Dadu Dayal was initiated by Sant Budhan, a Muslim saint who belonged to the spiritual lineage of Kabir.",
+      "explanation_hi": "दादू पंथी परंपरा के अनुसार, दादू दयाल को संत बुढ़न द्वारा दीक्षित किया गया था, जो एक मुस्लिम संत थे और कबीर के आध्यात्मिक वंश से संबंधित थे।"
+    },
+    {
+      "question_en": "The compilation 'Panch-vani', edited by Sant Rajjab Ji of the Dadupanth, contains the devotional verses of five distinct saints. Which of the following combinations of saints is correct?",
+      "question_hi": "दादू पंथ के संत रज्जब जी द्वारा संपादित 'पंच-वाणी' संकलन में पांच अलग-अलग संतों के भक्ति पद शामिल हैं। निम्नलिखित में से संतों का कौन सा संयोजन सही है?",
+      "options_en": {
+        "A": "Kabir, Namdev, Raidas, Jambhoji, and Dadu Dayal",
+        "B": "Kabir, Pipa, Dhanna, Haridas, and Dadu Dayal",
+        "C": "Kabir, Namdev, Raidas, Haridas, and Dadu Dayal",
+        "D": "Kabir, Namdev, Raidas, Garibdas, and Sundardas"
+      },
+      "options_hi": {
+        "A": "कबीर, नामदेव, रैदास, जाम्भोजी और दादू दयाल",
+        "B": "कबीर, पीपा, धन्ना, हरिदास और दादू दयाल",
+        "C": "कबीर, नामदेव, रैदास, हरिदास और दादू दयाल",
+        "D": "कबीर, नामदेव, रैदास, गरीबदास और सुंदरदास"
+      },
+      "correct_option": "C",
+      "explanation_en": "The 'Panch-vani' is a revered text compiled by Dadu's disciple Rajjab Ji. It contains the hymns of five saints: Kabir, Namdev, Raidas, Haridas, and Dadu Dayal.",
+      "explanation_hi": "'पंच-वाणी' दादू के शिष्य रज्जब जी द्वारा संकलित एक पूजनीय ग्रंथ है। इसमें पांच संतों: कबीर, नामदेव, रैदास, हरिदास और दादू दयाल के भजन शामिल हैं।"
+    },
+    {
+      "question_en": "The armed ascetic branch of the Dadupanth, known as 'Naaga', which later provided military services to the Jaipur State, was established by which disciple of Dadu Dayal?",
+      "question_hi": "दादू पंथ की सशस्त्र तपस्वी शाखा, जिसे 'नागा' के रूप में जाना जाता है और जिसने बाद में जयपुर राज्य को सैन्य सेवाएं प्रदान कीं, की स्थापना दादू दयाल के किस शिष्य ने की थी?",
+      "options_en": {
+        "A": "Rajjab Ji",
+        "B": "Garibdas Ji",
+        "C": "Madhodas Ji",
+        "D": "Sundardas Ji"
+      },
+      "options_hi": {
+        "A": "रज्जब जी",
+        "B": "गरीबदास जी",
+        "C": "माधोदास जी",
+        "D": "सुंदरदास जी"
+      },
+      "correct_option": "D",
+      "explanation_en": "Sundardas (the younger), a principal disciple of Dadu Dayal, founded the 'Naaga' sub-sect of Dadupanth. They were armed ascetics who later protected Jaipur State.",
+      "explanation_hi": "दादू दयाल के एक प्रमुख शिष्य सुंदरदास (छोटे) ने दादू पंथ की 'नागा' उप-शाखा की स्थापना की। ये सशस्त्र तपस्वी थे जिन्होंने बाद में जयपुर राज्य की रक्षा की थी।"
+    },
+    {
+      "question_en": "Sant Charandas Ji, who founded the Charandasi Sampraday, introduced 42 rules for his followers. From which region of Rajasthan did he originally hail, and where is the main seat of this sect located?",
+      "question_hi": "चरणदासी संप्रदाय के संस्थापक संत चरणदास जी ने अपने अनुयायियों के लिए 42 नियम बनाए थे। वह मूल रूप से राजस्थान के किस क्षेत्र से थे, और इस संप्रदाय की मुख्य पीठ कहाँ स्थित है?",
+      "options_en": {
+        "A": "Alwar (birthplace) and Delhi (main seat)",
+        "B": "Bharatpur (birthplace) and Jaipur (main seat)",
+        "C": "Sikar (birthplace) and Alwar (main seat)",
+        "D": "Jhunjhunu (birthplace) and Delhi (main seat)"
+      },
+      "options_hi": {
+        "A": "अलवर (जन्मस्थान) और दिल्ली (मुख्य पीठ)",
+        "B": "भरतपुर (जन्मस्थान) और जयपुर (मुख्य पीठ)",
+        "C": "सीकर (जन्मस्थान) और अलवर (मुख्य पीठ)",
+        "D": "झुनझुनू (जन्मस्थान) और दिल्ली (मुख्य पीठ)"
+      },
+      "correct_option": "A",
+      "explanation_en": "Sant Charandas Ji was born in Dehra village, Alwar district. He founded the Charandasi Sampraday, which prescribes 42 rules of conduct. Its main seat is in Delhi.",
+      "explanation_hi": "संत चरणदास जी का जन्म अलवर जिले के डेहरा गाँव में हुआ था। उन्होंने चरणदासी संप्रदाय की स्थापना की, जो आचरण के 42 नियमों का निर्धारण करता है। इसकी मुख्य पीठ दिल्ली में है।"
+    },
+    {
+      "question_en": "Sahjo Bai and Daya Bai, the two prominent female disciples of Sant Charandas Ji, wrote their devotional literature in which dialect of Rajasthani/Hindi?",
+      "question_hi": "संत चरणदास जी की दो प्रमुख शिष्याओं सहजो बाई और दया बाई ने अपने भक्ति साहित्य की रचना राजस्थानी/हिंदी की किस बोली में की थी?",
+      "options_en": {
+        "A": "Dhundhari",
+        "B": "Mewati/Braj Bhasha",
+        "C": "Marwari",
+        "D": "Bagri"
+      },
+      "options_hi": {
+        "A": "ढूंढाड़ी",
+        "B": "मेवाती/ब्रजभाषा",
+        "C": "मारवाड़ी",
+        "D": "बागड़ी"
+      },
+      "correct_option": "B",
+      "explanation_en": "Sahjo Bai and Daya Bai were the two famous female disciples of Sant Charandas Ji. They wrote their devotional poems in Mewati/Braj Bhasha dialect.",
+      "explanation_hi": "सहजो बाई और दया बाई संत चरणदास जी की दो प्रसिद्ध महिला शिष्याएँ थीं। उन्होंने अपने भक्ति पदों की रचना मेवाती/ब्रजभाषा बोली में की थी।"
+    },
+    {
+      "question_en": "Sant Haridas Ji, the founder of the Niranjani Sampraday, was known as 'Valmiki of Kaliyug' because of his transformation. What was his original name before he became a saint?",
+      "question_hi": "निरंजनी संप्रदाय के संस्थापक संत हरिदास जी को उनके परिवर्तन के कारण 'कलिकाल का वाल्मीकि' (कलयुग के वाल्मीकि) के रूप में जाना जाता था। संत बनने से पहले उनका मूल नाम क्या था?",
+      "options_en": {
+        "A": "Harnath Singh",
+        "B": "Ram Singh Panwar",
+        "C": "Hari Singh Sankhla",
+        "D": "Haridas Jat"
+      },
+      "options_hi": {
+        "A": "हरनाथ सिंह",
+        "B": "राम सिंह पंवार",
+        "C": "हरी सिंह सांखला",
+        "D": "हरिदास जाट"
+      },
+      "correct_option": "C",
+      "explanation_en": "Sant Haridas Ji, the founder of the Niranjani Sampraday, was originally known as Hari Singh Sankhla. He was a dacoit who transformed into a saint, earning him the title 'Valmiki of Kaliyug'.",
+      "explanation_hi": "निरंजनी संप्रदाय के संस्थापक संत हरिदास जी को मूल रूप से हरी सिंह सांखला के नाम से जाना जाता था। वे एक डाकू थे जो संत में बदल गए, जिसके कारण उन्हें 'कलयुग का वाल्मीकि' की उपाधि मिली।"
+    },
+    {
+      "question_en": "In the Laldasi Sampraday, which is highly popular among the Meo Muslims of Mewat, what is the unique custom followed during the initiation of a new disciple to eliminate ego?",
+      "question_hi": "मेवात के मेव मुसलमानों में अत्यधिक लोकप्रिय लालदासी संप्रदाय में, अहंकार को समाप्त करने के लिए नए शिष्य के दीक्षा संस्कार के दौरान कौन सी अनूठी प्रथा अपनाई जाती है?",
+      "options_en": {
+        "A": "The disciple is made to walk on burning coals (fire dance)",
+        "B": "The disciple must donate all their land to the community kitchen",
+        "C": "The disciple is kept in complete isolation for 42 days",
+        "D": "The disciple's face is blackened, they are seated backward on a donkey, and paraded through the village"
+      },
+      "options_hi": {
+        "A": "शिष्य को धधकते अंगारों पर चलाया जाता है (अग्नि नृत्य)",
+        "B": "शिष्य को अपनी सारी भूमि सामुदायिक रसोई को दान करनी होती है",
+        "C": "शिष्य को 42 दिनों तक पूर्ण अलगाव में रखा जाता है",
+        "D": "शिष्य का मुंह काला किया जाता है, उन्हें गधे पर उल्टा बैठाया जाता है और गांव में घुमाया जाता है"
+      },
+      "correct_option": "D",
+      "explanation_en": "To destroy the disciple's pride and test their humility, the Laldasi Sampraday has a unique ritual: the initiate's face is blackened, they are sat backward on a donkey, paraded in the village, and then offered sherbet.",
+      "explanation_hi": "शिष्य के अहंकार को नष्ट करने और उनकी विनम्रता की परीक्षा लेने के लिए, लालदासी संप्रदाय में एक अनूठा अनुष्ठान है: दीक्षित व्यक्ति का चेहरा काला किया जाता है, उन्हें गधे पर उल्टा बैठाया जाता है, गाँव में घुमाया जाता है और फिर शरबत पिलाया जाता है।"
+    },
+    {
+      "question_en": "Sant Mavji, a legendary saint of the Vagad region, is revered as the tenth incarnation (Kalki Avatar) of Lord Vishnu. Where did he compile his prophecies, known as 'Chaupaiya' or 'Chopada'?",
+      "question_hi": "वागड़ क्षेत्र के एक प्रसिद्ध संत, संत मावजी को भगवान विष्णु के दसवें अवतार (कल्कि अवतार) के रूप में पूजा जाता है। उन्होंने अपनी भविष्यवाणियों को कहाँ संकलित किया था, जिन्हें 'चौपैया' या 'चोपड़ा' के रूप में जाना जाता है?",
+      "options_en": {
+        "A": "Sabla (Dungarpur)",
+        "B": "Pipasar (Nagaur)",
+        "C": "Katariasar (Bikaner)",
+        "D": "Dehra (Alwar)"
+      },
+      "options_hi": {
+        "A": "साबला (डूंगरपुर)",
+        "B": "पीपासर (नागौर)",
+        "C": "कतरियासर (बीकानेर)",
+        "D": "डेहरा (अलवार)"
+      },
+      "correct_option": "A",
+      "explanation_en": "Sant Mavji is considered the Kalki Avatar of Vagad. He compiled his prophecies in books called 'Chopada' or 'Chaupaiya', preserved at Sabla, Dungarpur.",
+      "explanation_hi": "संत मावजी को वागड़ का कल्कि अवतार माना जाता है। उन्होंने अपनी भविष्यवाणियों को 'चोपड़ा' या 'चौपैया' नामक पुस्तकों में संकलित किया, जो साबला, डूंगरपुर में संरक्षित हैं।"
+    },
+    {
+      "question_en": "Sant Dhanna Bhagat, who was born in the Tonk district of Rajasthan, belongs to which community, and whose disciple was he?",
+      "question_hi": "राजस्थान के टोंक जिले में जन्मे संत धन्ना भगत किस समुदाय से संबंध रखते हैं, और वे किसके शिष्य थे?",
+      "options_en": {
+        "A": "Rajput community; disciple of Dadu Dayal",
+        "B": "Jat community; disciple of Ramanand",
+        "C": "Weaver community; disciple of Kabir",
+        "D": "Meena community; disciple of Raidas"
+      },
+      "options_hi": {
+        "A": "राजपूत समुदाय; दादू दयाल के शिष्य",
+        "B": "जाट समुदाय; रामानंद के शिष्य",
+        "C": "बुनकर समुदाय; कबीर के शिष्य",
+        "D": "मीणा समुदाय; रैदास के शिष्य"
+      },
+      "correct_option": "B",
+      "explanation_en": "Sant Dhanna Bhagat was born in a Jat family in Tonk district. He was a disciple of Ramanand and is famous for his pure devotion while living a simple farming life. His verses are included in the Sikh scripture, Guru Granth Sahib (Adi Granth).",
+      "explanation_hi": "संत धन्ना भगत का जन्म टोंक जिले के एक जाट परिवार में हुआ था। वे रामानंद के शिष्य थे और साधारण कृषि जीवन जीते हुए अपनी शुद्ध भक्ति के लिए प्रसिद्ध हैं। उनके पद सिख ग्रंथ, गुरु ग्रंथ साहिब (आदि ग्रंथ) में शामिल हैं।"
+    },
+    {
+      "question_en": "Sant Pipa Ji, a Rajput ruler who abdicated his throne to follow Ramanand, is particularly revered as the patron deity by which of the following professional communities in Rajasthan?",
+      "question_hi": "रामानंद का अनुसरण करने के लिए अपने सिंहासन का त्याग करने वाले राजपूत शासक संत पीपा जी को राजस्थान में निम्नलिखित में से किस व्यावसायिक समुदाय द्वारा विशेष रूप से अपने संरक्षक देवता के रूप में पूजा जाता है?",
+      "options_en": {
+        "A": "Kumhar (Potters)",
+        "B": "Sunar (Goldsmiths)",
+        "C": "Darji (Tailors)",
+        "D": "Lohar (Blacksmiths)"
+      },
+      "options_hi": {
+        "A": "कुम्हार (मटका बनाने वाले)",
+        "B": "सुनार (सोना बनाने वाले)",
+        "C": "दर्जी (कपड़े सिलने वाले)",
+        "D": "लोहार (लोहा गलाने वाले)"
+      },
+      "correct_option": "C",
+      "explanation_en": "Sant Pipa Ji, a Rajput ruler of Gagron, became a disciple of Ramanand. After renouncing his throne, he earned his living by tailoring, which is why the Darji (tailor) community of Rajasthan worships him as their patron deity.",
+      "explanation_hi": "गागरोन के राजपूत शासक संत पीपा जी रामानंद के शिष्य बन गए। अपना सिंहासन छोड़ने के बाद, उन्होंने सिलाई करके अपनी आजीविका अर्जित की, यही कारण है कि राजस्थान का दर्जी समुदाय उन्हें अपने संरक्षक देवता के रूप में पूजता है।"
+    },
+    {
+      "question_en": "Where in Rajasthan is the cenotaph (chhatri) of Sant Raidas (Ravidas), the spiritual guru of Meera Bai, situated?",
+      "question_hi": "मीरा बाई के आध्यात्मिक गुरु संत रैदास (रविदास) की छतरी राजस्थान में कहाँ स्थित है?",
+      "options_en": {
+        "A": "Merta (Nagaur)",
+        "B": "Kumbhalgarh (Rajsamand)",
+        "C": "Narayana (Jaipur)",
+        "D": "Chittorgarh Fort (Chittorgarh)"
+      },
+      "options_hi": {
+        "A": "मेड़ता (नागौर)",
+        "B": "कुम्भलगढ़ (राजसमंद)",
+        "C": "नारायणा (जयपुर)",
+        "D": "चित्तौड़गढ़ किला (चित्तौड़गढ़)"
+      },
+      "correct_option": "D",
+      "explanation_en": "Sant Raidas (Ravidas), a disciple of Ramanand, was the spiritual guru of Meera Bai. His cenotaph (chhatri) is situated inside the Kumbha Shyam Temple premises at Chittorgarh Fort.",
+      "explanation_hi": "रामानंद के शिष्य संत रैदास (रविदास), मीरा बाई के आध्यात्मिक गुरु थे। उनकी छतरी चित्तौड़गढ़ किले में कुंभ श्याम मंदिर परिसर के भीतर स्थित है।"
+    },
+    {
+      "question_en": "Which of the following holy texts contains the primary compilation of teachings and sermons of Sant Ramcharan Ji, the founder of the Shahpura branch of Ramsnehi Sampraday?",
+      "question_hi": "निम्नलिखित में से किस पवित्र ग्रंथ में रामस्नेही संप्रदाय की शाहपुरा शाखा के संस्थापक संत रामचरण जी के उपदेशों और शिक्षाओं का प्राथमिक संकलन है?",
+      "options_en": {
+        "A": "Gyan Samudar",
+        "B": "Sarbangi",
+        "C": "Anandghana Granth",
+        "D": "Chaupaiya"
+      },
+      "options_hi": {
+        "A": "ज्ञान समुद्र",
+        "B": "सरबंगी",
+        "C": "आनंदघन ग्रंथ",
+        "D": "चौपैया"
+      },
+      "correct_option": "C",
+      "explanation_en": "The 'Anandghana Granth' is the main holy scripture of the Ramsnehi Sampraday containing the teachings of Sant Ramcharan Ji.",
+      "explanation_hi": "'आनंदघन ग्रंथ' रामस्नेही संप्रदाय का मुख्य पवित्र ग्रंथ है जिसमें संत रामचरण जी के उपदेश शामिल हैं।"
+    },
+    {
+      "question_en": "Consider the following statements about Sant Dadu Dayal:\n1. Sant Dadu Dayal's spiritual guru was Budhan, who belonged to the lineage of Kabir.\n2. Dadu Dayal spent the last days of his life and took samadhi at Sambhar in Jaipur.\n3. The Dadupanthi literature is primarily composed in the Mewati dialect of Rajasthan.\nWhich of the statements given above is/are correct?",
+      "question_hi": "संत दादू दयाल के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. संत दादू दयाल के आध्यात्मिक गुरु बुढ़न थे, जो कबीर की परंपरा से संबंधित थे।\n2. दादू दयाल ने अपने जीवन के अंतिम दिन बिताए और जयपुर के सांभर में समाधि ली।\n3. दादू पंथी साहित्य मुख्य रूप से राजस्थान की मेवाती बोली में रचा गया है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1",
+        "B": "केवल 1 और 2",
+        "C": "केवल 2 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct as Budhan was Dadu's guru. Statement 2 is incorrect because Dadu Dayal took samadhi at Narayana, not Sambhar. Statement 3 is incorrect because Dadupanthi literature was composed in the Dhundhari/Sadukkari dialect, not Mewati.",
+      "explanation_hi": "कथन 1 सही है क्योंकि बुढ़न दादू के गुरु थे। कथन 2 गलत है क्योंकि दादू दयाल ने नारायणा में समाधि ली थी, न कि सांभर में। कथन 3 गलत है क्योंकि दादू पंथी साहित्य मेवाती के बजाय ढूंढाड़ी/सधुक्कड़ी बोली में रचा गया था।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the Bishnoi sect and the Khejarli massacre:\n1. The historic Khejarli sacrifice took place in 1730 AD during the reign of Maharaja Abhay Singh of Marwar.\n2. A total of 363 Bishnois, led by Amrita Devi, sacrificed their lives to protect the sacred Khejri trees.\n3. The use of blue-dyed clothing is highly recommended for Bishnoi followers as it symbolizes environmental purity.\nWhich of the statements given above is/are correct?",
+      "question_hi": "बिश्नोई संप्रदाय और खेजड़ली नरसंहार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. ऐतिहासिक खेजड़ली बलिदान 1730 ई. में मारवाड़ के महाराजा अभय सिंह के शासनकाल में हुआ था।\n2. पवित्र खेजड़ी वृक्षों की रक्षा के लिए अमृता देवी के नेतृत्व में कुल 363 बिश्नोईयों ने अपने प्राणों की आहुति दी थी।\n3. बिश्नोई अनुयायियों के लिए नीले रंग के कपड़े पहनना अत्यधिक अनुशंसित है क्योंकि यह पर्यावरणीय पवित्रता का प्रतीक है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 3 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 3",
+        "B": "केवल 1 और 2",
+        "C": "केवल 2 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statements 1 and 2 are correct. Statement 3 is incorrect because the Bishnoi sect strictly prohibits the use of blue-dyed clothes since the extraction of indigo dye historically required the destruction of many green plants.",
+      "explanation_hi": "कथन 1 और 2 सही हैं। कथन 3 गलत है क्योंकि बिश्नोई संप्रदाय नीले रंग के कपड़ों के उपयोग को पूरी तरह से प्रतिबंधित करता है क्योंकि नील निकालने के लिए ऐतिहासिक रूप से कई हरे पौधों को नष्ट करना पड़ता था।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the Jasnathi Sampraday of Rajasthan:\n1. The founder, Sant Jasnath Ji, was born in a Jat farmer family in Katariasar, Bikaner.\n2. The followers of the Jasnathi sect are required to strictly observe 36 rules of conduct.\n3. The 'Agni Nritya' (Fire Dance) on burning coals is a unique ritual performed by the devotees of this sect.\nWhich of the statements given above is/are correct?",
+      "question_hi": "राजस्थान के जसनाथी संप्रदाय के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसके संस्थापक, संत जसनाथ जी का जन्म कतरियासर, बीकानेर में एक जाट किसान परिवार में हुआ था।\n2. जसनाथी संप्रदाय के अनुयायियों को आचरण के 36 नियमों का कड़ाई से पालन करना आवश्यक है।\n3. धधकते अंगारों पर किया जाने वाला प्रसिद्ध 'अग्नि नृत्य' इस संप्रदाय के भक्तों द्वारा किया जाने वाला एक अनूठा अनुष्ठान है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1, 2 and 3",
+        "D": "1 only"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "1, 2 और 3",
+        "D": "केवल 1"
+      },
+      "correct_option": "C",
+      "explanation_en": "All three statements are correct. Sant Jasnath Ji was born in a Jat farmer family in Bikaner, established the main seat at Katariasar, prescribed 36 rules of conduct, and his followers perform the Fire Dance (Agni Nritya).",
+      "explanation_hi": "तीनों कथन सही हैं। संत जसनाथ जी का जन्म बीकानेर के एक जाट किसान परिवार में हुआ था, उन्होंने कतरियासर में मुख्य पीठ स्थापित की, आचरण के 36 नियम दिए और उनके अनुयायी अग्नि नृत्य करते हैं।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the branches of Ramsnehi Sampraday:\n1. The entire Ramsnehi Sampraday was founded by Sant Dariyav Ji, who established its main seat at Shahpura, Bhilwara.\n2. The Reenwas branch of the sect located in Sikar was founded by Sant Dariyav Ji.\n3. The Kheda branch of the sect located in Nagaur was established by Sant Ram Das Ji.\nWhich of the statements given above is/are correct?",
+      "question_hi": "रामस्नेही संप्रदाय की शाखाओं के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. संपूर्ण रामस्नेही संप्रदाय की स्थापना संत दरियाव जी ने की थी, जिन्होंने शाहपुरा, भीलवाड़ा में इसकी मुख्य पीठ स्थापित की थी।\n2. सीकर में स्थित इस संप्रदाय की रीणवास शाखा की स्थापना संत दरियाव जी ने की थी।\n3. नागौर में स्थित इस संप्रदाय की खेड़ा शाखा की स्थापना संत रामदास जी ने की थी।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "1, 2 and 3",
+        "D": "2 and 3 only"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 1 और 3",
+        "C": "1, 2 और 3",
+        "D": "केवल 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "Statement 1 is incorrect because the Ramsnehi Sampraday was founded by Sant Ramcharan Ji (who established the Shahpura seat), not Dariyav Ji. Statements 2 and 3 are correct as Dariyav Ji founded Reenwas and Ram Das Ji founded Kheda.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि रामस्नेही संप्रदाय की स्थापना संत रामचरण जी ने की थी (जिन्होंने शाहपुरा पीठ की स्थापना की थी), न कि दरियाव जी ने। कथन 2 और 3 सही हैं क्योंकि दरियाव जी ने रीणवास और रामदास जी ने खेड़ा शाखा की स्थापना की थी।"
+    },
+    {
+      "question_en": "Assertion (A): The Bishnoi community historically and contemporarily prohibits the cutting of green trees and the hunting of animals.\nReason (R): Guru Jambheshwar formulated 29 principles for his followers, making conservation of green trees and protection of wildlife core religious duties.",
+      "question_hi": "कथन (A): बिश्नोई समुदाय ऐतिहासिक और समकालीन रूप से हरे पेड़ों को काटने और जानवरों के शिकार को प्रतिबंधित करता है।\nकारण (R): गुरु जम्भेश्वर ने अपने अनुयायियों के लिए 29 सिद्धांत तैयार किए, जिससे हरे पेड़ों का संरक्षण और वन्यजीवों की सुरक्षा को मुख्य धार्मिक कर्तव्य बनाया गया।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "A",
+      "explanation_en": "Both A and R are true, and R is the correct explanation of A. The strict prohibition of cutting trees and hunting animals in the Bishnoi sect is direct obedience to the 29 principles laid down by Guru Jambheshwar, which emphasize environmental protection.",
+      "explanation_hi": "A और R दोनों सही हैं, और R, A की सही व्याख्या है। बिश्नोई संप्रदाय में पेड़ों को काटने और जानवरों के शिकार पर सख्त प्रतिबंध गुरु जम्भेश्वर द्वारा निर्धारित 29 सिद्धांतों का प्रत्यक्ष पालन है, जो पर्यावरण संरक्षण पर जोर देते हैं।"
+    },
+    {
+      "question_en": "Assertion (A): Sant Dadu Dayal visited Fatehpur Sikri in 1585 AD and engaged in theological discussions with the Mughal Emperor Akbar.\nReason (R): Sant Dadu Dayal was a strong proponent of Nirguna Bhakti and rejected idol worship and external rituals in religion.",
+      "question_hi": "कथन (A): संत दादू दयाल ने 1585 ई. में फतेहपुर सीकरी का दौरा किया और मुगल सम्राट अकबर के साथ धार्मिक चर्चा की।\nकारण (R): संत दादू दयाल निर्गुण भक्ति के प्रबल समर्थक थे और उन्होंने मूर्ति पूजा और धर्म में बाहरी कर्मकांडों को खारिज कर दिया था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "B",
+      "explanation_en": "Both A and R are true, but R is not the correct explanation of A. The meeting of Dadu with Akbar in 1585 AD was arranged by Raja Bhagwant Das. While it is true that Dadu preached Nirguna Bhakti, this philosophical stance was not the immediate causal reason for the invitation or meeting itself.",
+      "explanation_hi": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है। 1585 ई. में अकबर के साथ दादू की बैठक राजा भगवंत दास द्वारा आयोजित की गई थी। हालांकि यह सच है कि दादू ने निर्गुण भक्ति का उपदेश दिया था, लेकिन यह दार्शनिक दृष्टिकोण बैठक के आयोजन का तात्कालिक कारण नहीं था।"
+    },
+    {
+      "question_en": "Assertion (A): Sant Pipa Ji renounced his royal kingdom of Gagron and distributed his wealth to pursue a path of spiritual devotion.\nReason (R): Sant Pipa Ji became a prominent disciple of Sant Dadu Dayal and spread the Dadupanthi philosophy in the Hadoti region.",
+      "question_hi": "कथन (A): संत पीपा जी ने गागरोन के अपने शाही साम्राज्य का त्याग कर दिया और आध्यात्मिक भक्ति के मार्ग पर चलने के लिए अपनी संपत्ति वितरित कर दी।\nकारण (R): संत पीपा जी संत दादू दयाल के एक प्रमुख शिष्य बने और उन्होंने हाड़ौती क्षेत्र में दादू पंथी विचारधारा का प्रसार किया।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "C",
+      "explanation_en": "A is true, but R is false. Sant Pipa Ji was a Rajput ruler who abdicated, which makes A true. However, R is false because Sant Pipa Ji was a disciple of Ramanand, not Dadu Dayal, and he did not spread Dadupanthi philosophy.",
+      "explanation_hi": "A सही है, किन्तु R गलत है। संत पीपा जी एक राजपूत शासक थे जिन्होंने सिंहासन का त्याग किया था, जिससे कथन A सही है। हालाँकि, R गलत है क्योंकि संत पीपा जी रामानंद के शिष्य थे, न कि दादू दयाल के, और उन्होंने दादू पंथी दर्शन का प्रचार नहीं किया था।"
+    },
+    {
+      "question_en": "Assertion (A): Sant Mavji is recognized as the historical founder of the Niranjani Sampraday in the Vagad region of southern Rajasthan.\nReason (R): Sant Mavji wrote prophecies about the future in verse form, which are compiled in texts known as 'Chaupaiya'.",
+      "question_hi": "कथन (A): संत मावजी को दक्षिणी राजस्थान के वागड़ क्षेत्र में निरंजनी संप्रदाय के ऐतिहासिक संस्थापक के रूप में मान्यता प्राप्त है।\nकारण (R): संत मावजी ने पद्य रूप में भविष्य के बारे में भविष्यवाणियां लिखी थीं, जो 'चौपैया' के नाम से जाने जाने वाले ग्रंथों में संकलित हैं।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "D",
+      "explanation_en": "A is false, but R is true. Assertion A is false because Sant Haridas Ji (not Sant Mavji) founded the Niranjani Sampraday. Reason R is true as Sant Mavji composed future prophecies in verse form, known as Chopada or Chaupaiya.",
+      "explanation_hi": "A गलत है, किन्तु R सही है। कथन A गलत है क्योंकि संत हरिदास जी (संत मावजी नहीं) ने निरंजनी संप्रदाय की स्थापना की थी। कारण R सही है क्योंकि संत मावजी ने पद्य रूप में भविष्य की भविष्यवाणियां रची थीं, जिन्हें चोपड़ा या चौपैया कहा जाता है।"
+    },
+    {
+      "question_en": "Match the branches of the Ramsnehi Sampraday with their respective founders:\n| Column I (Branch) | Column II (Founder) |\n|---|---|\n| 1. Shahpura | a. Sant Haridas Ji |\n| 2. Reenwas | b. Sant Ram Das Ji |\n| 3. Singhthali | c. Sant Ramcharandas |\n| 4. Kheda | d. Sant Dariyav Ji |\nSelect the correct answer using the codes given below:",
+      "question_hi": "रामस्नेही संप्रदाय की शाखाओं को उनके संबंधित संस्थापकों से सुमेलित कीजिए:\n| कॉलम I (शाखा) | कॉलम II (संस्थापक) |\n|---|---|\n| 1. शाहपुरा | a. संत हरिदास जी |\n| 2. रीणवास | b. संत रामदास जी |\n| 3. सिंहथल | c. संत रामचरणदास |\n| 4. खेड़ा | d. संत दरियाव जी |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-c, 2-d, 3-a, 4-b",
+        "B": "1-d, 2-c, 3-b, 4-a",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-b, 2-d, 3-a, 4-c"
+      },
+      "options_hi": {
+        "A": "1-c, 2-d, 3-a, 4-b",
+        "B": "1-d, 2-c, 3-b, 4-a",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-b, 2-d, 3-a, 4-c"
+      },
+      "correct_option": "A",
+      "explanation_en": "The Shahpura branch was founded by Sant Ramcharan Ji (1-c). The Reenwas branch was founded by Sant Dariyav Ji (2-d). The Singhthali branch was founded by Sant Haridas Ji (3-a). The Kheda branch was founded by Sant Ram Das Ji (4-b).",
+      "explanation_hi": "शाहपुरा शाखा की स्थापना संत रामचरण जी (1-c) ने की थी। रीणवास शाखा की स्थापना संत दरियाव जी (2-d) ने की थी। सिंहथल शाखा की स्थापना संत हरिदास जी (3-a) ने की थी। खेड़ा शाखा की स्थापना संत रामदास जी (4-b) ने की थी।"
+    },
+    {
+      "question_en": "Match the following saints of Rajasthan with their birthplaces:\n| Column I (Saint) | Column II (Birthplace) |\n|---|---|\n| 1. Dadu Dayal | a. Pipasar |\n| 2. Jasnath Ji | b. Dehra |\n| 3. Jambhoji | c. Ahmedabad |\n| 4. Charandas Ji | d. Katariasar |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के निम्नलिखित संतों को उनके जन्मस्थान से सुमेलित कीजिए:\n| कॉलम I (संत) | कॉलम II (जन्मस्थान) |\n|---|---|\n| 1. दादू दयाल | a. पीपासर |\n| 2. जसनाथ जी | b. डेहरा |\n| 3. जाम्भोजी | c. अहमदाबाद |\n| 4. चरणदास जी | d. कतरियासर |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-c, 2-a, 3-d, 4-b",
+        "B": "1-c, 2-d, 3-a, 4-b",
+        "C": "1-d, 2-c, 3-b, 4-a",
+        "D": "1-a, 2-d, 3-c, 4-b"
+      },
+      "options_hi": {
+        "A": "1-c, 2-a, 3-d, 4-b",
+        "B": "1-c, 2-d, 3-a, 4-b",
+        "C": "1-d, 2-c, 3-b, 4-a",
+        "D": "1-a, 2-d, 3-c, 4-b"
+      },
+      "correct_option": "B",
+      "explanation_en": "Dadu Dayal was born in Ahmedabad (1-c). Jasnath Ji was born in Katariasar (2-d). Jambhoji was born in Pipasar (3-a). Charandas Ji was born in Dehra (4-b).",
+      "explanation_hi": "दादू दयाल का जन्म अहमदाबाद में हुआ था (1-c)। जसनाथ जी का जन्म कतरियासर में हुआ था (2-d)। जाम्भोजी का जन्म पीपासर में हुआ था (3-a)। चरणदास जी का जन्म डेहरा में हुआ था (4-b)।"
+    },
+    {
+      "question_en": "Match the following saints with their respective literary works:\n| Column I (Saint) | Column II (Literary Work) |\n|---|---|\n| 1. Sundardas | a. Daya Bodh |\n| 2. Rajjab Ji | b. Sahaj Prakash |\n| 3. Sahjo Bai | c. Gyan Samudar |\n| 4. Daya Bai | d. Sarbangi |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित संतों को उनके संबंधित साहित्यिक कार्यों से सुमेलित कीजिए:\n| कॉलम I (संत) | कॉलम II (साहित्यिक कार्य) |\n|---|---|\n| 1. सुंदरदास | a. दया बोध |\n| 2. रज्जब जी | b. सहज प्रकाश |\n| 3. सहजो बाई | c. ज्ञान समुद्र |\n| 4. दया बाई | d. सरबंगी |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-c, 2-b, 3-d, 4-a",
+        "B": "1-d, 2-c, 3-b, 4-a",
+        "C": "1-c, 2-d, 3-b, 4-a",
+        "D": "1-a, 2-d, 3-b, 4-c"
+      },
+      "options_hi": {
+        "A": "1-c, 2-b, 3-d, 4-a",
+        "B": "1-d, 2-c, 3-b, 4-a",
+        "C": "1-c, 2-d, 3-b, 4-a",
+        "D": "1-a, 2-d, 3-b, 4-c"
+      },
+      "correct_option": "C",
+      "explanation_en": "Sundardas composed Gyan Samudar (1-c). Rajjab Ji compiled Sarbangi (2-d). Sahjo Bai wrote Sahaj Prakash (3-b). Daya Bai wrote Daya Bodh (4-a).",
+      "explanation_hi": "सुंदरदास ने ज्ञान समुद्र की रचना की (1-c)। रज्जब जी ने सरबंगी का संकलन किया (2-d)। सहजो बाई ने सहज प्रकाश लिखा (3-b)। दया बाई ने दया बोध लिखा (4-a)।"
+    },
+    {
+      "question_en": "Match the following religious sects of Rajasthan with their primary seats/shrines:\n| Column I (Sect) | Column II (Seat/Shrine) |\n|---|---|\n| 1. Dadupanth | a. Mukam |\n| 2. Bishnoi | b. Katariasar |\n| 3. Jasnathi | c. Gadwasi |\n| 4. Niranjani | d. Narayana |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के निम्नलिखित धार्मिक संप्रदायों को उनकी प्राथमिक पीठों/तीर्थों से सुमेलित कीजिए:\n| कॉलम I (संप्रदाय) | कॉलम II (पीठ/तीर्थ) |\n|---|---|\n| 1. दादू पंथ | a. मुकाम |\n| 2. बिश्नोई | b. कतरियासर |\n| 3. जसनाथी | c. गाडवासी |\n| 4. निरंजनी | d. नारायणा |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-d, 2-c, 3-b, 4-a",
+        "B": "1-a, 2-d, 3-b, 4-c",
+        "C": "1-d, 2-b, 3-a, 4-c",
+        "D": "1-d, 2-a, 3-b, 4-c"
+      },
+      "options_hi": {
+        "A": "1-d, 2-c, 3-b, 4-a",
+        "B": "1-a, 2-d, 3-b, 4-c",
+        "C": "1-d, 2-b, 3-a, 4-c",
+        "D": "1-d, 2-a, 3-b, 4-c"
+      },
+      "correct_option": "D",
+      "explanation_en": "The main seat of Dadupanth is Narayana (1-d). The primary shrine of the Bishnoi sect is Mukam (2-a). The Jasnathi sect's main seat is Katariasar (3-b). The Niranjani sect's main seat is Gadwasi (4-c).",
+      "explanation_hi": "दादू पंथ की मुख्य पीठ नारायणा (1-d) है। बिश्नोई संप्रदाय का मुख्य तीर्थ मुकाम (2-a) है। जसनाथी संप्रदाय की मुख्य पीठ कतरियासर (3-b) है। निरंजनी संप्रदाय की मुख्य पीठ गाडवासी (4-c) है।"
+    }
+  ]
+}

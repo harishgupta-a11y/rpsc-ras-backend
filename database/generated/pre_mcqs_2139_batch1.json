@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Which of the following journals/newspapers published from Kanpur played the most instrumental role in raising the Bijolia Peasant Movement to a national level under the direction of Vijay Singh Pathik?",
+      "question_hi": "कानपुर से प्रकाशित होने वाले निम्नलिखित में से किस समाचार पत्र ने विजय सिंह पथिक के निर्देशन में बिजोलिया किसान आंदोलन को राष्ट्रीय स्तर पर उठाने में सबसे महत्वपूर्ण भूमिका निभाई थी?",
+      "options_en": {
+        "A": "Pratap",
+        "B": "Marwar Gazette",
+        "C": "Rajasthan Samachar",
+        "D": "Naveen Rajasthan"
+      },
+      "options_hi": {
+        "A": "प्रताप",
+        "B": "मारवाड़ गजट",
+        "C": "राजस्थान समाचार",
+        "D": "नवीन राजस्थान"
+      },
+      "correct_option": "A",
+      "explanation_en": "Under the leadership of Vijay Singh Pathik, the struggle of the Bijolia peasants was published extensively in the Hindi weekly 'Pratap' from Kanpur, edited by Ganesh Shankar Vidyarthi. This brought national attention to the movement, forcing the British and Mewar administrations to address the grievances of the farmers.",
+      "explanation_hi": "विजय सिंह पथिक के नेतृत्व में, बिजोलिया के किसानों के संघर्ष को गणेश शंकर विद्यार्थी द्वारा संपादित कानपुर के हिंदी साप्ताहिक पत्र 'प्रताप' में बड़े पैमाने पर प्रकाशित किया गया था। इसने आंदोलन को राष्ट्रीय स्तर पर पहचान दिलाई, जिससे ब्रिटिश और मेवाड़ प्रशासन किसानों की शिकायतों को दूर करने के लिए मजबूर हुए।"
+    },
+    {
+      "question_en": "During the Haripura Session of the Indian National Congress in 1938, which of the following developments occurred regarding the peasant movements in Rajasthan?",
+      "question_hi": "1938 में भारतीय राष्ट्रीय कांग्रेस के हरिपुरा अधिवेशन के दौरान, राजस्थान में किसान आंदोलनों के संबंध में निम्नलिखित में से कौन सा घटनाक्रम हुआ था?",
+      "options_en": {
+        "A": "The Congress officially raised the issues of peasant struggles and supported the demand for responsible government in princely states.",
+        "B": "Mahatma Gandhi withdrew his support from the Bijolia movement to prioritize the Civil Disobedience Movement.",
+        "C": "The Prajamitra Mandal was declared an unlawful organization by the British Raj.",
+        "D": "A resolution was passed to merge all peasant organizations of Rajputana into the All India Kisan Sabha."
+      },
+      "options_hi": {
+        "A": "कांग्रेस ने आधिकारिक तौर पर किसान संघर्षों के मुद्दों को उठाया और रियासतों में उत्तरदायी सरकार की मांग का समर्थन किया।",
+        "B": "महात्मा गांधी ने सविनय अवज्ञा आंदोलन को प्राथमिकता देने के लिए बिजोलिया आंदोलन से अपना समर्थन वापस ले लिया।",
+        "C": "ब्रिटिश राज द्वारा प्रजामित्र मंडल को एक गैर-कानूनी संगठन घोषित किया गया था।",
+        "D": "राजपूताना के सभी किसान संगठनों का अखिल भारतीय किसान सभा में विलय करने का प्रस्ताव पारित किया गया था।"
+      },
+      "correct_option": "A",
+      "explanation_en": "In the Haripura Session of 1938, presided over by Subhas Chandra Bose, the Congress passed a resolution supporting the movements of the people in the princely states of India, including Rajasthan, for democratic rights and agrarian reforms, boosting the morale of local Praja Mandals and peasant bodies.",
+      "explanation_hi": "सुभाष चंद्र बोस की अध्यक्षता में 1938 के हरिपुरा अधिवेशन में, कांग्रेस ने लोकतांत्रिक अधिकारों और कृषि सुधारों के लिए राजस्थान सहित भारत की रियासतों के लोगों के आंदोलनों का समर्थन करने वाला एक प्रस्ताव पारित किया, जिससे स्थानीय प्रजामंडलों और किसान निकायों का मनोबल बढ़ा।"
+    },
+    {
+      "question_en": "On which exact date did the Neemachana Massacre, which Mahatma Gandhi termed \"worse than Jallianwala Bagh\", take place in Rajasthan?",
+      "question_hi": "राजस्थान में किस सटीक तिथि को नीमूचाणा हत्याकांड हुआ था, जिसे महात्मा गांधी ने \"जलियांवाला बाग से भी वीभत्स\" कहा था?",
+      "options_en": {
+        "A": "14 June 1925",
+        "B": "15 May 1922",
+        "C": "12 April 1921",
+        "D": "30 October 1926"
+      },
+      "options_hi": {
+        "A": "14 जून 1925",
+        "B": "15 मई 1922",
+        "C": "12 अप्रैल 1921",
+        "D": "30 अक्टूबर 1926"
+      },
+      "correct_option": "A",
+      "explanation_en": "The Neemachana Massacre occurred on 14 June 1925 when State police opened fire on a peaceful gathering of peasants protesting against land revenue hikes. Mahatma Gandhi condemned the brutality, calling it double distilled Dyerism and worse than Jallianwala Bagh.",
+      "explanation_hi": "नीमूचाणा हत्याकांड 14 जून 1925 को हुआ था जब भू-राजस्व में वृद्धि का विरोध कर रहे किसानों की शांतिपूर्ण सभा पर राज्य पुलिस ने गोलियां चला दी थीं। महात्मा गांधी ने इस क्रूरता की निंदा करते हुए इसे दोहरा डायरवाद और जलियांवाला बाग से भी वीभत्स बताया था।"
+    },
+    {
+      "question_en": "What was the primary mandate of the \"Prajamitra Mandal\" formed by Vijay Singh Pathik in 1919 in the context of the Rajasthan peasant movements?",
+      "question_hi": "राजस्थान के किसान आंदोलनों के संदर्भ में 1919 में विजय सिंह पथिक द्वारा गठित \"प्रजामित्र मंडल\" का प्राथमिक जनादेश क्या था?",
+      "options_en": {
+        "A": "To organize armed resistance against the British residency in Mewar.",
+        "B": "To coordinate and channelize the grievances of the Bijolia peasants to national leaders and media.",
+        "C": "To demand the absolute merger of Rajputana princely states with British India.",
+        "D": "To establish cooperative banks for providing loans to the Dhakad community."
+      },
+      "options_hi": {
+        "A": "मेवाड़ में ब्रिटिश रेजीडेंसी के खिलाफ सशस्त्र प्रतिरोध का आयोजन करना।",
+        "B": "बिजोलिया के किसानों की शिकायतों को राष्ट्रीय नेताओं और मीडिया तक पहुंचाने और समन्वय करने के लिए।",
+        "C": "ब्रिटिश भारत के साथ राजपूताना रियासतों के पूर्ण विलय की मांग करना।",
+        "D": "धाकड़ समुदाय को ऋण प्रदान करने के लिए सहकारी बैंकों की स्थापना करना।"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Prajamitra Mandal was established in 1919 by Vijay Singh Pathik to serve as an organizational link, ensuring that the local struggles of Bijolia peasants were communicated effectively to the wider Indian nationalist leadership and national newspapers.",
+      "explanation_hi": "प्रजामित्र मंडल की स्थापना 1919 में विजय सिंह पथिक द्वारा एक संगठनात्मक कड़ी के रूप में की गई थी, ताकि यह सुनिश्चित किया जा सके कि बिजोलिया के किसानों के स्थानीय संघर्षों को व्यापक भारतीय राष्ट्रवादी नेतृत्व और राष्ट्रीय समाचार पत्रों तक प्रभावी ढंग से पहुँचाया जा सके।"
+    },
+    {
+      "question_en": "According to the chronological records of the Bijolia Peasant Movement, which key leader joined the struggle during its second phase starting around 1906/1916 to provide it a national organizational framework?",
+      "question_hi": "बिजोलिया किसान आंदोलन के कालानुक्रमिक अभिलेखों के अनुसार, कौन से प्रमुख नेता लगभग 1906/1916 से शुरू होने वाले इसके दूसरे चरण के दौरान संघर्ष में शामिल हुए ताकि इसे एक राष्ट्रीय संगठनात्मक ढांचा प्रदान किया जा सके?",
+      "options_en": {
+        "A": "Sadhu Sitaram Das",
+        "B": "Vijay Singh Pathik",
+        "C": "Baldev Ram Mirdha",
+        "D": "Narasinghdas Bhadani"
+      },
+      "options_hi": {
+        "A": "साधु सीताराम दास",
+        "B": "विजय सिंह पथिक",
+        "C": "बलदेव राम मिर्धा",
+        "D": "नरसिंहदास भदानी"
+      },
+      "correct_option": "B",
+      "explanation_en": "While Sadhu Sitaram Das initiated the movement, Vijay Singh Pathik (whose real name was Bhoop Singh) joined in the second phase, giving the movement national coverage, linking it to Lokmanya Tilak and Mahatma Gandhi.",
+      "explanation_hi": "जहाँ साधु सीताराम दास ने आंदोलन की शुरुआत की थी, वहीं विजय सिंह पथिक (जिनका वास्तविक नाम भूप सिंह था) इसके दूसरे चरण में शामिल हुए, जिससे आंदोलन को राष्ट्रीय कवरेज मिला और इसे लोकमान्य तिलक तथा महात्मा गांधी से जोड़ा गया।"
+    },
+    {
+      "question_en": "The \"Nangal Peasant Movement\" of 1913, which served as an early precursor to the peasant movements in Rajasthan, took place in which of the following princely states?",
+      "question_hi": "1913 का \"नांगल किसान आंदोलन\", जिसने राजस्थान में किसान आंदोलनों के प्रारंभिक अग्रदूत के रूप में कार्य किया, निम्नलिखित में से किस रियासत में हुआ था?",
+      "options_en": {
+        "A": "Mewar",
+        "B": "Bundi",
+        "C": "Alwar",
+        "D": "Marwar"
+      },
+      "options_hi": {
+        "A": "मेवाड़",
+        "B": "बूंदी",
+        "C": "अलवर",
+        "D": "मारवाड़"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Nangal Peasant Movement of 1913 occurred in the Nangal area of Bundi princely state. It was one of the earliest precursors to the organized peasant agitations against oppressive taxes and forced labour in Bundi.",
+      "explanation_hi": "1913 का नांगल किसान आंदोलन बूंदी रियासत के नांगल क्षेत्र में हुआ था। यह बूंदी में दमनकारी करों और बेगार के खिलाफ संगठित किसान आंदोलनों के शुरुआती अग्रदूतों में से एक था।"
+    },
+    {
+      "question_en": "The \"Neem ki Dhani\" massacre of 1925, which involved police firing on protesting farmers, is associated with which peasant movement of Rajasthan?",
+      "question_hi": "1925 का \"नीम की ढाणी\" हत्याकांड, जिसमें विरोध कर रहे किसानों पर पुलिस द्वारा गोलीबारी की गई थी, राजस्थान के किस किसान आंदोलन से संबंधित है?",
+      "options_en": {
+        "A": "Begun Peasant Movement",
+        "B": "Sikar Peasant Movement",
+        "C": "Mewat Peasant Movement in Alwar",
+        "D": "Bundi Peasant Movement"
+      },
+      "options_hi": {
+        "A": "बेगू किसान आंदोलन",
+        "B": "सीकर किसान आंदोलन",
+        "C": "अलवर का मेवात किसान आंदोलन",
+        "D": "बूंदी किसान आंदोलन"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Neem ki Dhani massacre of 1925 occurred in Alwar, where state forces opened fire on Meo Muslim peasants during their resistance against oppressive taxes and forced labor (begar).",
+      "explanation_hi": "1925 का नीम की ढाणी हत्याकांड अलवर में हुआ था, जहाँ दमनकारी करों और बेगार (जबरन श्रम) के खिलाफ उनके प्रतिरोध के दौरान राज्य बलों ने मेव मुस्लिम किसानों पर गोलियां चलाई थीं।"
+    },
+    {
+      "question_en": "Who among the following was the founder leader who initiated the first phase of the Bijolia Peasant Movement in 1897?",
+      "question_hi": "निम्नलिखित में से कौन से संस्थापक नेता थे जिन्होंने 1897 में बिजोलिया किसान आंदोलन के पहले चरण की शुरुआत की थी?",
+      "options_en": {
+        "A": "Vijay Singh Pathik",
+        "B": "Ramdas Garg",
+        "C": "Sadhu Sitaram Das",
+        "D": "Harlal Singh"
+      },
+      "options_hi": {
+        "A": "विजय सिंह पथिक",
+        "B": "रामदास गर्ग",
+        "C": "साधु सीताराम दास",
+        "D": "हरलाल सिंह"
+      },
+      "correct_option": "C",
+      "explanation_en": "The first phase of the Bijolia peasant movement was initiated in 1897 under the leadership of Sadhu Sitaram Das, a local saint who mobilized the Dhakad farmers against 84 types of taxes.",
+      "explanation_hi": "बिजोलिया किसान आंदोलन के पहले चरण की शुरुआत 1897 में स्थानीय साधु सीताराम दास के नेतृत्व में हुई थी, जिन्होंने 84 प्रकार के करों के खिलाफ धाकड़ किसानों को लामबंद किया था।"
+    },
+    {
+      "question_en": "Which of the following peasant movements in Rajasthan was specifically characterized by the mobilization of Meo Muslim peasants against heavy taxes and begar in 1932?",
+      "question_hi": "1932 में भारी करों और बेगार के खिलाफ मेव मुस्लिम किसानों की लामबंदी राजस्थान के निम्नलिखित में से किस किसान आंदोलन की विशिष्ट विशेषता थी?",
+      "options_en": {
+        "A": "Sikar Movement",
+        "B": "Bundi Movement",
+        "C": "Mewat Movement",
+        "D": "Begun Movement"
+      },
+      "options_hi": {
+        "A": "सीकर आंदोलन",
+        "B": "बूंदी आंदोलन",
+        "C": "मेवात आंदोलन",
+        "D": "बेगू आंदोलन"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Mewat Movement of 1932 in the Alwar-Bharatpur region was led by the Meo Muslim peasant community, protesting against heavy feudal taxes and forced unpaid labour (begar).",
+      "explanation_hi": "अलवर-भरतपुर क्षेत्र में 1932 का मेवात आंदोलन मेव मुस्लिम किसान समुदाय द्वारा संचालित किया गया था, जो भारी सामंती करों और बेगार (बिना भुगतान के जबरन श्रम) का विरोध कर रहे थे।"
+    },
+    {
+      "question_en": "The \"Shekhawati Kisan Panchayat\" and the \"Jat Prajapati Mahasabha\" were the main organizations behind the peasant uprisings in Sikar and Jhunjhunu. Which prominent leader was the primary organizer of these Jat peasant movements?",
+      "question_hi": "\"शेखावाटी किसान पंचायत\" और \"जाट प्रजापति महासभा\" सीकर और झुंझुनू में किसान विद्रोह के पीछे के मुख्य संगठन थे। इन जाट किसान आंदोलनों के प्राथमिक आयोजक कौन से प्रमुख नेता थे?",
+      "options_en": {
+        "A": "Baldev Ram Mirdha",
+        "B": "Chandmal Surana",
+        "C": "Narasinghdas Bhadani",
+        "D": "Sardar Harlal Singh"
+      },
+      "options_hi": {
+        "A": "बलदेव राम मिर्धा",
+        "B": "चांदमल सुराना",
+        "C": "नरसिंहदास भदानी",
+        "D": "सरदार हरलाल सिंह"
+      },
+      "correct_option": "D",
+      "explanation_en": "Sardar Harlal Singh was the major Jat leader who organized the peasants of Shekhawati, including Sikar, Jhunjhunu, and Churu. He worked through the Shekhawati Kisan Panchayat and Jat Prajapati Mahasabha to demand agrarian reforms.",
+      "explanation_hi": "सरदार हरलाल सिंह प्रमुख जाट नेता थे जिन्होंने सीकर, झुंझुनू और चूरू सहित शेखावाटी के किसानों को संगठित किया। उन्होंने कृषि सुधारों की मांग के लिए शेखावाटी किसान पंचायत और जाट प्रजापति महासभा के माध्यम से काम किया।"
+    },
+    {
+      "question_en": "What was the real name of Vijay Singh Pathik, the legendary leader of the Bijolia and Begun peasant movements, who is also known as 'Rajasthan's Gandhi'?",
+      "question_hi": "बिजोलिया और बेगू किसान आंदोलनों के महान नेता विजय सिंह पथिक का वास्तविक नाम क्या था, जिन्हें 'राजस्थान के गांधी' के रूप में भी जाना जाता है?",
+      "options_en": {
+        "A": "Ramdas Garg",
+        "B": "Chandmal Surana",
+        "C": "Harlal Singh",
+        "D": "Bhoop Singh"
+      },
+      "options_hi": {
+        "A": "रामदास गर्ग",
+        "B": "चांदमल सुराना",
+        "C": "हरलाल सिंह",
+        "D": "भूप सिंह"
+      },
+      "correct_option": "D",
+      "explanation_en": "The real name of Vijay Singh Pathik, who played a central role in organizing the Bijolia and Begun movements, was Bhoop Singh (or Bhupsingh).",
+      "explanation_hi": "बिजोलिया और बेगू आंदोलनों को संगठित करने में केंद्रीय भूमिका निभाने वाले विजय सिंह पथिक का वास्तविक नाम भूप सिंह था।"
+    },
+    {
+      "question_en": "In the context of the feudal economy of Rajasthan, which of the following terms correctly defines the tax \"Chawri\", which became a major source of resentment among the Bijolia peasants?",
+      "question_hi": "राजस्थान की सामंती अर्थव्यवस्था के संदर्भ में, निम्नलिखित में से कौन सा शब्द \"चँवरी\" कर को सही ढंग से परिभाषित करता है, जो बिजोलिया के किसानों के बीच भारी नाराजगी का एक बड़ा स्रोत बन गया था?",
+      "options_en": {
+        "A": "A tax imposed on the export of food grains during famines.",
+        "B": "A tax levied on the purchase of agricultural land.",
+        "C": "A tax on the ownership of cattle and pasture lands.",
+        "D": "A tax levied by the feudal lord on the marriage of a peasant's daughter."
+      },
+      "options_hi": {
+        "A": "अकाल के दौरान खाद्यान्न के निर्यात पर लगाया जाने वाला कर।",
+        "B": "कृषि भूमि की खरीद पर लगाया जाने वाला कर।",
+        "C": "मवेशियों और चरागाह भूमि के स्वामित्व पर लगाया जाने वाला कर।",
+        "D": "किसान की बेटी की शादी पर सामंती जागीरदार द्वारा लगाया जाने वाला कर।"
+      },
+      "correct_option": "D",
+      "explanation_en": "'Chawri' was a marriage tax introduced by the feudal lord of Bijolia, where a peasant had to pay a tax to the Thikana on the occasion of his daughter's marriage. This was highly resented and boycotted by the peasants.",
+      "explanation_hi": "'चँवरी' बिजोलिया के सामंती जागीरदार द्वारा लगाया गया एक विवाह कर था, जिसमें किसान को अपनी बेटी की शादी के अवसर पर ठिकाने को कर देना पड़ता था। किसानों द्वारा इसका कड़ा विरोध और बहिष्कार किया गया था।"
+    },
+    {
+      "question_en": "During the Begun Peasant Movement (1921-1925) in Chittorgarh, which local leader worked alongside Vijay Singh Pathik to organize the peasants against the feudal administration?",
+      "question_hi": "चित्तौड़गढ़ में बेगू किसान आंदोलन (1921-1925) के दौरान, किस स्थानीय नेता ने सामंती प्रशासन के खिलाफ किसानों को संगठित करने के लिए विजय सिंह पथिक के साथ मिलकर काम किया था?",
+      "options_en": {
+        "A": "Baldev Ram Mirdha",
+        "B": "Narasinghdas Bhadani",
+        "C": "Chandmal Surana",
+        "D": "Ramdas Garg"
+      },
+      "options_hi": {
+        "A": "बलदेव राम मिर्धा",
+        "B": "नरसिंहदास भदानी",
+        "C": "चांदमल सुराना",
+        "D": "रामदास गर्ग"
+      },
+      "correct_option": "D",
+      "explanation_en": "Ramdas Garg was the prominent local leader of the Begun movement who, along with Vijay Singh Pathik, mobilized the peasants of Chittorgarh district against the oppressive land revenue system and feudal taxes.",
+      "explanation_hi": "रामदास गर्ग बेगू आंदोलन के प्रमुख स्थानीय नेता थे, जिन्होंने विजय सिंह पथिक के साथ मिलकर दमनकारी भू-राजस्व प्रणाली और सामंती करों के खिलाफ चित्तौड़गढ़ जिले के किसानों को लामबंद किया था।"
+    },
+    {
+      "question_en": "Consider the following statements about the peasant resistance in Bundi:\n1. The Nangal Peasant Movement of 1913 in Bundi is considered one of the earliest precursors to the later Bundi Kisan Andolan.\n2. Narasinghdas Bhadani was the primary leader who mobilized peasants against the Bundi state's oppressive feudal practices.\n3. The Bundi peasant movement was primarily organized by the Jat Prajapati Mahasabha, which later shifted its base to Sikar.\nWhich of the statements given above is/are correct?",
+      "question_hi": "बूंदी में किसान प्रतिरोध के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. बूंदी में 1913 का नांगल किसान आंदोलन बाद के बूंदी किसान आंदोलन के सबसे शुरुआती अग्रदूतों में से एक माना जाता है।\n2. नरसिंहदास भदानी प्राथमिक नेता थे जिन्होंने बूंदी राज्य की दमनकारी सामंती प्रथाओं के खिलाफ किसानों को लामबंद किया था।\n3. बूंदी किसान आंदोलन मुख्य रूप से जाट प्रजापति महासभा द्वारा आयोजित किया गया था, जिसने बाद में अपना आधार सीकर स्थानांतरित कर दिया था।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statements 1 and 2 are correct. The Nangal movement of 1913 was indeed an early precursor led by Narasinghdas Bhadani in Bundi. Statement 3 is incorrect as the Jat Prajapati Mahasabha was associated with the Shekhawati/Sikar peasant movements, not Bundi.",
+      "explanation_hi": "कथन 1 और 2 सही हैं। 1913 का नांगल आंदोलन वास्तव में बूंदी में नरसिंहदास भदानी के नेतृत्व में एक प्रारंभिक अग्रदूत था। कथन 3 गलत है क्योंकि जाट प्रजापति महासभा का संबंध शेखावाटी/सीकर किसान आंदोलनों से था, न कि बूंदी से।"
+    },
+    {
+      "question_en": "Consider the following statements about the Bijolia peasant movement:\n1. The first phase of the Bijolia movement was initiated in 1897 under the leadership of Vijay Singh Pathik.\n2. The primary cultivators of the Bijolia Thikana belonged to the Dhakad community.\n3. The movement arose primarily due to the imposition of 84 types of illegal and oppressive taxes (Lag-Baag) by the feudal lords.\nWhich of the statements given above is/are correct?",
+      "question_hi": "बिजोलिया किसान आंदोलन के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. बिजोलिया आंदोलन का पहला चरण 1897 में विजय सिंह पथिक के नेतृत्व में शुरू हुआ था।\n2. बिजोलिया ठिकाने के प्राथमिक काश्तकार धाकड़ समुदाय से थे।\n3. यह आंदोलन मुख्य रूप से सामंती जमींदारों द्वारा 84 प्रकार के अवैध और दमनकारी करों (लाग-बाग) को लगाने के कारण उत्पन्न हुआ था।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because the first phase of the Bijolia movement (1897) was led by Sadhu Sitaram Das. Vijay Singh Pathik joined the movement during its second phase around 1915/1916. Statements 2 and 3 are correct as the Dhakad community was the primary cultivator and they faced 84 types of taxes.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि बिजोलिया आंदोलन के पहले चरण (1897) का नेतृत्व साधु सीताराम दास ने किया था। विजय सिंह पथिक लगभग 1915/1916 में इसके दूसरे चरण के दौरान आंदोलन में शामिल हुए थे। कथन 2 और 3 सही हैं क्योंकि धाकड़ समुदाय प्राथमिक काश्तकार था और उन्हें 84 प्रकार के करों का सामना करना पड़ा था।"
+    },
+    {
+      "question_en": "Consider the following statements about Mewat and Alwar peasant movements:\n1. The Mewat movement of 1932 was characterized by the active participation of Meo Muslim peasants against begar and heavy taxes.\n2. The Neemachana Massacre of June 1925 occurred in the Mewat region during the Mewat Peasant Movement.\n3. The Jat Prajapati Mahasabha was the main coordinating body for the Mewat peasant movement.\nWhich of the statements given above is/are correct?",
+      "question_hi": "मेवात और अलवर के किसान आंदोलनों के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. 1932 के मेवात आंदोलन की विशेषता बेगार और भारी करों के खिलाफ मेव मुस्लिम किसानों की सक्रिय भागीदारी थी।\n2. जून 1925 का नीमूचाणा हत्याकांड मेवात किसान आंदोलन के दौरान मेवात क्षेत्र में हुआ था।\n3. जाट प्रजापति महासभा मेवात किसान आंदोलन की मुख्य समन्वयकारी संस्था थी।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "C",
+      "explanation_en": "Statement 1 is correct as Meo Muslim peasants led the Mewat movement of 1932. Statement 2 is incorrect because the Neemachana Massacre occurred in 1925 in Alwar but is connected to the Alwar/Begun context, not the 1932 Mewat Movement. Statement 3 is incorrect as the Jat Prajapati Mahasabha operated in Shekhawati (Sikar/Jhunjhunu).",
+      "explanation_hi": "कथन 1 सही है क्योंकि मेव मुस्लिम किसानों ने 1932 के मेवात आंदोलन का नेतृत्व किया था। कथन 2 गलत है क्योंकि नीमूचाणा हत्याकांड 1925 में अलवर में हुआ था लेकिन यह अलवर/बेगू संदर्भ से जुड़ा है, न कि 1932 के मेवात आंदोलन से। कथन 3 गलत है क्योंकि जाट प्रजापति महासभा ने शेखावाटी (सीकर/झुंझुनू) में काम किया था।"
+    },
+    {
+      "question_en": "Consider the following statements about Shekhawati Peasant Movements:\n1. Sardar Harlal Singh was a prominent Jat leader who played a crucial role in organizing the Shekhawati peasant movements.\n2. The movements in Sikar (1934) and Jhunjhunu aimed at the abolition of forced labor (begar) and obtaining the right to purchase land.\n3. The Shekhawati Kisan Panchayat was one of the key organizations that coordinated the struggle against the local thikanas.\nWhich of the statements given above is/are correct?",
+      "question_hi": "शेखावाटी किसान आंदोलनों के बारे में निम्नलिखित कथनों पर विचार कीजिए:\n1. सरदार हरलाल सिंह एक प्रमुख जाट नेता थे जिन्होंने शेखावाटी किसान आंदोलनों को संगठित करने में महत्वपूर्ण भूमिका निभाई थी।\n2. सीकर (1934) और झुंझुनू के आंदोलनों का उद्देश्य बेगार (जबरन श्रम) को समाप्त करना और भूमि खरीदने का अधिकार प्राप्त करना था।\n3. शेखावाटी किसान पंचायत स्थानीय ठिकानों के खिलाफ संघर्ष का समन्वय करने वाले प्रमुख संगठनों में से एक थी।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All three statements are correct. Sardar Harlal Singh was a major leader, the demands included land purchase rights and abolition of begar, and the Shekhawati Kisan Panchayat was the central coordinating body.",
+      "explanation_hi": "तीनों कथन सही हैं। सरदार हरलाल सिंह एक प्रमुख नेता थे, मांगों में भूमि खरीद का अधिकार और बेगार उन्मूलन शामिल था, और शेखावाटी किसान पंचायत केंद्रीय समन्वय निकाय थी।"
+    },
+    {
+      "question_en": "Assertion (A): The Bijolia peasant movement is recognized as the longest-running non-violent peasant movement in India, spanning from 1897 to 1941.\nReason (R): The movement was sustained for 44 years due to the persistent refusal of the Dhakad cultivators to pay 84 types of oppressive feudal taxes (Lag-Baag) until a final settlement was reached with the Mewar state.",
+      "question_hi": "कथन (A): बिजोलिया किसान आंदोलन को भारत में सबसे लंबे समय तक चलने वाले अहिंसक किसान आंदोलन के रूप में मान्यता प्राप्त है, जो 1897 से 1941 तक चला था।\nकारण (R): मेवाड़ राज्य के साथ अंतिम समझौता होने तक 84 प्रकार के दमनकारी सामंती करों (लाग-बाग) का भुगतान करने के लिए धाकड़ काश्तकारों के लगातार इनकार के कारण यह आंदोलन 44 वर्षों तक जारी रहा।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "A",
+      "explanation_en": "Both A and R are true, and R is the correct explanation of A. The Bijolia movement lasted for 44 years (1897-1941) because the Dhakad community consistently organized against 84 types of illegal taxes and forced labour, leading to a long struggle that ended in 1941.",
+      "explanation_hi": "A और R दोनों सही हैं, और R, A की सही व्याख्या है। बिजोलिया आंदोलन 44 वर्षों (1897-1941) तक चला क्योंकि धाकड़ समुदाय ने 84 प्रकार के अवैध करों और बेगार के खिलाफ लगातार खुद को संगठित रखा, जिसके कारण एक लंबा संघर्ष हुआ जो 1941 में समाप्त हुआ।"
+    },
+    {
+      "question_en": "Assertion (A): Mahatma Gandhi actively supported the Bijolia peasant movement and sent an inquiry commission to assess the situation of the cultivators.\nReason (R): Ganesh Shankar Vidyarthi published news and articles highlighting the Bijolia struggle in his Kanpur-based weekly newspaper 'Pratap'.",
+      "question_hi": "कथन (A): महात्मा गांधी ने बिजोलिया किसान आंदोलन का सक्रिय रूप से समर्थन किया और काश्तकारों की स्थिति का आकलन करने के लिए एक जांच आयोग भेजा था।\nकारण (R): गणेश शंकर विद्यार्थी ने अपने कानपुर स्थित साप्ताहिक समाचार पत्र 'प्रताप' में बिजोलिया संघर्ष को रेखांकित करने वाले समाचार और लेख प्रकाशित किए थे।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "B",
+      "explanation_en": "Both statements are true. Mahatma Gandhi showed interest and sent an inquiry commission to study the grievances, while Ganesh Shankar Vidyarthi published reports in 'Pratap'. However, the publication in 'Pratap' is not the causal explanation of Gandhi's actions; rather, both are independent expressions of the nationalization of the Bijolia struggle.",
+      "explanation_hi": "दोनों कथन सही हैं। महात्मा गांधी ने गहरी रुचि दिखाई और किसानों की शिकायतों का अध्ययन करने के लिए एक जांच आयोग भेजा, जबकि गणेश शंकर विद्यार्थी ने 'प्रताप' में रिपोर्ट प्रकाशित की। हालाँकि, 'प्रताप' में प्रकाशन गांधी जी के कार्यों का कारण नहीं है; बल्कि, दोनों बिजोलिया संघर्ष के राष्ट्रीयकरण की स्वतंत्र अभिव्यक्ति हैं।"
+    },
+    {
+      "question_en": "Assertion (A): The Neemachana Massacre of 14 June 1925 is often referred to as 'Rajasthan's Jallianwala Bagh'.\nReason (R): The firing on the peaceful gathering of peasants was ordered by Baldev Ram Mirdha, the leading police officer of Mewar state.",
+      "question_hi": "कथन (A): 14 जून 1925 के नीमूचाणा हत्याकांड को अक्सर 'राजस्थान का जलियांवाला बाग' कहा जाता है।\nकारण (R): किसानों की शांतिपूर्ण सभा पर गोलीबारी का आदेश मेवाड़ राज्य के प्रमुख पुलिस अधिकारी बलदेव राम मिर्धा द्वारा दिया गया था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "C",
+      "explanation_en": "Assertion A is true; the Neemachana Massacre of 14 June 1925 is indeed known as Rajasthan's Jallianwala Bagh. Reason R is false because Baldev Ram Mirdha was not the police officer who ordered the firing; he was a prominent leader of the Marwar peasant movement, and the firing was executed by the state police.",
+      "explanation_hi": "कथन A सही है; 14 जून 1925 के नीमूचाणा हत्याकांड को वास्तव में राजस्थान का जलियांवाला बाग कहा जाता है। कारण R गलत है क्योंकि बलदेव राम मिर्धा गोलीबारी का आदेश देने वाले पुलिस अधिकारी नहीं थे; वह मारवाड़ किसान आंदोलन के एक प्रमुख नेता थे, और गोलीबारी राज्य पुलिस द्वारा की गई थी।"
+    },
+    {
+      "question_en": "Assertion (A): The Eki Movement was launched in Bundi in 1921 under the leadership of Ramdas Garg.\nReason (R): The Begun Peasant Movement (1921-1925) was initiated in Chittorgarh to protest against feudal oppression and was led by leaders like Vijay Singh Pathik.",
+      "question_hi": "कथन (A): एकी आंदोलन 1921 में रामदास गर्ग के नेतृत्व में बूंदी में शुरू किया गया था।\nकारण (R): बेगू किसान आंदोलन (1921-1925) चित्तौड़गढ़ में सामंती उत्पीड़न के विरोध में शुरू किया गया था और इसका नेतृत्व विजय सिंह पथिक जैसे नेताओं ने किया था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "D",
+      "explanation_en": "Assertion A is false because the Eki Movement was initiated by Motilal Tejawat in Mewar (not Ramdas Garg in Bundi). Reason R is true; the Begun Peasant Movement (1921-1925) took place in Chittorgarh against oppressive feudal systems, led by Ramdas Garg and Vijay Singh Pathik.",
+      "explanation_hi": "कथन A गलत है क्योंकि एकी आंदोलन की शुरुआत मोतीलाल तेजावत ने मेवाड़ में की थी (न कि बूंदी में रामदास गर्ग ने)। कारण R सही है; बेगू किसान आंदोलन (1921-1925) चित्तौड़गढ़ में दमनकारी सामंती व्यवस्था के खिलाफ हुआ था, जिसका नेतृत्व रामदास गर्ग और विजय सिंह पथिक ने किया था।"
+    },
+    {
+      "question_en": "Match the following peasant movements of Rajasthan with their key leaders:\n| Column I (Peasant Movement) | Column II (Key Leader) |\n|---|---|\n| 1. Bijolia | a. Vijay Singh Pathik |\n| 2. Begun | b. Ramdas Garg |\n| 3. Bundi | c. Narasinghdas Bhadani |\n| 4. Marwar | d. Baldev Ram Mirdha |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के निम्नलिखित किसान आंदोलनों को उनके प्रमुख नेताओं के साथ सुमेलित कीजिए:\n| कॉलम I (किसान आंदोलन) | कॉलम II (प्रमुख नेता) |\n|---|---|\n| 1. बिजोलिया | a. विजय सिंह पथिक |\n| 2. बेगू | b. रामदास गर्ग |\n| 3. बूंदी | c. नरसिंहदास भदानी |\n| 4. मारवाड़ | d. बलदेव राम मिर्धा |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "A",
+      "explanation_en": "The correct match is: Bijolia is associated with Vijay Singh Pathik; Begun with Ramdas Garg; Bundi with Narasinghdas Bhadani; and Marwar with Baldev Ram Mirdha.",
+      "explanation_hi": "सही सुमेलन है: बिजोलिया विजय सिंह पथिक से जुड़ा है; बेगू रामदास गर्ग से; बूंदी नरसिंहदास भदानी से; और मारवाड़ बलदेव राम मिर्धा से।"
+    },
+    {
+      "question_en": "Match the following peasant movements or precursor events in Rajasthan with their year of commencement:\n| Column I (Peasant Movement/Event) | Column II (Year of Commencement) |\n|---|---|\n| 1. Bijolia Peasant Movement | a. 1921 |\n| 2. Nangal Peasant Movement | b. 1897 |\n| 3. Begun Peasant Movement | c. 1926 |\n| 4. Bundi Kisan Andolan | d. 1913 |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान में निम्नलिखित किसान आंदोलनों या उनके अग्रदूत कार्यक्रमों को उनके प्रारंभ होने के वर्ष के साथ सुमेलित कीजिए:\n| कॉलम I (किसान आंदोलन/घटना) | कॉलम II (प्रारंभ होने का वर्ष) |\n|---|---|\n| 1. बिजोलिया किसान आंदोलन | a. 1921 |\n| 2. नांगल किसान आंदोलन | b. 1897 |\n| 3. बेगू किसान आंदोलन | c. 1926 |\n| 4. बूंदी किसान आंदोलन | d. 1913 |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-c, 3-b, 4-d",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-c, 2-b, 3-d, 4-a",
+        "D": "1-d, 2-a, 3-c, 4-b"
+      },
+      "options_hi": {
+        "A": "1-a, 2-c, 3-b, 4-d",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-c, 2-b, 3-d, 4-a",
+        "D": "1-d, 2-a, 3-c, 4-b"
+      },
+      "correct_option": "B",
+      "explanation_en": "The correct chronology is: Bijolia Peasant Movement began in 1897; Nangal Peasant Movement in Bundi in 1913; Begun Peasant Movement in 1921; and Bundi Kisan Andolan in 1926.",
+      "explanation_hi": "सही कालानुक्रम है: बिजोलिया किसान आंदोलन 1897 में शुरू हुआ; बूंदी में नांगल किसान आंदोलन 1913 में; बेगू किसान आंदोलन 1921 में; और बूंदी किसान आंदोलन 1926 में।"
+    },
+    {
+      "question_en": "Match the following regions/movements with their associated demographic or leadership characteristics:\n| Column I (Region/Thikana) | Column II (Key Leader/Organization) |\n|---|---|\n| 1. Shekhawati | a. Meo Muslim Peasants |\n| 2. Mewat | b. Dhakad Cultivators |\n| 3. Bijolia | c. Sardar Harlal Singh |\n| 4. Marwar | d. Chandmal Surana |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित क्षेत्रों/आंदोलनों को उनकी संबद्ध जनसांख्यिकी या नेतृत्व विशेषताओं के साथ सुमेलित कीजिए:\n| कॉलम I (क्षेत्र/ठिकाना) | कॉलम II (प्रमुख नेता/संगठन) |\n|---|---|\n| 1. शेखावाटी | a. मेव मुस्लिम किसान |\n| 2. मेवात | b. धाकड़ काश्तकार |\n| 3. बिजोलिया | c. सरदार हरलाल सिंह |\n| 4. मारवाड़ | d. चांदमल सुराना |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-d, 4-a",
+        "C": "1-c, 2-a, 3-b, 4-d",
+        "D": "1-d, 2-a, 3-c, 4-b"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-d, 4-a",
+        "C": "1-c, 2-a, 3-b, 4-d",
+        "D": "1-d, 2-a, 3-c, 4-b"
+      },
+      "correct_option": "C",
+      "explanation_en": "The correct match is: Shekhawati is associated with Jat leader Sardar Harlal Singh; Mewat with Meo Muslim Peasants; Bijolia with the Dhakad Cultivators; and Marwar with Chandmal Surana (who led the early 1923 Jodhpur movement).",
+      "explanation_hi": "सही सुमेलन है: शेखावाटी जाट नेता सरदार हरलाल सिंह से जुड़ी है; मेवात मेव मुस्लिम किसानों से; बिजोलिया धाकड़ काश्तकारों से; और मारवाड़ चांदमल सुराना से (जिन्होंने 1923 के प्रारंभिक जोधपुर आंदोलन का नेतृत्व किया था)।"
+    },
+    {
+      "question_en": "Match the following feudal estates (Thikanas) or massacre locations in Rajasthan with their corresponding modern-day districts:\n| Column I (Feudal Estate / Location) | Column II (District) |\n|---|---|\n| 1. Bijolia | a. Chittorgarh |\n| 2. Begun | b. Alwar |\n| 3. Neemachana | c. Bhilwara |\n| 4. Sikar | d. Sikar |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के निम्नलिखित सामंती ठिकानों या हत्याकांड स्थलों को उनके संबंधित आधुनिक जिलों के साथ सुमेलित कीजिए:\n| कॉलम I (सामंती ठिकाना / स्थान) | कॉलम II (जिला) |\n|---|---|\n| 1. बिजोलिया | a. चित्तौड़गढ़ |\n| 2. बेगू | b. अलवर |\n| 3. नीमूचाणा | c. भीलवाड़ा |\n| 4. सीकर | d. सीकर |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-c, 3-d, 4-b",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-c, 2-b, 3-a, 4-d",
+        "D": "1-c, 2-a, 3-b, 4-d"
+      },
+      "options_hi": {
+        "A": "1-a, 2-c, 3-d, 4-b",
+        "B": "1-b, 2-d, 3-a, 4-c",
+        "C": "1-c, 2-b, 3-a, 4-d",
+        "D": "1-c, 2-a, 3-b, 4-d"
+      },
+      "correct_option": "D",
+      "explanation_en": "The correct match is: Bijolia is in Bhilwara; Begun is in Chittorgarh; Neemachana village (associated with the 1925 massacre) is in Alwar; and Sikar is in Sikar district.",
+      "explanation_hi": "सही सुमेलन है: बिजोलिया भीलवाड़ा में है; बेगू चित्तौड़गढ़ में है; नीमूचाणा गाँव (1925 के हत्याकांड से जुड़ा) अलवर में है; और सीकर सीकर जिले में है।"
+    }
+  ]
+}

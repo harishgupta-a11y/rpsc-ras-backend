@@ -330,7 +330,7 @@ app.get('/api/syllabus', async (req, res) => {
 
 // --- Custom MCQ Quiz Generator Route (Gated, Strict No-Repeat Guard) ---
 app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
-    const { userId, topicIds, minuteTopicId, count, language, difficulty } = req.body;
+    const { userId, topicIds, minuteTopicId, count, language, difficulty, month, year } = req.body;
     const lang = language || req.headers['x-user-language'] || 'EN';
 
     if (!userId || ((!topicIds || !Array.isArray(topicIds) || topicIds.length === 0) && !minuteTopicId)) {
@@ -339,10 +339,12 @@ app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
 
     const questionCount = parseInt(count) || 10;
     const diff = difficulty || 'ALL';
+    const m = month ? parseInt(month) : null;
+    const y = year ? parseInt(year) : null;
 
     try {
-        console.log(`[Quiz Engine] Compiling ${questionCount} questions. Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${lang}`, `Difficulty: ${diff}`);
-        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId, diff);
+        console.log(`[Quiz Engine] Compiling ${questionCount} questions. Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${lang}`, `Difficulty: ${diff}`, `Month: ${m}`, `Year: ${y}`);
+        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId, diff, m, y);
 
         res.status(200).json({
             user_id: userId,
@@ -1957,14 +1959,105 @@ app.post('/api/admin/delete-file', async (req, res) => {
 app.get('/api/minute-topics', checkSubscription, async (req, res) => {
     const topicId = parseInt(req.query.topic_id);
     const language = req.query.language || 'EN';
+    const month = req.query.month ? parseInt(req.query.month) : null;
+    const year = req.query.year ? parseInt(req.query.year) : null;
     if (!topicId) {
         return res.status(400).json({ error: "Topic ID is required." });
     }
     try {
-        const minuteTopics = await db.getMinuteTopicsByTopic(topicId, language);
+        const minuteTopics = await db.getMinuteTopicsByTopic(topicId, language, month, year);
         res.status(200).json({ minuteTopics });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch minute topics: " + err.message });
+    }
+});
+
+app.get('/api/current-affairs/timeframes', async (req, res) => {
+    try {
+        const timeframes = await db.getCurrentAffairsTimeframes();
+        res.status(200).json({ timeframes });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch current affairs timeframes: " + err.message });
+    }
+});
+
+// Lazy-loaded, AI-compiled Flashcards Route
+app.get('/api/flashcards', checkSubscription, async (req, res) => {
+    const minuteTopicId = parseInt(req.query.minute_topic_id);
+    const language = req.query.language || 'EN';
+
+    if (!minuteTopicId) {
+        return res.status(400).json({ error: "Minute Topic ID is required." });
+    }
+
+    try {
+        // 1. Try to fetch already compiled flashcards from DB
+        let flashcards = await db.getFlashcardsBySubtopic(minuteTopicId, language);
+        
+        if (flashcards && flashcards.length > 0) {
+            console.log(`[Flashcard Engine] Loaded ${flashcards.length} cached flashcards for Subtopic ID ${minuteTopicId} (${language})`);
+            return res.status(200).json({ flashcards });
+        }
+
+        // 2. If missing, fetch the questions for this subtopic to summarize
+        const questions = await db.all("SELECT * FROM questions WHERE minute_topic_id = ? AND language = ?", [minuteTopicId, language]);
+        
+        if (!questions || questions.length === 0) {
+            console.log(`[Flashcard Engine] No questions available for Subtopic ID ${minuteTopicId} to compile`);
+            return res.status(200).json({ flashcards: [] });
+        }
+
+        // 3. Compile cards via Gemini AI Engine
+        console.log(`[Flashcard Engine] Compiling cards from ${questions.length} questions for Subtopic ID ${minuteTopicId} (${language})`);
+        const cards = await aiEngine.generateFlashcardsFromQuestions(questions);
+
+        if (cards && Array.isArray(cards)) {
+            // Save them into DB cache
+            for (const card of cards) {
+                if (card.front_text && card.back_text) {
+                    await db.insertFlashcard(minuteTopicId, language, card.front_text.trim(), card.back_text.trim());
+                }
+            }
+            // Fetch newly inserted records to get primary keys
+            flashcards = await db.getFlashcardsBySubtopic(minuteTopicId, language);
+        }
+
+        res.status(200).json({ flashcards: flashcards || [] });
+    } catch (err) {
+        console.error("[Flashcard Route Error]", err.message);
+        res.status(500).json({ error: "Failed to fetch/compile flashcards: " + err.message });
+    }
+});
+
+
+// Admin Route: Auto-Enrich Note with AI memory tricks, exam traps, and flowcharts
+app.post('/api/admin/enrich-note', async (req, res) => {
+    const { noteId } = req.body;
+    if (!noteId) {
+        return res.status(400).json({ error: "Note ID is required." });
+    }
+
+    try {
+        // Fetch note from database
+        const note = await db.get("SELECT * FROM revision_notes WHERE note_id = ?", [noteId]);
+        if (!note) {
+            return res.status(404).json({ error: "Note not found." });
+        }
+
+        console.log(`[AI Notes Enrichment] Enriching note ID ${noteId}: "${note.title}" via Gemini...`);
+        const enrichedText = await aiEngine.enrichRevisionNotes(note.content, note.title);
+
+        // Update database with enriched content
+        await db.run("UPDATE revision_notes SET content = ? WHERE note_id = ?", [enrichedText, noteId]);
+        
+        res.status(200).json({ 
+            message: "Note enriched successfully!", 
+            noteId: noteId,
+            content: enrichedText 
+        });
+    } catch (err) {
+        console.error("[Notes Enrichment Route Error]", err.message);
+        res.status(500).json({ error: "Failed to enrich note: " + err.message });
     }
 });
 
@@ -2290,6 +2383,8 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
     const examId = req.body.examId ? parseInt(req.body.examId) : null;
     const language = req.body.language || 'EN';
     const difficulty = req.body.difficulty || 'FOUNDATION';
+    const month = req.body.month ? parseInt(req.body.month) : null;
+    const year = req.body.year ? parseInt(req.body.year) : null;
     const gdocUrl = req.body.gdocUrl;
 
     if (!gdocUrl) {
@@ -2624,8 +2719,8 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 let successCount = 0;
                 for (const q of parsedQuestions) {
                     const tgt = resolvedTopicId || topicId;
-                    await db.run(`INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language, difficulty) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
-                        [tgt, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, minuteTopicId || null, language, difficulty]);
+                    await db.run(`INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language, difficulty, ca_month, ca_year) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+                        [tgt, q.question_text, q.option_a, q.option_b, q.option_c, q.option_d, q.correct_option, q.detailed_explanation, minuteTopicId || null, language, difficulty, month, year]);
                     successCount++;
                 }
                 console.log(`[GDoc Ingest] Ingested ${successCount} Pre MCQs.`);

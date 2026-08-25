@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Which committee or commission recommended the merger of the Abu-Delwara region (which had been transferred to Bombay State in 1950) back into Rajasthan during the final stage of integration in 1956?",
+      "question_hi": "1956 में एकीकरण के अंतिम चरण के दौरान, 1950 में बॉम्बे राज्य में स्थानांतरित किए गए आबू-दिलवाड़ा क्षेत्र को वापस राजस्थान में मिलाने की सिफारिश किस समिति या आयोग ने की थी?",
+      "options_en": {
+        "A": "Fazl Ali Commission",
+        "B": "Shankarrao Deo Committee",
+        "C": "Satyanarayan Rao Committee",
+        "D": "Dhar Commission"
+      },
+      "options_hi": {
+        "A": "फजल अली आयोग",
+        "B": "शंकरराव देव समिति",
+        "C": "सत्यनारायण राव समिति",
+        "D": "धर आयोग"
+      },
+      "correct_option": "A",
+      "explanation_en": "The States Reorganisation Commission, headed by Fazl Ali, recommended the merger of Abu-Delwara (previously merged into Bombay State in 1950) and Ajmer-Merwara back into Rajasthan. This was implemented under the States Reorganisation Act on 1 November 1956.",
+      "explanation_hi": "फजल अली की अध्यक्षता वाले राज्य पुनर्गठन आयोग ने आबू-दिलवाड़ा (जो 1950 में बॉम्बे राज्य में शामिल कर लिया गया था) और अजमेर-मेरवाड़ा को वापस राजस्थान में मिलाने की सिफारिश की थी। इसे 1 नवंबर 1956 को राज्य पुनर्गठन अधिनियम के तहत लागू किया गया था।"
+    },
+    {
+      "question_en": "Who facilitated the secret meeting between Maharaja Hanwant Singh of Jodhpur and Muhammad Ali Jinnah in New Delhi, where Jinnah offered a blank sheet of paper with his signature for Jodhpur's accession to Pakistan?",
+      "question_hi": "नई दिल्ली में जोधपुर के महाराजा हनवंत सिंह और मोहम्मद अली जिन्ना के बीच गुप्त बैठक की सुविधा किसने प्रदान की थी, जहाँ जिन्ना ने जोधपुर के पाकिस्तान में विलय के लिए अपने हस्ताक्षर के साथ एक खाली पन्ना दिया था?",
+      "options_en": {
+        "A": "Nawab Hamidullah Khan of Bhopal",
+        "B": "Sir Donald Field",
+        "C": "Maharaja Shardul Singh of Bikaner",
+        "D": "C.S. Venkatachar"
+      },
+      "options_hi": {
+        "A": "भोपाल के नवाब हमीदुल्ला खान",
+        "B": "सर डोनाल्ड फील्ड",
+        "C": "बीकानेर के महाराजा सार्दुल सिंह",
+        "D": "सी.एस. वेंकटाचार"
+      },
+      "correct_option": "A",
+      "explanation_en": "The Nawab of Bhopal, Hamidullah Khan, facilitated the meeting between Maharaja Hanwant Singh of Jodhpur and Muhammad Ali Jinnah. Jinnah offered tempting concessions, but the intervention of V.P. Menon and Sardar Patel ultimately led Jodhpur to sign the Instrument of Accession with India.",
+      "explanation_hi": "भोपाल के नवाब हमीदुल्ला खान ने जोधपुर के महाराजा हनवंत सिंह और मोहम्मद अली जिन्ना के बीच बैठक की व्यवस्था की थी। जिन्ना ने आकर्षक रियायतों की पेशकश की थी, लेकिन अंततः वी.पी. मेनन और सरदार पटेल के हस्तक्षेप के कारण जोधपुर ने भारत के साथ विलय पत्र पर हस्ताक्षर किए।"
+    },
+    {
+      "question_en": "Who was the Prime Minister (Pradhan Mantri) of the Matsya Union, which was formed during the first phase of the integration of Rajasthan?",
+      "question_hi": "राजस्थान के एकीकरण के पहले चरण के दौरान गठित मत्स्य संघ के प्रधानमंत्री कौन थे?",
+      "options_en": {
+        "A": "Shobha Ram Kumawat",
+        "B": "Gokul Lal Asawa",
+        "C": "Manikya Lal Verma",
+        "D": "Heeralal Shastri"
+      },
+      "options_hi": {
+        "A": "शोभाराम कुमावत",
+        "B": "गोकुल लाल असावा",
+        "C": "माणिक्य लाल वर्मा",
+        "D": "हीरालाल शास्त्री"
+      },
+      "correct_option": "A",
+      "explanation_en": "Shobha Ram Kumawat of Alwar was appointed as the Prime Minister (Pradhan Mantri) of the Matsya Union upon its formation on 17 March 1948.",
+      "explanation_hi": "17 मार्च 1948 को मत्स्य संघ के गठन के समय अलवर के शोभाराम कुमावत को इसका प्रधानमंत्री नियुक्त किया गया था।"
+    },
+    {
+      "question_en": "The merger of the Matsya Union into Greater Rajasthan during the fifth phase (15 May 1949) was executed based on the recommendations of which of the following committees?",
+      "question_hi": "पांचवें चरण (15 मई 1949) के दौरान मत्स्य संघ का वृहत् राजस्थान में विलय निम्नलिखित में से किस समिति की सिफारिशों के आधार पर किया गया था?",
+      "options_en": {
+        "A": "Satyanarayan Rao Committee",
+        "B": "Shankarrao Deo Committee",
+        "C": "V.P. Menon Committee",
+        "D": "K.M. Munshi Committee"
+      },
+      "options_hi": {
+        "A": "सत्यनारायण राव समिति",
+        "B": "शंकरराव देव समिति",
+        "C": "वी.पी. मेनन समिति",
+        "D": "के.एम. मुंशी समिति"
+      },
+      "correct_option": "B",
+      "explanation_en": "The three-member Shankarrao Deo Committee (including Shankarrao Deo, R.K. Sidhwa, and Prabhu Dayal Himatsingka) was appointed to ascertain public opinion in Dholpur and Bharatpur regarding their merger with either Rajasthan or Uttar Pradesh. The committee recommended merging them with Rajasthan.",
+      "explanation_hi": "धौलपुर और भरतपुर के लोगों की राय जानने के लिए तीन सदस्यीय शंकरराव देव समिति (जिसमें शंकरराव देव, आर.के. सिधवा और प्रभु दयाल हिमतसिंगका शामिल थे) का गठन किया गया था कि वे राजस्थान या उत्तर प्रदेश में से किसमें मिलना चाहते हैं। समिति ने उन्हें राजस्थान में विलय करने की सिफारिश की थी।"
+    },
+    {
+      "question_en": "During the integration process, which ruler famously stated, 'I am signing my death warrant,' while signing the Instrument of Accession to the Indian Union?",
+      "question_hi": "एकीकरण प्रक्रिया के दौरान, किस शासक ने भारतीय संघ में विलय पत्र पर हस्ताक्षर करते समय प्रसिद्ध रूप से कहा था, 'मैं अपने डेथ वारंट (मृत्यु वारंट) पर हस्ताक्षर कर रहा हूँ'?",
+      "options_en": {
+        "A": "Maharaja Uday Bhan Singh of Dholpur",
+        "B": "Maharawal Chandra Veer Singh of Banswara",
+        "C": "Maharaja Hanwant Singh of Jodhpur",
+        "D": "Maharana Bhopal Singh of Mewar"
+      },
+      "options_hi": {
+        "A": "धौलपुर के महाराजा उदय भान सिंह",
+        "B": "बांसवाड़ा के महारावल चंद्रवीर सिंह",
+        "C": "जोधपुर के महाराजा हनवंत सिंह",
+        "D": "मेवाड़ के महाराणा भोपाल सिंह"
+      },
+      "correct_option": "B",
+      "explanation_en": "Maharawal Chandra Veer Singh of Banswara made this famous statement while signing the Instrument of Accession during the formation of the second phase (Rajasthan Union) on 25 March 1948.",
+      "explanation_hi": "बांसवाड़ा के महारावल चंद्रवीर सिंह ने 25 मार्च 1948 को दूसरे चरण (राजस्थान संघ) के गठन के दौरान विलय पत्र पर हस्ताक्षर करते समय यह प्रसिद्ध बयान दिया था।"
+    },
+    {
+      "question_en": "On which date is 'Rajasthan Diwas' (Rajasthan Day) celebrated every year to commemorate the formation of Greater Rajasthan?",
+      "question_hi": "वृहत् राजस्थान के गठन की स्मृति में हर वर्ष किस तिथि को 'राजस्थान दिवस' मनाया जाता है?",
+      "options_en": {
+        "A": "17 March",
+        "B": "30 March",
+        "C": "15 May",
+        "D": "1 November"
+      },
+      "options_hi": {
+        "A": "17 मार्च",
+        "B": "30 मार्च",
+        "C": "15 मई",
+        "D": "1 नवंबर"
+      },
+      "correct_option": "B",
+      "explanation_en": "Rajasthan Diwas is celebrated on 30 March to commemorate the establishment of Greater Rajasthan on 30 March 1949, which marked the integration of major states like Jaipur, Jodhpur, Bikaner, and Jaisalmer.",
+      "explanation_hi": "30 मार्च 1949 को वृहत् राजस्थान (जिसमें जयपुर, जोधपुर, बीकानेर और जैसलमेर जैसी बड़ी रियासतों का विलय हुआ था) की स्थापना के उपलक्ष्य में हर वर्ष 30 मार्च को राजस्थान दिवस मनाया जाता है।"
+    },
+    {
+      "question_en": "Under the recommendations of the B. Satyanarayan Rao Committee appointed during the formation of Greater Rajasthan, which of the following pairs of department allocation is NOT correctly matched?",
+      "question_hi": "वृहत् राजस्थान के गठन के दौरान नियुक्त बी. सत्यनारायण राव समिति की सिफारिशों के तहत, विभाग आवंटन का निम्नलिखित में से कौन सा युग्म सही सुमेलित नहीं है?",
+      "options_en": {
+        "A": "High Court – Jodhpur",
+        "B": "Education Department – Bikaner",
+        "C": "Forest Department – Udaipur",
+        "D": "Cooperative & Agriculture Department – Bharatpur"
+      },
+      "options_hi": {
+        "A": "उच्च न्यायालय – जोधपुर",
+        "B": "शिक्षा विभाग – बीकानेर",
+        "C": "वन विभाग – उदयपुर",
+        "D": "सहकारी एवं कृषि विभाग – भरतपुर"
+      },
+      "correct_option": "C",
+      "explanation_en": "Under the Satyanarayan Rao Committee's recommendations, the Forest Department was allocated to Kota, while Udaipur was allocated the Mining and Mineral Department.",
+      "explanation_hi": "सत्यनारायण राव समिति की सिफारिशों के तहत, वन विभाग कोटा को आवंटित किया गया था, जबकि उदयपुर को खनिज और खनन विभाग आवंटित किया गया था।"
+    },
+    {
+      "question_en": "Which legendary freedom fighter and leader from Rajasthan, often called the 'Gandhi of Rajasthan,' led the popular agitation against the decision to merge the Abu-Delwara region of Sirohi with Bombay State?",
+      "question_hi": "राजस्थान के किस प्रसिद्ध स्वतंत्रता सेनानी और नेता ने, जिन्हें अक्सर 'राजस्थान का गांधी' कहा जाता है, सिरोही के आबू-दिलवाड़ा क्षेत्र को बॉम्बे राज्य में मिलाने के निर्णय के खिलाफ जन आंदोलन का नेतृत्व किया था?",
+      "options_en": {
+        "A": "Hiralal Shastri",
+        "B": "Manikya Lal Verma",
+        "C": "Gokulbhai Bhatt",
+        "D": "Gokul Lal Asawa"
+      },
+      "options_hi": {
+        "A": "हीरालाल शास्त्री",
+        "B": "माणिक्य लाल वर्मा",
+        "C": "गोकुलभाई भट्ट",
+        "D": "गोकुल लाल असावा"
+      },
+      "correct_option": "C",
+      "explanation_en": "Gokulbhai Bhatt, known as the 'Gandhi of Rajasthan,' hailed from Sirohi and led a massive public protest when Abu and Delwara were separated from Sirohi and merged into Bombay State in 1950.",
+      "explanation_hi": "'राजस्थान के गांधी' के रूप में जाने जाने वाले गोकुलभाई भट्ट सिरोही के रहने वाले थे और उन्होंने 1950 में सिरोही से आबू और दिलवाड़ा को अलग कर बॉम्बे राज्य में मिलाए जाने पर एक बड़ा जन आंदोलन खड़ा किया था।"
+    },
+    {
+      "question_en": "Who was the Prime Minister (Pradhan Mantri) of the United State of Rajasthan (Phase 3), which was formed on 18 April 1948 by merging Udaipur (Mewar)?",
+      "question_hi": "18 अप्रैल 1948 को उदयपुर (मेवाड़) के विलय से गठित संयुक्त राजस्थान (तृतीय चरण) के प्रधानमंत्री कौन थे?",
+      "options_en": {
+        "A": "Shobha Ram Kumawat",
+        "B": "Gokul Lal Asawa",
+        "C": "Manikya Lal Verma",
+        "D": "Heeralal Shastri"
+      },
+      "options_hi": {
+        "A": "शोभाराम कुमावत",
+        "B": "गोकुल लाल असावा",
+        "C": "माणिक्य लाल वर्मा",
+        "D": "हीरालाल शास्त्री"
+      },
+      "correct_option": "C",
+      "explanation_en": "Manikya Lal Verma was appointed as the Prime Minister of the United State of Rajasthan in the third phase of integration when Udaipur merged on 18 April 1948.",
+      "explanation_hi": "18 अप्रैल 1948 को उदयपुर के विलय के समय एकीकरण के तीसरे चरण में माणिक्य लाल वर्मा को संयुक्त राजस्थान का प्रधानमंत्री नियुक्त किया गया था।"
+    },
+    {
+      "question_en": "According to the criteria established by the States Ministry (Riyasati Vibhag) of India, what were the minimum annual revenue and population requirements for a princely state to maintain its independent status?",
+      "question_hi": "भारत सरकार के रियासती विभाग द्वारा स्थापित मानदंडों के अनुसार, किसी रियासत को अपना स्वतंत्र अस्तित्व बनाए रखने के लिए न्यूनतम वार्षिक राजस्व और जनसंख्या की क्या आवश्यकताएँ थीं?",
+      "options_en": {
+        "A": "Annual revenue of Rs. 50 lakhs and population of 5 lakhs",
+        "B": "Annual revenue of Rs. 1 crore and population of 5 lakhs",
+        "C": "Annual revenue of Rs. 50 lakhs and population of 10 lakhs",
+        "D": "Annual revenue of Rs. 1 crore and population of 10 lakhs"
+      },
+      "options_hi": {
+        "A": "वार्षिक राजस्व 50 लाख रुपये और जनसंख्या 5 लाख",
+        "B": "वार्षिक राजस्व 1 करोड़ रुपये और जनसंख्या 5 लाख",
+        "C": "वार्षिक राजस्व 50 लाख रुपये और जनसंख्या 10 लाख",
+        "D": "वार्षिक राजस्व 1 करोड़ रुपये और जनसंख्या 10 लाख"
+      },
+      "correct_option": "D",
+      "explanation_en": "The States Ministry led by Sardar Patel declared that only states with an annual revenue of Rs. 1 crore or more and a population of 10 lakhs or more could remain independent. In Rajasthan, only Jaipur, Jodhpur, Mewar, and Bikaner qualified.",
+      "explanation_hi": "सरदार पटेल के नेतृत्व वाले रियासती विभाग ने घोषणा की थी कि केवल 1 करोड़ रुपये या उससे अधिक के वार्षिक राजस्व और 10 लाख या उससे अधिक की जनसंख्या वाले राज्य ही स्वतंत्र रह सकते हैं। राजस्थान में केवल जयपुर, जोधपुर, मेवाड़ और बीकानेर ही इसके योग्य थे।"
+    },
+    {
+      "question_en": "Which of the following chiefships (Thikana) was merged into the Jaipur State in July 1948 before eventually becoming part of Greater Rajasthan in the fourth phase?",
+      "question_hi": "निम्नलिखित में से किस ठिकाने का जुलाई 1948 में जयपुर राज्य में विलय कर दिया गया था, जिसके बाद वह चौथे चरण में वृहत् राजस्थान का हिस्सा बन गया?",
+      "options_en": {
+        "A": "Neemrana",
+        "B": "Kushalgarh",
+        "C": "Shahpura",
+        "D": "Lava"
+      },
+      "options_hi": {
+        "A": "नीमराना",
+        "B": "कुशलगढ़",
+        "C": "शाहपुरा",
+        "D": "लावा"
+      },
+      "correct_option": "D",
+      "explanation_en": "Lava Chiefship was declared part of Jaipur State by the Government of India in July 1948. It integrated into Greater Rajasthan along with Jaipur on 30 March 1949. Neemrana joined the Matsya Union in Phase 1, and Kushalgarh joined the Rajasthan Union in Phase 2.",
+      "explanation_hi": "लावा ठिकाने को जुलाई 1948 में भारत सरकार द्वारा जयपुर राज्य का हिस्सा घोषित किया गया था। यह 30 मार्च 1949 को जयपुर के साथ वृहत् राजस्थान में एकीकृत हो गया था। नीमराना प्रथम चरण में मत्स्य संघ में शामिल हुआ था, और कुशलगढ़ द्वितीय चरण में राजस्थान संघ में शामिल हुआ था।"
+    },
+    {
+      "question_en": "Who inaugurated the first stage (Matsya Union) and the second stage (Rajasthan Union) of the integration of Rajasthan?",
+      "question_hi": "राजस्थान के एकीकरण के प्रथम चरण (मत्स्य संघ) और द्वितीय चरण (राजस्थान संघ) का उद्घाटन किसने किया था?",
+      "options_en": {
+        "A": "Sardar Vallabhbhai Patel",
+        "B": "Jawaharlal Nehru",
+        "C": "Lord Mountbatten",
+        "D": "N.V. Gadgil"
+      },
+      "options_hi": {
+        "A": "सरदार वल्लभभाई पटेल",
+        "B": "जवाहरलाल नेहरू",
+        "C": "लॉर्ड माउंटबेटन",
+        "D": "एन.वी. गाडगिल"
+      },
+      "correct_option": "D",
+      "explanation_en": "Narhar Vishnu Gadgil (N.V. Gadgil), the Union Minister for Works, Mines, and Power, inaugurated the Matsya Union on 17 March 1948 and the Rajasthan Union on 25 March 1948.",
+      "explanation_hi": "केंद्रीय कार्य, खान और बिजली मंत्री नरहर विष्णु गाडगिल (एन.वी. गाडगिल) ने 17 मार्च 1948 को मत्स्य संघ और 25 मार्च 1948 को राजस्थान संघ का उद्घाटन किया था।"
+    },
+    {
+      "question_en": "At the time of the final reorganisation of Rajasthan on 1 November 1956, who became the Chief Minister of the state, serving during this crucial transition period?",
+      "question_hi": "1 नवंबर 1956 को राजस्थान के अंतिम पुनर्गठन के समय, इस महत्वपूर्ण संक्रमण काल के दौरान राज्य के मुख्यमंत्री कौन बने?",
+      "options_en": {
+        "A": "Heeralal Shastri",
+        "B": "Tikaram Paliwal",
+        "C": "Jai Narayan Vyas",
+        "D": "Mohanlal Sukhadia"
+      },
+      "options_hi": {
+        "A": "हीरालाल शास्त्री",
+        "B": "टीकाराम पालीवाल",
+        "C": "जय नारायण व्यास",
+        "D": "मोहनलाल सुखाड़िया"
+      },
+      "correct_option": "D",
+      "explanation_en": "Mohanlal Sukhadia became the Chief Minister of Rajasthan in 1954 and was the serving Chief Minister when the final integration was completed on 1 November 1956.",
+      "explanation_hi": "मोहनलाल सुखाड़िया 1954 में राजस्थान के मुख्यमंत्री बने थे और 1 नवंबर 1956 को अंतिम एकीकरण पूरा होने के समय कार्यरत मुख्यमंत्री थे।"
+    },
+    {
+      "question_en": "Consider the following statements about the Matsya Union (Phase 1):\n1. The name 'Matsya Union' was proposed by K.M. Munshi after the ancient Mahajanapada that existed in the region.\n2. Maharaja Uday Bhan Singh of Dholpur was made the Rajpramukh, while the capital of the union was established at Alwar.\n3. The Matsya Union was inaugurated at the Alwar Fort by the Union Minister N.V. Gadgil.\nWhich of the statements given above is/are correct?",
+      "question_hi": "मत्स्य संघ (प्रथम चरण) के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. 'मत्स्य संघ' नाम के.एम. मुंशी द्वारा इस क्षेत्र में मौजूद प्राचीन महाजनपद के नाम पर प्रस्तावित किया गया था।\n2. धौलपुर के महाराजा उदय भान सिंह को राजप्रमुख बनाया गया था, जबकि संघ की राजधानी अलवर में स्थापित की गई थी।\n3. मत्स्य संघ का उद्घाटन केंद्रीय मंत्री एन.वी. गाडगिल द्वारा अलवर के किले में किया गया था।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statements 1 and 2 are correct. The Matsya Union was inaugurated at the Lohagarh Fort (Bharatpur Fort), not Alwar Fort, which makes statement 3 incorrect.",
+      "explanation_hi": "कथन 1 और 2 सही हैं। मत्स्य संघ का उद्घाटन लोहागढ़ किले (भरतपुर किले) में किया गया था, न कि अलवर किले में, जिससे कथन 3 गलत हो जाता है।"
+    },
+    {
+      "question_en": "Consider the following statements about the formation of the United State of Rajasthan (Phase 3):\n1. The Rajputana Union (Phase 2) rulers refused to merge with Mewar unless Mewar's Maharana accepted Bhim Singh of Kota as the Rajpramukh.\n2. Maharana Bhopal Singh of Mewar demanded an annual privy purse of Rs. 20 lakhs, out of which Rs. 5 lakhs was designated as his Rajpramukh allowance and Rs. 5 lakhs for religious activities.\n3. The United State of Rajasthan was formally inaugurated by Prime Minister Jawaharlal Nehru on 18 April 1948 in Udaipur.\nWhich of the statements given above is/are correct?",
+      "question_hi": "संयुक्त राजस्थान (तृतीय चरण) के गठन के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. राजपूताना संघ (द्वितीय चरण) के शासकों ने मेवाड़ के साथ विलय करने से इनकार कर दिया जब तक कि मेवाड़ के महाराणा ने कोटा के भीम सिंह को राजप्रमुख के रूप में स्वीकार नहीं कर लिया।\n2. मेवाड़ के महाराणा भोपाल सिंह ने 20 लाख रुपये के वार्षिक प्रिवी पर्स की मांग की, जिसमें से 5 लाख रुपये उनके राजप्रमुख भत्ते के रूप में और 5 लाख रुपये धार्मिक गतिविधियों के लिए निर्दिष्ट थे।\n3. संयुक्त राजस्थान का औपचारिक उद्घाटन प्रधानमंत्री जवाहरलाल नेहरू द्वारा 18 अप्रैल 1948 को उदयपुर में किया गया था।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because the integration of Mewar did not face such refusal from other rulers. Statements 2 and 3 are correct: Bhopal Singh agreed to the merger under specific conditions of 20 lakhs total (10 lakhs privy purse, 5 lakhs Rajpramukh allowance, 5 lakhs religious fund), and the union was inaugurated by Nehru in Udaipur on 18 April 1948.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि मेवाड़ के एकीकरण को अन्य शासकों के ऐसे किसी विरोध का सामना नहीं करना पड़ा था। कथन 2 और 3 सही हैं: भोपाल सिंह कुल 20 लाख रुपये (10 लाख प्रिवी पर्स, 5 लाख राजप्रमुख भत्ता, 5 लाख धार्मिक निधि) की विशिष्ट शर्तों के तहत विलय पर सहमत हुए थे, और संघ का उद्घाटन नेहरू द्वारा 18 अप्रैल 1948 को उदयपुर में किया गया था।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the integration of Sirohi in Rajasthan:\n1. On 26 January 1950, the princely state of Sirohi was divided, with the Abu and Delwara tehsils being merged into Bombay State, while the rest of Sirohi was merged into Rajasthan.\n2. The division of Sirohi was done with the complete agreement and written consent of the Sirohi Rajya Prajamandal.\n3. Maharaja Man Singh II of Jaipur was replaced by Gurmukh Nihal Singh as the Governor of Rajasthan in this phase.\nWhich of the statements given above is/are correct?",
+      "question_hi": "राजस्थान में सिरोही के एकीकरण के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. 26 जनवरी 1950 को सिरोही रियासत का विभाजन किया गया, जिसमें आबू और दिलवाड़ा तहसीलों को बॉम्बे राज्य में मिला दिया गया, जबकि शेष सिरोही को राजस्थान में मिला दिया गया।\n2. सिरोही का विभाजन सिरोही राज्य प्रजामंडल की पूर्ण सहमति और लिखित सहमति से किया गया था।\n3. इस चरण में जयपुर के महाराजा मान सिंह द्वितीय के स्थान पर गुरुमुख निहाल सिंह को राजस्थान का राज्यपाल बनाया गया।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "C",
+      "explanation_en": "Statement 1 is correct. Sirohi was divided, and Abu-Delwara tehsils were merged into Bombay on 26 January 1950. Statement 2 is incorrect because the Sirohi Prajamandal, led by Gokulbhai Bhatt, strongly opposed this partition. Statement 3 is incorrect because the Governor's office was created on 1 November 1956, and Man Singh II served as Rajpramukh until then.",
+      "explanation_hi": "कथन 1 सही है। 26 जनवरी 1950 को सिरोही का विभाजन किया गया और आबू-दिलवाड़ा तहसीलों को बॉम्बे में मिला दिया गया। कथन 2 गलत है क्योंकि गोकुलभाई भट्ट के नेतृत्व में सिरोही प्रजामंडल ने इस विभाजन का कड़ा विरोध किया था। कथन 3 गलत है क्योंकि राज्यपाल का पद 1 नवंबर 1956 को बनाया गया था, और मान सिंह द्वितीय तब तक राजप्रमुख के रूप में कार्यरत रहे।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the final stage of Rajasthan's integration on 1 November 1956:\n1. The centrally administered territory of Ajmer-Merwara was merged into Rajasthan, ending its separate status as a Part 'C' State.\n2. The Sunel Tappa region of Bhanpura tehsil of Mandsaur district (Madhya Pradesh) was merged into Rajasthan, while Sironj sub-division of Kota district was handed over to Madhya Pradesh.\n3. The post of Rajpramukh was abolished under the 7th Constitutional Amendment Act, and the office of Governor (Rajyapal) was created.\nWhich of the statements given above is/are correct?",
+      "question_hi": "1 नवंबर 1956 को राजस्थान के एकीकरण के अंतिम चरण के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. केंद्र शासित क्षेत्र अजमेर-मेरवाड़ा का राजस्थान में विलय कर दिया गया, जिससे भाग 'C' राज्य के रूप में इसका अलग दर्जा समाप्त हो गया।\n2. मध्य प्रदेश के मंदसौर जिले की भानपुरा तहसील का सुनील टप्पा क्षेत्र राजस्थान में मिला दिया गया, जबकि कोटा जिले का सिरोंज उपखंड मध्य प्रदेश को सौंप दिया गया।\n3. 7वें संविधान संशोधन अधिनियम के तहत राजप्रमुख का पद समाप्त कर दिया गया और राज्यपाल के पद का सृजन किया गया।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All three statements are correct. In Phase 7 (1 November 1956), Ajmer-Merwara was merged, Sironj was given to MP, Sunel Tappa was added to Rajasthan, and the post of Governor was introduced by abolishing the post of Rajpramukh.",
+      "explanation_hi": "तीनों कथन सही हैं। चरण 7 (1 नवंबर 1956) में, अजमेर-मेरवाड़ा का विलय हुआ, सिरोंज मध्य प्रदेश को दिया गया, सुनील टप्पा राजस्थान में जोड़ा गया, और राजप्रमुख के पद को समाप्त करके राज्यपाल का पद लाया गया।"
+    },
+    {
+      "question_en": "Assertion (A): Maharaja Hanwant Singh of Jodhpur hesitated to sign the Instrument of Accession with India and held negotiations with Muhammad Ali Jinnah.\nReason (R): Jodhpur shared a contiguous border with Pakistan, and Jinnah offered lucrative concessions including free access to the Karachi port and import of arms.",
+      "question_hi": "कथन (A): जोधपुर के महाराजा हनवंत सिंह ने भारत के साथ विलय पत्र पर हस्ताक्षर करने में संकोच किया और मोहम्मद अली जिन्ना के साथ बातचीत की।\nकारण (R): जोधपुर की सीमा पाकिस्तान से सटी हुई थी, और जिन्ना ने कराची बंदरगाह तक मुफ्त पहुंच और हथियारों के आयात सहित कई आकर्षक रियायतों की पेशकश की थी।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "A",
+      "explanation_en": "Maharaja Hanwant Singh wanted to join Pakistan or stay independent due to Jodhpur's geographic contiguity with Pakistan. Jinnah took advantage of this by offering him a blank sheet of paper to write his demands, which made Hanwant Singh hesitate to sign with India until Sardar Patel intervened. Thus, R is the correct explanation of A.",
+      "explanation_hi": "जोधपुर की भौगोलिक स्थिति पाकिस्तान के साथ सीमा साझा करने वाली होने के कारण महाराजा हनवंत सिंह पाकिस्तान में शामिल होना चाहते थे या स्वतंत्र रहना चाहते थे। जिन्ना ने इसका फायदा उठाते हुए उन्हें अपनी मांगें लिखने के लिए एक खाली कागज दिया, जिससे हनवंत सिंह भारत के साथ विलय पत्र पर हस्ताक्षर करने में हिचकिचा रहे थे, जब तक कि सरदार पटेल ने हस्तक्षेप नहीं किया। अतः, R, A की सही व्याख्या है।"
+    },
+    {
+      "question_en": "Assertion (A): March 30 is celebrated as 'Rajasthan Diwas' (Rajasthan Day) to commemorate the integration of the state.\nReason (R): Maharaja Man Singh II of Jaipur was appointed as the permanent Rajpramukh of the state during the fourth phase of integration.",
+      "question_hi": "कथन (A): राज्य के एकीकरण की स्मृति में 30 मार्च को 'राजस्थान दिवस' के रूप में मनाया जाता है।\nकारण (R): एकीकरण के चौथे चरण के दौरान जयपुर के महाराजा मान सिंह द्वितीय को राज्य का स्थायी राजप्रमुख नियुक्त किया गया था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "B",
+      "explanation_en": "Both A and R are true, but R is not the correct explanation of A. March 30 is celebrated as Rajasthan Day because four major princely states (Jaipur, Jodhpur, Bikaner, and Jaisalmer) merged to form Greater Rajasthan on this day in 1949, not because Man Singh II was made the Rajpramukh.",
+      "explanation_hi": "A और R दोनों सही हैं, लेकिन R, A की सही व्याख्या नहीं है। 30 मार्च को राजस्थान दिवस के रूप में इसलिए मनाया जाता है क्योंकि 1949 में इसी दिन चार बड़ी रियासतों (जयपुर, जोधपुर, बीकानेर और जैसलमेर) का विलय होकर वृहत् राजस्थान का गठन हुआ था, न कि इसलिए कि मान सिंह द्वितीय को राजप्रमुख बनाया गया था।"
+    },
+    {
+      "question_en": "Assertion (A): Alwar was chosen as the capital of the Matsya Union during the first phase of the integration of Rajasthan.\nReason (R): Maharaja Tej Singh of Alwar was appointed as the Rajpramukh of the Matsya Union because of Alwar's status as the capital.",
+      "question_hi": "कथन (A): राजस्थान के एकीकरण के पहले चरण के दौरान अलवर को मत्स्य संघ की राजधानी के रूप में चुना गया था।\nकारण (R): अलवर की राजधानी के रूप में स्थिति के कारण अलवर के महाराजा तेज सिंह को मत्स्य संघ का राजप्रमुख नियुक्त किया गया था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "C",
+      "explanation_en": "Assertion A is true, but Reason R is false. Uday Bhan Singh, the ruler of Dholpur, was appointed as the Rajpramukh of the Matsya Union, not Maharaja Tej Singh of Alwar. Tej Singh was not appointed to this post as he was facing an inquiry related to the assassination of Mahatma Gandhi.",
+      "explanation_hi": "कथन A सही है, लेकिन कारण R गलत है। धौलपुर के शासक उदय भान सिंह को मत्स्य संघ का राजप्रमुख नियुक्त किया गया था, न कि अलवर के महाराजा तेज सिंह को। तेज सिंह को इस पद पर नियुक्त नहीं किया गया था क्योंकि वे महात्मा गांधी की हत्या से संबंधित एक जांच का सामना कर रहे थे।"
+    },
+    {
+      "question_en": "Assertion (A): Ajmer-Merwara was merged into Rajasthan during the third phase of integration in April 1948 along with Udaipur.\nReason (R): Ajmer-Merwara was a centrally administered British territory (Part 'C' State) governed by a Chief Commissioner before its merger.",
+      "question_hi": "कथन (A): अजमेर-मेरवाड़ा का अप्रैल 1948 में एकीकरण के तीसरे चरण के दौरान उदयपुर के साथ राजस्थान में विलय कर दिया गया था।\nकारण (R): विलय से पहले अजमेर-मेरवाड़ा एक केंद्र शासित ब्रिटिश क्षेत्र (भाग 'C' राज्य) था जिसका प्रशासन एक मुख्य आयुक्त (चीफ कमिश्नर) द्वारा चलाया जाता था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "D",
+      "explanation_en": "Assertion A is false, but Reason R is true. Ajmer-Merwara was merged into Rajasthan during the seventh and final phase of integration on 1 November 1956, not during the third phase. It was indeed a Part 'C' State governed by a Chief Commissioner before the merger.",
+      "explanation_hi": "कथन A गलत है, लेकिन कारण R सही है। अजमेर-मेरवाड़ा का राजस्थान में विलय 1 नवंबर 1956 को एकीकरण के सातवें और अंतिम चरण में हुआ था, न कि तीसरे चरण के दौरान। विलय से पहले यह वास्तव में एक मुख्य आयुक्त द्वारा प्रशासित भाग 'C' राज्य था।"
+    },
+    {
+      "question_en": "Match the following integration phases of Rajasthan with their respective dates of establishment:\n| Column I (Phase) | Column II (Date) |\n|---|---|\n| 1. Matsya Union | a. 15 May 1949 |\n| 2. Rajputana Union | b. 30 March 1949 |\n| 3. Greater Rajasthan | c. 25 March 1948 |\n| 4. United Greater Rajasthan | d. 17 March 1948 |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के एकीकरण के निम्नलिखित चरणों को उनकी स्थापना की संबंधित तिथियों के साथ सुमेलित कीजिए:\n| कॉलम I (चरण) | कॉलम II (तिथि) |\n|---|---|\n| 1. मत्स्य संघ | a. 15 मई 1949 |\n| 2. राजपूताना संघ | b. 30 मार्च 1949 |\n| 3. वृहत् राजस्थान | c. 25 मार्च 1948 |\n| 4. संयुक्त वृहत् राजस्थान | d. 17 मार्च 1948 |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर का चयन कीजिए:",
+      "options_en": {
+        "A": "1-d, 2-c, 3-b, 4-a",
+        "B": "1-c, 2-d, 3-a, 4-b",
+        "C": "1-d, 2-b, 3-c, 4-a",
+        "D": "1-b, 2-c, 3-d, 4-a"
+      },
+      "options_hi": {
+        "A": "1-d, 2-c, 3-b, 4-a",
+        "B": "1-c, 2-d, 3-a, 4-b",
+        "C": "1-d, 2-b, 3-c, 4-a",
+        "D": "1-b, 2-c, 3-d, 4-a"
+      },
+      "correct_option": "A",
+      "explanation_en": "The correct dates are: Matsya Union on 17 March 1948 (1-d), Rajputana Union on 25 March 1948 (2-c), Greater Rajasthan on 30 March 1949 (3-b), and United Greater Rajasthan on 15 May 1949 (4-a).",
+      "explanation_hi": "सही तिथियां हैं: मत्स्य संघ – 17 मार्च 1948 (1-d), राजपूताना संघ – 25 मार्च 1948 (2-c), वृहत् राजस्थान – 30 मार्च 1949 (3-b), और संयुक्त वृहत् राजस्थान – 15 मई 1949 (4-a)।"
+    },
+    {
+      "question_en": "Match the following princely states with their rulers who were appointed as Rajpramukhs during different phases of Rajasthan's integration:\n| Column I (Princely State) | Column II (Ruler) |\n|---|---|\n| 1. Dholpur | a. Bhopal Singh |\n| 2. Kota | b. Man Singh II |\n| 3. Mewar | c. Uday Bhan Singh |\n| 4. Jaipur | d. Bhim Singh |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित रियासतों को उनके शासकों के साथ सुमेलित कीजिए जिन्हें राजस्थान के एकीकरण के विभिन्न चरणों के दौरान राजप्रमुख नियुक्त किया गया था:\n| कॉलम I (रियासत) | कॉलम II (शासक) |\n|---|---|\n| 1. धौलपुर | a. भोपाल सिंह |\n| 2. कोटा | b. मान सिंह द्वितीय |\n| 3. मेवाड़ | c. उदय भान सिंह |\n| 4. जयपुर | d. भीम सिंह |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर का चयन कीजिए:",
+      "options_en": {
+        "A": "1-d, 2-c, 3-b, 4-a",
+        "B": "1-c, 2-d, 3-a, 4-b",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-a, 2-b, 3-c, 4-d"
+      },
+      "options_hi": {
+        "A": "1-d, 2-c, 3-b, 4-a",
+        "B": "1-c, 2-d, 3-a, 4-b",
+        "C": "1-c, 2-a, 3-d, 4-b",
+        "D": "1-a, 2-b, 3-c, 4-d"
+      },
+      "correct_option": "B",
+      "explanation_en": "The correct matches are: Dholpur – Uday Bhan Singh (1-c), Kota – Bhim Singh (2-d), Mewar – Bhopal Singh (3-a), and Jaipur – Man Singh II (4-b).",
+      "explanation_hi": "सही सुमेल हैं: धौलपुर – उदय भान सिंह (1-c), कोटा – भीम सिंह (2-d), मेवाड़ – भोपाल सिंह (3-a), और जयपुर – मान सिंह द्वितीय (4-b)।"
+    },
+    {
+      "question_en": "Match the following integration phases of Rajasthan with their designated capitals:\n| Column I (Phase) | Column II (Capital) |\n|---|---|\n| 1. First Phase | a. Kota |\n| 2. Second Phase | b. Alwar |\n| 3. Third Phase | c. Jaipur |\n| 4. Fourth Phase | d. Udaipur |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के एकीकरण के निम्नलिखित चरणों को उनकी निर्दिष्ट राजधानियों के साथ सुमेलित कीजिए:\n| कॉलम I (चरण) | कॉलम II (राजधानी) |\n|---|---|\n| 1. प्रथम चरण | a. कोटा |\n| 2. द्वितीय चरण | b. अलवर |\n| 3. तृतीय चरण | c. जयपुर |\n| 4. चतुर्थ चरण | d. उदयपुर |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर का चयन कीजिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-c, 4-d",
+        "C": "1-b, 2-a, 3-d, 4-c",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-c, 4-d",
+        "C": "1-b, 2-a, 3-d, 4-c",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "C",
+      "explanation_en": "The correct capitals are: First Phase – Alwar (1-b), Second Phase – Kota (2-a), Third Phase – Udaipur (3-d), and Fourth Phase – Jaipur (4-c).",
+      "explanation_hi": "सही राजधानियाँ हैं: प्रथम चरण – अलवर (1-b), द्वितीय चरण – कोटा (2-a), तृतीय चरण – उदयपुर (3-d), और चतुर्थ चरण – जयपुर (4-c)।"
+    },
+    {
+      "question_en": "Match the following integration phases of Rajasthan with their appointed Prime Ministers / Chief Ministers:\n| Column I (Phase) | Column II (Prime Minister / Chief Minister) |\n|---|---|\n| 1. Matsya Union | a. Heeralal Shastri |\n| 2. Rajasthan Union | b. Shobha Ram Kumawat |\n| 3. United Rajasthan | c. Gokul Lal Asawa |\n| 4. Greater Rajasthan | d. Manikya Lal Verma |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के एकीकरण के निम्नलिखित चरणों को उनके नियुक्त प्रधानमंत्रियों / मुख्यमंत्रियों के साथ सुमेलित कीजिए:\n| कॉलम I (चरण) | कॉलम II (प्रधानमंत्री / मुख्यमंत्री) |\n|---|---|\n| 1. मत्स्य संघ | a. हीरालाल शास्त्री |\n| 2. राजस्थान संघ | b. शोभाराम कुमावत |\n| 3. संयुक्त राजस्थान | c. गोकुल लाल असावा |\n| 4. वृहत् राजस्थान | d. माणिक्य लाल वर्मा |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर का चयन कीजिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-b, 2-c, 3-d, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-b, 2-c, 3-d, 4-a"
+      },
+      "correct_option": "D",
+      "explanation_en": "The correct matches are: Matsya Union – Shobha Ram Kumawat (1-b), Rajasthan Union – Gokul Lal Asawa (2-c), United Rajasthan – Manikya Lal Verma (3-d), and Greater Rajasthan – Heeralal Shastri (4-a).",
+      "explanation_hi": "सही सुमेल हैं: मत्स्य संघ – शोभाराम कुमावत (1-b), राजस्थान संघ – गोकुल लाल असावा (2-c), संयुक्त राजस्थान – माणिक्य लाल वर्मा (3-d), और वृहत् राजस्थान – हीरालाल शास्त्री (4-a)।"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Gagron Fort, renowned as a premier Jala Durg (Water Fort) in Rajasthan, is architecturally unique because of which of the following construction features?",
+      "question_hi": "राजस्थान में एक प्रमुख जल दुर्ग के रूप में प्रसिद्ध गागरोन किला, निम्नलिखित में से किस निर्माण विशेषता के कारण स्थापत्य की दृष्टि से अद्वितीय है?",
+      "options_en": {
+        "A": "It is built directly on a rocky foundation without any traditional foundation dug into the ground, and is surrounded by water on three sides.",
+        "B": "It features a double-walled fortification that is designed to be completely submerged under water during peak monsoon seasons.",
+        "C": "It is the only fort in the region that employs a system of wooden drawbridges across the Ahu river for access control.",
+        "D": "It was built entirely using specialized yellow sandstone imported from Jaisalmer to prevent water-induced soil erosion."
+      },
+      "options_hi": {
+        "A": "यह जमीन में खोदी गई किसी पारंपरिक नींव के बिना सीधे चट्टानी आधार पर बनाया गया है, और तीन ओर से पानी से घिरा हुआ है।",
+        "B": "इसमें एक दोहरी दीवार वाली किलेबंदी है जिसे मानसून के चरम मौसम के दौरान पूरी तरह से पानी में डूबने के लिए डिज़ाइन किया गया है।",
+        "C": "यह इस क्षेत्र का एकमात्र ऐसा किला है जो पहुँच नियंत्रण के लिए आहू नदी पर लकड़ी के ड्रॉब्रिज की प्रणाली का उपयोग करता है।",
+        "D": "पानी के कारण होने वाले मिट्टी के कटाव को रोकने के लिए इसका निर्माण पूरी तरह से जैसलमेर से आयातित विशेष पीले बलुआ पत्थर से किया गया था।"
+      },
+      "correct_option": "A",
+      "explanation_en": "Gagron Fort is a classic example of a Water Fort (Jala Durg). Its most remarkable architectural feature is that it stands directly on the natural rocky foundation without any foundation dug into the earth. It is situated at the confluence of the Ahu and Kali Sindh rivers, surrounding it with water on three sides.",
+      "explanation_hi": "गागरोन किला जल दुर्ग का एक उत्कृष्ट उदाहरण है। इसकी सबसे उल्लेखनीय स्थापत्य विशेषता यह है कि यह जमीन में खोदी गई किसी भी नींव के बिना सीधे प्राकृतिक चट्टानी आधार पर खड़ा है। यह आहू और काली सिंध नदियों के संगम पर स्थित है, जो इसे तीन तरफ से पानी से घेरे हुए है।"
+    },
+    {
+      "question_en": "Junagarh Fort of Bikaner, built by Maharaja Rai Singh, stands out among the major forts of Rajasthan primarily due to which structural and geographical attribute?",
+      "question_hi": "महाराजा राय सिंह द्वारा निर्मित बीकानेर का जूनागढ़ किला, मुख्य रूप से किस संरचनात्मक और भौगोलिक विशेषता के कारण राजस्थान के प्रमुख किलों में अलग पहचान रखता है?",
+      "options_en": {
+        "A": "It is a ground-level fort (Dhanvan/Sthal Durg) that achieved impregnability through deep surrounding moats and massive bastions rather than elevated topography.",
+        "B": "It is constructed on a star-shaped plan designed by architect Mandan to deflect medieval heavy artillery fire.",
+        "C": "It is the only fort in the Thar desert that does not possess any defensive gateways, relying solely on secret underground entry points.",
+        "D": "It is built on a high precipitous hill known as Bhakurchidiya, providing it with natural defenses on all sides."
+      },
+      "options_hi": {
+        "A": "यह एक मैदानी किला (धान्वन/स्थल दुर्ग) है जिसने ऊँची स्थलाकृति के बजाय गहरी खाइयों और विशाल बुर्जों के माध्यम से अभेद्यता प्राप्त की है।",
+        "B": "यह वास्तुकार मंडन द्वारा मध्यकालीन भारी तोपखाने के गोलों को विक्षेपित करने के लिए डिज़ाइन किए गए तारा-आकार के लेआउट पर निर्मित है।",
+        "C": "यह थार मरुस्थल का एकमात्र ऐसा किला है जिसमें कोई सुरक्षात्मक प्रवेश द्वार नहीं है, और यह पूरी तरह से गुप्त भूमिगत प्रवेश बिंदुओं पर निर्भर करता है।",
+        "D": "यह भाकुरचिड़िया नामक एक ऊँची खड़ी पहाड़ी पर बनाया गया है, जो इसे चारों ओर से प्राकृतिक सुरक्षा प्रदान करती है।"
+      },
+      "correct_option": "A",
+      "explanation_en": "Unlike most other unconquered or prominent forts of Rajasthan which are hill forts (Giri Durg), Junagarh Fort is a ground fort (Dhanvan/Sthal Durg) built on flat plains. It compensated for the lack of elevation through defensive architectural features like a deep moat surrounding it and 37 palaces protected by massive brick walls.",
+      "explanation_hi": "राजस्थान के अधिकांश अन्य अजेय या प्रमुख किलों, जो पहाड़ी किले (गिरि दुर्ग) हैं, के विपरीत, जूनागढ़ किला समतल मैदान पर बना एक मैदानी किला (धान्वन/स्थल दुर्ग) है। इसने ऊँचाई की कमी की भरपाई गहरी खाई और विशाल ईंट की दीवारों से सुरक्षित 37 महलों जैसी सुरक्षात्मक स्थापत्य विशेषताओं के माध्यम से की।"
+    },
+    {
+      "question_en": "Which of the following historical monuments/tombs is situated inside the Taragarh Fort of Ajmer, highlighting its strategic and cultural synthesis during the medieval period?",
+      "question_hi": "निम्नलिखित में से कौन सा ऐतिहासिक स्मारक/मकबरा अजमेर के तारागढ़ किले के भीतर स्थित है, जो मध्यकाल के दौरान इसके रणनीतिक और सांस्कृतिक संश्लेषण को उजागर करता है?",
+      "options_en": {
+        "A": "Miran Shah's Tomb",
+        "B": "Saint Pipa Ji's Cenotaph",
+        "C": "Sheikh Hamiduddin's Dargah",
+        "D": "Adhai Din Ka Jhonpra"
+      },
+      "options_hi": {
+        "A": "मीरान शाह की दरगाह",
+        "B": "संत पीपा जी की छतरी",
+        "C": "शेख हमीदुद्दीन की दरगाह",
+        "D": "अढाई दिन का झोंपड़ा"
+      },
+      "correct_option": "A",
+      "explanation_en": "Taragarh Fort in Ajmer, built by Ajayraj Chauhan, contains the tomb (Dargah) of Hazrat Miran Syed Husain Khingswar (popularly known as Miran Shah), who was the governor of the fort and died defending it. It is a major pilgrimage and historic site inside the fort.",
+      "explanation_hi": "अजमेर के तारागढ़ किले में, जिसे अजयराज चौहान ने बनवाया था, हज़रत मीरान सैयद हुसैन खिंगसवार (लोकप्रिय रूप से मीरान शाह के नाम से प्रसिद्ध) की दरगाह स्थित है, जो किले के गवर्नर थे और इसकी रक्षा करते हुए शहीद हुए थे। यह किले के भीतर एक प्रमुख ऐतिहासिक स्थल है।"
+    },
+    {
+      "question_en": "The world-famous Jaivana Cannon, preserved at Jaigarh Fort, is a testament to the advanced metallurgical and military capabilities of Jaipur. Which statement is correct regarding its production?",
+      "question_hi": "जयगढ़ किले में संरक्षित विश्व प्रसिद्ध जयबाण तोप, जयपुर की उन्नत धातुकर्म और सैन्य क्षमताओं का प्रमाण है। इसके निर्माण के संबंध में कौन सा कथन सही है?",
+      "options_en": {
+        "A": "It was cast in the imperial foundries of Agra and transported to Jaigarh through a specialized heavy-haul path.",
+        "B": "It was cast within the specialized gun foundry located inside the Jaigarh Fort complex itself during the reign of Sawai Jai Singh II.",
+        "C": "It was commissioned by Raja Man Singh I to repel the Mughal army during the early campaigns of Amber.",
+        "D": "It was assembled using imported brass sheets from European traders to prevent rust and wear."
+      },
+      "options_hi": {
+        "A": "इसे आगरा के शाही तोपखाने में ढाला गया था और एक विशेष भारी-परिवहन मार्ग के माध्यम से जयगढ़ लाया गया था।",
+        "B": "इसे सवाई जयसिंह II के शासनकाल के दौरान जयगढ़ किला परिसर के भीतर ही स्थित विशेष तोप निर्माण कारखाने (फाउंड्री) में ढाला गया था।",
+        "C": "इसे राजा मानसिंह I द्वारा आमेर के शुरुआती अभियानों के दौरान मुगल सेना को पीछे धकेलने के लिए किया गया था।",
+        "D": "जंग और घिसाव को रोकने के लिए यूरोपीय व्यापारियों से आयातित पीतल की चादरों का उपयोग करके इसे जोड़ा गया था।"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Jaivana cannon was cast in 1720 AD during the reign of Sawai Jai Singh II. It was manufactured at the gun foundry located inside Jaigarh Fort itself, which is one of the few surviving medieval weapon foundries in India.",
+      "explanation_hi": "जयबाण तोप को 1720 ई. में सवाई जयसिंह II के शासनकाल के दौरान ढाला गया था। इसका निर्माण जयगढ़ किले के भीतर ही स्थित तोप कारखाने (गन फाउंड्री) में किया गया था, जो भारत में बची हुई कुछ मध्यकालीन हथियार फाउंड्री में से एक है।"
+    },
+    {
+      "question_en": "The historical resistance of Lohagarh Fort in Bharatpur against repeated British sieges led by Lord Lake between 1803 and 1805 was primarily successful due to which architectural innovation?",
+      "question_hi": "1803 और 1805 के बीच लॉर्ड लेक के नेतृत्व में बार-बार की जाने वाली ब्रिटिश घेराबंदी के खिलाफ भरतपुर के लोहागढ़ किले का ऐतिहासिक प्रतिरोध मुख्य रूप से किस स्थापत्य नवाचार के कारण सफल रहा था?",
+      "options_en": {
+        "A": "The deployment of copper-reinforced iron sheets over the stone bastions to deflect gunpowder explosions.",
+        "B": "The construction of massive outer mud walls that absorbed the kinetic energy and impact of British artillery shells without cracking.",
+        "C": "A network of high-elevation stone watchtowers built using dry masonry that allowed panoramic visibility and quick response.",
+        "D": "An underground artificial reservoir system that could flood the surrounding areas to drown the enemy forces."
+      },
+      "options_hi": {
+        "A": "बारूद के विस्फोटों को विक्षेपित करने के लिए पत्थर के बुर्जों पर तांबे से प्रबलित लोहे की चादरों का उपयोग।",
+        "B": "मिट्टी की विशाल बाहरी दीवारों का निर्माण जिन्होंने ब्रिटिश तोपखाने के गोलों की गतिज ऊर्जा और प्रभाव को बिना दरार पड़े अवशोषित कर लिया।",
+        "C": "सूखी चिनाई का उपयोग करके बनाए गए ऊंचे पत्थर के वॉचटावरों का एक नेटवर्क जिसने विस्तृत दृश्यता और त्वरित प्रतिक्रिया की अनुमति दी।",
+        "D": "एक भूमिगत कृत्रिम जलाशय प्रणाली जो दुश्मन सेना को डुबाने के लिए आसपास के क्षेत्रों में बाढ़ ला सकती थी।"
+      },
+      "correct_option": "B",
+      "explanation_en": "Lohagarh Fort's outer walls were made of thick mud and clay. When the British fired cannons, the mud absorbed the iron cannonballs without crumbling or cracking, unlike stone walls which shatter under impact. This unique design earned it the name 'Iron Fort' (Lohagarh).",
+      "explanation_hi": "लोहागढ़ किले की बाहरी दीवारें मिट्टी और गारे से बनी थीं। जब अंग्रेजों ने तोपें चलाईं, तो मिट्टी ने लोहे के तोप के गोलों को बिना टूटे या दरार पड़े सोख लिया, जबकि पत्थर की दीवारें प्रभाव से बिखर जाती हैं। इस अनूठी डिजाइन ने इसे 'लोहागढ़' (आयरन फोर्ट) का नाम दिया।"
+    },
+    {
+      "question_en": "Which of the following socio-religious facts is associated with Gagron Fort, making it unique beyond its military architectural significance?",
+      "question_hi": "निम्नलिखित में से कौन सा सामाजिक-धार्मिक तथ्य गागरोन किले से जुड़ा है, जो इसे इसके सैन्य स्थापत्य महत्व से परे विशिष्ट बनाता है?",
+      "options_en": {
+        "A": "It was the main seat of the Nath sect where Guru Gorakhnath performed penance.",
+        "B": "It is the birthplace of Saint Pipa Ji, a prominent saint of the Bhakti movement who was originally the ruler of Gagron.",
+        "C": "It houses the oldest continuously functioning Sanskrit school founded by Ajayraj Chauhan.",
+        "D": "It was the site where Saint Dadu Dayal composed his famous philosophical text 'Anabhay Vani'."
+      },
+      "options_hi": {
+        "A": "यह नाथ संप्रदाय का मुख्य केंद्र था जहाँ गुरु गोरखनाथ ने तपस्या की थी।",
+        "B": "यह भक्ति आंदोलन के एक प्रमुख संत, संत पीपा जी का जन्मस्थान है, जो मूल रूप से गागरोन के शासक थे।",
+        "C": "इसमें अजयराज चौहान द्वारा स्थापित सबसे पुराना निरंतर संचालित संस्कृत विद्यालय है।",
+        "D": "यह वह स्थान था जहाँ संत दादू दयाल ने अपने प्रसिद्ध दार्शनिक ग्रंथ 'अनभय वाणी' की रचना की थी।"
+      },
+      "correct_option": "B",
+      "explanation_en": "Gagron Fort is the birthplace of Saint Pipa Ji (born as Pratap Rao Khichi), the ruler of Gagron who renounced his throne to become a disciple of Ramananda and a key figure in the Bhakti movement.",
+      "explanation_hi": "गागरोन किला संत पीपा जी (प्रताप राव खींची के रूप में जन्मे) का जन्मस्थान है, जो गागरोन के शासक थे जिन्होंने रामानन्द के शिष्य बनने और भक्ति आंदोलन में एक प्रमुख व्यक्ति बनने के लिए अपना सिंहासन त्याग दिया था।"
+    },
+    {
+      "question_en": "The fortification of Kumbhalgarh and its inner citadel 'Katargarh' were designed by the legendary architect Mandan. Which of the following texts on classical Indian architecture is authored by Mandan?",
+      "question_hi": "कुंभलगढ़ की किलेबंदी और उसके आंतरिक गढ़ 'कटारगढ़' को प्रसिद्ध वास्तुकार मंडन द्वारा डिजाइन किया गया था। शास्त्रीय भारतीय वास्तुकला पर निम्नलिखित में से कौन सा ग्रंथ ग्रंथ मंडन द्वारा लिखा गया है?",
+      "options_en": {
+        "A": "Aparajitaprccha",
+        "B": "Samarangana Sutradhara",
+        "C": "Prasada Mandana",
+        "D": "Mayamata"
+      },
+      "options_hi": {
+        "A": "अपराजितपृच्छा",
+        "B": "समरांगण सूत्रधार",
+        "C": "प्रसाद मंडन",
+        "D": "मयमतम्"
+      },
+      "correct_option": "C",
+      "explanation_en": "Mandan was the chief architect of Maharana Kumbha. He wrote several authoritative treatises on architecture and sculpture, including 'Prasada Mandana', 'Rupa Mandana', and 'Rajavallabha Mandana'. 'Samarangana Sutradhara' was written by Raja Bhoja.",
+      "explanation_hi": "मंडन महाराणा कुंभा के मुख्य वास्तुकार थे। उन्होंने वास्तुकला और मूर्तिकला पर कई प्रामाणिक ग्रंथ लिखे, जिनमें 'प्रसाद मंडन', 'रूप मंडन' और 'राजवल्लभ मंडन' शामिल हैं। 'समरांगण सूत्रधार' राजा भोज द्वारा लिखा गया था।"
+    },
+    {
+      "question_en": "The Shila Devi Temple located within the Amber Fort complex in Jaipur is a major center of Shakti worship. Which Kachwaha ruler is historically credited with bringing the Shila Devi idol to Amber?",
+      "question_hi": "जयपुर में आमेर किला परिसर के भीतर स्थित शिला देवी मंदिर शक्ति पूजा का एक प्रमुख केंद्र है। किस कछवाहा शासक को ऐतिहासिक रूप से शिला देवी की मूर्ति को आमेर लाने का श्रेय दिया जाता है?",
+      "options_en": {
+        "A": "Sawai Jai Singh II",
+        "B": "Raja Bihar Mal",
+        "C": "Raja Man Singh I",
+        "D": "Mirza Raja Jai Singh I"
+      },
+      "options_hi": {
+        "A": "सवाई जयसिंह II",
+        "B": "राजा बिहारमल",
+        "C": "राजा मानसिंह I",
+        "D": "मिर्जा राजा जयसिंह I"
+      },
+      "correct_option": "C",
+      "explanation_en": "Raja Man Singh I of Amber brought the idol of Shila Devi from Jessore (now in Bangladesh) after defeating Raja Pratapaditya in 1604 AD, and installed it in the Amber Fort complex.",
+      "explanation_hi": "आमेर के राजा मानसिंह I ने 1604 ई. में राजा प्रतापादित्य को हराने के बाद जसोर (अब बांग्लादेश में) से शिला देवी की मूर्ति लाई और इसे आमेर किला परिसर में स्थापित किया।"
+    },
+    {
+      "question_en": "The Taragarh Fort of Ajmer, constructed by Ajayraj Chauhan in the 11th century, is also famously referred to by which of the following names due to its design and strategic elevation?",
+      "question_hi": "11वीं शताब्दी में अजयराज चौहान द्वारा निर्मित अजमेर के तारागढ़ किले को इसके डिजाइन और रणनीतिक ऊंचाई के कारण निम्नलिखित में से किस नाम से भी जाना जाता है?",
+      "options_en": {
+        "A": "Mayur Dhwaja Garh",
+        "B": "Tiger Fort",
+        "C": "Star Fort",
+        "D": "Sonar Qila"
+      },
+      "options_hi": {
+        "A": "मयूर ध्वज गढ़",
+        "B": "टाइगर फोर्ट",
+        "C": "स्टार फोर्ट",
+        "D": "सोनार किला"
+      },
+      "correct_option": "C",
+      "explanation_en": "Taragarh Fort of Ajmer is also known as the 'Star Fort' due to its star-shaped design overlooking the city, or simply Taragarh. It is also built on the Garh Beetli hill.",
+      "explanation_hi": "अजमेर के तारागढ़ किले को शहर के ऊपर इसके तारा-आकार के डिजाइन के कारण 'स्टार फोर्ट' (तारागढ़) के रूप में भी जाना जाता है। यह गढ़ बीठली पहाड़ी पर बना है।"
+    },
+    {
+      "question_en": "Mehrangarh Fort of Jodhpur is characterized by a formidable defensive architecture with multiple gates. How many historic gates (Pols) must one pass through to access the inner palaces of this fort?",
+      "question_hi": "जोधपुर का मेहरानगढ़ किला कई द्वारों के साथ एक दुर्जेय सुरक्षात्मक स्थापत्य कला की विशेषता रखता है। इस किले के आंतरिक महलों तक पहुँचने के लिए किसी को कितने ऐतिहासिक द्वारों (पोल) से गुजरना पड़ता है?",
+      "options_en": {
+        "A": "Five gates",
+        "B": "Nine gates",
+        "C": "Three gates",
+        "D": "Seven gates"
+      },
+      "options_hi": {
+        "A": "पाँच द्वार",
+        "B": "नौ द्वार",
+        "C": "तीन द्वार",
+        "D": "सात द्वार"
+      },
+      "correct_option": "D",
+      "explanation_en": "Mehrangarh Fort has seven historic gates (Pols) built by different rulers to mark victories, including Fateh Pol, Gopal Pol, Bhairon Pol, Dedh Kamgra Pol, Loha Pol, Suraj Pol, and Amrita Pol.",
+      "explanation_hi": "मेहरानगढ़ किले में जीत के उपलक्ष्य में विभिन्न शासकों द्वारा बनवाए गए सात ऐतिहासिक द्वार (पोल) हैं, जिनमें फतेह पोल, गोपाल पोल, भैरों पोल, डेढ़ कांगड़ा पोल, लोहा पोल, सूरज पोल और अमृता पोल शामिल हैं।"
+    },
+    {
+      "question_en": "Jaisalmer Fort, constructed by Bhati Rajput Jaisal on the Trikuta Hill, is categorized as a 'living fort'. Which of the following statements represents the architectural and demographic reality behind this term?",
+      "question_hi": "त्रिकूट पहाड़ी पर भाटी राजपूत जैसल द्वारा निर्मित जैसलमेर किले को 'जीवंत किले' (लिविंग फोर्ट) के रूप में वर्गीकृत किया गया है। निम्नलिखित में से कौन सा कथन इस शब्द के पीछे की स्थापत्य और जनसांख्यिकीय वास्तविकता को दर्शाता है?",
+      "options_en": {
+        "A": "The fort possesses a unique double-layered stone wall that moves dynamically with the desert sand dunes.",
+        "B": "The inner palaces of the fort are built entirely of timber and must be restored continuously to prevent decay.",
+        "C": "The fort is exclusively reserved for the direct lineage of the Bhati Rajputs to preserve their traditional lifestyle.",
+        "D": "A significant proportion of the local civilian population still resides inside the fort walls, maintaining active households and markets."
+      },
+      "options_hi": {
+        "A": "किले में एक अद्वितीय दोहरी परत वाली पत्थर की दीवार है जो रेगिस्तानी रेत के टीलों के साथ गतिशील रूप से चलती है।",
+        "B": "किले के आंतरिक महल पूरी तरह से लकड़ी के बने हैं और सड़ने से बचाने के लिए उन्हें लगातार बहाल किया जाना चाहिए।",
+        "C": "पारंपरिक जीवन शैली को बनाए रखने के लिए यह किला विशेष रूप से भाटी राजपूतों के सीधे वंशजों के लिए आरक्षित है।",
+        "D": "स्थानीय नागरिक आबादी का एक बड़ा हिस्सा अभी भी किले की दीवारों के भीतर रहता है, और वहां सक्रिय घर और बाजार बने हुए हैं।"
+      },
+      "correct_option": "D",
+      "explanation_en": "Jaisalmer Fort is one of the very few fully functional 'living forts' in the world. Approximately one-fourth of the old city's population still resides inside the fort walls, making it a unique active urban settlement.",
+      "explanation_hi": "जैसलमेर किला दुनिया के बहुत कम पूर्ण रूप से कार्य करने वाले 'जीवंत किलों' (लिविंग फोर्ट) में से एक है। पुराने शहर की लगभग एक-चौथाई आबादी अभी भी किले की दीवारों के भीतर रहती है, जो इसे एक अनूठी सक्रिय शहरी बस्ती बनाती है।"
+    },
+    {
+      "question_en": "Which hill fort of Rajasthan features a massive perimeter wall extending over 36 kilometers, earning it the title of the 'Great Wall of India'?",
+      "question_hi": "राजस्थान के किस पहाड़ी किले में 36 किलोमीटर से अधिक लंबी एक विशाल सुरक्षा दीवार है, जिसके कारण इसे 'भारत की महान दीवार' का खिताब मिला है?",
+      "options_en": {
+        "A": "Chittorgarh Fort",
+        "B": "Ranthambhore Fort",
+        "C": "Amber Fort",
+        "D": "Kumbhalgarh Fort"
+      },
+      "options_hi": {
+        "A": "चित्तौड़गढ़ किला",
+        "B": "रणथंभौर किला",
+        "C": "आमेर किला",
+        "D": "कुंभलगढ़ किला"
+      },
+      "correct_option": "D",
+      "explanation_en": "Kumbhalgarh Fort in Rajsamand district, built by Maharana Kumbha, has a 36 km long continuous perimeter wall, which is the second-longest wall in the world after the Great Wall of China. It is commonly referred to as the Great Wall of India.",
+      "explanation_hi": "महाराणा कुंभा द्वारा निर्मित राजसमंद जिले में स्थित कुंभलगढ़ किले की बाहरी दीवार 36 किमी लंबी है, जो चीन की महान दीवार के बाद दुनिया की दूसरी सबसे लंबी दीवार है। इसे आमतौर पर भारत की महान दीवार कहा जाता है।"
+    },
+    {
+      "question_en": "In the context of the historical sieges of Gagron Fort, who was the Malwa ruler that defeated Achal Das Khichi during the second Saka of the fort in 1444 AD?",
+      "question_hi": "गागरोन किले की ऐतिहासिक घेराबंदी के संदर्भ में, वह मालवा शासक कौन था जिसने 1444 ई. में किले के दूसरे साके के दौरान अचलदास खींची को पराजित किया था?",
+      "options_en": {
+        "A": "Bahadur Shah",
+        "B": "Hoshang Shah",
+        "C": "Alauddin Khilji",
+        "D": "Mahmud Khilji"
+      },
+      "options_hi": {
+        "A": "बहादुर शाह",
+        "B": "होशंग शाह",
+        "C": "अलाउद्दीन खिलजी",
+        "D": "महमूद खिलजी"
+      },
+      "correct_option": "D",
+      "explanation_en": "The second Saka of Gagron Fort occurred in 1444 AD when Mahmud Khilji (Sultan of Malwa) attacked the fort. The ruler Achal Das Khichi fought valiantly but lost, leading to the women performing Jauhar and the men performing Saka. Mahmud Khilji later renamed the fort 'Mustafabad'.",
+      "explanation_hi": "गागरोन किले का दूसरा साका 1444 ई. में हुआ था जब महमूद खिलजी (मालवा के सुल्तान) ने किले पर हमला किया था। शासक अचलदास खींची बहादुरी से लड़े लेकिन हार गए, जिसके कारण महिलाओं ने जौहर किया और पुरुषों ने साका किया। महमूद खिलजी ने बाद में किले का नाम बदलकर 'मुस्तफाबाद' कर दिया था।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the geographical and strategic positioning of Gagron Fort:\n1. It is constructed at the confluence of the Ahu and Kali Sindh rivers in the Jhalawar district.\n2. The fort features three historical Sakas (sacrifices) throughout its documented history.\n3. The initial foundation of this water fort was laid by the Rathore rulers of Marwar.\nWhich of the statements given above is/are correct?",
+      "question_hi": "गागरोन किले की भौगोलिक और रणनीतिक स्थिति के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. यह झालावाड़ जिले में आहू और काली सिंध नदियों के संगम पर बना है।\n2. इस किले में इसके प्रलेखित इतिहास के दौरान तीन ऐतिहासिक साके हुए हैं।\n3. इस जल दुर्ग की प्रारंभिक नींव मारवाड़ के राठौड़ शासकों द्वारा रखी गई थी।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 only",
+        "B": "2 and 3 only",
+        "C": "1 and 2 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "1 केवल",
+        "B": "2 और 3 केवल",
+        "C": "1 और 2 केवल",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Statement 1 is correct: Gagron Fort is at the confluence of the Ahu and Kali Sindh rivers. Statement 2 is incorrect: It has experienced only 2 Sakas (1423 AD and 1444 AD). Statement 3 is incorrect: It was built by the Dodiya Rajput clan (specifically Bijaldev), not the Rathores of Marwar.",
+      "explanation_hi": "कथन 1 सही है: गागरोन किला आहू और काली सिंध नदियों के संगम पर स्थित है। कथन 2 गलत है: इस किले में केवल 2 साके (1423 ई. और 1444 ई.) हुए हैं। कथन 3 गलत है: इसका निर्माण डोडिया राजपूत वंश (विशेष रूप से बीजलदेव) द्वारा किया गया था, न कि मारवाड़ के राठौड़ों द्वारा।"
+    },
+    {
+      "question_en": "Consider the following statements regarding the architectural layout of the Jaipur fortresses:\n1. Jaigarh Fort is connected to Nahargarh Fort through a series of long, defensive underground tunnels.\n2. Jaigarh Fort houses the Jaivana cannon, which is widely recognized as the world's largest wheeled cannon.\n3. The construction and development of Jaigarh Fort were patronized by Sawai Jai Singh II.\nWhich of the statements given above is/are correct?",
+      "question_hi": "जयपुर के किलों के स्थापत्य विन्यास के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. जयगढ़ किला लंबी, रक्षात्मक भूमिगत सुरंगों की एक श्रृंखला के माध्यम से नाहरगढ़ किले से जुड़ा हुआ है।\n2. जयगढ़ किले में जयबाण तोप स्थित है, जिसे पहियों पर रखी दुनिया की सबसे बड़ी तोप के रूप में व्यापक मान्यता प्राप्त है।\n3. जयगढ़ किले के निर्माण और विकास को सवाई जयसिंह II द्वारा संरक्षण प्रदान किया गया था।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "1 और 2 केवल",
+        "B": "2 और 3 केवल",
+        "C": "3 केवल",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect: Jaigarh Fort is connected via an underground passage to Amber Fort, not Nahargarh Fort. Statements 2 and 3 are correct: It houses the Jaivana cannon and was built under the patronage of Sawai Jai Singh II.",
+      "explanation_hi": "कथन 1 गलत है: जयगढ़ किला भूमिगत मार्ग के माध्यम से आमेर किले से जुड़ा हुआ है, नाहरगढ़ किले से नहीं। कथन 2 और 3 सही हैं: इसमें जयबाण तोप स्थित है और इसका निर्माण सवाई जयसिंह II के संरक्षण में किया गया था।"
+    },
+    {
+      "question_en": "Consider the following statements regarding Jaisalmer Fort:\n1. It is popularly known as 'Sonar Qila' or Golden Fort because it is constructed using yellow sandstone.\n2. The fort is situated on the Trikuta Hill and is classified as a living fort where a part of the city population resides.\n3. The fort features a unique triple-layered protective wall as part of its defensive architecture.\nWhich of the statements given above is/are correct?",
+      "question_hi": "जैसलमेर किले के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसे लोकप्रिय रूप से 'सोनार किला' या स्वर्ण किला कहा जाता है क्योंकि इसका निर्माण पीले बलुआ पत्थर से किया गया है।\n2. यह किला त्रिकूट पहाड़ी पर स्थित है और इसे एक जीवंत किले (लिविंग फोर्ट) के रूप में वर्गीकृत किया गया है जहाँ शहर की आबादी का एक हिस्सा निवास करता है।\n3. किले की सुरक्षात्मक स्थापत्य कला के हिस्से के रूप में एक अद्वितीय तीन परतों वाली दीवार शामिल है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1, 2 and 3",
+        "D": "1 only"
+      },
+      "options_hi": {
+        "A": "1 और 2 केवल",
+        "B": "2 और 3 केवल",
+        "C": "1, 2 और 3",
+        "D": "1 केवल"
+      },
+      "correct_option": "C",
+      "explanation_en": "All statements are correct. Jaisalmer Fort is called Sonar Qila due to its yellow sandstone construction. It is located on Trikuta Hill, is a living fort, and features a triple-layered defensive wall (also known as Moris).",
+      "explanation_hi": "सभी कथन सही हैं। पीले बलुआ पत्थर के निर्माण के कारण जैसलमेर किले को सोनार किला कहा जाता है। यह त्रिकूट पहाड़ी पर स्थित है, एक जीवंत किला है, और इसमें तीन परतों वाली सुरक्षात्मक दीवार (जिसे पाड़ा या मोरी भी कहा जाता है) शामिल है।"
+    },
+    {
+      "question_en": "Consider the following statements regarding Junagarh Fort of Bikaner:\n1. It was constructed under the supervision of Rai Singh of Bikaner in the late 16th century.\n2. The fort has the historical distinction of never being captured by any external invading forces.\n3. Structurally, it is built on the Chidiyatunk Hill to secure defensive superiority over the surrounding desert.\nWhich of the statements given above is/are correct?",
+      "question_hi": "बीकानेर के जूनागढ़ किले के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसका निर्माण 16वीं शताब्दी के अंत में बीकानेर के राय सिंह की देखरेख में किया गया था।\n2. इस किले को किसी भी बाहरी आक्रामक ताकतों द्वारा कभी न जीते जाने का ऐतिहासिक गौरव प्राप्त है।\n3. संरचनात्मक रूप से, इसे आसपास के रेगिस्तान पर सुरक्षात्मक बढ़त हासिल करने के लिए चिड़ियाटूँक पहाड़ी पर बनाया गया है।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1, 2 and 3",
+        "B": "1 and 3 only",
+        "C": "2 only",
+        "D": "1 and 2 only"
+      },
+      "options_hi": {
+        "A": "1, 2 और 3",
+        "B": "1 और 3 केवल",
+        "C": "2 केवल",
+        "D": "1 और 2 केवल"
+      },
+      "correct_option": "D",
+      "explanation_en": "Statements 1 and 2 are correct: Junagarh Fort was built by Rai Singh in 1589 AD and remained unconquered. Statement 3 is incorrect: It is a land/plain fort (Dhanvan/Sthal Durg) and is not situated on a hill. Chidiyatunk Hill is the location of Mehrangarh Fort in Jodhpur.",
+      "explanation_hi": "कथन 1 और 2 सही हैं: जूनागढ़ किले का निर्माण 1589 ई. में राय सिंह द्वारा किया गया था और यह अजेय रहा। कथन 3 गलत है: यह एक मैदानी/समतल दुर्ग (धान्वन/स्थल दुर्ग) है और किसी पहाड़ी पर स्थित नहीं है। चिड़ियाटूँक पहाड़ी जोधपुर के मेहरानगढ़ किले का स्थान है।"
+    },
+    {
+      "question_en": "Assertion (A): Kumbhalgarh Fort possesses a massive wall spanning 36 kilometers, which is often termed the 'Great Wall of India'.\nReason (R): Rana Kumbha designed this extensive fortification to act as an impregnable defensive shield for the Mewar state against external invasions.",
+      "question_hi": "कथन (A): कुंभलगढ़ किले में 36 किलोमीटर लंबी एक विशाल दीवार है, जिसे अक्सर 'भारत की महान दीवार' कहा जाता है।\nकारण (R): राणा कुंभा ने बाहरी आक्रमणों के खिलाफ मेवाड़ राज्य के लिए एक अभेद्य सुरक्षा कवच के रूप में इस व्यापक किलेबंदी का निर्माण करवाया था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "A",
+      "explanation_en": "Assertion (A) is correct as Kumbhalgarh's 36 km wall is famous as the Great Wall of India. Reason (R) is correct and explains why Rana Kumbha commissioned such a massive wall—to provide security to Mewar and establish an impregnable defense against Mewar's rivals.",
+      "explanation_hi": "कथन (A) सही है क्योंकि कुंभलगढ़ की 36 किमी लंबी दीवार भारत की महान दीवार के रूप में प्रसिद्ध है। कारण (R) भी सही है और यह स्पष्ट करता है कि राणा कुंभा ने इतनी विशाल दीवार का निर्माण क्यों करवाया था—ताकि मेवाड़ को सुरक्षा प्रदान की जा सके और दुश्मनों के खिलाफ एक अभेद्य रक्षा प्रणाली स्थापित की जा सके।"
+    },
+    {
+      "question_en": "Assertion (A): Lohagarh Fort in Bharatpur is recognized as one of the strongest mud forts in Rajasthan that successfully resisted British artillery sieges.\nReason (R): Maharaja Suraj Mal of the Jat dynasty established the city of Bharatpur in the early 18th century as the capital of the Jat kingdom.",
+      "question_hi": "कथन (A): भरतपुर के लोहागढ़ किले को राजस्थान के सबसे मजबूत मिट्टी के किलों में से एक माना जाता है, जिसने ब्रिटिश तोपखाने की घेराबंदी का सफलतापूर्वक सामना किया।\nकारण (R): जाट राजवंश के महाराजा सूरजमल ने 18वीं शताब्दी की शुरुआत में भरतपुर शहर को जाट साम्राज्य की राजधानी के रूप में स्थापित किया था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "B",
+      "explanation_en": "Assertion (A) is true as Lohagarh was an unconquered mud fort. Reason (R) is also true as Maharaja Suraj Mal established Bharatpur and built the fort in 1733 AD. However, the reason why the fort resisted British sieges is due to its physical construction of mud walls and deep water-filled moats, not merely because Bharatpur was established as the Jat capital. Thus, both are true but R is not the correct explanation of A.",
+      "explanation_hi": "कथन (A) सही है क्योंकि लोहागढ़ एक अजेय मिट्टी का किला था। कारण (R) भी सही है क्योंकि महाराजा सूरजमल ने भरतपुर की स्थापना की और 1733 ई. में किला बनवाया। हालाँकि, किले द्वारा ब्रिटिश घेराबंदी का सामना करने का कारण इसकी मिट्टी की दीवारों और पानी से भरी खाइयों का भौतिक निर्माण था, न कि केवल इसलिए कि भरतपुर को जाट राजधानी के रूप में स्थापित किया गया था। अतः दोनों सही हैं लेकिन R, A की सही व्याख्या नहीं है।"
+    },
+    {
+      "question_en": "Assertion (A): Taragarh Fort of Ajmer, built by Ajayraj Chauhan, was converted into a sanitarium and military magazine dump by the British.\nReason (R): The fort is situated on the steep Chidiyatunk Hill, which provided an excellent panoramic view of the entire Mewar region.",
+      "question_hi": "कथन (A): अजयराज चौहान द्वारा निर्मित अजमेर के तारागढ़ किले को अंग्रेजों द्वारा एक आरोग्यशाला (सैनिटेरियम) और सैन्य शस्त्रागार (मैगजीन डंप) में बदल दिया गया था।\nकारण (R): यह किला खड़ी चिड़ियाटूँक पहाड़ी पर स्थित है, जिसने पूरे मेवाड़ क्षेत्र का उत्कृष्ट दृश्य प्रदान किया।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "C",
+      "explanation_en": "Assertion (A) is true: The British used Taragarh Ajmer as a sanitarium and magazine dump. Reason (R) is false: Taragarh Ajmer is situated on the Garh Beetli Hill, not Chidiyatunk Hill. Chidiyatunk Hill is the location of Mehrangarh Fort in Jodhpur.",
+      "explanation_hi": "कथन (A) सही है: अंग्रेजों ने तारागढ़ अजमेर का उपयोग आरोग्यशाला और शस्त्रागार के रूप में किया था। कारण (R) गलत है: तारागढ़ अजमेर गढ़ बीठली पहाड़ी पर स्थित है, चिड़ियाटूँक पहाड़ी पर नहीं। चिड़ियाटूँक पहाड़ी जोधपुर के मेहरानगढ़ किले का स्थान है।"
+    },
+    {
+      "question_en": "Assertion (A): Nahargarh Fort was constructed by Sawai Jai Singh II to house the world's largest wheeled cannon, the Jaivana.\nReason (R): Nahargarh Fort is also known as Tiger Fort and features twelve identical suites built for the queens.",
+      "question_hi": "कथन (A): नाहरगढ़ किले का निर्माण सवाई जयसिंह II द्वारा दुनिया की सबसे बड़ी पहियों वाली तोप, जयबाण को रखने के लिए किया गया था।\nकारण (R): नाहरगढ़ किले को टाइगर फोर्ट के रूप में भी जाना जाता है और इसमें रानियों के लिए बने बारह एक जैसे सुइट (कक्ष) शामिल हैं।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "D",
+      "explanation_en": "Assertion (A) is false: Jaivana cannon is located at Jaigarh Fort, not Nahargarh Fort. Reason (R) is true: Nahargarh Fort is indeed called the Tiger Fort and features twelve identical suites built by Sawai Madho Singh II for his queens.",
+      "explanation_hi": "कथन (A) गलत है: जयबाण तोप जयगढ़ किले में स्थित है, नाहरगढ़ किले में नहीं। कारण (R) सही है: नाहरगढ़ किले को टाइगर फोर्ट भी कहा जाता है और इसमें सवाई माधोसिंह II द्वारा अपनी रानियों के लिए बनवाए गए बारह एक जैसे सुइट शामिल हैं।"
+    },
+    {
+      "question_en": "Match the following forts with their distinctive architectural and strategic features:\n| Column I (Fort) | Column II (Feature) |\n|---|---|\n| 1. Gagron Fort | a. Confluence of Ahu & Kali Sindh rivers |\n| 2. Junagarh Fort | b. Unconquered fort with 37 palaces |\n| 3. Jaigarh Fort | c. Houses the world's largest wheeled cannon |\n| 4. Mehrangarh Fort | d. Located on Bhakurchidiya hill |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित किलों को उनकी विशिष्ट स्थापत्य और रणनीतिक विशेषताओं के साथ सुमेलित कीजिए:\n| कॉलम I (किला) | कॉलम II (विशेषता) |\n|---|---|\n| 1. गागरोन किला | a. आहू और काली सिंध नदियों का संगम |\n| 2. जूनागढ़ किला | b. 37 महलों वाला अजेय किला |\n| 3. जयगढ़ किला | c. पहियों पर रखी दुनिया की सबसे बड़ी तोप |\n| 4. मेहरानगढ़ किला | d. भाकुरचिड़िया पहाड़ी पर स्थित |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "A",
+      "explanation_en": "Gagron Fort is located at the confluence of Ahu & Kali Sindh (1-a). Junagarh Fort has 37 palaces and was never captured (2-b). Jaigarh Fort houses the Jaivana cannon (3-c). Mehrangarh Fort is located on Bhakurchidiya/Chidiyatunk hill (4-d).",
+      "explanation_hi": "गागरोन किला आहू और काली सिंध नदियों के संगम पर स्थित है (1-a)। जूनागढ़ किले में 37 महल हैं और इसे कभी नहीं जीता गया (2-b)। जयगढ़ किले में जयबाण तोप स्थित है (3-c)। मेहरानगढ़ किला भाकुरचिड़िया/चिड़ियाटूँक पहाड़ी पर स्थित है (4-d)।"
+    },
+    {
+      "question_en": "Match the following forts of Rajasthan with their associated hills or strategic locations:\n| Column I (Fort) | Column II (Location/Hill) |\n|---|---|\n| 1. Jaisalmer Fort | a. Chidiyatunk Hill |\n| 2. Mehrangarh Fort | b. Trikuta Hill |\n| 3. Taragarh Fort (Ajmer) | c. Abu Road |\n| 4. Achalgarh Fort | d. Garh Beetli Hill |\nSelect the correct answer using the codes given below:",
+      "question_hi": "राजस्थान के निम्नलिखित किलों को उनकी संबंधित पहाड़ियों या रणनीतिक स्थानों के साथ सुमेलित कीजिए:\n| कॉलम I (किला) | कॉलम II (स्थान/पहाड़ी) |\n|---|---|\n| 1. जैसलमेर किला | a. चिड़ियाटूँक पहाड़ी |\n| 2. मेहरानगढ़ किला | b. त्रिकूट पहाड़ी |\n| 3. तारागढ़ किला (अजमेर) | c. आबू रोड |\n| 4. अचलगढ़ किला | d. गढ़ बीठली पहाड़ी |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "B",
+      "explanation_en": "Jaisalmer Fort is on Trikuta Hill (1-b). Mehrangarh Fort is on Chidiyatunk Hill (2-a). Taragarh Fort in Ajmer is on Garh Beetli Hill (3-d). Achalgarh Fort is located near Abu Road (4-c).",
+      "explanation_hi": "जैसलमेर किला त्रिकूट पहाड़ी पर स्थित है (1-b)। मेहरानगढ़ किला चिड़ियाटूँक पहाड़ी पर स्थित है (2-a)। अजमेर का तारागढ़ किला गढ़ बीठली पहाड़ी पर स्थित है (3-d)। अचलगढ़ किला आबू रोड के पास स्थित है (4-c)।"
+    },
+    {
+      "question_en": "Match the following forts with the key rulers or founders associated with their construction or renovation:\n| Column I (Fort) | Column II (Ruler/Founder) |\n|---|---|\n| 1. Amber Fort | a. Ajayraj Chauhan |\n| 2. Taragarh Fort (Ajmer) | b. Bhati Rajput Jaisal |\n| 3. Jaisalmer Fort | c. Rana Kumbha |\n| 4. Kumbhalgarh Fort | d. Raja Man Singh I |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित किलों को उनके निर्माण या जीर्णोद्धार से जुड़े प्रमुख शासकों या संस्थापकों के साथ सुमेलित कीजिए:\n| कॉलम I (किला) | कॉलम II (शासक/संस्थापक) |\n|---|---|\n| 1. आमेर किला | a. अजयराज चौहान |\n| 2. तारागढ़ किला (अजमेर) | b. भाटी राजपूत जैसल |\n| 3. जैसलमेर किला | c. राणा कुंभा |\n| 4. कुंभलगढ़ किला | d. राजा मानसिंह I |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-d, 4-a",
+        "C": "1-d, 2-a, 3-b, 4-c",
+        "D": "1-c, 2-d, 3-a, 4-b"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-d, 4-a",
+        "C": "1-d, 2-a, 3-b, 4-c",
+        "D": "1-c, 2-d, 3-a, 4-b"
+      },
+      "correct_option": "C",
+      "explanation_en": "Amber Fort was initiated by Raja Man Singh I (1-d). Taragarh Fort Ajmer was founded by Ajayraj Chauhan (2-a). Jaisalmer Fort was founded by Bhati Rajput Jaisal (3-b). Kumbhalgarh Fort was built by Rana Kumbha (4-c).",
+      "explanation_hi": "आमेर किला राजा मानसिंह I द्वारा शुरू किया गया था (1-d)। अजमेर के तारागढ़ किले की स्थापना अजयराज चौहान ने की थी (2-a)। जैसलमेर किले की स्थापना भाटी राजपूत जैसल ने की थी (3-b)। कुंभलगढ़ किले का निर्माण राणा कुंभा ने करवाया था (4-c)।"
+    },
+    {
+      "question_en": "Match the following forts with the significant historical events or descriptions associated with them:\n| Column I (Fort) | Column II (Historical Event/Description) |\n|---|---|\n| 1. Gagron Fort | a. Witnessed 3 historic Sakas |\n| 2. Chittorgarh Fort | b. 2 Sakas (including the 1444 AD siege) |\n| 3. Lohagarh Fort | c. Birthplace of Maharana Pratap (1540 AD) |\n| 4. Kumbhalgarh Fort | d. Unsuccessful sieges by the British (1803-1805) |\nSelect the correct answer using the codes given below:",
+      "question_hi": "निम्नलिखित किलों को उनके साथ जुड़ी महत्वपूर्ण ऐतिहासिक घटनाओं या विवरणों से सुमेलित कीजिए:\n| कॉलम I (किला) | कॉलम II (ऐतिहासिक घटना/विवरण) |\n|---|---|\n| 1. गागरोन किला | a. 3 ऐतिहासिक साकों का गवाह रहा |\n| 2. चित्तौड़गढ़ किला | b. 2 साके (1444 ई. के साके सहित) |\n| 3. लोहागढ़ किला | c. महाराणा प्रताप का जन्मस्थान (1540 ई.) |\n| 4. कुंभलगढ़ किला | d. अंग्रेजों द्वारा असफल घेराबंदी (1803-1805) |\nनीचे दिए गए कोड का उपयोग करके सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-c, 2-d, 3-a, 4-b",
+        "C": "1-d, 2-c, 3-b, 4-a",
+        "D": "1-b, 2-a, 3-d, 4-c"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-c, 2-d, 3-a, 4-b",
+        "C": "1-d, 2-c, 3-b, 4-a",
+        "D": "1-b, 2-a, 3-d, 4-c"
+      },
+      "correct_option": "D",
+      "explanation_en": "Gagron Fort experienced 2 Sakas, including the 1444 AD siege by Mahmud Khilji (1-b). Chittorgarh Fort is famous for its 3 historic Sakas (2-a). Lohagarh Fort is famous for withstanding British sieges between 1803 and 1805 (3-d). Kumbhalgarh Fort is the birthplace of Maharana Pratap in 1540 AD (4-c).",
+      "explanation_hi": "गागरोन किला 2 साकों का गवाह रहा, जिसमें 1444 ई. में महमूद खिलजी द्वारा की गई घेराबंदी शामिल है (1-b)। चित्तौड़गढ़ किला अपने 3 ऐतिहासिक साकों के लिए प्रसिद्ध है (2-a)। लोहागढ़ किला 1803 और 1805 के बीच ब्रिटिश घेराबंदी का सामना करने के लिए प्रसिद्ध है (3-d)। कुंभलगढ़ किला 1540 ई. में महाराणा प्रताप का जन्मस्थान है (4-c)।"
+    }
+  ]
+}

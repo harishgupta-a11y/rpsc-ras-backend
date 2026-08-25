@@ -1,0 +1,124 @@
+{
+  "mains": [
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Analyze the socio-cultural significance of the Mand singing style of Rajasthan.",
+      "question_hi": "राजस्थान की मांड गायन शैली के सामाजिक-सांस्कृतिक महत्व का विश्लेषण कीजिए।",
+      "answer_en": "Mand is the premier classical-folk music style of Rajasthan, historically patronized by Jaisalmer's royalty and popularized by legends like Gavri Devi. It merges classical structure with folk melodies, expressing themes of longing, heroism, and welcome. Ultimately, Mand serves as a sophisticated cultural emblem, elevating regional Rajasthani folk heritage to classical prominence.",
+      "answer_hi": "मांड राजस्थान की प्रमुख शास्त्रीय-लोक संगीत शैली है, जिसे ऐतिहासिक रूप से जैसलमेर के शासकों का संरक्षण मिला और गवरी देवी ने इसे लोकप्रिय बनाया। यह शास्त्रीय संरचना को लोक धुनों के साथ मिलाती है, जिसमें विरह, वीरता और स्वागत के विषय होते हैं। अंततः, मांड राजस्थानी लोक धरोहर को शास्त्रीय स्तर पर प्रतिष्ठित करती है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Describe the structural features and cultural usage of Rawanhatha in Rajasthan.",
+      "question_hi": "राजस्थान में रावणहत्था की संरचनात्मक विशेषताओं और सांस्कृतिक उपयोग का वर्णन कीजिए।",
+      "answer_en": "Rawanhatha is the oldest traditional bowed string instrument (Tata Vadya) of Rajasthan, primarily played by the Bhopa community during Pabuji's Phad recitation. Originating from Sirohi, it features a split-coconut shell resonator and two main strings played with a bow. Consequently, it remains vital for sustaining the oral storytelling and epic traditions of Rajasthan.",
+      "answer_hi": "रावणहत्था राजस्थान का सबसे पुराना पारंपरिक धनुष-वाद्य (तत वाद्य) है, जिसे मुख्य रूप से भोपा समुदाय द्वारा पाबूजी की फड़ वाचन के दौरान बजाया जाता है। सिरोही से उत्पन्न इस वाद्य में नारियल के खोल का प्रतिध्वनि-यंत्र और दो मुख्य तार होते हैं। फलस्वरूप, यह राजस्थान की मौखिक महाकाव्य परंपराओं को जीवित रखने में महत्वपूर्ण है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Discuss the contribution of Maharana Kumbha to the classical musical legacy of Rajasthan.",
+      "question_hi": "राजस्थान की शास्त्रीय संगीत विरासत में महाराणा कुंभा के योगदान की चर्चा कीजिए।",
+      "answer_en": "Maharana Kumbha was a legendary 15th-century ruler of Mewar and a profound musicologist who authored seminal Sanskrit treatises like 'Sangeet Raj' and 'Sangeet Mimamsa'. His work systematically codified contemporary musical theories, ragas, and instruments, patronizing classical musicians at his court. Thus, Kumbha laid the theoretical foundation that elevated Rajasthan's classical music legacy.",
+      "answer_hi": "महाराणा कुंभा मेवाड़ के 15वीं सदी के महान शासक और संगीतशास्त्री थे, जिन्होंने 'संगीत राज' और 'संगीत मीमांसा' जैसे मौलिक ग्रंथों की रचना की। उनके कार्यों ने तत्कालीन संगीत सिद्धांतों, रागों और वाद्यों को व्यवस्थित रूप से संहिताबद्ध किया। इस प्रकार, कुंभा ने राजस्थान की शास्त्रीय संगीत विरासत की सैद्धांतिक नींव रखी।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Explain the musical tradition and instruments associated with the Manganiyar community.",
+      "question_hi": "मांगणियार समुदाय से जुड़ी संगीत परंपरा और वाद्यों को स्पष्ट कीजिए।",
+      "answer_en": "The Manganiyars are hereditary Muslim folk musicians of Jaisalmer and Barmer, traditionally patronized by Rajput rulers for ceremonial music. They are renowned for their complex rhythms using the Kamacha (stringed instrument) and Khartal (wooden clappers) in vocal performances. Therefore, they act as critical custodians of Western Rajasthan's desert folklore and syncretic musical heritage.",
+      "answer_hi": "मांगणियार जैसलमेर और बाड़मेर के पारंपरिक मुस्लिम लोक संगीतकार हैं, जिन्हें ऐतिहासिक रूप से राजपूत शासकों का संरक्षण प्राप्त था। ये गायन प्रदर्शनों में कामायचा (तत वाद्य) और खड़ताल (अवनद्ध/घन वाद्य) के जटिल तालमेल के लिए प्रसिद्ध हैं। इसलिए, ये पश्चिमी राजस्थान की मरुस्थलीय लोक संस्कृति और मिश्रित संगीत विरासत के संरक्षक हैं।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Examine the musical characteristics and patrons of the Langaa community.",
+      "question_hi": "लंगा समुदाय की संगीत विशेषताओं और संरक्षकों का परीक्षण कीजिए।",
+      "answer_en": "The Langaas are a hereditary musical community from Jaisalmer and Barmer, historically patronized by Sindhi Sipahi and Rajput families. Unlike others, they specialize in playing the Sarangi and Sindhi Sarangi to accompany their soulful Sufi and folk songs. Ultimately, their unique vocal ornamentations and instrument mastery enrich the cultural tapestry of the Thar desert.",
+      "answer_hi": "लंगा जैसलमेर और बाड़मेर का एक वंशानुगत संगीतकार समुदाय है, जिसे ऐतिहासिक रूप से सिंधी सिपाही और राजपूत परिवारों का संरक्षण प्राप्त था। ये अपने सूफी और लोक गीतों के साथ सारंगी और सिंधी सारंगी बजाने में विशेषज्ञता रखते हैं। अंततः, उनकी अनूठी गायन शैली थार मरुस्थल की सांस्कृतिक समृद्धि को बढ़ाती है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Highlight the cultural and structural significance of the Kamacha instrument.",
+      "question_hi": "कामायचा वाद्य यंत्र के सांस्कृतिक और संरचनात्मक महत्व पर प्रकाश डालिए।",
+      "answer_en": "Kamacha is a rare, bowed string instrument (Tata Vadya) crafted from a single piece of wood, primarily played by the Manganiyar community of Jaisalmer. It features a large circular parchment-covered resonator that produces a deep, resonant sound accompanying desert ballads. Consequently, preserving the Kamacha is essential for maintaining the authentic acoustic identity of Western Rajasthani folk music.",
+      "answer_hi": "कामायचा लकड़ी के एक टुकड़े से बना एक दुर्लभ धनुष-वाद्य (तत वाद्य) है, जो मुख्य रूप से जैसलमेर के मांगणियार समुदाय द्वारा बजाया जाता है। इसमें चर्मपत्र से ढका एक बड़ा गोलाकार गूंज-यंत्र होता है जो मरुस्थलीय गीतों के लिए गहरी ध्वनि उत्पन्न करता है। फलस्वरूप, कामायचा का संरक्षण पश्चिमी राजस्थानी लोक संगीत के मूल अस्तित्व के लिए आवश्यक है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Discuss the structure and playing technique of the Algoza in Rajasthan.",
+      "question_hi": "राजस्थान में अलगोजा की संरचना और वादन तकनीक की चर्चा कीजिए।",
+      "answer_en": "Algoza is a traditional double flute wind instrument (Sushira Vadya) consisting of two joined beak-flutes played simultaneously. The player blows through both, using one pipe for a continuous drone and the other for playing melodies. Thus, its high-pitched, rhythmic notes remain integral to the rustic folk dances and pastoral celebrations of Rajasthan.",
+      "answer_hi": "अलगोजा एक पारंपरिक दोहरी बांसुरी वाला सुषिर वाद्य है जिसमें एक साथ बजाई जाने वाली दो बांसुरी शामिल होती हैं। वादक दोनों बांसुरी में एक साथ फूंक मारता है, जिसमें एक पाइप का उपयोग निरंतर सुर (ड्रोन) और दूसरे का राग बजाने के लिए किया जाता है। इस प्रकार, इसकी तीव्र सुर-लहरी राजस्थान के ग्रामीण उत्सवों का अभिन्न अंग है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Elaborate on the unique features of the Satara wind instrument.",
+      "question_hi": "सतारा सुषिर वाद्य यंत्र की अनूठी विशेषताओं पर सविस्तार प्रकाश डालिए।",
+      "answer_en": "Satara is a unique double-flute wind instrument (Sushira Vadya) native to Rajasthani folk traditions, resembling the Algoza but with distinct fingering systems. Played by shepherds and folk musicians, it requires continuous breath control to play melody and drone simultaneously. Consequently, the Satara represents the sophisticated acoustic ingenuity developed within Rajasthan's pastoral communities.",
+      "answer_hi": "सतारा राजस्थानी लोक परंपराओं का एक अनूठा दोहरी-बांसुरी सुषिर वाद्य है, जो अलगोजा के समान है लेकिन इसकी उंगलियों के संचालन की प्रणाली भिन्न है। चरवाहों और लोक संगीतकारों द्वारा बजाए जाने वाले इस वाद्य में एक साथ धुन और सुर बजाने के लिए निरंतर श्वास नियंत्रण की आवश्यकता होती है। अतः, सतारा राजस्थान के देहाती समुदायों की ध्वनिक कुशलता को दर्शाता है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Comment on the role of music in the Kalbelia community's cultural heritage.",
+      "question_hi": "कालबेलिया समुदाय की सांस्कृतिक विरासत में संगीत की भूमिका पर टिप्पणी कीजिए।",
+      "answer_en": "Music is central to the Kalbelia (snake charmers) identity, recognized by UNESCO in 2010. Their performances feature high-pitched instruments like the Been (double-pipe) and Poongi, accompanied by the duff and khartal to set fast-paced rhythms. Ultimately, this music acts as a vital sensory driver that guides the hypnotic movements of the iconic Kalbelia dance.",
+      "answer_hi": "कालबेलिया (सपेरा समुदाय) की पहचान में संगीत का मुख्य स्थान है, जिसे 2010 में यूनेस्को द्वारा मान्यता दी गई थी। इनके प्रदर्शन में बीन और पूंगी जैसे सुषिर वाद्य बजाए जाते हैं, जिन्हें डफ और खड़ताल की तीव्र लय का साथ मिलता है। अंततः, यह संगीत प्रसिद्ध कालबेलिया नृत्य की सम्मोहक गतिविधियों को संचालित करने वाला मुख्य कारक है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Explain the relationship between music and visual storytelling in the Bhopa community.",
+      "question_hi": "भोपा समुदाय में संगीत और दृश्य कहानी कहने की कला (चित्रात्मक कथावाचन) के बीच संबंध स्पष्ट कीजिए।",
+      "answer_en": "The Bhopas are story-telling priest-singers who perform epics of folk deities like Pabuji using the 'Phad' (scroll painting). They play the stringed Rawanhatha to create a rhythmic, melodic background while singing and pointing to the painted scenes. Hence, their musical performance is indispensable for making the visual narrative of the Phad accessible and spiritually engaging.",
+      "answer_hi": "भोपा कथावाचक पुरोहित-गायक हैं जो 'फड़' (स्क्रॉल पेंटिंग) का उपयोग करके पाबूजी जैसे लोक देवताओं की गाथाओं का प्रदर्शन करते हैं। वे गाते समय और चित्रित दृश्यों की ओर इशारा करते हुए पृष्ठभूमि में रावणहत्था बजाते हैं। इसलिए, फड़ के दृश्य आख्यान को सुलभ और आध्यात्मिक रूप से आकर्षक बनाने के लिए उनका संगीत प्रदर्शन अपरिहार्य है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Describe the construction and musical role of the Been in Rajasthan's folk performances.",
+      "question_hi": "राजस्थान के लोक प्रदर्शनों में बीन के निर्माण और संगीत संबंधी भूमिका का वर्णन कीजिए।",
+      "answer_en": "Been is a double-reed wind instrument (Sushira Vadya) crafted from a dried gourd shell connected to two bamboo pipes. Traditionally played by the Kalbelia and Jogi communities, one pipe provides a constant drone while the other plays the melody. Therefore, it serves as the signature acoustic element associated with snake-charming rituals and folk dances.",
+      "answer_hi": "बीन सूखी लौकी (तुंबे) और दो बांस की नलियों से बना एक दुहरी-जीभ वाला सुषिर वाद्य है। पारंपरिक रूप से कालबेलिया और जोगी समुदायों द्वारा बजाए जाने वाले इस वाद्य में एक नली निरंतर सुर देती है जबकि दूसरी नली धुन बजाती है। इसलिए, यह सपेरा अनुष्ठानों और लोक नृत्यों से जुड़ी एक विशिष्ट ध्वनि का प्रतिनिधित्व करता है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Analyze the role of the Khartal in the rhythmic structure of Rajasthani folk music.",
+      "question_hi": "राजस्थानी लोक संगीत की लयबद्ध संरचना में खड़ताल की भूमिका का विश्लेषण कीजिए।",
+      "answer_en": "Khartal is a percussion idiophone (Ghana Vadya) consisting of two detached polished wooden clappers held in each hand. The player, notably from the Manganiyar community, produces complex, rapid rhythms through wrist movements and clicking. Consequently, it acts as a highly versatile rhythm keeper, driving tempo changes during intense vocal performances.",
+      "answer_hi": "खड़ताल एक घन वाद्य है जिसमें दोनों हाथों में पकड़े जाने वाले लकड़ी के दो अलग-अलग पॉलिश किए गए टुकड़े होते हैं। इसके वादक, विशेष रूप से मांगणियार समुदाय, कलाई के संचालन और आपस में टकराने से जटिल और तीव्र लय उत्पन्न करते हैं। परिणामस्वरूप, यह तीव्र गायन प्रदर्शन के दौरान गति परिवर्तनों को नियंत्रित करने वाला एक अत्यंत बहुमुखी ताल वाद्य है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Examine the cultural context and performance style of the Chang drum in Rajasthan.",
+      "question_hi": "राजस्थान में चंग वाद्य यंत्र के सांस्कृतिक संदर्भ और प्रदर्शन शैली का परीक्षण कीजिए।",
+      "answer_en": "Chang is a large, circular wooden frame drum (Avanaddha Vadya) covered with leather, historically linked to the Shekhawati region. It is played primarily during the spring festival of Holi, accompanied by rhythmic folk songs and energetic dances. Thus, the Chang functions as a communal musical symbol, fostering social harmony and seasonal celebration.",
+      "answer_hi": "चंग चमड़े से मढ़ा हुआ एक बड़ा, गोलाकार लकड़ी के फ्रेम वाला ड्रम (अवनद्ध वाद्य) है, जो ऐतिहासिक रूप से शेखावाटी क्षेत्र से जुड़ा है। यह मुख्य रूप से होली के वसंत उत्सव के दौरान बजाया जाता है, जिसके साथ लयबद्ध लोक गीत और ऊर्जावान नृत्य होते हैं। इस प्रकार, चंग एक सामुदायिक संगीत प्रतीक के रूप में सामाजिक समरसता को बढ़ावा देता है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Discuss the emotional themes and context of the Kurjan folk song of Rajasthan.",
+      "question_hi": "राजस्थान के कुरजं (कुरजां) लोक गीत के भावनात्मक विषयों और संदर्भ की चर्चा कीजिए।",
+      "answer_en": "Kurjaa is a popular Rajasthani folk song where the migratory crane (Kurjan) is used as a messenger by a lonely woman to send love notes to her absent husband. It reflects themes of separation, longing, and domestic devotion. Ultimately, the song captures the emotional resilience and seasonal migratory awareness embedded in rural Rajasthan's psyche.",
+      "answer_hi": "कुरजां एक लोकप्रिय राजस्थानी लोक गीत है जिसमें एक विरहिणी स्त्री द्वारा अपने प्रवासी पति को संदेश भेजने के लिए प्रवासी सारस (कुरजं) को दूत बनाया जाता है। यह विरह, लालसा और पारिवारिक निष्ठा के विषयों को दर्शाता है। अंततः, यह गीत ग्रामीण राजस्थान के मानस में रचे-बसे भावनात्मक लचीलेपन और मौसमी प्रवासी चेतना को दर्शाता है।"
+    },
+    {
+      "marks": 5,
+      "word_limit": 50,
+      "question_en": "Comment on the thematic elements and cultural significance of the Panihari folk songs.",
+      "question_hi": "पनिहारी लोक गीतों के विषयगत तत्वों और सांस्कृतिक महत्व पर टिप्पणी कीजिए।",
+      "answer_en": "Panihari songs are traditional folk melodies sung by Rajasthani women while fetching water from distant wells, carrying clay pots on their heads. The lyrics usually depict domestic relationships, daily water struggles, and romantic encounters at the well. Consequently, Panihari serves as a critical oral chronicle documenting the daily lives and gender roles of rural Rajasthani society.",
+      "answer_hi": "पनिहारी गीत पारंपरिक लोक धुनें हैं जो राजस्थानी महिलाओं द्वारा सिर पर मिट्टी के घड़े रखकर दूर के कुओं से पानी लाते समय गाए जाते हैं। इसके गीत आमतौर पर पारिवारिक संबंधों, दैनिक जल संकट और कुएं पर प्रेमपूर्ण मुलाकातों को दर्शाते हैं। फलस्वरूप, पनिहारी ग्रामीण राजस्थानी समाज के दैनिक जीवन और लैंगिक भूमिकाओं को दर्ज करने वाला एक महत्वपूर्ण मौखिक इतिहास है।"
+    }
+  ]
+}

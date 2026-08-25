@@ -1,0 +1,479 @@
+{
+  "mcqs": [
+    {
+      "question_en": "Consider the following statements about Munhta Nainsi's 'Marwar ra Pargana ri Vigat':\n1. It is often referred to as the 'Gazetteer of Marwar' because of its detailed demographic, agricultural, and economic data for each pargana of Marwar.\n2. It includes detailed information on the caste-wise population, houses, and professions of the inhabitants of various villages.\n3. The Vigat was compiled under the patronage of Maharaja Gaj Singh of Marwar.\nWhich of the statements given above is/are correct?",
+      "question_hi": "मुहता नैणसी की 'मारवाड़ रा परगना री विगत' के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. मारवाड़ के प्रत्येक परगने के विस्तृत जनसांख्यिकीय, कृषि और आर्थिक डेटा के कारण इसे अक्सर 'मारवाड़ का गजेटियर' कहा जाता है।\n2. इसमें विभिन्न गांवों के निवासियों की जाति-वार जनसंख्या, घरों और व्यवसायों की विस्तृत जानकारी शामिल है।\n3. विगत का संकलन मारवाड़ के महाराजा गज सिंह के संरक्षण में किया गया था।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "A",
+      "explanation_en": "Munhta Nainsi's 'Marwar ra Pargana ri Vigat' is a landmark socio-economic survey compiled in 1666 under the patronage of Maharaja Jaswant Singh I (not Gaj Singh), which is why statement 3 is incorrect. It provides comprehensive village-wise statistics on population, castes, occupations, agriculture, and revenue, earning it the title of 'Gazetteer of Marwar'.",
+      "explanation_hi": "मुहता नैणसी की 'मारवाड़ रा परगना री विगत' महाराजा जसवंत सिंह प्रथम (न कि गज सिंह) के संरक्षण में 1666 में संकलित एक ऐतिहासिक सामाजिक-आर्थिक सर्वेक्षण है, इसलिए कथन 3 गलत है। यह जनसंख्या, जातियों, व्यवसायों, कृषि और राजस्व पर व्यापक ग्राम-वार सांख्यिकी प्रदान करता है, जिसके कारण इसे 'मारवाड़ का गजेटियर' कहा जाता है।"
+    },
+    {
+      "question_en": "Consider the following statements about medieval Rajasthani land revenue assessment methods:\n1. Batai was a method where the tax was calculated purely on the basis of a pre-determined cash payment without actual division of crops.\n2. Kankoot was a system of crop estimation where the standing crop was inspected, and the state's share was estimated before harvest.\n3. Nasaq was a method of assessment based on past averages or a fixed lump sum rather than seasonal crop division.\nWhich of the statements given above is/are correct?",
+      "question_hi": "मध्यकालीन राजस्थानी भू-राजस्व निर्धारण विधियों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. बटाई एक ऐसी विधि थी जिसमें फसलों के वास्तविक विभाजन के बिना विशुद्ध रूप से पूर्व-निर्धारित नकद भुगतान के आधार पर कर की गणना की जाती थी।\n2. कंकूत फसल के आकलन की एक प्रणाली थी जिसमें खड़ी फसल का निरीक्षण किया जाता था, और कटाई से पहले राज्य के हिस्से का अनुमान लगाया जाता था।\n3. नसक पिछले औसत या मौसमी फसल विभाजन के बजाय एक निश्चित एकमुश्त राशि पर आधारित मूल्यांकन की एक विधि थी।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "B",
+      "explanation_en": "Statement 1 is incorrect because Batai was a crop-sharing system involving the physical division of harvested crops (either on the field or at the threshing floor), not a cash-based payment. Kankoot (standing crop estimation) and Nasaq (assessment based on past averages) are correctly defined in statements 2 and 3.",
+      "explanation_hi": "कथन 1 गलत है क्योंकि बटाई फसल-साझाकरण की एक प्रणाली थी जिसमें कटी हुई फसलों का भौतिक विभाजन (या तो खेत में या खलिहान में) शामिल था, न कि नकद आधारित भुगतान। कंकूत (खड़ी फसल का अनुमान) और नसक (पिछले औसत पर आधारित मूल्यांकन) कथन 2 और 3 में सही ढंग से परिभाषित हैं।"
+    },
+    {
+      "question_en": "Consider the following statements about the administrative organs of Jaipur State:\n1. The Ariz department in Jaipur state was responsible for the military administration, recruitment, and inspection of jagirdar contingents.\n2. The Majlis was a council of local village chiefs that had judicial powers to decide criminal cases of high treason.\n3. The Khasra registers in Jaipur state were maintained village-wise to keep records of individual fields, boundaries, and crops sown.\nWhich of the statements given above is/are correct?",
+      "question_hi": "जयपुर राज्य के प्रशासनिक अंगों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. जयपुर राज्य में आरिज (Ariz) विभाग सैन्य प्रशासन, भर्ती और जागीरदार दस्तों के निरीक्षण के लिए जिम्मेदार था।\n2. मजलिस स्थानीय ग्राम प्रधानों की एक परिषद थी जिसके पास राजद्रोह के आपराधिक मामलों का फैसला करने की न्यायिक शक्तियाँ थीं।\n3. जयपुर राज्य में व्यक्तिगत खेतों, सीमाओं और बोई गई फसलों का रिकॉर्ड रखने के लिए ग्राम-वार खसरा रजिस्टर बनाए रखे जाते थे।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "C",
+      "explanation_en": "Statements 1 and 3 are correct. The Ariz (military department) managed recruitment and inspectoral tasks, and the Khasra served as the village land survey document. Statement 2 is incorrect because the Majlis (established by Sawai Jai Singh II) was a consultative administrative/military council of high-ranking state officials and noble advisors, not local village chiefs handling treason cases.",
+      "explanation_hi": "कथन 1 और 3 सही हैं। आरिज (सैन्य विभाग) ने भर्ती और निरीक्षण कार्यों का प्रबंधन किया, और खसरा ग्राम भूमि सर्वेक्षण दस्तावेज के रूप में कार्य करता था। कथन 2 गलत है क्योंकि मजलिस (सवाई जय सिंह द्वितीय द्वारा स्थापित) उच्च पदस्थ राज्य अधिकारियों और कुलीन सलाहकारों की एक सलाहकार प्रशासनिक/सैन्य परिषद थी, न कि राजद्रोह के मामलों को संभालने वाले स्थानीय ग्राम प्रधानों की परिषद।"
+    },
+    {
+      "question_en": "Consider the following statements about the Patta and Rekh system in medieval Rajasthan:\n1. 'Rekh' referred to the assessed annual revenue of a jagir, which formed the basis of military obligations (chakri) and other state dues.\n2. A 'Patta' was the official charter issued by the ruler, defining the land boundaries, revenue terms, and the number of horsemen the jagirdar had to maintain.\n3. The state could convert a jagir into 'Khalisah' (direct state control) if the jagirdar failed to fulfill military duties or died without a recognized heir.\nWhich of the statements given above is/are correct?",
+      "question_hi": "मध्यकालीन राजस्थान में पट्टा और रेख प्रणाली के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. 'रेख' से तात्पर्य एक जागीर के मूल्यांकित वार्षिक राजस्व से था, जो सैन्य दायित्वों (चाकरी) और अन्य राज्य देयताओं का आधार बनता था।\n2. 'पट्टा' शासक द्वारा जारी किया गया आधिकारिक चार्टर था, जो भूमि की सीमाओं, राजस्व शर्तों और जागीरदार द्वारा रखे जाने वाले घुड़सवारों की संख्या को परिभाषित करता था।\n3. यदि जागीरदार सैन्य कर्तव्यों को पूरा करने में विफल रहता था या बिना किसी मान्यता प्राप्त उत्तराधिकारी के मर जाता था, तो राज्य जागीर को 'खालसा' (सीधे राज्य के नियंत्रण) में परिवर्तित कर सकता था।\nउपरोक्त कथनों में से कौन सा/से सही है/हैं?",
+      "options_en": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "options_hi": {
+        "A": "केवल 1 और 2",
+        "B": "केवल 2 और 3",
+        "C": "केवल 1 और 3",
+        "D": "1, 2 और 3"
+      },
+      "correct_option": "D",
+      "explanation_en": "All three statements are correct. 'Rekh' was the administrative assessment used to determine military services (Chakri) and taxes like Hukumnama. The 'Patta' was the formal title deed outlining boundaries and obligations. The state routinely confiscated estates into 'Khalisah' under direct rule for failure in service, rebellion, or absence of legal heirs.",
+      "explanation_hi": "तीनों कथन सही हैं। 'रेख' प्रशासनिक मूल्यांकन था जिसका उपयोग सैन्य सेवाओं (चाकरी) और हुक्मनामा जैसे करों को निर्धारित करने के लिए किया जाता था। 'पट्टा' औपचारिक स्वामित्व विलेख था जो सीमाओं और दायित्वों को रेखांकित करता था। सेवा में विफलता, विद्रोह या कानूनी उत्तराधिकारियों की अनुपस्थिति के लिए राज्य नियमित रूप से जागीरों को सीधे शासन के तहत 'खालसा' में जब्त कर लेता था।"
+    },
+    {
+      "question_en": "Assertion (A): Maharaja Jaswant Singh I ordered a comprehensive land and demographic survey of Marwar which resulted in the compilation of 'Marwar ra Pargana ri Vigat'.\nReason (R): The state needed accurate data on population, agricultural produce, and tax resources to stabilize and maximize land revenue collection.",
+      "question_hi": "कथन (A): महाराजा जसवंत सिंह प्रथम ने मारवाड़ के एक व्यापक भूमि और जनसांख्यिकीय सर्वेक्षण का आदेश दिया जिसके परिणामस्वरूप 'मारवाड़ रा परगना री विगत' का संकलन हुआ।\nकारण (R): भू-राजस्व संग्रह को स्थिर और अधिकतम करने के लिए राज्य को जनसंख्या, कृषि उपज और कर संसाधनों पर सटीक डेटा की आवश्यकता थी।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "A",
+      "explanation_en": "Both statements are true. The economic disruption caused by imperial wars and the need to streamline internal resources prompted Maharaja Jaswant Singh I to commission Munhta Nainsi to compile the 'Vigat' in 1666. The primary driver was to gain precise administrative intelligence regarding tax-paying capabilities, crops, and local populations, making R the correct explanation of A.",
+      "explanation_hi": "दोनों कथन सत्य हैं। शाही युद्धों के कारण आर्थिक व्यवधान और आंतरिक संसाधनों को सुव्यवस्थित करने की आवश्यकता ने महाराजा जसवंत सिंह प्रथम को 1666 में मुहता नैणसी से 'विगत' संकलित करवाने के लिए प्रेरित किया। इसका मुख्य उद्देश्य कर भुगतान क्षमताओं, फसलों और स्थानीय आबादी के संबंध में सटीक प्रशासनिक जानकारी प्राप्त करना था, जिससे R, A की सही व्याख्या बन जाता है।"
+    },
+    {
+      "question_en": "Assertion (A): The Kotwal in medieval Rajasthan towns was responsible for regulating weights, measures, and prices in the markets.\nReason (R): The town police chief (Kotwal) maintained the main prison, known as the Kotwali, to house local offenders.",
+      "question_hi": "कथन (A): मध्यकालीन राजस्थान के कस्बों में कोतवाल बाजारों में माप-तौल और कीमतों को विनियमित करने के लिए जिम्मेदार था।\nकारण (R): नगर पुलिस प्रमुख (कोतवाल) स्थानीय अपराधियों को रखने के लिए मुख्य जेल का रखरखाव करता था, जिसे कोतवाली कहा जाता था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "B",
+      "explanation_en": "Both statements are true. The Kotwal performed multi-faceted roles in urban centers, including market regulations, tax collection, checking weights/measures, policing, and maintaining the town jail (Kotwali). However, maintaining the prison is not the logical explanation or cause of his market-regulation duties. Therefore, R is not the correct explanation of A.",
+      "explanation_hi": "दोनों कथन सत्य हैं। कोतवाल शहरी केंद्रों में बहुआयामी भूमिकाएं निभाता था, जिसमें बाजार नियमन, कर संग्रह, माप-तौल की जांच, पुलिसिंग और नगर जेल (कोतवाली) का रखरखाव शामिल था। हालांकि, जेल का रखरखाव करना बाजार नियमन कर्तव्यों की तार्किक व्याख्या या कारण नहीं है। इसलिए, R, A की सही व्याख्या नहीं है।"
+    },
+    {
+      "question_en": "Assertion (A): Chittor mint in Mewar issued specific coins known as 'Tamankiya' coins, which circulated widely in the region.\nReason (R): The Sawai Madhopur mint in Jaipur state was the chief mint that produced 'Swroopa Shahi' coins under British supervision.",
+      "question_hi": "कथन (A): मेवाड़ में चित्तौड़ टकसाल ने 'तमंचाशाही' (तमंकिया) नामक विशिष्ट सिक्के जारी किए, जो इस क्षेत्र में व्यापक रूप से प्रचलन में थे।\nकारण (R): जयपुर राज्य में सवाई माधोपुर टकसाल मुख्य टकसाल थी जिसने ब्रिटिश पर्यवेक्षण में 'स्वरूपशाही' सिक्के जारी किए।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "C",
+      "explanation_en": "Assertion (A) is true because Chittor mint was famous for issuing the 'Tamankiya' (or Tamancha Shahi) copper/silver coins. Reason (R) is false because 'Swroopa Shahi' (or Swarupshahi) coins were issued by the Mewar state (Udaipur mint) under Maharana Swarup Singh, not Jaipur's Sawai Madhopur mint (which issued Jahazshahi coins).",
+      "explanation_hi": "कथन (A) सत्य है क्योंकि चित्तौड़ टकसाल 'तमंकिया' (या तमंचाशाही) तांबे/चांदी के सिक्के जारी करने के लिए प्रसिद्ध थी। कारण (R) असत्य है क्योंकि 'स्वरूपशाही' सिक्के मेवाड़ राज्य (उदयपुर टकसाल) द्वारा महाराणा स्वरूप सिंह के तहत जारी किए गए थे, न कि जयपुर की सवाई माधोपुर टकसाल (जिसने जहाजशाही सिक्के जारी किए थे) द्वारा।"
+    },
+    {
+      "question_en": "Assertion (A): The Patwari was a district-level officer who directly controlled the military garrisons in the Jagir lands.\nReason (R): The Qanungo served as a district-level revenue supervisor who maintained records of land assessments and verified the village-level accounts.",
+      "question_hi": "कथन (A): पटवारी एक जिला स्तरीय अधिकारी होता था जो सीधे जागीर भूमि में सैन्य चौकियों को नियंत्रित करता था।\nकारण (R): कानूनगो एक जिला स्तरीय राजस्व पर्यवेक्षक के रूप में कार्य करता था जो भूमि मूल्यांकन के रिकॉर्ड रखता था और ग्राम स्तर के खातों का सत्यापन करता था।",
+      "options_en": {
+        "A": "Both A and R are true, and R is the correct explanation of A",
+        "B": "Both A and R are true, but R is NOT the correct explanation of A",
+        "C": "A is true, but R is false",
+        "D": "A is false, but R is true"
+      },
+      "options_hi": {
+        "A": "A और R दोनों सही हैं, और R, A की सही व्याख्या है",
+        "B": "A और R दोनों सही हैं, किन्तु R, A की सही व्याख्या नहीं है",
+        "C": "A सही है, किन्तु R गलत है",
+        "D": "A गलत है, किन्तु R सही है"
+      },
+      "correct_option": "D",
+      "explanation_en": "Assertion (A) is false because the Patwari was a village-level land record keeper, not a district-level military officer. Reason (R) is true because the Qanungo was indeed a district/pargana-level revenue official who supervised local assessments, maintained historical records, and audited village accounts.",
+      "explanation_hi": "कथन (A) असत्य है क्योंकि पटवारी एक ग्राम-स्तरीय भूमि रिकॉर्ड रखने वाला था, न कि जिला-स्तरीय सैन्य अधिकारी। कारण (R) सत्य है क्योंकि कानूनगो वास्तव में एक जिला/परगना-स्तरीय राजस्व अधिकारी था जो स्थानीय मूल्यांकनों का पर्यवेक्षण करता था, ऐतिहासिक अभिलेख रखता था और ग्राम खातों का ऑडिट करता था।"
+    },
+    {
+      "question_en": "Match the following mints/regions with their associated currencies/coins in medieval Rajasthan:\n| Column I (Mint/Region) | Column II (Coin/Currency) |\n|---|---|\n| 1. Chittor Mint | a. Tamankiya |\n| 2. Jaipur | b. Zebi Shahi |\n| 3. Marwar | c. Tanka |\n| 4. Sawai Madhopur Mint | d. Jahazshahi |\nSelect the correct answer using the codes given below:",
+      "question_hi": "मध्यकालीन राजस्थान में निम्नलिखित टकसालों/क्षेत्रों को उनसे संबंधित मुद्राओं/सिक्कों से सुमेलित कीजिए:\n| कॉलम I (टकसाल/क्षेत्र) | कॉलम II (सिक्का/मुद्रा) |\n|---|---|\n| 1. चित्तौड़ टकसाल | a. तमंकिया |\n| 2. जयपुर | b. जेबी शाही |\n| 3. मारवाड़ | c. टंका |\n| 4. सवाई माधोपुर टकसाल | d. जहाजशाही |\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-a, 4-b",
+        "D": "1-d, 2-c, 3-b, 4-a"
+      },
+      "correct_option": "A",
+      "explanation_en": "Chittor Mint produced Tamankiya coins. Jaipur issued Zebi Shahi coins. In Marwar, Tanka was widely used as a local revenue unit/currency. Sawai Madhopur Mint issued Jahazshahi coins. Thus, the direct match is 1-a, 2-b, 3-c, 4-d.",
+      "explanation_hi": "चित्तौड़ टकसाल में तमंकिया सिक्के बनते थे। जयपुर ने जेबी शाही सिक्के जारी किए। मारवाड़ में टंका का उपयोग व्यापक रूप से स्थानीय राजस्व इकाई/मुद्रा के रूप में किया जाता था। सवाई माधोपुर टकसाल ने जहाजशाही सिक्के जारी किए। इस प्रकार, सीधा मिलान 1-a, 2-b, 3-c, 4-d है।"
+    },
+    {
+      "question_en": "Match the following administrative officials of medieval Rajasthan with their primary responsibilities:\n| Column I (Official) | Column II (Responsibility) |\n|---|---|\n| 1. Diwan | a. Military commander and inspector of troops |\n| 2. Mir Bakshi | b. State representative at the Mughal court |\n| 3. Vakeel | c. District administrative and revenue officer |\n| 4. Hakim | d. Head of the state revenue department |\nSelect the correct answer using the codes given below:",
+      "question_hi": "मध्यकालीन राजस्थान के निम्नलिखित प्रशासनिक अधिकारियों को उनके प्राथमिक उत्तरदायित्वों से सुमेलित कीजिए:\n| कॉलम I (अधिकारी) | कॉलम II (उत्तरदायित्व) |\n|---|---|\n| 1. दीवान | a. सैन्य कमांडर और सैनिकों का निरीक्षक |\n| 2. मीर बख्शी | b. मुगल दरबार में राज्य का प्रतिनिधि |\n| 3. वकील | c. जिला प्रशासनिक और राजस्व अधिकारी |\n| 4. हाकिम | d. राज्य के राजस्व विभाग का प्रमुख |\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-d, 3-c, 4-b",
+        "B": "1-d, 2-a, 3-b, 4-c",
+        "C": "1-c, 2-b, 3-d, 4-a",
+        "D": "1-b, 2-c, 3-a, 4-d"
+      },
+      "options_hi": {
+        "A": "1-a, 2-d, 3-c, 4-b",
+        "B": "1-d, 2-a, 3-b, 4-c",
+        "C": "1-c, 2-b, 3-d, 4-a",
+        "D": "1-b, 2-c, 3-a, 4-d"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Diwan (1) was the head of the revenue department (d). Mir Bakshi (2) served as the military commander and troop inspector (a). The Vakeel (3) was the diplomatic ambassador/representative at the Mughal court (b). The Hakim (4) was the head of district administration and revenue collection (c). Thus, the correct code is 1-d, 2-a, 3-b, 4-c.",
+      "explanation_hi": "दीवान (1) राजस्व विभाग का प्रमुख था (d)। मीर बख्शी (2) सैन्य कमांडर और सैनिक निरीक्षक के रूप में कार्य करता था (a)। वकील (3) मुगल दरबार में राजनयिक राजदूत/प्रतिनिधि था (b)। हाकिम (4) जिला प्रशासन और राजस्व संग्रह का प्रमुख था (c)। इस प्रकार, सही कूट 1-d, 2-a, 3-b, 4-c है।"
+    },
+    {
+      "question_en": "Match the following medieval Rajasthani revenue terms with their exact definitions:\n| Column I (Revenue Term) | Column II (Definition) |\n|---|---|\n| 1. Rekh | a. Tax on wood and forest produce |\n| 2. Lag-Baag | b. Tax on the sale of grain |\n| 3. Malpay | c. Assessed annual revenue of a jagir |\n| 4. Chaur | d. Extra/arbitrary cesses levied by jagirdars |\nSelect the correct answer using the codes given below:",
+      "question_hi": "मध्यकालीन राजस्थानी राजस्व शब्दावली को उनकी सटीक परिभाषाओं से सुमेलित कीजिए:\n| कॉलम I (राजस्व शब्दावली) | कॉलम II (परिभाषा) |\n|---|---|\n| 1. रेख | a. लकड़ी और वन उपज पर कर |\n| 2. लाग-बाग | b. अनाज की बिक्री पर कर |\n| 3. मालपाय | c. जागीर का मूल्यांकित वार्षिक राजस्व |\n| 4. चौर | d. जागीरदारों द्वारा लगाए गए अतिरिक्त/मनमाने उपकर |\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-b, 4-a",
+        "D": "1-d, 2-c, 3-a, 4-b"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-a, 3-d, 4-c",
+        "C": "1-c, 2-d, 3-b, 4-a",
+        "D": "1-d, 2-c, 3-a, 4-b"
+      },
+      "correct_option": "C",
+      "explanation_en": "Rekh (1) refers to the assessed annual revenue of a jagir (c). Lag-Baag (2) represents the arbitrary/illegal cesses (d) that triggered peasant movements. Malpay (3) was a tax on grain sales (b). Chaur (4) was a specific tax levied on wood/forest produce (a). Thus, the correct code is 1-c, 2-d, 3-b, 4-a.",
+      "explanation_hi": "रेख (1) जागीर के मूल्यांकित वार्षिक राजस्व को संदर्भित करता है (c)। लाग-बाग (2) मनमाने/अवैध उपकरों का प्रतिनिधित्व करता है (d) जिसने किसान आंदोलनों को जन्म दिया। मालपाय (3) अनाज की बिक्री पर एक कर था (b)। चौर (4) लकड़ी/वन उपज पर लगाया जाने वाला एक विशिष्ट कर था (a)। इस प्रकार, सही कूट 1-c, 2-d, 3-b, 4-a है।"
+    },
+    {
+      "question_en": "Match the following types of land divisions/grants in medieval Rajasthan with their descriptions:\n| Column I (Land Type) | Column II (Description) |\n|---|---|\n| 1. Wakil Jagir | a. Direct state-owned land managed by royal officers |\n| 2. Bhumia Jagir | b. Land granted to military chiefs for service |\n| 3. Grasiya Jagir | c. Assigned to state representatives serving at external courts |\n| 4. Khalisah | d. Hereditary land held for local security and border defense |\nSelect the correct answer using the codes given below:",
+      "question_hi": "मध्यकालीन राजस्थान में निम्नलिखित भूमि विभाजनों/अनुदानों के प्रकारों को उनके विवरण से सुमेलित कीजिए:\n| कॉलम I (भूमि का प्रकार) | कॉलम II (विवरण) |\n|---|---|\n| 1. वकील जागीर | a. शाही अधिकारियों द्वारा प्रबंधित सीधे राज्य के स्वामित्व वाली भूमि |\n| 2. भूमिया जागीर | b. सेवा के बदले सैन्य प्रमुखों को दी गई भूमि |\n| 3. गरासिया जागीर | c. बाहरी दरबारों में सेवा करने वाले राज्य के प्रतिनिधियों को सौंपी गई भूमि |\n| 4. खालसा | d. स्थानीय सुरक्षा और सीमा रक्षा के लिए रखी गई वंशानुगत भूमि |\nनीचे दिए गए कूट का प्रयोग कर सही उत्तर चुनिए:",
+      "options_en": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-d, 4-a",
+        "C": "1-d, 2-a, 3-c, 4-b",
+        "D": "1-c, 2-d, 3-b, 4-a"
+      },
+      "options_hi": {
+        "A": "1-a, 2-b, 3-c, 4-d",
+        "B": "1-b, 2-c, 3-d, 4-a",
+        "C": "1-d, 2-a, 3-c, 4-b",
+        "D": "1-c, 2-d, 3-b, 4-a"
+      },
+      "correct_option": "D",
+      "explanation_en": "Wakil Jagir (1) was assigned to state representatives/ambassadors at external courts (c). Bhumia Jagir (2) was hereditary land given to Bhumias for local militia duties and defense (d). Grasiya Jagir (3) was granted to military chiefs/nobles for general military service (b). Khalisah (4) was crown land directly managed by the state (a). The matching code is 1-c, 2-d, 3-b, 4-a.",
+      "explanation_hi": "वकील जागीर (1) बाहरी दरबारों में राज्य के प्रतिनिधियों/राजदूतों को सौंपी जाती थी (c)। भूमिया जागीर (2) स्थानीय मिलिशिया कर्तव्यों और रक्षा के लिए भूमियाओं को दी जाने वाली वंशानुगत भूमि थी (d)। गरासिया जागीर (3) सामान्य सैन्य सेवा के लिए सैन्य प्रमुखों/कुलीनों को दी जाती थी (b)। खालसा (4) राज्य द्वारा सीधे प्रबंधित क्राउन भूमि थी (a)। सही मिलान कूट 1-c, 2-d, 3-b, 4-a है।"
+    },
+    {
+      "question_en": "In the context of medieval Rajasthan's administration, what is the primary distinction between Munhta Nainsi's 'Khyat' and 'Marwar ra Pargana ri Vigat'?",
+      "question_hi": "मध्यकालीन राजस्थान के प्रशासन के संदर्भ में, मुहता नैणसी की 'ख्यात' और 'मारवाड़ रा परगना री विगत' के बीच प्राथमिक अंतर क्या है?",
+      "options_en": {
+        "A": "The Khyat is a historical-geographical chronicle of various Rajput dynasties, while the Vigat is a detailed economic and statistical survey of Marwar parganas.",
+        "B": "The Khyat deals exclusively with Jaipur's history, whereas the Vigat focuses only on Mewar's land reforms.",
+        "C": "The Khyat is a list of royal orders (Sanads), while the Vigat is a military manual for the Rajput cavalry.",
+        "D": "The Khyat was written in Sanskrit under Mewar patronage, while the Vigat was written in Persian under Mughal orders."
+      },
+      "options_hi": {
+        "A": "ख्यात विभिन्न राजपूत राजवंशों का एक ऐतिहासिक-भौगोलिक इतिहास है, जबकि विगत मारवाड़ के परगनों का एक विस्तृत आर्थिक और सांख्यिकी सर्वेक्षण है।",
+        "B": "ख्यात विशेष रूप से जयपुर के इतिहास से संबंधित है, जबकि विगत केवल मेवाड़ के भूमि सुधारों पर केंद्रित है।",
+        "C": "ख्यात शाही आदेशों (सनदों) की एक सूची है, जबकि विगत राजपूत घुड़सवार सेना के लिए एक सैन्य नियमावली है।",
+        "D": "ख्यात मेवाड़ के संरक्षण में संस्कृत में लिखी गई थी, जबकि विगत मुगल आदेशों के तहत फारसी में लिखी गई थी।"
+      },
+      "correct_option": "A",
+      "explanation_en": "Munhta Nainsi's Khyat is a historical-geographical account detailing the history and lineages of various Rajput clans across Rajasthan, whereas the 'Marwar ra Pargana ri Vigat' (1666) is a highly detailed administrative, demographic, and economic survey of the parganas of Marwar, often called the 'Gazetteer of Marwar'.",
+      "explanation_hi": "मुहता नैणसी की ख्यात एक ऐतिहासिक-भौगोलिक विवरण है जो राजस्थान के विभिन्न राजपूत कुलों के इतिहास और वंशावली का विवरण देता है, जबकि 'मारवाड़ रा परगना री विगत' (1666) मारवाड़ के परगनों का एक अत्यधिक विस्तृत प्रशासनिक, जनसांख्यिकीय और आर्थिक सर्वेक्षण है, जिसे अक्सर 'मारवाड़ का गजेटियर' कहा जाता है।"
+    },
+    {
+      "question_en": "In the administrative setup of medieval Rajasthan princely states, who was the 'Vakeel'?",
+      "question_hi": "मध्यकालीन राजस्थान की रियासतों के प्रशासनिक ढांचे में, 'वकील' कौन था?",
+      "options_en": {
+        "A": "The state's diplomatic representative stationed at the Mughal court or other princely courts.",
+        "B": "The head of the town police and judiciary who decided criminal matters.",
+        "C": "The officer in charge of royal stables and military logistics.",
+        "D": "The village-level revenue officer responsible for auditing the Patwari's books."
+      },
+      "options_hi": {
+        "A": "मुगल दरबार या अन्य रियासतों के दरबार में तैनात राज्य का राजनयिक प्रतिनिधि।",
+        "B": "नगर पुलिस और न्यायपालिका का प्रमुख जो आपराधिक मामलों का फैसला करता था।",
+        "C": "शाही अस्तबल और सैन्य रसद का प्रभारी अधिकारी।",
+        "D": "पटवारी के बही-खातों के ऑडिट के लिए जिम्मेदार ग्राम-स्तरीय राजस्व अधिकारी।"
+      },
+      "correct_option": "A",
+      "explanation_en": "The Vakeel (or Vakil) was a crucial diplomatic official who represented the interest of a Rajput princely state at the Mughal imperial court or at the court of another major state, serving as the main channel of communication and diplomacy.",
+      "explanation_hi": "वकील एक महत्वपूर्ण राजनयिक अधिकारी होता था जो मुगल शाही दरबार में या किसी अन्य प्रमुख रियासत के दरबार में राजपूत रियासत के हितों का प्रतिनिधित्व करता था, और संचार एवं कूटनीति के मुख्य माध्यम के रूप में कार्य करता था।"
+    },
+    {
+      "question_en": "Under the Jagir and Patta system of medieval Rajasthan, what did the term 'Hukumnama' (or Peshkash) signify?",
+      "question_hi": "मध्यकालीन राजस्थान की जागीर और पट्टा प्रणाली के तहत, 'हुक्मनामा' (या पेशकश) शब्द का क्या अर्थ था?",
+      "options_en": {
+        "A": "A succession fee paid by a new jagirdar to the ruler upon inheriting the jagir.",
+        "B": "An annual tax levied on the merchants to maintain town security.",
+        "C": "A license fee for operating mints in pargana headquarters.",
+        "D": "A compensation paid to peasant families displaced during military campaigns."
+      },
+      "options_hi": {
+        "A": "पिछले जागीरदार की मृत्यु पर जागीर विरासत में मिलने पर नए जागीरदार द्वारा शासक को दिया जाने वाला उत्तराधिकार शुल्क।",
+        "B": "नगर की सुरक्षा बनाए रखने के लिए व्यापारियों पर लगाया जाने वाला वार्षिक कर।",
+        "C": "परगना मुख्यालयों में टकसाल संचालित करने के लिए लाइसेंस शुल्क।",
+        "D": "सैन्य अभियानों के दौरान विस्थापित हुए किसान परिवारों को दिया जाने वाला मुआवजा।"
+      },
+      "correct_option": "A",
+      "explanation_en": "Hukumnama (also known as Peshkash or Qaid-Kushaee) was a succession tax or fee that a new jagirdar had to pay to the ruler to obtain the formal renewal of the jagir grant (Patta) upon the death of the previous holder.",
+      "explanation_hi": "हुक्मनामा (जिसे पेशकश या कैद-कुशाई भी कहा जाता है) एक उत्तराधिकार कर या शुल्क था जो एक नए जागीरदार को पिछले धारक की मृत्यु के बाद जागीर अनुदान (पट्टा) के औपचारिक नवीनीकरण के लिए शासक को भुगतान करना पड़ता था।"
+    },
+    {
+      "question_en": "In medieval Rajasthan's land revenue administration, how did the 'Lata' system of Batai operate?",
+      "question_hi": "मध्यकालीन राजस्थान के भू-राजस्व प्रशासन में, बटाई की 'लाटा' प्रणाली कैसे संचालित होती थी?",
+      "options_en": {
+        "A": "By estimating the crop yield based on the length of the farm boundary.",
+        "B": "By dividing the actual heaps of threshed grain on the harvest floor between the state and the peasant.",
+        "C": "By calculating a fixed cash tax based on the size of the ploughed field.",
+        "D": "By assessing the tax using a standardized measurement rope called 'Lata'."
+      },
+      "options_hi": {
+        "A": "खेत की सीमा की लंबाई के आधार पर फसल की उपज का अनुमान लगाकर।",
+        "B": "खलिहान में मढ़ाई किए गए अनाज के वास्तविक ढेरों को राज्य और किसान के बीच विभाजित करके।",
+        "C": "जुते हुए खेत के आकार के आधार पर एक निश्चित नकद कर की गणना करके।",
+        "D": "'लाटा' नामक एक मानकीकृत माप रस्सी का उपयोग करके कर का निर्धारण करके।"
+      },
+      "correct_option": "B",
+      "explanation_en": "Lata (or Latai) was a form of the Batai (crop-sharing) system where the actual grain was collected in heaps on the threshing floor after harvesting and then physically divided between the state (or jagirdar) and the cultivator according to fixed ratios.",
+      "explanation_hi": "लाटा (या लाटाई) बटाई (फसल-साझाकरण) प्रणाली का एक रूप था जहाँ फसल कटाई के बाद खलिहान में अनाज को ढेरों में इकट्ठा किया जाता था और फिर राज्य (या जागीरदार) and किसान के बीच निश्चित अनुपात के अनुसार भौतिक रूप से विभाजित किया जाता था।"
+    },
+    {
+      "question_en": "What was the primary purpose of the 'Girdawari' process in the revenue administration of Marwar?",
+      "question_hi": "मारवाड़ के राजस्व प्रशासन में 'गिरदावरी' प्रक्रिया का प्राथमिक उद्देश्य क्या था?",
+      "options_en": {
+        "A": "To verify the military readiness of the Jagirdar's cavalry twice a year.",
+        "B": "To conduct an on-the-spot annual inspection of crops to record the area sown and determine tax.",
+        "C": "To register the transfer of land ownership from hereditary bhumias to the state.",
+        "D": "To collect extra religious cesses from non-agricultural populations in the parganas."
+      },
+      "options_hi": {
+        "A": "वर्ष में दो बार जागीरदार के घुड़सवारों की सैन्य तत्परता का सत्यापन करना।",
+        "B": "बोए गए क्षेत्र को दर्ज करने और कर निर्धारित करने के लिए फसलों का मौके पर वार्षिक निरीक्षण करना।",
+        "C": "वंशानुगत भूमियों से राज्य को भूमि स्वामित्व के हस्तांतरण को पंजीकृत करना।",
+        "D": "परगनों में गैर-कृषि आबादी से अतिरिक्त धार्मिक उपकर वसूलना।"
+      },
+      "correct_option": "B",
+      "explanation_en": "Girdawari is the annual or seasonal crop inspection conducted on-the-spot by revenue officials (like Patwaris) to record the types of crops grown, the area of land cultivated, and the assessment of revenue based on the condition of the harvest.",
+      "explanation_hi": "गिरदावरी राजस्व अधिकारियों (जैसे पटवारी) द्वारा मौके पर किया जाने वाला वार्षिक या मौसमी फसल निरीक्षण है, ताकि उगाई गई फसलों के प्रकार, खेती की गई भूमि के क्षेत्रफल और फसल की स्थिति के आधार पर राजस्व का आकलन किया जा सके।"
+    },
+    {
+      "question_en": "Which specific coin, characterized by its distinct ship-like or anchor emblem, was minted at Sawai Madhopur in Jaipur State?",
+      "question_hi": "जयपुर राज्य के सवाई माधोपुर में किस विशिष्ट सिक्के की ढलाई की जाती थी, जिसकी विशेषता उसका जहाज-जैसा या लंगर का प्रतीक चिन्ह था?",
+      "options_en": {
+        "A": "Tamankiya coin",
+        "B": "Jahazshahi rupee",
+        "C": "Swroopa Shahi paisa",
+        "D": "Zebi Shahi mohur"
+      },
+      "options_hi": {
+        "A": "तमंकिया सिक्का",
+        "B": "जहाजशाही रुपया",
+        "C": "स्वरूपशाही पैसा",
+        "D": "जेबीशाही मोहर"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Jahazshahi rupee (bearing a ship-like mark or emblem) was minted at the Sawai Madhopur mint in the Jaipur state. It was a well-known local currency during the late medieval and early modern period in eastern Rajasthan.",
+      "explanation_hi": "जहाजशाही रुपया (जिस पर जहाज जैसा निशान या प्रतीक होता था) जयपुर राज्य की सवाई माधोपुर टकसाल में ढाला जाता था। यह पूर्वी राजस्थान में उत्तर मध्यकाल और प्रारंभिक आधुनिक काल के दौरान एक प्रसिद्ध स्थानीय मुद्रा थी।"
+    },
+    {
+      "question_en": "In the local administration of Jaipur state, what was the primary function of the 'Chaudhari' in relation to pargana administration?",
+      "question_hi": "जयपुर राज्य के स्थानीय प्रशासन में, परगना प्रशासन के संबंध में 'चौधरी' का प्राथमिक कार्य क्या था?",
+      "options_en": {
+        "A": "He was the chief military general who defended the pargana fortress.",
+        "B": "He acted as an intermediary revenue officer at the pargana level who assisted in revenue collection and verified village accounts.",
+        "C": "He was the head of the municipal council responsible for urban sanitation.",
+        "D": "He was the religious head who supervised temples and charitable land grants (Sasan)."
+      },
+      "options_hi": {
+        "A": "वह मुख्य सैन्य सेनापति था जिसने परगना के किले की रक्षा की थी।",
+        "B": "उसने परगना स्तर पर एक मध्यस्थ राजस्व अधिकारी के रूप में कार्य किया जिसने राजस्व संग्रह में सहायता की और ग्राम खातों का सत्यापन किया।",
+        "C": "वह शहरी स्वच्छता के लिए जिम्मेदार नगर परिषद का प्रमुख था।",
+        "D": "वह धार्मिक प्रमुख था जिसने मंदिरों और धर्मार्थ भूमि अनुदानों (सासन) का पर्यवेक्षण किया।"
+      },
+      "correct_option": "B",
+      "explanation_en": "The Chaudhari in Jaipur state served as a crucial local revenue intermediary at the pargana level, working closely with the Qanungo and Amil to coordinate tax collections from various villages, maintain accounts, and verify the work of Patwaris.",
+      "explanation_hi": "जयपुर राज्य में चौधरी परगना स्तर पर एक महत्वपूर्ण स्थानीय राजस्व मध्यस्थ के रूप में कार्य करता था, जो विभिन्न गांवों से कर संग्रह का समन्वय करने, खातों का रखरखाव करने और पटवारियों के काम को सत्यापित करने के लिए कानूनगो और आमिल के साथ मिलकर काम करता था।"
+    },
+    {
+      "question_en": "Under the Rajput land tenure system, what did the term 'Bharatu Rekh' indicate?",
+      "question_hi": "राजपूत भू-स्वामित्व प्रणाली के तहत, 'भरतू रेख' (Bharatu Rekh) शब्द क्या दर्शाता था?",
+      "options_en": {
+        "A": "The hypothetical maximum revenue that a land could yield under ideal conditions.",
+        "B": "The military tax paid directly to the Mughal Emperor in Delhi.",
+        "C": "The actual revenue paid or collected from a Jagir in a given year.",
+        "D": "The land register maintained by the village headman (Patel)."
+      },
+      "options_hi": {
+        "A": "आदर्श परिस्थितियों में भूमि से प्राप्त होने वाला काल्पनिक अधिकतम राजस्व।",
+        "B": "दिल्ली में मुगल सम्राट को सीधे भुगतान किया जाने वाला सैन्य कर।",
+        "C": "किसी दिए गए वर्ष में जागीर से भुगतान किया गया या एकत्र किया गया वास्तविक राजस्व।",
+        "D": "ग्राम प्रधान (पटेल) द्वारा बनाए रखा जाने वाला भूमि रजिस्टर।"
+      },
+      "correct_option": "C",
+      "explanation_en": "In the administrative records of medieval Rajasthan, two types of 'Rekh' were used: Patta Rekh (the written/assessed revenue of a jagir recorded in the grant) and Bharatu Rekh (the actual amount of revenue deposited or collected from that jagir).",
+      "explanation_hi": "मध्यकालीन राजस्थान के प्रशासनिक अभिलेखों में, दो प्रकार की 'रेख' का उपयोग किया जाता था: पट्टा रेख (अनुदान में दर्ज जागीर का लिखित/मूल्यांकित राजस्व) और भरतू रेख (उस जागीर से जमा या एकत्र किए गए राजस्व की वास्तविक राशि)।"
+    },
+    {
+      "question_en": "In the administrative framework of medieval Rajasthan, the 'Amil' was primarily responsible for:",
+      "question_hi": "मध्यकालीन राजस्थान के प्रशासनिक ढांचे में, 'आमिल' मुख्य रूप से किसके लिए जिम्मेदार था?",
+      "options_en": {
+        "A": "Organizing the cultural activities and assemblies (Majlis) at the royal court.",
+        "B": "Leading the frontline infantry during border skirmishes.",
+        "C": "Collecting land revenue and maintaining administrative control at the pargana level.",
+        "D": "Striking silver and copper coins at the state-authorized mints."
+      },
+      "options_hi": {
+        "A": "शाही दरबार में सांस्कृतिक गतिविधियों और सभाओं (मजलिस) का आयोजन करना।",
+        "B": "सीमावर्ती झड़पों के दौरान अग्रिम पंक्ति की पैदल सेना का नेतृत्व करना।",
+        "C": "परगना स्तर पर भू-राजस्व एकत्र करना और प्रशासनिक नियंत्रण बनाए रखना।",
+        "D": "राज्य-अधिकृत टकसालों में चांदी और तांबे के सिक्कों की ढलाई करना।"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Amil (or Hakim in some regions) was the chief revenue collector and administrator at the pargana level, responsible for assessing land revenue, executing royal orders, and maintaining local order.",
+      "explanation_hi": "आमिल (या कुछ क्षेत्रों में हाक‌िम) परगना स्तर पर मुख्य राजस्व संग्रहकर्ता और प्रशासक था, जो भू-राजस्व का आकलन करने, शाही आदेशों को लागू करने और स्थानीय व्यवस्था बनाए रखने के लिए जिम्मेदार था।"
+    },
+    {
+      "question_en": "In the military structure of medieval Rajasthan, who were the 'Dhangar'?",
+      "question_hi": "मध्यकालीन राजस्थान के सैन्य ढांचे में, 'धांगड़' कौन थे?",
+      "options_en": {
+        "A": "Heavy cavalry units directly recruited from the royal clan.",
+        "B": "Artillery specialists trained in the use of small matchlocks.",
+        "C": "Shepherd-soldiers or light infantry who served in the irregular local militia.",
+        "D": "Elite royal bodyguards who protected the royal palace gates."
+      },
+      "options_hi": {
+        "A": "सीधे शाही वंश से भर्ती की गई भारी घुड़सवार सेना की इकाइयाँ।",
+        "B": "छोटी बंदूकों के उपयोग में प्रशिक्षित तोपखाने विशेषज्ञ।",
+        "C": "चरवाहे-सैनिक या हल्की पैदल सेना जिन्होंने अनियमित स्थानीय सेना में सेवा की।",
+        "D": "विशिष्ट शाही अंगरक्षक जिन्होंने शाही महल के द्वारों की रक्षा की।"
+      },
+      "correct_option": "C",
+      "explanation_en": "The Dhangars were shepherd-soldiers who formed part of the irregular infantry and local militias in medieval Rajasthan. They were vital for local defense and guerrilla-style campaigns in rugged terrains.",
+      "explanation_hi": "धांगड़ चरवाहे-सैनिक थे जो मध्यकालीन राजस्थान में अनियमित पैदल सेना और स्थानीय मिलिशिया का हिस्सा थे। वे बीहड़ इलाकों में स्थानीय रक्षा और गुरिल्ला शैली के अभियानों के लिए महत्वपूर्ण थे।"
+    },
+    {
+      "question_en": "In a medieval Rajasthani urban center, which of the following duties did NOT fall under the jurisdiction of the Kotwal?",
+      "question_hi": "मध्यकालीन राजस्थानी शहरी केंद्र में, निम्नलिखित में से कौन सा कार्य कोतवाल के अधिकार क्षेत्र में नहीं आता था?",
+      "options_en": {
+        "A": "Maintaining law and order and patrolling the city streets at night.",
+        "B": "Regulating municipal markets, weights, and measures.",
+        "C": "Supervising the local prison (Kotwali).",
+        "D": "Deciding high-level disputes related to jagir succession and royal inheritance."
+      },
+      "options_hi": {
+        "A": "कानून-व्यवस्था बनाए रखना और रात में शहर की सड़कों पर गश्त करना।",
+        "B": "नगर निगम के बाजारों, माप-तौल और कीमतों को विनियमित करना।",
+        "C": "स्थानीय जेल (कोतवाली) का पर्यवेक्षण करना।",
+        "D": "जागीर उत्तराधिकार और शाही विरासत से संबंधित उच्च स्तरीय विवादों का फैसला करना।"
+      },
+      "correct_option": "D",
+      "explanation_en": "The Kotwal was the town police chief and municipal administrator, looking after law and order, prison maintenance, market prices, and sanitation. Jagir succession and royal inheritance disputes were handled directly by the Ruler (Maharaja/Maharana) with the assistance of the Diwan.",
+      "explanation_hi": "कोतवाल नगर पुलिस प्रमुख और नगर प्रशासक होता था, जो कानून-व्यवस्था, जेल रखरखाव, बाजार की कीमतों और स्वच्छता की देखरेख करता था। जागीर उत्तराधिकार और शाही विरासत के विवादों को दीवान की सहायता से सीधे शासक (महाराजा/महाराणा) द्वारा निपटाया जाता था।"
+    },
+    {
+      "question_en": "The first systematic, village-by-village socioeconomic survey of Marwar, compiled in 1666, was carried out during the reign of which Marwar ruler?",
+      "question_hi": "1666 में संकलित मारवाड़ का पहला व्यवस्थित, गांव-दर-गांव सामाजिक-आर्थिक सर्वेक्षण किस मारवाड़ शासक के शासनकाल के दौरान किया गया था?",
+      "options_en": {
+        "A": "Maharaja Gaj Singh I",
+        "B": "Maharaja Ajit Singh",
+        "C": "Maharaja Abhai Singh",
+        "D": "Maharaja Jaswant Singh I"
+      },
+      "options_hi": {
+        "A": "महाराजा गज सिंह प्रथम",
+        "B": "महाराजा अजीत सिंह",
+        "C": "महाराजा अभय सिंह",
+        "D": "महाराजा जसवंत सिंह प्रथम"
+      },
+      "correct_option": "D",
+      "explanation_en": "The first comprehensive socio-economic survey of Marwar, 'Marwar ra Pargana ri Vigat', was compiled in 1666 by Munhta Nainsi during the reign of Maharaja Jaswant Singh I.",
+      "explanation_hi": "मारवाड़ का पहला व्यापक सामाजिक-आर्थिक सर्वेक्षण, 'मारवाड़ रा परगना री विगत', 1666 में महाराजा जसवंत सिंह प्रथम के शासनकाल के दौरान मुहता नैणसी द्वारा संकलित किया गया था।"
+    },
+    {
+      "question_en": "Under the land revenue system of medieval Mewar, which estimation method allowed the state to levy revenue based on previous years' tax records without measuring the crop or counting the bundles annually?",
+      "question_hi": "मध्यकालीन मेवाड़ की भू-राजस्व प्रणाली के तहत, किस आकलन विधि ने राज्य को सालाना फसल मापने या बंडलों की गिनती किए बिना पिछले वर्षों के कर रिकॉर्ड के आधार पर राजस्व वसूलने की अनुमति दी?",
+      "options_en": {
+        "A": "Lata-Batai",
+        "B": "Kankoot",
+        "C": "Kunwar Batai",
+        "D": "Nasaq"
+      },
+      "options_hi": {
+        "A": "लाटा-बटाई",
+        "B": "कंकूत",
+        "C": "कुंवर बटाई",
+        "D": "नसक (Nasaq)"
+      },
+      "correct_option": "D",
+      "explanation_en": "Nasaq was a method of fixed or group assessment based on historical averages or agreements. It did not require the annual measurement of crops or counting of harvested grain heaps (unlike Batai or Kankoot), thereby simplifying the revenue administration.",
+      "explanation_hi": "नसक (Nasaq) ऐतिहासिक औसत या समझौतों के आधार पर निश्चित या समूह मूल्यांकन की एक विधि थी। इसमें वार्षिक फसल मापने या कटे हुए अनाज के ढेरों की गिनती करने की आवश्यकता नहीं होती थी (बटाई या कंकूत के विपरीत), जिससे राजस्व प्रशासन सरल हो जाता था।"
+    }
+  ]
+}

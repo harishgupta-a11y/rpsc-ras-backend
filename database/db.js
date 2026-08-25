@@ -357,6 +357,19 @@ async function initDatabase() {
             );
         `);
 
+        // 18. Flashcards Table
+        await run(`
+            CREATE TABLE IF NOT EXISTS flashcards (
+                flashcard_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                minute_topic_id INTEGER NOT NULL,
+                language TEXT NOT NULL DEFAULT 'EN',
+                front_text TEXT NOT NULL,
+                back_text TEXT NOT NULL,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                FOREIGN KEY(minute_topic_id) REFERENCES minute_topics(minute_topic_id) ON DELETE CASCADE
+            );
+        `);
+
         // Migrations: Add columns if not present
         try {
             await run("ALTER TABLE questions ADD COLUMN minute_topic_id INTEGER DEFAULT NULL;");
@@ -400,6 +413,16 @@ async function initDatabase() {
         }
         try {
             await run("ALTER TABLE minute_topics ADD COLUMN language TEXT NOT NULL DEFAULT 'EN';");
+        } catch (e) {
+            // Ignore if column already exists
+        }
+        try {
+            await run("ALTER TABLE questions ADD COLUMN ca_month INTEGER DEFAULT NULL;");
+        } catch (e) {
+            // Ignore if column already exists
+        }
+        try {
+            await run("ALTER TABLE questions ADD COLUMN ca_year INTEGER DEFAULT NULL;");
         } catch (e) {
             // Ignore if column already exists
         }
@@ -1894,11 +1917,16 @@ module.exports = {
     },
 
     // Strict No-Repeat Quiz Generator (with Language Filter, Difficulty & Minute Topic support)
-    generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null, difficulty = 'ALL') => {
+    generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null, difficulty = 'ALL', month = null, year = null) => {
         // Enforce Strict No-Repeat Guard, language and difficulty filter
         let questions = [];
         const diffFilter = (difficulty && difficulty !== 'ALL') ? " AND q.difficulty = ? " : "";
         const diffParams = (difficulty && difficulty !== 'ALL') ? [difficulty] : [];
+
+        const m = month ? parseInt(month) : null;
+        const y = year ? parseInt(year) : null;
+        const caFilter = " AND (? IS NULL OR q.ca_month = ?) AND (? IS NULL OR q.ca_year = ?) ";
+        const caParams = [m, m, y, y];
 
         if (minuteTopicId) {
             questions = await all(`
@@ -1907,12 +1935,13 @@ module.exports = {
                 WHERE q.minute_topic_id = ?
                   AND q.language = ?
                   ${diffFilter}
+                  ${caFilter}
                   AND q.question_id NOT IN (
                       SELECT question_id FROM user_quiz_history WHERE user_id = ?
                   )
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [minuteTopicId, language, ...diffParams, userId, limit]);
+            `, [minuteTopicId, language, ...diffParams, ...caParams, userId, limit]);
         } else {
             const placeholders = topicIds.map(() => '?').join(',');
             questions = await all(`
@@ -1921,12 +1950,13 @@ module.exports = {
                 WHERE q.topic_id IN (${placeholders})
                   AND q.language = ?
                   ${diffFilter}
+                  ${caFilter}
                   AND q.question_id NOT IN (
                       SELECT question_id FROM user_quiz_history WHERE user_id = ?
                   )
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [...topicIds, language, ...diffParams, userId, limit]);
+            `, [...topicIds, language, ...diffParams, ...caParams, userId, limit]);
         }
 
         // Guard: Recycle previously attempted questions if the pool is exhausted
@@ -1945,10 +1975,11 @@ module.exports = {
                     WHERE q.minute_topic_id = ?
                       AND q.language = ?
                       ${diffFilter}
+                      ${caFilter}
                       ${loadedFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
-                `, [minuteTopicId, language, ...diffParams, ...loadedParams, extraLimit]);
+                `, [minuteTopicId, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
             } else {
                 const placeholders = topicIds.map(() => '?').join(',');
                 recycledQuestions = await all(`
@@ -1957,10 +1988,11 @@ module.exports = {
                     WHERE q.topic_id IN (${placeholders})
                       AND q.language = ?
                       ${diffFilter}
+                      ${caFilter}
                       ${loadedFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
-                `, [...topicIds, language, ...diffParams, ...loadedParams, extraLimit]);
+                `, [...topicIds, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
             }
 
             // Combine and ensure unique questions
@@ -2010,14 +2042,37 @@ module.exports = {
     getSupportQueries: () => all("SELECT sq.*, u.mobile_number FROM support_queries sq JOIN users u ON sq.user_id = u.user_id ORDER BY sq.timestamp DESC"),
     clearSupportQuery: (queryId) => run("DELETE FROM support_queries WHERE query_id = ?", [queryId]),
 
-    getMinuteTopicsByTopic: (topicId, language = 'EN') => all(`
-        SELECT mt.*, 
-               (SELECT COUNT(*) FROM questions q WHERE q.minute_topic_id = mt.minute_topic_id) as q_count,
-               (SELECT COUNT(*) FROM mains_questions mq WHERE mq.minute_topic_id = mt.minute_topic_id) as mq_count,
-               (SELECT COUNT(*) FROM pyq_questions pq WHERE pq.minute_topic_id = mt.minute_topic_id) as pyq_count
-        FROM minute_topics mt
-        WHERE mt.topic_id = ? AND mt.language = ?
-    `, [topicId, language]),
+    getMinuteTopicsByTopic: (topicId, language = 'EN', month = null, year = null) => {
+        const m = month ? parseInt(month) : null;
+        const y = year ? parseInt(year) : null;
+        return all(`
+            SELECT mt.*, 
+                   (SELECT COUNT(*) FROM questions q 
+                    WHERE q.minute_topic_id = mt.minute_topic_id
+                      AND (? IS NULL OR q.ca_month = ?)
+                      AND (? IS NULL OR q.ca_year = ?)
+                   ) as q_count,
+                   (SELECT COUNT(*) FROM mains_questions mq WHERE mq.minute_topic_id = mt.minute_topic_id) as mq_count,
+                   (SELECT COUNT(*) FROM pyq_questions pq WHERE pq.minute_topic_id = mt.minute_topic_id) as pyq_count
+            FROM minute_topics mt
+            WHERE mt.topic_id = ? AND mt.language = ?
+        `, [m, m, y, y, topicId, language]);
+    },
+    getCurrentAffairsTimeframes: () => all(`
+        SELECT DISTINCT ca_month, ca_year 
+        FROM questions 
+        WHERE ca_month IS NOT NULL AND ca_year IS NOT NULL
+        ORDER BY ca_year DESC, ca_month DESC
+    `),
+    getFlashcardsBySubtopic: (minuteTopicId, language = 'EN') => all(`
+        SELECT * FROM flashcards 
+        WHERE minute_topic_id = ? AND language = ? 
+        ORDER BY flashcard_id ASC
+    `, [minuteTopicId, language]),
+    insertFlashcard: (minuteTopicId, language, front, back) => run(`
+        INSERT INTO flashcards (minute_topic_id, language, front_text, back_text) 
+        VALUES (?, ?, ?, ?)
+    `, [minuteTopicId, language, front, back]),
     createMinuteTopic: (topicId, name, language = 'EN') => run("INSERT INTO minute_topics (topic_id, minute_topic_name, language) VALUES (?, ?, ?)", [topicId, name, language]),
     clearMinuteTopicQuestions: async (minuteTopicId) => {
         await run("DELETE FROM questions WHERE minute_topic_id = ?", [minuteTopicId]);

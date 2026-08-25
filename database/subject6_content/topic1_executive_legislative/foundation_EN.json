@@ -1,0 +1,229 @@
+{
+  "subject": "Political and Administrative System of Rajasthan",
+  "topic": "Executive & Legislative Framework",
+  "subtopics": ["Governor", "Chief Minister & Council of Ministers", "Rajasthan Legislative Assembly"],
+  "difficulty": "FOUNDATION",
+  "language": "EN",
+  "questions": [
+    {
+      "question_text": "Under which Article of the Indian Constitution is the office of the Governor established?",
+      "option_a": "Article 152",
+      "option_b": "Article 153",
+      "option_c": "Article 154",
+      "option_d": "Article 155",
+      "correct_answer": "B",
+      "explanation": "Article 153 provides that there shall be a Governor for each State. Article 154 vests executive power of the State in the Governor.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "Who appoints the Governor of Rajasthan?",
+      "option_a": "Chief Minister of Rajasthan",
+      "option_b": "Prime Minister of India",
+      "option_c": "President of India",
+      "option_d": "Chief Justice of Rajasthan High Court",
+      "correct_answer": "C",
+      "explanation": "Under Article 155, the Governor of a State is appointed by the President of India by warrant under his hand and seal.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "What is the minimum age required to be appointed as the Governor of a State?",
+      "option_a": "25 years",
+      "option_b": "30 years",
+      "option_c": "35 years",
+      "option_d": "40 years",
+      "correct_answer": "C",
+      "explanation": "Article 157 lays down qualifications: the Governor must be a citizen of India and must have completed the age of 35 years.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "The Governor of Rajasthan holds office during the pleasure of:",
+      "option_a": "Chief Minister of Rajasthan",
+      "option_b": "President of India",
+      "option_c": "Speaker of Rajasthan Vidhan Sabha",
+      "option_d": "Chief Justice of India",
+      "correct_answer": "B",
+      "explanation": "Article 156(1) states that the Governor holds office during the pleasure of the President. The normal term is 5 years but can be removed earlier.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "Under which Article does the Governor have the power to promulgate Ordinances when the State Legislature is not in session?",
+      "option_a": "Article 210",
+      "option_b": "Article 212",
+      "option_c": "Article 213",
+      "option_d": "Article 215",
+      "correct_answer": "C",
+      "explanation": "Article 213 empowers the Governor to promulgate Ordinances when the State Legislature is not in session. An Ordinance must be approved by the Legislature within 6 weeks of its reassembly.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "Which Article of the Constitution deals with the discretionary powers of the Governor?",
+      "option_a": "Article 161",
+      "option_b": "Article 163",
+      "option_c": "Article 165",
+      "option_d": "Article 167",
+      "correct_answer": "B",
+      "explanation": "Article 163 provides that the Council of Ministers shall aid and advise the Governor, but the Governor may act in his discretion in matters where the Constitution permits.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "The Chief Minister of Rajasthan is appointed by:",
+      "option_a": "President of India",
+      "option_b": "Governor of Rajasthan",
+      "option_c": "Speaker of Vidhan Sabha",
+      "option_d": "Elected by MLAs directly",
+      "correct_answer": "B",
+      "explanation": "Under Article 164, the Chief Minister is appointed by the Governor. Conventionally, the leader of the majority party in the Vidhan Sabha is appointed as CM.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "According to the 91st Constitutional Amendment Act 2003, the size of the Council of Ministers (including CM) in any State shall not exceed what percentage of the total membership of the Vidhan Sabha?",
+      "option_a": "10%",
+      "option_b": "12%",
+      "option_c": "15%",
+      "option_d": "20%",
+      "correct_answer": "C",
+      "explanation": "The 91st Amendment (2003) added Article 164(1A) limiting the Council of Ministers including the CM to not more than 15% of the total strength of the Vidhan Sabha. For Rajasthan (200 seats), this means maximum 30 ministers.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "The principle of collective responsibility of the Council of Ministers to the State Legislative Assembly is enshrined in:",
+      "option_a": "Article 163",
+      "option_b": "Article 164(2)",
+      "option_c": "Article 166",
+      "option_d": "Article 167",
+      "correct_answer": "B",
+      "explanation": "Article 164(2) states that the Council of Ministers shall be collectively responsible to the Legislative Assembly of the State. This means the Cabinet must resign if it loses confidence of the Assembly.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "What is the total strength of the Rajasthan Vidhan Sabha (Legislative Assembly)?",
+      "option_a": "180",
+      "option_b": "190",
+      "option_c": "200",
+      "option_d": "210",
+      "correct_answer": "C",
+      "explanation": "The Rajasthan Vidhan Sabha has a total of 200 seats – 199 elected from single-member constituencies and 1 nominated (Anglo-Indian, until abolished by 104th Amendment 2019).",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "Under which Article does the Governor address the Rajasthan Legislative Assembly?",
+      "option_a": "Article 173",
+      "option_b": "Article 175",
+      "option_c": "Article 177",
+      "option_d": "Article 180",
+      "correct_answer": "B",
+      "explanation": "Article 175 empowers the Governor to address the Legislative Assembly or both Houses and send messages to the House. He addresses at the commencement of each budget session.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "Which schedule of the Constitution contains provisions for the Anti-Defection Law?",
+      "option_a": "8th Schedule",
+      "option_b": "9th Schedule",
+      "option_c": "10th Schedule",
+      "option_d": "11th Schedule",
+      "correct_answer": "C",
+      "explanation": "The 10th Schedule (added by 52nd Amendment 1985) contains the Anti-Defection Law. It disqualifies members who voluntarily give up party membership or vote against party direction.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "The Speaker of the Rajasthan Vidhan Sabha is elected by:",
+      "option_a": "Governor of Rajasthan",
+      "option_b": "Members of the Vidhan Sabha",
+      "option_c": "Chief Minister of Rajasthan",
+      "option_d": "President of India",
+      "correct_answer": "B",
+      "explanation": "The Speaker is elected by the members of the Vidhan Sabha from among themselves (Article 178). The Speaker presides over sessions of the assembly.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "Under Article 200, when a Bill passed by the Rajasthan Vidhan Sabha is reserved by the Governor for consideration of the President, the President may:",
+      "option_a": "Return it to the Governor only",
+      "option_b": "Give assent, withhold assent, or return for reconsideration",
+      "option_c": "Only give assent or withhold assent",
+      "option_d": "Refer it to the Supreme Court",
+      "correct_answer": "B",
+      "explanation": "Under Article 201, when a Bill is reserved by the Governor for the President, the President may give assent, withhold assent, or direct the Governor to return the Bill to the House for reconsideration.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "The oath of office for the Chief Minister of Rajasthan is administered by:",
+      "option_a": "Chief Justice of Rajasthan High Court",
+      "option_b": "Speaker of Rajasthan Vidhan Sabha",
+      "option_c": "Governor of Rajasthan",
+      "option_d": "President of India",
+      "correct_answer": "C",
+      "explanation": "Under Article 164, the Governor administers the oaths of office and secrecy to the Chief Minister and other Ministers of the Council of Ministers.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "The Governor of Rajasthan can reserve a Bill passed by the Vidhan Sabha for consideration of the President under which Article?",
+      "option_a": "Article 198",
+      "option_b": "Article 199",
+      "option_c": "Article 200",
+      "option_d": "Article 202",
+      "correct_answer": "C",
+      "explanation": "Article 200 deals with assent to Bills. The Governor may assent, withhold assent, return the Bill for reconsideration, or reserve the Bill for the consideration of the President.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "Rajasthan is a unicameral legislature, meaning it has:",
+      "option_a": "Two Houses – Vidhan Sabha and Vidhan Parishad",
+      "option_b": "Only one House – Vidhan Sabha",
+      "option_c": "Three Houses",
+      "option_d": "Only Vidhan Parishad",
+      "correct_answer": "B",
+      "explanation": "Rajasthan has a unicameral legislature with only the Vidhan Sabha (Legislative Assembly). It does not have a Vidhan Parishad (Legislative Council). Only 6 states have bicameral legislatures.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "Which of the following statements about the Governor's pardoning power is correct?",
+      "option_a": "Governor can pardon death sentences",
+      "option_b": "Governor can pardon sentences by Court Martial",
+      "option_c": "Governor can grant pardon for offences against state law under Article 161",
+      "option_d": "Governor has no pardoning power",
+      "correct_answer": "C",
+      "explanation": "Article 161 grants the Governor pardoning powers for offences against state law. However, the President has pardoning power for death sentences (Art 72), federal offences, and Court Martial sentences.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "The normal term of the Rajasthan Vidhan Sabha is:",
+      "option_a": "4 years",
+      "option_b": "5 years",
+      "option_c": "6 years",
+      "option_d": "3 years",
+      "correct_answer": "B",
+      "explanation": "The normal term of the State Legislative Assembly is 5 years from the date of its first sitting. However, it can be dissolved earlier by the Governor on the advice of the Chief Minister.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    },
+    {
+      "question_text": "The concept of 'Council of Ministers collectively responsible to the State Legislature' means:",
+      "option_a": "Each minister is individually responsible for their own portfolio",
+      "option_b": "If the Assembly passes a no-confidence motion against any single minister, the entire cabinet must resign",
+      "option_c": "The entire Council of Ministers must resign if the Assembly passes a vote of no-confidence against the government",
+      "option_d": "Ministers are only responsible to the Governor",
+      "correct_answer": "C",
+      "explanation": "Collective responsibility (Art 164(2)) means the Cabinet stands or falls together. If the Assembly passes a no-confidence motion against the government, ALL ministers including the CM must resign.",
+      "difficulty": "FOUNDATION",
+      "language": "EN"
+    }
+  ]
+}
