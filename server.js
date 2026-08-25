@@ -26,6 +26,7 @@ const mammoth = require('mammoth-plus');
 const { MathMLToLaTeX } = require('mathml-to-latex');
 const { Document, Packer, Paragraph, TextRun } = require('docx');
 const db = require('./database/db');
+const aiEngine = require('./ai_engine');
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
