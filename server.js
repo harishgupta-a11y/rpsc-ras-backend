@@ -2164,17 +2164,17 @@ app.get('/api/flashcards', checkSubscription, async (req, res) => {
             return res.status(200).json({ flashcards });
         }
 
-        // 2. If missing, fetch the questions for this subtopic to summarize
-        const questions = await db.all("SELECT * FROM questions WHERE minute_topic_id = ? AND language = ?", [minuteTopicId, language]);
+        // 2. Fetch the subtopic name and topic name to generate fresh context
+        const subtopic = await db.get("SELECT mt.minute_topic_name, t.topic_name FROM minute_topics mt JOIN topics t ON mt.topic_id = t.topic_id WHERE mt.minute_topic_id = ?", [minuteTopicId]);
         
-        if (!questions || questions.length === 0) {
-            console.log(`[Flashcard Engine] No questions available for Subtopic ID ${minuteTopicId} to compile`);
+        if (!subtopic) {
+            console.log(`[Flashcard Engine] Subtopic ID ${minuteTopicId} not found`);
             return res.status(200).json({ flashcards: [] });
         }
 
-        // 3. Compile cards via Gemini AI Engine
-        console.log(`[Flashcard Engine] Compiling cards from ${questions.length} questions for Subtopic ID ${minuteTopicId} (${language})`);
-        const cards = await aiEngine.generateFlashcardsFromQuestions(questions);
+        // 3. Compile cards via Gemini AI Engine using the topic name & subtopic name
+        console.log(`[Flashcard Engine] Generating fresh cards for Subtopic: ${subtopic.minute_topic_name} (${language})`);
+        const cards = await aiEngine.generateFlashcardsFromTopic(subtopic.minute_topic_name, subtopic.topic_name, language);
 
         if (cards && Array.isArray(cards)) {
             // Save them into DB cache

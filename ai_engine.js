@@ -672,6 +672,33 @@ ${transcript.substring(0, 15000)}
     }
 }
 
+async function generateFlashcardsFromTopic(subtopicName, topicName, language) {
+    if (!genAI) return [];
+    try {
+        const prompt = `You are an expert RPSC RAS exam tutor. Create a set of 15 high-yield, short, bite-sized revision flashcards for the following syllabus sub-topic:
+Syllabus Category: ${topicName}
+Subtopic Name: ${subtopicName}
+
+Each flashcard must consist of:
+1. "front_text": A concise, clear active recall prompt (max 15 words) in ${language === 'HI' ? 'Hindi' : 'English'}.
+2. "back_text": A short, direct answer or key fact bullet summary (max 25 words) in ${language === 'HI' ? 'Hindi' : 'English'}.
+
+Focus strictly on core syllabus facts, historical dates, battle locations, treaties, rulers, or articles relevant to RPSC RAS. Do not copy or output any introductory/conversational text, code blocks, or explanations. Respond strictly in a valid JSON array of objects with the keys "front_text" and "back_text".`;
+
+        const result = await genAI.models.generateContent({
+            model: 'gemini-3.6-flash',
+            contents: prompt
+        });
+
+        const text = result.text.trim();
+        const cleanedText = text.replace(/\`\`\`json|\`\`\`/g, '').trim();
+        return JSON.parse(cleanedText);
+    } catch (e) {
+        console.error("[AI Engine] Topic-based flashcard generation failed:", e.message);
+        return [];
+    }
+}
+
 module.exports = {
     generateTheoryContent,
     generateMCQBatch,
@@ -682,6 +709,7 @@ module.exports = {
     translateToHinglish,
     autoTagMCQBatch,
     generateFlashcardsFromQuestions,
+    generateFlashcardsFromTopic,
     enrichRevisionNotes,
     extractKeywordsFromTranscript
 };
