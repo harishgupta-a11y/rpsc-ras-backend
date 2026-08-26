@@ -387,7 +387,7 @@ app.get('/api/syllabus/dynamic', async (req, res) => {
 
 // --- Custom MCQ Quiz Generator Route (Gated, Strict No-Repeat Guard) ---
 app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
-    const { userId, topicIds, minuteTopicId, count, language, difficulty, month, year } = req.body;
+    const { userId, topicIds, minuteTopicId, count, language, difficulty, month, year, questionFormat } = req.body;
     const lang = language || req.headers['x-user-language'] || 'EN';
 
     if (!userId || ((!topicIds || !Array.isArray(topicIds) || topicIds.length === 0) && !minuteTopicId)) {
@@ -401,7 +401,7 @@ app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
 
     try {
         console.log(`[Quiz Engine] Compiling ${questionCount} questions. Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${lang}`, `Difficulty: ${diff}`, `Month: ${m}`, `Year: ${y}`);
-        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId, diff, m, y);
+        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId, diff, m, y, questionFormat || 'ALL');
 
         res.status(200).json({
             user_id: userId,

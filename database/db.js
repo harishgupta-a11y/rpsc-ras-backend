@@ -1917,7 +1917,7 @@ module.exports = {
     },
 
     // Strict No-Repeat Quiz Generator (with Language Filter, Difficulty & Minute Topic support)
-    generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null, difficulty = 'ALL', month = null, year = null) => {
+    generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null, difficulty = 'ALL', month = null, year = null, questionFormat = 'ALL') => {
         // Enforce Strict No-Repeat Guard, language and difficulty filter
         let questions = [];
         const diffFilter = (difficulty && difficulty !== 'ALL') ? " AND q.difficulty = ? " : "";
@@ -1928,6 +1928,16 @@ module.exports = {
         const caFilter = " AND (? IS NULL OR q.ca_month = ?) AND (? IS NULL OR q.ca_year = ?) ";
         const caParams = [m, m, y, y];
 
+        // Format filter
+        let formatFilter = "";
+        if (questionFormat === 'ASSERTION_REASON') {
+          formatFilter = " AND (q.question_text LIKE '%Assertion (A)%' OR q.question_text LIKE '%कथन (A)%' OR q.question_text LIKE '%कथन (a)%') ";
+        } else if (questionFormat === 'MATCH') {
+          formatFilter = " AND (q.question_text LIKE '%List-I%' OR q.question_text LIKE '%List I%' OR q.question_text LIKE '%सूची-I%' OR q.question_text LIKE '%संकेतांक%' OR q.question_text LIKE '%कूट%') ";
+        } else if (questionFormat === 'STATEMENT') {
+          formatFilter = " AND (q.question_text LIKE '%I.%' AND q.question_text LIKE '%II.%' OR q.question_text LIKE '%कथन I%' OR q.question_text LIKE '%कथन 1%') ";
+        }
+
         if (minuteTopicId) {
             questions = await all(`
                 SELECT q.*, t.topic_name FROM questions q
@@ -1936,6 +1946,7 @@ module.exports = {
                   AND q.language = ?
                   ${diffFilter}
                   ${caFilter}
+                  ${formatFilter}
                   AND q.question_id NOT IN (
                       SELECT question_id FROM user_quiz_history WHERE user_id = ?
                   )
@@ -1951,6 +1962,7 @@ module.exports = {
                   AND q.language = ?
                   ${diffFilter}
                   ${caFilter}
+                  ${formatFilter}
                   AND q.question_id NOT IN (
                       SELECT question_id FROM user_quiz_history WHERE user_id = ?
                   )
@@ -1975,7 +1987,8 @@ module.exports = {
                     WHERE q.minute_topic_id = ?
                       AND q.language = ?
                       ${diffFilter}
-                      ${caFilter}
+                  ${caFilter}
+                  ${formatFilter}
                       ${loadedFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
@@ -1988,7 +2001,8 @@ module.exports = {
                     WHERE q.topic_id IN (${placeholders})
                       AND q.language = ?
                       ${diffFilter}
-                      ${caFilter}
+                  ${caFilter}
+                  ${formatFilter}
                       ${loadedFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
