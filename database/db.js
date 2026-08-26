@@ -2029,6 +2029,27 @@ module.exports = {
         `, [userId, questionId, timestamp]);
     },
 
+    getQuestionsByKeywords: async (keywords, limit = 20, language = 'EN') => {
+        if (!keywords || keywords.length === 0) return [];
+        const clauses = [];
+        const params = [];
+        keywords.forEach(kw => {
+            clauses.push("(q.question_text LIKE ? OR q.explanation LIKE ?)");
+            params.push(`%${kw}%`, `%${kw}%`);
+        });
+        const query = `
+            SELECT q.*, t.topic_name FROM questions q
+            JOIN topics t ON q.topic_id = t.topic_id
+            WHERE q.language = ?
+              AND (${clauses.join(' OR ')})
+            ORDER BY RANDOM()
+            LIMIT ?
+        `;
+        params.unshift(language);
+        params.push(limit);
+        return all(query, params);
+    },
+
     // Admin Stats
     getAdminStats: async () => {
         const usersCount = await get("SELECT COUNT(*) as count FROM users");

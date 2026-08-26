@@ -644,6 +644,34 @@ async function enrichRevisionNotes(rawText, topicName) {
     }
 }
 
+async function extractKeywordsFromTranscript(transcript) {
+    try {
+        const prompt = `You are an expert RPSC RAS syllabus classifier. Read the following YouTube video lecture transcript.
+Identify the specific historical entities, topics, and keywords discussed (such as specific rulers, battles, treaties, books, monuments, or articles).
+Output only a clean JSON array of strings containing these keywords in both English and Hindi.
+Do not output any introductory or conversational text, code blocks, or explanations. Only output the JSON array.
+
+Example:
+["Bappa Rawal", "Nagda", "Jaitra Singh", "Eklingji Temple", "बप्पा रावल", "नागदा", "जैत्र सिंह"]
+
+Transcript:
+${transcript.substring(0, 15000)}
+`;
+
+        const result = await genAI.models.generateContent({
+            model: 'gemini-3.6-flash',
+            contents: prompt
+        });
+
+        const text = result.text.trim();
+        const cleanedText = text.replace(/\`\`\`json|\`\`\`/g, '').trim();
+        return JSON.parse(cleanedText);
+    } catch (e) {
+        console.error("[AI Engine] Keyword extraction failed:", e.message);
+        return [];
+    }
+}
+
 module.exports = {
     generateTheoryContent,
     generateMCQBatch,
@@ -654,5 +682,6 @@ module.exports = {
     translateToHinglish,
     autoTagMCQBatch,
     generateFlashcardsFromQuestions,
-    enrichRevisionNotes
+    enrichRevisionNotes,
+    extractKeywordsFromTranscript
 };

@@ -385,6 +385,92 @@ app.get('/api/syllabus/dynamic', async (req, res) => {
     }
 });
 
+// --- YouTube Video Keyword-Matched Practice Generator ---
+app.post('/api/quiz/youtube-match', checkSubscription, async (req, res) => {
+    const { videoId, language, limit } = req.body;
+    const lang = language || req.headers['x-user-language'] || 'EN';
+    const limitVal = parseInt(limit) || 20;
+
+    if (!videoId) {
+        return res.status(400).json({ error: "YouTube Video ID is required." });
+    }
+
+    try {
+        console.log(`[YT Practice] Fetching transcript for video ID: ${videoId}`);
+        const transcript = await getYoutubeTranscript(videoId);
+        
+        console.log(`[YT Practice] Extracting keywords using Gemini...`);
+        const keywords = await aiEngine.extractKeywordsFromTranscript(transcript);
+        console.log(`[YT Practice] Extracted keywords:`, keywords);
+
+        if (!keywords || keywords.length === 0) {
+            return res.status(200).json({
+                message: "No relevant RPSC RAS keywords could be extracted from this lecture.",
+                questions: []
+            });
+        }
+
+        console.log(`[YT Practice] Fetching matched questions from database...`);
+        const questions = await db.getQuestionsByKeywords(keywords, limitVal, lang);
+        
+        console.log(`[YT Practice] Found ${questions.length} matched questions.`);
+        res.status(200).json({
+            video_id: videoId,
+            keywords: keywords,
+            question_count: questions.length,
+            questions: questions
+        });
+    } catch (err) {
+        console.error("[YT Practice] Error generating quiz:", err.message);
+        res.status(500).json({ error: "Failed to generate YouTube matched quiz: " + err.message });
+    }
+});
+
+async function getYoutubeTranscript(videoId) {
+    const axios = require('axios');
+    const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
+    const response = await axios.get(videoUrl, {
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+    });
+    const html = response.data;
+
+    const timedtextRegex = /"timedtext"\s*:\s*\{\s*"ttsRequestUrl"\s*:\s*"([^"]+)"/;
+    let match = html.match(timedtextRegex);
+    if (!match) {
+        const altRegex = /"ttsRequestUrl"\s*:\s*"([^"]+)"/;
+        const altMatch = html.match(altRegex);
+        if (!altMatch) {
+            throw new Error("Could not find captions for this video. Please make sure the video has subtitles/captions enabled.");
+        }
+        match = altMatch;
+    }
+
+    let ttsUrl = match[1].replace(/\\u0026/g, '&');
+    ttsUrl = `${ttsUrl}&fmt=json3`;
+
+    const ttsResponse = await axios.get(ttsUrl);
+    const transcriptData = ttsResponse.data;
+
+    if (!transcriptData.events) {
+        throw new Error("No caption events found.");
+    }
+
+    const textSegments = [];
+    transcriptData.events.forEach(event => {
+        if (event.segs) {
+            event.segs.forEach(seg => {
+                if (seg.utf8) {
+                    textSegments.push(seg.utf8.trim());
+                }
+            });
+        }
+    });
+
+    return textSegments.join(' ');
+}
+
 // --- Custom MCQ Quiz Generator Route (Gated, Strict No-Repeat Guard) ---
 app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
     const { userId, topicIds, minuteTopicId, count, language, difficulty, month, year, questionFormat } = req.body;
