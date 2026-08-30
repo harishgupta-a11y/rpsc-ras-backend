@@ -1931,11 +1931,13 @@ module.exports = {
         // Format filter
         let formatFilter = "";
         if (questionFormat === 'ASSERTION_REASON') {
-          formatFilter = " AND (q.question_text LIKE '%Assertion (A)%' OR q.question_text LIKE '%कथन (A)%' OR q.question_text LIKE '%कथन (a)%') ";
+          formatFilter = " AND (q.question_text LIKE '%Assertion%Reason%' OR q.question_text LIKE '%कथन%कारण%' OR q.question_text LIKE '%अभिकथन%कारण%') ";
         } else if (questionFormat === 'MATCH') {
-          formatFilter = " AND (q.question_text LIKE '%List-I%' OR q.question_text LIKE '%List I%' OR q.question_text LIKE '%सूची-I%' OR q.question_text LIKE '%संकेतांक%' OR q.question_text LIKE '%कूट%') ";
+          formatFilter = " AND (q.question_text LIKE '%Match%Column%' OR q.question_text LIKE '%Match%List%' OR q.question_text LIKE '%Column I%Column II%' OR q.question_text LIKE '%List-I%List-II%' OR q.question_text LIKE '%List I%List II%' OR q.question_text LIKE '%Match the following%' OR q.question_text LIKE '%सुमेलित%' OR q.question_text LIKE '%सूची I%सूची II%' OR q.question_text LIKE '%सूची-I%सूची-II%' OR q.question_text LIKE '%स्तंभ I%स्तंभ II%' OR q.question_text LIKE '%स्तंभ-I%स्तंभ-II%' OR q.question_text LIKE '%मिलान%') ";
         } else if (questionFormat === 'STATEMENT') {
-          formatFilter = " AND (q.question_text LIKE '%I.%' AND q.question_text LIKE '%II.%' OR q.question_text LIKE '%कथन I%' OR q.question_text LIKE '%कथन 1%') ";
+          formatFilter = " AND (q.question_text LIKE '%statements%correct%' OR q.question_text LIKE '%statement%correct%' OR q.question_text LIKE '%Consider the following statements%' OR q.question_text LIKE '%statements given above%' OR q.question_text LIKE '%कथनों पर विचार%' OR q.question_text LIKE '%कथनों में से%सही%' OR q.question_text LIKE '%कथन%सही%') " +
+                         " AND q.question_text NOT LIKE '%Assertion%Reason%' AND q.question_text NOT LIKE '%कथन%कारण%' AND q.question_text NOT LIKE '%अभिकथन%कारण%' " +
+                         " AND q.question_text NOT LIKE '%Column%' AND q.question_text NOT LIKE '%List%' AND q.question_text NOT LIKE '%स्तंभ%' AND q.question_text NOT LIKE '%सूची%' ";
         }
 
         if (minuteTopicId) {
