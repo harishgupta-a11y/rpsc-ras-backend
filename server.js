@@ -924,7 +924,10 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                 throw new Error("Failed to generate any MCQs across all sub-concepts.");
             }
 
+            const normalizeOpt = (v) => ({ A: '1', B: '2', C: '3', D: '4', E: '5' }[String(v || '').trim().toUpperCase()] || String(v || '1').trim());
+
             for (const item of mcqs) {
+                const normOpt = normalizeOpt(item.correct_option);
                 // Insert English MCQ version
                 await db.run(`
                     INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language, difficulty)
@@ -936,7 +939,7 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                     sanitizeFieldText(item.options_en.B),
                     sanitizeFieldText(item.options_en.C),
                     sanitizeFieldText(item.options_en.D),
-                    item.correct_option.trim().toUpperCase(),
+                    normOpt,
                     sanitizeFieldText(item.explanation_en),
                     minuteTopicId || null,
                     'EN',
@@ -954,7 +957,7 @@ app.post('/api/admin/generate-questions-from-pdf', upload.array('pdfFiles'), asy
                     sanitizeFieldText(item.options_hi.B),
                     sanitizeFieldText(item.options_hi.C),
                     sanitizeFieldText(item.options_hi.D),
-                    item.correct_option.trim().toUpperCase(),
+                    normOpt,
                     sanitizeFieldText(item.explanation_hi),
                     minuteTopicId || null,
                     'HI',
@@ -1106,7 +1109,10 @@ app.post('/api/admin/inject-pregenerated-questions', async (req, res) => {
         await db.run("DELETE FROM mains_questions WHERE minute_topic_id IN (?, ?)", [mainsSubtopicIdEn, mainsSubtopicIdHi]);
 
         // 4. Ingest Prelims MCQs under Topic 6 (using the respective subtopic IDs)
+        const normalizeBulkOpt = (v) => ({ A: '1', B: '2', C: '3', D: '4', E: '5' }[String(v || '').trim().toUpperCase()] || String(v || '1').trim());
+
         for (const item of data.preQuestions) {
+            const normOpt = normalizeBulkOpt(item.correct_option);
             // Insert English MCQ version
             await db.run(`
                 INSERT INTO questions (topic_id, question_text, option_a, option_b, option_c, option_d, correct_option, detailed_explanation, minute_topic_id, language)
@@ -1117,7 +1123,7 @@ app.post('/api/admin/inject-pregenerated-questions', async (req, res) => {
                 item.options_en.B.trim(),
                 item.options_en.C.trim(),
                 item.options_en.D.trim(),
-                item.correct_option.trim().toUpperCase(),
+                normOpt,
                 item.explanation_en.trim(),
                 preSubtopicIdEn
             ]);
@@ -1132,7 +1138,7 @@ app.post('/api/admin/inject-pregenerated-questions', async (req, res) => {
                 item.options_hi.B.trim(),
                 item.options_hi.C.trim(),
                 item.options_hi.D.trim(),
-                item.correct_option.trim().toUpperCase(),
+                normOpt,
                 item.explanation_hi.trim(),
                 preSubtopicIdHi
             ]);
