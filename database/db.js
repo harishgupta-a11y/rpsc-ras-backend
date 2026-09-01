@@ -209,7 +209,7 @@ async function initDatabase() {
                 option_b TEXT NOT NULL,
                 option_c TEXT NOT NULL,
                 option_d TEXT NOT NULL,
-                correct_option TEXT CHECK(correct_option IN ('A', 'B', 'C', 'D')) NOT NULL,
+                correct_option TEXT CHECK(correct_option IN ('1', '2', '3', '4', '5')) NOT NULL,
                 detailed_explanation TEXT NOT NULL,
                 FOREIGN KEY (topic_id) REFERENCES topics(topic_id) ON DELETE CASCADE
             );
@@ -244,7 +244,7 @@ async function initDatabase() {
                 option_b TEXT NOT NULL,
                 option_c TEXT NOT NULL,
                 option_d TEXT NOT NULL,
-                correct_option TEXT CHECK(correct_option IN ('A', 'B', 'C', 'D')) NOT NULL,
+                correct_option TEXT CHECK(correct_option IN ('1', '2', '3', '4', '5')) NOT NULL,
                 detailed_explanation TEXT NOT NULL,
                 language TEXT DEFAULT 'EN' CHECK(language IN ('EN', 'HI')),
                 sequence_order INTEGER NOT NULL,
@@ -1433,7 +1433,7 @@ async function seedSyllabusAndSampleQuestions() {
                 option_b: "Kalibangan",
                 option_c: "Rakhigarhi",
                 option_d: "Dholavira",
-                correct_option: "B",
+                correct_option: "2",
                 detailed_explanation: "Evidence of a pre-Harappan ploughed field was discovered during excavations at Kalibangan in Hanumangarh district, Rajasthan. It represents the earliest grid-pattern agricultural furrowing found in the ancient world."
             },
             {
@@ -1444,7 +1444,7 @@ async function seedSyllabusAndSampleQuestions() {
                 option_b: "Chambal River",
                 option_c: "Ghaggar River",
                 option_d: "Banas River",
-                correct_option: "C",
+                correct_option: "3",
                 detailed_explanation: "Kalibangan, located in Hanumangarh district, is a major Harappan civilization site situated on the left bank of the seasonal Ghaggar River (identified by some as the ancient Sarasvati)."
             },
             {
@@ -1455,7 +1455,7 @@ async function seedSyllabusAndSampleQuestions() {
                 option_b: "Bairat",
                 option_c: "Kalibangan",
                 option_d: "Bagor",
-                correct_option: "A",
+                correct_option: "1",
                 detailed_explanation: "Ahar, located near Udaipur on the Banas river basin, is known as Tamravati (the copper city) because of the abundance of copper tools and smelters discovered there."
             },
             {
@@ -1465,7 +1465,7 @@ async function seedSyllabusAndSampleQuestions() {
                 option_b: "Rana Sanga",
                 option_c: "Bappa Rawal",
                 option_d: "Rawal Jaitra Singh",
-                correct_option: "C",
+                correct_option: "3",
                 detailed_explanation: "Bappa Rawal (historically identified as Kalbhoj) captured Chittor from Man Mori of the Mori dynasty in 734 AD and established the Guhil dynasty's dominance, constructing the temple of Eklingji."
             },
             {
@@ -1475,7 +1475,7 @@ async function seedSyllabusAndSampleQuestions() {
                 option_b: "The Governor of Rajasthan",
                 option_c: "The Chief Justice of Rajasthan High Court",
                 option_d: "The Chief Minister of Rajasthan",
-                correct_option: "B",
+                correct_option: "2",
                 detailed_explanation: "As per Article 316 of the Constitution of India, the Chairman and other members of a State Public Service Commission are appointed by the Governor of the State. However, they can only be removed by the President of India."
             },
             {
@@ -1485,7 +1485,7 @@ async function seedSyllabusAndSampleQuestions() {
                 option_b: "GSLV-MkIII / LVM3",
                 option_c: "SSLV-D2",
                 option_d: "GSLV-F12",
-                correct_option: "B",
+                correct_option: "2",
                 detailed_explanation: "LVM3-M4 (formerly GSLV Mark III) successfully launched Chandrayaan-3 into orbit from Sriharikota launch center on July 14, 2023."
             },
             {
@@ -1495,7 +1495,7 @@ async function seedSyllabusAndSampleQuestions() {
                 option_b: "Cosmic order governing natural processes",
                 option_c: "Three-fold moral obligation towards Gods, Sages, and Ancestors",
                 option_d: "State rules of administrative discipline",
-                correct_option: "C",
+                correct_option: "3",
                 detailed_explanation: "In ancient Indian ethics, Rin represents the moral and spiritual debts an individual owes (Deva Rin to gods, Rishi Rin to sages, Pitru Rin to ancestors), emphasizing duty and selfless action."
             },
             {
@@ -1505,7 +1505,7 @@ async function seedSyllabusAndSampleQuestions() {
                 option_b: "30 Days",
                 option_c: "45 Days",
                 option_d: "60 Days",
-                correct_option: "B",
+                correct_option: "2",
                 detailed_explanation: "Under Section 7(1) of the RTI Act 2005, the PIO must either provide the information or reject the application within 30 days of receiving the request. (Reduced to 48 hours if it concerns the life or liberty of a person)."
             }
         ];
@@ -2079,7 +2079,7 @@ module.exports = {
     getSupportQueries: () => all("SELECT sq.*, u.mobile_number FROM support_queries sq JOIN users u ON sq.user_id = u.user_id ORDER BY sq.timestamp DESC"),
     clearSupportQuery: (queryId) => run("DELETE FROM support_queries WHERE query_id = ?", [queryId]),
 
-    getMinuteTopicsByTopic: (topicId, language = 'EN', month = null, year = null) => {
+    getMinuteTopicsByTopic: (topicId, userId = null, language = 'EN', month = null, year = null) => {
         const m = month ? parseInt(month) : null;
         const y = year ? parseInt(year) : null;
         return all(`
@@ -2090,10 +2090,64 @@ module.exports = {
                       AND (? IS NULL OR q.ca_year = ?)
                    ) as q_count,
                    (SELECT COUNT(*) FROM mains_questions mq WHERE mq.minute_topic_id = mt.minute_topic_id) as mq_count,
-                   (SELECT COUNT(*) FROM pyq_questions pq WHERE pq.minute_topic_id = mt.minute_topic_id) as pyq_count
+                   (SELECT COUNT(*) FROM pyq_questions pq WHERE pq.topic_id = mt.topic_id) as pyq_count,
+                   (SELECT COUNT(*) FROM questions q
+                    JOIN user_quiz_history uqh ON q.question_id = uqh.question_id
+                    WHERE q.minute_topic_id = mt.minute_topic_id
+                      AND uqh.user_id = ?
+                      AND (? IS NULL OR q.ca_month = ?)
+                      AND (? IS NULL OR q.ca_year = ?)
+                   ) as attempted_count
             FROM minute_topics mt
             WHERE mt.topic_id = ? AND mt.language = ?
-        `, [m, m, y, y, topicId, language]);
+        `, [m, m, y, y, userId, m, m, y, y, topicId, language]);
+    },
+    getFormatStatsBySubtopic: async (minuteTopicId) => {
+        const questions = await all(`
+            SELECT question_text, option_a, option_b 
+            FROM questions 
+            WHERE minute_topic_id = ?
+        `, [minuteTopicId]);
+        
+        let arCount = 0;
+        let matchCount = 0;
+        let stmtCount = 0;
+        let total = questions.length;
+        
+        questions.forEach(q => {
+            const text = q.question_text || '';
+            const optA = q.option_a || '';
+            const optB = q.option_b || '';
+            
+            // Check Assertion-Reason
+            const isAR = /(?:Assertion\s*\(A\)|कथन\s*\(A\)|कथन\s*\(a\)|अभिकथन\s*\(A\)|अभिकथन\s*\(a\))\s*:\s*/i.test(text);
+            if (isAR) {
+                arCount++;
+                return;
+            }
+            
+            // Check Match
+            const isMatchTerm = /match|list-i|list\s+i|codes:|कूट:|संकेतांक:/i.test(text);
+            const isMatch = isMatchTerm && optA.split(/[\s,]+/).length >= 2 && optB.split(/[\s,]+/).length >= 2;
+            if (isMatch) {
+                matchCount++;
+                return;
+            }
+            
+            // Check Multi-Statement
+            const isStmt = /(?:^[A-D]\s*[\.:-]|^\([A-D]\)|^[I-IVXix]+\s*[\.:-]|^\([I-IVXix]+\)|^\d+\s*[\.:-])/m.test(text);
+            if (isStmt) {
+                stmtCount++;
+                return;
+            }
+        });
+        
+        return {
+            ALL: total,
+            ASSERTION_REASON: arCount,
+            MATCH: matchCount,
+            STATEMENT: stmtCount
+        };
     },
     getCurrentAffairsTimeframes: () => all(`
         SELECT DISTINCT ca_month, ca_year 

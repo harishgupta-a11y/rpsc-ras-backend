@@ -14,9 +14,12 @@ if (fs.existsSync(path.join(__dirname, '..', '.env'))) {
     });
 }
 
+const dbUrl = process.env.TURSO_DATABASE_URL || `file:${path.join(__dirname, 'rpsc_ras.db')}`;
+const dbToken = process.env.TURSO_AUTH_TOKEN || '';
+
 const client = createClient({
-    url: process.env.TURSO_DATABASE_URL,
-    authToken: process.env.TURSO_AUTH_TOKEN
+    url: dbUrl,
+    authToken: dbToken
 });
 
 // Helper to convert HTML to clean text
@@ -73,7 +76,17 @@ Your job is to rewrite them to look strictly human-made and clear, while respect
 4. Correctness: Verify each question's facts against standard history. Correct any factual errors.
 5. Format match type questions: If you find any match-the-following style questions, convert the columns into a clean markdown table form (do NOT use ASCII border symbols or code characters for lines).
 6. Explanations in point form: Convert paragraph explanations into a clean list of bullet points (e.g., "- Point 1\\n- Point 2") for readability.
-7. Output format: Keep the exact pattern of the input blocks (Q., options A/B/C/D, Correct: [Answer], Explanation: [Bullets]).
+7. Output format: Use EXACTLY this pattern per question block:
+Q. [question text]
+1) [option 1]
+2) [option 2]
+3) [option 3]
+4) [option 4]
+Correct: [1/2/3/4]
+Explanation:
+- [bullet point]
+
+CRITICAL: Options MUST use 1) 2) 3) 4) — NOT A) B) C) D). Correct: must be a single digit (1, 2, 3, or 4).
 
 Here is the chunk to edit:
 ${chunkText}
@@ -119,11 +132,22 @@ function parseCleanedBlock(block) {
             questionText = line.replace(/^Q\.\s*/, '').trim();
             continue;
         }
+        if (line.startsWith('1)')) { optA = line.replace(/^1\)\s*/, '').trim(); continue; }
+        if (line.startsWith('2)')) { optB = line.replace(/^2\)\s*/, '').trim(); continue; }
+        if (line.startsWith('3)')) { optC = line.replace(/^3\)\s*/, '').trim(); continue; }
+        if (line.startsWith('4)')) { optD = line.replace(/^4\)\s*/, '').trim(); continue; }
+        // Also support legacy A/B/C/D for backward compatibility
         if (line.startsWith('A)')) { optA = line.replace(/^A\)\s*/, '').trim(); continue; }
         if (line.startsWith('B)')) { optB = line.replace(/^B\)\s*/, '').trim(); continue; }
         if (line.startsWith('C)')) { optC = line.replace(/^C\)\s*/, '').trim(); continue; }
         if (line.startsWith('D)')) { optD = line.replace(/^D\)\s*/, '').trim(); continue; }
-        if (line.startsWith('Correct:')) { correct = line.replace(/^Correct:\s*/, '').trim(); continue; }
+        if (line.startsWith('Correct:')) {
+            let raw = line.replace(/^Correct:\s*/, '').trim();
+            // Normalize letter to number if legacy format
+            const letterMap = { A: '1', B: '2', C: '3', D: '4' };
+            correct = letterMap[raw.toUpperCase()] || raw;
+            continue;
+        }
         if (line.startsWith('Explanation:')) {
             parsingExp = true;
             const expVal = line.replace(/^Explanation:\s*/, '').trim();

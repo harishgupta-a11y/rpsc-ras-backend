@@ -571,7 +571,7 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
                     is_skipped: true,
                     explanation: q.detailed_explanation
                 });
-            } else if (userChoice.toUpperCase() === 'E' || userChoice === '5') {
+            } else if (userChoice === '5' || userChoice.toUpperCase() === 'E') {
                 skipped++;
                 details.push({
                     question_id: qId,
@@ -586,7 +586,7 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
                     is_skipped: true,
                     explanation: q.detailed_explanation
                 });
-            } else if (userChoice.toUpperCase() === q.correct_option.toUpperCase()) {
+            } else if (userChoice === q.correct_option) {
                 correct++;
                 details.push({
                     question_id: qId,
@@ -2126,14 +2126,34 @@ app.get('/api/minute-topics', checkSubscription, async (req, res) => {
     const language = req.query.language || 'EN';
     const month = req.query.month ? parseInt(req.query.month) : null;
     const year = req.query.year ? parseInt(req.query.year) : null;
+    const userMobile = req.headers['x-user-mobile'];
+
     if (!topicId) {
         return res.status(400).json({ error: "Topic ID is required." });
     }
     try {
-        const minuteTopics = await db.getMinuteTopicsByTopic(topicId, language, month, year);
+        let userId = null;
+        if (userMobile) {
+            const user = await db.getUserByMobile(userMobile);
+            if (user) userId = user.user_id;
+        }
+        const minuteTopics = await db.getMinuteTopicsByTopic(topicId, userId, language, month, year);
         res.status(200).json({ minuteTopics });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch minute topics: " + err.message });
+    }
+});
+
+app.get('/api/minute-topics/format-stats', checkSubscription, async (req, res) => {
+    const minuteTopicId = parseInt(req.query.minute_topic_id);
+    if (!minuteTopicId) {
+        return res.status(400).json({ error: "Minute Topic ID is required." });
+    }
+    try {
+        const stats = await db.getFormatStatsBySubtopic(minuteTopicId);
+        res.status(200).json({ stats });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch format stats: " + err.message });
     }
 });
 
@@ -3351,7 +3371,7 @@ app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
                     is_skipped: true,
                     explanation: q.detailed_explanation
                 });
-            } else if (userChoice.toUpperCase() === 'E' || userChoice === '5') {
+            } else if (userChoice === '5' || userChoice.toUpperCase() === 'E') {
                 skipped++;
                 details.push({
                     question_id: qId,
@@ -3366,7 +3386,7 @@ app.post('/api/test-series/submit', checkSubscription, async (req, res) => {
                     is_skipped: true,
                     explanation: q.detailed_explanation
                 });
-            } else if (userChoice.toUpperCase() === q.correct_option.toUpperCase()) {
+            } else if (userChoice === q.correct_option) {
                 correct++;
                 details.push({
                     question_id: qId,
