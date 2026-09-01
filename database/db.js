@@ -2090,7 +2090,7 @@ module.exports = {
                       AND (? IS NULL OR q.ca_year = ?)
                    ) as q_count,
                    (SELECT COUNT(*) FROM mains_questions mq WHERE mq.minute_topic_id = mt.minute_topic_id) as mq_count,
-                   (SELECT COUNT(*) FROM pyq_questions pq WHERE pq.topic_id = mt.topic_id) as pyq_count,
+                   (SELECT COUNT(*) FROM pyq_questions pq WHERE pq.minute_topic_id = mt.minute_topic_id) as pyq_count,
                    (SELECT COUNT(*) FROM questions q
                     JOIN user_quiz_history uqh ON q.question_id = uqh.question_id
                     WHERE q.minute_topic_id = mt.minute_topic_id
