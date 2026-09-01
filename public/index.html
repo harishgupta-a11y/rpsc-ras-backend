@@ -3,516 +3,427 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RPSC RAS Preparation Portal — Official Web Platform</title>
-  <meta name="description" content="Authentic RPSC RAS Exam Prep Portal: Chapter-wise Practice, CBT Exam Hall Simulation, Past Year Papers, and Verified Question Bank.">
+  <title>RPSC RAS Prep Portal — Official Desktop Platform</title>
   
-  <!-- Fonts: Outfit for display, Inter for body, Noto Sans Devanagari for Hindi -->
+  <!-- Modern Clean Fonts: Plus Jakarta Sans for Display, Inter for Body, Noto Sans Devanagari for Hindi -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   
-  <!-- KaTeX for math formulas -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-
-  <!-- Palette A Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <!-- ========================================================================
-       TOP GLOBAL NAVIGATION
+       1. SLEEK PERSISTENT LEFT SIDEBAR
        ======================================================================== -->
-  <header class="app-navbar">
-    <div class="navbar-container">
+  <aside class="app-sidebar">
+    
+    <!-- Sidebar Header -->
+    <div class="sidebar-header" onclick="switchSidebarTab('overview')">
+      <img src="logo.jpg" alt="RPSC RAS Logo" class="sidebar-logo">
+      <div>
+        <div class="sidebar-brand-title">RPSC RAS Prep</div>
+        <div class="sidebar-brand-badge" id="sidebar-badge-text">✓ 100% Verified</div>
+      </div>
+    </div>
+
+    <!-- Sidebar Navigation Items -->
+    <div class="sidebar-content">
       
-      <!-- Brand Section -->
-      <div class="brand-section" onclick="navigateToView('dashboard')">
-        <img src="logo.jpg" alt="RPSC RAS Logo" class="brand-logo">
-        <div class="brand-text">
-          <div style="display: flex; align-items: center; gap: 6px;">
-            <h1>RPSC RAS Prep</h1>
-            <span class="brand-badge" id="lang-badge">प्रशासनिक सेवा</span>
-          </div>
+      <div class="sidebar-group-title" data-en="PRACTICE MODULES" data-hi="अभ्यास मॉड्यूल">अभ्यास मॉड्यूल</div>
+
+      <div class="sidebar-nav-item" id="nav-item-overview" onclick="switchSidebarTab('overview')">
+        <div class="nav-left-box">
+          <span class="nav-icon">🏠</span>
+          <span class="nav-text" data-en="Dashboard Overview" data-hi="डैशबोर्ड अवलोकन">डैशबोर्ड अवलोकन</span>
         </div>
       </div>
 
-      <!-- Live Search Bar -->
-      <div class="nav-search-box">
-        <span class="nav-search-icon">🔍</span>
-        <input type="text" id="global-search-input" class="nav-search-input" placeholder="Search any topic (e.g. Mewar, Aravalli, Panchayati Raj)..." autocomplete="off">
-        <div class="search-dropdown" id="search-results-dropdown"></div>
+      <div class="sidebar-nav-item active" id="nav-item-geography" onclick="switchSidebarTab('geography')">
+        <div class="nav-left-box">
+          <span class="nav-icon">🌍</span>
+          <span class="nav-text" data-en="Rajasthan Geography" data-hi="राजस्थान का भूगोल">राजस्थान का भूगोल</span>
+        </div>
+        <span class="nav-badge">35 Q</span>
       </div>
 
-      <!-- Action Navigation Buttons -->
-      <div class="nav-actions">
-        <!-- Language Switcher -->
-        <button class="nav-pill-btn lang-btn" id="btn-toggle-lang" onclick="toggleLanguage()">
-          <span id="lang-flag">🇮🇳</span>
-          <span id="lang-text">हिन्दी</span>
-        </button>
+      <div class="sidebar-nav-item" id="nav-item-history" onclick="switchSidebarTab('history')">
+        <div class="nav-left-box">
+          <span class="nav-icon">🏰</span>
+          <span class="nav-text" data-en="History & Culture" data-hi="इतिहास एवं कला-संस्कृति">इतिहास एवं कला-संस्कृति</span>
+        </div>
+        <span class="nav-badge">45 Q</span>
+      </div>
 
-        <!-- Navigation Tabs -->
-        <button class="nav-pill-btn" onclick="navigateToView('dashboard')" id="nav-btn-hub">
-          <span>📚</span>
-          <span class="nav-text-label" data-en="Subject Hub" data-hi="अभ्यास केंद्र">अभ्यास केंद्र</span>
-        </button>
+      <div class="sidebar-nav-item" id="nav-item-polity" onclick="switchSidebarTab('polity')">
+        <div class="nav-left-box">
+          <span class="nav-icon">🏛️</span>
+          <span class="nav-text" data-en="Polity & Governance" data-hi="राजनीति एवं प्रशासनिक व्यवस्था">राजनीति एवं प्रशासनिक व्यवस्था</span>
+        </div>
+        <span class="nav-badge">30 Q</span>
+      </div>
 
-        <button class="nav-pill-btn" onclick="navigateToView('cms')" id="nav-btn-cms">
-          <span>🛡️</span>
-          <span class="nav-text-label" data-en="Question CMS" data-hi="प्रश्न समीक्षा">प्रश्न समीक्षा</span>
-        </button>
+      <div class="sidebar-group-title" data-en="EXAM SIMULATION" data-hi="परीक्षा सिमुलेशन">परीक्षा सिमुलेशन</div>
 
-        <!-- Trial Badge -->
-        <div class="nav-pill-btn trial-badge">
-          <span>👑</span>
-          <span class="nav-text-label" data-en="24-Hour Free Pass" data-hi="24-घंटे फ्री पास">24-घंटे फ्री पास</span>
+      <div class="sidebar-nav-item" id="nav-item-mock" onclick="switchSidebarTab('mock')">
+        <div class="nav-left-box">
+          <span class="nav-icon">📝</span>
+          <span class="nav-text" data-en="Full Mock Tests (150 Q)" data-hi="संपूर्ण मॉक टेस्ट (150 Q)">संपूर्ण मॉक टेस्ट (150 Q)</span>
+        </div>
+      </div>
+
+      <div class="sidebar-nav-item" id="nav-item-pyq" onclick="switchSidebarTab('pyq')">
+        <div class="nav-left-box">
+          <span class="nav-icon">📅</span>
+          <span class="nav-text" data-en="Past Year Papers (PYQ)" data-hi="विगत वर्ष प्रश्न (PYQ)">विगत वर्ष प्रश्न (PYQ)</span>
+        </div>
+      </div>
+
+      <div class="sidebar-group-title" data-en="ANALYTICS & TOOLS" data-hi="विश्लेषण एवं समीक्षा">विश्लेषण एवं समीक्षा</div>
+
+      <div class="sidebar-nav-item" id="nav-item-analytics" onclick="switchSidebarTab('analytics')">
+        <div class="nav-left-box">
+          <span class="nav-icon">📊</span>
+          <span class="nav-text" data-en="My Performance" data-hi="मेरा परीक्षा प्रदर्शन">मेरा परीक्षा प्रदर्शन</span>
+        </div>
+      </div>
+
+      <div class="sidebar-nav-item" id="nav-item-cms" onclick="switchSidebarTab('cms')">
+        <div class="nav-left-box">
+          <span class="nav-icon">🛡️</span>
+          <span class="nav-text" data-en="Question CMS Reviewer" data-hi="प्रश्न समीक्षा (CMS)">प्रश्न समीक्षा (CMS)</span>
         </div>
       </div>
 
     </div>
-  </header>
+
+    <!-- Sidebar Footer -->
+    <div class="sidebar-footer">
+      <!-- Language Switcher Pill -->
+      <button class="sidebar-pill-btn" onclick="toggleLanguage()">
+        <span style="display: flex; align-items: center; gap: 6px;">
+          <span id="sidebar-lang-flag">🇮🇳</span>
+          <span id="sidebar-lang-text">हिन्दी (Hindi)</span>
+        </span>
+        <span style="font-size: 11px; opacity: 0.7;">Switch</span>
+      </button>
+
+      <!-- 24-Hour Free Pass Status -->
+      <div class="trial-indicator">
+        <span>👑</span>
+        <span data-en="24-Hour Trial Pass Active" data-hi="24-घंटे फ्री पास सक्रिय">24-घंटे फ्री पास सक्रिय</span>
+      </div>
+    </div>
+
+  </aside>
 
   <!-- ========================================================================
-       MAIN APP WORKSPACE
+       2. MAIN UNCLUTTERED WORKSPACE
        ======================================================================== -->
-  <main class="main-container">
-
-    <!-- ======================================================================
-         SCREEN 1: SUBJECT HUB / DASHBOARD
-         ====================================================================== -->
-    <section id="view-dashboard" class="view-section active">
+  <main class="app-main">
+    
+    <!-- Top Sticky Header -->
+    <header class="top-header">
       
-      <!-- Segment Switcher: Standard Practice vs PYQ -->
-      <div class="segment-container">
-        <button class="segment-btn active" id="seg-standard" onclick="setPracticeType('standard')">
-          <span class="nav-text-label" data-en="📚 Standard Practice Bank" data-hi="📚 अभ्यास प्रश्न-बैंक">📚 अभ्यास प्रश्न-बैंक</span>
-        </button>
-        <button class="segment-btn" id="seg-pyq" onclick="setPracticeType('pyq')">
-          <span class="nav-text-label" data-en="📅 Past Papers (PYQs)" data-hi="📅 विगत वर्ष प्रश्न (PYQ)">📅 विगत वर्ष प्रश्न (PYQ)</span>
-        </button>
+      <!-- Breadcrumb Navigation -->
+      <div class="breadcrumb-area">
+        <span>RPSC RAS Prelims</span>
+        <span>/</span>
+        <span class="breadcrumb-current" id="header-breadcrumb-title">Rajasthan Geography</span>
       </div>
 
-      <!-- Section Title -->
-      <div class="section-header">
-        <h2 class="section-title">
-          <span>🎯</span>
-          <span class="nav-text-label" data-en="Choose Your Practice Mode" data-hi="अपना अभ्यास मोड चुनें">अपना अभ्यास मोड चुनें</span>
-        </h2>
-        <p class="section-desc nav-text-label" data-en="Practice with verified, syllabus-aligned questions or simulate real computer-based exam conditions." data-hi="सत्यापित, पाठ्यक्रम-आधारित प्रश्नों के साथ अभ्यास करें या वास्तविक कंप्यूटर परीक्षा का अनुकरण करें।">सत्यापित, पाठ्यक्रम-आधारित प्रश्नों के साथ अभ्यास करें या वास्तविक कंप्यूटर परीक्षा का अनुकरण करें।</p>
+      <!-- Top Global Search Box -->
+      <div class="top-search-box">
+        <span class="top-search-icon">🔍</span>
+        <input type="text" id="top-search-input" class="top-search-input" placeholder="Search topic (e.g. Mewar, Aravalli, Panchayati Raj)..." autocomplete="off">
+        <div class="search-dropdown" id="top-search-dropdown"></div>
       </div>
 
-      <!-- Practice Modes Grid (Palette A Squircles) -->
-      <div class="modes-grid">
-        <!-- 1. Complete Syllabus -->
-        <div class="mode-card selected" id="mode-card-complete" onclick="selectPracticeMode('complete')">
-          <div class="mode-squircle" style="background: #EFF6FF; color: #1D4ED8;">🚀</div>
-          <div class="mode-title nav-text-label" data-en="Complete Syllabus" data-hi="संपूर्ण पाठ्यक्रम">संपूर्ण पाठ्यक्रम</div>
-          <div class="mode-sub nav-text-label" data-en="Full 150-Q RPSC standard mock drill across all subjects" data-hi="सभी विषयों से 150 प्रश्नों का पूर्ण RPSC मॉक टेस्ट">सभी विषयों से 150 प्रश्नों का पूर्ण RPSC मॉक टेस्ट</div>
-        </div>
+    </header>
 
-        <!-- 2. Subject-Wise -->
-        <div class="mode-card" id="mode-card-subject" onclick="selectPracticeMode('subject')">
-          <div class="mode-squircle" style="background: #ECFDF5; color: #059669;">📚</div>
-          <div class="mode-title nav-text-label" data-en="Subject-Wise" data-hi="विषय-वार अभ्यास">विषय-वार अभ्यास</div>
-          <div class="mode-sub nav-text-label" data-en="Master one specific subject like Rajasthan Geography or History" data-hi="राजस्थान भूगोल या इतिहास जैसे किसी एक विषय पर महारत हासिल करें">राजस्थान भूगोल या इतिहास जैसे किसी एक विषय पर महारत हासिल करें</div>
-        </div>
+    <!-- Main Dynamic Workspace Body -->
+    <div class="workspace-canvas">
 
-        <!-- 3. Topic-Wise -->
-        <div class="mode-card" id="mode-card-topic" onclick="selectPracticeMode('topic')">
-          <div class="mode-squircle" style="background: #FAF5FF; color: #7C3AED;">🎯</div>
-          <div class="mode-title nav-text-label" data-en="Topic-Wise" data-hi="टॉपिक-वार अभ्यास">टॉपिक-वार अभ्यास</div>
-          <div class="mode-sub nav-text-label" data-en="Target dedicated chapters and syllabus units" data-hi="विशिष्ट अध्यायों और पाठ्यक्रम इकाइयों को लक्षित करें">विशिष्ट अध्यायों और पाठ्यक्रम इकाइयों को लक्षित करें</div>
-        </div>
-
-        <!-- 4. Subtopic-Wise -->
-        <div class="mode-card" id="mode-card-subtopic" onclick="selectPracticeMode('subtopic')">
-          <div class="mode-squircle" style="background: #FFFBEB; color: #D97706;">🔬</div>
-          <div class="mode-title nav-text-label" data-en="Subtopic-Wise" data-hi="सब-टॉपिक वार">सब-टॉपिक वार</div>
-          <div class="mode-sub nav-text-label" data-en="Deep micro-topic drills for pinpoint accuracy" data-hi="सटीकता के लिए सूक्ष्म-टॉपिक स्तर पर गहन अभ्यास">सटीकता के लिए सूक्ष्म-टॉपिक स्तर पर गहन अभ्यास</div>
-        </div>
-      </div>
-
-      <!-- YouTube Smart Practice Banner -->
-      <div class="yt-card-banner" onclick="openYouTubeModal()">
-        <div class="yt-icon-squircle">🎥</div>
-        <div class="yt-info">
-          <h3 class="nav-text-label" data-en="YouTube Smart Practice Mode" data-hi="यूट्यूब स्मार्ट अभ्यास मोड">यूट्यूब स्मार्ट अभ्यास मोड</h3>
-          <p class="nav-text-label" data-en="Studying from YouTube? Paste lecture title or video URL to automatically practice matching authentic MCQs!" data-hi="यूट्यूब से पढ़ रहे हैं? वीडियो शीर्षक या लिंक दर्ज करें और तुरंत संबंधित प्रामाणिक प्रश्नों का अभ्यास करें!">यूट्यूब से पढ़ रहे हैं? वीडियो शीर्षक या लिंक दर्ज करें और तुरंत संबंधित प्रामाणिक प्रश्नों का अभ्यास करें!</p>
-        </div>
-        <div class="yt-arrow">➔</div>
-      </div>
-
-      <!-- Syllabus Explorer Panel -->
-      <div class="panel-card" id="syllabus-panel">
-        <div class="section-header" style="margin-bottom: 14px;">
-          <h3 class="section-title" style="font-size: 17px;">
-            <span>📖</span>
-            <span class="nav-text-label" data-en="Select Syllabus Unit & Subtopic" data-hi="पाठ्यक्रम इकाई एवं सब-टॉपिक चुनें">पाठ्यक्रम इकाई एवं सब-टॉपिक चुनें</span>
-          </h3>
-        </div>
-
-        <!-- Subject Tabs -->
-        <div class="subject-tabs-container" id="subject-tabs-list">
-          <div class="subject-tab active" onclick="loadSubjectSubtopics(1, this)">
-            <span>🌍</span>
-            <span class="tab-name">राजस्थान का भूगोल (Geography)</span>
-            <span class="tab-count-badge">35 Q</span>
-          </div>
-        </div>
-
-        <!-- Subtopics Grid -->
-        <div class="subtopics-grid" id="subtopics-container">
-          <!-- Dynamically populated -->
-        </div>
-
-        <!-- 6 Question Formats Grid -->
-        <div class="formats-header">
-          <span>🧩</span>
-          <span class="nav-text-label" data-en="Filter by Question Format (Optional)" data-hi="प्रश्न प्रारूप अनुसार फिल्टर करें (वैकल्पिक)">प्रश्न प्रारूप अनुसार फिल्टर करें (वैकल्पिक)</span>
-        </div>
-
-        <!-- Format Top Banner: All / Mixed -->
-        <div class="format-top-banner selected" id="format-box-ALL" onclick="selectQuestionFormat('ALL')">
-          <div>
-            <div class="format-title" style="font-weight: 800; font-size: 14px;">🔀 <span class="nav-text-label" data-en="All / Mixed Formats" data-hi="सभी / मिश्रित प्रारूप">सभी / मिश्रित प्रारूप</span></div>
-            <div class="format-desc" style="font-size: 12px; color: var(--text-muted);" class="nav-text-label" data-en="Experience the balanced blend of all 6 formats as tested in RPSC RAS" data-hi="RPSC RAS परीक्षा के अनुरूप सभी 6 प्रारूपों का संतुलित संयोजन">RPSC RAS परीक्षा के अनुरूप सभी 6 प्रारूपों का संतुलित संयोजन</div>
-          </div>
-          <span style="font-weight: 800; font-size: 12px; background: rgba(0,0,0,0.06); padding: 4px 10px; border-radius: 8px;">Recommended</span>
-        </div>
-
-        <!-- 2x3 Formats Grid -->
-        <div class="format-2x3-grid">
-          <div class="format-box" id="format-box-DIRECT" onclick="selectQuestionFormat('DIRECT')">
-            <div class="format-icon">⚡</div>
-            <div>
-              <div class="format-box-title nav-text-label" data-en="Direct MCQs" data-hi="सीधे प्रश्न">सीधे प्रश्न</div>
-              <div class="format-box-sub nav-text-label" data-en="Single factual choice" data-hi="एकल तथ्यात्मक विकल्प">एकल तथ्यात्मक विकल्प</div>
-            </div>
-          </div>
-
-          <div class="format-box" id="format-box-CHRONOLOGY" onclick="selectQuestionFormat('CHRONOLOGY')">
-            <div class="format-icon">⏱️</div>
-            <div>
-              <div class="format-box-title nav-text-label" data-en="Chronology" data-hi="कालक्रम प्रश्न">कालक्रम प्रश्न</div>
-              <div class="format-box-sub nav-text-label" data-en="Historical/Geological order" data-hi="समय एवं निर्माण क्रम">समय एवं निर्माण क्रम</div>
-            </div>
-          </div>
-
-          <div class="format-box" id="format-box-NOT_MATCHED" onclick="selectQuestionFormat('NOT_MATCHED')">
-            <div class="format-icon">❌</div>
-            <div>
-              <div class="format-box-title nav-text-label" data-en="Negative Traps" data-hi="असंगत / सुमेलित नहीं">असंगत / सुमेलित नहीं</div>
-              <div class="format-box-sub nav-text-label" data-en="Spot false/mismatched pair" data-hi="गलत युग्म की पहचान">गलत युग्म की पहचान</div>
-            </div>
-          </div>
-
-          <div class="format-box" id="format-box-MATCH" onclick="selectQuestionFormat('MATCH')">
-            <div class="format-icon">🧩</div>
-            <div>
-              <div class="format-box-title nav-text-label" data-en="Match Columns" data-hi="सुमेलित कीजिए">सुमेलित कीजिए</div>
-              <div class="format-box-sub nav-text-label" data-en="Authentic 4-column matrix" data-hi="4-कॉलम RPSC सारणी">4-कॉलम RPSC सारणी</div>
-            </div>
-          </div>
-
-          <div class="format-box" id="format-box-ASSERTION_REASON" onclick="selectQuestionFormat('ASSERTION_REASON')">
-            <div class="format-icon">⚖️</div>
-            <div>
-              <div class="format-box-title nav-text-label" data-en="Assertion & Reason" data-hi="कथन एवं कारण">कथन एवं कारण</div>
-              <div class="format-box-sub nav-text-label" data-en="Causal logic linkage" data-hi="कारण-कार्य संबंध परीक्षण">कारण-कार्य संबंध परीक्षण</div>
-            </div>
-          </div>
-
-          <div class="format-box" id="format-box-STATEMENT" onclick="selectQuestionFormat('STATEMENT')">
-            <div class="format-icon">📋</div>
-            <div>
-              <div class="format-box-title nav-text-label" data-en="Multi-Statement" data-hi="कथन विश्लेषण">कथन विश्लेषण</div>
-              <div class="format-box-sub nav-text-label" data-en="I, II, III deep analysis" data-hi="गहन बहु-कथन परीक्षण">गहन बहु-कथन परीक्षण</div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Launch Buttons Row -->
-        <div class="launch-row">
-          <button class="btn btn-practice" onclick="startSession('PRACTICE')">
-            <span>💡</span>
-            <span class="nav-text-label" data-en="Start Practice Mode (Instant Solutions)" data-hi="अभ्यास मोड शुरू करें (तुरंत व्याख्या)">अभ्यास मोड शुरू करें (तुरंत व्याख्या)</span>
-          </button>
-          
-          <button class="btn btn-exam" onclick="startSession('EXAM')">
-            <span>⏱️</span>
-            <span class="nav-text-label" data-en="Launch CBT Exam Hall (Timed Simulation)" data-hi="CBT परीक्षा कक्ष शुरू करें (समयबद्ध टेस्ट)">CBT परीक्षा कक्ष शुरू करें (समयबद्ध टेस्ट)</span>
-          </button>
-        </div>
-      </div>
-
-    </section>
-
-    <!-- ======================================================================
-         SCREEN 2: CBT EXAM HALL & PRACTICE ROOM
-         ====================================================================== -->
-    <section id="view-cbt" class="view-section">
-      <div class="cbt-container">
+      <!-- ====================================================================
+           VIEW 1: SUBJECT / TOPIC HUB (CLEAN & UNCLUTTERED)
+           ==================================================================== -->
+      <section id="view-hub" class="view-section active">
         
-        <!-- Left: Question Panel -->
-        <div class="question-panel">
-          
-          <!-- Top Meta Row -->
-          <div class="question-meta-row">
-            <div>
-              <span class="q-number-title" id="q-index-title">Question 1 of 35</span>
-              <span style="font-size: 12px; color: var(--text-muted); margin-left: 8px;" id="q-subtopic-tag">स्थिति एवं विस्तार</span>
+        <!-- Subject Banner Card -->
+        <div class="subject-hero">
+          <div>
+            <h1 class="subject-hero-title" id="subject-main-title">राजस्थान का भूगोल (Rajasthan Geography)</h1>
+            <p class="subject-hero-desc" id="subject-main-desc" data-en="Master Location & Extent, Aravalli Peaks, Thar Desert Landforms, and River Drainage Systems with 100% authentic RPSC verified questions." data-hi="स्थिति एवं विस्तार, अरावली पर्वतमाला, थार मरुस्थल, एवं अपवाह तंत्र पर 100% प्रामाणिक RPSC प्रश्नों के साथ अभ्यास करें।">
+              स्थिति एवं विस्तार, अरावली पर्वतमाला, थार मरुस्थल, एवं अपवाह तंत्र पर 100% प्रामाणिक RPSC प्रश्नों के साथ अभ्यास करें।
+            </p>
+            <div class="hero-meta-tags">
+              <span class="meta-tag meta-tag-emerald">✓ 35 Verified Questions Live</span>
+              <span class="meta-tag">Marks: +1.33 Correct</span>
+              <span class="meta-tag">Penalty: -0.44 Wrong</span>
+              <span class="meta-tag">Option 5: 0.00 Neutral</span>
             </div>
-            <div style="display: flex; gap: 8px; align-items: center;">
-              <span class="q-marks-pill" id="q-marks-badge">+1.33 / -0.44</span>
-              <button class="nav-pill-btn" style="padding: 4px 10px; font-size: 12px;" onclick="speakCurrentQuestion()">🔊 <span class="nav-text-label" data-en="Listen" data-hi="सुनें">सुनें</span></button>
-            </div>
-          </div>
-
-          <!-- Smart In-Quiz Badges Container -->
-          <div id="smart-badge-container"></div>
-
-          <!-- Question Body Text -->
-          <div class="question-body" id="q-body-text">
-            Loading question...
-          </div>
-
-          <!-- Match Matrix Table Container (Conditional) -->
-          <div id="match-table-container"></div>
-
-          <!-- Options 1 to 5 List -->
-          <div class="options-list" id="options-container">
-            <!-- Dynamically populated options -->
-          </div>
-
-          <!-- Bottom Action Navigation Bar -->
-          <div class="cbt-nav-bar">
-            <div style="display: flex; gap: 8px;">
-              <button class="btn btn-outline" id="btn-prev-q" onclick="navigateQuestion(-1)">
-                <span>←</span>
-                <span class="nav-text-label" data-en="Previous" data-hi="पिछला">पिछला</span>
-              </button>
-              <button class="btn btn-outline" onclick="clearCurrentResponse()">
-                <span class="nav-text-label" data-en="Clear Response" data-hi="उत्तर हटाएं">उत्तर हटाएं</span>
-              </button>
-            </div>
-
-            <div style="display: flex; gap: 8px;">
-              <button class="btn btn-review" onclick="toggleMarkForReview()">
-                <span>🟣</span>
-                <span class="nav-text-label" data-en="Mark for Review" data-hi="समीक्षा हेतु चिन्हित">समीक्षा हेतु चिन्हित</span>
-              </button>
-
-              <button class="btn btn-exam" id="btn-next-q" onclick="navigateQuestion(1)">
-                <span class="nav-text-label" data-en="Save & Next" data-hi="सुरक्षित करें एवं आगे बढ़ें">सुरक्षित करें एवं आगे बढ़ें</span>
-                <span>→</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- Explanation Box (In Practice Mode) -->
-          <div class="explanation-box" id="explanation-box" style="display: none;">
-            <div class="explanation-title">
-              <span>💡</span>
-              <span class="nav-text-label" data-en="Detailed Authentic Solution & Fact Reference" data-hi="विस्तृत प्रामाणिक व्याख्या एवं तथ्य संदर्भ">विस्तृत प्रामाणिक व्याख्या एवं तथ्य संदर्भ</span>
-            </div>
-            <div class="explanation-text" id="explanation-content"></div>
-          </div>
-
-        </div>
-
-        <!-- Right: CBT Exam Sidebar -->
-        <div class="cbt-sidebar">
-          
-          <!-- Timer Box -->
-          <div class="sidebar-card">
-            <div class="timer-container">
-              <div>
-                <div class="timer-label nav-text-label" data-en="Time Remaining" data-hi="शेष समय">शेष समय</div>
-                <div class="timer-clock" id="timer-display">00:45:00</div>
-              </div>
-              <div style="font-size: 24px;">⏱️</div>
-            </div>
-          </div>
-
-          <!-- Question Palette Card -->
-          <div class="sidebar-card">
-            <div class="palette-title">
-              <span class="nav-text-label" data-en="Question Palette" data-hi="प्रश्न पैलेट">प्रश्न पैलेट</span>
-              <span style="font-size: 12px; color: var(--text-muted);" id="palette-count-summary">0/35</span>
-            </div>
-
-            <!-- Legend Grid -->
-            <div class="legend-grid">
-              <div class="legend-item">
-                <span class="legend-dot dot-attempted"></span>
-                <span id="legend-attempted-count">0 Attempted</span>
-              </div>
-              <div class="legend-item">
-                <span class="legend-dot dot-unattempted"></span>
-                <span id="legend-unattempted-count">35 Unattempted</span>
-              </div>
-              <div class="legend-item">
-                <span class="legend-dot dot-skipped"></span>
-                <span id="legend-skipped-count">0 Option 5</span>
-              </div>
-              <div class="legend-item">
-                <span class="legend-dot dot-review"></span>
-                <span id="legend-review-count">0 Review</span>
-              </div>
-            </div>
-
-            <!-- Question Numbers Matrix 1 to N -->
-            <div class="palette-grid" id="palette-numbers-grid">
-              <!-- Dynamically populated buttons -->
-            </div>
-          </div>
-
-          <!-- Submit Test Button -->
-          <button class="btn-submit-exam" onclick="confirmSubmitExam()">
-            <span>✅</span>
-            <span class="nav-text-label" data-en="Submit Test & View Results" data-hi="टेस्ट जमा करें एवं परिणाम देखें">टेस्ट जमा करें एवं परिणाम देखें</span>
-          </button>
-
-          <!-- Back to Hub Button -->
-          <button class="btn btn-outline" style="width: 100%;" onclick="exitToDashboard()">
-            <span>🏠</span>
-            <span class="nav-text-label" data-en="Exit to Subject Hub" data-hi="अभ्यास केंद्र पर वापस लौटें">अभ्यास केंद्र पर वापस लौटें</span>
-          </button>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ======================================================================
-         SCREEN 3: COMPREHENSIVE SCORECARD & ANALYTICS
-         ====================================================================== -->
-    <section id="view-scorecard" class="view-section">
-      
-      <!-- Score Hero -->
-      <div class="scorecard-hero">
-        <div class="score-badge">
-          <div class="score-number" id="sc-net-score">+42.50</div>
-          <div class="score-label nav-text-label" data-en="Official Net Score (Out of 46.55)" data-hi="आधिकारिक कुल प्राप्तांक (कुल 46.55 में से)">आधिकारिक कुल प्राप्तांक</div>
-        </div>
-
-        <h2 style="font-size: 20px; font-weight: 800; margin-bottom: 6px;" class="nav-text-label" data-en="RPSC RAS Performance Evaluation" data-hi="RPSC RAS परीक्षा परिणाम एवं मूल्यांकन">RPSC RAS परीक्षा परिणाम एवं मूल्यांकन</h2>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 24px;" class="nav-text-label" data-en="Calculated strictly using official RPSC RAS formula: (+1.33 Correct, -0.44 Incorrect, 0.00 Option 5)" data-hi="आधिकारिक RPSC RAS मानक अनुसार गणना: (+1.33 सही, -0.44 गलत, 0.00 अनुत्तरित प्रश्न)">आधिकारिक RPSC RAS मानक अनुसार गणना: (+1.33 सही, -0.44 गलत, 0.00 अनुत्तरित प्रश्न)</p>
-
-        <!-- Stats Row -->
-        <div class="stats-summary-row">
-          <div class="stat-pill-box">
-            <div class="stat-pill-val" style="color: var(--primary);" id="sc-total-q">35</div>
-            <div class="stat-pill-sub nav-text-label" data-en="Total Questions" data-hi="कुल प्रश्न">कुल प्रश्न</div>
-          </div>
-          <div class="stat-pill-box">
-            <div class="stat-pill-val" style="color: var(--emerald);" id="sc-correct-count">30</div>
-            <div class="stat-pill-sub nav-text-label" data-en="Correct (+1.33)" data-hi="सही (+1.33)">सही (+1.33)</div>
-          </div>
-          <div class="stat-pill-box">
-            <div class="stat-pill-val" style="color: var(--rose);" id="sc-incorrect-count">3</div>
-            <div class="stat-pill-sub nav-text-label" data-en="Incorrect (-0.44)" data-hi="गलत (-0.44)">गलत (-0.44)</div>
-          </div>
-          <div class="stat-pill-box">
-            <div class="stat-pill-val" style="color: var(--amber);" id="sc-skipped-count">2</div>
-            <div class="stat-pill-sub nav-text-label" data-en="Option 5 (0.00)" data-hi="अनुत्तरित (0.00)">अनुत्तरित (0.00)</div>
           </div>
         </div>
 
-        <div style="display: flex; gap: 12px; justify-content: center;">
-          <button class="btn btn-primary" onclick="restartCurrentQuiz()">
-            <span>🔄</span>
-            <span class="nav-text-label" data-en="Retake This Drill" data-hi="पुनः अभ्यास करें">पुनः अभ्यास करें</span>
-          </button>
-          <button class="btn btn-outline" onclick="navigateToView('dashboard')">
-            <span>🏠</span>
-            <span class="nav-text-label" data-en="Back to Hub" data-hi="मुख्य पृष्ठ पर जाएं">मुख्य पृष्ठ पर जाएं</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- Question Solutions Breakdown List -->
-      <div class="panel-card">
-        <div class="section-header">
-          <h3 class="section-title">
-            <span>📋</span>
-            <span class="nav-text-label" data-en="Detailed Solutions & Question Analysis" data-hi="विस्तृत उत्तर एवं प्रश्न विश्लेषण">विस्तृत उत्तर एवं प्रश्न विश्लेषण</span>
-          </h3>
-        </div>
-        <div id="solutions-list-container" style="display: flex; flex-direction: column; gap: 16px;">
-          <!-- Populated dynamically -->
-        </div>
-      </div>
-
-    </section>
-
-    <!-- ======================================================================
-         SCREEN 4: FACULTY / QUESTION CMS REVIEWER
-         ====================================================================== -->
-    <section id="view-cms" class="view-section">
-      <div class="panel-card">
-        <div class="section-header">
-          <h2 class="section-title">
-            <span>🛡️</span>
-            <span class="nav-text-label" data-en="Faculty Question Reviewer & Content CMS" data-hi="प्राध्यापक प्रश्न समीक्षा एवं सामग्री प्रबंधन">प्राध्यापक प्रश्न समीक्षा एवं सामग्री प्रबंधन</span>
+        <!-- Chapters List Card -->
+        <div class="content-card">
+          <h2 class="card-title">
+            <span>📖</span>
+            <span data-en="Select Chapter / Micro-Topic" data-hi="अध्याय / माइक्रो-टॉपिक चुनें">अध्याय / माइक्रो-टॉपिक चुनें</span>
           </h2>
-          <p class="section-desc nav-text-label" data-en="Inspect, verify, and review live questions currently stored in the cloud database." data-hi="क्लाउड डेटाबेस में संग्रहित प्रश्नों का लाइव निरीक्षण एवं सत्यापन करें।">क्लाउड डेटाबेस में संग्रहित प्रश्नों का लाइव निरीक्षण एवं सत्यापन करें।</p>
+
+          <div class="chapter-list" id="chapter-list-container">
+            <!-- Chapter 1 (Selected) -->
+            <div class="chapter-item selected" onclick="selectChapter(2254, this)">
+              <div class="chapter-left">
+                <span class="chapter-num">1</span>
+                <div>
+                  <div class="chapter-title-text" id="ch-title-1">राजस्थान की स्थिति, विस्तार एवं सीमाएं (Location & Extent)</div>
+                  <div style="font-size: 12px; color: var(--text-muted);">अक्षांशीय-देशान्तरीय विस्तार, सीमावर्ती जिले, रेडक्लिफ रेखा</div>
+                </div>
+              </div>
+              <span class="chapter-badge">35 Questions</span>
+            </div>
+
+            <!-- Chapter 2 -->
+            <div class="chapter-item" onclick="selectChapter(2002, this)">
+              <div class="chapter-left">
+                <span class="chapter-num">2</span>
+                <div>
+                  <div class="chapter-title-text">भौतिक विभाग: अरावली पर्वतमाला एवं थार मरुस्थल (Physical Divisions)</div>
+                  <div style="font-size: 12px; color: var(--text-muted);">गुरु शिखर, सर्वोच्च चोटियां, बालुका स्तूप, लाठी सीरीज</div>
+                </div>
+              </div>
+              <span class="chapter-badge">40 Questions</span>
+            </div>
+
+            <!-- Chapter 3 -->
+            <div class="chapter-item" onclick="selectChapter(2003, this)">
+              <div class="chapter-left">
+                <span class="chapter-num">3</span>
+                <div>
+                  <div class="chapter-title-text">अपवाह तंत्र: नदियां, झीलें एवं सिंचाई बांध (Drainage & Lakes)</div>
+                  <div style="font-size: 12px; color: var(--text-muted);">चम्बल, बनास, लूनी, सांभर झील, इंदिरा गांधी नहर</div>
+                </div>
+              </div>
+              <span class="chapter-badge">35 Questions</span>
+            </div>
+
+            <!-- Chapter 4 -->
+            <div class="chapter-item" onclick="selectChapter(2004, this)">
+              <div class="chapter-left">
+                <span class="chapter-num">4</span>
+                <div>
+                  <div class="chapter-title-text">जलवायु एवं मानसूनी विशेषताएं (Climate & Monsoons)</div>
+                  <div style="font-size: 12px; color: var(--text-muted);">कोपेन का जलवायु वर्गीकरण (BWhw, BShw, Cwg), मावठ</div>
+                </div>
+              </div>
+              <span class="chapter-badge">30 Questions</span>
+            </div>
+          </div>
+
+          <!-- Format Filter Chips -->
+          <h2 class="card-title" style="font-size: 14px; margin-bottom: 12px;">
+            <span>🧩</span>
+            <span data-en="Filter by Question Format" data-hi="प्रश्न प्रारूप अनुसार फिल्टर करें">प्रश्न प्रारूप अनुसार फिल्टर करें</span>
+          </h2>
+
+          <div class="format-chips-container">
+            <button class="format-chip selected" onclick="setFormatFilter('ALL', this)">🔀 <span data-en="All Formats (Recommended)" data-hi="सभी प्रारूप (अनुशंसित)">सभी प्रारूप (अनुशंसित)</span></button>
+            <button class="format-chip" onclick="setFormatFilter('DIRECT', this)">⚡ <span data-en="Direct MCQs" data-hi="सीधे प्रश्न">सीधे प्रश्न</span></button>
+            <button class="format-chip" onclick="setFormatFilter('MATCH', this)">🧩 <span data-en="Match Columns (4-Col)" data-hi="सुमेलित कीजिए (4-कॉलम)">सुमेलित कीजिए (4-कॉलम)</span></button>
+            <button class="format-chip" onclick="setFormatFilter('ASSERTION_REASON', this)">⚖️ <span data-en="Assertion & Reason" data-hi="कथन एवं कारण">कथन एवं कारण</span></button>
+            <button class="format-chip" onclick="setFormatFilter('STATEMENT', this)">📋 <span data-en="Multi-Statement" data-hi="कथन विश्लेषण">कथन विश्लेषण</span></button>
+            <button class="format-chip" onclick="setFormatFilter('CHRONOLOGY', this)">⏱️ <span data-en="Chronology" data-hi="कालक्रम">कालक्रम</span></button>
+            <button class="format-chip" onclick="setFormatFilter('NOT_MATCHED', this)">❌ <span data-en="Negative Traps" data-hi="असंगत / सुमेलित नहीं">असंगत / सुमेलित नहीं</span></button>
+          </div>
+
+          <!-- CTA Row -->
+          <div class="cta-row">
+            <button class="btn-cta btn-cta-practice" onclick="launchSession('PRACTICE')">
+              <span>💡</span>
+              <span data-en="Start Practice Mode (Instant Solutions)" data-hi="अभ्यास मोड शुरू करें (तुरंत व्याख्या)">अभ्यास मोड शुरू करें (तुरंत व्याख्या)</span>
+            </button>
+
+            <button class="btn-cta btn-cta-exam" onclick="launchSession('EXAM')">
+              <span>⏱️</span>
+              <span data-en="Launch CBT Exam Hall (Timed Simulation)" data-hi="CBT परीक्षा कक्ष शुरू करें (समयबद्ध टेस्ट)">CBT परीक्षा कक्ष शुरू करें (समयबद्ध टेस्ट)</span>
+            </button>
+          </div>
+
         </div>
 
-        <!-- Filter Controls -->
-        <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 20px;">
-          <select id="cms-subtopic-filter" class="nav-search-input" style="max-width: 260px; height: 40px;" onchange="loadCmsQuestions()">
-            <option value="2254">राजस्थान का भूगोल (Hindi) - Subtopic 2254</option>
-            <option value="2253">Rajasthan Geography (English) - Subtopic 2253</option>
-          </select>
+      </section>
 
-          <select id="cms-format-filter" class="nav-search-input" style="max-width: 200px; height: 40px;" onchange="filterCmsList()">
-            <option value="ALL">All Formats</option>
-            <option value="DIRECT">Direct MCQs</option>
-            <option value="CHRONOLOGY">Chronology</option>
-            <option value="NOT_MATCHED">Negative Traps</option>
-            <option value="MATCH">Match Columns</option>
-            <option value="ASSERTION_REASON">Assertion & Reason</option>
-            <option value="STATEMENT">Multi-Statement</option>
-          </select>
+      <!-- ====================================================================
+           VIEW 2: CBT EXAM HALL (WIDESCREEN DUAL-PANE)
+           ==================================================================== -->
+      <section id="view-cbt" class="view-section">
+        <div class="cbt-wrapper">
+          
+          <!-- Left Question Area -->
+          <div class="cbt-left-pane">
+            
+            <div class="cbt-meta-bar">
+              <div>
+                <span class="cbt-q-number" id="cbt-q-title">Question 1 of 35</span>
+                <span style="font-size: 12px; color: var(--text-muted); margin-left: 8px;" id="cbt-ch-name">स्थिति एवं विस्तार</span>
+              </div>
+              <div style="display: flex; gap: 8px; align-items: center;">
+                <span class="cbt-marks-tag">+1.33 / -0.44</span>
+                <button class="btn-secondary" style="padding: 4px 10px; font-size: 12px;" onclick="speakQuestion()">🔊 <span data-en="Listen" data-hi="सुनें">सुनें</span></button>
+              </div>
+            </div>
 
-          <button class="btn btn-outline" style="height: 40px; padding: 0 16px;" onclick="loadCmsQuestions()">
-            <span>🔄</span> <span class="nav-text-label" data-en="Refresh" data-hi="रिफ्रेश">रिफ्रेश</span>
-          </button>
+            <!-- In-quiz Alert Badges -->
+            <div id="cbt-smart-badges"></div>
+
+            <!-- Question Body -->
+            <div class="cbt-q-text" id="cbt-q-body">Loading question...</div>
+
+            <!-- 4-Column Match Table (Conditional) -->
+            <div id="cbt-match-table"></div>
+
+            <!-- 5 Options Stack -->
+            <div class="options-stack" id="cbt-options-stack"></div>
+
+            <!-- Action Controls Bar -->
+            <div class="cbt-action-bar">
+              <div style="display: flex; gap: 8px;">
+                <button class="btn-secondary" onclick="navigateQ(-1)">← <span data-en="Previous" data-hi="पिछला">पिछला</span></button>
+                <button class="btn-secondary" onclick="clearOption()"><span data-en="Clear Response" data-hi="उत्तर हटाएं">उत्तर हटाएं</span></button>
+              </div>
+
+              <div style="display: flex; gap: 8px;">
+                <button class="btn-secondary btn-review-tag" onclick="toggleReview()">🟣 <span data-en="Mark for Review" data-hi="समीक्षा हेतु चिन्हित">समीक्षा हेतु चिन्हित</span></button>
+                <button class="btn-cta btn-cta-exam" onclick="navigateQ(1)"><span data-en="Save & Next" data-hi="सुरक्षित करें एवं आगे बढ़ें">सुरक्षित करें एवं आगे बढ़ें</span> →</button>
+              </div>
+            </div>
+
+            <!-- Explanation Drawer (Practice Mode) -->
+            <div class="solution-box" id="cbt-solution-drawer" style="display: none;">
+              <div class="solution-title">💡 <span data-en="Authentic Reference Fact Explanation" data-hi="विस्तृत प्रामाणिक तथ्य एवं व्याख्या">विस्तृत प्रामाणिक तथ्य एवं व्याख्या</span></div>
+              <div class="solution-text" id="cbt-solution-text"></div>
+            </div>
+
+          </div>
+
+          <!-- Right Sidebar -->
+          <div class="cbt-right-sidebar">
+            
+            <!-- Timer Box -->
+            <div class="cbt-side-card">
+              <div class="clock-display">
+                <div>
+                  <div style="font-size: 11px; font-weight: 700; color: var(--text-muted);" data-en="TIME REMAINING" data-hi="शेष समय">शेष समय</div>
+                  <div class="clock-val" id="cbt-clock-val">00:45:00</div>
+                </div>
+                <div style="font-size: 22px;">⏱️</div>
+              </div>
+            </div>
+
+            <!-- Palette Card -->
+            <div class="cbt-side-card">
+              <div style="display: flex; justify-content: space-between; font-size: 13px; font-weight: 800; margin-bottom: 12px;">
+                <span data-en="Question Palette" data-hi="प्रश्न पैलेट">प्रश्न पैलेट</span>
+                <span style="color: var(--text-muted);" id="cbt-palette-counter">0/35</span>
+              </div>
+
+              <div class="cbt-legend-row">
+                <div class="legend-chip"><span class="chip-dot" style="background: var(--emerald);"></span> <span id="leg-att">0 Attempted</span></div>
+                <div class="legend-chip"><span class="chip-dot" style="background: var(--border-medium);"></span> <span id="leg-unatt">35 Left</span></div>
+                <div class="legend-chip"><span class="chip-dot" style="background: var(--amber);"></span> <span id="leg-skip">0 Option 5</span></div>
+                <div class="legend-chip"><span class="chip-dot" style="background: var(--purple);"></span> <span id="leg-rev">0 Review</span></div>
+              </div>
+
+              <!-- Question Grid 1 to N -->
+              <div class="cbt-palette-grid" id="cbt-palette-grid-btns"></div>
+            </div>
+
+            <button class="btn-submit-cbt" onclick="confirmSubmit()">
+              ✅ <span data-en="Submit Test & Scorecard" data-hi="टेस्ट जमा करें एवं परिणाम देखें">टेस्ट जमा करें एवं परिणाम देखें</span>
+            </button>
+
+            <button class="btn-secondary" style="width: 100%; text-align: center;" onclick="exitExamToHub()">
+              🏠 <span data-en="Exit to Hub" data-hi="अभ्यास केंद्र पर लौटें">अभ्यास केंद्र पर लौटें</span>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           VIEW 3: SCORECARD & PERFORMANCE
+           ==================================================================== -->
+      <section id="view-scorecard" class="view-section">
+        <div class="score-hero-card">
+          <div class="score-display-box">
+            <div class="score-big-num" id="score-net-val">+42.50</div>
+            <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted);" data-en="Official Net Score" data-hi="आधिकारिक कुल प्राप्तांक">आधिकारिक कुल प्राप्तांक</div>
+          </div>
+
+          <h2 style="font-family: var(--font-display); font-size: 20px; font-weight: 800; margin-bottom: 6px;" data-en="RPSC RAS Performance Evaluation" data-hi="RPSC RAS परीक्षा परिणाम एवं मूल्यांकन">RPSC RAS परीक्षा परिणाम एवं मूल्यांकन</h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 20px;" data-en="Official RPSC RAS standard: (+1.33 Correct, -0.44 Incorrect, 0.00 Option 5)" data-hi="आधिकारिक RPSC RAS मानक: (+1.33 सही, -0.44 गलत, 0.00 अनुत्तरित प्रश्न)">आधिकारिक RPSC RAS मानक: (+1.33 सही, -0.44 गलत, 0.00 अनुत्तरित प्रश्न)</p>
+
+          <div class="score-stat-grid">
+            <div class="score-stat-cell">
+              <div style="font-size: 20px; font-weight: 800; color: var(--brand-primary);" id="sc-tot">35</div>
+              <div style="font-size: 11px; font-weight: 700; color: var(--text-muted);" data-en="Total" data-hi="कुल प्रश्न">कुल प्रश्न</div>
+            </div>
+            <div class="score-stat-cell">
+              <div style="font-size: 20px; font-weight: 800; color: var(--emerald);" id="sc-cor">30</div>
+              <div style="font-size: 11px; font-weight: 700; color: var(--text-muted);" data-en="Correct (+1.33)" data-hi="सही (+1.33)">सही (+1.33)</div>
+            </div>
+            <div class="score-stat-cell">
+              <div style="font-size: 20px; font-weight: 800; color: var(--rose);" id="sc-inc">3</div>
+              <div style="font-size: 11px; font-weight: 700; color: var(--text-muted);" data-en="Incorrect (-0.44)" data-hi="गलत (-0.44)">गलत (-0.44)</div>
+            </div>
+            <div class="score-stat-cell">
+              <div style="font-size: 20px; font-weight: 800; color: var(--amber);" id="sc-skp">2</div>
+              <div style="font-size: 11px; font-weight: 700; color: var(--text-muted);" data-en="Option 5 (0.00)" data-hi="Option 5 (0.00)">Option 5 (0.00)</div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 10px; justify-content: center;">
+            <button class="btn-cta btn-cta-exam" onclick="relaunchCurrentTest()">🔄 <span data-en="Retake Test" data-hi="पुनः टेस्ट दें">पुनः टेस्ट दें</span></button>
+            <button class="btn-secondary" onclick="switchSidebarTab('geography')">🏠 <span data-en="Back to Hub" data-hi="अभ्यास केंद्र पर लौटें">अभ्यास केंद्र पर लौटें</span></button>
+          </div>
         </div>
 
-        <!-- Questions Count & List Table -->
-        <div style="font-weight: 800; margin-bottom: 12px;" id="cms-status-count">Loading questions...</div>
-        <div id="cms-questions-container" style="display: flex; flex-direction: column; gap: 14px;">
-          <!-- Dynamically populated -->
+        <!-- Solutions List -->
+        <div class="content-card">
+          <h2 class="card-title">📋 <span data-en="Question Solutions & Explanations" data-hi="प्रश्नोत्तर समाधान एवं व्याख्याएं">प्रश्नोत्तर समाधान एवं व्याख्याएं</span></h2>
+          <div id="sc-solutions-list" style="display: flex; flex-direction: column; gap: 14px;"></div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <!-- ====================================================================
+           VIEW 4: FACULTY QUESTION CMS
+           ==================================================================== -->
+      <section id="view-cms" class="view-section">
+        <div class="content-card">
+          <h2 class="card-title">🛡️ <span data-en="Cloud Database Question Reviewer (CMS)" data-hi="क्लाउड डेटाबेस प्रश्न समीक्षा (CMS)">क्लाउड डेटाबेस प्रश्न समीक्षा (CMS)</span></h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 20px;" data-en="Verify and inspect all questions currently live in the production database." data-hi="वर्तमान में प्रोडक्शन डेटाबेस में लाइव सभी प्रश्नों का निरीक्षण एवं सत्यापन करें।">वर्तमान में प्रोडक्शन डेटाबेस में लाइव सभी प्रश्नों का निरीक्षण एवं सत्यापन करें।</p>
+
+          <div style="display: flex; gap: 12px; margin-bottom: 20px;">
+            <select id="cms-subtopic-select" class="top-search-input" style="width: 280px;" onchange="fetchCmsData()">
+              <option value="2254">राजस्थान का भूगोल (Hindi - 2254)</option>
+              <option value="2253">Rajasthan Geography (English - 2253)</option>
+            </select>
+            <button class="btn-secondary" onclick="fetchCmsData()">🔄 Refresh</button>
+          </div>
+
+          <div id="cms-count-status" style="font-weight: 800; margin-bottom: 12px;">Loading...</div>
+          <div id="cms-items-stack" style="display: flex; flex-direction: column; gap: 12px;"></div>
+        </div>
+      </section>
+
+    </div>
 
   </main>
 
-  <!-- ========================================================================
-       MODAL: YOUTUBE SMART PRACTICE
-       ======================================================================== -->
-  <div id="yt-modal" style="display: none; position: fixed; inset: 0; background: rgba(15, 23, 42, 0.6); z-index: 500; align-items: center; justify-content: center; backdrop-filter: blur(4px);">
-    <div style="background: #FFFFFF; border-radius: 20px; max-width: 520px; width: 90%; padding: 28px; box-shadow: var(--shadow-lg); border: 1.5px solid var(--border-subtle);">
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
-        <h3 style="font-family: var(--font-display); font-size: 18px; font-weight: 800; color: var(--primary);">🎥 YouTube Smart Practice</h3>
-        <button onclick="closeYouTubeModal()" style="background: none; border: none; font-size: 20px; cursor: pointer; color: var(--text-muted);">✕</button>
-      </div>
-      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
-        Paste any YouTube lecture title or URL (e.g., <em>"Rajasthan Geography - Location & Physical Features"</em>). Our algorithm will parse the syllabus topic and generate matching verified MCQs!
-      </p>
-      <input type="text" id="yt-input" class="nav-search-input" style="width: 100%; margin-bottom: 16px;" placeholder="Paste video title or keywords...">
-      <div style="display: flex; gap: 10px; justify-content: flex-end;">
-        <button class="btn btn-outline" onclick="closeYouTubeModal()">Cancel</button>
-        <button class="btn btn-primary" onclick="launchYouTubePractice()">Generate Matching Practice</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Web Application Scripts -->
   <script src="app.js"></script>
 </body>
 </html>

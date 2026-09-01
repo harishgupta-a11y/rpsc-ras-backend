@@ -1,47 +1,34 @@
 /**
  * ============================================================================
- * RPSC RAS Web Portal — Client Application Logic (app.js)
- * Architecture: Palette A Light Theme, CBT Exam Engine, Cloud Sync, RPSC Standards
+ * RPSC RAS Web Portal — Sleek Sidebar & Minimalist Client Engine (app.js)
  * ============================================================================
  */
 
-// 1. Determine API Base URL seamlessly
 const API_BASE_URL = (window.location.origin && window.location.origin.includes('localhost:5000'))
   ? 'http://localhost:5000/api'
   : 'https://rpsc-ras-backend.onrender.com/api';
 
-console.log('[RPSC RAS Web] Connected to API:', API_BASE_URL);
+console.log('[RPSC RAS Portal] Connected to API:', API_BASE_URL);
 
-// 2. Global State
+// State
 const state = {
   language: 'HI', // 'HI' or 'EN'
-  practiceType: 'standard', // 'standard' or 'pyq'
-  practiceMode: 'complete', // 'complete', 'subject', 'topic', 'subtopic'
-  sessionType: 'PRACTICE', // 'PRACTICE' (instant solutions) or 'EXAM' (timed CBT)
-  
-  selectedSubjectId: 1, // Rajasthan Geography default
+  currentTab: 'geography', // 'overview', 'geography', 'history', 'polity', 'mock', 'pyq', 'analytics', 'cms'
   selectedSubtopicId: 2254, // 2254 for HI, 2253 for EN
   selectedFormat: 'ALL',
-  
-  subjects: [],
-  subtopics: [],
+  sessionType: 'PRACTICE', // 'PRACTICE' or 'EXAM'
   
   questions: [],
   currentIndex: 0,
-  userResponses: {}, // { [index]: { option: '1'|'2'|'3'|'4'|'5', isReview: boolean, isAnswered: boolean } }
+  userResponses: {},
   
-  timerSeconds: 45 * 60, // 45 minutes default
+  timerSeconds: 45 * 60,
   timerInterval: null,
   isSpeaking: false
 };
 
-// ============================================================================
-// INITIALIZATION ON DOM READY
-// ============================================================================
-
 document.addEventListener('DOMContentLoaded', () => {
   initLanguage();
-  loadSyllabus();
   setupGlobalSearch();
 });
 
@@ -50,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // ============================================================================
 
 function initLanguage() {
-  const saved = localStorage.getItem('rpsc_ras_lang');
+  const saved = localStorage.getItem('rpsc_lang_pref');
   if (saved && (saved === 'HI' || saved === 'EN')) {
     state.language = saved;
   }
@@ -59,236 +46,129 @@ function initLanguage() {
 
 function toggleLanguage() {
   state.language = state.language === 'HI' ? 'EN' : 'HI';
-  localStorage.setItem('rpsc_ras_lang', state.language);
+  localStorage.setItem('rpsc_lang_pref', state.language);
   
-  // Align default subtopic ID based on language (2254 for HI, 2253 for EN)
-  if (state.selectedSubjectId === 1) {
+  if (state.currentTab === 'geography') {
     state.selectedSubtopicId = state.language === 'HI' ? 2254 : 2253;
   }
   
   updateLanguageUI();
-  loadSyllabus(); // Refresh syllabus titles in target language
 }
 
 function updateLanguageUI() {
   const isHi = state.language === 'HI';
-  
-  // Update Navbar Button
-  document.getElementById('lang-flag').textContent = isHi ? '🇮🇳' : '🇺🇸';
-  document.getElementById('lang-text').textContent = isHi ? 'हिन्दी' : 'English';
-  document.getElementById('lang-badge').textContent = isHi ? 'प्रशासनिक सेवा' : 'Civil Services';
+
+  // Sidebar indicators
+  document.getElementById('sidebar-lang-flag').textContent = isHi ? '🇮🇳' : '🇺🇸';
+  document.getElementById('sidebar-lang-text').textContent = isHi ? 'हिन्दी (Hindi)' : 'English (US)';
+  document.getElementById('sidebar-badge-text').textContent = isHi ? '✓ 100% प्रामाणिक' : '✓ 100% Verified';
 
   // Translate all elements with data-en and data-hi
   document.querySelectorAll('[data-en][data-hi]').forEach(el => {
     el.textContent = isHi ? el.getAttribute('data-hi') : el.getAttribute('data-en');
   });
 
-  // If questions are active in CBT or Scorecard, update current view
+  // Breadcrumb
+  document.getElementById('header-breadcrumb-title').textContent = isHi ? 'राजस्थान का भूगोल' : 'Rajasthan Geography';
+
+  // Re-render current question if active
   if (state.questions && state.questions.length > 0) {
-    renderCurrentQuestion();
+    renderCurrentQ();
   }
 }
 
 // ============================================================================
-// SYLLABUS & TOPIC BROWSER
+// SIDEBAR TABS & NAVIGATION
 // ============================================================================
 
-async function loadSyllabus() {
-  try {
-    const res = await fetch(`${API_BASE_URL}/syllabus?tier=PRE&language=${state.language}`, {
-      headers: { 'x-user-mobile': '9876543210' }
-    });
+function switchSidebarTab(tabName) {
+  state.currentTab = tabName;
 
-    if (res.ok) {
-      const data = await res.json();
-      state.subjects = data.subjects || [];
-      renderSubjectTabs();
-    } else {
-      console.warn('Using default subjects fallback.');
-      loadDefaultSyllabus();
-    }
-  } catch (err) {
-    console.error('Failed to fetch syllabus from API, loading local fallback:', err);
-    loadDefaultSyllabus();
-  }
-}
+  document.querySelectorAll('.sidebar-nav-item').forEach(item => {
+    item.classList.remove('active');
+  });
+  const activeItem = document.getElementById(`nav-item-${tabName}`);
+  if (activeItem) activeItem.classList.add('active');
 
-function loadDefaultSyllabus() {
   const isHi = state.language === 'HI';
-  state.subjects = [
-    {
-      subject_id: 1,
-      subject_name: isHi ? 'राजस्थान का भूगोल' : 'Geography of Rajasthan',
-      icon: '🌍',
-      question_count: 35,
-      subtopics: [
-        {
-          minute_topic_id: isHi ? 2254 : 2253,
-          minute_topic_name: isHi ? 'राजस्थान की स्थिति, विस्तार एवं सीमाएं' : 'Location, Extent & Boundaries',
-          question_count: 35
-        },
-        {
-          minute_topic_id: 2002,
-          minute_topic_name: isHi ? 'भौतिक विभाग: अरावली एवं थार मरुस्थल' : 'Physical Divisions: Aravalli & Thar',
-          question_count: 40
-        },
-        {
-          minute_topic_id: 2003,
-          minute_topic_name: isHi ? 'अपवाह तंत्र: नदियां एवं झीलें' : 'Drainage System: Rivers & Lakes',
-          question_count: 35
-        },
-        {
-          minute_topic_id: 2004,
-          minute_topic_name: isHi ? 'जलवायु एवं मानसूनी तंत्र' : 'Climate & Monsoons',
-          question_count: 30
-        }
-      ]
-    },
-    {
-      subject_id: 2,
-      subject_name: isHi ? 'राजस्थान का इतिहास एवं संस्कृति' : 'History & Culture of Rajasthan',
-      icon: '🏰',
-      question_count: 45,
-      subtopics: [
-        {
-          minute_topic_id: 2101,
-          minute_topic_name: isHi ? 'प्रमुख राजवंश एवं ऐतिहासिक स्थल' : 'Major Dynasties & Historic Sites',
-          question_count: 25
-        },
-        {
-          minute_topic_id: 2102,
-          minute_topic_name: isHi ? 'दुर्ग, महल एवं स्थापत्य कला' : 'Forts, Palaces & Architecture',
-          question_count: 20
-        }
-      ]
-    },
-    {
-      subject_id: 3,
-      subject_name: isHi ? 'राजस्थान की प्रशासनिक व्यवस्था' : 'Polity & Administration',
-      icon: '🏛️',
-      question_count: 35,
-      subtopics: [
-        {
-          minute_topic_id: 2201,
-          minute_topic_name: isHi ? 'राज्यपाल, मुख्यमंत्री एवं विधानसभा' : 'Governor, CM & State Assembly',
-          question_count: 20
-        },
-        {
-          minute_topic_id: 2202,
-          minute_topic_name: isHi ? 'RPSC, लोकायुक्त एवं आयोग' : 'RPSC, Lokayukta & Commissions',
-          question_count: 15
-        }
-      ]
-    }
-  ];
-  renderSubjectTabs();
+
+  if (tabName === 'geography') {
+    state.selectedSubtopicId = isHi ? 2254 : 2253;
+    document.getElementById('subject-main-title').textContent = isHi ? 'राजस्थान का भूगोल (Rajasthan Geography)' : 'Geography of Rajasthan';
+    document.getElementById('header-breadcrumb-title').textContent = isHi ? 'राजस्थान का भूगोल' : 'Rajasthan Geography';
+    showView('hub');
+  } else if (tabName === 'history') {
+    document.getElementById('subject-main-title').textContent = isHi ? 'राजस्थान का इतिहास एवं कला-संस्कृति' : 'History & Culture of Rajasthan';
+    document.getElementById('header-breadcrumb-title').textContent = isHi ? 'इतिहास एवं संस्कृति' : 'History & Culture';
+    showView('hub');
+  } else if (tabName === 'polity') {
+    document.getElementById('subject-main-title').textContent = isHi ? 'राजस्थान की प्रशासनिक व्यवस्था' : 'Polity & Administration';
+    document.getElementById('header-breadcrumb-title').textContent = isHi ? 'प्रशासनिक व्यवस्था' : 'Polity';
+    showView('hub');
+  } else if (tabName === 'mock') {
+    document.getElementById('subject-main-title').textContent = isHi ? 'संपूर्ण पाठ्यक्रम मॉक टेस्ट (150 प्रश्न)' : 'Complete Syllabus Mock Drill (150 Q)';
+    document.getElementById('header-breadcrumb-title').textContent = isHi ? 'मॉक टेस्ट' : 'Full Mock Test';
+    showView('hub');
+  } else if (tabName === 'pyq') {
+    document.getElementById('subject-main-title').textContent = isHi ? 'विगत वर्ष प्रश्न-पत्र (PYQs 2013-2023)' : 'Previous Year Papers (PYQ 2013-2023)';
+    document.getElementById('header-breadcrumb-title').textContent = 'PYQ Papers';
+    showView('hub');
+  } else if (tabName === 'analytics') {
+    document.getElementById('header-breadcrumb-title').textContent = 'Analytics';
+    showView('scorecard');
+  } else if (tabName === 'cms') {
+    document.getElementById('header-breadcrumb-title').textContent = 'Question CMS';
+    showView('cms');
+    fetchCmsData();
+  } else {
+    showView('hub');
+  }
 }
 
-function renderSubjectTabs() {
-  const container = document.getElementById('subject-tabs-list');
-  if (!container) return;
-
-  container.innerHTML = state.subjects.map(s => {
-    const isActive = s.subject_id === state.selectedSubjectId;
-    return `
-      <div class="subject-tab ${isActive ? 'active' : ''}" onclick="selectSubject(${s.subject_id}, this)">
-        <span>${s.icon || '📚'}</span>
-        <span class="tab-name">${s.subject_name}</span>
-        <span class="tab-count-badge">${s.question_count || 35} Q</span>
-      </div>
-    `;
-  }).join('');
-
-  renderSubtopicsGrid();
+function showView(viewId) {
+  document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
+  const target = document.getElementById(`view-${viewId}`);
+  if (target) {
+    target.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
 
-function selectSubject(subjectId, tabEl) {
-  state.selectedSubjectId = subjectId;
-  document.querySelectorAll('.subject-tab').forEach(t => t.classList.remove('active'));
-  if (tabEl) tabEl.classList.add('active');
-  renderSubtopicsGrid();
-}
-
-function renderSubtopicsGrid() {
-  const container = document.getElementById('subtopics-container');
-  if (!container) return;
-
-  const subject = state.subjects.find(s => s.subject_id === state.selectedSubjectId) || state.subjects[0];
-  if (!subject) return;
-
-  const list = subject.subtopics || [
-    {
-      minute_topic_id: state.language === 'HI' ? 2254 : 2253,
-      minute_topic_name: state.language === 'HI' ? 'राजस्थान की स्थिति, विस्तार एवं सीमाएं' : 'Location, Extent & Boundaries of Rajasthan',
-      question_count: 35
-    }
-  ];
-
-  container.innerHTML = list.map(st => {
-    const isSelected = st.minute_topic_id === state.selectedSubtopicId;
-    return `
-      <div class="subtopic-item ${isSelected ? 'selected' : ''}" onclick="selectSubtopic(${st.minute_topic_id}, this)">
-        <span class="subtopic-name">${st.minute_topic_name}</span>
-        <span class="subtopic-qcount">${st.question_count || 35} Q</span>
-      </div>
-    `;
-  }).join('');
-}
-
-function selectSubtopic(id, el) {
-  state.selectedSubtopicId = id;
-  document.querySelectorAll('.subtopic-item').forEach(i => i.classList.remove('selected'));
+function selectChapter(subtopicId, el) {
+  state.selectedSubtopicId = subtopicId;
+  document.querySelectorAll('.chapter-item').forEach(c => c.classList.remove('selected'));
   if (el) el.classList.add('selected');
 }
 
-// ============================================================================
-// PRACTICE MODES & FORMATS
-// ============================================================================
-
-function setPracticeType(type) {
-  state.practiceType = type;
-  document.getElementById('seg-standard').classList.toggle('active', type === 'standard');
-  document.getElementById('seg-pyq').classList.toggle('active', type === 'pyq');
-}
-
-function selectPracticeMode(mode) {
-  state.practiceMode = mode;
-  document.querySelectorAll('.mode-card').forEach(c => c.classList.remove('selected'));
-  const target = document.getElementById(`mode-card-${mode}`);
-  if (target) target.classList.add('selected');
-}
-
-function selectQuestionFormat(format) {
+function setFormatFilter(format, chipEl) {
   state.selectedFormat = format;
-  document.querySelectorAll('.format-box, .format-top-banner').forEach(b => b.classList.remove('selected'));
-  const target = document.getElementById(`format-box-${format}`);
-  if (target) target.classList.add('selected');
+  document.querySelectorAll('.format-chip').forEach(c => c.classList.remove('selected'));
+  if (chipEl) chipEl.classList.add('selected');
 }
 
 // ============================================================================
-// SESSION GENERATION & QUESTION LOADER
+// QUESTION SESSION LAUNCHER
 // ============================================================================
 
-async function startSession(sessionType) {
+async function launchSession(sessionType) {
   state.sessionType = sessionType; // 'PRACTICE' or 'EXAM'
-  
-  // Show loading indicator
-  const loadBtn = document.querySelector(sessionType === 'PRACTICE' ? '.btn-practice' : '.btn-exam');
-  const origText = loadBtn ? loadBtn.innerHTML : '';
-  if (loadBtn) loadBtn.innerHTML = '⏳ Loading Verified Questions...';
+
+  const btn = document.querySelector(sessionType === 'PRACTICE' ? '.btn-cta-practice' : '.btn-cta-exam');
+  const oldText = btn ? btn.innerHTML : '';
+  if (btn) btn.innerHTML = '⏳ Loading...';
 
   try {
-    const minuteTopicId = state.selectedSubtopicId || (state.language === 'HI' ? 2254 : 2253);
-    
+    const subtopicId = state.selectedSubtopicId || (state.language === 'HI' ? 2254 : 2253);
+
     const payload = {
       userId: 1,
-      minuteTopicId: minuteTopicId,
+      minuteTopicId: subtopicId,
       count: 35,
       language: state.language,
       questionFormat: state.selectedFormat || 'ALL'
     };
 
-    console.log('[RPSC RAS] Requesting questions with payload:', payload);
+    console.log('[RPSC RAS] Fetching questions:', payload);
 
     const res = await fetch(`${API_BASE_URL}/quiz/generate`, {
       method: 'POST',
@@ -303,28 +183,24 @@ async function startSession(sessionType) {
       const data = await res.json();
       if (data.questions && data.questions.length > 0) {
         state.questions = data.questions;
-        console.log(`[RPSC RAS] Successfully loaded ${data.questions.length} questions.`);
         initCbtRoom();
         return;
       }
     }
 
-    // Fallback: If network issue, load the 35 verified curated questions directly
-    console.warn('API returned empty, using verified golden fallback questions.');
-    loadGoldenFallbackQuestions();
+    loadGoldenFallback();
     initCbtRoom();
 
   } catch (e) {
-    console.error('Quiz generation failed:', e);
-    loadGoldenFallbackQuestions();
+    console.error('Failed to load questions, using golden fallback:', e);
+    loadGoldenFallback();
     initCbtRoom();
   } finally {
-    if (loadBtn) loadBtn.innerHTML = origText;
+    if (btn) btn.innerHTML = oldText;
   }
 }
 
-function loadGoldenFallbackQuestions() {
-  // Built-in verified sample golden questions
+function loadGoldenFallback() {
   const isHi = state.language === 'HI';
   state.questions = [
     {
@@ -339,7 +215,7 @@ function loadGoldenFallbackQuestions() {
       correct_option: "1",
       detailed_explanation: isHi
         ? "• वैश्विक आधार पर राजस्थान उत्तर-पूर्वी गोलार्ध में स्थित है।\n• राष्ट्रीय आधार पर यह भारत के उत्तर-पश्चिम भाग में स्थित है।\n• महाद्वीपीय आधार पर एशिया महाद्वीप में इसकी स्थिति दक्षिण-पश्चिम है।"
-        : "• Globally, Rajasthan is situated in the North-Eastern Hemisphere.\n• Nationally, it is in the North-Western part of India.\n• Continentally, its position within Asia is South-West."
+        : "• Globally, Rajasthan is situated in the North-Eastern Hemisphere.\n• Nationally, it is located in the North-Western part of India.\n• Continentally, its position within Asia is South-West."
     },
     {
       question_id: 2,
@@ -352,8 +228,8 @@ function loadGoldenFallbackQuestions() {
       option_d: isHi ? "33 किलोमीटर" : "33 Kilometers",
       correct_option: "1",
       detailed_explanation: isHi
-        ? "• राजस्थान की पूर्व से पश्चिम चौड़ाई 869 किमी है।\n• राजस्थान की उत्तर से दक्षिण लंबाई 826 किमी है।\n• दोनों के बीच का अंतर: 869 - 826 = 43 किमी है।"
-        : "• East to West width of Rajasthan is 869 km.\n• North to South length is 826 km.\n• The difference is 869 - 826 = 43 km."
+        ? "• पूर्व-पश्चिम चौड़ाई: 869 किमी\n• उत्तर-दक्षिण लंबाई: 826 किमी\n• अंतर: 869 - 826 = 43 किमी।"
+        : "• East-West width: 869 km\n• North-South length: 826 km\n• Difference: 869 - 826 = 43 km."
     },
     {
       question_id: 3,
@@ -366,182 +242,163 @@ function loadGoldenFallbackQuestions() {
       option_d: isHi ? "बाड़मेर एवं जालोर (लगभग 16 किमी)" : "Barmer and Jalore (~16 km)",
       correct_option: "1",
       detailed_explanation: isHi
-        ? "• कर्क रेखा बांसवाड़ा के कुशलगढ़ से बीचों-बीच तथा डूंगरपुर के चीखली गांव से सीमा बनाती हुई गुजरती है।\n• राजस्थान में इसकी कुल लंबाई लगभग 26 किलोमीटर मानी जाती है।"
-        : "• The Tropic of Cancer passes through Kushalgarh (Banswara) and the southern edge of Dungarpur (Chikhli village).\n• Its length in Rajasthan is approximately 26 km."
+        ? "• कर्क रेखा बांसवाड़ा के कुशलगढ़ तथा डूंगरपुर के चीखली गांव से गुजरती है।\n• राजस्थान में इसकी लंबाई लगभग 26 किमी है।"
+        : "• Tropic of Cancer passes through Kushalgarh (Banswara) and Chikhli (Dungarpur).\n• Length in Rajasthan is ~26 km."
     }
   ];
 }
 
 // ============================================================================
-// CBT EXAM HALL & PRACTICE ROOM ENGINE
+// CBT EXAM ENGINE
 // ============================================================================
 
 function initCbtRoom() {
   state.currentIndex = 0;
   state.userResponses = {};
-  
-  // Set Timer (45 minutes for drill, 180 min for full mock)
   state.timerSeconds = state.sessionType === 'EXAM' ? 45 * 60 : 0;
-  startTimer();
 
-  // Switch View to CBT Room
-  navigateToView('cbt');
-  renderPaletteGrid();
-  renderCurrentQuestion();
+  startTimer();
+  showView('cbt');
+  renderPalette();
+  renderCurrentQ();
 }
 
 function startTimer() {
   if (state.timerInterval) clearInterval(state.timerInterval);
 
-  const display = document.getElementById('timer-display');
-  if (!display) return;
+  const clockEl = document.getElementById('cbt-clock-val');
+  if (!clockEl) return;
 
   if (state.sessionType === 'PRACTICE') {
-    display.textContent = 'Practice Mode';
-    display.classList.remove('warning');
+    clockEl.textContent = 'Practice';
+    clockEl.classList.remove('warning');
     return;
   }
 
-  updateTimerDisplay();
+  updateClock();
   state.timerInterval = setInterval(() => {
     state.timerSeconds--;
-    updateTimerDisplay();
+    updateClock();
 
     if (state.timerSeconds <= 0) {
       clearInterval(state.timerInterval);
-      alert(state.language === 'HI' ? 'समय समाप्त हो गया है! आपका टेस्ट स्वतः जमा किया जा रहा है।' : 'Time expired! Your test is submitting automatically.');
+      alert(state.language === 'HI' ? 'समय समाप्त! आपका टेस्ट जमा किया जा रहा है।' : 'Time expired! Test submitting.');
       submitExam();
     }
   }, 1000);
 }
 
-function updateTimerDisplay() {
-  const display = document.getElementById('timer-display');
-  if (!display) return;
+function updateClock() {
+  const clockEl = document.getElementById('cbt-clock-val');
+  if (!clockEl) return;
 
   const h = Math.floor(state.timerSeconds / 3600);
   const m = Math.floor((state.timerSeconds % 3600) / 60);
   const s = state.timerSeconds % 60;
 
-  display.textContent = `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-
+  clockEl.textContent = `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
   if (state.timerSeconds <= 300) {
-    display.classList.add('warning');
+    clockEl.classList.add('warning');
   } else {
-    display.classList.remove('warning');
+    clockEl.classList.remove('warning');
   }
 }
 
-// Render the active question
-function renderCurrentQuestion() {
+function renderCurrentQ() {
   const q = state.questions[state.currentIndex];
   if (!q) return;
 
   const isHi = state.language === 'HI';
 
-  // 1. Update Title & Meta
-  document.getElementById('q-index-title').textContent = isHi 
+  // Title
+  document.getElementById('cbt-q-title').textContent = isHi 
     ? `प्रश्न ${state.currentIndex + 1} / ${state.questions.length}` 
     : `Question ${state.currentIndex + 1} of ${state.questions.length}`;
 
-  document.getElementById('q-marks-badge').textContent = '+1.33 / -0.44';
+  // Smart Badges
+  const badgesBox = document.getElementById('cbt-smart-badges');
+  badgesBox.innerHTML = '';
+  const textLower = (q.question_text || '').toLowerCase();
 
-  // 2. Detect and Render In-Quiz Badges
-  const badgeContainer = document.getElementById('smart-badge-container');
-  badgeContainer.innerHTML = '';
-
-  const qLower = (q.question_text || '').toLowerCase();
-  
-  // Negative Trap Badge
-  if (qLower.includes('सुमेलित नहीं') || qLower.includes('not correctly matched') || qLower.includes('असत्य कथन') || qLower.includes('incorrect pair')) {
-    badgeContainer.innerHTML += `
-      <div class="smart-badge-trap">
+  if (textLower.includes('सुमेलित नहीं') || textLower.includes('not correctly matched') || textLower.includes('असत्य') || textLower.includes('false')) {
+    badgesBox.innerHTML += `
+      <div class="cbt-smart-badge trap">
         <span>⚠️</span>
-        <span>${isHi ? 'सावधान (TRAP ALERT): असत्य / सुमेलित नहीं कथन की पहचान कीजिए!' : 'TRAP ALERT: Identify the FALSE or NOT correctly matched option!'}</span>
+        <span>${isHi ? 'सावधान (TRAP ALERT): असत्य / सुमेलित नहीं कथन छांटिए!' : 'TRAP ALERT: Identify the FALSE or NOT correctly matched option!'}</span>
       </div>
     `;
   }
 
-  // Chronology Badge
-  if (qLower.includes('कालक्रम') || qLower.includes('chronological') || qLower.includes('प्राचीनतम से नवीनतम') || qLower.includes('oldest to newest') || qLower.includes('सही क्रम')) {
-    badgeContainer.innerHTML += `
-      <div class="smart-badge-chronology">
+  if (textLower.includes('कालक्रम') || textLower.includes('chronological') || textLower.includes('प्राचीनतम से नवीनतम') || textLower.includes('oldest to newest')) {
+    badgesBox.innerHTML += `
+      <div class="cbt-smart-badge chronology">
         <span>⏱️</span>
-        <span>${isHi ? 'कालक्रमानुसार (CHRONOLOGY): सही समय / निर्माण क्रम में व्यवस्थित करें!' : 'CHRONOLOGY: Arrange in the correct chronological / formation order!'}</span>
+        <span>${isHi ? 'कालक्रमानुसार: सही समय / निर्माण क्रम में व्यवस्थित करें!' : 'CHRONOLOGY: Arrange in correct chronological order!'}</span>
       </div>
     `;
   }
 
-  // 3. Question Body & Match Table
-  const bodyEl = document.getElementById('q-body-text');
-  const matchContainer = document.getElementById('match-table-container');
-  matchContainer.innerHTML = '';
+  // Question Text & Match Table
+  const bodyEl = document.getElementById('cbt-q-body');
+  const tableBox = document.getElementById('cbt-match-table');
+  tableBox.innerHTML = '';
 
-  // Extract Markdown tables if present (Match Questions)
   if (q.question_text && q.question_text.includes('|') && (q.question_text.includes('सूची') || q.question_text.includes('List'))) {
-    renderMatchQuestionContent(q.question_text, bodyEl, matchContainer);
+    renderMatchTable(q.question_text, bodyEl, tableBox);
   } else {
-    bodyEl.innerHTML = formatMathText(q.question_text);
+    bodyEl.innerHTML = q.question_text.replace(/\n/g, '<br>');
   }
 
-  // 4. Render Options (1 to 4 + Option 5)
-  renderOptions(q);
+  // Render 5 Options
+  renderOptionsStack(q);
 
-  // 5. Update Palette & Explanation Drawer
+  // Update Palette & Drawer
   updatePaletteStates();
-  renderExplanationDrawer(q);
+  renderSolutionDrawer(q);
 }
 
-function renderMatchQuestionContent(rawText, bodyEl, matchContainer) {
-  // Split preamble text and markdown table
-  const lines = rawText.split('\n');
-  let preamble = [];
-  let tableLines = [];
-  let postamble = [];
-  let stateMode = 'pre';
+function renderMatchTable(raw, bodyEl, tableBox) {
+  const lines = raw.split('\n');
+  let pre = [];
+  let tLines = [];
+  let isT = false;
 
-  for (const l of lines) {
+  lines.forEach(l => {
     if (l.trim().startsWith('|')) {
-      stateMode = 'table';
-      tableLines.push(l);
-    } else if (stateMode === 'table' && !l.trim().startsWith('|') && l.trim().length > 0) {
-      stateMode = 'post';
-      postamble.push(l);
-    } else if (stateMode === 'pre') {
-      preamble.push(l);
-    } else if (stateMode === 'post') {
-      postamble.push(l);
+      isT = true;
+      tLines.push(l);
+    } else if (isT) {
+      // post
+    } else {
+      pre.push(l);
     }
-  }
+  });
 
-  bodyEl.innerHTML = formatMathText(preamble.join('<br>') + (postamble.length ? '<br>' + postamble.join('<br>') : ''));
+  bodyEl.innerHTML = pre.join('<br>');
 
-  if (tableLines.length >= 2) {
-    let tableHtml = '<div class="match-table-wrapper"><table class="rpsc-match-table">';
-    const headerRow = tableLines[0].split('|').map(c => c.trim()).filter(Boolean);
-    tableHtml += `<thead><tr>${headerRow.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>`;
+  if (tLines.length >= 2) {
+    let html = '<div class="match-table-box"><table class="rpsc-table">';
+    const ths = tLines[0].split('|').map(c => c.trim()).filter(Boolean);
+    html += `<thead><tr>${ths.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>`;
 
-    for (let i = 2; i < tableLines.length; i++) {
-      const rowCols = tableLines[i].split('|').map(c => c.trim()).filter(Boolean);
-      if (rowCols.length) {
-        tableHtml += `<tr>${rowCols.map(c => `<td>${c}</td>`).join('')}</tr>`;
-      }
+    for (let i = 2; i < tLines.length; i++) {
+      const tds = tLines[i].split('|').map(c => c.trim()).filter(Boolean);
+      if (tds.length) html += `<tr>${tds.map(d => `<td>${d}</td>`).join('')}</tr>`;
     }
-    tableHtml += '</tbody></table></div>';
-    matchContainer.innerHTML = tableHtml;
+    html += '</tbody></table></div>';
+    tableBox.innerHTML = html;
   }
 }
 
-function renderOptions(q) {
-  const container = document.getElementById('options-container');
+function renderOptionsStack(q) {
+  const container = document.getElementById('cbt-options-stack');
   if (!container) return;
 
-  const userResp = state.userResponses[state.currentIndex] || {};
-  const selectedOpt = userResp.option; // '1', '2', '3', '4', '5'
+  const resp = state.userResponses[state.currentIndex] || {};
+  const selected = resp.option;
   const isPractice = state.sessionType === 'PRACTICE';
   const isHi = state.language === 'HI';
 
-  // Normalize correct option ('1', '2', '3', '4', '5')
   let correctOpt = '1';
   if (q.correct_option) {
     const c = q.correct_option.toString().toUpperCase().trim();
@@ -552,53 +409,47 @@ function renderOptions(q) {
     else if (c === 'E' || c === '5') correctOpt = '5';
   }
 
-  const optData = [
-    { num: '1', letter: 'A', text: q.option_a },
-    { num: '2', letter: 'B', text: q.option_b },
-    { num: '3', letter: 'C', text: q.option_c },
-    { num: '4', letter: 'D', text: q.option_d }
+  const items = [
+    { num: '1', text: q.option_a },
+    { num: '2', text: q.option_b },
+    { num: '3', text: q.option_c },
+    { num: '4', text: q.option_d }
   ];
 
-  let html = optData.map(opt => {
-    let classes = ['option-card'];
-    const isThisSelected = selectedOpt === opt.num;
+  let html = items.map(opt => {
+    let classes = ['option-pill'];
+    const isThisSelected = selected === opt.num;
 
-    if (isPractice && selectedOpt) {
-      if (opt.num === correctOpt) {
-        classes.push('correct');
-      } else if (isThisSelected && selectedOpt !== correctOpt) {
-        classes.push('incorrect');
-      }
+    if (isPractice && selected) {
+      if (opt.num === correctOpt) classes.push('correct');
+      else if (isThisSelected && selected !== correctOpt) classes.push('incorrect');
     } else if (isThisSelected) {
-      classes.push('selected-cbt');
+      classes.push('selected');
     }
 
-    // Check if this option is a 4-Column Match Choice: e.g. A-IV, B-II, C-I, D-III
-    let contentHtml = formatOptionContent(opt.text);
+    let optContent = formatOptText(opt.text);
 
     return `
-      <div class="${classes.join(' ')}" onclick="selectOption('${opt.num}')">
-        <div class="option-letter">${opt.num}</div>
-        <div class="option-content">${contentHtml}</div>
+      <div class="${classes.join(' ')}" onclick="selectOpt('${opt.num}')">
+        <div class="opt-circle">${opt.num}</div>
+        <div class="opt-text">${optContent}</div>
       </div>
     `;
   }).join('');
 
-  // 5. Always Append Official RPSC Option 5 (अनुत्तरित प्रश्न / Question not attempted)
-  let opt5Classes = ['option-card', 'option-5-neutral'];
-  if (selectedOpt === '5') {
-    opt5Classes.push('option-5-selected');
-  }
+  // Option 5
+  let opt5Classes = ['option-pill', 'opt-5'];
+  if (selected === '5') opt5Classes.push('selected');
 
-  const opt5Text = isHi
-    ? "अनुत्तरित प्रश्न (Question not attempted)"
+  const opt5Label = isHi 
+    ? "अनुत्तरित प्रश्न (Question not attempted)" 
     : "Question not attempted (अनुत्तरित प्रश्न)";
 
   html += `
-    <div class="${opt5Classes.join(' ')}" onclick="selectOption('5')">
-      <div class="option-letter">5</div>
-      <div class="option-content" style="color: var(--amber-hover); font-weight: 700;">
-        ⚪ ${opt5Text} <span style="font-size: 11px; margin-left: 8px; font-weight: 500;">[0.00 Penalty]</span>
+    <div class="${opt5Classes.join(' ')}" onclick="selectOpt('5')">
+      <div class="opt-circle">5</div>
+      <div class="opt-text" style="color: var(--amber); font-weight: 700;">
+        ⚪ ${opt5Label} <span style="font-size: 11px; font-weight: 500; margin-left: 6px;">[0.00 अंक]</span>
       </div>
     </div>
   `;
@@ -606,182 +457,139 @@ function renderOptions(q) {
   container.innerHTML = html;
 }
 
-function formatOptionContent(text) {
-  if (!text) return '';
-  
-  // If it's a match format: A-II, B-IV, C-I, D-III
-  const matchRegex = /([A-D])-([IVXivx\d]+)/g;
-  const matches = [...text.matchAll(matchRegex)];
-  
-  if (matches.length === 4) {
-    // Render clean 4-column matrix
+function formatOptText(str) {
+  if (!str) return '';
+
+  // Check 4-column matrix: A-IV, B-II, C-I, D-III
+  const regex = /([A-D])-([IVXivx\d]+)/g;
+  const m = [...str.matchAll(regex)];
+  if (m.length === 4) {
     return `
-      <table class="match-codes-matrix">
-        <thead>
-          <tr><th>A</th><th>B</th><th>C</th><th>D</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>${matches[0][2]}</td>
-            <td>${matches[1][2]}</td>
-            <td>${matches[2][2]}</td>
-            <td>${matches[3][2]}</td>
-          </tr>
-        </tbody>
+      <table class="opt-matrix-table">
+        <thead><tr><th>A</th><th>B</th><th>C</th><th>D</th></tr></thead>
+        <tbody><tr><td>${m[0][2]}</td><td>${m[1][2]}</td><td>${m[2][2]}</td><td>${m[3][2]}</td></tr></tbody>
       </table>
     `;
   }
 
-  return formatMathText(text);
-}
-
-function formatMathText(str) {
-  if (!str) return '';
   return str.replace(/\n/g, '<br>');
 }
 
-// User clicks an option
-function selectOption(optNum) {
+function selectOpt(optNum) {
   const current = state.userResponses[state.currentIndex] || {};
-  
-  // In Practice mode, if already attempted and answered, allow re-click
   current.option = optNum;
   current.isAnswered = true;
   state.userResponses[state.currentIndex] = current;
 
-  renderOptions(state.questions[state.currentIndex]);
+  renderOptionsStack(state.questions[state.currentIndex]);
   updatePaletteStates();
 
-  // If in Practice Mode, show explanation immediately
   if (state.sessionType === 'PRACTICE') {
-    const explBox = document.getElementById('explanation-box');
-    if (explBox) explBox.style.display = 'block';
+    const drawer = document.getElementById('cbt-solution-drawer');
+    if (drawer) drawer.style.display = 'block';
   }
 }
 
-function clearCurrentResponse() {
+function clearOption() {
   const current = state.userResponses[state.currentIndex] || {};
   delete current.option;
   current.isAnswered = false;
   state.userResponses[state.currentIndex] = current;
 
-  renderOptions(state.questions[state.currentIndex]);
+  renderOptionsStack(state.questions[state.currentIndex]);
   updatePaletteStates();
 
-  const explBox = document.getElementById('explanation-box');
-  if (explBox) explBox.style.display = 'none';
+  const drawer = document.getElementById('cbt-solution-drawer');
+  if (drawer) drawer.style.display = 'none';
 }
 
-function toggleMarkForReview() {
+function toggleReview() {
   const current = state.userResponses[state.currentIndex] || {};
   current.isReview = !current.isReview;
   state.userResponses[state.currentIndex] = current;
 
   updatePaletteStates();
-  navigateQuestion(1); // Auto-advance to next question
+  navigateQ(1);
 }
 
-function navigateQuestion(delta) {
-  const nextIdx = state.currentIndex + delta;
-  if (nextIdx >= 0 && nextIdx < state.questions.length) {
-    state.currentIndex = nextIdx;
-    renderCurrentQuestion();
+function navigateQ(delta) {
+  const next = state.currentIndex + delta;
+  if (next >= 0 && next < state.questions.length) {
+    state.currentIndex = next;
+    renderCurrentQ();
   }
 }
 
-function jumpToQuestion(idx) {
+function jumpQ(idx) {
   if (idx >= 0 && idx < state.questions.length) {
     state.currentIndex = idx;
-    renderCurrentQuestion();
+    renderCurrentQ();
   }
 }
 
-// ============================================================================
-// QUESTION PALETTE & LEGEND MANAGEMENT
-// ============================================================================
+function renderPalette() {
+  const grid = document.getElementById('cbt-palette-grid-btns');
+  if (!grid) return;
 
-function renderPaletteGrid() {
-  const container = document.getElementById('palette-numbers-grid');
-  if (!container) return;
-
-  container.innerHTML = state.questions.map((q, idx) => {
-    return `
-      <button class="palette-btn" id="pal-btn-${idx}" onclick="jumpToQuestion(${idx})">
-        ${idx + 1}
-      </button>
-    `;
+  grid.innerHTML = state.questions.map((q, idx) => {
+    return `<button class="pal-btn" id="p-btn-${idx}" onclick="jumpQ(${idx})">${idx + 1}</button>`;
   }).join('');
 
   updatePaletteStates();
 }
 
 function updatePaletteStates() {
-  let attempted = 0;
-  let skipped = 0;
-  let review = 0;
-  let unattempted = 0;
+  let att = 0;
+  let skip = 0;
+  let rev = 0;
+  let left = 0;
 
   state.questions.forEach((q, idx) => {
-    const btn = document.getElementById(`pal-btn-${idx}`);
+    const btn = document.getElementById(`p-btn-${idx}`);
     if (!btn) return;
 
-    btn.className = 'palette-btn';
-    if (idx === state.currentIndex) {
-      btn.classList.add('active');
-    }
+    btn.className = 'pal-btn';
+    if (idx === state.currentIndex) btn.classList.add('active');
 
     const resp = state.userResponses[idx];
     if (resp && resp.isReview) {
       btn.classList.add('review');
-      review++;
+      rev++;
     } else if (resp && resp.option === '5') {
       btn.classList.add('skipped');
-      skipped++;
+      skip++;
     } else if (resp && resp.option) {
       btn.classList.add('attempted');
-      attempted++;
+      att++;
     } else {
-      unattempted++;
+      left++;
     }
   });
 
-  // Update Legend Labels
-  document.getElementById('legend-attempted-count').textContent = `${attempted} Attempted`;
-  document.getElementById('legend-skipped-count').textContent = `${skipped} Option 5`;
-  document.getElementById('legend-review-count').textContent = `${review} Review`;
-  document.getElementById('legend-unattempted-count').textContent = `${unattempted} Unattempted`;
-  document.getElementById('palette-count-summary').textContent = `${attempted + skipped}/${state.questions.length}`;
+  document.getElementById('leg-att').textContent = `${att} Attempted`;
+  document.getElementById('leg-skip').textContent = `${skip} Option 5`;
+  document.getElementById('leg-rev').textContent = `${rev} Review`;
+  document.getElementById('leg-unatt').textContent = `${left} Left`;
+  document.getElementById('cbt-palette-counter').textContent = `${att + skip}/${state.questions.length}`;
 }
 
-function renderExplanationDrawer(q) {
-  const explBox = document.getElementById('explanation-box');
-  const explContent = document.getElementById('explanation-content');
-  if (!explBox || !explContent) return;
+function renderSolutionDrawer(q) {
+  const drawer = document.getElementById('cbt-solution-drawer');
+  const textEl = document.getElementById('cbt-solution-text');
+  if (!drawer || !textEl) return;
 
   const resp = state.userResponses[state.currentIndex];
-
   if (state.sessionType === 'PRACTICE' && resp && resp.option) {
-    explBox.style.display = 'block';
-    const text = q.detailed_explanation || 'Authentic reference fact verified from Rajasthan Government Board archives.';
-    
-    // Convert bullets to clean HTML list
-    const items = text.split('\n').map(l => l.trim()).filter(Boolean);
-    explContent.innerHTML = `<ul>${items.map(it => `<li>${it.replace(/^[\*\•\-]\s*/, '')}</li>`).join('')}</ul>`;
+    drawer.style.display = 'block';
+    const lines = (q.detailed_explanation || 'Verified fact from Rajasthan Government Board archives.').split('\n').map(l => l.trim()).filter(Boolean);
+    textEl.innerHTML = `<ul>${lines.map(l => `<li>${l.replace(/^[\*\•\-]\s*/, '')}</li>`).join('')}</ul>`;
   } else {
-    explBox.style.display = 'none';
+    drawer.style.display = 'none';
   }
 }
 
-// ============================================================================
-// AUDIO READER (SPEECH SYNTHESIS)
-// ============================================================================
-
-function speakCurrentQuestion() {
-  if (!('speechSynthesis' in window)) {
-    alert('Speech synthesis is not supported in this browser.');
-    return;
-  }
-
+function speakQuestion() {
+  if (!('speechSynthesis' in window)) return;
   if (state.isSpeaking) {
     window.speechSynthesis.cancel();
     state.isSpeaking = false;
@@ -791,37 +599,35 @@ function speakCurrentQuestion() {
   const q = state.questions[state.currentIndex];
   if (!q) return;
 
-  const textToRead = `${q.question_text}. Option 1: ${q.option_a}. Option 2: ${q.option_b}. Option 3: ${q.option_c}. Option 4: ${q.option_d}.`;
-  const utterance = new SpeechSynthesisUtterance(textToRead);
-  utterance.lang = state.language === 'HI' ? 'hi-IN' : 'en-US';
-  utterance.rate = 0.95;
+  const text = `${q.question_text}. 1: ${q.option_a}. 2: ${q.option_b}. 3: ${q.option_c}. 4: ${q.option_d}.`;
+  const ut = new SpeechSynthesisUtterance(text);
+  ut.lang = state.language === 'HI' ? 'hi-IN' : 'en-US';
+  ut.rate = 0.95;
 
-  utterance.onend = () => { state.isSpeaking = false; };
-  utterance.onerror = () => { state.isSpeaking = false; };
+  ut.onend = () => { state.isSpeaking = false; };
+  ut.onerror = () => { state.isSpeaking = false; };
 
   state.isSpeaking = true;
-  window.speechSynthesis.speak(utterance);
+  window.speechSynthesis.speak(ut);
 }
 
 // ============================================================================
-// SCORECARD & OFFICIAL RPSC RAS EVALUATION
+// SUBMIT & SCORECARD (OFFICIAL RPSC FORMULA: +1.33 / -0.44 / 0.00)
 // ============================================================================
 
-function confirmSubmitExam() {
-  const total = state.questions.length;
-  let answered = 0;
-  let skipped = 0;
-
-  for (let i = 0; i < total; i++) {
+function confirmSubmit() {
+  let att = 0;
+  let skip = 0;
+  for (let i = 0; i < state.questions.length; i++) {
     const r = state.userResponses[i];
-    if (r && r.option === '5') skipped++;
-    else if (r && r.option) answered++;
+    if (r && r.option === '5') skip++;
+    else if (r && r.option) att++;
   }
 
-  const unattempted = total - (answered + skipped);
+  const un = state.questions.length - (att + skip);
   const msg = state.language === 'HI'
-    ? `क्या आप टेस्ट जमा करना चाहते हैं?\n\n• हल किए गए: ${answered}\n• अनुत्तरित (Option 5): ${skipped}\n• छूटे हुए: ${unattempted}`
-    : `Are you sure you want to submit your test?\n\n• Attempted: ${answered}\n• Option 5: ${skipped}\n• Unanswered: ${unattempted}`;
+    ? `क्या आप टेस्ट जमा करना चाहते हैं?\n\n• हल किए गए: ${att}\n• Option 5 (अनुत्तरित): ${skip}\n• खाली छूटे हुए: ${un}`
+    : `Submit test?\n\n• Attempted: ${att}\n• Option 5: ${skip}\n• Unanswered: ${un}`;
 
   if (confirm(msg)) {
     submitExam();
@@ -834,274 +640,188 @@ function submitExam() {
   let correct = 0;
   let incorrect = 0;
   let skipped = 0;
-  let blankUnshaded = 0;
+  let blank = 0;
 
   const details = state.questions.map((q, idx) => {
-    const userResp = state.userResponses[idx] || {};
-    const selected = userResp.option; // '1', '2', '3', '4', '5' or undefined
+    const r = state.userResponses[idx] || {};
+    const sel = r.option;
 
-    // Normalize correct option
-    let correctOpt = '1';
+    let cOpt = '1';
     if (q.correct_option) {
       const c = q.correct_option.toString().toUpperCase().trim();
-      if (c === 'A' || c === '1') correctOpt = '1';
-      else if (c === 'B' || c === '2') correctOpt = '2';
-      else if (c === 'C' || c === '3') correctOpt = '3';
-      else if (c === 'D' || c === '4') correctOpt = '4';
-      else if (c === 'E' || c === '5') correctOpt = '5';
+      if (c === 'A' || c === '1') cOpt = '1';
+      else if (c === 'B' || c === '2') cOpt = '2';
+      else if (c === 'C' || c === '3') cOpt = '3';
+      else if (c === 'D' || c === '4') cOpt = '4';
+      else if (c === 'E' || c === '5') cOpt = '5';
     }
 
-    let status = 'UNANSWERED';
-    if (selected === '5') {
-      status = 'SKIPPED_OPTION_5';
+    let status = 'BLANK';
+    if (sel === '5') {
+      status = 'SKIPPED';
       skipped++;
-    } else if (selected === correctOpt) {
+    } else if (sel === cOpt) {
       status = 'CORRECT';
       correct++;
-    } else if (selected) {
+    } else if (sel) {
       status = 'INCORRECT';
       incorrect++;
     } else {
-      status = 'BLANK';
-      blankUnshaded++;
+      blank++;
     }
 
-    return {
-      index: idx + 1,
-      question: q,
-      selected: selected,
-      correctOpt: correctOpt,
-      status: status
-    };
+    return { index: idx + 1, q, sel, cOpt, status };
   });
 
-  // OFFICIAL RPSC RAS PRELIMS FORMULA (200 Marks / 150 Questions = 1.33 / -0.44)
-  const netScore = (correct * 1.33) - (incorrect * 0.44) - (blankUnshaded * 0.44);
+  // Strict RPSC RAS Prelims Marking Formula (150 Q = 200 M)
+  const net = (correct * 1.33) - (incorrect * 0.44) - (blank * 0.44);
 
-  renderScorecardUI({
-    total: state.questions.length,
-    correct,
-    incorrect,
-    skipped,
-    blankUnshaded,
-    netScore: netScore.toFixed(2),
-    details
-  });
-
-  navigateToView('scorecard');
-}
-
-function renderScorecardUI(sc) {
-  document.getElementById('sc-total-q').textContent = sc.total;
-  document.getElementById('sc-correct-count').textContent = sc.correct;
-  document.getElementById('sc-incorrect-count').textContent = sc.incorrect;
-  document.getElementById('sc-skipped-count').textContent = sc.skipped;
-  document.getElementById('sc-net-score').textContent = (parseFloat(sc.netScore) >= 0 ? '+' : '') + sc.netScore;
-
-  // Render Detailed Question-by-Question Solution List
-  const listContainer = document.getElementById('solutions-list-container');
-  if (!listContainer) return;
+  document.getElementById('score-net-val').textContent = (net >= 0 ? '+' : '') + net.toFixed(2);
+  document.getElementById('sc-tot').textContent = state.questions.length;
+  document.getElementById('sc-cor').textContent = correct;
+  document.getElementById('sc-inc').textContent = incorrect;
+  document.getElementById('sc-skp').textContent = skipped;
 
   const isHi = state.language === 'HI';
-
-  listContainer.innerHTML = sc.details.map(item => {
-    const q = item.question;
-    let badgeColor = '#64748B';
-    let badgeLabel = 'Unanswered';
-
-    if (item.status === 'CORRECT') {
-      badgeColor = 'var(--emerald)';
-      badgeLabel = isHi ? 'सही (+1.33)' : 'Correct (+1.33)';
-    } else if (item.status === 'INCORRECT') {
-      badgeColor = 'var(--rose)';
-      badgeLabel = isHi ? 'गलत (-0.44)' : 'Incorrect (-0.44)';
-    } else if (item.status === 'SKIPPED_OPTION_5') {
-      badgeColor = 'var(--amber)';
-      badgeLabel = isHi ? 'Option 5 (0.00)' : 'Option 5 (0.00)';
-    }
+  const list = document.getElementById('sc-solutions-list');
+  list.innerHTML = details.map(item => {
+    let color = '#71717A';
+    let label = 'Blank';
+    if (item.status === 'CORRECT') { color = 'var(--emerald)'; label = isHi ? 'सही (+1.33)' : 'Correct (+1.33)'; }
+    else if (item.status === 'INCORRECT') { color = 'var(--rose)'; label = isHi ? 'गलत (-0.44)' : 'Incorrect (-0.44)'; }
+    else if (item.status === 'SKIPPED') { color = 'var(--amber)'; label = 'Option 5 (0.00)'; }
 
     return `
-      <div class="panel-card" style="padding: 20px; border-left: 4px solid ${badgeColor};">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-          <span style="font-weight: 800; font-size: 15px; color: var(--primary);">Q${item.index}.</span>
-          <span style="font-size: 12px; font-weight: 800; color: ${badgeColor};">${badgeLabel}</span>
+      <div style="padding: 18px; border-radius: 12px; border: 1px solid var(--border-subtle); border-left: 4px solid ${color};">
+        <div style="display: flex; justify-content: space-between; font-weight: 800; margin-bottom: 8px;">
+          <span>Q${item.index}.</span>
+          <span style="color: ${color};">${label}</span>
         </div>
-        <p style="font-size: 14.5px; font-weight: 600; margin-bottom: 12px;">${q.question_text}</p>
-        
-        <div style="font-size: 13px; margin-bottom: 12px;">
-          <div><strong>${isHi ? 'आपका उत्तर:' : 'Your Answer:'}</strong> ${item.selected ? `Option ${item.selected}` : 'None'}</div>
-          <div><strong>${isHi ? 'सही उत्तर:' : 'Correct Answer:'}</strong> Option ${item.correctOpt}</div>
+        <p style="font-size: 14.5px; font-weight: 600; margin-bottom: 10px;">${item.q.question_text}</p>
+        <div style="font-size: 13px; color: var(--text-secondary); margin-bottom: 8px;">
+          <div><strong>${isHi ? 'आपका उत्तर:' : 'Your Answer:'}</strong> ${item.sel ? `Option ${item.sel}` : 'None'}</div>
+          <div><strong>${isHi ? 'सही उत्तर:' : 'Correct Answer:'}</strong> Option ${item.cOpt}</div>
         </div>
-
-        <div class="explanation-box" style="margin-top: 10px; display: block;">
-          <div class="explanation-title">💡 ${isHi ? 'प्रामाणिक व्याख्या' : 'Authentic Explanation'}</div>
-          <div class="explanation-text">${q.detailed_explanation ? q.detailed_explanation.replace(/\n/g, '<br>') : 'Verified fact.'}</div>
+        <div class="solution-box" style="margin-top: 8px;">
+          <div class="solution-title">💡 ${isHi ? 'प्रामाणिक व्याख्या' : 'Authentic Explanation'}</div>
+          <div class="solution-text">${item.q.detailed_explanation ? item.q.detailed_explanation.replace(/\n/g, '<br>') : 'Verified fact.'}</div>
         </div>
       </div>
     `;
   }).join('');
+
+  showView('scorecard');
 }
 
-function restartCurrentQuiz() {
+function relaunchCurrentTest() {
   initCbtRoom();
 }
 
+function exitExamToHub() {
+  if (state.sessionType === 'EXAM') {
+    if (confirm(state.language === 'HI' ? 'क्या आप टेस्ट छोड़ना चाहते हैं?' : 'Exit test?')) {
+      if (state.timerInterval) clearInterval(state.timerInterval);
+      showView('hub');
+    }
+  } else {
+    showView('hub');
+  }
+}
+
 // ============================================================================
-// FACULTY / QUESTION CMS REVIEWER
+// CMS REVIEWER
 // ============================================================================
 
-async function loadCmsQuestions() {
-  const container = document.getElementById('cms-questions-container');
-  const countEl = document.getElementById('cms-status-count');
-  const subtopicFilter = document.getElementById('cms-subtopic-filter');
-  const subtopicId = subtopicFilter ? subtopicFilter.value : '2254';
+async function fetchCmsData() {
+  const container = document.getElementById('cms-items-stack');
+  const statusEl = document.getElementById('cms-count-status');
+  const select = document.getElementById('cms-subtopic-select');
+  const subId = select ? select.value : '2254';
 
-  countEl.textContent = 'Fetching questions from cloud database...';
+  statusEl.textContent = 'Fetching questions from cloud database...';
   container.innerHTML = '';
 
   try {
     const res = await fetch(`${API_BASE_URL}/quiz/generate`, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-user-mobile': '9876543210'
-      },
+      headers: { 'Content-Type': 'application/json', 'x-user-mobile': '9876543210' },
       body: JSON.stringify({
         userId: 1,
-        minuteTopicId: parseInt(subtopicId),
+        minuteTopicId: parseInt(subId),
         count: 50,
-        language: subtopicId === '2254' ? 'HI' : 'EN',
+        language: subId === '2254' ? 'HI' : 'EN',
         questionFormat: 'ALL'
       })
     });
 
     if (res.ok) {
       const data = await res.json();
-      const qList = data.questions || [];
-      countEl.textContent = `Found ${qList.length} verified questions in cloud database for Subtopic ${subtopicId}.`;
+      const list = data.questions || [];
+      statusEl.textContent = `Found ${list.length} verified questions in cloud database for Subtopic ${subId}.`;
 
-      container.innerHTML = qList.map((q, idx) => {
-        return `
-          <div class="panel-card" style="padding: 20px;">
-            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
-              <span style="font-weight: 800; color: var(--primary);">#${idx + 1} (DB ID: ${q.question_id})</span>
-              <span style="font-size: 12px; font-weight: 700; color: var(--emerald);">Correct: Option ${q.correct_option}</span>
-            </div>
-            <p style="font-size: 14.5px; font-weight: 600; margin-bottom: 12px;">${q.question_text}</p>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 13px; margin-bottom: 12px;">
-              <div>(1) ${q.option_a}</div>
-              <div>(2) ${q.option_b}</div>
-              <div>(3) ${q.option_c}</div>
-              <div>(4) ${q.option_d}</div>
-            </div>
-            <div style="font-size: 12.5px; color: var(--text-muted); background: var(--bg-canvas); padding: 10px; border-radius: 8px;">
-              <strong>Explanation:</strong> ${q.detailed_explanation}
-            </div>
+      container.innerHTML = list.map((q, idx) => `
+        <div style="padding: 16px; border: 1px solid var(--border-subtle); border-radius: 10px;">
+          <div style="display: flex; justify-content: space-between; font-weight: 800; font-size: 13px; margin-bottom: 6px;">
+            <span>#${idx + 1} (DB ID: ${q.question_id})</span>
+            <span style="color: var(--emerald);">Correct: Option ${q.correct_option}</span>
           </div>
-        `;
-      }).join('');
+          <p style="font-size: 14px; font-weight: 600; margin-bottom: 8px;">${q.question_text}</p>
+          <div style="font-size: 12.5px; color: var(--text-muted);">
+            (1) ${q.option_a} | (2) ${q.option_b} | (3) ${q.option_c} | (4) ${q.option_d}
+          </div>
+        </div>
+      `).join('');
     }
-  } catch (err) {
-    countEl.textContent = 'Failed to load CMS questions: ' + err.message;
+  } catch (e) {
+    statusEl.textContent = 'Error loading CMS: ' + e.message;
   }
 }
 
 // ============================================================================
-// GLOBAL SEARCH & AUTOCOMPLETE
+// GLOBAL SEARCH
 // ============================================================================
 
 function setupGlobalSearch() {
-  const searchInput = document.getElementById('global-search-input');
-  const dropdown = document.getElementById('search-results-dropdown');
-  if (!searchInput || !dropdown) return;
+  const input = document.getElementById('top-search-input');
+  const dropdown = document.getElementById('top-search-dropdown');
+  if (!input || !dropdown) return;
 
-  const searchableTopics = [
-    { title: 'राजस्थान की स्थिति एवं विस्तार (Location & Extent)', sub: 'Geography Subtopic 2254', id: 2254 },
-    { title: 'Location, Extent & Boundaries (English)', sub: 'Geography Subtopic 2253', id: 2253 },
-    { title: 'अरावली पर्वतमाला एवं भौतिक विभाग', sub: 'Geography - Aravalli Range', id: 2002 },
-    { title: 'राजस्थान का अपवाह तंत्र एवं नदियां (Rivers & Drainage)', sub: 'Chambal, Luni, Banas', id: 2003 },
-    { title: 'राजस्थान की जलवायु एवं कोपेन वर्गीकरण', sub: 'Climate & Monsoon', id: 2004 },
-    { title: 'राजस्थान के दुर्ग एवं स्थापत्य कला (Forts & Heritage)', sub: 'History & Art', id: 2102 }
+  const topics = [
+    { title: 'राजस्थान की स्थिति एवं विस्तार', sub: 'Subtopic 2254 (Hindi)' },
+    { title: 'Location & Extent of Rajasthan', sub: 'Subtopic 2253 (English)' },
+    { title: 'अरावली पर्वतमाला एवं प्रमुख चोटियां', sub: 'Physical Features' },
+    { title: 'राजस्थान का अपवाह तंत्र एवं नदियां', sub: 'Rivers & Lakes' },
+    { title: 'राजस्थान की जलवायु एवं कोपेन वर्गीकरण', sub: 'Climate & Monsoon' }
   ];
 
-  searchInput.addEventListener('input', (e) => {
+  input.addEventListener('input', (e) => {
     const val = e.target.value.toLowerCase().trim();
     if (!val) {
       dropdown.classList.remove('active');
       return;
     }
 
-    const matches = searchableTopics.filter(t => t.title.toLowerCase().includes(val) || t.sub.toLowerCase().includes(val));
-    if (matches.length > 0) {
+    const matches = topics.filter(t => t.title.toLowerCase().includes(val) || t.sub.toLowerCase().includes(val));
+    if (matches.length) {
       dropdown.innerHTML = matches.map(m => `
-        <div class="dropdown-item" onclick="onSearchSelect(${m.id})">
-          <div class="dropdown-item-title">${m.title}</div>
-          <div class="dropdown-item-sub">${m.sub}</div>
+        <div class="dropdown-item" onclick="onTopicSelect('${m.title}')">
+          <div style="font-weight: 700; font-size: 13px;">${m.title}</div>
+          <div style="font-size: 11px; color: var(--text-muted);">${m.sub}</div>
         </div>
       `).join('');
-      dropdown.classList.add('active');
-    } else {
-      dropdown.innerHTML = `<div class="dropdown-item" style="color: var(--text-muted);">No matching topics found</div>`;
       dropdown.classList.add('active');
     }
   });
 
   document.addEventListener('click', (e) => {
-    if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+    if (!input.contains(e.target) && !dropdown.contains(e.target)) {
       dropdown.classList.remove('active');
     }
   });
 }
 
-function onSearchSelect(id) {
-  state.selectedSubtopicId = id;
-  const dropdown = document.getElementById('search-results-dropdown');
+function onTopicSelect(title) {
+  const dropdown = document.getElementById('top-search-dropdown');
   if (dropdown) dropdown.classList.remove('active');
-  navigateToView('dashboard');
-  startSession('PRACTICE');
-}
-
-// ============================================================================
-// VIEW NAVIGATION & MODALS
-// ============================================================================
-
-function navigateToView(viewName) {
-  document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
-  const target = document.getElementById(`view-${viewName}`);
-  if (target) {
-    target.classList.add('active');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
-  if (viewName === 'cms') {
-    loadCmsQuestions();
-  }
-}
-
-function exitToDashboard() {
-  if (state.sessionType === 'EXAM') {
-    if (confirm(state.language === 'HI' ? 'क्या आप सच में टेस्ट छोड़ना चाहते हैं?' : 'Are you sure you want to exit the test?')) {
-      if (state.timerInterval) clearInterval(state.timerInterval);
-      navigateToView('dashboard');
-    }
-  } else {
-    navigateToView('dashboard');
-  }
-}
-
-function openYouTubeModal() {
-  const modal = document.getElementById('yt-modal');
-  if (modal) modal.style.display = 'flex';
-}
-
-function closeYouTubeModal() {
-  const modal = document.getElementById('yt-modal');
-  if (modal) modal.style.display = 'none';
-}
-
-function launchYouTubePractice() {
-  const input = document.getElementById('yt-input');
-  const query = input ? input.value.trim() : '';
-  closeYouTubeModal();
-  startSession('PRACTICE');
+  switchSidebarTab('geography');
 }
