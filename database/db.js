@@ -1946,6 +1946,10 @@ module.exports = {
           formatFilter = " AND (q.question_text LIKE '%statements%correct%' OR q.question_text LIKE '%statement%correct%' OR q.question_text LIKE '%Consider the following statements%' OR q.question_text LIKE '%statements given above%' OR q.question_text LIKE '%कथनों पर विचार%' OR q.question_text LIKE '%कथनों में से%सही%' OR q.question_text LIKE '%कथन%सही%') " +
                          " AND q.question_text NOT LIKE '%Assertion%Reason%' AND q.question_text NOT LIKE '%कथन%कारण%' AND q.question_text NOT LIKE '%अभिकथन%कारण%' " +
                          " AND q.question_text NOT LIKE '%Column%' AND q.question_text NOT LIKE '%List%' AND q.question_text NOT LIKE '%स्तंभ%' AND q.question_text NOT LIKE '%सूची%' ";
+        } else if (questionFormat === 'DIRECT') {
+          formatFilter = " AND q.question_text NOT LIKE '%Assertion%Reason%' AND q.question_text NOT LIKE '%कथन%कारण%' AND q.question_text NOT LIKE '%अभिकथन%कारण%' " +
+                         " AND q.question_text NOT LIKE '%Column%' AND q.question_text NOT LIKE '%List%' AND q.question_text NOT LIKE '%स्तंभ%' AND q.question_text NOT LIKE '%सूची%' AND q.question_text NOT LIKE '%सुमेलित%' AND q.question_text NOT LIKE '%मिलान%' " +
+                         " AND q.question_text NOT LIKE '%Consider the following statements%' AND q.question_text NOT LIKE '%कथनों पर विचार%' AND q.question_text NOT LIKE '%statements%correct%' AND q.question_text NOT LIKE '%कथनों में से%सही%' ";
         }
 
         if (minuteTopicId) {
@@ -2150,8 +2154,11 @@ module.exports = {
             }
         });
         
+        const directCount = Math.max(0, total - (arCount + matchCount + stmtCount));
+
         return {
             ALL: total,
+            DIRECT: directCount,
             ASSERTION_REASON: arCount,
             MATCH: matchCount,
             STATEMENT: stmtCount
