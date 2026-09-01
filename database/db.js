@@ -1946,10 +1946,16 @@ module.exports = {
           formatFilter = " AND (q.question_text LIKE '%statements%correct%' OR q.question_text LIKE '%statement%correct%' OR q.question_text LIKE '%Consider the following statements%' OR q.question_text LIKE '%statements given above%' OR q.question_text LIKE '%कथनों पर विचार%' OR q.question_text LIKE '%कथनों में से%सही%' OR q.question_text LIKE '%कथन%सही%') " +
                          " AND q.question_text NOT LIKE '%Assertion%Reason%' AND q.question_text NOT LIKE '%कथन%कारण%' AND q.question_text NOT LIKE '%अभिकथन%कारण%' " +
                          " AND q.question_text NOT LIKE '%Column%' AND q.question_text NOT LIKE '%List%' AND q.question_text NOT LIKE '%स्तंभ%' AND q.question_text NOT LIKE '%सूची%' ";
+        } else if (questionFormat === 'CHRONOLOGY') {
+          formatFilter = " AND (q.question_text LIKE '%chronological%' OR q.question_text LIKE '%कालक्रम%' OR q.question_text LIKE '%सही क्रम%' OR q.question_text LIKE '%कालक्रमानुसार%' OR q.question_text LIKE '%Arrange the following%') ";
+        } else if (questionFormat === 'NOT_MATCHED') {
+          formatFilter = " AND (q.question_text LIKE '%not correctly matched%' OR q.question_text LIKE '%सुमेलित नहीं%' OR q.question_text LIKE '%सही नहीं है%' OR q.question_text LIKE '%असत्य%' OR q.question_text LIKE '%असंगत%') ";
         } else if (questionFormat === 'DIRECT') {
           formatFilter = " AND q.question_text NOT LIKE '%Assertion%Reason%' AND q.question_text NOT LIKE '%कथन%कारण%' AND q.question_text NOT LIKE '%अभिकथन%कारण%' " +
                          " AND q.question_text NOT LIKE '%Column%' AND q.question_text NOT LIKE '%List%' AND q.question_text NOT LIKE '%स्तंभ%' AND q.question_text NOT LIKE '%सूची%' AND q.question_text NOT LIKE '%सुमेलित%' AND q.question_text NOT LIKE '%मिलान%' " +
-                         " AND q.question_text NOT LIKE '%Consider the following statements%' AND q.question_text NOT LIKE '%कथनों पर विचार%' AND q.question_text NOT LIKE '%statements%correct%' AND q.question_text NOT LIKE '%कथनों में से%सही%' ";
+                         " AND q.question_text NOT LIKE '%Consider the following statements%' AND q.question_text NOT LIKE '%कथनों पर विचार%' AND q.question_text NOT LIKE '%statements%correct%' AND q.question_text NOT LIKE '%कथनों में से%सही%' " +
+                         " AND q.question_text NOT LIKE '%chronological%' AND q.question_text NOT LIKE '%कालक्रम%' AND q.question_text NOT LIKE '%कालक्रमानुसार%' " +
+                         " AND q.question_text NOT LIKE '%not correctly matched%' AND q.question_text NOT LIKE '%सुमेलित नहीं%' AND q.question_text NOT LIKE '%सही नहीं है%' AND q.question_text NOT LIKE '%असत्य%' AND q.question_text NOT LIKE '%असंगत%' ";
         }
 
         if (minuteTopicId) {
@@ -2124,6 +2130,8 @@ module.exports = {
         let arCount = 0;
         let matchCount = 0;
         let stmtCount = 0;
+        let chronoCount = 0;
+        let notMatchedCount = 0;
         let total = questions.length;
         
         questions.forEach(q => {
@@ -2146,6 +2154,20 @@ module.exports = {
                 return;
             }
             
+            // Check Chronology
+            const isChrono = /chronological|कालक्रम|सही क्रम|कालक्रमानुसार|क्रम में व्यवस्थित/i.test(text);
+            if (isChrono) {
+                chronoCount++;
+                return;
+            }
+
+            // Check Negative / Not Matched
+            const isNotMatched = /not correctly matched|सुमेलित नहीं|सही नहीं है|असत्य कथन|असंगत युग्म/i.test(text);
+            if (isNotMatched) {
+                notMatchedCount++;
+                return;
+            }
+
             // Check Multi-Statement
             const isStmt = /(?:^[A-D]\s*[\.:-]|^\([A-D]\)|^[I-IVXix]+\s*[\.:-]|^\([I-IVXix]+\)|^\d+\s*[\.:-])/m.test(text);
             if (isStmt) {
@@ -2154,11 +2176,13 @@ module.exports = {
             }
         });
         
-        const directCount = Math.max(0, total - (arCount + matchCount + stmtCount));
+        const directCount = Math.max(0, total - (arCount + matchCount + stmtCount + chronoCount + notMatchedCount));
 
         return {
             ALL: total,
             DIRECT: directCount,
+            CHRONOLOGY: chronoCount,
+            NOT_MATCHED: notMatchedCount,
             ASSERTION_REASON: arCount,
             MATCH: matchCount,
             STATEMENT: stmtCount
