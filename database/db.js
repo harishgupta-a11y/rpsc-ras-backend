@@ -248,9 +248,17 @@ async function initDatabase() {
                 detailed_explanation TEXT NOT NULL,
                 language TEXT DEFAULT 'EN' CHECK(language IN ('EN', 'HI')),
                 sequence_order INTEGER NOT NULL,
+                minute_topic_id INTEGER DEFAULT NULL,
+                topic_id INTEGER DEFAULT NULL,
                 FOREIGN KEY (exam_id) REFERENCES pyq_exams(exam_id) ON DELETE CASCADE
             );
         `);
+        try {
+            await run(`ALTER TABLE pyq_questions ADD COLUMN minute_topic_id INTEGER DEFAULT NULL`);
+        } catch (e) { /* column already exists */ }
+        try {
+            await run(`ALTER TABLE pyq_questions ADD COLUMN topic_id INTEGER DEFAULT NULL`);
+        } catch (e) { /* column already exists */ }
 
         // 10. Support Queries Table
         await run(`
