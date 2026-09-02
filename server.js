@@ -117,16 +117,17 @@ const upload = multer({
 async function checkSubscription(req, res, next) {
     const mobileHeader = req.headers['x-user-mobile'];
     
-    if (mobileHeader === '9876543210') {
+    const ADMIN_MOBILES = ['9876543210', '9660672673'];
+    if (ADMIN_MOBILES.includes(mobileHeader)) {
         try {
-            let adminUser = await db.getUserByMobile('9876543210');
+            let adminUser = await db.getUserByMobile(mobileHeader);
             const farFuture = Date.now() + 365 * 24 * 60 * 60 * 1000; // 1 Year subscription
-            if (!adminUser || adminUser.active_plan === '24-Hour Free Trial') {
+            if (!adminUser || !adminUser.expiry_timestamp || adminUser.expiry_timestamp < Date.now()) {
                 if (!adminUser) {
-                    await db.createUser('9876543210');
+                    await db.createUser(mobileHeader);
                 }
-                await db.updateUserSubscription('9876543210', farFuture, 'Admin Premium Plan');
-                adminUser = await db.getUserByMobile('9876543210');
+                await db.updateUserSubscription(mobileHeader, farFuture, 'Admin Premium Plan');
+                adminUser = await db.getUserByMobile(mobileHeader);
             }
             req.user = adminUser;
             return next();
@@ -701,8 +702,8 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
 
 // --- Online Group Challenge Endpoints ---
 
-// 1. Create a challenge room
-app.post('/api/quiz/challenge/create', checkSubscription, async (req, res) => {
+// 1. Create a challenge room (Open for study groups)
+app.post('/api/quiz/challenge/create', async (req, res) => {
     const { creatorMobile, creatorName, topicIds, minuteTopicId, count, language, difficulty, subjectName, topicName, questionFormat } = req.body;
     const lang = language || req.headers['x-user-language'] || 'HI';
     const questionCount = parseInt(count) || 10;
@@ -710,7 +711,7 @@ app.post('/api/quiz/challenge/create', checkSubscription, async (req, res) => {
 
     try {
         console.log(`[Challenge Engine] Creating challenge for ${creatorName || 'Host'}. Questions: ${questionCount}`);
-        const questions = await db.generateQuiz(1, topicIds || [], questionCount, lang, minuteTopicId, diff, null, null, questionFormat || 'ALL');
+        const questions = await db.generateQuiz(null, topicIds || [], questionCount, lang, minuteTopicId, diff, null, null, questionFormat || 'ALL');
 
         if (!questions || questions.length === 0) {
             return res.status(400).json({ error: "Could not find questions matching this selection." });

@@ -2006,6 +2006,11 @@ module.exports = {
                          " AND q.question_text NOT LIKE '%not correctly matched%' AND q.question_text NOT LIKE '%सुमेलित नहीं%' AND q.question_text NOT LIKE '%सही नहीं है%' AND q.question_text NOT LIKE '%असत्य%' AND q.question_text NOT LIKE '%असंगत%' ";
         }
 
+        const userHistoryFilter = userId 
+            ? " AND q.question_id NOT IN (SELECT question_id FROM user_quiz_history WHERE user_id = ?) " 
+            : "";
+        const userHistoryParams = userId ? [userId] : [];
+
         if (minuteTopicId) {
             questions = await all(`
                 SELECT q.*, t.topic_name FROM questions q
@@ -2015,12 +2020,10 @@ module.exports = {
                   ${diffFilter}
                   ${caFilter}
                   ${formatFilter}
-                  AND q.question_id NOT IN (
-                      SELECT question_id FROM user_quiz_history WHERE user_id = ?
-                  )
+                  ${userHistoryFilter}
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [minuteTopicId, language, ...diffParams, ...caParams, userId, limit]);
+            `, [minuteTopicId, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
         } else {
             const placeholders = topicIds.map(() => '?').join(',');
             questions = await all(`
@@ -2031,12 +2034,10 @@ module.exports = {
                   ${diffFilter}
                   ${caFilter}
                   ${formatFilter}
-                  AND q.question_id NOT IN (
-                      SELECT question_id FROM user_quiz_history WHERE user_id = ?
-                  )
+                  ${userHistoryFilter}
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [...topicIds, language, ...diffParams, ...caParams, userId, limit]);
+            `, [...topicIds, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
         }
 
         // Guard: Recycle previously attempted questions if the pool is exhausted
