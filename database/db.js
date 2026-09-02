@@ -2054,7 +2054,7 @@ module.exports = {
         const clauses = [];
         const params = [];
         keywords.forEach(kw => {
-            clauses.push("(q.question_text LIKE ? OR q.explanation LIKE ?)");
+            clauses.push("(q.question_text LIKE ? OR q.detailed_explanation LIKE ?)");
             params.push(`%${kw}%`, `%${kw}%`);
         });
         const query = `
