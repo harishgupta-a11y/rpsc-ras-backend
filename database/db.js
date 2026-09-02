@@ -2120,12 +2120,14 @@ module.exports = {
             WHERE mt.topic_id = ? AND mt.language = ?
         `, [m, m, y, y, userId, m, m, y, y, topicId, language]);
     },
-    getFormatStatsBySubtopic: async (minuteTopicId) => {
-        const questions = await all(`
-            SELECT question_text, option_a, option_b 
-            FROM questions 
-            WHERE minute_topic_id = ?
-        `, [minuteTopicId]);
+    getFormatStatsBySubtopic: async (minuteTopicId, difficulty = 'ALL') => {
+        let sql = `SELECT question_text, option_a, option_b FROM questions WHERE minute_topic_id = ?`;
+        const params = [minuteTopicId];
+        if (difficulty && difficulty !== 'ALL') {
+            sql += ` AND difficulty = ?`;
+            params.push(difficulty);
+        }
+        const questions = await all(sql, params);
         
         let arCount = 0;
         let matchCount = 0;

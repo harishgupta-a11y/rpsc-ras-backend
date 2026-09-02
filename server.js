@@ -2184,11 +2184,12 @@ app.get('/api/minute-topics', checkSubscription, async (req, res) => {
 
 app.get('/api/minute-topics/format-stats', checkSubscription, async (req, res) => {
     const minuteTopicId = parseInt(req.query.minute_topic_id);
+    const difficulty = req.query.difficulty || 'ALL';
     if (!minuteTopicId) {
         return res.status(400).json({ error: "Minute Topic ID is required." });
     }
     try {
-        const stats = await db.getFormatStatsBySubtopic(minuteTopicId);
+        const stats = await db.getFormatStatsBySubtopic(minuteTopicId, difficulty);
         res.status(200).json({ stats });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch format stats: " + err.message });
