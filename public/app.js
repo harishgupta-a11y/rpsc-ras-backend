@@ -59,6 +59,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   initLanguage();
   setupKeyboardShortcuts();
   setupSearchInput();
+  try {
+    const minRes = await fetch('/data/minute_topics.json');
+    if (minRes.ok) window.BUNDLED_MINUTES = await minRes.json();
+  } catch(e) {}
   await loadSyllabusFromApi();
 });
 
@@ -209,25 +213,37 @@ function selectSubject(subjectId) {
 async function selectTopic(topic) {
   state.activeTopic = topic;
   const listContainer = document.getElementById('chapter-list-container');
-  listContainer.innerHTML = '<div style="padding:16px; color:var(--text-muted);">माइक्रो-टॉपिक लोड हो रहे हैं...</div>';
+
+  // Instant pre-population from bundled dataset (0ms latency!)
+  if (window.BUNDLED_MINUTES && window.BUNDLED_MINUTES.byTopic && window.BUNDLED_MINUTES.byTopic[topic.topic_id]) {
+    const local = window.BUNDLED_MINUTES.byTopic[topic.topic_id].filter(st => st.language === state.language);
+    const initialList = local.length > 0 ? local : window.BUNDLED_MINUTES.byTopic[topic.topic_id];
+    if (initialList.length > 0) {
+      state.subtopicsList = initialList;
+      renderSubtopicsList();
+      selectSubtopic(state.subtopicsList[0].minute_topic_id);
+    }
+  } else {
+    listContainer.innerHTML = '<div style="padding:16px; color:var(--text-muted);">माइक्रो-टॉपिक लोड हो रहे हैं...</div>';
+  }
 
   try {
     const res = await fetch(`${API_BASE_URL}/topics/${topic.topic_id}/minute-topics?language=${state.language}`, {
       headers: { 'x-user-mobile': state.userMobile }
     });
-    if (!res.ok) throw new Error('Failed to load subtopics');
-    const data = await res.json();
-    state.subtopicsList = data.minuteTopics || [];
-
-    if (state.subtopicsList.length > 0) {
-      renderSubtopicsList();
-      selectSubtopic(state.subtopicsList[0].minute_topic_id);
-    } else {
-      listContainer.innerHTML = '<div style="padding:16px; color:var(--text-muted);">इस टॉपिक में कोई सब-टॉपिक उपलब्ध नहीं है।</div>';
+    if (res.ok) {
+      const data = await res.json();
+      const list = data.minuteTopics || data.subtopics || [];
+      if (list.length > 0) {
+        state.subtopicsList = list;
+        renderSubtopicsList();
+        if (!state.activeSubtopic) {
+          selectSubtopic(state.subtopicsList[0].minute_topic_id);
+        }
+      }
     }
   } catch (e) {
     console.error('Error fetching minute topics:', e);
-    listContainer.innerHTML = '<div style="padding:16px; color:var(--rose);">सब-टॉपिक लोड करने में त्रुटि हुई।</div>';
   }
 }
 

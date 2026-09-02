@@ -2363,9 +2363,9 @@ app.post('/api/admin/delete-file', async (req, res) => {
 });
 
 // --- Minute Topics (Subtopics) Routes ---
-app.get('/api/minute-topics', checkSubscription, async (req, res) => {
-    const topicId = parseInt(req.query.topic_id);
-    const language = req.query.language || 'EN';
+app.get(['/api/minute-topics', '/api/topics/:topicId/minute-topics', '/topics/:topicId/minute-topics'], async (req, res) => {
+    const topicId = parseInt(req.params.topicId || req.query.topic_id);
+    const language = req.query.language || req.headers['x-user-language'] || 'EN';
     const month = req.query.month ? parseInt(req.query.month) : null;
     const year = req.query.year ? parseInt(req.query.year) : null;
     const userMobile = req.headers['x-user-mobile'];
@@ -2380,7 +2380,7 @@ app.get('/api/minute-topics', checkSubscription, async (req, res) => {
             if (user) userId = user.user_id;
         }
         const minuteTopics = await db.getMinuteTopicsByTopic(topicId, userId, language, month, year);
-        res.status(200).json({ minuteTopics });
+        res.status(200).json({ minuteTopics, subtopics: minuteTopics });
     } catch (err) {
         res.status(500).json({ error: "Failed to fetch minute topics: " + err.message });
     }
