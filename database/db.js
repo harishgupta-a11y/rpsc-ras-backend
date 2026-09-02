@@ -2149,8 +2149,8 @@ module.exports = {
             }
             
             // Check Match
-            const isMatchTerm = /match|list-i|list\s+i|codes:|कूट:|संकेतांक:/i.test(text);
-            const isMatch = isMatchTerm && optA.split(/[\s,]+/).length >= 2 && optB.split(/[\s,]+/).length >= 2;
+            const isMatchTerm = /match|list-i|list\s+i|codes:|कूट:|संकेतांक:|सूची|सुमेलित|स्तंभ/i.test(text);
+            const isMatch = isMatchTerm && optA.includes('-') && optB.includes('-');
             if (isMatch) {
                 matchCount++;
                 return;
@@ -2171,7 +2171,7 @@ module.exports = {
             }
 
             // Check Multi-Statement
-            const isStmt = /(?:^[A-D]\s*[\.:-]|^\([A-D]\)|^[I-IVXix]+\s*[\.:-]|^\([I-IVXix]+\)|^\d+\s*[\.:-])/m.test(text);
+            const isStmt = /(?:^[A-D]\s*[\.:-]|^\([A-D]\)|^[I-IVXix]+\s*[\.:-]|^\([I-IVXix]+\)|^\d+\s*[\.:-])/m.test(text) || /(?:कथनों पर विचार|statements|उपर्युक्त कथनों)/i.test(text);
             if (isStmt) {
                 stmtCount++;
                 return;
