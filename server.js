@@ -739,8 +739,8 @@ app.post('/api/quiz/challenge/create', checkSubscription, async (req, res) => {
     }
 });
 
-// 2. Fetch challenge by room code
-app.get('/api/quiz/challenge/:roomCode', checkSubscription, async (req, res) => {
+// 2. Fetch challenge by room code (Open for any invited friend)
+app.get('/api/quiz/challenge/:roomCode', async (req, res) => {
     const roomCode = req.params.roomCode;
     if (!roomCode) {
         return res.status(400).json({ error: "Room code is required." });
@@ -762,12 +762,22 @@ app.get('/api/quiz/challenge/:roomCode', checkSubscription, async (req, res) => 
     }
 });
 
-// 3. Submit challenge test attempt & get instant rank
-app.post('/api/quiz/challenge/submit', checkSubscription, async (req, res) => {
+// 3. Submit challenge test attempt & get instant rank (Open for friends)
+app.post('/api/quiz/challenge/submit', async (req, res) => {
     const { roomCode, userMobile, userName, answers, timeTakenSeconds } = req.body;
     if (!roomCode || !answers) {
         return res.status(400).json({ error: "Room code and answers are required." });
     }
+
+    const participantMobile = userMobile || req.headers['x-user-mobile'] || '9876543210';
+
+    // Auto-create user in DB if friend is new to the app
+    try {
+        let existingUser = await db.getUserByMobile(participantMobile);
+        if (!existingUser) {
+            await db.createUser(participantMobile);
+        }
+    } catch (_) {}
 
     try {
         const challengeData = await db.getChallengeByCode(roomCode);
@@ -840,8 +850,8 @@ app.post('/api/quiz/challenge/submit', checkSubscription, async (req, res) => {
     }
 });
 
-// 4. Get live leaderboard for room code
-app.get('/api/quiz/challenge/leaderboard/:roomCode', checkSubscription, async (req, res) => {
+// 4. Get live leaderboard for room code (Open for everyone with code)
+app.get('/api/quiz/challenge/leaderboard/:roomCode', async (req, res) => {
     const roomCode = req.params.roomCode;
     if (!roomCode) {
         return res.status(400).json({ error: "Room code is required." });
