@@ -378,6 +378,43 @@ async function initDatabase() {
             );
         `);
 
+        // 19. Quiz Challenges & Participants Tables (Online Group Test)
+        await run(`
+            CREATE TABLE IF NOT EXISTS quiz_challenges (
+                challenge_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                room_code TEXT UNIQUE NOT NULL,
+                creator_mobile TEXT,
+                creator_name TEXT,
+                subject_name TEXT,
+                topic_name TEXT,
+                question_ids TEXT NOT NULL,
+                question_count INTEGER NOT NULL,
+                difficulty TEXT DEFAULT 'ALL',
+                language TEXT DEFAULT 'HI',
+                created_at INTEGER NOT NULL,
+                expires_at INTEGER NOT NULL
+            );
+        `);
+        await run(`
+            CREATE TABLE IF NOT EXISTS challenge_participants (
+                participant_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                room_code TEXT NOT NULL,
+                user_mobile TEXT,
+                user_name TEXT NOT NULL,
+                score REAL NOT NULL,
+                correct_count INTEGER NOT NULL,
+                incorrect_count INTEGER NOT NULL,
+                skipped_count INTEGER NOT NULL,
+                time_taken_seconds INTEGER DEFAULT 0,
+                submitted_at INTEGER NOT NULL,
+                UNIQUE(room_code, user_mobile)
+            );
+        `);
+        try {
+            await run(`CREATE INDEX IF NOT EXISTS idx_challenges_room ON quiz_challenges(room_code);`);
+            await run(`CREATE INDEX IF NOT EXISTS idx_participants_room ON challenge_participants(room_code);`);
+        } catch (e) {}
+
         // Migrations: Add columns if not present
         try {
             await run("ALTER TABLE questions ADD COLUMN minute_topic_id INTEGER DEFAULT NULL;");
@@ -2375,6 +2412,119 @@ module.exports = {
         return selectedQuestions.map((q, idx) => ({
             ...q,
             sequence_order: idx + 1
+        }));
+    },
+
+    // --- Online Group Challenge Methods ---
+    createChallenge: async ({ creatorMobile, creatorName, subjectName, topicName, questionIds, questionCount, difficulty, language }) => {
+        let roomCode = '';
+        let exists = true;
+        for (let attempt = 0; attempt < 10; attempt++) {
+            const randNum = Math.floor(1000 + Math.random() * 9000);
+            const candidate = `RAS-${randNum}`;
+            const row = await get("SELECT challenge_id FROM quiz_challenges WHERE room_code = ?", [candidate]);
+            if (!row) {
+                roomCode = candidate;
+                exists = false;
+                break;
+            }
+        }
+        if (exists || !roomCode) {
+            roomCode = `RAS-${Date.now().toString().slice(-4)}`;
+        }
+
+        const now = Date.now();
+        const expiresAt = now + (48 * 60 * 60 * 1000); // 48 hours validity
+        const qIdsJson = JSON.stringify(questionIds);
+
+        await run(`
+            INSERT INTO quiz_challenges (
+                room_code, creator_mobile, creator_name, subject_name, topic_name,
+                question_ids, question_count, difficulty, language, created_at, expires_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `, [
+            roomCode, creatorMobile || 'Anonymous', creatorName || 'Aspirant',
+            subjectName || 'RPSC RAS Mock', topicName || 'Mixed Topics',
+            qIdsJson, questionCount, difficulty || 'ALL', language || 'HI', now, expiresAt
+        ]);
+
+        return {
+            room_code: roomCode,
+            creator_name: creatorName,
+            topic_name: topicName,
+            question_count: questionCount,
+            expires_at: expiresAt
+        };
+    },
+
+    getChallengeByCode: async (roomCode) => {
+        const normalized = (roomCode || '').trim().toUpperCase();
+        const challenge = await get("SELECT * FROM quiz_challenges WHERE room_code = ?", [normalized]);
+        if (!challenge) return null;
+
+        let questionIds = [];
+        try {
+            questionIds = JSON.parse(challenge.question_ids);
+        } catch (e) {
+            questionIds = [];
+        }
+
+        if (questionIds.length === 0) {
+            return { challenge, questions: [] };
+        }
+
+        const placeholders = questionIds.map(() => '?').join(',');
+        const dbQuestions = await all(
+            `SELECT q.*, t.topic_name FROM questions q JOIN topics t ON q.topic_id = t.topic_id WHERE q.question_id IN (${placeholders})`,
+            questionIds
+        );
+
+        // Keep the exact sequence as determined by questionIds
+        const qMap = {};
+        dbQuestions.forEach(q => { qMap[q.question_id] = q; });
+        const orderedQuestions = questionIds.map(id => qMap[id]).filter(Boolean);
+
+        return {
+            challenge,
+            questions: orderedQuestions
+        };
+    },
+
+    submitChallengeResult: async ({ roomCode, userMobile, userName, score, correctCount, incorrectCount, skippedCount, timeTakenSeconds }) => {
+        const normalized = (roomCode || '').trim().toUpperCase();
+        const now = Date.now();
+
+        await run(`
+            INSERT OR REPLACE INTO challenge_participants (
+                room_code, user_mobile, user_name, score, correct_count,
+                incorrect_count, skipped_count, time_taken_seconds, submitted_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        `, [
+            normalized, userMobile || '9876543210', userName || 'Aspirant',
+            score, correctCount, incorrectCount, skippedCount, timeTakenSeconds || 0, now
+        ]);
+
+        return true;
+    },
+
+    getChallengeLeaderboard: async (roomCode) => {
+        const normalized = (roomCode || '').trim().toUpperCase();
+        const participants = await all(`
+            SELECT * FROM challenge_participants
+            WHERE room_code = ?
+            ORDER BY score DESC, time_taken_seconds ASC, submitted_at ASC
+        `, [normalized]);
+
+        return participants.map((p, idx) => ({
+            rank: idx + 1,
+            user_name: p.user_name,
+            user_mobile: p.user_mobile ? (p.user_mobile.slice(0, 2) + '******' + p.user_mobile.slice(-2)) : '******',
+            score: p.score,
+            correct_count: p.correct_count,
+            incorrect_count: p.incorrect_count,
+            skipped_count: p.skipped_count,
+            time_taken_seconds: p.time_taken_seconds,
+            submitted_at: p.submitted_at
         }));
     }
 };

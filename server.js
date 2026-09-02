@@ -699,6 +699,162 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
     }
 });
 
+// --- Online Group Challenge Endpoints ---
+
+// 1. Create a challenge room
+app.post('/api/quiz/challenge/create', checkSubscription, async (req, res) => {
+    const { creatorMobile, creatorName, topicIds, minuteTopicId, count, language, difficulty, subjectName, topicName, questionFormat } = req.body;
+    const lang = language || req.headers['x-user-language'] || 'HI';
+    const questionCount = parseInt(count) || 10;
+    const diff = difficulty || 'ALL';
+
+    try {
+        console.log(`[Challenge Engine] Creating challenge for ${creatorName || 'Host'}. Questions: ${questionCount}`);
+        const questions = await db.generateQuiz(1, topicIds || [], questionCount, lang, minuteTopicId, diff, null, null, questionFormat || 'ALL');
+
+        if (!questions || questions.length === 0) {
+            return res.status(400).json({ error: "Could not find questions matching this selection." });
+        }
+
+        const questionIds = questions.map(q => q.question_id);
+        const challenge = await db.createChallenge({
+            creatorMobile: creatorMobile || req.headers['x-user-mobile'],
+            creatorName: creatorName || 'Aspirant',
+            subjectName: subjectName || 'RPSC RAS Practice',
+            topicName: topicName || 'General Mock',
+            questionIds: questionIds,
+            questionCount: questions.length,
+            difficulty: diff,
+            language: lang
+        });
+
+        res.status(200).json({
+            success: true,
+            challenge: challenge,
+            questions: questions
+        });
+    } catch (err) {
+        console.error("[Challenge Engine] Create error:", err);
+        res.status(500).json({ error: "Failed to create challenge: " + err.message });
+    }
+});
+
+// 2. Fetch challenge by room code
+app.get('/api/quiz/challenge/:roomCode', checkSubscription, async (req, res) => {
+    const roomCode = req.params.roomCode;
+    if (!roomCode) {
+        return res.status(400).json({ error: "Room code is required." });
+    }
+
+    try {
+        const result = await db.getChallengeByCode(roomCode);
+        if (!result || !result.challenge) {
+            return res.status(404).json({ error: "इस कोड से कोई चुनौती नहीं मिली। कृपया कोड जांचें।" });
+        }
+
+        if (result.challenge.expires_at && Date.now() > result.challenge.expires_at) {
+            return res.status(410).json({ error: "यह टेस्ट चुनौती समाप्त हो चुकी है (Expired)।" });
+        }
+
+        res.status(200).json(result);
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch challenge: " + err.message });
+    }
+});
+
+// 3. Submit challenge test attempt & get instant rank
+app.post('/api/quiz/challenge/submit', checkSubscription, async (req, res) => {
+    const { roomCode, userMobile, userName, answers, timeTakenSeconds } = req.body;
+    if (!roomCode || !answers) {
+        return res.status(400).json({ error: "Room code and answers are required." });
+    }
+
+    try {
+        const challengeData = await db.getChallengeByCode(roomCode);
+        if (!challengeData || !challengeData.questions) {
+            return res.status(404).json({ error: "Challenge not found." });
+        }
+
+        const questions = challengeData.questions;
+        let correct = 0;
+        let incorrect = 0;
+        let skipped = 0;
+        let omrPenalties = 0;
+
+        let answersMap = {};
+        if (Array.isArray(answers)) {
+            answers.forEach(a => { answersMap[a.questionId] = a.choice; });
+        } else {
+            answersMap = answers;
+        }
+
+        questions.forEach(q => {
+            const userChoice = answersMap[q.question_id];
+            const rawCorrect = String(q.correct_option || '').trim().toUpperCase();
+
+            if (!userChoice) {
+                omrPenalties++;
+            } else if (userChoice === '5' || userChoice.toUpperCase() === 'E') {
+                skipped++;
+            } else {
+                const choiceStr = String(userChoice).trim().toUpperCase();
+                if (choiceStr === rawCorrect) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
+            }
+        });
+
+        // Official RPSC RAS Marking (+1.33 correct, -0.44 penalty)
+        const totalMarks = (correct * 1.3333) - (incorrect * 0.4444) - (omrPenalties * 0.4444);
+        const finalScore = Math.round(totalMarks * 100) / 100;
+
+        await db.submitChallengeResult({
+            roomCode: roomCode,
+            userMobile: userMobile || req.headers['x-user-mobile'],
+            userName: userName || 'Aspirant',
+            score: finalScore,
+            correctCount: correct,
+            incorrectCount: incorrect + omrPenalties,
+            skippedCount: skipped,
+            timeTakenSeconds: timeTakenSeconds || 0
+        });
+
+        const leaderboard = await db.getChallengeLeaderboard(roomCode);
+        const myEntry = leaderboard.find(p => p.user_name === (userName || 'Aspirant')) || { rank: 1 };
+
+        res.status(200).json({
+            success: true,
+            score: finalScore,
+            correct: correct,
+            incorrect: incorrect + omrPenalties,
+            skipped: skipped,
+            rank: myEntry.rank,
+            total_participants: leaderboard.length,
+            leaderboard: leaderboard
+        });
+    } catch (err) {
+        console.error("[Challenge Engine] Submit error:", err);
+        res.status(500).json({ error: "Failed to submit challenge: " + err.message });
+    }
+});
+
+// 4. Get live leaderboard for room code
+app.get('/api/quiz/challenge/leaderboard/:roomCode', checkSubscription, async (req, res) => {
+    const roomCode = req.params.roomCode;
+    if (!roomCode) {
+        return res.status(400).json({ error: "Room code is required." });
+    }
+
+    try {
+        const leaderboard = await db.getChallengeLeaderboard(roomCode);
+        res.status(200).json({ room_code: roomCode, leaderboard });
+    } catch (err) {
+        res.status(500).json({ error: "Failed to fetch leaderboard: " + err.message });
+    }
+});
+
 // --- Admin Route: Download empty docx templates ---
 app.get('/api/admin/download-template', async (req, res) => {
     const subjectId = req.query.subject_id || '999';
