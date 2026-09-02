@@ -704,14 +704,30 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
 
 // 1. Create a challenge room (Open for study groups)
 app.post('/api/quiz/challenge/create', async (req, res) => {
-    const { creatorMobile, creatorName, topicIds, minuteTopicId, count, language, difficulty, subjectName, topicName, questionFormat } = req.body;
+    const { creatorMobile, creatorName, topicIds, minuteTopicId, count, language, difficulty, subjectName, topicName, questionFormat, examId, isPyq } = req.body;
     const lang = language || req.headers['x-user-language'] || 'HI';
     const questionCount = parseInt(count) || 10;
     const diff = difficulty || 'ALL';
 
     try {
         console.log(`[Challenge Engine] Creating challenge for ${creatorName || 'Host'}. Questions: ${questionCount}`);
-        const questions = await db.generateQuiz(null, topicIds || [], questionCount, lang, minuteTopicId, diff, null, null, questionFormat || 'ALL');
+        let questions = [];
+
+        if (examId) {
+            questions = await db.all(
+                "SELECT pyq_question_id as question_id, * FROM pyq_questions WHERE exam_id = ? AND language = ? ORDER BY RANDOM() LIMIT ?",
+                [examId, lang, questionCount]
+            );
+        } else if (isPyq && minuteTopicId) {
+            questions = await db.all(
+                "SELECT pyq_question_id as question_id, * FROM pyq_questions WHERE minute_topic_id = ? AND language = ? ORDER BY RANDOM() LIMIT ?",
+                [minuteTopicId, lang, questionCount]
+            );
+        }
+
+        if (!questions || questions.length === 0) {
+            questions = await db.generateQuiz(null, topicIds || [], questionCount, lang, minuteTopicId, diff, null, null, questionFormat || 'ALL');
+        }
 
         if (!questions || questions.length === 0) {
             return res.status(400).json({ error: "Could not find questions matching this selection." });
@@ -799,22 +815,42 @@ app.post('/api/quiz/challenge/submit', async (req, res) => {
             answersMap = answers;
         }
 
+        let details = [];
         questions.forEach(q => {
             const userChoice = answersMap[q.question_id];
             const rawCorrect = String(q.correct_option || '').trim().toUpperCase();
+            let isCorrect = false;
+            let isSkipped = false;
 
             if (!userChoice) {
                 omrPenalties++;
+                isSkipped = true;
             } else if (userChoice === '5' || userChoice.toUpperCase() === 'E') {
                 skipped++;
+                isSkipped = true;
             } else {
                 const choiceStr = String(userChoice).trim().toUpperCase();
                 if (choiceStr === rawCorrect) {
                     correct++;
+                    isCorrect = true;
                 } else {
                     incorrect++;
                 }
             }
+
+            details.push({
+                question_id: q.question_id,
+                question_text: q.question_text,
+                option_a: q.option_a,
+                option_b: q.option_b,
+                option_c: q.option_c,
+                option_d: q.option_d,
+                user_answer: userChoice || 'UNANSWERED',
+                correct_answer: rawCorrect,
+                is_correct: isCorrect,
+                is_skipped: isSkipped,
+                explanation: q.detailed_explanation
+            });
         });
 
         // Official RPSC RAS Marking (+1.33 correct, -0.44 penalty)
@@ -843,7 +879,8 @@ app.post('/api/quiz/challenge/submit', async (req, res) => {
             skipped: skipped,
             rank: myEntry.rank,
             total_participants: leaderboard.length,
-            leaderboard: leaderboard
+            leaderboard: leaderboard,
+            details: details
         });
     } catch (err) {
         console.error("[Challenge Engine] Submit error:", err);

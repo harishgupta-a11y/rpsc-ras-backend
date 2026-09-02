@@ -2512,10 +2512,22 @@ module.exports = {
         }
 
         const placeholders = questionIds.map(() => '?').join(',');
-        const dbQuestions = await all(
-            `SELECT q.*, t.topic_name FROM questions q JOIN topics t ON q.topic_id = t.topic_id WHERE q.question_id IN (${placeholders})`,
+        let dbQuestions = await all(
+            `SELECT q.*, t.topic_name FROM questions q LEFT JOIN topics t ON q.topic_id = t.topic_id WHERE q.question_id IN (${placeholders})`,
             questionIds
         );
+
+        if (dbQuestions.length < questionIds.length) {
+            const missingIds = questionIds.filter(id => !dbQuestions.some(q => q.question_id === id));
+            if (missingIds.length > 0) {
+                const pyqPlaceholders = missingIds.map(() => '?').join(',');
+                const pyqs = await all(
+                    `SELECT p.pyq_question_id as question_id, p.*, t.topic_name FROM pyq_questions p LEFT JOIN topics t ON p.topic_id = t.topic_id WHERE p.pyq_question_id IN (${pyqPlaceholders})`,
+                    missingIds
+                );
+                dbQuestions = [...dbQuestions, ...pyqs];
+            }
+        }
 
         // Keep the exact sequence as determined by questionIds
         const qMap = {};
