@@ -4,6 +4,16 @@ const path = require('path');
 const fs = require('fs');
 
 const DB_FILE = path.join(__dirname, 'rpsc_ras.db');
+const envPath = path.join(__dirname, '..', '.env');
+if (fs.existsSync(envPath)) {
+    const env = fs.readFileSync(envPath, 'utf8');
+    env.split('\n').forEach(line => {
+        const parts = line.split('=');
+        if (parts.length >= 2 && !process.env[parts[0].trim()]) {
+            process.env[parts[0].trim()] = parts.slice(1).join('=').trim();
+        }
+    });
+}
 const dbUrl = process.env.TURSO_DATABASE_URL || `file:${DB_FILE}`;
 const dbToken = process.env.TURSO_AUTH_TOKEN || '';
 
@@ -1978,7 +1988,8 @@ module.exports = {
         if (questionFormat === 'ASSERTION_REASON') {
           formatFilter = " AND (q.question_text LIKE '%Assertion%Reason%' OR q.question_text LIKE '%कथन%कारण%' OR q.question_text LIKE '%अभिकथन%कारण%') ";
         } else if (questionFormat === 'MATCH') {
-          formatFilter = " AND (q.question_text LIKE '%Match%Column%' OR q.question_text LIKE '%Match%List%' OR q.question_text LIKE '%Column I%Column II%' OR q.question_text LIKE '%List-I%List-II%' OR q.question_text LIKE '%List I%List II%' OR q.question_text LIKE '%Match the following%' OR q.question_text LIKE '%सुमेलित%' OR q.question_text LIKE '%सूची I%सूची II%' OR q.question_text LIKE '%सूची-I%सूची-II%' OR q.question_text LIKE '%स्तंभ I%स्तंभ II%' OR q.question_text LIKE '%स्तंभ-I%स्तंभ-II%' OR q.question_text LIKE '%मिलान%') ";
+          formatFilter = " AND (q.question_text LIKE '%Match%Column%' OR q.question_text LIKE '%Match%List%' OR q.question_text LIKE '%Column I%Column II%' OR q.question_text LIKE '%List-I%List-II%' OR q.question_text LIKE '%List I%List II%' OR q.question_text LIKE '%Match the following%' OR q.question_text LIKE '%सुमेलित%' OR q.question_text LIKE '%सूची I%सूची II%' OR q.question_text LIKE '%सूची-I%सूची-II%' OR q.question_text LIKE '%स्तंभ I%स्तंभ II%' OR q.question_text LIKE '%स्तंभ-I%स्तंभ-II%' OR q.question_text LIKE '%मिलान%') " +
+                         " AND q.question_text NOT LIKE '%not correctly matched%' AND q.question_text NOT LIKE '%सुमेलित नहीं%' AND q.question_text NOT LIKE '%सही नहीं है%' AND q.question_text NOT LIKE '%असत्य%' AND q.question_text NOT LIKE '%असंगत%' ";
         } else if (questionFormat === 'STATEMENT') {
           formatFilter = " AND (q.question_text LIKE '%statements%correct%' OR q.question_text LIKE '%statement%correct%' OR q.question_text LIKE '%Consider the following statements%' OR q.question_text LIKE '%statements given above%' OR q.question_text LIKE '%कथनों पर विचार%' OR q.question_text LIKE '%कथनों में से%सही%' OR q.question_text LIKE '%कथन%सही%') " +
                          " AND q.question_text NOT LIKE '%Assertion%Reason%' AND q.question_text NOT LIKE '%कथन%कारण%' AND q.question_text NOT LIKE '%अभिकथन%कारण%' " +
@@ -2196,6 +2207,14 @@ module.exports = {
                 return;
             }
             
+            // Check Negative / Not Matched
+            const isNotMatched = /not correctly matched|सुमेलित नहीं|सही नहीं है|असत्य कथन|असंगत युग्म/i.test(text);
+            if (isNotMatched) {
+                notMatchedTotal++;
+                if (attempted) notMatchedAttempted++;
+                return;
+            }
+
             // Check Match
             const isMatchTerm = /match|list-i|list\s+i|codes:|कूट:|संकेतांक:|सूची|सुमेलित|स्तंभ/i.test(text);
             const isMatch = isMatchTerm && optA.includes('-') && optB.includes('-');
@@ -2210,14 +2229,6 @@ module.exports = {
             if (isChrono) {
                 chronoTotal++;
                 if (attempted) chronoAttempted++;
-                return;
-            }
-
-            // Check Negative / Not Matched
-            const isNotMatched = /not correctly matched|सुमेलित नहीं|सही नहीं है|असत्य कथन|असंगत युग्म/i.test(text);
-            if (isNotMatched) {
-                notMatchedTotal++;
-                if (attempted) notMatchedAttempted++;
                 return;
             }
 
