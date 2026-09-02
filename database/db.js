@@ -2157,31 +2157,42 @@ module.exports = {
             WHERE mt.topic_id = ? AND mt.language = ?
         `, [m, m, y, y, userId, m, m, y, y, topicId, language]);
     },
-    getFormatStatsBySubtopic: async (minuteTopicId, difficulty = 'ALL') => {
-        let sql = `SELECT question_text, option_a, option_b FROM questions WHERE minute_topic_id = ?`;
-        const params = [minuteTopicId];
+    getFormatStatsBySubtopic: async (minuteTopicId, difficulty = 'ALL', userId = null) => {
+        let sql = `
+            SELECT q.question_id, q.question_text, q.option_a, q.option_b,
+                   (uqh.question_id IS NOT NULL) as is_attempted
+            FROM questions q
+            LEFT JOIN user_quiz_history uqh ON q.question_id = uqh.question_id AND uqh.user_id = ?
+            WHERE q.minute_topic_id = ?
+        `;
+        const params = [userId || -1, minuteTopicId];
         if (difficulty && difficulty !== 'ALL') {
-            sql += ` AND difficulty = ?`;
+            sql += ` AND q.difficulty = ?`;
             params.push(difficulty);
         }
         const questions = await all(sql, params);
         
-        let arCount = 0;
-        let matchCount = 0;
-        let stmtCount = 0;
-        let chronoCount = 0;
-        let notMatchedCount = 0;
+        let arTotal = 0, arAttempted = 0;
+        let matchTotal = 0, matchAttempted = 0;
+        let stmtTotal = 0, stmtAttempted = 0;
+        let chronoTotal = 0, chronoAttempted = 0;
+        let notMatchedTotal = 0, notMatchedAttempted = 0;
+        let directTotal = 0, directAttempted = 0;
         let total = questions.length;
+        let totalAttempted = 0;
         
         questions.forEach(q => {
             const text = q.question_text || '';
             const optA = q.option_a || '';
             const optB = q.option_b || '';
+            const attempted = q.is_attempted === 1 || q.is_attempted === true;
+            if (attempted) totalAttempted++;
             
             // Check Assertion-Reason
             const isAR = /(?:Assertion\s*\(A\)|कथन\s*\(A\)|कथन\s*\(a\)|अभिकथन\s*\(A\)|अभिकथन\s*\(a\))\s*:\s*/i.test(text);
             if (isAR) {
-                arCount++;
+                arTotal++;
+                if (attempted) arAttempted++;
                 return;
             }
             
@@ -2189,42 +2200,57 @@ module.exports = {
             const isMatchTerm = /match|list-i|list\s+i|codes:|कूट:|संकेतांक:|सूची|सुमेलित|स्तंभ/i.test(text);
             const isMatch = isMatchTerm && optA.includes('-') && optB.includes('-');
             if (isMatch) {
-                matchCount++;
+                matchTotal++;
+                if (attempted) matchAttempted++;
                 return;
             }
             
             // Check Chronology
             const isChrono = /chronological|कालक्रम|सही क्रम|कालक्रमानुसार|क्रम में व्यवस्थित/i.test(text);
             if (isChrono) {
-                chronoCount++;
+                chronoTotal++;
+                if (attempted) chronoAttempted++;
                 return;
             }
 
             // Check Negative / Not Matched
             const isNotMatched = /not correctly matched|सुमेलित नहीं|सही नहीं है|असत्य कथन|असंगत युग्म/i.test(text);
             if (isNotMatched) {
-                notMatchedCount++;
+                notMatchedTotal++;
+                if (attempted) notMatchedAttempted++;
                 return;
             }
 
             // Check Multi-Statement
             const isStmt = /(?:^[A-D]\s*[\.:-]|^\([A-D]\)|^[I-IVXix]+\s*[\.:-]|^\([I-IVXix]+\)|^\d+\s*[\.:-])/m.test(text) || /(?:कथनों पर विचार|statements|उपर्युक्त कथनों)/i.test(text);
             if (isStmt) {
-                stmtCount++;
+                stmtTotal++;
+                if (attempted) stmtAttempted++;
                 return;
             }
+
+            // Direct
+            directTotal++;
+            if (attempted) directAttempted++;
         });
-        
-        const directCount = Math.max(0, total - (arCount + matchCount + stmtCount + chronoCount + notMatchedCount));
 
         return {
             ALL: total,
-            DIRECT: directCount,
-            CHRONOLOGY: chronoCount,
-            NOT_MATCHED: notMatchedCount,
-            ASSERTION_REASON: arCount,
-            MATCH: matchCount,
-            STATEMENT: stmtCount
+            DIRECT: directTotal,
+            CHRONOLOGY: chronoTotal,
+            NOT_MATCHED: notMatchedTotal,
+            ASSERTION_REASON: arTotal,
+            MATCH: matchTotal,
+            STATEMENT: stmtTotal,
+            progress: {
+                ALL: { total: total, attempted: totalAttempted },
+                DIRECT: { total: directTotal, attempted: directAttempted },
+                CHRONOLOGY: { total: chronoTotal, attempted: chronoAttempted },
+                NOT_MATCHED: { total: notMatchedTotal, attempted: notMatchedAttempted },
+                ASSERTION_REASON: { total: arTotal, attempted: arAttempted },
+                MATCH: { total: matchTotal, attempted: matchAttempted },
+                STATEMENT: { total: stmtTotal, attempted: stmtAttempted }
+            }
         };
     },
     getCurrentAffairsTimeframes: () => all(`
