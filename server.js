@@ -730,7 +730,11 @@ app.post('/api/quiz/challenge/create', async (req, res) => {
         }
 
         if (!questions || questions.length === 0) {
-            return res.status(400).json({ error: "Could not find questions matching this selection." });
+            const isHi = lang === 'HI';
+            const specificMsg = minuteTopicId 
+                ? (isHi ? "इस सब-टॉपिक में अभी प्रश्न उपलब्ध नहीं हैं। कृपया प्रश्न युक्त सब-टॉपिक चुनें।" : "No questions currently available in this sub-topic. Please select another subtopic.")
+                : (isHi ? "चयनित विषय या टॉपिक में प्रश्न उपलब्ध नहीं हैं। कृपया प्रश्न युक्त टॉपिक चुनें।" : "No questions found matching this selection. Please pick an active topic.");
+            return res.status(400).json({ error: specificMsg });
         }
 
         const questionIds = questions.map(q => q.question_id);
