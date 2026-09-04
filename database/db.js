@@ -2016,28 +2016,28 @@ module.exports = {
                 SELECT q.*, t.topic_name FROM questions q
                 JOIN topics t ON q.topic_id = t.topic_id
                 WHERE q.minute_topic_id = ?
-                  AND q.language = ?
+                  AND (q.language = ? OR ? = '')
                   ${diffFilter}
                   ${caFilter}
                   ${formatFilter}
                   ${userHistoryFilter}
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [minuteTopicId, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
+            `, [minuteTopicId, language, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
         } else {
             const placeholders = topicIds.map(() => '?').join(',');
             questions = await all(`
                 SELECT q.*, t.topic_name FROM questions q
                 JOIN topics t ON q.topic_id = t.topic_id
                 WHERE q.topic_id IN (${placeholders})
-                  AND q.language = ?
+                  AND (q.language = ? OR ? = '')
                   ${diffFilter}
                   ${caFilter}
                   ${formatFilter}
                   ${userHistoryFilter}
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [...topicIds, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
+            `, [...topicIds, language, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
         }
 
         // Guard: Recycle previously attempted questions if the pool is exhausted
@@ -2050,32 +2050,84 @@ module.exports = {
             const loadedParams = loadedIds.length > 0 ? loadedIds : [];
 
             if (minuteTopicId) {
+                // Tier 1: Try recycling with exact filters
                 recycledQuestions = await all(`
                     SELECT q.*, t.topic_name FROM questions q
                     JOIN topics t ON q.topic_id = t.topic_id
                     WHERE q.minute_topic_id = ?
-                      AND q.language = ?
+                      AND (q.language = ? OR ? = '')
                       ${diffFilter}
-                  ${caFilter}
-                  ${formatFilter}
+                      ${caFilter}
+                      ${formatFilter}
                       ${loadedFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
-                `, [minuteTopicId, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
+                `, [minuteTopicId, language, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
+
+                // Tier 2: If still short and a difficulty filter was applied, relax difficulty filter within the same subtopic
+                if (recycledQuestions.length < extraLimit && diffFilter) {
+                    const currentIds = [...loadedIds, ...recycledQuestions.map(q => q.question_id)];
+                    const curFilter = currentIds.length > 0 ? ` AND q.question_id NOT IN (${currentIds.map(() => '?').join(',')}) ` : "";
+                    const curParams = currentIds.length > 0 ? currentIds : [];
+                    const needed = extraLimit - recycledQuestions.length;
+                    const relaxedDiffQs = await all(`
+                        SELECT q.*, t.topic_name FROM questions q
+                        JOIN topics t ON q.topic_id = t.topic_id
+                        WHERE q.minute_topic_id = ?
+                          AND (q.language = ? OR ? = '')
+                          ${caFilter}
+                          ${formatFilter}
+                          ${curFilter}
+                        ORDER BY RANDOM()
+                        LIMIT ?
+                    `, [minuteTopicId, language, language, ...caParams, ...curParams, needed]);
+                    recycledQuestions.push(...relaxedDiffQs);
+                }
+
+                // Tier 3: If still 0 questions found for this subtopic (e.g. language or strict format mismatch),
+                // guarantee questions from this exact subtopic so user is never rejected with empty screen!
+                if (recycledQuestions.length === 0 && questions.length === 0) {
+                    recycledQuestions = await all(`
+                        SELECT q.*, t.topic_name FROM questions q
+                        JOIN topics t ON q.topic_id = t.topic_id
+                        WHERE q.minute_topic_id = ?
+                        ORDER BY RANDOM()
+                        LIMIT ?
+                    `, [minuteTopicId, limit]);
+                }
             } else {
                 const placeholders = topicIds.map(() => '?').join(',');
                 recycledQuestions = await all(`
                     SELECT q.*, t.topic_name FROM questions q
                     JOIN topics t ON q.topic_id = t.topic_id
                     WHERE q.topic_id IN (${placeholders})
-                      AND q.language = ?
+                      AND (q.language = ? OR ? = '')
                       ${diffFilter}
-                  ${caFilter}
-                  ${formatFilter}
+                      ${caFilter}
+                      ${formatFilter}
                       ${loadedFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
-                `, [...topicIds, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
+                `, [...topicIds, language, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
+
+                if (recycledQuestions.length < extraLimit && diffFilter) {
+                    const currentIds = [...loadedIds, ...recycledQuestions.map(q => q.question_id)];
+                    const curFilter = currentIds.length > 0 ? ` AND q.question_id NOT IN (${currentIds.map(() => '?').join(',')}) ` : "";
+                    const curParams = currentIds.length > 0 ? currentIds : [];
+                    const needed = extraLimit - recycledQuestions.length;
+                    const relaxedDiffQs = await all(`
+                        SELECT q.*, t.topic_name FROM questions q
+                        JOIN topics t ON q.topic_id = t.topic_id
+                        WHERE q.topic_id IN (${placeholders})
+                          AND (q.language = ? OR ? = '')
+                          ${caFilter}
+                          ${formatFilter}
+                          ${curFilter}
+                        ORDER BY RANDOM()
+                        LIMIT ?
+                    `, [...topicIds, language, language, ...caParams, ...curParams, needed]);
+                    recycledQuestions.push(...relaxedDiffQs);
+                }
             }
 
             // Combine and ensure unique questions
