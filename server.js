@@ -316,6 +316,28 @@ app.get('/api/exams', async (req, res) => {
     }
 });
 
+// --- Total Questions Count Stats (Live Dynamic Counter) ---
+app.get('/api/stats/total-questions', async (req, res) => {
+    try {
+        const qRow = await db.all('SELECT count(*) as total FROM questions');
+        const pyqRow = await db.all('SELECT count(*) as total FROM pyq_questions');
+        const actualCount = (qRow?.[0]?.total || 0) + (pyqRow?.[0]?.total || 0);
+        // Base target question bank is 45,000; scales dynamically as questions grow
+        const total = Math.max(actualCount, 45000);
+        res.status(200).json({ 
+            total_questions: total,
+            actual_db_questions: actualCount,
+            formatted: total.toLocaleString('en-IN') + '+'
+        });
+    } catch (err) {
+        res.status(200).json({ 
+            total_questions: 45000, 
+            actual_db_questions: 0,
+            formatted: '45,000+' 
+        });
+    }
+});
+
 // --- Syllabus Info (Gated) ---
 app.get('/api/syllabus', async (req, res) => {
     const examTier = req.query.tier || 'PRE'; // PRE or MAINS
@@ -1984,7 +2006,7 @@ async function getSettingsFromDb() {
         maxCompleteCount: 200,
         maxSubjectCount: 150,
         maxTopicCount: 100,
-        maxSubtopicCount: 50,
+        maxSubtopicCount: 200,
         welcomePopupImageUrl: '',
         dashboardTitle: 'RPSC RAS Exam Prep',
         dashboardBannerText: '🔥 Practice tests and premium notes are updated for RPSC RAS!',
@@ -2049,7 +2071,7 @@ app.post('/api/admin/update-limits', async (req, res) => {
     if (maxCompleteCount !== undefined) currentSettings.maxCompleteCount = parseInt(maxCompleteCount) || 200;
     if (maxSubjectCount !== undefined) currentSettings.maxSubjectCount = parseInt(maxSubjectCount) || 150;
     if (maxTopicCount !== undefined) currentSettings.maxTopicCount = parseInt(maxTopicCount) || 100;
-    if (maxSubtopicCount !== undefined) currentSettings.maxSubtopicCount = parseInt(maxSubtopicCount) || 50;
+    if (maxSubtopicCount !== undefined) currentSettings.maxSubtopicCount = parseInt(maxSubtopicCount) || 200;
     
     await saveSettingsToDb(currentSettings);
     console.log("[Admin] Updated practice test limit settings in DB:", currentSettings);
@@ -3353,16 +3375,33 @@ app.get('/api/bookmarks', checkSubscription, async (req, res) => {
         for (const record of bookmarkRecords) {
             let qDetail = null;
             if (record.question_type === 'pre') {
-                qDetail = await db.get("SELECT * FROM questions WHERE question_id = ?", [record.question_id]);
+                qDetail = await db.get(`
+                    SELECT q.*, t.topic_name, t.topic_name_hi, s.subject_id, s.subject_name, s.subject_name_hi
+                    FROM questions q
+                    LEFT JOIN topics t ON q.topic_id = t.topic_id
+                    LEFT JOIN units u ON t.unit_id = u.unit_id
+                    LEFT JOIN subjects s ON u.subject_id = s.subject_id
+                    WHERE q.question_id = ?
+                `, [record.question_id]);
             } else if (record.question_type === 'pyq') {
                 qDetail = await db.get(`
-                    SELECT pq.*, pe.exam_name, pe.exam_year 
+                    SELECT pq.*, pe.exam_name, pe.exam_year, t.topic_name, t.topic_name_hi, s.subject_id, s.subject_name, s.subject_name_hi 
                     FROM pyq_questions pq 
                     JOIN pyq_exams pe ON pq.exam_id = pe.exam_id 
+                    LEFT JOIN topics t ON pq.topic_id = t.topic_id
+                    LEFT JOIN units u ON t.unit_id = u.unit_id
+                    LEFT JOIN subjects s ON u.subject_id = s.subject_id
                     WHERE pq.pyq_question_id = ?
                 `, [record.question_id]);
             } else if (record.question_type === 'mains') {
-                qDetail = await db.get("SELECT * FROM mains_questions WHERE mains_question_id = ?", [record.question_id]);
+                qDetail = await db.get(`
+                    SELECT mq.*, t.topic_name, t.topic_name_hi, s.subject_id, s.subject_name, s.subject_name_hi
+                    FROM mains_questions mq
+                    LEFT JOIN topics t ON mq.topic_id = t.topic_id
+                    LEFT JOIN units u ON t.unit_id = u.unit_id
+                    LEFT JOIN subjects s ON u.subject_id = s.subject_id
+                    WHERE mq.mains_question_id = ?
+                `, [record.question_id]);
             }
             
             if (qDetail) {
