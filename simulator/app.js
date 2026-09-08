@@ -2734,7 +2734,7 @@ function renderManagerQuestionsList(source) {
         <div style="font-weight: bold; color: var(--color-accent);">Question #${idx + 1} (MCQ ID: ${qid})</div>
         <div style="color: white; white-space: pre-wrap;">${q.question_text}</div>
         <div style="font-size: 10px; color: var(--color-text-muted); padding-left: 8px;">
-          A) ${q.option_a}<br>B) ${q.option_b}<br>C) ${q.option_c}<br>D) ${q.option_d}
+          1) ${q.option_a}<br>2) ${q.option_b}<br>3) ${q.option_c}<br>4) ${q.option_d}
         </div>
         <div style="color: #10B981; font-weight: bold;">Correct: Option ${q.correct_option}</div>
         <div style="color: var(--color-text-muted); font-size: 10px;"><strong>Exp:</strong> ${q.detailed_explanation}</div>
@@ -2782,29 +2782,30 @@ function editManagerQuestion(qid, isMains) {
       </div>
       <div class="input-group" style="margin-bottom: 4px; display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
         <div>
-          <label style="font-size: 9px; color: var(--color-text-muted);">Option A</label>
+          <label style="font-size: 9px; color: var(--color-text-muted);">Option 1</label>
           <input type="text" id="edit-opta-${qid}" value="${q.option_a}" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px; width: 100%; font-size: 10px;">
         </div>
         <div>
-          <label style="font-size: 9px; color: var(--color-text-muted);">Option B</label>
+          <label style="font-size: 9px; color: var(--color-text-muted);">Option 2</label>
           <input type="text" id="edit-optb-${qid}" value="${q.option_b}" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px; width: 100%; font-size: 10px;">
         </div>
         <div>
-          <label style="font-size: 9px; color: var(--color-text-muted);">Option C</label>
+          <label style="font-size: 9px; color: var(--color-text-muted);">Option 3</label>
           <input type="text" id="edit-optc-${qid}" value="${q.option_c}" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px; width: 100%; font-size: 10px;">
         </div>
         <div>
-          <label style="font-size: 9px; color: var(--color-text-muted);">Option D</label>
+          <label style="font-size: 9px; color: var(--color-text-muted);">Option 4</label>
           <input type="text" id="edit-optd-${qid}" value="${q.option_d}" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px; width: 100%; font-size: 10px;">
         </div>
       </div>
       <div class="input-group" style="margin-bottom: 6px;">
         <label style="font-size: 10px; color: var(--color-text-muted);">Correct Option</label>
         <select id="edit-correct-${qid}" style="background: var(--color-surface-screen); color: white; border: 1px solid var(--color-card-border); padding: 4px; font-size: 10px; border-radius: var(--radius-xs);">
-          <option value="A" ${q.correct_option === 'A' ? 'selected' : ''}>Option A</option>
-          <option value="B" ${q.correct_option === 'B' ? 'selected' : ''}>Option B</option>
-          <option value="C" ${q.correct_option === 'C' ? 'selected' : ''}>Option C</option>
-          <option value="D" ${q.correct_option === 'D' ? 'selected' : ''}>Option D</option>
+          <option value="1" ${String(q.correct_option) === '1' ? 'selected' : ''}>Option 1</option>
+          <option value="2" ${String(q.correct_option) === '2' ? 'selected' : ''}>Option 2</option>
+          <option value="3" ${String(q.correct_option) === '3' ? 'selected' : ''}>Option 3</option>
+          <option value="4" ${String(q.correct_option) === '4' ? 'selected' : ''}>Option 4</option>
+          <option value="5" ${String(q.correct_option) === '5' ? 'selected' : ''}>Option 5 (अनुत्तरित)</option>
         </select>
       </div>
       <div class="input-group" style="margin-bottom: 6px;">

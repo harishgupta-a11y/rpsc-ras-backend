@@ -3107,54 +3107,53 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 for (const line of lines) {
                     const trimmedLine = line.trim();
                     
-                    // Punctuation option markers (e.g. A) option text)
-                    if (/^(?:A|1)\s*[\)\.:\-\|]/i.test(trimmedLine)) {
-                        currentOptionState = 'A';
-                        optionA = cleanFieldText(trimmedLine.replace(/^(?:A|1)\s*[\)\.:\-\|]*/i, '').trim());
+                    // STRICT NUMERIC OPTION MARKERS (1, 2, 3, 4)
+                    // We strictly reserve A, B, C, D for statements inside the question body and match columns
+                    if (/^(?:1[\)\.:\-\|]|\(1\))\s*/.test(trimmedLine)) {
+                        currentOptionState = '1';
+                        optionA = cleanFieldText(trimmedLine.replace(/^(?:1[\)\.:\-\|]|\(1\))\s*/, '').trim());
                         continue;
                     }
-                    if (/^(?:B|2)\s*[\)\.:\-\|]/i.test(trimmedLine)) {
-                        currentOptionState = 'B';
-                        optionB = cleanFieldText(trimmedLine.replace(/^(?:B|2)\s*[\)\.:\-\|]*/i, '').trim());
+                    if (/^(?:2[\)\.:\-\|]|\(2\))\s*/.test(trimmedLine)) {
+                        currentOptionState = '2';
+                        optionB = cleanFieldText(trimmedLine.replace(/^(?:2[\)\.:\-\|]|\(2\))\s*/, '').trim());
                         continue;
                     }
-                    if (/^(?:C|3)\s*[\)\.:\-\|]/i.test(trimmedLine)) {
-                        currentOptionState = 'C';
-                        optionC = cleanFieldText(trimmedLine.replace(/^(?:C|3)\s*[\)\.:\-\|]*/i, '').trim());
+                    if (/^(?:3[\)\.:\-\|]|\(3\))\s*/.test(trimmedLine)) {
+                        currentOptionState = '3';
+                        optionC = cleanFieldText(trimmedLine.replace(/^(?:3[\)\.:\-\|]|\(3\))\s*/, '').trim());
                         continue;
                     }
-                    if (/^(?:D|4)\s*[\)\.:\-\|]/i.test(trimmedLine)) {
-                        currentOptionState = 'D';
-                        optionD = cleanFieldText(trimmedLine.replace(/^(?:D|4)\s*[\)\.:\-\|]*/i, '').trim());
-                        continue;
-                    }
-                    
-                    // Table single-character option markers (e.g. "A" on a line by itself)
-                    if (/^(?:A|1)$/i.test(trimmedLine)) {
-                        currentOptionState = 'A';
-                        continue;
-                    }
-                    if (/^(?:B|2)$/i.test(trimmedLine)) {
-                        currentOptionState = 'B';
-                        continue;
-                    }
-                    if (/^(?:C|3)$/i.test(trimmedLine)) {
-                        currentOptionState = 'C';
-                        continue;
-                    }
-                    if (/^(?:D|4)$/i.test(trimmedLine)) {
-                        currentOptionState = 'D';
+                    if (/^(?:4[\)\.:\-\|]|\(4\))\s*/.test(trimmedLine)) {
+                        currentOptionState = '4';
+                        optionD = cleanFieldText(trimmedLine.replace(/^(?:4[\)\.:\-\|]|\(4\))\s*/, '').trim());
                         continue;
                     }
                     
-                    // Answer trigger
-                    if (/^(?:Answer|Ans|Correct)[:\s]*([A-E1-5])/i.test(trimmedLine)) {
+                    // Single-digit option markers on a line by itself
+                    if (/^1$/.test(trimmedLine)) {
+                        currentOptionState = '1';
+                        continue;
+                    }
+                    if (/^2$/.test(trimmedLine)) {
+                        currentOptionState = '2';
+                        continue;
+                    }
+                    if (/^3$/.test(trimmedLine)) {
+                        currentOptionState = '3';
+                        continue;
+                    }
+                    if (/^4$/.test(trimmedLine)) {
+                        currentOptionState = '4';
+                        continue;
+                    }
+                    
+                    // Answer trigger (strictly numeric 1-5)
+                    if (/^(?:Answer|Ans|Correct|उत्तर)[:\s]*([1-5])/i.test(trimmedLine)) {
                         currentOptionState = '';
-                        const m = trimmedLine.match(/^(?:Answer|Ans|Correct)[:\s]*([A-E1-5])/i);
+                        const m = trimmedLine.match(/^(?:Answer|Ans|Correct|उत्तर)[:\s]*([1-5])/i);
                         if (m) {
-                            const rawOpt = m[1].toUpperCase();
-                            const letterMap = { 'A': '1', 'B': '2', 'C': '3', 'D': '4', 'E': '5' };
-                            correctOpt = letterMap[rawOpt] || rawOpt;
+                            correctOpt = m[1].trim();
                         }
                         parsingExplanation = false;
                         continue;
@@ -3187,13 +3186,13 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                     // Append content based on current parsing state
                     if (parsingExplanation) {
                         explanationLines.push(trimmedLine);
-                    } else if (currentOptionState === 'A') {
+                    } else if (currentOptionState === '1') {
                         optionA = optionA ? (optionA + " " + trimmedLine) : trimmedLine;
-                    } else if (currentOptionState === 'B') {
+                    } else if (currentOptionState === '2') {
                         optionB = optionB ? (optionB + " " + trimmedLine) : trimmedLine;
-                    } else if (currentOptionState === 'C') {
+                    } else if (currentOptionState === '3') {
                         optionC = optionC ? (optionC + " " + trimmedLine) : trimmedLine;
-                    } else if (currentOptionState === 'D') {
+                    } else if (currentOptionState === '4') {
                         optionD = optionD ? (optionD + " " + trimmedLine) : trimmedLine;
                     } else {
                         // Skip table headers
@@ -3219,7 +3218,7 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 }
             }
             if (parsedQuestions.length === 0) {
-                return res.status(400).json({ error: "Could not parse any MCQs. Please ensure format uses Q., A), B), C), D) and Answer: triggers." });
+                return res.status(400).json({ error: "Could not parse any MCQs. Please ensure format uses Q., 1), 2), 3), 4) and Answer: triggers." });
             }
             if (examId) {
                 // Check if any parsed question is missing topic or subtopic names
