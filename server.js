@@ -1944,6 +1944,90 @@ function cleanFieldText(text) {
     return clean;
 }
 
+function formatMatchTableInQuestionText(qText) {
+    if (!qText || (qText.includes('|') && qText.includes('---'))) {
+        return qText;
+    }
+
+    const lines = qText.split('\n').map(l => l.trim()).filter(Boolean);
+    
+    const isMatch = lines.some(l => /^(?:Match|सूची|स्तंभ|सुमेलित)/i.test(l)) &&
+                    lines.some(l => /^(?:List-I|List I|सूची-I|सूची I|स्तंभ-I|स्तंभ I)/i.test(l)) &&
+                    lines.some(l => /^(?:List-II|List II|सूची-II|सूची II|स्तंभ-II|स्तंभ II)/i.test(l));
+
+    if (!isMatch) return qText;
+
+    let intro = [];
+    let header1 = '';
+    let header2 = '';
+    let col1Items = [];
+    let col2Items = [];
+    let footer = [];
+
+    let state = 'INTRO';
+
+    for (let i = 0; i < lines.length; i++) {
+        const l = lines[i];
+
+        if (/^(?:Match List-I with List-II|सूची-I को सूची-II से सुमेलित कीजिए)/i.test(l)) {
+            intro.push(l);
+            continue;
+        }
+
+        if (/^(?:List-I|List I|सूची-I|सूची I|स्तंभ-I|स्तंभ I)/i.test(l) && !header1) {
+            header1 = l;
+            continue;
+        }
+
+        if (/^(?:List-II|List II|सूची-II|सूची II|स्तंभ-II|स्तंभ II)/i.test(l) && !header2) {
+            header2 = l;
+            continue;
+        }
+
+        if (/^(?:Select the correct code|नीचे दिए गए विकल्पों|सही कूट|Choose the correct)/i.test(l)) {
+            state = 'FOOTER';
+            footer.push(l);
+            continue;
+        }
+
+        if (state === 'FOOTER') {
+            footer.push(l);
+            continue;
+        }
+
+        if (/^[WXYZABCD]\.\s*/i.test(l)) {
+            col1Items.push(l);
+        } else if (/^(?:I|II|III|IV|V|1|2|3|4|5)\.\s*/i.test(l)) {
+            col2Items.push(l);
+        } else {
+            if (col2Items.length === col1Items.length && col2Items.length > 0) {
+                col2Items[col2Items.length - 1] += ' ' + l;
+            } else if (col1Items.length > col2Items.length) {
+                col1Items[col1Items.length - 1] += ' ' + l;
+            } else if (!header1) {
+                intro.push(l);
+            }
+        }
+    }
+
+    if (col1Items.length > 0 && col1Items.length === col2Items.length) {
+        let table = [];
+        table.push(`| ${header1 || 'List-I'} | ${header2 || 'List-II'} |`);
+        table.push(`| :--- | :--- |`);
+        for (let j = 0; j < col1Items.length; j++) {
+            table.push(`| ${col1Items[j]} | ${col2Items[j]} |`);
+        }
+
+        const parts = [];
+        if (intro.length) parts.push(intro.join('\n'));
+        parts.push(table.join('\n'));
+        if (footer.length) parts.push(footer.join('\n'));
+        return parts.join('\n\n');
+    }
+
+    return qText;
+}
+
 // --- Admin Route: Upload and Ingest docx ---
 app.post('/api/admin/upload-questions', async (req, res) => {
     return res.status(400).json({ error: "File upload is deprecated. Please use the Google Doc link ingestion pipeline." });
@@ -2722,6 +2806,8 @@ app.post('/api/admin/update-question', async (req, res) => {
         return res.status(400).json({ error: "Source and Question ID are required." });
     }
     const qid = parseInt(questionId);
+    const letterMap = { 'A': '1', 'B': '2', 'C': '3', 'D': '4', 'E': '5' };
+    const normCorrect = (correctOption && letterMap[correctOption.trim().toUpperCase()]) ? letterMap[correctOption.trim().toUpperCase()] : correctOption;
 
     try {
         if (source === 'PRE_TOPICS' || source === 'PRE_SUBTOPICS') {
@@ -2729,7 +2815,7 @@ app.post('/api/admin/update-question', async (req, res) => {
                 UPDATE questions 
                 SET question_text = ?, option_a = ?, option_b = ?, option_c = ?, option_d = ?, correct_option = ?, detailed_explanation = ?
                 WHERE question_id = ?
-            `, [questionText, optionA, optionB, optionC, optionD, correctOption, detailedExplanation, qid]);
+            `, [questionText, optionA, optionB, optionC, optionD, normCorrect, detailedExplanation, qid]);
         } else if (source === 'MAINS_TOPICS' || source === 'MAINS_SUBTOPICS') {
             await db.run(`
                 UPDATE mains_questions 
@@ -2749,7 +2835,7 @@ app.post('/api/admin/update-question', async (req, res) => {
                     UPDATE pyq_questions 
                     SET question_text = ?, option_a = ?, option_b = ?, option_c = ?, option_d = ?, correct_option = ?, detailed_explanation = ?
                     WHERE pyq_question_id = ?
-                `, [questionText, optionA, optionB, optionC, optionD, correctOption, detailedExplanation, qid]);
+                `, [questionText, optionA, optionB, optionC, optionD, normCorrect, detailedExplanation, qid]);
             }
         }
         res.status(200).json({ message: "Question updated successfully." });
@@ -3062,16 +3148,13 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                     }
                     
                     // Answer trigger
-                    if (/^(?:Answer|Ans|Correct)[:\s]*([A-D1-4])/i.test(trimmedLine)) {
+                    if (/^(?:Answer|Ans|Correct)[:\s]*([A-E1-5])/i.test(trimmedLine)) {
                         currentOptionState = '';
-                        const m = trimmedLine.match(/^(?:Answer|Ans|Correct)[:\s]*([A-D1-4])/i);
+                        const m = trimmedLine.match(/^(?:Answer|Ans|Correct)[:\s]*([A-E1-5])/i);
                         if (m) {
                             const rawOpt = m[1].toUpperCase();
-                            if (rawOpt === '1') correctOpt = 'A';
-                            else if (rawOpt === '2') correctOpt = 'B';
-                            else if (rawOpt === '3') correctOpt = 'C';
-                            else if (rawOpt === '4') correctOpt = 'D';
-                            else correctOpt = rawOpt;
+                            const letterMap = { 'A': '1', 'B': '2', 'C': '3', 'D': '4', 'E': '5' };
+                            correctOpt = letterMap[rawOpt] || rawOpt;
                         }
                         parsingExplanation = false;
                         continue;
@@ -3123,7 +3206,7 @@ app.post('/api/admin/upload-questions-from-gdoc', async (req, res) => {
                 
                 if (questionLines.length && optionA && optionB && optionC && optionD && correctOpt) {
                     parsedQuestions.push({
-                        question_text: await convertLaTeXTextToImages(cleanFieldText(questionLines.join('\n'))),
+                        question_text: await convertLaTeXTextToImages(cleanFieldText(formatMatchTableInQuestionText(questionLines.join('\n')))),
                         option_a: await convertLaTeXTextToImages(optionA),
                         option_b: await convertLaTeXTextToImages(optionB),
                         option_c: await convertLaTeXTextToImages(optionC),
