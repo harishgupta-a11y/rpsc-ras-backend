@@ -528,11 +528,12 @@ async function getYoutubeDetails(rawInput) {
 
 // --- Custom MCQ Quiz Generator Route (Gated, Strict No-Repeat Guard) ---
 app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
-    const { userId, topicIds, minuteTopicId, count, language, difficulty, month, year, questionFormat } = req.body;
+    const { userId, topicIds, minuteTopicId, count, language, difficulty, month, year, questionFormat, subjectId } = req.body;
     const lang = language || req.headers['x-user-language'] || 'EN';
+    const sId = subjectId || req.body.subject_id || req.query.subjectId || req.query.subject_id || null;
 
-    if (!userId || ((!topicIds || !Array.isArray(topicIds) || topicIds.length === 0) && !minuteTopicId)) {
-        return res.status(400).json({ error: "User ID and at least one Topic ID or Minute Topic ID are required." });
+    if (!userId) {
+        return res.status(400).json({ error: "User ID is required." });
     }
 
     const questionCount = parseInt(count) || 10;
@@ -541,8 +542,8 @@ app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
     const y = year ? parseInt(year) : null;
 
     try {
-        console.log(`[Quiz Engine] Compiling ${questionCount} questions. Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${lang}`, `Difficulty: ${diff}`, `Month: ${m}`, `Year: ${y}`);
-        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId, diff, m, y, questionFormat || 'ALL');
+        console.log(`[Quiz Engine] Compiling ${questionCount} questions. SubjectId: ${sId}, Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${lang}`, `Difficulty: ${diff}`, `Month: ${m}`, `Year: ${y}`);
+        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId, diff, m, y, questionFormat || 'ALL', sId);
 
         res.status(200).json({
             user_id: userId,

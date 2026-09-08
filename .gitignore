@@ -3,3 +3,6 @@ database/*.db
 database/*.db-journal
 .env
 test_db.js
+sync_render_env.js
+database/seed_current_affairs_and_survey.js
+database/test_*.js

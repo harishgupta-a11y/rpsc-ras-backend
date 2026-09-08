@@ -1972,7 +1972,7 @@ module.exports = {
     },
 
     // Strict No-Repeat Quiz Generator (with Language Filter, Difficulty & Minute Topic support)
-    generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null, difficulty = 'ALL', month = null, year = null, questionFormat = 'ALL') => {
+    generateQuiz: async (userId, topicIds, limit = 10, language = 'EN', minuteTopicId = null, difficulty = 'ALL', month = null, year = null, questionFormat = 'ALL', subjectId = null) => {
         // Enforce Strict No-Repeat Guard, language and difficulty filter
         let questions = [];
         const diffFilter = (difficulty && difficulty !== 'ALL') ? " AND q.difficulty = ? " : "";
@@ -1995,14 +1995,21 @@ module.exports = {
                          " AND q.question_text NOT LIKE '%Assertion%Reason%' AND q.question_text NOT LIKE '%कथन%कारण%' AND q.question_text NOT LIKE '%अभिकथन%कारण%' " +
                          " AND q.question_text NOT LIKE '%Column%' AND q.question_text NOT LIKE '%List%' AND q.question_text NOT LIKE '%स्तंभ%' AND q.question_text NOT LIKE '%सूची%' ";
         } else if (questionFormat === 'CHRONOLOGY') {
-          formatFilter = " AND (q.question_text LIKE '%chronological%' OR q.question_text LIKE '%कालक्रम%' OR q.question_text LIKE '%सही क्रम%' OR q.question_text LIKE '%कालक्रमानुसार%' OR q.question_text LIKE '%Arrange the following%') ";
+          formatFilter = " AND (" +
+                         "  q.question_text LIKE '%chronol%' OR q.question_text LIKE '%Arrange%' OR q.question_text LIKE '%sequence%' OR " +
+                         "  q.question_text LIKE '%order of%' OR q.question_text LIKE '%ascending order%' OR q.question_text LIKE '%descending order%' OR " +
+                         "  q.question_text LIKE '%कालक्रम%' OR q.question_text LIKE '%कालानुक्रम%' OR q.question_text LIKE '%कालक्रमीय%' OR q.question_text LIKE '%कालक्रमानुसार%' OR " +
+                         "  q.question_text LIKE '%सही क्रम%' OR q.question_text LIKE '%क्रम में%' OR q.question_text LIKE '%व्यवस्थित%' OR " +
+                         "  q.question_text LIKE '%आरोही क्रम%' OR q.question_text LIKE '%अवरोही क्रम%'" +
+                         ") ";
         } else if (questionFormat === 'NOT_MATCHED') {
           formatFilter = " AND (q.question_text LIKE '%not correctly matched%' OR q.question_text LIKE '%सुमेलित नहीं%' OR q.question_text LIKE '%सही नहीं है%' OR q.question_text LIKE '%असत्य%' OR q.question_text LIKE '%असंगत%') ";
         } else if (questionFormat === 'DIRECT') {
           formatFilter = " AND q.question_text NOT LIKE '%Assertion%Reason%' AND q.question_text NOT LIKE '%कथन%कारण%' AND q.question_text NOT LIKE '%अभिकथन%कारण%' " +
                          " AND q.question_text NOT LIKE '%Column%' AND q.question_text NOT LIKE '%List%' AND q.question_text NOT LIKE '%स्तंभ%' AND q.question_text NOT LIKE '%सूची%' AND q.question_text NOT LIKE '%सुमेलित%' AND q.question_text NOT LIKE '%मिलान%' " +
                          " AND q.question_text NOT LIKE '%Consider the following statements%' AND q.question_text NOT LIKE '%कथनों पर विचार%' AND q.question_text NOT LIKE '%statements%correct%' AND q.question_text NOT LIKE '%कथनों में से%सही%' " +
-                         " AND q.question_text NOT LIKE '%chronological%' AND q.question_text NOT LIKE '%कालक्रम%' AND q.question_text NOT LIKE '%कालक्रमानुसार%' " +
+                         " AND q.question_text NOT LIKE '%chronol%' AND q.question_text NOT LIKE '%Arrange%' AND q.question_text NOT LIKE '%sequence%' AND q.question_text NOT LIKE '%order of%' AND q.question_text NOT LIKE '%ascending order%' AND q.question_text NOT LIKE '%descending order%' " +
+                         " AND q.question_text NOT LIKE '%कालक्रम%' AND q.question_text NOT LIKE '%कालानुक्रम%' AND q.question_text NOT LIKE '%कालक्रमीय%' AND q.question_text NOT LIKE '%कालक्रमानुसार%' AND q.question_text NOT LIKE '%सही क्रम%' AND q.question_text NOT LIKE '%क्रम में%' AND q.question_text NOT LIKE '%व्यवस्थित%' AND q.question_text NOT LIKE '%आरोही क्रम%' AND q.question_text NOT LIKE '%अवरोही क्रम%' " +
                          " AND q.question_text NOT LIKE '%not correctly matched%' AND q.question_text NOT LIKE '%सुमेलित नहीं%' AND q.question_text NOT LIKE '%सही नहीं है%' AND q.question_text NOT LIKE '%असत्य%' AND q.question_text NOT LIKE '%असंगत%' ";
         }
 
@@ -2024,7 +2031,7 @@ module.exports = {
                 ORDER BY RANDOM()
                 LIMIT ?
             `, [minuteTopicId, language, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
-        } else {
+        } else if (topicIds && Array.isArray(topicIds) && topicIds.length > 0) {
             const placeholders = topicIds.map(() => '?').join(',');
             questions = await all(`
                 SELECT q.*, t.topic_name FROM questions q
@@ -2038,6 +2045,33 @@ module.exports = {
                 ORDER BY RANDOM()
                 LIMIT ?
             `, [...topicIds, language, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
+        } else if (subjectId) {
+            questions = await all(`
+                SELECT q.*, t.topic_name FROM questions q
+                JOIN topics t ON q.topic_id = t.topic_id
+                JOIN units u ON t.unit_id = u.unit_id
+                WHERE u.subject_id = ?
+                  AND (q.language = ? OR ? = '')
+                  ${diffFilter}
+                  ${caFilter}
+                  ${formatFilter}
+                  ${userHistoryFilter}
+                ORDER BY RANDOM()
+                LIMIT ?
+            `, [subjectId, language, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
+        } else {
+            // General / Mixed Daily 10-Q Target across all subjects
+            questions = await all(`
+                SELECT q.*, t.topic_name FROM questions q
+                JOIN topics t ON q.topic_id = t.topic_id
+                WHERE (q.language = ? OR ? = '')
+                  ${diffFilter}
+                  ${caFilter}
+                  ${formatFilter}
+                  ${userHistoryFilter}
+                ORDER BY RANDOM()
+                LIMIT ?
+            `, [language, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
         }
 
         // Guard: Recycle previously attempted questions if the pool is exhausted
@@ -2084,8 +2118,7 @@ module.exports = {
                     recycledQuestions.push(...relaxedDiffQs);
                 }
 
-                // Tier 3: If still 0 questions found for this subtopic (e.g. language or strict format mismatch),
-                // guarantee questions from this exact subtopic so user is never rejected with empty screen!
+                // Tier 3: If still 0 questions found for this subtopic, guarantee questions from this exact subtopic
                 if (recycledQuestions.length === 0 && questions.length === 0) {
                     recycledQuestions = await all(`
                         SELECT q.*, t.topic_name FROM questions q
@@ -2095,7 +2128,7 @@ module.exports = {
                         LIMIT ?
                     `, [minuteTopicId, limit]);
                 }
-            } else {
+            } else if (topicIds && Array.isArray(topicIds) && topicIds.length > 0) {
                 const placeholders = topicIds.map(() => '?').join(',');
                 recycledQuestions = await all(`
                     SELECT q.*, t.topic_name FROM questions q
@@ -2127,6 +2160,72 @@ module.exports = {
                         LIMIT ?
                     `, [...topicIds, language, language, ...caParams, ...curParams, needed]);
                     recycledQuestions.push(...relaxedDiffQs);
+                }
+            } else if (subjectId) {
+                recycledQuestions = await all(`
+                    SELECT q.*, t.topic_name FROM questions q
+                    JOIN topics t ON q.topic_id = t.topic_id
+                    JOIN units u ON t.unit_id = u.unit_id
+                    WHERE u.subject_id = ?
+                      AND (q.language = ? OR ? = '')
+                      ${diffFilter}
+                      ${caFilter}
+                      ${formatFilter}
+                      ${loadedFilter}
+                    ORDER BY RANDOM()
+                    LIMIT ?
+                `, [subjectId, language, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
+
+                if (recycledQuestions.length < extraLimit && diffFilter) {
+                    const currentIds = [...loadedIds, ...recycledQuestions.map(q => q.question_id)];
+                    const curFilter = currentIds.length > 0 ? ` AND q.question_id NOT IN (${currentIds.map(() => '?').join(',')}) ` : "";
+                    const curParams = currentIds.length > 0 ? currentIds : [];
+                    const needed = extraLimit - recycledQuestions.length;
+                    const relaxedDiffQs = await all(`
+                        SELECT q.*, t.topic_name FROM questions q
+                        JOIN topics t ON q.topic_id = t.topic_id
+                        JOIN units u ON t.unit_id = u.unit_id
+                        WHERE u.subject_id = ?
+                          AND (q.language = ? OR ? = '')
+                          ${caFilter}
+                          ${formatFilter}
+                          ${curFilter}
+                        ORDER BY RANDOM()
+                        LIMIT ?
+                    `, [subjectId, language, language, ...caParams, ...curParams, needed]);
+                    recycledQuestions.push(...relaxedDiffQs);
+                }
+
+                if (recycledQuestions.length === 0 && questions.length === 0) {
+                    recycledQuestions = await all(`
+                        SELECT q.*, t.topic_name FROM questions q
+                        JOIN topics t ON q.topic_id = t.topic_id
+                        JOIN units u ON t.unit_id = u.unit_id
+                        WHERE u.subject_id = ?
+                        ORDER BY RANDOM()
+                        LIMIT ?
+                    `, [subjectId, limit]);
+                }
+            } else {
+                recycledQuestions = await all(`
+                    SELECT q.*, t.topic_name FROM questions q
+                    JOIN topics t ON q.topic_id = t.topic_id
+                    WHERE (q.language = ? OR ? = '')
+                      ${diffFilter}
+                      ${caFilter}
+                      ${formatFilter}
+                      ${loadedFilter}
+                    ORDER BY RANDOM()
+                    LIMIT ?
+                `, [language, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
+
+                if (recycledQuestions.length === 0 && questions.length === 0) {
+                    recycledQuestions = await all(`
+                        SELECT q.*, t.topic_name FROM questions q
+                        JOIN topics t ON q.topic_id = t.topic_id
+                        ORDER BY RANDOM()
+                        LIMIT ?
+                    `, [limit]);
                 }
             }
 
@@ -2277,8 +2376,8 @@ module.exports = {
                 return;
             }
             
-            // Check Chronology
-            const isChrono = /chronological|कालक्रम|सही क्रम|कालक्रमानुसार|क्रम में व्यवस्थित/i.test(text);
+            // Check Chronology / Sequence
+            const isChrono = /chronol|arrange|sequence|ascending\s+order|descending\s+order|कालक्रम|कालानुक्रम|कालक्रमीय|कालक्रमानुसार|सही\s*क्रम|क्रम\s*में|व्यवस्थित|आरोही\s*क्रम|अवरोही\s*क्रम/i.test(text);
             if (isChrono) {
                 chronoTotal++;
                 if (attempted) chronoAttempted++;
@@ -2477,15 +2576,20 @@ module.exports = {
         if (deficit > 0) {
             const currentIds = selectedQuestions.map(q => q.question_id);
             const placeholders = currentIds.length > 0 ? currentIds.map(() => '?').join(',') : '0';
-            
+            const allowedSubIds = Object.keys(targets).map(Number);
+            const subPlaceholders = allowedSubIds.map(() => '?').join(',');
+
+            // Strictly restrict to ONLY the allowed subjects in this test series - NEVER borrow from unrelated subjects!
             const fillQs = await all(`
                 SELECT q.* FROM questions q
                 JOIN topics t ON q.topic_id = t.topic_id
                 JOIN units u ON t.unit_id = u.unit_id
-                WHERE q.language = ? AND q.question_id NOT IN (${placeholders})
+                WHERE u.subject_id IN (${subPlaceholders})
+                  AND q.language = ? 
+                  AND q.question_id NOT IN (${placeholders})
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [language, ...currentIds, deficit]);
+            `, [...allowedSubIds, language, ...currentIds, deficit]);
 
             selectedQuestions.push(...fillQs);
         }
