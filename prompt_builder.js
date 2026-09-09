@@ -151,7 +151,7 @@ Explanation:
 
 DIFFICULTY & TONE:
 - Advanced / Tough IAS level. Analytical and conceptual, requiring high precision.
-- Human-Made Style: Keep question text crisp, punchy, and direct. Remove all unnecessary AI verbosity and wordy introductions.
+- Human-Made Style: Keep question text crisp, punchy, and direct. Remove all unnecessary automated verbosity and wordy introductions.
 - Zero Summarization: Do not omit micro-facts, exact constitutional clauses, numerical data, dates, committee names, or act sections.
 - Anti-Reference Ban: Zero bracketed citations like (p. 12), [1], or phrases like "As per the text" / "According to the document". State facts as authoritative, standalone truths.
 - Latest Data: Incorporate developments and macroeconomic figures up to Union Budget 2026-27, Economic Survey 2025-26, and latest RBI MPC updates where applicable.

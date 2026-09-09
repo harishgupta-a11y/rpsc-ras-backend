@@ -296,6 +296,24 @@ async function generateAndPersistQuestions(db, {
         const enQ = parsedEnQuestions[i];
         const hiQ = parsedHiQuestions[i] || null;
 
+        // Purity check: ensure English questions do not contain predominantly Hindi Devanagari text
+        const devanagariCount = (enQ.question_text.match(/[\u0900-\u097F]/g) || []).length;
+        const totalChars = enQ.question_text.replace(/\s+/g, '').length;
+        if (totalChars > 0 && (devanagariCount / totalChars) > 0.15) {
+            console.log(`[Auto Generator] REJECTED English question due to Hindi contamination (${(devanagariCount / totalChars * 100).toFixed(1)}%): "${enQ.question_text.slice(0, 60)}..."`);
+            continue;
+        }
+
+        // If Hindi translation is available, verify that Hindi version actually contains Hindi
+        if (hiQ) {
+            const hiDevanagari = (hiQ.question_text.match(/[\u0900-\u097F]/g) || []).length;
+            const hiTotalChars = hiQ.question_text.replace(/\s+/g, '').length;
+            if (hiTotalChars > 0 && (hiDevanagari / hiTotalChars) < 0.20) {
+                console.log(`[Auto Generator] REJECTED Hindi translation due to lack of Hindi characters: "${hiQ.question_text.slice(0, 60)}..."`);
+                continue;
+            }
+        }
+
         let maxOverlap = 0;
         let mostSimilarQ = null;
 
@@ -315,7 +333,11 @@ async function generateAndPersistQuestions(db, {
         }
     }
 
-    const enToInsert = approvedEnQuestions.length > 0 ? approvedEnQuestions : parsedEnQuestions;
+    const enToInsert = approvedEnQuestions.length > 0 ? approvedEnQuestions : parsedEnQuestions.filter(q => {
+        const devCount = (q.question_text.match(/[\u0900-\u097F]/g) || []).length;
+        const chars = q.question_text.replace(/\s+/g, '').length;
+        return chars === 0 || (devCount / chars) <= 0.15;
+    });
     const hiToInsert = approvedHiQuestions.length > 0 ? approvedHiQuestions : parsedHiQuestions;
 
     // 6. Persist paired questions into Turso database (both EN and HI)

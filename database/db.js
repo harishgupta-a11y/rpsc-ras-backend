@@ -2137,23 +2137,32 @@ module.exports = {
                     recycledQuestions.push(...relaxedFormatQs);
                 }
 
-                // Tier 4: Guarantee questions from parent topic in matching language, or trigger on-demand generation
-                if (recycledQuestions.length === 0 && questions.length === 0) {
-                    recycledQuestions = await all(`
+                // Tier 4: Guarantee questions from parent topic in matching language, or trigger on-demand generation for shortfall
+                if (questions.length + recycledQuestions.length < limit) {
+                    const currentTotal = questions.length + recycledQuestions.length;
+                    const needed = limit - currentTotal;
+                    const currentIds = [...loadedIds, ...recycledQuestions.map(q => q.question_id)];
+                    const curFilter = currentIds.length > 0 ? ` AND q.question_id NOT IN (${currentIds.map(() => '?').join(',')}) ` : "";
+                    const curParams = currentIds.length > 0 ? currentIds : [];
+
+                    const parentQs = await all(`
                         SELECT q.*, t.topic_name FROM questions q
                         JOIN topics t ON q.topic_id = t.topic_id
                         WHERE q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)
                           AND (q.language = ? OR ? = '')
+                          ${curFilter}
                         ORDER BY RANDOM()
                         LIMIT ?
-                    `, [minuteTopicId, language, language, limit]);
+                    `, [minuteTopicId, language, language, ...curParams, needed]);
+                    recycledQuestions.push(...parentQs);
 
-                    // If still 0 questions in requested language, generate on demand in that exact language
-                    if (recycledQuestions.length === 0) {
+                    // If still fewer than limit questions in requested language, generate shortfall on demand in that exact language
+                    if (questions.length + recycledQuestions.length < limit) {
                         try {
                             const mt = await get("SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?", [minuteTopicId]);
                             if (mt && mt.topic_id) {
-                                console.log(`[Quiz Engine] 0 questions in ${language} for Topic ${mt.topic_id}. Triggering on-demand generation...`);
+                                const shortfall = limit - (questions.length + recycledQuestions.length);
+                                console.log(`[Quiz Engine] Shortfall of ${shortfall} questions in ${language} for Subtopic ${minuteTopicId}. Triggering on-demand generation...`);
                                 const { generateAndPersistQuestions } = require('../auto_question_generator');
                                 const onDemand = await generateAndPersistQuestions(module.exports, {
                                     topicId: mt.topic_id,
@@ -2161,7 +2170,7 @@ module.exports = {
                                     language: language,
                                     difficulty: difficulty && difficulty !== 'ALL' ? difficulty : 'FOUNDATION',
                                     questionFormat: questionFormat && questionFormat !== 'ALL' ? questionFormat : 'CLASSICAL',
-                                    count: limit
+                                    count: Math.max(shortfall, 10)
                                 });
                                 if (onDemand && onDemand.length > 0) {
                                     recycledQuestions.push(...onDemand);

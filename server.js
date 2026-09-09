@@ -629,12 +629,14 @@ app.all(['/api/quiz/generate', '/quiz/generate'], checkSubscription, async (req,
         console.log(`[Quiz Engine] Compiling ${count} questions. SubjectId: ${sId}, Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${language}`, `Difficulty: ${difficulty}`, `Month: ${month}`, `Year: ${year}`);
         let questions = await db.generateQuiz(userId, topicIds || [], count, language, minuteTopicId, difficulty, month, year, questionFormat, sId);
 
-        if ((!questions || questions.length === 0) && (minuteTopicId || (topicIds && topicIds.length > 0) || sId)) {
-            console.log(`[Quiz Engine] 0 questions found for selection. Triggering automatic on-demand generation with user prompt...`);
+        if ((!questions || questions.length < count) && (minuteTopicId || (topicIds && topicIds.length > 0) || sId)) {
+            const currentLen = (questions || []).length;
+            const shortfall = count - currentLen;
+            console.log(`[Quiz Engine] Insufficient questions found (${currentLen}/${count}). Triggering automatic on-demand generation with user prompt...`);
             try {
                 const autoGen = require('./auto_question_generator');
                 const firstTopic = (topicIds && topicIds.length > 0) ? topicIds[0] : null;
-                const genCount = Math.max(count, 10);
+                const genCount = Math.max(shortfall, 10);
                 const genQuestions = await autoGen.generateAndPersistQuestions(db, {
                     topicId: firstTopic,
                     minuteTopicId: minuteTopicId,
@@ -645,7 +647,13 @@ app.all(['/api/quiz/generate', '/quiz/generate'], checkSubscription, async (req,
                     count: genCount
                 });
                 if (genQuestions && genQuestions.length > 0) {
-                    questions = genQuestions.slice(0, count);
+                    if (!questions) questions = [];
+                    const existingIds = new Set(questions.map(q => q.question_id));
+                    for (const gq of genQuestions) {
+                        if (!existingIds.has(gq.question_id) && questions.length < count) {
+                            questions.push(gq);
+                        }
+                    }
                 }
             } catch (autoErr) {
                 console.error('[Quiz Engine] Automatic generation fallback error:', autoErr.message);

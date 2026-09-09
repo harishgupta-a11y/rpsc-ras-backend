@@ -72,7 +72,11 @@ const CYCLE_STEPS = [
     { format: 'ASSERTION_REASON', difficulty: 'FOUNDATION' },
     { format: 'ASSERTION_REASON', difficulty: 'ADVANCED' },
     { format: 'MATCH', difficulty: 'FOUNDATION' },
-    { format: 'MATCH', difficulty: 'ADVANCED' }
+    { format: 'MATCH', difficulty: 'ADVANCED' },
+    { format: 'CHRONOLOGY', difficulty: 'FOUNDATION' },
+    { format: 'CHRONOLOGY', difficulty: 'ADVANCED' },
+    { format: 'NOT_MATCHED', difficulty: 'FOUNDATION' },
+    { format: 'NOT_MATCHED', difficulty: 'ADVANCED' }
 ];
 
 async function runWorkerLoop() {
@@ -87,55 +91,61 @@ async function runWorkerLoop() {
     updateLiveStatus({ 
         isRunning: true, 
         status: 'RUNNING', 
-        last_message: 'Worker started 24/7 cloud generation' 
+        last_message: 'Worker started 24/7 cloud generation from Topic 1 Subtopic 1' 
     });
 
     let sessionGenerated = 0;
 
     while (!shouldStop) {
         try {
-            // Fetch topics ordered by question count ascending (lowest count first)
-            const topics = await db.all(`
-                SELECT s.subject_id, s.subject_name, t.topic_id, t.topic_name, count(q.question_id) as q_cnt
-                FROM subjects s
-                JOIN units u ON s.subject_id = u.subject_id
-                JOIN topics t ON u.unit_id = t.unit_id
-                LEFT JOIN questions q ON t.topic_id = q.topic_id
-                GROUP BY s.subject_id, s.subject_name, t.topic_id, t.topic_name
-                ORDER BY q_cnt ASC, t.topic_id ASC
+            // Fetch all subtopics systematically, starting from Topic 1 Subtopic 1
+            const subtopics = await db.all(`
+                SELECT 
+                    s.subject_id, s.subject_name, 
+                    t.topic_id, t.topic_name, 
+                    m.minute_topic_id, m.minute_topic_name,
+                    COUNT(q.question_id) as q_cnt
+                FROM minute_topics m
+                JOIN topics t ON m.topic_id = t.topic_id
+                JOIN units u ON t.unit_id = u.unit_id
+                JOIN subjects s ON u.subject_id = s.subject_id
+                LEFT JOIN questions q ON (q.minute_topic_id = m.minute_topic_id)
+                WHERE m.language = 'EN'
+                GROUP BY s.subject_id, s.subject_name, t.topic_id, t.topic_name, m.minute_topic_id, m.minute_topic_name
+                ORDER BY q_cnt ASC, t.topic_id ASC, m.minute_topic_id ASC
             `);
 
-            if (!topics || topics.length === 0) {
-                appendLog('[Cloud Worker] No topics found in database. Sleeping 30s...');
+            if (!subtopics || subtopics.length === 0) {
+                appendLog('[Cloud Worker] No subtopics found in database. Sleeping 30s...');
                 await sleep(30000);
                 continue;
             }
 
-            appendLog(`[Cloud Worker] Loaded ${topics.length} syllabus topics. Lowest count topic: Topic ${topics[0].topic_id} ("${topics[0].topic_name}" - ${topics[0].q_cnt} questions).`);
+            appendLog(`[Cloud Worker] Loaded ${subtopics.length} syllabus subtopics. Current target: Subtopic "${subtopics[0].minute_topic_name}" (Topic ${subtopics[0].topic_id} - ${subtopics[0].q_cnt} questions).`);
 
-            for (let tIdx = 0; tIdx < topics.length; tIdx++) {
+            for (let sIdx = 0; sIdx < subtopics.length; sIdx++) {
                 if (shouldStop) break;
 
-                const topic = topics[tIdx];
-                appendLog(`\n>>> [Cloud Worker] Target ${tIdx + 1}/${topics.length}: Topic ${topic.topic_id} "${topic.topic_name}" [Subject: ${topic.subject_name}] (Current: ${topic.q_cnt} qs)`);
+                const sub = subtopics[sIdx];
+                appendLog(`\n>>> [Cloud Worker] Subtopic Target ${sIdx + 1}/${subtopics.length}: Topic ${sub.topic_id} -> Subtopic ${sub.minute_topic_id} "${sub.minute_topic_name}" [Subject: ${sub.subject_name}] (Current: ${sub.q_cnt} qs)`);
 
                 for (const step of CYCLE_STEPS) {
                     if (shouldStop) break;
 
                     batchCounter++;
                     const stepLabel = `${step.format} (${step.difficulty})`;
-                    appendLog(`[Cloud Worker] Generating ${stepLabel} for Topic ${topic.topic_id}...`);
+                    appendLog(`[Cloud Worker] Generating ${stepLabel} for Subtopic "${sub.minute_topic_name}"...`);
                     updateLiveStatus({
                         isRunning: true,
                         status: 'RUNNING',
-                        current_topic_id: topic.topic_id,
-                        current_topic_name: topic.topic_name,
-                        currentTopic: `Topic ${topic.topic_id}: ${topic.topic_name}`,
+                        current_topic_id: sub.topic_id,
+                        current_topic_name: sub.topic_name,
+                        currentTopic: `Topic ${sub.topic_id}: ${sub.minute_topic_name}`,
                         currentFormat: stepLabel,
                         batchNumber: batchCounter,
-                        subject_name: topic.subject_name,
+                        subject_name: sub.subject_name,
                         language: 'Bilingual (EN + HI)',
-                        last_message: `Generating ${stepLabel} for Topic ${topic.topic_id} (${topic.topic_name})...`
+                        last_message: `Generating ${stepLabel} for Subtopic ${sub.minute_topic_id} (${sub.minute_topic_name})...`
                     });
 
                     let attempts = 0;
@@ -144,51 +154,49 @@ async function runWorkerLoop() {
                     while (attempts < 3 && !success && !shouldStop) {
                         attempts++;
                         try {
-                            // generateAndPersistQuestions generates in English using exact prompt,
-                            // translates to Hindi using exact translation prompt,
-                            // checks <60% overlap, and inserts both EN and HI pairs!
                             const inserted = await generateAndPersistQuestions(db, {
-                                topicId: topic.topic_id,
+                                topicId: sub.topic_id,
+                                minuteTopicId: sub.minute_topic_id,
                                 language: 'EN',
                                 difficulty: step.difficulty,
                                 questionFormat: step.format,
-                                count: 20
+                                count: 10
                             });
 
                             if (inserted && inserted.length > 0) {
                                 sessionGenerated += inserted.length;
                                 success = true;
 
-                                const tCountRes = await db.all('SELECT count(*) as cnt FROM questions WHERE topic_id = ?', [topic.topic_id]);
+                                const subCountRes = await db.all('SELECT count(*) as cnt FROM questions WHERE minute_topic_id = ?', [sub.minute_topic_id]);
                                 const dbTotalRes = await db.all('SELECT count(*) as total FROM questions');
-                                const topicTotal = tCountRes?.[0]?.cnt || 0;
+                                const subTotal = subCountRes?.[0]?.cnt || 0;
                                 const dbTotal = dbTotalRes?.[0]?.total || 0;
 
-                                const msg = `SUCCESS: Topic ${topic.topic_id} | ${stepLabel} | Added: ${inserted.length} bilingual pairs | Topic Total: ${topicTotal} | Total in DB: ${dbTotal}`;
+                                const msg = `SUCCESS: Topic ${sub.topic_id} | Subtopic ${sub.minute_topic_id} | ${stepLabel} | Added: ${inserted.length} bilingual pairs | Subtopic Total: ${subTotal} | Total in DB: ${dbTotal}`;
                                 appendLog(msg);
 
                                 updateLiveStatus({
                                     isRunning: true,
                                     status: 'RUNNING',
-                                    current_topic_id: topic.topic_id,
-                                    current_topic_name: topic.topic_name,
-                                    currentTopic: `Topic ${topic.topic_id}: ${topic.topic_name}`,
+                                    current_topic_id: sub.topic_id,
+                                    current_topic_name: sub.topic_name,
+                                    currentTopic: `Topic ${sub.topic_id}: ${sub.minute_topic_name}`,
                                     currentFormat: stepLabel,
                                     batchNumber: batchCounter,
                                     language: 'Bilingual (EN + HI)',
-                                    subject_name: topic.subject_name,
+                                    subject_name: sub.subject_name,
                                     last_format_completed: stepLabel,
                                     questions_added_last_batch: inserted.length,
                                     total_generated_this_session: sessionGenerated,
-                                    current_topic_question_count: topicTotal,
+                                    current_topic_question_count: subTotal,
                                     database_total_questions: dbTotal,
                                     last_message: msg
                                 });
                             } else {
-                                appendLog(`[Cloud Worker] 0 questions returned for ${stepLabel} on Topic ${topic.topic_id}. Retrying...`);
+                                appendLog(`[Cloud Worker] 0 questions returned for ${stepLabel} on Subtopic ${sub.minute_topic_id}. Retrying...`);
                             }
                         } catch (err) {
-                            appendLog(`[Cloud Worker] ERROR on Topic ${topic.topic_id} (${stepLabel}, attempt ${attempts}): ${err.message}`);
+                            appendLog(`[Cloud Worker] ERROR on Subtopic ${sub.minute_topic_id} (${stepLabel}, attempt ${attempts}): ${err.message}`);
                             if (err.message && (err.message.includes('429') || err.message.includes('quota'))) {
                                 appendLog('[Cloud Worker] Rate limit reached. Cooling down 20 seconds...');
                                 updateLiveStatus({

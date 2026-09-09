@@ -391,15 +391,16 @@ function updateVolumePills() {
   container.innerHTML = '';
   const count = state.formatStats?.[state.selectedFormat] || state.formatStats?.ALL || 10;
   
+  const baseOptions = [5, 10, 20];
   let options = [];
-  if (count <= 0) options = [10];
-  else if (count <= 5) options = [count];
-  else if (count <= 10) options = count === 5 ? [5] : [5, count];
-  else if (count <= 20) options = [5, 10, count];
-  else options = [10, 20, count];
+  if (count > 0 && !baseOptions.includes(count)) {
+    options = [...baseOptions, count].sort((a, b) => a - b);
+  } else {
+    options = baseOptions;
+  }
 
-  if (state.questionVolume > count || !options.includes(state.questionVolume)) {
-    state.questionVolume = options[options.length - 1];
+  if (!options.includes(state.questionVolume)) {
+    state.questionVolume = 10;
   }
 
   options.forEach(val => {
