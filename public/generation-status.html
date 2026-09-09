@@ -373,6 +373,53 @@
             color: var(--text-muted);
         }
 
+        .worker-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-worker-start {
+            background: rgba(16, 185, 129, 0.2);
+            color: #34d399;
+            border: 1px solid rgba(16, 185, 129, 0.4);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .btn-worker-start:hover {
+            background: rgba(16, 185, 129, 0.35);
+        }
+
+        .btn-worker-stop {
+            background: rgba(239, 68, 68, 0.2);
+            color: #f87171;
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .btn-worker-stop:hover {
+            background: rgba(239, 68, 68, 0.35);
+        }
+
+        .btn-worker-start:disabled, .btn-worker-stop:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
         footer {
             text-align: center;
             font-size: 12px;
@@ -413,8 +460,14 @@
                     <p id="worker-details">Connecting to backend service...</p>
                 </div>
             </div>
-            <div>
+            <div class="worker-actions">
                 <span class="worker-tag" id="worker-time">Checking...</span>
+                <button id="btn-worker-start" class="btn-worker-start" onclick="triggerWorkerStart()" style="display: none;">
+                    ▶ Resume 24/7 Cloud Worker
+                </button>
+                <button id="btn-worker-stop" class="btn-worker-stop" onclick="triggerWorkerStop()" style="display: none;">
+                    ⏸ Pause Cloud Worker
+                </button>
             </div>
         </div>
 
@@ -616,12 +669,31 @@
                 }
 
                 if (data.worker) {
-                    document.getElementById('worker-title').textContent = `Pipeline Active • Batch #${data.worker.batchNumber || 1}`;
-                    document.getElementById('worker-details').textContent = `Generating: ${data.worker.currentTopic || 'Active Topic'} (${data.worker.currentFormat || 'CLASSICAL'} • ${data.worker.language || 'HI'})`;
-                    document.getElementById('worker-time').textContent = data.worker.lastUpdated ? new Date(data.worker.lastUpdated).toLocaleTimeString() : 'Running';
+                    const isRunning = data.worker.isRunning;
+                    const batchNum = data.worker.batchNumber || 1;
+                    const statusText = isRunning ? '24/7 CLOUD ACTIVE' : (data.worker.status || 'PAUSED');
+
+                    document.getElementById('worker-title').textContent = isRunning
+                        ? `24/7 Cloud Pipeline Active • Batch #${batchNum}`
+                        : `Cloud Pipeline: ${statusText}`;
+
+                    document.getElementById('worker-details').textContent = data.worker.last_message ||
+                        (data.worker.currentTopic ? `Generating: ${data.worker.currentTopic} (${data.worker.currentFormat})` : 'Waiting for next batch cycle...');
+
+                    const timeTag = document.getElementById('worker-time');
+                    timeTag.textContent = statusText;
+                    timeTag.style.borderColor = isRunning ? 'var(--success)' : 'var(--warning)';
+                    timeTag.style.color = isRunning ? 'var(--success)' : 'var(--warning)';
+
+                    const startBtn = document.getElementById('btn-worker-start');
+                    const stopBtn = document.getElementById('btn-worker-stop');
+                    if (startBtn && stopBtn) {
+                        startBtn.style.display = isRunning ? 'none' : 'inline-flex';
+                        stopBtn.style.display = isRunning ? 'inline-flex' : 'none';
+                    }
                 } else {
                     document.getElementById('worker-title').textContent = `Cloud Pipeline Engine Online`;
-                    document.getElementById('worker-details').textContent = `Turso Cloud DB connected. 3,998+ questions available in production.`;
+                    document.getElementById('worker-details').textContent = `Turso Cloud DB connected. Over 4,000+ questions available in production.`;
                     document.getElementById('worker-time').textContent = '24/7 Cloud Ready';
                 }
             } else if (data.totalQuestionsInDb !== undefined) {
@@ -632,6 +704,36 @@
             }
 
             document.getElementById('last-updated').textContent = 'Last update: ' + new Date().toLocaleTimeString();
+        }
+
+        async function triggerWorkerStart() {
+            const btn = document.getElementById('btn-worker-start');
+            if (btn) btn.disabled = true;
+            try {
+                const res = await fetch('/api/admin/worker/start', { method: 'POST' });
+                const data = await res.json();
+                console.log("Worker start response:", data);
+                setTimeout(fetchStatus, 500);
+            } catch (e) {
+                alert('Worker action error: ' + e.message);
+            } finally {
+                if (btn) btn.disabled = false;
+            }
+        }
+
+        async function triggerWorkerStop() {
+            const btn = document.getElementById('btn-worker-stop');
+            if (btn) btn.disabled = true;
+            try {
+                const res = await fetch('/api/admin/worker/stop', { method: 'POST' });
+                const data = await res.json();
+                console.log("Worker stop response:", data);
+                setTimeout(fetchStatus, 500);
+            } catch (e) {
+                alert('Worker action error: ' + e.message);
+            } finally {
+                if (btn) btn.disabled = false;
+            }
         }
 
         function startCountdown() {

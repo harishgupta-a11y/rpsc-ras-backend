@@ -29,6 +29,7 @@ const aiEngine = require('./ai_engine');
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
+const cloudWorker = require('./continuous_worker');
 
 
 
@@ -135,11 +136,12 @@ app.get('/api/admin/generation-status', async (req, res) => {
             ORDER BY u.subject_id, t.topic_id
         `);
 
-        let workerStatus = null;
+        let workerStatus = cloudWorker.getWorkerStatus();
         const statusPath = path.join(__dirname, 'public', 'generation_status.json');
         if (fs.existsSync(statusPath)) {
             try {
-                workerStatus = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
+                const fileStatus = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
+                workerStatus = { ...fileStatus, ...workerStatus };
             } catch (e) {}
         }
 
@@ -154,6 +156,34 @@ app.get('/api/admin/generation-status', async (req, res) => {
         });
     } catch (err) {
         console.error("Error fetching generation status:", err.message);
+        res.status(500).json({ error: err.message });
+    }
+});
+
+// Cloud background worker control endpoints
+app.post('/api/admin/worker/start', (req, res) => {
+    try {
+        const result = cloudWorker.startWorker();
+        res.status(200).json(result);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.post('/api/admin/worker/stop', (req, res) => {
+    try {
+        const result = cloudWorker.stopWorker();
+        res.status(200).json(result);
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.get('/api/admin/worker/status', (req, res) => {
+    try {
+        const status = cloudWorker.getWorkerStatus();
+        res.status(200).json(status);
+    } catch (err) {
         res.status(500).json({ error: err.message });
     }
 });
@@ -4012,4 +4042,21 @@ app.listen(PORT, '0.0.0.0', () => {
         });
     }
     console.log(`====================================================`);
+
+    // Render 24/7 Keepalive Ping: Prevents cloud container from idling
+    const renderUrl = process.env.RENDER_EXTERNAL_URL || 'https://rpsc-ras-backend.onrender.com';
+    setInterval(async () => {
+        try {
+            const keepaliveRes = await axios.get(`${renderUrl}/api`, { timeout: 15000 });
+            console.log(`[Keepalive] Cloud ping OK (${keepaliveRes.status}) - ${new Date().toLocaleTimeString()}`);
+        } catch (pingErr) {
+            console.log(`[Keepalive] Cloud ping notice: ${pingErr.message}`);
+        }
+    }, 10 * 60 * 1000); // Ping every 10 minutes
+
+    // Auto-start continuous generation pipeline after 15s boot grace period
+    setTimeout(() => {
+        console.log('[Cloud Worker] Launching continuous 24/7 question generation pipeline...');
+        cloudWorker.startWorker();
+    }, 15000);
 });
