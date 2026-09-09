@@ -319,7 +319,7 @@ async function fetchFormatStatsAndProgress(subtopicId) {
 const FORMAT_CONFIGS = [
   { key: 'ALL', full: true, icon: '🔀', titleHi: 'मिश्रित प्रारूप (सभी)', titleEn: 'Mixed Formats (All)', descHi: 'सभी प्रारूप • वास्तविक परीक्षा अनुरूप', descEn: 'Real Exam Blend' },
   { key: 'DIRECT', icon: '⚡', titleHi: 'सीधे प्रश्न', titleEn: 'Direct MCQs', descHi: 'त्वरित तथ्य पुनरावृत्ति', descEn: 'Fast Recall' },
-  { key: 'CHRONOLOGY', icon: '⏱️', titleHi: 'सही कालक्रम', titleEn: 'Chronology', descHi: 'घटनाओं का कालक्रमानुसार क्रम', descEn: 'Chronological Sequence' },
+  { key: 'CHRONOLOGY', icon: '⏱️', titleHi: 'सही क्रम एवं व्यवस्था', titleEn: 'Sequence & Order', descHi: 'कालक्रम, आरोही एवं अवरोही क्रम', descEn: 'Timeline, Ascending & Descending Order' },
   { key: 'NOT_MATCHED', icon: '❌', titleHi: 'सुमेलित नहीं', titleEn: 'Not Matched', descHi: 'असंगत युग्म / असत्य कथन की पहचान', descEn: 'Find False / Mismatch' },
   { key: 'MATCH', icon: '🧩', titleHi: 'सुमेलित कीजिए', titleEn: 'Match Columns', descHi: 'सूची-I व सूची-II मिलान (4-कॉलम)', descEn: 'List I & II Grid' },
   { key: 'ASSERTION_REASON', icon: '⚖️', titleHi: 'कथन-कारण', titleEn: 'Assertion-Reason', descHi: 'अभिकथन (A) व कारण (R) तर्क', descEn: 'Logic & Reasoning' },
@@ -443,8 +443,27 @@ async function launchActiveQuiz(mode) {
     const diff = state.difficulty || 'ALL';
     const fmt = state.selectedFormat || 'ALL';
 
-    const url = `${API_BASE_URL}/quiz/generate?limit=${limit}&language=${lang}&minute_topic_id=${subtopicId}&difficulty=${diff}&questionFormat=${fmt}`;
-    const res = await fetch(url, { headers: { 'x-user-mobile': state.userMobile } });
+    let res = await fetch(`${API_BASE_URL}/quiz/generate`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-user-mobile': state.userMobile || '9876543210'
+      },
+      body: JSON.stringify({
+        userId: 1,
+        minuteTopicId: subtopicId,
+        count: limit,
+        language: lang,
+        difficulty: diff,
+        questionFormat: fmt
+      })
+    });
+
+    if (!res.ok) {
+      const getUrl = `${API_BASE_URL}/quiz/generate?limit=${limit}&language=${lang}&minute_topic_id=${subtopicId}&difficulty=${diff}&questionFormat=${fmt}`;
+      res = await fetch(getUrl, { headers: { 'x-user-mobile': state.userMobile || '9876543210' } });
+    }
+
     if (!res.ok) throw new Error('Failed to fetch questions');
 
     const data = await res.json();

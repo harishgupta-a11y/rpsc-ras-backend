@@ -527,28 +527,53 @@ async function getYoutubeDetails(rawInput) {
 }
 
 // --- Custom MCQ Quiz Generator Route (Gated, Strict No-Repeat Guard) ---
-app.post('/api/quiz/generate', checkSubscription, async (req, res) => {
-    const { userId, topicIds, minuteTopicId, count, language, difficulty, month, year, questionFormat, subjectId } = req.body;
-    const lang = language || req.headers['x-user-language'] || 'EN';
-    const sId = subjectId || req.body.subject_id || req.query.subjectId || req.query.subject_id || null;
-
-    if (!userId) {
-        return res.status(400).json({ error: "User ID is required." });
+app.all(['/api/quiz/generate', '/quiz/generate'], checkSubscription, async (req, res) => {
+    const payload = req.method === 'GET' ? req.query : (req.body || {});
+    const userId = payload.userId || req.query.userId || req.user?.user_id || 1;
+    let topicIds = payload.topicIds || payload.topic_ids || [];
+    if (typeof topicIds === 'string') {
+        topicIds = topicIds.split(',').map(id => parseInt(id.trim())).filter(id => !isNaN(id));
     }
-
-    const questionCount = parseInt(count) || 10;
-    const diff = difficulty || 'ALL';
-    const m = month ? parseInt(month) : null;
-    const y = year ? parseInt(year) : null;
+    const minuteTopicId = payload.minuteTopicId || payload.minute_topic_id || null;
+    const count = parseInt(payload.count || payload.limit) || 10;
+    const language = payload.language || req.headers['x-user-language'] || 'HI';
+    const difficulty = payload.difficulty || 'ALL';
+    const month = (payload.month || payload.ca_month) ? parseInt(payload.month || payload.ca_month) : null;
+    const year = (payload.year || payload.ca_year) ? parseInt(payload.year || payload.ca_year) : null;
+    const questionFormat = payload.questionFormat || payload.question_format || 'ALL';
+    const sId = payload.subjectId || payload.subject_id || req.query.subjectId || req.query.subject_id || null;
 
     try {
-        console.log(`[Quiz Engine] Compiling ${questionCount} questions. SubjectId: ${sId}, Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${lang}`, `Difficulty: ${diff}`, `Month: ${m}`, `Year: ${y}`);
-        const questions = await db.generateQuiz(userId, topicIds || [], questionCount, lang, minuteTopicId, diff, m, y, questionFormat || 'ALL', sId);
+        console.log(`[Quiz Engine] Compiling ${count} questions. SubjectId: ${sId}, Topics:`, topicIds, `MinuteTopicId: ${minuteTopicId}`, `Language: ${language}`, `Difficulty: ${difficulty}`, `Month: ${month}`, `Year: ${year}`);
+        let questions = await db.generateQuiz(userId, topicIds || [], count, language, minuteTopicId, difficulty, month, year, questionFormat, sId);
+
+        if ((!questions || questions.length === 0) && (minuteTopicId || (topicIds && topicIds.length > 0) || sId)) {
+            console.log(`[Quiz Engine] 0 questions found for selection. Triggering automatic on-demand generation with user prompt...`);
+            try {
+                const autoGen = require('./auto_question_generator');
+                const firstTopic = (topicIds && topicIds.length > 0) ? topicIds[0] : null;
+                const genCount = Math.max(count, 10);
+                const genQuestions = await autoGen.generateAndPersistQuestions(db, {
+                    topicId: firstTopic,
+                    minuteTopicId: minuteTopicId,
+                    subjectId: sId,
+                    language: language,
+                    difficulty: difficulty,
+                    questionFormat: questionFormat,
+                    count: genCount
+                });
+                if (genQuestions && genQuestions.length > 0) {
+                    questions = genQuestions.slice(0, count);
+                }
+            } catch (autoErr) {
+                console.error('[Quiz Engine] Automatic generation fallback error:', autoErr.message);
+            }
+        }
 
         res.status(200).json({
             user_id: userId,
-            question_count: questions.length,
-            questions: questions
+            question_count: (questions || []).length,
+            questions: questions || []
         });
     } catch (err) {
         res.status(500).json({ error: "Failed to generate quiz: " + err.message });
@@ -588,7 +613,19 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
 
         // Fetch questions from DB to grade
         const placeholders = questionIds.map(() => '?').join(',');
-        const dbQuestions = await db.all(`SELECT * FROM questions WHERE question_id IN (${placeholders})`, questionIds);
+        let dbQuestions = await db.all(`SELECT * FROM questions WHERE question_id IN (${placeholders})`, questionIds);
+
+        if (dbQuestions.length < questionIds.length) {
+            const missingIds = questionIds.filter(id => !dbQuestions.some(q => q.question_id === id));
+            if (missingIds.length > 0) {
+                const pyqPlaceholders = missingIds.map(() => '?').join(',');
+                const pyqs = await db.all(
+                    `SELECT pyq_question_id as question_id, * FROM pyq_questions WHERE pyq_question_id IN (${pyqPlaceholders})`,
+                    missingIds
+                );
+                dbQuestions = [...dbQuestions, ...pyqs];
+            }
+        }
 
         // Map database questions by ID for fast lookup in original order
         const dbQuestionsMap = {};
@@ -680,10 +717,16 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
         const correctVal = parseFloat(settings.quizCorrectMarks) || 1.3333;
         const negativeVal = parseFloat(settings.quizNegativeMarks) || 0.4444;
         
-        // Correct answer gets +correctVal, wrong answer and blank OMR get -negativeVal, E gets 0
-        const totalMarks = (correct * correctVal) - (incorrect * negativeVal) - (omrPenalties * negativeVal);
-        const roundedScore = Math.round(totalMarks * 100) / 100;
-        const isDisqualified = omrPenalties > (dbQuestions.length * 0.1);
+        const isPractice = req.body.isPracticeMode === true || 
+                           (req.body.title && (req.body.title.startsWith("Practice:") || req.body.title.startsWith("PYQs:")));
+
+        // Correct answer gets +correctVal, wrong answer gets -negativeVal
+        // For practice mode, blank questions are counted as skipped and do NOT cause disqualification or negative marks
+        const totalMarks = isPractice
+            ? ((correct * correctVal) - (incorrect * negativeVal))
+            : ((correct * correctVal) - (incorrect * negativeVal) - (omrPenalties * negativeVal));
+        const roundedScore = Math.max(0, Math.round(totalMarks * 100) / 100);
+        const isDisqualified = !isPractice && (omrPenalties > (dbQuestions.length * 0.1));
         
         let attemptTitle = req.body.title || "Practice Quiz";
         if (!req.body.title && dbQuestions.length > 0) {
@@ -702,7 +745,7 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             attemptTitle,
             isDisqualified ? 0.00 : roundedScore,
             correct,
-            incorrect + omrPenalties,
+            isPractice ? incorrect : (incorrect + omrPenalties),
             dbQuestions.length,
             timeTakenSeconds
         );
@@ -711,8 +754,8 @@ app.post('/api/quiz/submit', checkSubscription, async (req, res) => {
             total: dbQuestions.length,
             correct: correct,
             incorrect: incorrect,
-            skipped: skipped,
-            omrPenalties: omrPenalties,
+            skipped: isPractice ? (skipped + omrPenalties) : skipped,
+            omrPenalties: isPractice ? 0 : omrPenalties,
             isDisqualified: isDisqualified,
             score: isDisqualified ? 0.00 : roundedScore,
             details: details
@@ -750,6 +793,26 @@ app.post('/api/quiz/challenge/create', async (req, res) => {
 
         if (!questions || questions.length === 0) {
             questions = await db.generateQuiz(null, topicIds || [], questionCount, lang, minuteTopicId, diff, null, null, questionFormat || 'ALL');
+        }
+
+        if ((!questions || questions.length === 0) && (minuteTopicId || (topicIds && topicIds.length > 0))) {
+            try {
+                const autoGen = require('./auto_question_generator');
+                const firstTopic = (topicIds && topicIds.length > 0) ? topicIds[0] : null;
+                const genQuestions = await autoGen.generateAndPersistQuestions(db, {
+                    topicId: firstTopic,
+                    minuteTopicId: minuteTopicId,
+                    language: lang,
+                    difficulty: diff,
+                    questionFormat: questionFormat || 'ALL',
+                    count: Math.max(questionCount, 10)
+                });
+                if (genQuestions && genQuestions.length > 0) {
+                    questions = genQuestions.slice(0, questionCount);
+                }
+            } catch (autoErr) {
+                console.error('[Challenge Engine] On-demand auto-generation error:', autoErr.message);
+            }
         }
 
         if (!questions || questions.length === 0) {
@@ -1057,6 +1120,31 @@ app.get('/api/admin/download-mains-template', async (req, res) => {
         return res.send(buffer);
     } catch (err) {
         return res.status(500).send("Mains template generation failed: " + err.message);
+    }
+});
+
+// --- Admin Route: On-Demand Dynamic Question Generation using Custom Prompts ---
+app.post('/api/admin/generate-questions', async (req, res) => {
+    const { topicId, minuteTopicId, subjectId, language, difficulty, questionFormat, count } = req.body;
+    try {
+        const autoGen = require('./auto_question_generator');
+        const questions = await autoGen.generateAndPersistQuestions(db, {
+            topicId: topicId ? parseInt(topicId) : null,
+            minuteTopicId: minuteTopicId ? parseInt(minuteTopicId) : null,
+            subjectId: subjectId ? parseInt(subjectId) : null,
+            language: language || 'HI',
+            difficulty: difficulty || 'ADVANCED',
+            questionFormat: questionFormat || 'CLASSICAL',
+            count: parseInt(count) || 20
+        });
+        return res.status(200).json({
+            success: true,
+            generated_count: questions.length,
+            questions: questions
+        });
+    } catch (err) {
+        console.error('[Admin] Question generation error:', err);
+        return res.status(500).json({ success: false, error: err.message });
     }
 });
 

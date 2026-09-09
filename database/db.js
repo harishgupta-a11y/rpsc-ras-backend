@@ -2161,6 +2161,16 @@ module.exports = {
                     `, [...topicIds, language, language, ...caParams, ...curParams, needed]);
                     recycledQuestions.push(...relaxedDiffQs);
                 }
+
+                if (recycledQuestions.length === 0 && questions.length === 0) {
+                    recycledQuestions = await all(`
+                        SELECT q.*, t.topic_name FROM questions q
+                        JOIN topics t ON q.topic_id = t.topic_id
+                        WHERE q.topic_id IN (${placeholders})
+                        ORDER BY RANDOM()
+                        LIMIT ?
+                    `, [...topicIds, limit]);
+                }
             } else if (subjectId) {
                 recycledQuestions = await all(`
                     SELECT q.*, t.topic_name FROM questions q
@@ -2558,7 +2568,7 @@ module.exports = {
 
         for (const [subIdStr, targetCount] of Object.entries(targets)) {
             const subId = Number(subIdStr);
-            const subQs = await all(`
+            let subQs = await all(`
                 SELECT q.* FROM questions q
                 JOIN topics t ON q.topic_id = t.topic_id
                 JOIN units u ON t.unit_id = u.unit_id
@@ -2566,6 +2576,20 @@ module.exports = {
                 ORDER BY RANDOM()
                 LIMIT ?
             `, [subId, language, targetCount]);
+
+            if (subQs.length < targetCount) {
+                const subIds = subQs.map(q => q.question_id);
+                const notIn = subIds.length > 0 ? ` AND q.question_id NOT IN (${subIds.map(() => '?').join(',')}) ` : '';
+                const fallbackQs = await all(`
+                    SELECT q.* FROM questions q
+                    JOIN topics t ON q.topic_id = t.topic_id
+                    JOIN units u ON t.unit_id = u.unit_id
+                    WHERE u.subject_id = ? ${notIn}
+                    ORDER BY RANDOM()
+                    LIMIT ?
+                `, [subId, ...subIds, targetCount - subQs.length]);
+                subQs.push(...fallbackQs);
+            }
 
             selectedQuestions.push(...subQs);
             if (subQs.length < targetCount) {
