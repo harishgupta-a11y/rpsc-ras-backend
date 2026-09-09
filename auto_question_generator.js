@@ -12,7 +12,7 @@
 const { GoogleGenAI } = require('@google/genai');
 const path = require('path');
 const fs = require('fs');
-const { buildPrompt } = require('./prompt_builder');
+const { buildPrompt, buildHindiTranslationPrompt } = require('./prompt_builder');
 const { parseGeneratedQuestions } = require('./question_parser');
 
 // Load environment variables for GEMINI_API_KEY
@@ -96,7 +96,7 @@ async function callGemini(prompt) {
     }
 
     const genAI = new GoogleGenAI({ apiKey: key });
-    const models = ['gemini-3.6-flash', 'gemini-3.5-flash'];
+    const models = ['gemini-3.5-flash-lite', 'gemini-3.1-flash-lite', 'gemini-3.7-flash', 'gemini-3.6-flash'];
     let lastError = null;
 
     for (let retry = 0; retry < 3; retry++) {
@@ -229,42 +229,78 @@ async function generateAndPersistQuestions(db, {
         console.warn('[Auto Generator] Error reading existing questions from DB:', readErr.message);
     }
 
-    // 2. Build the tailored prompt including existing questions and strict 60% ceiling
-    const prompt = buildPrompt({
+    // Resolve paired minute topic IDs (one for EN, one for HI)
+    let enMinuteId = targetMinuteTopicId;
+    let hiMinuteId = targetMinuteTopicId;
+    if (targetMinuteTopicId) {
+        try {
+            const currentMt = await db.get('SELECT topic_id, minute_topic_name, language FROM minute_topics WHERE minute_topic_id = ?', [targetMinuteTopicId]);
+            if (currentMt) {
+                if (currentMt.language === 'EN') {
+                    enMinuteId = targetMinuteTopicId;
+                    const hiMt = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = ? AND language = ? LIMIT 1", [currentMt.topic_id, 'HI']);
+                    if (hiMt) hiMinuteId = hiMt.minute_topic_id;
+                } else {
+                    hiMinuteId = targetMinuteTopicId;
+                    const enMt = await db.get("SELECT minute_topic_id FROM minute_topics WHERE topic_id = ? AND language = ? LIMIT 1", [currentMt.topic_id, 'EN']);
+                    if (enMt) enMinuteId = enMt.minute_topic_id;
+                }
+            }
+        } catch (e) {
+            console.warn('[Auto Generator] Error resolving minute topic siblings:', e.message);
+        }
+    }
+
+    // 2. Build the tailored prompt using the user's EXACT prompt template in English
+    const enPrompt = buildPrompt({
         subjectName,
         topicName,
         subtopicName,
         difficulty: difficulty === 'ALL' ? 'ADVANCED' : difficulty,
         format: questionFormat === 'ALL' ? 'CLASSICAL' : questionFormat,
-        language: language || 'HI',
+        language: 'EN',
         count: count || 20,
         existingQuestions
     });
 
-    console.log(`[Auto Generator] Prompt generated (${prompt.length} chars) for: "${subjectName} -> ${topicName}"`);
+    console.log(`[Auto Generator] Prompt generated (${enPrompt.length} chars) for: "${subjectName} -> ${topicName}"`);
 
-    // 3. Call model
-    const rawOutput = await callGemini(prompt);
-    console.log(`[Auto Generator] Received response from model (${rawOutput ? rawOutput.length : 0} chars)`);
+    // 3. Call model to generate English questions
+    const rawEnglishOutput = await callGemini(enPrompt);
+    const parsedEnQuestions = parseGeneratedQuestions(rawEnglishOutput);
+    console.log(`[Auto Generator] Successfully parsed ${parsedEnQuestions.length} English questions.`);
 
-    // 4. Parse questions
-    const parsedQuestions = parseGeneratedQuestions(rawOutput);
-    console.log(`[Auto Generator] Successfully parsed ${parsedQuestions.length} valid questions.`);
+    if (parsedEnQuestions.length === 0) {
+        throw new Error("No valid English questions parsed from model output.");
+    }
 
-    if (parsedQuestions.length === 0) {
-        throw new Error("No valid questions parsed from model output.");
+    // 4. Translate into administrative Hindi using user's exact translation prompt
+    const isFoundation = (difficulty || 'ADVANCED').toUpperCase() === 'FOUNDATION';
+    const hiPrompt = buildHindiTranslationPrompt(rawEnglishOutput, isFoundation);
+    console.log(`[Auto Generator] Translating generated questions into Administrative Hindi...`);
+    let parsedHiQuestions = [];
+    try {
+        const rawHindiOutput = await callGemini(hiPrompt);
+        parsedHiQuestions = parseGeneratedQuestions(rawHindiOutput);
+        console.log(`[Auto Generator] Successfully parsed ${parsedHiQuestions.length} matching Hindi questions.`);
+    } catch (transErr) {
+        console.warn(`[Auto Generator] Hindi translation warning: ${transErr.message}`);
     }
 
     // 5. Algorithmic overlap check: reject any question with >60% overlap against any existing question
-    const approvedQuestions = [];
-    const MAX_ALLOWED_OVERLAP = 0.60; // 60% ceiling
+    const approvedEnQuestions = [];
+    const approvedHiQuestions = [];
+    const MAX_ALLOWED_OVERLAP = 0.60;
 
-    for (const q of parsedQuestions) {
+    for (let i = 0; i < parsedEnQuestions.length; i++) {
+        const enQ = parsedEnQuestions[i];
+        const hiQ = parsedHiQuestions[i] || null;
+
         let maxOverlap = 0;
         let mostSimilarQ = null;
 
         for (const eq of existingQuestions) {
-            const overlap = calculateOverlap(q.question_text, eq.question_text);
+            const overlap = calculateOverlap(enQ.question_text, eq.question_text);
             if (overlap > maxOverlap) {
                 maxOverlap = overlap;
                 mostSimilarQ = eq;
@@ -272,28 +308,31 @@ async function generateAndPersistQuestions(db, {
         }
 
         if (maxOverlap > MAX_ALLOWED_OVERLAP) {
-            console.log(`[Auto Generator] REJECTED question due to >60% overlap (${(maxOverlap * 100).toFixed(1)}%): "${q.question_text.slice(0, 60)}..." (matched: "${mostSimilarQ?.question_text.slice(0, 40)}...")`);
+            console.log(`[Auto Generator] REJECTED question due to >60% overlap (${(maxOverlap * 100).toFixed(1)}%): "${enQ.question_text.slice(0, 60)}..."`);
         } else {
-            approvedQuestions.push({
-                ...q,
-                overlapPercentage: (maxOverlap * 100).toFixed(1)
-            });
+            approvedEnQuestions.push(enQ);
+            if (hiQ) approvedHiQuestions.push(hiQ);
         }
     }
 
-    console.log(`[Auto Generator] ${approvedQuestions.length} of ${parsedQuestions.length} questions passed the strict 60% no-overlap test.`);
+    const enToInsert = approvedEnQuestions.length > 0 ? approvedEnQuestions : parsedEnQuestions;
+    const hiToInsert = approvedHiQuestions.length > 0 ? approvedHiQuestions : parsedHiQuestions;
 
-    // If all questions were somehow rejected, take the least overlapping ones
-    const questionsToInsert = approvedQuestions.length > 0 ? approvedQuestions : parsedQuestions;
-
-    // 6. Persist approved questions into Turso database
+    // 6. Persist paired questions into Turso database (both EN and HI)
     const insertedQuestions = [];
     const diffNorm = (difficulty && difficulty !== 'ALL') ? difficulty.toUpperCase() : 'ADVANCED';
-    const langNorm = (language || 'HI').toUpperCase();
+    const requestedLang = (language || 'EN').toUpperCase();
 
-    for (const q of questionsToInsert) {
+    for (let i = 0; i < enToInsert.length; i++) {
+        const enQ = enToInsert[i];
+        const hiQ = hiToInsert[i] || null;
+
+        let enId = null;
+        let hiId = null;
+
+        // Insert English question
         try {
-            const res = await db.run(`
+            const resEn = await db.run(`
                 INSERT INTO questions (
                     topic_id, minute_topic_id, question_text,
                     option_a, option_b, option_c, option_d,
@@ -301,39 +340,87 @@ async function generateAndPersistQuestions(db, {
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             `, [
                 targetTopicId,
-                targetMinuteTopicId,
-                q.question_text,
-                q.option_a,
-                q.option_b,
-                q.option_c,
-                q.option_d,
-                q.correct_option,
-                q.detailed_explanation,
-                langNorm,
+                enMinuteId,
+                enQ.question_text,
+                enQ.option_a,
+                enQ.option_b,
+                enQ.option_c,
+                enQ.option_d,
+                enQ.correct_option,
+                enQ.detailed_explanation,
+                'EN',
                 diffNorm
             ]);
+            enId = resEn.lastInsertRowid || resEn.lastID;
+        } catch (dbErr) {
+            console.error('[Auto Generator] Error inserting EN question into Turso DB:', dbErr.message);
+        }
 
+        // Insert matched Hindi question with identical correct_option
+        if (hiQ) {
+            try {
+                const resHi = await db.run(`
+                    INSERT INTO questions (
+                        topic_id, minute_topic_id, question_text,
+                        option_a, option_b, option_c, option_d,
+                        correct_option, detailed_explanation, language, difficulty
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                `, [
+                    targetTopicId,
+                    hiMinuteId,
+                    hiQ.question_text,
+                    hiQ.option_a,
+                    hiQ.option_b,
+                    hiQ.option_c,
+                    hiQ.option_d,
+                    enQ.correct_option, // strictly keep same correct option
+                    hiQ.detailed_explanation,
+                    'HI',
+                    diffNorm
+                ]);
+                hiId = resHi.lastInsertRowid || resHi.lastID;
+            } catch (dbErr) {
+                console.error('[Auto Generator] Error inserting HI question into Turso DB:', dbErr.message);
+            }
+        }
+
+        // Add to result list based on requested language
+        if (requestedLang === 'HI' && hiQ) {
             insertedQuestions.push({
-                question_id: res.lastInsertRowid || res.lastID,
+                question_id: hiId,
                 topic_id: targetTopicId,
-                minute_topic_id: targetMinuteTopicId,
+                minute_topic_id: hiMinuteId,
                 topic_name: topicName,
-                question_text: q.question_text,
-                option_a: q.option_a,
-                option_b: q.option_b,
-                option_c: q.option_c,
-                option_d: q.option_d,
-                correct_option: q.correct_option,
-                detailed_explanation: q.detailed_explanation,
-                language: langNorm,
+                question_text: hiQ.question_text,
+                option_a: hiQ.option_a,
+                option_b: hiQ.option_b,
+                option_c: hiQ.option_c,
+                option_d: hiQ.option_d,
+                correct_option: enQ.correct_option,
+                detailed_explanation: hiQ.detailed_explanation,
+                language: 'HI',
                 difficulty: diffNorm
             });
-        } catch (dbErr) {
-            console.error('[Auto Generator] Error inserting question into Turso DB:', dbErr.message);
+        } else {
+            insertedQuestions.push({
+                question_id: enId,
+                topic_id: targetTopicId,
+                minute_topic_id: enMinuteId,
+                topic_name: topicName,
+                question_text: enQ.question_text,
+                option_a: enQ.option_a,
+                option_b: enQ.option_b,
+                option_c: enQ.option_c,
+                option_d: enQ.option_d,
+                correct_option: enQ.correct_option,
+                detailed_explanation: enQ.detailed_explanation,
+                language: 'EN',
+                difficulty: diffNorm
+            });
         }
     }
 
-    console.log(`[Auto Generator] Successfully stored ${insertedQuestions.length} verified non-overlapping questions into Turso DB.`);
+    console.log(`[Auto Generator] Successfully stored ${insertedQuestions.length} paired questions (bilingual EN + HI) into Turso DB.`);
     return insertedQuestions;
 }
 
