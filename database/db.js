@@ -2022,7 +2022,7 @@ module.exports = {
             questions = await all(`
                 SELECT q.*, t.topic_name FROM questions q
                 JOIN topics t ON q.topic_id = t.topic_id
-                WHERE q.minute_topic_id = ?
+                WHERE (q.minute_topic_id = ? OR (q.minute_topic_id IS NULL AND q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)))
                   AND (q.language = ? OR ? = '')
                   ${diffFilter}
                   ${caFilter}
@@ -2030,7 +2030,7 @@ module.exports = {
                   ${userHistoryFilter}
                 ORDER BY RANDOM()
                 LIMIT ?
-            `, [minuteTopicId, language, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
+            `, [minuteTopicId, minuteTopicId, language, language, ...diffParams, ...caParams, ...userHistoryParams, limit]);
         } else if (topicIds && Array.isArray(topicIds) && topicIds.length > 0) {
             const placeholders = topicIds.map(() => '?').join(',');
             questions = await all(`
@@ -2088,7 +2088,7 @@ module.exports = {
                 recycledQuestions = await all(`
                     SELECT q.*, t.topic_name FROM questions q
                     JOIN topics t ON q.topic_id = t.topic_id
-                    WHERE q.minute_topic_id = ?
+                    WHERE (q.minute_topic_id = ? OR (q.minute_topic_id IS NULL AND q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)))
                       AND (q.language = ? OR ? = '')
                       ${diffFilter}
                       ${caFilter}
@@ -2096,7 +2096,7 @@ module.exports = {
                       ${loadedFilter}
                     ORDER BY RANDOM()
                     LIMIT ?
-                `, [minuteTopicId, language, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
+                `, [minuteTopicId, minuteTopicId, language, language, ...diffParams, ...caParams, ...loadedParams, extraLimit]);
 
                 // Tier 2: If still short and a difficulty filter was applied, relax difficulty filter within the same subtopic
                 if (recycledQuestions.length < extraLimit && diffFilter) {
@@ -2107,26 +2107,26 @@ module.exports = {
                     const relaxedDiffQs = await all(`
                         SELECT q.*, t.topic_name FROM questions q
                         JOIN topics t ON q.topic_id = t.topic_id
-                        WHERE q.minute_topic_id = ?
+                        WHERE (q.minute_topic_id = ? OR (q.minute_topic_id IS NULL AND q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)))
                           AND (q.language = ? OR ? = '')
                           ${caFilter}
                           ${formatFilter}
                           ${curFilter}
                         ORDER BY RANDOM()
                         LIMIT ?
-                    `, [minuteTopicId, language, language, ...caParams, ...curParams, needed]);
+                    `, [minuteTopicId, minuteTopicId, language, language, ...caParams, ...curParams, needed]);
                     recycledQuestions.push(...relaxedDiffQs);
                 }
 
-                // Tier 3: If still 0 questions found for this subtopic, guarantee questions from this exact subtopic
+                // Tier 3: If still 0 questions found for this subtopic, guarantee questions from this exact subtopic or topic
                 if (recycledQuestions.length === 0 && questions.length === 0) {
                     recycledQuestions = await all(`
                         SELECT q.*, t.topic_name FROM questions q
                         JOIN topics t ON q.topic_id = t.topic_id
-                        WHERE q.minute_topic_id = ?
+                        WHERE (q.minute_topic_id = ? OR (q.minute_topic_id IS NULL AND q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)))
                         ORDER BY RANDOM()
                         LIMIT ?
-                    `, [minuteTopicId, limit]);
+                    `, [minuteTopicId, minuteTopicId, limit]);
                 }
             } else if (topicIds && Array.isArray(topicIds) && topicIds.length > 0) {
                 const placeholders = topicIds.map(() => '?').join(',');
@@ -2336,14 +2336,26 @@ module.exports = {
                    (uqh.question_id IS NOT NULL) as is_attempted
             FROM questions q
             LEFT JOIN user_quiz_history uqh ON q.question_id = uqh.question_id AND uqh.user_id = ?
-            WHERE q.minute_topic_id = ?
+            WHERE (q.minute_topic_id = ? OR (q.minute_topic_id IS NULL AND q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)))
         `;
-        const params = [userId || -1, minuteTopicId];
+        const params = [userId || -1, minuteTopicId, minuteTopicId];
         if (difficulty && difficulty !== 'ALL') {
             sql += ` AND q.difficulty = ?`;
             params.push(difficulty);
         }
-        const questions = await all(sql, params);
+        let questions = await all(sql, params);
+
+        // Fallback: If 0 questions found for this specific difficulty, relax difficulty filter so user is not blocked
+        if (questions.length === 0 && difficulty && difficulty !== 'ALL') {
+            const relaxedSql = `
+                SELECT q.question_id, q.question_text, q.option_a, q.option_b,
+                       (uqh.question_id IS NOT NULL) as is_attempted
+                FROM questions q
+                LEFT JOIN user_quiz_history uqh ON q.question_id = uqh.question_id AND uqh.user_id = ?
+                WHERE (q.minute_topic_id = ? OR (q.minute_topic_id IS NULL AND q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)))
+            `;
+            questions = await all(relaxedSql, [userId || -1, minuteTopicId, minuteTopicId]);
+        }
         
         let arTotal = 0, arAttempted = 0;
         let matchTotal = 0, matchAttempted = 0;
