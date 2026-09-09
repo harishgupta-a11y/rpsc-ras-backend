@@ -106,6 +106,58 @@ app.get('/api', (req, res) => {
     res.status(200).json({ status: "online", message: "RPSC RAS Backend API Gateway is running." });
 });
 
+// Admin generation status API for live progress tracking
+app.get('/api/admin/generation-status', async (req, res) => {
+    try {
+        const totalRows = await db.all(`SELECT count(*) as count, language FROM questions GROUP BY language`);
+        const diffRows = await db.all(`SELECT count(*) as count, difficulty FROM questions GROUP BY difficulty`);
+        const subjectRows = await db.all(`
+            SELECT s.subject_id, s.subject_name,
+                   count(q.question_id) as total_questions,
+                   sum(CASE WHEN q.language = 'EN' THEN 1 ELSE 0 END) as en_count,
+                   sum(CASE WHEN q.language = 'HI' THEN 1 ELSE 0 END) as hi_count
+            FROM subjects s
+            LEFT JOIN units u ON s.subject_id = u.subject_id
+            LEFT JOIN topics t ON u.unit_id = t.unit_id
+            LEFT JOIN questions q ON t.topic_id = q.topic_id
+            GROUP BY s.subject_id, s.subject_name
+            ORDER BY s.subject_id
+        `);
+        const topicRows = await db.all(`
+            SELECT t.topic_id, t.topic_name, u.subject_id,
+                   count(q.question_id) as total_questions,
+                   sum(CASE WHEN q.language = 'EN' THEN 1 ELSE 0 END) as en_count,
+                   sum(CASE WHEN q.language = 'HI' THEN 1 ELSE 0 END) as hi_count
+            FROM topics t
+            JOIN units u ON t.unit_id = u.unit_id
+            LEFT JOIN questions q ON t.topic_id = q.topic_id
+            GROUP BY t.topic_id, t.topic_name, u.subject_id
+            ORDER BY u.subject_id, t.topic_id
+        `);
+
+        let workerStatus = null;
+        const statusPath = path.join(__dirname, 'public', 'generation_status.json');
+        if (fs.existsSync(statusPath)) {
+            try {
+                workerStatus = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
+            } catch (e) {}
+        }
+
+        res.status(200).json({
+            status: "success",
+            timestamp: new Date().toISOString(),
+            totals: totalRows,
+            difficulties: diffRows,
+            subjects: subjectRows,
+            topics: topicRows,
+            worker: workerStatus
+        });
+    } catch (err) {
+        console.error("Error fetching generation status:", err.message);
+        res.status(500).json({ error: err.message });
+    }
+});
+
 // Set up Multer for Admin file uploads (in-memory buffer storage with 50MB limit)
 const storage = multer.memoryStorage();
 const upload = multer({ 

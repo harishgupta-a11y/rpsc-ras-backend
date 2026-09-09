@@ -2118,33 +2118,59 @@ module.exports = {
                     recycledQuestions.push(...relaxedDiffQs);
                 }
 
-                // Tier 3: If still short, relax language filter across parent topic
+                // Tier 3: Relax format filter while strictly PRESERVING language
                 if (recycledQuestions.length < extraLimit) {
                     const currentIds = [...loadedIds, ...recycledQuestions.map(q => q.question_id)];
                     const curFilter = currentIds.length > 0 ? ` AND q.question_id NOT IN (${currentIds.map(() => '?').join(',')}) ` : "";
                     const curParams = currentIds.length > 0 ? currentIds : [];
                     const needed = extraLimit - recycledQuestions.length;
-                    const relaxedLangQs = await all(`
+                    const relaxedFormatQs = await all(`
                         SELECT q.*, t.topic_name FROM questions q
                         JOIN topics t ON q.topic_id = t.topic_id
                         WHERE (q.minute_topic_id = ? OR q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?))
+                          AND (q.language = ? OR ? = '')
                           ${caFilter}
                           ${curFilter}
                         ORDER BY RANDOM()
                         LIMIT ?
-                    `, [minuteTopicId, minuteTopicId, ...caParams, ...curParams, needed]);
-                    recycledQuestions.push(...relaxedLangQs);
+                    `, [minuteTopicId, minuteTopicId, language, language, ...caParams, ...curParams, needed]);
+                    recycledQuestions.push(...relaxedFormatQs);
                 }
 
-                // Tier 4: Guarantee questions from parent topic if total is still 0
+                // Tier 4: Guarantee questions from parent topic in matching language, or trigger on-demand generation
                 if (recycledQuestions.length === 0 && questions.length === 0) {
                     recycledQuestions = await all(`
                         SELECT q.*, t.topic_name FROM questions q
                         JOIN topics t ON q.topic_id = t.topic_id
                         WHERE q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)
+                          AND (q.language = ? OR ? = '')
                         ORDER BY RANDOM()
                         LIMIT ?
-                    `, [minuteTopicId, limit]);
+                    `, [minuteTopicId, language, language, limit]);
+
+                    // If still 0 questions in requested language, generate on demand in that exact language
+                    if (recycledQuestions.length === 0) {
+                        try {
+                            const mt = await get("SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?", [minuteTopicId]);
+                            if (mt && mt.topic_id) {
+                                console.log(`[Quiz Engine] 0 questions in ${language} for Topic ${mt.topic_id}. Triggering on-demand generation...`);
+                                const { generateAndPersistQuestions } = require('../auto_question_generator');
+                                const onDemand = await generateAndPersistQuestions(module.exports, {
+                                    topicId: mt.topic_id,
+                                    minuteTopicId: minuteTopicId,
+                                    language: language,
+                                    difficulty: difficulty && difficulty !== 'ALL' ? difficulty : 'FOUNDATION',
+                                    questionFormat: questionFormat && questionFormat !== 'ALL' ? questionFormat : 'CLASSICAL',
+                                    count: limit
+                                });
+                                if (onDemand && onDemand.length > 0) {
+                                    recycledQuestions.push(...onDemand);
+                                }
+                            }
+                        } catch (genErr) {
+                            console.error("[Quiz Engine] On-demand generation failed:", genErr.message);
+                        }
+                    }
                 }
             } else if (topicIds && Array.isArray(topicIds) && topicIds.length > 0) {
                 const placeholders = topicIds.map(() => '?').join(',');
@@ -2185,9 +2211,10 @@ module.exports = {
                         SELECT q.*, t.topic_name FROM questions q
                         JOIN topics t ON q.topic_id = t.topic_id
                         WHERE q.topic_id IN (${placeholders})
+                          AND (q.language = ? OR ? = '')
                         ORDER BY RANDOM()
                         LIMIT ?
-                    `, [...topicIds, limit]);
+                    `, [...topicIds, language, language, limit]);
                 }
             } else if (subjectId) {
                 recycledQuestions = await all(`
@@ -2349,57 +2376,62 @@ module.exports = {
         `, [m, m, y, y, userId, m, m, y, y, topicId, language]);
     },
     getFormatStatsBySubtopic: async (minuteTopicId, difficulty = 'ALL', userId = null) => {
-        // Step 1: Query exact minute_topic_id with requested difficulty
+        // Resolve subtopic language and parent topic_id
+        const subtopic = await get("SELECT topic_id, language FROM minute_topics WHERE minute_topic_id = ?", [minuteTopicId]);
+        const targetLang = subtopic ? subtopic.language : 'EN';
+        const parentTopicId = subtopic ? subtopic.topic_id : null;
+
+        // Step 1: Query exact minute_topic_id with matching language
         let sql = `
             SELECT q.question_id, q.question_text, q.option_a, q.option_b,
                    (uqh.question_id IS NOT NULL) as is_attempted
             FROM questions q
             LEFT JOIN user_quiz_history uqh ON q.question_id = uqh.question_id AND uqh.user_id = ?
-            WHERE q.minute_topic_id = ?
+            WHERE q.minute_topic_id = ? AND (q.language = ? OR ? = '')
         `;
-        const params = [userId || -1, minuteTopicId];
+        const params = [userId || -1, minuteTopicId, targetLang, targetLang];
         if (difficulty && difficulty !== 'ALL') {
             sql += ` AND q.difficulty = ?`;
             params.push(difficulty);
         }
         let questions = await all(sql, params);
 
-        // Step 2: Fallback - Relax difficulty on this exact subtopic
+        // Step 2: Fallback - Relax difficulty on this exact subtopic while PRESERVING language
         if (questions.length === 0 && difficulty && difficulty !== 'ALL') {
             questions = await all(`
                 SELECT q.question_id, q.question_text, q.option_a, q.option_b,
                        (uqh.question_id IS NOT NULL) as is_attempted
                 FROM questions q
                 LEFT JOIN user_quiz_history uqh ON q.question_id = uqh.question_id AND uqh.user_id = ?
-                WHERE q.minute_topic_id = ?
-            `, [userId || -1, minuteTopicId]);
+                WHERE q.minute_topic_id = ? AND (q.language = ? OR ? = '')
+            `, [userId || -1, minuteTopicId, targetLang, targetLang]);
         }
 
-        // Step 3: Fallback - If 0 questions (e.g. subtopic is sibling or in another language), query entire parent topic
-        if (questions.length === 0) {
+        // Step 3: Fallback - If 0 questions, query entire parent topic strictly in this language
+        if (questions.length === 0 && parentTopicId) {
             let topicSql = `
                 SELECT q.question_id, q.question_text, q.option_a, q.option_b,
                        (uqh.question_id IS NOT NULL) as is_attempted
                 FROM questions q
                 LEFT JOIN user_quiz_history uqh ON q.question_id = uqh.question_id AND uqh.user_id = ?
-                WHERE q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)
+                WHERE q.topic_id = ? AND (q.language = ? OR ? = '')
             `;
-            const topicParams = [userId || -1, minuteTopicId];
+            const topicParams = [userId || -1, parentTopicId, targetLang, targetLang];
             if (difficulty && difficulty !== 'ALL') {
                 topicSql += ` AND q.difficulty = ?`;
                 topicParams.push(difficulty);
             }
             questions = await all(topicSql, topicParams);
 
-            // Step 4: If parent topic with difficulty is empty, relax difficulty across parent topic
+            // Step 4: If parent topic with difficulty is empty, relax difficulty on parent topic while PRESERVING language
             if (questions.length === 0 && difficulty && difficulty !== 'ALL') {
                 questions = await all(`
                     SELECT q.question_id, q.question_text, q.option_a, q.option_b,
                            (uqh.question_id IS NOT NULL) as is_attempted
                     FROM questions q
                     LEFT JOIN user_quiz_history uqh ON q.question_id = uqh.question_id AND uqh.user_id = ?
-                    WHERE q.topic_id = (SELECT topic_id FROM minute_topics WHERE minute_topic_id = ?)
-                `, [userId || -1, minuteTopicId]);
+                    WHERE q.topic_id = ? AND (q.language = ? OR ? = '')
+                `, [userId || -1, parentTopicId, targetLang, targetLang]);
             }
         }
         

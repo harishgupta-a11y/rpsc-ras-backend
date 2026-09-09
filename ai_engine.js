@@ -1,5 +1,18 @@
 // RPSC RAS Exam Prep - Google Gemini AI Pipeline Integration
 const { GoogleGenAI } = require('@google/genai');
+const path = require('path');
+const fs = require('fs');
+
+const envPath = path.join(__dirname, '.env');
+if (fs.existsSync(envPath)) {
+    const env = fs.readFileSync(envPath, 'utf8');
+    env.split('\n').forEach(line => {
+        const parts = line.split('=');
+        if (parts.length >= 2 && !process.env[parts[0].trim()]) {
+            process.env[parts[0].trim()] = parts.slice(1).join('=').trim();
+        }
+    });
+}
 
 // Initialize Gemini API Client
 // Note: In production, ensure GEMINI_API_KEY is configured in your environment variables.

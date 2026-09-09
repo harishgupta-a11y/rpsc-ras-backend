@@ -22,8 +22,8 @@ const path = require('path');
 const db = require('./database/db');
 const { generateAndPersistQuestions } = require('./auto_question_generator');
 
-const STATUS_FILE = path.join(__dirname, '..', '..', 'brain', 'f5f193c2-d358-455c-81a2-e70244869f98', 'scratch', 'live_generation_status.json');
-const LOG_FILE = path.join(__dirname, '..', '..', 'brain', 'f5f193c2-d358-455c-81a2-e70244869f98', 'scratch', 'generation_log.txt');
+const STATUS_FILE = path.join(__dirname, 'public', 'generation_status.json');
+const LOG_FILE = path.join(__dirname, 'generation_log.txt');
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -76,66 +76,69 @@ async function runContinuousWorker() {
         const topic = topics[tIdx];
         appendLog(`\n>>> Processing Topic ${topic.topic_id} (${tIdx + 1}/${topics.length}): "${topic.topic_name}" [Subject: ${topic.subject_name}]`);
 
-        for (const format of FORMATS) {
-            appendLog(`Generating 20 ${format} questions for Topic ${topic.topic_id} ("${topic.topic_name}")...`);
+        for (const lang of ['HI', 'EN']) {
+            for (const format of FORMATS) {
+                appendLog(`Generating 20 ${format} (${lang}) questions for Topic ${topic.topic_id} ("${topic.topic_name}")...`);
 
-            let attempts = 0;
-            let success = false;
+                let attempts = 0;
+                let success = false;
 
-            while (attempts < 3 && !success) {
-                attempts++;
-                try {
-                    const inserted = await generateAndPersistQuestions(db, {
-                        topicId: topic.topic_id,
-                        language: 'HI', // Primary official medium for RPSC
-                        difficulty: 'ADVANCED',
-                        questionFormat: format,
-                        count: 20
-                    });
-
-                    if (inserted && inserted.length > 0) {
-                        totalGeneratedThisRun += inserted.length;
-                        success = true;
-
-                        // Query current topic total and overall DB total
-                        const tCountRes = await db.all('SELECT count(*) as cnt FROM questions WHERE topic_id = ?', [topic.topic_id]);
-                        const dbTotalRes = await db.all('SELECT count(*) as total FROM questions');
-                        const topicTotal = tCountRes?.[0]?.cnt || 0;
-                        const dbTotal = dbTotalRes?.[0]?.total || 0;
-
-                        const message = `COMPLETED: Topic ${topic.topic_id} ("${topic.topic_name}") | Format: ${format} | Added: ${inserted.length} questions | Topic Total: ${topicTotal} | Total in DB: ${dbTotal}`;
-                        appendLog(message);
-
-                        updateLiveStatus({
-                            last_updated: new Date().toISOString(),
-                            status: 'RUNNING',
-                            current_topic_id: topic.topic_id,
-                            current_topic_name: topic.topic_name,
-                            subject_name: topic.subject_name,
-                            last_format_completed: format,
-                            questions_added_last_batch: inserted.length,
-                            total_generated_this_session: totalGeneratedThisRun,
-                            current_topic_question_count: topicTotal,
-                            database_total_questions: dbTotal,
-                            last_message: message
+                while (attempts < 3 && !success) {
+                    attempts++;
+                    try {
+                        const inserted = await generateAndPersistQuestions(db, {
+                            topicId: topic.topic_id,
+                            language: lang,
+                            difficulty: (format === 'CLASSICAL' ? 'FOUNDATION' : 'ADVANCED'),
+                            questionFormat: format,
+                            count: 20
                         });
-                    } else {
-                        appendLog(`WARNING: 0 questions returned for ${format} on Topic ${topic.topic_id}. Retrying...`);
-                    }
-                } catch (err) {
-                    appendLog(`ERROR on Topic ${topic.topic_id} (${format}, attempt ${attempts}): ${err.message}`);
-                    if (err.message && (err.message.includes('429') || err.message.includes('quota'))) {
-                        appendLog('Rate limit encountered. Cooling down for 15 seconds...');
-                        await sleep(15000);
-                    } else {
-                        await sleep(5000);
+
+                        if (inserted && inserted.length > 0) {
+                            totalGeneratedThisRun += inserted.length;
+                            success = true;
+
+                            // Query current topic total and overall DB total
+                            const tCountRes = await db.all('SELECT count(*) as cnt FROM questions WHERE topic_id = ?', [topic.topic_id]);
+                            const dbTotalRes = await db.all('SELECT count(*) as total FROM questions');
+                            const topicTotal = tCountRes?.[0]?.cnt || 0;
+                            const dbTotal = dbTotalRes?.[0]?.total || 0;
+
+                            const message = `COMPLETED: Topic ${topic.topic_id} ("${topic.topic_name}") | Format: ${format} | Lang: ${lang} | Added: ${inserted.length} questions | Topic Total: ${topicTotal} | Total in DB: ${dbTotal}`;
+                            appendLog(message);
+
+                            updateLiveStatus({
+                                last_updated: new Date().toISOString(),
+                                status: 'RUNNING',
+                                current_topic_id: topic.topic_id,
+                                current_topic_name: topic.topic_name,
+                                subject_name: topic.subject_name,
+                                last_format_completed: `${format} (${lang})`,
+                                language: lang,
+                                questions_added_last_batch: inserted.length,
+                                total_generated_this_session: totalGeneratedThisRun,
+                                current_topic_question_count: topicTotal,
+                                database_total_questions: dbTotal,
+                                last_message: message
+                            });
+                        } else {
+                            appendLog(`WARNING: 0 questions returned for ${format} (${lang}) on Topic ${topic.topic_id}. Retrying...`);
+                        }
+                    } catch (err) {
+                        appendLog(`ERROR on Topic ${topic.topic_id} (${format} ${lang}, attempt ${attempts}): ${err.message}`);
+                        if (err.message && (err.message.includes('429') || err.message.includes('quota'))) {
+                            appendLog('Rate limit encountered. Cooling down for 15 seconds...');
+                            await sleep(15000);
+                        } else {
+                            await sleep(5000);
+                        }
                     }
                 }
-            }
 
-            // Respect Gemini RPM limit (15 requests/minute -> 4-5 seconds sleep)
-            appendLog('Cooling down for 4.5 seconds to respect rate limits...');
-            await sleep(4500);
+                // Respect RPM limit (4.5s cooling)
+                appendLog('Cooling down for 4.5 seconds to respect rate limits...');
+                await sleep(4500);
+            }
         }
     }
 
