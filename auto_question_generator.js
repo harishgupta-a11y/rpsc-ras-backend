@@ -96,7 +96,7 @@ async function callGemini(prompt) {
     }
 
     const genAI = new GoogleGenAI({ apiKey: key });
-    const models = ['gemini-3.5-flash', 'gemini-3.6-flash'];
+    const models = ['gemini-3.6-flash', 'gemini-3.5-flash'];
     let lastError = null;
 
     for (const modelName of models) {
