@@ -99,23 +99,29 @@ async function callGemini(prompt) {
     const models = ['gemini-3.6-flash', 'gemini-3.5-flash'];
     let lastError = null;
 
-    for (const modelName of models) {
-        try {
-            console.log(`[Auto Generator] Generating questions with ${modelName}...`);
-            const response = await genAI.models.generateContent({
-                model: modelName,
-                contents: prompt
-            });
+    for (let retry = 0; retry < 3; retry++) {
+        for (const modelName of models) {
+            try {
+                console.log(`[Auto Generator] Generating questions with ${modelName} (attempt ${retry + 1})...`);
+                const response = await genAI.models.generateContent({
+                    model: modelName,
+                    contents: prompt
+                });
 
-            if (response && response.text) {
-                return response.text;
+                if (response && response.text) {
+                    return response.text;
+                }
+            } catch (err) {
+                console.warn(`[Auto Generator] Model ${modelName} returned error:`, err.message);
+                lastError = err;
+                if (err.message && err.message.includes('429')) {
+                    rotateKey();
+                }
             }
-        } catch (err) {
-            console.warn(`[Auto Generator] Model ${modelName} returned error:`, err.message);
-            lastError = err;
-            if (err.message && err.message.includes('429')) {
-                rotateKey();
-            }
+        }
+        if (retry < 2) {
+            console.log(`[Auto Generator] Transient error encountered. Cooling down for 5 seconds before retry...`);
+            await new Promise(r => setTimeout(r, 5000));
         }
     }
 
